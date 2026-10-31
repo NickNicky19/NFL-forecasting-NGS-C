@@ -4,6 +4,11 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'Optional retained C commit/tag for a checked recovery deployment'
+        required: false
+        default: ''
 permissions:
   contents: read
 concurrency:
@@ -15,6 +20,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref || github.sha }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -40,10 +47,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref || github.sha }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true
-      - run: python src/site_stamp_v2.py --commit "$GITHUB_SHA"
+      - run: python src/site_stamp_v2.py --commit "$(git rev-parse HEAD)"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs

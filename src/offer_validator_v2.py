@@ -16,6 +16,11 @@ def validate(payload):
     if k not in o or o[k] is None:raise ValueError('missing '+k)
    if o['category'] not in CATEGORIES:raise ValueError('unknown category')
    if o['lifecycle']!='OPEN':raise ValueError('offer not OPEN; suspended sides cannot be accepted')
+   sides=o['offered_sides']
+   allowed={'YES'} if o['category']=='anytime_td' else {'OVER','UNDER'}
+   if not isinstance(sides,list) or not sides or any(not isinstance(s,str) or s not in allowed for s in sides) or len(set(sides))!=len(sides):raise ValueError('offered_sides must be a nonempty unique list of actual side enums')
+   side_states=o.get('side_states')
+   if side_states is not None and (not isinstance(side_states,dict) or set(side_states)!=set(sides) or any(v!='OPEN' for v in side_states.values())):raise ValueError('per-side lifecycle unresolved, suspended or conflicting')
    if not isinstance(o['line'],(int,float)) or isinstance(o['line'],bool) or not math.isfinite(o['line']):raise ValueError('invalid line')
    if o['category']=='fpts' and o.get('scoring_contract_id')!='nick-chart-ppr-v1':raise ValueError('fantasy contract mismatch')
    if o['category']=='anytime_td' and any(x not in ['YES'] for x in o['offered_sides']):raise ValueError('NO/Under side lacks separate qualified contract')

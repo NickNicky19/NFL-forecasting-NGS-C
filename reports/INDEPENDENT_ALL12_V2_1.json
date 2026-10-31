@@ -1,9 +1,50 @@
 {
- "id":"C-ALL12-INDEPENDENT-v2.1",
- "verifier":"separate read-only agent; no edits or fits",
- "completed_slots":1176,"learned_models":1060,"fallback_slots":116,"forecast_views":244776,"gradable_forecast_views":228494,
- "checks":{"84target_week_masks_across14configs":"PASS","252target_history_week_training_hashes_counts":"PASS","samearm_P2_P3_feature_equality":"PASS","component_feature_prefixes":"PASS","all_model_row_hashes_against_DONE":"PASS","independently_reconstructed_actuals_chart_anytime":"0_MISMATCHES","finite_probability_range_and_grid_monotonicity":"PASS","offgrid_pushzero":"PASS","count_support":"PASS","all168ALL_score_groups":"RECONCILED_MAX_DIFF_2.27e-13","target_future_workload_outcome_feature_and_inference_invariance":"BIT_EXACT","P2_BASE_OP_and_P3_HGB_sample_inference":"BIT_EXACT","GitHub_inputs_C0_pilot_restoration":"EXACT"},
- "numerical_corrections":{"fantasy_float_lattice_issue":"Detected before any fantasy fit; new coordinate version","tail_logPMF_cancellation":"Corrected analytically; forecast values unchanged","old147score_overlays_max_difference":1.9718e-13,"fullwave_true_strict_CURRENT_W1_infinite_NLL_views":2792,"learned_infinite_NLL_views":0},
- "coherence_limitation":{"P2_matched_completion_attempt_pairs":1936,"mean_violations":0,"median_violations":1,"lower_interval_violations":76,"shared_threshold_P3_HGB_dominance_violations":21,"shared_threshold_P3_LOGIT_dominance_violations":2,"shared_threshold_pairs_per_direct_family":726,"interpretation":"Proper individual marginals; not a validated joint passing/team-allocation law. No posthoc capping or qualified dependency estimate."},
- "scope_limits":["Synthetic thresholds are not real sportsbook offers","Anytime event probability does not create a NO/Underoffer","Chart has partial rare-zero source qualification, not unconditional rare-tail validation","No A/B exact player-row reproduction","Website rendered/served parity separate receipt"]
+  "id": "C-ALL12-INDEPENDENT-v2.1",
+  "verifier": "separate read-only agent; no edits or fits",
+  "completed_slots": 1176,
+  "learned_models": 1060,
+  "fallback_slots": 116,
+  "forecast_views": 244776,
+  "gradable_forecast_views": 228494,
+  "checks": {
+    "84target_week_masks_across14configs": "PASS",
+    "252target_history_week_training_hashes_counts": "PASS",
+    "samearm_P2_P3_feature_equality": "PASS",
+    "component_feature_prefixes": "PASS",
+    "all_model_row_hashes_against_DONE": "PASS",
+    "independently_reconstructed_actuals_chart_anytime": "0_MISMATCHES",
+    "finite_probability_range_and_grid_monotonicity": "PASS",
+    "offgrid_pushzero": "PASS",
+    "count_support": "PASS",
+    "all168ALL_score_groups": "RECONCILED_MAX_DIFF_2.27e-13",
+    "target_future_workload_outcome_feature_and_inference_invariance": "BIT_EXACT",
+    "P2_BASE_OP_and_P3_HGB_sample_inference": "BIT_EXACT",
+    "GitHub_inputs_C0_pilot_restoration": "EXACT",
+    "all6356_role_week_startup_primary_score_groups": "RECONCILED_MAX_DIFF_3.64e-12",
+    "independent_local_DOM_all12_parity": "PASS;1365desktop390mobile,all6views;HTTP503/checksumfailclosed;UTCChicagoDST;nofits;servedcheckseparate"
+  },
+  "numerical_corrections": {
+    "fantasy_float_lattice_issue": "Detected before any fantasy fit; new coordinate version",
+    "tail_logPMF_cancellation": "Corrected analytically; forecast values unchanged",
+    "old147score_overlays_max_difference": 1.9718e-13,
+    "fullwave_true_strict_CURRENT_W1_infinite_NLL_views": 2792,
+    "learned_infinite_NLL_views": 0
+  },
+  "coherence_limitation": {
+    "P2_matched_completion_attempt_pairs": 1936,
+    "mean_violations": 0,
+    "median_violations": 1,
+    "lower_interval_violations": 76,
+    "shared_threshold_P3_HGB_dominance_violations": 21,
+    "shared_threshold_P3_LOGIT_dominance_violations": 2,
+    "shared_threshold_pairs_per_direct_family": 726,
+    "interpretation": "Proper individual marginals; not a validated joint passing/team-allocation law. No posthoc capping or qualified dependency estimate."
+  },
+  "scope_limits": [
+    "Synthetic thresholds are not real sportsbook offers",
+    "Anytime event probability does not create a NO/Underoffer",
+    "Chart has partial rare-zero source qualification, not unconditional rare-tail validation",
+    "No A/B exact player-row reproduction",
+    "Website rendered/served parity separate receipt"
+  ]
 }

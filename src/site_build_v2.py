@@ -21,7 +21,7 @@ def build(run,docs,report):
   index.append({k:r[k] for k in ['target','history','family','week','version']}|dict(file=name,rows=len(out),sha256=hashlib.sha256((data/name).read_bytes()).hexdigest()));total+=len(out)
  scores=pd.read_csv(report/'SCORES.csv') if (report/'SCORES.csv').exists() else pd.DataFrame()
  summary=scores.replace([float('inf'),-float('inf')],['Infinity','-Infinity']).astype(object).where(pd.notna(scores),None).to_dict('records') if len(scores) else []
- manifest=dict(schema='C-RESEARCH-SITE-v2',categories=[dict(id=k,label=v[0],contract='nick-chart-ppr-v1' if k=='fpts' else 'rush-or-rec-at-least-one-v1' if k=='anytime_td' else 'official-player-fullgame-OT-v1',grid=None) for k,v in CATEGORIES.items()],files=index,source_as_of_UTC='2026-10-31T19:16:00Z',evaluation='2026 REG Weeks 1–7',live_offers_available=False,actionable_rankings=False,retention='GitHub facts and C-authored non-NGS evidence; offers/NGS held',summary=summary,site_forecast_views=total)
+ manifest=dict(schema='C-RESEARCH-SITE-v2',categories=[dict(id=k,label=v[0],contract='nick-chart-ppr-v1' if k=='fpts' else 'rush-or-rec-at-least-one-v1' if k=='anytime_td' else 'official-player-fullgame-OT-v1',grid=None) for k,v in CATEGORIES.items()],files=index,source_as_of_UTC=None,source_snapshot_observed_UTC=max(x['retrieval_completion_from_local_mtime_UTC'] for x in json.load(open('reports/SOURCE_MANIFEST.json')) if x['source'].startswith('stats_player_week_')),source_clock_type='observed original local download completion; historical publication/update unknown',evaluation='2026 REG Weeks 1–7',live_offers_available=False,actionable_rankings=False,retention='GitHub facts and C-authored non-NGS evidence; offers/NGS held',summary=summary,site_forecast_views=total)
  lead=report/'LEADERS.csv'
  if lead.exists():
   df=pd.read_csv(lead);manifest['leaders']=df.astype(object).where(pd.notna(df),None).to_dict('records')
@@ -33,7 +33,7 @@ def build(run,docs,report):
  manifest['six_leg_sha256']=hashlib.sha256((data/'six-leg.json').read_bytes()).hexdigest()
  if (data/'calibration.json').exists():manifest['calibration_sha256']=hashlib.sha256((data/'calibration.json').read_bytes()).hexdigest()
  (data/'manifest.json').write_text(json.dumps(manifest,separators=(',',':'),allow_nan=False))
- (docs/'build.json').write_text(json.dumps(dict(built_at_UTC=datetime.now(timezone.utc).isoformat(),served_commit='LOCAL_PREPARED_NOT_DEPLOYED',asset_release_id=hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest(),data_as_of_UTC=manifest['source_as_of_UTC'],model_version='C-ALL12-LAW-THRESHOLD-v2.1; exact per-row version shown',status='HISTORICAL_RECONSTRUCTION_NOT_LIVE'),indent=2))
+ (docs/'build.json').write_text(json.dumps(dict(built_at_UTC=datetime.now(timezone.utc).isoformat(),served_commit='LOCAL_PREPARED_NOT_DEPLOYED',asset_release_id=hashlib.sha256((data/'manifest.json').read_bytes()).hexdigest(),data_as_of_UTC=manifest['source_as_of_UTC'],source_snapshot_observed_UTC=manifest['source_snapshot_observed_UTC'],model_version='C-ALL12-LAW-THRESHOLD-v2.1; exact per-row version shown',status='HISTORICAL_RECONSTRUCTION_NOT_LIVE'),indent=2))
 if __name__=='__main__':
  import argparse
  p=argparse.ArgumentParser();p.add_argument('--run',type=Path,required=True);p.add_argument('--docs',type=Path,default=Path('docs'));p.add_argument('--report',type=Path,default=Path('reports/all12-v2.1'));a=p.parse_args();build(a.run,a.docs,a.report)
