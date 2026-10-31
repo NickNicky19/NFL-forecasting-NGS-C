@@ -1,5 +1,5 @@
-# NFL forecasting NGS Session C
+# Session C NFL research
 
-The bounded five-category numerical study is complete. Targeted NGS values did not establish a persistent gain beyond historical support/opportunity information. Probability, offered selections and exact A/B superiority remain unestablished.
+All twelve categories, typed outcome laws, direct threshold models and transparent evidence gaps.
 
-Read [START_HERE.md](START_HERE.md) and the [executed category report](reports/complete-v1/README.md). No production changes or wagers.
+Read [START_HERE](START_HERE.md) and the [executed all-twelve report](reports/all12-v2.1/README.md). The independent GitHub Pages site is configured by the C-only workflow; actual served state is verified separately. No wagering or changes to A/B/original production.

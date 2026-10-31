@@ -25,7 +25,12 @@ class Prior:
   q=self.q
   if self.kind=='count':return 0. if k<0 else 1-q**(k+1)
   d=k-self.center;return 1-q**(d+1)/(1+q) if d>=0 else q**(-d)/(1+q)
- def pmf(self,k):return max(0.,self.cdf(k)-self.cdf(k-1))
+ def logpmf(self,k):
+  if self.kind=='event':return math.log(self.event if k==1 else 1-self.event) if k in [0,1] else -math.inf
+  if self.empty:return 0. if k==0 else -math.inf
+  if self.kind=='count':return math.log1p(-self.q)+k*math.log(self.q) if k>=0 else -math.inf
+  return math.log1p(-self.q)-math.log1p(self.q)+abs(k-self.center)*math.log(self.q)
+ def pmf(self,k):return math.exp(self.logpmf(k))
  def mean(self):
   if self.kind=='event':return self.event
   if self.empty:return 0.
@@ -49,6 +54,9 @@ class Law:
   if len(values):self.w=self.w/self.w.sum()
  def cdf(self,k):return (1-self.a)*float(self.w[self.v<=k].sum())+self.a*self.prior.cdf(k)
  def pmf(self,k):return (1-self.a)*float(self.w[self.v==k].sum())+self.a*self.prior.pmf(k)
+ def logpmf(self,k):
+  e=(1-self.a)*float(self.w[self.v==k].sum());p=math.log(self.a)+self.prior.logpmf(k)
+  return float(np.logaddexp(math.log(e) if e>0 else -math.inf,p))
  def mean(self):return ((1-self.a)*float(self.v@self.w)+self.a*self.prior.mean())/self.scale
  def quantile(self,p):
   lo=min(-1,int(self.v.min())-1 if len(self.v) else -1,self.prior.center-1);hi=max(1,int(self.v.max())+1 if len(self.v) else 1,self.prior.center+1)
