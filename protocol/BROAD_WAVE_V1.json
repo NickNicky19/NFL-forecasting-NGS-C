@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_AFTER_FEASIBILITY_PILOT_BEFORE_BROAD_FITS",
+  "scientific_recipe": "C-RAW-QUALITY-HGB-v1 unchanged",
+  "pilot": {"slots":30,"fits":30,"wall_seconds":28.9963,"cpu_seconds":28.9821,"peak_RSS_bytes":475168768,"private_bytes":780722},
+  "source_retention": {"state":"FULL_BYTE_RESTORATION_VERIFIED", "zip_bytes":8473049,"sha256":"a5364204661ce7a6282df62325b1b3d26795015569f46ebdbd98dbbdd9499461","storage":"private Library, source archive plus14readable recovery parts; no public private locators"},
+  "baseline_difference": "B native NaN versus C training-median imputation; reconstruction only. HGB point is median-objective; MSE is point diagnostic, not mean forecast accuracy.",
+  "queue": [
+    {"id":"broad-v1","seasons":[2026,2025,2022,2024],"weeks":"all registered","max_slots":915},
+    {"id":"remaining-2023-v1","season":2023,"weeks":[3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],"max_slots":240}
+  ],
+  "no_repeat": "2023W1-2 reused from pilot; no rerun",
+  "budgets": {"remaining_slots":1155,"max_fits_including_pilot":1185,"cpu_seconds_remaining":1800,"wall_seconds_remaining":2400,"RSS_bytes":2147483648,"private_new_bytes":268435456,"threads":1,"hyperparameter_searches":0},
+  "runner_revision": "Guard-only revision: add RSS/fit cap and prefit attempt log, preserve pilot SOURCE.py and original code hash. No change to features, predictions, scores or populations.",
+  "retention_policy": "Chunked compressed models/predictions/inputs archived privately and restored before claiming final retention. Capacity actual uploads only, not assumed free Drive. Pause at byte cap.",
+  "pilot_interpretation": "Mixed gains/losses, no source or recipe chosen from score outcomes. No favorable-pilot stopping rule."
+}

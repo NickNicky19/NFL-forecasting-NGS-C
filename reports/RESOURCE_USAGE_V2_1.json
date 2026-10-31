@@ -1,0 +1,29 @@
+{
+  "slots": 1176,
+  "learned_fits": 1060,
+  "fallback_slots": 116,
+  "original_NGS_fits_repeated": 0,
+  "old_C0_fits_repeated_for_migration": 0,
+  "completed_invocation_CPU_maxima_seconds": [
+    11.01372886,
+    99.229782321,
+    75.062573278,
+    960.393001854,
+    382.632378854
+  ],
+  "sum_completed_maxima_seconds": 1528.331465167,
+  "measured_aborted_feature_rebuild_CPU_seconds": 82.28,
+  "additional_measured_interrupt_tail_CPU_seconds": 2.5674,
+  "recorded_CPU_seconds_approximately": 1613.3,
+  "CPU_caveat": "Completed-stage maxima plus separately measured interruptions; one early interruption tail was not fully metered. CumulativeCPU enforcement was not atomic across resumed invocations. Do not claim exact billedCPU.",
+  "final_invocation_RSS_bytes": 592158720,
+  "canonical_wave_bytes": 192025754,
+  "initial_cap_bytes": 134217728,
+  "initial_cap_failure_preserved": true,
+  "finite_retention_continuation_cap_bytes": 201326592,
+  "GitHub_archive_bytes": 192273246,
+  "whole_temp_cache_cap_bytes": 2147483648,
+  "hyperparameter_searches": 0,
+  "source_collector_or_cron": 0,
+  "paid_calls": 0
+}

@@ -1,0 +1,9 @@
+{
+ "id":"ANALYTIC_LOGPMF_V1",
+ "scope":"Numerical log-score evaluation only; no probability,mean,median,interval,features or fitted parameters changed",
+ "defect":"Subtracting near-one CDF values can round a positive tail PMF to zero. A full-support prior must use analytic logPMF and logaddexp mixture arithmetic.",
+ "change":"Analytic geometric/discrete-Laplace/Bernoulli logPMF; preserve original row files and append NLL_ANALYTIC_V1 overlays for completed old score slots. Resume only unfinished fits. Capture launch code hashes rather than hashing mutable disk code at completion.",
+ "independent_observation_before_patch":"All196 observed P2 infinite losses in first255slots were TRUE strictCURRENTW1pointmass fallbacks; none learned. Do not drop them. Tail weakness demonstrated by numerical regression, not selected to improve an evaluated score.",
+ "corrections_retained":"reports/all12-v2.1/LAWS_BEFORE_LOGPMF_PATCH.py and RUNNER_BEFORE_LOGPMF_PATCH.py, original rows/receipts and overlay receipt",
+ "prior_location_prose":"Actual prior center is int(np.median), truncating halves towardzero, not the literal lower median described in initial prose. This is a documentation correction; actual prior parameters retained."
+}

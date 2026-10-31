@@ -1,0 +1,34 @@
+{
+  "id": "C-ALL5-NUMERIC-v1",
+  "state": "NUMERICAL_RECONSTRUCTION_COMPLETE_OTHER_OBJECTIVES_UNESTABLISHED",
+  "unique_fit_slots": 1185,
+  "fits": 1149,
+  "fallback_slots": 36,
+  "forecast_rows": 184335,
+  "unique_query_category_rows": 61445,
+  "supported_outcome_category_rows": 58185,
+  "unique_games": 1194,
+  "seasons": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "weekly_fit_origins": 79,
+  "wall_seconds": 257.40722872899994,
+  "cpu_seconds": 257.244315655,
+  "peak_rss_bytes": 660787200,
+  "private_run_bytes": 30481602,
+  "models_refit_for_rendering": 0,
+  "hyperparameter_searches": 0,
+  "paired_bootstrap": "500replicates per game/week seed1701; descriptive exposed research",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "threadpoolctl": "3.6.0",
+    "scipy": "1.17.0",
+    "joblib": "1.5.3"
+  }
+}

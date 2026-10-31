@@ -1,0 +1,23 @@
+{
+  "id": "C-SOFTWARE-CHECKS-v1",
+  "tests": 11,
+  "state": "PASS",
+  "NFL_forecasts_added_by_software_tests": 0,
+  "source_sha256": {
+    "src/render_checkpoint.py": "5d8a4d37d975ca6e83ba318c6a4c154a25d1ac8973e8d7b5391fe70a243dd416",
+    "src/selection.py": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f",
+    "src/restore_parts.py": "9a43cf5cf8afe419b555f8c0add84680eb9464b1df8c62653dc3afad45bdecde",
+    "src/aggregate_saved.py": "be6d07a57542c301e9f741ac93a719c1f17cb05df3cdce9d5d00b1cf271be2d8",
+    "src/study.py": "f65cbb6153cd4e393054cecdc5ebe680a37bd9fcc213acca68ddbc63534b216d",
+    "tests/test_leakage.py": "d463464fd5a0e7380c7c906f92a7d93eab538ea2b34a4d1bb668e0e6839d4b8d",
+    "tests/test_selection.py": "5aca1fe9415e94583cb60b266b600ba911cfc96447c481d4d280ed6e6c20901d"
+  },
+  "checks": [
+    "unit tests",
+    "public JSON parses",
+    "Python compilation",
+    "private-locator/player-row public scan",
+    "independent saved-row and inference review",
+    "full source/model archive byte restoration"
+  ]
+}

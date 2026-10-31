@@ -1,0 +1,2114 @@
+[
+  {
+    "target": "anytime_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -0.005058864982789535,
+    "game_id_ci95": [
+      -0.007136648259848465,
+      -0.0032524408064251837
+    ],
+    "week_ci95": [
+      -0.007026385508232125,
+      -0.0029803434673861635
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 8.811244978587737e-05,
+    "game_id_ci95": [
+      -0.0004622761486075373,
+      0.0006739770001237387
+    ],
+    "week_ci95": [
+      -0.000518258726877071,
+      0.000671715325926598
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -7.347226547018685e-05,
+    "game_id_ci95": [
+      -0.0006455958375307004,
+      0.0004778308788294552
+    ],
+    "week_ci95": [
+      -0.0007884612138000639,
+      0.0006047403626904237
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0005532394533047763,
+    "game_id_ci95": [
+      -0.0007486940792622145,
+      0.0018726392686693855
+    ],
+    "week_ci95": [
+      -0.0010806961116890086,
+      0.0026838752548001177
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -0.001166878986791204,
+    "game_id_ci95": [
+      -0.003570639061668868,
+      0.0011387342225530634
+    ],
+    "week_ci95": [
+      -0.005135745900343148,
+      0.002365252831178143
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0002605865491951908,
+    "game_id_ci95": [
+      -0.0012644264437449812,
+      0.0018261235428588848
+    ],
+    "week_ci95": [
+      -0.0005659888778922332,
+      0.0011567446865679578
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0069790859262342155,
+    "game_id_ci95": [
+      0.0032060406489335196,
+      0.011470944003636407
+    ],
+    "week_ci95": [
+      -0.0005919366357103643,
+      0.017497990317310384
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0005090201610456206,
+    "game_id_ci95": [
+      -0.0005990207475499395,
+      0.0017087474066940459
+    ],
+    "week_ci95": [
+      -0.0011784610716678485,
+      0.00189591799666026
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.001505313839765752,
+    "game_id_ci95": [
+      0.00010529915751540042,
+      0.003035021026630401
+    ],
+    "week_ci95": [
+      -0.0005754886634805232,
+      0.0036639231127456135
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0008646743393178718,
+    "game_id_ci95": [
+      -0.00046152160894623946,
+      0.002442224122524651
+    ],
+    "week_ci95": [
+      -0.0015538769074367599,
+      0.0029399028649461883
+    ]
+  },
+  {
+    "target": "anytime_td",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.02195148903559816,
+    "game_id_ci95": [
+      0.014522619712279732,
+      0.03074542257657375
+    ],
+    "week_ci95": [
+      0.005464470709064183,
+      0.05035475264683876
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": -0.0005995310851211138,
+    "game_id_ci95": [
+      -0.001003670155730523,
+      -0.00016813281259992456
+    ],
+    "week_ci95": [
+      -0.0011103230770849522,
+      5.839608985454552e-05
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": -0.0002889148607227991,
+    "game_id_ci95": [
+      -0.000549261067701831,
+      -5.5704311477303e-06
+    ],
+    "week_ci95": [
+      -0.0005702963627075072,
+      -6.311785721000294e-05
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 2.717666588870279e-05,
+    "game_id_ci95": [
+      -0.00023625135406847865,
+      0.0003040713468270367
+    ],
+    "week_ci95": [
+      -0.0002511327374232771,
+      0.00035069551326870834
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.0017394782965980255,
+    "game_id_ci95": [
+      -0.004396329046758928,
+      0.006768889271329149
+    ],
+    "week_ci95": [
+      -0.015582282702926248,
+      0.013427366233933629
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.00476140005939293,
+    "game_id_ci95": [
+      -0.002306553091289737,
+      0.01018431132134395
+    ],
+    "week_ci95": [
+      -0.015094153794324038,
+      0.01951749256191285
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.012481376667160695,
+    "game_id_ci95": [
+      0.011007665784847985,
+      0.013905194337614089
+    ],
+    "week_ci95": [
+      0.011097834710923316,
+      0.014074186347554224
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.035387648659436596,
+    "game_id_ci95": [
+      0.02959107164401947,
+      0.041699878344683715
+    ],
+    "week_ci95": [
+      0.02118639630028412,
+      0.057128783479091894
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.012031679468323992,
+    "game_id_ci95": [
+      0.010613215162108704,
+      0.01339473963468791
+    ],
+    "week_ci95": [
+      0.010726774576340786,
+      0.013524253530850633
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.020788861581181175,
+    "game_id_ci95": [
+      0.018882024346678947,
+      0.022498422236176853
+    ],
+    "week_ci95": [
+      0.019417016109810715,
+      0.02202601217999549
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 4.25251396280507e-05,
+    "game_id_ci95": [
+      -0.0006459203315301764,
+      0.0007041529929040091
+    ],
+    "week_ci95": [
+      -0.0006371258417990243,
+      0.00044520384765666754
+    ]
+  },
+  {
+    "target": "fpts",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2227,
+    "delta": 0.043521775281674516,
+    "game_id_ci95": [
+      0.031426976756696194,
+      0.05708317943044482
+    ],
+    "week_ci95": [
+      0.011098914849063874,
+      0.09726258387986887
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.0006879377236350693,
+    "game_id_ci95": [
+      -0.0029682838634220747,
+      0.0014881567801111508
+    ],
+    "week_ci95": [
+      -0.0021534228885293927,
+      0.0008610202611853358
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.003127756656246275,
+    "game_id_ci95": [
+      -0.005258394507676364,
+      -0.0012101880097484846
+    ],
+    "week_ci95": [
+      -0.005264765091939525,
+      -0.0005224042751202374
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0009283343462705858,
+    "game_id_ci95": [
+      -0.00045840697483636605,
+      0.0024649656361764353
+    ],
+    "week_ci95": [
+      -0.001129044712760891,
+      0.002821108221879615
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.036655245552219315,
+    "game_id_ci95": [
+      -0.059512543183901465,
+      -0.017625660291448336
+    ],
+    "week_ci95": [
+      -0.11979835081287858,
+      0.009660403104702306
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.02749752736795369,
+    "game_id_ci95": [
+      -0.05353155391712565,
+      -0.007026076043831779
+    ],
+    "week_ci95": [
+      -0.11393633411716955,
+      0.023122084009336803
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.00763915461954275,
+    "game_id_ci95": [
+      0.0017516896084979734,
+      0.013724422074249771
+    ],
+    "week_ci95": [
+      0.0039573506678637965,
+      0.011034408774585952
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.08243758490289946,
+    "game_id_ci95": [
+      0.05789058194171853,
+      0.1102496134736234
+    ],
+    "week_ci95": [
+      0.0065963105057465846,
+      0.1804535865970977
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.009641412871563084,
+    "game_id_ci95": [
+      0.004442175738563248,
+      0.014726520899950139
+    ],
+    "week_ci95": [
+      0.0048994798411961015,
+      0.0135449235813469
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.01556847563509587,
+    "game_id_ci95": [
+      0.009584620676568649,
+      0.020879944835314843
+    ],
+    "week_ci95": [
+      0.01033182099286905,
+      0.020132486867231156
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.006440445053571585,
+    "game_id_ci95": [
+      0.0011343571986516241,
+      0.011877902788091916
+    ],
+    "week_ci95": [
+      0.002669544238067787,
+      0.00969402798611554
+    ]
+  },
+  {
+    "target": "pass_att",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.09566898401862921,
+    "game_id_ci95": [
+      0.07078601039408229,
+      0.1262240507249259
+    ],
+    "week_ci95": [
+      0.016738836445303423,
+      0.19940433479034256
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.0017960733852069076,
+    "game_id_ci95": [
+      -0.0037820023984927544,
+      0.00018798212305779985
+    ],
+    "week_ci95": [
+      -0.004037311630422337,
+      0.0009435739393750538
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.00142328680548778,
+    "game_id_ci95": [
+      -0.0030885739299559333,
+      1.2695454125476347e-05
+    ],
+    "week_ci95": [
+      -0.0029138485233403473,
+      0.000516547305243153
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0008823970156920517,
+    "game_id_ci95": [
+      -0.0006288086934343997,
+      0.0024993745201261374
+    ],
+    "week_ci95": [
+      -0.0003690269426000764,
+      0.0020831854055210234
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.026020776628172804,
+    "game_id_ci95": [
+      -0.04795475215359102,
+      -0.010380356049576888
+    ],
+    "week_ci95": [
+      -0.08994407993553585,
+      0.009924732486516763
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.01235557278958383,
+    "game_id_ci95": [
+      -0.03773389517982798,
+      0.005728336885598593
+    ],
+    "week_ci95": [
+      -0.08401801343325423,
+      0.03513413457036661
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.005357454782303966,
+    "game_id_ci95": [
+      -0.0001357815809605295,
+      0.010645009972798053
+    ],
+    "week_ci95": [
+      -0.00030236293051086696,
+      0.010733279156174563
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.07072707374689126,
+    "game_id_ci95": [
+      0.04870397809142405,
+      0.09541800009148621
+    ],
+    "week_ci95": [
+      0.007910173543636408,
+      0.15250613020944476
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.010113891357441541,
+    "game_id_ci95": [
+      0.004722936831911797,
+      0.01542888861065259
+    ],
+    "week_ci95": [
+      0.0035916119701368395,
+      0.014870306144826336
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.018882290473969533,
+    "game_id_ci95": [
+      0.013885069274243092,
+      0.02388208605587913
+    ],
+    "week_ci95": [
+      0.012304742697136484,
+      0.0234612211676287
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.010059279279934058,
+    "game_id_ci95": [
+      0.004870353921536725,
+      0.015907810276391855
+    ],
+    "week_ci95": [
+      0.004708840656001272,
+      0.01621291606272482
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0822126209652858,
+    "game_id_ci95": [
+      0.060185893856633796,
+      0.11036455208759484
+    ],
+    "week_ci95": [
+      0.015785821790297774,
+      0.17399735986645015
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.00115227862509112,
+    "game_id_ci95": [
+      -0.0035031291562129885,
+      0.0013142893965091063
+    ],
+    "week_ci95": [
+      -0.002201532670654386,
+      0.00014511734127021088
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.0010903621032149029,
+    "game_id_ci95": [
+      -0.0023028497589478664,
+      0.0002585929431511622
+    ],
+    "week_ci95": [
+      -0.002053611251704698,
+      -0.00024167655878623679
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 2.4254910380405886e-05,
+    "game_id_ci95": [
+      -0.0015169034408202132,
+      0.0016655824625396527
+    ],
+    "week_ci95": [
+      -0.001816348138048081,
+      0.0017794535543583304
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.009824771724006866,
+    "game_id_ci95": [
+      -0.001179461913097927,
+      0.022363372781153048
+    ],
+    "week_ci95": [
+      -0.002281607279814535,
+      0.027574284111122185
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.015214537288740452,
+    "game_id_ci95": [
+      0.004496493279996574,
+      0.027774017425617435
+    ],
+    "week_ci95": [
+      0.004242898051519684,
+      0.030190889366942582
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0025459747614994897,
+    "game_id_ci95": [
+      -1.568051686941348e-06,
+      0.005194454927713884
+    ],
+    "week_ci95": [
+      0.00010836360255571655,
+      0.004646107699821398
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.02111455088351308,
+    "game_id_ci95": [
+      0.014878924450808245,
+      0.02868353012455155
+    ],
+    "week_ci95": [
+      0.010915260601738249,
+      0.031061854067975906
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.002843912130276309,
+    "game_id_ci95": [
+      9.096460561256598e-06,
+      0.005374188219006027
+    ],
+    "week_ci95": [
+      0.0006613903455075981,
+      0.005300807881629582
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.012888815803517445,
+    "game_id_ci95": [
+      0.007594224177911145,
+      0.018738507300232785
+    ],
+    "week_ci95": [
+      0.008096728455248075,
+      0.018083939752837418
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.00011947288751697793,
+    "game_id_ci95": [
+      -0.0026153897448061856,
+      0.0026107444244492708
+    ],
+    "week_ci95": [
+      -0.0027572233388910056,
+      0.002874891794637786
+    ]
+  },
+  {
+    "target": "pass_int",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.017856819081046724,
+    "game_id_ci95": [
+      0.009508007258808153,
+      0.026476164785005835
+    ],
+    "week_ci95": [
+      0.0034106401167398885,
+      0.037885063870392886
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.001788088047090995,
+    "game_id_ci95": [
+      -0.004284577500755172,
+      0.0005065120752704845
+    ],
+    "week_ci95": [
+      -0.0030449631845682707,
+      -0.0006316590270057288
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.0005903652500754832,
+    "game_id_ci95": [
+      -0.0028739540561348435,
+      0.0013628572826587305
+    ],
+    "week_ci95": [
+      -0.0023032230350934746,
+      0.0008787146044815322
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -8.492099585435608e-05,
+    "game_id_ci95": [
+      -0.0014960495929777625,
+      0.0012984840809590122
+    ],
+    "week_ci95": [
+      -0.0019063732705952988,
+      0.0017197942220748563
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.010222604896076746,
+    "game_id_ci95": [
+      -0.025159510645220956,
+      0.003614517184697523
+    ],
+    "week_ci95": [
+      -0.04462446611843701,
+      0.011499673306997303
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0063279749825271014,
+    "game_id_ci95": [
+      -0.011325131029377562,
+      0.02302153437944383
+    ],
+    "week_ci95": [
+      -0.03466459588746968,
+      0.0499410188735003
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.00713435989732432,
+    "game_id_ci95": [
+      0.0020462820225624497,
+      0.01169158437838721
+    ],
+    "week_ci95": [
+      0.0038402603830525145,
+      0.010991439832012546
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.047666076424860114,
+    "game_id_ci95": [
+      0.031190623779655067,
+      0.06513258402179987
+    ],
+    "week_ci95": [
+      0.008469727107959315,
+      0.09809465977773064
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.007564861834524291,
+    "game_id_ci95": [
+      0.0027757631204265183,
+      0.01249606574549069
+    ],
+    "week_ci95": [
+      0.0029160305785299076,
+      0.01060499959620482
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.015332314165962315,
+    "game_id_ci95": [
+      0.009975087922307873,
+      0.020644549629315053
+    ],
+    "week_ci95": [
+      0.012396950563721632,
+      0.018248860349429165
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.00465212241191202,
+    "game_id_ci95": [
+      9.756955336809194e-05,
+      0.009389210020341572
+    ],
+    "week_ci95": [
+      0.0005214364594813594,
+      0.00876364069220248
+    ]
+  },
+  {
+    "target": "pass_td",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0474031107829423,
+    "game_id_ci95": [
+      0.030590044034392375,
+      0.06554970828376046
+    ],
+    "week_ci95": [
+      0.01286055118810456,
+      0.10247877789378548
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.0005562349906361991,
+    "game_id_ci95": [
+      -0.0015209974015421362,
+      0.0027628233868170426
+    ],
+    "week_ci95": [
+      -0.0019397911154008878,
+      0.0021579927148764944
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.0014915537164316595,
+    "game_id_ci95": [
+      -0.0032050480359017875,
+      0.0002623042099601174
+    ],
+    "week_ci95": [
+      -0.003492755115226972,
+      0.0011309716260996079
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -8.279409522655892e-05,
+    "game_id_ci95": [
+      -0.0011215244047266379,
+      0.0011398422382125338
+    ],
+    "week_ci95": [
+      -0.0008799261884932609,
+      0.0007716499282236323
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.023719415110726363,
+    "game_id_ci95": [
+      -0.04419764074803548,
+      -0.008442867217657208
+    ],
+    "week_ci95": [
+      -0.0817330858505961,
+      0.011653205175043027
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": -0.008449617149716917,
+    "game_id_ci95": [
+      -0.030989050871214386,
+      0.010813938538749172
+    ],
+    "week_ci95": [
+      -0.0724864427978842,
+      0.03741159305706052
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.007632123416575097,
+    "game_id_ci95": [
+      0.0029682711760426407,
+      0.01251995592774949
+    ],
+    "week_ci95": [
+      0.004783515453195858,
+      0.011371775618237009
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.07311762332085738,
+    "game_id_ci95": [
+      0.051867615200937287,
+      0.09785769085745089
+    ],
+    "week_ci95": [
+      0.01096654320536131,
+      0.14682602302888195
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.011359294391491885,
+    "game_id_ci95": [
+      0.00632092677340104,
+      0.016032754144349765
+    ],
+    "week_ci95": [
+      0.007968905048437558,
+      0.01589897975678982
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.01795209468259941,
+    "game_id_ci95": [
+      0.011322492119341408,
+      0.02367349243894996
+    ],
+    "week_ci95": [
+      0.0137905470336638,
+      0.022975122919086738
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.005168430151462193,
+    "game_id_ci95": [
+      0.0006425883052813716,
+      0.009997088101882132
+    ],
+    "week_ci95": [
+      0.0013768242162819808,
+      0.009146572662712306
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 242,
+    "delta": 0.06173626999601128,
+    "game_id_ci95": [
+      0.04000715318965976,
+      0.08815092350945189
+    ],
+    "week_ci95": [
+      0.010992967599001726,
+      0.1424737996614365
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.0008562497496387305,
+    "game_id_ci95": [
+      -0.0015786634114328426,
+      -9.333990694556583e-05
+    ],
+    "week_ci95": [
+      -0.0016728185842489513,
+      -9.603885946805471e-05
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.00026809003292083947,
+    "game_id_ci95": [
+      -0.0006292069351293164,
+      0.00012996622787774542
+    ],
+    "week_ci95": [
+      -0.0005947637556413138,
+      -3.838117619355203e-05
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 4.043186233538937e-07,
+    "game_id_ci95": [
+      -0.00032635702558970325,
+      0.0002823274543689265
+    ],
+    "week_ci95": [
+      -0.0001596529489619619,
+      0.0001411218116978737
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.00201390120200282,
+    "game_id_ci95": [
+      -0.008426461307392837,
+      0.002564380402438676
+    ],
+    "week_ci95": [
+      -0.021364006612848804,
+      0.010647137078075446
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.0038933617236199054,
+    "game_id_ci95": [
+      -0.010625391973940485,
+      0.001647865482793614
+    ],
+    "week_ci95": [
+      -0.024180881370774353,
+      0.010982247101062798
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.01159842469469542,
+    "game_id_ci95": [
+      0.00966914839687482,
+      0.013411274529892039
+    ],
+    "week_ci95": [
+      0.00997937910465442,
+      0.013290085263999002
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.03019451434961255,
+    "game_id_ci95": [
+      0.024138700835500487,
+      0.03702636771748292
+    ],
+    "week_ci95": [
+      0.015952711264403358,
+      0.05392170189600328
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.011395884120268925,
+    "game_id_ci95": [
+      0.009636821733761571,
+      0.013017135125221483
+    ],
+    "week_ci95": [
+      0.010076866115683815,
+      0.012796538266440683
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.016286335231062637,
+    "game_id_ci95": [
+      0.014348141180187292,
+      0.018208627001835277
+    ],
+    "week_ci95": [
+      0.01593449518946688,
+      0.016787243360104745
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.0004989404309452866,
+    "game_id_ci95": [
+      -0.00038120239816851457,
+      0.001458640373606382
+    ],
+    "week_ci95": [
+      -0.0003988497145656713,
+      0.0012297977737140216
+    ]
+  },
+  {
+    "target": "rec",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.04728016037310675,
+    "game_id_ci95": [
+      0.03540272368881785,
+      0.06081276878817814
+    ],
+    "week_ci95": [
+      0.014281163100079835,
+      0.09799564494496288
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.0008205858429755758,
+    "game_id_ci95": [
+      -0.0015533316087366507,
+      -0.00015062810437176693
+    ],
+    "week_ci95": [
+      -0.0018188191785188466,
+      -4.633971138707395e-05
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -9.475090904895815e-05,
+    "game_id_ci95": [
+      -0.0003504626976411503,
+      0.00013364244646433916
+    ],
+    "week_ci95": [
+      -0.00024328315040507726,
+      7.658771016903655e-05
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": -0.00018064916523158968,
+    "game_id_ci95": [
+      -0.0004696932692023592,
+      0.0001460037297778204
+    ],
+    "week_ci95": [
+      -0.00030348038878116906,
+      -3.4426408739571225e-06
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.013595731077467536,
+    "game_id_ci95": [
+      0.009626858986478096,
+      0.01833045821283586
+    ],
+    "week_ci95": [
+      0.005483723281043667,
+      0.024318559013876834
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.02527055182059141,
+    "game_id_ci95": [
+      0.020913607541058594,
+      0.030037947451211515
+    ],
+    "week_ci95": [
+      0.014452783786440418,
+      0.033809344675865695
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.012316407030796032,
+    "game_id_ci95": [
+      0.01079709929192126,
+      0.013790766954925598
+    ],
+    "week_ci95": [
+      0.0109831413034787,
+      0.013679226437002551
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.044352067820244645,
+    "game_id_ci95": [
+      0.039896715787514136,
+      0.04920148849374128
+    ],
+    "week_ci95": [
+      0.03357674548075638,
+      0.061228734945965965
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.012857393342051632,
+    "game_id_ci95": [
+      0.0114967706794257,
+      0.014156184774359816
+    ],
+    "week_ci95": [
+      0.011161664981045335,
+      0.014621460348414536
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.035341353310244635,
+    "game_id_ci95": [
+      0.03361955776191891,
+      0.03707742109187565
+    ],
+    "week_ci95": [
+      0.03360743626313672,
+      0.03705184699411004
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.0008494138419396842,
+    "game_id_ci95": [
+      0.0002074035628869678,
+      0.0014858003378045788
+    ],
+    "week_ci95": [
+      0.00027813112105335195,
+      0.001510871208501612
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 1986,
+    "delta": 0.030891671809117824,
+    "game_id_ci95": [
+      0.0238657159835895,
+      0.039458233523545966
+    ],
+    "week_ci95": [
+      0.010756402168291983,
+      0.06129159712693077
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -1.476580430012694e-06,
+    "game_id_ci95": [
+      -0.0002413912946504568,
+      0.00023309538059588587
+    ],
+    "week_ci95": [
+      -0.00016324233669061798,
+      0.00019768729234016045
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.00012214610354140413,
+    "game_id_ci95": [
+      -7.853539874746027e-05,
+      0.00030950166854673555
+    ],
+    "week_ci95": [
+      -2.0206846424445896e-05,
+      0.00029045699899768744
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 6.37929736832058e-05,
+    "game_id_ci95": [
+      -8.802787791298665e-05,
+      0.0002291760980804205
+    ],
+    "week_ci95": [
+      -4.80539995365714e-05,
+      0.00015242589366613592
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.023952447017206367,
+    "game_id_ci95": [
+      0.016213223121029127,
+      0.03336890450867804
+    ],
+    "week_ci95": [
+      0.004343601772524985,
+      0.05879457702882812
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.03431887564916237,
+    "game_id_ci95": [
+      0.02675641794847465,
+      0.043099824071406626
+    ],
+    "week_ci95": [
+      0.012774624891475822,
+      0.06725162181263039
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.00669320377958651,
+    "game_id_ci95": [
+      0.005812266157142104,
+      0.00757615823507974
+    ],
+    "week_ci95": [
+      0.0057464457742468465,
+      0.007547198885198798
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.026135654824427024,
+    "game_id_ci95": [
+      0.023747702501512143,
+      0.028628687231465656
+    ],
+    "week_ci95": [
+      0.02200992567438865,
+      0.03064037529745142
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.007198124630560359,
+    "game_id_ci95": [
+      0.00640055015514373,
+      0.008106176161997084
+    ],
+    "week_ci95": [
+      0.006568416958080768,
+      0.007911957558039516
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.024020323416453545,
+    "game_id_ci95": [
+      0.021946346518184237,
+      0.025930231270373288
+    ],
+    "week_ci95": [
+      0.021490154765698044,
+      0.02584494120026068
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0004966295100403329,
+    "game_id_ci95": [
+      6.352388243276763e-05,
+      0.0009915167171360452
+    ],
+    "week_ci95": [
+      5.128167026067099e-06,
+      0.0010076716520454362
+    ]
+  },
+  {
+    "target": "rush_att",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.02136120813069193,
+    "game_id_ci95": [
+      0.016218175084108482,
+      0.027723671241619008
+    ],
+    "week_ci95": [
+      0.006112058903258281,
+      0.04518820189602162
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -0.0006870137502115178,
+    "game_id_ci95": [
+      -0.001155454438200508,
+      -0.0001924478353368382
+    ],
+    "week_ci95": [
+      -0.0014247852812577998,
+      0.0001097366402996568
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -0.00014901947345838005,
+    "game_id_ci95": [
+      -0.00039990167375294854,
+      7.238687142968016e-05
+    ],
+    "week_ci95": [
+      -0.0004222018691750613,
+      9.331793974982547e-05
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 1.61686398430365e-06,
+    "game_id_ci95": [
+      -0.0002745175987112546,
+      0.0002840468333836981
+    ],
+    "week_ci95": [
+      -0.00018843020409067425,
+      0.00019141809781864704
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.019298894736604167,
+    "game_id_ci95": [
+      0.01433817496439626,
+      0.024788359146594517
+    ],
+    "week_ci95": [
+      0.006701534374807688,
+      0.03681735437654565
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.025593896142022288,
+    "game_id_ci95": [
+      0.02057383308275395,
+      0.030712331164100493
+    ],
+    "week_ci95": [
+      0.011279239690426324,
+      0.04189348147084813
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.013971480471987971,
+    "game_id_ci95": [
+      0.012576940636962207,
+      0.015315449267515642
+    ],
+    "week_ci95": [
+      0.012631385739564991,
+      0.015317874477914904
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.04302753599923456,
+    "game_id_ci95": [
+      0.03795143922799595,
+      0.04905082370876315
+    ],
+    "week_ci95": [
+      0.030216668827484555,
+      0.06370218180575825
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.014140018748954054,
+    "game_id_ci95": [
+      0.012826722034911562,
+      0.015368278573125435
+    ],
+    "week_ci95": [
+      0.013026533766138092,
+      0.015275886888766198
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.031440124029202585,
+    "game_id_ci95": [
+      0.02995947761912222,
+      0.032722185455997754
+    ],
+    "week_ci95": [
+      0.03040202932398213,
+      0.03294586967227449
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0005099985753115512,
+    "game_id_ci95": [
+      -3.481963050637446e-05,
+      0.0010656162462007364
+    ],
+    "week_ci95": [
+      5.1408472934180804e-05,
+      0.0009451289548058216
+    ]
+  },
+  {
+    "target": "rush_rec_yd",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.02904186458747248,
+    "game_id_ci95": [
+      0.022888234973600218,
+      0.03588491981811475
+    ],
+    "week_ci95": [
+      0.011742945606806741,
+      0.05381885047181984
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_BASE",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -0.00040432556493377275,
+    "game_id_ci95": [
+      -0.0007280541242693738,
+      -8.40447796509187e-05
+    ],
+    "week_ci95": [
+      -0.0007305049868358986,
+      -0.00010415184935985365
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_ENV",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 7.026336847975646e-05,
+    "game_id_ci95": [
+      -0.00012126707606952839,
+      0.0002639505858135639
+    ],
+    "week_ci95": [
+      -7.319143853233287e-05,
+      0.00023607597750750005
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-MULTI/P2_LEAF/E0_DEF",
+    "control": "H-MULTI/P2_LEAF/E0_ENV",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": -7.640040209193826e-05,
+    "game_id_ci95": [
+      -0.00025654984165091976,
+      0.00011079849279637823
+    ],
+    "week_ci95": [
+      -0.00025073542466243437,
+      0.00010655518433705491
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-CURRENT/P3_HGB/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.03323862546805678,
+    "game_id_ci95": [
+      0.0235492672675709,
+      0.04463659581435135
+    ],
+    "week_ci95": [
+      0.008459572869012319,
+      0.07651092133131804
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-CURRENT/P3_LOGIT/E0_OP",
+    "control": "H-CURRENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.07015088803069316,
+    "game_id_ci95": [
+      0.061923643000087666,
+      0.07934517710560116
+    ],
+    "week_ci95": [
+      0.038103231541005735,
+      0.1056768352737278
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-RECENT/P3_HGB/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.014246035708400788,
+    "game_id_ci95": [
+      0.013183333144894015,
+      0.015290176252752218
+    ],
+    "week_ci95": [
+      0.013045271401179278,
+      0.015266381881877374
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-RECENT/P3_LOGIT/E0_OP",
+    "control": "H-RECENT/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.07193757693336367,
+    "game_id_ci95": [
+      0.06968763729604696,
+      0.07411357194034865
+    ],
+    "week_ci95": [
+      0.0685153410865375,
+      0.0761168430947824
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-MULTI/P3_HGB/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.014481445385964771,
+    "game_id_ci95": [
+      0.013504846228347533,
+      0.01543756513686466
+    ],
+    "week_ci95": [
+      0.013538073073070754,
+      0.015451030305874146
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-MULTI/P3_LOGIT/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.07082541992540584,
+    "game_id_ci95": [
+      0.0692615706740597,
+      0.0722495679950027
+    ],
+    "week_ci95": [
+      0.06951263368213302,
+      0.07228036092599122
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-RECENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.0007912768381969531,
+    "game_id_ci95": [
+      0.0003056800222829641,
+      0.0012910205781771161
+    ],
+    "week_ci95": [
+      1.4254937128915288e-05,
+      0.001374426110559535
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "candidate": "H-CURRENT/P2_LEAF/E0_OP",
+    "control": "H-MULTI/P2_LEAF/E0_OP",
+    "metric": "grid_brier",
+    "n": 2228,
+    "delta": 0.017387964484827878,
+    "game_id_ci95": [
+      0.01379667343696222,
+      0.02128674394543885
+    ],
+    "week_ci95": [
+      0.005614107947587372,
+      0.032322622346847504
+    ]
+  }
+]

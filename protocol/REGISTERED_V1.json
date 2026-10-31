@@ -1,0 +1,154 @@
+{
+  "id": "C-RAW-QUALITY-HGB-v1",
+  "registered_at_UTC": "2026-10-31T19:21:08.884826+00:00",
+  "selection_reason": "Source feasibility before inspecting C candidate scores; raw descriptive groups bypass unqualified derived-model revision gates",
+  "status": "REGISTERED_BEFORE_ANY_C_FIT",
+  "categories": [
+    "pass_cmp",
+    "rec_yd",
+    "pass_yd",
+    "rush_yd",
+    "rec"
+  ],
+  "arms": {
+    "C0": "B HGB absolute-loss architecture and full20 own-target ordered history, independently reconstructed; no NGS",
+    "C1": "C0 plus historical NGS availability, age, per-metric row count and opportunity support",
+    "C2": "C1 plus 2\u20133 exposure-weighted raw NGS measures from last8 NGS reports no older than365days"
+  },
+  "primary_learner": "HGB absolute-error direct, params as src/study.py; architecture from B hgb_control.py pinned7381d15; not exact original reconstruction because population/input bytes differ",
+  "ngs_groups": {
+    "pass_cmp": [
+      "intended_air_yards/attempts",
+      "time_to_throw/attempts",
+      "aggressiveness/attempts"
+    ],
+    "pass_yd": [
+      "intended_air_yards/attempts",
+      "time_to_throw/attempts",
+      "aggressiveness/attempts"
+    ],
+    "rec_yd": [
+      "intended_air_yards/targets",
+      "separation/targets"
+    ],
+    "rec": [
+      "intended_air_yards/targets",
+      "separation/targets",
+      "cushion/targets"
+    ],
+    "rush_yd": [
+      "eight_defender_percent/rush_attempts",
+      "time_to_LOS/rush_attempts"
+    ]
+  },
+  "derived_metrics": "Completion Probability/CPAE, expected YAC/residual and expected rushing/residual excluded pending version and metric-specific opportunity qualification. No causal talent interpretation.",
+  "feature_policy": "Own target mean/count3and8; last4value/age/missing; historical row position onehot. Missing physical-proof rows consume slots. NGS available+age+count/exposure; missing not zero. No target-game NGS, outcomes or season aggregates. Nondecaying weighted means, no tuned shrinkage/priors.",
+  "training": "Expanding from2022, no pre2022 warmstart. Weekly fit strictly before first scheduled kickoff. Each training/query feature uses own kickoff leftlimit and kickoff+7days strictly less than cutoff. This is assumed availability, current/revised source, not authenticated issuance.",
+  "population": "Current-vintage source offensive stat-row panel, includes unknowns, not authenticated exante roster population. PassingQB; receivingRB/WR/TE; rushRB and QB separately. All zero rows need independent positive physical evidence or remain unknown. No target-game NGS membership condition.",
+  "periods": {
+    "pilot": [
+      2023,
+      1,
+      2
+    ],
+    "broad": {
+      "2026": [
+        1,
+        7
+      ],
+      "2025": [
+        1,
+        18
+      ],
+      "2022": [
+        1,
+        18
+      ],
+      "2023": [
+        1,
+        18
+      ],
+      "2024": [
+        1,
+        18
+      ]
+    }
+  },
+  "matching": "Same exact game/player/target/label across C0/C1/C2. Full coverage plus learned/NGS subsets. A/B exact comparison unestablished absent their row exports. 107-game2026schedule verify.",
+  "fallback": "Under40eligible training rows use own historical median then sameposition eligible training median then literal0. Counts projected>=0; yards signed. Same all arms.",
+  "objectives": "MAE primary, squared point error diagnostics not asserted conditional mean; no HGB probability law. Count exact unrounded; strict<1/inclusive<=1 nativeunit. Bias/tails/weekly season startup views.",
+  "offers": "No C-accessible qualified offers at registration. P1 and P2 N/A, no synthetic offers/prices. Import exact records in future version; no current-fit outcome choice.",
+  "uncertainty": "500 paired game/week bootstrap replicates seed1701, 95%descriptive intervals, fixed membership, no multiplicity correction; all seasons exposed research.",
+  "budget": {
+    "pilot_fits_max": 30,
+    "broad_fits_max": 1185,
+    "total_fits_max": 1215,
+    "threads": 1,
+    "cpu_seconds_each_invocation": 1800,
+    "wall_seconds_each_invocation": 2400,
+    "RSS_limit_bytes": 2147483648,
+    "retained_bytes_cap": 268435456,
+    "hyperparameter_searches": 0,
+    "confirmation_learner_fits": 0,
+    "paid_calls": 0
+  },
+  "retention": "Drive full at8.47MB, small probe successful; private Library source archive upload confirmed; full byte restoration via text chunks required before broad execution. Public repository code/aggregates only.",
+  "baseline_limit": "HGB is a strong direct competitor but not demonstrated strongest A/B procedure in every category. No victory over unavailable D1/D2/CDF controls.",
+  "queue": [
+    {
+      "category": "pass_cmp",
+      "arms": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "run_order": 0,
+      "command": "python src/study.py --source APPROVED_SOURCE --private NEW_PRIVATE_RUN --public reports/NEW_ID --seasons SEASONS --weeks OPTIONAL",
+      "state": "EXECUTABLE_ON_QUALIFIED_SOURCES"
+    },
+    {
+      "category": "rec_yd",
+      "arms": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "run_order": 1,
+      "command": "python src/study.py --source APPROVED_SOURCE --private NEW_PRIVATE_RUN --public reports/NEW_ID --seasons SEASONS --weeks OPTIONAL",
+      "state": "EXECUTABLE_ON_QUALIFIED_SOURCES"
+    },
+    {
+      "category": "pass_yd",
+      "arms": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "run_order": 2,
+      "command": "python src/study.py --source APPROVED_SOURCE --private NEW_PRIVATE_RUN --public reports/NEW_ID --seasons SEASONS --weeks OPTIONAL",
+      "state": "EXECUTABLE_ON_QUALIFIED_SOURCES"
+    },
+    {
+      "category": "rush_yd",
+      "arms": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "run_order": 3,
+      "command": "python src/study.py --source APPROVED_SOURCE --private NEW_PRIVATE_RUN --public reports/NEW_ID --seasons SEASONS --weeks OPTIONAL",
+      "state": "EXECUTABLE_ON_QUALIFIED_SOURCES"
+    },
+    {
+      "category": "rec",
+      "arms": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "run_order": 4,
+      "command": "python src/study.py --source APPROVED_SOURCE --private NEW_PRIVATE_RUN --public reports/NEW_ID --seasons SEASONS --weeks OPTIONAL",
+      "state": "EXECUTABLE_ON_QUALIFIED_SOURCES"
+    }
+  ]
+}

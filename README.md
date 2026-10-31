@@ -1,5 +1,5 @@
-# NFL forecasting NGS Session C
+# Session C NFL research
 
-Focused, bounded Next Gen Stats information study. This is Session C’s sole research repository. A, B and production remain read-only.
+All twelve categories, typed outcome laws, direct threshold models and transparent evidence gaps.
 
-Research changes are prepared on review branches and [pull requests](https://github.com/NickNicky19/NFL-forecasting-NGS-C/pulls). No deployment, recurring collector, paid acquisition or wagers are authorized.
+Read [START_HERE](START_HERE.md) and the [executed all-twelve report](reports/all12-v2.1/README.md). The independent GitHub Pages site is configured by the C-only workflow; actual served state is verified separately. No wagering or changes to A/B/original production.

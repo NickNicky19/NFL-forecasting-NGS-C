@@ -1,0 +1,190 @@
+{
+  "id": "C-USER-NGS-INTAKE-v1",
+  "bundle_sha256": "3fb2d52d1dc336a4c65ade0f12e2d4774e92f03e200a97bf2b41b2adb6d2f01d",
+  "repeated_attachment_same_hash": true,
+  "bundle_verifier": "PASS30payloadfiles+manifest+checksums",
+  "original_files": 25,
+  "distinct_views": 24,
+  "passing_primary_png": 8,
+  "rushing_primary_png": 8,
+  "receiving_primary_HTML": 8,
+  "duplicate_passing_week6_excluded": 1,
+  "receiving_weekly_rows": 501,
+  "receiving_summary_rows": 117,
+  "weekly_counts": {
+    "1": 74,
+    "2": 69,
+    "3": 75,
+    "4": 75,
+    "5": 71,
+    "6": 76,
+    "7": 61
+  },
+  "replica_rows_excluded": 618,
+  "inert_HTML_display_cells_checked": 8652,
+  "inert_HTML_display_mismatches": 0,
+  "HTML": [
+    {
+      "period": "Week 1",
+      "rows": 74,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 37,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 2",
+      "rows": 69,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 38,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 3",
+      "rows": 75,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 39,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 4",
+      "rows": 75,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 40,
+      "source_missing_markers": 1,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 5",
+      "rows": 71,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 41,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 6",
+      "rows": 76,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 42,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Week 7",
+      "rows": 61,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 43,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    },
+    {
+      "period": "Regular Season",
+      "rows": 117,
+      "body_copies": 2,
+      "identical": true,
+      "script_elements": 36,
+      "source_missing_markers": 0,
+      "local_path_markers": 0
+    }
+  ],
+  "existing_weekly_ngs_rows": 501,
+  "exact_text_tuple_matches_not_native_identity_qualification": 501,
+  "unmatched": 0,
+  "ambiguous": 0,
+  "existing_duplicate_text_tuples": 0,
+  "numeric_cells_compared": 6012,
+  "display_precision_compatible": 6007,
+  "numeric_display_conflicts": 4,
+  "missing_or_unqualified_cells": 1,
+  "field_summary": {
+    "cush": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "sep": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "tay": {
+      "compatible": 500,
+      "conflicting": 1,
+      "missing": 0
+    },
+    "tay_pct": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "rec": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "tar": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "ctch_pct": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "yds": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "td": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    },
+    "yac_per_rec": {
+      "compatible": 498,
+      "conflicting": 3,
+      "missing": 0
+    },
+    "expected_yac_per_rec": {
+      "compatible": 500,
+      "conflicting": 0,
+      "missing": 1
+    },
+    "avg_yac_above_expectation": {
+      "compatible": 501,
+      "conflicting": 0,
+      "missing": 0
+    }
+  },
+  "team_code_rule": "Display AZ normalized to standard historical ARI; diagnostic only, no guessed name join or native identity admission",
+  "rounding_note": "Any residual0.05 difference at one-decimal half-boundary is recorded as ambiguous display rounding, not silently corrected source data",
+  "new_evidence": "Original weekly pixels/HTML; explicit2026minimum5targets WR/TE coverage and readable display precision. No new numerical receiving rows under diagnostic tuple reconciliation ifallmatched.",
+  "already_present": "Existing combinedNGS2026receiving weekly rowcount501sameweekcounts; displayprecision comparisons above",
+  "still_unqualified": [
+    "NativeGSIS/event identity fromHTML notauthenticated; texttuple comparison is diagnostic only",
+    "Passing/rushing screenshots need numeric extraction+independentvalidation",
+    "Retrospective October31views not pregame publication snapshots",
+    "Summary included-game cutoff unknown; summaries excludedfromfeatures",
+    "Metric-specific opportunity/model-version provenance inclCP2.0/expectedYAC remainsgated",
+    "RawHTML/NGS publicredistributionrights and browsermetadata privacy notcleared"
+  ],
+  "frozen_experiments_changed": 0,
+  "new_fits": 0,
+  "raw_payload_published": false,
+  "durable_status": "Only public-safe metadata/report in C; rawNGS retainedtemporaryintake pendingrights. Hashes do notclaim recoverableGitHubrawbytes.",
+  "outside_display_rounding_interval_conflicts": 0,
+  "half_unit_boundary_rounding_discrepancies": 4,
+  "conflict_qualification": "Strict half-up rendering differs in4half-unit boundary cells; all are0.05 from displayedone-decimalvalue. Rounding convention/underlying binaryprecision unproven. Preserve both, no replacement or input admission."
+}

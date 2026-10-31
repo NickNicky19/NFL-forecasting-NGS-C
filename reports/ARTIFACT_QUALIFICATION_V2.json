@@ -1,0 +1,37 @@
+{
+  "id": "C-GITHUB-ARTIFACT-QUALIFICATION-v2",
+  "basic_facts": {
+    "bytes": 1380916,
+    "sha256": "4ec6873d9ad80a11de2c0b42b2850a14b3fbbbee198a84cf939bd00aea2e5510",
+    "rights": "ordinary factual statistics; explicit nflverse CC-BY4publisher license/attribution in archive",
+    "excludes": [
+      "NGS",
+      "EPA/CPOE",
+      "offers",
+      "crosswalks",
+      "models",
+      "photos/logos",
+      "original website code"
+    ]
+  },
+  "C0": {
+    "bytes": 9032597,
+    "sha256": "325404a5f5efc096ec743a81deb34d78d49199cd08d4b41779fc3655de5c3c7f",
+    "rights": "C-produced non-NGS numerical model and output artifacts; standard sklearn HGB; ordinary stats basis",
+    "independent_models_verified": 383,
+    "model_byte_parity": "383_OF_383",
+    "consumed_features": 20,
+    "NGS_fields": 0,
+    "offers": 0,
+    "crosswalks": 0,
+    "saved_inference_queries_verified": 342,
+    "inference_max_difference": 0,
+    "only_removed_nonconsumed_field": "ngs_available",
+    "rows": 61445
+  },
+  "rejected_combined_archive": "NOT_PUBLISHED",
+  "offer_rights": "HELD_PENDING_REDISIBUTABLE_EXPORT_OR_PERMISSION",
+  "NGS_rights": "HELD_PENDING_UPSTREAM_QUALIFICATION",
+  "release_asset_attempt": "Actual uploads.github.com HTTP401 Bad credentials; no login/key requested; use permitted small Git artifacts instead. Not an access bypass.",
+  "scope": "This new rights/scope qualification and source-only alternative are separate from the rejected mixed upload. Does not claim original C1/C2 GitHub migration."
+}

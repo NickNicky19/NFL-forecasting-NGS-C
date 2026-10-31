@@ -1,0 +1,12 @@
+{
+  "id": "C-FANTASY-LATTICE-PREFIT-CORRECTION-v1",
+  "at_UTC": "2026-10-31T20:37:21.495074+00:00",
+  "issue": "Binaryfloat fantasy points multipliedby50 can be28.999999999999996; int() wouldtruncate to28. Round to exact lattice coordinate beforetraining.",
+  "fpts_slots_before_correction": 0,
+  "completed_other_slots_preserved": 255,
+  "interrupted_attempts_retained": 0,
+  "scope": "Onlyfuturefpts coordinate encoding changes; no completedfptsfit and no evaluatedfpts score used. Integer-stat training arrays unchanged.",
+  "prior_location_prose_correction": "Code uses int(np.median(y)), truncating half-integer medians towardzero, not literal lower-median prior. Preserve implementedpriors and correctprose; nofit/parameterchange.",
+  "additional_attempt_budget": 0,
+  "total_attempt_cap": 1176
+}

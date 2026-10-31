@@ -1,0 +1,11 @@
+{
+ "id":"C-PILOT-INDEPENDENT-VERIFY-v1","verifier":"separate read-only agent","scope":"2023REGW1-2, five categories C0/C1/C2","new_fits_by_verifier":0,
+ "forecast_rows_checked":4758,"fit_slots_checked":30,"unique_query_category_rows":1586,
+ "checks":{"identical_arm_keys_labels_masks":"PASS","same_training_membership":"PASS","training_availability_strictly_before_origin":"PASS","B_HGB_parameter_architecture":"PASS","saved_C0_inference_39_queries":"BIT_EXACT","saved_C2_inference_297_queries":"BIT_EXACT","fresh_C2_feature_reconstruction_20_queries":"BIT_EXACT","target_and_later_NGS_mutation_invariance":"PASS","target_and_later_outcome_mutation_invariance":"PASS","saved_candidate_forecast_mutation_invariance":"PASS","week_zero_postseason_exclusion":"PASS","GSIS_schedule_team_binding":"PASS","missing_NGS_preserved":"PASS","startup_played_zero_arithmetic":"PASS"},
+ "adverse_result":{"category":"pass_yd","outcomes":73,"C0_MAE":75.91375315667266,"C1_MAE":76.37810319251312,"C2_MAE":77.35533993421612},
+ "role_reversal":{"RB":{"n":166,"C0_MAE":20.206989004091533,"C1_MAE":19.901482006698437,"C2_MAE":20.017305892210363},"QB":{"n":73,"C0_MAE":11.596739845177348,"C1_MAE":11.75839833560933,"C2_MAE":11.724481219849535}},
+ "coverage_limitation":{"receiving_queries_per_arm":597,"outcomes":565,"unknown":32,"eligible_prior_NGS":286},
+ "unestablished":["Actual offered-line win/loss/boundary: no export","Probability complement and threshold score on NFL data: no fitted HGB law","Original A/B row reproduction/intersection: private exports unavailable"],
+ "reconstruction_differences":["C training-median imputation vs B native missing","C last8own/weekly-position fallback vs B accumulated/query-position fallback","Unproven identical source vintage/population"],
+ "conclusion":"Pipeline feasibility and internally exact inference; mixed exposed pilot results, no persistent-skill or A/B superiority claim"
+}

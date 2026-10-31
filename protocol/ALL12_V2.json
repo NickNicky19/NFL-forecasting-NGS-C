@@ -1,0 +1,76 @@
+{
+  "id": "C-ALL12-LAW-THRESHOLD-v2",
+  "authority": "Controlling user forward instruction; AUTHORITY_V2.md",
+  "state": "REGISTERED_BEFORE_NEW_FITS",
+  "primary": "2026REGW1-7,107games; current/revised seven-day reconstruction",
+  "categories": [
+    "pass_yd",
+    "pass_td",
+    "pass_cmp",
+    "pass_att",
+    "pass_int",
+    "rush_yd",
+    "rush_att",
+    "rec",
+    "rec_yd",
+    "rush_rec_yd",
+    "anytime_td",
+    "fpts"
+  ],
+  "families": {
+    "P1": "Frozen original C0 points retained, no refits; real offers held on rights/timing",
+    "P2_LEAF": "32ExtraTrees squared partition,depth8,minleaf30,seed1701,95%leaf+5%earlier-role full-support prior; mean/median/intervals typed",
+    "P3_LOGIT": "Regularized threshold ordinal logit; threshold coefficient constrained nonnegative; direct Bernoulli foranytime",
+    "P3_HGB": "32iteration depth3 nonlinear classifier,monotonic threshold constraint; direct eventanytime",
+    "P4": "unregistered; no market copied"
+  },
+  "information_arms": {
+    "E0_BASE": "B20 architecture reconstruction, no NGS",
+    "E0_OP": "E0_BASE + earlier ordinary attempts/carries/targets and team opportunity counts; control for redundant NGS support",
+    "E0_ENV": "E0_OP + known home/week and eligible prior-game age; no injury/weather invented",
+    "E0_DEF": "E0_ENV + earlier exposure-weighted opponent allowed passing/rushing/receiving; not final ranks",
+    "E1_E2": "held source/retention rights; oldC0/C1/C2 preserved, never relabelled"
+  },
+  "grid": "GRIDS in src/wave_v2.py; synthetic training/diagnostic thresholds, equal weights perquery, not sportsbookoffers",
+  "history": {
+    "H-CURRENT": "2026labels/features/priors only, emptyW1explicitfallback",
+    "H-RECENT": "2025+earlier2026labels/features/priors",
+    "H-MULTI": "2022+eligibleearlierlabels/features/priors"
+  },
+  "fit_policy": "Weekly earliestkickoff; labels+7days strictlyearlier. Each training example featureprefix atownkickoff. Trainingonly imputation. No calibration/tuning on evaluatedoutcomes. No shuffled CV.",
+  "counts_signed_fantasy": "count>=0, signedyards andchart1/50lattice; exactpartialchart zero-supersetqualification with new2026sourcehash501eb74105287596fdf138f3bdc7d0786af71dccc386f811563359ffff203b97; rarepositivecasesunknown",
+  "fallback": "under60training or event singleclass: earlierrole/globalprior; no eligiblehistoryP2point0 (anytimeBernoulli.5), P3neutralhalf-eventreference; wholelineunavailable coldP3",
+  "prior": "counts geometric(mu>=.05); signed discreteLaplace locationlowermedian/MADscale>=1 latticeunit; Bernoulli Laplace1/1; no targetdata. Predeclared5%prior blend, no posthoc smoothing. Infinite losses retained.",
+  "selection": "Real-line rights unresolved; no offered probability/side claims. Synthetic grid direction diagnostics explicitly separate. Interception alwaysUnder diagnostic required. No inventedmarket prices orvenuecontracts.",
+  "six_leg": "Entryquotes/combinationrules unavailable: failclosedNO_QUALIFIED_SIX_LEG_ENTRY, no force6or2tickets. Statistical independence reference/dependency alternative cannot be promoted as venue quote.",
+  "metrics": [
+    "typed MAE/mse,bias/tails",
+    "analytic CRPS",
+    "NLLwithInfinitecounts",
+    "syntheticgridBrier/logloss",
+    "reliabilitydeciles",
+    "role/week/startupcoverage",
+    "pairedgame/week500bootstrap contrasts"
+  ],
+  "pilot": "pass_cmp,H-MULTI,W1,P2E0_BASE+P3logit/HGBE0_OP,3slots. Reuse exact slots in broadrun. Pilot archive mustrestorefromGitHub beforebroad.",
+  "broad_grid": "P2BASE/OP andP3logit/HGBOP,3histories; P2ENV/DEF H-MULTI only,all12x7. 1176slots beforefallbacks.",
+  "budget": {
+    "max_slots": 1176,
+    "max_actualfits": 1176,
+    "new_modelthreads": 1,
+    "cpu_seconds": 1800,
+    "wall_seconds": 2400,
+    "RSS_bytes": 2147483648,
+    "science_artifacts_bytes": 134217728,
+    "whole_temp_cache_peak_bytes": 2147483648,
+    "hyperparametersearches": 0,
+    "new_sourceHTTPmax": 60,
+    "paidcalls": 0
+  },
+  "retention": "GitHub ordinaryfacts+CauthorednonNGS models/rows only, immutable bounded archives; offers/NGS withheld. No largefits until input andpilot restore verified.",
+  "research_exposure": "All periods alreadyexposed; architecturalsettings from priorwork. No freshholdout/pregameissuance/productionpromotion.",
+  "registered_UTC": "2026-10-31T20:31:04.843321+00:00",
+  "input_archive_SHA256": "4ec6873d9ad80a11de2c0b42b2850a14b3fbbbee198a84cf939bd00aea2e5510",
+  "GitHub_input_and_C0_restore_receipt": "reports/GITHUB_RESTORE_INPUTS_V2.json",
+  "NGS_offer_hold": "No P1realoffers/newNGS comparisons until public retentionrights qualified; request pending while independent work proceeds"
+}
