@@ -1,0 +1,10 @@
+{
+ "id":"C-ALL5-INDEPENDENT-VERIFY-v1","verifier":"separate read-only agent","scope":"2022-2025REG full seasons;2026REGW1-7","new_fits_by_verifier":0,
+ "forecast_rows":184335,"unique_query_category_rows":61445,"supported_outcome_category_rows":58185,"fit_slots":1185,"fitted_models":1149,"fallback_slots":36,
+ "checks":{"all_arm_keys_labels_cutoffs_masks":"PASS","all_training_membership_hashes_counts":"PASS","training_labels_strictly_before_origin":"PASS","no_duplicate_queries_across_pilot_continuations":"PASS","all_1656_original_numerical_report_rows":"RECONCILED_WITH_ACTUAL_ROWS","all_324_original_paired_contrasts":"RECONCILED_WITH_ACTUAL_ROWS","complete_micro_season_balanced_15rows":"PASS","saved_2026W7_pass_yd_C0_31queries":"BIT_EXACT","saved_2026W7_rec_yd_C2_272queries":"BIT_EXACT","2024combined_NGS_not_partial_named_files":"PASS","startup_fallback_retained":"PASS"},
+ "adverse_role_result":{"period":"2026REGW1-7","category":"QB rush_yd","outcomes":242,"C0_MAE":10.741718459931532,"C1_MAE":10.724209904094772,"C2_MAE":10.749603823302513},
+ "startup_example":{"period":"2022REG","category":"pass_cmp","outcomes_per_arm":632,"fallback_scored_per_arm":106,"fallback_queries_per_arm":107},
+ "coverage_limitation":{"period":"2024REG","passing_NGS_rows":545,"receiving_NGS_rows":1253,"rushing_NGS_rows":533,"rushing_NGS_games":269,"weeks":18},
+ "remaining_limits":["B architecture reconstructed, not exact original row/input reproduction","A/B common sample unestablished","No actual offered-line win/loss/boundary validation","No fitted HGB probability law","Remote restoration separately verified by parent"],
+ "pooled_information_isolation":"C2 loses to C1 for four categories; receiving-yard difference approximately-0.000404yards. No broad persistent targeted-values gain."
+}

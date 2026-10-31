@@ -1,5 +1,5 @@
 # NFL forecasting NGS Session C
 
-Focused, bounded Next Gen Stats information study. This is Session C’s sole research repository. A, B and production remain read-only.
+The bounded five-category numerical study is complete. Targeted NGS values did not establish a persistent gain beyond historical support/opportunity information. Probability, offered selections and exact A/B superiority remain unestablished.
 
-Research changes are prepared on review branches and [pull requests](https://github.com/NickNicky19/NFL-forecasting-NGS-C/pulls). No deployment, recurring collector, paid acquisition or wagers are authorized.
+Read [START_HERE.md](START_HERE.md) and the [executed category report](reports/complete-v1/README.md). No production changes or wagers.

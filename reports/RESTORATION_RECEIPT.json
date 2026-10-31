@@ -1,0 +1,9 @@
+{
+ "id":"C-PRIVATE-RESTORE-v1","state":"FULL_BYTE_RESTORATION_VERIFIED",
+ "source":{"zip_bytes":8473049,"sha256":"a5364204661ce7a6282df62325b1b3d26795015569f46ebdbd98dbbdd9499461","readable_recovery_parts":14,"exact_archive_byte_equality":true,"zip_integrity":"PASS"},
+ "execution":{"zip_bytes":30700114,"sha256":"5f7d0601e6847405960b831d1efbe45097da41cb2a795ea2f88dd8ff4f991640","readable_recovery_parts":48,"archive_entries":1594,"exact_archive_byte_equality":true,"zip_integrity":"PASS","includes":["1149fittedmodels","all184335forecastrows/labels/features","1185fitmemberships/receipts","attemptlogs","code/config/testsnapshots","aggregateoutputs"]},
+ "storage":"Private user Library. Private reference index and recovery links retained there; no locators in public Git.",
+ "method":"Upload bounded JSON/base64recoveryparts, independently read every part through Files access, save returned source bytes, decode/concatenate in order, compare entire archive against original bytes, and test every ZIP entry.",
+ "Drive_attempt":"220byteprobe restored exactly;8473049bytearchive rejected storageQuotaExceeded. No deletion/sharing/purchase/borrowed A/Bstorage.",
+ "scope":"Parent verifies remote byte recovery; independent agent separately verifies saved inference/arithmetic. No claim independent agent audited storage."
+}
