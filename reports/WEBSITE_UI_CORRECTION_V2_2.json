@@ -1,0 +1,10 @@
+{
+ "id":"C-UI-PRIOR-ROWCOUNT-CORRECTION-v1",
+ "state":"DETECTED_IN_LOCAL_QA_BEFORE_PUBLICATION",
+ "issue":"The new prior-season view intentionally excludes pooled rushingALL; expected21rows/84total incorrectly counted that excluded pool.",
+ "correct":"18rows perseason,72total: four ALL categories plus separate RB/QB rushing panels, three frozenarms each.",
+ "forecast_or_model_change":false,
+ "new_fits":0,
+ "original_study_aggregate_change":false,
+ "action":"Corrected UI QA/count prose to actual intended18rowview; no panel added to satisfy a test. Retain this failed QA receipt."
+}

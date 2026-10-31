@@ -22,6 +22,13 @@ def build(run,docs,report):
  scores=pd.read_csv(report/'SCORES.csv') if (report/'SCORES.csv').exists() else pd.DataFrame()
  summary=scores.replace([float('inf'),-float('inf')],['Infinity','-Infinity']).astype(object).where(pd.notna(scores),None).to_dict('records') if len(scores) else []
  manifest=dict(schema='C-RESEARCH-SITE-v2',categories=[dict(id=k,label=v[0],contract='nick-chart-ppr-v1' if k=='fpts' else 'rush-or-rec-at-least-one-v1' if k=='anytime_td' else 'official-player-fullgame-OT-v1',grid=None) for k,v in CATEGORIES.items()],files=index,source_as_of_UTC=None,source_snapshot_observed_UTC=max(x['retrieval_completion_from_local_mtime_UTC'] for x in json.load(open('reports/SOURCE_MANIFEST.json')) if x['source'].startswith('stats_player_week_')),source_clock_type='observed original local download completion; historical publication/update unknown',evaluation='2026 REG Weeks 1–7',live_offers_available=False,actionable_rankings=False,retention='GitHub facts and C-authored non-NGS evidence; offers/NGS held',summary=summary,site_forecast_views=total)
+ legacy=Path('reports/complete-v1/NUMERICAL.csv')
+ if legacy.exists():
+  old=pd.read_csv(legacy);old=old[(old.season<2026)&(old.horizon.isin(['ALL','RB','QB']))]
+  old=old[((old.target=='rush_yd')&(old.horizon.isin(['RB','QB'])))|((old.target!='rush_yd')&(old.horizon=='ALL'))]
+  manifest['frozen_prior_summary']=old.astype(object).where(pd.notna(old),None).to_dict('records')
+  manifest['frozen_prior_source_sha256']=hashlib.sha256(legacy.read_bytes()).hexdigest()
+  manifest['frozen_prior_evidence']='Original C0/C1/C2 numerical reconstruction; not the new law/threshold wave; NGS-dependent bytes not GitHub-restored'
  lead=report/'LEADERS.csv'
  if lead.exists():
   df=pd.read_csv(lead);manifest['leaders']=df.astype(object).where(pd.notna(df),None).to_dict('records')
