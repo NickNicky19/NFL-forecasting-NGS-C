@@ -33,34 +33,49 @@ class Budget:
     def __init__(self,path,out,roots):
         self.path,self.out,self.roots=path,out,roots
         self.state=json.loads(path.read_text()) if path.exists() else dict(cpu_seconds=0.,wall_seconds=0.,base_fit_attempts=0,calibrator_attempts=0,peak_RSS_bytes=0,peak_cache_bytes=0,stage_receipts=[])
-        self.cpu=time.process_time();self.wall=time.monotonic();self.check()
+        if self.state.get('active_stage'):raise RuntimeError('UNCLEAN_STAGE_BUDGET_RESERVED_REVIEW_REQUIRED')
+        self.cpu=time.process_time();self.wall=time.monotonic();self.stage_cpu=self.cpu;self.stage_wall=self.wall;self.check()
     def check(self):
-        cpu=self.state['cpu_seconds']+time.process_time()-self.cpu
-        wall=self.state['wall_seconds']+time.monotonic()-self.wall
+        self.checkpoint()
+        cpu=self.state['cpu_seconds'];wall=self.state['wall_seconds']
         rss=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024
         cache=sum(tree_bytes(r) for r in self.roots)
         self.state['peak_RSS_bytes']=max(rss,self.state['peak_RSS_bytes'])
         self.state['peak_cache_bytes']=max(cache,self.state['peak_cache_bytes'])
+        self.persist()
         if cpu>600 or wall>900:raise RuntimeError('CUMULATIVE_TIME_CAP')
         if rss>1073741824:raise RuntimeError('RSS_CAP')
         if cache>2147483648:raise RuntimeError('WHOLE_C_CACHE_CAP')
         if tree_bytes(self.out)>67108864:raise RuntimeError('NEW_SCIENCE_CAP')
         self.persist()
+    def checkpoint(self):
+        cpu,wall=time.process_time(),time.monotonic()
+        self.state['cpu_seconds']+=cpu-self.cpu;self.state['wall_seconds']+=wall-self.wall
+        self.cpu,self.wall=cpu,wall;self.persist()
     def persist(self):write(self.path,self.state)
     def attempt(self,kind):
         key='base_fit_attempts' if kind=='base' else 'calibrator_attempts';cap=216 if kind=='base' else 12
         if self.state[key]>=cap:raise RuntimeError('FIT_ATTEMPT_CAP')
         self.state[key]+=1;self.persist()
     def __enter__(self):
+        self.state['active_stage']=dict(pid=os.getpid(),started_UTC=pd.Timestamp.now(tz='UTC').isoformat(),unclean_exit_policy='Remaining stage budget reserved; no automatic resume or unmetered tail')
+        self.persist()
         self.old=signal.signal(signal.SIGPROF,lambda *_:(_ for _ in ()).throw(RuntimeError('CUMULATIVE_CPU_TIMER')))
         signal.setitimer(signal.ITIMER_PROF,max(.01,600-self.state['cpu_seconds']));return self
     def __exit__(self,typ,value,tb):
         signal.setitimer(signal.ITIMER_PROF,0);signal.signal(signal.SIGPROF,self.old)
-        c=time.process_time()-self.cpu;w=time.monotonic()-self.wall
-        self.state['cpu_seconds']+=c;self.state['wall_seconds']+=w
+        self.checkpoint();c=time.process_time()-self.stage_cpu;w=time.monotonic()-self.stage_wall
         self.state['peak_RSS_bytes']=max(self.state['peak_RSS_bytes'],resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024)
         self.state['stage_receipts'].append(dict(finished_UTC=pd.Timestamp.now(tz='UTC').isoformat(),cpu_seconds=c,wall_seconds=w,state='PASS' if typ is None else str(value)))
+        self.state['active_stage']=None
         self.persist()
+
+def validate_raw_done(dest,code,sources):
+    if not (dest/'DONE.json').exists():return False
+    saved=json.loads((dest/'DONE.json').read_text())
+    assert saved['code_sha256']==code and saved['source_sha256']==sources,'FROZEN_LAUNCH_PROVENANCE_CHANGED'
+    assert saved['model_sha256']==sha(dest/'model.pkl.gz') and saved['row_sha256']==sha(dest/'rows.json.gz'),'FROZEN_SLOT_BYTES_CHANGED'
+    return True
 
 def training_indices(pool,target,origin):
     return [i for i,r in enumerate(pool) if 2022<=r['season']<=2025 and r['available']<origin and r['values'][target] is not None]
@@ -73,13 +88,13 @@ def raw_wave(inputs,out,budget,pilot=False):
     hist,th=History(d,'player_id'),History(teams,'team');records=d.to_dict('records')
     for target in (['pass_cmp'] if pilot else CATEGORIES):
         weeks=[1] if pilot else list(range(1,19))
-        if all((out/'raw'/target/f'W{w:02}'/'DONE.json').exists() for w in weeks):continue
+        if all(validate_raw_done(out/'raw'/target/f'W{w:02}',code,sources) for w in weeks):continue
         pool=[r for r in records if r['position'] in admitted_roles(target)]
         x=np.asarray([vector(r,target,hist,th,'E0_OP') for r in pool],float)
         kind,scale=CATEGORIES[target][2:4];grid=np.asarray(GRIDS[target]);budget.check()
         for week in weeks:
             dest=out/'raw'/target/f'W{week:02}'
-            if (dest/'DONE.json').exists():continue
+            if validate_raw_done(dest,code,sources):continue
             origin=float(g.loc[(g.season==2025)&(g.week==week),'kickoff'].min())
             ti=training_indices(pool,target,origin);qi=[i for i,r in enumerate(pool) if r['season']==2025 and r['week']==week]
             train=[pool[i] for i in ti];query=[pool[i] for i in qi];tx,qx=x[ti],x[qi]
@@ -87,7 +102,7 @@ def raw_wave(inputs,out,budget,pilot=False):
             learned=len(ti)>=60 and (kind!='event' or len(np.unique(y))==2)
             meta=dict(version=VERSION,target=target,season=2025,week=week,family='P2_LEAF',arm='E0_OP',history='H-MULTI',origin_UTC=pd.Timestamp(origin,unit='s',tz='UTC').isoformat(),training_rows=len(ti),latest_training_available=max([r['available'] for r in train],default=None),training_membership_sha256=hashlib.sha256('\n'.join(r['game_id']+':'+r['player_id'] for r in train).encode()).hexdigest(),learned=learned,source_sha256=sources,code_sha256=code)
             if (dest/'ATTEMPT.json').exists():
-                old=json.loads((dest/'ATTEMPT.json').read_text());assert old['training_membership_sha256']==meta['training_membership_sha256']
+                old=json.loads((dest/'ATTEMPT.json').read_text());assert old==meta,'FROZEN_ATTEMPT_PROVENANCE_CHANGED'
                 if not (dest/'model.pkl.gz').exists():raise RuntimeError('UNRETAINED_ATTEMPT_NEEDS_EXPLICIT_FAILURE_REVIEW')
             else:write(dest/'ATTEMPT.json',meta,True)
             if (dest/'model.pkl.gz').exists():
@@ -133,20 +148,27 @@ def calibrated(cal,p):
     return p.copy() if cal['identity_fallback'] else expit(cal['a']+cal['b']*logit(np.clip(p,1e-6,1-1e-6)))
 
 def calibrate(out,old,budget):
+    launch=sha(Path(__file__))
     for target in CATEGORIES:
         dest=out/'calibration'/target
-        if (dest/'DONE.json').exists():continue
         files=sorted((out/'raw'/target).glob('W*/rows.json.gz'));assert len(files)==18
         rows=[r for f in files for r in json.loads(gzip.decompress(f.read_bytes()))]
         hashes={f.parent.name:sha(f) for f in files}
-        if (dest/'calibrator.json').exists():cal=json.loads((dest/'calibrator.json').read_text())
+        paths=sorted(old.glob(f'*-{target}-H-MULTI-P2_LEAF-E0_OP-W*/rows.json.gz'));assert len(paths)==7
+        oldhashes={f.parent.name:sha(f) for f in paths}
+        if (dest/'DONE.json').exists():
+            done=json.loads((dest/'DONE.json').read_text());cal=json.loads((dest/'calibrator.json').read_text())
+            assert done['calibrator_sha256']==sha(dest/'calibrator.json') and done['row_sha256']==sha(dest/'rows-2026.json.gz')
+            assert cal['OOF_row_hashes']==hashes and cal['launch_SHA256']==launch and cal['raw_2026_row_hashes']==oldhashes
+            continue
+        if (dest/'calibrator.json').exists():
+            cal=json.loads((dest/'calibrator.json').read_text());assert cal['OOF_row_hashes']==hashes and cal['launch_SHA256']==launch and cal['raw_2026_row_hashes']==oldhashes
         else:
             budget.check();budget.attempt('cal')
             with threadpool_limits(limits=1):cal=fit_calibrator(rows)
-            cal.update(version=CAL_VERSION,target=target,training_season=2025,OOF_row_hashes=hashes,fit_UTC=pd.Timestamp.now(tz='UTC').isoformat(),formula='sigmoid(a+b*logit(clip(p,1e-6,1-1e-6))),b>=0',penalty='.001/2*(a^2+(b-1)^2)',product='REGISTERED_THRESHOLD_EVENT_PROBABILITIES_ONLY_NOT_COMPLETE_LAW')
+            cal.update(version=CAL_VERSION,target=target,training_season=2025,OOF_row_hashes=hashes,raw_2026_row_hashes=oldhashes,launch_SHA256=launch,fit_UTC=pd.Timestamp.now(tz='UTC').isoformat(),formula='sigmoid(a+b*logit(clip(p,1e-6,1-1e-6))),b>=0',penalty='.001/2*(a^2+(b-1)^2)',product='REGISTERED_THRESHOLD_EVENT_PROBABILITIES_ONLY_NOT_COMPLETE_LAW')
             write(dest/'calibrator.json',cal,True)
         packet=[]
-        paths=sorted(old.glob(f'*-{target}-H-MULTI-P2_LEAF-E0_OP-W*/rows.json.gz'));assert len(paths)==7
         earliest=min(pd.Timestamp(r['as_of_UTC']).timestamp() for path in paths for r in json.loads(gzip.decompress(path.read_bytes())))
         assert max(pd.Timestamp(r['kickoff_UTC']).timestamp()+7*86400 for r in rows)<earliest
         # No 2026 actual is read by fit_calibrator; the fixed transform is already frozen.

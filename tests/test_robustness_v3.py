@@ -35,3 +35,5 @@ class Robustness(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError,'FIT_ATTEMPT_CAP'):b.attempt('base')
             data=json.loads(ledger.read_text());self.assertEqual(len(data['stage_receipts']),2)
             self.assertGreater(data['cpu_seconds'],0)
+            data['active_stage']={'pid':999999,'unclean_exit_policy':'reserved'};ledger.write_text(json.dumps(data))
+            with self.assertRaisesRegex(RuntimeError,'UNCLEAN_STAGE'):Budget(ledger,out,[root])
