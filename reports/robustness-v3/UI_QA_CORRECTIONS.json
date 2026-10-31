@@ -1,0 +1,15 @@
+{
+  "id": "C-V3-UI-QA-CORRECTIONS-v1",
+  "corrections": [
+    {
+      "issue": "Manifest aggregate counter still described original-only157356views after appending84calibrationchunks",
+      "corrected": "174840siteviews across840files; raw244776scientificviews remain separate"
+    },
+    {
+      "issue": "Playwright is_disabled() returned false for an HTML option whose actual disabled attribute/property istrue",
+      "evidence": "DOMinspection confirmed H-CURRENT/H-RECENT disabled and H-MULTI selected for sigmoid; test now checks actual option.disabled property"
+    }
+  ],
+  "model_or_forecast_changes": false,
+  "new_fits": 0
+}

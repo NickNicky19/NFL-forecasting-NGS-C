@@ -1,5 +1,5 @@
 """Scores and comparisons from immutable v3 rows; performs no fitting."""
-import argparse,gzip,json,math
+import argparse,gzip,json,math,zipfile
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -30,7 +30,10 @@ def proper_metrics(rows,policy):
 def subsets(rows):
     target=rows[0]['target'];roles=sorted({r['position'] for r in rows});weeks=sorted({r['week'] for r in rows})
     yield 'ALL',rows
-    yield 'PRIMARY',[r for r in rows if r['position'] in CATEGORIES[target][4]]
+    primary=[r for r in rows if r['position'] in CATEGORIES[target][4]]
+    yield 'PRIMARY',primary
+    yield 'W1-4-PRIMARY',[r for r in primary if r['week']<=4]
+    yield 'W5+-PRIMARY',[r for r in primary if r['week']>=5]
     yield 'W1-4',[r for r in rows if r['week']<=4]
     yield 'W5+',[r for r in rows if r['week']>=5]
     yield 'LEARNED',[r for r in rows if not r['fallback']]
@@ -40,6 +43,7 @@ def subsets(rows):
         yield 'W5+-'+role,[r for r in q if r['week']>=5]
     for week in weeks:
         q=[r for r in rows if r['week']==week];yield 'W'+str(week),q
+        yield 'W'+str(week)+'-PRIMARY',[r for r in q if r['position'] in CATEGORIES[target][4]]
         for role in roles:yield 'W'+str(week)+'-'+role,[r for r in q if r['position']==role]
 
 def intervals(rows,delta):
@@ -48,6 +52,22 @@ def intervals(rows,delta):
         d=pd.DataFrame(dict(cluster=[r[key] for r in rows],delta=delta));g=d.groupby('cluster').delta.agg(['sum','count']);rng=np.random.default_rng(1701);i=rng.integers(0,len(g),(500,len(g)));v=g['sum'].to_numpy()[i].sum(axis=1)/g['count'].to_numpy()[i].sum(axis=1)
         result[key+'_clusters']=len(g);result[key+'_ci95']=list(map(float,np.quantile(v,[.025,.975])))
     return result
+
+def compare_frozen_c0(all_rows,archive,dest):
+    old=json.loads(gzip.decompress(zipfile.ZipFile(archive).read('rows.json.gz')));old=[r for r in old if r['season']==2025];out=[]
+    for target in sorted({r['target'] for r in old}):
+        lookup={(r['game_id'],r['player_id'],r['position']):r for r in all_rows[target][0]}
+        pairs=[]
+        for r in [r for r in old if r['target']==target]:
+            n=lookup[(r['game_id'],r['player_id'],r['position'])]
+            assert r['actual']==n['actual'] and r['kickoff']==pd.Timestamp(n['kickoff_UTC']).timestamp() and r['origin']==pd.Timestamp(n['fit_origin_UTC']).timestamp()
+            pairs.append((r,n))
+        for role in ['ALL']+sorted({r['position'] for r,n in pairs}):
+            q=[(r,n) for r,n in pairs if role=='ALL' or r['position']==role];known=[(r,n) for r,n in q if r['actual'] is not None]
+            old_loss=np.asarray([abs(r['point']-r['actual']) for r,n in known]);new_loss=np.asarray([abs(n['median']-n['actual']) for r,n in known]);delta=new_loss-old_loss
+            out.append(dict(target=target,role=role,queries=len(q),outcomes=len(known),label_disagreements=0,cutoff_disagreements=0,old_C0_MAE=float(old_loss.mean()),new_P2_OP_MAE=float(new_loss.mean()),change=float(delta.mean()),comparison='C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction',**intervals([n for r,n in known],delta)))
+    (dest/'C0_2025_MATCHES.json').write_text(json.dumps(out,indent=2)+'\n')
+    return out
 
 def report(root,dest):
     dest.mkdir(parents=True,exist_ok=True);scores=[];pairs=[];calibration=[];primary=[];all_rows={}
@@ -84,6 +104,7 @@ def report(root,dest):
         a=s[(s.target==t)&(s.horizon==horizon)&(s.policy=='RAW_2025')].iloc[0];b=next(r for r in primary if r['target']==t)
         summary.append(dict(target=t,primary_panel=horizon,raw2025_median_MAE=a.median_mae,raw2025_Brier=a.grid_brier,raw2025_prevalence_Brier=a.prevalence_brier,raw2025_outcomes=int(a.outcomes),raw2025_queries=int(a.queries),raw2025_fallback=int(a.fallback_queries),**{k:v for k,v in b.items() if k not in ['target','horizon']}))
     pd.DataFrame(summary).to_csv(dest/'CATEGORY_SUMMARY.csv',index=False)
+    compare_frozen_c0(all_rows,Path('artifacts/c0-frozen-v1.zip'),dest)
     total=dict(id='C-2025-OOF-CALIBRATION-v3',raw_slots=len(list((root/'raw').glob('*/*/DONE.json'))),calibrators=len(list((root/'calibration').glob('*/DONE.json'))),raw2025_queries=sum(len(a) for a,b in all_rows.values()),raw2025_outcomes=sum(r['actual'] is not None for a,b in all_rows.values() for r in a),saved2026_queries=sum(len(b) for a,b in all_rows.values()),saved2026_outcomes=sum(r['actual'] is not None for a,b in all_rows.values() for r in b),unique2025_games=len({r['game_id'] for a,b in all_rows.values() for r in a}),new2026_base_fits=0,NGS_new_inputs=0,offered_sides='UNAVAILABLE_NOT_GRADED',six_leg='NO_QUALIFIED_SIX_LEG_ENTRY',source_tier='current_revised_seven_day_reconstruction',research_exposed=True)
     (dest/'EXECUTED.json').write_text(json.dumps(total,indent=2)+'\n');print(total)
     text=['# 2025 rolling validation and earlier-trained calibration','',
@@ -96,6 +117,7 @@ def report(root,dest):
         text.append(f'|{r["target"]} / {r["primary_panel"]}|{mae}|{r["raw2025_Brier"]:.6f} / {r["raw2025_prevalence_Brier"]:.6f}|{r["raw2025_outcomes"]}/{r["raw2025_queries"]}|{r["raw_Brier"]:.6f} → {r["calibrated_Brier"]:.6f}|{r["delta_Brier"]:+.6f} [{ci[0]:+.6f},{ci[1]:+.6f}]|{r["outcomes"]}/{r["queries"]}|')
     text+=['','All query masks/unknowns remain. Rushing RB and QB and receiving RB/WR/TE panels are reported separately in [SCORES.csv](SCORES.csv). Full, weekly, startup, learned-only, strict/inclusive1native-unit and tail views are retained. Do not rank categories using native-unit errors. Seven2026week clusters and exposed design/multiple tests limit uncertainty interpretation. [Paired records](PAIRED.json) retain every interval, gain and reversal. [Reliability](RELIABILITY.csv) describes actual raw and transformed probabilities, not guaranteed calibration improvement.','',
                'Raw2025performance is a genuine chronological reconstruction. No calibrated2025performance is claimed: the2025OOFrecords train the sigmoid. The actual final2026probabilities are also reconstructions generated after those games, not original issued forecasts. Source revisions, retrospective participant-only population, partial chart rare-component labels, and the assumed7day availability rule remain unchanged.','',
+               'The separate [frozen C0 benchmark](C0_2025_MATCHES.json) matches all five original categories to new2025rows, verifying exact labels/gamekickoffs/fitcutoffs without refitting C0. This compares whole procedures: both learner and added ordinary opportunity change. It is not an isolated information ablation or exact A/Breproduction. Full new populations remain separate from the reduced oldC0 rushing panel.','',
                'Real Over/Under W/L/decided/rates, A/C and B/C exact matching, six-leg success, payouts/profit and price-aware value remain N/A pending the exact previously listed exports/contracts. No anytimeNO/Under offer or chart market is created. NGSintake is a repeatedbyteidentical packet and adds no modelinput; the original failed/inconclusive NGSrecipe remains frozen.','']
     (dest/'README.md').write_text('\n'.join(text))
 

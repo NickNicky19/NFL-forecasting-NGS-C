@@ -1,0 +1,56 @@
+{
+  "cpu_seconds": 447.39515897100006,
+  "wall_seconds": 447.774947828997,
+  "base_fit_attempts": 216,
+  "calibrator_attempts": 12,
+  "peak_RSS_bytes": 580513792,
+  "peak_cache_bytes": 1971836954,
+  "stage_receipts": [
+    {
+      "finished_UTC": "2026-10-31T22:24:48.299702+00:00",
+      "cpu_seconds": 6.9891795409999995,
+      "wall_seconds": 7.011230580999836,
+      "state": "PASS"
+    },
+    {
+      "finished_UTC": "2026-10-31T22:33:38.853868+00:00",
+      "cpu_seconds": 378.635477593,
+      "wall_seconds": 378.95317903999967,
+      "state": "NEW_SCIENCE_CAP"
+    },
+    {
+      "finished_UTC": "2026-10-31T22:36:15.187428+00:00",
+      "cpu_seconds": 37.076434476,
+      "wall_seconds": 37.09530931700101,
+      "state": "PASS"
+    },
+    {
+      "finished_UTC": "2026-10-31T22:37:19.271659+00:00",
+      "cpu_seconds": 9.376677361999999,
+      "wall_seconds": 9.380774082999778,
+      "state": "PASS"
+    },
+    {
+      "finished_UTC": "2026-10-31T22:38:03.323628+00:00",
+      "cpu_seconds": 7.357116479,
+      "wall_seconds": 7.36179360099959,
+      "state": "PASS"
+    },
+    {
+      "finished_UTC": "2026-10-31T22:40:13.444570+00:00",
+      "cpu_seconds": 7.973933850000001,
+      "wall_seconds": 7.976391207999768,
+      "state": "PASS"
+    }
+  ],
+  "active_stage": null,
+  "resource_amendment": "C-V3-RETENTION-CONTINUATION-R1",
+  "resource_driver_SHA256": "4d8d37bf831d0d31893ce3fdddeb6c044ce0ad246eb958e679540787fd446189",
+  "canonical_science_bytes": 79828467,
+  "GitHub_archive_bytes": 79658331,
+  "original_2026_fits_repeated": 0,
+  "whole_cache_cap_R1_bytes": 2684354560,
+  "science_cap_R1_bytes": 100663296,
+  "resource_definition": "CPU/wall cumulative active scienceworker stages; restore/browser/transfer phases separately verified, not claimed included",
+  "original_cap_failure": "ARTIFACT_CAP_HALT.json;207savedslots preserved"
+}

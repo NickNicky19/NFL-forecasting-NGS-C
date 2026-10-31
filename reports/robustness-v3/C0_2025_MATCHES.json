@@ -1,0 +1,332 @@
+[
+  {
+    "target": "pass_cmp",
+    "role": "ALL",
+    "queries": 664,
+    "outcomes": 664,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 6.01538090743535,
+    "new_P2_OP_MAE": 5.8102409638554215,
+    "change": -0.20513994357992907,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.35536109183680087,
+      -0.0559751152239121
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.32733497822045465,
+      -0.08568311024849275
+    ]
+  },
+  {
+    "target": "pass_cmp",
+    "role": "QB",
+    "queries": 664,
+    "outcomes": 664,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 6.01538090743535,
+    "new_P2_OP_MAE": 5.8102409638554215,
+    "change": -0.20513994357992907,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.35536109183680087,
+      -0.0559751152239121
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.32733497822045465,
+      -0.08568311024849275
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "role": "ALL",
+    "queries": 664,
+    "outcomes": 664,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 70.2081730576204,
+    "new_P2_OP_MAE": 68.6867469879518,
+    "change": -1.5214260696685988,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -3.003623243122519,
+      -0.046237993771704754
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -2.8255996007137045,
+      -0.07591939866370422
+    ]
+  },
+  {
+    "target": "pass_yd",
+    "role": "QB",
+    "queries": 664,
+    "outcomes": 664,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 70.2081730576204,
+    "new_P2_OP_MAE": 68.6867469879518,
+    "change": -1.5214260696685988,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -3.003623243122519,
+      -0.046237993771704754
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -2.8255996007137045,
+      -0.07591939866370422
+    ]
+  },
+  {
+    "target": "rec",
+    "role": "ALL",
+    "queries": 5373,
+    "outcomes": 4994,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 1.2340754477074627,
+    "new_P2_OP_MAE": 1.2034441329595515,
+    "change": -0.030631314747911347,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.04259741610946382,
+      -0.018153542748466797
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.04311239101728197,
+      -0.018283001581360155
+    ]
+  },
+  {
+    "target": "rec",
+    "role": "RB",
+    "queries": 1575,
+    "outcomes": 1475,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 1.0744709478044705,
+    "new_P2_OP_MAE": 1.0501694915254238,
+    "change": -0.02430145627904682,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.04702947169799227,
+      -0.004757543510638554
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.04882265973729669,
+      -0.0006806072333288811
+    ]
+  },
+  {
+    "target": "rec",
+    "role": "TE",
+    "queries": 1287,
+    "outcomes": 1129,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 1.2411775505686913,
+    "new_P2_OP_MAE": 1.2019486271036315,
+    "change": -0.039228923465059705,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.06461542319869827,
+      -0.013502010850496326
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.06891156186199116,
+      -0.00908567268543914
+    ]
+  },
+  {
+    "target": "rec",
+    "role": "WR",
+    "queries": 2511,
+    "outcomes": 2390,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 1.3292212063796747,
+    "new_P2_OP_MAE": 1.298744769874477,
+    "change": -0.03047643650519782,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.04840724188504969,
+      -0.01264701218187883
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.04505462251673312,
+      -0.01497133649584586
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "role": "ALL",
+    "queries": 5373,
+    "outcomes": 4994,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 16.018542528185357,
+    "new_P2_OP_MAE": 15.74068882659191,
+    "change": -0.2778537015934486,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.38388164925612045,
+      -0.1702169013772956
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.3686925536038342,
+      -0.18061525857711727
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "role": "RB",
+    "queries": 1575,
+    "outcomes": 1475,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 9.738978385327634,
+    "new_P2_OP_MAE": 9.39050847457627,
+    "change": -0.3484699107513637,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.5329411141860481,
+      -0.19625912807347862
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.5149428797986744,
+      -0.16990288289708597
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "role": "TE",
+    "queries": 1287,
+    "outcomes": 1129,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 15.61513288725079,
+    "new_P2_OP_MAE": 15.442869796279894,
+    "change": -0.1722630909708981,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.33288274648040694,
+      0.004219349389618682
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.3420188766077466,
+      -0.01757046351359186
+    ]
+  },
+  {
+    "target": "rec_yd",
+    "role": "WR",
+    "queries": 2511,
+    "outcomes": 2390,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 20.084570392340282,
+    "new_P2_OP_MAE": 19.800418410041843,
+    "change": -0.2841519822984422,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.4378874712804751,
+      -0.10613734047469206
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.4571197293136547,
+      -0.09478650689819747
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "role": "ALL",
+    "queries": 2239,
+    "outcomes": 2139,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 17.31118160778715,
+    "new_P2_OP_MAE": 17.172978027115473,
+    "change": -0.13820358067167607,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.28382678508661746,
+      0.012201665997235277
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.2796703844083658,
+      0.025634708439003707
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "role": "QB",
+    "queries": 664,
+    "outcomes": 664,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 11.170194497284372,
+    "new_P2_OP_MAE": 11.103915662650602,
+    "change": -0.06627883463377039,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.28176660829298006,
+      0.16610048096394536
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.23729913217073756,
+      0.11957116684398895
+    ]
+  },
+  {
+    "target": "rush_yd",
+    "role": "RB",
+    "queries": 1575,
+    "outcomes": 1475,
+    "label_disagreements": 0,
+    "cutoff_disagreements": 0,
+    "old_C0_MAE": 20.075666652786367,
+    "new_P2_OP_MAE": 19.90508474576271,
+    "change": -0.17058190702365536,
+    "comparison": "C_OWN_PROCEDURE_BENCHMARK; learner and ordinaryopportunity both change, not isolated NGS or A/Breproduction",
+    "game_id_clusters": 272,
+    "game_id_ci95": [
+      -0.36511754660160256,
+      0.045490860050000054
+    ],
+    "week_clusters": 18,
+    "week_ci95": [
+      -0.3375147389318665,
+      0.04262294972088128
+    ]
+  }
+]
