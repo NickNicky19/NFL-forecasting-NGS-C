@@ -9,3 +9,5 @@ Validate the served `build.json` commit, manifest hash and representative assets
 The first publication can rehearse redeploying its verified immutable tag. That demonstrates recovery mechanics, not a rollback to an earlier production release that did not exist. Later releases can recover the earlier verified tag through the same checked route. Do not force-push tags or evidence.
 
 If Pages configuration is denied, there is no deployed state to roll back. The repository owner must enable GitHub Actions in this C repository's Settings → Pages; do not substitute another repository or hosting service.
+
+Push deployments follow changes to the committed site assets, this workflow, or site verification/build scripts. Evidence-only receipts do not redeploy the unchanged site. Every pull request still runs the checks, and manual recovery remains available. This keeps the served asset commit distinct from later research receipts; neither a receipt nor a build refreshes forecast/quote timestamps.

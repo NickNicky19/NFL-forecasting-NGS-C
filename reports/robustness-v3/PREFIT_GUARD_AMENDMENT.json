@@ -1,0 +1,24 @@
+{
+  "id": "C-V3-PREFIT-GUARD-AMENDMENT-v1",
+  "recorded_UTC": "2026-10-31T22:24:25.529148+00:00",
+  "new_NFL_fits_before_amendment": 0,
+  "independent_preflight": "All216chronologicalprefixes checked; raw/calibration method consistent; guard issues identifiedbeforepilot",
+  "guard_changes": [
+    "DONE/source/code/model/row hashes validated before reuse",
+    "Calibrator binds actual2025OOF and frozen2026source row hashes plus launchcode; no silent changed-provenance resume",
+    "CPU/wall actual checkpoint updates persist before/after slots",
+    "Unclean missing-exit ledger reserves remaining budget and blocks automatic resume, so an unmeasured crash cannot reset budgets",
+    "Include existing C reference-copy bytes in nonoverlapping wholeCcache roots"
+  ],
+  "scientific_method_change": false,
+  "budget_caps_unchanged": true,
+  "wall_budget": "Cumulative activeworker walltime, not reviewer/GitHub waitingtime",
+  "peak_cache_preflight_bytes": 1890444052,
+  "code_sha256": {
+    "robustness_v3.py": "f97d09b8dd81ef40ce9d314c4a1c1046caae56ad8884c138624666d6ab3a50fe",
+    "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+    "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+    "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+    "wave_v2.py": "cfa0521578c8ec9c77ceae1727adf0300e351837cd0a7b1f2369d5575c3fb640"
+  }
+}

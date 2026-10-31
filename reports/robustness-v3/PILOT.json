@@ -1,0 +1,30 @@
+{
+  "id": "C-V3-PILOT-v1",
+  "state": "FEASIBILITY_NOT_SKILL_CONFIRMATION",
+  "slot": "2025REGW1pass_cmp/P2_LEAF/E0_OP/H-MULTI",
+  "archive": "artifacts/robustness-pilot-v3.zip",
+  "SHA256": "9205534a65062a46d5ab347d46069de9ac3127daa58e3e25ab57ec2b2f67b7f4",
+  "bytes": 105501,
+  "new_base_fits": 1,
+  "queries": 34,
+  "outcomes": 34,
+  "training_rows": 1959,
+  "median_MAE": 5.4411764705882355,
+  "synthetic_Brier": 0.14936095359667703,
+  "active_CPU_seconds": 6.9846218239999995,
+  "active_wall_seconds": 7.010366218999479,
+  "peak_RSS_bytes": 213573632,
+  "science_slot_bytes": 105894,
+  "independent_readonly_verification": "All34queries re-infer bit-exact, memberships/features/labels/training-onlymedians/proper scores exact; target/futuremutations invariant; no verifierfits",
+  "frozen_wave_rerun": false,
+  "reuse_pilot_in_broad": true,
+  "broad_cap_remains": {
+    "raw_slots": 216,
+    "new_remaining_base_slots": 215,
+    "calibrator_fits": 12,
+    "CPU_seconds": 600,
+    "wall_seconds": 900,
+    "science_bytes": 67108864,
+    "whole_C_cache_bytes": 2147483648
+  }
+}
