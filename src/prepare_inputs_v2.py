@@ -16,7 +16,7 @@ def prepare(source,reference,out,old_runs):
  g=pd.read_csv(source/'schedules.csv');g=g[(g.game_type=='REG')&g.season.between(2022,2026)&((g.season!=2026)|(g.week<=7))]
  g[['game_id','season','week','game_type','gameday','gametime','home_team','away_team','home_score','away_score']].to_csv(out/'schedule.csv',index=False)
  # Identity mapping only. Current roster/position/team fields are never used.
- players=pd.read_csv(reference/'players.csv',low_memory=False,dtype={'sleeper_id':'string','gsis_id':'string'})
+ players=pd.read_csv(reference/'dp-ids.csv',low_memory=False,dtype={'sleeper_id':'string','gsis_id':'string'})
  players[['gsis_id','sleeper_id']].dropna().drop_duplicates().to_csv(out/'identity.csv.gz',index=False,compression={'method':'gzip','mtime':0})
  pinfo=[];offers=[]
  for week in range(4,8):
@@ -27,8 +27,9 @@ def prepare(source,reference,out,old_runs):
     offers.append(dict(offer_id=f'C-DK-DIAG-W{week}-{player["id"]}-{prop["key"]}',season=2026,week=week,sleeper_id=player['id'],historical_team=player['team'],historical_opponent=player['opp'],native_event_id=player.get('game_id'),category=prop['key'],line=prop['line'],venue='DraftKings recorded attribution',offered_sides='OVER|UNDER',price=None,quote_time_UTC=None,archive_saved_at_UTC=j['saved_at'],evidence_tier='TIMING_UNVERIFIED_LINE_DIAGNOSTIC',settlement_contract='UNKNOWN',entry_eligibility='UNKNOWN'))
  pd.DataFrame(offers).to_csv(out/'offers.csv',index=False)
  manifest.append(dict(id='SITE-DK-FACTS',sources=pinfo,rows=len(offers),rights='C-authored minimal normalized factual lines/IDs, no original code/UI/raw archive copied',timing='Saved archive clock does not prove quote time or earlier availability; postgame clocks retained'))
+ manifest.append(dict(id='IDENTITY-FACTS',source='https://raw.githubusercontent.com/dynastyprocess/data/master/files/db_playerids.csv',source_sha256=sha(reference/'dp-ids.csv'),retained='Only stable GSIS/Sleeper identifier pairs; current roster/team/position and name joins excluded'))
  manifest.append(dict(id='SCHEDULE-FACTS',source='https://github.com/nflverse/nfldata',source_sha256=sha(source/'schedules.csv'),retained='Minimal numerical schedule/team/event/date/finality facts; no source code copied',rows=len(g)))
- (out/'manifest.json').write_text(json.dumps(manifest,indent=2));(out/'ATTRIBUTION.md').write_text('Numerical NFL statistics supplied by nflverse/nflverse-data (CC-BY-4.0), generated with nflfastR calculate_stats. Stable ID crosswalk from nflverse players. Minimal schedule facts from nflverse/nfldata. Recorded DraftKings line facts extracted from NickNicky19/nicks-expert-nfl-picks at pinned commit57269ffc451e81d19ace9fea263c97b6d79b4060; timing/settlement unverified. C filtered fields, normalized records and excluded NGS/derived fields. NFL/team/player marks and upstream source rights are not licensed by C. No player pictures, logos or source website code copied.\n')
+ (out/'manifest.json').write_text(json.dumps(manifest,indent=2));(out/'ATTRIBUTION.md').write_text('Numerical NFL statistics supplied by nflverse/nflverse-data (CC-BY-4.0), generated with nflfastR calculate_stats. Stable GSIS/Sleeper identifier facts from dynastyprocess/data, db_playerids.csv. Minimal schedule facts from nflverse/nfldata. Recorded DraftKings line facts extracted from NickNicky19/nicks-expert-nfl-picks at pinned commit57269ffc451e81d19ace9fea263c97b6d79b4060; timing/settlement unverified. C filtered fields, normalized records and excluded NGS/derived fields. NFL/team/player marks and upstream source rights are not licensed by C. No player pictures, logos or source website code copied.\n')
  (out/'LICENSE-CC-BY-4.0.md').write_bytes((reference/'nflverse-LICENSE.md').read_bytes())
  archive=out.parent/'inputs-v2.zip'
  with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
