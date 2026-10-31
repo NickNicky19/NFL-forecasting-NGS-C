@@ -1,0 +1,36 @@
+{
+  "id": "C-V3-ARTIFACT-CAP-HALT-v1",
+  "failure": "NEW_SCIENCE_CAP",
+  "completed_raw_slots": 207,
+  "remaining_raw_slots": 9,
+  "remaining_calibrators": 12,
+  "science_bytes": 67665838,
+  "initial_science_cap": 67108864,
+  "budget_ledger": {
+    "cpu_seconds": 385.62009941700006,
+    "wall_seconds": 385.9631533059983,
+    "base_fit_attempts": 207,
+    "calibrator_attempts": 0,
+    "peak_RSS_bytes": 310882304,
+    "peak_cache_bytes": 1958405001,
+    "stage_receipts": [
+      {
+        "finished_UTC": "2026-10-31T22:24:48.299702+00:00",
+        "cpu_seconds": 6.9891795409999995,
+        "wall_seconds": 7.011230580999836,
+        "state": "PASS"
+      },
+      {
+        "finished_UTC": "2026-10-31T22:33:38.853868+00:00",
+        "cpu_seconds": 378.635477593,
+        "wall_seconds": 378.95317903999967,
+        "state": "NEW_SCIENCE_CAP"
+      }
+    ],
+    "active_stage": null
+  },
+  "all_completed_slots_retained": true,
+  "original_or_completed_fits_repeated": 0,
+  "scope": "11complete2025categories plus chartPPRweeks1-9; notselectedbyresult",
+  "records": "HALT_SLOT_INVENTORY.json"
+}
