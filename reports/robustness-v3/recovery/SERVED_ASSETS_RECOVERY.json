@@ -1,0 +1,344 @@
+{
+  "checked_UTC": "2026-10-31T23:12:34.666078+00:00",
+  "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "6b26cad7f7fffc4c000be79c472ec58c0a0f67f5",
+  "build": {
+    "built_at_UTC": "2026-10-31T23:11:31.079377+00:00",
+    "served_commit": "6b26cad7f7fffc4c000be79c472ec58c0a0f67f5",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "HISTORICAL_RECONSTRUCTION_NOT_LIVE"
+  },
+  "assets": [
+    {
+      "path": "index.html",
+      "bytes": 15295,
+      "sha256": "d2c77cae5a76ca5e86bcc4a2774943199db95107d2143d1b4e52541e1a6993e5",
+      "parity": "EXACT"
+    },
+    {
+      "path": "app.js",
+      "bytes": 17819,
+      "sha256": "c7b6829bf517392e6428eeda38e94831fc6c8aafb209150c2338ba0d43ef4b43",
+      "parity": "EXACT"
+    },
+    {
+      "path": "style.css",
+      "bytes": 9796,
+      "sha256": "698d0ae28beec2949c4e7f03cd10ffc43856bc3c4881e54abedf5c9ca68ffc8f",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/manifest.json",
+      "bytes": 6454861,
+      "sha256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/calibration.json",
+      "bytes": 415429,
+      "sha256": "c7bf684201edf5f5aeecc52ec3466510abcb62cdf346884240844313c960df4c",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/six-leg.json",
+      "bytes": 3040,
+      "sha256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/anytime_td-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 364134,
+      "sha256": "5146f132e2200b3b2d9fb7cd52e2df18b40b2a347ad554bab1c54cf4ee9ac9e3",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/anytime_td-H-MULTI-P3_HGB-W07.json",
+      "bytes": 358037,
+      "sha256": "55b1173202806d2cf0a47c2486005d465bdbeb19eb6a5a29dced23cf678dd4b6",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/anytime_td-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 359158,
+      "sha256": "9bf293d56c918f249dd156da7c21d8cbe7d9c10b51cbba921d3dc8722d21f587",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/fpts-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 435667,
+      "sha256": "dd54e4719ebea3754db4d0bc29c7ec19445faa9e2d8cf5c8232192111a366c14",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/fpts-H-MULTI-P3_HGB-W07.json",
+      "bytes": 429109,
+      "sha256": "86d678392f8102e36898c3649f2a43eca4297022587ad61f591c340d81b289d3",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/fpts-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 430538,
+      "sha256": "44d51c05e1174b329cb4dc80d18b905b334f14534572967f47ee5685029772cb",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_att-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 41970,
+      "sha256": "55ed9544b77e82670cab3e74dd2ad9b4fc61844bf18b542688342d57fea1e941",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_att-H-MULTI-P3_HGB-W07.json",
+      "bytes": 41335,
+      "sha256": "bd91f0f591d0f3e24e8e13ca7fba0d42602cf2bab267525cbc614041f95abe20",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_att-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 41435,
+      "sha256": "706bebc05612109bd45915347a51108cbf573ba73130bf400b09b48e5a2470c0",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_cmp-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 41195,
+      "sha256": "9dac21c3b1fba7e4b7160e680df62d414dbf2c1512cb87d89534b8b9c48933b5",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_cmp-H-MULTI-P3_HGB-W07.json",
+      "bytes": 40557,
+      "sha256": "0fe0e81e31259be4ec89d05dce458359b4d0632abc5c0c71dbf1ce78b0ba35bf",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_cmp-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 40674,
+      "sha256": "feb99810fb973828338f5fc9f0fec382f1da8b658da0cec5272d73e8833bf378",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_int-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 39310,
+      "sha256": "937799528c1222ff8b473516b93f59ffec3b88ef5fab4480de1c3419440d0a23",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_int-H-MULTI-P3_HGB-W07.json",
+      "bytes": 38686,
+      "sha256": "e0f9b7887e302de6ff8e0a3fbc2eda65e1818777b29cf6fc2d056c1a0730a49a",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_int-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 38819,
+      "sha256": "f81f511d173b6f7b7d0616188ca46826d49587be7ba7a3db51e60f2088727d74",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_td-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 40029,
+      "sha256": "3ed7219ab7d8011759294d5906e94087f0fe3135f6d110fcab78c03a0099092a",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_td-H-MULTI-P3_HGB-W07.json",
+      "bytes": 39434,
+      "sha256": "b5a8664c87986dac4e745df1aa38b45f685a61e901b76852a74d2b9014ed64e9",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_td-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 39553,
+      "sha256": "3e37cc2949625e83742ed1743e9869f207c8d7f45b770cb1095c10fe6689e3b5",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 42299,
+      "sha256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P3_HGB-W07.json",
+      "bytes": 41574,
+      "sha256": "73abc98c78ec12fa21271dc0a6eb3ed8565ce434525aa0c2f1469f23651caf47",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 41693,
+      "sha256": "620e51cb9bf967a7e8d1e102c192ee0438c43b2bbc987768fe090fb91c584ab4",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 370086,
+      "sha256": "4bfcdf0048b5ffbbb4edd48abcd60e002217cc321e2b5d7771615321d768763b",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec-H-MULTI-P3_HGB-W07.json",
+      "bytes": 364434,
+      "sha256": "2cba6115841c1b644fb59d75b51b8e0cb4f88871975387b9e229e5940e0eff7f",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 366018,
+      "sha256": "1a651a4f44efa93ab90cab837cbd4dda8fd70a5f5887d76e367073f21ce73dc5",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec_yd-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 366261,
+      "sha256": "efef9edbb668fe51e843ee1527e7806f6195948e2b7b7392772dbba4bdb7cc03",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec_yd-H-MULTI-P3_HGB-W07.json",
+      "bytes": 360690,
+      "sha256": "5fc5d8fa3d53655c50dcb11f54699be94ea0912ba09e7e90226e1269291d3f57",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec_yd-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 361716,
+      "sha256": "67a075740111da0a8676b88e6c70d235e95c10a19bebbafed4d1dff0a501a790",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_att-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 401515,
+      "sha256": "8fe2f12dda84b065f66a56121bf5499db8f3116725f4000d4ee4a40edf157c6e",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_att-H-MULTI-P3_HGB-W07.json",
+      "bytes": 402616,
+      "sha256": "ce12870274bdcdfcf5344220ac6d5bc6ecbc5f1c1805bea08bd4ef089dff3657",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_att-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 403431,
+      "sha256": "3cbf75c2d979f6e7f7343adba1e14655b71c1f1b6f73a51189af5e9065c0eee4",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_rec_yd-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 421031,
+      "sha256": "7cf2014d00b9f704c87ecd47bf94bddf2bc16ddbb8b33415a5ad1582fc7ebacd",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_rec_yd-H-MULTI-P3_HGB-W07.json",
+      "bytes": 414772,
+      "sha256": "460a1b020e21fe4c6c5a55c47d0eb2a0d88b5fb38c2bf05ab007a38578342e57",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_rec_yd-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 415677,
+      "sha256": "be01317d0f00af1642f7fbc39560810a7a8afdf7c80ac697db0c49b7caa5be89",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_yd-H-MULTI-P2_LEAF-W07.json",
+      "bytes": 405073,
+      "sha256": "2c3c7912f84bd15da2a2d572dd15bb635662ed0fcff13703fd5098b4848c7f0b",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_yd-H-MULTI-P3_HGB-W07.json",
+      "bytes": 401535,
+      "sha256": "0d154613ea8e63b1842222f356ed348e123c051efe9d30daec648d43a72f2423",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_yd-H-MULTI-P3_LOGIT-W07.json",
+      "bytes": 402384,
+      "sha256": "eb4474e5ba521f46cd60a68fc1938b26a145c88c2461c5da12c0c4490f1a72b8",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/anytime_td-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 400044,
+      "sha256": "a988789057b49adfacc4031e9be4fe4bc39d40f5264b5663eab9883f0ce1c4e8",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/fpts-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 527349,
+      "sha256": "8d1a269ab11ad91936d90aee5d67d9eab8731b791fdb7071d6d0cd37ad6d12b0",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_att-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 51432,
+      "sha256": "446d5e24164f0f6ea47e9fcf542d7f9ecd9e291d439fd0a52ff1ee4483af7a0b",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_cmp-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 49258,
+      "sha256": "c768a71e912ce82c6172c66ebb0b8c621e65af0d2e8180d4dade9b9d3cfe9796",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_int-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 45190,
+      "sha256": "c329cfabc5f91130ddd2a030150894410982c69603d6f2da93fa5fe2987df1ed",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_td-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 47169,
+      "sha256": "9980d0207cd69c0555bdcf59020cb20e580d5745137522fc3aa09c0261e6b9bf",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 51605,
+      "sha256": "0438477e43e6e9c99859c489172b62efc33de0206458508116b66d3fd707dd5c",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 467368,
+      "sha256": "bc2020ab605cfdcd8c41d87ca0b8a2b8699f5f1b7bdad0eccfab9167af2c17b8",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rec_yd-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 452515,
+      "sha256": "b13b098f57b3c03674d6cc113ec1aff36851d36c14c252ebe6661104a3222ec9",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_att-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 498799,
+      "sha256": "aa6a7e1497f5ca3655b64018a0931348c360bb42ac44b7ced145dc2566f0cda4",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_rec_yd-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 528534,
+      "sha256": "85cca35edec190bccd27a3052de7033c932842b88d737e574f712f8c2b6a9654",
+      "parity": "EXACT"
+    },
+    {
+      "path": "data/rush_yd-H-MULTI-CAL_SIGMOID_2025-W07.json",
+      "bytes": 503464,
+      "sha256": "367b4593c69564243907b610343db1e2b5a0a5782240f891440e96048cf935a9",
+      "parity": "EXACT"
+    }
+  ],
+  "verified_bytes": 19381412,
+  "scope": "Rootassets/exact840-entrymanifest and48W7H-MULTI rawP2/P3/sigmoidpayloads;54files, notall840payloads downloaded",
+  "source_data_refreshed": false,
+  "new_fits": 0
+}

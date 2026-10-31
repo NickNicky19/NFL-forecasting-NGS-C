@@ -1,0 +1,27 @@
+{
+  "id": "C-V3-INDEPENDENT-GITHUB-READBACK",
+  "verifier": "Separate read-only agent; no fits or modeldeserialization",
+  "commit": "12e4f6b422be4db4ad276520baa11101a2d26e3b",
+  "categories": [
+    "pass_cmp",
+    "fpts"
+  ],
+  "bytes": 19378563,
+  "raw_model_row_hashes_checked": 36,
+  "raw2025_aggregate_scores_recomputed": [
+    "Brier",
+    "medianMAE",
+    "logloss",
+    "CRPS",
+    "NLL"
+  ],
+  "calibrated2026_probability_rows_recomputed": 2636,
+  "actual_archive_integrity_and_manifest_score_bytes": "PASS",
+  "scope": "Safe fresh ZIP/hash/JSON readback plus numerical sigmoid transforms. Separate local1050querymodelinference and all2291metric audit remain independentlyestablished.",
+  "automatic_review_rejection": {
+    "action": "Freshdownload plus pickle.loads inference command",
+    "reason": "Potentialarbitrarycodeexecution from networkmodelbytes",
+    "action_after_rejection": "No retry/bypass/deserialization; safe hash/ZIP/JSON score/transform checks instead"
+  },
+  "root_full_readback": "GITHUB_RESTORE.json separately records earlier executed full12archive/W18inference results before this verifier rejection; not attributed to independentverifier"
+}
