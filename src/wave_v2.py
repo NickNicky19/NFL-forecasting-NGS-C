@@ -8,7 +8,7 @@ from contracts_v2 import CATEGORIES,CHART
 from data_v2 import load,History,vector,admitted_roles
 from laws_v2 import LeafModel,ThresholdModel,Prior,Law
 
-VERSION='C-ALL12-LAW-THRESHOLD-v2'
+VERSION='C-ALL12-LAW-THRESHOLD-v2.1'
 HISTORIES={'H-CURRENT':2026,'H-RECENT':2025,'H-MULTI':2022}
 GRIDS={
  'pass_yd':[99.5,149.5,199.5,249.5,299.5,349.5],

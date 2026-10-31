@@ -8,7 +8,7 @@ def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def prepare(source,reference,out,old_runs):
  out.mkdir(parents=True,exist_ok=False); facts=[];manifest=[]
  physical=['attempts','carries','targets','receptions','sacks_suffered','passing_tds','rushing_tds','receiving_tds','passing_2pt_conversions','rushing_2pt_conversions','receiving_2pt_conversions','kickoff_returns','punt_returns','special_teams_tds']
- cols=list(dict.fromkeys(['player_id','player_display_name','position','season','week','season_type','game_id','team','opponent_team']+physical+list(WEIGHTS.keys()-{'offensive_fumble_recovery_td','kick_return_td','punt_return_td','field_goal_return_td'})+['fumble_recovery_tds']))
+ cols=list(dict.fromkeys(['player_id','player_display_name','position','season','week','season_type','game_id','team','opponent_team','completions']+physical+sorted(WEIGHTS.keys()-{'offensive_fumble_recovery_td','kick_return_td','punt_return_td','field_goal_return_td'})+['fumble_recovery_tds']))
  for year in range(2022,2027):
   p=source/f'stats_player_week_{year}.csv.gz';d=pd.read_csv(p,low_memory=False);d=d[(d.season_type=='REG')&((d.season!=2026)|(d.week<=7))]
   facts.append(d[cols]);manifest.append(dict(id=f'NFLVERSE-STATS-{year}',url=f'https://github.com/nflverse/nflverse-data/releases/download/stats_player/{p.name}',original_gzip_sha256=sha(p),original_csv_sha256=hashlib.sha256(gzip.decompress(p.read_bytes())).hexdigest(),rows=len(d),retained_fields=cols,rights='ordinary numerical facts and stable identifiers; publisher CC-BY-4.0 attribution; NGS/EPA/CPoE/headshot and other unconsumed fields excluded'))

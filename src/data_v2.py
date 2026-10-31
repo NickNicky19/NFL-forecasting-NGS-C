@@ -7,6 +7,8 @@ DAY=86400
 PHYSICAL=['attempts','carries','targets','receptions','sacks_suffered','passing_tds','rushing_tds','receiving_tds','passing_2pt_conversions','rushing_2pt_conversions','receiving_2pt_conversions','kickoff_returns','punt_returns','special_teams_tds']
 def load(root):
  d=pd.read_csv(root/'facts.csv.gz',low_memory=False);g=pd.read_csv(root/'schedule.csv')
+ required={c[1] for c in CATEGORIES.values() if c[1]}|set(PHYSICAL)
+ if not required<=set(d):raise ValueError('MISSING_SOURCE_COLUMNS: '+','.join(sorted(required-set(d))))
  g['kickoff']=pd.to_datetime(g.gameday+' '+g.gametime).dt.tz_localize('America/New_York').dt.tz_convert('UTC').astype('int64')/1e9
  d=d.merge(g[['game_id','kickoff','home_team','away_team','home_score','away_score']],on='game_id',validate='many_to_one')
  assert d.player_id.str.fullmatch(r'00-\d{7}').all();assert not d.duplicated(['game_id','player_id']).any()
