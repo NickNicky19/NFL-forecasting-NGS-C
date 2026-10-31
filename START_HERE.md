@@ -15,3 +15,5 @@ The private source and execution archives were **fully restored byte-for-byte**,
 To verify software: `python -m unittest discover -s tests -v` after installing the pinned requirements underPython 3.12.14. Existing NFL fits must not be repeated for tables. A new registered wave may use `src/study.py` with explicitly supplied approved source/private/public directories and a new run ID; existing output paths fail rather than overwrite. `src/restore_parts.py` restores downloaded private recovery parts. See [remaining finite queue](reports/complete-v1/QUEUE.json) before extending research.
 
 No website, workflow dispatcher, collector, scheduler, production lease, wagers, paid acquisition or API spending was created. Main is repository initialization; the research branch/PR is the reviewable package. All seasons are already exposed research and current/revised reconstructions under assumed 7 day availability, not originally issued forecasts or untouched confirmation.
+
+[Complete within-C arm rankings](reports/complete-v1/C_ARM_RANKINGS.csv) include every scored arm, season and horizon.

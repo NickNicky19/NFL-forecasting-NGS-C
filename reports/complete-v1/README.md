@@ -107,3 +107,5 @@ Complete records: [every weekly/season/startup/subset metric](NUMERICAL.csv), [p
 - **Receptions:** tiny mixed point changes, with 2026 values worse than support-only.
 
 **No category package advances to production-owner review from this raw-values recipe.** This is a study recommendation, not a new universal admission rule or waiting period. Exact strong A/B models/row/label exports, approved offers with identity/cutoff contracts and a legitimate law are the next comparison dependencies; excluded derived fields need their version/denominator bridge. Missing these does not erase the completed internal numerical evidence. [Finite queue](QUEUE.json) records zero additional fits until a new bounded comparison is registered.
+
+[Complete C-arm rankings](C_ARM_RANKINGS.csv) retain all three arms within each category/season/horizon; these are not rankings against unrestored A/B models. No fit or prediction was repeated.
