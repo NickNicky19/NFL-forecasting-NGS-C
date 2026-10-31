@@ -1,0 +1,31 @@
+{
+  "id": "C-INDEPENDENT-SITE-v2.2",
+  "verifier": "Separate read-only agent, no edits or fits",
+  "publication_receipt": "reports/WEBSITE_PUBLICATION_V2_1.json",
+  "Actions_checks": "SUCCESS",
+  "Pages_configuration": "GET404_CREATE403_RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+  "stamp_upload_deploy_steps": "SKIPPED",
+  "public_build_HTTP_status": 404,
+  "served_parity": "NOT_AVAILABLE",
+  "historical_aggregate_rows": 72,
+  "rows_per_season": 18,
+  "seasons": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "CSV_fields_per_row_checked": 22,
+  "max_serialization_difference": 2.3e-13,
+  "rendered_cells_checked": 432,
+  "frozen_source_exact_pin": "8c80c6d2438417067f712ec39d8ab6197ffc94e0",
+  "source_SHA256": "a7963855aa69a2965d0e8af8ca84a055e907e3cf9c6176df60df189c04073286",
+  "source_qualification": "Original five-category point reconstruction, no probabilities claimed; oldNGSdependent artifacts not GitHubrestored",
+  "correction": "Initial local QA incorrectly expected pooledrushALL; corrected18/72, no panelchange or oldfitrerun",
+  "primary_pairs_checked": 23,
+  "paired_delta_difference": 0,
+  "paired_CI_max_difference": 8.7e-19,
+  "intake_payload_hashes": "30payloadfilesmatch inbothextractedtrees; bundledsourceimagesnotnumericallyadmitted",
+  "NGS_numeric_display": "6007compatible+4halfunitties+1missing;0beyondroundinginterval",
+  "new_fits": 0
+}
