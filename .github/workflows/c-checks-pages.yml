@@ -2,6 +2,12 @@ name: C checks and Pages
 on:
   push:
     branches: [main]
+    paths:
+      - 'docs/**'
+      - '.github/workflows/c-checks-pages.yml'
+      - 'src/site_*.py'
+      - 'src/browser_qa*.py'
+      - 'src/verify_served_v2.py'
   pull_request:
   workflow_dispatch:
     inputs:
