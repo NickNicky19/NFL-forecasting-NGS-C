@@ -129,6 +129,25 @@ def saved_models():
                     direct[key]=(fitted,r)
                 receipts.append(dict(slot=slot,family='P3_HGB',source_archive=entry['path'],source_archive_SHA256=entry['sha256'],model_SHA256=done['model_sha256'],rows_SHA256=done['row_sha256'],origin_UTC=done['origin_UTC'],latest_training_available=done['latest_training_available'],saved_queries=len(packet),grid_reinference='PASS',direct_training='ORIGINAL_SYNTHETIC_THRESHOLDS; no fitted real-line calibration',new_fits=0))
     return models,rows,direct,receipts
+def predict_offer(offer,method,r=None,law=None,direct_item=None):
+    # Deliberately accepts no outcome table; source resolution/finals are not predictors.
+    line=offer.get('line')
+    if line is None:return None,dict(point=None,point_type='MEAN' if method=='P1_MEAN' else 'MEDIAN') if method.startswith('P1') else {}
+    assert np.isfinite(line)
+    ps=law.probability(line) if law else None
+    side=None;extra={}
+    if method.startswith('P1'):
+        point=r['median' if method=='P1_MEDIAN' else 'mean'] if r else None;side=point_side(point,line);side=None if side=='UNAVAILABLE' else side;extra=dict(point=point,point_type='MEDIAN' if method=='P1_MEDIAN' else 'MEAN')
+    elif method=='P2_LAW' and law:
+        side='ABSTAIN' if abs(ps['over']-ps['under'])<=1e-12 else 'OVER' if ps['over']>ps['under'] else 'UNDER'
+        extra=dict(law=law_data(law),probability_line=line,**{'p_'+s:v for s,v in ps.items()},information_set_id=r['slot']+':'+r['game_id']+':'+r['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json')
+    elif method=='P3_DIRECT' and direct_item is not None:
+        fitted,dr=direct_item;lo,hi,on_grid=thresholds_for_line(line,1);cp=fitted.cdfs(np.asarray([dr['features']],float),np.asarray([lo,hi]))[0];dp=dict(under=float(cp[0]),push=float(cp[1]-cp[0]),over=float(1-cp[1]));assert min(dp.values())>=-1e-12
+        side='ABSTAIN' if abs(dp['over']-dp['under'])<=1e-12 else 'OVER' if dp['over']>dp['under'] else 'UNDER'
+        extra=dict(probability_line=line,**{'p_'+s:v for s,v in dp.items()},information_set_id=dr['slot']+':'+dr['game_id']+':'+dr['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json',real_line_calibration='NOT_FITTED',direct_training='SYNTHETIC_GRID',training_threshold_range=[float(min(fitted.thresholds)),float(max(fitted.thresholds))],outside_training_threshold_range=lo<min(fitted.thresholds) or hi>max(fitted.thresholds))
+    elif method.startswith('ALWAYS'):side='OVER' if method=='ALWAYS_OVER' else 'UNDER'
+    return side,extra
+
 def evaluate(inputs):
     """Run the frozen population; outcome columns are used only after prediction."""
     from data_v2 import load
@@ -150,17 +169,7 @@ def evaluate(inputs):
             provider.append(dict(side=side,source_resolution=q['resolution'],provider_actual=number(q['actual_value']),independent_actual=actual,provider_actual_agrees=None if actual is None or not q['actual_value'] else Decimal(q['actual_value'])==Decimal(str(actual)),statistical_grade_at_general_line=grade(actual,number(q['line']),side) if actual is not None and q['line'] else None,statistical_grade_at_closing_point=grade(actual,c['line'],side) if actual is not None else None,csv_line=q['csv_line']))
         comparison.append(dict(offer_id=c['offer_id'],game_id=e['game_id'],player_id=c['player_id'],category=cat,forecast_available=r is not None,appearance=appearance,provider_rows=provider))
         for method in ['P1_MEDIAN','P1_MEAN','P2_LAW','P3_DIRECT','ALWAYS_OVER','ALWAYS_UNDER']:
-            side=None;extra={}
-            if method.startswith('P1'):
-                point=r['median' if method=='P1_MEDIAN' else 'mean'] if r else None;side=point_side(point,c['line']);side=None if side=='UNAVAILABLE' else side;extra=dict(point=point,point_type='MEDIAN' if method=='P1_MEDIAN' else 'MEAN')
-            elif method=='P2_LAW' and law:
-                side='ABSTAIN' if abs(ps['over']-ps['under'])<=1e-12 else 'OVER' if ps['over']>ps['under'] else 'UNDER'
-                extra=dict(law=law_data(law),probability_line=c['line'],**{'p_'+s:v for s,v in ps.items()},information_set_id=r['slot']+':'+r['game_id']+':'+r['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json')
-            elif method=='P3_DIRECT' and key in direct:
-                fitted,dr=direct[key];lo,hi,on_grid=thresholds_for_line(c['line'],1);cp=fitted.cdfs(np.asarray([dr['features']],float),np.asarray([lo,hi]))[0];dp=dict(under=float(cp[0]),push=float(cp[1]-cp[0]),over=float(1-cp[1]));assert min(dp.values())>=-1e-12
-                side='ABSTAIN' if abs(dp['over']-dp['under'])<=1e-12 else 'OVER' if dp['over']>dp['under'] else 'UNDER'
-                extra=dict(probability_line=c['line'],**{'p_'+s:v for s,v in dp.items()},information_set_id=dr['slot']+':'+dr['game_id']+':'+dr['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json',real_line_calibration='NOT_FITTED',direct_training='SYNTHETIC_GRID',training_threshold_range=[float(min(fitted.thresholds)),float(max(fitted.thresholds))],outside_training_threshold_range=lo<min(fitted.thresholds) or hi>max(fitted.thresholds))
-            elif method.startswith('ALWAYS'):side='OVER' if method=='ALWAYS_OVER' else 'UNDER'
+            side,extra=predict_offer(c,method,r,law,direct.get(key))
             status='UNAVAILABLE_FORECAST' if side is None else 'ABSTAIN' if side=='ABSTAIN' else 'UNKNOWN_PARTICIPATION' if appearance!='PLAYED' else 'MISSING_ACTUAL' if actual is None else grade(actual,c['line'],side)
             record_id=c['offer_id']+'-'+method
             row=dict(record_kind='ACTUAL_OFFER',record_id=record_id,grade_id=record_id+'-STAT-G1',offer_id=c['offer_id'],category=cat,method_id=method,method_version=method_version(cat,method,'2026_W1_W7'),selector_id='P2_EXACT_LINE_SELECTOR-v4.1' if method=='P2_LAW' else method+'-strict-v6',policy_id='ALL_ELIGIBLE_OFFERS',game_id=e['game_id'],player_id=c['player_id'],player_name=c['quotes']['OVER']['player_name'],espn_event_id=e['espn_event_id'],season=2026,week=e['week'],season_type='REG',position=c['position'],role_evidence_reference='sources/propline-v7/historical_identity_crosswalk.json.gz',scoring_contract_id='official-player-fullgame-OT-v1',scoring_snapshot_id=c['offer_id']+'-CLOSING',evidence_tier=TIERS[2],decision_horizon='SAVED_KICKOFF_RECONSTRUCTION_VS_LAST_RECORDED_PREKICK_CLOSE',venue='pinnacle',product='SPORTSBOOK_PLAYER_PROP',line_tier='UNVERIFIED_MAIN_ALTERNATE',period='FULL_GAME_INCLUDING_OT',line=c['line'],comparator='STRICT_OVER_UNDER',offered_sides=['OVER','UNDER'],selected_side=side,status=status,actual=actual,appearance=appearance,decision_UTC=e['scheduled_kickoff_UTC'],kickoff_UTC=e['scheduled_kickoff_UTC'],graded_UTC=now(),outcome_evidence_reference='artifacts/basic-football-facts-v2.1.zip#facts.csv.gz',source_offer_evidence_reference='reports/propline-v7/ELIGIBLE_OFFERS.json',source_snapshot_clocks={s:q['closing_at'] for s,q in c['quotes'].items()},source_event_commence_UTC=e['source_commence_UTC'],forecast_id=r['slot']+':'+r['game_id']+':'+r['player_id'] if r else None,forecast_information_tier='CURRENT_REVISED_7DAY_RECONSTRUCTION' if r else None,forecast_generated_UTC=r['generated_UTC'] if r else None,conditioning='RETROSPECTIVE_PARTICIPANT_STAT_ROW_PANEL;STATISTICAL_PLAYED',venue_settlement='UNVERIFIED',fallback=r['fallback'] if r else None,**extra)
