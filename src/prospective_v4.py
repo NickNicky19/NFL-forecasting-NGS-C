@@ -172,7 +172,8 @@ def validate_run(run,check_clock=False):
         assert roster[(r['player_id'],r['team'])]['status']=='ACT'
         assert modelmap[r['category']]['model_SHA256']==r['model_SHA256']
         if r['category']=='anytime_td':assert r['mean'] is None and r['median'] is None and r['event_probability']==law.probability(.5)['over']
-        else:assert r['mean']==law.mean() and r['median']==law.quantile(.5)
+        # BLAS reductions can differ in the last bits across supported machines.
+        else:assert math.isclose(r['mean'],law.mean(),rel_tol=1e-12,abs_tol=1e-10) and r['median']==law.quantile(.5)
     if check_clock:assert now().timestamp()+300<min(pd.Timestamp(r['kickoff_UTC']).timestamp() for r in rows),'CAPTURE_SERVER_CHECK_TOO_LATE'
     return m,rows
 
