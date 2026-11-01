@@ -1,0 +1,561 @@
+{
+  "id": "C-FUTURE-RENDERED-ACCEPTANCE-v4",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "expected_served_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "rows": 71,
+      "representative_forecast_id": "615baec155c15f56bbf36ae4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "rows": 71,
+      "representative_forecast_id": "c6948e66dcc01abe97ed8d25",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "rows": 71,
+      "representative_forecast_id": "8d51b0c5424e715b24718b6c",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "rows": 71,
+      "representative_forecast_id": "5fdfab19c32004f20b556155",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "rows": 71,
+      "representative_forecast_id": "5c2557b7da45ea42ac11d7f4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "rows": 168,
+      "representative_forecast_id": "8ef7c7bde2b4df6bd54695ef",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "rows": 168,
+      "representative_forecast_id": "0b864576ab398e0a16dcdb89",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "rows": 336,
+      "representative_forecast_id": "35abd968856cc8bef74ebc59",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "61229ac21afa6561a3683d75",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "9d9e5880af48234c14e8dd94",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "rows": 407,
+      "representative_forecast_id": "521e40a68ad3c62045109d4b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "rows": 407,
+      "representative_forecast_id": "17085fac0c196c7886ef3be9",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": true,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": true,
+  "server_clock_and_feature_clock_distinct": true,
+  "role_search_masks": true,
+  "started_games_suppressed": true,
+  "stale_status_fail_closed": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop1440_mobile390": true,
+  "no_global_overflow": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0,
+  "tests_are": "UI/software checks, not outcomes or wins",
+  "served": true,
+  "build_before": {
+    "built_at_UTC": "2026-11-01T01:15:18.973118+00:00",
+    "served_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+    "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+    "forward_server_persisted_UTC": "2026-11-01T00:13:48Z"
+  },
+  "build_after": {
+    "built_at_UTC": "2026-11-01T01:15:18.973118+00:00",
+    "served_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+    "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+    "forward_server_persisted_UTC": "2026-11-01T00:13:48Z"
+  },
+  "assets": [
+    {
+      "path": "build.json",
+      "SHA256": "4d784d554b5593f0d860fa95a32f5a795206406511d7c3e2ee7d036222bfdbaf",
+      "bytes": 865,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "index.html",
+      "SHA256": "4544e4fef3c19ebef5ab2e5dcd7bcb3696bb53ff8c39b2655e9ab3fa5586a337",
+      "bytes": 18954,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "SHA256": "51ed7a62cb0781c4e24ef3c6c48cdee1a8948a5dc57dc28e8fd9c7c156b2fed3",
+      "bytes": 18778,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "bytes": 9810,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "SHA256": "7cf7b65a952d8220c374f22cf220edb4f9f137a6e396b9e467ab36a45ce84ff3",
+      "bytes": 10206,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "bytes": 6454861,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "bytes": 7592,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "bytes": 236576,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_td.json",
+      "SHA256": "2a9bc2feb1a1f52647506908a12b0a42479328e814a00bcada70b16a08cf44de",
+      "bytes": 236326,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_cmp.json",
+      "SHA256": "c8c88401a97174db4439265aa2a6aed1a4463cabcdcc8d440c5f84d2297c28e4",
+      "bytes": 215981,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_att.json",
+      "SHA256": "9ca78de8806e8a0cb7e55828f46dd0e686d1d6f7f07d2ea41fed8cace3d38aad",
+      "bytes": 216004,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_int.json",
+      "SHA256": "72b6889a9d1f897d041cd665976e8db7a2ad72c0d6300e0f2290ed08edb82bac",
+      "bytes": 216302,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "bytes": 500992,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_att.json",
+      "SHA256": "1cbefaa7d8506862f534245b77e4548f779debb486a45649d6197c59f2ee77b3",
+      "bytes": 500974,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec.json",
+      "SHA256": "ac2a24df6d01f2b589adb68a7aed3a87251a5a3eb117735d09e747b450cd688a",
+      "bytes": 1019780,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec_yd.json",
+      "SHA256": "502e8d9801e898265cf08fb54231c335c57ed916055076eb48f60145243b6f06",
+      "bytes": 1118103,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_rec_yd.json",
+      "SHA256": "59347ce42a2518b003577700d9f54235d76b064905121106e383449d8f5c4fc6",
+      "bytes": 1121986,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/anytime_td.json",
+      "SHA256": "ae51d221220dba2be9b800c7d2692c6e7d39effe3b534a3dbc6071ab5ed3fc04",
+      "bytes": 1211214,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/fpts.json",
+      "SHA256": "8cc2f3c87a56e9907e66e9222424d9d26535c70237c8818c03cb4e8d913ab625",
+      "bytes": 1238249,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "SHA256": "4d784d554b5593f0d860fa95a32f5a795206406511d7c3e2ee7d036222bfdbaf",
+      "bytes": 865,
+      "system_TLS_verified": true
+    }
+  ],
+  "actual_public_responses": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 18954,
+      "SHA256": "4544e4fef3c19ebef5ab2e5dcd7bcb3696bb53ff8c39b2655e9ab3fa5586a337",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10206,
+      "SHA256": "7cf7b65a952d8220c374f22cf220edb4f9f137a6e396b9e467ab36a45ce84ff3",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 18778,
+      "SHA256": "51ed7a62cb0781c4e24ef3c6c48cdee1a8948a5dc57dc28e8fd9c7c156b2fed3",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 865,
+      "SHA256": "4d784d554b5593f0d860fa95a32f5a795206406511d7c3e2ee7d036222bfdbaf",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_td.json",
+      "status": 200,
+      "bytes": 236326,
+      "SHA256": "2a9bc2feb1a1f52647506908a12b0a42479328e814a00bcada70b16a08cf44de",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_cmp.json",
+      "status": 200,
+      "bytes": 215981,
+      "SHA256": "c8c88401a97174db4439265aa2a6aed1a4463cabcdcc8d440c5f84d2297c28e4",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_att.json",
+      "status": 200,
+      "bytes": 216004,
+      "SHA256": "9ca78de8806e8a0cb7e55828f46dd0e686d1d6f7f07d2ea41fed8cace3d38aad",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_int.json",
+      "status": 200,
+      "bytes": 216302,
+      "SHA256": "72b6889a9d1f897d041cd665976e8db7a2ad72c0d6300e0f2290ed08edb82bac",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "status": 200,
+      "bytes": 500992,
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_att.json",
+      "status": 200,
+      "bytes": 500974,
+      "SHA256": "1cbefaa7d8506862f534245b77e4548f779debb486a45649d6197c59f2ee77b3",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec.json",
+      "status": 200,
+      "bytes": 1019780,
+      "SHA256": "ac2a24df6d01f2b589adb68a7aed3a87251a5a3eb117735d09e747b450cd688a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec_yd.json",
+      "status": 200,
+      "bytes": 1118103,
+      "SHA256": "502e8d9801e898265cf08fb54231c335c57ed916055076eb48f60145243b6f06",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_rec_yd.json",
+      "status": 200,
+      "bytes": 1121986,
+      "SHA256": "59347ce42a2518b003577700d9f54235d76b064905121106e383449d8f5c4fc6",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/anytime_td.json",
+      "status": 200,
+      "bytes": 1211214,
+      "SHA256": "ae51d221220dba2be9b800c7d2692c6e7d39effe3b534a3dbc6071ab5ed3fc04",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/fpts.json",
+      "status": 200,
+      "bytes": 1238249,
+      "SHA256": "8cc2f3c87a56e9907e66e9222424d9d26535c70237c8818c03cb4e8d913ab625",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "status": 200,
+      "bytes": 500992,
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 18954,
+      "SHA256": "4544e4fef3c19ebef5ab2e5dcd7bcb3696bb53ff8c39b2655e9ab3fa5586a337",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10206,
+      "SHA256": "7cf7b65a952d8220c374f22cf220edb4f9f137a6e396b9e467ab36a45ce84ff3",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 18778,
+      "SHA256": "51ed7a62cb0781c4e24ef3c6c48cdee1a8948a5dc57dc28e8fd9c7c156b2fed3",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 865,
+      "SHA256": "4d784d554b5593f0d860fa95a32f5a795206406511d7c3e2ee7d036222bfdbaf",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 18954,
+      "SHA256": "4544e4fef3c19ebef5ab2e5dcd7bcb3696bb53ff8c39b2655e9ab3fa5586a337",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10206,
+      "SHA256": "7cf7b65a952d8220c374f22cf220edb4f9f137a6e396b9e467ab36a45ce84ff3",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 18778,
+      "SHA256": "51ed7a62cb0781c4e24ef3c6c48cdee1a8948a5dc57dc28e8fd9c7c156b2fed3",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 865,
+      "SHA256": "4d784d554b5593f0d860fa95a32f5a795206406511d7c3e2ee7d036222bfdbaf",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    }
+  ],
+  "transport": "VERIFIED_SYSTEM_HTTPS_RENDERING_BRIDGE",
+  "native_Chromium_TLS_validated": false,
+  "scope": "Exact actual public responses/rendered rows. Managed native Chromium proxy CA unavailable; no TLS checks disabled. Build never refreshes forecasts or quotes."
+}

@@ -57,8 +57,8 @@ No forced six, side mix or second ticket. No unverified product of marginals is 
 | Evidence | Executed state |
 |---|---|
 | GitHub restoration | [58files / 9,777,496bytes](GITHUB_RESTORE.json), all12 safe numeric-JSON models / all2,513 inferences reproduced;0pickle/0newfits |
-| Independent read-only verification | [Actual sources, features, full training leaf counts, inference, contracts, mutation invariance and server proof passed](INDEPENDENT.json) |
-| Future website | [Local desktop/mobile/DST/stopped-game/failure parity passed](LOCAL_BROWSER.json); public deployed/served state recorded separately after merge |
+| Independent read-only verification | [Actual sources, features, full training leaf counts, inference, contracts, mutation invariance and server proof passed](INDEPENDENT.json); [independent public final check](INDEPENDENT_PUBLIC_FINAL.json) |
+| Future website | [Exact public desktop/mobile/DST/stopped-game/failure parity passed](served-final/RENDERED.json); served asset `8df8d016e62db5cc6a2405dacc25feb8227af65d`, [publication receipt](PUBLICATION.json) |
 | Historical regressions | [All twelve original and v3 calibrated views retained](LOCAL_HISTORICAL_REGRESSION.json); no completed fit rerun |
 
 [C's site](https://nicknicky19.github.io/NFL-forecasting-NGS-C/) separates Upcoming/Actual Props, Prospective Results and Synthetic Diagnostics. Website publication is not model promotion. Capture/model/offer/outcome clocks are distinct; status checks expire after30minutes and started games are suppressed. The manual path is documented in [the runbook](../../protocol/FORWARD_RUNBOOK_V4.md). No scheduled collector or automated future operation is active.
@@ -74,3 +74,5 @@ No new NGS benefit is claimed. The original C0/C1/C2 conclusion remains negative
 The completed2025validation/calibration checkpoint remains frozen:216weekly models,44,251queries/41,577known outcomes/272games, with sigmoid primary Brier worse in10categories and two tiny inconclusive changes. No sigmoid is promoted; no old NFL fit was repeated. [Prior complete rankings and negative results](../robustness-v3/README.md).
 
 The next bounded queue prioritizes exact-line import/grading without refits, current manual refresh at actual readiness, then qualified post-final grading and only afterward permitted future updates. Unknown/DNP/void/push stay separate; postgame participation and full chart credit evidence are needed where statistics alone do not establish a played-zero label. Only a source-qualified real-offer package may advance to paper-selection review; no category has demonstrated prospective superiority. [Queue and per-category dependencies](../../protocol/NEXT_BOUNDED_QUEUE_V4.json).
+
+The independently found UTC game-option label defect is fixed and verified in the final served asset. Original source/forecast clocks, models and hashes did not change. Native Chromium’s managed-proxy CA remains unavailable; public rendering used actual system-TLS-verified HTTPS responses with certificate checks enabled. Own paper-selection and post-final result website admission remain gated work; forecast-only operation does not establish those products or better picks.

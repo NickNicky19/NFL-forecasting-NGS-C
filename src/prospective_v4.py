@@ -119,6 +119,8 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
         key=digest(x.tobytes()+y.tobytes()+json.dumps(pr.tolist()).encode()+json.dumps(dict(target=target,code=modelcode,family='P2_LEAF_32_8_30_1701_PRIOR05',arm=arm),sort_keys=True).encode());modelpath=cache/(target+'-'+key+'.json.gz');metapath=cache/(target+'-'+key+'.meta.json')
         recovery=None
         if modelpath.exists() and not metapath.exists():
+            # Only this retained, audited failure has established recovery provenance.
+            if (target,key)!=('pass_yd','71787f7bf2c18f40cc43ab141ee32f4a12ca295450dcdf98f0b938c2d01affa5'):raise RuntimeError('NEW_ORPHAN_FIT_REQUIRES_EXPLICIT_PROVENANCE_REVIEW')
             assert any(r['target']==target and r['key']==key for r in budget.state['fit_attempts']),'UNREGISTERED_ORPHAN_MODEL'
             numeric=load_numeric(modelpath,filehash(modelpath));recovery=validate_training_model(numeric,x,y,pr)
             meta=dict(target=target,model_SHA256=filehash(modelpath),model_key=key,training_rows=len(pool),training_through_UTC=pd.Timestamp(max(r['kickoff'] for r in pool),unit='s',tz='UTC').isoformat(),features=len(x[0]),arm=arm,history='H-MULTI_2022_PLUS_VERIFIED_COMPLETED',policy_SHA256=policy_hash,code_SHA256=code,created_UTC=stamp(),fit_information_cutoff_UTC=None,revalidated_information_cutoff_UTC=pd.Timestamp(asof,unit='s',tz='UTC').isoformat(),original_fit_code_commit='cf2526b1bc011955d59d367ad1cc64f1ecb853dc',original_fit_clock='Not retained before validator failure; no issuance claimed',recovery=recovery,numeric_export_parity_queries=None,training_label_qualification='OFFICIAL_SUPPORTED_PLAYED_STATS')
