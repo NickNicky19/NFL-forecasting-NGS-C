@@ -1,0 +1,149 @@
+{
+  "id": "C-INDEPENDENT-V8-FINAL-LOCAL",
+  "observed_UTC": "2026-11-01T19:16:42.523407+00:00",
+  "state": "PASS",
+  "canonical_records": 19721,
+  "weekly_ranking_lists_verified": 648,
+  "original_P2_P3_lists": 540,
+  "new_passing_only_linked_workload_lists": 108,
+  "cumulative_two_week_views_verified": 324,
+  "confidence_curve_views_verified": 330,
+  "ranking_views_with_observed_probability_ties": 342,
+  "unknown_selected_unique_record_ids": 17,
+  "unknown_selected_incidences_across_repeated_lists": 84,
+  "technical_and_tie_exclusion_entries_verified": 296,
+  "deterministic_ties_and_one_player_and_no_forcedK": true,
+  "all_selected_and_gradable_confidence_masks": "PASS",
+  "fixed_membership_VOID_no_replacement": "PASS",
+  "ranking_timing_disclosures": "PASS",
+  "paired_actual_line_point_estimates_checked": 9,
+  "paired_numerical_point_estimates_checked": 8,
+  "representative_passing_rank_lists": [
+    {
+      "diagnostic_id": "LRL8-pinnacle-W2-P2_WORKLOAD_V8-WITHIN_CATEGORY-pass_yd-MIXED-K6",
+      "record_ids": [
+        "PL7-c721da6f6165cbfad824790f-P2_WORKLOAD_V8",
+        "PL7-9c3cb0cae67241a077b98df6-P2_WORKLOAD_V8",
+        "PL7-b79634a4d0176fe440a65173-P2_WORKLOAD_V8",
+        "PL7-fad0f6b32601351e7fdbd7a4-P2_WORKLOAD_V8",
+        "PL7-75f0e79e5756b8a1ce991ac9-P2_WORKLOAD_V8",
+        "PL7-488171a80a3ca1f53320396b-P2_WORKLOAD_V8"
+      ],
+      "wins": 4,
+      "losses": 2,
+      "decided": 6
+    },
+    {
+      "diagnostic_id": "LRL8-pinnacle-W3-P2_WORKLOAD_V8-WITHIN_CATEGORY-pass_yd-MIXED-K6",
+      "record_ids": [
+        "PL7-2e1467a280f1a65be3246244-P2_WORKLOAD_V8",
+        "PL7-3c4e618c8c966ed94b778c66-P2_WORKLOAD_V8",
+        "PL7-bb8246187a9371035857dff8-P2_WORKLOAD_V8",
+        "PL7-6684b4191904839db28e647b-P2_WORKLOAD_V8",
+        "PL7-e567cfb0a4e06dfd759a2d05-P2_WORKLOAD_V8",
+        "PL7-3fa232f1b222cb1ac76be77e-P2_WORKLOAD_V8"
+      ],
+      "wins": 3,
+      "losses": 3,
+      "decided": 6
+    },
+    {
+      "diagnostic_id": "LRL8-draftkings-W2-P2_WORKLOAD_V8-WITHIN_CATEGORY-pass_yd-MIXED-K6",
+      "record_ids": [
+        "PL8-540039b2dddee3822ad74568-P2_WORKLOAD_V8",
+        "PL8-af81c049367616be81894e55-P2_WORKLOAD_V8",
+        "PL8-d5e1dbc71467fa106f17706a-P2_WORKLOAD_V8",
+        "PL8-ebb5abe619afce29fa1b6966-P2_WORKLOAD_V8",
+        "PL8-41c31d905ec1e670d95687fa-P2_WORKLOAD_V8",
+        "PL8-539150ed9b3bb3600bcee3ba-P2_WORKLOAD_V8"
+      ],
+      "wins": 4,
+      "losses": 2,
+      "decided": 6
+    }
+  ],
+  "actual_line_paired_deltas": [
+    {
+      "book": "pinnacle",
+      "control": "P2_LAW",
+      "n": 63,
+      "Brier_delta": -0.0006340520337448965,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "pinnacle",
+      "control": "P2_LINKED_V8",
+      "n": 63,
+      "Brier_delta": -0.0011371183660772238,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "pinnacle",
+      "control": "P3_DIRECT",
+      "n": 63,
+      "Brier_delta": 0.01267051073767104,
+      "win_indicator_delta": 0.015873015873015872
+    },
+    {
+      "book": "draftkings",
+      "control": "P2_LAW",
+      "n": 51,
+      "Brier_delta": -0.0029946233815991196,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "draftkings",
+      "control": "P2_LINKED_V8",
+      "n": 51,
+      "Brier_delta": -0.0033554131750695958,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "draftkings",
+      "control": "P3_DIRECT",
+      "n": 51,
+      "Brier_delta": 0.006761266840808231,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "fanduel",
+      "control": "P2_LAW",
+      "n": 52,
+      "Brier_delta": -0.0025727143080399124,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "fanduel",
+      "control": "P2_LINKED_V8",
+      "n": 52,
+      "Brier_delta": -0.0030416577638310007,
+      "win_indicator_delta": 0.0
+    },
+    {
+      "book": "fanduel",
+      "control": "P3_DIRECT",
+      "n": 52,
+      "Brier_delta": 0.0016015065639264933,
+      "win_indicator_delta": 0.019230769230769232
+    }
+  ],
+  "new_fits": 0,
+  "new_source_requests": 0,
+  "C_edits": 0,
+  "new_future_grades": 0,
+  "limits": [
+    "Rank lists are last-recorded-line diagnostics,not simultaneous pregame slates or tickets.",
+    "Repeated lists andbooks share32footballgames and2exposedweeks; counts are output views.",
+    "Workload remains passing-only;no global challenger list assembled.",
+    "Rendered/public/started-game verification remains a separate later acceptance."
+  ],
+  "evidence_SHA256": {
+    "artifacts/reliability-v8/RANK_MEMBERSHIP.json.gz": "871dbba0302c343f4b6f7b9ba9f98c55330c5f6778e726b8624391ae73100c20",
+    "artifacts/reliability-v8/RANK_EXCLUSIONS.json.gz": "c47407f7d92b1b306e5bf1fda38b457a364288b7d9d4eb1e18ea85662208f31d",
+    "reports/reliability-v8/RANK_RESULTS.json.gz": "ce34c6c5ead4c2d300b098f152da2842cd7d21e1d5b031b465df0f3995c817ae",
+    "reports/reliability-v8/RANK_CUMULATIVE.json.gz": "ebf3539f053fa7a4b6392506643fdb2333725b6e50565215773f68243a99526b",
+    "reports/reliability-v8/CONFIDENCE_COVERAGE.json.gz": "4aa2af521342948506cb1dd38374d0bfa02b8971eb312c725dd41e04ebca505b",
+    "reports/reliability-v8/WORKLOAD_PAIRED_UNCERTAINTY.json": "73f9134489065bb1c328b88ace091e6ad21a185122cff1706499943a32ba2e1d",
+    "docs/data/reliability-v8.json": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa"
+  }
+}

@@ -54,7 +54,7 @@ def run(commit,dest,receipt):
     for origin in sorted({r['origin_id'] for r in workload}):
         models[origin]=(read('artifacts/reliability-v8/workload-models/'+origin+'/attempt_model.json.gz'),read('artifacts/reliability-v8/workload-models/'+origin+'/joint_model.json.gz'));get('artifacts/reliability-v8/workload-models/'+origin+'/membership.json.gz')
     for r in workload:
-        nm,joint=models[r['origin_id']];nLaw=infer_forest(nm,np.asarray([r['features']],float),['QB'])[0];assert law_data(nLaw)==r['attempt_law'];base,_=linked_law(joint,r['features']);new,_=linked_law(joint,r['features'],forecast_bins(nLaw));assert law_data(base)==r['arms']['P2_LINKED_V8']['law'] and law_data(new)==r['arms']['P2_WORKLOAD_V8']['law'];new_inference.append(r['origin_id'])
+        nm,joint=models[r['origin_id']];nLaw=infer_forest(nm,np.asarray([r['features']],float),['QB'])[0];assert law_data(nLaw)==r['attempt_law'];base_law,_=linked_law(joint,r['features']);new,_=linked_law(joint,r['features'],forecast_bins(nLaw));assert law_data(base_law)==r['arms']['P2_LINKED_V8']['law'] and law_data(new)==r['arms']['P2_WORKLOAD_V8']['law'];new_inference.append(r['origin_id'])
     ranks=read('artifacts/reliability-v8/RANK_MEMBERSHIP.json.gz');sums=read('reports/reliability-v8/RANK_RESULTS.json.gz');byid={r['record_id']:r for r in latest}
     for s in sums:
         m=[r for r in ranks if r['diagnostic_id']==s['diagnostic_id']];assert len(m)==s['selected_count'] and len({r['player_id'] for r in m})==len(m);counts=Counter(byid[r['record_id']]['status'] for r in m);assert counts['WIN']==s['wins'] and counts['LOSS']==s['losses']
