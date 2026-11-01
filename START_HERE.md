@@ -1,13 +1,38 @@
-# Session C — future forecasts, exact real props and honest evidence
+# Actual-Prop Accuracy — Session C
 
-**Actual-offer package:** [executed v5 checkpoint](reports/actual-offers-v5/README.md) traces 5,066 historical line views on 107 games and three native-side Week6 capture candidates. No source yet qualifies for actual-offer grading/paper admission. [Precise source resolution](reports/actual-offers-v5/SOURCE_RESOLUTION.md) · [manual replay/paper runbook](protocol/PAPER_RUNBOOK_V5.md). The exact-line adapter is implemented/tested and [publicly served-verified at94cc870](reports/actual-offers-v5/PUBLICATION.json); [108fresh GitHub files restored](reports/actual-offers-v5/GITHUB_RESTORE.json). Original v4 predictions remain unchanged.
+2026 regular-season Weeks1–7, all eligible actual offers, declared P2 reference procedures. No qualified real-prop results yet. Unsupported W-L/rates are N/A; zero decided is not a successful zero-loss record.
 
-**[Open C’s dashboard](https://nicknicky19.github.io/NFL-forecasting-NGS-C/).** The new [future checkpoint](reports/prospective-v4/README.md) contains2,513genuinely pregame forecast rows across all twelve categories,407rostered players and13unplayed2026Week8games. Their GitHub server qualification is November1 at00:13:48UTC / October31 at7:13:48p.m.CDT,17h46m12s before the firstkickoff. Forecasts remain provisional and appearance-conditioned; chart-PPR is an explicitly coverage-limited shadow. Real offers/selections and prospective outcomes are unavailable/pending, not invented.
+<!-- ACTUAL_SCORECARD_START -->
+| Category | Method/version; policy | Over W-L / decided / rate | Under W-L / decided / rate | Combined W-L / decided / rate | Eligible/scored | Games/weeks | Uncertainty | Evidence tier |
+|---|---|---|---|---|---|---|---|---|
+| Passing Yards | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Passing TDs | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Completions | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Pass Attempts | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Interceptions Thrown | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Rushing Yards | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Rush Attempts | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Receptions | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Receiving Yards | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Rush + Rec Yards | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Anytime TD | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
+| Fantasy Points (nick-chart-ppr-v1) | C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P2_LAW; ALL_ELIGIBLE_OFFERS | N/A / 0 / N/A | N/A / 0 / N/A | N/A / 0 / N/A | 0/0 | 0/0 | N/A | TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC |
 
-[Manual runbook](protocol/FORWARD_RUNBOOK_V4.md) · [frozen future policy](protocol/PROSPECTIVE_V4.json) · [actual-offer clarification](protocol/ACTUAL_OFFERS_CLARIFICATION_V4.md) · [category readiness](reports/prospective-v4/CATEGORY_STATUS.csv) · [six-component status](reports/prospective-v4/COMPONENT_STATUS.json) · [restoration](reports/prospective-v4/GITHUB_RESTORE.json) · [independent read-only check](reports/prospective-v4/INDEPENDENT.json). Site publication/served verification is recorded separately from forecast authentication and scientific validation.
+Most accurate Over category: NOT ESTABLISHED — no comparable qualified decided results.
 
-Upcoming/Actual Props and Prospective Results are distinct from **Synthetic Diagnostics**. Every actual prop must use its own exact recorded line/venue/clock/contract. Missing lines display “Forecast only—prop line unavailable.” Shared synthetic thresholds, fixed/generated lines, guessed or later lines cannot establish actual-prop accuracy or enter rankings/slips. Projection source=model/average is distinct from line_from; v5 corrects that ambiguity without rewriting the original report. [The bounded offer-source review](reports/prospective-v4/OFFER_QUALIFICATION.json) names the exact remaining permission/identity/timing/contract gaps; prices additionally gate value, not every individual-line test.
+Most accurate Under category: NOT ESTABLISHED — no comparable qualified decided results.
 
-The original [five-category NGS recipe](reports/complete-v1/README.md), [all-twelve2026research](reports/all12-v2.1/README.md), [2025validation/adverse calibration](reports/robustness-v3/README.md), [full original task](SESSION_C_TASK.md) and all prior predictions/failures/receipts stay frozen. NGS values did not establish a persistent useful gain beyond opportunity support. The repeated attachment adds0samples and remains subject to [its exact intake qualifications](reports/USER_NGS_REPEAT_INTAKE_V3.json). No oldfit was repeated for the site, tables or storage.
+Combined leader: NOT ESTABLISHED — no comparable qualified decided results.
 
-Write only C. A/B/original production remain read-only. GitHub-only retention; no paid acquisition, wagers, recurring collector, hidden backend or unattended future run. [Next bounded executable queue](protocol/NEXT_BOUNDED_QUEUE_V4.json). Historical details and the last verified earlier asset are preserved in [the previous entry page](history/START_HERE_AT_d0a36f3.md).
+Highest category-and-side: NOT ESTABLISHED — no comparable qualified decided results.
+<!-- ACTUAL_SCORECARD_END -->
+
+[Actual-Prop Accuracy website](https://nicknicky19.github.io/NFL-forecasting-NGS-C/#accuracy) · [All periods/methods CSV](reports/actual-accuracy-v6/SCORECARD.csv) · [Common scorecard JSON](reports/actual-accuracy-v6/scorecard.json) · [Prospective scorecard](reports/actual-accuracy-v6/PROSPECTIVE_HEADLINE.md) · [Mandatory reporting instructions](protocol/ACTUAL_ACCURACY_REPORTING_V6.md).
+
+The v5 source counts remain qualification candidates, not wins:5,066weekly views, the1,843native-ESPN subset and83overlapping Week6paired markets are not additive independent samples. The refined independent check finds80/83Week6pairs with saved C forecasts/nonmissing outcomes; rec1/rush_att2 are unmatched. No point/line/outcome comparison was performed. [Separate source facets](protocol/SOURCE_FACETS_V6.json) distinguish analysis, minimal GitHub retention, raw redistribution and derived-performance publication. C-authored structural metadata is supported; real prop-performance scope remains unestablished.
+
+All2,513genuine v4 forecasts/models/receipts remain unchanged. No fit or attachment intake is repeated. Historical numerical/synthetic research, adverse NGS/calibration findings, current six-component gaps and the future capture/grading runbook remain accessible from the [preserved previous entry page](history/START_HERE_AT_ff45151.md). No scientific promotion follows from this reporting release.
+
+Next exact dependency: applicable existing provider grant/approved-export scope for C analysis, sufficient immutable normalized evidence on GitHub and source-dependent result publication. Full raw redistribution is a separate scope; prices/entry quotes are not prerequisites for otherwise qualified individual grading. Once a subset qualifies, grade saved P1 mean/median separately and compatible P2/P3 at the exact lines, without refitting. No CSV or credentials are requested from Nick.
+
+Most accurate Over category: **NOT ESTABLISHED**. Most accurate Under category: **NOT ESTABLISHED**. Combined leader: **NOT ESTABLISHED** — no qualified decided actual-offer results.

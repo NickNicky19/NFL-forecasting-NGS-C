@@ -1,0 +1,93 @@
+{
+  "id": "C-ACTUAL-ACCURACY-v6",
+  "registered_before_any_actual_offer_result_ranking": true,
+  "primary_historical_period": {
+    "season": 2026,
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "evidence_tiers": [
+    "ORIGINAL_AUTHENTICATED_PREGAME",
+    "QUALIFIED_CHRONOLOGICAL_ACTUAL_OFFER_REPLAY",
+    "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+    "GENUINE_PROSPECTIVE_W8_PLUS"
+  ],
+  "reference": {
+    "historical": "C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP; exact-line P2 selector-v4.1. P1 median and mean are separate first replay controls, not promoted after results.",
+    "prospective": "Preserved C-FORWARD-P2-v4 per-category primary arm and P2_EXACT_LINE_SELECTOR-v4.1; chart shadow/coherence/availability restrictions preserved",
+    "policy": "ALL_ELIGIBLE_OFFERS",
+    "method_promotion": "Future-effective versioned admission only; never choose a per-week hindsight winner"
+  },
+  "leader_support": {
+    "minimum_decided_unique_football_opportunities": 100,
+    "minimum_distinct_games": 20,
+    "minimum_distinct_weeks": 5,
+    "applies_separately_to": [
+      "OVER",
+      "UNDER",
+      "COMBINED"
+    ],
+    "observed_ranking": "All actually decided comparable cells are visible, including ties and small samples, but small samples do not meet support eligibility",
+    "uncertainty": "95% week-block percentile bootstrap, 2000 draws, seed661107; fewer than5weeks: Wilson interval labelled independent-Bernoulli diagnostic only, not dependence-aware qualification",
+    "support_is_not_superiority": "Meeting support permits comparison, not a proven winner. Evidence-supported leader additionally needs retained prespecified matched comparison/chronological confirmation and multiplicity/research-exposure review; no automatic promotion from an interval or maximum percentage.",
+    "cross_category_strata": [
+      "period",
+      "evidence_tier",
+      "decision_horizon",
+      "venue",
+      "product",
+      "line_tier",
+      "policy_id"
+    ],
+    "missing_difficulty_evidence": "Expose population/line difficulty limitations; no universal category superiority or invented prices"
+  },
+  "snapshot_deduplication": "Preserve v5 first qualified paper selection by actual GitHub server persistence, not local decision time, and do not create another primary by line tier. Authenticated original selections retain their frozen server-qualified order. Historical inputs retain the predeclared snapshot/version; unverified clocks remain diagnostic. Paired sides/repeated quotes are not new opportunities. Corrections freeze season/week, point/law/side, membership and issuance proof fields and use new linked grade IDs. Later revisions remain supplementary.",
+  "top_pick_views": {
+    "K": [
+      6,
+      10,
+      20
+    ],
+    "scope": [
+      "GLOBAL_ACROSS_CATEGORIES",
+      "WITHIN_CATEGORY"
+    ],
+    "sides": [
+      "MIXED",
+      "OVER_ONLY",
+      "UNDER_ONLY"
+    ],
+    "status": "REPORT_ONLY_IF_PRIOR_FROZEN_MEMBERSHIP_EXISTS; no newly invented selector or automatic K filling"
+  },
+  "period_pooling": "No silent season/tier/horizon/stratum pooling. ALL_ELIGIBLE_OFFERS is an explicit whole-procedure aggregate with disclosed strata, alongside filtered stratum cells. Cross-category leaders only within a common stratum. Prior2022-2025 separately; no pooled-season view until registered.",
+  "statuses": [
+    "WIN",
+    "LOSS",
+    "PUSH",
+    "VOID",
+    "DNP",
+    "PENDING",
+    "UNKNOWN_PARTICIPATION",
+    "MISSING_ACTUAL",
+    "UNAVAILABLE_FORECAST",
+    "ABSTAIN"
+  ],
+  "budget": {
+    "new_NFL_fits": 0,
+    "model_refits": 0,
+    "synthetic_NFL_experiments": 0,
+    "provider_offer_endpoint_calls": 0,
+    "bundle_reintakes": 0,
+    "new_public_artifacts_bytes": 16777216,
+    "whole_C_cache_bytes": 2684354560
+  },
+  "preserve": "All v4 forecasts and v5 records/source-gate semantics unchanged; source facets are clarified separately, never silently upgraded",
+  "registered_UTC": "2026-11-01T03:37:51.155374+00:00"
+}
