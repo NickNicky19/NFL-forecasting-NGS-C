@@ -3,3 +3,5 @@
 #view-forecasts .table-wrap{max-height:680px;overflow:auto}#forecasts thead{position:sticky;top:0;z-index:1}@media(max-width:720px){#view-forecasts .table-wrap{max-height:620px}}
 
 #view-upcoming .table-wrap{max-height:650px;overflow:auto}#upcoming thead{position:sticky;top:0;z-index:1}#upcoming tbody tr{cursor:pointer}#upcoming tbody tr:hover{background:#f4f8f2}#upcoming small{display:block;font-size:10px;color:var(--muted)}#upcoming td:nth-child(6),#upcoming td:last-child{white-space:normal;min-width:150px;max-width:220px}#prospective-results td{white-space:normal;min-width:110px}
+
+#accuracy-headline td:nth-child(2),#accuracy-headline td:last-child{white-space:normal;min-width:170px;max-width:250px;overflow-wrap:anywhere}#accuracy-headline tbody tr{cursor:pointer}#accuracy-methods td:nth-child(2),#accuracy-methods td:last-child,#accuracy-facets td{white-space:normal;max-width:310px;overflow-wrap:anywhere}#accuracy-leaders p{overflow-wrap:anywhere}#view-accuracy details{margin:18px 0}#view-accuracy summary{cursor:pointer;font-weight:600}

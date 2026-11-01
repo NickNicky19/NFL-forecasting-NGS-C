@@ -1,0 +1,507 @@
+{
+  "id": "C-INDEPENDENT-SOURCE-FACET-REVIEW-v6",
+  "observed_UTC": "2026-11-01T03:49:53.220410+00:00",
+  "verdict": "STRUCTURAL_COUNTS_AND_FACET_SEPARATION_VERIFIED;NO_PROP_PERFORMANCE_ADMISSION",
+  "scope": "Native identity membership, stored outcome-presence, schema and permission-facet audit only. No quote-versus-point/outcome comparisons, W/L, proper scores, fits, provider requests or C edits.",
+  "source_facets_SHA256": "f8a3d21d203ca611fe6f566124dfe3772a71536140460f38b6461bd5e225e191",
+  "v5_registry_SHA256": "881dd439d600d227f8e5184ccb4f783f981b4d3ddf10d69962955877b98ec06a",
+  "v5_gates": {
+    "LEGACY_ESPN_DK": {
+      "analysis_qualified": false,
+      "public_retention_qualified": false,
+      "state": "APPLICABLE_PROVIDER_GRANT_REQUIRED"
+    },
+    "SLEEPER_PICKS": {
+      "analysis_qualified": false,
+      "public_retention_qualified": false,
+      "state": "PICKS_SPECIFIC_WRITTEN_APPROVAL_REQUIRED"
+    }
+  },
+  "pinned_producer": {
+    "repository": "NickNicky19/nicks-expert-nfl-picks",
+    "reference": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+    "archive_SHA256": "315c2227de519344459d243eec4b61557b8b8a572538e63f33f617db167889b6",
+    "weekly_paths": "output/data/weeks/2026_w01.json through2026_w07.json",
+    "historical_roster_SHA256": "5b3be2d824fb79c9a1a2bc6278c2b03ef9cbc5bd3242eda9ad900928d4e13f26",
+    "historical_schedule_SHA256": "bbf8daa514df82f549ceed59046f72945a01a5ba3d2586a09e6464d3e0a4b547",
+    "weekly_membership": {
+      "candidate_views": 5066,
+      "saved_C_identity_matches": 4969,
+      "unmatched_C_views": 97,
+      "explicit_ESPN_candidate_views": 1843,
+      "explicit_ESPN_C_matches": 1807
+    }
+  },
+  "phase2": {
+    "reference": "81c3fc2a612ced916f4c54814f978c509058bca5",
+    "artifacts": [
+      {
+        "path": "data/offers/2026/w06/546c5a6cb3cdda36a9d8e9c765387e6bdba042f5fb07e67a3bed0685e98aec0c.json.gz",
+        "SHA256": "20754e4a1376d3f8c3761be4b43eb51ddfb2d6ee6d481ba87abd3650863f00b1",
+        "payload_SHA256": "546c5a6cb3cdda36a9d8e9c765387e6bdba042f5fb07e67a3bed0685e98aec0c",
+        "bytes": 57271
+      },
+      {
+        "path": "data/offers/2026/w06/2d54e96b294660fed7f7654ed0181a197e8f559afc58a7fbe4a5d18ed90fc30a.json.gz",
+        "SHA256": "960e6e0d08c3ce90bd15da648c2a4f2d0f20b2a418eac586cf61e966a86e644f",
+        "payload_SHA256": "2d54e96b294660fed7f7654ed0181a197e8f559afc58a7fbe4a5d18ed90fc30a",
+        "bytes": 57712
+      },
+      {
+        "path": "data/offers/2026/w06/03a02bd7b3ae7cdce297da44345f8b13282c38e47238f3ac3d45a106332240ee.json.gz",
+        "SHA256": "b007e1927a18dd89c217fe81162979abcb572344c4c2c8a7ed96197cc5b4fc72",
+        "payload_SHA256": "03a02bd7b3ae7cdce297da44345f8b13282c38e47238f3ac3d45a106332240ee",
+        "bytes": 58540
+      }
+    ],
+    "first_complete_snapshot_rule": "Collection instant then retained capture identity; pair identity excludes quote value and outcome. Original three captures remain distinct.",
+    "union_unique_pairs": 83,
+    "first_pair_set_subset_of_latest": true,
+    "second_pair_set_subset_of_latest": true,
+    "C_membership": {
+      "unique_pairs": 83,
+      "saved_C_case_membership": 80,
+      "nonmissing_saved_C_outcomes": 80,
+      "missing_saved_C_cases": 3
+    },
+    "category_membership": {
+      "rec": {
+        "candidate_pairs": 54,
+        "saved_C_case_membership": 53,
+        "nonmissing_saved_C_outcomes": 53,
+        "missing_saved_C_cases": 1
+      },
+      "rush_att": {
+        "candidate_pairs": 12,
+        "saved_C_case_membership": 10,
+        "nonmissing_saved_C_outcomes": 10,
+        "missing_saved_C_cases": 2
+      },
+      "pass_yd": {
+        "candidate_pairs": 17,
+        "saved_C_case_membership": 17,
+        "nonmissing_saved_C_outcomes": 17
+      }
+    },
+    "label_presence_limitation": "A nonmissing retained C outcome does not establish same-offer outcome version, statistical/settlement contract, eligible population, horizon or performance. Three absent C cases remain unmatched/unavailable.",
+    "source_clocks": "Claimed prekick collection and source-reported updated_at retained; authentic quote freshness and original GitHub publication remain unestablished."
+  },
+  "native_join": "2026REG historical week/team/Sleeper to unique GSIS; existing LAR-to-LA franchise normalization, native ESPN event crosswalk; no name guessing",
+  "C_saved_source_hashes": [
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "73d317d8dfed9b75e71632e4f9eb9809a02e7343cae165ff5f295af16b195953",
+      "bytes": 9741
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "74e720e488dce91921a320617a2fc498014a41ab9eefb493b5f90e064d720bdd",
+      "bytes": 10241
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "b4b5894aeb714549596e79f02481986cfcb5f5a42d7d194d12118bb494ea1ea7",
+      "bytes": 9575
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "aebf93e2646e54a78ee8b0b7e1c43ac5894b7cc766f6503f52bb08f7a1c1fa03",
+      "bytes": 9098
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "c2157ec821702461518e2184c1abdcbd589fa3a32da8326cf4ca94132e2904e1",
+      "bytes": 9568
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "ebd8c818918a05ec13766e8d925a1d69306a0f1f372733a81bfd9e3814fb4eac",
+      "bytes": 7879
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "f182bf1985f79d56206a9e2da515d54f9e0a4d4a018c2fc7204cdd85b0bb6b83",
+      "bytes": 8335
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "4960648071dacf5b1dbaace69b3c918822fa7734932cf44105b4418cfb6e2789",
+      "bytes": 8173
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "c142d00faed331dc7e641f6b4453792a2043fc6a8ecfeb32a41d6f57aaaab517",
+      "bytes": 8559
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "7fabfd6730fc2dd278194f81620117d3a08e27f8194cffdb456ef0c1fb8fe698",
+      "bytes": 8060
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "5cc3b655eddd202f2efa478759dac31cedbb8ecb6aac8a5a3f408c9b3af17c60",
+      "bytes": 7563
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "64cb1a29858815f4942d0ca6fa33a00ecbd6226509e90954067e23be8c1f5a0d",
+      "bytes": 7899
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "f53f04b1bc0ab44fb522d04cc5ef700e7f92f3433266eaa4441a0556b7a5f0dd",
+      "bytes": 6516
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_td-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "25a0c4f92cabeaa08699dc8c293f4e4d5156c167f7edc8ae02f9a992763fe8b0",
+      "bytes": 6889
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "9253187ba6e1e92c961248f01a0ef50ed560b1a71c3044b4741b66e9529456d1",
+      "bytes": 8921
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "8cf4ce6caf629a058f26de4f6f115059a3a02fb495072fd5bb0bff5de13c70ec",
+      "bytes": 9422
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "796f77ee4ab813a542d04b4c63b96d223d4ea2978d8668bc7b2ac1db90052e43",
+      "bytes": 8838
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "826a30241d5530ec59f8223a9b10cc3115b6e4a55446ea282334c247d386c681",
+      "bytes": 8324
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "8ed8a3c26f6319b1b9f0d1a8e33dd2c4ddeef624329b9b44d8e389f9a6976161",
+      "bytes": 8755
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "5c73b427d229f31033a4ca07c74e543cc8bacc906b5bfe41f4692f88f540ec9c",
+      "bytes": 7213
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "987702176e01dee3c75855a8c7be1fc6622b261a5bbeaf770827433a1e6d6ffe",
+      "bytes": 7656
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "892435aebe84576d80c01d929994870cb96209046bb337bc89a2d0b23365e537",
+      "bytes": 9320
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "e79ef2cb420027da7ece4bd751ef81f24957e738b8f4a49b557cd705daa06b40",
+      "bytes": 9865
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "31ea9f475622409141faab41e23f2be13b23136d057ded9b0767f73e834e0caf",
+      "bytes": 9248
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "cffbb2163d8936ce408a6be73d98a5b7387dbf021667a7db242896816e0502a4",
+      "bytes": 8741
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "1fb058f47b24cf7ebfb5699c43b8a0b0473f5bb7226aa1a00aa5ab01a19211e4",
+      "bytes": 9175
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "d49a6acb037e6cf9e0c8656350aa96d2c273be13e784265dcdca06db7b60598b",
+      "bytes": 7546
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_att-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "ac0e2965f4b2ded33bf09170572b32b643c973da5f8a6fc08e77b3b4f3bd0836",
+      "bytes": 8000
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "2c1646435cf01dbead2413e538617392af8806cdda07a3a981e5e4cd983e9339",
+      "bytes": 7532
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "e3126052dc02c2183c4cd652bd4c325035faef583f78942388a9d94129cd085e",
+      "bytes": 7921
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "d3a5a55e41ddf0cb035dceb4cf07bbe0fa54bcf9c58c82ff24237c085608a0da",
+      "bytes": 7411
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "79c5ef8c2ad4ce4216f7aece8954b74ecd5553a7e0fcdef7e01cee5d22bb80fc",
+      "bytes": 7068
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "6af2f91194a6fb2bc501c6a2f575ce2c506e4a81237a47ae010ef080555f57b1",
+      "bytes": 7328
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "a43d36a53c07d527db227a461d4efc3663e01ef246dd8468790cbdad4d56befe",
+      "bytes": 6096
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_int-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "a69e2a4d8af2068c9e09b9759237ef087066128f513c33ae3c1662b45d6fe537",
+      "bytes": 6389
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "b3c665e01d84cb07264c8b314902891294b0495ba0f992dc86e4dc07ff163a3e",
+      "bytes": 62009
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "4fda8c6dd42306d43c62c4e4d1c219148b69ff92841308dea3f4415f73eb80af",
+      "bytes": 64753
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "3010f8f3f78c0f824ebe667a630d9a4de7957fdacc50243b43d3f03495b7aac8",
+      "bytes": 63913
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "0a7f5a3b8847c313080db19bb6fdaa6fe3ef733e9ee2211b299694af5507a599",
+      "bytes": 67137
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "cf5ce41948a802ae499c5a3f5266ec0afb6994050a00b76c90892315b106e110",
+      "bytes": 61330
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "e8bd4bb98c13f4c1558ae1e14a048ac82c8d640ac1ffa0223a3e513693987214",
+      "bytes": 53299
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "46ed760655c6be860399ea879239f86e5d517d50231297434d7cea6adf6cd68e",
+      "bytes": 50656
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "8905c3e2e8f3890f33b2d2b85491fb403b9833203beda5fe5cc26b8504b56c2d",
+      "bytes": 58527
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "ca739fdea4b88597991c83d028ff3a6dd85e853ebb66b5498e1bdac3c01ff790",
+      "bytes": 60591
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "f2193fbf0dcf731303a50ff47a671754fab3649b1cfc7a7cc3911ec46711c010",
+      "bytes": 60630
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "316a713a49eb5fae14d2e77a4fa8cd24ac74f557d03da3829b5a4f2c7562931d",
+      "bytes": 59425
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "79375b667aacdb44ab399d450b05c3b0292a44c2d512d563d5a95c1cd3c4a8e2",
+      "bytes": 57559
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "c979d49f2e6b24543b0f88c623507531051c233b3f14fdcf1a3c8441c14feb11",
+      "bytes": 51668
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_att-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "2ad608be0dda19d251b10ca8655c61ca4d269e46e106abb901487fff8769148b",
+      "bytes": 51371
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "98eff5ee7433381ef45e95cc6d5db0094950380e0e521fef5a4f6eadedbaed19",
+      "bytes": 69732
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "1c41dede746008164254e934524d562a80f2262ed9e7aff01b0da69009908e87",
+      "bytes": 70574
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "6cb0488ad818f29ae552082f7d9371af2fab80cff28c1bbaa6f367525efe0a02",
+      "bytes": 73460
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "f24b0258206b5cf47487a6614c37d3d5f745a4de86786ac5786f9b5b94e79ad9",
+      "bytes": 73581
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "c07bb943f78e7664cc5be2cdb6f4303f3467ffffb6e9dcaa038915004ae656bf",
+      "bytes": 69498
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "f3c531065eb0f4a18b71565ad1d030f1e1c934b770cb3abd52f75430e47ab789",
+      "bytes": 64543
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "a46c0bed904e314739e8be87ec7c6247458cbc808bd9b66a6ba1db8ea689e5c4",
+      "bytes": 61979
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "c8722c3303e0960efea3280346c278ed38d5d6ee7da6b87bb09ea9d8735b1f66",
+      "bytes": 68728
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "640b71f08e19d4d105a9e349d8b96f95701889356107688ced6a832caede7ca4",
+      "bytes": 70346
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "3aa0a7f144c1b37c4a72ddbaf894a7924ef288840fc8151730dc7f774645e754",
+      "bytes": 72881
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "f85b2494ad4358d8061313a6b4ce74e327653eb84b991c5ced5c6fd4c6d1233f",
+      "bytes": 72427
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "ff25c0fe2729ad21790d0d7dec1c6492d37dbb3d50b84aba1cbc421a809e9f35",
+      "bytes": 68370
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "1aa589d948b23fb9467185ba5d5b7c6aef87393d584ac5fb47b30312a7daaebf",
+      "bytes": 63777
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "5784f1cdd8d98446c3fe3e6f8559b9a99b5d0afe9de40e3b5e6f154e2a527df0",
+      "bytes": 61296
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W01",
+      "SHA256": "65f5833c76b9da8f1d5c3f44b5f2d8fd6e1b4e35aba66530bce9a8a35db59042",
+      "bytes": 82219
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "SHA256": "6dea49cf756d81bd94ebd79d462e17c656ba6e5b56a6a2f3e0474823022843c8",
+      "bytes": 83920
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "SHA256": "7ac79601e8af4d6f347d0e6552b5d152f8cd9c10f78ceed2a5c918654501e72a",
+      "bytes": 87207
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W04",
+      "SHA256": "fe1a1f0dcac031bb14419eff7c20cc5ca6a8e124a6ee20dbc1fa9f39cc489ea6",
+      "bytes": 85968
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W05",
+      "SHA256": "f889e3b32c1bf60d581cd37525b670e04b13da4a7c1e77354efd985a7f61d9a6",
+      "bytes": 82496
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W06",
+      "SHA256": "f45083fb7193b6c536e60a1eb7bfea1cb5aa79442d51fbe4747662ff13cf0248",
+      "bytes": 75734
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_rec_yd-H-MULTI-P2_LEAF-E0_OP-W07",
+      "SHA256": "29c6047be1e641322bf60260f5187a785b2732f3a910e3a2c6e9e5b49b476f42",
+      "bytes": 73479
+    }
+  ],
+  "facet_review": {
+    "LEGACY_ESPN_DK": {
+      "analysis": "APPLICABLE_GRANT_NOT_ESTABLISHED",
+      "GitHub_evidence_retention": "MINIMUM_PERMITTED_ROUTE_NOT_ESTABLISHED",
+      "raw_redistribution": "NO_APPLICABLE_GRANT_IDENTIFIED",
+      "derived_aggregate_publication": "PROP_PERFORMANCE_SCOPE_NOT_ESTABLISHED",
+      "structural_audit_publication": "SUPPORTED_C_AUTHORED_METADATA",
+      "identity": "SUBSET_VERIFIED",
+      "offered_sides": "NOT_RETAINED_PER_WEEKLY_LINE",
+      "contract": "PRODUCER_FULL_GAME_OT_MAPPING_ONLY;OFFER_SPECIFIC_BINDING_INCOMPLETE",
+      "timing": "POSTGAME_RETRIEVAL_QUOTE_CLOCK_UNKNOWN",
+      "outcome": "C_LABELS_EXIST;EXACT_OFFER_VERSION_CONTRACT_MATCH_UNESTABLISHED",
+      "forecast_matching": "NATIVE_CASE_MEMBERSHIP_ONLY"
+    },
+    "SLEEPER_PICKS": {
+      "analysis": "PICKS_SPECIFIC_APPROVAL_NOT_ESTABLISHED",
+      "GitHub_evidence_retention": "MINIMUM_PERMITTED_ROUTE_NOT_ESTABLISHED",
+      "raw_redistribution": "NO_APPLICABLE_GRANT_IDENTIFIED",
+      "derived_aggregate_publication": "PROP_PERFORMANCE_SCOPE_NOT_ESTABLISHED",
+      "structural_audit_publication": "SUPPORTED_C_AUTHORED_METADATA",
+      "identity": "STRUCTURALLY_VERIFIED",
+      "offered_sides": "STRUCTURALLY_VERIFIED_PAIRED_OVER_UNDER;ACTIVE_PRE_GAME_NORMAL",
+      "contract": "NORMALIZED_FULL_GAME_OT_WITH_RULE_URL_HASH;ORIGINAL_RULE_BINDING_UNESTABLISHED",
+      "timing": "CLAIMED_PREKICK_COLLECTION;QUOTE_FRESHNESS_AND_ORIGINAL_GITHUB_PUBLICATION_UNESTABLISHED",
+      "outcome": "NONMISSING_C_LABEL_MEMBERSHIP_ONLY;NO_POINT_LINE_OUTCOME_COMPARISON",
+      "forecast_matching": "SAVED_C_P2_LEAF_H_MULTI_E0_OP_W6_IDENTITY_MEMBERSHIP_ONLY"
+    }
+  },
+  "scope_conclusions": {
+    "analysis": "Applicable grant not established; default-term restrictions documented, not a determination that every possible historical authorization is absent.",
+    "minimal_GitHub_evidence_retention": "No permitted sufficient normalized quote/identity/contract/clock evidence route established yet.",
+    "raw_redistribution": "Separate scope; unrestricted full-response mirroring is not required if permitted normalized evidence suffices.",
+    "derived_prop_performance_publication": "Unestablished for source-dependent actual-prop performance; not a blanket prohibition on C-authored outputs.",
+    "C_authored_structural_publication": "Supported metadata: counts, hashes, coverage and qualification findings. Distinct from W/L/Brier or skill claims.",
+    "prices_and_entry_quotes": "Not required for otherwise qualified individual statistical direction grading; price/value and executable six-leg claims require their own evidence.",
+    "other_work": "Existing permitted numerical forecasts and genuine future forecast-only records remain independent; provider offer holds do not block unrelated supported work."
+  },
+  "terms": [
+    {
+      "source": "Disney/ESPN",
+      "URL": "https://disneytermsofuse.com/english/",
+      "last_updated": "2024-05-24",
+      "sections": [
+        "2A",
+        "2B(x)"
+      ]
+    },
+    {
+      "source": "Sleeper Picks",
+      "URL": "https://support.sleeper.com/en/articles/5486620-general-terms-of-use",
+      "last_updated": "2026-10-06",
+      "sections": [
+        "9.2",
+        "11.1",
+        "11.3"
+      ]
+    }
+  ],
+  "minimal_remaining_input": "Existing applicable provider grant or approved licensed export terms identifying source/records and dates, C research analysis, minimal immutable public evidence and source-dependent result publication. No credentials, signup, paid acquisition, new CSV or full raw redistribution is automatically required.",
+  "all_twelve_actual_accuracy_and_leaders": "N/A/NOT_ESTABLISHED while no qualified decided actual-prop dataset exists; structural source counts and synthetic/numerical scores cannot fill the leaderboard.",
+  "provider_offer_calls": 0,
+  "NFL_fits": 0,
+  "actual_offer_grading": 0,
+  "raw_quote_values_in_report": false,
+  "private_paths_in_report": false
+}

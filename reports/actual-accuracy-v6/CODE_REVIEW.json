@@ -1,0 +1,158 @@
+{
+  "id": "C-INDEPENDENT-AGGREGATION-CODE-REVIEW-v6",
+  "observed_UTC": "2026-11-01T04:22:42.757523+00:00",
+  "verdict": "PASS_FOR_SOURCE_HELD_SCORECARD_AND_LOCAL_UI",
+  "actual_prop_accuracy": {
+    "required_categories": 12,
+    "qualified_actual_offer_rows": 0,
+    "decided_actual_offer_results": 0,
+    "Over_leader": "NOT_ESTABLISHED",
+    "Under_leader": "NOT_ESTABLISHED",
+    "combined_leader": "NOT_ESTABLISHED",
+    "category_and_side_leader": "NOT_ESTABLISHED",
+    "last_actual_graded_UTC": null
+  },
+  "scope": "Read-only code and preservation review; unit tests and positive UI cases use explicit fiction only. No provider requests, actual-offer outcome grading, fitting or C edits by independent verifier.",
+  "reviewed_files": {
+    "src/actual_accuracy_v6.py": {
+      "SHA256": "5ef6b5a953b807024615a6064cbd86649755f6506479405b52fa9b6ed9bd24cf",
+      "bytes": 38155
+    },
+    "tests/test_actual_accuracy_v6.py": {
+      "SHA256": "f27430a17a8a5c9de9cab8eac0fe1c531ece40ff6b2219b104cd24b774fd0cb5",
+      "bytes": 15344
+    },
+    "src/browser_qa_accuracy_v6.py": {
+      "SHA256": "eee759211ca25f4aa209e3059421ea105dae182f377b987de559a2ca8b77dcd0",
+      "bytes": 5270
+    },
+    "docs/accuracy.js": {
+      "SHA256": "2521ff1b663b2aff00988a3bd55a6c7aedc8c1164d50c863b2d87afc869f2495",
+      "bytes": 9007
+    },
+    "docs/app.js": {
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "bytes": 19131
+    },
+    "docs/index.html": {
+      "SHA256": "6f9ccba64ae83826ec367679359ad29af36570a764923ba946641f234b8e3580",
+      "bytes": 23798
+    },
+    "docs/paper.js": {
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "bytes": 7151
+    },
+    ".github/workflows/c-checks-pages.yml": {
+      "SHA256": "4fcd34b4f0d627c4733891a92eb9284509078f43db780cf2abf7ac79f352d52e",
+      "bytes": 2671
+    },
+    "protocol/ACTUAL_ACCURACY_POLICY_V6.json": {
+      "SHA256": "ca4c9c7d2b9a0dc5ff4f877562c3766b38b601b8ec71e22070a4978961409d1e",
+      "bytes": 4028
+    },
+    "protocol/ACTUAL_ACCURACY_REPORTING_V6.md": {
+      "SHA256": "394e496ef4ad6b9a827a6d1b88bdff9b2cd9e1b455e1e2f60a033061e1de78bb",
+      "bytes": 4343
+    },
+    "protocol/SOURCE_FACETS_V6.json": {
+      "SHA256": "f8a3d21d203ca611fe6f566124dfe3772a71536140460f38b6461bd5e225e191",
+      "bytes": 4471
+    },
+    "reporting/actual-props-v6/DATASETS.json": {
+      "SHA256": "a7209f568fc078196cc1ecdc6cab30e95870efec1bd0bf4ce5dd8119479716df",
+      "bytes": 609
+    },
+    "docs/data/actual-accuracy-v6.json": {
+      "SHA256": "8df22f0f0e9fcd3ab736654583f4f345f59787e5c03770a007536e10eca15155",
+      "bytes": 644121
+    },
+    "src/paper_v5.py": {
+      "SHA256": "3f4c604c4cf90123a3fce6ce186c2401a594f21b35cd76f224c2a7d1ea355e78",
+      "bytes": 29278
+    },
+    "tests/test_paper_v5.py": {
+      "SHA256": "ba14532b8c1f88d5ab1445524618ec56913f886dafdca1452347797c465294eb",
+      "bytes": 10737
+    }
+  },
+  "focused_tests": {
+    "unit_tests": 27,
+    "result": "PASS",
+    "reviewed_code_hashes_stable_during_final_tests": true,
+    "node_syntax": "PASS",
+    "CSV_JSON_chat_checkpoint_website_ledger_parity": "PASS:0 actual rows",
+    "paper_compatibility_fixture_tests": 20,
+    "additional_independent_binding_probes": 8,
+    "source_lifecycle_negative_mutations": 6,
+    "earliest_coverage_and_selection_indices": "PASS: distinct frozen policies"
+  },
+  "checks": {
+    "own_selected_sides": "Weighted combined wins/decided; unequal side percentages never averaged",
+    "empty_pools": "N/A wins/losses/rates and NOT_ESTABLISHED leaders; selected/nondecided states retained",
+    "state_coherence": "Technical unavailable, intentional abstention, pending, playedzero, DNP, unknown, missingactual and statisticalvoid remain distinct; venue settlement is separate",
+    "append_only_corrections": "New linked grade IDs required; selection, season/week, membership, point/law, role and server-proof metadata frozen",
+    "first_snapshot": "Genuine/authenticated server order used; C genuine tier preserves v5 first snapshot across line tiers and strictly greater than300second server lead",
+    "typed_points": "Separate finite nonboolean mean/median point controls; no law/price implied by a point",
+    "probabilities": "Exact line, complements, supported comparator, lattice push support; P2 probabilities recomputed from safe retained numeric law with correct kind/scale; direct/hybrid thresholds monotone and identical same-information thresholds consistent",
+    "contracts": "Signed/count/lattice boundaries checked; rush-or-rec event components and exact chart components/unique credits required in decisive grading",
+    "periods_and_strata": "Regular seasons separated; explicit whole-procedure ALL aggregate discloses strata and has filtered stratum cells and leaders; Markdown selects explicit tier/policy; singleW8+ controls use prospective tier",
+    "coverage": "Missing method output cannot shrink the shared eligible-offer universe; matched outputs and unavailable counts remain separate",
+    "TopK": "Missing prior frozen membership remains unavailable; no forced K or hindsight list; per-leg scores do not imply6of6",
+    "leaders": "Observed ties remain descriptive. Minimum100unique decided opportunities/20games/5weeks only permits comparison; no automatic evidence-supported leader or model promotion",
+    "source_facets": "Analysis, sufficient GitHub evidence retention, raw redistribution, derived-performance publication and C-authored structural metadata remain separate; no frozen v5 source permission upgrade",
+    "source_timing_facets": "Reviewed qualified_evidence_tiers must be a typed list or exactTrue dictionary grant; false dictionary values, bare strings and absent tiers do not upgrade licensing into timing evidence",
+    "genuine_future_import_binding": "Source-qualified packet and GitHub receipt hashes verified with existing v5 validator; original primary offer binds venue/product/tier/sides/period/comparator/native event/kickoff/cutoff; source lifecycle/status/TTL and earliest paper indices checked; forecast ID binds original model hash, position, season/week/native identity, source times, typed P1 point and full P2 law/probabilities",
+    "coverage_first_snapshot": "Earliest source-eligible unavailable forecast remains coverage; v5 earliest qualified selection remains separately frozen; changed later output cannot replace either original index",
+    "correction_proof_hash": "server_receipt_SHA256 is frozen with original receipt/run/server metadata in append-only grade corrections",
+    "missing_method_reason": "Qualified offer universe with missing method output reports missing retained prediction/selection rather than unresolved source rights; anytime/fantasy missing-market reasons require no qualified offer universe",
+    "actual_first_qualified_import": "PENDING: no real qualified dataset or paper packet exists; fictional binding tests do not establish a real import"
+  },
+  "independent_local_render": {
+    "empty_data_acceptance": "PASS:12 categories/four unestablished leaders/typed controls/periods/TopK missingness/source facets/gradedclock/desktopmobile/DST/HTTPchecksum failure",
+    "positive_fiction": "PASS:unequal weighted side counts, two venue-specific filters, per-group observed leaders, missing-sideN/A, singleW8 prospective tier and pendingnotdecided",
+    "fictional_records_only_in_browser_memory": true,
+    "original_empty_dataset_restored_by_reload": true,
+    "page_errors": [],
+    "transport": "Local staticHTTP; no public deployed-state claim"
+  },
+  "preservation": {
+    "original_public_v4_anchor": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+    "original_files_checked": 74,
+    "original_v4_changed_paths": [],
+    "forward_chunks": 12,
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "first_original_server_UTC": "2026-11-01T00:13:48Z",
+    "v5_actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+    "v5_source_registry_SHA256": "881dd439d600d227f8e5184ccb4f783f981b4d3ddf10d69962955877b98ec06a"
+  },
+  "source_review": {
+    "id": "C-INDEPENDENT-SOURCE-FACET-REVIEW-v6",
+    "SHA256": "bf49fbf41361db9b0166e4a9da1cbea5346596d7dd59515fc3059d49882c25dc",
+    "weekly_C_matches": 4969,
+    "weekly_candidates": 5066,
+    "Phase2_C_matches": 80,
+    "Phase2_unique_pairs": 83,
+    "counts_are": "Structural identity/outcome-presence only, not prop scores"
+  },
+  "limitations": [
+    "No qualified real-offer dataset or performance was admitted by this audit; software checks are not NFL outcomes.",
+    "Applicable source permissions, sufficient durable evidence and exact row/contract/timing/forecast matching remain required for any real dataset.",
+    "Actual frozen TopK membership and entry/payout evidence remain absent.",
+    "New public servedcommit/assets/renderedrow parity requires its own postdeployment check.",
+    "No actual grant migration, newly imported grade packet or future selection was validated merely by these fictional tests.",
+    "The new immutable-paper import path was checked in code and fictional fixtures only; its first actual qualified receipt/dataset import remains pending and must receive independent row-level verification."
+  ],
+  "unresolved_code_blockers_in_reviewed_scope": [],
+  "provider_offer_calls": 0,
+  "NFL_fits": 0,
+  "actual_offer_grading": 0,
+  "raw_quote_values_in_report": false,
+  "private_paths_in_report": false,
+  "revision": 2,
+  "previous_review": {
+    "id": "C-INDEPENDENT-AGGREGATION-CODE-REVIEW-v6",
+    "observed_UTC": "2026-11-01T04:09:34.697165+00:00",
+    "SHA256": "67f595ababc3f901474ea535480c6efe733570c8e586583118e6ba6ea47e6b17",
+    "preserved_verbatim": true
+  }
+}
