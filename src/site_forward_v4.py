@@ -11,6 +11,15 @@ from coherence_v4 import state_for
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def dump(p,j):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(j,separators=(',',':'),allow_nan=False))
+def display_and_primary(rows):
+    latest={};first={}
+    for r in rows:
+        key=(r['game_id'],r['player_id'],r['category'],r['policy_id']);order=(pd.Timestamp(r['server_persisted_UTC']),r['forecast_id'])
+        if key not in first or order<first[key][0]:first[key]=(order,r['forecast_id'],r['server_persisted_UTC'])
+        if key not in latest or order>latest[key][0]:latest[key]=(order,r)
+    for key,(_,r) in latest.items():
+        r['primary_scoring_forecast_id']=first[key][1];r['primary_scoring_server_UTC']=first[key][2];r['primary_scoring_snapshot']=r['forecast_id']==first[key][1]
+    return {key:r for key,(_,r) in latest.items()}
 def consumed(r):
     f=r['features'];out={'own_outcome_mean_last3':f[0],'own_outcome_supported_last3':f[1],'own_outcome_mean_last8':f[2],'own_outcome_supported_last8':f[3]}
     if len(f)>=32:out.update(player_attempts_mean_last3=f[20],player_carries_mean_last3=f[23],player_targets_mean_last3=f[26],team_attempts_mean_last3=f[29],team_carries_mean_last3=f[30],team_sacks_mean_last3=f[31])
@@ -19,18 +28,16 @@ def consumed(r):
     return out
 
 def build(root,docs):
-    selected={};runs=[]
+    captures=[];runs=[]
     for receipt_path in sorted((root/'receipts').glob('*.json')):
         proof=read_json(receipt_path);run=root/'runs'/proof['run_id'];m,rows=validate_run(run);persisted=validate_receipt(run,proof,m,rows)
         source=read_json(run/'sources/SOURCE_MANIFEST.json');status=read_json(run/'status_before_persistence.json')
         status_at=max(s['observed_UTC'] for s in status['sources']);source_at=max(s['observed_UTC'] for s in source['sources'])
         for r in rows:
-            key=(r['game_id'],r['player_id'],r['category'],r['policy_id']);old=selected.get(key)
-            if old and old['server_persisted_UTC']<=proof['server_check_completed_UTC']:continue
             keys=['forecast_id','run_id','game_id','event_version','espn_event_id','player_id','name','position','team','opponent_team','season','week','category','kickoff_UTC','availability','practice_status','selection_availability','family','arm','model_id','model_SHA256','policy_id','information_cutoff_UTC','generated_UTC','product_type','mean','median','p05','p95','event_probability','scoring_contract_id','appearance_conditioning','history_support','sparse_player','model_fallback','readiness','limitation']
-            selected[key]={k:r[k] for k in keys}|dict(target_history_support=int(r['features'][3]),target_sparse=int(r['features'][3])<3,support_metadata_correction='C-SUPPORT-DEFINITION-CLARIFICATION-v4.4',server_persisted_UTC=proof['server_check_completed_UTC'],source_snapshot_observed_UTC=source_at,status_observed_UTC=status_at,evidence_tier='GITHUB_SERVER_VERIFIED_PREGAME',primary_scoring_snapshot=True,prop_state='Forecast only—prop line unavailable',line=None,venue=None,product=None,offer_observed_UTC=None,p_under=None,p_push=None,p_over=None,selected_side=None,selection_state='NO_QUALIFIED_CURRENT_OFFER',outcome_state='PENDING',actual=None,consumed_inputs=consumed(r),coherence_state='INDEPENDENT_MARGINALS_NOT_JOINTLY_VALIDATED',forecast_evidence_URL='https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/'+proof['capture_commit']+'/prospective/runs/'+proof['run_id']+'/RUN.json',server_receipt_URL=proof['server_run_URL'])
+            captures.append({k:r[k] for k in keys}|dict(source_stat_rows=r.get('historical_stat_row_support',r['history_support']),target_history_support=int(r['features'][3]),target_sparse=int(r['features'][3])<3,support_metadata_correction='C-SUPPORT-DEFINITION-CLARIFICATION-v4.4',server_persisted_UTC=proof['server_check_completed_UTC'],source_snapshot_observed_UTC=source_at,status_observed_UTC=status_at,evidence_tier='GITHUB_SERVER_VERIFIED_PREGAME',primary_scoring_snapshot=True,prop_state='Forecast only—prop line unavailable',line=None,venue=None,product=None,offer_observed_UTC=None,p_under=None,p_push=None,p_over=None,selected_side=None,selection_state='NO_QUALIFIED_CURRENT_OFFER',outcome_state='PENDING',actual=None,consumed_inputs=consumed(r),coherence_state='INDEPENDENT_MARGINALS_NOT_JOINTLY_VALIDATED',forecast_evidence_URL='https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/'+proof['capture_commit']+'/prospective/runs/'+proof['run_id']+'/RUN.json',server_receipt_URL=proof['server_run_URL']))
         runs.append(dict(run_id=m['run_id'],rows=len(rows),source_manifest_SHA256=m['source_manifest_SHA256'],capture_commit=proof['capture_commit'],server_persisted_UTC=proof['server_check_completed_UTC'],first_kickoff_UTC=m['first_kickoff_UTC'],earliest_lead_seconds=proof['earliest_actual_lead_seconds'],new_fits=m['new_fits']))
-    rows=list(selected.values());assert rows and not any('law' in r or r['actual'] is not None for r in rows)
+    selected=display_and_primary(captures);rows=list(selected.values());assert rows and not any('law' in r or r['actual'] is not None for r in rows)
     passing={}
     for r in rows:
         if r['category'] in ['pass_cmp','pass_att']:passing.setdefault((r['game_id'],r['player_id']),{})[r['category']]=r

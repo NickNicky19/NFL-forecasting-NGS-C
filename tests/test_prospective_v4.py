@@ -7,8 +7,14 @@ from safe_models_v4 import prior_data,law_data,law_load,export_forest,infer_fore
 from laws_v2 import Prior,LeafModel
 from prospective_v4 import features_for_future,qualified_training_frame,grade_run,held_ungraded_games
 from forward_sources_v4 import match_event
+from site_forward_v4 import display_and_primary
 
 class Prospective(unittest.TestCase):
+    def test_latest_display_does_not_replace_the_first_scoring_snapshot(self):
+        first=dict(game_id='g',player_id='p',category='pass_yd',policy_id='policy',forecast_id='a',server_persisted_UTC='2026-11-01T00:00:00Z',mean=100)
+        revision=first|dict(forecast_id='b',server_persisted_UTC='2026-11-01T01:00:00Z',mean=200)
+        r=list(display_and_primary([revision,first]).values())[0]
+        self.assertEqual(r['forecast_id'],'b');self.assertEqual(r['mean'],200);self.assertEqual(r['primary_scoring_forecast_id'],'a');self.assertFalse(r['primary_scoring_snapshot']);self.assertEqual(first['mean'],100)
     def test_numeric_tree_float32_double_threshold_boundary(self):
         prior=prior_data(Prior(np.asarray([0,1]),'count'))
         tree=dict(left=[1,-1,-1],right=[2,-1,-1],feature=[0,-2,-2],threshold=[1.0000001788139343,-2,-2],leaves={'1':[[0],[1]],'2':[[1],[1]]})

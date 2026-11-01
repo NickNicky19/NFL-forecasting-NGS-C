@@ -23,7 +23,7 @@ def validate(docs,root):
             assert r['line'] is None and r['venue'] is None and r['p_over'] is None and r['p_under'] is None and r['selected_side'] is None and r['actual'] is None
             assert r['prop_state']=='Forecast only—prop line unavailable' and r['outcome_state']=='PENDING'
             allrows.append(r)
-    assert len(seen)==m['forecast_rows']==len(original) and {r['category'] for r in allrows}=={r['id'] for r in m['categories']}
+    assert len(seen)==m['forecast_rows']==len({(r['game_id'],r['player_id'],r['category'],r['policy_id']) for r in original.values()}) and {r['category'] for r in allrows}=={r['id'] for r in m['categories']}
     assert m['real_offers']==m['real_selections']==m['graded_outcomes']==0 and not m['real_offer_results'] and not m['historical_real_offer_results']
     assert not m['entries'] and m['six_leg_state']=='NO_QUALIFIED_SIX_LEG_ENTRY'
     print('FORWARD_SITE_CONTRACT_PASS',len(allrows));return m

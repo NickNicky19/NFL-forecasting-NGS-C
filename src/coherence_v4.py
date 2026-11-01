@@ -4,17 +4,15 @@ from pathlib import Path
 from safe_models_v4 import law_load
 
 def build(root,output):
-    from prospective_v4 import first_qualified_snapshots
-    first=first_qualified_snapshots(root)
+    from prospective_v4 import validate_run,validate_receipt
     pairs={};sources={}
-    for p in sorted(root.glob('runs/*/forecasts.json.gz')):
-        sources[p.parent.name]=hashlib.sha256(p.read_bytes()).hexdigest()
-        for r in json.loads(gzip.decompress(p.read_bytes())):
-            key=(r['game_id'],r['player_id'],r['category'],r['policy_id'])
-            if key not in first or first[key][1]!=r['forecast_id']:continue
-            if r['category'] in ['pass_cmp','pass_att']:pairs.setdefault((r['game_id'],r['player_id'],r['policy_id']),{})[r['category']]=r
+    for p in sorted((root/'receipts').glob('*.json')):
+        proof=json.loads(p.read_text());run=root/'runs'/proof['run_id'];m,rs=validate_run(run);validate_receipt(run,proof,m,rs)
+        sources[proof['run_id']]=hashlib.sha256((run/'forecasts.json.gz').read_bytes()).hexdigest()
+        for r in rs:
+            if r['category'] in ['pass_cmp','pass_att']:pairs.setdefault((r['game_id'],r['player_id'],r['policy_id'],r['information_cutoff_UTC'],r['run_id']),{})[r['category']]=r
     rows=[]
-    for (game,player,policy),pair in sorted(pairs.items()):
+    for (game,player,policy,cutoff,run_id),pair in sorted(pairs.items()):
         if len(pair)!=2 or len({r['information_cutoff_UTC'] for r in pair.values()})!=1:
             for r in pair.values():rows.append(dict(forecast_id=r['forecast_id'],game_id=game,player_id=player,state='CROSS_STATISTIC_COHERENCE_UNCHECKED',reason='PAIR_UNAVAILABLE'))
             continue
