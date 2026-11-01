@@ -1,0 +1,123 @@
+{
+  "id": "C-PROSPECTIVE-v4",
+  "registered_UTC": "2026-10-31T23:42:25.499041+00:00",
+  "effective": "Only genuinely unplayed events after this policy and model/config publication; no backfill",
+  "products": {
+    "development": "All original frozen reconstructed panels/versions; no new holdout claim",
+    "inference": "Future player-game rows from current roster+scheduled verified event; no target actual/played/starter fields required",
+    "grading": "Original first-qualified snapshot only, after authoritative completed outcomes; append-only"
+  },
+  "season_week": "CLIparameters, firstqualification2026W8; repeatablelaterweeks",
+  "primary": {
+    "family": "P2_LEAF existing qualified C architecture reconstruction,32trees/depth8/minleaf30/seed1701/5%roleprior",
+    "history": "2022 onward + actually observed verified completed current-season games",
+    "arms": {
+      "pass_yd": "E0_DEF",
+      "pass_td": "E0_DEF",
+      "pass_cmp": "E0_ENV",
+      "pass_att": "E0_ENV",
+      "pass_int": "E0_ENV",
+      "rush_yd": "E0_OP",
+      "rush_att": "E0_OP",
+      "rec": "E0_ENV",
+      "rec_yd": "E0_DEF",
+      "rush_rec_yd": "E0_DEF",
+      "anytime_td": "E0_OP",
+      "fpts": "E0_ENV"
+    },
+    "selection_basis": "Declared provisional from exposed v2.1/v3 evidence, not established future champion; no sigmoidpromotion",
+    "calibrator": null,
+    "appearance_conditioning": "Conditional on physical/statistical participation as in qualified training; not automatically bookmaker nonvoid or unconditional appearance probability",
+    "fpts": "Exact nick-chart-ppr-v1 target; correct labels only on qualified rare-zero subset. Forward output is explicitly experimental label-coverage-limited shadow, not admitted full-tail/offer probability."
+  },
+  "challenger": {
+    "id": "P3_HGB_MATCHED-v4",
+    "state": "Registered optional shadow; do not delay primarycapture",
+    "family": "Same bounded32iter depth3 monotonic threshold/event reference",
+    "information": "Same percategoryarm/currentcutoff/history/candidates as primary; new training for its exact columns",
+    "numeric_products": "Unavailable",
+    "max_new_fits": 12,
+    "threshold_training": "Same declared synthetic GRIDS; perquery equalweight; not historically validated realoffer probabilities"
+  },
+  "source_policy": {
+    "schedule": "Observed current nflverse schedule + explicit public scoreboard pregame status/native ESPNid/kickoff agreement; upcoming scores not consumed",
+    "status_max_observation_age_seconds": 1800,
+    "roster": "Observed currentweek GSIS roster, statusACT and exact currentteam/event mapping. Seasonroster fallback separately marked; no name guesses or realizedstarters",
+    "roster_max_publisher_age_hours": 36,
+    "injuries": "Currentweek nativeGSIS/team report designation + practice facts, minimum factual projection only; no injurybodyparts/articles. Unknown/notlisted is not healthy. OUT/IR blocks selections, forecasts remain explicitly appearanceconditioned. No inventedpenalty or scenario probability",
+    "injury_max_publisher_age_hours": 36,
+    "stats": "Observed numerical NFL facts from verified completed events only; no NGS/EPA/CPOE. Recent games need explicit FINAL status; older >=7day games need retained completed officialscore facts. No target/future actuals in history",
+    "training_examples": "Historical feature prefixes retain original +7day reconstruction assumption; current fit may admit actually observed completed labels. Any later saved pregame features can be reused as authentic own-prefix examples under a new version; no retrospective timing upgrade",
+    "future_features": "Use only cutoff-eligible observed completed rows, ordered by actual historical kickoff; known upcoming kickoff used for deterministic age/rest. No automatic7day hold on verified current inputs; this is a separately versioned freshness policy with no claimed historical improvement",
+    "clock": "AwareUTC internally, America/Chicago withDST fordisplay; actual observed/source/update clocks retained separately"
+  },
+  "candidate_policy": {
+    "roles": "ExactCATEGORIES roles, active currentroster; supportedextraofferroles require explicit nativeidentity/role validation",
+    "no_target_outcomes": true,
+    "eligibility": "Pregame roster/status rules only; retain sparse/rookie players, currentOUT records and exclusion reasons without predictingDNPzeros",
+    "mapping": "NativeGSIS and schedule ESPN id, historicalteam normalization exactknownLA/LAR andWSH/WAS, no fuzzy names"
+  },
+  "snapshot_policy": {
+    "id": "FIRST_QUALIFIED_ON_DEMAND-v1",
+    "primary": "First successfully server-persisted qualifying forecast perplayer/game/category/policy beforeactualkickoff. Laterrevisions immutable latest-display only, no hindsight selection",
+    "horizons": "Actualleadseconds plus >=24h,6-24h,1-6h,<1h cohorts; no claim of a scheduledhorizon missed",
+    "publication_safety_seconds": 300,
+    "proof": "GitHub Actions PRrun created/started/completed serverside tied exact forecastcommit and blob hash; completedbeforekickoff. Freshdownloadcompare. Client commitdates/local creation alone insufficient",
+    "multigame": "All fixed list/entry legs persisted beforeearliestkickoff; no replacementafterearlierresult",
+    "reschedule": "Changedkickoff/nativeeventstatus creates new eventversion; started/completed suppressnewissuance; originalrecordkept and settlement pending explicitreconciliation"
+  },
+  "offer_policy": {
+    "default": "No current qualified export; forecast-only, not inventedlines",
+    "needed": "Exactnativeplayer/event/stat/period/line/comparator/realofferedside/venue/product/tier, clocks/lifecycle/scoring/nonvoid/rights evidence",
+    "observation_max_age_seconds": 900,
+    "unknown_clock": "Diagnosticonly, not qualifiedactionable selection",
+    "prices": "Not required for statisticaldirection; required forvalue. No assumed-110",
+    "selection": "All eligibleoffers primary. P2 compatible winprobability larger genuineofferedside; ties abstain. OnlyYESanytime requires pYES>.5, otherwiseabstain, no NO invented. Pointmedian direction separately typeddiagnostic",
+    "top_lists": "Supplementary6/10/20 onlywhen beforefirstgame universefixed and >=Keligible; sort unitless winprobability, preservevenuetier, no rawunitgaps",
+    "coherence": "Invalid scalar laws or flagged completion/attempt contradictions suppressdependent selections; no silent oldforecast cap",
+    "experimental": "Synthetic-trained probabilities on prospective realoffers remain experimental until evaluated"
+  },
+  "entries": {
+    "max_entries": 2,
+    "force_six_or_second": false,
+    "default": "NO_QUALIFIED_SIX_LEG_ENTRY",
+    "gate": "One exact venue/product/quote/eligibility/payout andtievoidreversion rules; beforeearliestkickoff",
+    "joint": "Independence reference only until separately qualified dependencyalternative; no precise unsupportedjointconfidence",
+    "grading": "Original6/6,0-6correct,voids/reversions,payout,netreturn andtwoentryoverlap distinct; no wagers"
+  },
+  "update_rule": {
+    "refit": "On manual issuance when newly eligible completedlabels/source-corrections change trainingfeature/label/config hashes; otherwisereuse exact numeric model. No recurringrun",
+    "promotion": "Futureeffective version only after review; retainactualchronologicalprimary record acrossroutineupdates",
+    "grading_before_learning": "New ownprospectiveoutcomes joinonly after originalsnapshotgraded ormarkedpending/unknown, and source availability qualifies; no oldpredrewrite"
+  },
+  "grading_policy": {
+    "outcome_version": "Separateimmutablefacts/export with nativeIDs, officialfinalstate and aware sourceclocks",
+    "numeric": "Only supported actuals withverifiedPLAYED; validplayedzero retained; missingnotzero",
+    "appearance": "ExplicitDNP/unknown/pending/void states; no missingrow=>DNP",
+    "directions": "StatisticalOVER/UNDER/PUSH on exact contract, bookmaker settlement separatelyunverified untilestablished",
+    "probabilities": "Proper scores at exactofferedthreshold wherequalified; no syntheticNFLhit claims",
+    "primary_snapshot": "Firstqualifiedserverreceipt, not bestlaterrevision",
+    "outputs": "Per-category/role/week/leadtime ownOVER/UNDER/combined counts, coverage/fallback/calibration; all losses cumulative throughversions"
+  },
+  "budget": {
+    "primary_fits_max": 12,
+    "shadow_fits_max": 12,
+    "auxiliary_fits_max": 0,
+    "CPU_seconds": 240,
+    "wall_seconds": 600,
+    "fit_RSS_bytes": 1073741824,
+    "whole_C_cache_bytes": 2684354560,
+    "new_artifacts_bytes": 67108864,
+    "new_HTTP_calls_max": 24,
+    "workers": 1,
+    "threads": 1,
+    "paid_calls": 0,
+    "new_schedulers": 0
+  },
+  "retention": "GitHubonly, per-artifactrights. Currentminimalfactual roster/status/injury designation/statprojection and Cnumericmodels/forecasts; no upstreamimages/biography/articles/NGS/thirdpartyofferpayload withoutqualification. SafeJSON modelrestoration, no networkpickle.",
+  "execution_stages": {
+    "pilot": "One new pass_yd P2 fit and all its future queries; chosen for existing qualified source/architecture feasibility before examining results. Measure resource and safe-export parity.",
+    "remainder": "Only the other eleven registered P2 fits after the pilot passes; shared persistent budget, no repeated pilot fit.",
+    "cumulative_budget": "Persistent attempt, CPU/wall/memory/cache/new-artifact ledger across both stages; failed attempts retained; no unmetered retry."
+  }
+}
