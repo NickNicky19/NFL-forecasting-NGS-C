@@ -1,0 +1,830 @@
+{
+  "id": "C-ACTUAL-ACCURACY-PUBLIC-SERVED-v6",
+  "served_commit": "db3367295b6f45a20ce3785d4eaa5d08e16ce3c0",
+  "build_before": {
+    "built_at_UTC": "2026-11-01T16:20:48.032422+00:00",
+    "served_commit": "db3367295b6f45a20ce3785d4eaa5d08e16ce3c0",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+    "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+    "forward_server_persisted_UTC": "2026-11-01T00:13:48Z",
+    "actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+    "actual_props_adapter_version": "C-ACTUAL-OFFERS-v5",
+    "actual_accuracy_SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+    "actual_accuracy_policy": "C-ACTUAL-ACCURACY-v6"
+  },
+  "build_after": {
+    "built_at_UTC": "2026-11-01T16:20:48.032422+00:00",
+    "served_commit": "db3367295b6f45a20ce3785d4eaa5d08e16ce3c0",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+    "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+    "forward_server_persisted_UTC": "2026-11-01T00:13:48Z",
+    "actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+    "actual_props_adapter_version": "C-ACTUAL-OFFERS-v5",
+    "actual_accuracy_SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+    "actual_accuracy_policy": "C-ACTUAL-ACCURACY-v6"
+  },
+  "assets": [
+    {
+      "path": "build.json",
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "bytes": 1162,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "index.html",
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "bytes": 24582,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "bytes": 19131,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "bytes": 9810,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "bytes": 7151,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "bytes": 10864,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "bytes": 10671,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "bytes": 6454861,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "bytes": 7592,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "bytes": 5958,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "bytes": 16624629,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "bytes": 236576,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_td.json",
+      "SHA256": "2a9bc2feb1a1f52647506908a12b0a42479328e814a00bcada70b16a08cf44de",
+      "bytes": 236326,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_cmp.json",
+      "SHA256": "c8c88401a97174db4439265aa2a6aed1a4463cabcdcc8d440c5f84d2297c28e4",
+      "bytes": 215981,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_att.json",
+      "SHA256": "9ca78de8806e8a0cb7e55828f46dd0e686d1d6f7f07d2ea41fed8cace3d38aad",
+      "bytes": 216004,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_int.json",
+      "SHA256": "72b6889a9d1f897d041cd665976e8db7a2ad72c0d6300e0f2290ed08edb82bac",
+      "bytes": 216302,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "bytes": 500992,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_att.json",
+      "SHA256": "1cbefaa7d8506862f534245b77e4548f779debb486a45649d6197c59f2ee77b3",
+      "bytes": 500974,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec.json",
+      "SHA256": "ac2a24df6d01f2b589adb68a7aed3a87251a5a3eb117735d09e747b450cd688a",
+      "bytes": 1019780,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec_yd.json",
+      "SHA256": "502e8d9801e898265cf08fb54231c335c57ed916055076eb48f60145243b6f06",
+      "bytes": 1118103,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_rec_yd.json",
+      "SHA256": "59347ce42a2518b003577700d9f54235d76b064905121106e383449d8f5c4fc6",
+      "bytes": 1121986,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/anytime_td.json",
+      "SHA256": "ae51d221220dba2be9b800c7d2692c6e7d39effe3b534a3dbc6071ab5ed3fc04",
+      "bytes": 1211214,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward/fpts.json",
+      "SHA256": "8cc2f3c87a56e9907e66e9222424d9d26535c70237c8818c03cb4e8d913ab625",
+      "bytes": 1238249,
+      "system_TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "bytes": 1162,
+      "system_TLS_verified": true
+    }
+  ],
+  "actual_public_responses": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 16624629,
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 16624629,
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_td.json",
+      "status": 200,
+      "bytes": 236326,
+      "SHA256": "2a9bc2feb1a1f52647506908a12b0a42479328e814a00bcada70b16a08cf44de",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_cmp.json",
+      "status": 200,
+      "bytes": 215981,
+      "SHA256": "c8c88401a97174db4439265aa2a6aed1a4463cabcdcc8d440c5f84d2297c28e4",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_att.json",
+      "status": 200,
+      "bytes": 216004,
+      "SHA256": "9ca78de8806e8a0cb7e55828f46dd0e686d1d6f7f07d2ea41fed8cace3d38aad",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_int.json",
+      "status": 200,
+      "bytes": 216302,
+      "SHA256": "72b6889a9d1f897d041cd665976e8db7a2ad72c0d6300e0f2290ed08edb82bac",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "status": 200,
+      "bytes": 500992,
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_att.json",
+      "status": 200,
+      "bytes": 500974,
+      "SHA256": "1cbefaa7d8506862f534245b77e4548f779debb486a45649d6197c59f2ee77b3",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec.json",
+      "status": 200,
+      "bytes": 1019780,
+      "SHA256": "ac2a24df6d01f2b589adb68a7aed3a87251a5a3eb117735d09e747b450cd688a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rec_yd.json",
+      "status": 200,
+      "bytes": 1118103,
+      "SHA256": "502e8d9801e898265cf08fb54231c335c57ed916055076eb48f60145243b6f06",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_rec_yd.json",
+      "status": 200,
+      "bytes": 1121986,
+      "SHA256": "59347ce42a2518b003577700d9f54235d76b064905121106e383449d8f5c4fc6",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/anytime_td.json",
+      "status": 200,
+      "bytes": 1211214,
+      "SHA256": "ae51d221220dba2be9b800c7d2692c6e7d39effe3b534a3dbc6071ab5ed3fc04",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/fpts.json",
+      "status": 200,
+      "bytes": 1238249,
+      "SHA256": "8cc2f3c87a56e9907e66e9222424d9d26535c70237c8818c03cb4e8d913ab625",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "status": 200,
+      "bytes": 500992,
+      "SHA256": "376d37613cb7e3fa8a2e490c187206b6b93cf4cb1636467fb311bd8437f47eaa",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 16624629,
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    },
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10671,
+      "SHA256": "3fc56b01ec4f1d357416c878c0f1423f919e80740dd8451254d3150f6f9ab8dd",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19131,
+      "SHA256": "95e08082829190d713e104808aee62be00075774292a97aa08366fdd2a47279a",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9810,
+      "SHA256": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 10864,
+      "SHA256": "974c41d9a2c23c76666e65ba31aa02ea7948a273b52bb274b934bbcd4a086f8b",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 16624629,
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    }
+  ],
+  "transport": "VERIFIED_SYSTEM_HTTPS_RENDERING_BRIDGE",
+  "native_Chromium_TLS_validated": false,
+  "TLS_checks_disabled": false,
+  "default_view": "ACTUAL_PROP_ACCURACY",
+  "forward_regression_scope": "Explicit #upcoming deep link; earlier helper default-upcoming field refers to that supplied URL, not the v6 root landing",
+  "accuracy_rendered": "accuracy-public/RENDERED.json",
+  "forward_rendered": "forward-public/RENDERED.json",
+  "NFL_unique_offers": 968,
+  "primary_decided": 914,
+  "new_NFL_fits": 0,
+  "website_state": "SERVED_VERIFIED_ACTUAL_LINE_DIAGNOSTICS",
+  "forecasts_or_quotes_refreshed": false
+}
