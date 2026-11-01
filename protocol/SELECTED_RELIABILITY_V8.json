@@ -1,0 +1,107 @@
+{
+  "id": "C-SELECTED-RELIABILITY-v8-STAGE-A",
+  "registered_UTC": "2026-11-01T17:54:00.414358+00:00",
+  "before_DK_FD_performance": true,
+  "preserve": "All v7/v7.1 records, source holds, corrections and genuine v4 capture unchanged; no promotion/inversion or revised old forecast",
+  "source_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+  "books": [
+    "draftkings",
+    "fanduel"
+  ],
+  "book_admission": "All strict pairedOver/Under full-game four documented NFL markets; exact native ESPN\u2192historical GSIS/team/week; closing_point only; bothclosing_at strictly before both source and original C kickoffs; opening<=closing; identical duplicates collapsed; multiplethresholds/conflicting same-side/identity held. No main/alternate claim. Labellookup independent from forecast role filter. No outcome-based admission. Same rules as v7; inventory frozen before prediction lookup.",
+  "matching": "Full each-book panels; pairwise/triple common football identities, then separate exact same threshold/period/role/contract/cutoff panels. Retain changedline/price/sideclock/rolemismatches, not equate them to paired like-for-like offers. All quotes repeat32W2-W3games, not new confirmation.",
+  "void_sensitivity": [
+    "PRIMARY_C_STATISTICAL_PLAYED",
+    "EXCLUDE_CASE_IF_EITHER_SOURCE_SIDE_VOID"
+  ],
+  "void_note": "Apply the sensitivity symmetrically to every arm/category/book and preserve excluded IDs. No source VOID\u2192DNP or statisticalwin\u2192settled wager inference.",
+  "rankings": {
+    "tier": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC",
+    "slate": "one book \u00d7NFLweek; no pooled-books executable board",
+    "K": [
+      6,
+      10,
+      20
+    ],
+    "scope": [
+      "GLOBAL",
+      "WITHIN_CATEGORY"
+    ],
+    "side_variants": [
+      "MIXED",
+      "OVER_ONLY",
+      "UNDER_ONLY"
+    ],
+    "rule": "Rank each P2/P3 own selected-side win probability descending; tie by kickoffUTC,gameID,GSIS,category,offerID; one GSIS/player per weekly list; no forcedK. Include valid probabilities with unknown later outcome in candidate universe and membership; technicalunavailable/ties remain excluded with reasons. OverOnly/UnderOnly filter own selected sides, not forced inversion.",
+    "timing": "Last closing snapshots occur across different game cutoffs. No authenticated common live-board/line-continuity evidence. These lists are not pregame tickets; explicit label beside every result. Check missing universe/after-first-kick quote counts.",
+    "before_ranked_performance": true
+  },
+  "diagnostics": {
+    "groups": [
+      "book",
+      "category",
+      "own selected side",
+      "NFLweek",
+      "QB/RB/WR/TE",
+      "history0/1-2/3plus",
+      "quoteage<=15min/15-60min/1-24h/>24h",
+      "paired clock equal/different"
+    ],
+    "fixed_bins": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ],
+    "metrics": [
+      "predOver vsactualOver",
+      "selected confidence vsaccuracy",
+      "expectedwins vsactualwins",
+      "Brier/logloss",
+      "ROC_AUC and averageprecision forOver",
+      "selected confidence discrimination",
+      "signedpoint error/point-line gap",
+      "coverage and fallback",
+      "gameclusterbootstrap2000 seed881102 with2week limitation"
+    ],
+    "references": [
+      "neutral50/50 decisivehalfpoint",
+      "earlier-only exact-threshold smoothed role prevalence at original fit origin",
+      "alwaysOver",
+      "alwaysUnder"
+    ],
+    "market_reference_gate": "Exact matching closing_point, identical side observation time, paired compatibleprices and documented same market OPEN state. Missingstate is N/A, no manufactured no-vig market.",
+    "P1_confidence": "Use same retained law probability for its OWN chosen mean/median side, including below50%; never substituteP2 side.",
+    "uncertainty_audit_amendment": {
+      "recorded_UTC": "2026-11-01T18:17:01.964348+00:00",
+      "rule": "At<20distinctgames useWilsonindependence diagnostic; at>=20gameblockbootstrap2000. Alwaysonly2weekclusters/researchexposure caveat. This20gamefallback was implemented in firstdiagnosis and documented after independentaudit; no pre-results support/superiority claim.",
+      "ranking_exclusion_audit": "Retain technical/tie exclusion IDs, source/validboardcounts, selectedquote/forecastcutoffs after earliest selectedkickoff; rule/membership unchanged. Void sensitivity keeps membership fixed with no replacement."
+    }
+  },
+  "mechanism": "Register separately AFTER diagnosis, before its fits/results; max4newNFLfits, one mechanism, earlier2025validation and fixed2026W2-W3. No default failedsigmoid.",
+  "storage": "Existing licensed source reused. New full canonical data deterministic gzip in C with reviewed hashes; bounded compact display projection from same rows. Original v7payload never rewritten. GitHub-only fresh restoration before claims.",
+  "budget": {
+    "new_source_downloads": 0,
+    "new_NFL_fits_max": 4,
+    "fit_workers": 1,
+    "threads": 1,
+    "fit_cpu_seconds_max": 180,
+    "peak_RSS_bytes_max": 1610612736,
+    "candidate_cases_max_per_extension": 2000,
+    "new_public_bytes_max": 67108864,
+    "whole_C_cache_bytes_max": 2684354560,
+    "public_source_metadata_requests_max": 8,
+    "new_recurring_jobs": 0,
+    "paid_calls": 0,
+    "active_compute_wall_seconds_max": 1800,
+    "wall_scope": "Cumulative active execution; excludes paused coding/review time. FitCPU and fit count hard-capped."
+  },
+  "current_offers": "HF metadata recheck at currentUTC confirms no revision/newNFLfile; source ends September. Current offers need an independently permitted fresh export/static source, native identities, actual clocks/lifecycle and current role/status. No provider API/signup."
+}

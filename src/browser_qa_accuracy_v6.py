@@ -14,7 +14,8 @@ def check(url,root,receipt,commit=None):
         for i,c in enumerate(v['cells']):
             cells=page.locator('#accuracy-headline tbody tr').nth(i).locator('td').all_text_contents();assert cells[0]==c['label'] and c['method_version'] in cells[1]
             expected=[f"{c[s]['wins']}-{c[s]['losses']} / {c[s]['decided']} / {100*c[s]['rate']:.1f}%" if c[s]['decided'] else 'N/A / 0 / N/A' for s in ['OVER','UNDER','COMBINED']]
-            assert cells[2:5]==expected;assert cells[5:7]==[f"{c['eligible_offers']} / {c['scored_offers']}",f"{c['games']} / {c['weeks']}"];assert c['evidence_tier']==cells[8]
+            expected_coverage=f"{c['eligible_offers']} / {c['scored_offers']}"+(f" · {c['strata_count']} disclosed strata" if c['strata_count']>1 else '')
+            assert cells[2:5]==expected;assert cells[5:7]==[expected_coverage,f"{c['games']} / {c['weeks']}"];assert c['evidence_tier']==cells[8]
             if c['eligible_offers']:
                 page.locator('#accuracy-headline tbody tr').nth(i).click();shown=page.locator('#detail-body tr[data-accuracy-record-id]').first;identity=shown.get_attribute('data-accuracy-record-id');r=next(r for r in m['records'] if r['record_id']==identity);values=shown.locator('td').all_text_contents()
                 assert r['game_id'] in values[0] and r['venue'] in values[1] and str(r['line']) in values[1]
@@ -22,7 +23,8 @@ def check(url,root,receipt,commit=None):
                 assert values[3]==expected_probs
                 assert r['status'] in values[4];page.click('#close-detail')
         leader_text=page.locator('#accuracy-leaders').inner_text()
-        for key,leader in v['leaders'].items():
+        for group in v['leader_groups']:
+          for key,leader in group['leaders'].items():
             for r in leader.get('observed',[]):assert r['category'] in leader_text and r['method_version'] in leader_text and f"{r['wins']}-{r['losses']} / {r['decided']}" in leader_text
         if not m['retained_rows']:assert leader_text.count('NOT ESTABLISHED')==4
         assert page.evaluate('document.querySelector("#view-accuracy").compareDocumentPosition(document.querySelector(".stats")) & Node.DOCUMENT_POSITION_FOLLOWING')

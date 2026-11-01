@@ -1,0 +1,100 @@
+{
+  "id": "C-PASS-WORKLOAD-LINK-v8",
+  "registered_UTC": "2026-11-01T18:05:46.179355+00:00",
+  "registered_after_diagnosis_before_any_new_fit": true,
+  "diagnostic_evidence": {
+    "Pinnacle_P2_predOver_vs_actualOver": [
+      0.4151,
+      0.6032
+    ],
+    "Pinnacle_P2_confidence_vs_hit": [
+      0.6033,
+      0.4286
+    ],
+    "prior_does_not_explain": "Earlier audit found original5%yard prior liftsmean, not causesunderprediction; separate saved attemptmean bias\u22124.31W2/\u22125.92W3. Marginal ratios do not identify causal conversion error.",
+    "hypothesis": "Explicitly forecast the workload marginal while holding historical conditional yard-quality information fixed; improvement is not guaranteed."
+  },
+  "category": "pass_yd",
+  "origins": [
+    {
+      "season": 2025,
+      "week": 9
+    },
+    {
+      "season": 2025,
+      "week": 13
+    },
+    {
+      "season": 2026,
+      "week": 2
+    },
+    {
+      "season": 2026,
+      "week": 3
+    }
+  ],
+  "period_limit": "Onlythese4weeks; earlier2025weeks are development/chronological validation already research-exposed, not fullseason or untouched confirmation. 2026W2-W3exposed acrossbooks.",
+  "information": "EXACTunchanged32E0_OPpass_yd pregamefeatures, expandingfrom2022, historicalweeklyrows eligible kickoff+7days<cutoff. No newinjury/market/NGS fields; retained P2/P3 direct controls receive same information. Historical jointY/A are labels fortrainingonly, target attempts/outcomes absent at inference.",
+  "learner": "One new attempt-count LeafModel perorigin:32ExtraTrees,depth8,minleaf30,seed1701,njobs1, same original training-only imputation and5%count prior. Reuse original yard forest/rows; zero yard/control refits.",
+  "joint_mass": "For each originalYforest leaf, retain earlier joint(yards,attemptbin) counts. J_b(y)=average32trees n_leaf(y,b)/n_leaf; w_b=sum_yJ_b(y); g_b(y)=J_b(y)/w_b. No equally averaged conditional-per-tree shortcut. Validate reconstructed empiricalY exactly against retained32-tree forest.",
+  "bins": [
+    {
+      "id": 0,
+      "attempts": "0"
+    },
+    {
+      "id": 1,
+      "attempts": "1-14"
+    },
+    {
+      "id": 2,
+      "attempts": "15-24"
+    },
+    {
+      "id": 3,
+      "attempts": "25-34"
+    },
+    {
+      "id": 4,
+      "attempts": "35-44"
+    },
+    {
+      "id": 5,
+      "attempts": "45+"
+    }
+  ],
+  "arms": {
+    "RETAINED_P2": "Originalunchanged full yard law/reference",
+    "RETAINED_P3": "Originalunchanged direct thresholdHGB (2026actualoffers)",
+    "P2_LINKED_V8": "Usejointleaf binweights w, sameconditionalg andfallback; enforce zeroattempt\u2192zeroyards. This support/prior control can differ fromoriginalP2 and must be reported as newversion.",
+    "P2_WORKLOAD_V8": "Replace only w with q_b from FORECAST attempt-countCDF; preserveg,smoothing,fallback,trainingrows,features,cutoff."
+  },
+  "smoothing": "Bin0 pointmass at0 withno signedtail. Positivebins each95%empiricalg+5%original signedQBrole prior. Mixture has alpha=.05*(1-weight0); pool empirical masses then normalize once. If weight0==1, exactpoint0 using empty prior. Approximate binned workload model, not a verified complete game/entryjointlaw.",
+  "missingbin_fallback": "Eligibleearlier global trainingY distribution in SAMEattemptbin; ifentireglobalbinempty use earlierpositiveattempt trainingY with explicitfallback count. No targetgame support selection.",
+  "comparisons": [
+    "candidate-minus-linked (isolates workload marginal)",
+    "linked-minus-retainedP2 (support/prior change)",
+    "candidate-minus-retainedP2",
+    "candidate-minus-retainedP3 actualthreshold and ownside; numerical unavailable forP3"
+  ],
+  "metrics": [
+    "full2025/2026query numericalMAE/RMSE/bias/CRPS/NLL withunknowns",
+    "all3books exactactualline probabilities,ownOverUndercounts,proper scores",
+    "same deterministic v8last-recorded-line TopKdiagnostics; no executable ticket",
+    "QB workloadmeanerror and predictedbinmass; no targetactual workload used as feature"
+  ],
+  "selection": "No perbook/week choice, inversion, fittedfilter, newcalibrator or promotion. All arms retained evenif worse. Strongest observed retainedP3 remains a comparator, not retroactively replaced.",
+  "budget": {
+    "new_NFL_fits_max": 4,
+    "workers": 1,
+    "threads": 1,
+    "CPU_seconds_max": 180,
+    "wall_active_seconds_max": 600,
+    "RSS_bytes_max": 1610612736,
+    "new_model_and_inference_bytes_max": 16777216,
+    "tuning_candidates": 1,
+    "seeds": 1
+  },
+  "source_facts_SHA256": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+  "retention": "Safe numeric models/joint leaf summaries, exact queryfeatures/predictions, trainingmembership hashes and reference archivepins retained gzipinC, freshly restored. No thirdparty pickle; onlyhash-pinned C original trustedmodels if numericexport needed."
+}

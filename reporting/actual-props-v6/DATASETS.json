@@ -1,1 +1,49 @@
-{"schema":"C-ACTUAL-ACCURACY-DATASETS-v6","datasets":[{"dataset_id":"C-PROPLINE-ACTUAL-LINES-v7-PINNACLE-W2-W3","path":"reports/propline-v7/GRADED_ROWS.json","SHA256":"c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297","review_path":"reports/propline-v7/SOURCE_REVIEW_V7_1.json","review_SHA256":"9e871b8f5f34898090e00e896c2c2f278ec3d1289069dd79a0a5d34abb904587"},{"dataset_id":"C-PROPLINE-OUTCOME-ROLE-v7.1","path":"reports/propline-v7/CORRECTIONS_GRADED_ROWS_V7_1.json","SHA256":"a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817","review_path":"reports/propline-v7/SOURCE_REVIEW_V7_1.json","review_SHA256":"9e871b8f5f34898090e00e896c2c2f278ec3d1289069dd79a0a5d34abb904587"}],"trusted_review_SHA256":{"C-PROPLINE-CCBY-SAMPLE-v7":"303d1f3d7eb32cc8610b5529581fa7e81a96fc98a3b61ea25b42d1f400fff60f"},"state":"QUALIFIED_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTICS","retention":"Only exact reviewed datasets with qualified analysis, GitHub minimum-evidence retention and aggregate-result publication scope may enter. Raw redistribution is a separate facet, not assumed mandatory or granted. Source clocks/timing tiers cannot be upgraded by permission.","v5_source_refs":"reports/actual-offers-v5/INVENTORY.json and BRANCH_TRACE.json;5066weekly views,1843native-ESPN subset,83overlapping Week6markets are not additive independent observations"}
+{
+  "schema": "C-ACTUAL-ACCURACY-DATASETS-v6",
+  "datasets": [
+    {
+      "dataset_id": "C-PROPLINE-ACTUAL-LINES-v7-PINNACLE-W2-W3",
+      "path": "reports/propline-v7/GRADED_ROWS.json",
+      "SHA256": "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297",
+      "review_path": "reports/propline-v7/SOURCE_REVIEW_V7_1.json",
+      "review_SHA256": "9e871b8f5f34898090e00e896c2c2f278ec3d1289069dd79a0a5d34abb904587"
+    },
+    {
+      "dataset_id": "C-PROPLINE-OUTCOME-ROLE-v7.1",
+      "path": "reports/propline-v7/CORRECTIONS_GRADED_ROWS_V7_1.json",
+      "SHA256": "a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817",
+      "review_path": "reports/propline-v7/SOURCE_REVIEW_V7_1.json",
+      "review_SHA256": "9e871b8f5f34898090e00e896c2c2f278ec3d1289069dd79a0a5d34abb904587"
+    },
+    {
+      "dataset_id": "C-PROPLINE-CCBY-BOOKS-v8",
+      "path": "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz",
+      "SHA256": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7",
+      "review_path": "reports/reliability-v8/C-PROPLINE-CCBY-BOOKS-v8.json",
+      "review_SHA256": "215c686c2c392c975d015e46d1a9bb0744d4f5887309ab539d1bc33a2dd6c6ef"
+    },
+    {
+      "dataset_id": "C-PROPLINE-CCBY-WORKLOAD-v8",
+      "path": "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz",
+      "SHA256": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4",
+      "review_path": "reports/reliability-v8/C-PROPLINE-CCBY-WORKLOAD-v8.json",
+      "review_SHA256": "cce2da2f446d6a1b336b6a325bf3c83b4683b19a06ed7189fb391f388b4d3c2f"
+    },
+    {
+      "dataset_id": "C-PROPLINE-CCBY-PREVALENCE-v8",
+      "path": "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz",
+      "SHA256": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859",
+      "review_path": "reports/reliability-v8/C-PROPLINE-CCBY-PREVALENCE-v8.json",
+      "review_SHA256": "a6d13f3f47dd8c1890082cbe61685b6177032ee460f6743727a69fc750eacd5e"
+    }
+  ],
+  "trusted_review_SHA256": {
+    "C-PROPLINE-CCBY-SAMPLE-v7": "303d1f3d7eb32cc8610b5529581fa7e81a96fc98a3b61ea25b42d1f400fff60f",
+    "C-PROPLINE-CCBY-BOOKS-v8": "76daa5e2475a7d40eaac190b4d916a76a8725e74238994b4dbb7843265fc7777",
+    "C-PROPLINE-CCBY-WORKLOAD-v8": "ff6911a13767e2e6aeb3bfbde53a528e80dfc169d42948d599ab55a748efae02",
+    "C-PROPLINE-CCBY-PREVALENCE-v8": "f487ccbd57d6a098afdb83e57d78fc6afad0ab1892b6030533be9588cc8fd6ab"
+  },
+  "state": "QUALIFIED_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTICS",
+  "retention": "Only exact reviewed datasets with qualified analysis, GitHub minimum-evidence retention and aggregate-result publication scope may enter. Raw redistribution is a separate facet, not assumed mandatory or granted. Source clocks/timing tiers cannot be upgraded by permission.",
+  "v5_source_refs": "reports/actual-offers-v5/INVENTORY.json and BRANCH_TRACE.json;5066weekly views,1843native-ESPN subset,83overlapping Week6markets are not additive independent observations"
+}

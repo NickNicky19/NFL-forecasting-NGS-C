@@ -1,0 +1,74 @@
+[
+  {
+    "command": [
+      "python",
+      "src/actual_accuracy_v6.py",
+      "validate"
+    ],
+    "wall_seconds": 28.91837077299897,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 383968
+  },
+  {
+    "command": [
+      "python",
+      "src/site_reliability_v8.py",
+      "validate"
+    ],
+    "wall_seconds": 14.597794129000249,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  },
+  {
+    "command": [
+      "python",
+      "src/site_validate_forward_v4.py"
+    ],
+    "wall_seconds": 2.3257465989991033,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  },
+  {
+    "command": [
+      "python",
+      "src/site_paper_v5.py",
+      "validate"
+    ],
+    "wall_seconds": 2.3319562100004987,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  },
+  {
+    "command": [
+      "python",
+      "src/site_validate_v2.py"
+    ],
+    "wall_seconds": 4.792885838000075,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  },
+  {
+    "command": [
+      "python",
+      "src/prospective_v4.py",
+      "verify",
+      "--root",
+      "prospective"
+    ],
+    "wall_seconds": 2.2932708019998245,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  },
+  {
+    "command": [
+      "python",
+      "src/paper_v5.py",
+      "verify",
+      "--root",
+      "paper"
+    ],
+    "wall_seconds": 3.290782242000205,
+    "exit_code": 0,
+    "peak_children_RSS_KiB": 402020
+  }
+]

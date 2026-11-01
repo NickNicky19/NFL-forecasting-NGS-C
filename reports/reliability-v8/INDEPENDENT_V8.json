@@ -1,0 +1,237 @@
+{
+  "id": "C-INDEPENDENT-WORKLOAD-RELIABILITY-v8",
+  "observed_UTC": "2026-11-01T18:19:33.505828+00:00",
+  "state": "PASS_WITH_EXPOSED_FOUR_ORIGIN_LIMIT",
+  "new_verifier_fits": 0,
+  "C_edits": 0,
+  "registered_attempt_fits": 4,
+  "new_Y_or_calibrator_fits": 0,
+  "workload_queries": 143,
+  "workload_outcomes": 143,
+  "origin_checks": [
+    {
+      "origin": "2025-W09",
+      "training_rows": 2221,
+      "queries": 31,
+      "latest_training_available": 1761616800.0,
+      "origin_cutoff": "2025-10-31T00:15:00+00:00",
+      "same_training_membership_and_feature_prefix": true,
+      "all_joint_leaf_counts_and_marginals": true,
+      "attempt_leaf_labels": true,
+      "global_bin_fallback_membership": true,
+      "manual_forecast_bin_mass_and_fixed_conditionals": true,
+      "retained_control_inference": true,
+      "diagnostic_actuals_mutation_invariant": true
+    },
+    {
+      "origin": "2025-W13",
+      "training_rows": 2357,
+      "queries": 37,
+      "latest_training_available": 1764033300.0,
+      "origin_cutoff": "2025-11-27T18:00:00+00:00",
+      "same_training_membership_and_feature_prefix": true,
+      "all_joint_leaf_counts_and_marginals": true,
+      "attempt_leaf_labels": true,
+      "global_bin_fallback_membership": true,
+      "manual_forecast_bin_mass_and_fixed_conditionals": true,
+      "retained_control_inference": true,
+      "diagnostic_actuals_mutation_invariant": true
+    },
+    {
+      "origin": "2026-W02",
+      "training_rows": 2626,
+      "queries": 39,
+      "latest_training_available": 1789604400.0,
+      "origin_cutoff": "2026-09-18T00:15:00+00:00",
+      "same_training_membership_and_feature_prefix": true,
+      "all_joint_leaf_counts_and_marginals": true,
+      "attempt_leaf_labels": true,
+      "global_bin_fallback_membership": true,
+      "manual_forecast_bin_mass_and_fixed_conditionals": true,
+      "retained_control_inference": true,
+      "diagnostic_actuals_mutation_invariant": true
+    },
+    {
+      "origin": "2026-W03",
+      "training_rows": 2660,
+      "queries": 36,
+      "latest_training_available": 1790036100.0,
+      "origin_cutoff": "2026-09-25T00:15:00+00:00",
+      "same_training_membership_and_feature_prefix": true,
+      "all_joint_leaf_counts_and_marginals": true,
+      "attempt_leaf_labels": true,
+      "global_bin_fallback_membership": true,
+      "manual_forecast_bin_mass_and_fixed_conditionals": true,
+      "retained_control_inference": true,
+      "diagnostic_actuals_mutation_invariant": true
+    }
+  ],
+  "independently_verified_joint_leaf_tables": 4559,
+  "origin_numerical_results": [
+    {
+      "origin": "2025-W09",
+      "arm": "RETAINED_P2",
+      "n": 31,
+      "median_MAE": 53.74193548387097,
+      "mean_MAE": 54.1074898526017,
+      "CRPS": 39.90558346355789
+    },
+    {
+      "origin": "2025-W09",
+      "arm": "P2_LINKED_V8",
+      "n": 31,
+      "median_MAE": 53.87096774193548,
+      "mean_MAE": 54.07144009996991,
+      "CRPS": 39.88821165758732
+    },
+    {
+      "origin": "2025-W09",
+      "arm": "P2_WORKLOAD_V8",
+      "n": 31,
+      "median_MAE": 54.903225806451616,
+      "mean_MAE": 54.74017838686008,
+      "CRPS": 40.4037411885246
+    },
+    {
+      "origin": "2025-W13",
+      "arm": "RETAINED_P2",
+      "n": 37,
+      "median_MAE": 62.75675675675676,
+      "mean_MAE": 61.96529101682199,
+      "CRPS": 41.53477738747266
+    },
+    {
+      "origin": "2025-W13",
+      "arm": "P2_LINKED_V8",
+      "n": 37,
+      "median_MAE": 62.75675675675676,
+      "mean_MAE": 61.85424689391037,
+      "CRPS": 41.44499928289824
+    },
+    {
+      "origin": "2025-W13",
+      "arm": "P2_WORKLOAD_V8",
+      "n": 37,
+      "median_MAE": 62.24324324324324,
+      "mean_MAE": 61.56235076480051,
+      "CRPS": 41.075960598714914
+    },
+    {
+      "origin": "2026-W02",
+      "arm": "RETAINED_P2",
+      "n": 39,
+      "median_MAE": 62.717948717948715,
+      "mean_MAE": 67.82312510557297,
+      "CRPS": 46.489188843023165
+    },
+    {
+      "origin": "2026-W02",
+      "arm": "P2_LINKED_V8",
+      "n": 39,
+      "median_MAE": 62.46153846153846,
+      "mean_MAE": 67.79278981427953,
+      "CRPS": 46.550361801437035
+    },
+    {
+      "origin": "2026-W02",
+      "arm": "P2_WORKLOAD_V8",
+      "n": 39,
+      "median_MAE": 62.8974358974359,
+      "mean_MAE": 69.1093622493359,
+      "CRPS": 47.138319896125836
+    },
+    {
+      "origin": "2026-W03",
+      "arm": "RETAINED_P2",
+      "n": 36,
+      "median_MAE": 61.30555555555556,
+      "mean_MAE": 64.0714704759094,
+      "CRPS": 44.18770178378756
+    },
+    {
+      "origin": "2026-W03",
+      "arm": "P2_LINKED_V8",
+      "n": 36,
+      "median_MAE": 61.47222222222222,
+      "mean_MAE": 64.14757114090165,
+      "CRPS": 44.228835762568174
+    },
+    {
+      "origin": "2026-W03",
+      "arm": "P2_WORKLOAD_V8",
+      "n": 36,
+      "median_MAE": 61.22222222222222,
+      "mean_MAE": 63.63144080120396,
+      "CRPS": 44.20229488757929
+    }
+  ],
+  "actual_missing_bin_fallback_queries": 0,
+  "maximum_actual_missing_bin_mass": 0.0,
+  "software_boundary_tests": [
+    "Zeroattemptbin yields exactpointmass0",
+    "Missing leafbin uses earlier global bin",
+    "Empty global bin uses declared positiveattempt fallback"
+  ],
+  "software_tests_are_not_NFL_observations": true,
+  "ranking_lists_reconstructed": 540,
+  "ranking_list_views_with_probability_ties": 342,
+  "unknown_candidate_incidences_in_repeated_rank_views": 480,
+  "unknown_selected_incidences_in_repeated_rank_views": 84,
+  "rank_membership_uses_no_outcome_fields": true,
+  "book_grade_examples": [
+    {
+      "record_id": "PL8-109e7eecd5e5bc5bdb81946f-P2_LAW",
+      "category": "rush_yd",
+      "line": 0.5,
+      "selected_side": "OVER",
+      "status": "WIN",
+      "actual": 7,
+      "appearance": "PLAYED"
+    },
+    {
+      "record_id": "PL8-539150ed9b3bb3600bcee3ba-P2_LAW",
+      "category": "pass_yd",
+      "line": 258.5,
+      "selected_side": "UNDER",
+      "status": "LOSS",
+      "actual": 327,
+      "appearance": "PLAYED"
+    },
+    {
+      "record_id": "PL8-528ae8ebd30ded25d3147b41-P2_LAW",
+      "category": "rec_yd",
+      "line": 5.5,
+      "selected_side": "OVER",
+      "status": "UNKNOWN_PARTICIPATION",
+      "actual": null,
+      "appearance": "UNKNOWN"
+    },
+    {
+      "record_id": "PL8-7bb15091cac4d7b24e64af74-P2_LAW",
+      "category": "rush_yd",
+      "line": 8.5,
+      "selected_side": null,
+      "status": "UNAVAILABLE_FORECAST",
+      "actual": null,
+      "appearance": "UNKNOWN"
+    }
+  ],
+  "immutable_v7_forward_v5_hashes": "PASS",
+  "limitations": [
+    "Four selected weeks only,not full2025validation or fresh confirmation.",
+    "Repeated books/rank lists share football outcomes; no count is an independent newgame.",
+    "Current actual queries exercise no missing-bin fallback; fallback coverage claim limited to softwaretests.",
+    "Linked control differs from original P2 due zeroattempt/prior support; only w-vs-q contrast isolates the registered workload marginal.",
+    "No causal conversion, NGS gain, current offer, venue settlement, entry payout or live promotion claim."
+  ],
+  "evidence_SHA256": {
+    "protocol/WORKLOAD_LINK_V8.json": "ff3a7ff1c3cdfd858b5857afc2c6cf8ec5ec98afbf9564f122ef72d9994764a5",
+    "src/workload_link_v8.py": "0e99af2bab57ee5300cbbd2a7b1528567c925b4d37bd9a92728ca17e67512047",
+    "artifacts/reliability-v8/WORKLOAD_PREDICTIONS.json.gz": "2d6f0220c2a63bf69cba3716fb285f19869f0a48fd2a04df907e1bf5ead291eb",
+    "artifacts/reliability-v8/FIT_LEDGER.json": "542c7d9aa59cec065ba3210700038f52b71f525db26373844b8ecd09657db7ce",
+    "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7",
+    "artifacts/reliability-v8/REFERENCE_BANK.json.gz": "2d06ea614c6eac95f1b9f269f61ba1a7cf65343cff656f3a7bbdb765aae7334b",
+    "artifacts/reliability-v8/RANK_MEMBERSHIP.json.gz": "871dbba0302c343f4b6f7b9ba9f98c55330c5f6778e726b8624391ae73100c20",
+    "reports/reliability-v8/RANK_RESULTS.json.gz": "7dbaff66f280d1e9984b37709be95aa44331bfc884238078b75753d15ef7504f"
+  }
+}

@@ -45,8 +45,13 @@ jobs:
         run: node --check docs/forward.js
       - run: node --check docs/paper.js
       - run: node --check docs/accuracy.js
+      - if: ${{ hashFiles('docs/reliability.js') != '' }}
+        run: node --check docs/reliability.js
       - name: Verify actual-prop scorecard from retained rows
         run: python src/actual_accuracy_v6.py validate
+      - name: Verify selected-side reliability against canonical rows (no fits)
+        if: ${{ hashFiles('docs/data/reliability-v8.json') != '' }}
+        run: python src/site_reliability_v8.py validate
       - run: python src/site_paper_v5.py validate
       - run: python src/site_validate_v2.py
       - if: ${{ hashFiles('src/site_validate_forward_v4.py') != '' }}
