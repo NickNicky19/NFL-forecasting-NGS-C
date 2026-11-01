@@ -1,0 +1,26 @@
+{
+  "id": "C-BOUNDED-SOURCE-EXTENSION-CHECK-v8",
+  "observed_UTC": "2026-11-01T17:57:44.876415+00:00",
+  "public_static_requests": 2,
+  "findings": [
+    {
+      "query": "HF_CURRENT.json",
+      "SHA256": "57662042e95f633f8485655df0bf99a3652d45ea06ccc2d38159e0c142d18b19",
+      "dataset_ids": [
+        "propline/graded-player-props-sample"
+      ],
+      "latest_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+      "lastModified": "2026-09-29T16:28:23.000Z"
+    },
+    {
+      "query": "HF_AUTHOR.json",
+      "SHA256": "a3501ad814cb377403104a219b1dad21edfc6b136c966a4826e9814b9f397fec",
+      "dataset_ids": [
+        "propline/graded-player-props-sample"
+      ],
+      "latest_revision": null,
+      "lastModified": null
+    }
+  ],
+  "disposition": "The only publisher NFL sample remains the admitted Sep29revision,4markets/W2-W3. No newcategory/week/currentoffer file is offered. APIkeys/accounts/paidbackfill not requested. This check does not expand scope of oldESPN/Sleeperholds."
+}

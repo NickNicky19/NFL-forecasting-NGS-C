@@ -88,14 +88,15 @@
     "fit_workers": 1,
     "threads": 1,
     "fit_cpu_seconds_max": 180,
-    "whole_wave_wall_seconds_max": 1800,
     "peak_RSS_bytes_max": 1610612736,
     "candidate_cases_max_per_extension": 2000,
     "new_public_bytes_max": 67108864,
     "whole_C_cache_bytes_max": 2684354560,
     "public_source_metadata_requests_max": 8,
     "new_recurring_jobs": 0,
-    "paid_calls": 0
+    "paid_calls": 0,
+    "active_compute_wall_seconds_max": 1800,
+    "wall_scope": "Cumulative active execution; excludes paused coding/review time. FitCPU and fit count hard-capped."
   },
   "current_offers": "HF metadata recheck at currentUTC confirms no revision/newNFLfile; source ends September. Current offers need an independently permitted fresh export/static source, native identities, actual clocks/lifecycle and current role/status. No provider API/signup."
 }
