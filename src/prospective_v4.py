@@ -78,9 +78,9 @@ def features_for_future(history,teams,candidate,target,arm,cutoff):
 def qualified_training_frame(data,completed,cutoff):
     return data[data.game_id.isin(set(completed))&data.game_final&(data.kickoff<cutoff)].sort_values(['kickoff','game_id','player_id'])
 
-def issue(source,out,cache,run_id,roots,categories=None):
+def issue(source,out,cache,run_id,roots,categories=None,budget_path=None):
     if subprocess.check_output(['git','status','--porcelain'],text=True).strip():raise RuntimeError('COMMIT_POLICY_AND_CODE_BEFORE_ISSUANCE')
-    with ForwardBudget(cache/'BUDGET.json',out,roots,read_json(POLICY)['budget']) as budget:
+    with ForwardBudget(budget_path or cache/'BUDGET.json',out,roots,read_json(POLICY)['budget']) as budget:
         return issue_wave(source,out,cache,run_id,budget,categories)
 
 def issue_wave(source,out,cache,run_id,budget,categories=None):
@@ -99,7 +99,8 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
             injury=inj.get((r['gsis_id'],r['team']),{});designation=injury.get('report_status') or 'UNKNOWN_NOT_LISTED_OR_BLANK'
             candidates.append(dict(game_id=event['game_id'],event_version=event['event_version'],espn_event_id=event['espn_event_id'],season=m['season'],week=m['week'],player_id=r['gsis_id'],name=r['full_name'],position=r['position'],team=r['team'],opponent_team=event['away_team'] if r['team']==event['home_team'] else event['home_team'],home_team=event['home_team'],kickoff=event['kickoff'],kickoff_UTC=event['kickoff_UTC'],roster_status=r['status'],availability=designation,practice_status=injury.get('practice_status') or 'UNKNOWN',starter_state='NOT_INFERRED_FROM_POSITION',selection_availability='BLOCKED_OUT' if str(designation).lower() in ['out','doubtful'] else 'CONDITIONAL_UNKNOWN_APPEARANCE'))
     assert len({(r['game_id'],r['player_id']) for r in candidates})==len(candidates)
-    d,g,teams=load_history(source);completed=set(m['completed_game_ids']);d=qualified_training_frame(d,completed,asof);teams=teams[teams.game_id.isin(completed)&(teams.kickoff<asof)].copy()
+    d,g,teams=load_history(source);completed=set(m['completed_game_ids']);held=held_ungraded_games(completed,Path('prospective'));completed-=set(held)
+    d=qualified_training_frame(d,completed,asof);teams=teams[teams.game_id.isin(completed)&(teams.kickoff<asof)].copy()
     records=d.to_dict('records');hist,th=History(d,'player_id'),History(teams,'team');observed_hist,observed_team=ObservedHistory(d,'player_id',asof),ObservedHistory(teams,'team',asof)
     code={n:filehash(Path('src')/n) for n in CODE};policy_hash=filehash(POLICY);commit=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     rows=[];models=[];fit_count=0;unavailable=[]
@@ -138,7 +139,8 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
         modeldest=out/'models'/f'{target}.json.gz';modeldest.parent.mkdir(exist_ok=True);modeldest.write_bytes(modelpath.read_bytes());write(modeldest.with_suffix('.meta.json'),meta)
         laws=infer_forest(numeric,qx,[r['position'] for r in query]);models.append(meta|dict(reused=reused,artifact='models/'+modeldest.name))
         for r,fv,law in zip(query,qx,laws):
-            base={k:r[k] for k in ['game_id','event_version','espn_event_id','player_id','name','position','team','opponent_team','home_team','season','week','kickoff_UTC','roster_status','availability','practice_status','starter_state','selection_availability']};support=len(observed_hist.before(r['player_id'],asof))
+            base={k:r[k] for k in ['game_id','event_version','espn_event_id','player_id','name','position','team','opponent_team','home_team','season','week','kickoff_UTC','roster_status','availability','practice_status','starter_state','selection_availability']};support=int(fv[3])
+            base['historical_stat_row_support']=len(observed_hist.before(r['player_id'],asof));base['support_metadata_version']='C-SUPPORT-DEFINITION-CLARIFICATION-v4.4'
             base.update(forecast_id=digest((run_id+r['game_id']+r['player_id']+target).encode())[:24],run_id=run_id,category=target,policy_id=policy['id'],policy_SHA256=policy_hash,model_id='C-FORWARD-P2-v4/'+target+'/'+key,model_SHA256=meta['model_SHA256'],family='P2_LEAF',arm=arm,information_cutoff_UTC=pd.Timestamp(asof,unit='s',tz='UTC').isoformat(),generated_UTC=stamp(),evidence_tier='LOCAL_GENERATED_AWAITING_SERVER_RECEIPT',product_type='EVENT_PROBABILITY' if kind=='event' else 'DISCRETE_OUTCOME_LAW',mean=None if kind=='event' else law.mean(),median=None if kind=='event' else law.quantile(.5),p05=None if kind=='event' else law.quantile(.05),p95=None if kind=='event' else law.quantile(.95),event_probability=law.probability(.5)['over'] if kind=='event' else None,scoring_contract_id=CHART if target=='fpts' else 'rush-or-rec-at-least-one-v1' if kind=='event' else 'official-player-fullgame-OT-v1',appearance_conditioning=policy['primary']['appearance_conditioning'],history_support=support,sparse_player=support<3,model_fallback=False,sparse_rule='Training-onlyimputation/missingindicators+rolepriorblend, no playerrowdrop',features=finite(fv),feature_schema='C-v2-'+arm+'-'+str(len(fv)),law=law_data(law),offer_state='NO_QUALIFIED_CURRENT_OFFER',selected_side=None,selection_state='UNAVAILABLE_NOT_ABSTENTION',readiness='EXPERIMENTAL_SHADOW_LABEL_COVERAGE' if target=='fpts' else 'PROVISIONAL_FORECAST_ONLY',limitation='Rarepositivechartlabels unqualified; not admitted fulltail or realoffer probability' if target=='fpts' else 'Exposedresearchprocedure; real-line accuracy not established; not a jointteamlaw')
             rows.append(base)
         print('FORWARD_MODEL',target,len(pool),len(query),'REUSED' if reused else 'FIT',flush=True)
@@ -154,6 +156,7 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
     for p in source.iterdir():
         if p.is_file():(sourceout/p.name).write_bytes(p.read_bytes())
     manifest=dict(schema='C-PREGAME-RUN-v4',run_id=run_id,policy_id=policy['id'],policy_SHA256=policy_hash,code_commit=commit,code_SHA256=code,created_UTC=stamp(),information_cutoff_UTC=pd.Timestamp(asof,unit='s',tz='UTC').isoformat(),season=m['season'],week=m['week'],events=len(allowed),first_kickoff_UTC=min(r['kickoff_UTC'] for r in rows),candidate_players=len(candidates),forecast_rows=len(rows),categories=len({r['category'] for r in rows}),unavailable_categories=unavailable,primary_scoring_snapshot=policy['snapshot_policy']['id'],appearance_conditioning=policy['primary']['appearance_conditioning'],new_fits=fit_count,CPU_seconds=time.process_time()-cpu,wall_seconds=time.monotonic()-start,peak_RSS_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,source_manifest_SHA256=filehash(source/'SOURCE_MANIFEST.json'),removed_started_or_changed_rows=removed,publication_state='AWAITING_GITHUB_SERVER_PROOF',real_offers=0,real_selections=0,six_leg_state='NO_QUALIFIED_SIX_LEG_ENTRY',predictive_improvement_demonstrated=False)
+    manifest['held_ungraded_own_completed_games']=held
     budget.check();write(out/'RESOURCE_RECEIPT.json',dict(budget.state,active=False,snapshot='Resource usage at forecast generation; persistent budget continues across the registered pilot and remainder'))
     manifest['files']={p.relative_to(out).as_posix():dict(SHA256=filehash(p),bytes=p.stat().st_size) for p in out.rglob('*') if p.is_file()};write(out/'RUN.json',manifest);budget.check();print('CAPTURE_GENERATED',run_id,len(rows),manifest['first_kickoff_UTC']);return manifest
 
@@ -205,7 +208,12 @@ def server_receipt(run,commit,workflow_run,output):
 def grade_run(run,receipt_path,outcomes,output):
     m,rows=validate_run(run);receipt=read_json(receipt_path);validate_receipt(run,receipt,m,rows)
     first=first_qualified_snapshots(run.parent.parent)
-    packet=read_json(outcomes);assert packet['schema']=='C-OUTCOMES-v4';lookup={(r['game_id'],r['player_id'],r['category']):r for r in packet['outcomes']};assert len(lookup)==len(packet['outcomes']),'DUPLICATE_OUTCOME_IDENTITIES';grades=[]
+    packet=read_json(outcomes);assert packet['schema']=='C-OUTCOMES-v4'
+    assert packet['source_qualification']=='OFFICIAL_NUMERICAL_FACTS_VERIFIED' and packet['source_evidence'],'OUTCOME_SOURCE_PROVENANCE_REQUIRED'
+    for evidence in packet['source_evidence']:
+        path=(outcomes.parent/evidence['path']).resolve();assert path.is_relative_to(outcomes.parent.resolve()),'SOURCE_PATH_ESCAPE'
+        assert filehash(path)==evidence['SHA256'] and evidence['source'],'OUTCOME_SOURCE_BYTES_UNVERIFIED'
+    lookup={(r['game_id'],r['player_id'],r['category']):r for r in packet['outcomes']};assert len(lookup)==len(packet['outcomes']),'DUPLICATE_OUTCOME_IDENTITIES';grades=[];final_games=set()
     for r in rows:
         key=(r['game_id'],r['player_id'],r['category'],r['policy_id'])
         if key in first and first[key][1]!=r['forecast_id']:
@@ -215,20 +223,23 @@ def grade_run(run,receipt_path,outcomes,output):
             assert a['scoring_contract_id']==r['scoring_contract_id']
             assert a['event_status']=='FINAL' and pd.Timestamp(r['kickoff_UTC'])<pd.Timestamp(a['observed_UTC'])<=pd.Timestamp(now())
             assert a['espn_event_id']==r['espn_event_id'],'OUTCOME_NATIVE_EVENT_MISMATCH'
-            if a['kickoff_UTC']!=r['kickoff_UTC']:grades.append(dict(forecast_id=r['forecast_id'],state='EVENT_VERSION_RECONCILIATION_REQUIRED',actual=None));continue
+            if pd.Timestamp(a['kickoff_UTC'])!=pd.Timestamp(r['kickoff_UTC']):grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='EVENT_VERSION_RECONCILIATION_REQUIRED',actual=None));continue
             assert state in ['PLAYED','DNP','UNKNOWN','VOID','CANCELLED','PENDING']
+            final_games.add(r['game_id'])
         if state=='PLAYED' and a.get('actual') is not None:
             y=a['actual'];law=law_load(r['law']);error=None if r['mean'] is None else r['median']-y
-            assert math.isfinite(y) and abs(y*law.scale-round(y*law.scale))<1e-8
+            assert not isinstance(y,bool) and math.isfinite(y) and abs(y*law.scale-round(y*law.scale))<1e-8
             if CATEGORIES[r['category']][2]=='count':assert y>=0
-            if r['category']=='anytime_td':assert y in [0,1]
+            if r['category']=='anytime_td':
+                components=a['event_components'];rush=integer(components.get('rushing_tds'));rec=integer(components.get('receiving_tds'))
+                assert rush is not None and rec is not None and y==int(rush+rec>0),'ANYTIME_REQUIRES_RUSH_OR_REC_EVENT'
             if r['category']=='fpts':
                 components=a['score_components'];values={k:integer(components.get(k),k in SIGNED) for k in WEIGHTS};assert all(v is not None for v in values.values()) and abs(sum(WEIGHTS[k]*v for k,v in values.items())/50-y)<1e-10
                 assert a.get('unique_event_credits_verified') is True,'UNQUALIFIED_CHART_CREDITS'
             nll=-law.logpmf(int(round(y*law.scale)))
             grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='GRADED_PLAYED',actual=y,median_error=error,absolute_error=None if error is None else abs(error),mean_squared_error=None if r['mean'] is None else (r['mean']-y)**2,CRPS=law.crps(y),NLL=nll if math.isfinite(nll) else 'Infinity',offer_grade='NO_QUALIFIED_OFFER',book_settlement='UNVERIFIED'))
-        else:grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state=state,actual=None,offer_grade='UNAVAILABLE',book_settlement='UNVERIFIED'))
-    write(output,dict(schema='C-PROSPECTIVE-GRADING-v4',run_id=m['run_id'],created_UTC=stamp(),forecast_SHA256=receipt['forecast_blob_SHA256'],outcome_version=packet['version'],grades=grades));return grades
+        else:grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='PLAYED_MISSING_ACTUAL' if state=='PLAYED' else state,actual=None,offer_grade='UNAVAILABLE',book_settlement='UNVERIFIED'))
+    write(output,dict(schema='C-PROSPECTIVE-GRADING-v4',run_id=m['run_id'],created_UTC=stamp(),forecast_SHA256=receipt['forecast_blob_SHA256'],outcome_version=packet['version'],outcome_packet_SHA256=filehash(outcomes),confirmed_final_game_ids=sorted(final_games),grades=grades));return grades
 
 def first_qualified_snapshots(root):
     first={}
@@ -238,6 +249,18 @@ def first_qualified_snapshots(root):
             key=(r['game_id'],r['player_id'],r['category'],r['policy_id']);value=(persisted,r['forecast_id'])
             if key not in first or value<first[key]:first[key]=value
     return first
+
+def held_ungraded_games(completed,root):
+    first=first_qualified_snapshots(root);needed={}
+    for key,(_,forecast_id) in first.items():
+        if key[0] in completed:needed.setdefault(key[0],set()).add(forecast_id)
+    marked=set()
+    for p in (root/'grades').glob('*.json'):
+        j=read_json(p);run=root/'runs'/j['run_id'];assert j['forecast_SHA256']==filehash(run/'forecasts.json.gz')
+        assert pd.Timestamp(j['created_UTC'])<=pd.Timestamp(now()),'GRADING_MARKER_FROM_FUTURE'
+        finals=set(j.get('confirmed_final_game_ids',[]))
+        marked.update(r['forecast_id'] for r in j['grades'] if r.get('game_id') in finals)
+    return sorted(game for game,ids in needed.items() if ids-marked)
 
 def verify_repository(root):
     count=0
@@ -250,12 +273,12 @@ def verify_repository(root):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();s=p.add_subparsers(dest='command',required=True)
-    a=s.add_parser('issue');a.add_argument('--source',type=Path,required=True);a.add_argument('--output',type=Path,required=True);a.add_argument('--models-cache',type=Path,required=True);a.add_argument('--run-id',required=True);a.add_argument('--cache-root',type=Path,action='append',required=True);a.add_argument('--categories',nargs='+',choices=list(CATEGORIES))
+    a=s.add_parser('issue');a.add_argument('--source',type=Path,required=True);a.add_argument('--output',type=Path,required=True);a.add_argument('--models-cache',type=Path,required=True);a.add_argument('--run-id',required=True);a.add_argument('--cache-root',type=Path,action='append',required=True);a.add_argument('--categories',nargs='+',choices=list(CATEGORIES));a.add_argument('--budget-ledger',type=Path)
     a=s.add_parser('verify');a.add_argument('--root',type=Path,default=Path('prospective'))
     a=s.add_parser('receipt');a.add_argument('--run',type=Path,required=True);a.add_argument('--commit',required=True);a.add_argument('--workflow-run',type=int,required=True);a.add_argument('--output',type=Path,required=True)
     a=s.add_parser('grade');a.add_argument('--run',type=Path,required=True);a.add_argument('--receipt',type=Path,required=True);a.add_argument('--outcomes',type=Path,required=True);a.add_argument('--output',type=Path,required=True)
     a=p.parse_args()
-    if a.command=='issue':issue(a.source,a.output,a.models_cache,a.run_id,a.cache_root,a.categories)
+    if a.command=='issue':issue(a.source,a.output,a.models_cache,a.run_id,a.cache_root,a.categories,a.budget_ledger)
     elif a.command=='verify':verify_repository(a.root)
     elif a.command=='receipt':server_receipt(a.run,a.commit,a.workflow_run,a.output)
     else:grade_run(a.run,a.receipt,a.outcomes,a.output)

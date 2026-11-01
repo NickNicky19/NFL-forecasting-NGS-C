@@ -24,6 +24,9 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,8 +41,13 @@ jobs:
           OMP_NUM_THREADS: '1'
         run: python -m unittest discover -s tests -v
       - run: node --check docs/app.js
+      - if: ${{ hashFiles('docs/forward.js') != '' }}
+        run: node --check docs/forward.js
       - run: python src/site_validate_v2.py
+      - if: ${{ hashFiles('src/site_validate_forward_v4.py') != '' }}
+        run: python src/site_validate_forward_v4.py
       - name: Verify immutable prospective captures
+        if: ${{ hashFiles('src/prospective_v4.py') != '' }}
         run: python src/prospective_v4.py verify --root prospective
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

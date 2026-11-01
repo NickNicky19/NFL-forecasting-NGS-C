@@ -9,7 +9,7 @@ def check(url,root,receipt):
     m=json.loads((root/'data/manifest.json').read_text());checks=[]
     with sync_playwright() as p:
         b=p.chromium.launch(headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-        page.goto(url,wait_until='networkidle');page.select_option('#family','CAL_SIGMOID_2025')
+        page.goto(url.split('#',1)[0]+'#forecasts',wait_until='networkidle');page.select_option('#family','CAL_SIGMOID_2025')
         for c in m['categories']:
             t=c['id'];page.select_option('#category',t);page.wait_for_function('t=>{const s=document.querySelector("#forecasts tbody tr")?.dataset.slot;return s?.includes("-"+t+"-")&&s.includes("CAL_SIGMOID_2025")}',arg=t)
             assert page.locator('#history').input_value()=='H-MULTI'

@@ -26,6 +26,7 @@ class ExactOffers(unittest.TestCase):
             self.assertEqual(a['state'],'UNAVAILABLE_NOT_ABSTENTION');self.assertIsNone(a['p_over']);self.assertIsNone(a['P2_side'])
     def test_synthetic_rows_cannot_enter_real_offer_probabilities_or_results(self):
         with self.assertRaises(ValueError):probabilities(self.o|dict(record_kind='SYNTHETIC_THRESHOLD'),self.f)
+        with self.assertRaises(ValueError):reconcile([evaluate(self.o|dict(record_kind='SYNTHETIC_THRESHOLD'),self.f,self.cutoff,'HISTORICAL_DIAGNOSTIC')],{})
         a=evaluate(self.o,self.f,self.cutoff)
         with self.assertRaises(ValueError):reconcile([a|dict(record_kind='SYNTHETIC_THRESHOLD')],{})
         with self.assertRaises(ValueError):reconcile([a],{}) # no server proof yet
@@ -40,9 +41,13 @@ class ExactOffers(unittest.TestCase):
     def test_own_sides_reconcile_win_loss_and_push_without_averaging_rates(self):
         a=evaluate(self.o,self.f,self.cutoff,'HISTORICAL_DIAGNOSTIC')
         b=evaluate(self.o|dict(line=19.5),self.f,self.cutoff,'HISTORICAL_DIAGNOSTIC')
-        c=evaluate(self.o|dict(line=10),self.f,self.cutoff,'HISTORICAL_DIAGNOSTIC')
+        asymmetric=self.f|dict(law=law_data(Law([0,10,20],[1,2,1.1],Prior(np.asarray([0,10,20,20]),'signed'))))
+        c=evaluate(self.o|dict(line=10),asymmetric,self.cutoff,'HISTORICAL_DIAGNOSTIC')
         r=reconcile([a,b,c],{('fixture-g','fixture-p','pass_yd'):dict(appearance='PLAYED',actual=10)})['P2']
         self.assertEqual(r['COMBINED']['wins'],2);self.assertEqual(r['COMBINED']['decided'],2);self.assertEqual(r['other_states']['PUSH'],1)
+    def test_symmetric_probability_tie_abstains_despite_last_bit_reduction(self):
+        r=evaluate(self.o|dict(line=10),self.f,self.cutoff)
+        self.assertLess(abs(r['p_under']-r['p_over']),1e-12);self.assertEqual(r['P2_side'],'ABSTAIN')
     def test_anytime_does_not_create_an_under_or_no_offer(self):
         f=self.f|dict(category='anytime_td',scoring_contract_id='rush-or-rec-at-least-one-v1',median=None,law=law_data(Law([0,1],[1,3],Prior(np.asarray([0,1]),'event'))))
         o=self.o|dict(category='anytime_td',scoring_contract_id=f['scoring_contract_id'],comparator='AT_LEAST_ONE_RUSH_REC_TD',offered_sides=['YES'],side_states={'YES':'OPEN'},line=None)

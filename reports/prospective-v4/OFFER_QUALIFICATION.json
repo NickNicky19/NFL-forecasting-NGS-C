@@ -1,0 +1,54 @@
+{
+  "id": "C-OFFER-QUALIFICATION-SWEEP-v4",
+  "review_completed_UTC": "2026-11-01T00:34:18.680224+00:00",
+  "source_retrieval_clocks": "Search-tool observations not retained as authenticated per-quote clocks; no offers admitted",
+  "sources": [
+    {
+      "URL": "https://karmaedge.ai/nfl/player-props-today",
+      "terms": "https://karmaedge.ai/terms",
+      "state": "REJECT_PUBLIC_RETENTION",
+      "reason": "Terms permit personal analysis but prohibit onward publication/redistribution, scraping/bulk automation; no market rows copied to C."
+    },
+    {
+      "URL": "https://fieldworklines.com/nfl/2026/week-8",
+      "terms": "https://fieldworklines.com/terms",
+      "state": "UNQUALIFIED",
+      "reason": "Board contains consensus/derived and stale states; no book-specific source/native-ID/clock/contract export qualified. Terms do not authorize redistribution of its feed as another data product."
+    },
+    {
+      "URL": "https://querystation.app/dataset/lake.nfl.nfl_prop_settlement",
+      "state": "UNQUALIFIED",
+      "reason": "No readable export/license evidence retrieved; no signup or paid request attempted."
+    },
+    {
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "ref": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+      "path": "output/data/archive/2026_w08.json",
+      "blob_SHA": "a6c2730e225f1c2ba24754be5568353df47b9e77",
+      "saved_at": "2026-10-31T23:42:16Z",
+      "state": "MIXED_REFERENCE_NOT_ADMITTED",
+      "aggregate_inspection": {
+        "players": 535,
+        "prop_views": 2479,
+        "source_counts": {
+          "model": 1570,
+          "fixed": 438,
+          "average": 471
+        },
+        "line_from_counts": {
+          "dk": 622,
+          "ours": 1400,
+          "null": 438,
+          "sleeper": 19
+        },
+        "explicit_venue_rows": 0,
+        "per_offer_quote_clock_rows": 0
+      },
+      "reason": "Producer saved_at is not quote freshness; labelled upstream lines still require exact source/identity/contract/public-retention qualification. Model/fixed/average values cannot become actual offered thresholds."
+    }
+  ],
+  "current_offers_admitted": 0,
+  "historical_offers_admitted": 0,
+  "prices_are_not_the_block": "Line-only direction tests can proceed when actual-offer identities/contracts/clocks/rights qualify. Prices additionally gate value; exact entry quote gates executable payout claims.",
+  "minimum_dependency": "Small permitted exact-line export with native/player/event mapping, period/comparator/actual offered sides, book/product/tier/lifecycle, genuine observation/source/persistence clocks, statistic/appearance contract and exact redistribution scope. No keys/signup or rerun of football fits."
+}

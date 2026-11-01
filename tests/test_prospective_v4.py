@@ -5,7 +5,7 @@ import numpy as np,pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from safe_models_v4 import prior_data,law_data,law_load,export_forest,infer_forest,validate_training_model
 from laws_v2 import Prior,LeafModel
-from prospective_v4 import features_for_future,qualified_training_frame,grade_run
+from prospective_v4 import features_for_future,qualified_training_frame,grade_run,held_ungraded_games
 from forward_sources_v4 import match_event
 
 class Prospective(unittest.TestCase):
@@ -68,9 +68,28 @@ class Prospective(unittest.TestCase):
         row=dict(forecast_id='f',game_id='g',player_id='p',category='pass_cmp',policy_id='fixture',kickoff_UTC='2026-11-01T18:00:00+00:00',espn_event_id='1',scoring_contract_id='official-player-fullgame-OT-v1',mean=1.,median=1.,law=law)
         outcome=dict(game_id='g',player_id='p',category='pass_cmp',kickoff_UTC=row['kickoff_UTC'],espn_event_id='1',scoring_contract_id=row['scoring_contract_id'],event_status='FINAL',appearance='PLAYED',observed_UTC='2026-11-01T22:00:00+00:00',actual=0)
         with tempfile.TemporaryDirectory() as folder:
-            root=Path(folder);(root/'forecasts.json.gz').write_bytes(b'fixture');(root/'RUN.json').write_bytes(b'{}');proof=root/'proof.json';proof.write_text(json.dumps(dict(schema='C-SERVER-PREGAME-RECEIPT-v4',run_id='run',qualified_prospective=True,run_manifest_SHA256=hashlib.sha256(b'{}').hexdigest(),forecast_blob_SHA256=hashlib.sha256(b'fixture').hexdigest(),fresh_GitHub_bytes_verified=True,not_client_commit_dates=True,server_run_created_UTC='2026-11-01T00:00:00Z',server_run_started_UTC='2026-11-01T00:00:01Z',server_check_completed_UTC='2026-11-01T00:00:10Z')));out=root/'outcomes.json';out.write_text(json.dumps(dict(schema='C-OUTCOMES-v4',version='fixture',outcomes=[outcome])))
+            root=Path(folder);(root/'forecasts.json.gz').write_bytes(b'fixture');(root/'RUN.json').write_bytes(b'{}');proof=root/'proof.json';proof.write_text(json.dumps(dict(schema='C-SERVER-PREGAME-RECEIPT-v4',run_id='run',qualified_prospective=True,run_manifest_SHA256=hashlib.sha256(b'{}').hexdigest(),forecast_blob_SHA256=hashlib.sha256(b'fixture').hexdigest(),fresh_GitHub_bytes_verified=True,not_client_commit_dates=True,server_run_created_UTC='2026-11-01T00:00:00Z',server_run_started_UTC='2026-11-01T00:00:01Z',server_check_completed_UTC='2026-11-01T00:00:10Z')));out=root/'outcomes.json';(root/'facts-fixture.json').write_bytes(b'fixture facts');out.write_text(json.dumps(dict(schema='C-OUTCOMES-v4',version='fixture',source_qualification='OFFICIAL_NUMERICAL_FACTS_VERIFIED',source_evidence=[dict(path='facts-fixture.json',SHA256=hashlib.sha256(b'fixture facts').hexdigest(),source='SOFTWARE_FIXTURE')],outcomes=[outcome])))
             meta={'run_id':'run','created_UTC':'2026-10-31T23:00:00Z'}
             with patch('prospective_v4.validate_run',return_value=(meta,[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-10-31T23:00:00Z').to_pydatetime()):
                 with self.assertRaises(AssertionError):grade_run(root,proof,out,root/'bad.json')
             with patch('prospective_v4.validate_run',return_value=(meta,[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-11-02T00:00:00Z').to_pydatetime()):
                 r=grade_run(root,proof,out,root/'good.json');self.assertEqual(r[0]['state'],'GRADED_PLAYED');self.assertEqual(r[0]['actual'],0)
+                packet=json.loads(out.read_text());packet['outcomes'][0]['actual']=True;out.write_text(json.dumps(packet))
+                with self.assertRaises(AssertionError):grade_run(root,proof,out,root/'bool.json')
+                packet['outcomes'][0]['actual']=None;out.write_text(json.dumps(packet));r=grade_run(root,proof,out,root/'missing.json');self.assertEqual(r[0]['state'],'PLAYED_MISSING_ACTUAL')
+                packet['outcomes'][0]['appearance']='DNP';packet['outcomes'][0]['actual']=0;out.write_text(json.dumps(packet));r=grade_run(root,proof,out,root/'dnp.json');self.assertEqual(r[0]['state'],'DNP');self.assertIsNone(r[0]['actual'])
+            eventrow=row|dict(category='anytime_td',scoring_contract_id='rush-or-rec-at-least-one-v1',mean=None,median=None,law=law_data(Law([0,1],[1,1],Prior(np.asarray([0,1]),'event'))))
+            packet['outcomes'][0].update(category='anytime_td',scoring_contract_id=eventrow['scoring_contract_id'],appearance='PLAYED',actual=1,event_components=dict(rushing_tds=0,receiving_tds=0,passing_tds=3));out.write_text(json.dumps(packet))
+            with patch('prospective_v4.validate_run',return_value=(meta,[eventrow])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-11-02T00:00:00Z').to_pydatetime()):
+                with self.assertRaises(AssertionError):grade_run(root,proof,out,root/'passing-is-not-anytime.json')
+
+    def test_own_completed_games_wait_for_append_only_grade_or_unknown_marker(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);first={('g','p','pass_cmp','policy'):(pd.Timestamp('2026-11-01T00:00:00Z'),'f')}
+            with patch('prospective_v4.first_qualified_snapshots',return_value=first):
+                self.assertEqual(held_ungraded_games({'g','other'},root),['g'])
+                (root/'runs/run').mkdir(parents=True);(root/'runs/run/forecasts.json.gz').write_bytes(b'fixture');(root/'grades').mkdir()
+                marker=dict(run_id='run',created_UTC='2026-10-31T23:00:00Z',confirmed_final_game_ids=[],forecast_SHA256=hashlib.sha256(b'fixture').hexdigest(),grades=[dict(forecast_id='f',game_id='g',state='PENDING',actual=None)])
+                (root/'grades/marker.json').write_text(json.dumps(marker));self.assertEqual(held_ungraded_games({'g','other'},root),['g'])
+                marker['confirmed_final_game_ids']=['g'];marker['grades'][0]['state']='UNKNOWN';(root/'grades/marker.json').write_text(json.dumps(marker))
+                self.assertEqual(held_ungraded_games({'g','other'},root),[])

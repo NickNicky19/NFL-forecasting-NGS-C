@@ -1,0 +1,116 @@
+{
+  "id": "C-FORWARD-RESOURCE-v4",
+  "recorded_UTC": "2026-11-01T00:34:18.680224+00:00",
+  "registered_limits": {
+    "primary_fits_max": 12,
+    "shadow_fits_max": 12,
+    "auxiliary_fits_max": 0,
+    "CPU_seconds": 240,
+    "wall_seconds": 600,
+    "fit_RSS_bytes": 1073741824,
+    "whole_C_cache_bytes": 2684354560,
+    "new_artifacts_bytes": 67108864,
+    "new_HTTP_calls_max": 24,
+    "workers": 1,
+    "threads": 1,
+    "paid_calls": 0,
+    "new_schedulers": 0
+  },
+  "actual_fit_wave": {
+    "CPU_seconds": 79.21158149,
+    "wall_seconds": 83.91470288099663,
+    "fit_attempts": [
+      {
+        "target": "pass_yd",
+        "key": "71787f7bf2c18f40cc43ab141ee32f4a12ca295450dcdf98f0b938c2d01affa5"
+      },
+      {
+        "target": "pass_td",
+        "key": "36070975f18b1f7da3836aced50d4a230cc1cb3d0186211570b0022b6af0d8b7"
+      },
+      {
+        "target": "pass_cmp",
+        "key": "a777243eba9c8e4b267a501d0c60ef44e1bab0c6c89fadc090c86bb89ef91602"
+      },
+      {
+        "target": "pass_att",
+        "key": "64bcb3a5e468aa7a73afecbb8f2d0afb1b81e1b63110e00f2077075f56a81b35"
+      },
+      {
+        "target": "pass_int",
+        "key": "3b7a391974f52f446d418d11a263d40bee4b6e30b01d3eeed14600a285c55127"
+      },
+      {
+        "target": "rush_yd",
+        "key": "3f98010a2369e0d5a8a7a3d1248416276f676edd43c97bfc89086f6fbb017c57"
+      },
+      {
+        "target": "rush_att",
+        "key": "63831bf7e3ab36042d714c0d330def7b9a02592b5f6f154eade874680c810285"
+      },
+      {
+        "target": "rec",
+        "key": "9055c51e04c77b0b4dc3d70456468707c96eb915e74cfe65177bc5720454f7f3"
+      },
+      {
+        "target": "rec_yd",
+        "key": "9fb8f57fd255af970fd56d2f44690a24c0a4b24f293f8ab8b30e91611c222788"
+      },
+      {
+        "target": "rush_rec_yd",
+        "key": "6ba955fc0168f35c2bb3a5f53f38eddab187342d6ece14d9d300968a46f5328f"
+      },
+      {
+        "target": "anytime_td",
+        "key": "7012f8650245a66da70db9decda9a5af9af4f5509cd7c5f4475c82f3f3640bac"
+      },
+      {
+        "target": "fpts",
+        "key": "8c6f2d20119beaac23b3becb1587672ca9353f82d43e02c3decf4110dbe00eb3"
+      }
+    ],
+    "peak_RSS_bytes": 358658048,
+    "peak_cache_bytes": 2195967617,
+    "stages": [
+      {
+        "state": "FAILED",
+        "reason": ""
+      },
+      {
+        "state": "PASS",
+        "reason": null
+      },
+      {
+        "state": "PASS",
+        "reason": null
+      }
+    ],
+    "output_sizes": {
+      "C-FWD-v4-20261101-0004-P2-pass_yd": 0,
+      "C-FWD-v4-20261101-0009-P2-pass_yd": 2233522,
+      "C-FWD-v4-20261101-0011-P2-remainder": 7543974
+    },
+    "active": false
+  },
+  "NFL_fit_attempts": 12,
+  "repeated_completed_fits": 0,
+  "pilot_failure_recovery_without_new_fit": true,
+  "fit_source_HTTP_accounting": {
+    "pre_registration_feasibility": 10,
+    "registered_qualification": 9,
+    "failed_pilot_status_checks": 2,
+    "recovery_status_checks": 4,
+    "remainder_status_checks": 4,
+    "registered_total": 19,
+    "registered_max": 24,
+    "note": "GitHub restoration/publication and bounded offer-source review are separate read-only activities; no NFL polling loop."
+  },
+  "science_capture_bytes": 9777496,
+  "GitHub_restore_bytes": 9777496,
+  "durable_storage": "C GitHub only",
+  "whole_C_fit_peak_bytes": 2195967617,
+  "whole_C_after_site_and_restore_bytes": 2222524242,
+  "no_paid_calls": true,
+  "no_new_scheduler": true,
+  "measurement_scope": "All five C work/cache trees including .git, source intake, model cache, restored bytes and site; no A/B storage."
+}
