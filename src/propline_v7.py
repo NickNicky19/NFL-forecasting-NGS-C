@@ -132,7 +132,9 @@ def saved_models():
 def evaluate(inputs):
     """Run the frozen population; outcome columns are used only after prediction."""
     from data_v2 import load
-    start=time.monotonic();d,_,_=load(inputs);facts={(r['game_id'],r['player_id']):r for r in d.to_dict('records')};models,saved,direct,receipts=saved_models()
+    start=time.monotonic();assert sha(inputs/'facts.csv.gz')=='9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11'
+    assert sha(inputs/'schedule.csv')=='5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0'
+    d,_,_=load(inputs);facts={(r['game_id'],r['player_id']):r for r in d.to_dict('records')};models,saved,direct,receipts=saved_models()
     intake=json.loads((OUT/'ELIGIBLE_OFFERS.json').read_text());cases=intake['cases'];assert sha(OUT/'ELIGIBLE_OFFERS.json')==json.loads((OUT/'INVENTORY.json').read_text())['eligible_offers_SHA256']
     out=[];comparison=[];forecast_evidence=[];used=set()
     for c in cases:
