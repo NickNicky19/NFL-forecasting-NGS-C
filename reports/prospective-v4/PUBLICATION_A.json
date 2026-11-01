@@ -1,0 +1,79 @@
+{
+  "id": "C-PUBLICATION-v4-A",
+  "checked_UTC": "2026-11-01T01:10:52.945242+00:00",
+  "PR": 6,
+  "prepared": true,
+  "merged": true,
+  "deployed": true,
+  "served_verified": true,
+  "served_asset_commit": "e236cae97766bd5e0e02a11d2cbbb03179056780",
+  "build_after_same_tag_recovery": {
+    "built_at_UTC": "2026-11-01T01:09:03.927956+00:00",
+    "served_commit": "e236cae97766bd5e0e02a11d2cbbb03179056780",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+    "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+    "forward_server_persisted_UTC": "2026-11-01T00:13:48Z"
+  },
+  "checks": {
+    "41259283633": {
+      "head_sha": "e236cae97766bd5e0e02a11d2cbbb03179056780",
+      "event": "push",
+      "created_at": "2026-11-01T01:01:17Z",
+      "updated_at": "2026-11-01T01:02:31Z",
+      "html_url": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/41259283633",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "checks",
+          "conclusion": "success",
+          "started_at": "2026-11-01T01:01:19Z",
+          "completed_at": "2026-11-01T01:01:46Z"
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success",
+          "started_at": "2026-11-01T01:01:50Z",
+          "completed_at": "2026-11-01T01:02:31Z"
+        }
+      ]
+    },
+    "41259786935": {
+      "head_sha": "e236cae97766bd5e0e02a11d2cbbb03179056780",
+      "event": "workflow_dispatch",
+      "created_at": "2026-11-01T01:08:18Z",
+      "updated_at": "2026-11-01T01:09:18Z",
+      "html_url": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/41259786935",
+      "conclusion": "success",
+      "jobs": [
+        {
+          "name": "checks",
+          "conclusion": "success",
+          "started_at": "2026-11-01T01:08:21Z",
+          "completed_at": "2026-11-01T01:08:50Z"
+        },
+        {
+          "name": "deploy",
+          "conclusion": "success",
+          "started_at": "2026-11-01T01:08:53Z",
+          "completed_at": "2026-11-01T01:09:17Z"
+        }
+      ]
+    }
+  },
+  "rollback_tag": "c-site-verified-v4-e236cae",
+  "forecast_data_changed_by_recovery": false,
+  "models_refit_by_recovery": false,
+  "forward_rows": 2513,
+  "real_offers": 0,
+  "real_selections": 0,
+  "graded_outcomes": 0,
+  "scientifically_validated_improvement": false,
+  "independent_minor_UI_finding": "Game-filter labels kept Chicago after display-timezone switch; rows/details correct. Fixed separately before final served checkpoint."
+}
