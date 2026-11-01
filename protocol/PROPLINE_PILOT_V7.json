@@ -1,0 +1,57 @@
+{
+  "id": "C-PROPLINE-ACTUAL-LINES-v7",
+  "purpose": "Qualify the specific alternative static sample and execute supported saved-model exact-line diagnostics; no reporting redesign or model tuning",
+  "source": {
+    "dataset": "propline/graded-player-props-sample",
+    "revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+    "NFL_file": "nfl_graded_props_14d.csv.gz",
+    "card_SHA256": "9956a329af31d0e52379b6ca62ac5ae8bf1819d5ff0e99d5c336afb29f522c91",
+    "license_claim": "CC BY4.0; verify exact scope/provenance and credit PropLine (prop-line.com). Applicable existing license is permission evidence, not automatically an individual-grant requirement."
+  },
+  "registered_before_any_C_model_offer_performance": true,
+  "population_selection": "All supported NFL rows matching the fixed2026regular W1-W7 schedule and exact native/historical player/stat/period identities. Four documented categories pass_yd,rush_yd,rec_yd,rec. Select source-quality/coverage only; retain all missing predictions and unmatched cases. No favorable-category or outcome selection.",
+  "snapshot": {
+    "primary": "Documented closing_point with its own closing_at strictly before retained kickoff. Never substitute general line/opening_point for a missing close. Report general-line and opening availability/conflicts separately.",
+    "tier": "At most timing-unverified actual-line diagnostic until stronger original publication/availability evidence qualifies; license does not authenticate quote clocks",
+    "cutoff": "Saved historical rows explicitly have as_of_UTC equal to scheduled kickoff, not the earlier closing quote clock. Reuse these unchanged kickoff-prefix reconstructions against the strictly earlier recorded closing threshold. Keep both clocks; no claim that these are earlier-quote-cutoff forecasts, original pregame issuance, or authenticated line freshness. decision_UTC is the original reconstruction cutoff, never backdated.",
+    "dedup": "One market per event/player/category/book/product/line-tier; reconcile paired O/U lines, do not count both sides as independent. Repeated source rows/native outcomes collapsed only on identical immutable values; conflicts held. Keep alternate/promotion/DFS/milestones separate.",
+    "first_subset": "All Pinnacle exact paired native-player O/U thresholds meeting independent event/contract/clock qualification. Hold ambiguous multiple thresholds per footballcase unless a separately registered source-only resolution qualifies; never choose based on outcomes.",
+    "event_mapping": "Exact home/away franchise allowlist plus NewYork calendar game date maps all32source events uniquely to the fixed107game schedule. Retain both kickoff clocks and deltas; source actual-ish commence differs by18-231seconds for16games. Snapshot must be strictly before BOTH source commence and original C scheduled kickoff; no silent event reset.",
+    "line_tier": "No explicit sportsbook main/alternate flag in sample. Report UNVERIFIED_MAIN_ALTERNATE and avoid main-line/difficulty superiority claims. Pinnacle strict O/U paired markets only initially; DFS/promotions/milestones are separate unsupported cells."
+  },
+  "forecasts": {
+    "P1_MEDIAN": "Retained C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP unrounded median",
+    "P1_MEAN": "Same retained fit/rows, explicitly typed unrounded mean",
+    "P2_LAW": "Same saved origin-specific fitted model/full law where recoverable; exact closing threshold, not nearest synthetic grid; no refit",
+    "P3_DIRECT": "Retained P3_HGB/H-MULTI/E0_OP restored at original weekly origins, own hashes/grid parity verified. Exact floor/ceil CDF calls at actual closing_point, no interpolation/round-to-grid, no fits/calibration; synthetic training support/extrapolation disclosed. This small challenger registered before model performance.",
+    "training_and_outcomes": "No source scores/actuals/resolution/final scores used as features; no fitting or selection changes after results."
+  },
+  "outcomes": "Independent qualified NFL statistic/version/appearance checks; compare source actual_value and provider resolution separately. Provider grades are not venue settlement. No DNP-as-zero; preserve signed yards/zeroes/pushes/unknowns.",
+  "leader_support": "Use existing v6 support/uncertainty policy. The support floor is not a gate for calculating a small qualified pilot; observed leaders remain descriptive when support inadequate.",
+  "retention": "C GitHub only for permitted licensed source snapshots/normalized evidence/aggregate results; temporary isolated local intake is not sole evidence. No migration/relabel of held ESPN/Sleeper inputs.",
+  "budget": {
+    "new_NFL_fits": 0,
+    "model_refits": 0,
+    "NFL_static_data_downloads": 1,
+    "compressed_NFL_byte_cap": 33554432,
+    "decompressed_stream_byte_cap": 134217728,
+    "bounded_document_requests_max": 16,
+    "provider_live_offer_endpoint_calls": 0,
+    "paid_calls": 0,
+    "signups": 0,
+    "new_recurring_jobs": 0,
+    "whole_C_cache_bytes": 2684354560,
+    "new_public_artifact_byte_budget": 67108864,
+    "source_metadata_extension": "Four root discovery/card calls plus nine independent static documentation checks exceeded the original12-call document cap by1; cap16 registered before performance. No second NFL download, provider odds calls or paid calls.",
+    "serialization_budget_amendment": "Before any model/offer performance: allow64MiB for up to1000 source cases \u00d76 saved/reference procedures, complete exact laws, canonical ledger/report/site copies and licensed5.3MB source. No added fits or expanded learner search. Stop if cap exceeded; record actual bytes.",
+    "serialization_amendment_UTC": "2026-11-01T15:46:30.061081+00:00"
+  },
+  "failure_disposition": "Return exact source revision/field/coverage/rights/timing conflict and smallest resolvable action. Prepare provider inquiry if necessary, never send without authorization. Do not fabricate performance or stop at a cosmetic wave.",
+  "registered_UTC": "2026-11-01T15:15:52.575139+00:00",
+  "feasibility_amendment_UTC": "2026-11-01T15:29:29.338808+00:00",
+  "pilot_book": "pinnacle",
+  "pilot_book_basis": "Explicit card sportsbook example;2033priced O/U rows, no missing closing fields,968reconciled paired thresholds under strict clock/native-ID checks. Selected before any C model performance inspection.",
+  "admitted_license": "Independent source audit qualifies this specific immutable HF sample under CC BY4; publisher API export restrictions are separate. Attribute PropLine (prop-line.com), link license/revision, record modifications; independent NFL labels, not provider grades as settlement.",
+  "statistical_contract": "Documented default full-game resolved-player market; declare C official-player-fullgame-OT-v1 for statistical box-score comparison. Pinnacle-specific participation/OT/void settlement remains UNVERIFIED, not assumed from provider grades.",
+  "exact_line_inference_registration_UTC": "2026-11-01T15:41:45.401721+00:00"
+}

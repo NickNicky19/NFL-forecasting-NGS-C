@@ -1,0 +1,21 @@
+{
+  "id": "C-PROPLINE-SOURCE-QUALITY-v7",
+  "evaluated_model_performance": false,
+  "quote_clock_basis": "Publisher retained last-recorded closing_at; original bookmaker clock/freshness unverified",
+  "price_aware_or_entry_claim": false,
+  "quote_ages_seconds": {
+    "n": 1936,
+    "minimum": 58.136893,
+    "p50": 6346.436649,
+    "p95": 24970.282532,
+    "maximum": 340603.47491,
+    "above_15min": 1666,
+    "above_1hour": 1234
+  },
+  "paired_side_clock_differences_seconds": {
+    "nonidentical": 57,
+    "maximum": 22599.74829,
+    "p50": 0.0
+  },
+  "coverage": "968strictly pre-both-kickoff paired actual-line cases in32NFL games,2026W2-W3 only. No W1 or W4-W7/prior-season rows; eight required categories absent. No claim of a contemporary complete/live board."
+}

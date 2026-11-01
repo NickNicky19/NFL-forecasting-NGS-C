@@ -1,0 +1,32 @@
+{
+  "review_id": "C-PROPLINE-CCBY-SAMPLE-v7",
+  "source_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+  "facets": {
+    "analysis": "QUALIFIED",
+    "GitHub_evidence_retention": "QUALIFIED",
+    "raw_redistribution": "QUALIFIED",
+    "derived_aggregate_publication": "QUALIFIED"
+  },
+  "scope": "Only the immutable explicitly CC BY4.0 HuggingFace NFL sample and attributed C modifications; not API bulk exports, other feeds, old ESPN/Sleeper holds or an authentication of historical quote times.",
+  "permission_evidence_path": "sources/propline-v7/card_pinned.md",
+  "permission_evidence_SHA256": "9956a329af31d0e52379b6ca62ac5ae8bf1819d5ff0e99d5c336afb29f522c91",
+  "independent_reviews": [
+    {
+      "path": "reports/propline-v7/INDEPENDENT_SOURCE.json",
+      "SHA256": "f5fd317c9c5957f0a3bfdccec04401eadd2513b690322936b2c2fbcb4faf8ea1"
+    },
+    {
+      "path": "reports/propline-v7/INDEPENDENT_PERIOD.json",
+      "SHA256": "77db35738b9a6b024fe7b15197eb77615e6630b8eacd544a976dc3092acc1b34"
+    }
+  ],
+  "attribution": "PropLine (prop-line.com); CC BY4.0; source/revision/license links and modification notice retained in sources/propline-v7/ATTRIBUTION.md",
+  "qualified_evidence_tiers": [
+    "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC"
+  ],
+  "contract": "Documented full-game default for resolved props. C statistical official-total including OT; no CSV row period/OT field, Pinnacle settlement unverified.",
+  "time": "Retrospectively downloaded; quotes are publisher last-recorded closes, age58seconds to3.94days. Saved C kickoff-prefix reconstructions generated October31, not authenticated September forecasts; no current paper selection.",
+  "approved_dataset_SHA256": [
+    "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297"
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "C-INDEPENDENT-SOURCE-RIGHTS-TIMING-REVIEW-v7",
+  "observed_UTC": "2026-11-01T15:20:11.747143+00:00",
+  "observed_America_Chicago": "2026-11-01T09:20:11.747143-06:00",
+  "source_id": "HF_PROPLINE_GRADED_SAMPLE_v7",
+  "dataset": "propline/graded-player-props-sample",
+  "immutable_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+  "verdict": "QUALIFIED_PUBLIC_CC_BY_SAMPLE_RIGHTS_WITH_SEPARATE_TIMING_AND_ROW_GATES",
+  "scope": "Read-only public metadata, immutable dataset card, publisher static documentation and CC BY4 legal code. No NFL CSV values/outcomes inspected or scored by this verifier; no provider odds endpoints, keys, signup, paid acquisition, fitting or C edits.",
+  "rights": {
+    "analysis": "QUALIFIED_FOR_THIS_PUBLIC_CC_BY_SAMPLE",
+    "GitHub_evidence_retention": "QUALIFIED_FOR_THIS_PUBLIC_CC_BY_SAMPLE_WITH_ATTRIBUTION",
+    "raw_redistribution": "QUALIFIED_FOR_THIS_PUBLIC_CC_BY_SAMPLE_WITH_ATTRIBUTION_NOT_OTHER_API_EXPORTS",
+    "derived_aggregate_publication": "QUALIFIED_WITH_SOURCE_ATTRIBUTION_AND_CHANGE_NOTICE",
+    "individual_provider_grant_required": false,
+    "required_attribution": "PropLine (prop-line.com)",
+    "license_id": "CC-BY-4.0",
+    "license_URL": "https://creativecommons.org/licenses/by/4.0/",
+    "conditions": [
+      "Retain PropLine creator credit, source dataset/revision URL, license link and supplied notices in retained source/evidence and published derivatives.",
+      "Identify C normalization/filtering/joining/recomputed grading as modifications; retain original licensed source bytes and hash separately where admitted.",
+      "Do not imply PropLine, a sportsbook or a league endorses C or its forecasts.",
+      "The license concerns licensable rights in this published sample; it does not authorize separate acquisition or redistribution of arbitrary API exports, keys, bookmaker feeds or unrelated datasets."
+    ],
+    "basis": [
+      {
+        "source": "Pinned README frontmatter and final License sentence",
+        "URL": "https://huggingface.co/datasets/propline/graded-player-props-sample/blob/f37857bfdc67ac4e3ecb2851eb274aee7601057d/README.md",
+        "SHA256": "9956a329af31d0e52379b6ca62ac5ae8bf1819d5ff0e99d5c336afb29f522c91",
+        "text": "license: cc-by-4.0; License: CC BY 4.0 \u2014 credit \"PropLine (prop-line.com)\"."
+      },
+      {
+        "source": "CC BY4 legal code",
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+        "sections": [
+          "2(a)(1): reproduce/share in whole or part; produce/reproduce/share adapted material",
+          "3(a): attribution, supplied notices, source/license links and modification notice",
+          "4: database extraction/reuse/share where licensor has such database rights",
+          "2(b) and5: other rights and warranty limitations"
+        ]
+      }
+    ]
+  },
+  "publisher_identity": {
+    "HF_namespace_type": "company",
+    "profile": "https://huggingface.co/propline",
+    "profile_links": "https://prop-line.com",
+    "card_links_publisher": true,
+    "publisher_about": "https://prop-line.com/about",
+    "assessment": "Consistent publisher branding/domain and dataset ownership presentation; no assertion of an independently audited chain of every upstream right"
+  },
+  "terms_reconciliation": {
+    "URL": "https://prop-line.com/terms",
+    "effective_date": "2026-04-27",
+    "sections": [
+      "Preamble: creating API key or calling PropLine API accepts terms",
+      "1: API internal use and individual derived insights; no mirroring service",
+      "2: bulk redistribution/API exports prohibited",
+      "3: ordinary API exports may contain customer_token and synthetic Watermark canaries",
+      "6: prices/lines/resolutions/stats not warranted error-free"
+    ],
+    "material_issue": "General API redistribution language is restrictive, but this independently published pinned sample has a specific explicit CC BY4 grant. No text found explicitly revoking or excluding that sample license.",
+    "decision": "Use only the pinned HF sample via its public grant. Do not reinterpret that grant as permission for paid/keyed bulk API exports or change frozen legacy source gates.",
+    "minimum_owner_decision_for_sample_rights": "NONE: existing public sample license supplies the grant; comply with attribution and retain exact source scope."
+  },
+  "provenance": {
+    "publisher_claims": [
+      "Odds polled roughly60seconds pregame and30seconds in play with recorded changes archived.",
+      "PropLine supplies its own grading against league/federation feeds; football grading described as using ESPN.",
+      "Pinned card describes one row per priced outcome, one side/line/book; NFL markets listed are passing yards, rushing yards, receiving yards, receptions."
+    ],
+    "source": "https://prop-line.com/about",
+    "independently_verified": [
+      "Pinned source/card revision and hashes",
+      "Public sample license presentation",
+      "Publisher documentation text and source clocks"
+    ],
+    "not_established": [
+      "Independent audit of raw bookmaker collection contracts and every upstream sublicensing chain",
+      "Historic accuracy or stability of the publisher pipeline before this current documentation",
+      "Venue-specific grading/void/overtime/settlement parity",
+      "Any real-line predictive result for C"
+    ],
+    "conflict_assessment": "No specific evidence identified that invalidates the explicit sample grant. Publisher use of ESPN for statistical grading does not grant C new direct ESPN/Sleeper access or upgrade held sources. Qualify C labels independently."
+  },
+  "field_semantics": {
+    "line": {
+      "definition": "General recorded outcome line; card labels it The line. Last-price fields are price_american/price_decimal.",
+      "clock": "No dedicated line observation/quote clock is documented in the sample columns.",
+      "allowed_claim": "Actual-line statistical diagnostic after row/identity/contract qualification.",
+      "disallowed_claim": "Do not call it pregame, closing, fresh at a forecast cutoff or paired with closing_at merely because the row contains closing fields."
+    },
+    "closing_point": {
+      "definition": "Line paired with closing_price, with closing_at described as last recorded snapshot at or before commence_time.",
+      "documentation": [
+        "Pinned card Columns and Notes",
+        "Publisher docs Opening & Closing Lines / CLV heading and Bulk Export text"
+      ],
+      "clock": "Archive snapshot recorded_at, per current documentation; bookmaker-native quote timestamp may be absent.",
+      "allowed_claim": "Documented historical archive reconstruction, after validating each closing_at<=commence_time and exact field pairing.",
+      "limitations": [
+        "Current/revised source downloaded after events, not authenticated original C issuance or immutable pregame evidence.",
+        "Last retained snapshot may be stale; calculate/disclose snapshot age rather than assume close freshness.",
+        "Does not establish bookmaker settlement or complete offer lifecycle."
+      ]
+    },
+    "opening_point": {
+      "definition": "First archived snapshot in the14days before kickoff for this export, not necessarily original market opening.",
+      "clock": "opening_at pairs with opening_point/opening_price; validate each origin separately."
+    },
+    "resolved_at": {
+      "definition": "Time PropLine graded the row, not offer observation or pregame availability."
+    },
+    "player_id": {
+      "definition": "Card calls it league ID; actual NFL namespace, uniqueness and GSIS/event mapping remain to be checked from the file, not assumed."
+    },
+    "resolution": {
+      "definition": "Publisher grading against official stats; not each book house rules; void usually means player did not play.",
+      "use": "Retain publisher grade as source evidence, independently reconcile labels/participation and selected-side boundaries for admitted C rows."
+    },
+    "prices": {
+      "definition": "Last observed prices may be different from closing_price. DFS labels may contain synthetic even-money pricing or per-pick multipliers.",
+      "use": "No payout/EV/ROI/CLV claim until exact clock/line/side/price/contract pairing and product-specific payout evidence qualify. Individual statistical direction need not await prices."
+    }
+  },
+  "timing_tiers": {
+    "authenticated_original_pregame": "NOT_ESTABLISHED",
+    "general_line": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC_ONLY_UNTIL_ROW_TIMING_QUALIFIED",
+    "closing_fields": "DOCUMENTED_ARCHIVE_RECONSTRUCTION_UNDER_EXPLICIT_ASSUMPTIONS_NOT_AUTHENTICATED_AS_OF",
+    "current_or_future_offers": "NOT_PROVIDED_BY_THIS_STATIC_SAMPLE",
+    "original_C_forecasts": "Retained C forecast issue/cutoff/history evidence remains separate; importing postgame-graded source does not recover original prop selections"
+  },
+  "minimum_remaining_inputs": [
+    "Root inventory of exact NFL file/revision/hash/columns/season/week/book/market and row coverage before feasibility pilot grading.",
+    "Exclude/report any Watermark synthetic canary rows if present; never count them as football observations. Do not alter or hide ordinary API-export restrictions.",
+    "Exact native identity/event/role and full-game/overtime/scoring contract qualification; no guessed name-only joins.",
+    "Frozen source-feasibility pilot membership and comparator/line/side snapshot policy before inspecting C performance; repeated book/line sides are not independent outcomes.",
+    "Independent official label/version/played-zero/DNP/unknown reconciliation and recomputed win/loss/push boundaries.",
+    "Original retained C method/cutoff/mask binding; same supported actual offers per comparison and no unqualified timing upgrade."
+  ],
+  "pilot_readiness": "RIGHTS_GATE_SUPPORTED_FOR_PINNED_SAMPLE; DATA_IDENTITY_CONTRACT_AND_TIMING_FEASIBILITY_PENDING",
+  "old_source_gates": "UNCHANGED: LEGACY_ESPN_DK and SLEEPER_PICKS remain separately held",
+  "evidence": [
+    {
+      "key": "HF_publisher_profile",
+      "url": "https://huggingface.co/propline",
+      "final_url": "https://huggingface.co/propline",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:17:30.434876+00:00",
+      "bytes": 88379,
+      "SHA256": "7b19b0303ad9ecd8597aeb1eadc3e87d8cb9c20e7e5c69a15ffecb57c0276cbb",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:17:30 GMT",
+        "etag": "W/\"1593b-g+CZ26N+zkBWaYBSrwGfa5dVOFg\""
+      }
+    },
+    {
+      "key": "card_pinned",
+      "url": "https://huggingface.co/datasets/propline/graded-player-props-sample/raw/f37857bfdc67ac4e3ecb2851eb274aee7601057d/README.md",
+      "final_url": "https://huggingface.co/datasets/propline/graded-player-props-sample/raw/f37857bfdc67ac4e3ecb2851eb274aee7601057d/README.md",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:15:30.878553+00:00",
+      "bytes": 2829,
+      "SHA256": "9956a329af31d0e52379b6ca62ac5ae8bf1819d5ff0e99d5c336afb29f522c91",
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:15:30 GMT",
+        "etag": "\"e259e3ec7fc92f6cf994ced47630b4a6f8c7e4ab\"",
+        "x-repo-commit": "f37857bfdc67ac4e3ecb2851eb274aee7601057d"
+      }
+    },
+    {
+      "key": "cc_by4_legal",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "final_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:15:30.841582+00:00",
+      "bytes": 48742,
+      "SHA256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650",
+      "headers": {
+        "content-type": "text/html",
+        "date": "Sun, 01 Nov 2026 15:15:30 GMT",
+        "last-modified": "Thu, 01 Oct 2026 17:09:56 GMT"
+      }
+    },
+    {
+      "key": "publisher_about",
+      "url": "https://prop-line.com/about",
+      "final_url": "https://prop-line.com/about",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:16:08.791079+00:00",
+      "bytes": 51339,
+      "SHA256": "1f511fa7d6bfa682aedd7b688fc5ca50d32b5a849b25c35f0c0c34dd7de712a5",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:16:08 GMT",
+        "etag": "\"08ca9f66762f624e3847d52996c06d8a\""
+      }
+    },
+    {
+      "key": "publisher_backfill",
+      "url": "https://prop-line.com/historical-backfill",
+      "final_url": "https://prop-line.com/historical-backfill",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:17:30.546147+00:00",
+      "bytes": 68170,
+      "SHA256": "6d34ff002353ca269b0f02ab96ed994f4aa32035280d76eb2a651d76699fb7dd",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:17:30 GMT",
+        "etag": "\"13fd2c8723d0cf2a05fd1a332f331529\""
+      }
+    },
+    {
+      "key": "publisher_closing",
+      "url": "https://prop-line.com/pinnacle-closing-odds-api",
+      "final_url": "https://prop-line.com/pinnacle-closing-odds-api",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:16:08.882243+00:00",
+      "bytes": 69805,
+      "SHA256": "d4aef21d8dffe3ba9038f3f05940094b4453d07295ef2d25d9352582bdc0fd3a",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:16:08 GMT",
+        "etag": "\"71bb48ed00b338d79e51ac4e7e01e356\""
+      }
+    },
+    {
+      "key": "publisher_docs",
+      "url": "https://prop-line.com/docs",
+      "final_url": "https://prop-line.com/docs",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "bytes": 936807,
+      "SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:16:08 GMT",
+        "etag": "\"08bc90e60e2705d42a813a88c97d526d\""
+      }
+    },
+    {
+      "key": "publisher_home",
+      "url": "https://prop-line.com/",
+      "final_url": "https://prop-line.com/",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:15:31.107194+00:00",
+      "bytes": 158379,
+      "SHA256": "5ff2e899fd7cbbe4d1a57ddc1e28a6b4dd80d4c7be834e4b9833a4458c0b634c",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:15:16 GMT",
+        "etag": "\"o04k2aqt243dxr\""
+      }
+    },
+    {
+      "key": "publisher_terms",
+      "url": "https://prop-line.com/terms",
+      "final_url": "https://prop-line.com/terms",
+      "status": 200,
+      "observed_UTC": "2026-11-01T15:16:08.736950+00:00",
+      "bytes": 58928,
+      "SHA256": "07488967814cdfe46f30cd46941e785b1d8fb1eb01b9024cb27f16986728ff1f",
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 01 Nov 2026 15:16:08 GMT",
+        "etag": "\"32b1c98efbafb73bcdad4f0df342c30f\""
+      }
+    }
+  ],
+  "static_document_HTTP_requests": 9,
+  "provider_odds_endpoint_calls": 0,
+  "NFL_file_downloads_by_this_verifier": 0,
+  "actual_offer_grading": 0,
+  "new_fits": 0,
+  "C_edits": 0,
+  "raw_quote_values_in_report": false,
+  "private_paths_in_report": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "C-PROPLINE-RESOURCE-USAGE-v7",
+  "successful_replay_wall_seconds": 16.11915862099977,
+  "successful_replay_peak_RSS_bytes": 270286848,
+  "new_NFL_fits": 0,
+  "model_refits": 0,
+  "existing_models_restored": 16,
+  "existing_model_recovery_attempts": 2,
+  "first_attempt_failure": "Serialization diagnostic bool; all original models unchanged",
+  "NFL_source_downloads": 1,
+  "NFL_source_bytes": 5288795,
+  "provider_live_odds_calls": 0,
+  "bounded_current_status_requests": 3,
+  "source_document_requests": 14,
+  "source_document_cap": 16,
+  "public_evidence_byte_measure_conservative": 65244358,
+  "new_public_artifact_cap": 67108864,
+  "whole_C_cache_byte_cap": 2684354560,
+  "source_inventory_note": "First complete source scan redundantly hashed the schedule per row and took several minutes. Hoisted immutable hash before loop for later commands; no intake rerun/model-fit interruption. Separate successful replay timing measured above.",
+  "public_measure_note": "Includes accepted oldv6receipts as a conservative overcount; excludes temporary browser screenshots. No software-test count is a forecast/outcome."
+}
