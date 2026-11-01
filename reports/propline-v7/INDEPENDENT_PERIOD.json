@@ -1,0 +1,92 @@
+{
+  "id": "C-INDEPENDENT-PERIOD-CONTRACT-REVIEW-v7",
+  "observed_UTC": "2026-11-01T15:39:37.049508+00:00",
+  "verdict": "SUPPORTED_DOCUMENTED_FULL_GAME_STATISTICAL_DIAGNOSTIC_WITH_EXPLICIT_OT_ASSUMPTION_NOT_VERIFIED_BOOK_SETTLEMENT",
+  "answer": "Yes for a declared full-game official-player-statistical diagnostic, including OT in the independently defined C outcome contract. Publisher documentation supports full-game grading and excludes period player props from grading; it does not explicitly certify an NFL/Pinnacle overtime settlement rule.",
+  "evidence_basis": [
+    "Publisher odds period default is full game; period field null represents full game.",
+    "Publisher explicitly says period player props are not graded, while the sample/export is specifically resolved/graded player props.",
+    "Publisher says grading compares final official box-score player statistics to recorded Over/Under thresholds.",
+    "The four requested player market keys are documented as ordinary Passing Yards, Rushing Yards, Receiving Yards and Receptions."
+  ],
+  "qualification": {
+    "statistical_period": "FULL_GAME",
+    "C_statistical_outcome_contract": "official-player-fullgame-OT-v1",
+    "OT_basis": "Declared C full official game-total statistic; publisher wording final official box score is consistent with it. No publisher excerpt explicitly states NFL player OT inclusion.",
+    "evidence_tier": "DOCUMENTED_SOURCE_RECONSTRUCTION_WITH_DISCLOSED_ASSUMPTION",
+    "CSV_period_field": "ABSENT: do not silently portray row-level null evidence as retained",
+    "book_contract": "PINNACLE_HOUSE_SETTLEMENT_UNVERIFIED",
+    "publisher_grade": "RETAIN_AS_SOURCE_GRADE; recompute C statistical grade independently after protocol freeze",
+    "ungraded_or_period_explicit_rows": "NOT_QUALIFIED_BY_THIS_REASONING",
+    "current_documentation_clock": "2026-11-01; not proof the exact pipeline policy was published at original sample game times"
+  },
+  "required_labels": [
+    "Statistical grading uses complete official player game totals including overtime under C's contract.",
+    "Publisher documentation supports full-game resolved props; the CSV lacks a retained period/OT field.",
+    "Pinnacle house settlement, DNP/void rules and original quote freshness remain unverified."
+  ],
+  "limitations": [
+    "No exact Pinnacle offer/settlement contract is established; no payout/ROI claim follows.",
+    "This is not authenticated original sportsbook issuance or an audited historical publication clock.",
+    "Full-game classification relies on documented resolved-player-prop pipeline semantics, not raw per-row period metadata or mere numerical parity with C.",
+    "If a sample row has evidence of quarter/half/regulation-only market scope, exclude it instead of overriding its scope."
+  ],
+  "minimum_dependency_for_stronger_claim": "Retained publisher row-level period/OT metadata or applicable book contract; not required merely to run the disclosed statistical diagnostic.",
+  "extraction": "Verbatim visible-text fragments from retained public HTML, whitespace normalized and HTML entities decoded; card note has Markdown emphasis removed. Original response hashes and clocks retained in each excerpt.",
+  "excerpts": [
+    {
+      "source": "https://prop-line.com/docs",
+      "heading": "Period Markets",
+      "source_body_SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "source_observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "excerpt": "Every odds endpoint accepts an optional period query param. Omitted = full game (default; backwards-compatible). Pass canonical codes or all to opt in."
+    },
+    {
+      "source": "https://prop-line.com/docs",
+      "heading": "Period Markets",
+      "source_body_SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "source_observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "excerpt": "Every market row in the response carries a period field (string or null for full game), so consumers can branch on it without re-parsing the URL."
+    },
+    {
+      "source": "https://prop-line.com/docs",
+      "heading": "Period Markets",
+      "source_body_SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "source_observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "excerpt": "Football q4 excludes overtime. Football 2nd-half markets stay ungraded on games that go to overtime, because books disagree on whether OT counts. Period player props are not graded."
+    },
+    {
+      "source": "https://prop-line.com/docs",
+      "heading": "Bulk Export",
+      "source_body_SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "source_observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "excerpt": "Streams every resolved prop outcome as a CSV download \u2014 ideal for backtesting, model training, and statistical research."
+    },
+    {
+      "source": "https://prop-line.com/docs",
+      "heading": "Player Stats",
+      "source_body_SHA256": "a9bc588d4113cb9199862c5d176b03d7dd511d0f1f464c3761abb35304a81074",
+      "source_observed_UTC": "2026-11-01T15:16:08.778043+00:00",
+      "excerpt": "When status is in_progress , treat the numbers as partial; once it flips to final , they are the official box score."
+    },
+    {
+      "source": "https://prop-line.com/prop-resolution-api",
+      "heading": "What is prop resolution?",
+      "source_body_SHA256": "2be17d76e436aebf2600f330953b711e60170f809eb6b39476ae1ba18b9c26f1",
+      "source_observed_UTC": "2026-11-01T15:38:08.370205+00:00",
+      "excerpt": "After the game finishes, the resolver compares the actual stat from the league's official box score to the line on every Over and Under we recorded \u2014 then writes a verdict ( won / lost / push / void ) and the actual value back onto each outcome."
+    },
+    {
+      "source": "https://huggingface.co/datasets/propline/graded-player-props-sample/blob/f37857bfdc67ac4e3ecb2851eb274aee7601057d/README.md",
+      "heading": "Notes",
+      "source_body_SHA256": "9956a329af31d0e52379b6ca62ac5ae8bf1819d5ff0e99d5c336afb29f522c91",
+      "excerpt": "Grading is PropLine's, against the league's official box score \u2014 not each book's house rules."
+    }
+  ],
+  "additional_static_document_requests": 1,
+  "additional_document_URL": "https://prop-line.com/prop-resolution-api",
+  "provider_odds_endpoint_calls": 0,
+  "performance_grading": 0,
+  "NFL_fits": 0,
+  "C_edits": 0
+}

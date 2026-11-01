@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "SOURCE_INVENTORY",
+    "code": "MISSING_SOURCE_COLUMNS: completions",
+    "reason": "Local qualified-inputs is the preserved v2 pre-correction input; v2.1 saved models require corrected-inputs hash9abc6812. Failed before model restoration/performance.",
+    "resolution": "Use exact corrected-inputs/facts.csv.gz and retained artifacts/basic-football-facts-v2.1.zip; original versions unchanged.",
+    "new_fits": 0
+  },
+  {
+    "stage": "SOURCE_INVENTORY",
+    "code": "KeyError: espn",
+    "reason": "Frozen v2.1 schedule contains the game identity/time but not ESPN event IDs.",
+    "resolution": "Cross-check identical game/team/date against existing v4 full schedule native-event IDs. Keep both immutable schedule source hashes; no inferred name joins.",
+    "new_fits": 0
+  }
+]
