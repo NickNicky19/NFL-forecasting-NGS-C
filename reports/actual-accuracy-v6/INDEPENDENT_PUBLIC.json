@@ -1,0 +1,137 @@
+{
+  "id": "C-INDEPENDENT-PUBLIC-SERVED-REVIEW-v6",
+  "observed_UTC": "2026-11-01T04:33:40.891681+00:00",
+  "observed_America_Chicago": "2026-10-31T23:33:40.891681-05:00",
+  "verdict": "PASS_SERVED_VERIFIED_ACCURACY_FIRST_SOURCE_HELD",
+  "served_commit": "48c9506fd5b40f7144ae0dcb063c330984c194ca",
+  "public_URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "build_UTC": "2026-11-01T04:27:39.077306+00:00",
+  "stable_build_across_acceptance": true,
+  "actual_prop_accuracy": {
+    "categories": 12,
+    "qualified_offer_rows": 0,
+    "decided_results": 0,
+    "rates": "N/A",
+    "Over_leader": "NOT_ESTABLISHED",
+    "Under_leader": "NOT_ESTABLISHED",
+    "combined_leader": "NOT_ESTABLISHED",
+    "category_and_side_leader": "NOT_ESTABLISHED",
+    "last_graded_UTC": null
+  },
+  "render_checks": {
+    "default_root": "ACTUAL_PROP_ACCURACY",
+    "headline_precedes_model_counts": true,
+    "all12_retained_cell_parity": true,
+    "all_four_leaders_not_established": true,
+    "method_options": 8,
+    "typed_mean_median_distinct": true,
+    "evidence_tier_options": 4,
+    "periods_separate": true,
+    "policy_options": 19,
+    "frozen_TopK_absent_membership_unavailable": true,
+    "stratum": "Only ALL is available with zero qualified real rows; positive filtering remains fictional local-test evidence",
+    "source_facets_separate": true,
+    "desktop_and_mobile": true,
+    "America_Chicago_DST": true,
+    "last_graded_clock_distinct_from_build": true,
+    "HTTP_and_checksum_fail_closed": true,
+    "page_errors": []
+  },
+  "future_regression": {
+    "scope": "Explicit #upcoming deep link",
+    "categories": 12,
+    "retained_representative_forecast_IDs_and_typed_values": "PASS",
+    "forecast_rows": 2513,
+    "actual_offer_table_rows": 0,
+    "synthetic_diagnostics_separate": true,
+    "source_age_and_started_event_fail_closed": true,
+    "role_and_search_masks": true,
+    "no_prospective_grades_yet": true,
+    "six_leg": "NO_QUALIFIED_SIX_LEG_ENTRY"
+  },
+  "asset_parity": {
+    "verified_system_TLS_asset_reads": 24,
+    "unique_paths": 23,
+    "all_compared_assets_match_local_committed_evidence": true,
+    "rendered_actual_public_responses": 89,
+    "rendered_public_response_bytes": 44620904,
+    "rendered_response_statuses": [
+      200
+    ],
+    "extra_control_public_responses": 15,
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "actual_props_v5_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+    "actual_accuracy_v6_SHA256": "8df22f0f0e9fcd3ab736654583f4f345f59787e5c03770a007536e10eca15155",
+    "original_forecast_server_UTC": "2026-11-01T00:13:48Z"
+  },
+  "original_preservation": {
+    "anchor_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+    "files": 74,
+    "local_bytes_vs_anchor": "EXACT",
+    "fresh_public_GitHub_commit_tree_blob_IDs_vs_anchor": "EXACT",
+    "GitHub_tree_HTTP_status": 200,
+    "GitHub_tree_truncated": false,
+    "GitHub_tree_SHA256": "61933c2e1e2c13f7ab7f09f30a638512119c8bec228f87117ef4a4f75682d9eb",
+    "changed_paths": []
+  },
+  "transport": {
+    "method": "Actual public GET responses fetched with system CA TLS verification and rendered through temporary Playwright route bridge",
+    "native_Chromium_TLS_validated": false,
+    "TLS_checks_disabled": false,
+    "shared_trust_or_HOME_changes": false,
+    "normal_requests_from_local_fixtures": false,
+    "intentional_failure_cases": "Software HTTP503/checksum corruption only"
+  },
+  "verifier_correction": "Extra control attempt001 queried the wrong state array; failure retained and corrected repeat passed; no C/model changes",
+  "limitations": [
+    "No actual qualified offer/import, statistical win/loss, six-leg result, or predictive improvement is established by served/software checks.",
+    "Native Chromium TLS trust path is unverified; verified-system-HTTPS bridge transport scope is explicit.",
+    "Positive stratum/leader filtering used fictional local fixtures in the earlier code audit; the public dataset truthfully has zero qualified real rows.",
+    "The full historical840chunk archive was not redownloaded in this served check; current scope is exact frontend/manifest/actual-scorecard/forward assets and retained prior restoration evidence."
+  ],
+  "evidence": {
+    "EXTRA_CONTROLS.json": {
+      "SHA256": "ac090df49c602bc42d5a2d077e7f85203a1b398e03d43a35316e2c3f9a5b0af1",
+      "bytes": 8314
+    },
+    "EXTRA_CONTROLS_ATTEMPT_001.json": {
+      "SHA256": "d4c79051373e7f91b4266391c88c1461839e34a31dc35b0978acdf4672368630",
+      "bytes": 665
+    },
+    "PUBLIC_ACCEPTANCE.json": {
+      "SHA256": "9911960cebc38cc492e105d260f7f3668b1ef753a2a6e52155311b08b87caa6f",
+      "bytes": 25646
+    },
+    "accuracy-public/RENDERED.json": {
+      "SHA256": "f7406fe244cc21fb758a10d65338d5f554ad004a52eacb470e724ee24d840ade",
+      "bytes": 663
+    },
+    "accuracy-public/accuracy-desktop.png": {
+      "SHA256": "ec2e3faef31234e6857f19ddcccebcb7bc377d9672b0ae5e394538929331e218",
+      "bytes": 315652
+    },
+    "accuracy-public/accuracy-mobile.png": {
+      "SHA256": "f353fc689426fc7fdc001d81d9e6634f2e6f4bfb42fe56ef587bd7c5dfc6b15e",
+      "bytes": 241419
+    },
+    "forward-public/RENDERED.json": {
+      "SHA256": "1c479e753d3eb04c0766618322f7a2c58bb3a7f6521027e302645554228e030e",
+      "bytes": 3520
+    },
+    "forward-public/future-desktop.png": {
+      "SHA256": "b7e2674b07b9661936d896d765e5e3987e92809218379ed18cba5fea067989b9",
+      "bytes": 298137
+    },
+    "forward-public/future-mobile.png": {
+      "SHA256": "1986ac1e0ed75645e09fb0e8b2b37bd0317004c218b2c752452f104cef849cac",
+      "bytes": 196477
+    }
+  },
+  "new_NFL_fits": 0,
+  "actual_offer_grading": 0,
+  "source_provider_calls": 0,
+  "C_edits_by_verifier": 0,
+  "forecast_or_quote_refresh": false,
+  "raw_quote_values_in_report": false,
+  "private_paths_in_report": false
+}
