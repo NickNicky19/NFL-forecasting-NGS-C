@@ -7,19 +7,21 @@ def check(url,root,receipt,expected_commit=None):
     m=json.loads((root/'data/forward-manifest.json').read_text());checks=[];receipt.parent.mkdir(parents=True,exist_ok=True)
     with sync_playwright() as p:
         browser=p.chromium.launch(headless=True,args=['--no-sandbox']);page=browser.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-        page.goto(url,wait_until='networkidle');page.wait_for_selector('#upcoming tbody tr');assert page.locator('#view-upcoming').is_visible();assert page.locator('#upcoming-categories button').count()==12
+        page.goto(url,wait_until='networkidle');page.wait_for_function('state.forwardHealthy');assert page.locator('#view-upcoming').is_visible();assert page.locator('#upcoming-categories button').count()==12
         if expected_commit:assert page.evaluate('state.build.served_commit')==expected_commit
         for c in m['categories']:
             target=c['id'];page.select_option('#upcoming-category',target);page.wait_for_function('t=>state.forwardHealthy&&state.forwardRows[0]?.category===t',arg=target)
-            entry=next(x for x in m['files'] if x['category']==target);rows=json.loads((root/'data'/entry['file']).read_text());tr=page.locator('#upcoming tbody tr').first;identity=tr.get_attribute('data-forecast-id');r=next(x for x in rows if x['forecast_id']==identity);cells=tr.locator('td').all_text_contents();event=target=='anytime_td'
+            entry=next(x for x in m['files'] if x['category']==target);rows=json.loads((root/'data'/entry['file']).read_text());expected=page.evaluate('state.forwardRows.filter(r=>futureEligible(r)).length');assert page.locator('#upcoming tbody tr').count()==expected
+            if not expected:checks.append(dict(category=target,stored_rows=len(rows),currently_unplayed_rows=0,started_games_suppressed=True));continue
+            tr=page.locator('#upcoming tbody tr').first;identity=tr.get_attribute('data-forecast-id');r=next(x for x in rows if x['forecast_id']==identity);cells=tr.locator('td').all_text_contents();event=target=='anytime_td'
             assert cells[1]==('Event only' if event else page.evaluate('v=>v.toFixed(2)',r['mean']));assert cells[2]==('Event only' if event else page.evaluate('v=>v.toFixed(2)',r['median']))
             assert cells[4]==(page.evaluate('v=>(100*v).toFixed(1)+"%"',r['event_probability']) if event else 'Prop line unavailable')
             assert cells[5]=='Forecast only—prop line unavailable' and cells[6]=='Unavailable' and cells[7]=='N/A · no line'
-            assert page.locator('#upcoming tbody tr').count()==len(rows)
+            assert page.evaluate('()=>[...document.querySelectorAll("#upcoming tbody tr")].every(tr=>futureEligible(state.forwardRows.find(r=>r.forecast_id===tr.dataset.forecastId)))')
             tr.click();detail=page.locator('#detail-body').inner_text();assert 'Feature-information cutoff' in detail and 'GitHub server persistence' in detail and r['model_id'] in detail and r['scoring_contract_id'] in detail
             assert 'future actuals were not required' in detail;page.click('#close-detail')
-            checks.append(dict(category=target,rows=len(rows),representative_forecast_id=identity,typed_value_parity='PASS',line_venue_probability_unavailable='PASS'))
-        page.select_option('#upcoming-category','rush_yd');page.wait_for_function('()=>state.forwardHealthy&&state.forwardRows[0]?.category==="rush_yd"');page.select_option('#upcoming-role','QB');assert page.locator('#upcoming tbody tr').count()==71;page.select_option('#upcoming-role','RB');assert page.locator('#upcoming tbody tr').count()==97;page.select_option('#upcoming-role','ALL')
+            checks.append(dict(category=target,stored_rows=len(rows),currently_unplayed_rows=expected,representative_forecast_id=identity,typed_value_parity='PASS',line_venue_probability_unavailable='PASS'))
+        page.select_option('#upcoming-category','rush_yd');page.wait_for_function('()=>state.forwardHealthy&&state.forwardRows[0]?.category==="rush_yd"');page.select_option('#upcoming-role','QB');assert page.locator('#upcoming tbody tr').count()==page.evaluate('state.forwardRows.filter(r=>futureEligible(r)&&r.position==="QB").length');page.select_option('#upcoming-role','RB');assert page.locator('#upcoming tbody tr').count()==page.evaluate('state.forwardRows.filter(r=>futureEligible(r)&&r.position==="RB").length');page.select_option('#upcoming-role','ALL')
         page.fill('#upcoming-search','NOT_A_REAL_PLAYER');assert page.locator('#upcoming tbody tr').count()==0 and page.locator('#upcoming-empty').is_visible();page.fill('#upcoming-search','')
         page.select_option('#timezone','America/Chicago');dst=page.evaluate('()=>[clock("2026-11-01T06:30:00Z"),clock("2026-11-01T07:30:00Z"),clock("2026-11-01T18:00:00Z")]');assert 'CDT' in dst[0] and 'CST' in dst[1] and '12:00:00 PM' in dst[2]
         page.select_option('#timezone','UTC');assert all('UTC' in text for text in page.locator('#upcoming-game option').all_text_contents()[1:]);page.locator('#upcoming tbody tr').first.click();assert 'UTC' in page.locator('#detail-body').inner_text();page.click('#close-detail');page.select_option('#timezone','America/Chicago');assert all('America/Chicago' in text for text in page.locator('#upcoming-game option').all_text_contents()[1:])

@@ -1,0 +1,123 @@
+{
+  "id": "C-FUTURE-RENDERED-ACCEPTANCE-v4",
+  "URL": "http://127.0.0.1:8898/#upcoming",
+  "expected_served_commit": null,
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 28,
+      "representative_forecast_id": "063396eb4ca83709c7ebe326",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 28,
+      "representative_forecast_id": "3bd8baf92675f118d16d4e7b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 28,
+      "representative_forecast_id": "d98dc42172ae17c60098b61c",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 28,
+      "representative_forecast_id": "5e56a05f6b1a72966dd9ff59",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 28,
+      "representative_forecast_id": "3713b7bcf220a505fb5e2e96",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "stored_rows": 168,
+      "currently_unplayed_rows": 65,
+      "representative_forecast_id": "0f4146182cb2df4dda39a41b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "stored_rows": 168,
+      "currently_unplayed_rows": 65,
+      "representative_forecast_id": "c2d0967cb817b24cd9e80a7d",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 130,
+      "representative_forecast_id": "d371ac7a8777d3967fc10ad2",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 130,
+      "representative_forecast_id": "306bee83684d28bc1f8c7e94",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 130,
+      "representative_forecast_id": "d0e69710ab8170b2edbb1e08",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "stored_rows": 407,
+      "currently_unplayed_rows": 158,
+      "representative_forecast_id": "314054ef4325433694c1c099",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "stored_rows": 407,
+      "currently_unplayed_rows": 158,
+      "representative_forecast_id": "c49ae1f02b7844a2c7aeff5b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": true,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": true,
+  "server_clock_and_feature_clock_distinct": true,
+  "role_search_masks": true,
+  "started_games_suppressed": true,
+  "stale_status_fail_closed": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop1440_mobile390": true,
+  "no_global_overflow": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0,
+  "tests_are": "UI/software checks, not outcomes or wins"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "C-BOUNDED-ALTERNATIVE-DISCOVERY-v8",
+  "observed_UTC": "2026-11-01T18:20:22.414988+00:00",
+  "public_metadata_requests": 2,
+  "queries": [
+    {
+      "query": "nfl props",
+      "URL": "https://huggingface.co/api/datasets?search=nfl%20props&limit=5",
+      "SHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "candidates": []
+    },
+    {
+      "query": "nfl odds",
+      "URL": "https://huggingface.co/api/datasets?search=nfl%20odds&limit=5",
+      "SHA256": "4bcd3287543d9bcb3ee826e97185da6de3b0292a6f894f28581e4f47a6760a35",
+      "candidates": [
+        {
+          "id": "oliviersportsdata/NFL-Multi-Market-Timestamped-Odds-Team-Stats",
+          "tags": [
+            "task_categories:tabular-regression",
+            "task_categories:tabular-classification",
+            "task_categories:time-series-forecasting",
+            "language:en",
+            "license:other",
+            "size_categories:10K<n<100K",
+            "format:csv",
+            "modality:tabular",
+            "modality:text",
+            "library:datasets",
+            "library:pandas",
+            "library:polars",
+            "library:mlcroissant",
+            "region:us",
+            "sports",
+            "sports-betting",
+            "nfl",
+            "american-football",
+            "odds",
+            "timestamped",
+            "line-movement",
+            "in-running",
+            "live-odds",
+            "quantitative-finance",
+            "market-efficiency",
+            "tabular"
+          ],
+          "lastModified": "2026-10-21T18:39:06.000Z"
+        },
+        {
+          "id": "minmaxxxer/nfl-odds-2026",
+          "tags": [
+            "task_categories:tabular-classification",
+            "task_categories:tabular-regression",
+            "language:en",
+            "license:cc-by-4.0",
+            "size_categories:n<1K",
+            "format:csv",
+            "modality:tabular",
+            "modality:text",
+            "library:datasets",
+            "library:pandas",
+            "library:polars",
+            "library:mlcroissant",
+            "region:us",
+            "sports",
+            "nfl",
+            "american-football",
+            "odds",
+            "closing-line",
+            "ats",
+            "sports-analytics",
+            "backtesting"
+          ],
+          "lastModified": "2026-10-26T05:03:16.000Z"
+        }
+      ]
+    }
+  ],
+  "raw_source_downloads": 0,
+  "admitted_new_offers": 0,
+  "note": "Metadata discovery only; tags/publicity are not licence/provenance/contract/timing admission. No account, key, paidcall or restrictedmirror."
+}

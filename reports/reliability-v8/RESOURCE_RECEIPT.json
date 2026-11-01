@@ -1,0 +1,589 @@
+{
+  "id": "C-BOUNDED-RESOURCE-v8",
+  "observed_UTC": "2026-11-01T19:11:51.509892+00:00",
+  "prepublication_changed_file_bytes": 64730514,
+  "new_public_byte_cap": 67108864,
+  "whole_C_local_bytes_at_audit": 2469600496,
+  "whole_C_byte_cap": 2684354560,
+  "source_discovery_metadata_requests": 8,
+  "new_external_NFL_data_downloads": 0,
+  "new_provider_odds_API_calls": 0,
+  "bounded_status_requests": 4,
+  "new_NFL_fit_attempts": 4,
+  "new_Y_or_control_refits": 0,
+  "new_calibrators": 0,
+  "fit_CPU_seconds": 15.618617486,
+  "fit_wall_seconds": 15.644585994999943,
+  "fit_peak_RSS_bytes": 240742400,
+  "workers": 1,
+  "fit_threads": 1,
+  "measured_validation_phases": [
+    {
+      "command": [
+        "python",
+        "src/actual_accuracy_v6.py",
+        "validate"
+      ],
+      "wall_seconds": 28.91837077299897,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 383968
+    },
+    {
+      "command": [
+        "python",
+        "src/site_reliability_v8.py",
+        "validate"
+      ],
+      "wall_seconds": 14.597794129000249,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    },
+    {
+      "command": [
+        "python",
+        "src/site_validate_forward_v4.py"
+      ],
+      "wall_seconds": 2.3257465989991033,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    },
+    {
+      "command": [
+        "python",
+        "src/site_paper_v5.py",
+        "validate"
+      ],
+      "wall_seconds": 2.3319562100004987,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    },
+    {
+      "command": [
+        "python",
+        "src/site_validate_v2.py"
+      ],
+      "wall_seconds": 4.792885838000075,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    },
+    {
+      "command": [
+        "python",
+        "src/prospective_v4.py",
+        "verify",
+        "--root",
+        "prospective"
+      ],
+      "wall_seconds": 2.2932708019998245,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    },
+    {
+      "command": [
+        "python",
+        "src/paper_v5.py",
+        "verify",
+        "--root",
+        "paper"
+      ],
+      "wall_seconds": 3.290782242000205,
+      "exit_code": 0,
+      "peak_children_RSS_KiB": 402020
+    }
+  ],
+  "complete_cumulative_active_compute_wall_seconds": null,
+  "compute_measurement_limit": "Earlier interactive diagnosis/report regeneration phases were not all wrapped in runtime metering; do not fabricate their cumulative wall or include coding/pause time as compute. Fit phases and closeout validations measured; finite book/case/fit/source budgets retained.",
+  "files_at_prepublication_snapshot": [
+    {
+      "path": ".github/workflows/c-checks-pages.yml",
+      "bytes": 2979,
+      "SHA256": "4239076752d1c807adf6ccc550ff0ec23b5a82425eb0253640dda5b4a666e21e"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5018,
+      "SHA256": "affc7e00a9e199974657d57607c0b03a33f51bca061ae8bcd7ea93f6ee19d084"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 10954,
+      "SHA256": "242f4db18a1814a21cadd8c156b5c5436ddeeadc5ca78140549bdf59968ce314"
+    },
+    {
+      "path": "artifacts/reliability-v8/BOOK_CASES.json.gz",
+      "bytes": 220524,
+      "SHA256": "51e64920f5fba79e17e70944a38a5a614df09d33229d438be3abd733a4069c96"
+    },
+    {
+      "path": "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz",
+      "bytes": 2613220,
+      "SHA256": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7"
+    },
+    {
+      "path": "artifacts/reliability-v8/CUTOFF_AUDIT.json.gz",
+      "bytes": 175720,
+      "SHA256": "003de6955563c1e5784c5757c711dbeb08c6b675a799533c74ba17b0701fdd89"
+    },
+    {
+      "path": "artifacts/reliability-v8/FIT_LEDGER.json",
+      "bytes": 157,
+      "SHA256": "542c7d9aa59cec065ba3210700038f52b71f525db26373844b8ecd09657db7ce"
+    },
+    {
+      "path": "artifacts/reliability-v8/IDENTITY_CROSSWALK.json.gz",
+      "bytes": 5181,
+      "SHA256": "7e7255198bacc371447120c5f117eb64ac4f0c8cca3771f60f01baeea4de630f"
+    },
+    {
+      "path": "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz",
+      "bytes": 260359,
+      "SHA256": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859"
+    },
+    {
+      "path": "artifacts/reliability-v8/RANK_EXCLUSIONS.json.gz",
+      "bytes": 4749,
+      "SHA256": "c47407f7d92b1b306e5bf1fda38b457a364288b7d9d4eb1e18ea85662208f31d"
+    },
+    {
+      "path": "artifacts/reliability-v8/RANK_MEMBERSHIP.json.gz",
+      "bytes": 191200,
+      "SHA256": "871dbba0302c343f4b6f7b9ba9f98c55330c5f6778e726b8624391ae73100c20"
+    },
+    {
+      "path": "artifacts/reliability-v8/REFERENCE_BANK.json.gz",
+      "bytes": 2081814,
+      "SHA256": "2d06ea614c6eac95f1b9f269f61ba1a7cf65343cff656f3a7bbdb765aae7334b"
+    },
+    {
+      "path": "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz",
+      "bytes": 433777,
+      "SHA256": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4"
+    },
+    {
+      "path": "artifacts/reliability-v8/WORKLOAD_PREDICTIONS.json.gz",
+      "bytes": 1322175,
+      "SHA256": "2d6f0220c2a63bf69cba3716fb285f19869f0a48fd2a04df907e1bf5ead291eb"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W09/attempt_model.json.gz",
+      "bytes": 45072,
+      "SHA256": "e04770738c61583c5aa2460e078c9fdde96e76aa15421df3af23fdce47d7b4ee"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W09/joint_model.json.gz",
+      "bytes": 117283,
+      "SHA256": "fdb12d6efe798fbdf532d22e05aa71222795623729b11f719c2c7b4c30840987"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W09/membership.json.gz",
+      "bytes": 11831,
+      "SHA256": "660707f5b17f1f217bc28b14c38555f1cfeafc5310e6db73003b6d5a735a8cf2"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W13/attempt_model.json.gz",
+      "bytes": 46614,
+      "SHA256": "03a501b12a041b1468f3238b708d0df85eb32f22601f86b25c9ce7b1e26ddee3"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W13/joint_model.json.gz",
+      "bytes": 124521,
+      "SHA256": "8c781922c92bdf045f6489a44e8e525effaf5b994da0c5f76041bc06d49ba017"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2025-W13/membership.json.gz",
+      "bytes": 12536,
+      "SHA256": "e48a6d812bd04c9c741077ec79e496be3b7ce15a9464a55c2c68fac19b7549cc"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W02/attempt_model.json.gz",
+      "bytes": 53320,
+      "SHA256": "b7a75e8fe67a9bf03a818ab3a3c18dd35eb1320653fc4fec9329d062a4407aa8"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W02/joint_model.json.gz",
+      "bytes": 142543,
+      "SHA256": "e76c5f695ac5778e1c43b66fda1ed99ef815be0ba661fb2aabbae733d8faeb5e"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W02/membership.json.gz",
+      "bytes": 13917,
+      "SHA256": "f43966320be047aa9b077c14abc6c478d32da0529236bcd06f484fe94e5e7f5f"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W03/attempt_model.json.gz",
+      "bytes": 54442,
+      "SHA256": "e08b64f211d65298910da4caf279eca38c87ac686bfc43b2f7a43ade38f65508"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W03/joint_model.json.gz",
+      "bytes": 144220,
+      "SHA256": "486222b13bb36e17bd6d522b9b8c3c5981e6e60b7e0b4539f9a810c421a7101e"
+    },
+    {
+      "path": "artifacts/reliability-v8/workload-models/2026-W03/membership.json.gz",
+      "bytes": 14113,
+      "SHA256": "19b09d8d7e527f89b22b3c8d7de7826d878e8506ae66a71da471b473da13f16a"
+    },
+    {
+      "path": "docs/accuracy.js",
+      "bytes": 11193,
+      "SHA256": "824b748697739ca02da6eaa68ccd5d07d0a54eb5e1c9808a616a96087e69b6ed"
+    },
+    {
+      "path": "docs/app.js",
+      "bytes": 19265,
+      "SHA256": "2d92633f0265cbc4e2b2ced93267dbd8c977960873a5415afdd7c7ba3c6e8959"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 1176,
+      "SHA256": "36da07486a38a622e76c1759bd53a04e8e911f4e60e88e33b11fa05aadef38ad"
+    },
+    {
+      "path": "docs/data/actual-accuracy-v6.json",
+      "bytes": 22941231,
+      "SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328"
+    },
+    {
+      "path": "docs/data/reliability-v8.json",
+      "bytes": 6295233,
+      "SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa"
+    },
+    {
+      "path": "docs/forward.js",
+      "bytes": 9865,
+      "SHA256": "48f24720da5e0eba923b04fd8a445f5b99eb85b5e59dad173f61ac8b894e41fd"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 29256,
+      "SHA256": "7f192c107d15cc20c86f00e12d02fe1e9775435b3c51c833c8bbd1b6ab524876"
+    },
+    {
+      "path": "docs/reliability.js",
+      "bytes": 6525,
+      "SHA256": "452a8dc2547b9b008502bb884256f6abf162649c4ad803935e2b74a78792bd11"
+    },
+    {
+      "path": "history/START_HERE_AT_21d2c74.md",
+      "bytes": 8281,
+      "SHA256": "eb3a4256b5fbd8a7f38cbac0a012d80c6fbff68a5828792994cfd26f1bd6bcd9"
+    },
+    {
+      "path": "protocol/SELECTED_RELIABILITY_V8.json",
+      "bytes": 5773,
+      "SHA256": "ce5082aa6902a03eaaf094bb987fdf76c73cb0485e986d36f2ca82b31b4d8e61"
+    },
+    {
+      "path": "protocol/SOURCE_FACETS_V6.json",
+      "bytes": 8216,
+      "SHA256": "cc1a82f48079dac8d4ed844f803e161bb45e885359ff31045c067be91edc6228"
+    },
+    {
+      "path": "protocol/WORKLOAD_LINK_V8.json",
+      "bytes": 4829,
+      "SHA256": "ff3a7ff1c3cdfd858b5857afc2c6cf8ec5ec98afbf9564f122ef72d9994764a5"
+    },
+    {
+      "path": "reporting/actual-props-v6/DATASETS.json",
+      "bytes": 2976,
+      "SHA256": "33c7296d8143f9e2b07f9f3c100aacea9d15ccb441bc4b27dd7016c50bd48385"
+    },
+    {
+      "path": "reports/actual-accuracy-v6/HEADLINE.md",
+      "bytes": 5264,
+      "SHA256": "a28efbaa50a7e34bcf1fc3f278530713cfeeee0f9ba45390867da9b898354c6b"
+    },
+    {
+      "path": "reports/actual-accuracy-v6/README.md",
+      "bytes": 6269,
+      "SHA256": "adb10d312f39d6fb5c78ac89065642525c9eb1ec3c39530bf1fdae55da51e404"
+    },
+    {
+      "path": "reports/actual-accuracy-v6/SCORECARD.csv",
+      "bytes": 686402,
+      "SHA256": "e0bba1d71dfef26dab6d3a492759ba68ce069fde131af71accc74848abfcdcae"
+    },
+    {
+      "path": "reports/actual-accuracy-v6/scorecard.json",
+      "bytes": 22941231,
+      "SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328"
+    },
+    {
+      "path": "reports/reliability-v8/ALTERNATIVE_SOURCE_DISCOVERY.json",
+      "bytes": 2620,
+      "SHA256": "719da0c6f2f4bf55313a94a9eb710b771d96dadc8bd1d77f16b4d0d737a028ca"
+    },
+    {
+      "path": "reports/reliability-v8/ALTERNATIVE_SOURCE_DISPOSITION.json",
+      "bytes": 2689,
+      "SHA256": "d612a33d24318626ac1260f22b15315920050836103fb85f6a9e1b2ed697b955"
+    },
+    {
+      "path": "reports/reliability-v8/BOOK_INTERSECTIONS.json.gz",
+      "bytes": 132996,
+      "SHA256": "52e4cc6da62ba27640f38a0b4e4457aa727cf986f0675277769964bafc82cb14"
+    },
+    {
+      "path": "reports/reliability-v8/BOOK_INVENTORY.json",
+      "bytes": 1102,
+      "SHA256": "a9ac4e2690d2e1de2a932940c9ba331018449df9e9daae852ee2e29d83ccb4f1"
+    },
+    {
+      "path": "reports/reliability-v8/BOOK_RUN.json",
+      "bytes": 445,
+      "SHA256": "9ad16bf60e432adf0cfa585b9bf008335e886338d8e66612fc5196c1197bebcc"
+    },
+    {
+      "path": "reports/reliability-v8/BOOK_TOTALS.json",
+      "bytes": 53069,
+      "SHA256": "b1c304afb84268669fe1b46264227e7809151f8a5836df79e8abbedcadffb202"
+    },
+    {
+      "path": "reports/reliability-v8/C-PROPLINE-CCBY-BOOKS-v8.json",
+      "bytes": 1148,
+      "SHA256": "215c686c2c392c975d015e46d1a9bb0744d4f5887309ab539d1bc33a2dd6c6ef"
+    },
+    {
+      "path": "reports/reliability-v8/C-PROPLINE-CCBY-PREVALENCE-v8.json",
+      "bytes": 874,
+      "SHA256": "a6d13f3f47dd8c1890082cbe61685b6177032ee460f6743727a69fc750eacd5e"
+    },
+    {
+      "path": "reports/reliability-v8/C-PROPLINE-CCBY-WORKLOAD-v8.json",
+      "bytes": 1151,
+      "SHA256": "cce2da2f446d6a1b336b6a325bf3c83b4683b19a06ed7189fb391f388b4d3c2f"
+    },
+    {
+      "path": "reports/reliability-v8/CATEGORY_METHOD_SCORECARD.csv",
+      "bytes": 63395,
+      "SHA256": "5e9b0be01b17133c3c741e303e646faf4cb82ebf77a9d135967ac723328da41e"
+    },
+    {
+      "path": "reports/reliability-v8/CODE_PROVENANCE.json",
+      "bytes": 742,
+      "SHA256": "d64e4bd01a9bab8bc0419a1f98ad9af979d1dc1cdf33bf787d2dd78b42697637"
+    },
+    {
+      "path": "reports/reliability-v8/COMPONENT_STATUS.json",
+      "bytes": 2294,
+      "SHA256": "712625eb350352cc05cecab836caaf41041fa92f9494c93323f5a83e67f8b263"
+    },
+    {
+      "path": "reports/reliability-v8/CONFIDENCE_COVERAGE.json.gz",
+      "bytes": 48300,
+      "SHA256": "4aa2af521342948506cb1dd38374d0bfa02b8971eb312c725dd41e04ebca505b"
+    },
+    {
+      "path": "reports/reliability-v8/CURRENT_GATE_FINAL.json",
+      "bytes": 6808,
+      "SHA256": "2e332d60348d8d2a8306b10cfd034f2fa3d391cf80dce1157962080fb4d9243f"
+    },
+    {
+      "path": "reports/reliability-v8/CURRENT_GATE_INITIAL.json",
+      "bytes": 8222,
+      "SHA256": "655d2d602240242fffd01d09286556d3da882440df033ee3e55be5cdb116fc7a"
+    },
+    {
+      "path": "reports/reliability-v8/CUTOFF_SENSITIVITY.json.gz",
+      "bytes": 24592,
+      "SHA256": "a88eeb299f397a8f7d9ce2544898e8e3d2ae1bfcb5d439b1697659b5bba2aaa9"
+    },
+    {
+      "path": "reports/reliability-v8/EARLIER_REFERENCE_RESULTS.json",
+      "bytes": 56292,
+      "SHA256": "3a2bb9194781a271c3cfce9cdedf92bd2eaf1da2a3da8282adfb21275192fb5d"
+    },
+    {
+      "path": "reports/reliability-v8/EXACT_INTERSECTION_RESULTS.json.gz",
+      "bytes": 34592,
+      "SHA256": "cc49d44a52732bae5399f337e3a0bf3716bc679fd6bb79965ebd9d1db0c58aa6"
+    },
+    {
+      "path": "reports/reliability-v8/FAILURES.json",
+      "bytes": 2508,
+      "SHA256": "535f1f1e91ed29c4cf1c97fe6e7cbde2f00f985ffe1fbe61450ff7fca048628e"
+    },
+    {
+      "path": "reports/reliability-v8/GRADED_ROWS.csv.gz",
+      "bytes": 576356,
+      "SHA256": "274104687347dea925f429ed62ba6f438251bc92055381c251951f1f4cb64d4f"
+    },
+    {
+      "path": "reports/reliability-v8/INDEPENDENT_SUPPLEMENT.json",
+      "bytes": 7470,
+      "SHA256": "8fbfe5c3b797712ecf1cce79bd39cb3c5e67960f8e97ede59e057e186a4bad45"
+    },
+    {
+      "path": "reports/reliability-v8/INDEPENDENT_V8.json",
+      "bytes": 8035,
+      "SHA256": "65a1d8990fe6b3c10dbbae2c79a935f9e49d313e7f46df641612a162f3ff640a"
+    },
+    {
+      "path": "reports/reliability-v8/MARKET_BENCHMARK_GATES.json.gz",
+      "bytes": 48827,
+      "SHA256": "916944129b58c46a340d3393c875d42a7c8e2c70937006381cc0188a760dbefb"
+    },
+    {
+      "path": "reports/reliability-v8/OFFER_COVERAGE.csv",
+      "bytes": 228921,
+      "SHA256": "90c6ee9776efa5f0e1887575eefc72a7680da435573f5b6958b04b81217451a5"
+    },
+    {
+      "path": "reports/reliability-v8/OVERVIEW.json",
+      "bytes": 321,
+      "SHA256": "8108f884484da1e414d866bd0751f5f6b5e40ad500ee71f005f188360210fcbb"
+    },
+    {
+      "path": "reports/reliability-v8/PRIOR_AUDIT.json.gz",
+      "bytes": 91036,
+      "SHA256": "380e6c38a1fab0b898da807f25b2c16d665e6eabc79a587a6433a7e65c20cbe2"
+    },
+    {
+      "path": "reports/reliability-v8/RANK_CUMULATIVE.json.gz",
+      "bytes": 93414,
+      "SHA256": "ebf3539f053fa7a4b6392506643fdb2333725b6e50565215773f68243a99526b"
+    },
+    {
+      "path": "reports/reliability-v8/RANK_RESULTS.json.gz",
+      "bytes": 272407,
+      "SHA256": "ce34c6c5ead4c2d300b098f152da2842cd7d21e1d5b031b465df0f3995c817ae"
+    },
+    {
+      "path": "reports/reliability-v8/RANK_SUMMARY.csv",
+      "bytes": 204350,
+      "SHA256": "1ea77cb83dfb3381b92ee24ea92297beb9f4a4b8f1ec909b184789f0ef4e83b2"
+    },
+    {
+      "path": "reports/reliability-v8/README.md",
+      "bytes": 18501,
+      "SHA256": "81f3088d3c631bd94f4599f12524d67142776e409878e0f4b018a4d109ad08a3"
+    },
+    {
+      "path": "reports/reliability-v8/RELIABILITY.json.gz",
+      "bytes": 415706,
+      "SHA256": "c9349ee5b79e436ce0545873757b937da1e7353709fa2f6c5cfb1290aa10a2a9"
+    },
+    {
+      "path": "reports/reliability-v8/RELIABILITY_HEADLINE.json",
+      "bytes": 112376,
+      "SHA256": "3d7354c4a973f3a2b89857f689f620f22b9d1b0355cee16b4a58ee435de4990a"
+    },
+    {
+      "path": "reports/reliability-v8/RELIABILITY_SLICES.json.gz",
+      "bytes": 831137,
+      "SHA256": "ed8cd620c7604866ea10d061ee732b2627aca87c2b1335772e55d5b16292f5dc"
+    },
+    {
+      "path": "reports/reliability-v8/SOURCE_EXTENSION_CHECK.json",
+      "bytes": 1002,
+      "SHA256": "c245798331057249f5c1af1a71d0284ef24647e9e8dc8778f4a654d94830e6ad"
+    },
+    {
+      "path": "reports/reliability-v8/TWELVE_CATEGORY_STATUS.json",
+      "bytes": 6104,
+      "SHA256": "7fdd294ad8b24f6f23a39d702dc27bf816f01cb9097da6b3d9e44086d1b3230d"
+    },
+    {
+      "path": "reports/reliability-v8/VOID_SENSITIVITY.json.gz",
+      "bytes": 44455,
+      "SHA256": "b3ff87e6dfc8addac742949ff9e8a201137352e9702d32e2604d26f62749b6f6"
+    },
+    {
+      "path": "reports/reliability-v8/WORKLOAD_ACTUAL_RESULTS.json",
+      "bytes": 53932,
+      "SHA256": "cfcc46b8f5a8c14694a9e9a05fd871a70ebbba63fb204beb8e84124ea15ce472"
+    },
+    {
+      "path": "reports/reliability-v8/WORKLOAD_NUMERICAL.json",
+      "bytes": 5207,
+      "SHA256": "5b564a5c90307d26ace3ed4a427fe4a2312010e4e1e674a315995c2b657b6dce"
+    },
+    {
+      "path": "reports/reliability-v8/WORKLOAD_OPPORTUNITY_ERRORS.json",
+      "bytes": 907,
+      "SHA256": "16440fe474970f73178d547b58cf8f750861b0a3ef8cd723bcee95a7043e4762"
+    },
+    {
+      "path": "reports/reliability-v8/WORKLOAD_PAIRED_UNCERTAINTY.json",
+      "bytes": 11524,
+      "SHA256": "73f9134489065bb1c328b88ace091e6ad21a185122cff1706499943a32ba2e1d"
+    },
+    {
+      "path": "reports/reliability-v8/WORKLOAD_RUN.json",
+      "bytes": 3491,
+      "SHA256": "abe4247b62a956a530e67b52a8b4c10cb304484bc8a08f4a61d8e76f6a956855"
+    },
+    {
+      "path": "scripts/restore_reliability_v8.py",
+      "bytes": 7286,
+      "SHA256": "9ec8c6ea7c96c31f6ccf9fd3f5ded451d61d3f3a95ea794be6bafa55e1ba97ff"
+    },
+    {
+      "path": "scripts/verify_public_accuracy_v6.py",
+      "bytes": 3833,
+      "SHA256": "0673ac4bd33b9242991e21bc94bcd68d060aa106c3a7db11149c9315b0483b9b"
+    },
+    {
+      "path": "src/actual_accuracy_v6.py",
+      "bytes": 39339,
+      "SHA256": "92260304be31b0fbee42faa3ab78616f77c3791bd2613edb9d322f9bbf29aa2a"
+    },
+    {
+      "path": "src/browser_qa_accuracy_v6.py",
+      "bytes": 6870,
+      "SHA256": "c190f1d7c4b555cff77de01287ba93b9c6cc229f2be03ff7b7408e451e38a4fe"
+    },
+    {
+      "path": "src/browser_qa_forward_v4.py",
+      "bytes": 8108,
+      "SHA256": "f69d28fe3e278b5adf437b5a488c3621353daa86a6300ac960b95ae0aea2b2b6"
+    },
+    {
+      "path": "src/browser_qa_reliability_v8.py",
+      "bytes": 5394,
+      "SHA256": "099311eeb33beba6bac956ef4bf2a1ece76ee52f3478ee9968eca969373356e0"
+    },
+    {
+      "path": "src/checkpoint_reliability_v8.py",
+      "bytes": 20697,
+      "SHA256": "88c2989e25409f5be08dbed848a6980f9c24b02fc2b4ba25bb830885b1d1edef"
+    },
+    {
+      "path": "src/diagnose_v8.py",
+      "bytes": 14805,
+      "SHA256": "2b963018d0327c2adcc33aefc54f5fd34d6e490beb9d41a2a0acf6c00edc5124"
+    },
+    {
+      "path": "src/reliability_v8.py",
+      "bytes": 15201,
+      "SHA256": "dcb5b4c778bb5014afb4605e4de6d44a31fc67d29291898048fcc62b31fbbc33"
+    },
+    {
+      "path": "src/report_reliability_v8.py",
+      "bytes": 12903,
+      "SHA256": "bcf5fc1d7e4f5d3586780bcd52bbd6bfd39c2c6d3c183589f338f562a87b59fc"
+    },
+    {
+      "path": "src/site_reliability_v8.py",
+      "bytes": 6968,
+      "SHA256": "5702c4d020f5e9f751de118cd15e21db6abb20e5e66c8fc2fa7e21967c25e405"
+    },
+    {
+      "path": "src/workload_grade_v8.py",
+      "bytes": 2816,
+      "SHA256": "5f8f1c1d6b6df44e373fdbc0396bba5e7abcc0cb5afcecff07faa7ceb138ad97"
+    },
+    {
+      "path": "src/workload_link_v8.py",
+      "bytes": 11374,
+      "SHA256": "0e99af2bab57ee5300cbbd2a7b1528567c925b4d37bd9a92728ca17e67512047"
+    },
+    {
+      "path": "tests/test_reliability_v8.py",
+      "bytes": 4378,
+      "SHA256": "5ad88bc3ae1aa5417030cdb535757d4ffcc093abf9934cd907f1d8c9a4d56f76"
+    }
+  ],
+  "no_new_Drive_Library_or_Release_archive": true
+}

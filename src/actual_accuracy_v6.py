@@ -3,7 +3,7 @@
 No acquisition, fitting, hypothetical lines, probability-to-hit conversion or
 automatic policy promotion. Empty/unqualified NFL inputs remain empty.
 """
-import argparse,csv,hashlib,json,math,io
+import argparse,csv,hashlib,json,math,io,gzip
 from pathlib import Path
 from collections import Counter,defaultdict
 from datetime import datetime,timezone
@@ -17,12 +17,15 @@ ROOT=Path(__file__).resolve().parents[1]
 POLICY=ROOT/'protocol/ACTUAL_ACCURACY_POLICY_V6.json'
 OUT=ROOT/'reports/actual-accuracy-v6'
 MANIFEST=ROOT/'reporting/actual-props-v6/DATASETS.json'
-METHODS=['P1_MEDIAN','P1_MEAN','P2_LAW','P3_DIRECT','P4_HYBRID','ALWAYS_OVER','ALWAYS_UNDER']
+METHODS=['P1_MEDIAN','P1_MEAN','P2_LAW','P3_DIRECT','P2_LINKED_V8','P2_WORKLOAD_V8','EARLIER_PREVALENCE_V8','P4_HYBRID','ALWAYS_OVER','ALWAYS_UNDER']
+LAW_METHODS=['P2_LAW','P2_LINKED_V8','P2_WORKLOAD_V8']
+PROB_METHODS=[*LAW_METHODS,'P3_DIRECT','P4_HYBRID','EARLIER_PREVALENCE_V8']
 TIERS=['ORIGINAL_AUTHENTICATED_PREGAME','QUALIFIED_CHRONOLOGICAL_ACTUAL_OFFER_REPLAY','TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC','GENUINE_PROSPECTIVE_W8_PLUS']
 STATUSES=['WIN','LOSS','PUSH','VOID','DNP','PENDING','UNKNOWN_PARTICIPATION','MISSING_ACTUAL','UNAVAILABLE_FORECAST','ABSTAIN']
 STRATA=['decision_horizon','venue','product','line_tier']
 LABELS={k:v[0] for k,v in CATEGORIES.items()}|{'pass_int':'Interceptions Thrown','fpts':'Fantasy Points (nick-chart-ppr-v1)'}
-def read(p):return json.loads(Path(p).read_text())
+def read(p):
+    p=Path(p);return json.loads(gzip.decompress(p.read_bytes()) if p.suffix=='.gz' else p.read_bytes())
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def digest(j):return hashlib.sha256(json.dumps(j,sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
 def stable_write(p,j):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(j,separators=(',',':'),allow_nan=False)+'\n')
@@ -56,12 +59,12 @@ def validate_row(r):
         if expected=='UNAVAILABLE':expected=None
         if expected not in [None,'ABSTAIN'] and expected not in r['offered_sides']:expected='ABSTAIN'
         assert side==expected,'FROZEN_POINT_DIRECTION_MISMATCH'
-    if r['method_id'] in ['P2_LAW','P3_DIRECT','P4_HYBRID'] and r['status']!='UNAVAILABLE_FORECAST':
+    if r['method_id'] in PROB_METHODS and r['status']!='UNAVAILABLE_FORECAST':
         ps=[r[k] for k in ['p_under','p_push','p_over']];assert all(isinstance(p,(int,float)) and not isinstance(p,bool) and math.isfinite(p) and p>=0 for p in ps) and abs(sum(ps)-1)<1e-10
         assert r.get('probability_line')==r.get('line'),'PROBABILITY_NOT_EVALUATED_AT_EXACT_OFFER_LINE'
         assert r.get('probability_inference_evidence_reference') and r.get('information_set_id'),'PROBABILITY_INFERENCE_PROVENANCE_REQUIRED'
         if r['comparator']!='STRICT_OVER_UNDER' or Decimal(str(r['line']))*CATEGORIES[r['category']][3]!=(Decimal(str(r['line']))*CATEGORIES[r['category']][3]).to_integral_value():assert abs(ps[1])<=1e-12,'IMPOSSIBLE_PUSH_MASS'
-        if r['method_id']=='P2_LAW':
+        if r['method_id'] in LAW_METHODS:
             from actual_offers_v4 import probabilities
             assert r['law']['scale']==CATEGORIES[r['category']][3] and r['law']['prior']['kind']==CATEGORIES[r['category']][2],'LAW_SUPPORT_OR_UNITS_MISMATCH'
             actual=probabilities(r,dict(category=r['category'],law=r['law']))
@@ -119,7 +122,7 @@ def deduplicate(rows):
     monotonic=defaultdict(list)
     for r in rows:
         validate_row(r);old=versions.get(r['record_id'])
-        if r['method_id'] in ['P2_LAW','P3_DIRECT','P4_HYBRID'] and r['status']!='UNAVAILABLE_FORECAST':monotonic[tuple(r[k] for k in ['game_id','player_id','category','method_id','method_version','information_set_id','comparator'])].append(r)
+        if r['method_id'] in PROB_METHODS and r['status']!='UNAVAILABLE_FORECAST':monotonic[tuple(r[k] for k in ['game_id','player_id','category','method_id','method_version','information_set_id','comparator'])].append(r)
         if old:
             if r==old:continue
             assert r.get('supersedes_grade_id')==old['grade_id'],'CONFLICTING_OR_UNLINKED_GRADE_CORRECTION'
@@ -264,6 +267,8 @@ def observed_leaders(cells):
     return result
 
 def method_version(cat,method,period):
+    if method in ['P2_LINKED_V8','P2_WORKLOAD_V8']:return 'C-PASS-WORKLOAD-LINK-v8/'+method+('/PASS_YD_ONLY_NOT_EXECUTED' if cat!='pass_yd' else '')
+    if method=='EARLIER_PREVALENCE_V8':return 'C-EARLIER-ROLE-PREVALENCE-v8'
     arm=read(ROOT/'protocol/PROSPECTIVE_V4.json')['primary']['arms'][cat] if prospective_period(period) else 'E0_OP'
     if method in ['P1_MEDIAN','P1_MEAN','P2_LAW']:return f"{'C-FORWARD-P2-v4' if prospective_period(period) else 'C-ALL12-LAW-THRESHOLD-v2.1'}/P2_LEAF/H-MULTI/{arm}/{method}"
     return {'P3_DIRECT':'P3_HGB: no retained actual-line inference','P4_HYBRID':'NOT_EXECUTED','ALWAYS_OVER':'ALWAYS_OVER-v6 diagnostic','ALWAYS_UNDER':'ALWAYS_UNDER-v6 diagnostic'}[method]
@@ -316,7 +321,9 @@ def scorecard(rows,receipts):
         views.append(dict(period=p,evidence_tier=t,policy_id=k,method=m,cells=cells,leader_scope='ALL_EVALUATED_PROCEDURES' if m=='PRIMARY' else m,leader_groups=leaders,leaders=overall))
     last=max((r['graded_UTC'] for r in rows if r.get('graded_UTC')),key=instant,default=None)
     templates={key:{cat:{method:method_version(cat,method,p) for method in METHODS} for cat in CATEGORIES} for key,p in [('historical','2026_W1_W7'),('prospective','2026_W8_PLUS')]}
-    return dict(schema='C-ACTUAL-PROP-ACCURACY-v6',policy_SHA256=sha(POLICY),dataset_manifest_SHA256=sha(MANIFEST),retained_rows=len(rows),records=rows,input_receipts=receipts,last_graded_update_UTC=last,message='No qualified real-prop results yet' if not any(r['status'] in ['WIN','LOSS'] for r in rows) else 'Own selected sides against exact recorded offers',periods=periods,evidence_tiers=TIERS,methods=['PRIMARY',*METHODS],policies=policies(),views=views,unavailable_cells=table([]),method_reference_templates=templates,policy_status='Top-K membership and candidate-slate evidence required; per-leg accuracy is not entry6/6',settlement='Statistical grading distinct from venue settlement',uncertainty_rules=read(POLICY)['leader_support'],source_facets_reference='protocol/SOURCE_FACETS_V6.json',source_facets=read(ROOT/'protocol/SOURCE_FACETS_V6.json'))
+    display_keys=['record_kind','record_id','offer_id','category','method_id','policy_id','game_id','player_id','player_name','position','season','week','venue','product','line_tier','evidence_tier','decision_horizon','line','point','point_type','p_under','p_push','p_over','selected_side','actual','status','appearance','decision_UTC','kickoff_UTC','graded_UTC','source_snapshot_clocks']
+    display=[{k:r[k] for k in display_keys if k in r} for r in rows]
+    return dict(schema='C-ACTUAL-PROP-ACCURACY-v6',record_projection='C-DISPLAY-ROWS-v8;everycase retained;full laws/features/provenance in input_receipts canonical datasets',policy_SHA256=sha(POLICY),dataset_manifest_SHA256=sha(MANIFEST),retained_rows=len(rows),records=display,input_receipts=receipts,last_graded_update_UTC=last,message='No qualified real-prop results yet' if not any(r['status'] in ['WIN','LOSS'] for r in rows) else 'Own selected sides against exact recorded offers',periods=periods,evidence_tiers=TIERS,methods=['PRIMARY',*METHODS],policies=policies(),views=views,unavailable_cells=table([]),method_reference_templates=templates,policy_status='Top-K membership and candidate-slate evidence required; per-leg accuracy is not entry6/6',settlement='Statistical grading distinct from venue settlement',uncertainty_rules=read(POLICY)['leader_support'],source_facets_reference='protocol/SOURCE_FACETS_V6.json',source_facets=read(ROOT/'protocol/SOURCE_FACETS_V6.json'))
 
 def side_text(c):return 'N/A / 0 / N/A' if not c['decided'] else f"{c['wins']}-{c['losses']} / {c['decided']} / {100*c['rate']:.2f}%"
 def markdown(j,period='2026_W1_W7',tier=None,policy='ALL_ELIGIBLE_OFFERS',method='PRIMARY',stratum='ALL'):
@@ -328,7 +335,8 @@ def markdown(j,period='2026_W1_W7',tier=None,policy='ALL_ELIGIBLE_OFFERS',method
     for label,key in [('Most accurate Over category','OVER'),('Most accurate Under category','UNDER'),('Combined leader','COMBINED'),('Highest category-and-side','CATEGORY_AND_SIDE')]:
         leader=v['leaders'].get(key,dict(state='NOT_ESTABLISHED'));values=leader.get('observed',[])
         detail='; '.join(f"{x['category']} / {x['method_version']} / {x['side']}: {side_text(x)} ({'support eligible; superiority unestablished' if x['support_eligible_for_comparison'] else 'insufficient support'})" for x in values)
-        s+=f"\n{label}: {detail or 'NOT ESTABLISHED — no comparable qualified decided results'}.\n"
+        missing='NOT POOLED — book-specific observed maxima below; evidence-supported leader NOT ESTABLISHED' if len(v['leader_groups'])>1 else 'NOT ESTABLISHED — no comparable qualified decided results'
+        s+=f"\n{label}: {detail or missing}.\n"
     if len(v['leader_groups'])>1:
         s+='\nNo pooled cross-stratum leader. All eligible offers is an explicitly mixed whole-procedure view.\n'
         for group in v['leader_groups']:

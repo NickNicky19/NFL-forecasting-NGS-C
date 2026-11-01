@@ -1,0 +1,39 @@
+{
+  "id": "C-SOURCE-DISPOSITION-v8",
+  "observed_UTC": "2026-11-01T18:25:42.477748+00:00",
+  "sources": [
+    {
+      "dataset": "oliviersportsdata/NFL-Multi-Market-Timestamped-Odds-Team-Stats",
+      "revision": "6fabc47e1dc33b215b026fe7864e9f451d7fac71",
+      "metadata_SHA256": "358211386c9780f176f0ee76d028e1ede60fb0e635a6ca8b82b6cb9162d73736",
+      "card_SHA256": "0b00eec8da6c8079e419b9d4ec142bc6c72947541003d49e0dc3524244de7af2",
+      "card_URL": "https://huggingface.co/datasets/oliviersportsdata/NFL-Multi-Market-Timestamped-Odds-Team-Stats/raw/6fabc47e1dc33b215b026fe7864e9f451d7fac71/README.md",
+      "files": [
+        "NFL_SAMPLE.csv",
+        "README.md"
+      ],
+      "disposition": "NOT_PLAYER_PROP_COVERAGE;NO_DOWNLOAD",
+      "reason": "Card markets are moneyline/spread/total for18samplegames; single-user-commercial fullarchive cannot be redistributed. Samplefreeexplore/evaluate wording does not establish public rawretention. No player/category/threshold source.",
+      "limited_supporting_excerpt": "Markets | Moneyline \u00b7 Spread \u00b7 Total; Sample: free to explore and evaluate. Full dataset: single-user commercial licence; do not resell or redistribute files."
+    },
+    {
+      "dataset": "minmaxxxer/nfl-odds-2026",
+      "revision": "e094c5da97fc0a54e7a7200ae10598f0be579f75",
+      "metadata_SHA256": "26f091db8534cc4b295b21e4f906ff27b462d33471962be8977ddad4ea615829",
+      "card_SHA256": "d65250f7921cb21ce39b8279b0f3926a8c639f5b232cfe5d9c0b710e51171e69",
+      "card_URL": "https://huggingface.co/datasets/minmaxxxer/nfl-odds-2026/raw/e094c5da97fc0a54e7a7200ae10598f0be579f75/README.md",
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "nfl_2026_odds.csv",
+        "nfl_2026_odds.parquet"
+      ],
+      "disposition": "NOT_PLAYER_PROP_COVERAGE;NO_DOWNLOAD",
+      "reason": "CCBY4card describes106team-game consensus opening/closing spread,total,moneyline rows throughOct26; no playerprops/native playerIDs or current exactplayerlines. Aggregated consensus is not an observed same-venue offer. No paidactor/APIplan/signup pursued; generalprovenance not admitted.",
+      "limited_supporting_excerpt": "consensus opening and closing lines (spread, total, moneyline win probability); One row per game; median across bookmaker brands"
+    }
+  ],
+  "new_source_data_downloads": 0,
+  "total_metadata_requests": 8,
+  "next_exact_gap": "Fresh permitted player/game/stat/period/book/line/side/lifecycle with observation time, recoverable minimumGitHubevidence; no providerkey/account/purchase needed fromNick for admittedhistoricalfile. These team-market archives cannot fill8absentplayer categories or currentplayerprops."
+}

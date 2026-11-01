@@ -1,0 +1,262 @@
+{
+  "id": "C-INDEPENDENT-V8-SUPPLEMENT",
+  "observed_UTC": "2026-11-01T18:58:08.853482+00:00",
+  "state": "PASS_WITH_EXPLICIT_DIAGNOSTIC_LIMITS",
+  "canonical_method_rows": 16952,
+  "earlier_reference_rows": 2769,
+  "total_unique_record_ids": 19721,
+  "licensed_source_rows": 213190,
+  "admitted_source_quote_rows_verified": 5538,
+  "source_offer_cases": 2769,
+  "source_identity_clock_and_exact_closing_line": "ALL_CASES_PASS",
+  "independent_outcome_and_unit_reconciliation": "ALL19721_LATEST_ROWS_PASS",
+  "earlier_reference_formula": "(count_eligible_earlier_same_role_Y_greater_than_exact_line+1)/(n+2)",
+  "earlier_reference_available_halfpoint_rows": 2768,
+  "earlier_reference_unavailable_wholepoint": [
+    {
+      "offer_id": "PL8-596f772224d5bacc6fb5ee96",
+      "line": 0.0,
+      "actual": null,
+      "status": "UNAVAILABLE_FORECAST"
+    }
+  ],
+  "earlier_reference_role_to_global_fallback_rows": 0,
+  "exact_intersections": [
+    {
+      "books": [
+        "pinnacle",
+        "draftkings"
+      ],
+      "common": 859,
+      "same": 502
+    },
+    {
+      "books": [
+        "pinnacle",
+        "fanduel"
+      ],
+      "common": 860,
+      "same": 712
+    },
+    {
+      "books": [
+        "draftkings",
+        "fanduel"
+      ],
+      "common": 814,
+      "same": 499
+    },
+    {
+      "books": [
+        "pinnacle",
+        "draftkings",
+        "fanduel"
+      ],
+      "common": 784,
+      "same": 432
+    }
+  ],
+  "void_sensitivity_views_checked": 108,
+  "sparse_history_views_checked": 162,
+  "history_definition": "Known own target labels among last8eligible source rows;not total career history or startingrole.",
+  "all_selected_vs_known_confidence_masks": "PASS",
+  "cutoff_membership_audited": 2624,
+  "cutoff_membership_changed": 172,
+  "cutoff_clock_basis": "MAX_OF_SOURCE_OVER_UNDER_CLOSING_AT;not evidence that earlier selected-side quote shared the same prefix.",
+  "quote_cutoff_before_original_fit_origin": 309,
+  "cutoff_limit": "Membership audit is not full earlier-quote-time forecast availability or authenticated issue proof.",
+  "qualified_market_price_references": 0,
+  "market_gate_reason": "OPEN lifecycle unobserved;no invented no-vig/EV reference.",
+  "passing_workload_exact_line_probability_gains": [
+    {
+      "book": "pinnacle",
+      "methods": {
+        "P2_LAW": {
+          "known": 63,
+          "wins": 27,
+          "losses": 36,
+          "decided": 63,
+          "Brier": 0.2772322788623978
+        },
+        "P2_LINKED_V8": {
+          "known": 63,
+          "wins": 27,
+          "losses": 36,
+          "decided": 63,
+          "Brier": 0.27773534519473014
+        },
+        "P2_WORKLOAD_V8": {
+          "known": 63,
+          "wins": 27,
+          "losses": 36,
+          "decided": 63,
+          "Brier": 0.2765982268286529
+        },
+        "P3_DIRECT": {
+          "known": 63,
+          "wins": 26,
+          "losses": 37,
+          "decided": 63,
+          "Brier": 0.26392771609098187
+        }
+      }
+    },
+    {
+      "book": "draftkings",
+      "methods": {
+        "P2_LAW": {
+          "known": 51,
+          "wins": 25,
+          "losses": 26,
+          "decided": 51,
+          "Brier": 0.2689081394926592
+        },
+        "P2_LINKED_V8": {
+          "known": 51,
+          "wins": 25,
+          "losses": 26,
+          "decided": 51,
+          "Brier": 0.26926892928612967
+        },
+        "P2_WORKLOAD_V8": {
+          "known": 51,
+          "wins": 25,
+          "losses": 26,
+          "decided": 51,
+          "Brier": 0.26591351611106007
+        },
+        "P3_DIRECT": {
+          "known": 51,
+          "wins": 25,
+          "losses": 26,
+          "decided": 51,
+          "Brier": 0.2591522492702518
+        }
+      }
+    },
+    {
+      "book": "fanduel",
+      "methods": {
+        "P2_LAW": {
+          "known": 52,
+          "wins": 23,
+          "losses": 29,
+          "decided": 52,
+          "Brier": 0.2742170565585682
+        },
+        "P2_LINKED_V8": {
+          "known": 52,
+          "wins": 23,
+          "losses": 29,
+          "decided": 52,
+          "Brier": 0.2746860000143593
+        },
+        "P2_WORKLOAD_V8": {
+          "known": 52,
+          "wins": 23,
+          "losses": 29,
+          "decided": 52,
+          "Brier": 0.27164434225052825
+        },
+        "P3_DIRECT": {
+          "known": 52,
+          "wins": 22,
+          "losses": 30,
+          "decided": 52,
+          "Brier": 0.27004283568660176
+        }
+      }
+    }
+  ],
+  "probability_gain_interpretation": "Candidate improvesBrier over retainedP2 andlinkedcontrol on eachbook,while still losingP3;retain this gain separately from numerical reversals/unchangedhitcounts.",
+  "alternative_metadata_disposition": "Two team-market archives;8metadata calls,0data downloads,0player offers admitted.",
+  "new_verifier_fits": 0,
+  "C_edits": 0,
+  "new_verifier_source_requests": 0,
+  "new_future_grades": 0,
+  "evidence_SHA256": {
+    "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859",
+    "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7",
+    "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4",
+    "artifacts/reliability-v8/CUTOFF_AUDIT.json.gz": "51673afc5cc0aa91e8a6556c97fa76746bff2faafe469fac5a3c30b58364745f",
+    "reports/reliability-v8/BOOK_INTERSECTIONS.json.gz": "52e4cc6da62ba27640f38a0b4e4457aa727cf986f0675277769964bafc82cb14",
+    "reports/reliability-v8/VOID_SENSITIVITY.json.gz": "b3ff87e6dfc8addac742949ff9e8a201137352e9702d32e2604d26f62749b6f6",
+    "reports/reliability-v8/RELIABILITY.json.gz": "c9349ee5b79e436ce0545873757b937da1e7353709fa2f6c5cfb1290aa10a2a9",
+    "reports/reliability-v8/ALTERNATIVE_SOURCE_DISPOSITION.json": "d612a33d24318626ac1260f22b15315920050836103fb85f6a9e1b2ed697b955"
+  },
+  "earlier_reference_same_P2_known_mask_summaries": "ALL12_BOOK_CATEGORY_ROWS_PASS",
+  "earlier_reference_matched_summary_rows": [
+    {
+      "book": "pinnacle",
+      "category": "pass_yd",
+      "n": 63,
+      "Brier": 0.27649080698871215
+    },
+    {
+      "book": "pinnacle",
+      "category": "rush_yd",
+      "n": 177,
+      "Brier": 0.2635798633819262
+    },
+    {
+      "book": "pinnacle",
+      "category": "rec",
+      "n": 337,
+      "Brier": 0.2836214374576421
+    },
+    {
+      "book": "pinnacle",
+      "category": "rec_yd",
+      "n": 337,
+      "Brier": 0.29175432095369436
+    },
+    {
+      "book": "draftkings",
+      "category": "pass_yd",
+      "n": 51,
+      "Brier": 0.2712480424897647
+    },
+    {
+      "book": "draftkings",
+      "category": "rush_yd",
+      "n": 167,
+      "Brier": 0.25588593571831847
+    },
+    {
+      "book": "draftkings",
+      "category": "rec",
+      "n": 319,
+      "Brier": 0.2801681363130579
+    },
+    {
+      "book": "draftkings",
+      "category": "rec_yd",
+      "n": 313,
+      "Brier": 0.2841323529549522
+    },
+    {
+      "book": "fanduel",
+      "category": "pass_yd",
+      "n": 52,
+      "Brier": 0.2734747614515326
+    },
+    {
+      "book": "fanduel",
+      "category": "rush_yd",
+      "n": 149,
+      "Brier": 0.26271355587190154
+    },
+    {
+      "book": "fanduel",
+      "category": "rec",
+      "n": 354,
+      "Brier": 0.2806671555951737
+    },
+    {
+      "book": "fanduel",
+      "category": "rec_yd",
+      "n": 285,
+      "Brier": 0.2914093983248557
+    }
+  ]
+}

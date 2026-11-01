@@ -78,7 +78,12 @@
       "alwaysUnder"
     ],
     "market_reference_gate": "Exact matching closing_point, identical side observation time, paired compatibleprices and documented same market OPEN state. Missingstate is N/A, no manufactured no-vig market.",
-    "P1_confidence": "Use same retained law probability for its OWN chosen mean/median side, including below50%; never substituteP2 side."
+    "P1_confidence": "Use same retained law probability for its OWN chosen mean/median side, including below50%; never substituteP2 side.",
+    "uncertainty_audit_amendment": {
+      "recorded_UTC": "2026-11-01T18:17:01.964348+00:00",
+      "rule": "At<20distinctgames useWilsonindependence diagnostic; at>=20gameblockbootstrap2000. Alwaysonly2weekclusters/researchexposure caveat. This20gamefallback was implemented in firstdiagnosis and documented after independentaudit; no pre-results support/superiority claim.",
+      "ranking_exclusion_audit": "Retain technical/tie exclusion IDs, source/validboardcounts, selectedquote/forecastcutoffs after earliest selectedkickoff; rule/membership unchanged. Void sensitivity keeps membership fixed with no replacement."
+    }
   },
   "mechanism": "Register separately AFTER diagnosis, before its fits/results; max4newNFLfits, one mechanism, earlier2025validation and fixed2026W2-W3. No default failedsigmoid.",
   "storage": "Existing licensed source reused. New full canonical data deterministic gzip in C with reviewed hashes; bounded compact display projection from same rows. Original v7payload never rewritten. GitHub-only fresh restoration before claims.",

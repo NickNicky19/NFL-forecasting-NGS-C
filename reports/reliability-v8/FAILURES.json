@@ -1,0 +1,51 @@
+[
+  {
+    "stage": "EARLIER_REFERENCE_REPORT",
+    "failure": "Reference method identifier not yet added to canonical validation registry",
+    "impact": "Stopped before retaining the new reference rows; no NFL fit, source/offer/model/label change",
+    "correction": "Register declared EARLIER_PREVALENCE_V8 as exact half-point threshold reference, then regenerate unsaved report",
+    "recorded_UTC": "2026-11-01T18:25:42.477368+00:00"
+  },
+  {
+    "stage": "EARLIER_REFERENCE_REPORT",
+    "failure": "Half-point-only reference correctly refused one whole0.0 rushing line (FanDuel,TysonBagent)",
+    "impact": "No benchmark rows had been retained; no NFL fit or source/model/outcome change",
+    "correction": "Keep that reference forecast explicitly technically unavailable; do not invent pushmass, roundtheline, dropoffer or block other supported half-point cases. P2/P3 retain exactwhole-line laws.",
+    "recorded_UTC": "2026-11-01T18:28:49.843160+00:00"
+  },
+  {
+    "stage": "LOCAL_RELIABILITY_BROWSER",
+    "failure": "New reliability script tag absent from initial page; browser waited for missing view initialization",
+    "impact": "Local acceptance failed; no source/forecast/model/label change or deployment",
+    "correction": "Include reliability.js, rerun rendered-row/mobile/failure checks; PASS",
+    "recorded_UTC": "2026-11-01T18:58:00Z"
+  },
+  {
+    "stage": "LOCAL_STATUS_AUDIT_PATH",
+    "failure": "Initial local discovery used the wrong nested run glob; no requests were sent",
+    "impact": "No source or forecast modification; no acquisition",
+    "correction": "Read the immutable run sources/events.json path; two bounded status requests executed at18:59UTC",
+    "recorded_UTC": "2026-11-01T18:59:22Z"
+  },
+  {
+    "stage": "READ_ONLY_VALIDATION_WRAPPER",
+    "failure": "Optional /usr/bin/time binary is absent",
+    "impact": "No validation or NFL fit ran in that wrapper",
+    "correction": "Use Python monotonic runtime and RUSAGE_CHILDREN; required validations pass",
+    "recorded_UTC": "2026-11-01T19:09:00Z"
+  },
+  {
+    "stage": "LOCAL_ACCURACY_BROWSER",
+    "failure": "New book facet omitted an explicit structural-audit field; original frontend required every facet",
+    "impact": "Local initialization failed closed; no deployment or model/label change",
+    "correction": "Record the C-authored structural qualification and render unknown missing facets explicitly; revalidate canonical data and rendered views",
+    "recorded_UTC": "2026-11-01T19:11:00Z"
+  },
+  {
+    "stage": "LOCAL_MOBILE_ACCEPTANCE",
+    "failure": "Long comparable-stratum headings expanded the page beyond390px",
+    "impact": "Local mobile acceptance failed; no publication or statistical change",
+    "correction": "Wrap heading contents inside the existing cards; actual accuracy mobile/desktop/failure acceptance passes",
+    "recorded_UTC": "2026-11-01T19:13:16Z"
+  }
+]

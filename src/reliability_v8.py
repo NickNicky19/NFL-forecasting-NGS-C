@@ -110,6 +110,7 @@ def references():
 
 def independent_facts(inputs):
     assert a.sha(inputs/'facts.csv.gz')=='9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11'
+    assert a.sha(inputs/'schedule.csv')=='5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0'
     with gzip.open(inputs/'facts.csv.gz','rt') as f:facts={(r['game_id'],r['player_id']):r for r in csv.DictReader(f)}
     with (inputs/'schedule.csv').open() as f:games={r['game_id']:r for r in csv.DictReader(f)}
     return facts,games
@@ -126,7 +127,7 @@ def evaluate(inputs):
         e=c['event'];ref=refs['references'].get('|'.join([c['category'],e['game_id'],c['player_id']]));r=ref['saved'] if ref else None
         if r and (r['position']!=c['position'] or r['team']!=c['team']):r=None
         actual,appearance=label(facts.get((e['game_id'],c['player_id'])),games[e['game_id']],c['category']);law=law_load(ref['law']) if r else None
-        if r:assert r['actual']==actual
+        if r:assert r['actual']==actual and a.instant(r['as_of_UTC'])==a.instant(e['scheduled_kickoff_UTC'])
         for method in ['P1_MEDIAN','P1_MEAN','P2_LAW','P3_DIRECT','ALWAYS_OVER','ALWAYS_UNDER']:
             side,extra=predict_offer(c,method,r,law) if method!='P3_DIRECT' else (None,{})
             if method=='P3_DIRECT' and r:
