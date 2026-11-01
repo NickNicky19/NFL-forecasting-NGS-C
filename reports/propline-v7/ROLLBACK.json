@@ -1,0 +1,13 @@
+{
+  "id": "C-PROPLINE-ROLLBACK-READINESS-v7",
+  "prior_verified_tag": "c-site-verified-accuracy-v6-48c9506",
+  "prior_retained_commit": "48c9506fd5b40f7144ae0dcb063c330984c194ca",
+  "existing_C_only_manual_workflow": ".github/workflows/c-checks-pages.yml",
+  "input": "source_ref",
+  "source_ref_checkout_present": true,
+  "prior_restoration_receipt": "reports/actual-accuracy-v6/GITHUB_RESTORE.json",
+  "prior_public_verification": "reports/actual-accuracy-v6/served/PUBLIC_SERVED.json",
+  "new_v7_source_and_predictions_remain_in_Git_history": true,
+  "live_rollback_executed": false,
+  "claim": "Retained verified recovery target and existing manual checkout/deploy route inspected; no production/other-site action and no claim of a newly executed live rollback."
+}

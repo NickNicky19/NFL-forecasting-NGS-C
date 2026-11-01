@@ -1,0 +1,102 @@
+{
+  "id": "C-PROPLINE-INDEPENDENT-PUBLIC-v7.1",
+  "observed_UTC": "2026-11-01T16:23:54.299884+00:00",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "db3367295b6f45a20ce3785d4eaa5d08e16ce3c0",
+  "state": "CORE_PARITY_PASS_SECONDARY_COPY_CORRECTION_NEEDED",
+  "build_stable": true,
+  "assets": [
+    {
+      "path": "build.json",
+      "HTTP_status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "HTTP_status": 200,
+      "bytes": 16624629,
+      "SHA256": "0b1eca22ae67e19d3709d6b57c5e1d2f0955c3e81f176755baddc830694bc5d2",
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "HTTP_status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "system_TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "HTTP_status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "system_TLS_verified": true
+    },
+    {
+      "path": "index.html",
+      "HTTP_status": 200,
+      "bytes": 24582,
+      "SHA256": "42b0a0706e24c7e94de77ab1e6b891cf24a2cbad0de416be2ee2d0e85377fe4a",
+      "system_TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "HTTP_status": 200,
+      "bytes": 1162,
+      "SHA256": "82f6de8c2f2209e3cca41621180ed535b181fb99bcf4c3eab66f8a4cab37864b",
+      "system_TLS_verified": true
+    }
+  ],
+  "public_response_count": 15,
+  "all_bridge_responses_system_TLS_verified": true,
+  "transport": "ACTUAL_PUBLIC_RESPONSES_THROUGH_SYSTEM_TLS_VERIFIED_RENDERING_BRIDGE",
+  "native_Chromium_TLS_validated": false,
+  "TLS_checks_disabled": false,
+  "supported_P2_categories": [
+    "pass_yd",
+    "rec",
+    "rec_yd",
+    "rush_yd"
+  ],
+  "unavailable_categories": 8,
+  "primary_decided": 914,
+  "rendered_headline_counts": "PASS",
+  "rendered_individual_result": [
+    {
+      "record_id": "PL7-e312dff1b040eac7e81d5a00-P2_LAW",
+      "player": "Cooper Rush",
+      "category": "pass_yd",
+      "line": 183.5,
+      "p_under": 0.6662969698479506,
+      "p_push": 0,
+      "p_over": 0.3337030301520494,
+      "selected": "UNDER",
+      "actual": 86,
+      "status": "WIN",
+      "rendered_cells": [
+        "Cooper Rush / 2026_02_CAR_ATL",
+        "pinnacle / 183.5 / UNVERIFIED_MAIN_ALTERNATE",
+        "Sep 20, 2026, 12:00:00 PM CDT \u00b7 America/Chicago / OVER Sep 20, 2026, 11:23:59 AM CDT \u00b7 America/Chicago / UNDER Sep 20, 2026, 11:23:59 AM CDT \u00b7 America/Chicago",
+        "66.6% / 0.0% / 33.4%",
+        "UNDER / 86 / WIN"
+      ]
+    }
+  ],
+  "source_credit_and_provider_VOID_and_probability_caveats": "PASS",
+  "observed_leader_support_caveats": "PASS",
+  "original_forward_manifest_unchanged": true,
+  "original_v5_manifest_unchanged": true,
+  "secondary_copy_findings": [
+    {
+      "selector": "#view-prospective",
+      "issue": "Secondary view still says no qualified historical offer export has been retained, despite968retained actual-line historical cases in the new accuracy view."
+    }
+  ],
+  "page_errors": [],
+  "new_fits": 0,
+  "new_NFL_source_collection": 0,
+  "new_future_grades": 0,
+  "C_edits": 0
+}

@@ -1,0 +1,85 @@
+{
+  "id": "C-PROPLINE-INDEPENDENT-GITHUB-RESTORE-v7.1",
+  "observed_UTC": "2026-11-01T16:20:02.903763+00:00",
+  "state": "PASS",
+  "commit": "cd272f9122f4d631534a0c0101e7741531009bcb",
+  "fresh_local_download_receipt_SHA256": "e075bfe37c15d02e341a27ece85ab7f199db8319bbcbc9d6079e04e094bec39e",
+  "listed_download_entries_verified": 25,
+  "unique_downloaded_paths": 24,
+  "downloaded_bytes_including_repeated_receipt_entry": 41862454,
+  "unique_retained_file_bytes": 41860637,
+  "source_rows": 213190,
+  "source_side_rows_verified": 1936,
+  "canonical_grade_versions": 5820,
+  "canonical_method_rows": 5808,
+  "statistical_grades_checked": 5488,
+  "canonical_rows_equal_fresh_scorecard_records": true,
+  "fresh_numeric_model_reinferences": [
+    {
+      "category": "pass_yd",
+      "week": 3,
+      "trees": 32,
+      "pass_exact_line_mean_median": true
+    },
+    {
+      "category": "rush_yd",
+      "week": 3,
+      "trees": 32,
+      "pass_exact_line_mean_median": true
+    },
+    {
+      "category": "rec_yd",
+      "week": 3,
+      "trees": 32,
+      "pass_exact_line_mean_median": true
+    },
+    {
+      "category": "rec",
+      "week": 3,
+      "trees": 32,
+      "pass_exact_line_mean_median": true
+    }
+  ],
+  "method_states": {
+    "P1_MEDIAN": {
+      "LOSS": 431,
+      "WIN": 483,
+      "UNKNOWN_PARTICIPATION": 6,
+      "UNAVAILABLE_FORECAST": 48
+    },
+    "P1_MEAN": {
+      "LOSS": 455,
+      "WIN": 459,
+      "UNKNOWN_PARTICIPATION": 6,
+      "UNAVAILABLE_FORECAST": 48
+    },
+    "P2_LAW": {
+      "LOSS": 431,
+      "WIN": 483,
+      "UNKNOWN_PARTICIPATION": 6,
+      "UNAVAILABLE_FORECAST": 48
+    },
+    "P3_DIRECT": {
+      "LOSS": 414,
+      "WIN": 500,
+      "UNKNOWN_PARTICIPATION": 6,
+      "UNAVAILABLE_FORECAST": 48
+    },
+    "ALWAYS_OVER": {
+      "WIN": 438,
+      "LOSS": 478,
+      "UNKNOWN_PARTICIPATION": 52
+    },
+    "ALWAYS_UNDER": {
+      "LOSS": 438,
+      "WIN": 478,
+      "UNKNOWN_PARTICIPATION": 52
+    }
+  },
+  "correction_links_and_unchanged_selection_fields": "PASS",
+  "source_license_card_hash": "PASS",
+  "new_fits": 0,
+  "C_edits": 0,
+  "independent_new_network_downloads": 0,
+  "interpretation": "Independent readback of freshly downloaded bytes and their pinned hashes; parent download receipt supplies remote retrieval provenance. No claim of separate independent HTTP acquisition, served deployment parity, original quote availability, venue settlement or new future grades."
+}
