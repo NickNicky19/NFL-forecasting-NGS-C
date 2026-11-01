@@ -1,5 +1,5 @@
 """Fictional adapter fixtures; not NFL forecasts, offers, grades or victories."""
-import copy,sys,unittest
+import copy,sys,unittest,json
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 import numpy as np
@@ -37,5 +37,13 @@ class ExactOfferAdapter(unittest.TestCase):
             self.assertEqual(p['probability_line'],line)
             self.assertEqual(p['p_push']>0,line==int(line))
         self.assertGreater(predict_offer(dict(line=30),'P2_LAW',self.saved,self.law)[1]['p_push'],.28)
+    def test_direct_exact_cdf_flags_serialize_and_outcome_changes_are_inert(self):
+        class NoFitCDF:
+            thresholds=np.array([9,24,49])
+            def cdfs(self,x,thresholds):return np.asarray([[(float(t)+1)/100 for t in thresholds]])
+        model=NoFitCDF();base=predict_offer(dict(line=35.2),'P3_DIRECT',self.saved,direct_item=(model,self.saved))
+        changed=self.saved|dict(actual=999,future_ngs=[999]);other=predict_offer(dict(line=35.2,resolution='won',actual_value=999),'P3_DIRECT',changed,direct_item=(model,changed))
+        self.assertEqual(base,other);self.assertEqual(base[1]['probability_line'],35.2)
+        self.assertEqual(type(base[1]['outside_training_threshold_range']),bool);json.dumps(base,allow_nan=False)
 
 if __name__=='__main__':unittest.main()

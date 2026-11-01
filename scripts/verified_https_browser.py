@@ -20,7 +20,9 @@ def verified_public_transport(prefix):
         try:response=urlopen(request,timeout=30)
         except HTTPError as e:response=e
         with response:
-            body=response.read(8*1024*1024+1);assert len(body)<=8*1024*1024
+            # v7 retains complete actual-line laws/records; bound this known ledger separately.
+            cap=(32 if route.request.url.split('?')[0].endswith('/data/actual-accuracy-v6.json') else 8)*1024*1024
+            body=response.read(cap+1);assert len(body)<=cap
             assert response.headers.get('Content-Encoding','identity') in ['identity','']
             headers={k:v for k,v in response.headers.items() if k.lower() not in ['transfer-encoding','content-length','content-encoding']}
             status=response.status

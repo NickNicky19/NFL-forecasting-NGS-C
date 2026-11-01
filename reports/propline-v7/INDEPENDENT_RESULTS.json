@@ -1,0 +1,1253 @@
+{
+  "id": "C-PROPLINE-INDEPENDENT-RESULTS-v7",
+  "observed_UTC": "2026-11-01T15:58:33.739895+00:00",
+  "state": "PASS_WITH_EXPLICIT_DIAGNOSTIC_LIMITS",
+  "new_fits": 0,
+  "C_edits": 0,
+  "retained_rows": 5808,
+  "eligible_offers": 968,
+  "unique_matched_predictions": 920,
+  "games": 32,
+  "weeks": [
+    2,
+    3
+  ],
+  "source_and_identity_checks": "ALL968_PASS",
+  "source_general_vs_closing_line_different_side_rows": 2,
+  "input_and_retained_evidence_hashes": "PASS",
+  "label_and_selected_side_grade_checks": "ALL_METHOD_ROWS_PASS",
+  "method_summaries": {
+    "ALWAYS_OVER": {
+      "OVER": {
+        "selected": 968,
+        "wins": 438,
+        "losses": 478,
+        "decided": 916,
+        "rate": 0.4781659388646288
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 438,
+        "losses": 478,
+        "decided": 916,
+        "rate": 0.4781659388646288
+      },
+      "states": {
+        "WIN": 438,
+        "LOSS": 478,
+        "UNKNOWN_PARTICIPATION": 52
+      },
+      "eligible": 968
+    },
+    "ALWAYS_UNDER": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 968,
+        "wins": 478,
+        "losses": 438,
+        "decided": 916,
+        "rate": 0.5218340611353712
+      },
+      "COMBINED": {
+        "wins": 478,
+        "losses": 438,
+        "decided": 916,
+        "rate": 0.5218340611353712
+      },
+      "states": {
+        "LOSS": 438,
+        "WIN": 478,
+        "UNKNOWN_PARTICIPATION": 52
+      },
+      "eligible": 968
+    },
+    "P1_MEAN": {
+      "OVER": {
+        "selected": 442,
+        "wins": 210,
+        "losses": 227,
+        "decided": 437,
+        "rate": 0.4805491990846682
+      },
+      "UNDER": {
+        "selected": 478,
+        "wins": 249,
+        "losses": 228,
+        "decided": 477,
+        "rate": 0.5220125786163522
+      },
+      "COMBINED": {
+        "wins": 459,
+        "losses": 455,
+        "decided": 914,
+        "rate": 0.5021881838074398
+      },
+      "states": {
+        "LOSS": 455,
+        "WIN": 459,
+        "UNKNOWN_PARTICIPATION": 6,
+        "UNAVAILABLE_FORECAST": 48
+      },
+      "eligible": 968
+    },
+    "P1_MEDIAN": {
+      "OVER": {
+        "selected": 232,
+        "wins": 118,
+        "losses": 111,
+        "decided": 229,
+        "rate": 0.5152838427947598
+      },
+      "UNDER": {
+        "selected": 688,
+        "wins": 365,
+        "losses": 320,
+        "decided": 685,
+        "rate": 0.5328467153284672
+      },
+      "COMBINED": {
+        "wins": 483,
+        "losses": 431,
+        "decided": 914,
+        "rate": 0.5284463894967177
+      },
+      "states": {
+        "LOSS": 431,
+        "WIN": 483,
+        "UNKNOWN_PARTICIPATION": 6,
+        "UNAVAILABLE_FORECAST": 48
+      },
+      "eligible": 968
+    },
+    "P2_LAW": {
+      "OVER": {
+        "selected": 232,
+        "wins": 118,
+        "losses": 111,
+        "decided": 229,
+        "rate": 0.5152838427947598
+      },
+      "UNDER": {
+        "selected": 688,
+        "wins": 365,
+        "losses": 320,
+        "decided": 685,
+        "rate": 0.5328467153284672
+      },
+      "COMBINED": {
+        "wins": 483,
+        "losses": 431,
+        "decided": 914,
+        "rate": 0.5284463894967177
+      },
+      "states": {
+        "LOSS": 431,
+        "WIN": 483,
+        "UNKNOWN_PARTICIPATION": 6,
+        "UNAVAILABLE_FORECAST": 48
+      },
+      "eligible": 968
+    },
+    "P3_DIRECT": {
+      "OVER": {
+        "selected": 180,
+        "wins": 101,
+        "losses": 77,
+        "decided": 178,
+        "rate": 0.5674157303370787
+      },
+      "UNDER": {
+        "selected": 740,
+        "wins": 399,
+        "losses": 337,
+        "decided": 736,
+        "rate": 0.5421195652173914
+      },
+      "COMBINED": {
+        "wins": 500,
+        "losses": 414,
+        "decided": 914,
+        "rate": 0.5470459518599562
+      },
+      "states": {
+        "LOSS": 414,
+        "WIN": 500,
+        "UNKNOWN_PARTICIPATION": 6,
+        "UNAVAILABLE_FORECAST": 48
+      },
+      "eligible": 968
+    }
+  },
+  "category_method_summaries": [
+    {
+      "category": "pass_yd",
+      "method": "ALWAYS_OVER",
+      "OVER": {
+        "selected": 64,
+        "wins": 38,
+        "losses": 25,
+        "decided": 63,
+        "rate": 0.6031746031746031
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 38,
+        "losses": 25,
+        "decided": 63,
+        "rate": 0.6031746031746031
+      },
+      "states": {
+        "WIN": 38,
+        "LOSS": 25,
+        "UNKNOWN_PARTICIPATION": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "pass_yd",
+      "method": "ALWAYS_UNDER",
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 64,
+        "wins": 25,
+        "losses": 38,
+        "decided": 63,
+        "rate": 0.3968253968253968
+      },
+      "COMBINED": {
+        "wins": 25,
+        "losses": 38,
+        "decided": 63,
+        "rate": 0.3968253968253968
+      },
+      "states": {
+        "LOSS": 38,
+        "WIN": 25,
+        "UNKNOWN_PARTICIPATION": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "pass_yd",
+      "method": "P1_MEAN",
+      "OVER": {
+        "selected": 8,
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      "UNDER": {
+        "selected": 55,
+        "wins": 20,
+        "losses": 35,
+        "decided": 55,
+        "rate": 0.36363636363636365
+      },
+      "COMBINED": {
+        "wins": 23,
+        "losses": 40,
+        "decided": 63,
+        "rate": 0.36507936507936506
+      },
+      "states": {
+        "LOSS": 40,
+        "WIN": 23,
+        "UNAVAILABLE_FORECAST": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "pass_yd",
+      "method": "P1_MEDIAN",
+      "OVER": {
+        "selected": 14,
+        "wins": 8,
+        "losses": 6,
+        "decided": 14,
+        "rate": 0.5714285714285714
+      },
+      "UNDER": {
+        "selected": 49,
+        "wins": 19,
+        "losses": 30,
+        "decided": 49,
+        "rate": 0.3877551020408163
+      },
+      "COMBINED": {
+        "wins": 27,
+        "losses": 36,
+        "decided": 63,
+        "rate": 0.42857142857142855
+      },
+      "states": {
+        "LOSS": 36,
+        "WIN": 27,
+        "UNAVAILABLE_FORECAST": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "pass_yd",
+      "method": "P2_LAW",
+      "OVER": {
+        "selected": 14,
+        "wins": 8,
+        "losses": 6,
+        "decided": 14,
+        "rate": 0.5714285714285714
+      },
+      "UNDER": {
+        "selected": 49,
+        "wins": 19,
+        "losses": 30,
+        "decided": 49,
+        "rate": 0.3877551020408163
+      },
+      "COMBINED": {
+        "wins": 27,
+        "losses": 36,
+        "decided": 63,
+        "rate": 0.42857142857142855
+      },
+      "states": {
+        "LOSS": 36,
+        "WIN": 27,
+        "UNAVAILABLE_FORECAST": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "pass_yd",
+      "method": "P3_DIRECT",
+      "OVER": {
+        "selected": 13,
+        "wins": 7,
+        "losses": 6,
+        "decided": 13,
+        "rate": 0.5384615384615384
+      },
+      "UNDER": {
+        "selected": 50,
+        "wins": 19,
+        "losses": 31,
+        "decided": 50,
+        "rate": 0.38
+      },
+      "COMBINED": {
+        "wins": 26,
+        "losses": 37,
+        "decided": 63,
+        "rate": 0.4126984126984127
+      },
+      "states": {
+        "LOSS": 37,
+        "WIN": 26,
+        "UNAVAILABLE_FORECAST": 1
+      },
+      "eligible": 64
+    },
+    {
+      "category": "rec",
+      "method": "ALWAYS_OVER",
+      "OVER": {
+        "selected": 362,
+        "wins": 156,
+        "losses": 182,
+        "decided": 338,
+        "rate": 0.46153846153846156
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 156,
+        "losses": 182,
+        "decided": 338,
+        "rate": 0.46153846153846156
+      },
+      "states": {
+        "LOSS": 182,
+        "WIN": 156,
+        "UNKNOWN_PARTICIPATION": 24
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec",
+      "method": "ALWAYS_UNDER",
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 362,
+        "wins": 182,
+        "losses": 156,
+        "decided": 338,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "wins": 182,
+        "losses": 156,
+        "decided": 338,
+        "rate": 0.5384615384615384
+      },
+      "states": {
+        "WIN": 182,
+        "LOSS": 156,
+        "UNKNOWN_PARTICIPATION": 24
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec",
+      "method": "P1_MEAN",
+      "OVER": {
+        "selected": 147,
+        "wins": 70,
+        "losses": 74,
+        "decided": 144,
+        "rate": 0.4861111111111111
+      },
+      "UNDER": {
+        "selected": 193,
+        "wins": 107,
+        "losses": 86,
+        "decided": 193,
+        "rate": 0.5544041450777202
+      },
+      "COMBINED": {
+        "wins": 177,
+        "losses": 160,
+        "decided": 337,
+        "rate": 0.5252225519287834
+      },
+      "states": {
+        "WIN": 177,
+        "UNKNOWN_PARTICIPATION": 3,
+        "LOSS": 160,
+        "UNAVAILABLE_FORECAST": 22
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec",
+      "method": "P1_MEDIAN",
+      "OVER": {
+        "selected": 79,
+        "wins": 43,
+        "losses": 35,
+        "decided": 78,
+        "rate": 0.5512820512820513
+      },
+      "UNDER": {
+        "selected": 261,
+        "wins": 146,
+        "losses": 113,
+        "decided": 259,
+        "rate": 0.5637065637065637
+      },
+      "COMBINED": {
+        "wins": 189,
+        "losses": 148,
+        "decided": 337,
+        "rate": 0.5608308605341247
+      },
+      "states": {
+        "WIN": 189,
+        "UNKNOWN_PARTICIPATION": 3,
+        "LOSS": 148,
+        "UNAVAILABLE_FORECAST": 22
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec",
+      "method": "P2_LAW",
+      "OVER": {
+        "selected": 79,
+        "wins": 43,
+        "losses": 35,
+        "decided": 78,
+        "rate": 0.5512820512820513
+      },
+      "UNDER": {
+        "selected": 261,
+        "wins": 146,
+        "losses": 113,
+        "decided": 259,
+        "rate": 0.5637065637065637
+      },
+      "COMBINED": {
+        "wins": 189,
+        "losses": 148,
+        "decided": 337,
+        "rate": 0.5608308605341247
+      },
+      "states": {
+        "WIN": 189,
+        "UNKNOWN_PARTICIPATION": 3,
+        "LOSS": 148,
+        "UNAVAILABLE_FORECAST": 22
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec",
+      "method": "P3_DIRECT",
+      "OVER": {
+        "selected": 66,
+        "wins": 39,
+        "losses": 26,
+        "decided": 65,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "selected": 274,
+        "wins": 155,
+        "losses": 117,
+        "decided": 272,
+        "rate": 0.5698529411764706
+      },
+      "COMBINED": {
+        "wins": 194,
+        "losses": 143,
+        "decided": 337,
+        "rate": 0.5756676557863502
+      },
+      "states": {
+        "WIN": 194,
+        "UNKNOWN_PARTICIPATION": 3,
+        "LOSS": 143,
+        "UNAVAILABLE_FORECAST": 22
+      },
+      "eligible": 362
+    },
+    {
+      "category": "rec_yd",
+      "method": "ALWAYS_OVER",
+      "OVER": {
+        "selected": 361,
+        "wins": 166,
+        "losses": 172,
+        "decided": 338,
+        "rate": 0.4911242603550296
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 166,
+        "losses": 172,
+        "decided": 338,
+        "rate": 0.4911242603550296
+      },
+      "states": {
+        "LOSS": 172,
+        "UNKNOWN_PARTICIPATION": 23,
+        "WIN": 166
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rec_yd",
+      "method": "ALWAYS_UNDER",
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 361,
+        "wins": 172,
+        "losses": 166,
+        "decided": 338,
+        "rate": 0.5088757396449705
+      },
+      "COMBINED": {
+        "wins": 172,
+        "losses": 166,
+        "decided": 338,
+        "rate": 0.5088757396449705
+      },
+      "states": {
+        "WIN": 172,
+        "UNKNOWN_PARTICIPATION": 23,
+        "LOSS": 166
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rec_yd",
+      "method": "P1_MEAN",
+      "OVER": {
+        "selected": 185,
+        "wins": 92,
+        "losses": 91,
+        "decided": 183,
+        "rate": 0.5027322404371585
+      },
+      "UNDER": {
+        "selected": 155,
+        "wins": 80,
+        "losses": 74,
+        "decided": 154,
+        "rate": 0.5194805194805194
+      },
+      "COMBINED": {
+        "wins": 172,
+        "losses": 165,
+        "decided": 337,
+        "rate": 0.5103857566765578
+      },
+      "states": {
+        "WIN": 172,
+        "LOSS": 165,
+        "UNKNOWN_PARTICIPATION": 3,
+        "UNAVAILABLE_FORECAST": 21
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rec_yd",
+      "method": "P1_MEDIAN",
+      "OVER": {
+        "selected": 86,
+        "wins": 44,
+        "losses": 40,
+        "decided": 84,
+        "rate": 0.5238095238095238
+      },
+      "UNDER": {
+        "selected": 254,
+        "wins": 131,
+        "losses": 122,
+        "decided": 253,
+        "rate": 0.5177865612648221
+      },
+      "COMBINED": {
+        "wins": 175,
+        "losses": 162,
+        "decided": 337,
+        "rate": 0.5192878338278932
+      },
+      "states": {
+        "WIN": 175,
+        "LOSS": 162,
+        "UNKNOWN_PARTICIPATION": 3,
+        "UNAVAILABLE_FORECAST": 21
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rec_yd",
+      "method": "P2_LAW",
+      "OVER": {
+        "selected": 86,
+        "wins": 44,
+        "losses": 40,
+        "decided": 84,
+        "rate": 0.5238095238095238
+      },
+      "UNDER": {
+        "selected": 254,
+        "wins": 131,
+        "losses": 122,
+        "decided": 253,
+        "rate": 0.5177865612648221
+      },
+      "COMBINED": {
+        "wins": 175,
+        "losses": 162,
+        "decided": 337,
+        "rate": 0.5192878338278932
+      },
+      "states": {
+        "WIN": 175,
+        "LOSS": 162,
+        "UNKNOWN_PARTICIPATION": 3,
+        "UNAVAILABLE_FORECAST": 21
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rec_yd",
+      "method": "P3_DIRECT",
+      "OVER": {
+        "selected": 86,
+        "wins": 45,
+        "losses": 40,
+        "decided": 85,
+        "rate": 0.5294117647058824
+      },
+      "UNDER": {
+        "selected": 254,
+        "wins": 131,
+        "losses": 121,
+        "decided": 252,
+        "rate": 0.5198412698412699
+      },
+      "COMBINED": {
+        "wins": 176,
+        "losses": 161,
+        "decided": 337,
+        "rate": 0.5222551928783383
+      },
+      "states": {
+        "WIN": 176,
+        "LOSS": 161,
+        "UNKNOWN_PARTICIPATION": 3,
+        "UNAVAILABLE_FORECAST": 21
+      },
+      "eligible": 361
+    },
+    {
+      "category": "rush_yd",
+      "method": "ALWAYS_OVER",
+      "OVER": {
+        "selected": 181,
+        "wins": 78,
+        "losses": 99,
+        "decided": 177,
+        "rate": 0.4406779661016949
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 78,
+        "losses": 99,
+        "decided": 177,
+        "rate": 0.4406779661016949
+      },
+      "states": {
+        "WIN": 78,
+        "LOSS": 99,
+        "UNKNOWN_PARTICIPATION": 4
+      },
+      "eligible": 181
+    },
+    {
+      "category": "rush_yd",
+      "method": "ALWAYS_UNDER",
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 181,
+        "wins": 99,
+        "losses": 78,
+        "decided": 177,
+        "rate": 0.559322033898305
+      },
+      "COMBINED": {
+        "wins": 99,
+        "losses": 78,
+        "decided": 177,
+        "rate": 0.559322033898305
+      },
+      "states": {
+        "LOSS": 78,
+        "WIN": 99,
+        "UNKNOWN_PARTICIPATION": 4
+      },
+      "eligible": 181
+    },
+    {
+      "category": "rush_yd",
+      "method": "P1_MEAN",
+      "OVER": {
+        "selected": 102,
+        "wins": 45,
+        "losses": 57,
+        "decided": 102,
+        "rate": 0.4411764705882353
+      },
+      "UNDER": {
+        "selected": 75,
+        "wins": 42,
+        "losses": 33,
+        "decided": 75,
+        "rate": 0.56
+      },
+      "COMBINED": {
+        "wins": 87,
+        "losses": 90,
+        "decided": 177,
+        "rate": 0.4915254237288136
+      },
+      "states": {
+        "WIN": 87,
+        "LOSS": 90,
+        "UNAVAILABLE_FORECAST": 4
+      },
+      "eligible": 181
+    },
+    {
+      "category": "rush_yd",
+      "method": "P1_MEDIAN",
+      "OVER": {
+        "selected": 53,
+        "wins": 23,
+        "losses": 30,
+        "decided": 53,
+        "rate": 0.4339622641509434
+      },
+      "UNDER": {
+        "selected": 124,
+        "wins": 69,
+        "losses": 55,
+        "decided": 124,
+        "rate": 0.5564516129032258
+      },
+      "COMBINED": {
+        "wins": 92,
+        "losses": 85,
+        "decided": 177,
+        "rate": 0.519774011299435
+      },
+      "states": {
+        "WIN": 92,
+        "LOSS": 85,
+        "UNAVAILABLE_FORECAST": 4
+      },
+      "eligible": 181
+    },
+    {
+      "category": "rush_yd",
+      "method": "P2_LAW",
+      "OVER": {
+        "selected": 53,
+        "wins": 23,
+        "losses": 30,
+        "decided": 53,
+        "rate": 0.4339622641509434
+      },
+      "UNDER": {
+        "selected": 124,
+        "wins": 69,
+        "losses": 55,
+        "decided": 124,
+        "rate": 0.5564516129032258
+      },
+      "COMBINED": {
+        "wins": 92,
+        "losses": 85,
+        "decided": 177,
+        "rate": 0.519774011299435
+      },
+      "states": {
+        "WIN": 92,
+        "LOSS": 85,
+        "UNAVAILABLE_FORECAST": 4
+      },
+      "eligible": 181
+    },
+    {
+      "category": "rush_yd",
+      "method": "P3_DIRECT",
+      "OVER": {
+        "selected": 15,
+        "wins": 10,
+        "losses": 5,
+        "decided": 15,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "selected": 162,
+        "wins": 94,
+        "losses": 68,
+        "decided": 162,
+        "rate": 0.5802469135802469
+      },
+      "COMBINED": {
+        "wins": 104,
+        "losses": 73,
+        "decided": 177,
+        "rate": 0.5875706214689266
+      },
+      "states": {
+        "WIN": 104,
+        "LOSS": 73,
+        "UNAVAILABLE_FORECAST": 4
+      },
+      "eligible": 181
+    }
+  ],
+  "proper_threshold_brier": [
+    {
+      "category": "pass_yd",
+      "method": "P2_LAW",
+      "n": 63,
+      "brier": 0.2772322788623978,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "pass_yd",
+      "method": "P3_DIRECT",
+      "n": 63,
+      "brier": 0.26392771609098187,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rec",
+      "method": "P2_LAW",
+      "n": 337,
+      "brier": 0.2664758862916817,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rec",
+      "method": "P3_DIRECT",
+      "n": 337,
+      "brier": 0.25986835229748334,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rec_yd",
+      "method": "P2_LAW",
+      "n": 337,
+      "brier": 0.26920274607250355,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rec_yd",
+      "method": "P3_DIRECT",
+      "n": 337,
+      "brier": 0.2676418289083688,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rush_yd",
+      "method": "P2_LAW",
+      "n": 177,
+      "brier": 0.26945095053237667,
+      "neutral_brier": 0.25
+    },
+    {
+      "category": "rush_yd",
+      "method": "P3_DIRECT",
+      "n": 177,
+      "brier": 0.25478750775855824,
+      "neutral_brier": 0.25
+    }
+  ],
+  "source_provider_comparison": {
+    "actual_agreements": 1784,
+    "statistical_grade_at_general_line_provider_disagreements": 48,
+    "statistical_grade_at_closing_point_provider_disagreements": 48,
+    "actual_comparison_unavailable": 152
+  },
+  "full_forest_inference_checks": [
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W02",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P2_LEAF-E0_OP-W03",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W02",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P2_LEAF-E0_OP-W03",
+      "trees": 32,
+      "mean_median_exact_probability": "PASS",
+      "source_outcome_and_future_NGS_mutation_invariance": "PASS"
+    }
+  ],
+  "exact_direct_model_checks": [
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P3_HGB-E0_OP-W02",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_yd-H-MULTI-P3_HGB-E0_OP-W03",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P3_HGB-E0_OP-W02",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rush_yd-H-MULTI-P3_HGB-E0_OP-W03",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P3_HGB-E0_OP-W02",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec_yd-H-MULTI-P3_HGB-E0_OP-W03",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P3_HGB-E0_OP-W02",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    },
+    {
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P3_HGB-E0_OP-W03",
+      "exact_actual_line_CDF": "PASS",
+      "outside_training_threshold_range": false
+    }
+  ],
+  "boundary_win_loss_examples": {
+    "LOSS": {
+      "offer_id": "PL7-d37bb6a6eb464aae1921f05c",
+      "category": "pass_yd",
+      "side": "UNDER",
+      "actual": 327,
+      "line": 258.5,
+      "status": "LOSS"
+    },
+    "WIN": {
+      "offer_id": "PL7-e897b3306206593bce5e0cd9",
+      "category": "rush_yd",
+      "side": "OVER",
+      "actual": 7,
+      "line": 0.5,
+      "status": "WIN"
+    },
+    "HALF_POINT_ADJACENT": {
+      "offer_id": "PL7-d6feefcf817b2006630792f5",
+      "category": "rec",
+      "side": "OVER",
+      "actual": 2,
+      "line": 1.5,
+      "status": "WIN"
+    }
+  },
+  "half_point_push_mass": "ZERO_FOR_ALL_SUPPORTED_PROBABILITIES",
+  "monotonicity": "ALL_RETAINED_P2_LAWS_PASS_LOCAL_THRESHOLD_CHECK",
+  "P3_synthetic_training": "NO_REAL_LINE_FITTING_OR_CALIBRATION; EXTRAPOLATION_FLAG_RETAINED",
+  "timing": "SAVED_KICKOFF_PREFIX_VS_EARLIER_RECORDED_CLOSE; TIMING_UNVERIFIED_DIAGNOSTIC",
+  "period": "DOCUMENTED_FULLGAME_WITH_C_OT_ASSUMPTION; BOOK_SETTLEMENT_UNVERIFIED",
+  "quote_age_seconds": {
+    "min": 58.136893,
+    "median": 6346.436649,
+    "max": 340603.47491
+  },
+  "side_clock_different_cases": 57,
+  "limitations": [
+    "Only2026Weeks2and3; fourcategories;32games; no persistent skill or fresh holdout claim.",
+    "Some source quotes are severaldaysold and57pairedcases have different side clocks.",
+    "Source license does not authenticate old quote freshness, issuance, or venue settlement.",
+    "Source/provider resolution is not treated as bookmaker settlement.",
+    "Served/deployed parity not checked by this receipt."
+  ],
+  "evidence_SHA256": {
+    "GRADED_ROWS.json": "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297",
+    "ELIGIBLE_OFFERS.json": "cb21ff96cc441c9beb8f51d5fd69b6ae15f97c95411a6f5bc02c4149ca4ab378",
+    "MODEL_REPLAY.json": "01f596f9c508c0f895dedd2a115ee76911e6202759208c0a3548e0aee5eaa0d0",
+    "propline_v7.py": "2e8b1557fc940b39c609941c9d33b262922b52a63e7eb8e226f8ecbad3df90dd",
+    "CORRECTIONS_GRADED_ROWS_V7_1.json": "a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817",
+    "SOURCE_ROLE_AUDIT_V7_1.json": "b9f34c57dde348fe90487ab71cfa5825be731eb8ec1bf49b4fe90ca643d5bcf4"
+  },
+  "initial_finding_and_correction": {
+    "original_issue": "Two exact-GSIS played-zero labels were hidden by the forecast-role population filter; one all-zero CB source row remains unknown.",
+    "corrected_offer_cases": 2,
+    "linked_grade_versions": 12,
+    "original_rows_preserved": true,
+    "forecasts_models_lines_and_selectors_unchanged": true,
+    "new_fits": 0,
+    "correction_verification": "PASS_ALL_LATEST_LABELS_AND_IMMUTABLE_SELECTION_FIELDS",
+    "original_plus_correction_versions": 5820
+  },
+  "source_provider_disagreement_examples": [
+    {
+      "offer_id": "PL7-4ce13aecbec641378b2adbbc",
+      "category": "rec_yd",
+      "side": "OVER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "lost"
+    },
+    {
+      "offer_id": "PL7-4ce13aecbec641378b2adbbc",
+      "category": "rec_yd",
+      "side": "UNDER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "won"
+    },
+    {
+      "offer_id": "PL7-e97db9301602714368c89f24",
+      "category": "rec",
+      "side": "OVER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "lost"
+    },
+    {
+      "offer_id": "PL7-e97db9301602714368c89f24",
+      "category": "rec",
+      "side": "UNDER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "won"
+    },
+    {
+      "offer_id": "PL7-01f47f21ab9ee89c1d6472c4",
+      "category": "rush_yd",
+      "side": "OVER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "lost"
+    },
+    {
+      "offer_id": "PL7-01f47f21ab9ee89c1d6472c4",
+      "category": "rush_yd",
+      "side": "UNDER",
+      "independent_actual": 0,
+      "provider_actual": null,
+      "provider_resolution": "void",
+      "statistical_result": "won"
+    }
+  ],
+  "source_provider_disagreement_cases": 24,
+  "source_provider_disagreement_interpretation": "All48disagreeing side rows are publisher VOID:23independentplayed-zero cases and1casewith16yards. Statistical appearance conditioning differs from publisher void evidence; no venue settlement/error/return claim.",
+  "adverse_result": {
+    "all_eight_threshold_briers_above_neutral": true,
+    "passing_yards_P2": {
+      "wins": 27,
+      "losses": 36,
+      "decided": 63
+    },
+    "passing_yards_P3": {
+      "wins": 26,
+      "losses": 37,
+      "decided": 63
+    },
+    "interpretation": "Higher overall P3 hitrate does not establish probability skill; pass_yd loses to P2 and both lose neutral Brier. No NGS information ablation in this actual-line wave."
+  },
+  "p3_extrapolated_offer_count": 0,
+  "P3_source_outcome_and_future_NGS_mutation_invariance": "PASS_ACTUAL_OFFER_WITH_ORIGINAL_HASH_PINNED_DIRECT_MODEL_AND_FEATURE_PACKET",
+  "common_914_decided_football_case_control_comparison": {
+    "P1_MEDIAN": {
+      "wins": 483,
+      "losses": 431,
+      "decided": 914,
+      "rate": 0.5284463894967177
+    },
+    "P1_MEAN": {
+      "wins": 459,
+      "losses": 455,
+      "decided": 914,
+      "rate": 0.5021881838074398
+    },
+    "P2_LAW": {
+      "wins": 483,
+      "losses": 431,
+      "decided": 914,
+      "rate": 0.5284463894967177
+    },
+    "P3_DIRECT": {
+      "wins": 500,
+      "losses": 414,
+      "decided": 914,
+      "rate": 0.5470459518599562
+    },
+    "ALWAYS_OVER": {
+      "wins": 438,
+      "losses": 476,
+      "decided": 914,
+      "rate": 0.47921225382932164
+    },
+    "ALWAYS_UNDER": {
+      "wins": 476,
+      "losses": 438,
+      "decided": 914,
+      "rate": 0.5207877461706784
+    }
+  }
+}

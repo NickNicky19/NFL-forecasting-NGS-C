@@ -1,0 +1,20 @@
+{
+  "software_test_suite": "python -m unittest discover -s tests -v",
+  "passed": 106,
+  "failed": 0,
+  "NFL_fits": 0,
+  "NFL_forecasts_from_tests": 0,
+  "additional_checks": [
+    "actual_accuracy_v6 validate5808canonical method rows",
+    "site_paper_v5 validate0paper rows",
+    "site_validate_v2 preserved840historical views",
+    "site_validate_forward_v4 preserved2513forecasts",
+    "prospective_v4 verify2immutable original packets",
+    "paper_v5 verify0packets",
+    "desktop/mobileactual-line rendered-row parity andChicagoDST",
+    "HTTP503andchecksumfailclosed",
+    "original8P2+8P3inferencesindependentlyverified",
+    "twoFBplayed-zeroappend-onlycorrections"
+  ],
+  "earlier_local_browser_failure": "Missing existing PLAYWRIGHT_BROWSERS_PATH setting, not a product defect. Corrected to the installed session browser directory; no new browser acquisition."
+}
