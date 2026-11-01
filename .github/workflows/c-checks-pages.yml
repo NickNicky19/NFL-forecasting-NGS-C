@@ -43,12 +43,16 @@ jobs:
       - run: node --check docs/app.js
       - if: ${{ hashFiles('docs/forward.js') != '' }}
         run: node --check docs/forward.js
+      - run: node --check docs/paper.js
+      - run: python src/site_paper_v5.py validate
       - run: python src/site_validate_v2.py
       - if: ${{ hashFiles('src/site_validate_forward_v4.py') != '' }}
         run: python src/site_validate_forward_v4.py
       - name: Verify immutable prospective captures
         if: ${{ hashFiles('src/prospective_v4.py') != '' }}
         run: python src/prospective_v4.py verify --root prospective
+      - name: Verify immutable paper captures
+        run: python src/paper_v5.py verify --root paper
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: checks

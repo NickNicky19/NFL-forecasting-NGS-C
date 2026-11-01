@@ -1,6 +1,8 @@
-# Session C active boundaries — authority v4
+# Session C active boundaries — authority v5 offer work package
 
 Read protocol/AUTHORITY_V2.md, protocol/FUTURE_AUTHORITY_V4.md and protocol/PROSPECTIVE_V4.json. The current deliverable includes genuinely future Week 8+ forecasts, readiness-qualified real-line paper selections and subsequent grading, alongside finite component research. Older research-only wording remains historical, not a prohibition on authorized qualified C paper publication. Previous instructions are preserved in history and Git.
+
+Also read protocol/ACTUAL_OFFER_AUTHORITY_V5.md and protocol/ACTUAL_OFFER_WORK_PACKAGE_V5.json. Actual-offer source qualification, exact historical line grading and new paper admission are now the primary package. Preserve accepted v4 forecasts and original issue/model/persistence evidence; no repeated fits or bundle intake. If no provider source qualifies, return a precise source-by-source resolution while completing independently useful grading/admission/site code. P1 direction does not require prices or a probability law. Existing coherence/participation restrictions remain.
 
 Write only NickNicky19/NFL-forecasting-NGS-C. A/B/original production are read-only: no file/workflow/lease/ledger/capture changes or job direction. C-only manual/commit testing and Pages merge/deployment are authorized after normal checks. No new repository/visibility change, force-push, paid acquisition/storage/API spend/signup, access-block evasion, wagers or betting execution. No new recurring collector, polling loop or scheduler.
 
