@@ -40,6 +40,7 @@ def source_rows():
             yield index,r
 def prepare(inputs,roster,event_schedule):
     """Source/identity/coverage only; does not read or rank prediction values."""
+    assert not (OUT/'ELIGIBLE_OFFERS.json').exists(),'FROZEN_INTAKE_EXISTS_USE_NEW_VERSION'
     import pandas as pd
     from data_v2 import load
     d,g,_=load(inputs);assert sha(inputs/'facts.csv.gz')=='9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11'
@@ -144,12 +145,13 @@ def predict_offer(offer,method,r=None,law=None,direct_item=None):
     elif method=='P3_DIRECT' and direct_item is not None:
         fitted,dr=direct_item;lo,hi,on_grid=thresholds_for_line(line,1);cp=fitted.cdfs(np.asarray([dr['features']],float),np.asarray([lo,hi]))[0];dp=dict(under=float(cp[0]),push=float(cp[1]-cp[0]),over=float(1-cp[1]));assert min(dp.values())>=-1e-12
         side='ABSTAIN' if abs(dp['over']-dp['under'])<=1e-12 else 'OVER' if dp['over']>dp['under'] else 'UNDER'
-        extra=dict(probability_line=line,**{'p_'+s:v for s,v in dp.items()},information_set_id=dr['slot']+':'+dr['game_id']+':'+dr['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json',real_line_calibration='NOT_FITTED',direct_training='SYNTHETIC_GRID',training_threshold_range=[float(min(fitted.thresholds)),float(max(fitted.thresholds))],outside_training_threshold_range=lo<min(fitted.thresholds) or hi>max(fitted.thresholds))
+        extra=dict(probability_line=line,**{'p_'+s:v for s,v in dp.items()},information_set_id=dr['slot']+':'+dr['game_id']+':'+dr['player_id'],probability_inference_evidence_reference='reports/propline-v7/MODEL_REPLAY.json',real_line_calibration='NOT_FITTED',direct_training='SYNTHETIC_GRID',training_threshold_range=[float(min(fitted.thresholds)),float(max(fitted.thresholds))],outside_training_threshold_range=bool(lo<min(fitted.thresholds) or hi>max(fitted.thresholds)))
     elif method.startswith('ALWAYS'):side='OVER' if method=='ALWAYS_OVER' else 'UNDER'
     return side,extra
 
 def evaluate(inputs):
     """Run the frozen population; outcome columns are used only after prediction."""
+    assert not (OUT/'GRADED_ROWS.json').exists(),'FROZEN_GRADES_EXIST_USE_NEW_VERSION'
     from data_v2 import load
     start=time.monotonic();assert sha(inputs/'facts.csv.gz')=='9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11'
     assert sha(inputs/'schedule.csv')=='5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0'
@@ -176,7 +178,7 @@ def evaluate(inputs):
             if method=='P3_DIRECT':row['method_version']='C-ALL12-LAW-THRESHOLD-v2.1/P3_HGB/H-MULTI/E0_OP/P3_DIRECT'
             validate_row(row);out.append(row)
     gzwrite(OUT/'MATCHED_SAVED_FORECASTS.json.gz',forecast_evidence);stable_write(OUT/'MODEL_REPLAY.json',dict(models=receipts,new_fits=0,matched_saved_forecasts=len(used),forecast_values_unchanged=True));stable_write(OUT/'PROVIDER_GRADE_COMPARISON.json',comparison)
-    paths=['sources/propline-v7/nfl_graded_props_14d.csv.gz','sources/propline-v7/card_pinned.md','sources/propline-v7/historical_identity_crosswalk.json.gz','reports/propline-v7/ELIGIBLE_OFFERS.json','reports/propline-v7/MODEL_REPLAY.json','reports/propline-v7/MATCHED_SAVED_FORECASTS.json.gz','artifacts/basic-football-facts-v2.1.zip']+[r['numeric_model_path'] for r in receipts if r['family']=='P2_LEAF']+sorted(set(r['source_archive'] for r in receipts))
+    paths=['sources/propline-v7/nfl_graded_props_14d.csv.gz','sources/propline-v7/card_pinned.md','sources/propline-v7/historical_identity_crosswalk.json.gz','sources/propline-v7/event_native_schedule.json.gz','reports/propline-v7/ELIGIBLE_OFFERS.json','reports/propline-v7/MODEL_REPLAY.json','reports/propline-v7/MATCHED_SAVED_FORECASTS.json.gz','artifacts/basic-football-facts-v2.1.zip']+[r['numeric_model_path'] for r in receipts if r['family']=='P2_LEAF']+sorted(set(r['source_archive'] for r in receipts))
     evidence=[dict(path=p,SHA256=sha(ROOT/p)) for p in paths]
     data=dict(schema='C-QUALIFIED-ACTUAL-PROP-ROWS-v6',source_review_id='C-PROPLINE-CCBY-SAMPLE-v7',retained_evidence=evidence,rows=out)
     stable_write(OUT/'GRADED_ROWS.json',data)

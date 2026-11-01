@@ -12,5 +12,18 @@
     "reason": "Frozen v2.1 schedule contains the game identity/time but not ESPN event IDs.",
     "resolution": "Cross-check identical game/team/date against existing v4 full schedule native-event IDs. Keep both immutable schedule source hashes; no inferred name joins.",
     "new_fits": 0
+  },
+  {
+    "stage": "SERIALIZE_GRADED_ROWS",
+    "code": "numpy.bool_ TypeError: Object of type bool is not JSON serializable",
+    "reason": "P3 threshold-range diagnostic flag retained a NumPy Boolean; all inference/grade validations passed but canonical graded rows were not written.",
+    "resolution": "Convert that diagnostic flag to builtin bool. No model/selector/line/mask/label change and no refit. Repeat inference only to recover unsaved failed-serialization output.",
+    "new_fits": 0,
+    "partial_output_SHA256": {
+      "MODEL_REPLAY.json": "01f596f9c508c0f895dedd2a115ee76911e6202759208c0a3548e0aee5eaa0d0",
+      "MATCHED_SAVED_FORECASTS.json.gz": "3c338a7b13f8a813bd54667d576f23dbf79805c6c50931c37c6c286755ff641e",
+      "PROVIDER_GRADE_COMPARISON.json": "c681b98e2bef3296896b8933134a41ee737f482bcb92c4cf27a59071308cdb1e"
+    },
+    "recorded_UTC": "2026-11-01T15:52:31.204054+00:00"
   }
 ]
