@@ -1,0 +1,132 @@
+{
+  "id": "C-INDEPENDENT-CODE-REVIEW-v5",
+  "observed_UTC": "2026-11-01T02:44:16.206114+00:00",
+  "verdict": "PASS_FOR_SOURCE_HELD_ADAPTER_AND_LOCAL_UI",
+  "scope": "Read-only C code/immutable-data review. Only explicit fictional software fixtures exercise positive offer, ranking and grading paths. No provider endpoints, actual-offer grading, model fits, source acquisition or C edits by verifier.",
+  "base_commit": "5930b8cbf535bc80ba9a0a16adb23cb67fe963b8",
+  "reviewed_files": {
+    "src/paper_v5.py": {
+      "SHA256": "3f4c604c4cf90123a3fce6ce186c2401a594f21b35cd76f224c2a7d1ea355e78",
+      "bytes": 29278
+    },
+    "src/site_paper_v5.py": {
+      "SHA256": "b5a5a193fa99b8b15878e7d115415e7c38d0164d7b7f867c0d7b6f715a0a84cc",
+      "bytes": 5082
+    },
+    "docs/paper.js": {
+      "SHA256": "b1afc2e08197d2a104775ea3f738a67c475a44188244b94d67db68f6b58c82a2",
+      "bytes": 7082
+    },
+    "tests/test_paper_v5.py": {
+      "SHA256": "ba14532b8c1f88d5ab1445524618ec56913f886dafdca1452347797c465294eb",
+      "bytes": 10737
+    },
+    ".github/workflows/c-checks-pages.yml": {
+      "SHA256": "44639d9b7b04a2349c808cfa305fa35d8090b4067c14af6a1f22deda81c6f790",
+      "bytes": 2511
+    },
+    "protocol/ACTUAL_OFFER_WORK_PACKAGE_V5.json": {
+      "SHA256": "5c7f14b98cd52f6352268f4e595553cbacebd2d4f3dd2e11456bdef8428e7c35",
+      "bytes": 4522
+    },
+    "protocol/OFFER_SOURCE_REGISTRY_V5.json": {
+      "SHA256": "881dd439d600d227f8e5184ccb4f783f981b4d3ddf10d69962955877b98ec06a",
+      "bytes": 1547
+    },
+    "docs/data/actual-props-v5.json": {
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "bytes": 5958
+    },
+    "docs/app.js": {
+      "SHA256": "91da7740c4d318d78953bbf666306733f1951c71fe929d4312f9a7d022b24d87",
+      "bytes": 18846
+    },
+    "docs/index.html": {
+      "SHA256": "e1ad2f568efdf8ad6a6927b4e686b3bc56c29ed8951de3de8c6671a2842c2274",
+      "bytes": 20624
+    },
+    "src/browser_qa_paper_v5.py": {
+      "SHA256": "44a2f77fbaa270a86e496b9d86d6ca0185504618c26bfab7b82f8896f883f685",
+      "bytes": 5564
+    }
+  },
+  "tests": {
+    "paper_unit_tests": 20,
+    "result": "PASS",
+    "node_paper_syntax": "PASS",
+    "site_projection_parity": "PASS:0 actual-offer rows",
+    "paper_packet_verifier": "PASS:0 paper packets",
+    "independent_forecast_binding_probes": [
+      "Latest receipt before cutoff chosen deterministically",
+      "Previously bound original forecast ID/point remains fixed after a later eligible revision",
+      "Future server receipt excluded at earlier cutoff"
+    ]
+  },
+  "independently_repeated_local_render": {
+    "result": "PASS",
+    "desktop_mobile": true,
+    "actual_offer_rows": 0,
+    "history_categories": 12,
+    "source_holds_visible": true,
+    "fictional_only_positive_paths": [
+      "exact_line_rendering",
+      "probability_ranking",
+      "price_mode_closed",
+      "automatic_TTL_expiry",
+      "open_detail_expiry",
+      "superseded_quote_suppression"
+    ],
+    "automatic_expiry_and_open_modal": true,
+    "superseded_quote_suppression": true,
+    "HTTP_failure_closed": true,
+    "price_aware_mode_closed": true,
+    "page_errors": [],
+    "transport": "Local staticHTTP; this check does not establish public deployment or nativeChromiumTLS"
+  },
+  "corrected_findings": [
+    "Chronological ISO instants replace lexicographic quote ordering",
+    "Permission qualification requires exactTrue; scope dictionaries require exactTrue values and malformed/string scopes fail",
+    "Historical typed points/laws bind to retained file hash and unique original row; altered point/point_type fails",
+    "Nullable median falls back to the verified typed point without requiring a law or prices",
+    "Display-only interval/focus/visibility refresh expires tables/rankings and open paper detail; no network collection",
+    "Exact lattice coordinate normalizes accepted floating representation noise; rawactual retained and fantasy0.30000000000000004 versus0.3 gradesPUSH"
+  ],
+  "additional_review": {
+    "source_gates": {
+      "LEGACY_ESPN_DK": [
+        "APPLICABLE_PROVIDER_GRANT_REQUIRED"
+      ],
+      "SLEEPER_PICKS": [
+        "PICKS_SPECIFIC_WRITTEN_APPROVAL_REQUIRED"
+      ]
+    },
+    "forecast_binding": "Original savedforecastIDs and cutoff used for validation, independent of later revisions",
+    "first_paper_snapshot": "Earliest qualified persisted case/venue/product snapshot retained; later revisions do not replace scoring snapshot",
+    "server_and_quote_timing": "Preparation cutoff, originalforecastissue, selectioncreation and GitHubserverpersistence remain distinct; quoteTTL and kickoffbuffer enforced; actualnewpaperreceiptnotyetexecuted",
+    "states": "Unavailable, intentionalabstention, DNP, unknown, validzero, signedyardage, missingactual andpush remain separate",
+    "probabilities": "Exactline laws; complementary/monotone fixtures; wholepush versushalfpoint/inclusiveevent cases checked",
+    "holds": "CMP/ATT contradiction orunchecked coherence, OUT/doubtful andchartlabelshadow remain blocked",
+    "workflow": "C-only commit/PR/manual verification andPages path; no new cron, collector, paid dependency, secret, wagering or otherproject mutation"
+  },
+  "v4_preservation": {
+    "files_checked": 74,
+    "forecast_chunks": 12,
+    "changed_files": [],
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "first_server_persisted_UTC": "2026-11-01T00:13:48Z",
+    "NFL_fits": 0
+  },
+  "limitations": [
+    "Neither source now has qualified offer analysis/publicretention permission. Applicable existing providergrant or approvedexport scope remains required.",
+    "No actualoffers admitted, selected, graded or used for NFL probability/selection skill results;20softwaretests are not20NFLexperiments.",
+    "No new public servedstate was asserted by this localprepublication audit. Exact servedcommit/asset parity remains a postdeployment check.",
+    "Historical full-line diagnostic results, authenticated original quoteclocks, executableentry quotes, settlement, payout/value and sixlegperformance remain unestablished.",
+    "Backward-compatible reviewed source amendments use retainedcanonical review digests; no real qualifiedgrant migration has yet been exercised."
+  ],
+  "actual_offer_admission": 0,
+  "actual_offer_grading": 0,
+  "new_NFL_fits": 0,
+  "provider_endpoint_calls": 0,
+  "raw_quote_values_in_this_receipt": false,
+  "unresolved_code_blockers": []
+}

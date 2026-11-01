@@ -1,0 +1,22 @@
+{
+  "id": "C-OFFER-SOURCE-REGISTRY-v5",
+  "sources": {
+    "LEGACY_ESPN_DK": {
+      "analysis_qualified": false,
+      "public_retention_qualified": false,
+      "state": "APPLICABLE_PROVIDER_GRANT_REQUIRED",
+      "evidence": "https://disneytermsofuse.com/english/",
+      "scope": "ESPN sports.core provider100 propBets. Current terms do not establish automated research/ML benchmarking or public quote-retention permission. Historical applicable grants remain unknown."
+    },
+    "SLEEPER_PICKS": {
+      "analysis_qualified": false,
+      "public_retention_qualified": false,
+      "state": "PICKS_SPECIFIC_WRITTEN_APPROVAL_REQUIRED",
+      "evidence": "https://support.sleeper.com/en/articles/5486620-general-terms-of-use",
+      "scope": "api.sleeper.app/lines/available is not the documented read-only Fantasy API. Fantasy API permission and account ownership do not establish Picks extraction/redistribution rights."
+    }
+  },
+  "admission": "A new source entry requires a reviewed public-safe provider grant/license/export authorization, exact evidence file/hash, scope and applicable dates. No arbitrary input flag enables a blocked provider. Fixtures can test code but cannot be admitted as NFL evidence.",
+  "retained_review_SHA256": {},
+  "review_retention": "Before changing a qualified source entry, retain its canonical review digest here, its permission bytes and original applicable scope. Later approved-export additions must not invalidate old paper bindings. Revocation/effective dates need explicit versioned handling."
+}

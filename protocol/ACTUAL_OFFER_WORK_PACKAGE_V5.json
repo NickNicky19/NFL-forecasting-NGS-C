@@ -1,0 +1,70 @@
+{
+  "id": "C-ACTUAL-OFFERS-v5",
+  "registered_before_any_offer_performance_inspection": true,
+  "preserve": "All v4 forecasts, model bytes, issue/server clocks, original predictions, failures and earlier experiments. No NFL fits or bundle reintake.",
+  "primary_package": "Trace actual recorded offers; execute historical exact-line grading only after source rights/identity/contracts qualify; complete current paper admission and site adapter independently.",
+  "historical_initial_subset": {
+    "selection_basis": "Pinned producer full W1-W7 weeks records, selected for107-game coverage and ten explicit market mappings before any result scoring.",
+    "repository": "NickNicky19/nicks-expert-nfl-picks",
+    "reference": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+    "paths": "output/data/weeks/2026_w01.json through2026_w07.json",
+    "candidate_line_views": 5066,
+    "initial_identity_subset": "All1843views with an explicit ESPN athlete ID agreeing with native GSIS/Sleeper/ESPN historical-week/team crosswalk; no outcome-based selection. Remaining3223 inherited identity paths stay distinct.",
+    "categories": [
+      "pass_yd",
+      "pass_td",
+      "pass_cmp",
+      "pass_att",
+      "pass_int",
+      "rush_yd",
+      "rush_att",
+      "rec",
+      "rec_yd",
+      "rush_rec_yd"
+    ],
+    "unsupported": {
+      "anytime_td": "Producer fixed0.5 is not a retained offer",
+      "fpts": "No genuine exact nick-chart-ppr-v1 market found"
+    },
+    "comparison": "Saved unrounded C P2_LEAF/H-MULTI/E0_OP medians and relevant frozen C0 point control on exact shared identities; means are a separate typed policy. No refits, probability law or price required for P1.",
+    "horizon": "Original saved C reconstruction cutoff; quote time unknown. At strongest, timing-unverified historical-line diagnostic until original timing evidence qualifies. A current-as-close label is not verified closing availability.",
+    "state": "BLOCKED_SOURCE_ANALYSIS_AND_RETENTION_PERMISSION; no offer performance graded"
+  },
+  "future": {
+    "selector": "P2_EXACT_LINE_SELECTOR-v4.1, plus separately typed P1 median reference",
+    "candidates": "Entire permission-cleared current input universe at declared cutoff; one venue/product/tier per ranking group; preserve technical unavailable and abstentions",
+    "duplicate_quotes": "Latest eligible observation per venue/product/offer_id before cutoff; conflicting identical-clock records or suspended/closed newer observations reject. No hindsight revision selection.",
+    "source_and_observation_max_age_seconds": 900,
+    "status_max_age_seconds": 1800,
+    "publication_buffer_seconds": 300,
+    "primary_snapshot": "First qualified server-persisted paper snapshot per player/game/category/venue/product/selector; later revisions immutable and separate",
+    "conditioning": "v4 physical/statistical participation; not starter/appearance/nonvoid probability. Current availability review required; OUT/doubtful and CMP/ATT coherence failures blocked; chart shadow blocked.",
+    "prices": "Optional for statistical directions; mandatory for value; no assumed prices",
+    "entry_quotes": "Not required for individual offers; required for executable six-leg payout claims. No forced entry.",
+    "proof": "C PR checks verify complete packet and bind exact successful GitHub run/head/file hashes before kickoff. Selection creation/persistence clocks are new, never borrowed from v4 forecast issuance.",
+    "acquisition": "Manual approved export only in this wave; no provider offer endpoint requests while permissions remain unqualified"
+  },
+  "budget": {
+    "NFL_fits": 0,
+    "new_synthetic_NFL_experiments": 0,
+    "model_refits": 0,
+    "bundle_reintakes": 0,
+    "offer_endpoint_calls": 0,
+    "maximum_packet_rows": 1000,
+    "maximum_packet_bytes": 2097152,
+    "new_public_artifacts_bytes": 16777216,
+    "whole_C_cache_bytes": 2684354560,
+    "recurring_jobs": 0,
+    "paid_calls": 0
+  },
+  "rights": "Public GitHub visibility, source tags and Nick's repository ownership do not grant upstream rights. Known source restrictions cannot be overridden by an unchecked boolean. Require applicable provider grant or approved export scope for analysis and minimal public immutable evidence retention.",
+  "registered_UTC": "2026-11-01T02:31:56.565121+00:00",
+  "implemented_commands": [
+    "paper_v5.py prepare",
+    "paper_v5.py receipt",
+    "paper_v5.py verify",
+    "paper_v5.py historical",
+    "paper_v5.py grade",
+    "site_paper_v5.py build/validate"
+  ]
+}

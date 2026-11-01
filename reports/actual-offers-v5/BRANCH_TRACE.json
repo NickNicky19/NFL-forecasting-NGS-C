@@ -1,0 +1,992 @@
+{
+  "id": "C-INDEPENDENT-BRANCH-TRACE-v5",
+  "observed_utc": "2026-11-01 02:29:15 UTC",
+  "scope": "Read-only GitHub source trace; metadata and structural counts only. No provider offer endpoint calls, model fits, source-row outcome grading, C repository edits, or publication.",
+  "repository": "NickNicky19/nicks-expert-nfl-picks",
+  "branches": [
+    {
+      "branch": "backup/pre-phase1-20261013-210e34329d6e",
+      "reference": "210e34329d6e5b42b4e8f1af768b63db75ec10c5",
+      "recursive_tree_complete": true,
+      "tree_entries": 74,
+      "blob_count": 62,
+      "explicit_2025_path_count": 18,
+      "explicit_2025_non_stat_cache_paths": [],
+      "interpretation": "Every explicit2025path is a statistics-cache file or its copy; this path-only search does not prove no unnamed artifact or other uninspected history contains2025offers.",
+      "top_level_2026_weeks_and_archive_paths": [
+        {
+          "path": "output/data/archive/2026_w04.json",
+          "git_blob_sha": "e71d045155c94cea448b2cc0cc58eb33eb0e3e0f",
+          "bytes": 359711
+        },
+        {
+          "path": "output/data/archive/2026_w05.json",
+          "git_blob_sha": "6a75ac606a95a09f2b84ef114226df1ed67b21a4",
+          "bytes": 356089
+        },
+        {
+          "path": "output/data/archive/2026_w06.json",
+          "git_blob_sha": "c0091135003b595a4547275567022e6e549e8e15",
+          "bytes": 338294
+        },
+        {
+          "path": "output/data/weeks/2026_w01.json",
+          "git_blob_sha": "9528a5ae8c23897909e3a525480c0b68edf1caa8",
+          "bytes": 108539
+        },
+        {
+          "path": "output/data/weeks/2026_w02.json",
+          "git_blob_sha": "18af8e4dfd758dd497302d28188ec1ad25da2233",
+          "bytes": 108615
+        },
+        {
+          "path": "output/data/weeks/2026_w03.json",
+          "git_blob_sha": "9dadea45d41010065357e4ea0bec8639d876eb2e",
+          "bytes": 108552
+        },
+        {
+          "path": "output/data/weeks/2026_w04.json",
+          "git_blob_sha": "ad4b6da47cb212bd3b285f8d2f090d9c8002f847",
+          "bytes": 106929
+        },
+        {
+          "path": "output/data/weeks/2026_w05.json",
+          "git_blob_sha": "03ad8626fd8884bc4dffb9d183f1f6c207fa1b85",
+          "bytes": 101773
+        }
+      ],
+      "capture_group_files": {},
+      "offer_capture_paths": [],
+      "offer_source_files": []
+    },
+    {
+      "branch": "upgrade/phase2-reproducible-comparison",
+      "reference": "81c3fc2a612ced916f4c54814f978c509058bca5",
+      "recursive_tree_complete": true,
+      "tree_entries": 937,
+      "blob_count": 854,
+      "explicit_2025_path_count": 90,
+      "explicit_2025_non_stat_cache_paths": [],
+      "interpretation": "Every explicit2025path is a statistics-cache file or its copy; this path-only search does not prove no unnamed artifact or other uninspected history contains2025offers.",
+      "top_level_2026_weeks_and_archive_paths": [
+        {
+          "path": "output/data/archive/2026_w04.json",
+          "git_blob_sha": "e71d045155c94cea448b2cc0cc58eb33eb0e3e0f",
+          "bytes": 359711
+        },
+        {
+          "path": "output/data/archive/2026_w05.json",
+          "git_blob_sha": "6a75ac606a95a09f2b84ef114226df1ed67b21a4",
+          "bytes": 356089
+        },
+        {
+          "path": "output/data/archive/2026_w06.json",
+          "git_blob_sha": "a9ed6c7e9704bb0987d57bc033964362f8dcb137",
+          "bytes": 349156
+        },
+        {
+          "path": "output/data/archive/2026_w07.json",
+          "git_blob_sha": "bc0e0e69e23d686ce1081bc7f2b5ce5bdf3b8588",
+          "bytes": 355241
+        },
+        {
+          "path": "output/data/weeks/2026_w01.json",
+          "git_blob_sha": "9528a5ae8c23897909e3a525480c0b68edf1caa8",
+          "bytes": 108539
+        },
+        {
+          "path": "output/data/weeks/2026_w02.json",
+          "git_blob_sha": "18af8e4dfd758dd497302d28188ec1ad25da2233",
+          "bytes": 108615
+        },
+        {
+          "path": "output/data/weeks/2026_w03.json",
+          "git_blob_sha": "9dadea45d41010065357e4ea0bec8639d876eb2e",
+          "bytes": 108552
+        },
+        {
+          "path": "output/data/weeks/2026_w04.json",
+          "git_blob_sha": "ad4b6da47cb212bd3b285f8d2f090d9c8002f847",
+          "bytes": 106929
+        },
+        {
+          "path": "output/data/weeks/2026_w05.json",
+          "git_blob_sha": "9e871f275660040560edfd77c1155ac2370a4e87",
+          "bytes": 102190
+        },
+        {
+          "path": "output/data/weeks/2026_w06.json",
+          "git_blob_sha": "b74d2d338723db2bfc9ca6991f4d38a646ffbee4",
+          "bytes": 95424
+        },
+        {
+          "path": "output/data/weeks/2026_w07.json",
+          "git_blob_sha": "0c1c2816e7b4e1ed883caef7cf7965bb8fcae2cf",
+          "bytes": 94771
+        }
+      ],
+      "capture_group_files": {
+        "current-classic/2026/w07": 2,
+        "current-classic/2026/w08": 1,
+        "forward/2026/w06": 341,
+        "forward/2026/w07": 93,
+        "offers/2026/w06": 3
+      },
+      "offer_capture_paths": [
+        {
+          "path": "data/offers/2026/w06/03a02bd7b3ae7cdce297da44345f8b13282c38e47238f3ac3d45a106332240ee.json.gz",
+          "git_blob_sha": "66a7ebf742b6557a5f93ee4b64c501bbcb3621a2",
+          "bytes": 58540
+        },
+        {
+          "path": "data/offers/2026/w06/2d54e96b294660fed7f7654ed0181a197e8f559afc58a7fbe4a5d18ed90fc30a.json.gz",
+          "git_blob_sha": "59ddc7cbac397ee7ab074be5cb9d50aaee31891d",
+          "bytes": 57712
+        },
+        {
+          "path": "data/offers/2026/w06/546c5a6cb3cdda36a9d8e9c765387e6bdba042f5fb07e67a3bed0685e98aec0c.json.gz",
+          "git_blob_sha": "da1e9f246c467864f7a3dae4f9b205de1d279c3a",
+          "bytes": 57271
+        }
+      ],
+      "offer_source_files": [
+        {
+          "path": "docs/OFFER_CAPTURE.md",
+          "git_blob_sha": "44ebfd5b0788c015b3b0bb5198739b07950cdd63",
+          "bytes": 3216
+        },
+        {
+          "path": "output/data/offer-capture.json",
+          "git_blob_sha": "3f0ef382de9d9ad15b6b69d07e364e5f3b0cf727",
+          "bytes": 203
+        },
+        {
+          "path": "tests/test_offers.py",
+          "git_blob_sha": "36e8bb28ae09efd68d2f8698d569be599aef7223",
+          "bytes": 6082
+        },
+        {
+          "path": "tools/offers.py",
+          "git_blob_sha": "5239439e197ea5f31d71d95cb628121c63ba638d",
+          "bytes": 9212
+        }
+      ]
+    },
+    {
+      "branch": "release/original-category-side-report-20261031",
+      "reference": "a3c0e26ad92583f1a8d26216298372b4f2c247db",
+      "recursive_tree_complete": true,
+      "tree_entries": 1226,
+      "blob_count": 1111,
+      "explicit_2025_path_count": 216,
+      "explicit_2025_non_stat_cache_paths": [],
+      "interpretation": "Every explicit2025path is a statistics-cache file or its copy; this path-only search does not prove no unnamed artifact or other uninspected history contains2025offers.",
+      "top_level_2026_weeks_and_archive_paths": [
+        {
+          "path": "output/data/archive/2026_w04.json",
+          "git_blob_sha": "e71d045155c94cea448b2cc0cc58eb33eb0e3e0f",
+          "bytes": 359711
+        },
+        {
+          "path": "output/data/archive/2026_w05.json",
+          "git_blob_sha": "6a75ac606a95a09f2b84ef114226df1ed67b21a4",
+          "bytes": 356089
+        },
+        {
+          "path": "output/data/archive/2026_w06.json",
+          "git_blob_sha": "a9ed6c7e9704bb0987d57bc033964362f8dcb137",
+          "bytes": 349156
+        },
+        {
+          "path": "output/data/archive/2026_w07.json",
+          "git_blob_sha": "bc0e0e69e23d686ce1081bc7f2b5ce5bdf3b8588",
+          "bytes": 355241
+        },
+        {
+          "path": "output/data/weeks/2026_w01.json",
+          "git_blob_sha": "9528a5ae8c23897909e3a525480c0b68edf1caa8",
+          "bytes": 108539
+        },
+        {
+          "path": "output/data/weeks/2026_w02.json",
+          "git_blob_sha": "18af8e4dfd758dd497302d28188ec1ad25da2233",
+          "bytes": 108615
+        },
+        {
+          "path": "output/data/weeks/2026_w03.json",
+          "git_blob_sha": "9dadea45d41010065357e4ea0bec8639d876eb2e",
+          "bytes": 108552
+        },
+        {
+          "path": "output/data/weeks/2026_w04.json",
+          "git_blob_sha": "ad4b6da47cb212bd3b285f8d2f090d9c8002f847",
+          "bytes": 106929
+        },
+        {
+          "path": "output/data/weeks/2026_w05.json",
+          "git_blob_sha": "9e871f275660040560edfd77c1155ac2370a4e87",
+          "bytes": 102190
+        },
+        {
+          "path": "output/data/weeks/2026_w06.json",
+          "git_blob_sha": "b74d2d338723db2bfc9ca6991f4d38a646ffbee4",
+          "bytes": 95424
+        },
+        {
+          "path": "output/data/weeks/2026_w07.json",
+          "git_blob_sha": "39c2ea99affa4ae747a284ce93f9395592b1ebd4",
+          "bytes": 94375
+        }
+      ],
+      "capture_group_files": {
+        "current-classic/2026/w07": 2,
+        "current-classic/2026/w08": 8,
+        "forward/2026/w06": 338,
+        "forward/2026/w07": 93
+      },
+      "offer_capture_paths": [],
+      "offer_source_files": []
+    },
+    {
+      "branch": "release/selected-issue-identities-20261031",
+      "reference": "332c8f1176b3194d69f78475e37d64b186566506",
+      "recursive_tree_complete": true,
+      "tree_entries": 1285,
+      "blob_count": 1162,
+      "explicit_2025_path_count": 234,
+      "explicit_2025_non_stat_cache_paths": [],
+      "interpretation": "Every explicit2025path is a statistics-cache file or its copy; this path-only search does not prove no unnamed artifact or other uninspected history contains2025offers.",
+      "top_level_2026_weeks_and_archive_paths": [
+        {
+          "path": "output/data/archive/2026_w04.json",
+          "git_blob_sha": "e71d045155c94cea448b2cc0cc58eb33eb0e3e0f",
+          "bytes": 359711
+        },
+        {
+          "path": "output/data/archive/2026_w05.json",
+          "git_blob_sha": "6a75ac606a95a09f2b84ef114226df1ed67b21a4",
+          "bytes": 356089
+        },
+        {
+          "path": "output/data/archive/2026_w06.json",
+          "git_blob_sha": "a9ed6c7e9704bb0987d57bc033964362f8dcb137",
+          "bytes": 349156
+        },
+        {
+          "path": "output/data/archive/2026_w07.json",
+          "git_blob_sha": "bc0e0e69e23d686ce1081bc7f2b5ce5bdf3b8588",
+          "bytes": 355241
+        },
+        {
+          "path": "output/data/weeks/2026_w01.json",
+          "git_blob_sha": "9528a5ae8c23897909e3a525480c0b68edf1caa8",
+          "bytes": 108539
+        },
+        {
+          "path": "output/data/weeks/2026_w02.json",
+          "git_blob_sha": "18af8e4dfd758dd497302d28188ec1ad25da2233",
+          "bytes": 108615
+        },
+        {
+          "path": "output/data/weeks/2026_w03.json",
+          "git_blob_sha": "9dadea45d41010065357e4ea0bec8639d876eb2e",
+          "bytes": 108552
+        },
+        {
+          "path": "output/data/weeks/2026_w04.json",
+          "git_blob_sha": "ad4b6da47cb212bd3b285f8d2f090d9c8002f847",
+          "bytes": 106929
+        },
+        {
+          "path": "output/data/weeks/2026_w05.json",
+          "git_blob_sha": "9e871f275660040560edfd77c1155ac2370a4e87",
+          "bytes": 102190
+        },
+        {
+          "path": "output/data/weeks/2026_w06.json",
+          "git_blob_sha": "b74d2d338723db2bfc9ca6991f4d38a646ffbee4",
+          "bytes": 95424
+        },
+        {
+          "path": "output/data/weeks/2026_w07.json",
+          "git_blob_sha": "39c2ea99affa4ae747a284ce93f9395592b1ebd4",
+          "bytes": 94375
+        }
+      ],
+      "capture_group_files": {
+        "current-classic/2026/w07": 2,
+        "current-classic/2026/w08": 9,
+        "forward/2026/w06": 338,
+        "forward/2026/w07": 93
+      },
+      "offer_capture_paths": [],
+      "offer_source_files": []
+    }
+  ],
+  "source_rights": {
+    "ESPN": {
+      "url": "https://disneytermsofuse.com/english/",
+      "terms_last_updated": "2024-05-24",
+      "sections": [
+        "2A",
+        "2B(x)"
+      ],
+      "state": "UNQUALIFIED_FOR_AUTOMATED_OFFER_RESEARCH_AND_PUBLIC_QUOTE_RETENTION_WITHOUT_APPLICABLE_PERMISSION"
+    },
+    "SLEEPER_PICKS": {
+      "url": "https://support.sleeper.com/en/articles/5486620-general-terms-of-use",
+      "terms_last_updated": "2026-10-06",
+      "sections": [
+        "9.2",
+        "11.1",
+        "11.3"
+      ],
+      "state": "PICKS_SPECIFIC_APPROVAL_FOR_RETRIEVAL_ANALYSIS_AND_PUBLIC_RETENTION_NOT_ESTABLISHED",
+      "fantasy_api_documentation": "https://docs.sleeper.com/",
+      "distinction": "Official free noncommercial read-only Fantasy API scope does not document lines/available or establish Picks quote redistribution."
+    },
+    "minimum_dependency": "Existing applicable provider grant or approved export authorization covering source/endpoints, research analysis, minimal immutable public quote/nativeID/line/side/lifecycle/clock evidence, downstream use and applicable dates; repository ownership/user account consent alone does not establish upstream authorization."
+  },
+  "timing_limits": [
+    "Retained collected_at is a claimed observation clock, not independently authenticated original GitHub persistence.",
+    "Provider updated_at is source-reported and expressly not verified quote freshness.",
+    "Rule URLs/content hashes do not establish accepted entry quotes or book settlement.",
+    "Current terms do not establish what older source licenses were."
+  ],
+  "comparison_preserved": "All scientific rows/models remain frozen; no performance interpretation from this structural trace.",
+  "pinned_main_inventory": {
+    "reference": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+    "archive_bytes": 31509270,
+    "archive_SHA256": "315c2227de519344459d243eec4b61557b8b8a572538e63f33f617db167889b6",
+    "paths": "output/data/weeks/2026_w01.json through2026_w07.json",
+    "games": 107,
+    "line_views": 5066,
+    "unique_week_game_player_category_keys": 5066,
+    "per_week": [
+      {
+        "week": 1,
+        "line_views": 753,
+        "native_ESPN_Sleeper_GSIS_views": 279
+      },
+      {
+        "week": 2,
+        "line_views": 738,
+        "native_ESPN_Sleeper_GSIS_views": 282
+      },
+      {
+        "week": 3,
+        "line_views": 740,
+        "native_ESPN_Sleeper_GSIS_views": 292
+      },
+      {
+        "week": 4,
+        "line_views": 764,
+        "native_ESPN_Sleeper_GSIS_views": 278
+      },
+      {
+        "week": 5,
+        "line_views": 699,
+        "native_ESPN_Sleeper_GSIS_views": 248
+      },
+      {
+        "week": 6,
+        "line_views": 705,
+        "native_ESPN_Sleeper_GSIS_views": 225
+      },
+      {
+        "week": 7,
+        "line_views": 667,
+        "native_ESPN_Sleeper_GSIS_views": 239
+      }
+    ],
+    "categories": {
+      "pass_yd": 214,
+      "pass_td": 214,
+      "pass_cmp": 214,
+      "pass_att": 214,
+      "pass_int": 214,
+      "rush_yd": 637,
+      "rush_att": 399,
+      "rec": 1319,
+      "rec_yd": 1330,
+      "rush_rec_yd": 311
+    },
+    "explicit_ESPN_native_matches": 1843,
+    "inherited_Sleeper_native_GSIS_only": 3223,
+    "historical_week_team_native_mapping_conflicts": 0,
+    "native_roster_source": "nflverse/nflverse-data weekly_rosters/roster_weekly_2026.csv.gz",
+    "roster_SHA256": "5b3be2d824fb79c9a1a2bc6278c2b03ef9cbc5bd3242eda9ad900928d4e13f26",
+    "join": "2026REG week/team/Sleeper ID to uniqueGSIS; explicit producer ESPN ID must agree when present; existing LAR\u2192LA franchise-code normalization; no name guessing",
+    "line_schema": "Scalar numerical lines by category; top-level season/week/games/players. Game kickoff exists. No per-line quote observation/persistence clock, provider/offer ID, lifecycle/side list or price retained in these week records.",
+    "timing": "Finished-week reconstruction queries confirmed-final games. Current renamedclose is not authenticated closing availability.",
+    "source_semantics": "Projection source=model/average is separate from line_from=dk/sleeper/ours. apply_book replaces line but preserves projection source.",
+    "anytime_td": "No genuine offered contract in these week line dictionaries; fixed0.5 in separate builder is not admitted.",
+    "fpts": "No exact nick-chart-ppr-v1 offered market in these week line dictionaries.",
+    "all_444_capture_inventory_files_hash_bytes_clock_rowcount_source_counts": "PASS against pinnedZIP; repeated source views are not independent outcomes",
+    "local_display_copy_correction": "Ten viewed local code/week copies each contain one extra trailing newline; content otherwise equals ZIP. The immutable ZIP bytes/hashes are authoritative."
+  },
+  "phase2_offer_capture": {
+    "reference": "81c3fc2a612ced916f4c54814f978c509058bca5",
+    "restoration": "Three gzipGitHub blobs restored and checked by nativeGitblobSHA1 and exactcanonicalpayloadSHA256. UTF8-onlyconnector could not returngzip; authenticatedread-onlyghGitblobAPI fallback used; no providerendpointcalls.",
+    "artifacts": [
+      {
+        "path": "data/offers/2026/w06/03a02bd7b3ae7cdce297da44345f8b13282c38e47238f3ac3d45a106332240ee.json.gz",
+        "git_blob_sha": "66a7ebf742b6557a5f93ee4b64c501bbcb3621a2",
+        "bytes": 58540,
+        "sha256": "b007e1927a18dd89c217fe81162979abcb572344c4c2c8a7ed96197cc5b4fc72",
+        "payload_sha256": "03a02bd7b3ae7cdce297da44345f8b13282c38e47238f3ac3d45a106332240ee",
+        "canonical_payload_hash_matches": true,
+        "collected_at": "2026-10-14T01:13:43.805087Z",
+        "season": 2026,
+        "week": 6,
+        "mode": "live",
+        "source": "https://api.sleeper.app/lines/available",
+        "source_status": "available",
+        "quote_freshness": "NOT_ESTABLISHED",
+        "licensing_scope": "commercial_or_expanded_use_not_established",
+        "rows": 1028,
+        "coverage": {
+          "no_offer": 862,
+          "complete_selection_capture": 166
+        },
+        "complete_category_sides": {
+          "rec/over": 54,
+          "rec/under": 54,
+          "rush_att/over": 12,
+          "rush_att/under": 12,
+          "pass_yd/over": 17,
+          "pass_yd/under": 17
+        },
+        "complete_unique_players": 73,
+        "complete_unique_espn_games": 10,
+        "complete_unique_source_games": 10,
+        "complete_source_ids_missing": {
+          "player_id": 0,
+          "source_game_id": 0,
+          "source_line_id": 0,
+          "source_market_type": 0
+        },
+        "complete_raw_option_keys": [
+          "game_id",
+          "game_status",
+          "line_id",
+          "line_type",
+          "market_type",
+          "metadata",
+          "outcome",
+          "outcome_type",
+          "outcome_value",
+          "payout_multiplier",
+          "season",
+          "season_type",
+          "sport",
+          "status",
+          "subject_id",
+          "subject_pos_rank",
+          "subject_position",
+          "subject_team",
+          "subject_type",
+          "wager_type"
+        ],
+        "complete_extra_row_keys": [
+          "contract",
+          "game_mapping_provenance",
+          "raw_option",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type"
+        ],
+        "source_timestamp_statuses": {
+          "source_reported_field_not_verified_quote_time": 166
+        },
+        "settlement_statuses": {
+          "NOT_VERIFIED": 1028
+        },
+        "complete_executable_entries": 0,
+        "complete_missing_information": {
+          "entry_format": 166,
+          "complete_entry_payout_table": 166,
+          "entry_context_and_acceptance": 166,
+          "entry_specific_settlement_binding": 166
+        },
+        "raw_scope_markets": 87,
+        "raw_options": 174,
+        "schema_issues": [],
+        "kickoff_min": "2026-10-16T00:15Z",
+        "kickoff_max": "2026-10-20T00:15Z",
+        "complete_before_kickoff": true,
+        "complete_row_fields": [
+          "category",
+          "collected_at",
+          "collection_status",
+          "contract",
+          "entry_economics_complete",
+          "expected_value",
+          "game_id",
+          "game_mapping_provenance",
+          "kickoff",
+          "line",
+          "missing_information",
+          "name",
+          "player_id",
+          "price_or_payout",
+          "raw_option",
+          "season",
+          "settlement_rule_provenance",
+          "settlement_status",
+          "side",
+          "source",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type",
+          "source_timestamp",
+          "team",
+          "week"
+        ],
+        "complete_game_mapping_keys": [
+          "date",
+          "game_id",
+          "last_modified",
+          "opponent",
+          "season",
+          "team",
+          "updated_at",
+          "week"
+        ],
+        "all_complete_have_raw_active_option": true,
+        "distinct_contract_scopes": [
+          [
+            "nfl",
+            "player",
+            "full_game_including_overtime",
+            "normal"
+          ]
+        ],
+        "rule_documents": [
+          {
+            "available_publication_date": "2026-02-13",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "c13fc6d362e93987e1b96ea783b1956d7b58d9722197c5d51aad3dcfc9f7474f",
+            "http_status": 200,
+            "id": "picks_rules",
+            "retrieved_at": "2026-10-14T00:24:04Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Rules",
+            "url": "https://support.sleeper.com/en/articles/9047931-sleeper-player-picks-rules"
+          },
+          {
+            "available_publication_date": "2026-03-06",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "9f70abc9648089e2ecddd34361f3ccb86379a2ecd3031c79711b755b3042d772",
+            "http_status": 200,
+            "id": "nfl_injury_insurance",
+            "retrieved_at": "2026-10-14T00:24:09Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "NFL Injury Insurance",
+            "url": "https://support.sleeper.com/en/articles/9869560-nfl-injury-insurance"
+          },
+          {
+            "available_publication_date": null,
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "818e59f8782cd68a6acdb890858217476770e249798a226684adccd4322c670d",
+            "http_status": 200,
+            "id": "picks_stats",
+            "retrieved_at": "2026-10-14T00:24:21Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Stats Explained",
+            "url": "https://support.sleeper.com/en/articles/6262990-sleeper-player-picks-stats-explained"
+          }
+        ]
+      },
+      {
+        "path": "data/offers/2026/w06/2d54e96b294660fed7f7654ed0181a197e8f559afc58a7fbe4a5d18ed90fc30a.json.gz",
+        "git_blob_sha": "59ddc7cbac397ee7ab074be5cb9d50aaee31891d",
+        "bytes": 57712,
+        "sha256": "960e6e0d08c3ce90bd15da648c2a4f2d0f20b2a418eac586cf61e966a86e644f",
+        "payload_sha256": "2d54e96b294660fed7f7654ed0181a197e8f559afc58a7fbe4a5d18ed90fc30a",
+        "canonical_payload_hash_matches": true,
+        "collected_at": "2026-10-14T00:53:59.650118Z",
+        "season": 2026,
+        "week": 6,
+        "mode": "live",
+        "source": "https://api.sleeper.app/lines/available",
+        "source_status": "available",
+        "quote_freshness": "NOT_ESTABLISHED",
+        "licensing_scope": "commercial_or_expanded_use_not_established",
+        "rows": 1028,
+        "coverage": {
+          "no_offer": 870,
+          "complete_selection_capture": 158
+        },
+        "complete_category_sides": {
+          "rec/over": 51,
+          "rec/under": 51,
+          "rush_att/over": 12,
+          "rush_att/under": 12,
+          "pass_yd/over": 16,
+          "pass_yd/under": 16
+        },
+        "complete_unique_players": 69,
+        "complete_unique_espn_games": 8,
+        "complete_unique_source_games": 8,
+        "complete_source_ids_missing": {
+          "player_id": 0,
+          "source_game_id": 0,
+          "source_line_id": 0,
+          "source_market_type": 0
+        },
+        "complete_raw_option_keys": [
+          "game_id",
+          "game_status",
+          "line_id",
+          "line_type",
+          "market_type",
+          "metadata",
+          "outcome",
+          "outcome_type",
+          "outcome_value",
+          "payout_multiplier",
+          "season",
+          "season_type",
+          "sport",
+          "status",
+          "subject_id",
+          "subject_pos_rank",
+          "subject_position",
+          "subject_team",
+          "subject_type",
+          "wager_type"
+        ],
+        "complete_extra_row_keys": [
+          "contract",
+          "game_mapping_provenance",
+          "raw_option",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type"
+        ],
+        "source_timestamp_statuses": {
+          "source_reported_field_not_verified_quote_time": 158
+        },
+        "settlement_statuses": {
+          "NOT_VERIFIED": 1028
+        },
+        "complete_executable_entries": 0,
+        "complete_missing_information": {
+          "entry_format": 158,
+          "complete_entry_payout_table": 158,
+          "entry_context_and_acceptance": 158,
+          "entry_specific_settlement_binding": 158
+        },
+        "raw_scope_markets": 83,
+        "raw_options": 166,
+        "schema_issues": [],
+        "kickoff_min": "2026-10-16T00:15Z",
+        "kickoff_max": "2026-10-20T00:15Z",
+        "complete_before_kickoff": true,
+        "complete_row_fields": [
+          "category",
+          "collected_at",
+          "collection_status",
+          "contract",
+          "entry_economics_complete",
+          "expected_value",
+          "game_id",
+          "game_mapping_provenance",
+          "kickoff",
+          "line",
+          "missing_information",
+          "name",
+          "player_id",
+          "price_or_payout",
+          "raw_option",
+          "season",
+          "settlement_rule_provenance",
+          "settlement_status",
+          "side",
+          "source",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type",
+          "source_timestamp",
+          "team",
+          "week"
+        ],
+        "complete_game_mapping_keys": [
+          "date",
+          "game_id",
+          "last_modified",
+          "opponent",
+          "season",
+          "team",
+          "updated_at",
+          "week"
+        ],
+        "all_complete_have_raw_active_option": true,
+        "distinct_contract_scopes": [
+          [
+            "nfl",
+            "player",
+            "full_game_including_overtime",
+            "normal"
+          ]
+        ],
+        "rule_documents": [
+          {
+            "available_publication_date": "2026-02-13",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "c13fc6d362e93987e1b96ea783b1956d7b58d9722197c5d51aad3dcfc9f7474f",
+            "http_status": 200,
+            "id": "picks_rules",
+            "retrieved_at": "2026-10-14T00:24:04Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Rules",
+            "url": "https://support.sleeper.com/en/articles/9047931-sleeper-player-picks-rules"
+          },
+          {
+            "available_publication_date": "2026-03-06",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "9f70abc9648089e2ecddd34361f3ccb86379a2ecd3031c79711b755b3042d772",
+            "http_status": 200,
+            "id": "nfl_injury_insurance",
+            "retrieved_at": "2026-10-14T00:24:09Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "NFL Injury Insurance",
+            "url": "https://support.sleeper.com/en/articles/9869560-nfl-injury-insurance"
+          },
+          {
+            "available_publication_date": null,
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "818e59f8782cd68a6acdb890858217476770e249798a226684adccd4322c670d",
+            "http_status": 200,
+            "id": "picks_stats",
+            "retrieved_at": "2026-10-14T00:24:21Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Stats Explained",
+            "url": "https://support.sleeper.com/en/articles/6262990-sleeper-player-picks-stats-explained"
+          }
+        ]
+      },
+      {
+        "path": "data/offers/2026/w06/546c5a6cb3cdda36a9d8e9c765387e6bdba042f5fb07e67a3bed0685e98aec0c.json.gz",
+        "git_blob_sha": "da1e9f246c467864f7a3dae4f9b205de1d279c3a",
+        "bytes": 57271,
+        "sha256": "20754e4a1376d3f8c3761be4b43eb51ddfb2d6ee6d481ba87abd3650863f00b1",
+        "payload_sha256": "546c5a6cb3cdda36a9d8e9c765387e6bdba042f5fb07e67a3bed0685e98aec0c",
+        "canonical_payload_hash_matches": true,
+        "collected_at": "2026-10-14T00:48:04Z",
+        "season": 2026,
+        "week": 6,
+        "mode": "live",
+        "source": "https://api.sleeper.app/lines/available",
+        "source_status": "available",
+        "quote_freshness": "NOT_ESTABLISHED",
+        "licensing_scope": "commercial_or_expanded_use_not_established",
+        "rows": 1028,
+        "coverage": {
+          "no_offer": 870,
+          "complete_selection_capture": 158
+        },
+        "complete_category_sides": {
+          "rec/over": 51,
+          "rec/under": 51,
+          "rush_att/over": 12,
+          "rush_att/under": 12,
+          "pass_yd/over": 16,
+          "pass_yd/under": 16
+        },
+        "complete_unique_players": 69,
+        "complete_unique_espn_games": 8,
+        "complete_unique_source_games": 8,
+        "complete_source_ids_missing": {
+          "player_id": 0,
+          "source_game_id": 0,
+          "source_line_id": 0,
+          "source_market_type": 0
+        },
+        "complete_raw_option_keys": [
+          "game_id",
+          "game_status",
+          "line_id",
+          "line_type",
+          "market_type",
+          "metadata",
+          "outcome",
+          "outcome_type",
+          "outcome_value",
+          "payout_multiplier",
+          "season",
+          "season_type",
+          "sport",
+          "status",
+          "subject_id",
+          "subject_pos_rank",
+          "subject_position",
+          "subject_team",
+          "subject_type",
+          "wager_type"
+        ],
+        "complete_extra_row_keys": [
+          "contract",
+          "game_mapping_provenance",
+          "raw_option",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type"
+        ],
+        "source_timestamp_statuses": {
+          "source_reported_field_not_verified_quote_time": 158
+        },
+        "settlement_statuses": {
+          "NOT_VERIFIED": 1028
+        },
+        "complete_executable_entries": 0,
+        "complete_missing_information": {
+          "entry_format": 158,
+          "complete_entry_payout_table": 158,
+          "entry_context_and_acceptance": 158,
+          "entry_specific_settlement_binding": 158
+        },
+        "raw_scope_markets": 83,
+        "raw_options": 166,
+        "schema_issues": [],
+        "kickoff_min": "2026-10-16T00:15Z",
+        "kickoff_max": "2026-10-20T00:15Z",
+        "complete_before_kickoff": true,
+        "complete_row_fields": [
+          "category",
+          "collected_at",
+          "collection_status",
+          "contract",
+          "entry_economics_complete",
+          "expected_value",
+          "game_id",
+          "game_mapping_provenance",
+          "kickoff",
+          "line",
+          "missing_information",
+          "name",
+          "player_id",
+          "price_or_payout",
+          "raw_option",
+          "season",
+          "settlement_rule_provenance",
+          "settlement_status",
+          "side",
+          "source",
+          "source_game_id",
+          "source_line_id",
+          "source_market_type",
+          "source_timestamp",
+          "team",
+          "week"
+        ],
+        "complete_game_mapping_keys": [
+          "date",
+          "game_id",
+          "last_modified",
+          "opponent",
+          "season",
+          "team",
+          "updated_at",
+          "week"
+        ],
+        "all_complete_have_raw_active_option": true,
+        "distinct_contract_scopes": [
+          [
+            "nfl",
+            "player",
+            "full_game_including_overtime",
+            "normal"
+          ]
+        ],
+        "rule_documents": [
+          {
+            "available_publication_date": "2026-02-13",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "c13fc6d362e93987e1b96ea783b1956d7b58d9722197c5d51aad3dcfc9f7474f",
+            "http_status": 200,
+            "id": "picks_rules",
+            "retrieved_at": "2026-10-14T00:24:04Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Rules",
+            "url": "https://support.sleeper.com/en/articles/9047931-sleeper-player-picks-rules"
+          },
+          {
+            "available_publication_date": "2026-03-06",
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "9f70abc9648089e2ecddd34361f3ccb86379a2ecd3031c79711b755b3042d772",
+            "http_status": 200,
+            "id": "nfl_injury_insurance",
+            "retrieved_at": "2026-10-14T00:24:09Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "NFL Injury Insurance",
+            "url": "https://support.sleeper.com/en/articles/9869560-nfl-injury-insurance"
+          },
+          {
+            "available_publication_date": null,
+            "binding_to_a_specific_entry": "NOT_VERIFIED",
+            "content_sha256": "818e59f8782cd68a6acdb890858217476770e249798a226684adccd4322c670d",
+            "http_status": 200,
+            "id": "picks_stats",
+            "retrieved_at": "2026-10-14T00:24:21Z",
+            "scope": "Sleeper_Player_Picks_NFL_not_NFL_SZN",
+            "title": "Sleeper Player Picks Stats Explained",
+            "url": "https://support.sleeper.com/en/articles/6262990-sleeper-player-picks-stats-explained"
+          }
+        ]
+      }
+    ],
+    "independent_structural_checks": {
+      "complete_option_raw_market_membership_and_active_status": "PASS all3captures",
+      "source_option_vs_normalized_line_side_multiplier_identity": "PASS all3captures; values not published in this receipt",
+      "native_historical_GSIS_Sleeper_week_team_and_position": "PASS allcomplete rows,0conflicts",
+      "source_game_id_vs_current_week_projection_crosswalk": "PASS allcomplete rows; projection-based crosswalk preserved as its actual tier",
+      "paired_sides_same_line": "PASS all3captures; oneOver and oneUnder per player/game/category,0line conflicts",
+      "all_claimed_collection_clocks_before_retained_kickoff": "PASS, earliestkickoff2026-10-16T00:15Z latest2026-10-20T00:15Z",
+      "source_reported_field_age_seconds_by_collection": {
+        "2026-10-14T00:48:04Z": [
+          62.0,
+          63961.0
+        ],
+        "2026-10-14T00:53:59.650118Z": [
+          417.112118,
+          64316.544118
+        ],
+        "2026-10-14T01:13:43.805087Z": [
+          281.289087,
+          65500.699087
+        ]
+      },
+      "source_age_interpretation": "Ranges measure source-reported updated_at only; no quote-freshness inference.",
+      "latest_role_sides": {
+        "rec/RB": {
+          "over": 11,
+          "under": 11
+        },
+        "rec/WR": {
+          "over": 29,
+          "under": 29
+        },
+        "rec/TE": {
+          "over": 14,
+          "under": 14
+        },
+        "rush_att/RB": {
+          "over": 12,
+          "under": 12
+        },
+        "pass_yd/QB": {
+          "over": 17,
+          "under": 17
+        }
+      },
+      "unique_independent_sample": "Latest166side rows are83player/category pairs across73players/10games. Earlier snapshots overlap; do not sum them as independent markets/outcomes.",
+      "raw_full_response_hash": "Unverified from target-scope subset alone. Canonical retainedpayloadhashes do verify retained bytes; full-response digest is a separate claim.",
+      "period_scope": "Normalized full_game_including_overtime comes from stated rule scope/market-type mapping, not a retained explicit sourceperiod field.",
+      "rights": "Not qualified; source doc explicitly says expanded/commercial licensing not established, which does not itself authorize noncommercialpublicredistribution.",
+      "entry_and_settlement": "Zero executableentries; everyrow NOT_VERIFIEDsettlement. No sixleg/payout/EV/ROI or originalgradedselection claim.",
+      "performance": "No source-row grading, model fits, offers publication or NFL selection performance inspection performed."
+    }
+  }
+}
