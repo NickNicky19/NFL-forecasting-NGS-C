@@ -70,3 +70,7 @@ No new information earned model inclusion in this zero-fit package. Numerical, p
 The next finite wave is one applicable existing provider grant/export review, saved P1 grading on the frozen qualified population, exact-law inference where per-origin retained laws/models qualify, then a fresh independently qualified current subset with new pregame GitHub receipts. No completed NFL fit or broad synthetic experiment is needed. The source resolution names the concrete Week6 files; Nick does not need to construct a new CSV. Rights alone will not recover missing historical clocks.
 
 No category advances as an established real-prop improvement. The software adapter can be reviewed separately. The original future forecasts remain available for honest later official grading; zero new paper selections are unavailable inputs, not confidence abstentions.
+
+## Publication receipt appended
+
+PR9 merged and deploy41266626822 succeeded. Exact public asset commit **94cc87079f791af357d8df033eee3158d1883a6d** was independently served-verified at2026-11-01T02:51:54Z. All22checked assets/all12forecast categories match. The exact-offer dataset contains0real offers and0paper selections; source holds remain visible. [Publication](PUBLICATION.json) · [public checks](served/PUBLIC_SERVED.json) · [independent public verdict](INDEPENDENT_PUBLIC.json) · [fresh108-file restoration](GITHUB_RESTORE.json). Receipt-only repository commits do not change that served asset.

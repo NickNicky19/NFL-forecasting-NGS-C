@@ -1,0 +1,178 @@
+{
+  "id": "C-INDEPENDENT-PUBLIC-VERDICT-v5",
+  "observed_UTC": "2026-11-01T02:51:54.624454+00:00",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "94cc87079f791af357d8df033eee3158d1883a6d",
+  "public_build_UTC": "2026-11-01T02:48:37.418214+00:00",
+  "build_stable_before_after": true,
+  "website_state": "SERVED_VERIFIED_SOURCE_HELD_ADAPTER",
+  "exact_public_assets": 22,
+  "rendered_public_responses": 72,
+  "rendered_response_bytes": 42417061,
+  "normal_rendered_HTTP_status_counts": {
+    "200": 72
+  },
+  "all_recorded_responses_system_TLS_verified": true,
+  "core_asset_SHA256": {
+    "index.html": "e1ad2f568efdf8ad6a6927b4e686b3bc56c29ed8951de3de8c6671a2842c2274",
+    "app.js": "91da7740c4d318d78953bbf666306733f1951c71fe929d4312f9a7d022b24d87",
+    "forward.js": "79fa267bc690195ad08df529b3fdb18722d351db45cd0ba963f048d9ff5a0508",
+    "paper.js": "b1afc2e08197d2a104775ea3f738a67c475a44188244b94d67db68f6b58c82a2",
+    "data/forward-manifest.json": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "data/actual-props-v5.json": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f"
+  },
+  "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+  "actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+  "first_original_v4_server_UTC": "2026-11-01T00:13:48Z",
+  "forward_rendered_categories": [
+    {
+      "category": "pass_yd",
+      "rows": 71,
+      "representative_forecast_id": "615baec155c15f56bbf36ae4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "rows": 71,
+      "representative_forecast_id": "c6948e66dcc01abe97ed8d25",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "rows": 71,
+      "representative_forecast_id": "8d51b0c5424e715b24718b6c",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "rows": 71,
+      "representative_forecast_id": "5fdfab19c32004f20b556155",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "rows": 71,
+      "representative_forecast_id": "5c2557b7da45ea42ac11d7f4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "rows": 168,
+      "representative_forecast_id": "8ef7c7bde2b4df6bd54695ef",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "rows": 168,
+      "representative_forecast_id": "0b864576ab398e0a16dcdb89",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "rows": 336,
+      "representative_forecast_id": "35abd968856cc8bef74ebc59",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "61229ac21afa6561a3683d75",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "9d9e5880af48234c14e8dd94",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "rows": 407,
+      "representative_forecast_id": "521e40a68ad3c62045109d4b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "rows": 407,
+      "representative_forecast_id": "17085fac0c196c7886ef3be9",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": true,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop_mobile": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "source_holds_visible": true,
+  "actual_offer_rows": 0,
+  "history_categories": 12,
+  "fictional_only_positive_UI_paths": [
+    "exact_line_rendering",
+    "probability_ranking",
+    "price_mode_closed",
+    "automatic_TTL_expiry",
+    "open_detail_expiry",
+    "superseded_quote_suppression"
+  ],
+  "page_errors": [],
+  "preservation": {
+    "observed_UTC": "2026-11-01T02:51:09.405796+00:00",
+    "original_anchor": "5930b8cbf535bc80ba9a0a16adb23cb67fe963b8",
+    "current_HEAD": "94cc87079f791af357d8df033eee3158d1883a6d",
+    "v4_original_file_count": 74,
+    "forecast_categories": 12,
+    "v4_changed_paths": [],
+    "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+    "first_v4_server_clock": "2026-11-01T00:13:48Z",
+    "actual_offer_records": 0,
+    "paper_packets": 0,
+    "paper_receipts": 0,
+    "source_holds": {
+      "LEGACY_ESPN_DK": {
+        "analysis_qualified": false,
+        "public_retention_qualified": false,
+        "state": "APPLICABLE_PROVIDER_GRANT_REQUIRED"
+      },
+      "SLEEPER_PICKS": {
+        "analysis_qualified": false,
+        "public_retention_qualified": false,
+        "state": "PICKS_SPECIFIC_WRITTEN_APPROVAL_REQUIRED"
+      }
+    },
+    "NFL_fits": 0,
+    "actual_offer_grading": 0,
+    "original_public_v4_anchor": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+    "original_public_v4_changed_paths": []
+  },
+  "transport_scope": {
+    "system_HTTPS_certificate_validation": true,
+    "TLS_checks_disabled": false,
+    "native_Chromium_TLS_validated": false,
+    "description": "Actual C public responses rendered through the verified-system-HTTPS bridge because managedChromium native proxyCA trust is unavailable. Normal requests do not use local fixtures; fault injections and explicitly fictional positiveoffer/UI fixtures are separate software checks."
+  },
+  "NFL_fits": 0,
+  "actual_offer_grading": 0,
+  "provider_endpoint_calls": 0,
+  "quotes_or_forecasts_refreshed": false,
+  "conclusion": "SERVED_VERIFIED_SOURCE_HELD_ADAPTER; no new realoffer or predictiveimprovement claim"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "C-NEXT-EXACT-OFFER-WAVE-v5.1",
+  "registered_UTC": "2026-11-01T02:49:59.231928+00:00",
+  "registered_before_any_actual_offer_performance": true,
+  "model_fits": 0,
+  "source_routes": [
+    "Existing applicable Sleeper grant for phase2 offer-capture bytes",
+    "Alternative applicable ESPN grant for pinned W1-W7 records"
+  ],
+  "no_new_provider_calls_before_qualification": true,
+  "initial_Sleeper_subset": {
+    "reference": "81c3fc2a612ced916f4c54814f978c509058bca5",
+    "paths": "data/offers/2026/w06/*.json.gz; three enumerated hashes in BRANCH_TRACE.json",
+    "membership": "First chronologically retained structurally complete active/pre_game/normal Over/Under pair per native player/game/category/period/comparator; 83pairs maximum across all3captures; repeated revisions retained separately",
+    "snapshot_tie_break": "Collection instant then canonical payload SHA then native offer ID, without outcomes",
+    "candidate_universe": "Retain latest1028candidate-side/no-offer coverage ledger separately; source permissions and historical clocks do not strengthen by import",
+    "timing": "TIMING_UNVERIFIED_HISTORICAL_DIAGNOSTIC until independent publication/quote timing qualifies; no authenticated pregame claim",
+    "categories": [
+      "pass_yd",
+      "rush_att",
+      "rec"
+    ],
+    "comparators": [
+      "SavedP2_LEAF/H-MULTI/E0_OP unrounded median P1",
+      "Exact earlier-origin saved full law where bytes qualify; no nearest-grid substitution"
+    ],
+    "selection": "Own sides separately; equality/tie abstain; offered sides only"
+  },
+  "ESPN_subset": "All1843preselected explicit ESPN views from registered W1-W7 panel; keep1807C identity matches and36missing C cases; remaining3223inherited mapping views separate",
+  "future": "Fresh permission-cleared quote/status/availability snapshot, original admitted v4 law, new decision/creation/server clocks before kickoff; all12remain queued; no forced selections/entry",
+  "initial_budget": {
+    "approved_export_sources": 1,
+    "maximum_normalized_offer_rows": 1000,
+    "maximum_packet_bytes": 2097152,
+    "new_NFL_fits": 0,
+    "new_synthetic_experiments": 0,
+    "paid_calls": 0
+  },
+  "unblocked_independent_work": "Maintain source-held adapter/site and grade original forecast snapshots only after official final outcomes/appearance qualify"
+}
