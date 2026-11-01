@@ -231,6 +231,19 @@
     "fpts": "Exact nick-chart-ppr-v1 target; correct labels only on qualified rare-zero subset. Forward output is explicitly experimental label-coverage-limited shadow, not admitted full-tail/offer probability."
   },
   "real_offer_accuracy_established": false,
-  "website_state": "PREPARED_LOCAL_QA_PASS_NOT_YET_DEPLOYED",
-  "previous_evidence": "C0/C1/C2,ALL12-v2.1,v3 frozen; no old fits rerun"
+  "website_state": "SERVED_VERIFIED_C_ONLY",
+  "previous_evidence": "C0/C1/C2,ALL12-v2.1,v3 frozen; no old fits rerun",
+  "website_asset_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+  "publication_receipt": "PUBLICATION.json",
+  "publication_history": [
+    {
+      "state": "PREPARED_LOCAL_QA",
+      "retained_at": "e236cae97766bd5e0e02a11d2cbbb03179056780"
+    },
+    {
+      "state": "MERGED_DEPLOYED_SERVED_VERIFIED",
+      "asset_commit": "8df8d016e62db5cc6a2405dacc25feb8227af65d",
+      "verified_UTC": "2026-11-01T01:22:32.580067+00:00"
+    }
+  ]
 }
