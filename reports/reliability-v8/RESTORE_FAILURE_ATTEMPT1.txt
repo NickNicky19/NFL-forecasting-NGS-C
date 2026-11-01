@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "scripts/restore_reliability_v8.py", line 66, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--commit',required=True);p.add_argument('--destination',type=Path,required=True);p.add_argument('--receipt',type=Path,required=True);x=p.parse_args();run(x.commit,x.destination,x.receipt)
+                                                                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/restore_reliability_v8.py", line 58, in run
+    ranks=read('artifacts/reliability-v8/RANK_MEMBERSHIP.json.gz');sums=read('reports/reliability-v8/RANK_RESULTS.json.gz');byid={r['record_id']:r for r in latest}
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "scripts/restore_reliability_v8.py", line 26, in read
+    def read(path):return json.loads(gzip.decompress(get(path)) if path.endswith('.gz') else get(path))
+                                                     ^^^^^^^^^
+  File "scripts/restore_reliability_v8.py", line 23, in get
+    with urlopen(Request(base+path,headers={'Cache-Control':'no-cache','Accept-Encoding':'identity'}),timeout=45) as r:b=r.read(33554433);assert r.status==200
+                         ~~~~^~~~~
+TypeError: unsupported operand type(s) for +: 'Law' and 'str'
