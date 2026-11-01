@@ -12,7 +12,7 @@ from threadpoolctl import threadpool_limits
 from contracts_v2 import CATEGORIES,CHART,WEIGHTS,SIGNED,integer,grade,probs
 from data_v2 import load as load_history,History,vector
 from laws_v2 import LeafModel
-from safe_models_v4 import export_forest,infer_forest,law_data,law_load,save,load as load_numeric
+from safe_models_v4 import export_forest,infer_forest,law_data,law_load,save,load as load_numeric,validate_training_model
 from forward_sources_v4 import now,stamp,digest,scoreboard_projection,match_event,write
 from forward_budget_v4 import ForwardBudget
 
@@ -43,6 +43,12 @@ def validate_snapshot(source,asof):
             published=parsedate_to_datetime(r['HTTP_Last_Modified']).timestamp()
             assert 0<=asof-published<=36*3600,'CURRENT_ROSTER_OR_INJURY_STALE'
     assert not m.get('missing_team_coverage',[]),'INCOMPLETE_CURRENT_TEAM_ROSTER_COVERAGE'
+    events=read_json(source/'events.json');roster=read_json(source/'roster.json');injuries=read_json(source/'injuries.json')
+    assert len(events)==m['events'] and len({e['game_id'] for e in events})==len(events)
+    teams={t for e in events for t in [e['home_team'],e['away_team']]}
+    assert all(e['season']==m['season'] and e['week']==m['week'] and e['season_type']==2 for e in events)
+    assert len({r['gsis_id'] for r in roster})==len(roster) and all(r['gsis_id'] and r['team'] in teams and r['season']==m['season'] and r['week']==m['week'] and r['position'] in ['QB','RB','WR','TE'] for r in roster)
+    assert all(r['season']==m['season'] and r['week']==m['week'] for r in injuries)
     return m
 
 def current_event_check(events):
@@ -110,6 +116,12 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
         # A display/grading/receipt-only change must not force an identical fit.
         modelcode={n:code[n] for n in ['laws_v2.py','data_v2.py','contracts_v2.py']}
         key=digest(x.tobytes()+y.tobytes()+json.dumps(pr.tolist()).encode()+json.dumps(dict(target=target,code=modelcode,family='P2_LEAF_32_8_30_1701_PRIOR05',arm=arm),sort_keys=True).encode());modelpath=cache/(target+'-'+key+'.json.gz');metapath=cache/(target+'-'+key+'.meta.json')
+        recovery=None
+        if modelpath.exists() and not metapath.exists():
+            assert any(r['target']==target and r['key']==key for r in budget.state['fit_attempts']),'UNREGISTERED_ORPHAN_MODEL'
+            numeric=load_numeric(modelpath,filehash(modelpath));recovery=validate_training_model(numeric,x,y,pr)
+            meta=dict(target=target,model_SHA256=filehash(modelpath),model_key=key,training_rows=len(pool),training_through_UTC=pd.Timestamp(max(r['kickoff'] for r in pool),unit='s',tz='UTC').isoformat(),features=len(x[0]),arm=arm,history='H-MULTI_2022_PLUS_VERIFIED_COMPLETED',policy_SHA256=policy_hash,code_SHA256=code,created_UTC=stamp(),fit_information_cutoff_UTC=None,revalidated_information_cutoff_UTC=pd.Timestamp(asof,unit='s',tz='UTC').isoformat(),original_fit_code_commit='cf2526b1bc011955d59d367ad1cc64f1ecb853dc',original_fit_clock='Not retained before validator failure; no issuance claimed',recovery=recovery,numeric_export_parity_queries=None,training_label_qualification='OFFICIAL_SUPPORTED_PLAYED_STATS')
+            write(metapath,meta)
         if modelpath.exists():meta=read_json(metapath);numeric=load_numeric(modelpath,meta['model_SHA256']);reused=True
         else:
             if fit_count>=12:raise RuntimeError('FIT_CAP')
@@ -161,7 +173,7 @@ def validate_run(run,check_clock=False):
         assert modelmap[r['category']]['model_SHA256']==r['model_SHA256']
         if r['category']=='anytime_td':assert r['mean'] is None and r['median'] is None and r['event_probability']==law.probability(.5)['over']
         else:assert r['mean']==law.mean() and r['median']==law.quantile(.5)
-    if check_clock:assert now().timestamp()<min(pd.Timestamp(r['kickoff_UTC']).timestamp() for r in rows),'CAPTURE_SERVER_CHECK_AFTER_KICKOFF'
+    if check_clock:assert now().timestamp()+300<min(pd.Timestamp(r['kickoff_UTC']).timestamp() for r in rows),'CAPTURE_SERVER_CHECK_TOO_LATE'
     return m,rows
 
 def validate_receipt(run,receipt,m,rows):
@@ -171,7 +183,7 @@ def validate_receipt(run,receipt,m,rows):
     assert receipt['fresh_GitHub_bytes_verified'] is True and receipt['not_client_commit_dates'] is True
     created=pd.Timestamp(receipt['server_run_created_UTC']);started=pd.Timestamp(receipt['server_run_started_UTC']);completed=pd.Timestamp(receipt['server_check_completed_UTC'])
     assert created.tzinfo and started.tzinfo and completed.tzinfo and created<=started<=completed
-    assert pd.Timestamp(m['created_UTC'])<=completed and all(completed<pd.Timestamp(r['kickoff_UTC']) for r in rows)
+    assert pd.Timestamp(m['created_UTC'])<=completed and all(completed+pd.Timedelta(seconds=300)<pd.Timestamp(r['kickoff_UTC']) for r in rows)
     return completed
 
 def server_receipt(run,commit,workflow_run,output):
@@ -180,18 +192,23 @@ def server_receipt(run,commit,workflow_run,output):
     assert j['head_sha']==commit and j['event']=='pull_request' and j['status']=='completed' and j['conclusion']=='success' and j['path']=='.github/workflows/c-checks-pages.yml','NO_SUCCESSFUL_BOUND_SERVER_CHECK'
     jobs=json.loads(subprocess.check_output(['gh','api',f'repos/{repo}/actions/runs/{workflow_run}/jobs']))['jobs'];check=next(r for r in jobs if r['name']=='checks');persisted=pd.Timestamp(check['completed_at'])
     assert check['conclusion']=='success' and any(s['name']=='Verify immutable prospective captures' and s['conclusion']=='success' for s in check['steps']),'NO_BOUND_FORECAST_VALIDATION_STEP'
-    assert all(persisted<pd.Timestamp(r['kickoff_UTC']) for r in rows),'LATE_GITHUB_PERSISTENCE'
+    assert all(persisted+pd.Timedelta(seconds=300)<pd.Timestamp(r['kickoff_UTC']) for r in rows),'LATE_GITHUB_PERSISTENCE'
     relative=run.relative_to(Path.cwd()) if run.is_absolute() else run
     from urllib.request import urlopen
     url='https://raw.githubusercontent.com/'+repo+'/'+commit+'/'+relative.as_posix()+'/forecasts.json.gz'
     b=urlopen(url,timeout=30).read();assert digest(b)==m['files']['forecasts.json.gz']['SHA256']
+    manifest_url=url.rsplit('/',1)[0]+'/RUN.json';assert digest(urlopen(manifest_url,timeout=30).read())==filehash(run/'RUN.json'),'SERVER_RUN_CHAIN_MISMATCH'
     receipt=dict(schema='C-SERVER-PREGAME-RECEIPT-v4',run_id=m['run_id'],run_manifest_SHA256=filehash(run/'RUN.json'),capture_commit=commit,forecast_blob_SHA256=digest(b),forecast_bytes=len(b),server_workflow_run=workflow_run,server_run_created_UTC=j['created_at'],server_run_started_UTC=j['run_started_at'],server_check_completed_UTC=check['completed_at'],server_run_URL=j['html_url'],verified_UTC=stamp(),qualified_prospective=True,earliest_actual_lead_seconds=min((pd.Timestamp(r['kickoff_UTC'])-persisted).total_seconds() for r in rows),not_client_commit_dates=True,fresh_GitHub_bytes_verified=True,scoring_snapshot='FIRST_QUALIFIED_ON_DEMAND-v1')
     write(output,receipt);print('SERVER_PREGAME_RECEIPT',receipt['server_check_completed_UTC'],receipt['earliest_actual_lead_seconds']);return receipt
 
 def grade_run(run,receipt_path,outcomes,output):
-    m,rows=validate_run(run);receipt=read_json(receipt_path);assert receipt['run_id']==m['run_id'] and receipt['qualified_prospective'];assert receipt['forecast_blob_SHA256']==filehash(run/'forecasts.json.gz')
+    m,rows=validate_run(run);receipt=read_json(receipt_path);validate_receipt(run,receipt,m,rows)
+    first=first_qualified_snapshots(run.parent.parent)
     packet=read_json(outcomes);assert packet['schema']=='C-OUTCOMES-v4';lookup={(r['game_id'],r['player_id'],r['category']):r for r in packet['outcomes']};assert len(lookup)==len(packet['outcomes']),'DUPLICATE_OUTCOME_IDENTITIES';grades=[]
     for r in rows:
+        key=(r['game_id'],r['player_id'],r['category'],r['policy_id'])
+        if key in first and first[key][1]!=r['forecast_id']:
+            grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='NOT_PRIMARY_SCORING_SNAPSHOT',actual=None));continue
         a=lookup.get((r['game_id'],r['player_id'],r['category']));state='PENDING' if a is None else a['appearance']
         if a:
             assert a['scoring_contract_id']==r['scoring_contract_id']
@@ -211,6 +228,15 @@ def grade_run(run,receipt_path,outcomes,output):
             grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='GRADED_PLAYED',actual=y,median_error=error,absolute_error=None if error is None else abs(error),mean_squared_error=None if r['mean'] is None else (r['mean']-y)**2,CRPS=law.crps(y),NLL=nll if math.isfinite(nll) else 'Infinity',offer_grade='NO_QUALIFIED_OFFER',book_settlement='UNVERIFIED'))
         else:grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state=state,actual=None,offer_grade='UNAVAILABLE',book_settlement='UNVERIFIED'))
     write(output,dict(schema='C-PROSPECTIVE-GRADING-v4',run_id=m['run_id'],created_UTC=stamp(),forecast_SHA256=receipt['forecast_blob_SHA256'],outcome_version=packet['version'],grades=grades));return grades
+
+def first_qualified_snapshots(root):
+    first={}
+    for p in (root/'receipts').glob('*.json'):
+        receipt=read_json(p);run=root/'runs'/receipt['run_id'];m,rows=validate_run(run);persisted=validate_receipt(run,receipt,m,rows)
+        for r in rows:
+            key=(r['game_id'],r['player_id'],r['category'],r['policy_id']);value=(persisted,r['forecast_id'])
+            if key not in first or value<first[key]:first[key]=value
+    return first
 
 def verify_repository(root):
     count=0

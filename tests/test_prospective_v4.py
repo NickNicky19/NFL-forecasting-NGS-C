@@ -3,7 +3,7 @@ from pathlib import Path
 from unittest.mock import patch
 import numpy as np,pandas as pd
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from safe_models_v4 import prior_data,law_data,law_load,export_forest,infer_forest
+from safe_models_v4 import prior_data,law_data,law_load,export_forest,infer_forest,validate_training_model
 from laws_v2 import Prior,LeafModel
 from prospective_v4 import features_for_future,qualified_training_frame,grade_run
 from forward_sources_v4 import match_event
@@ -21,6 +21,7 @@ class Prospective(unittest.TestCase):
         x=np.arange(240,dtype=float).reshape(120,2);x[::13,0]=np.nan;y=np.arange(120)%7-2;roles=np.asarray(['QB']*120)
         m=LeafModel('signed',1).fit(x,y,roles);query=np.asarray([[np.nan,3],[20.125,43],[238,239]],float)
         a=m.laws(query,['QB']*3);b=infer_forest(json.loads(json.dumps(export_forest(m))),query,['QB']*3)
+        self.assertEqual(validate_training_model(export_forest(m),x,y,roles)['new_fits'],0)
         for left,right in zip(a,b):
             self.assertEqual(left.mean(),right.mean());self.assertEqual(left.w.tolist(),right.w.tolist())
             for line in [-1,.5,2,3.5]:self.assertEqual(left.probability(line),right.probability(line))
@@ -32,6 +33,12 @@ class Prospective(unittest.TestCase):
         with self.assertRaises(AssertionError):law_load(d)
         d['values']=[0];d['prior']['q']=float('nan')
         with self.assertRaises(AssertionError):law_load(d)
+
+    def test_non_event_unused_summary_is_not_a_probability(self):
+        from laws_v2 import Law
+        d=law_data(Law([250],[1],Prior(np.asarray([200,250,300]),'signed')))
+        self.assertGreater(d['prior']['event'],1)
+        self.assertEqual(law_load(d).mean(),250)
 
     def test_future_candidate_needs_no_actuals_and_future_mutations_are_invariant(self):
         cutoff=2_000_000.;past=dict(player_id='00-0000001',game_id='PAST',team='BUF',position='QB',kickoff=cutoff-10*86400,available=cutoff-3*86400,game_final=True,values={'pass_cmp':10},attempts=20,carries=1,targets=0)
@@ -58,11 +65,12 @@ class Prospective(unittest.TestCase):
         prior=Prior(np.asarray([0,1,2]),'count')
         from laws_v2 import Law
         law=law_data(Law([0,1,2],[1,1,1],prior))
-        row=dict(forecast_id='f',game_id='g',player_id='p',category='pass_cmp',kickoff_UTC='2026-11-01T18:00:00+00:00',espn_event_id='1',scoring_contract_id='official-player-fullgame-OT-v1',mean=1.,median=1.,law=law)
+        row=dict(forecast_id='f',game_id='g',player_id='p',category='pass_cmp',policy_id='fixture',kickoff_UTC='2026-11-01T18:00:00+00:00',espn_event_id='1',scoring_contract_id='official-player-fullgame-OT-v1',mean=1.,median=1.,law=law)
         outcome=dict(game_id='g',player_id='p',category='pass_cmp',kickoff_UTC=row['kickoff_UTC'],espn_event_id='1',scoring_contract_id=row['scoring_contract_id'],event_status='FINAL',appearance='PLAYED',observed_UTC='2026-11-01T22:00:00+00:00',actual=0)
         with tempfile.TemporaryDirectory() as folder:
-            root=Path(folder);(root/'forecasts.json.gz').write_bytes(b'fixture');proof=root/'proof.json';proof.write_text(json.dumps(dict(run_id='run',qualified_prospective=True,forecast_blob_SHA256=hashlib.sha256(b'fixture').hexdigest())));out=root/'outcomes.json';out.write_text(json.dumps(dict(schema='C-OUTCOMES-v4',version='fixture',outcomes=[outcome])))
-            with patch('prospective_v4.validate_run',return_value=({'run_id':'run'},[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-10-31T23:00:00Z').to_pydatetime()):
+            root=Path(folder);(root/'forecasts.json.gz').write_bytes(b'fixture');(root/'RUN.json').write_bytes(b'{}');proof=root/'proof.json';proof.write_text(json.dumps(dict(schema='C-SERVER-PREGAME-RECEIPT-v4',run_id='run',qualified_prospective=True,run_manifest_SHA256=hashlib.sha256(b'{}').hexdigest(),forecast_blob_SHA256=hashlib.sha256(b'fixture').hexdigest(),fresh_GitHub_bytes_verified=True,not_client_commit_dates=True,server_run_created_UTC='2026-11-01T00:00:00Z',server_run_started_UTC='2026-11-01T00:00:01Z',server_check_completed_UTC='2026-11-01T00:00:10Z')));out=root/'outcomes.json';out.write_text(json.dumps(dict(schema='C-OUTCOMES-v4',version='fixture',outcomes=[outcome])))
+            meta={'run_id':'run','created_UTC':'2026-10-31T23:00:00Z'}
+            with patch('prospective_v4.validate_run',return_value=(meta,[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-10-31T23:00:00Z').to_pydatetime()):
                 with self.assertRaises(AssertionError):grade_run(root,proof,out,root/'bad.json')
-            with patch('prospective_v4.validate_run',return_value=({'run_id':'run'},[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-11-02T00:00:00Z').to_pydatetime()):
+            with patch('prospective_v4.validate_run',return_value=(meta,[row])),patch('prospective_v4.now',return_value=pd.Timestamp('2026-11-02T00:00:00Z').to_pydatetime()):
                 r=grade_run(root,proof,out,root/'good.json');self.assertEqual(r[0]['state'],'GRADED_PLAYED');self.assertEqual(r[0]['actual'],0)

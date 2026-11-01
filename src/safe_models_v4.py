@@ -6,7 +6,9 @@ from laws_v2 import Law,Prior,design
 
 def prior_data(p):return {k:getattr(p,k) for k in ['kind','empty','mu','center','q','event']}
 def prior_load(d):
-    assert d['kind'] in ['count','signed','event'] and all(np.isfinite(d[k]) for k in ['mu','center','q','event']) and int(d['center'])==d['center'] and 0<=d['q']<1 and 0<=d['event']<=1
+    assert d['kind'] in ['count','signed','event'] and all(np.isfinite(d[k]) for k in ['mu','center','q','event']) and int(d['center'])==d['center'] and 0<=d['q']<1
+    # Prior.event is an unused legacy summary for non-event priors, not a probability.
+    if d['kind']=='event':assert 0<=d['event']<=1
     p=Prior([],d['kind'])
     for k in ['kind','empty','mu','center','q','event']:setattr(p,k,d[k])
     return p
@@ -23,6 +25,27 @@ def export_forest(model):
     for estimator,leaves in zip(model.model.estimators_,model.leaves):
         t=estimator.tree_;trees.append(dict(left=t.children_left.tolist(),right=t.children_right.tolist(),feature=t.feature.tolist(),threshold=t.threshold.tolist(),leaves={str(k):[v.tolist(),c.tolist()] for k,(v,c) in leaves.items()}))
     return dict(schema='C-NUMERIC-LEAF-v4',kind=model.kind,scale=model.scale,imputation=model.m.tolist(),prior={str(k):prior_data(v) for k,v in model.prior.items()},global_prior=prior_data(model.global_prior),trees=trees)
+def validate_training_model(d,x,y,roles):
+    """Recover a saved numeric fit without refitting or executing model code."""
+    from laws_v2 import medians
+    assert np.array_equal(np.asarray(d['imputation']),medians(x))
+    assert d['global_prior']==prior_data(Prior(y,d['kind']))
+    assert d['prior']=={str(p):prior_data(Prior(y[roles==p],d['kind'])) for p in set(roles)}
+    z=design(x,np.asarray(d['imputation'])).astype(np.float32)
+    assert d['schema']=='C-NUMERIC-LEAF-v4' and len(d['trees'])==32
+    for t in d['trees']:
+        left,right,feature,threshold=[np.asarray(t[k]) for k in ['left','right','feature','threshold']];nodes=np.zeros(len(y),int)
+        for _ in range(9):
+            active=np.flatnonzero(left[nodes]>=0)
+            if not len(active):break
+            n=nodes[active];assert np.all((feature[n]>=0)&(feature[n]<z.shape[1]))
+            choose=z[active,feature[n]].astype(float)<=threshold[n].astype(float)
+            nodes[active]=np.where(choose,left[n],right[n])
+        assert np.all(left[nodes]<0)
+        assert set(map(str,np.unique(nodes)))==set(t['leaves'])
+        for n in np.unique(nodes):
+            v,c=np.unique(y[nodes==n],return_counts=True);assert [v.tolist(),c.tolist()]==t['leaves'][str(n)],'RECOVERED_LEAF_LABEL_COUNTS_DIFFER'
+    return dict(training_rows=len(y),trees=32,imputation_priors_all_leaf_counts_verified=True,new_fits=0)
 def infer_forest(d,x,roles):
     assert d['schema']=='C-NUMERIC-LEAF-v4' and len(d['trees'])==32
     z=design(np.asarray(x,float),np.asarray(d['imputation'],float)).astype(np.float32)
