@@ -1,0 +1,111 @@
+{
+  "id": "C-FUTURE-RENDERED-ACCEPTANCE-v4",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/#upcoming",
+  "expected_served_commit": "48c9506fd5b40f7144ae0dcb063c330984c194ca",
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "rows": 71,
+      "representative_forecast_id": "615baec155c15f56bbf36ae4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "rows": 71,
+      "representative_forecast_id": "c6948e66dcc01abe97ed8d25",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "rows": 71,
+      "representative_forecast_id": "8d51b0c5424e715b24718b6c",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "rows": 71,
+      "representative_forecast_id": "5fdfab19c32004f20b556155",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "rows": 71,
+      "representative_forecast_id": "5c2557b7da45ea42ac11d7f4",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "rows": 168,
+      "representative_forecast_id": "8ef7c7bde2b4df6bd54695ef",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "rows": 168,
+      "representative_forecast_id": "0b864576ab398e0a16dcdb89",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "rows": 336,
+      "representative_forecast_id": "35abd968856cc8bef74ebc59",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "61229ac21afa6561a3683d75",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "rows": 336,
+      "representative_forecast_id": "9d9e5880af48234c14e8dd94",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "rows": 407,
+      "representative_forecast_id": "521e40a68ad3c62045109d4b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "rows": 407,
+      "representative_forecast_id": "17085fac0c196c7886ef3be9",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": true,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": true,
+  "server_clock_and_feature_clock_distinct": true,
+  "role_search_masks": true,
+  "started_games_suppressed": true,
+  "stale_status_fail_closed": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop1440_mobile390": true,
+  "no_global_overflow": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0,
+  "tests_are": "UI/software checks, not outcomes or wins"
+}
