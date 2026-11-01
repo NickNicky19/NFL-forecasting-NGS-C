@@ -1,0 +1,328 @@
+{
+  "id": "C-INDEPENDENT-PUBLIC-FINAL-v8",
+  "observed_UTC": "2026-11-01T19:27:10.132521+00:00",
+  "state": "PASS",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "5ed1948f4360dadd52c918fd1ef9048e7a18d54d",
+  "build_stable": true,
+  "data_SHA256": {
+    "accuracy": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+    "reliability": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa"
+  },
+  "retained_canonical_source_pins": [
+    {
+      "path": "reports/propline-v7/GRADED_ROWS.json",
+      "SHA256": "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297"
+    },
+    {
+      "path": "reports/propline-v7/CORRECTIONS_GRADED_ROWS_V7_1.json",
+      "SHA256": "a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817"
+    },
+    {
+      "path": "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz",
+      "SHA256": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7"
+    },
+    {
+      "path": "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz",
+      "SHA256": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4"
+    },
+    {
+      "path": "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz",
+      "SHA256": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859"
+    }
+  ],
+  "rendered_checks": {
+    "all12_accuracy_states": {
+      "n": 19721,
+      "unavailable": 8,
+      "supported": [
+        "pass_yd",
+        "rush_yd",
+        "rec",
+        "rec_yd"
+      ]
+    },
+    "actual_line": {
+      "record_id": "PL8-41c31d905ec1e670d95687fa-P2_LAW",
+      "player_name": "Cooper Rush",
+      "game_id": "2026_02_CAR_ATL",
+      "line": 182.5,
+      "p_under": 0.6660664131098596,
+      "p_push": 0,
+      "p_over": 0.3339335868901404,
+      "actual": 86,
+      "selected_side": "UNDER",
+      "status": "WIN",
+      "displayed": [
+        "Cooper Rush / 2026_02_CAR_ATL",
+        "draftkings / 182.5 / UNVERIFIED_MAIN_ALTERNATE",
+        "Sep 20, 2026, 12:00:00 PM CDT \u00b7 America/Chicago / OVER Sep 19, 2026, 12:04:05 PM CDT \u00b7 America/Chicago / UNDER Sep 19, 2026, 12:04:05 PM CDT \u00b7 America/Chicago",
+        "66.6% / 0.0% / 33.4%",
+        "UNDER / 86 / WIN"
+      ]
+    },
+    "pinnacle_pass_yd": {
+      "n": 63,
+      "confidence": 0.5776575123953074,
+      "hit": 0.4126984126984127,
+      "Brier": 0.26392771609098187,
+      "displayed": [
+        "63",
+        "46.6%",
+        "60.3%",
+        "57.8%",
+        "26-37 / 63 / 41.3%",
+        "36.39 / 26",
+        "0.263928 / 0.721825",
+        "0.512 / 0.583",
+        "29.7%\u201353.1% / GAME_BLOCK_BOOTSTRAP_2000 / 2 week clusters"
+      ]
+    },
+    "fanduel_rush_yd": {
+      "n": 149,
+      "confidence": 0.67234377943553,
+      "hit": 0.5906040268456376,
+      "Brier": 0.2487333522118638,
+      "displayed": [
+        "149",
+        "36.2%",
+        "45.0%",
+        "67.2%",
+        "88-61 / 149 / 59.1%",
+        "100.18 / 88",
+        "0.248733 / 0.696940",
+        "0.566 / 0.562",
+        "51.0%\u201367.1% / GAME_BLOCK_BOOTSTRAP_2000 / 2 week clusters"
+      ]
+    },
+    "unknown_rank_masks": {
+      "diagnostic_id": "LRL8-pinnacle-W2-P2_LAW-GLOBAL-ALL-MIXED-K20",
+      "all_selected": 20,
+      "known": 19,
+      "expected_all": 17.267810999816287,
+      "expected_known": 16.443733192119705,
+      "displayed": [
+        "2 / LAST-RECORDED-LINE DIAGNOSTIC",
+        "466 / 441 / 20",
+        "14-5 / 19 / 73.7%",
+        "86.3%",
+        "17.27 / 16.44 / 14",
+        "WR:12 RB:4 TE:2 QB:2",
+        "18 \u00b7 forecast cutoffs later: 18",
+        "13-5 / 18 / 72.2% \u00b7 2 excluded; no replacements"
+      ]
+    },
+    "workload": {
+      "n": 63,
+      "Brier": 0.2765982268286529,
+      "displayed": [
+        "pinnacle / P2_WORKLOAD_V8",
+        "63",
+        "27-36 / 63 / 42.9%",
+        "60.7%",
+        "0.276598",
+        "40.5% / 60.3%"
+      ]
+    },
+    "upcoming_original": {
+      "forecast_id": "063396eb4ca83709c7ebe326",
+      "name": "Matthew Stafford",
+      "mean": 246.33684880062887,
+      "median": 250,
+      "kickoff": "2026-11-01T21:05:00+00:00",
+      "feature_cutoff": "2026-11-01T00:06:26.536092043+00:00",
+      "server_persisted": "2026-11-01T00:13:48Z",
+      "actual": null,
+      "line": null,
+      "displayed": [
+        "Matthew StaffordQB \u00b7 LA vs LACNov 1, 2026, 3:05:00 PM CST \u00b7 America/Chicago",
+        "246.34",
+        "250.00",
+        "117.00 \u2013 368.00",
+        "Prop line unavailable",
+        "Forecast only\u2014prop line unavailable",
+        "Unavailable",
+        "N/A \u00b7 no line",
+        "UNKNOWN_NOT_LISTED_OR_BLANK \u00b7 Supported history 8",
+        "Status check expired \u00b7 forecast only"
+      ]
+    }
+  },
+  "started_game_suppression": {
+    "now": 1793561229918,
+    "all": 71,
+    "eligible": [
+      "063396eb4ca83709c7ebe326",
+      "e635edc5ad8e86d83393609f",
+      "4862ca3b424fd78d775d42e2",
+      "e6d2d5466e61284c7cf7abb9",
+      "42c8483a35586058bd46c2b5",
+      "81aea4f404d05a51d141e157",
+      "a63919f2de94b01a09c3a0b3",
+      "05330006d249e75f8fdc32d4",
+      "0bbfc900d81a62cc9599bd44",
+      "ee1a22bbc99029d9cfd613dc",
+      "fd154773f7ffef9350b1d682",
+      "2bae63bd6f6d3d1e6061f033",
+      "d0effdd71ffff94176aae1a9",
+      "6e6c6b2f067eef2ec540e444",
+      "f5a60ba3b51a562a67f3fda6",
+      "e0b51cd7e27c134830433fe1",
+      "9be76d55b1e62678c4343d7b",
+      "fa1103cf4d380294a4ec56df",
+      "85af4db38ccd0a3bb58f8bad",
+      "e9644619d31763149a44981d",
+      "948ab65ff186062295ab0392",
+      "ee9c3fb29e9c6efaccd8b240",
+      "7e855c19225197c30473d11f",
+      "9721f61caecbf037f66f94a6",
+      "504830854db848e210e2fd36",
+      "2068eaa0d468830477355179",
+      "b2b4a058fcb06944d3adf782",
+      "c9093408b7e5ae9d84620883"
+    ],
+    "started": 43,
+    "real_offers": 0,
+    "selections": 0,
+    "entries": 0,
+    "graded": 0,
+    "all_actuals_pending": true,
+    "displayed_rows": 28,
+    "basis": "Scheduled kickoff comparison in original frozen rows;no final outcomes collected."
+  },
+  "all12_category_states": true,
+  "workload_passing_only": true,
+  "no_new_live_offers_or_entries_or_grades": true,
+  "Chicago_DST": true,
+  "public_responses": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 29256,
+      "SHA256": "7f192c107d15cc20c86f00e12d02fe1e9775435b3c51c833c8bbd1b6ab524876",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10764,
+      "SHA256": "6564dcd083195e0b8c8b5395cfe88ed11ced071116f9baa564023f00ee299b97",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19265,
+      "SHA256": "2d92633f0265cbc4e2b2ced93267dbd8c977960873a5415afdd7c7ba3c6e8959",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 9865,
+      "SHA256": "48f24720da5e0eba923b04fd8a445f5b99eb85b5e59dad173f61ac8b894e41fd",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 11193,
+      "SHA256": "824b748697739ca02da6eaa68ccd5d07d0a54eb5e1c9808a616a96087e69b6ed",
+      "TLS_verified": true
+    },
+    {
+      "path": "reliability.js",
+      "status": 200,
+      "bytes": 6525,
+      "SHA256": "452a8dc2547b9b008502bb884256f6abf162649c4ad803935e2b74a78792bd11",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1257,
+      "SHA256": "d94bff79856b327062c03754c0bbb693044ded52653e863ef63c0b0c2a5998c3",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 22941231,
+      "SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1257,
+      "SHA256": "d94bff79856b327062c03754c0bbb693044ded52653e863ef63c0b0c2a5998c3",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/reliability-v8.json",
+      "status": 200,
+      "bytes": 6295233,
+      "SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa",
+      "TLS_verified": true
+    }
+  ],
+  "transport": "ACTUAL_PUBLIC_RESPONSES_THROUGH_VERIFIED_SYSTEM_HTTPS_BRIDGE",
+  "native_Chromium_TLS_verified": false,
+  "TLS_checks_disabled": false,
+  "downloads_persisted_to_disk": false,
+  "page_errors": [],
+  "new_fits": 0,
+  "C_edits": 0,
+  "new_NFL_source_collection": 0,
+  "new_future_grades": 0,
+  "model_promotion": false
+}

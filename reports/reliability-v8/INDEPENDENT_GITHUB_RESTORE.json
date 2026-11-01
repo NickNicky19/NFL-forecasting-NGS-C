@@ -1,0 +1,73 @@
+{
+  "id": "C-INDEPENDENT-GITHUB-RESTORE-v8",
+  "observed_UTC": "2026-11-01T19:23:51.996800+00:00",
+  "state": "PASS",
+  "immutable_commit": "469e8dc8f6e7a8f2fb9db1e280631c68ff80e569",
+  "fresh_parent_download_receipt_SHA256": "94c5cda8f04a30e38686bdfd3ec0391e902d7915a34bfecbbe18affb7e593a70",
+  "download_entries_rehashed": 48,
+  "recovered_download_bytes": 62482499,
+  "canonical_latest_rows": 19721,
+  "original_plus_correction_versions": 19733,
+  "statistical_grades_recomputed": 18578,
+  "fresh_source_side_rows_verified": 5538,
+  "source_rows": 213190,
+  "fresh_manual_P2_P3_inferences": [
+    {
+      "category": "pass_yd",
+      "week": 2,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "pass_yd",
+      "week": 3,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "week": 2,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "week": 3,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rec",
+      "week": 2,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rec",
+      "week": 3,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "week": 2,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "week": 3,
+      "manual32tree_leaf_and_numeric_HGB_exact_line": "PASS"
+    }
+  ],
+  "fresh_workload_laws_reinferred": {
+    "2025-W09": 31,
+    "2025-W13": 37,
+    "2026-W02": 39,
+    "2026-W03": 36
+  },
+  "fresh_rank_lists_reconstructed": 648,
+  "original_failure_log_preserved_SHA256": "2031f7c58cd1d09d1703fe3f2b9ef5285ba16b6c495c2d376d0eddde808d9d48",
+  "new_network_downloads": 0,
+  "new_fits": 0,
+  "C_edits": 0,
+  "new_future_grades": 0,
+  "limitations": [
+    "Remote retrieval provenance is supplied by the parent download receipt;this audit independently reads those recovered bytes and their pins.",
+    "No duplicate archives downloaded or written.",
+    "No authenticated quote availability, venue settlement, future improvement or served-parity claim."
+  ]
+}

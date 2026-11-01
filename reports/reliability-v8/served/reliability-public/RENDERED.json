@@ -1,0 +1,88 @@
+{
+  "id": "C-RELIABILITY-BROWSER-v8",
+  "served_commit": "5ed1948f4360dadd52c918fd1ef9048e7a18d54d",
+  "category_book_checks": [
+    {
+      "book": "pinnacle",
+      "category": "pass_yd",
+      "n": 63,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "pinnacle",
+      "category": "rush_yd",
+      "n": 177,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "pinnacle",
+      "category": "rec",
+      "n": 337,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "pinnacle",
+      "category": "rec_yd",
+      "n": 337,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "draftkings",
+      "category": "pass_yd",
+      "n": 51,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "draftkings",
+      "category": "rush_yd",
+      "n": 167,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "draftkings",
+      "category": "rec",
+      "n": 319,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "draftkings",
+      "category": "rec_yd",
+      "n": 313,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "fanduel",
+      "category": "pass_yd",
+      "n": 52,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "fanduel",
+      "category": "rush_yd",
+      "n": 149,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "fanduel",
+      "category": "rec",
+      "n": 354,
+      "confidence_hit_Brier_parity": true
+    },
+    {
+      "book": "fanduel",
+      "category": "rec_yd",
+      "n": 285,
+      "confidence_hit_Brier_parity": true
+    }
+  ],
+  "all12category_states": true,
+  "selected_side_confidence_masks_distinct": true,
+  "top6_10_20_own_side_global_and_category": true,
+  "unknowns_no_forcedK": true,
+  "no_executable_slate_claim": true,
+  "workload_passing_only": true,
+  "desktop_mobile": true,
+  "failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0
+}
