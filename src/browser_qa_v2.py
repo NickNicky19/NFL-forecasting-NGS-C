@@ -6,7 +6,7 @@ def check(url,root,output,expected_commit=None):
  m=json.load(open(root/'data/manifest.json'));checks=[]
  with sync_playwright() as p:
   b=p.chromium.launch(headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
-  page.goto(url,wait_until='networkidle');page.wait_for_selector('#forecasts tbody tr');assert page.locator('#categories button').count()==12
+  page.goto(url.split('#',1)[0]+'#forecasts',wait_until='networkidle');page.wait_for_selector('#forecasts tbody tr');assert page.locator('#categories button').count()==12
   for c in m['categories']:
    t=c['id'];page.select_option('#category',t);page.wait_for_function("t=>document.querySelector('#forecasts tbody tr')?.dataset.slot.includes('-'+t+'-')",arg=t)
    e=next(e for e in m['files'] if e['target']==t and e['history']=='H-MULTI' and e['family']=='P2_LEAF' and e['week']==7);rows=json.load(open(root/'data'/e['file']));rows=[r for r in rows if r['position']=='RB'] if t in ['rush_yd','rush_att'] else rows;rows=sorted(rows,key=lambda x:x['name']);r=rows[0];tr=page.locator('#forecasts tbody tr').first

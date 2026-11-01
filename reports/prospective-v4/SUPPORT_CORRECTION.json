@@ -1,0 +1,3545 @@
+{
+  "id": "C-SUPPORT-DEFINITION-CLARIFICATION-v4.4",
+  "cause": "Original history_support counted prior observed stat rows, while sparse_player should distinguish target-supported labels. features[3] already held the correct last-eight target count consumed by the unchanged models.",
+  "impact": "Metadata only; frozen forecasts/models/features unchanged. UI uses target support, retains original source-row counts and original flags. Future issuance records both explicitly.",
+  "different_support_rows": 442,
+  "newly_flagged_sparse": 81,
+  "rows": [
+    {
+      "forecast_id": "52e19ddf13070512c9ae6f80",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e2b664431e4c3d0c8f372864",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a779d50825177e9e8d2731a3",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "00653dcddd4bc0f0edca7177",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "16e1fa2a11445d673b23ddba",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0e1cb839439d6611f25b26c9",
+      "category": "rush_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "0cb1986e892521dfdbf1a004",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0a98213f9b19f46f0dd2f9e5",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "44f808aaa417b9593b14483f",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "99872350a984b8ffffcaa04c",
+      "category": "rush_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "afed4ff71a7c0dd60cffd484",
+      "category": "rush_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "35555b29f1254af1bc2f457c",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "62ced4bde2ed2f4696f78ebd",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7382598176d95e0482f55712",
+      "category": "rush_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "cd31c48ea62b7b6dafe33488",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8ce4507f17dd5d6d3a987df2",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "dbec703ddab9bf920316ef0e",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6bcd0be01ec0cea38e3fe6d4",
+      "category": "rush_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1d18d27cade76bc2dc98c198",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8c0290b6fbbdf1d1b8802c08",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "4b15df127efe763628b090a4",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "53d408dbfc86dc5efd2d719a",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4b294796bcbaf4922940a9a0",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7e8b266bed4b79ff345e75ed",
+      "category": "rush_att",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "0b0ff6d006995dfa9ec76d7c",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0054065460768d1dcf771556",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4b8f27adcedb321256344c02",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "750a0b38b712be9683ce710b",
+      "category": "rush_att",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c22241e51e9f01f1b25884ab",
+      "category": "rush_att",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "42417c6a1fa4c010d749e009",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "886dd455724a5a354d7c786d",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0864f75c530cc7c095035e25",
+      "category": "rush_att",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "aee1d0aaab7bc94a247c0c4e",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a75f8d787cbea368b6223a79",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ee2b5a8550ab377e0a02ebb5",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fdaf09e95b13649f351e0e90",
+      "category": "rush_att",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "67c9146f1f037cfc4cccc363",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "beb026544e1ef8310adb8a87",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8fa20bebd188809e3b2eb4d6",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d89790753570e7494c81386a",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "bc7b51a70a87bc2e3b812afc",
+      "category": "rec",
+      "source_stat_row_support": 4,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d174a4707b0b9a64a672f1a7",
+      "category": "rec",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f68bb580c9c206a40e646028",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "118688229881819aa0d51381",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3cf6f34ccfeab13a86c90afb",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a42201e7aa553d19f6d48c4a",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ac2d91a8f5552f3d3a7ad677",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "7e34afd8802c06debba0cd6e",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "71f152da1c6e9a15d1def27d",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "aace52085d3c251133ec8d47",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5e36a0311b491d90e2ff6b03",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f2b488fb66ad5b30c6155217",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "01162eae2b66d8f67ff83d7d",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "02f51d3511e9f7641374c29f",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f58e67ce16146cef5c9bd6ab",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "93a52ad20f773def0eb6e6a3",
+      "category": "rec",
+      "source_stat_row_support": 7,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9fa39b7653df939003ebda0f",
+      "category": "rec",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "1238a088132a2d5068e3a1a5",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a42c3805973410cfb3564658",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cb12d6629fbbd46e71e61d3c",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1dc3a5d0cd5234aeb04b7ebc",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "482c7352aa42011a55717cf7",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5ffbba475ecd6adfc41c86e3",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "43f08a43fa26edd74d97c063",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "90cf6f5f95307fccac9204c7",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2cdd5e8ba6407ec9df78d950",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "04955fedee4f7b31a36d8758",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8aa48788ac264c8a99826148",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5d23259bfbb4f3c64b55023c",
+      "category": "rec",
+      "source_stat_row_support": 7,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5e4c905bc42838942c0c4562",
+      "category": "rec",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "30ff94d0bcb349f81aced551",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2703a981623433c4cb64adb3",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "eb5d5b6abda38e6674d15894",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "31720cd02b8dc9790c8373ac",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e0955ba3cbdb188e2bd49ce2",
+      "category": "rec",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c0a04e3582653f046914015e",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "708a1cfc41bacba9d7ed93d0",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2f7773670cfc4b60d7a82241",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f4028894667ae3de01ea8e92",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f68b54e54d7b300ab811b062",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e0e7d08a912686862d687a50",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "f6af40964b2534437c27ab71",
+      "category": "rec",
+      "source_stat_row_support": 6,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "56ac6d891c9a67e910494ca1",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cdc64c96c336dbb48f537d0f",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f151bf3fbcb93cea6187a26d",
+      "category": "rec",
+      "source_stat_row_support": 6,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "6a4ac161f42eddad3be8764b",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d94f75dccbc64e618486278b",
+      "category": "rec",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "95c637466bf96d6959d07c91",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3f42ebf0762a5b5474b252ac",
+      "category": "rec",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b9b9da14426886cdc776f2e8",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "9303c9041120f868f99f8835",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "eae6d1818d58b67e774cbf46",
+      "category": "rec",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3cc22ad4d51459cf251ab5c0",
+      "category": "rec",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "67948563ef3e7387618f7360",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8b4cf1bcff1d763aead3a7ec",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "80f7ed906e10cfe3ae22c28f",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "bb5187487daf2dbbd73e7c7b",
+      "category": "rec",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "606c24b9a8dd3dd421e6be47",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e3548201c3e244a7768a163a",
+      "category": "rec",
+      "source_stat_row_support": 1,
+      "target_supported_history": 0,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "8af1a40d06bfe3bd62b56f00",
+      "category": "rec",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "394a5d28cc7573f4006b81d6",
+      "category": "rec",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d77d580fdb149a00a58db508",
+      "category": "rec",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "e25959bfe889151233b6db98",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3d5cdbb8319f8daf0b837843",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c28f85056f10b1e343d1427a",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f4d4dceb6d8fd5c8a09da0b6",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5470d5876070908553eba01a",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ce5353ace6d1a7899821a80e",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "94764e630b60c373048c5395",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8d1391a1619c1728cdf71ce3",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "4540a6425d3efbc2ee0c5cb4",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cc89364c1d5b2956588d52cf",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cb5295883ef3cfff6bdb0aca",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f200b4765666f81c2de3036d",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2c25485e86a7a7c46cbc6501",
+      "category": "rec",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "92005a1f86b293202356b225",
+      "category": "rec",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "69d6650dfd037a21657771fb",
+      "category": "rec",
+      "source_stat_row_support": 5,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "85791cfea0e3b42c76a9ce52",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8e1a63d31fbfe45654a97513",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e425fe08f4813580ef0d2d0a",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "55eeb83787e211d6be7f7a1c",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a308fe62a185280ca8e324b9",
+      "category": "rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8cfdbb9904f14a3429f5a7b2",
+      "category": "rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "938cd6d77de62620aeafba27",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ff491ef3e20a55a8d5260c96",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "f533ffabf1bc0d0e16217d9a",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "042e9c1baf2d845b3c3804a5",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6b77d19a56610e5046cd6b2c",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "7fd72082c4091a0ed6d9fff1",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fdc7446aa50ddf2131bbe6eb",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a0521b4fa001881bf61282b2",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f14fbcb4436c8d61b05c7387",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "89e74f10432af282dbb87901",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ae60e307afb6f9accc6e2653",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6b232180b6fb845d8f3d4b20",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "bb4ba3a6d6d06461a2b89959",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "51ad742863fb3ff74a3b9ebb",
+      "category": "rec_yd",
+      "source_stat_row_support": 7,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "25da3c08bda6505968a6f3d6",
+      "category": "rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "4145d3e283d75b3b43f4b4b6",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6f89dfc9c0dc4e67a3d5ec63",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7c99882433380c4e43b4d01e",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e0b94ceecd4baa49f9169690",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "139978d2369b2c3748389507",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cb3bd66c902221a17f6f8821",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "12d97405626c1bf0687dbfb4",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a1ef63e60c9ae5e151544778",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e4df040c20b86b615fe2b1d3",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0f20fbd118ad8d5ab0b2a79c",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9b1cb4579f0ecf87fafe4551",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e57dbe50d0731e147258b53f",
+      "category": "rec_yd",
+      "source_stat_row_support": 7,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c9d9c93474c4629e47ed147d",
+      "category": "rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "d941264f0d217708dbe667f3",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0034591bb7ad0a6223472b41",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "57e9a71a2f8cb2615b8fb49f",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "24012637c17ec61248e6635a",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6af5b360f881c28d5f69a31a",
+      "category": "rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a7a5dad6109d405c765102a8",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "61cd84001156bb204cce12fa",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a74db8b06d3b0183a39397a6",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cc436992f76e729be9f8d550",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "68e307ea8221e80a3cf35c50",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2cd0d5184faa7b618ff9f7c1",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a2039551770100f534932fba",
+      "category": "rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "80ed7d1523cfc37ad4a3d616",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "05a0cec86901068a19feb82f",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fd865544a8bd1af4c31934b6",
+      "category": "rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "ece56be95d7a5199df1fdc82",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b83a52217b60531fd1270df3",
+      "category": "rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "834ce23e4fad3dcfcbc3bd08",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5d6e7cd0b983799b72219f8f",
+      "category": "rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b0d998c90dd7a18c837a69db",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "0661a04b811a83696b4c5d51",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "058d7d9dd533db34dc0d88b0",
+      "category": "rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "edb79d78e840b980214dcaaf",
+      "category": "rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "baa9086e0abd44980a955ab7",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d0d5d4e093e6605ba3a76e02",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ef36a0416be06de649da3568",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "fb6bb6f3477869342c911d2e",
+      "category": "rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "774b57ea441a9f524a5e3e46",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "70451cc39f296e1d46036d30",
+      "category": "rec_yd",
+      "source_stat_row_support": 1,
+      "target_supported_history": 0,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "649ae7cffebb82bd73f42701",
+      "category": "rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "0d91a878d5ce7565a57e95cf",
+      "category": "rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b03d3d63fcffcb308d3ce848",
+      "category": "rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "c21b90106aac18a017c1b27c",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3bc07906dca80047d2713056",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5ab81af81561a808400321cd",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ddd32416e1ab322084f3ba0b",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c577675db507e8d0071edd6a",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cee8acdd261c59b5f79439a5",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "450edee67f02479dba235b60",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "41f6c9538621706236d1ac7e",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "e7a472a997fd21b2e85c1752",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "bf44dcb1026ffa2352746717",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "00b9238eb5a000a25bfd0d41",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4ad92f6e4bfe43b19ecb1da6",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e17bd8728d99aa88e3418290",
+      "category": "rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "56a9ce74e7292738bbe753f7",
+      "category": "rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cdd1418d0de75eb4095417b2",
+      "category": "rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "85cc879c01a7d59d18db0662",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "bd498c9d658a9df925cddde7",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e97fbbf825aaecf060b33c83",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c0f5e37124813c5ccc19b0e2",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "46d601175cb171b71b6af97d",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "74022bddc24ee9f379c625b8",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a98737fb6f73a05f977dd609",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "bb3f8790a06047d5490f26de",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b5cc033e50cfc59af3c6d102",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "90af5a442907e8fe88f16da1",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f2c57b36849b3787e5793ccc",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a5256af13379ac734ceab085",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "80b06cf42ea43fb6e29cea54",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1ea76cc0f2db3da99b9834bd",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8555af76c60c181b9ab08e4c",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cfdc4311f23f3087b169b73a",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3a32d17eb64b2ccb3338a49f",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6298ed11e0f8e8584d18b162",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c5095ef32468763df273c449",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c80c9427d8ea5b78da518256",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 7,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "94bc893abad4c02425a270f1",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "9d867e9078f1a8b57600eeba",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4e84e85d9c69d0a31ba94a71",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8dee982f7eb94b776d04343a",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "800540c3e46b9a6da475e39a",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f5656874a1a0103886207ee5",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "be0c7833abdb779d340e07c5",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fb9fde5eac31f46f831e911f",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "966a0cc03b3acdfc73cdbb7d",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "79a377d5927494215cfdb57b",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "defb7e9ecb56317ae6661ffa",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "796477dd8f6a2ad572d63e15",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d3aa186791ba4cf2cdad1c1f",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 7,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0398bd4a0ec5b8ba8c023508",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "ce839f0c2339309f99716be7",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9a4fa6cb6421a9f66a3bb5e1",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "475e30d2a7838a42ec8fac11",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "96a4e71fc55626bb1f42b110",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "53c3f673a77515f0ab394836",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b800e0b368c17eb16d8f9d24",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1284f21fabc239ac18e3c535",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7c3f2a61b83355e3ef12b573",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ece6037fb26c8ae1ed0feaeb",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "be1d769e66e20984f799cd77",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "85020c56353671ac69738a15",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "dff834547ff7a491b2e60da3",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "79df8b1b4e57a28237d9fee5",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1f993bb672414b3902ddb4d4",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "79e4ef4962907f26770dc9ea",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 6,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "ca6bac4f2ceb692a82ecef5e",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "784b354f9e1500ed95ae47a7",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "fa170a9a0bb925fe4b96a815",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2272e63b0d914141cd28597c",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "bcc7c2fd5a7964f533f17952",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "9d0de2157dca83602dfef7e8",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "43c86c62222b0329357ded97",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "6d3076e9fcc0cbe1cce6ded4",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "cb4200d21fbebcc24978fdcf",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8680f6c488821bf25cea2e81",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c3af138c90e0fd8837d6087e",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3a01b7b5f92617df7c588959",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9e7d797bd3f9528d23236f56",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ad4f7cafd24497222643faf2",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 1,
+      "target_supported_history": 0,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "83107d59337a7e69a2a22636",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "ec757702293eebc8abfa5998",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "30b1ad76d92cb746ffb7e648",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "7818e0a6abd54ad1447ae664",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9ec524e4ff18e374a0b41539",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "dbf0fb13e0a9ff52cd167128",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cc1fcfac51c16353f570456a",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3f3cdd0a882f922bbd6e5ec3",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f700f34a56da279477e98b17",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d0efb31a91fa1caef153d2ce",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b656bf98eaa016b4b633cab8",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "31317a748e13dbf69a4fda96",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a80531f1ed3af44703ef56b1",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fbafd3e4b5a35348a5525c2e",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c4bfd6abb1ad2f13d772f4d2",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "df0301df1aa31f881520b15f",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "2eedae51fb3686347831836e",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0cd1be4dc0e98b64e1c1682b",
+      "category": "rush_rec_yd",
+      "source_stat_row_support": 5,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7bbcacca63308e1eb752de52",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ad3d39b23c6572054d02975e",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "be8c9682ed6bfaee4269b252",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ea82797b829873bdc88ccdf6",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "f7685c95b486bf9800f12576",
+      "category": "anytime_td",
+      "source_stat_row_support": 4,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "507f501267e6effdea76ab77",
+      "category": "anytime_td",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "33a415573c6d462d8ce49999",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "22fa68efa755b3af19fc8ef3",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "77a10a82b108e01dc3f3b013",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5c80777621c6264d47043367",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c1b488a572379169a556d940",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "5331d4d8ee151de0b49c6799",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "49f00f4beda42bdd5fafceae",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6a4f82345eaa15002911ab63",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8ad7b42f4da652e12528e894",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "06caff50c7da67ff1befb22e",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cdb8b1fcc81d179b871c8934",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ea02651ffa736fd70dec5ae8",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "09ccd60de0734d99ca16ee83",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7cb8494abe8388f95958f985",
+      "category": "anytime_td",
+      "source_stat_row_support": 7,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6d59a6c9bb76a3b9b35ed0ef",
+      "category": "anytime_td",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "2f7b163e81dde6e8efa17384",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "132ff74334a373bf9c4f0e9a",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "48afa5ffdcaa31cd09b37183",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "418b685a5f542d966fdcda71",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "30e745bad1e013251ec0118f",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "edc3783b3124afb5bdc006c8",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0dde9aa0be7731e283a85d65",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f71482b91ad19216c2af54eb",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4d6c1b07eae52ea17cc6b246",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e7dcb9bcb4700d563cd0c71f",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4c02ca87a512dc2997abac3b",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3cfbc02e1a086e4c921cc939",
+      "category": "anytime_td",
+      "source_stat_row_support": 7,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "84cf12f84b3f1e9b48aa9264",
+      "category": "anytime_td",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "faff41f4d1ac9c9a627edc03",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2590039b46c8c3d5af5c6436",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "55900dff8820bfda0444b240",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "bfd4c97fc6333abdce48c981",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "52b22265d307987285fae537",
+      "category": "anytime_td",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "95b9239563daacb3fc2d181b",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d5d8fe5232ff31aaf1f3aaef",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "73b18f23261a13565efd0591",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f52c7acb225f8c47b97d2ddd",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5a6f41cb5a5098086f641160",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "13fbff8f53a7a87905cadd00",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "9e5e0ab65d07d193677a6202",
+      "category": "anytime_td",
+      "source_stat_row_support": 6,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "46dc0d8f098ff2fabd706779",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "db026baf25f2da7e750e76f2",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ffbd9973a08595a34671b0ae",
+      "category": "anytime_td",
+      "source_stat_row_support": 6,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "dffb4c5f73dc66c9e2296d0b",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4cadedaca82d6f33f4172240",
+      "category": "anytime_td",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a8b63d367d80e80a6bd945ae",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "466ccc843a540e10c5793fd9",
+      "category": "anytime_td",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "25f7f3391ca24658d07b7d47",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b32683b2e75c0ee95bb2b807",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "aa1833e842f92ef1dc0e38cf",
+      "category": "anytime_td",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "4339bb5350e50edf05c6287b",
+      "category": "anytime_td",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "8b07c2cb2522220efab0b1c5",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cb922b89c8e74e46c4835ead",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2f3898ac131f2995255b40f0",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "f74eb2cc4f5418e239e12bec",
+      "category": "anytime_td",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "706734541d7d553f4c27ec77",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "5c4c36e4bf2bb1c9cdd5614c",
+      "category": "anytime_td",
+      "source_stat_row_support": 1,
+      "target_supported_history": 0,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3072764b33dd8c7b0499eb15",
+      "category": "anytime_td",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "89c7a44ec0d7f9a8ed1edc76",
+      "category": "anytime_td",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "843d4945512945d2950053fe",
+      "category": "anytime_td",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "26d7bb38c6e539d41ee1b96a",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "152bfc261f436e11838ab880",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "721850293edce21d41f0f568",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e10d139788aa6d0871c9cc1d",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2760233f3c14708910ccfad1",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6443b5b2c6e17abd90ca33ad",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2c279d7731c2ef3f188ca80b",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "568a463c831c1bb22b0696f9",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3df53d865d04a5c8c64e8804",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "08fa323c0d7b78d136257be7",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "61e2e22378580456c9dfb9d9",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d27abcb5b6eea777cce9bb1d",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fb139f7c78a29f4dacb0c05d",
+      "category": "anytime_td",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "44c33520d658d00a6e8db085",
+      "category": "anytime_td",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e78d307f8f6790105a9ef626",
+      "category": "anytime_td",
+      "source_stat_row_support": 5,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "28d557d7ed6ac1af9eded10a",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "62bd37415eb14b921eb52ec7",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "67bfd7bce2b1bbf00ed0bf72",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e74736392661d5204d3a6bf4",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "cbf4ee3326eb560f4ad724b2",
+      "category": "fpts",
+      "source_stat_row_support": 4,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "51634f329909240b21f25af3",
+      "category": "fpts",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8e35e3cae3a83913b8305d8f",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "14bc83d001cdb864460909a3",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3fde9ed7f89f4ecda4680d55",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4654bde9407a66374bb95aaa",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ac11e45f54dbb89da08d3fe4",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "e2e7960c9d22bff56ad1a5c7",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "3e77de6810f3f4afc30deb27",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "43d18fc6300b980ba3a2609a",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6b6ff8f3f7368b0428740c0f",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e11b623ef90b1ff22a347757",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c7b930c2515e2662aea9093b",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "c9d47edd507b0851dafd957b",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "cf83c4e36ee9feab2083e2ce",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1132ddc7f787669d5c81c58f",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "8d7c9ef45fc1ba97c9326f3c",
+      "category": "fpts",
+      "source_stat_row_support": 7,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "eafd46bd9c09eedd42f6d0db",
+      "category": "fpts",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "99ab8969425b884405c339f5",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b52f079fc517e29e5015e2d4",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "696515c5e6992649b7670618",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ad40ad15f097a65a2a6770c0",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e7a997f50c8d473a9f5155b6",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "815e023bd4f10b6b69a0b78c",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4522e18ef691bd09489393e0",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "be0ba7effb83f3643d14da9a",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "63be4a4165089336537a6215",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "2226c63d83e00e67d73dccb8",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f60c043d762d525786026647",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d28a391477f280e226cdc1b8",
+      "category": "fpts",
+      "source_stat_row_support": 7,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "00745257db64537c5ad0c55c",
+      "category": "fpts",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "f10ce3899aa3eba004b7c119",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a5c2af819a8f29ab689bc77d",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f320cfc4f88a17532e9cb283",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "86e7990a372c73c18f22ef41",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "6e360d347645b9777d16da28",
+      "category": "fpts",
+      "source_stat_row_support": 6,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e945c3099a8ef358422d9f4f",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "dab8f15fa9bb2f501bbb5288",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a7f72334b10c013e9dccff68",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7a62bd8608991033818582c6",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "395ca4dcf829a303e4c52249",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e5da89e06e5cb94c97beb310",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "0c3dd687b13ef14d60e57273",
+      "category": "fpts",
+      "source_stat_row_support": 6,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "8986c6248b34fe1876107cbd",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "455d51295e0c189c1df01236",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b5136684556945d7c1a9723b",
+      "category": "fpts",
+      "source_stat_row_support": 6,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "187f511b4e2e9632c8646cc5",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "877c9b4dbeed31e6a6b883eb",
+      "category": "fpts",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "3f2f6824425fc6ef54054a22",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0ad14631c0d79bec922bd19b",
+      "category": "fpts",
+      "source_stat_row_support": 3,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "bcbaab48ab8f7affac94f79a",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "75836498997087c71b3fccde",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "aea5cd036489313fe9dc02a4",
+      "category": "fpts",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "a49d9aa0aca86ed45384fd14",
+      "category": "fpts",
+      "source_stat_row_support": 3,
+      "target_supported_history": 2,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b302f5dce74e0428153e4220",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "d82ae11d9fc6d0243e5ec27c",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "fc1cd535852179cc0f9cf86c",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 0,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "9c682655a6e51bc6adde4a55",
+      "category": "fpts",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "0cbec14f42ce72cd8c27024f",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "509180b7add9cb4c301cad24",
+      "category": "fpts",
+      "source_stat_row_support": 1,
+      "target_supported_history": 0,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "c9256eff474e0f56a05b5b9c",
+      "category": "fpts",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "c6899359bbd60a38edacac0b",
+      "category": "fpts",
+      "source_stat_row_support": 5,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "48392b3c82fee23c6c121870",
+      "category": "fpts",
+      "source_stat_row_support": 2,
+      "target_supported_history": 1,
+      "original_sparse_player": true,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "1dc08e2653b9e0710234e625",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "1971960f38fb0e5ed1b70d0c",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "9e46f17539a37657530ba842",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "99bd1496942a009d409583be",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "ebe1eed971d1e53af75d8932",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "76e72fe741d08b09254c1661",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 6,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "e4cee3a4cdf861d4790444b8",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "b4aee9a46c47a2fec1b2de17",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "ba46cbcd32d4d0f0229ea657",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "7d4391fa759cc59ca00e9c45",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 4,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "961dd309726265267d468d17",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "a6440ac9f09a4476aaae70f9",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 7,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "4db12f27b651e819ffe5ceb3",
+      "category": "fpts",
+      "source_stat_row_support": 4,
+      "target_supported_history": 1,
+      "original_sparse_player": false,
+      "target_sparse": true
+    },
+    {
+      "forecast_id": "b60390291f7d53c1d39b8199",
+      "category": "fpts",
+      "source_stat_row_support": 8,
+      "target_supported_history": 5,
+      "original_sparse_player": false,
+      "target_sparse": false
+    },
+    {
+      "forecast_id": "f05c3c734f1c0a4794a9ccef",
+      "category": "fpts",
+      "source_stat_row_support": 5,
+      "target_supported_history": 3,
+      "original_sparse_player": false,
+      "target_sparse": false
+    }
+  ]
+}

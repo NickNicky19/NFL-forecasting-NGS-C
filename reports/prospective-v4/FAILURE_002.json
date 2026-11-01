@@ -1,0 +1,8 @@
+{
+  "id": "C-GITHUB-SNAPSHOT-INCLUSION-CORRECTION-v4.2",
+  "failed_workflow_run": 41255311438,
+  "failed_capture_head": "108c3ca1f4928f12febf05089c7fd942b8fbef85",
+  "cause": "Existing broad *.csv.gz ignore omitted the licensed minimal ordinary-facts projection while RUN.json correctly required its hash. The capture check failed closed.",
+  "correction": "Add an explicit prospective/runs/*/sources/facts.csv.gz exception. Commit unchanged qualified projection bytes; no model or forecast changes and no repeated fits.",
+  "impact": "The earlier local/pushed forecast lacked a successful complete-chain server receipt. First prospective qualification will use the later complete commit and successful GitHub server check, not the earlier client commit clock."
+}

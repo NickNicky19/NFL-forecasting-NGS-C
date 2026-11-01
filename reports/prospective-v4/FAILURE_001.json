@@ -1,0 +1,34 @@
+{
+  "id": "C-FORWARD-VALIDATION-CORRECTION-v4.1",
+  "failed_attempt_code_commit": "cf2526b1bc011955d59d367ad1cc64f1ecb853dc",
+  "category": "pass_yd",
+  "completed_new_fit_attempts": 1,
+  "forecasts_issued": 0,
+  "cause": "Safe JSON prior validator incorrectly applied an event-probability range to an unused non-event legacy summary. The signed-yard prior never uses that summary.",
+  "impact": "No predictions were produced or published by the failed attempt. Numeric forest bytes survive. No prior experiment, method or label changed.",
+  "recovery": "Validate training-only imputation, priors, and every tree leaf label/count against the exact hashed earlier-only training matrix. Reuse recovered numeric forest without repeating its fit. Preserve original unknown fit-cutoff clock; actual forecast issuance receives its own real clock.",
+  "numeric_model_SHA256": "faccd9acd1ca480cf74b816773957cfd1f39d4cfad157e08c3c93dece2752c64",
+  "numeric_model_bytes": 139148,
+  "usage": {
+    "CPU_seconds": 8.363336513,
+    "wall_seconds": 9.2871144669989,
+    "fit_attempts": [
+      {
+        "target": "pass_yd",
+        "key": "71787f7bf2c18f40cc43ab141ee32f4a12ca295450dcdf98f0b938c2d01affa5"
+      }
+    ],
+    "peak_RSS_bytes": 269193216,
+    "peak_cache_bytes": 2183384940,
+    "stages": [
+      {
+        "state": "FAILED",
+        "reason": ""
+      }
+    ],
+    "output_sizes": {
+      "C-FWD-v4-20261101-0004-P2-pass_yd": 0
+    },
+    "active": false
+  }
+}

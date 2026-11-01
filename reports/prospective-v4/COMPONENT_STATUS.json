@@ -1,0 +1,1134 @@
+{
+  "id": "C-SIX-COMPONENT-STATUS-v4",
+  "checked_UTC": "2026-11-01T00:34:18.680224+00:00",
+  "components": {
+    "A_WORKLOAD": {
+      "source": "Earlier ordinary attempts/carries/targets, team totals; current roster",
+      "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+      "executed": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+      "decision": "Include existing per-category OP-derived controls provisionally",
+      "gaps": [
+        "No qualified routes",
+        "No coherent team/player allocation or forecast-target mechanism",
+        "No learned recent-role scenario redistribution"
+      ]
+    },
+    "B_AVAILABILITY_ROLE": {
+      "source": "Current weekly native-GSIS roster and injury/practice report facts;11OUT/18Questionable among407ACT candidates",
+      "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+      "executed": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+      "decision": "Retain current factual flags only; no numerical injury penalty",
+      "gaps": [
+        "Earlier cutoff-qualified injury archive for effects",
+        "Pregame active/limited/out probabilities",
+        "Verified QB/line/defender personnel effects"
+      ]
+    },
+    "C_ENVIRONMENT": {
+      "source": "Earlier ordinary team plays/proxies plus current schedule/rest/venue/roof descriptors",
+      "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+      "executed": "Frozen ENV comparisons and current future feature inference",
+      "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+      "gaps": [
+        "Forecast-issue-time weather",
+        "Qualified roof decision clocks",
+        "Pace/possession/scoring-state scenario comparison"
+      ]
+    },
+    "D_OPPONENT": {
+      "source": "Earlier opponent allowed yards with matching attempts/carries/targets",
+      "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+      "executed": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+      "decision": "Include selected exposed controls provisionally",
+      "gaps": [
+        "Shrinkage/strength accounting for offenses faced",
+        "Validated limited interactions/personnel",
+        "Complete pressure/coverage/blocking source"
+      ]
+    },
+    "E_NGS": {
+      "source": "Frozen original weekly experiment; repeated user screenshot/HTML bundle with hash3fb2d52d1dc336a4c65ade0f12e2d4774e92f03e200a97bf2b41b2adb6d2f01d",
+      "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+      "executed": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+      "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+      "gaps": [
+        "Passing/rushing validated numeric extraction",
+        "Native identities/metric denominators/rights",
+        "As-of and derived model-version provenance including Completion Probability2.0"
+      ]
+    },
+    "F_PROBABILITIES_PRICES": {
+      "source": "C discrete laws and exact contracts; current real offer export absent",
+      "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+      "executed": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+      "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+      "gaps": [
+        "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+        "Final official outcomes and participation evidence for grading",
+        "Full chart rare-event/unique-credit qualification",
+        "Exact entry quote/eligibility/payout; validated dependence",
+        "Direct/hybrid future challenger not yet issued",
+        "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+      ]
+    }
+  },
+  "category_rows": [
+    {
+      "category": "pass_yd",
+      "primary_arm": "E0_DEF",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": true,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "pass_td",
+      "primary_arm": "E0_DEF",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": true,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "pass_cmp",
+      "primary_arm": "E0_ENV",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "pass_att",
+      "primary_arm": "E0_ENV",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "pass_int",
+      "primary_arm": "E0_ENV",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "rush_yd",
+      "primary_arm": "E0_OP",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": false,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "rush_att",
+      "primary_arm": "E0_OP",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": false,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "rec",
+      "primary_arm": "E0_ENV",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "rec_yd",
+      "primary_arm": "E0_DEF",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": true,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "rush_rec_yd",
+      "primary_arm": "E0_DEF",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": true,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "anytime_td",
+      "primary_arm": "E0_OP",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN",
+        "issuance": "FORECAST_ONLY_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": false,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    },
+    {
+      "category": "fpts",
+      "primary_arm": "E0_ENV",
+      "readiness": {
+        "implementation": "P2_CORE_IMPLEMENTED_LABEL_COVERAGE_PARTIAL",
+        "issuance": "SHADOW_SERVER_CAPTURED",
+        "improvement": "NOT_DEMONSTRATED_PROSPECTIVE_PENDING"
+      },
+      "components": {
+        "A_WORKLOAD": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Player/team opportunity lags and learned pass_att/rush_att laws; sparse role-prior fallback",
+          "evaluation": "Frozen all12-v2.1 opportunity ablations; all12 v4 forward fits/inference",
+          "decision": "Include existing per-category OP-derived controls provisionally",
+          "missing": [
+            "No qualified routes",
+            "No coherent team/player allocation or forecast-target mechanism",
+            "No learned recent-role scenario redistribution"
+          ]
+        },
+        "B_AVAILABILITY_ROLE": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Observed unknown/OUT flags and exact roster/event identity; OUT/doubtful paper gate",
+          "evaluation": "Current source and407candidate validation,52softwaretests; no learned effect comparison",
+          "decision": "Retain current factual flags only; no numerical injury penalty",
+          "missing": [
+            "Earlier cutoff-qualified injury archive for effects",
+            "Pregame active/limited/out probabilities",
+            "Verified QB/line/defender personnel effects"
+          ]
+        },
+        "C_ENVIRONMENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Existing home/week/rest control; venue descriptors retained but not consumed as trained adjustments",
+          "evaluation": "Frozen ENV comparisons and current future feature inference",
+          "decision": "Include only exposed per-category retained control; no new causal/environment-gain claim",
+          "missing": [
+            "Forecast-issue-time weather",
+            "Qualified roof decision clocks",
+            "Pace/possession/scoring-state scenario comparison"
+          ]
+        },
+        "D_OPPONENT": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Three-game allowed-production-per-opportunity controls with support; roles preserved",
+          "evaluation": "Frozen DEF comparisons and v4 native-role/per-opportunity inference",
+          "decision": "Include selected exposed controls provisionally",
+          "missing": [
+            "Shrinkage/strength accounting for offenses faced",
+            "Validated limited interactions/personnel",
+            "Complete pressure/coverage/blocking source"
+          ]
+        },
+        "E_NGS": {
+          "source_readiness": "PARTIAL",
+          "implemented": "Original historical C0/C1/C2 and inert receiving intake; no NGS consumed by v4",
+          "evaluation": "Original adverse/mixed multiseason findings frozen; repeat intake adds0samples",
+          "decision": "No forced NGS retention/promotion; prior values failed persistent gain beyond support",
+          "missing": [
+            "Passing/rushing validated numeric extraction",
+            "Native identities/metric denominators/rights",
+            "As-of and derived model-version provenance including Completion Probability2.0"
+          ]
+        },
+        "F_PROBABILITIES_PRICES": {
+          "source_readiness": "PARTIAL",
+          "implemented": "All12 numeric-JSON P2 inference/retention; exact-line manual validator/evaluator; statistical grading;52softwaretests",
+          "evaluation": "2513genuine future snapshots,12safe restored models; frozen2025validation/calibration; actual-offer softwarefixtures only",
+          "decision": "Raw provisional forecasts; reject sigmoid promotion after10adverse primary changes; real picks/value unavailable",
+          "missing": [
+            "Redistribution-cleared same-event current book-specific offers with real clocks/lifecycle",
+            "Final official outcomes and participation evidence for grading",
+            "Full chart rare-event/unique-credit qualification",
+            "Exact entry quote/eligibility/payout; validated dependence",
+            "Direct/hybrid future challenger not yet issued",
+            "Exact-offer candidate server receipt and website admission adapter remain unexecuted; current site intentionally accepts forecast-only data"
+          ]
+        }
+      },
+      "consumed_by_primary": {
+        "A_WORKLOAD": true,
+        "B_AVAILABILITY_ROLE": "Selection flag only; not a learned numerical input",
+        "C_ENVIRONMENT": true,
+        "D_OPPONENT": false,
+        "E_NGS": false,
+        "F_PROBABILITIES_PRICES": "Raw outcome law; no market inputs"
+      }
+    }
+  ],
+  "all_six_complete": false
+}

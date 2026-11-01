@@ -1,0 +1,52 @@
+{
+  "id": "C-INDEPENDENT-FORWARD-READONLY-v4",
+  "recorded_UTC": "2026-11-01T00:34:18.680224+00:00",
+  "verifier": "Existing independent read-only C audit agent; recorded from its actual inspection messages",
+  "source_candidates": {
+    "native_events": 13,
+    "ACT_players": 407,
+    "QB": 71,
+    "RB": 97,
+    "WR": 145,
+    "TE": 94,
+    "missing_GSIS_excluded": 1,
+    "OUT": 11,
+    "Questionable": 18
+  },
+  "actual_forecast_checks": {
+    "rows": 2513,
+    "categories": 12,
+    "training_imputation_priors_all_leaf_labels_counts": "PASS",
+    "all_future_features_and_safe_JSON_inference": "PASS",
+    "count_signed_event_fractional_support": "PASS",
+    "probability_complements_monotonicity": "PASS",
+    "target_future_NGS_or_outcome_mutation_invariance": "PASS",
+    "sparse_and_missing_fallback": "PASS",
+    "no_future_actuals_required": "PASS",
+    "anytime_and_chart_contract_fixtures": "PASS",
+    "own_Over_Under_reconciliation_and_boundary_fixtures": "PASS_SOFTWARE_ONLY",
+    "empty_outcomes_grading": "2513PENDING,0graded, output intercepted in memory; no future outcomes or files created"
+  },
+  "actual_GitHub_readback": {
+    "files": 58,
+    "bytes": 9777496,
+    "models": 12,
+    "forecasts_reproduced": 2513,
+    "code_commit": "d782c25cd1505bcbfe9030b2ae7f966da544ee58",
+    "workflow_run": 41255765990,
+    "server_completed_UTC": "2026-11-01T00:13:48Z",
+    "earliest_lead_seconds": 63972,
+    "all_hashes_exact": true,
+    "pickle": false,
+    "new_fits": 0
+  },
+  "adverse_findings_preserved": [
+    "Unused non-event prior summary validator rejected pilot; recovered existing numeric fit without repeating it; original local fit cutoff unretained",
+    "Original history_support was stat-row support;442row support differences and81additional sparse flags are appended, predictions unchanged",
+    "10QB CMP/ATT CDF-order contradictions including2median violations and0mean violations; no silent cap, sidecar blocks dependent selections",
+    "Realoffers0; scores/picks/payouts not established; FPTS full label coverage unresolved"
+  ],
+  "website_scope": "Local QA recorded separately; public served parity must be independently checked after deployment",
+  "verifier_writes": 0,
+  "verifier_fits": 0
+}

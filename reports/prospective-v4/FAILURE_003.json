@@ -1,0 +1,8 @@
+{
+  "id": "C-CROSS-PLATFORM-NUMERIC-CHECK-v4.3",
+  "failed_workflow_run": 41255447598,
+  "capture_head": "77a3a3804071a2f0713d7e87ef8099dc83290339",
+  "cause": "Exact floating-point equality for a restored law mean passed locally but failed on the GitHub runner; BLAS reduction ordering can differ in the final bits.",
+  "correction": "Validate stored mean against the unchanged numeric law with relative1e-12/absolute1e-10 tolerance; keep exact median, support, native identities, bytes and clocks.",
+  "impact": "No forecasts, models, labels or policy selections changed; no NFL fits repeated. Earlier failed server check does not qualify issuance."
+}

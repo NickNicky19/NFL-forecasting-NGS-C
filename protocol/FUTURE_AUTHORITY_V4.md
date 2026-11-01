@@ -1,0 +1,11 @@
+# Future pregame authority amendment — v4
+
+The October 31 controlling supplement makes future unplayed Week 8+ prediction and paper capture the practical deliverable. Historical development, upcoming inference and prospective grading are separate products. This amendment preserves all previous experiments, protocols, failures and receipts. It does not reset HEAD or expand write authority beyond C.
+
+C may issue and publish genuinely pregame forecast-only rows, experimental probabilities, qualified provisional real-line paper selections and eligible quoted entries through a reusable manual/on-demand path. Earlier research-only wording describes those historical datasets; it does not prohibit these new readiness-qualified C outputs. No established live skill, wagers, recurring collection, other-project writes, paid calls/signup, block evasion or off-GitHub durable storage is authorized.
+
+Freeze method, source eligibility, candidate universe, snapshots, selector and update/grading policy before each new version takes effect. Coefficients may update only under that policy and only for later unplayed games. Every revision is immutable. Future outcomes and realized participants must be unnecessary for inference. Publication requires recoverable GitHub bytes plus server-side timing evidence before kickoff; local clocks/client commit dates alone do not establish prospective issuance.
+
+All twelve categories remain required with exact contracts. Source/implementation/issued/evaluated readiness is separate by component and category. Independently ready forecast categories proceed without missing offers/optional context. No unsupported side, price, fantasy contract or six-leg entry is invented. Injuries and role facts must be current where available; unknown is not healthy. Newly captured unvalidated context is a scenario/source product, not a trained causal adjustment.
+
+C's existing Pages state must be inspected rather than reset/re-enabled. Upcoming Games/Props, Historical Research and Prospective Results must remain distinct. Manual C testing/publication is authorized; no unattended operation is active. A/B/original production remain read-only. Independent verification must cover actual future feature/model rows, mutation invariance, contracts, persistence, grading, fallbacks and served parity.
