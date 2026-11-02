@@ -1,0 +1,621 @@
+{
+  "id": "C-INDEPENDENT-FRESH-GITHUB-RESTORE-v9",
+  "created_UTC": "2026-11-02T19:57:46.183076+00:00",
+  "commit": "13aa5bb8af714f52c5168150c7a6b91a7b1fa9b9",
+  "verdict": "PASS_WITH_EXPLICIT_IN_MEMORY_STREAM_AND_COVERAGE_LIMITATIONS",
+  "fresh_download_script_inspected": "scripts/restore_week8_v9.py uses bounded static raw.githubusercontent.com retrieval, hashes against C bytes, numeric JSON only, no pickle/fit; verifier did not repeat source requests",
+  "download_receipt_entries": 66,
+  "fresh_retained_files_independently_verified": 32,
+  "fresh_streamed_only_entries_hash_tied_to_immutable_Git_objects": 34,
+  "downloaded_bytes_receipt": 14101397,
+  "files": [
+    {
+      "path": "reports/week8-v9/GRADE_VERSION_REGISTRY.json",
+      "bytes": 595,
+      "SHA256": "197933051399d83756220c9b64f9792b4eaef73c6e17fa0262eb22746dafe79d",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/GRADING_RUN.json",
+      "bytes": 903,
+      "SHA256": "892bbb79f520fb206b8785f2500153797a57211a46af61acc8c4409315d1f181",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/OUTCOMES.json",
+      "bytes": 1341638,
+      "SHA256": "e83350364f4c93a8b3aaa3e62c7bc161bcde067e9b6a2ffde365f1370e32f1ad",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/ATTRIBUTION.md",
+      "bytes": 511,
+      "SHA256": "089f4d9a3ac13a64f6233b9aff6e723857baa1c254601ff6799795b079788f8f",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/LICENSE-CC-BY-4.0.md",
+      "bytes": 18651,
+      "SHA256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/SOURCE_MANIFEST.json",
+      "bytes": 3326,
+      "SHA256": "8d3d798235b5874898aa49b110803035ba72cb73b8a5560a7be10e95cf8bd538",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/player_facts.csv.gz",
+      "bytes": 7099,
+      "SHA256": "d5a97539dcb69a07298234c462c6195d759a17d14ee938a4632977439456aa20",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/schedule.csv",
+      "bytes": 873,
+      "SHA256": "0bee2e23d959c903cc9db497be3f3f036ee2732c4227eaa2fccf5c9cafe82f0c",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-001/evidence/status.json",
+      "bytes": 8581,
+      "SHA256": "9b4ac826ecf1a52f44a986e73d1de6bd933b23af9f74ecf7a901c77a786796f6",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/GRADED_FORECAST_ROWS.json.gz",
+      "bytes": 231724,
+      "SHA256": "81f3d32aad3f25db774bdac29439ff84aea4ff629f4660e87f487f9bd86c0ea7",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-001-C-FWD-v4-20261101-0009-P2-pass_yd.json",
+      "bytes": 19778,
+      "SHA256": "d38a58bb5aba1847ee3c40f257112d511957cbdc0d063b7a5e892c515a624626",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-001-C-FWD-v4-20261101-0011-P2-remainder.json",
+      "bytes": 703867,
+      "SHA256": "bf8ea66cca6785e605d19bb274214616862275f62861884a8d20154eb08989aa",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/runs/C-W8-v9-20261102-002/GRADING_RUN.json",
+      "bytes": 908,
+      "SHA256": "e87935f4b04fcf470478339dedf458ffca2d7e663fcf53db6b0d3aee51d1818f",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/OUTCOMES.json",
+      "bytes": 1340142,
+      "SHA256": "de564191e012ea9ed4b143d00a86d892498c558f4ca12665c8d844fde591f50b",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/ATTRIBUTION.md",
+      "bytes": 511,
+      "SHA256": "089f4d9a3ac13a64f6233b9aff6e723857baa1c254601ff6799795b079788f8f",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/LICENSE-CC-BY-4.0.md",
+      "bytes": 18651,
+      "SHA256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/SOURCE_MANIFEST.json",
+      "bytes": 3340,
+      "SHA256": "9a2a38e43c8bce6db33227d029b2c451e3e8e3704adaf6086a9f2c2b9cb56cd1",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/player_facts.csv.gz",
+      "bytes": 7222,
+      "SHA256": "05a62465eac25140012e9cc214eece5de43fcbf229d331a68f481e59ad3c59aa",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/schedule.csv",
+      "bytes": 873,
+      "SHA256": "0bee2e23d959c903cc9db497be3f3f036ee2732c4227eaa2fccf5c9cafe82f0c",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-002/evidence/status.json",
+      "bytes": 8581,
+      "SHA256": "ebd61bdeb79666ee6081d2efbda2e5c62cb62a50e94d72f6a0696e6e1583c2a4",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/runs/C-W8-v9-20261102-002/GRADED_FORECAST_ROWS.json.gz",
+      "bytes": 233068,
+      "SHA256": "88f8933a5dbafb828a8e1ecb5938c6500125b59ac5f50f815385ad331b66b8be",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-002-C-FWD-v4-20261101-0009-P2-pass_yd.json",
+      "bytes": 19778,
+      "SHA256": "809c4e3f0990a5562f1b022a276626d2aace1dd8cacd53d6206354e7f72cc1ce",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-002-C-FWD-v4-20261101-0011-P2-remainder.json",
+      "bytes": 707812,
+      "SHA256": "b9632b88a18c958bcfdcc084695320ae34467329f4f504265536c1e8d56890ff",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/runs/C-W8-v9-20261102-003/GRADING_RUN.json",
+      "bytes": 876,
+      "SHA256": "0ddbadb94cff4173e83c1054371a95f628c24a327eddf0afd8255452ac753677",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/OUTCOMES.json",
+      "bytes": 1370160,
+      "SHA256": "56f7da0ac0e0ccec73fa17f0a3deb80de3e3088c1271f374e1f751390ba99f17",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/ATTRIBUTION.md",
+      "bytes": 511,
+      "SHA256": "089f4d9a3ac13a64f6233b9aff6e723857baa1c254601ff6799795b079788f8f",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/LICENSE-CC-BY-4.0.md",
+      "bytes": 18651,
+      "SHA256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/SOURCE_MANIFEST.json",
+      "bytes": 3340,
+      "SHA256": "9a2a38e43c8bce6db33227d029b2c451e3e8e3704adaf6086a9f2c2b9cb56cd1",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/player_facts.csv.gz",
+      "bytes": 7222,
+      "SHA256": "05a62465eac25140012e9cc214eece5de43fcbf229d331a68f481e59ad3c59aa",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_ATTRIBUTION.md",
+      "bytes": 513,
+      "SHA256": "c03daa9703495c4912653ab566398ae84b9fad341696f5ea64b10099a3b0cf6f",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_COPYRIGHT",
+      "bytes": 57,
+      "SHA256": "1506b032c00cbfa475208432f82e2c1d3ee8528f2d2a3c3385fa3d30f170bd61",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_DESCRIPTION",
+      "bytes": 1563,
+      "SHA256": "4b3650e115424d8ad6492036f31e24b0608b2b8fa17d9a4ce95992e56ab25133",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_LICENSE-MIT.md",
+      "bytes": 1084,
+      "SHA256": "1cac9bf9a66767be2fb71454c2539fe735ee936d5cdfffde885a23f74047fb06",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_SOURCE_PINS.json",
+      "bytes": 1367,
+      "SHA256": "6feccf2f239559605c8ccbe8d00b4db0a5f78c62522f37099ec30856daa66018",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/producer_calculate_stats.R",
+      "bytes": 29754,
+      "SHA256": "0ccd41c78355ee89c08929c79e81dac75b4d3f7b22d691cddd4f7f875acfac28",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/rare_return_EVENT_FACTS.json",
+      "bytes": 2584,
+      "SHA256": "9d95cc9508fa4ad36809888b886049e38d785863287cda3eac257a442e6d7064",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/rare_return_QUALIFICATION.json",
+      "bytes": 1009,
+      "SHA256": "0215ce6d5f908bc1bbc5f50e0d6c125b52496e524de1638da0e800a04acf1fa3",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/schedule.csv",
+      "bytes": 873,
+      "SHA256": "0bee2e23d959c903cc9db497be3f3f036ee2732c4227eaa2fccf5c9cafe82f0c",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/outcomes/C-W8-v9-20261102-003/evidence/status.json",
+      "bytes": 8581,
+      "SHA256": "ebd61bdeb79666ee6081d2efbda2e5c62cb62a50e94d72f6a0696e6e1583c2a4",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/runs/C-W8-v9-20261102-003/GRADED_FORECAST_ROWS.json.gz",
+      "bytes": 233085,
+      "SHA256": "9f17c609a76dd15be40bfd1a17c39a3925f0df1f1c7bc527f7c05666456f0813",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-003-C-FWD-v4-20261101-0009-P2-pass_yd.json",
+      "bytes": 19778,
+      "SHA256": "3517a9fc9136740b802467d502164dbbf719b89503d9619bca9c0f86142e53da",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/grades/C-W8-v9-20261102-003-C-FWD-v4-20261101-0011-P2-remainder.json",
+      "bytes": 707940,
+      "SHA256": "bfdac9456957701ce40068ce0a35d0e772c7d24097b24e9e4c85188b4b1a872a",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/receipts/C-FWD-v4-20261101-0009-P2-pass_yd.json",
+      "bytes": 861,
+      "SHA256": "18d3cd97a38efcd3ac468a8bcfb3fbc21eda691c5eda0bbcd594258f7e97f4d0",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0009-P2-pass_yd/forecasts.json.gz",
+      "bytes": 175477,
+      "SHA256": "473277d554027e82e4a64cef1ced4965a2cc9a3c16dfaba1a977a9682426ec9c",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0009-P2-pass_yd/model_manifest.json",
+      "bytes": 1602,
+      "SHA256": "ab16728eaa21aac40e8f1ef6129278e0c6271a16ee543121c066b2f1799223bc",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0009-P2-pass_yd/models/pass_yd.json.gz",
+      "bytes": 139148,
+      "SHA256": "faccd9acd1ca480cf74b816773957cfd1f39d4cfad157e08c3c93dece2752c64",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/receipts/C-FWD-v4-20261101-0011-P2-remainder.json",
+      "bytes": 864,
+      "SHA256": "9dbbc9ec471be41abadce025edea07a5d32c6399e363acb75f176674f54a35cc",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/forecasts.json.gz",
+      "bytes": 3383224,
+      "SHA256": "9726db3686b895a8df284e2651f65737b12ec7b4bd1b477325c7898dc1eff367",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/model_manifest.json",
+      "bytes": 14289,
+      "SHA256": "ccafdedc7c006c41f590f4f666c365a25f7a11b1cdfac501ec2e4577e1f1bca7",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/pass_td.json.gz",
+      "bytes": 39669,
+      "SHA256": "3b24276f3b909680047e2c35e11fdf41982beea8be619b6062c90c019711e564",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/pass_cmp.json.gz",
+      "bytes": 56374,
+      "SHA256": "017ba3f58bbffbfca9d0797467a87854f8fd2aec8a3888c026aa5c6adcbc1317",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/pass_att.json.gz",
+      "bytes": 60387,
+      "SHA256": "5b05a7db0c06f46f221f6df510174f6416181c89b9110c5355835c545cf68d31",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/pass_int.json.gz",
+      "bytes": 29646,
+      "SHA256": "5b4b74b918bd328a763647d5c10415b74dc4fd959b45ed2789109a3ffef7eae3",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/rush_yd.json.gz",
+      "bytes": 252155,
+      "SHA256": "41cfb75dab2bfba2ff1d3e24c8f6b3dde12dd3eb5be86fab5c419783b459493a",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/rush_att.json.gz",
+      "bytes": 134564,
+      "SHA256": "3c20f7fa8e71e544bdc1427f3c4804d14c1eca407bb6a8b9f7fd012f0459c615",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/rec.json.gz",
+      "bytes": 135206,
+      "SHA256": "363583cbfdc31fb91a4452b44cd02a19c90bded912110d7c5d95ade97718507c",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/rec_yd.json.gz",
+      "bytes": 352658,
+      "SHA256": "982bdaeaf354cb545a9cfc07ac182fbc12bf87fda89a5b5d7ffcefa895352ba7",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/rush_rec_yd.json.gz",
+      "bytes": 399515,
+      "SHA256": "103addad0fa19ece2871ea240fe0476e809bc24c40109b6e9d3b2620ada2157e",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/anytime_td.json.gz",
+      "bytes": 84563,
+      "SHA256": "bafd9f04dd3e46b887ed5162f03a9c759cefd00f8226fa6a474a704c10baaba6",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "prospective/runs/C-FWD-v4-20261101-0011-P2-remainder/models/fpts.json.gz",
+      "bytes": 668738,
+      "SHA256": "3885555ae27f5cc5601b22bb1ab0bb908d14b14e865ab36a4e75ef313406a816",
+      "fresh_local_file_verified": false,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/week8-v9/SUMMARY.json",
+      "bytes": 188481,
+      "SHA256": "9784465f8e7eafb91c97fc7b0d3b5bf0891b0862f225fc5ea1e78f5e6f57cbf4",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/topk-reference-v9/WEEKLY_RESULTS.json.gz",
+      "bytes": 262126,
+      "SHA256": "b95d6beb0bdc56ad1fb536ee516a6aae41728bff0ad0b5f950fd2dea5beb29ed",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/topk-reference-v9/CUMULATIVE.json.gz",
+      "bytes": 126317,
+      "SHA256": "ee3b2e92482558b9a5e537e1732676a384ca99d2970990210bf5ddfff8046175",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "artifacts/topk-reference-v9/MEMBERSHIP.json.gz",
+      "bytes": 424896,
+      "SHA256": "79905868eb4de2a0a79ecff241be391668f1d514b842caeed48f465f2da99919",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "artifacts/topk-reference-v9/COMMON_POOL.json.gz",
+      "bytes": 42856,
+      "SHA256": "248a13d26b8ff85922fc3725dd25dfc9c29f9422a7525d2b728a7e9d5a53f6af",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    },
+    {
+      "path": "reports/topk-reference-v9/OVERLAPS.json.gz",
+      "bytes": 40401,
+      "SHA256": "566d14dc345fca351fd7976adf5af9e6753f1e8b0ff0d3b43ef4dea61a4a65fe",
+      "fresh_local_file_verified": true,
+      "Git_commit_bytes_match": true
+    }
+  ],
+  "preserved_grade_states": {
+    "C-W8-v9-20261102-001": {
+      "GRADED_PLAYED": 1409,
+      "UNKNOWN": 873,
+      "PENDING": 199,
+      "PLAYED_MISSING_ACTUAL": 32
+    },
+    "C-W8-v9-20261102-002": {
+      "GRADED_PLAYED": 1440,
+      "UNKNOWN": 873,
+      "PENDING": 199,
+      "PLAYED_MISSING_ACTUAL": 1
+    },
+    "C-W8-v9-20261102-003": {
+      "GRADED_PLAYED": 1441,
+      "UNKNOWN": 873,
+      "PENDING": 199
+    }
+  },
+  "canonical_original_rows": 2513,
+  "canonical_graded": 1441,
+  "canonical_unknown": 873,
+  "canonical_pending": 199,
+  "all12category_MAE_MSE_CRPS_NLL_Brier_reproduced_where_supported": true,
+  "score_max_absolute_difference": {
+    "CRPS": 5.684341886080802e-14,
+    "NLL": 1.7763568394002505e-15
+  },
+  "numeric_baseline_inferences": [
+    {
+      "category": "pass_yd",
+      "forecast_id": "8aa404e8a78d6f2efbc45059",
+      "model_SHA256": "faccd9acd1ca480cf74b816773957cfd1f39d4cfad157e08c3c93dece2752c64",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "pass_td",
+      "forecast_id": "eefebc36bf58e1498909a558",
+      "model_SHA256": "3b24276f3b909680047e2c35e11fdf41982beea8be619b6062c90c019711e564",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "pass_cmp",
+      "forecast_id": "9cede26211b8b5d75b6fc72d",
+      "model_SHA256": "017ba3f58bbffbfca9d0797467a87854f8fd2aec8a3888c026aa5c6adcbc1317",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "pass_att",
+      "forecast_id": "b75a3947ae40f49597a996d6",
+      "model_SHA256": "5b05a7db0c06f46f221f6df510174f6416181c89b9110c5355835c545cf68d31",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "pass_int",
+      "forecast_id": "4aa720be6cb1a7e01937fc03",
+      "model_SHA256": "5b4b74b918bd328a763647d5c10415b74dc4fd959b45ed2789109a3ffef7eae3",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "rush_yd",
+      "forecast_id": "315b9935bc2329007d02254a",
+      "model_SHA256": "41cfb75dab2bfba2ff1d3e24c8f6b3dde12dd3eb5be86fab5c419783b459493a",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "rush_att",
+      "forecast_id": "0a8b518c4c8870e9884c15b1",
+      "model_SHA256": "3c20f7fa8e71e544bdc1427f3c4804d14c1eca407bb6a8b9f7fd012f0459c615",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "rec",
+      "forecast_id": "865a900b492a6b87c35502f2",
+      "model_SHA256": "363583cbfdc31fb91a4452b44cd02a19c90bded912110d7c5d95ade97718507c",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "rec_yd",
+      "forecast_id": "62c0de4cb4834bd290c9c79b",
+      "model_SHA256": "982bdaeaf354cb545a9cfc07ac182fbc12bf87fda89a5b5d7ffcefa895352ba7",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "rush_rec_yd",
+      "forecast_id": "24e5ab0445107ac06e5dd037",
+      "model_SHA256": "103addad0fa19ece2871ea240fe0476e809bc24c40109b6e9d3b2620ada2157e",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "anytime_td",
+      "forecast_id": "36539fbcb44042190f63ea2b",
+      "model_SHA256": "bafd9f04dd3e46b887ed5162f03a9c759cefd00f8226fa6a474a704c10baaba6",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    },
+    {
+      "category": "fpts",
+      "forecast_id": "87ddbeadd453d15d04c84dbb",
+      "model_SHA256": "3885555ae27f5cc5601b22bb1ab0bb908d14b14e865ab36a4e75ef313406a816",
+      "numeric_local_tree_inference_match": true,
+      "fresh_model_file_available": false,
+      "fresh_stream_hash_matches_local_model": true
+    }
+  ],
+  "recovered_TopK": {
+    "weekly_lists": 810,
+    "cumulative_views": 405,
+    "membership_views": 9238,
+    "overlap_views": 810,
+    "all_selected_lists_counts_confidence_and_overlap_reproduced_from_fresh_bytes": true,
+    "common_pool_cases": 2624,
+    "rank_candidate_pool_reconstruction": "Separately independently verified all810 full rankings in INDEPENDENT_V9_AUDIT.json using hash-pinned original canonical pool; restoration contains selected members and poolIDs, not all earlier raw method predictions"
+  },
+  "static_new_projection_parity": true,
+  "source_requests_by_this_verifier": 0,
+  "C_mutations": 0,
+  "new_NFL_fits": 0,
+  "pickle_loaded": false,
+  "not_claimed": [
+    "Original forecast/model/grade streamed downloads not retained anew on disk; transport observed by runner, independently hash-tied locally, not direct fresh-file restoration by verifier",
+    "No current public served-state verification yet",
+    "No Week8 actualprop performance or sixleg settlement/payout",
+    "Unknown participation and current-only partialweek limits remain"
+  ]
+}
