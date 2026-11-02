@@ -1,0 +1,11 @@
+{
+  "id": "C-W8-GRADE-CORRECTION-v9.2",
+  "old_version": "C-W8-v9-20261102-001",
+  "new_version": "C-W8-v9-20261102-002",
+  "failure": "The first factual projection omitted the direct completions column although it exists in the qualified raw NFL source.",
+  "impact": "31 physically played QB completion actuals were technically unavailable in initial grades; other category grades/predictions/masks unchanged. No false zeros or wins were created.",
+  "correction": "Add every direct CATEGORIES statistic to consumed-column contract; use a new immutable outcome packet/grade version from the same retained raw source. Preserve initial packet,grades and failure.",
+  "new_NFL_fits": 0,
+  "forecast_bytes_changed": false,
+  "source_raw_SHA256_unchanged": true
+}

@@ -33,7 +33,9 @@ def captures():
     assert len(rows)==2513 and len({r['forecast_id'] for r in rows})==2513
     return rows,proofs
 
-def build(raw):
+def build(raw,version=ID):
+    global ID,PACK,OUT
+    ID=version;PACK=ROOT/'prospective/outcomes'/ID;OUT=ROOT/'reports/week8-v9/runs'/ID
     start=time.monotonic();cpu=time.process_time();manifest=read(raw.parent/'INTAKE_RAW_MANIFEST.json');source={r['id']:r for r in manifest['sources']}
     for key,m in source.items():assert sha(raw/(key+'.raw'))==m['raw_SHA256'],'RAW_SOURCE_CHANGED:'+key
     rows,proofs=captures();original={r['espn_event_id']:r for r in manifest['original_events']};current={r['espn_event_id']:r for r in manifest['status']};schedule_frame=pd.read_csv(raw/'schedule.raw',low_memory=False);schedules=kickoff_frame(schedule_frame[(schedule_frame.season==2026)&(schedule_frame.week==8)&(schedule_frame.game_type=='REG')].copy());gmap={r['game_id']:r for r in schedules.to_dict('records')};status=[];final=set()
@@ -49,7 +51,7 @@ def build(raw):
         if not why:final.add(e['game_id'])
         status.append(dict(game_id=e['game_id'],espn_event_id=native,original_event_version=e['event_version'],current=s,qualified_final=not why,reasons=why))
     df=pd.read_csv(raw/'stats.raw',compression='gzip',low_memory=False);frame=df[(df.season==2026)&(df.week==8)&(df.season_type=='REG')&df.game_id.isin({e['game_id'] for e in original.values()})].copy()
-    cols=['player_id','season','week','season_type','game_id','team','opponent_team','position',*dict.fromkeys(PHYSICAL+list(SIGNED)+list(WEIGHTS)+['fumble_recovery_tds','special_teams_tds','sack_fumbles_lost','rushing_fumbles_lost','receiving_fumbles_lost'])]
+    cols=['player_id','season','week','season_type','game_id','team','opponent_team','position',*dict.fromkeys(PHYSICAL+[c[1] for c in CATEGORIES.values() if c[1]]+list(SIGNED)+list(WEIGHTS)+['fumble_recovery_tds','special_teams_tds','sack_fumbles_lost','rushing_fumbles_lost','receiving_fumbles_lost'])]
     cols=list(dict.fromkeys(c for c in cols if c not in RARE))
     assert set(cols)<=set(frame.columns),'MISSING_CONSUMED_SOURCE_FIELDS';frame=frame[cols];assert frame.player_id.str.fullmatch(r'00-\d{7}').all()
     duplicates=frame[frame.duplicated(['game_id','player_id'],keep=False)];assert duplicates.empty,'AMBIGUOUS_PLAYER_GAME_STAT_ROWS'
@@ -99,4 +101,4 @@ def build(raw):
     print(read(OUT/'GRADING_RUN.json'))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--raw',type=Path,required=True);x=p.parse_args();build(x.raw)
+    p=argparse.ArgumentParser();p.add_argument('--raw',type=Path,required=True);p.add_argument('--version',default=ID);x=p.parse_args();build(x.raw,x.version)
