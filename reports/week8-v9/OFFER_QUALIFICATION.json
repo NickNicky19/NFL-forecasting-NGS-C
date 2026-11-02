@@ -1,0 +1,61 @@
+{
+  "id": "C-W8-OFFER-RECOVERY-v9",
+  "observed_UTC": "2026-11-02T19:18:04.131054+00:00",
+  "original_C_paper_ledger_inspected": "paper/ contains READMEonly; no original offers/selections or serverpaperreceipts. All original v4 forecasts explicitlyNO_QUALIFIED_CURRENT_OFFER. No P3Week8pregame capture exists.",
+  "original_actual_line_selections": 0,
+  "qualified_replay_offers": 0,
+  "qualified_future_offers": 0,
+  "source_discovery_complete": false,
+  "bounded_checks": [
+    {
+      "source": "propline/graded-player-props-sample",
+      "revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+      "metadata_SHA256": "69bf41790d4c1bdfde67ffb1f932025abbe93af136cd6e077c312ab5ac899f20",
+      "license": "CC BY4.0 specificsample remains applicable",
+      "result": "NO_NEW_WEEK8_COVERAGE",
+      "reason": "Exactunchanged admitted NFLfile/revision supports2026W2\u20133only; no newlydated/currentplayerlinefile. No extra personalgrant required for this sample."
+    },
+    {
+      "source": "Karmane/polymarket-sports-lines-and-player-props-sample",
+      "revision": "20cc0ac98d47ca4ef684c3e2211a6c828bdf998f",
+      "sample_SHA256": "fb0f4735819eda2bb0293c1f5f99bd139b43191b3de15cbae5ac4322a0869336",
+      "rows": 575,
+      "NFL_labelled_rows": 41,
+      "collected_at": [
+        "2026-06-09 18:47:53.755930+00:00",
+        "2026-06-09 18:47:53.755930+00:00"
+      ],
+      "license": "CardCCBY4sample; structuralreview conducted before any modelperformance; not a grant for unrelated fullarchive or upstreamsources",
+      "result": "NO_COMPATIBLE_WEEK8_PLAYER_GAME_OFFER",
+      "reason": "Actualfields show2021team-spread/in-game andseason-leader questions,2026roster/draft/ownership/MVP/division/collegefutures;no2026W8single-player-game/stat/line. Heuristic sports_market_type falsely calls some teamspreads player_prop; some identities are placeholders. No native GSIS/ESPNcontract/timing match toC. June9collection is actualfilefield, not inferred from upload.",
+      "timing": "Historicalsinglecollection; some events end2027 but not currentWeek8offers",
+      "data_publication": "C-authored structural facts/limitedfield examples withattribution only; no rawmarketfeed mirrored; no source admitted for modelgrading"
+    },
+    {
+      "source": "Karmane/polymarket-sports-lines-and-player-props fullarchive",
+      "result": "GATED_CARD_HTTP401_STOPPED",
+      "reason": "Fullmetadata readable butfullcard401; cardindicates paid+gatedaccess. No retry, account/key/purchase or accessbypass."
+    },
+    {
+      "source": "NickNicky19/nicks-expert-nfl-picks",
+      "reference": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+      "path": "output/data/archive/2026_w08.json",
+      "DK_tagged_line_views": 622,
+      "Sleeper_tagged_line_views": 19,
+      "result": "PREVIOUS_SOURCE_SPECIFIC_HOLDS_PRESERVED",
+      "reason": "Actual line_from provenance kept distinct from model/averageprojection source. No source-specific analysis/minimumGitHubretention grant established; peroffer observation/side/contract/nativeclock gaps remain. Saved_at cannot substitute for quoteclock. No heldrow performance or rejectedrawpublication retried.",
+      "facets_reference": "protocol/SOURCE_FACETS_V6.json"
+    }
+  ],
+  "discovery_metadata_requests": 8,
+  "bounded_static_sample_downloads": 1,
+  "provider_odds_API_calls": 0,
+  "paid_calls": 0,
+  "no_current_snapshot": true,
+  "exact_minimum_dependency": "A source-qualified Week8player-game-stat-period/venue/product/tier/line/comparator/genuinelyofferedside snapshot, realobservation/source/lifecycle clocks, exact scoring/appearance contract and recoverable permittedGitHub evidence. Existingheldprovider records need applicable scope authorization and identity/contract completion; permission cannot restore missing quoteclocks. Fresh unplayedCHI-SEAboard requires actualnew clocks; no backdating.",
+  "not_required": [
+    "prices for statisticalindividual-line tests",
+    "six-leg payout quote for individual-line tests"
+  ],
+  "no_model_or_line_fabrication": true
+}

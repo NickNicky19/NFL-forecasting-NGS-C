@@ -1,3 +1,38 @@
+# Week 8 results to date — actual-prop status first
+
+Original pregame actual-line selections: **none**. Qualified Week 8 exact-line replays: **none**. No real-line hit rate or higher-performing selected side is established for any category. Prices and entry payouts are not the missing gate. The original v4 forecast capture remains unchanged.
+
+|Category|Method / selector|Over W-L / decided / rate|Under W-L / decided / rate|Combined W-L / decided / rate|Qualified offers|Original issued / graded / unknown / pending|
+|---|---|---|---|---|---|---|
+|Passing Yards|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_DEF / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|71 / 31 / 34 / 6|
+|Passing TDs|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_DEF / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|71 / 31 / 34 / 6|
+|Completions|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_ENV / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|71 / 31 / 34 / 6|
+|Pass Attempts|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_ENV / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|71 / 31 / 34 / 6|
+|Interceptions|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_ENV / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|71 / 31 / 34 / 6|
+|Rushing Yards|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_OP / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|168 / 92 / 60 / 16|
+|Rush Attempts|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_OP / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|168 / 92 / 60 / 16|
+|Receptions|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_ENV / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|336 / 208 / 103 / 25|
+|Receiving Yards|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_DEF / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|336 / 208 / 103 / 25|
+|Rush + Rec Yards|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_DEF / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|336 / 208 / 103 / 25|
+|Anytime TD|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_OP / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|407 / 239 / 137 / 31|
+|Fantasy Points (PPR)|C-FORWARD-P2-v4/P2_LEAF/H-MULTI/E0_ENV / frozen P2-v4.1|N/A / 0 / N/A|N/A / 0 / N/A|N/A / 0 / N/A|0; universe unknown|407 / 239 / 137 / 31|
+
+**Week 8 Over, Under, combined and category-side leaders: NOT ESTABLISHED.** Original issued population: 2,513 forecasts / 407 roster player-games / 13 Sunday–Monday games. At the independently refreshed November 2 status, twelve are final and Bears–Seahawks is pending. Thursday October 29 is outside this capture. No DNP/void/settlement inference is made from missing rows. The pending game is not graded early.
+
+[Executed Week 8 forecast-only scores](reports/week8-v9/README.md) and [canonical rows](reports/week8-v9/GRADED_FORECAST_ROWS.csv.gz) grade **1,441** views for **239** physically evidenced player-games; **873** views retain unknown participation and **199** remain pending. Median MAE, mean RMSE/bias, CRPS/NLL, interval coverage, roles and sparse masks are separate from prop accuracy. The Anytime football event Brier is **0.158110**, versus **0.174730** for the original captured role-prior diagnostic and 0.25 neutral; it is not a YES/NO market result. Chart-PPR remains a label-coverage-limited shadow and affected CMP/ATT paper selections remain blocked.
+
+All initial grades and corrections remain: version 002 recovered 31 available completion actuals omitted in the initial projection; version 003 qualified one chart actual from the unique native kickoff-return TD. Neither correction changes a forecast. [Independent code/row verification](reports/week8-v9/INDEPENDENT_GRADE_AUDIT.json) checks all labels/laws/masks and original bytes. [Offer-recovery dispositions](reports/week8-v9/OFFER_QUALIFICATION.json) record the unchanged W2–3 PropLine sample, incompatible public Polymarket sample and preserved legacy rights/timing holds. No new offer, settlement, return, model promotion or six-leg entry is invented.
+
+The [fixed zero-refit Top-K benchmark audit](reports/topk-reference-v9/README.md) executes all 810 registered weekly lists against the saved earlier-role reference on one common 2,624-offer pool. Original Pinnacle P3 K6 stays 10–2; P2 is 7–5 and the simple reference 6–6 on their own lists. P3 and the simple reference both win 104/177 on all Pinnacle rushing cases. These are two exposed weeks / the same 32 games, not synchronized boards, independent new seasons, available tickets or validated confidence. All K/book/side/scope variants, unknowns, own members and overlap are retained.
+
+[All twelve readiness states](reports/week8-v9/TWELVE_CATEGORY_STATUS.json), [six-component status](reports/week8-v9/COMPONENT_STATUS.json), [new pregame source-readiness facts](reports/week8-v9/CURRENT_PREGAME_READINESS.json) and [next finite work](protocol/NEXT_WAVE_V9.json) preserve the remaining gaps. The manual future pipeline continues; no unattended run is active. Current minimum dependency is a permitted exact native player/game/market/line/side/venue/period/timing/contract snapshot with recoverable GitHub evidence. No additional personal grant is needed for the already admitted licensed PropLine sample, but that sample has no Week 8 or current-game offers.
+
+[GitHub restoration](reports/week8-v9/GITHUB_RESTORE.json) and [actual publication receipt](reports/week8-v9/PUBLICATION.json) are appended after checks. Publication is not model admission. [Prospective Results](https://nicknicky19.github.io/NFL-forecasting-NGS-C/#prospective) and [ranking comparison](https://nicknicky19.github.io/NFL-forecasting-NGS-C/#reliability) use the retained canonical rows.
+
+---
+
+## Preserved preceding historical actual-line checkpoint
+
 # Session C — actual recorded prop scorecard
 
 The declared reference remains P2_LEAF/H-MULTI/E0_OP with the frozen ALL_ELIGIBLE_OFFERS rule. The table is an explicitly disclosed three-book procedure aggregate; use book-specific strata for rankings. The source supports 2026 Weeks 2–3 only. The fixed historical target remains Weeks 1–7, 107 games. Unsupported categories are N/A, with their precise gaps retained.

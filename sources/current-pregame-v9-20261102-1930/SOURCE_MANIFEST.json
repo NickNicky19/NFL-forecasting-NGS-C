@@ -1,0 +1,63 @@
+{
+  "sources": [
+    {
+      "id": "status",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261102&limit=100",
+      "started_UTC": "2026-11-02T19:30:02.778462+00:00",
+      "observed_UTC": "2026-11-02T19:30:03.160850+00:00",
+      "HTTP_status": 200,
+      "HTTP_Date": "Mon, 02 Nov 2026 19:30:03 GMT",
+      "HTTP_Age": null,
+      "HTTP_Last_Modified": null,
+      "bytes": 24117,
+      "raw_SHA256": "768832ec81e91605c15117ab810138794c18684f580faefdd695f8ff22c90c22",
+      "raw_retention": "Temporaryonly; publicsnapshot retains consumed factualprojection, not upstream presentation"
+    },
+    {
+      "id": "roster",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv.gz",
+      "started_UTC": "2026-11-02T19:30:03.161684+00:00",
+      "observed_UTC": "2026-11-02T19:30:03.648840+00:00",
+      "HTTP_status": 200,
+      "HTTP_Date": "Mon, 02 Nov 2026 19:30:03 GMT",
+      "HTTP_Age": "147",
+      "HTTP_Last_Modified": "Mon, 02 Nov 2026 17:02:02 GMT",
+      "bytes": 535845,
+      "raw_SHA256": "ad6a1f26d44ec794609cf72d8767e21f8f78734ac452d37037de9654c92707c3",
+      "raw_retention": "Temporaryonly; publicsnapshot retains consumed factualprojection, not upstream presentation"
+    },
+    {
+      "id": "injuries",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz",
+      "started_UTC": "2026-11-02T19:30:03.650348+00:00",
+      "observed_UTC": "2026-11-02T19:30:04.089706+00:00",
+      "HTTP_status": 200,
+      "HTTP_Date": "Mon, 02 Nov 2026 19:30:04 GMT",
+      "HTTP_Age": "1527",
+      "HTTP_Last_Modified": "Mon, 02 Nov 2026 16:59:01 GMT",
+      "bytes": 52132,
+      "raw_SHA256": "40177efec226a0ea97995bb281a8a027240142510d8eb2c9f28f884c03e96e55",
+      "raw_retention": "Temporaryonly; publicsnapshot retains consumed factualprojection, not upstream presentation"
+    }
+  ],
+  "status": [
+    {
+      "espn_event_id": "401873036",
+      "competition_id": "401873036",
+      "competition_state_agreement": true,
+      "week": 8,
+      "kickoff_UTC": "2026-11-03T01:15:00+00:00",
+      "kickoff": 1793668500.0,
+      "home_team": "SEA",
+      "away_team": "CHI",
+      "season": 2026,
+      "season_type": 2,
+      "state": "pre",
+      "status_name": "STATUS_SCHEDULED",
+      "completed": false,
+      "observed_UTC": "2026-11-02T19:30:03.160850+00:00",
+      "source_id": "status"
+    }
+  ],
+  "created_UTC": "2026-11-02T19:30:04.090077+00:00"
+}

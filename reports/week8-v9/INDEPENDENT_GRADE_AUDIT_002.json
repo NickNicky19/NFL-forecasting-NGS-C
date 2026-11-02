@@ -1,0 +1,1268 @@
+{
+  "id": "C-W8-INDEPENDENT-GRADE-AUDIT-v9",
+  "scope": "Read-only existing retained source/forecast/outcome/grade bytes; zero fits, zero external source requests; new receipt outside C",
+  "baseline_commit": "009c631eefb9fc1d3374b9a1de4fffed0df0cc25",
+  "checks": {
+    "original_protected_bytes": {
+      "result": "PASS",
+      "files": 62,
+      "all_git_blob_hashes_identical": true
+    },
+    "first_qualified_snapshots": {
+      "result": "PASS",
+      "rows": 2513,
+      "roster_candidates": 407,
+      "receipts": [
+        {
+          "run_id": "C-FWD-v4-20261101-0009-P2-pass_yd",
+          "rows": 71,
+          "forecast_SHA256": "473277d554027e82e4a64cef1ced4965a2cc9a3c16dfaba1a977a9682426ec9c",
+          "server_check_completed_UTC": "2026-11-01T00:13:48Z"
+        },
+        {
+          "run_id": "C-FWD-v4-20261101-0011-P2-remainder",
+          "rows": 2442,
+          "forecast_SHA256": "9726db3686b895a8df284e2651f65737b12ec7b4bd1b477325c7898dc1eff367",
+          "server_check_completed_UTC": "2026-11-01T00:13:48Z"
+        }
+      ],
+      "first_snapshot_reconstructed": true
+    },
+    "native_final_event_and_schedule": {
+      "result": "PASS",
+      "original_events": 13,
+      "explicit_native_FINAL_with_matching_teams_kickoff_schedule_scores": 12,
+      "pending_events": 1,
+      "raw_source_hashes": 4
+    },
+    "raw_fact_labels_appearance_all_outcomes": {
+      "result": "PASS",
+      "versions": {
+        "001": {
+          "states": {
+            "GRADED_PLAYED": 1409,
+            "UNKNOWN": 873,
+            "PENDING": 199,
+            "PLAYED_MISSING_ACTUAL": 32
+          },
+          "unknown_reasons": {
+            "missing_source_row": 758,
+            "allzero_no_physical_proof": 115
+          },
+          "played_zero_by_category": {
+            "pass_yd": 4,
+            "pass_td": 14,
+            "pass_att": 1,
+            "pass_int": 17,
+            "rush_yd": 17,
+            "rush_att": 15,
+            "rec": 57,
+            "rec_yd": 58,
+            "rush_rec_yd": 36,
+            "anytime_td": 185,
+            "fpts": 36
+          },
+          "chart": {
+            "graded_rare_zero_subset": 238,
+            "blocked_rare_positive_or_missing": 1
+          },
+          "chart_lost_fumble_rows": 15,
+          "chart_two_point_credit_rows": 7,
+          "graded_source_vs_forecast_role_disagreements": 26,
+          "infinite_NLL": {},
+          "metrics": {
+            "pass_yd": {
+              "MAE_median": 75.16129032258064,
+              "MSE_mean": 9463.098066134264,
+              "bias_mean": 22.787244423527884,
+              "CRPS": 53.392879267287384,
+              "NLL": 5.734872261623904,
+              "n": 31
+            },
+            "pass_td": {
+              "MAE_median": 0.9354838709677419,
+              "MSE_mean": 1.4080224942833213,
+              "bias_mean": 0.0712276407738367,
+              "CRPS": 0.6232819161616451,
+              "NLL": 1.3734326055489012,
+              "n": 31
+            },
+            "pass_att": {
+              "MAE_median": 8.838709677419354,
+              "MSE_mean": 130.97191990402763,
+              "bias_mean": 4.618923958196122,
+              "CRPS": 6.21910957859061,
+              "NLL": 3.611565268430281,
+              "n": 31
+            },
+            "pass_int": {
+              "MAE_median": 0.6451612903225806,
+              "MSE_mean": 0.889459562242716,
+              "bias_mean": -0.08260255787811986,
+              "CRPS": 0.4334517579374012,
+              "NLL": 1.103877020028945,
+              "n": 31
+            },
+            "rush_yd": {
+              "MAE_median": 19.847826086956523,
+              "MSE_mean": 948.3847759299246,
+              "bias_mean": -1.6141376806029466,
+              "CRPS": 14.331927080170892,
+              "NLL": 4.114729262092692,
+              "n": 92
+            },
+            "rush_att": {
+              "MAE_median": 3.532608695652174,
+              "MSE_mean": 23.465087416967503,
+              "bias_mean": -0.1733901160286493,
+              "CRPS": 2.4453679308829708,
+              "NLL": 2.682848225545275,
+              "n": 92
+            },
+            "rec": {
+              "MAE_median": 1.2451923076923077,
+              "MSE_mean": 3.1234532143738423,
+              "bias_mean": 0.12084174971956584,
+              "CRPS": 0.8871395456799477,
+              "NLL": 1.7097817861889486,
+              "n": 208
+            },
+            "rec_yd": {
+              "MAE_median": 17.504807692307693,
+              "MSE_mean": 743.264996133105,
+              "bias_mean": -0.5550561948101576,
+              "CRPS": 12.839741057561396,
+              "NLL": 3.7886414378191167,
+              "n": 208
+            },
+            "rush_rec_yd": {
+              "MAE_median": 22.317307692307693,
+              "MSE_mean": 1103.4359448146718,
+              "bias_mean": -2.6153232396050967,
+              "CRPS": 16.369556712578483,
+              "NLL": 4.287878972074083,
+              "n": 208
+            },
+            "anytime_td": {
+              "Brier": 0.15810964661627722,
+              "CRPS": 0.1581096466162772,
+              "NLL": 0.4866746673028733,
+              "n": 239
+            },
+            "fpts": {
+              "MAE_median": 5.023529411764706,
+              "MSE_mean": 48.08359359951184,
+              "bias_mean": -0.010909096141638307,
+              "CRPS": 3.5300921328370016,
+              "NLL": 5.436683637488298,
+              "n": 238
+            }
+          }
+        },
+        "002": {
+          "states": {
+            "GRADED_PLAYED": 1440,
+            "UNKNOWN": 873,
+            "PENDING": 199,
+            "PLAYED_MISSING_ACTUAL": 1
+          },
+          "unknown_reasons": {
+            "missing_source_row": 758,
+            "allzero_no_physical_proof": 115
+          },
+          "played_zero_by_category": {
+            "pass_yd": 4,
+            "pass_td": 14,
+            "pass_cmp": 3,
+            "pass_att": 1,
+            "pass_int": 17,
+            "rush_yd": 17,
+            "rush_att": 15,
+            "rec": 57,
+            "rec_yd": 58,
+            "rush_rec_yd": 36,
+            "anytime_td": 185,
+            "fpts": 36
+          },
+          "chart": {
+            "graded_rare_zero_subset": 238,
+            "blocked_rare_positive_or_missing": 1
+          },
+          "chart_lost_fumble_rows": 15,
+          "chart_two_point_credit_rows": 7,
+          "graded_source_vs_forecast_role_disagreements": 26,
+          "infinite_NLL": {},
+          "metrics": {
+            "pass_yd": {
+              "MAE_median": 75.16129032258064,
+              "MSE_mean": 9463.098066134264,
+              "bias_mean": 22.787244423527884,
+              "CRPS": 53.392879267287384,
+              "NLL": 5.734872261623904,
+              "n": 31
+            },
+            "pass_td": {
+              "MAE_median": 0.9354838709677419,
+              "MSE_mean": 1.4080224942833213,
+              "bias_mean": 0.0712276407738367,
+              "CRPS": 0.6232819161616451,
+              "NLL": 1.3734326055489012,
+              "n": 31
+            },
+            "pass_cmp": {
+              "MAE_median": 6.774193548387097,
+              "MSE_mean": 71.23312803755209,
+              "bias_mean": 2.8324938253658507,
+              "CRPS": 4.728042395443243,
+              "NLL": 3.4598115400088463,
+              "n": 31
+            },
+            "pass_att": {
+              "MAE_median": 8.838709677419354,
+              "MSE_mean": 130.97191990402763,
+              "bias_mean": 4.618923958196122,
+              "CRPS": 6.21910957859061,
+              "NLL": 3.611565268430281,
+              "n": 31
+            },
+            "pass_int": {
+              "MAE_median": 0.6451612903225806,
+              "MSE_mean": 0.889459562242716,
+              "bias_mean": -0.08260255787811986,
+              "CRPS": 0.4334517579374012,
+              "NLL": 1.103877020028945,
+              "n": 31
+            },
+            "rush_yd": {
+              "MAE_median": 19.847826086956523,
+              "MSE_mean": 948.3847759299246,
+              "bias_mean": -1.6141376806029466,
+              "CRPS": 14.331927080170892,
+              "NLL": 4.114729262092692,
+              "n": 92
+            },
+            "rush_att": {
+              "MAE_median": 3.532608695652174,
+              "MSE_mean": 23.465087416967503,
+              "bias_mean": -0.1733901160286493,
+              "CRPS": 2.4453679308829708,
+              "NLL": 2.682848225545275,
+              "n": 92
+            },
+            "rec": {
+              "MAE_median": 1.2451923076923077,
+              "MSE_mean": 3.1234532143738423,
+              "bias_mean": 0.12084174971956584,
+              "CRPS": 0.8871395456799477,
+              "NLL": 1.7097817861889486,
+              "n": 208
+            },
+            "rec_yd": {
+              "MAE_median": 17.504807692307693,
+              "MSE_mean": 743.264996133105,
+              "bias_mean": -0.5550561948101576,
+              "CRPS": 12.839741057561396,
+              "NLL": 3.7886414378191167,
+              "n": 208
+            },
+            "rush_rec_yd": {
+              "MAE_median": 22.317307692307693,
+              "MSE_mean": 1103.4359448146718,
+              "bias_mean": -2.6153232396050967,
+              "CRPS": 16.369556712578483,
+              "NLL": 4.287878972074083,
+              "n": 208
+            },
+            "anytime_td": {
+              "Brier": 0.15810964661627722,
+              "CRPS": 0.1581096466162772,
+              "NLL": 0.4866746673028733,
+              "n": 239
+            },
+            "fpts": {
+              "MAE_median": 5.023529411764706,
+              "MSE_mean": 48.08359359951184,
+              "bias_mean": -0.010909096141638307,
+              "CRPS": 3.5300921328370016,
+              "NLL": 5.436683637488298,
+              "n": 238
+            }
+          }
+        }
+      },
+      "grade_row_identity_matching": true,
+      "role_filter_does_not_limit_source_lookup": true
+    },
+    "all_saved_law_scores": {
+      "result": "PASS",
+      "independent_mixture_probability_mean_absolute_pair_score": true,
+      "max_absolute_difference": {
+        "NLL": 1.7763568394002505e-15,
+        "CRPS": 5.684341886080802e-14
+      },
+      "finite_and_infinite_handling": "All actual current002 scores finite; preserved NLL Infinity branch is unexercised on this wave; no filtering or clipping introduced",
+      "anytime_Bernoulli_Brier_CRPS_identity": true
+    },
+    "append_only_completion_correction": {
+      "result": "PASS",
+      "changed_grade_rows": 31,
+      "categories": [
+        "pass_cmp"
+      ],
+      "old_missing_actual_to_new_graded_only": true,
+      "other_grades_bit_equivalent": true,
+      "original001_retained": true,
+      "original_forecasts_unchanged": true
+    },
+    "latest_expanded_row_masks": {
+      "result": "PASS",
+      "rows": 2513,
+      "saved_values_scores_and_masks_match": true,
+      "roles": [
+        {
+          "category": "anytime_td",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "anytime_td",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "anytime_td",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "anytime_td",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "anytime_td",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "anytime_td",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "anytime_td",
+          "role": "TE",
+          "state": "GRADED_PLAYED",
+          "n": 49
+        },
+        {
+          "category": "anytime_td",
+          "role": "TE",
+          "state": "PENDING",
+          "n": 5
+        },
+        {
+          "category": "anytime_td",
+          "role": "TE",
+          "state": "UNKNOWN",
+          "n": 40
+        },
+        {
+          "category": "anytime_td",
+          "role": "WR",
+          "state": "GRADED_PLAYED",
+          "n": 98
+        },
+        {
+          "category": "anytime_td",
+          "role": "WR",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "anytime_td",
+          "role": "WR",
+          "state": "UNKNOWN",
+          "n": 37
+        },
+        {
+          "category": "fpts",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "fpts",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "fpts",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "fpts",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 60
+        },
+        {
+          "category": "fpts",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "fpts",
+          "role": "RB",
+          "state": "PLAYED_MISSING_ACTUAL",
+          "n": 1
+        },
+        {
+          "category": "fpts",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "fpts",
+          "role": "TE",
+          "state": "GRADED_PLAYED",
+          "n": 49
+        },
+        {
+          "category": "fpts",
+          "role": "TE",
+          "state": "PENDING",
+          "n": 5
+        },
+        {
+          "category": "fpts",
+          "role": "TE",
+          "state": "UNKNOWN",
+          "n": 40
+        },
+        {
+          "category": "fpts",
+          "role": "WR",
+          "state": "GRADED_PLAYED",
+          "n": 98
+        },
+        {
+          "category": "fpts",
+          "role": "WR",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "fpts",
+          "role": "WR",
+          "state": "UNKNOWN",
+          "n": 37
+        },
+        {
+          "category": "pass_att",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "pass_att",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "pass_att",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "pass_cmp",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "pass_cmp",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "pass_cmp",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "pass_int",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "pass_int",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "pass_int",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "pass_td",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "pass_td",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "pass_td",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "pass_yd",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "pass_yd",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "pass_yd",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "rec",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "rec",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rec",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "rec",
+          "role": "TE",
+          "state": "GRADED_PLAYED",
+          "n": 49
+        },
+        {
+          "category": "rec",
+          "role": "TE",
+          "state": "PENDING",
+          "n": 5
+        },
+        {
+          "category": "rec",
+          "role": "TE",
+          "state": "UNKNOWN",
+          "n": 40
+        },
+        {
+          "category": "rec",
+          "role": "WR",
+          "state": "GRADED_PLAYED",
+          "n": 98
+        },
+        {
+          "category": "rec",
+          "role": "WR",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rec",
+          "role": "WR",
+          "state": "UNKNOWN",
+          "n": 37
+        },
+        {
+          "category": "rec_yd",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "rec_yd",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rec_yd",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "rec_yd",
+          "role": "TE",
+          "state": "GRADED_PLAYED",
+          "n": 49
+        },
+        {
+          "category": "rec_yd",
+          "role": "TE",
+          "state": "PENDING",
+          "n": 5
+        },
+        {
+          "category": "rec_yd",
+          "role": "TE",
+          "state": "UNKNOWN",
+          "n": 40
+        },
+        {
+          "category": "rec_yd",
+          "role": "WR",
+          "state": "GRADED_PLAYED",
+          "n": 98
+        },
+        {
+          "category": "rec_yd",
+          "role": "WR",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rec_yd",
+          "role": "WR",
+          "state": "UNKNOWN",
+          "n": 37
+        },
+        {
+          "category": "rush_att",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "rush_att",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "rush_att",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "rush_att",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "rush_att",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rush_att",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "TE",
+          "state": "GRADED_PLAYED",
+          "n": 49
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "TE",
+          "state": "PENDING",
+          "n": 5
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "TE",
+          "state": "UNKNOWN",
+          "n": 40
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "WR",
+          "state": "GRADED_PLAYED",
+          "n": 98
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "WR",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rush_rec_yd",
+          "role": "WR",
+          "state": "UNKNOWN",
+          "n": 37
+        },
+        {
+          "category": "rush_yd",
+          "role": "QB",
+          "state": "GRADED_PLAYED",
+          "n": 31
+        },
+        {
+          "category": "rush_yd",
+          "role": "QB",
+          "state": "PENDING",
+          "n": 6
+        },
+        {
+          "category": "rush_yd",
+          "role": "QB",
+          "state": "UNKNOWN",
+          "n": 34
+        },
+        {
+          "category": "rush_yd",
+          "role": "RB",
+          "state": "GRADED_PLAYED",
+          "n": 61
+        },
+        {
+          "category": "rush_yd",
+          "role": "RB",
+          "state": "PENDING",
+          "n": 10
+        },
+        {
+          "category": "rush_yd",
+          "role": "RB",
+          "state": "UNKNOWN",
+          "n": 26
+        }
+      ],
+      "sparse_graded": [
+        {
+          "category": "anytime_td",
+          "sparse": false,
+          "n": 230
+        },
+        {
+          "category": "anytime_td",
+          "sparse": true,
+          "n": 9
+        },
+        {
+          "category": "fpts",
+          "sparse": false,
+          "n": 229
+        },
+        {
+          "category": "fpts",
+          "sparse": true,
+          "n": 9
+        },
+        {
+          "category": "pass_att",
+          "sparse": false,
+          "n": 30
+        },
+        {
+          "category": "pass_att",
+          "sparse": true,
+          "n": 1
+        },
+        {
+          "category": "pass_cmp",
+          "sparse": false,
+          "n": 30
+        },
+        {
+          "category": "pass_cmp",
+          "sparse": true,
+          "n": 1
+        },
+        {
+          "category": "pass_int",
+          "sparse": false,
+          "n": 30
+        },
+        {
+          "category": "pass_int",
+          "sparse": true,
+          "n": 1
+        },
+        {
+          "category": "pass_td",
+          "sparse": false,
+          "n": 30
+        },
+        {
+          "category": "pass_td",
+          "sparse": true,
+          "n": 1
+        },
+        {
+          "category": "pass_yd",
+          "sparse": false,
+          "n": 30
+        },
+        {
+          "category": "pass_yd",
+          "sparse": true,
+          "n": 1
+        },
+        {
+          "category": "rec",
+          "sparse": false,
+          "n": 200
+        },
+        {
+          "category": "rec",
+          "sparse": true,
+          "n": 8
+        },
+        {
+          "category": "rec_yd",
+          "sparse": false,
+          "n": 200
+        },
+        {
+          "category": "rec_yd",
+          "sparse": true,
+          "n": 8
+        },
+        {
+          "category": "rush_att",
+          "sparse": false,
+          "n": 88
+        },
+        {
+          "category": "rush_att",
+          "sparse": true,
+          "n": 4
+        },
+        {
+          "category": "rush_rec_yd",
+          "sparse": false,
+          "n": 200
+        },
+        {
+          "category": "rush_rec_yd",
+          "sparse": true,
+          "n": 8
+        },
+        {
+          "category": "rush_yd",
+          "sparse": false,
+          "n": 88
+        },
+        {
+          "category": "rush_yd",
+          "sparse": true,
+          "n": 4
+        }
+      ],
+      "fallback_graded": [
+        {
+          "category": "anytime_td",
+          "fallback": false,
+          "n": 239
+        },
+        {
+          "category": "fpts",
+          "fallback": false,
+          "n": 238
+        },
+        {
+          "category": "pass_att",
+          "fallback": false,
+          "n": 31
+        },
+        {
+          "category": "pass_cmp",
+          "fallback": false,
+          "n": 31
+        },
+        {
+          "category": "pass_int",
+          "fallback": false,
+          "n": 31
+        },
+        {
+          "category": "pass_td",
+          "fallback": false,
+          "n": 31
+        },
+        {
+          "category": "pass_yd",
+          "fallback": false,
+          "n": 31
+        },
+        {
+          "category": "rec",
+          "fallback": false,
+          "n": 208
+        },
+        {
+          "category": "rec_yd",
+          "fallback": false,
+          "n": 208
+        },
+        {
+          "category": "rush_att",
+          "fallback": false,
+          "n": 92
+        },
+        {
+          "category": "rush_rec_yd",
+          "fallback": false,
+          "n": 208
+        },
+        {
+          "category": "rush_yd",
+          "fallback": false,
+          "n": 92
+        }
+      ]
+    },
+    "independent_lattice_CDF_scores_and_quantile_boundaries": {
+      "result": "PASS",
+      "tail_probability_truncation": 1e-15,
+      "representatives": [
+        {
+          "forecast_id": "4f9d466233f1c3b70b795a4a",
+          "category": "pass_yd",
+          "CDF_lattice_CRPS": 163.5054102464704,
+          "saved_CRPS": 163.50541024647043,
+          "lattice_points": 6126,
+          "absolute_difference": 2.842170943040401e-14
+        },
+        {
+          "forecast_id": "bd350a8ae2f890b4e91b4a48",
+          "category": "pass_cmp",
+          "CDF_lattice_CRPS": 12.30460095759591,
+          "saved_CRPS": 12.304600957595913,
+          "lattice_points": 1309,
+          "absolute_difference": 1.7763568394002505e-15
+        },
+        {
+          "forecast_id": "529b7b3aea21f2512817468d",
+          "category": "rush_yd",
+          "CDF_lattice_CRPS": 95.23037020590468,
+          "saved_CRPS": 95.23037020590462,
+          "lattice_points": 2149,
+          "absolute_difference": 5.684341886080802e-14
+        },
+        {
+          "forecast_id": "e0805727c3b00a9ca0e7dadf",
+          "category": "rec",
+          "CDF_lattice_CRPS": 5.539799239213992,
+          "saved_CRPS": 5.539799239213993,
+          "lattice_points": 225,
+          "absolute_difference": 8.881784197001252e-16
+        },
+        {
+          "forecast_id": "d5e4cfd98062eb9254ba4772",
+          "category": "anytime_td",
+          "CDF_lattice_CRPS": 0.8440959222290851,
+          "saved_CRPS": 0.8440959222290851,
+          "lattice_points": 8,
+          "absolute_difference": 0.0
+        },
+        {
+          "forecast_id": "cdf1d7f2c80c2db67a5279c4",
+          "category": "fpts",
+          "CDF_lattice_CRPS": 25.03296390860575,
+          "saved_CRPS": 25.03296390860578,
+          "lattice_points": 23814,
+          "absolute_difference": 2.842170943040401e-14
+        }
+      ]
+    },
+    "adverse_and_sparse_retention": {
+      "result": "PASS",
+      "largest_native_unit_error_not_category_ranking": {
+        "forecast_id": "62018738be3b9c971b1b78c5",
+        "category": "pass_yd",
+        "position": "QB",
+        "actual": 0,
+        "median": 212.0,
+        "mean": 208.16231692720586,
+        "absolute_error": 212.0,
+        "CRPS": 160.232176833626,
+        "NLL": 4.1925171670082415,
+        "state": "GRADED_PLAYED"
+      },
+      "zero_prior_target_history_graded_views": 50,
+      "not_a_new_control_comparison": true
+    }
+  },
+  "limitations": [
+    "Observed to date: 12 FINAL of 13 original events; 199 pending forecast rows cannot be graded.",
+    "873 UNKNOWN forecast rows remain; missing or allzero statistical rows do not authenticate DNP/appearance. This is a conditional physical/statistical-participation forecast panel, not an unconditional pregame roster hit rate.",
+    "No new snap/injury/exit source: low-volume and physically evidenced played-zero rows retained, but early exits cannot be independently identified from this intake alone.",
+    "One physically played fantasy row has positive broad special-teams TD total; rare component attribution unresolved, actual withheld. Qualified chart labels are the explicit rare-zero subset only, not a validation of the unconditional rare-event tail.",
+    "Direct fumbles_lost_total once and separate conversion columns are mathematically verified against retained raw facts. Current source producer code/dictionary bytes were not supplied to this verifier; source-definition continuity of nflverse conversion vs ordinary reception credits relies on existing pinned prior source qualification, not a new direct producer audit.",
+    "No qualified actual-line/venue settlement/entry record in these original captures. Own OVER/UNDER, sportsbook hit rate, ROI, CLV and six-leg success remain unavailable; anytime Brier/logloss are event scores, not offered-side hits.",
+    "Retained server receipts and exact original Git objects establish preserved local lineage. Fresh GitHub restoration and served website parity are separate followup acceptance tasks.",
+    "Saved learned pregame law quality is scored, without new fits or retroactive calibration; one partial week is not evidence of stable scientific superiority."
+  ],
+  "representative_checks": [
+    {
+      "forecast_id": "d9fdfe60fcf071ca459f3874",
+      "category": "pass_yd",
+      "role": "QB",
+      "actual": 91,
+      "median": 72.0,
+      "mean": 101.4010480843883,
+      "CRPS": 28.650578623696923,
+      "NLL": 9.514326941847195,
+      "sparse": true
+    },
+    {
+      "forecast_id": "ccc0766a7cfc1ff6224d4818",
+      "category": "pass_td",
+      "role": "QB",
+      "actual": 0,
+      "median": 0.0,
+      "mean": 0.3222109353448548,
+      "CRPS": 0.06308009314657226,
+      "NLL": 0.28262966161088315,
+      "sparse": true
+    },
+    {
+      "forecast_id": "7b93195d28ff7d28197d28dd",
+      "category": "pass_cmp",
+      "role": "QB",
+      "actual": 10,
+      "median": 7.0,
+      "mean": 10.40123843137415,
+      "CRPS": 3.034308128689145,
+      "NLL": 3.3511427077904083,
+      "sparse": true
+    },
+    {
+      "forecast_id": "7b3c2563e477d321f25ca3c7",
+      "category": "pass_att",
+      "role": "QB",
+      "actual": 21,
+      "median": 13.0,
+      "mean": 17.4301755025691,
+      "CRPS": 5.837340355991435,
+      "NLL": 4.485845837379111,
+      "sparse": true
+    },
+    {
+      "forecast_id": "e289d2b61e5944a15025cfc2",
+      "category": "pass_int",
+      "role": "QB",
+      "actual": 1,
+      "median": 0.0,
+      "mean": 0.5701782163836452,
+      "CRPS": 0.3690032002986887,
+      "NLL": 1.272734931643141,
+      "sparse": true
+    },
+    {
+      "forecast_id": "84fbddaa475d99fd3041dcf3",
+      "category": "rush_yd",
+      "role": "QB",
+      "actual": -2,
+      "median": 0.0,
+      "mean": 4.198668139211546,
+      "CRPS": 2.449904902622581,
+      "NLL": 2.5753570539439776,
+      "sparse": false
+    },
+    {
+      "forecast_id": "72f9bdd393c79939936800ef",
+      "category": "rush_yd",
+      "role": "QB",
+      "actual": 3,
+      "median": 4.0,
+      "mean": 10.471803845926505,
+      "CRPS": 3.002904850787105,
+      "NLL": 3.2417175136498204,
+      "sparse": true
+    },
+    {
+      "forecast_id": "b48642432f2b985b1f2dc1db",
+      "category": "rush_yd",
+      "role": "RB",
+      "actual": 0,
+      "median": 7.0,
+      "mean": 16.0769012617016,
+      "CRPS": 5.508376803267208,
+      "NLL": 1.4084506534287156,
+      "sparse": true
+    },
+    {
+      "forecast_id": "dc07ab368fb604eef96ef326",
+      "category": "rush_yd",
+      "role": "RB",
+      "actual": 0,
+      "median": 8.0,
+      "mean": 17.069320245311133,
+      "CRPS": 6.051263371169368,
+      "NLL": 1.4497697702370085,
+      "sparse": true
+    },
+    {
+      "forecast_id": "5cccff15b568cc595b56dd6b",
+      "category": "rush_yd",
+      "role": "RB",
+      "actual": 0,
+      "median": 9.0,
+      "mean": 17.821481805121852,
+      "CRPS": 6.533349643887405,
+      "NLL": 1.4832426703079764,
+      "sparse": true
+    },
+    {
+      "forecast_id": "fce8e0096358e51b2e1d850d",
+      "category": "rush_att",
+      "role": "QB",
+      "actual": 3,
+      "median": 2.0,
+      "mean": 2.735475233861091,
+      "CRPS": 0.6500761372529298,
+      "NLL": 1.7530827065719343,
+      "sparse": true
+    },
+    {
+      "forecast_id": "f0651998fa7e184edb6b642b",
+      "category": "rush_att",
+      "role": "RB",
+      "actual": 1,
+      "median": 3.0,
+      "mean": 4.402574210068074,
+      "CRPS": 1.3011720461695417,
+      "NLL": 1.7767041861770874,
+      "sparse": true
+    },
+    {
+      "forecast_id": "937c43555db81ae05737b59f",
+      "category": "rush_att",
+      "role": "RB",
+      "actual": 0,
+      "median": 3.0,
+      "mean": 4.2213604006796,
+      "CRPS": 1.8326748820767822,
+      "NLL": 1.611422062094467,
+      "sparse": true
+    },
+    {
+      "forecast_id": "0ee83685ce14bb8c7967d7e1",
+      "category": "rush_att",
+      "role": "RB",
+      "actual": 0,
+      "median": 3.0,
+      "mean": 4.553848131770496,
+      "CRPS": 2.0277018591171156,
+      "NLL": 1.5114299553020185,
+      "sparse": true
+    },
+    {
+      "forecast_id": "862e29a930b2597aa18a4618",
+      "category": "rec",
+      "role": "TE",
+      "actual": 1,
+      "median": 1.0,
+      "mean": 1.267096265751451,
+      "CRPS": 0.22002742106380957,
+      "NLL": 0.9722650246322809,
+      "sparse": true
+    },
+    {
+      "forecast_id": "8c1c4ccc3e88d5ce34ff98a2",
+      "category": "rec",
+      "role": "WR",
+      "actual": 0,
+      "median": 2.0,
+      "mean": 2.3361152746061724,
+      "CRPS": 1.308250330166808,
+      "NLL": 1.8269652143881776,
+      "sparse": true
+    },
+    {
+      "forecast_id": "6aaf22e93a558209b0284644",
+      "category": "rec",
+      "role": "WR",
+      "actual": 0,
+      "median": 1.0,
+      "mean": 1.2899900684125805,
+      "CRPS": 0.5721072113386095,
+      "NLL": 1.121326421809268,
+      "sparse": true
+    },
+    {
+      "forecast_id": "a591c9da1fa65295bc0b180b",
+      "category": "rec",
+      "role": "TE",
+      "actual": 1,
+      "median": 1.0,
+      "mean": 1.2781270130270088,
+      "CRPS": 0.21961223179617906,
+      "NLL": 0.9685652183171608,
+      "sparse": true
+    }
+  ],
+  "verdict": "PASS_WITH_EXPLICIT_SOURCE_AND_COVERAGE_LIMITATIONS",
+  "new_fits": 0,
+  "external_source_requests": 0,
+  "C_mutations": 0
+}

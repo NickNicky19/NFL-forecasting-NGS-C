@@ -1,0 +1,580 @@
+{
+  "id": "C-WEEK8-AND-TOPK-RENDERED-v9",
+  "URL": "http://127.0.0.1:8769/",
+  "served_commit": null,
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "issued": 71,
+      "graded": 31,
+      "median_MAE": 75.16129032258064
+    },
+    {
+      "category": "pass_td",
+      "issued": 71,
+      "graded": 31,
+      "median_MAE": 0.9354838709677419
+    },
+    {
+      "category": "pass_cmp",
+      "issued": 71,
+      "graded": 31,
+      "median_MAE": 6.774193548387097
+    },
+    {
+      "category": "pass_att",
+      "issued": 71,
+      "graded": 31,
+      "median_MAE": 8.838709677419354
+    },
+    {
+      "category": "pass_int",
+      "issued": 71,
+      "graded": 31,
+      "median_MAE": 0.6451612903225806
+    },
+    {
+      "category": "rush_yd",
+      "issued": 168,
+      "graded": 92,
+      "median_MAE": 19.847826086956523
+    },
+    {
+      "category": "rush_att",
+      "issued": 168,
+      "graded": 92,
+      "median_MAE": 3.532608695652174
+    },
+    {
+      "category": "rec",
+      "issued": 336,
+      "graded": 208,
+      "median_MAE": 1.2451923076923077
+    },
+    {
+      "category": "rec_yd",
+      "issued": 336,
+      "graded": 208,
+      "median_MAE": 17.504807692307693
+    },
+    {
+      "category": "rush_rec_yd",
+      "issued": 336,
+      "graded": 208,
+      "median_MAE": 22.317307692307693
+    },
+    {
+      "category": "anytime_td",
+      "issued": 407,
+      "graded": 239,
+      "median_MAE": null
+    },
+    {
+      "category": "fpts",
+      "issued": 407,
+      "graded": 239,
+      "median_MAE": 5.019246861924686
+    }
+  ],
+  "actualprop_12categories_3methods_2products_NA": true,
+  "grade_overlay_original_unmodified": true,
+  "rank_variant_checks": [
+    [
+      "pinnacle",
+      "ALL",
+      "MIXED",
+      6
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "MIXED",
+      10
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "MIXED",
+      20
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "ALL",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "pinnacle",
+      "2",
+      "MIXED",
+      6
+    ],
+    [
+      "pinnacle",
+      "2",
+      "MIXED",
+      10
+    ],
+    [
+      "pinnacle",
+      "2",
+      "MIXED",
+      20
+    ],
+    [
+      "pinnacle",
+      "2",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "2",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "2",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "pinnacle",
+      "2",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "2",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "2",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "pinnacle",
+      "3",
+      "MIXED",
+      6
+    ],
+    [
+      "pinnacle",
+      "3",
+      "MIXED",
+      10
+    ],
+    [
+      "pinnacle",
+      "3",
+      "MIXED",
+      20
+    ],
+    [
+      "pinnacle",
+      "3",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "3",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "3",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "pinnacle",
+      "3",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "pinnacle",
+      "3",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "pinnacle",
+      "3",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "MIXED",
+      6
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "MIXED",
+      10
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "MIXED",
+      20
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "ALL",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "2",
+      "MIXED",
+      6
+    ],
+    [
+      "draftkings",
+      "2",
+      "MIXED",
+      10
+    ],
+    [
+      "draftkings",
+      "2",
+      "MIXED",
+      20
+    ],
+    [
+      "draftkings",
+      "2",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "2",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "2",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "2",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "2",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "2",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "3",
+      "MIXED",
+      6
+    ],
+    [
+      "draftkings",
+      "3",
+      "MIXED",
+      10
+    ],
+    [
+      "draftkings",
+      "3",
+      "MIXED",
+      20
+    ],
+    [
+      "draftkings",
+      "3",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "3",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "3",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "draftkings",
+      "3",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "draftkings",
+      "3",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "draftkings",
+      "3",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "MIXED",
+      6
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "MIXED",
+      10
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "MIXED",
+      20
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "ALL",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "2",
+      "MIXED",
+      6
+    ],
+    [
+      "fanduel",
+      "2",
+      "MIXED",
+      10
+    ],
+    [
+      "fanduel",
+      "2",
+      "MIXED",
+      20
+    ],
+    [
+      "fanduel",
+      "2",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "2",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "2",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "2",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "2",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "2",
+      "UNDER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "3",
+      "MIXED",
+      6
+    ],
+    [
+      "fanduel",
+      "3",
+      "MIXED",
+      10
+    ],
+    [
+      "fanduel",
+      "3",
+      "MIXED",
+      20
+    ],
+    [
+      "fanduel",
+      "3",
+      "OVER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "3",
+      "OVER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "3",
+      "OVER_ONLY",
+      20
+    ],
+    [
+      "fanduel",
+      "3",
+      "UNDER_ONLY",
+      6
+    ],
+    [
+      "fanduel",
+      "3",
+      "UNDER_ONLY",
+      10
+    ],
+    [
+      "fanduel",
+      "3",
+      "UNDER_ONLY",
+      20
+    ]
+  ],
+  "three_own_procedure_membership_parity": true,
+  "pending_unknown_zero_distinct": true,
+  "Chicago_DST": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago"
+  ],
+  "desktop_mobile": true,
+  "HTTP_and_checksum_failure_closed": true,
+  "precise_joint_or_payout_claim": false,
+  "new_NFL_fits": 0,
+  "page_errors": []
+}

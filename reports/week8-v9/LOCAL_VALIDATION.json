@@ -1,0 +1,23 @@
+{
+  "id": "C-V9-LOCAL-VALIDATION",
+  "new_NFL_fits": 0,
+  "software_unittests": 119,
+  "result": "PASS",
+  "canonical_checks": [
+    "WEEK8_RESULTS_PARITY2513/1441",
+    "TOPK_REFERENCE_PARITY810/405",
+    "ACTUAL_ACCURACY_PARITY19721",
+    "RELIABILITY_SITE_CANONICAL_PARITY1998/648",
+    "STATIC_SITE_CONTRACT_PASS840",
+    "FORWARD_SITE_CONTRACT_PASS2513",
+    "FORWARD_REPOSITORY_VALID2",
+    "PAPER_PACKETS_VALID0"
+  ],
+  "rendered_receipts": [
+    "reports/week8-v9/browser-local/RENDERED.json",
+    "reports/week8-v9/forward-browser-local/RENDERED.json"
+  ],
+  "other_rendered": "Existing actual-accuracy UI regression passed, no newNFLoutcome",
+  "original_pregame_capture_and_v7_v8_files": "gitdiffagainst009cprotectedpathsunchanged",
+  "software_tests_are_not_NFL_forecasts": true
+}
