@@ -29,6 +29,8 @@ The [fixed zero-refit Top-K benchmark audit](reports/topk-reference-v9/README.md
 
 [GitHub restoration](reports/week8-v9/GITHUB_RESTORE.json) and [actual publication receipt](reports/week8-v9/PUBLICATION.json) are appended after checks. Publication is not model admission. [Prospective Results](https://nicknicky19.github.io/NFL-forecasting-NGS-C/#prospective) and [ranking comparison](https://nicknicky19.github.io/NFL-forecasting-NGS-C/#reliability) use the retained canonical rows.
 
+Publication accepted: PR #18 merged after checks; C Pages run **41516430176** serves exact asset commit **2ba5fbb5f048c50980cd239953dc1aa59711e5b6**. [Public bytes and rendered-row acceptance](reports/week8-v9/served/PUBLIC_SERVED.json), [independent public verification](reports/week8-v9/INDEPENDENT_PUBLIC_FINAL.json) and [publication receipt](reports/week8-v9/PUBLICATION.json) passed. [Current twelve-category publication overlay](reports/week8-v9/TWELVE_CATEGORY_PUBLICATION_STATUS.json) keeps implementation, forecast/paper operation and predictive improvement separate. Original forecasts and all grade versions/losses remain. No model, paper selection, entry or betting value is admitted by publication.
+
 ---
 
 ## Preserved preceding historical actual-line checkpoint
