@@ -1,0 +1,124 @@
+{
+  "id": "C-FUTURE-RENDERED-ACCEPTANCE-v4",
+  "URL": "http://127.0.0.1:8769/#upcoming",
+  "expected_served_commit": null,
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "7e855c19225197c30473d11f",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "8e9aa0a7245a187c75f3b4d1",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "c51ff5c46a346ea34e2cf620",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "ac9a366698038674f8eee20d",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "stored_rows": 71,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "92b7fc4694f7aa2fb3d0def3",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "stored_rows": 168,
+      "currently_unplayed_rows": 16,
+      "representative_forecast_id": "99eb1eeed541ef6ed600d860",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "stored_rows": 168,
+      "currently_unplayed_rows": 16,
+      "representative_forecast_id": "8d68fadfd8ad149fb5c917ae",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 25,
+      "representative_forecast_id": "7dd4c939220939a4ae30862e",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 25,
+      "representative_forecast_id": "208a67079079e948b8f0d583",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "stored_rows": 336,
+      "currently_unplayed_rows": 25,
+      "representative_forecast_id": "6382a00efbc6389eb2cdf521",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "stored_rows": 407,
+      "currently_unplayed_rows": 31,
+      "representative_forecast_id": "8de6961b8aff2b224288c5e9",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "stored_rows": 407,
+      "currently_unplayed_rows": 31,
+      "representative_forecast_id": "f50ba47a657851b4bc642d4e",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": true,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": false,
+  "append_only_grade_overlay": "C-W8-v9-20261102-003",
+  "server_clock_and_feature_clock_distinct": true,
+  "role_search_masks": true,
+  "started_games_suppressed": true,
+  "stale_status_fail_closed": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop1440_mobile390": true,
+  "no_global_overflow": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0,
+  "tests_are": "UI/software checks, not outcomes or wins"
+}

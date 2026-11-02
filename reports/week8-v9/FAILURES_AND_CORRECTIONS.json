@@ -1,0 +1,48 @@
+{
+  "id": "C-W8-AUDIT-TRAIL-v9",
+  "updated_UTC": "2026-11-02T19:54:08.839099+00:00",
+  "new_NFL_fits": 0,
+  "records": [
+    {
+      "id": "GRADE-001-CMP-COLUMN",
+      "impact": "31availablecompletionactualswereomittedfromthefirstprojection; initial001 preserved, corrected002",
+      "resolution": "DirectCATEGORIESsourcecolumnsadded; independent31-onlydelta verified"
+    },
+    {
+      "id": "CHART-RARE-ATTRIBUTION",
+      "impact": "Oneplayedchartactualremainedmissingin001/002",
+      "resolution": "Nativekickoffreturnplay1385corroboratesSTTD1;003changesoneactualonly, exactchart6/Anytime0"
+    },
+    {
+      "id": "PARQUET-READER-DEPENDENCY",
+      "impact": "Firstinertstructuralreadfailedmissingfsspec; nooffer/modeladmitted",
+      "resolution": "Temporarypinnedreaderdependencyinstalledlocallywithoutaccount/APIcredits;structuralreviewcompleted"
+    },
+    {
+      "id": "REPORT-PROJECTION-SOFTWARE",
+      "impact": "Initialv9reportparser/importerrorsstoppedbeforeoutput;noNFLfit",
+      "resolution": "Syntax/importcorrected;canonicalparityandrenderedchecksnowpass"
+    },
+    {
+      "id": "RETURN-TEST-PLAYED-FLAG",
+      "impact": "NewsoftwarefixtureinitiallycalledchartwithplayedFalse;testfailedascontractrequires",
+      "resolution": "TestnowusesqualifiedcomponentweightsandplayedAnytimeevent, verifieslegacybroad-positiveblockremains;119softwaretests pass"
+    },
+    {
+      "id": "GATED-FULL-ARCHIVE",
+      "impact": "HTTP401fullKarmanecardandpaid/gatedscope;notused",
+      "resolution": "Stoppedroute;noaccount,key,retryorfullacquisition"
+    },
+    {
+      "id": "PREVIEW-SOCKET-PERMISSION",
+      "impact": "Initialrestrictedlocalpreviewbindfailed",
+      "resolution": "Previewboundlocalhostusingnormalnetwork-enabledexecution;noTLSorprovideraccessbypass"
+    },
+    {
+      "id": "PUBLIC-SIZE-PROJECTION",
+      "impact": "InitialunpublishedexpandedTopK/CSVprojectionexceededfinitepublicationallowance; nofit/canonicalresultchanged",
+      "resolution": "ReusablegzipCSVandlazyhashboundmembership;repeatedqualifiersnormalized;frozenauditgzuntouched;alldraftbytesretainedtemporarily"
+    }
+  ],
+  "not_claimed": "No validWeek8offer/nohitrecord is fabricated; unknowns notDNP, missingnotzero, no currentP3issuance"
+}

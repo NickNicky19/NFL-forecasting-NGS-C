@@ -1,0 +1,63 @@
+{
+  "id": "C-EXPOSED-TOPK-REFERENCE-AUDIT-v9",
+  "registered_UTC": "2026-11-02T19:17:09.605236+00:00",
+  "source": "Same licensed immutable PropLine revisionf37857bfdc67ac4e3ecb2851eb274aee7601057d and savedcanonicalP2/P3/EARLIER_PREVALENCE_V8 rows",
+  "before_simple_reference_rank_performance": true,
+  "preserve": "v7/v8 including originalP3PinnacleTop6 10-2 andshared177rushing104-73 retained unchanged; no modelpromotion,fit,inversion,or new calibrated probabilities",
+  "common_pool": "One book/week sourceuniverse; keep cases with valid exact-line U/P/O probabilities available for ALL3methods. Unknown actuals remain. One whole-linehalfpoint-only reference technicalunavailable excludes that case from all3 in this audit only, with explicitreason; original full panels unchanged. Intentional ties remain method-specific abstentions, tracked separately.",
+  "methods": [
+    "P2_LAW",
+    "P3_DIRECT",
+    "EARLIER_PREVALENCE_V8"
+  ],
+  "books": [
+    "pinnacle",
+    "draftkings",
+    "fanduel"
+  ],
+  "weeks": [
+    2,
+    3
+  ],
+  "K": [
+    6,
+    10,
+    20
+  ],
+  "scopes": [
+    "GLOBAL",
+    "WITHIN_CATEGORY"
+  ],
+  "categories": [
+    "pass_yd",
+    "rush_yd",
+    "rec",
+    "rec_yd"
+  ],
+  "side_variants": [
+    "MIXED",
+    "OVER_ONLY",
+    "UNDER_ONLY"
+  ],
+  "rule": "Existing v8same rule: each ownselected-side probability descending; kickoffUTC/gameID/GSIS/category/offerID ties; one playerperweeklylist; ownsidefilter not forcedinversion; no forcedK. Keep own selected members, never selectionintersection as wholepolicy.",
+  "masks": "Report ownselectedW/L/push/unknown,meanconfidence andexpectedwins on decidedmask; all-selected expectation separately; full eligiblecoverage and technical exclusions. Two NFLweeks and repeatedbooks do not create independent confirmation.",
+  "overlap": "Exactoffer overlap and player-game overlap/Jaccard between everymethodpair perK/week/book/scope/side; category/role composition. Do not discard nonoverlap outcomes from policyrecords.",
+  "prices": "Market-only reference N/A without qualifiedsame-line/time/OPENpairedprices. Optional unilateralsingle-side closingAmerican-implied mean only as difficulty context, includesvig,unknownOPEN andtiming; notno-vig probability/EV/ROI/control accuracy.",
+  "tier": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_PREGAME_BOARD;RESEARCH_EXPOSED_TWO_WEEKS",
+  "budget": {
+    "new_NFL_fits": 0,
+    "model_refits": 0,
+    "new_source_calls": 0,
+    "methods": 3,
+    "weekly_lists_max": 810,
+    "new_public_bytes_max": 4194304,
+    "CPU_seconds_max": 180,
+    "wall_seconds_max": 300,
+    "RSS_bytes_max": 1073741824,
+    "workers": 1,
+    "threads": 1,
+    "whole_C_cache_bytes_max": 2684354560
+  },
+  "report": "All810registeredviews plusweeks,pairedmembershipoverlap,unknowns andadverse/benchmarkgains; zero-result cells N/A; no selectivebestK/book/side",
+  "prospective": "This newcontrol/rank comparison is exposed research. Future primary/shadows need separately genuine pregamemodel/feature/offer/persistence clocks. No Week8P3issuedrecord manufactured."
+}

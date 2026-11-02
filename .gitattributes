@@ -1,0 +1,7 @@
+# Hash-bound upstream text stays byte-exact, including original whitespace/CRLF.
+# C-authored code and reports retain normal whitespace checks.
+prospective/outcomes/C-W8-v9-*/evidence/LICENSE-CC-BY-4.0.md -text -whitespace
+prospective/outcomes/C-W8-v9-*/evidence/producer_DESCRIPTION -text -whitespace
+sources/current-pregame-v9-*/LICENSE-CC-BY-4.0.md -text -whitespace
+sources/nfl-stats-v9/producer/DESCRIPTION -text -whitespace
+sources/offer-discovery-v9/KARMANE_SAMPLE_CARD.md -text -whitespace

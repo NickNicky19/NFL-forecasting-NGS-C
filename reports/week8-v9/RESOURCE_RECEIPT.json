@@ -1,0 +1,144 @@
+{
+  "id": "C-V9-BOUNDED-RESOURCE-RECEIPT",
+  "observed_UTC": "2026-11-02T19:59:29.307873+00:00",
+  "new_NFL_fit_attempts": 0,
+  "model_refits": 0,
+  "new_calibrators": 0,
+  "graded_versions": [
+    {
+      "id": "C-W8-v9-20261102-001",
+      "CPU_seconds": 5.174933143,
+      "wall_seconds": 5.195240928999965,
+      "peak_RSS_bytes": 306597888,
+      "states": {
+        "GRADED_PLAYED": 1409,
+        "UNKNOWN": 873,
+        "PENDING": 199,
+        "PLAYED_MISSING_ACTUAL": 32
+      }
+    },
+    {
+      "id": "C-W8-v9-20261102-002",
+      "CPU_seconds": 4.935989601999999,
+      "wall_seconds": 4.944332387000031,
+      "peak_RSS_bytes": 306507776,
+      "states": {
+        "GRADED_PLAYED": 1440,
+        "UNKNOWN": 873,
+        "PENDING": 199,
+        "PLAYED_MISSING_ACTUAL": 1
+      }
+    },
+    {
+      "id": "C-W8-v9-20261102-003",
+      "CPU_seconds": 3.940614933,
+      "wall_seconds": 3.940887711999949,
+      "peak_RSS_bytes": 268017664,
+      "states": {
+        "GRADED_PLAYED": 1441,
+        "UNKNOWN": 873,
+        "PENDING": 199
+      }
+    }
+  ],
+  "TopK": {
+    "id": "C-EXPOSED-TOPK-REFERENCE-AUDIT-v9",
+    "completed_UTC": "2026-11-02T19:26:01.694478+00:00",
+    "protocol_SHA256": "d51db3598949fcc4b3256ddaf2d6823bb37debbd738796475a56d586bed959f8",
+    "code_SHA256": "adca84a3996f254a808baa66cdbc9211aa94a858c0cd0b7748a47bfa368e364b",
+    "common_cases": 2624,
+    "excluded_cases": 145,
+    "unique_games": 32,
+    "weeks": 2,
+    "weekly_lists": 810,
+    "cumulative_views": 405,
+    "membership_views": 9238,
+    "overlap_views": 810,
+    "new_fits": 0,
+    "source_calls": 0,
+    "market_only_reference": "NOT_ESTABLISHED;retained source lacks synchronized same-contract OPEN price evidence",
+    "main_alternate_classification": "UNKNOWN_NOT_INVENTED",
+    "CPU_seconds": 9.566888106999999,
+    "wall_seconds": 9.613336073000028,
+    "peak_RSS_bytes": 351752192
+  },
+  "source_HTTP_requests": 24,
+  "source_HTTP_request_cap": 24,
+  "source_request_groups": {
+    "initial_status_stats_schedule": 4,
+    "offer_metadata_card_searches_including_stopped401": 8,
+    "public_static_parquet": 1,
+    "PBP_HEAD_and_GET": 2,
+    "inert_producer_definition_files": 5,
+    "current_status_roster_designation": 3,
+    "final_manual_Monday_status": 1
+  },
+  "provider_odds_API_calls": 0,
+  "paid_calls": 0,
+  "recurring_jobs": 0,
+  "downloaded_factual_stat_schedule_status_bytes": 2968819,
+  "PBP_factual_attribution_download_bytes": 8245811,
+  "current_roster_status_injury_bytes": 612094,
+  "final_status_bytes": 24127,
+  "free_static_sample_bytes": 283896,
+  "source_all_large_bodies_under_32MiB": true,
+  "public_logical_bytes_by_wave": {
+    "topk": 4060542,
+    "week8": 14747950
+  },
+  "public_byte_caps": {
+    "week8": 16777216,
+    "topk": 4194304
+  },
+  "public_scope": "Changed/new source/code/report/site bytes vs009c; TopKnewcompact data/report/code charged to4MiB,sharedgrade/publicationUI charged tov9;duplicatepaths countedseparately",
+  "whole_C_local_roots": [
+    {
+      "root_role": "ngs-c",
+      "bytes": 1052340941
+    },
+    {
+      "root_role": "c-forward-v4",
+      "bytes": 23445562
+    },
+    {
+      "root_role": "c-private",
+      "bytes": 287156827
+    },
+    {
+      "root_role": "c-propline-v7",
+      "bytes": 70148470
+    },
+    {
+      "root_role": "c-w8-v9",
+      "bytes": 40420993
+    },
+    {
+      "root_role": "c-v8",
+      "bytes": 120671769
+    },
+    {
+      "root_role": "c-v2",
+      "bytes": 1004620539
+    },
+    {
+      "root_role": "c-reference-v2",
+      "bytes": 23144142
+    },
+    {
+      "root_role": "c-offers-v5",
+      "bytes": 39857667
+    },
+    {
+      "root_role": "c-offers-v6",
+      "bytes": 4937347
+    }
+  ],
+  "whole_C_local_bytes": 2666744257,
+  "whole_C_local_byte_cap": 2684354560,
+  "restored_fresh_GitHub_bytes": 14101397,
+  "fit_workers": 1,
+  "fit_threads": 1,
+  "artifacts_rights": "OnlypermittedNFLfactualprojections/numericCoutputs/MITproducer/sourcecard;heldrawESPN/Sleeper/NGSnotpublished",
+  "retention": "C GitHubonly;localsourcesandpreviewcopiesnotsoleevidence",
+  "no_existing_evidence_deleted": true
+}

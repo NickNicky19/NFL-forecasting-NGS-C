@@ -1,0 +1,488 @@
+{
+  "revision": "20cc0ac98d47ca4ef684c3e2211a6c828bdf998f",
+  "SHA256": "fb0f4735819eda2bb0293c1f5f99bd139b43191b3de15cbae5ac4322a0869336",
+  "bytes": 283896,
+  "rows": 575,
+  "columns": [
+    "record_id",
+    "market_id",
+    "condition_id",
+    "market_slug",
+    "question",
+    "question_word_count",
+    "outcomes",
+    "outcome_count",
+    "yes_price",
+    "no_price",
+    "favorite_outcome",
+    "favorite_price",
+    "price_sum",
+    "market_spread",
+    "last_trade_price",
+    "best_bid",
+    "best_ask",
+    "one_day_price_change",
+    "one_week_price_change",
+    "one_month_price_change",
+    "one_year_price_change",
+    "volume_usd",
+    "liquidity_usd",
+    "volume_24h_usd",
+    "volume_1wk_usd",
+    "volume_1mo_usd",
+    "volume_1yr_usd",
+    "order_min_size",
+    "order_price_min_tick_size",
+    "market_status",
+    "market_active",
+    "market_closed",
+    "market_archived",
+    "market_restricted",
+    "market_featured",
+    "accepting_orders",
+    "enable_order_book",
+    "fees_enabled",
+    "neg_risk",
+    "competitive_score",
+    "created_at",
+    "updated_at",
+    "start_date",
+    "end_date",
+    "closed_time",
+    "days_since_creation",
+    "days_since_update",
+    "days_until_end",
+    "event_id",
+    "event_ticker",
+    "event_slug",
+    "event_title",
+    "event_category",
+    "event_active",
+    "event_closed",
+    "event_archived",
+    "event_restricted",
+    "event_comment_count",
+    "event_market_count",
+    "event_volume_usd",
+    "event_liquidity_usd",
+    "event_open_interest_usd",
+    "event_created_at",
+    "event_updated_at",
+    "event_start_date",
+    "event_end_date",
+    "series_titles",
+    "series_slugs",
+    "primary_series_title",
+    "primary_series_slug",
+    "tag_labels",
+    "tag_slugs",
+    "tag_count",
+    "is_multi_market_event",
+    "is_binary_market",
+    "is_sports_market",
+    "sports_league",
+    "is_crypto_market",
+    "is_politics_market",
+    "is_current_affairs_market",
+    "is_pop_culture_market",
+    "has_player_prop_signal",
+    "has_spread_signal",
+    "has_total_signal",
+    "has_moneyline_signal",
+    "has_price_target_signal",
+    "has_election_signal",
+    "has_award_signal",
+    "has_culture_signal",
+    "resolution_source_domain",
+    "source_api_events_url",
+    "source_api_event_url",
+    "source_api_market_url",
+    "source_directory_url",
+    "source_domain",
+    "last_collected_at",
+    "sports_market_type",
+    "sports_subvertical",
+    "liquidity_tier",
+    "volume_tier",
+    "implied_edge_from_even",
+    "time_bucket_to_event_end",
+    "league_volume_rank",
+    "event_volume_rank",
+    "is_active_tradable_market",
+    "is_featured_research_market",
+    "sports_context_key"
+  ],
+  "league_counts": {
+    "Esports": 169,
+    "Soccer": 106,
+    "MLB": 88,
+    "NBA": 73,
+    "NFL": 41,
+    "Tennis": 33,
+    "NHL": 21,
+    "MMA": 17,
+    "Unknown": 16,
+    "Golf": 6,
+    "Cricket": 5
+  },
+  "dates": {
+    "last_collected_at": [
+      "2026-06-09 18:47:53.755930+00:00",
+      "2026-06-09 18:47:53.755930+00:00"
+    ],
+    "event_start_date": [
+      "2021-02-12 00:00:00+00:00",
+      "2026-04-29 15:05:26.628975+00:00"
+    ],
+    "event_end_date": [
+      "2021-02-12 00:00:00+00:00",
+      "2027-05-01 00:00:00+00:00"
+    ],
+    "start_date": [
+      "2021-09-19 16:16:45.401000+00:00",
+      "2026-05-03 09:43:35.335588+00:00"
+    ],
+    "end_date": [
+      "2021-02-12 00:00:00+00:00",
+      "2027-05-01 00:00:00+00:00"
+    ]
+  },
+  "NFL_rows": 41,
+  "NFL_structural_checks": [
+    {
+      "row_index": 0,
+      "event_start_date": "2021-11-28 00:00:00+00:00",
+      "event_end_date": "2021-11-28 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 1,
+      "event_start_date": "2021-12-02 00:00:00+00:00",
+      "event_end_date": "2021-12-25 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 2,
+      "event_start_date": "2021-11-28 00:00:00+00:00",
+      "event_end_date": "2021-11-28 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 3,
+      "event_start_date": "2026-02-04 18:29:16.600789+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 4,
+      "event_start_date": "2025-12-16 19:36:42.049938+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 5,
+      "event_start_date": "2026-04-06 23:18:19.975172+00:00",
+      "event_end_date": "2026-09-15 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 6,
+      "event_start_date": "2026-03-27 21:37:41.270521+00:00",
+      "event_end_date": "2027-02-15 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 7,
+      "event_start_date": "2026-02-16 23:53:16.572975+00:00",
+      "event_end_date": "2026-08-31 23:55:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 8,
+      "event_start_date": "2021-12-23 00:00:00+00:00",
+      "event_end_date": "2021-12-23 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 9,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 10,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 11,
+      "event_start_date": "2026-03-03 18:53:36.197137+00:00",
+      "event_end_date": "2026-08-31 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 12,
+      "event_start_date": "2026-03-24 17:28:23.090810+00:00",
+      "event_end_date": "NaT",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 13,
+      "event_start_date": "2026-03-02 20:38:07.810041+00:00",
+      "event_end_date": "2027-01-04 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 14,
+      "event_start_date": "2026-02-17 23:33:55.405268+00:00",
+      "event_end_date": "2026-07-22 23:55:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 15,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 16,
+      "event_start_date": "2026-04-06 23:18:19.975172+00:00",
+      "event_end_date": "2026-09-15 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 17,
+      "event_start_date": "2026-03-24 17:28:23.090810+00:00",
+      "event_end_date": "NaT",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 18,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 19,
+      "event_start_date": "2021-09-19 00:00:00+00:00",
+      "event_end_date": "2021-09-19 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 20,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 21,
+      "event_start_date": "2026-03-02 23:43:59.562377+00:00",
+      "event_end_date": "2027-01-04 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 22,
+      "event_start_date": "2026-03-24 17:28:23.090810+00:00",
+      "event_end_date": "NaT",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 23,
+      "event_start_date": "2026-03-27 21:37:41.270521+00:00",
+      "event_end_date": "2027-02-15 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 24,
+      "event_start_date": "2025-12-16 19:36:42.049938+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 25,
+      "event_start_date": "2026-02-04 18:29:16.600789+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 26,
+      "event_start_date": "2022-01-14 00:00:00+00:00",
+      "event_end_date": "2022-02-13 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 27,
+      "event_start_date": "2026-03-02 23:43:52.035499+00:00",
+      "event_end_date": "2027-01-04 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 28,
+      "event_start_date": "2026-04-09 16:54:20.678897+00:00",
+      "event_end_date": "2027-01-26 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 29,
+      "event_start_date": "2026-02-16 23:53:16.572975+00:00",
+      "event_end_date": "2026-08-31 23:55:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 30,
+      "event_start_date": "2026-03-27 21:37:41.270521+00:00",
+      "event_end_date": "2027-02-15 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 31,
+      "event_start_date": "2026-02-04 18:29:16.600789+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 32,
+      "event_start_date": "2026-03-03 18:53:36.197137+00:00",
+      "event_end_date": "2026-08-31 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 33,
+      "event_start_date": "2021-11-17 00:00:00+00:00",
+      "event_end_date": "2021-11-21 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 34,
+      "event_start_date": "2026-02-09 00:46:21.913330+00:00",
+      "event_end_date": "2027-02-14 23:55:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 35,
+      "event_start_date": "2026-03-24 17:28:23.090810+00:00",
+      "event_end_date": "NaT",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 36,
+      "event_start_date": "2025-12-16 19:36:42.049938+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 37,
+      "event_start_date": "2025-12-16 19:36:42.049938+00:00",
+      "event_end_date": "2026-09-10 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 38,
+      "event_start_date": "2026-03-02 20:38:07.810041+00:00",
+      "event_end_date": "2027-01-04 00:00:00+00:00",
+      "source_type_tag": "moneyline",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 39,
+      "event_start_date": "2021-12-04 00:00:00+00:00",
+      "event_end_date": "2021-12-05 00:00:00+00:00",
+      "source_type_tag": "player_prop",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    },
+    {
+      "row_index": 40,
+      "event_start_date": "2025-12-12 21:46:12.132689+00:00",
+      "event_end_date": "2026-07-31 00:00:00+00:00",
+      "source_type_tag": "other",
+      "compatible_2026_Week8_player_game_contract": false,
+      "C_review": "Not a matching singleplayer2026Week8statistic/linecontract; season/futures/team/identity mismatch"
+    }
+  ],
+  "card_SHA256": "07e068c2311d8682d9125df5257d1ffcab573bdac7b28f59973fe11eb93b103c",
+  "source": "https://huggingface.co/datasets/Karmane/polymarket-sports-lines-and-player-props-sample",
+  "licence": "Published free-sample card CC BY4; attribution Karmane; C structural projection/qualification; upstream feed not admitted for props and not mirrored",
+  "analysis": "Public static sample structural examination only; no modelperformance or price analysis",
+  "retained": "Card and C-authored structure/date/contract disposition, not raw parquet or market-price feed",
+  "games_matched_to_original_C_capture": 0,
+  "qualified_offer_rows": 0
+}
