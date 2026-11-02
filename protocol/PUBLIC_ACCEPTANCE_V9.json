@@ -1,0 +1,32 @@
+{
+  "id": "C-WEEK8-PUBLIC-ACCEPTANCE-v9",
+  "registered_UTC": "2026-11-02T20:11:15.570973+00:00",
+  "asset_commit": "2ba5fbb5f048c50980cd239953dc1aa59711e5b6",
+  "Pages_run": 41516430176,
+  "scope": "C-only publication/recovery acceptance of completed zero-fit work;not a new experiment or modelpromotion",
+  "source_provider_requests": 0,
+  "new_NFL_fits": 0,
+  "new_offer_captures": 0,
+  "verification_routes": "OnlyC GitHubREST/raw/Pages, local browser assets and immutable audit bytes; noNFL/odds source requests after sourcecap24",
+  "bounds": {
+    "public_browser_attempts_max": 2,
+    "C_verification_GETs_max": 512,
+    "maximum_single_data_response_bytes": 33554432,
+    "temporary_new_screenshot_bytes_max": 4194304,
+    "whole_C_local_bytes_max": 2684354560
+  },
+  "checks": [
+    "Exactpublicbuildcommitbefore/after;allassetsandoriginal12forecastfilesSHAparity",
+    "All12Week8gradecounts/errors/states;actualpropNAandnoinventedline",
+    "ThreeownTopKmethods/rawexactlines/members/confidencemasks",
+    "Mobile/desktop/ChicagoDST/failureclosed/stale/current-offerunavailable/startedgame suppression",
+    "Independentread-onlypublicverification;appendonlyreceipts;preparedmergeddeployedservedscientificstatesdistinct"
+  ],
+  "rollback": {
+    "previous_verified_ref": "c-site-verified-reliability-v8-5ed1948",
+    "previous_verified_commit": "5ed1948f4360dadd52c918fd1ef9048e7a18d54d",
+    "command": "gh workflow run c-checks-pages.yml -f source_ref=c-site-verified-reliability-v8-5ed1948",
+    "rule": "C-onlyexistingmanualcheckeddeployment;no live rollback merely for a test;forecasts/gradesneverrewritten"
+  },
+  "receipts_only_followup": "No docsassetschange;normalPRchecks,mainpathfiltersavoidunchangedredeploy;no recurringjob"
+}
