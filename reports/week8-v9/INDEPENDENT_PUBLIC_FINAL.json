@@ -1,0 +1,518 @@
+{
+  "id": "C-INDEPENDENT-PUBLIC-SERVED-WEEK8-TOPK-v9",
+  "verified_UTC": "2026-11-02T20:16:38.984125+00:00",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "2ba5fbb5f048c50980cd239953dc1aa59711e5b6",
+  "verdict": "PASS_WITH_EXPLICIT_RESEARCH_AND_DATA_LIMITATIONS",
+  "transport": "Actual C public responses via verified system HTTPS bridge; nativeChromiumCA path not validated; no TLS checks disabled",
+  "public_browser_attempt": 2,
+  "normal_browser_sessions": 1,
+  "normal_browser_pages": 1,
+  "C_public_GETs": 23,
+  "maximum_GETs": 24,
+  "public_responses": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 34084,
+      "SHA256": "96722b25ba97063ba10fb41552c837e04710590578c923dbe708a1c6e740dac1",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10981,
+      "SHA256": "97b7dc7515ff157ff735fecae7ed37c31b39cc5d48181525cd95b2269d7c356a",
+      "TLS_verified": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19451,
+      "SHA256": "ff7bbb155b1ae7bb0e344b25c09a4f21ef704454d3357e617d598cf6b93acf13",
+      "TLS_verified": true
+    },
+    {
+      "path": "forward.js",
+      "status": 200,
+      "bytes": 10181,
+      "SHA256": "ec3fb1ae72b4ecf0ad50177d5bacfc1e2ccf32ba9aa1c5751d61b25ea7c730c8",
+      "TLS_verified": true
+    },
+    {
+      "path": "paper.js",
+      "status": 200,
+      "bytes": 7151,
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "TLS_verified": true
+    },
+    {
+      "path": "accuracy.js",
+      "status": 200,
+      "bytes": 11193,
+      "SHA256": "824b748697739ca02da6eaa68ccd5d07d0a54eb5e1c9808a616a96087e69b6ed",
+      "TLS_verified": true
+    },
+    {
+      "path": "reliability.js",
+      "status": 200,
+      "bytes": 6525,
+      "SHA256": "452a8dc2547b9b008502bb884256f6abf162649c4ad803935e2b74a78792bd11",
+      "TLS_verified": true
+    },
+    {
+      "path": "week8.js",
+      "status": 200,
+      "bytes": 7178,
+      "SHA256": "6a76aa7a99c535a56726f76c7cf039c11593af78241eebbda916e2951785d64a",
+      "TLS_verified": true
+    },
+    {
+      "path": "topk.js",
+      "status": 200,
+      "bytes": 5085,
+      "SHA256": "a27da820cb1f4147e2db987efeb668c67bd90dd5357f705e811c136cd24d463a",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1568,
+      "SHA256": "c6979cff949660b861163a2992a0bec81a31828078fa9a3db49b3e83271f1177",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-accuracy-v6.json",
+      "status": 200,
+      "bytes": 22941231,
+      "SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1568,
+      "SHA256": "c6979cff949660b861163a2992a0bec81a31828078fa9a3db49b3e83271f1177",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 6454861,
+      "SHA256": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/six-leg.json",
+      "status": 200,
+      "bytes": 3040,
+      "SHA256": "a639766013549a8e398232649d22258ff860182c20247a3f4c8d19eb4a4db6a5",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/pass_yd-H-MULTI-P2_LEAF-W07.json",
+      "status": 200,
+      "bytes": 42299,
+      "SHA256": "e8b7fc0a2f3fb5471abf1eaced9acd4e5bc523b2bc18045d9113e4865a6840e1",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "status": 200,
+      "bytes": 7592,
+      "SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "status": 200,
+      "bytes": 236576,
+      "SHA256": "8c4374471dbfe7485fed4ccddd4eadd3f2f2d6e718c114684047187656c28603",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "status": 200,
+      "bytes": 5958,
+      "SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/reliability-v8.json",
+      "status": 200,
+      "bytes": 6295233,
+      "SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/week8-results-v9.json",
+      "status": 200,
+      "bytes": 3921691,
+      "SHA256": "3b6a2cdaa7b8196d74f7d3bf3dd1addfa27def0a190d51de463b827655d22203",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/topk-reference-v9.json",
+      "status": 200,
+      "bytes": 1343615,
+      "SHA256": "297038b2b6334528508386c4200348a34064e0742d95c925e1ecca3cb3123fbc",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/topk-membership-v9.json.gz",
+      "status": 200,
+      "bytes": 424896,
+      "SHA256": "79905868eb4de2a0a79ecff241be391668f1d514b842caeed48f465f2da99919",
+      "TLS_verified": true
+    }
+  ],
+  "final_build_SHA256": "c6979cff949660b861163a2992a0bec81a31828078fa9a3db49b3e83271f1177",
+  "final_build_unchanged": true,
+  "observations": {
+    "served_build_before": {
+      "built_at_UTC": "2026-11-02T20:09:55.829376+00:00",
+      "served_commit": "2ba5fbb5f048c50980cd239953dc1aa59711e5b6",
+      "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+      "data_as_of_UTC": null,
+      "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+      "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+      "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+      "forward_manifest_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+      "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+      "forward_feature_cutoff_UTC": "2026-11-01T00:06:57.531492949+00:00",
+      "forward_source_observed_UTC": "2026-10-31T23:45:08.674380+00:00",
+      "forward_server_persisted_UTC": "2026-11-01T00:13:48Z",
+      "actual_props_SHA256": "6d68149f3813e5410dd6138610e5d2d57d48977709e0a902395a227a0664bb6f",
+      "actual_props_adapter_version": "C-ACTUAL-OFFERS-v5",
+      "actual_accuracy_SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+      "actual_accuracy_policy": "C-ACTUAL-ACCURACY-v6",
+      "reliability_v8_SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa",
+      "week8_results_SHA256": "3b6a2cdaa7b8196d74f7d3bf3dd1addfa27def0a190d51de463b827655d22203",
+      "week8_results_version": "C-W8-v9-20261102-003",
+      "week8_outcome_observed_UTC": "2026-11-02T19:02:11.339016+00:00",
+      "topk_reference_v9_SHA256": "297038b2b6334528508386c4200348a34064e0742d95c925e1ecca3cb3123fbc"
+    },
+    "rendered_summary": "WEEK 8 TO DATE \u00b7 12 / 13 captured games final; Chicago\u2013Seattle pending. 1441 graded category/event views for 239 player-games; 873 unknown-participation views and 199 pending views. Original 2513 forecasts / 407 roster candidates remain unchanged.",
+    "notice": "Original server-verified pregame forecasts; final-game grades are separate in Prospective Results. Current real offers remain unavailable.",
+    "rendered_all12_category_rows": [
+      {
+        "category": "pass_yd",
+        "rendered_values": [
+          "Passing Yards",
+          "E0_DEF",
+          "71 / 65 / 31",
+          "34 / 6",
+          "75.1613",
+          "97.2785",
+          "22.7872",
+          "53.392879",
+          "5.734872",
+          "90.3%",
+          "4",
+          "52.66\u201396.39 / 12 games"
+        ]
+      },
+      {
+        "category": "pass_td",
+        "rendered_values": [
+          "Passing TDs",
+          "E0_DEF",
+          "71 / 65 / 31",
+          "34 / 6",
+          "0.9355",
+          "1.1866",
+          "0.0712",
+          "0.623282",
+          "1.373433",
+          "93.5%",
+          "14",
+          "0.70\u20131.23 / 12 games"
+        ]
+      },
+      {
+        "category": "pass_cmp",
+        "rendered_values": [
+          "Completions",
+          "E0_ENV",
+          "71 / 65 / 31",
+          "34 / 6",
+          "6.7742",
+          "8.4400",
+          "2.8325",
+          "4.728042",
+          "3.459812",
+          "83.9%",
+          "3",
+          "5.11\u20138.46 / 12 games"
+        ]
+      },
+      {
+        "category": "pass_att",
+        "rendered_values": [
+          "Pass Attempts",
+          "E0_ENV",
+          "71 / 65 / 31",
+          "34 / 6",
+          "8.8387",
+          "11.4443",
+          "4.6189",
+          "6.219110",
+          "3.611565",
+          "90.3%",
+          "1",
+          "6.38\u201310.87 / 12 games"
+        ]
+      },
+      {
+        "category": "pass_int",
+        "rendered_values": [
+          "Interceptions",
+          "E0_ENV",
+          "71 / 65 / 31",
+          "34 / 6",
+          "0.6452",
+          "0.9431",
+          "-0.0826",
+          "0.433452",
+          "1.103877",
+          "93.5%",
+          "17",
+          "0.38\u20131.00 / 12 games"
+        ]
+      },
+      {
+        "category": "rush_yd",
+        "rendered_values": [
+          "Rushing Yards",
+          "E0_OP",
+          "168 / 152 / 92",
+          "60 / 16",
+          "19.8478",
+          "30.7959",
+          "-1.6141",
+          "14.331927",
+          "4.114729",
+          "91.3%",
+          "17",
+          "15.07\u201324.78 / 12 games"
+        ]
+      },
+      {
+        "category": "rush_att",
+        "rendered_values": [
+          "Rush Attempts",
+          "E0_OP",
+          "168 / 152 / 92",
+          "60 / 16",
+          "3.5326",
+          "4.8441",
+          "-0.1734",
+          "2.445368",
+          "2.682848",
+          "93.5%",
+          "15",
+          "2.73\u20134.47 / 12 games"
+        ]
+      },
+      {
+        "category": "rec",
+        "rendered_values": [
+          "Receptions",
+          "E0_ENV",
+          "336 / 311 / 208",
+          "103 / 25",
+          "1.2452",
+          "1.7673",
+          "0.1208",
+          "0.887140",
+          "1.709782",
+          "97.1%",
+          "57",
+          "1.04\u20131.48 / 12 games"
+        ]
+      },
+      {
+        "category": "rec_yd",
+        "rendered_values": [
+          "Receiving Yards",
+          "E0_DEF",
+          "336 / 311 / 208",
+          "103 / 25",
+          "17.5048",
+          "27.2629",
+          "-0.5551",
+          "12.839741",
+          "3.788641",
+          "93.3%",
+          "58",
+          "14.74\u201320.89 / 12 games"
+        ]
+      },
+      {
+        "category": "rush_rec_yd",
+        "rendered_values": [
+          "Rush + Rec Yards",
+          "E0_DEF",
+          "336 / 311 / 208",
+          "103 / 25",
+          "22.3173",
+          "33.2180",
+          "-2.6153",
+          "16.369557",
+          "4.287879",
+          "90.9%",
+          "36",
+          "18.89\u201326.34 / 12 games"
+        ]
+      },
+      {
+        "category": "anytime_td",
+        "rendered_values": [
+          "Anytime TD",
+          "E0_OP",
+          "407 / 376 / 239",
+          "137 / 31",
+          "N/A",
+          "N/A",
+          "N/A",
+          "0.158110",
+          "0.486675",
+          "N/A",
+          "185",
+          "N/A"
+        ]
+      },
+      {
+        "category": "fpts",
+        "rendered_values": [
+          "Fantasy Points (PPR) \u00b7 chart shadow",
+          "E0_ENV",
+          "407 / 376 / 239",
+          "137 / 31",
+          "5.0192",
+          "6.9217",
+          "-0.0217",
+          "3.524859",
+          "5.439405",
+          "92.5%",
+          "36",
+          "4.20\u20136.05 / 12 games"
+        ]
+      }
+    ],
+    "rendered_original_forecast_example": {
+      "forecast_id": "8aa404e8a78d6f2efbc45059",
+      "text": "Kyle Allen / 2026_08_BAL_BUF / QB\t61.80 / 19.00 / 0.00\tGRADED_PLAYED / Nov 2, 2026, 12:48:14 PM CST \u00b7 America/Chicago\t19.00 / 3818.99\tForecast only\u2014prop line unavailable / no selection"
+    },
+    "rendered_outcome_clocks": "Game status observed Nov 2, 2026, 12:48:13 PM CST \u00b7 America/Chicago \u00b7 newest consumed outcome evidence Nov 2, 2026, 1:02:11 PM CST \u00b7 America/Chicago \u00b7 grade created Nov 2, 2026, 1:09:03 PM CST \u00b7 America/Chicago. These clocks do not refresh original forecast or quote issuance.",
+    "Chicago_DST": [
+      "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+      "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago"
+    ],
+    "mobile_document_width": 390,
+    "actual_public_own_membership_lists": [
+      {
+        "method": "P2_LAW",
+        "rendered_summary": "P2_LAW\tTwo weekly lists\t920 / 920 / 12\t7-5 / 12 / 58.3%\t89.9%\t10.786 / 10.786\t{\"WIN\":7,\"LOSS\":5}\t{\"WR\":5,\"RB\":5,\"TE\":2} / {\"rec\":8,\"rush_yd\":4}\t11 / 2\t32.0%\u201380.7% \u00b7 WILSON_INDEPENDENCE_DIAGNOSTIC",
+        "own_record_ids": [
+          "PL7-95c86fd2a0e4ff8a90c9695d-P2_LAW",
+          "PL7-92d448c9160e9d4c9843ba77-P2_LAW",
+          "PL7-5331a634f3d6f3c34c88afa4-P2_LAW",
+          "PL7-d140ff12e213b226172040b3-P2_LAW",
+          "PL7-e6b08ee061bd3c8e4486ae5a-P2_LAW",
+          "PL7-65f2160c076aa3ee9b8c4ec8-P2_LAW",
+          "PL7-abe2a560edac1f38d50dc603-P2_LAW",
+          "PL7-197c870060908df9070129f9-P2_LAW",
+          "PL7-f17a506cecdc57a19e0e4c56-P2_LAW",
+          "PL7-f5db52c609ac99020a75caa7-P2_LAW",
+          "PL7-1e82a47e5cc328cfb3f9d185-P2_LAW",
+          "PL7-feb58eb9125cfddabde41196-P2_LAW"
+        ]
+      },
+      {
+        "method": "P3_DIRECT",
+        "rendered_summary": "P3_DIRECT\tTwo weekly lists\t920 / 920 / 12\t10-2 / 12 / 83.3%\t86.9%\t10.423 / 10.423\t{\"WIN\":10,\"LOSS\":2}\t{\"WR\":3,\"QB\":2,\"RB\":6,\"TE\":1} / {\"rush_yd\":8,\"rec_yd\":4}\t11 / 2\t55.2%\u201395.3% \u00b7 WILSON_INDEPENDENCE_DIAGNOSTIC",
+        "own_record_ids": [
+          "PL7-92d448c9160e9d4c9843ba77-P3_DIRECT",
+          "PL7-afb4a058a15754da50e9de23-P3_DIRECT",
+          "PL7-1a3df99c4339d4fc78fbec96-P3_DIRECT",
+          "PL7-671852a76dda88baa81f3136-P3_DIRECT",
+          "PL7-1979f12aafab38bf03fa5a49-P3_DIRECT",
+          "PL7-a6ad0d5b7ba2364801baa3a6-P3_DIRECT",
+          "PL7-abe2a560edac1f38d50dc603-P3_DIRECT",
+          "PL7-282b9876673a1e7bc94990db-P3_DIRECT",
+          "PL7-966d9922857b9b88d1f42e52-P3_DIRECT",
+          "PL7-367f25d4cbf7dd645ec8443b-P3_DIRECT",
+          "PL7-42a2451f397441ec65c752d6-P3_DIRECT",
+          "PL7-187aeebaef47f4f0b90769e9-P3_DIRECT"
+        ]
+      },
+      {
+        "method": "EARLIER_PREVALENCE_V8",
+        "rendered_summary": "EARLIER_PREVALENCE_V8\tTwo weekly lists\t920 / 920 / 12\t6-6 / 12 / 50.0%\t93.6%\t11.231 / 11.231\t{\"WIN\":6,\"LOSS\":6}\t{\"WR\":5,\"TE\":2,\"RB\":5} / {\"rush_yd\":3,\"rec\":6,\"rec_yd\":3}\t9 / 2\t25.4%\u201374.6% \u00b7 WILSON_INDEPENDENCE_DIAGNOSTIC",
+        "own_record_ids": [
+          "PL7-92d448c9160e9d4c9843ba77-EARLIER_PREVALENCE_V8",
+          "PL7-5710c09d029f8e782018009e-EARLIER_PREVALENCE_V8",
+          "PL7-681c212fcf79e125b02608ad-EARLIER_PREVALENCE_V8",
+          "PL7-e957fde8b07fa68ed18d3479-EARLIER_PREVALENCE_V8",
+          "PL7-b31f09ec9fc9e907be3d2597-EARLIER_PREVALENCE_V8",
+          "PL7-87e3f3d868e2c5923aec0cf2-EARLIER_PREVALENCE_V8",
+          "PL7-720cc43663d00acaca3219c4-EARLIER_PREVALENCE_V8",
+          "PL7-286e5752dfeb384c200569b0-EARLIER_PREVALENCE_V8",
+          "PL7-87d1224e1c2b944434bc9ff7-EARLIER_PREVALENCE_V8",
+          "PL7-bad6160788ff2ec83765e073-EARLIER_PREVALENCE_V8",
+          "PL7-179e530ac0b35bd6b1613849-EARLIER_PREVALENCE_V8",
+          "PL7-9895529883735ccea1064b67-EARLIER_PREVALENCE_V8"
+        ]
+      }
+    ],
+    "DK_P3_selected_unknown_mask": {
+      "rendered_summary": "P3_DIRECT\tTwo weekly lists\t857 / 857 / 12\t8-3 / 11 / 72.7%\t87.8%\t9.653 / 10.520\t{\"WIN\":8,\"LOSS\":3,\"UNKNOWN_PARTICIPATION\":1}\t{\"WR\":4,\"QB\":1,\"TE\":2,\"RB\":5} / {\"rec\":3,\"rush_yd\":4,\"rec_yd\":5}\t9 / 2\t43.4%\u201390.3% \u00b7 WILSON_INDEPENDENCE_DIAGNOSTIC",
+      "selected": 12,
+      "decided": 11,
+      "unknown_record": {
+        "diagnostic_id": "TKR9-draftkings-W3-P3_DIRECT-GLOBAL-ALL-MIXED-K6",
+        "rank": 3,
+        "record_id": "PL8-f31bc43c454bf00201aabe52-P3_DIRECT",
+        "offer_id": "PL8-f31bc43c454bf00201aabe52",
+        "player_id": "00-0040024",
+        "player_name": "Darius Cooper",
+        "game_id": "2026_03_PHI_CHI",
+        "week": 3,
+        "book": "draftkings",
+        "category": "rec_yd",
+        "role": "WR",
+        "line": 4.5,
+        "side": "OVER",
+        "p_selected": 0.8676057358770868,
+        "p_under": 0.13239426412291327,
+        "p_push": 0.0,
+        "p_over": 0.8676057358770868,
+        "statistical_status": "UNKNOWN_PARTICIPATION",
+        "actual": null,
+        "source_closing_clocks": {
+          "OVER": "2026-09-29T00:05:48.001862+00:00",
+          "UNDER": "2026-09-29T00:05:48.001862+00:00"
+        },
+        "forecast_cutoff": "2026-09-29T00:15:00+00:00",
+        "source_conditioning": "RETROSPECTIVE_PARTICIPANT_STAT_ROW_PANEL;STATISTICAL_PLAYED",
+        "tier": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC"
+      }
+    },
+    "mobile_topK_width": 390
+  },
+  "public_week8_and_TopK_hashes_equal_retained_docs": true,
+  "desktop_mobile": true,
+  "page_errors": [],
+  "screenshots": 0,
+  "source_provider_requests": 0,
+  "new_NFL_fits": 0,
+  "C_mutations": 0,
+  "not_claimed": [
+    "No Week8 actualprop original selection/replay or winner exists",
+    "Public deployment does not admit a model, paper selection, statistically reliable confidence or entry payout",
+    "Onepartialweek/12finalgames;873unknownparticipation views and199pending are retained",
+    "TopK exposes same2historicalweeks/32footballgames; books repeat outcomes; no simultaneousboard/ticket claim",
+    "Previously completed full failure suite not repeated in this bounded independent check"
+  ]
+}
