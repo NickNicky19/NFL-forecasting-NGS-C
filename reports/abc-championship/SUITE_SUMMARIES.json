@@ -1,0 +1,352 @@
+[
+  {
+    "procedure": "ALWAYS_OVER",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 438,
+        "losses": 476,
+        "decided": 914,
+        "rate": 0.47921225382932164
+      },
+      "UNDER": {
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "wins": 438,
+        "losses": 476,
+        "decided": 914,
+        "rate": 0.47921225382932164
+      }
+    },
+    "opportunity_weighted_rate": 0.47921225382932164,
+    "category_balanced_rate": 0.49983554587990536,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "ALWAYS_UNDER",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "wins": 476,
+        "losses": 438,
+        "decided": 914,
+        "rate": 0.5207877461706784
+      },
+      "COMBINED": {
+        "wins": 476,
+        "losses": 438,
+        "decided": 914,
+        "rate": 0.5207877461706784
+      }
+    },
+    "opportunity_weighted_rate": 0.5207877461706784,
+    "category_balanced_rate": 0.5001644541200946,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "EARLIER_PREVALENCE_V8",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 95,
+        "losses": 84,
+        "decided": 179,
+        "rate": 0.5307262569832403
+      },
+      "UNDER": {
+        "wins": 392,
+        "losses": 343,
+        "decided": 735,
+        "rate": 0.5333333333333333
+      },
+      "COMBINED": {
+        "wins": 487,
+        "losses": 427,
+        "decided": 914,
+        "rate": 0.5328227571115973
+      }
+    },
+    "opportunity_weighted_rate": 0.5328227571115973,
+    "category_balanced_rate": 0.5213568822053457,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "P1_MEAN",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 210,
+        "losses": 227,
+        "decided": 437,
+        "rate": 0.4805491990846682
+      },
+      "UNDER": {
+        "wins": 249,
+        "losses": 228,
+        "decided": 477,
+        "rate": 0.5220125786163522
+      },
+      "COMBINED": {
+        "wins": 459,
+        "losses": 455,
+        "decided": 914,
+        "rate": 0.5021881838074398
+      }
+    },
+    "opportunity_weighted_rate": 0.5021881838074398,
+    "category_balanced_rate": 0.47305327435337996,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "P1_MEDIAN",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 118,
+        "losses": 111,
+        "decided": 229,
+        "rate": 0.5152838427947598
+      },
+      "UNDER": {
+        "wins": 365,
+        "losses": 320,
+        "decided": 685,
+        "rate": 0.5328467153284672
+      },
+      "COMBINED": {
+        "wins": 483,
+        "losses": 431,
+        "decided": 914,
+        "rate": 0.5284463894967177
+      }
+    },
+    "opportunity_weighted_rate": 0.5284463894967177,
+    "category_balanced_rate": 0.5071160335582203,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "P2_LAW",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 118,
+        "losses": 111,
+        "decided": 229,
+        "rate": 0.5152838427947598
+      },
+      "UNDER": {
+        "wins": 365,
+        "losses": 320,
+        "decided": 685,
+        "rate": 0.5328467153284672
+      },
+      "COMBINED": {
+        "wins": 483,
+        "losses": 431,
+        "decided": 914,
+        "rate": 0.5284463894967177
+      }
+    },
+    "opportunity_weighted_rate": 0.5284463894967177,
+    "category_balanced_rate": 0.5071160335582203,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  },
+  {
+    "procedure": "P3_DIRECT",
+    "period_id": "E1",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "categories": [
+      "pass_yd",
+      "rush_yd",
+      "rec",
+      "rec_yd"
+    ],
+    "scope": "PARTIAL_FOUR_MARKETS_C_ONLY_COMMON_CORE",
+    "own_record": {
+      "OVER": {
+        "wins": 101,
+        "losses": 77,
+        "decided": 178,
+        "rate": 0.5674157303370787
+      },
+      "UNDER": {
+        "wins": 399,
+        "losses": 337,
+        "decided": 736,
+        "rate": 0.5421195652173914
+      },
+      "COMBINED": {
+        "wins": 500,
+        "losses": 414,
+        "decided": 914,
+        "rate": 0.5470459518599562
+      }
+    },
+    "opportunity_weighted_rate": 0.5470459518599562,
+    "category_balanced_rate": 0.524547970708007,
+    "season_balanced": "N/A_requested_multiseason_set_not_supported",
+    "rule": "One fixed existing procedure acrosssupportedcategories;NOT hindsightbestrouter;noE5/E6poolofduplicateviews"
+  }
+]
