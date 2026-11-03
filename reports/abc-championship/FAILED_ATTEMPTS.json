@@ -1,0 +1,12 @@
+{
+  "status": "INVALID_NO_COMPLETED_SCORE_OUTPUT",
+  "cause": "Quadratic rosterlookup plus erroneous overlapping replay retry; initial180CPU/oneworker capviolated; nothidden/reset",
+  "process_usage_before_stop": [
+    "1538       02:52 00:02:52 python src/abc_championship_v2.py",
+    "1563       02:00 00:01:59 python src/abc_championship_v2.py"
+  ],
+  "new_fits": 0,
+  "correction_budget_CPU": 60,
+  "correction_workers": 1,
+  "preserve": "Originalmodels/data/forecasts/results unchanged; partialnewoutputsnotadmitted"
+}

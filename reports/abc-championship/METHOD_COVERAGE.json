@@ -1,0 +1,46 @@
+{
+  "sourcebound_actual_roster": "METHOD_ROSTER-v2-C-1.json",
+  "full_inventory_state": "PARTIAL_NOT_ALL_IMPLEMENTED_CONTENDERS_TESTED",
+  "additional_existing": [
+    {
+      "method": "OriginalHGB_C0_C1_C2",
+      "state": "NUMERICAL_EXECUTED;NO_SAVED_ACTUAL_OFFER_LAW",
+      "binding": "protocol/REGISTERED_V1.json"
+    },
+    {
+      "method": "ALL12-v2.1 histories/arms/P2/P3/simple",
+      "state": "NUMERICAL_AND_SYNTHETIC_EXECUTED;EXACT_OFFER_INFERENCE_REQUIRED_FOR_OTHER_SLOTS",
+      "binding": "reports/all12-v2.1/EXECUTED.json"
+    },
+    {
+      "method": "2025trainedsigmoid-v3",
+      "state": "FAILED_CALIBRATION_RETAINED;NO_NEW_ACTUAL_OFFER_INFERENCE",
+      "binding": "reports/robustness-v3/README.md"
+    },
+    {
+      "method": "v4futureP2all12",
+      "state": "ORIGINAL_FORECAST_ONLY;NO_QUALIFIED_REAL_LINES;MondaynowFINALrequiresappendgrade",
+      "binding": "protocol/PROSPECTIVE_V4.json"
+    },
+    {
+      "method": "v9fixedTopK",
+      "state": "EXPOSED_C_ONLY_EXECUTED810LISTS;NOT_COMMON_ABC_SLATE",
+      "binding": "reports/topk-reference-v9/RUN.json"
+    }
+  ],
+  "not_implemented_backlog": [
+    "P4qualifiedhybrid",
+    "newreceivingtargetsharestate",
+    "earlier-onlycrossmethodrouter"
+  ],
+  "periods": {
+    "E1": "PARTIAL_W2_W3_2026_ONLY",
+    "E2": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E3": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E4": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E5": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E6": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E7": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS",
+    "E8": "MISSING_QUALIFIED_MATCHING_ACTUAL_LINES_OR_EXPORTS"
+  }
+}

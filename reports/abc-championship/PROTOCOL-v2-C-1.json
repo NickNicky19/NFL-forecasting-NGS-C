@@ -1,0 +1,76 @@
+{
+  "id": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
+  "adopted_UTC": "2026-11-03T21:41:49.737226+00:00",
+  "authority": "User shared championship v2 dated2026-11-03; supplements retained Cmaster. This is exact adopted executable protocol, not a claimed verbatim transcript hash.",
+  "coordinator": "C",
+  "repositories": {
+    "A": "NickNicky19/NFL-forecasting",
+    "B": "NickNicky19/NFL-forecasting-V2",
+    "C": "NickNicky19/NFL-forecasting-NGS-C"
+  },
+  "ownership": "C writes C only;A/B ownexports and independent acknowledgement; no assumed sharedmemory,jobdirection,leases,externalmessages,or privateaccess",
+  "primary_panel": {
+    "period_id": "E1",
+    "requested": "2026REGW1-W8",
+    "initial_supported": "2026W2-W3 ONLY;PARTIAL",
+    "book": "pinnacle",
+    "rationale": "Existingoriginalv7sourcequalification/primarybook;notselectedbyaccuracy",
+    "tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+    "snapshot": "Existing immutable last-recorded pairedexactline snapshot; noauthentic common liveboard or earlierquote availability claim",
+    "population": "Full existing source offerboard including originalunselected/unavailablepredictions; nativeGSIS/event/contract/role preserved",
+    "policy": "ALL_ELIGIBLE_OFFERS;each completeprocedure ownside;constantcontrolsseparate",
+    "secondary_books": [
+      "draftkings",
+      "fanduel"
+    ],
+    "core": [
+      "P1_MEDIAN",
+      "P1_MEAN",
+      "P2_LAW",
+      "P3_DIRECT",
+      "ALWAYS_OVER",
+      "ALWAYS_UNDER",
+      "EARLIER_PREVALENCE_V8"
+    ],
+    "pairwise": "Fullpopulation plus exactoffer/cutoff/role/label matching; no sparsecandidate shrink of allsystems"
+  },
+  "periods": {
+    "E1": "2026W1-W8 weekly+cumulative",
+    "E2": "2025W1-W8",
+    "E3": "2022/2023/2024W1-W8 separately",
+    "E4": "2022-2025fullREG separately",
+    "E5": "Micro pooled matchingW1-W8 uniqueopportunities",
+    "E6": "Micro pooled full2022-2025+2026W1-W8 nooverlapdoublecount",
+    "E7": "Equal-season and category-balanced same declaredseasonsets; unavailable ifyears missing",
+    "E8": "Subsequent genuine freeze-qualified captures; never mixedwith reconstructions"
+  },
+  "contracts": "Existing contracts_v2;fullgameOT;signedyards;fpts=nick-chart-ppr-v1;anytime=rushORrec event;offeredYESonly;no defaultlines/noDNPzero",
+  "products": [
+    "typedMEAN",
+    "typedMEDIAN",
+    "fullLAW",
+    "directTHRESHOLD_EVENT",
+    "registeredCALIBRATED_HYBRID_SELECTOR",
+    "constantcontrols"
+  ],
+  "metrics": "OwnOver/Under/combinedselected,W,L,decided,rate;allotherstatesseparate. Pairedsameofferwinchanges and properprobabilityscoresseparate from pointmetrics and value. No unqualifiedprice/settlement claim.",
+  "rankings": "Reuse fixedv9Top6/10/20 ownlists/scopes/sides only as exploratory; no executableentry claim. No hindsight stitchedrouter.",
+  "leader_policy": "All rawmaxima visible including1/1;existingv6support/uncertainty/confirmation policy retained;two weeks cannotestablish bestsupportedoperationalleader;constantmaxima namedcontrols",
+  "chronology": "No new fits in firstwave. Reuse eligible savedmodels/points/laws; sourceprefix/timing assumptions retained, no temporal upgrade. Existinghistoricalseasons exposed.",
+  "admission": "Actual readback+hash+rights facets+nativeidentity+contract+pointtype/law+cutoff+labels+dedup;records received/validated/admitted/held/rejected separately. Owner-local scoring allowedonlywith boundmanifest+permitted reproducible deterministicoutputs. Unmatched aggregate insufficient.",
+  "verification": "C independent arithmetic check;A/Bmust independently acknowledge pinnedcontract and calculations; internalCagents areNOT A/B acknowledgement",
+  "preserve": "Alloriginalprotocols/grades/forecasts/receipts/failures/budgets;newversionnotrewrite",
+  "budget": {
+    "new_fits": 0,
+    "source_calls_max": 4,
+    "GitHub_discovery_requests_max": 24,
+    "new_public_bytes_max": 4194304,
+    "new_temp_bytes_max": 8388608,
+    "workers": 1,
+    "threads": 1,
+    "CPU_scoring_seconds_max": 180,
+    "whole_C_local_bytes_max": 2684354560
+  },
+  "release": "Category/product-specific provisional vs scientificallyqualified states separate; no blanketnewwaitingperiod/noautomaticpromotion;originalproductionreadonly",
+  "backlog": "New role-state mechanism remains separatependingv10;not partof frozenimplementedroster"
+}
