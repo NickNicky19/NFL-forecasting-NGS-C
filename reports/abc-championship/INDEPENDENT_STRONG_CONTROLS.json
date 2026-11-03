@@ -1,0 +1,81 @@
+{
+  "id": "C-ABC-v2-INDEPENDENT-STRONG-CONTROL-SUPPLEMENT",
+  "status": "PASS_WITH_EXPLICIT_SCOPE_LIMITATIONS",
+  "common_scorer_invoked": false,
+  "source": "Independent rawdataset/correction/firstsnapshot read and arithmetic,not common scorer invocation",
+  "source_record_ids": 19721,
+  "verified_pairs": 54,
+  "matched_case_comparisons": 11346,
+  "method_category_groups": 18,
+  "all_three_controls_have_same_mask_within_each_candidate": true,
+  "highest_control_flags_all_ties_checked": true,
+  "exact_identity_label_horizon_contract_checks": true,
+  "pointer_bindings_verified": {
+    "scorer": {
+      "path": "src/abc_championship_v2.py",
+      "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+    },
+    "strong_control_pairs": {
+      "path": "reports/abc-championship/STRONG_CONTROL_PAIRS.json",
+      "SHA256": "652416f0d01c9a0504901d00144445096364aa5fb96d4a526db5a42cc35010bc"
+    },
+    "strong_control_code": {
+      "path": "src/abc_strong_controls_v2.py",
+      "SHA256": "cbcfba49dcafcfe3c737dc4ddca7fdd76caa5380bc6e501e9ffd1e1e338add42"
+    }
+  },
+  "representative_P3_vs_highest_control": [
+    {
+      "category": "pass_yd",
+      "method": "P3_DIRECT",
+      "control": "ALWAYS_OVER",
+      "common_decided": 63,
+      "candidate_wins": 26,
+      "control_wins": 38,
+      "paired_win_change": -12,
+      "highest_observed_control_on_own_common_mask": true
+    },
+    {
+      "category": "rush_yd",
+      "method": "P3_DIRECT",
+      "control": "EARLIER_PREVALENCE_V8",
+      "common_decided": 177,
+      "candidate_wins": 104,
+      "control_wins": 104,
+      "paired_win_change": 0,
+      "highest_observed_control_on_own_common_mask": true
+    },
+    {
+      "category": "rec",
+      "method": "P3_DIRECT",
+      "control": "ALWAYS_UNDER",
+      "common_decided": 337,
+      "candidate_wins": 194,
+      "control_wins": 181,
+      "paired_win_change": 13,
+      "highest_observed_control_on_own_common_mask": true
+    },
+    {
+      "category": "rec_yd",
+      "method": "P3_DIRECT",
+      "control": "EARLIER_PREVALENCE_V8",
+      "common_decided": 337,
+      "candidate_wins": 176,
+      "control_wins": 174,
+      "paired_win_change": 2,
+      "highest_observed_control_on_own_common_mask": true
+    }
+  ],
+  "earlier_receipt_preserved": true,
+  "prior_P2_only_pair_limit_resolved_for": "Three implemented simplecontrols per sixnonconstant procedures/fourmarketpanels;not crosssessionorallunimplemented controls",
+  "limits": [
+    "C-onlypartialE1W2-W3/same32games",
+    "A/Backnowledgement andexportsnotreceived",
+    "Fullimplementedrosterandgenericexternaladapterstillpartial",
+    "Highestobservedcontrol flagsareexposeddiagnostics,not anearlieroperationalrouter",
+    "Twoalready-exposedweeks cannotestablishfutureleader/calibration/value"
+  ],
+  "new_NFL_fits": 0,
+  "network_requests": 0,
+  "C_mutations": false
+}
