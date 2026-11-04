@@ -1,0 +1,4594 @@
+[
+  {
+    "week": 1,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 5,
+        "losses": 1,
+        "decided": 6,
+        "rate": 0.8333333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 8,
+        "losses": 2,
+        "decided": 10,
+        "rate": 0.8
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 5,
+        "losses": 1,
+        "decided": 6,
+        "rate": 0.8333333333333334
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 5,
+        "losses": 1,
+        "decided": 6,
+        "rate": 0.8333333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+        "wins": 8,
+        "losses": 3,
+        "decided": 11,
+        "rate": 0.7272727272727273
+      },
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 8,
+        "losses": 3,
+        "decided": 11,
+        "rate": 0.7272727272727273
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 8,
+        "losses": 3,
+        "decided": 11,
+        "rate": 0.7272727272727273
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 8,
+        "losses": 3,
+        "decided": 11,
+        "rate": 0.7272727272727273
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 11,
+        "losses": 8,
+        "decided": 19,
+        "rate": 0.5789473684210527
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 22,
+        "losses": 22,
+        "decided": 44,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 33,
+        "losses": 30,
+        "decided": 63,
+        "rate": 0.5238095238095238
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 10,
+        "losses": 7,
+        "decided": 17,
+        "rate": 0.5882352941176471
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 17,
+        "losses": 13,
+        "decided": 30,
+        "rate": 0.5666666666666667
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::EQUAL_CDF_CAT_HGB_POINT::9a96afcd9f1af01167323fbbe10b459cfc253b1da75e92087c4c085eef85de69::empirical_point_blend",
+        "wins": 37,
+        "losses": 30,
+        "decided": 67,
+        "rate": 0.5522388059701493
+      },
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 37,
+        "losses": 30,
+        "decided": 67,
+        "rate": 0.5522388059701493
+      },
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 37,
+        "losses": 30,
+        "decided": 67,
+        "rate": 0.5522388059701493
+      },
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 37,
+        "losses": 30,
+        "decided": 67,
+        "rate": 0.5522388059701493
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 10,
+        "losses": 7,
+        "decided": 17,
+        "rate": 0.5882352941176471
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 17,
+        "losses": 10,
+        "decided": 27,
+        "rate": 0.6296296296296297
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 13,
+        "losses": 7,
+        "decided": 20,
+        "rate": 0.65
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 13,
+        "losses": 4,
+        "decided": 17,
+        "rate": 0.7647058823529411
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 26,
+        "losses": 11,
+        "decided": 37,
+        "rate": 0.7027027027027027
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::HGB_MAE_DIRECT::78e0a3e29e50d210d93a63a276a3e9c23b278f9d21cab99e804b2b9d43506ef3::mae_objective_point",
+        "wins": 3,
+        "losses": 2,
+        "decided": 5,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 3,
+        "losses": 2,
+        "decided": 5,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::HGB_MAE_DIRECT::78e0a3e29e50d210d93a63a276a3e9c23b278f9d21cab99e804b2b9d43506ef3::mae_objective_point",
+        "wins": 13,
+        "losses": 13,
+        "decided": 26,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 13,
+        "losses": 13,
+        "decided": 26,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 1,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::HGB_MAE_DIRECT::78e0a3e29e50d210d93a63a276a3e9c23b278f9d21cab99e804b2b9d43506ef3::mae_objective_point",
+        "wins": 16,
+        "losses": 15,
+        "decided": 31,
+        "rate": 0.5161290322580645
+      },
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 16,
+        "losses": 15,
+        "decided": 31,
+        "rate": 0.5161290322580645
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::mean",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 10,
+        "losses": 3,
+        "decided": 13,
+        "rate": 0.7692307692307693
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::mean",
+        "wins": 17,
+        "losses": 8,
+        "decided": 25,
+        "rate": 0.68
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 9,
+        "losses": 4,
+        "decided": 13,
+        "rate": 0.6923076923076923
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 9,
+        "losses": 4,
+        "decided": 13,
+        "rate": 0.6923076923076923
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 9,
+        "losses": 4,
+        "decided": 13,
+        "rate": 0.6923076923076923
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 9,
+        "losses": 4,
+        "decided": 13,
+        "rate": 0.6923076923076923
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 15,
+        "losses": 10,
+        "decided": 25,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 15,
+        "losses": 10,
+        "decided": 25,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 15,
+        "losses": 10,
+        "decided": 25,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 15,
+        "losses": 10,
+        "decided": 25,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 14,
+        "losses": 11,
+        "decided": 25,
+        "rate": 0.56
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+        "wins": 14,
+        "losses": 11,
+        "decided": 25,
+        "rate": 0.56
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 7,
+        "losses": 5,
+        "decided": 12,
+        "rate": 0.5833333333333334
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 7,
+        "losses": 5,
+        "decided": 12,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 14,
+        "losses": 11,
+        "decided": 25,
+        "rate": 0.56
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 9,
+        "losses": 5,
+        "decided": 14,
+        "rate": 0.6428571428571429
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 16,
+        "losses": 9,
+        "decided": 25,
+        "rate": 0.64
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 29,
+        "losses": 20,
+        "decided": 49,
+        "rate": 0.5918367346938775
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 54,
+        "losses": 40,
+        "decided": 94,
+        "rate": 0.574468085106383
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 95,
+        "losses": 70,
+        "decided": 165,
+        "rate": 0.5757575757575758
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 48,
+        "losses": 43,
+        "decided": 91,
+        "rate": 0.5274725274725275
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 40,
+        "losses": 35,
+        "decided": 75,
+        "rate": 0.5333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 88,
+        "losses": 78,
+        "decided": 166,
+        "rate": 0.5301204819277109
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::median",
+        "wins": 9,
+        "losses": 7,
+        "decided": 16,
+        "rate": 0.5625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 27,
+        "losses": 16,
+        "decided": 43,
+        "rate": 0.627906976744186
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 27,
+        "losses": 16,
+        "decided": 43,
+        "rate": 0.627906976744186
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::median",
+        "wins": 43,
+        "losses": 30,
+        "decided": 73,
+        "rate": 0.589041095890411
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 43,
+        "losses": 30,
+        "decided": 73,
+        "rate": 0.589041095890411
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 43,
+        "losses": 30,
+        "decided": 73,
+        "rate": 0.589041095890411
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 26,
+        "losses": 28,
+        "decided": 54,
+        "rate": 0.48148148148148145
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 26,
+        "losses": 28,
+        "decided": 54,
+        "rate": 0.48148148148148145
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 30,
+        "losses": 25,
+        "decided": 55,
+        "rate": 0.5454545454545454
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 30,
+        "losses": 25,
+        "decided": 55,
+        "rate": 0.5454545454545454
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 56,
+        "losses": 53,
+        "decided": 109,
+        "rate": 0.5137614678899083
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 56,
+        "losses": 53,
+        "decided": 109,
+        "rate": 0.5137614678899083
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 10,
+        "losses": 12,
+        "decided": 22,
+        "rate": 0.45454545454545453
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 40,
+        "losses": 20,
+        "decided": 60,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 2,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 50,
+        "losses": 32,
+        "decided": 82,
+        "rate": 0.6097560975609756
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 7,
+        "losses": 11,
+        "decided": 18,
+        "rate": 0.3888888888888889
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 7,
+        "losses": 11,
+        "decided": 18,
+        "rate": 0.3888888888888889
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 7,
+        "losses": 11,
+        "decided": 18,
+        "rate": 0.3888888888888889
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 11,
+        "losses": 14,
+        "decided": 25,
+        "rate": 0.44
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 11,
+        "losses": 14,
+        "decided": 25,
+        "rate": 0.44
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 11,
+        "losses": 14,
+        "decided": 25,
+        "rate": 0.44
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 5,
+        "losses": 4,
+        "decided": 9,
+        "rate": 0.5555555555555556
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 9,
+        "losses": 6,
+        "decided": 15,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 15,
+        "losses": 11,
+        "decided": 26,
+        "rate": 0.5769230769230769
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 15,
+        "losses": 11,
+        "decided": 26,
+        "rate": 0.5769230769230769
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+        "wins": 9,
+        "losses": 13,
+        "decided": 22,
+        "rate": 0.4090909090909091
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 15,
+        "losses": 9,
+        "decided": 24,
+        "rate": 0.625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 11,
+        "losses": 8,
+        "decided": 19,
+        "rate": 0.5789473684210527
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 15,
+        "losses": 9,
+        "decided": 24,
+        "rate": 0.625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 9,
+        "losses": 2,
+        "decided": 11,
+        "rate": 0.8181818181818182
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 8,
+        "losses": 7,
+        "decided": 15,
+        "rate": 0.5333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 17,
+        "losses": 9,
+        "decided": 26,
+        "rate": 0.6538461538461539
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 30,
+        "losses": 17,
+        "decided": 47,
+        "rate": 0.6382978723404256
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 55,
+        "losses": 31,
+        "decided": 86,
+        "rate": 0.6395348837209303
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 106,
+        "losses": 61,
+        "decided": 167,
+        "rate": 0.6347305389221557
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 41,
+        "losses": 25,
+        "decided": 66,
+        "rate": 0.6212121212121212
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 60,
+        "losses": 50,
+        "decided": 110,
+        "rate": 0.5454545454545454
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 101,
+        "losses": 75,
+        "decided": 176,
+        "rate": 0.5738636363636364
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 22,
+        "losses": 17,
+        "decided": 39,
+        "rate": 0.5641025641025641
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+        "wins": 19,
+        "losses": 18,
+        "decided": 37,
+        "rate": 0.5135135135135135
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+        "wins": 42,
+        "losses": 36,
+        "decided": 78,
+        "rate": 0.5384615384615384
+      },
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 42,
+        "losses": 36,
+        "decided": 78,
+        "rate": 0.5384615384615384
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::median",
+        "wins": 21,
+        "losses": 16,
+        "decided": 37,
+        "rate": 0.5675675675675675
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::median",
+        "wins": 45,
+        "losses": 39,
+        "decided": 84,
+        "rate": 0.5357142857142857
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::median",
+        "wins": 66,
+        "losses": 55,
+        "decided": 121,
+        "rate": 0.5454545454545454
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 11,
+        "losses": 12,
+        "decided": 23,
+        "rate": 0.4782608695652174
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 35,
+        "losses": 25,
+        "decided": 60,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 3,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 46,
+        "losses": 37,
+        "decided": 83,
+        "rate": 0.5542168674698795
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 7,
+        "losses": 9,
+        "decided": 16,
+        "rate": 0.4375
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 7,
+        "losses": 9,
+        "decided": 16,
+        "rate": 0.4375
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 11,
+        "losses": 12,
+        "decided": 23,
+        "rate": 0.4782608695652174
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 11,
+        "losses": 12,
+        "decided": 23,
+        "rate": 0.4782608695652174
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 8,
+        "losses": 4,
+        "decided": 12,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 8,
+        "losses": 4,
+        "decided": 12,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 11,
+        "losses": 10,
+        "decided": 21,
+        "rate": 0.5238095238095238
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 11,
+        "losses": 10,
+        "decided": 21,
+        "rate": 0.5238095238095238
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 11,
+        "losses": 10,
+        "decided": 21,
+        "rate": 0.5238095238095238
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 12,
+        "losses": 11,
+        "decided": 23,
+        "rate": 0.5217391304347826
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 12,
+        "losses": 11,
+        "decided": 23,
+        "rate": 0.5217391304347826
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 12,
+        "losses": 11,
+        "decided": 23,
+        "rate": 0.5217391304347826
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 12,
+        "losses": 11,
+        "decided": 23,
+        "rate": 0.5217391304347826
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 9,
+        "losses": 5,
+        "decided": 14,
+        "rate": 0.6428571428571429
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 8,
+        "losses": 6,
+        "decided": 14,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 5,
+        "losses": 4,
+        "decided": 9,
+        "rate": 0.5555555555555556
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 13,
+        "losses": 10,
+        "decided": 23,
+        "rate": 0.5652173913043478
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 25,
+        "losses": 13,
+        "decided": 38,
+        "rate": 0.6578947368421053
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 65,
+        "losses": 57,
+        "decided": 122,
+        "rate": 0.5327868852459017
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 90,
+        "losses": 70,
+        "decided": 160,
+        "rate": 0.5625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 31,
+        "losses": 19,
+        "decided": 50,
+        "rate": 0.62
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+        "wins": 37,
+        "losses": 25,
+        "decided": 62,
+        "rate": 0.5967741935483871
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 93,
+        "losses": 67,
+        "decided": 160,
+        "rate": 0.58125
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 17,
+        "losses": 10,
+        "decided": 27,
+        "rate": 0.6296296296296297
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 25,
+        "losses": 19,
+        "decided": 44,
+        "rate": 0.5681818181818182
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 42,
+        "losses": 29,
+        "decided": 71,
+        "rate": 0.5915492957746479
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 23,
+        "losses": 18,
+        "decided": 41,
+        "rate": 0.5609756097560976
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 29,
+        "losses": 16,
+        "decided": 45,
+        "rate": 0.6444444444444445
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 63,
+        "losses": 43,
+        "decided": 106,
+        "rate": 0.5943396226415094
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 63,
+        "losses": 43,
+        "decided": 106,
+        "rate": 0.5943396226415094
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 14,
+        "losses": 10,
+        "decided": 24,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 37,
+        "losses": 18,
+        "decided": 55,
+        "rate": 0.6727272727272727
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 4,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 51,
+        "losses": 28,
+        "decided": 79,
+        "rate": 0.6455696202531646
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::mean",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::median",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::mean",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::median",
+        "wins": 0,
+        "losses": 4,
+        "decided": 4,
+        "rate": 0.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_LEGACY_POINT::6dc1b2eef1164b94e77829994aa8fad2eb412f035cd9c4100fd271336e77e517::legacy_empirical_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_MEAN::74e42511fb39acc351143ace63978024283ba4794eace416f5c891d1ccf1d394::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_LEGACY_POINT::6dc1b2eef1164b94e77829994aa8fad2eb412f035cd9c4100fd271336e77e517::legacy_empirical_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_MEAN::74e42511fb39acc351143ace63978024283ba4794eace416f5c891d1ccf1d394::mean_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 0,
+        "losses": 3,
+        "decided": 3,
+        "rate": 0.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_LEGACY_POINT::6dc1b2eef1164b94e77829994aa8fad2eb412f035cd9c4100fd271336e77e517::legacy_empirical_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::COUNT_A_MEAN::74e42511fb39acc351143ace63978024283ba4794eace416f5c891d1ccf1d394::mean_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::HGB_MAE_DIRECT::3e1a430fb8dcfe86d77f04a00156044a60e3852989716b790c4dd5ddf73cfdaf::mae_objective_point",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "rate": 0.25
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::median",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::mean",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::median",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::median",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::mean",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::mean",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::mean",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::HGB_MAE_DIRECT::22858dcf4777d138c08015823d963161dbcc7e9503d1136b1d073c584e90fb63::mae_objective_point",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364
+      },
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364
+      },
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 7,
+        "losses": 3,
+        "decided": 10,
+        "rate": 0.7
+      },
+      {
+        "procedure_id": "A::rec::COUNT_A_MEAN::7c361c0821df616a356289b2dee9a5f3b82470ba992596b18154f692f87446ad::mean_objective_point",
+        "wins": 7,
+        "losses": 3,
+        "decided": 10,
+        "rate": 0.7
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::HGB_MAE_DIRECT::22858dcf4777d138c08015823d963161dbcc7e9503d1136b1d073c584e90fb63::mae_objective_point",
+        "wins": 16,
+        "losses": 8,
+        "decided": 24,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 16,
+        "losses": 8,
+        "decided": 24,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 16,
+        "losses": 8,
+        "decided": 24,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 8,
+        "losses": 4,
+        "decided": 12,
+        "rate": 0.6666666666666666
+      },
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 8,
+        "losses": 4,
+        "decided": 12,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 14,
+        "losses": 10,
+        "decided": 24,
+        "rate": 0.5833333333333334
+      },
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+        "wins": 14,
+        "losses": 10,
+        "decided": 24,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 5,
+        "losses": 1,
+        "decided": 6,
+        "rate": 0.8333333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 3,
+        "losses": 2,
+        "decided": 5,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 8,
+        "losses": 3,
+        "decided": 11,
+        "rate": 0.7272727272727273
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 7,
+        "losses": 2,
+        "decided": 9,
+        "rate": 0.7777777777777778
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+        "wins": 9,
+        "losses": 4,
+        "decided": 13,
+        "rate": 0.6923076923076923
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      {
+        "procedure_id": "A::rush_yd::RESPONSE_CDF::67ed09d586c4a4472e51c7c298bd8389b8329f319339d293e01934c39d7a4313::mean",
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 3,
+        "losses": 2,
+        "decided": 5,
+        "rate": 0.6
+      },
+      {
+        "procedure_id": "A::rush_yd::RESPONSE_CDF::67ed09d586c4a4472e51c7c298bd8389b8329f319339d293e01934c39d7a4313::mean",
+        "wins": 3,
+        "losses": 2,
+        "decided": 5,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 5,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 7,
+        "losses": 5,
+        "decided": 12,
+        "rate": 0.5833333333333334
+      },
+      {
+        "procedure_id": "A::rush_yd::RESPONSE_CDF::67ed09d586c4a4472e51c7c298bd8389b8329f319339d293e01934c39d7a4313::mean",
+        "wins": 7,
+        "losses": 5,
+        "decided": 12,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 4,
+        "losses": 4,
+        "decided": 8,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::median",
+        "wins": 4,
+        "losses": 4,
+        "decided": 8,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 7,
+        "losses": 16,
+        "decided": 23,
+        "rate": 0.30434782608695654
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 7,
+        "losses": 16,
+        "decided": 23,
+        "rate": 0.30434782608695654
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 10,
+        "losses": 18,
+        "decided": 28,
+        "rate": 0.35714285714285715
+      },
+      {
+        "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::median",
+        "wins": 10,
+        "losses": 18,
+        "decided": 28,
+        "rate": 0.35714285714285715
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 7,
+        "losses": 3,
+        "decided": 10,
+        "rate": 0.7
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 6,
+        "losses": 12,
+        "decided": 18,
+        "rate": 0.3333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+        "wins": 13,
+        "losses": 15,
+        "decided": 28,
+        "rate": 0.4642857142857143
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 17,
+        "losses": 11,
+        "decided": 28,
+        "rate": 0.6071428571428571
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 17,
+        "losses": 11,
+        "decided": 28,
+        "rate": 0.6071428571428571
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 6,
+        "losses": 1,
+        "decided": 7,
+        "rate": 0.8571428571428571
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::mean",
+        "wins": 8,
+        "losses": 2,
+        "decided": 10,
+        "rate": 0.8
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+        "wins": 20,
+        "losses": 8,
+        "decided": 28,
+        "rate": 0.7142857142857143
+      },
+      {
+        "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::mean",
+        "wins": 20,
+        "losses": 8,
+        "decided": 28,
+        "rate": 0.7142857142857143
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 8,
+        "losses": 7,
+        "decided": 15,
+        "rate": 0.5333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 14,
+        "losses": 12,
+        "decided": 26,
+        "rate": 0.5384615384615384
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 38,
+        "losses": 22,
+        "decided": 60,
+        "rate": 0.6333333333333333
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 62,
+        "losses": 56,
+        "decided": 118,
+        "rate": 0.5254237288135594
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+        "wins": 100,
+        "losses": 78,
+        "decided": 178,
+        "rate": 0.5617977528089888
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 35,
+        "losses": 32,
+        "decided": 67,
+        "rate": 0.5223880597014925
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+        "wins": 32,
+        "losses": 30,
+        "decided": 62,
+        "rate": 0.5161290322580645
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 91,
+        "losses": 85,
+        "decided": 176,
+        "rate": 0.5170454545454546
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+        "wins": 13,
+        "losses": 13,
+        "decided": 26,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 11,
+        "losses": 11,
+        "decided": 22,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 11,
+        "losses": 11,
+        "decided": 22,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 11,
+        "losses": 11,
+        "decided": 22,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 13,
+        "losses": 13,
+        "decided": 26,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+        "wins": 17,
+        "losses": 18,
+        "decided": 35,
+        "rate": 0.4857142857142857
+      },
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 17,
+        "losses": 18,
+        "decided": 35,
+        "rate": 0.4857142857142857
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 17,
+        "losses": 18,
+        "decided": 35,
+        "rate": 0.4857142857142857
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 17,
+        "losses": 18,
+        "decided": 35,
+        "rate": 0.4857142857142857
+      },
+      {
+        "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+        "wins": 17,
+        "losses": 18,
+        "decided": 35,
+        "rate": 0.4857142857142857
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::EQUAL_CDF_CAT_HGB_POINT::2aabd412f6d95865c20da688c24eddab88736741eb61f8fb3891b5390352315e::empirical_point_blend",
+        "wins": 5,
+        "losses": 6,
+        "decided": 11,
+        "rate": 0.45454545454545453
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::HGB_MAE_DIRECT::a5d8b74346b1405b83103820eaba11db4ad58fd88606d507860acb5c88f605bf::mae_objective_point",
+        "wins": 5,
+        "losses": 6,
+        "decided": 11,
+        "rate": 0.45454545454545453
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::EQUAL_CDF_CAT_HGB_POINT::2aabd412f6d95865c20da688c24eddab88736741eb61f8fb3891b5390352315e::empirical_point_blend",
+        "wins": 20,
+        "losses": 17,
+        "decided": 37,
+        "rate": 0.5405405405405406
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::HGB_MAE_DIRECT::a5d8b74346b1405b83103820eaba11db4ad58fd88606d507860acb5c88f605bf::mae_objective_point",
+        "wins": 20,
+        "losses": 17,
+        "decided": 37,
+        "rate": 0.5405405405405406
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::EQUAL_CDF_CAT_HGB_POINT::2aabd412f6d95865c20da688c24eddab88736741eb61f8fb3891b5390352315e::empirical_point_blend",
+        "wins": 25,
+        "losses": 23,
+        "decided": 48,
+        "rate": 0.5208333333333334
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::HGB_MAE_DIRECT::a5d8b74346b1405b83103820eaba11db4ad58fd88606d507860acb5c88f605bf::mae_objective_point",
+        "wins": 25,
+        "losses": 23,
+        "decided": 48,
+        "rate": 0.5208333333333334
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 25,
+        "losses": 23,
+        "decided": 48,
+        "rate": 0.5208333333333334
+      },
+      {
+        "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::median",
+        "wins": 25,
+        "losses": 23,
+        "decided": 48,
+        "rate": 0.5208333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 12,
+        "losses": 5,
+        "decided": 17,
+        "rate": 0.7058823529411765
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 40,
+        "losses": 25,
+        "decided": 65,
+        "rate": 0.6153846153846154
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 6,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 52,
+        "losses": 30,
+        "decided": 82,
+        "rate": 0.6341463414634146
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 3,
+        "losses": 1,
+        "decided": 4,
+        "rate": 0.75
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 14,
+        "losses": 8,
+        "decided": 22,
+        "rate": 0.6363636363636364
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 14,
+        "losses": 8,
+        "decided": 22,
+        "rate": 0.6363636363636364
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      },
+      {
+        "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      },
+      {
+        "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 10,
+        "losses": 4,
+        "decided": 14,
+        "rate": 0.7142857142857143
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 9,
+        "losses": 5,
+        "decided": 14,
+        "rate": 0.6428571428571429
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_cmp",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 19,
+        "losses": 9,
+        "decided": 28,
+        "rate": 0.6785714285714286
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 4,
+        "losses": 0,
+        "decided": 4,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 4,
+        "losses": 0,
+        "decided": 4,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      {
+        "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+        "wins": 3,
+        "losses": 0,
+        "decided": 3,
+        "rate": 1.0
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_int",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      },
+      {
+        "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+        "wins": 18,
+        "losses": 10,
+        "decided": 28,
+        "rate": 0.6428571428571429
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 6,
+        "losses": 3,
+        "decided": 9,
+        "rate": 0.6666666666666666
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+        "wins": 11,
+        "losses": 3,
+        "decided": 14,
+        "rate": 0.7857142857142857
+      },
+      {
+        "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+        "wins": 11,
+        "losses": 3,
+        "decided": 14,
+        "rate": 0.7857142857142857
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_td",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 20,
+        "losses": 8,
+        "decided": 28,
+        "rate": 0.7142857142857143
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 8,
+        "losses": 10,
+        "decided": 18,
+        "rate": 0.4444444444444444
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "pass_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 14,
+        "losses": 14,
+        "decided": 28,
+        "rate": 0.5
+      },
+      {
+        "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+        "wins": 14,
+        "losses": 14,
+        "decided": 28,
+        "rate": 0.5
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 21,
+        "losses": 15,
+        "decided": 36,
+        "rate": 0.5833333333333334
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::CATBOOST_MEDIUM::08d8393d8d4e9f3989351546804d875fd3ff900854d6551ddd4e691a47c85cea::mean_objective_point",
+        "wins": 52,
+        "losses": 29,
+        "decided": 81,
+        "rate": 0.6419753086419753
+      },
+      {
+        "procedure_id": "A::rec::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 52,
+        "losses": 29,
+        "decided": 81,
+        "rate": 0.6419753086419753
+      },
+      {
+        "procedure_id": "A::rec::COUNT_A_MEAN::7c361c0821df616a356289b2dee9a5f3b82470ba992596b18154f692f87446ad::mean_objective_point",
+        "wins": 52,
+        "losses": 29,
+        "decided": 81,
+        "rate": 0.6419753086419753
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 97,
+        "losses": 63,
+        "decided": 160,
+        "rate": 0.60625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::HGB_MAE_DIRECT::6c6bf4be00366240df7de12ea47febd88fb82dfe27e6e184a5aeb636d008fff5::mae_objective_point",
+        "wins": 26,
+        "losses": 24,
+        "decided": 50,
+        "rate": 0.52
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+        "wins": 41,
+        "losses": 24,
+        "decided": 65,
+        "rate": 0.6307692307692307
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rec_yd::HGB_MAE_DIRECT::6c6bf4be00366240df7de12ea47febd88fb82dfe27e6e184a5aeb636d008fff5::mae_objective_point",
+        "wins": 90,
+        "losses": 70,
+        "decided": 160,
+        "rate": 0.5625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 13,
+        "losses": 15,
+        "decided": 28,
+        "rate": 0.4642857142857143
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_att",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+        "wins": 14,
+        "losses": 18,
+        "decided": 32,
+        "rate": 0.4375
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+        "wins": 14,
+        "losses": 18,
+        "decided": 32,
+        "rate": 0.4375
+      },
+      {
+        "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+        "wins": 14,
+        "losses": 18,
+        "decided": 32,
+        "rate": 0.4375
+      },
+      {
+        "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+        "wins": 14,
+        "losses": 18,
+        "decided": 32,
+        "rate": 0.4375
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 5,
+        "losses": 3,
+        "decided": 8,
+        "rate": 0.625
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 15,
+        "losses": 11,
+        "decided": 26,
+        "rate": 0.5769230769230769
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_rec_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+        "wins": 20,
+        "losses": 14,
+        "decided": 34,
+        "rate": 0.5882352941176471
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 11,
+        "losses": 8,
+        "decided": 19,
+        "rate": 0.5789473684210527
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 34,
+        "losses": 21,
+        "decided": 55,
+        "rate": 0.6181818181818182
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  },
+  {
+    "week": 7,
+    "category": "rush_yd",
+    "side": "COMBINED",
+    "raw_observed_ties": [
+      {
+        "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+        "wins": 45,
+        "losses": 29,
+        "decided": 74,
+        "rate": 0.6081081081081081
+      }
+    ],
+    "scope": "Exposed raw maxima; not chronological selector or supported champion"
+  }
+]

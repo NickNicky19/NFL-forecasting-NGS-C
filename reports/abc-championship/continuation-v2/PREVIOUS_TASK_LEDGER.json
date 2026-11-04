@@ -1,0 +1,41 @@
+[
+  {
+    "owner": "C",
+    "task": "publishpincontract+matchedlocalreplay",
+    "state": "EXECUTED_C_ONLY_PARTIAL",
+    "artifact": "CURRENT_PROTOCOL.json"
+  },
+  {
+    "owner": "A",
+    "task": "exactexports_or_ownerlocalboundoutputs+independentverification",
+    "state": "AWAITING_ACKNOWLEDGEMENT",
+    "artifact": "A:reports/abc-championship/EXPORT_INDEX.json",
+    "budget": "NoCfitsorjobdirection"
+  },
+  {
+    "owner": "B",
+    "task": "exactexports+commonmaskindependentverification",
+    "state": "AWAITING_ACKNOWLEDGEMENT",
+    "artifact": "B:reports/abc-championship/EXPORT_INDEX.json",
+    "budget": "NoCfitsorjobdirection"
+  },
+  {
+    "owner": "C",
+    "task": "Mondaypostfinalnumericalpacket",
+    "state": "STATUS_FINAL_VERIFIED;PLAYER_ACTUAL_PACKET_REQUIRED",
+    "artifact": "WEEK8_STATUS_REFRESH.json",
+    "next": "newimmutablequalifiedplayerfacts/outcomegradeversion;oldpendingstatushistoricalonly"
+  },
+  {
+    "owner": "C",
+    "task": "independentweeks/categoriesofferqualification",
+    "state": "SOURCE_SPECIFIC_GAPS",
+    "next": "permittedadditionalactualofferperiods;legacyholdsunchanged"
+  },
+  {
+    "owner": "C",
+    "task": "incomingexportadapters/fullrostercompletion",
+    "state": "PARTIAL",
+    "next": "realA/Bschemaandrightsreadbackbeforegenericadmission;do notrebuildtheirfits"
+  }
+]

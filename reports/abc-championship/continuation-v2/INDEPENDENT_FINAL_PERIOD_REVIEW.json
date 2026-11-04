@@ -1,0 +1,49 @@
+{
+  "review_id": "C-INDEPENDENT-FINAL-PERIOD-REVIEW-v2",
+  "created_utc": "2026-11-04T00:02:12.752654+00:00",
+  "reviewer_role": "Independent C internal read-only verification; not Session A/B protocol acknowledgement",
+  "status": "PASS_WITH_SCOPE_LIMITS",
+  "checks": {
+    "coverage_count_control_views": 79,
+    "bootstrap_side_intervals": 237,
+    "weekly_leaders_exact_ratio_and_ties": 210,
+    "complete_headline_rows_and_ties": 10,
+    "README_headline_display_rows": 10
+  },
+  "grid": {
+    "total_cells": 15312,
+    "A_fixed_panel_cells": 632,
+    "A_completed_W1_W7": 553,
+    "A_missing_exact_W8_continuations": 79
+  },
+  "bootstrap": {
+    "method": "Independent scalar sums over whole-week multinomial resamples, no scorer imports",
+    "views": 79,
+    "side_intervals": 237,
+    "weeks": 7,
+    "resamples": 500,
+    "seed": 1703,
+    "agreement": "exact all retained interval endpoints"
+  },
+  "scope_limits": [
+    "Admission is public owner-local aggregate arithmetic only; private identities, quotes, outcomes and paired masks were not independently transferred or regraded.",
+    "A history/feature memory bindings remain incomplete in aggregate CSV; no CURRENT/MULTI inference is made.",
+    "A W1-W7 raw maxima are exposed descriptive findings, not an earlier-selected operational router or prospective recommendation.",
+    "Seven-week intervals have few clusters and do not adjust for multiplicity or uncertainty after winner selection.",
+    "Selected counts include unresolved; unresolved equals unknown_participation plus played_missing and is never double-counted.",
+    "Own-decided constant controls are not full-board policies or newly recommended inversion procedures.",
+    "A exact W8 recipe continuation is missing; separate A/C W8 panel does not complete it.",
+    "No original C offered selections, prospective promotion, model fit or production change is established by this report."
+  ],
+  "hashes": {
+    "src/abc_a_archived_adapter_v2.py": "4854d3ff3bf16ecd07263bd7d05028b8e315bdab5caff0c5565edb05e2869f14",
+    "src/abc_period_report_v2.py": "dd16eaf918829a515a6db7dc3ad01dff5aafe5ef83bfffb41c794bad1e7b983c",
+    "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6",
+    "reports/abc-championship/continuation-v2/A_W1_W7_OWN_MASK_CONSTANT_CONTROLS.json": "14ad801f96140a2b90e90d78a2443bb3edcf25c09463f1f55d55ae7d9eeec3f0",
+    "reports/abc-championship/continuation-v2/HEADLINE_A_W1_W7.json": "0d1a4ad1982ce1ff22810f57c5ba76e20858c6c7ae5c41b56e8135853854a74e",
+    "reports/abc-championship/continuation-v2/A_WEEKLY_RAW_LEADERS.json": "963460ac2c18d969fb4247f9b1fc17f6827a83a28f20ccf7a4147c5a181ed6dd",
+    "reports/abc-championship/continuation-v2/A_WEEK_CLUSTER_UNCERTAINTY.json": "2dcb42255c949c284bb62e6196553c93197c2cb2e927236512aff7cfa07b35a1",
+    "reports/abc-championship/continuation-v2/WEEK_BY_WEEK_GAPS.csv.gz": "450e1200d4867d5c8893cd97ccd253fb7100cfb612d099a72d78056b76ce34b5",
+    "reports/abc-championship/continuation-v2/README.md": "ae53469a3cb9ee5b4294935936fadc2e4f376ed6adc5bb75e60a9909fe1d7dca"
+  }
+}

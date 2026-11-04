@@ -1,0 +1,87 @@
+{
+  "id": "C-INDEPENDENT-CONTINUATION-REVIEW-v2",
+  "at_UTC": "2026-11-03T23:41:22.183388+00:00",
+  "result": "PASS_WITH_EXPLICIT_OWNER_LOCAL_ROW_LIMITATIONS",
+  "checks": {
+    "B_ownerlocal_aggregate_normalization": {
+      "status": "PASS",
+      "complete_procedure_views": 1691,
+      "source_panels": {
+        "B_LOCAL_W8": 1468,
+        "B_W6_COMPLETE_LAW": 80,
+        "B_W7_COMPLETE_LAW": 80,
+        "B_W5_W7_POINT": 63
+      },
+      "no_pooling_across_overlapping_W5_W7_W6_W7_W8": true,
+      "raw_line_grades": "Not regraded from restricted rows; source reported aggregate arithmetic only"
+    },
+    "A_C_ownerlocal_normalization": {
+      "status": "PASS",
+      "score_views": 60,
+      "paired_outputs": 40,
+      "common_offer_cases": 344,
+      "row_transfer_or_raw_crossmask_verification": false,
+      "C_CMP_ATT": "Rawpointdiagnosticonly;paperblocksremain"
+    },
+    "historical_grid": {
+      "status": "PASS_UNCHANGED_DISPOSITION_ONLY",
+      "cells": 2564,
+      "states": {
+        "COMPLETED_VALID": 1708,
+        "COMPLETED_PARTIAL": 120,
+        "FIT_REQUIRED": 736
+      },
+      "not_actual_line_grading": true
+    },
+    "original_selected_pool_control": {
+      "status": "PASS",
+      "original": "205-210/415",
+      "AlwaysUnder": "224-191/415",
+      "change_wins": 19,
+      "change_percentage_points": 4.578313253012048,
+      "not_allboard_or_proposed_policy": true
+    },
+    "C_final_forecast_completion": {
+      "status": "PASS",
+      "original_forecasts": 2513,
+      "Sunday_outcomes_unchanged": 2314,
+      "Monday_appended": 199,
+      "Monday_graded": 91,
+      "Monday_unknown": 108,
+      "cumulative_states": {
+        "GRADED_PLAYED": 1532,
+        "UNKNOWN": 981
+      },
+      "all_packet_and_grade_source_hashes": true,
+      "all_graded_NLL_recomputed": 1532,
+      "max_NLL_difference": 1.7763568394002505e-15,
+      "own_mixture_CRPS_representatives": 103,
+      "max_CRPS_difference": 2.1316282072803006e-14,
+      "category_summaries_checked": 12,
+      "Anytime_components": "OnlyrushORrecTD;return/passingexcluded",
+      "chart": "Exactcomponents;Mondaybroadrareexplicitzeros;directlostfumblestotalonce;2ptcreditseparate",
+      "unknown": "Missing/allzero source notDNP/playedzero",
+      "metadata_date_qualification": "VersionIDcontains20261104butcreated/sourceclocksNov3UTC;notanissuancedateornewpregameclaim",
+      "captures": "Hash-boundunchangedv4originals;no refit/forecastrewrite",
+      "actual_prop_selections_or_lines": "Nonecreated;forecastonlyscores"
+    },
+    "gaps_and_periods": {
+      "status": "LIMITS_VISIBLE",
+      "E1": "Multipleincompatiblepartials;notW1-W8complete",
+      "E2_E3_E4": "Importednumericalcellstatesnotactualpropbacktest",
+      "E5_E6_E7": "Nooverlappingpanels/yearssilentlypooled",
+      "A_C_expansion": "Cnewlabelcoverageavailable;Aprivateboard/sourceguardupdatedversionstillrequired;noautomatic344caseexpansion"
+    }
+  },
+  "new_fits": 0,
+  "external_calls": 0,
+  "C_edits": 0,
+  "A_B_current_protocol_acknowledgement": "NOT_THIS_C_AGENT;ownerlocalexportsnotcurrentCparityack",
+  "limitations": [
+    "B/Arawprivatequote/forecastrowsnottransferred;cannotregradeorverifyeachjoin/statisticaloutcomefrompublicaggregatesalone",
+    "Differentmemberships/horizons/thresholdsnotautomaticallypaired;commonhorizon/countalonedoesnotprovemasks",
+    "A/Cbootstrapuncertaintycannotindependentlyrebuildwithoutownerpairrows",
+    "CnewMondayactualsdoNOTcreateoriginalofferedselections",
+    "Nochampion/profit/releasefollowsfromoneweekorsoftwarechecks"
+  ]
+}

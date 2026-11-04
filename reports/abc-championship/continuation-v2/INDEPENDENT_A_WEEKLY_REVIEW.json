@@ -1,0 +1,332 @@
+{
+  "id": "C-INDEPENDENT-A-ARCHIVED-WEEKLY-REVIEW-v2",
+  "at_UTC": "2026-11-03T23:48:50.512419+00:00",
+  "result": "PASS_AGGREGATE_WEEKLY_CUMULATIVE_CONTROLS_WITH_RAW_ROW_LIMITATIONS",
+  "source_pin_as_supplied": "NickNicky19/NFL-forecasting@2be1accfe383d8508095b8a23332bed05b79afd3",
+  "source_hashes": {
+    "A-EACH_POINT_PRODUCTS_OWN_OVER_UNDER_W1_7.csv": "e038184b9c2bda43b686c411ca4dc17a2735aae2c9871a13f114b42dd05b5646",
+    "A-EACH_POINT_PRODUCTS_OWN_OVER_UNDER_BY_WEEK.csv.gz": "e8d26306064754a7fc1ac74fb7a8df4aaa4b6e51a9fd2df005cfcb84794a6e91",
+    "A-POPULATION_AND_PRODUCT_AMENDMENTS_V1.json": "443b68eef9e5aea4c41ced70a66bd8d546a4bd4756d64674a2e8f16a3dde9477",
+    "A-FINALIST_CATALOG_V1.json": "22be5a7db670f466a794369d7b7a7a7e375798c27c19f32938404a521c6bc51e"
+  },
+  "checks": {
+    "source_cumulative_views": 79,
+    "source_weekly_views": 553,
+    "all_weeks_1_through_7_exactly_once_per_procedure_product": true,
+    "weekly_to_cumulative_all_side_and_own_counts": "PASS",
+    "opportunities_and_no_lean_sums": "PASS",
+    "source_to_normalized_all79views": "PASS",
+    "full_procedure_ID_unique_category_method_version_product": 79,
+    "constant_control_views_checked": 79,
+    "constant_formula": "Own-decidedOvertruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;eachsumsdecidedN",
+    "raw_side_and_combined_maxima": 30,
+    "all_raw_leader_ties": "PASS_EXACT_FRACTION_COMPARISON",
+    "source_headline_eligibility": {
+      "true": 77,
+      "false": 2
+    },
+    "disjoint_coverage_accounting": "PASS_all79:opportunities=decided+nolean+missing_offer_or_prediction+unknown_participation+played_missing+pushes+DNP",
+    "state_overlap": "Sideunresolvedequalsunknown_participation+played_missinginall79;neveraddbothviews",
+    "own_selection_vs_scoring": "No-lean/missingexcludedfromselected;selectedmayincludeunknown/push/DNP;decidedcoverageisnotselectioncoverage",
+    "population": "SourceprimaryQBpassing/RBrushing/RB-WR-TEreceiving;secondaryroleexceptionsseparate",
+    "no_ATD_or_chart_offer_rows": true
+  },
+  "raw_combined_maxima": [
+    {
+      "category": "pass_att",
+      "rate": 0.48951048951048953,
+      "ties": [
+        {
+          "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+          "wins": 70,
+          "losses": 73,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+            "category": "pass_att",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 143,
+            "original_wins": 70,
+            "always_Over_wins": 76,
+            "always_Under_wins": 67,
+            "change_vs_best_constant": -6,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        },
+        {
+          "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+          "wins": 70,
+          "losses": 73,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+            "category": "pass_att",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 143,
+            "original_wins": 70,
+            "always_Over_wins": 76,
+            "always_Under_wins": 67,
+            "change_vs_best_constant": -6,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "pass_cmp",
+      "rate": 0.5486111111111112,
+      "ties": [
+        {
+          "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+          "wins": 79,
+          "losses": 65,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+            "category": "pass_cmp",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 144,
+            "original_wins": 79,
+            "always_Over_wins": 82,
+            "always_Under_wins": 62,
+            "change_vs_best_constant": -3,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "pass_int",
+      "rate": 0.5804195804195804,
+      "ties": [
+        {
+          "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+          "wins": 83,
+          "losses": 60,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+            "category": "pass_int",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 143,
+            "original_wins": 83,
+            "always_Over_wins": 77,
+            "always_Under_wins": 66,
+            "change_vs_best_constant": 6,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "pass_td",
+      "rate": 0.6126760563380281,
+      "ties": [
+        {
+          "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+          "wins": 87,
+          "losses": 55,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+            "category": "pass_td",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 142,
+            "original_wins": 87,
+            "always_Over_wins": 67,
+            "always_Under_wins": 75,
+            "change_vs_best_constant": 12,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        },
+        {
+          "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+          "wins": 87,
+          "losses": 55,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+            "category": "pass_td",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 142,
+            "original_wins": 87,
+            "always_Over_wins": 67,
+            "always_Under_wins": 75,
+            "change_vs_best_constant": 12,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "pass_yd",
+      "rate": 0.5454545454545454,
+      "ties": [
+        {
+          "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+          "wins": 78,
+          "losses": 65,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+            "category": "pass_yd",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 143,
+            "original_wins": 78,
+            "always_Over_wins": 77,
+            "always_Under_wins": 66,
+            "change_vs_best_constant": 1,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "rec",
+      "rate": 0.5681570338058888,
+      "ties": [
+        {
+          "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+          "wins": 521,
+          "losses": 396,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+            "category": "rec",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 917,
+            "original_wins": 521,
+            "always_Over_wins": 450,
+            "always_Under_wins": 467,
+            "change_vs_best_constant": 54,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "rec_yd",
+      "rate": 0.5371367061356297,
+      "ties": [
+        {
+          "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+          "wins": 499,
+          "losses": 430,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+            "category": "rec_yd",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 929,
+            "original_wins": 499,
+            "always_Over_wins": 460,
+            "always_Under_wins": 469,
+            "change_vs_best_constant": 30,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "rush_att",
+      "rate": 0.5321100917431193,
+      "ties": [
+        {
+          "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+          "wins": 174,
+          "losses": 153,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+            "category": "rush_att",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 327,
+            "original_wins": 174,
+            "always_Over_wins": 163,
+            "always_Under_wins": 164,
+            "change_vs_best_constant": 10,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "rush_rec_yd",
+      "rate": 0.5277777777777778,
+      "ties": [
+        {
+          "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+          "wins": 247,
+          "losses": 221,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+            "category": "rush_rec_yd",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 468,
+            "original_wins": 247,
+            "always_Over_wins": 225,
+            "always_Under_wins": 243,
+            "change_vs_best_constant": 4,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    },
+    {
+      "category": "rush_yd",
+      "rate": 0.5869074492099323,
+      "ties": [
+        {
+          "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+          "wins": 260,
+          "losses": 183,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+            "category": "rush_yd",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 443,
+            "original_wins": 260,
+            "always_Over_wins": 189,
+            "always_Under_wins": 254,
+            "change_vs_best_constant": 6,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        },
+        {
+          "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+          "wins": 260,
+          "losses": 183,
+          "source_headline_eligible": true,
+          "control": {
+            "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+            "category": "rush_yd",
+            "scope": "OWN_SELECTED_DECIDED_POOL_ONLY;NOTFULL_ELIGIBLEBOARD_OR_NEW_POLICY",
+            "decided": 443,
+            "original_wins": 260,
+            "always_Over_wins": 189,
+            "always_Under_wins": 254,
+            "change_vs_best_constant": 6,
+            "derivation": "Overtruth=Overwins+Underlosses;Undertruth=Overlosses+Underwins;decidedonly"
+          }
+        }
+      ]
+    }
+  ],
+  "new_fits": 0,
+  "new_inference": 0,
+  "external_calls": 0,
+  "C_A_edits": 0,
+  "limitations": [
+    "Only2026W1-W7;notW1-W8;do notappendW8differentmethod/captureasonefixedprocedurewithoutbinding",
+    "Actualprivateoffer/prediction/outcome/membershiprowsnottransferred;aggregatearithmeticdoesnotproveeachnativejoin,unroundedvalueorprecutoffavailability",
+    "Controlsareeachmethodsownselecteddecidedpool,notfullboard,notprospectivelyadmittedsidepolicy",
+    "Rawleadertiesretained;sourceheadlinestatuskept;notbest-supportedchampions",
+    "Sourcequote_timingUNVERIFIEDandstatisticaldirectionnotvenue settlement;noROIpricesclaim",
+    "SourcefullhistorynotexpandedintheCSV;methodcatalog/artifactexacthistoryreconciliationstillrequired",
+    "NoA/B/CcommonmaskrowparityorA/BcurrentCprotocolacknowledgementestablishedbythisCverifier",
+    "Sevenexposedweeks/overlappingmarkets andmethodmultiplicity;game/weekuncertaintycannotfullyreconstructwithoutownerrows",
+    "AWeek8carries/completions/attemptlossesremainseparate;do nothideinW1-W7positiveaggregates"
+  ]
+}
