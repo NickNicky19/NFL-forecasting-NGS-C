@@ -1,0 +1,13 @@
+# C01 corrected served publication
+
+C's research dashboard is served-verified at `2bd0c0c48a10b804c4a00b0f8e048ecd5e40dca9`, following PR24 and successful [Pages run41913117003](https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/41913117003). Full registered method/version/history/product/side-rule labels are now visible. [Full desktop/mobile/asset/row/timezone/fail-closed receipt](PUBLIC_SERVED_FULL_IDS_RECEIPT.json) and [independent two-object delta check](INDEPENDENT_PUBLIC_FULL_IDS_RECEIPT.json) preserve the exact served hashes. Initial3f975c9receipts remain unchanged.
+
+Counts, masks, probabilities and selections are unchanged by the display correction. No new current offer, forecast, paper selection, entry, payout or model promotion occurred. Publishing research does not validate a live betting procedure. Subsequent receipt-only commits do not refresh quotes or require redeploying unchanged assets.
+
+The receiving target-share values and team-completion values added zero wins and made no probability change. S0/S1 remain189–148/337; C0/C1/C2 remain194–143/337, each340selectedof362,22technical identity holds and3selectedunknown. All direct-model Brier scores exceed neutral0.25. The four registered2025/2026origins are exposed development, not full-season or fresh confirmation.
+
+[Matched saved typed points](MATCHED_POINT_REFERENCE_APPENDIX.json) show why objectives remain separate: meanMAE1.65355yet177/337correct directions; medianMAE1.67062yet189/337. New direct-threshold models have no typed numerical point, so their MAE is N/A. Their unchangedC0 Top6/10/20 mixed lists score8/12,11/20and25/40; selected confidence82.1%,81.1%,78.6%exceeds observed66.7%,55%,62.5%. All144weeklyvariants are retained; none of72two-weekcumulativevariants reaches90%. These unsynchronized last-recorded-line lists are not issued tickets.
+
+Remaining exact work is in the canonical task ledger: A's80state classifications and337case paired side partitions; B's111RB common-mask scoring; A's strong football controls on newly pooledW1–5subsets; expanded A/C finalW8overlap; source-specific missing weeks/years/markets; B's separately recovery-gated older origins; C's22native-team identities; and a genuinely fresh permitted offer/forecast packet before any new issuance. The resolved402-byte A storage failure is historical, not a current blocker. No unrelated missing archive is a blanket block on saved-row scoring.
+
+No C category advances from this failed information wave. Existing independently eligible owner-controlled releases and future-capture paths retain their original admission rules. Ninety-percent reliability, a universal A/B/C winner and full eight-week/multiseason completion are NOT ESTABLISHED.

@@ -1,0 +1,81 @@
+{
+  "category": "rec",
+  "period": "2026W2W3Pinnacle timingunverifiedactual-line diagnostic",
+  "source_commit": "0fffd7e5eab742368b9f9c16fcd803457df10120",
+  "source_SHA256": "323221587c89cfd5a018a2795a8c0c38051027e063a1aed7b0ab7f7fc9ee680b",
+  "no_new_fits": true,
+  "rows": [
+    {
+      "procedure": "C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P1_MEAN",
+      "point_type": "mean",
+      "n": 337,
+      "MAE": 1.6535488673133492,
+      "RMSE": 2.1183718332123167,
+      "bias": -0.3786281697320188,
+      "OVER": {
+        "selected": 147,
+        "wins": 70,
+        "losses": 74,
+        "decided": 144,
+        "rate": 0.4861111111111111,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      },
+      "UNDER": {
+        "selected": 193,
+        "wins": 107,
+        "losses": 86,
+        "decided": 193,
+        "rate": 0.5544041450777202,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      },
+      "COMBINED": {
+        "selected": 340,
+        "wins": 177,
+        "losses": 160,
+        "decided": 337,
+        "rate": 0.5252225519287834,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      }
+    },
+    {
+      "procedure": "C-ALL12-LAW-THRESHOLD-v2.1/P2_LEAF/H-MULTI/E0_OP/P1_MEDIAN",
+      "point_type": "median",
+      "n": 337,
+      "MAE": 1.6706231454005935,
+      "RMSE": 2.2506181148986144,
+      "bias": -0.744807121661721,
+      "OVER": {
+        "selected": 79,
+        "wins": 43,
+        "losses": 35,
+        "decided": 78,
+        "rate": 0.5512820512820513,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      },
+      "UNDER": {
+        "selected": 261,
+        "wins": 146,
+        "losses": 113,
+        "decided": 259,
+        "rate": 0.5637065637065637,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      },
+      "COMBINED": {
+        "selected": 340,
+        "wins": 189,
+        "losses": 148,
+        "decided": 337,
+        "rate": 0.5608308605341247,
+        "mean_selected_probability": null,
+        "expected_wins": null
+      }
+    }
+  ],
+  "new_direct_models": "MAE_NA_NO_TYPED_POINT",
+  "interpretation": "Mean lowerMAE doesnotproduce higherdirectionaccuracy;differenttypedforecastproductsretained."
+}

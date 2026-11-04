@@ -1,0 +1,43 @@
+{
+  "review_id": "C-INDEPENDENT-PUBLIC-C01-FULL-IDS-v1",
+  "status": "PASS_SCOPED_LINEAGE_CORRECTION_ONLY",
+  "created_UTC": "2026-11-04T21:11:10.652826+00:00",
+  "GET_count": 2,
+  "TLS": "Verified default HTTPS certificate validation; no bypass",
+  "served_commit": "2bd0c0c48a10b804c4a00b0f8e048ecd5e40dca9",
+  "shared_SHA256": "83cc05fbef6301b11ed65e99e1e3bbad82c6e90c1cb30a1f9d479439d1e7c820",
+  "exact_pinned_commit_shared_bytes": true,
+  "initial_served_commit": "3f975c940f23f2210b5dc2abea95842d369785fb",
+  "initial_receipt_preserved": "INDEPENDENT_PUBLIC_C01.json",
+  "comparison": {
+    "all_panels_scores_counts_masks_states_equal_initial": true,
+    "only_changes": "Seven M method display texts;prepared_UTC;two appended source bindings for candidate roster and approved offer cases. Existing five source bindings unchanged.",
+    "full_C0_label": "C::C-TEAM-COMPLETION-CONTEXT-v11-1::C0 / H-MULTI / direct threshold / larger-probability side",
+    "full_S1_label": "C::C-RECEIVING-TARGETSHARE-STATE-v10-1::S1 / H-MULTI / direct threshold / larger-probability side",
+    "new_source_bindings_hash_verified_against_pinned_commit": 2
+  },
+  "GET_receipts": [
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1765,
+      "SHA256": "2fc5a2bca6f57c0c80541bda5dc44e855e93654b41c7ab14428850a9263f84aa",
+      "observed_UTC": "2026-11-04T21:10:45.510271+00:00",
+      "response_Date": "Wed, 04 Nov 2026 21:10:45 GMT"
+    },
+    {
+      "path": "data/championship-shared-c01.json",
+      "status": 200,
+      "bytes": 40869,
+      "SHA256": "83cc05fbef6301b11ed65e99e1e3bbad82c6e90c1cb30a1f9d479439d1e7c820",
+      "observed_UTC": "2026-11-04T21:10:45.567211+00:00",
+      "response_Date": "Wed, 04 Nov 2026 21:10:45 GMT"
+    }
+  ],
+  "limits": [
+    "No new scoring/model fit or scientific improvement.",
+    "No model admission, validated probability confidence, or genuinely new pregame selections.",
+    "No repeated full browser/mobile test; previous rendered acceptance preserved and panel data unchanged except permitted labels/provenance.",
+    "Build commit and shared-data hash independently observed; Actions run success supplied by parent, not queried here."
+  ]
+}
