@@ -49,6 +49,7 @@ jobs:
       - name: Verify period bindings, aggregate-to-site parity and saved final CSV (no fits)
         run: |
           python src/abc_period_validation_v2.py
+          python src/site_shared_c01.py validate
           python scripts/export_week8_final_v2.py
       - if: ${{ hashFiles('docs/reliability.js') != '' }}
         run: node --check docs/reliability.js

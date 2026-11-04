@@ -1,0 +1,55 @@
+{
+  "budget": {
+    "max_static_readbacks": 4,
+    "actual": 4,
+    "maximum_bytes_each": 8388608
+  },
+  "receipts": [
+    {
+      "repository": "NFL-forecasting-V2",
+      "ref": "cbd633589e0ba64745eb2b137fbf48f8ddda7bfe",
+      "path": "reports/abc-championship/continuation-20261103-v2/SCORES.json",
+      "SHA256": "3518cb350acfbc2a1e27bafe2bc55657cae1f670bcd246140d14c2378af6f6b5",
+      "bytes": 3395787,
+      "fresh_readback_UTC": "2026-11-04T20:33:16.907900+00:00",
+      "redundant_local_bytes": 174790,
+      "retained_normalized_C": "B_ADMITTED_SCORES.json.gz and PUBLIC_C_MASKS_AND_CONTROLS.json.gz;source bytes recoverable at exact immutable upstream GitHub reference",
+      "local_copy_state": "REDUNDANT_TEMPORARY_COPY_REMOVED_AFTER_FRESH_BYTE_EQUALITY"
+    },
+    {
+      "repository": "NFL-forecasting-V2",
+      "ref": "cbd633589e0ba64745eb2b137fbf48f8ddda7bfe",
+      "path": "reports/abc-championship/continuation-20261103-v3/SCORES.json",
+      "SHA256": "5b632066461e3ccc3e74b74d731caf6ad6d938919cf98be79ac763ff27861e26",
+      "bytes": 4110310,
+      "fresh_readback_UTC": "2026-11-04T20:33:17.385636+00:00",
+      "redundant_local_bytes": 214887,
+      "retained_normalized_C": "B_ADMITTED_SCORES.json.gz and PUBLIC_C_MASKS_AND_CONTROLS.json.gz;source bytes recoverable at exact immutable upstream GitHub reference",
+      "local_copy_state": "REDUNDANT_TEMPORARY_COPY_REMOVED_AFTER_FRESH_BYTE_EQUALITY"
+    },
+    {
+      "repository": "NFL-forecasting-V2",
+      "ref": "cbd633589e0ba64745eb2b137fbf48f8ddda7bfe",
+      "path": "reports/abc-championship/continuation-20261103-v4/OWNER_LOCAL_MASK_MEMBERSHIP.json.gz",
+      "SHA256": "8aab8fa348a5802fe753f87dbbcb955622f3731a98daa4097e4aa56e68a80771",
+      "bytes": 910964,
+      "fresh_readback_UTC": "2026-11-04T20:33:17.747537+00:00",
+      "redundant_local_bytes": 910964,
+      "retained_normalized_C": "B_ADMITTED_SCORES.json.gz and PUBLIC_C_MASKS_AND_CONTROLS.json.gz;source bytes recoverable at exact immutable upstream GitHub reference",
+      "local_copy_state": "REDUNDANT_TEMPORARY_COPY_REMOVED_AFTER_FRESH_BYTE_EQUALITY"
+    },
+    {
+      "repository": "NFL-forecasting-V2",
+      "ref": "a7da13dfe8934d967280af9743d7440c10bff0fe",
+      "path": "reports/abc-championship/weekly-point-partition-20261104-v1/SCORES.json",
+      "SHA256": "ce9838b7ef26eac862f2ff1a00502f48f9c040f178e67bf32c144927fded387b",
+      "bytes": 2681186,
+      "fresh_readback_UTC": "2026-11-04T20:33:18.172249+00:00",
+      "redundant_local_bytes": 144546,
+      "retained_normalized_C": "B_ADMITTED_SCORES.json.gz and PUBLIC_C_MASKS_AND_CONTROLS.json.gz;source bytes recoverable at exact immutable upstream GitHub reference",
+      "local_copy_state": "REDUNDANT_TEMPORARY_COPY_REMOVED_AFTER_FRESH_BYTE_EQUALITY"
+    }
+  ],
+  "unique_evidence_deleted": false,
+  "source_or_original_remote_modified": false
+}

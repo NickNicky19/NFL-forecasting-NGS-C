@@ -1,0 +1,576 @@
+{
+  "review_id": "C-INDEPENDENT-PREDICTIVE-C01-v1",
+  "created_UTC": "2026-11-04T20:40:06.017585+00:00",
+  "status": "PASS_WITH_APPEND_ONLY_IDENTITY_HOLD_AND_RESEARCH_LIMITS",
+  "role": "Internal C independent review, not A/B model re-inference or acknowledgement",
+  "pooled_arithmetic": {
+    "all_partial_pooled_records": 42,
+    "fixed_suite_records": 14,
+    "actual_seasons": [
+      2024,
+      2026
+    ],
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "passed": true,
+    "source": "Retained A weekly owner-local aggregates only, not private source rows or re-inference"
+  },
+  "original_share": {
+    "prediction_player_games": 594,
+    "feature_prefix_denominator_checks": 594,
+    "missing_value_groups": 279,
+    "independent_numeric_tree_threshold_predictions": 8316,
+    "max_probability_difference": 0,
+    "training_prefix_checks": [
+      {
+        "origin": "2025-W09",
+        "rows": 16584,
+        "latest_training_available": 1761616800.0,
+        "fit_origin_UTC": "2025-10-31T00:15:00+00:00"
+      },
+      {
+        "origin": "2025-W13",
+        "rows": 17613,
+        "latest_training_available": 1764033300.0,
+        "fit_origin_UTC": "2025-11-27T18:00:00+00:00"
+      }
+    ],
+    "synthetic_diagnostics": [
+      {
+        "origin": "2025-W09",
+        "arm": "S0",
+        "n": 1778,
+        "Brier": 0.12171525176818106,
+        "wins": 1488,
+        "losses": 290
+      },
+      {
+        "origin": "2025-W09",
+        "arm": "S1",
+        "n": 1778,
+        "Brier": 0.12171525176818106,
+        "wins": 1488,
+        "losses": 290
+      },
+      {
+        "origin": "2025-W13",
+        "arm": "S0",
+        "n": 2030,
+        "Brier": 0.12065892854080221,
+        "wins": 1715,
+        "losses": 315
+      },
+      {
+        "origin": "2025-W13",
+        "arm": "S1",
+        "n": 2030,
+        "Brier": 0.12065892854080221,
+        "wins": 1715,
+        "losses": 315
+      }
+    ],
+    "exact_offer_rows": 0
+  },
+  "limits": [
+    "2025 synthetic thresholds are not actual sportsbook selection accuracy; no2025actualoffers supplied.",
+    "Reported team target sums include all reported source positions but are not a complete routes/tracking or authenticated pregame dataset.",
+    "Historical source policy remains current/revised7day reconstruction, research exposed.",
+    "HGB outputs are monotone direct threshold probabilities, not typed numerical mean/median or a validated full outcome law.",
+    "Feature missingness is training-median/missing-flag handling, not an explicit zero or DNP; statistical football source and source participant panels remain limited.",
+    "No scientific promotion or new prospective skill follows from these reconstructions."
+  ],
+  "later_stages": {
+    "share-actual": {
+      "checks": {
+        "independent_source_prefix_support_values": 668,
+        "missing_value_group": 454,
+        "independent_tree_threshold_inferences": 9352,
+        "exact_line_complements_grades_proper_scores": 724,
+        "changed_line_boundary_sparse_monotonicity": 42,
+        "training_origin_prefix_memberships": 2
+      },
+      "max_probability_difference": 0,
+      "raw_inference_actual_line_records": [
+        {
+          "arm": "S0",
+          "selected": 362,
+          "outside_training_grid": 0,
+          "wins": 190,
+          "losses": 148,
+          "under_losses": 122,
+          "over_losses": 26,
+          "under_wins": 156,
+          "unknown": 24,
+          "over_wins": 34,
+          "Brier": 0.2603943683720249
+        },
+        {
+          "arm": "S1",
+          "selected": 362,
+          "outside_training_grid": 0,
+          "wins": 190,
+          "losses": 148,
+          "under_losses": 122,
+          "over_losses": 26,
+          "under_wins": 156,
+          "unknown": 24,
+          "over_wins": 34,
+          "Brier": 0.2603943683720249
+        }
+      ],
+      "qualification": "Raw frozen inference diagnostics; superseded for primary scoring by append-only identity hold below."
+    },
+    "completion-original": {
+      "checks": {
+        "independent_source_prefix_support_values": 1262,
+        "missing_value_group": 22,
+        "independent_tree_threshold_inferences": 26502,
+        "exact_line_complements_grades_proper_scores": 1086,
+        "changed_line_boundary_sparse_monotonicity": 63,
+        "training_origin_prefix_memberships": 4
+      },
+      "max_probability_difference": 0,
+      "raw_inference_actual_line_records": [
+        {
+          "arm": "C0",
+          "selected": 362,
+          "outside_training_grid": 0,
+          "wins": 195,
+          "losses": 143,
+          "over_wins": 39,
+          "over_losses": 26,
+          "under_wins": 156,
+          "under_losses": 117,
+          "unknown": 24,
+          "Brier": 0.2596464302862097
+        },
+        {
+          "arm": "C1",
+          "selected": 362,
+          "outside_training_grid": 0,
+          "wins": 195,
+          "losses": 143,
+          "over_wins": 39,
+          "over_losses": 26,
+          "under_wins": 156,
+          "under_losses": 117,
+          "unknown": 24,
+          "Brier": 0.2596464302862097
+        },
+        {
+          "arm": "C2",
+          "selected": 362,
+          "outside_training_grid": 0,
+          "wins": 195,
+          "losses": 143,
+          "over_wins": 39,
+          "over_losses": 26,
+          "under_wins": 156,
+          "under_losses": 117,
+          "unknown": 24,
+          "Brier": 0.2596464302862097
+        }
+      ],
+      "qualification": "Raw frozen inference diagnostics; superseded for primary scoring by append-only identity hold below."
+    }
+  },
+  "representative_actual_line_rows": [
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S0",
+      "offer_id": "PL7-1dbd1b1ec394a93df44ae385",
+      "week": 2,
+      "line": 2.5,
+      "selected_side": "UNDER",
+      "actual": 3,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.5300904953456951,
+        "push": 0.0,
+        "over": 0.4699095046543049
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S1",
+      "offer_id": "PL7-1dbd1b1ec394a93df44ae385",
+      "week": 2,
+      "line": 2.5,
+      "selected_side": "UNDER",
+      "actual": 3,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.5300904953456951,
+        "push": 0.0,
+        "over": 0.4699095046543049
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S0",
+      "offer_id": "PL7-1aa071b14ba18f183dfeea2b",
+      "week": 2,
+      "line": 1.5,
+      "selected_side": "OVER",
+      "actual": 1,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.39075963969240907,
+        "push": 0.0,
+        "over": 0.6092403603075909
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S1",
+      "offer_id": "PL7-1aa071b14ba18f183dfeea2b",
+      "week": 2,
+      "line": 1.5,
+      "selected_side": "OVER",
+      "actual": 1,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.39075963969240907,
+        "push": 0.0,
+        "over": 0.6092403603075909
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S0",
+      "offer_id": "PL7-2731b13a45e04137eed113c1",
+      "week": 2,
+      "line": 2.5,
+      "selected_side": "UNDER",
+      "actual": 2,
+      "state": "WIN",
+      "probabilities": {
+        "under": 0.7546924930394516,
+        "push": 0.0,
+        "over": 0.24530750696054837
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S1",
+      "offer_id": "PL7-2731b13a45e04137eed113c1",
+      "week": 2,
+      "line": 2.5,
+      "selected_side": "UNDER",
+      "actual": 2,
+      "state": "WIN",
+      "probabilities": {
+        "under": 0.7546924930394516,
+        "push": 0.0,
+        "over": 0.24530750696054837
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S0",
+      "offer_id": "PL7-e6c4b6d3f4e7b6054f46672d",
+      "week": 2,
+      "line": 3.5,
+      "selected_side": "OVER",
+      "actual": 1,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.4673446006642937,
+        "push": 0.0,
+        "over": 0.5326553993357064
+      }
+    },
+    {
+      "study": "share",
+      "stage": "actual",
+      "arm": "S1",
+      "offer_id": "PL7-e6c4b6d3f4e7b6054f46672d",
+      "week": 2,
+      "line": 3.5,
+      "selected_side": "OVER",
+      "actual": 1,
+      "state": "LOSS",
+      "probabilities": {
+        "under": 0.4673446006642937,
+        "push": 0.0,
+        "over": 0.5326553993357064
+      }
+    }
+  ],
+  "adverse_result": "Share and completion added values do not change any saved probabilities/own choices at executed origins. Qualified337-case selection scores are identical within each registered arm comparison, with all model Briers above0.25. The raw extra338th known case is held for unresolved historical team, not credited as improvement.",
+  "mutation_regressions": {
+    "actual_source_representatives": 3,
+    "cases": [
+      {
+        "game_id": "2026_02_IND_KC",
+        "player_id": "00-0030279",
+        "result": "UNCHANGED_BASE_SHARE_COMPLETION_AND_FIT_PREFIX"
+      },
+      {
+        "game_id": "2026_02_WAS_DAL",
+        "player_id": "00-0039410",
+        "result": "UNCHANGED_BASE_SHARE_COMPLETION_AND_FIT_PREFIX"
+      },
+      {
+        "game_id": "2026_03_CIN_PIT",
+        "player_id": "00-0036252",
+        "result": "UNCHANGED_BASE_SHARE_COMPLETION_AND_FIT_PREFIX"
+      }
+    ],
+    "method": "Mutated target/future workload, outcome and NGS fields; appended future player/team row. Actual production feature builders returned unchanged base/share/completion features and fit-prefix membership. No model fits.",
+    "limitations": "No repeat fits; coefficients remain original safe JSON. Unchanged training prefixes imply unchanged registered transform/fit inputs under tested mutations."
+  },
+  "training_transform_code_trace": "ThresholdModel.fit receives only matrices[arm][ti],y where all training labels available<weeklyfit; medians(x) and missing flags fitted only on that subset. Query rows never enter imputation fit.",
+  "identity_correction": {
+    "id": "C01-IDENTITY-HOLD-v1",
+    "held_unique_offers": 22,
+    "held_arm_views": 110,
+    "unchanged_original_available_C0_probabilities": 340,
+    "extra_played_zero_raw_win_offer": "PL7-228192efbe3c05555a9127ba",
+    "player_name": "Kyle Juszczyk",
+    "player_id": "00-0029892",
+    "game_id": "2026_03_ARI_SF",
+    "line": 1.5,
+    "raw_side": "UNDER",
+    "actual": 0,
+    "effect": "Raw338-case/195wins C0 includes this newly inferred missing-native-team case. Canonical primary holds22queries; original337decided/194wins mask is preserved. Not a probability/feature improvement.",
+    "source_scope": "Case outcome comes from existing v7.1 qualified correction while new missing-source query remains UNKNOWN in inference export; do not overwrite either. Native historical team unresolved; guessed opponent must not be admitted.",
+    "primary_records": [
+      {
+        "method_id": "completion:C0",
+        "OVER": {
+          "selected": 66,
+          "wins": 39,
+          "losses": 26,
+          "decided": 65,
+          "rate": 0.6,
+          "mean_selected_probability": 0.5632547635287118,
+          "expected_wins": 36.61155962936626
+        },
+        "UNDER": {
+          "selected": 274,
+          "wins": 155,
+          "losses": 117,
+          "decided": 272,
+          "rate": 0.5698529411764706,
+          "mean_selected_probability": 0.6506431490456672,
+          "expected_wins": 176.97493654042145
+        },
+        "COMBINED": {
+          "selected": 340,
+          "wins": 194,
+          "losses": 143,
+          "decided": 337,
+          "rate": 0.5756676557863502,
+          "mean_selected_probability": 0.6337878224622782,
+          "expected_wins": 213.58649616978772
+        },
+        "eligible": 362,
+        "unavailable": 22,
+        "states": {
+          "WIN": 194,
+          "LOSS": 143,
+          "UNAVAILABLE_FORECAST": 22,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "Brier": 0.25986835229748334,
+        "probability_n": 337
+      },
+      {
+        "method_id": "completion:C1",
+        "OVER": {
+          "selected": 66,
+          "wins": 39,
+          "losses": 26,
+          "decided": 65,
+          "rate": 0.6,
+          "mean_selected_probability": 0.5632547635287118,
+          "expected_wins": 36.61155962936626
+        },
+        "UNDER": {
+          "selected": 274,
+          "wins": 155,
+          "losses": 117,
+          "decided": 272,
+          "rate": 0.5698529411764706,
+          "mean_selected_probability": 0.6506431490456672,
+          "expected_wins": 176.97493654042145
+        },
+        "COMBINED": {
+          "selected": 340,
+          "wins": 194,
+          "losses": 143,
+          "decided": 337,
+          "rate": 0.5756676557863502,
+          "mean_selected_probability": 0.6337878224622782,
+          "expected_wins": 213.58649616978772
+        },
+        "eligible": 362,
+        "unavailable": 22,
+        "states": {
+          "WIN": 194,
+          "LOSS": 143,
+          "UNAVAILABLE_FORECAST": 22,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "Brier": 0.25986835229748334,
+        "probability_n": 337
+      },
+      {
+        "method_id": "completion:C2",
+        "OVER": {
+          "selected": 66,
+          "wins": 39,
+          "losses": 26,
+          "decided": 65,
+          "rate": 0.6,
+          "mean_selected_probability": 0.5632547635287118,
+          "expected_wins": 36.61155962936626
+        },
+        "UNDER": {
+          "selected": 274,
+          "wins": 155,
+          "losses": 117,
+          "decided": 272,
+          "rate": 0.5698529411764706,
+          "mean_selected_probability": 0.6506431490456672,
+          "expected_wins": 176.97493654042145
+        },
+        "COMBINED": {
+          "selected": 340,
+          "wins": 194,
+          "losses": 143,
+          "decided": 337,
+          "rate": 0.5756676557863502,
+          "mean_selected_probability": 0.6337878224622782,
+          "expected_wins": 213.58649616978772
+        },
+        "eligible": 362,
+        "unavailable": 22,
+        "states": {
+          "WIN": 194,
+          "LOSS": 143,
+          "UNAVAILABLE_FORECAST": 22,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "Brier": 0.25986835229748334,
+        "probability_n": 337
+      },
+      {
+        "method_id": "share:S0",
+        "OVER": {
+          "selected": 61,
+          "wins": 34,
+          "losses": 26,
+          "decided": 60,
+          "rate": 0.5666666666666667,
+          "mean_selected_probability": 0.5647789353096965,
+          "expected_wins": 33.88673611858178
+        },
+        "UNDER": {
+          "selected": 279,
+          "wins": 155,
+          "losses": 122,
+          "decided": 277,
+          "rate": 0.5595667870036101,
+          "mean_selected_probability": 0.651204671075379,
+          "expected_wins": 180.38369388787999
+        },
+        "COMBINED": {
+          "selected": 340,
+          "wins": 189,
+          "losses": 148,
+          "decided": 337,
+          "rate": 0.5608308605341247,
+          "mean_selected_probability": 0.6358172997224385,
+          "expected_wins": 214.27043000646177
+        },
+        "eligible": 362,
+        "unavailable": 22,
+        "states": {
+          "LOSS": 148,
+          "WIN": 189,
+          "UNAVAILABLE_FORECAST": 22,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "Brier": 0.26062233969581355,
+        "probability_n": 337
+      },
+      {
+        "method_id": "share:S1",
+        "OVER": {
+          "selected": 61,
+          "wins": 34,
+          "losses": 26,
+          "decided": 60,
+          "rate": 0.5666666666666667,
+          "mean_selected_probability": 0.5647789353096965,
+          "expected_wins": 33.88673611858178
+        },
+        "UNDER": {
+          "selected": 279,
+          "wins": 155,
+          "losses": 122,
+          "decided": 277,
+          "rate": 0.5595667870036101,
+          "mean_selected_probability": 0.651204671075379,
+          "expected_wins": 180.38369388787999
+        },
+        "COMBINED": {
+          "selected": 340,
+          "wins": 189,
+          "losses": 148,
+          "decided": 337,
+          "rate": 0.5608308605341247,
+          "mean_selected_probability": 0.6358172997224385,
+          "expected_wins": 214.27043000646177
+        },
+        "eligible": 362,
+        "unavailable": 22,
+        "states": {
+          "LOSS": 148,
+          "WIN": 189,
+          "UNAVAILABLE_FORECAST": 22,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "Brier": 0.26062233969581355,
+        "probability_n": 337
+      }
+    ],
+    "canonical_score_partitions_verified": 144,
+    "all_compatible_2026_C0_reference_feature_prefix_matches": 646,
+    "unchanged_safe_original_C0_models": 2
+  },
+  "topk_review": {
+    "lists": 144,
+    "retained_members": 1728,
+    "methods": 8,
+    "common_probability_ready_offers": 340,
+    "policy": "Existing deterministic one-player confidence/tie-break rules; within receptions, W2/W3, mixed/Over-only/Under-only K6/10/20. All lists reselected without target outcomes and exact member order/counts/grades/expected wins matched.",
+    "timing": "Exploratory last-recorded-line diagnostic; no authentic common simultaneous board, executable entry,6/6ticket or prospective accuracy established."
+  },
+  "artifact_hashes": {
+    "src/receiving_information_v10.py": "03686ec26fc2231413f44b4f79fe94abc1c59d3db9d48a4a499bff2655a1f5c3",
+    "src/predictive_information_c01.py": "43c269c54f8cf4177c35cf048d2796c2162ff96da1f4754cee0bf6dd45e426df",
+    "src/predictive_report_c01.py": "5e72d6ffd13558904e62a890fe3019bb0a8201789a4dc4086d2ccb4c7dbde228",
+    "protocol/RECEIVING_TARGETSHARE_V10.json": "fb4a353e0aaba2b1af89ddc212db06515e06bf0554e92bef2467672be1fdd61c",
+    "protocol/TEAM_COMPLETION_CONTEXT_V11.json": "905041304dc6fabc81a74e4ec67cc2013bf74b8e8893afac129c30a21429b215",
+    "reports/predictive-C01/CANONICAL_ACTUAL_ROWS.json.gz": "cc84c3461f8017d3dce43aedc9d5d30e0c6c92d2d45a9141151c74c74c21eaaa",
+    "reports/predictive-C01/ACTUAL_LINE_SCORES.json.gz": "c43750558b9b85dd5cfbd996c5579bdc2d77bf979bd5dbb071c006a3eeef4042",
+    "reports/predictive-C01/IDENTITY_QUALIFICATION_HOLD.json": "da1cb680c4d10119581986eab5a1bf09e7155f17e314394da02396ede3f33eb8",
+    "reports/predictive-C01/TOPK_RESULTS.json.gz": "a4896e511640ab112b9164823c3a0c96a6c9e597825bf518689a6f5d27d26215",
+    "artifacts/predictive-C01/TOPK_MEMBERS.json.gz": "22ad5f561ac6a763b0cddbb598223fce7e28b8928e0cc79c6132fd6ab3722208"
+  }
+}

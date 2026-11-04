@@ -56,15 +56,15 @@
     "A public owner-local aggregates",
     "B public owner-local aggregates"
   ],
-  "A_B_independent_acknowledgement": "NOT_RECEIVED_FOR_CURRENT_BOUND_COMMON_EVALUATOR",
-  "stage": "PARTIAL_E1_MULTI_SOURCE_PUBLIC_OWNERLOCAL_AGGREGATES_ADMITTED;RAW_COMMON_PARITY_PENDING;E2_E7_ACTUAL_LINE_GAPS",
+  "A_B_independent_acknowledgement": "RECEIVED_PINNED_C1_REPRESENTATIVE_SCOPED_CHECKS",
+  "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "SHA256": "3b40290841143c0bfcb0c21a8cbf69af0c10ac27d2620eed957c6fb8df5e6909"
+    "SHA256": "396767ed309695dcba56afa8dc9f3efc0da2ea88408bd47bd586b01a1859c078"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "29d679ad17302fb83aedfc9099dea4ffe8190c8fe4e58ce420c2bcd43231b552"
+    "SHA256": "a97f1a3d6ba5c730dac931ae195281d5e6fb37c432716c93eafae8a47072b7eb"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -206,5 +206,163 @@
       "path": "reports/abc-championship/continuation-v2/INDEPENDENT_FINAL_PERIOD_REVIEW.json",
       "SHA256": "359c912d4b38fc59b79cf3f213cf01fcd6beaf48208118140f70790c88bce620"
     }
+  },
+  "shared_intake": {
+    "id": "ABC-C-SHARED-INTAKE-v3-1",
+    "previous_pointer": {
+      "path": "reports/abc-championship/shared-intake-v3/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "9526f5ea65548e23751633e2865020c1cc0957b8fe293ea4e7421e2d75302307"
+    },
+    "report": {
+      "path": "reports/abc-championship/shared-intake-v3/README.md",
+      "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
+    },
+    "source_receipts": {
+      "path": "reports/abc-championship/shared-intake-v3/ARTIFACT_RECEIPTS.json",
+      "SHA256": "34b0bc559607d6c0ad3b87be4088aa25bc3680dc85c69baa30898d6ac287c784"
+    },
+    "execution": {
+      "path": "reports/abc-championship/shared-intake-v3/EXECUTION_PACKAGE.json",
+      "SHA256": "966e66603795856629ca87639a2a4bf4e0b11281f339b314a565cb01e233e1ef"
+    },
+    "code": {
+      "path": "src/abc_shared_intake_v3.py",
+      "SHA256": "7a6c17777cfaba7149e3344363c7b214c416362ae7b3c569e2226b144590296a"
+    },
+    "outputs": [
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_C_SCORES.json.gz",
+        "SHA256": "ca6cf2f6c244696941781a76d8fd8329c953b64e1e31eee03fc896cf0d5fdf9d"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_C_VERIFIED_PAIRS.json.gz",
+        "SHA256": "d5877bb09e7b435253241ba86b72b8457fedacd0121fd6bf5a77143f89af9722"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_SCORES.json.gz",
+        "SHA256": "74e73eb2489c8b2ccfba9390272bde0a9d9e49212ccd5a6867710c94199d76c6"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_WEEK8_FINAL_SCORES.json.gz",
+        "SHA256": "bf87f77c8d4a15c449e148540c28fe88ff204329aa3e3dc8f122c6e22f516a31"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz",
+        "SHA256": "3f908221db5c8a3d3eb463754add443eba62eac2032e7d750173545478900466"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PUBLIC_C_MASKS_AND_CONTROLS.json.gz",
+        "SHA256": "9268edcd0aac29efcc89bc96882f695da0e2108c38600c18d981b754e3d71324"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/SAME_OFFER_COMPARISONS.json.gz",
+        "SHA256": "c7923d190a65194305e4920a91972ea9e45f2e49aef8e25b2c42b20997ea0566"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PARTIAL_E5_E7_ALL_PROCEDURES.json",
+        "SHA256": "70309f26bd2547c625f80bfbfd3c52d51c0b1f43eee26ecfee6743f80585125b"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PARTIAL_FIXED_SUITE_SUMMARIES.json",
+        "SHA256": "cc8ad08574cd48f69e2410c59fd7fe079a9f006e81d99f154b3af28487fe6c44"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/TWELVE_CATEGORY_STATUS.json",
+        "SHA256": "479e71dfe51f4fd2ecddb2b3157431146cb8b89970a19a98fd540d28691e42b7"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_STATE_CLASSIFICATION_HOLD.json",
+        "SHA256": "e3ea474478bfbb8e0a4d8968419c56c66c756ed0cdae074453b8800178d0f744"
+      }
+    ],
+    "independent_review": {
+      "path": "reports/abc-championship/shared-intake-v3/INDEPENDENT_SHARED_INTAKE_REVIEW.json.gz",
+      "SHA256": "02337412f0a4f41c0a1c19dfe3acc47b95aea421c7fc82849c6591e94f1dd72b"
+    },
+    "acknowledgements": [
+      {
+        "path": "reports/abc-championship/shared-intake-v3/intake/A-ACK.source.gz",
+        "SHA256": "1b1cbc4342684e27ac0b1f241e1d7d0ce1f97c1e59860ada49f847e876cb1c0f"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/intake/C_protocol_pin_and_B_acknowledgement.source.gz",
+        "SHA256": "32c531286fd0b31d4b7a7f746a37c76bfcb20d6734444dc511281f55af9b3f8d"
+      }
+    ],
+    "source_coverage_mapping": "PriorC-onlySOURCE_COVERAGEishistorical;continuation-v2weekgridandnewsourceartifacts/periodsareexplicitextensions,not assumedall8weeks",
+    "temporal_parity": "NOT_ESTABLISHED_ACROSS_A_B_C;diagnosticonly",
+    "upstream_fresh_restore": {
+      "path": "reports/abc-championship/shared-intake-v3/UPSTREAM_RESTORE_AND_LOCAL_DEDUP.json",
+      "SHA256": "039b483ef48ea5fa05a166de1ed5ac427a7f8179354d30fe35ca35e5bfc5f97c"
+    }
+  },
+  "predictive_improvement_assignment": {
+    "id": "ABC-PREDICTIVE-IMPROVEMENT-01",
+    "C_adoption": {
+      "path": "protocol/ABC_PREDICTIVE_IMPROVEMENT_01_C_ADOPTION.md",
+      "SHA256": "7fc909d079b3b0492343749a1c6e1c164d2dd14be30def21bc6911f01216bb0e"
+    },
+    "registered": [
+      {
+        "path": "protocol/RECEIVING_TARGETSHARE_V10.json",
+        "SHA256": "fb4a353e0aaba2b1af89ddc212db06515e06bf0554e92bef2467672be1fdd61c"
+      },
+      {
+        "path": "protocol/TEAM_COMPLETION_CONTEXT_V11.json",
+        "SHA256": "905041304dc6fabc81a74e4ec67cc2013bf74b8e8893afac129c30a21429b215"
+      }
+    ],
+    "state": "C_EXECUTED_TARGETSHARE_AND_ONE_COMPLETION_INFO_TEST;NO_GAIN_OR_PROMOTION",
+    "report": {
+      "path": "reports/predictive-C01/README.md",
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    "evidence": {
+      "path": "reports/predictive-C01/EVIDENCE_MANIFEST.json",
+      "SHA256": "7e589ceace502db6407e5181283a41ecf1de58b88b4a8e2a7b41937a3ad49ba9"
+    },
+    "independent_review": {
+      "path": "reports/predictive-C01/INDEPENDENT_PREDICTIVE_REVIEW.json",
+      "SHA256": "fe4d58c18aede1df0d34df2ec6d2cbb8e3feba7c678b50536f32e45e0e0bc46a"
+    },
+    "own_side_scores": {
+      "path": "reports/predictive-C01/ACTUAL_LINE_SCORES.json.gz",
+      "SHA256": "c43750558b9b85dd5cfbd996c5579bdc2d77bf979bd5dbb071c006a3eeef4042"
+    },
+    "exact_rows": {
+      "path": "reports/predictive-C01/CANONICAL_ACTUAL_ROWS.json.gz",
+      "SHA256": "cc84c3461f8017d3dce43aedc9d5d30e0c6c92d2d45a9141151c74c74c21eaaa"
+    },
+    "correction": {
+      "path": "reports/predictive-C01/IDENTITY_QUALIFICATION_HOLD.json",
+      "SHA256": "da1cb680c4d10119581986eab5a1bf09e7155f17e314394da02396ede3f33eb8"
+    },
+    "component_status": {
+      "path": "reports/predictive-C01/COMPONENT_STATUS.json",
+      "SHA256": "acfe0132860a6c5ec11189a6140b2350c42f8885494aafe2697cc6b046a008dd"
+    },
+    "code": [
+      {
+        "path": "src/receiving_information_v10.py",
+        "SHA256": "03686ec26fc2231413f44b4f79fe94abc1c59d3db9d48a4a499bff2655a1f5c3"
+      },
+      {
+        "path": "src/predictive_information_c01.py",
+        "SHA256": "43c269c54f8cf4177c35cf048d2796c2162ff96da1f4754cee0bf6dd45e426df"
+      },
+      {
+        "path": "src/predictive_report_c01.py",
+        "SHA256": "db8aa16bcc1a65a9407402e50c2dfbc2e4703c874552cef16607f75e825ce267"
+      },
+      {
+        "path": "src/site_shared_c01.py",
+        "SHA256": "cdf5a49d07b670d44ad89cb7e55fc69a2194e345ba3829efd69e2b749928b929"
+      }
+    ],
+    "restoration": {
+      "path": "reports/predictive-C01/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "c2bb097be1a22e14aa820b81ee2c29f4d59b16c2d30d78f897f821300cfbe7a9"
+    },
+    "restoration_state": "FRESH_GITHUB_BYTES_69OBJECTS_20REPRESENTATIVE_INFERENCES_432SIDEPARTITIONS_PASSED"
   }
 }

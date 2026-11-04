@@ -1,0 +1,16 @@
+{
+  "id": "ABC-C-V3-LOSSLESS-VERIFIER-COMPACTION",
+  "UTC": "2026-11-04T01:43:13.804491+00:00",
+  "before_temp_bytes": 3685225,
+  "before_whole_C_bytes": 2682397402,
+  "old_new_local_cap": 3145728,
+  "temporary_cap_violation": true,
+  "whole_C_cap_violation": false,
+  "reason": "Independent verifier retained4788recomputedCcontrol rows; unexpected1.87MiBuncompressedreceipt",
+  "source_SHA256": "194a59b1af53d44f6e9f1aa7b7646f868ffa2b5d4ea1954459b2ab41dba1bc4a",
+  "source_bytes": 1872978,
+  "gzip_SHA256": "02337412f0a4f41c0a1c19dfe3acc47b95aea421c7fc82849c6591e94f1dd72b",
+  "gzip_bytes": 81742,
+  "decompression_identity_verified": true,
+  "action": "Keep recoverable exact gzip bytes;remove only redundant uncompressed temporary copy;no scientific evidence discarded"
+}

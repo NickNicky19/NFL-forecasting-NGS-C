@@ -1,0 +1,85 @@
+{
+  "id": "C-RECEIVING-TARGETSHARE-STATE-v10-1",
+  "assignment": "ABC-PREDICTIVE-IMPROVEMENT-01",
+  "registered_UTC": "2026-11-04T20:05:17.846908+00:00",
+  "parent_registration": {
+    "path": "protocol/NEXT_WAVE_V9.json",
+    "SHA256": "480ecbe8a0f23fb128d9d211ce84e3f4ff0605edd8a5f99bd80856562265d66e",
+    "scope": "Original proposed executable scope now fully specified; original budget preserved"
+  },
+  "category": "rec",
+  "source": {
+    "archive": "artifacts/basic-football-facts-v2.1.zip",
+    "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+    "facts_SHA256": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+    "schedule_SHA256": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+    "rights": "Existing attributed qualified ordinary NFL facts;noNGS/odds acquisition"
+  },
+  "prior_reconciliation": {
+    "original_NGS": "C0/C1/C2 tested depth/separation/cushion;no persistent useful gain;unchanged",
+    "attempt_workload": "C-PASS-WORKLOAD-LINK-v8 forecast attempt bins;no hit gain;different category and mechanism",
+    "calibration": "Failed2025sigmoid remains;no calibrator fitted here",
+    "owner": "C lagged receiver target-share features;A owns dynamic carry model andB selective gate"
+  },
+  "history": "Expandingfrom2022;each training/query feature available=gamekickoff+7days strictly<examplekickoff;fit labelsavailable<firstweeklykickoff;current/revisedreconstructionnotauthenticatedasof",
+  "population": "RB/WR/TEstat-row reconstruction plus qualified C offered identities for2026 queries; notauthenticatedpregameuniverse",
+  "learner": "Retained ThresholdModel MONOTONE_HGB:32iterations,depth3,minleaf20,lr0.05,l2=10,seed1701,earlystopfalse;training-onlymedian/missingflags;fixedsyntheticthresholdtraininggridfloor",
+  "arms": {
+    "S0": "SameE0_ENVplussharedteam/playerdenominatoravailability,age,count/supportflags",
+    "S1": "S0pluslatest_same-team_targets/teamtargets and ratio(last2targettotals)-ratio(preceding3targettotals)"
+  },
+  "metric": "Teamtargetdenominator=sumexplicitreportedplayer targetcounts acrossallpositions;notroutes/attempts. Missingplayergame neverzero. Atleast5qualifiedearlierteamgames and5same-teamplayerreportedtargetrowsneededforvaluegroup;otherwiseNaN+sharedflags.",
+  "support_fields": [
+    "qualified_team_game_count5",
+    "reported_player_target_rows5",
+    "team_targets5",
+    "player_targets5",
+    "age_days_latest",
+    "value_group_missing"
+  ],
+  "primary_origins": [
+    {
+      "season": 2025,
+      "week": 9
+    },
+    {
+      "season": 2025,
+      "week": 13
+    }
+  ],
+  "budget": {
+    "maximum_new_fits": 4,
+    "maximum_calibrators": 0,
+    "CPU_seconds": 120,
+    "wall_seconds": 240,
+    "RSS_bytes": 805306368,
+    "new_public_bytes": 2097152,
+    "workers": 1,
+    "threads": 1
+  },
+  "actual_line_extension": {
+    "id": "C-TARGETSHARE-ACTUAL-LINE-EXTENSION-v10-1",
+    "chosen_before_any_new_performance": true,
+    "origins": [
+      {
+        "season": 2026,
+        "week": 2
+      },
+      {
+        "season": 2026,
+        "week": 3
+      }
+    ],
+    "reason": "Only specifically admitted exact-line source weeks;fullPinnaclereceptionsboard;notchosenbywins",
+    "maximum_new_fits": 4,
+    "CPU_seconds": 120,
+    "wall_seconds": 240,
+    "RSS_bytes": 805306368,
+    "new_public_bytes": 524288
+  },
+  "evaluation": "AllCeligibleoffersfirst,ownP2probabilitydirectionexactfloors/ceilings,pairedfull/commonmasks;2025syntheticdiagnosticseparate;no newpointlaw;retainedP2numeric/P3/rolecontrols reused",
+  "tuning": "None;no calibration/seed/historysearch",
+  "practical_change": "Before scores: +1percentagepoint direction and/orBrierreduction0.005 worth review only atmatchingcoverage;uncertainty/adverseeffects/strongcontrolsremain,noautomaticpromotion",
+  "ninety_percent": "TARGET_NOT_ESTABLISHED;CdoesnotfitBownedgate;fixedTopKdiagnosticdoesnotprovefuture90%",
+  "state": "REGISTERED_NOT_YET_FIT"
+}
