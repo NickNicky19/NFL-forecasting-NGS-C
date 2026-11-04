@@ -22,7 +22,7 @@ function render(){
     const u=ci?ci.map(pct).join("–")+" · descriptive sensitivity":"No independent common-mask uncertainty";
     const difference=panel==="A"?`${r.matched_control.change_vs_best_constant>=0?"+":""}${r.matched_control.change_vs_best_constant} wins vs better constant on own decided pool`:"See same-pool overall constant control above";
     const method=panel==="A"?`${r.method} / ${r.product} · ${r.procedure_id}`:`${r.procedure_id} / ${r.product_id} / ${r.strategy}`;
-    cells=[label,method,panel==="A"?"2026 W1–7":"2026 W8",rec(r.OVER),rec(r.UNDER),rec(r.COMBINED),`${r.eligible}/${r.selected}/${r.COMBINED.decided}`,r.games,difference,u+(panel==="A"?" · "+r.higher_observed_side:""),panel==="A"?`Timing-unverified aggregate; ${r.unknown_participation} unknown,${r.played_missing} missing;${r.no_lean} no-lean;${r.missing_offer_or_prediction} unavailable`:`Owner-local original-selected aggregate; ${r.COMBINED.states.UNKNOWN_PARTICIPATION||0} unknown; settlement unverified`];
+    cells=[label,method,panel==="A"?"2026 W1–7":"2026 W8",rec(r.OVER),rec(r.UNDER),rec(r.COMBINED),`${r.eligible}/${r.selected}/${r.COMBINED.decided}`,r.games,difference,u+(panel==="A"?" · "+r.higher_observed_side+" higher by "+r.side_difference_percentage_points.toFixed(2)+"pp (different selected pools)":""),panel==="A"?`Timing-unverified aggregate; ${r.unknown_participation} unknown,${r.played_missing} missing;${r.no_lean} no-lean;${r.missing_offer_or_prediction} unavailable`:`Owner-local original-selected aggregate; ${r.COMBINED.states.UNKNOWN_PARTICIPATION||0} unknown; settlement unverified`];
    }
   }
   const tr=document.createElement("tr");tr.dataset.category=category;
