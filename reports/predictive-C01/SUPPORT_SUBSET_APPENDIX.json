@@ -1,0 +1,297 @@
+{
+  "source_commit": "0fffd7e5eab742368b9f9c16fcd803457df10120",
+  "no_new_fits": true,
+  "rows": [
+    {
+      "method": "share:S0",
+      "value_group": "AVAILABLE",
+      "OVER": {
+        "selected": 30,
+        "wins": 14,
+        "losses": 16,
+        "decided": 30,
+        "rate": 0.4666666666666667
+      },
+      "UNDER": {
+        "selected": 121,
+        "wins": 65,
+        "losses": 55,
+        "decided": 120,
+        "rate": 0.5416666666666666
+      },
+      "COMBINED": {
+        "selected": 151,
+        "wins": 79,
+        "losses": 71,
+        "decided": 150,
+        "rate": 0.5266666666666666
+      },
+      "unknown": 1,
+      "feature_source_path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "share:S0",
+      "value_group": "MISSING_IMPUTED_WITH_FLAG",
+      "OVER": {
+        "selected": 31,
+        "wins": 20,
+        "losses": 10,
+        "decided": 30,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "selected": 158,
+        "wins": 90,
+        "losses": 67,
+        "decided": 157,
+        "rate": 0.5732484076433121
+      },
+      "COMBINED": {
+        "selected": 189,
+        "wins": 110,
+        "losses": 77,
+        "decided": 187,
+        "rate": 0.5882352941176471
+      },
+      "unknown": 2,
+      "feature_source_path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "share:S1",
+      "value_group": "AVAILABLE",
+      "OVER": {
+        "selected": 30,
+        "wins": 14,
+        "losses": 16,
+        "decided": 30,
+        "rate": 0.4666666666666667
+      },
+      "UNDER": {
+        "selected": 121,
+        "wins": 65,
+        "losses": 55,
+        "decided": 120,
+        "rate": 0.5416666666666666
+      },
+      "COMBINED": {
+        "selected": 151,
+        "wins": 79,
+        "losses": 71,
+        "decided": 150,
+        "rate": 0.5266666666666666
+      },
+      "unknown": 1,
+      "feature_source_path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "share:S1",
+      "value_group": "MISSING_IMPUTED_WITH_FLAG",
+      "OVER": {
+        "selected": 31,
+        "wins": 20,
+        "losses": 10,
+        "decided": 30,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "selected": 158,
+        "wins": 90,
+        "losses": 67,
+        "decided": 157,
+        "rate": 0.5732484076433121
+      },
+      "COMBINED": {
+        "selected": 189,
+        "wins": 110,
+        "losses": 77,
+        "decided": 187,
+        "rate": 0.5882352941176471
+      },
+      "unknown": 2,
+      "feature_source_path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C0",
+      "value_group": "AVAILABLE",
+      "OVER": {
+        "selected": 66,
+        "wins": 39,
+        "losses": 26,
+        "decided": 65,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "selected": 274,
+        "wins": 155,
+        "losses": 117,
+        "decided": 272,
+        "rate": 0.5698529411764706
+      },
+      "COMBINED": {
+        "selected": 340,
+        "wins": 194,
+        "losses": 143,
+        "decided": 337,
+        "rate": 0.5756676557863502
+      },
+      "unknown": 3,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C0",
+      "value_group": "MISSING_IMPUTED_WITH_FLAG",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "unknown": 0,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C1",
+      "value_group": "AVAILABLE",
+      "OVER": {
+        "selected": 66,
+        "wins": 39,
+        "losses": 26,
+        "decided": 65,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "selected": 274,
+        "wins": 155,
+        "losses": 117,
+        "decided": 272,
+        "rate": 0.5698529411764706
+      },
+      "COMBINED": {
+        "selected": 340,
+        "wins": 194,
+        "losses": 143,
+        "decided": 337,
+        "rate": 0.5756676557863502
+      },
+      "unknown": 3,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C1",
+      "value_group": "MISSING_IMPUTED_WITH_FLAG",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "unknown": 0,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C2",
+      "value_group": "AVAILABLE",
+      "OVER": {
+        "selected": 66,
+        "wins": 39,
+        "losses": 26,
+        "decided": 65,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "selected": 274,
+        "wins": 155,
+        "losses": 117,
+        "decided": 272,
+        "rate": 0.5698529411764706
+      },
+      "COMBINED": {
+        "selected": 340,
+        "wins": 194,
+        "losses": 143,
+        "decided": 337,
+        "rate": 0.5756676557863502
+      },
+      "unknown": 3,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    },
+    {
+      "method": "completion:C2",
+      "value_group": "MISSING_IMPUTED_WITH_FLAG",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "unknown": 0,
+      "feature_source_path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+      "feature_source_SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875",
+      "scope": "Earliereligiblefeaturemask,notmembershipselection;zero countN/A;full-system22identityunavailable retained separately"
+    }
+  ],
+  "interpretation": "Sharevaluesavailablefor150of337decidedcases;S0S1identicalwithinandoutsidesupport. Completionqualityavailableforall337,C0C1C2identical. Missinggroupratesaredifferentpopulations,notcausalevidence."
+}
