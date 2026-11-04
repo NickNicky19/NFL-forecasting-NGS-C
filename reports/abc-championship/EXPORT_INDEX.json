@@ -1,1 +1,68 @@
-{"schema":"ABC-EXPORT-v2","origin_session":"C","producer_repository":"NickNicky19/NFL-forecasting-NGS-C","producer_commit":"2d684f22830b817669ecf89f46eb6fdcace8335b","state":"ACTUAL_BYTES_READ_VALIDATED_LOCAL_C_ONLY","actual_weeks":[2,3],"requested_periods":["E1","E2","E3","E4","E5","E6","E7","E8"],"method_roster":{"path":"reports/abc-championship/METHOD_ROSTER-v2-C-1.json","SHA256":"6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"},"bindings":{"path":"reports/abc-championship/C_INPUT_BINDINGS.json","SHA256":"91cf77353b70d49d33e5ca80421a69c702dc6d8fbab07043e58b0676580359e8"},"rights":"Inherited exact5approvedCdatasets;analysis/GitHubretention/aggregatequalified;not a grant for otherproducerrows","missing":"No qualifiedotherweeks/eightabsentcategories;noA/Bpinnedcontractexportsoracknowledgements","files":[{"path":"reports/abc-championship/SCORES-v2-C-1.json","SHA256":"aee4ca8ed9b1c84992e887171813aa2d2b0e5a724c77ae65765e5e5116670fc0"},{"path":"reports/abc-championship/PAIRED-v2-C-1.json","SHA256":"db453388021515e1d7a9afb312b459e8bf70ff2ff01539eb0df8da8591ff41ac"},{"path":"reports/abc-championship/COMMON_CORE-v2-C-1.json","SHA256":"15c5c843e7e3075723247584699e0f721c960664b762dd7c736b45667447969a"},{"path":"reports/abc-championship/LEADERS-v2-C-1.json","SHA256":"64f3f83982d3a07c945ed145a1587478d02fc6832a248f44c138a1773f28dd2e"}]}
+{
+  "schema": "ABC-EXPORT-v2",
+  "origin_session": "C",
+  "producer_repository": "NickNicky19/NFL-forecasting-NGS-C",
+  "producer_commit": "2d684f22830b817669ecf89f46eb6fdcace8335b",
+  "state": "C_PRIOR_RAW_PILOT_UNCHANGED;NEW_PUBLIC_AGGREGATE_COORDINATION_AND_FINAL_FORECAST_LABELS",
+  "actual_weeks": [
+    2,
+    3
+  ],
+  "requested_periods": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8"
+  ],
+  "method_roster": {
+    "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+    "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+  },
+  "bindings": {
+    "path": "reports/abc-championship/C_INPUT_BINDINGS.json",
+    "SHA256": "91cf77353b70d49d33e5ca80421a69c702dc6d8fbab07043e58b0676580359e8"
+  },
+  "rights": "Inherited exact5approvedCdatasets;analysis/GitHubretention/aggregatequalified;not a grant for otherproducerrows",
+  "missing": "A/Bindexesreceived;currentownercommonpin/mask/rawparitypending;actualhistoricalyears/catsourcegapsremain",
+  "files": [
+    {
+      "path": "reports/abc-championship/SCORES-v2-C-1.json",
+      "SHA256": "aee4ca8ed9b1c84992e887171813aa2d2b0e5a724c77ae65765e5e5116670fc0"
+    },
+    {
+      "path": "reports/abc-championship/PAIRED-v2-C-1.json",
+      "SHA256": "db453388021515e1d7a9afb312b459e8bf70ff2ff01539eb0df8da8591ff41ac"
+    },
+    {
+      "path": "reports/abc-championship/COMMON_CORE-v2-C-1.json",
+      "SHA256": "15c5c843e7e3075723247584699e0f721c960664b762dd7c736b45667447969a"
+    },
+    {
+      "path": "reports/abc-championship/LEADERS-v2-C-1.json",
+      "SHA256": "64f3f83982d3a07c945ed145a1587478d02fc6832a248f44c138a1773f28dd2e"
+    }
+  ],
+  "continuation_report": "continuation-v2/README.md",
+  "outcome_expansion": {
+    "path": "reports/abc-championship/continuation-v2/C_OUTCOME_EXPANSION_HANDOFF.json",
+    "SHA256": "0d651a64ae3d6fe0f5d937d23d5619409b3335f5889d8e5843b273c50149b239"
+  },
+  "common_protocol": {
+    "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
+    "SHA256": "9526f5ea65548e23751633e2865020c1cc0957b8fe293ea4e7421e2d75302307"
+  },
+  "period_continuation_publication": {
+    "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
+    "path": "reports/abc-championship/continuation-v2/README.md",
+    "restoration_receipt": {
+      "path": "reports/abc-championship/continuation-v2/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "69ca887dfb48edd3d3c7195743d61c9b75dd297856d51620b521c6fcccf54393"
+    },
+    "A_B_receipt": "C_received_public_exportindexes; noownerindependentcurrentcommonpinreturned",
+    "new_C_source": "NewMondaylabelsandoriginalforecastsCSV;noforecastrefitornewpregamepicks"
+  }
+}

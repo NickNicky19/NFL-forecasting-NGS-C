@@ -1,0 +1,176 @@
+{
+  "id": "C-INDEPENDENT-A-B-HANDOFF-REVIEW-v2",
+  "at_UTC": "2026-11-03T23:33:50.116578+00:00",
+  "status": "PASS_AGGREGATE_ARITHMETIC_WITH_ROW_PARITY_AND_RIGHTS_LIMITATIONS",
+  "scope": "Independent C read-only check; NOT Session A/B acknowledgement or complete Ccommonrowscoring",
+  "new_fits": 0,
+  "network_calls": 0,
+  "source_artifact_bytes": [
+    {
+      "artifact": "A-ADOPTED_PROTOCOL_V2.json.gz",
+      "bytes": 2068,
+      "SHA256": "826c74b685e6d93086c9170e8feb1390ec809cf60f26a0861e7492fc7dfd63e8",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "A-LOCAL_A_C_RESULTS_V1.json.gz",
+      "bytes": 64280,
+      "SHA256": "168b6dc8145bb93ef16ca3cbdaee9f2c280ac23cc2e13ea3aa1e8e5618bd1a83",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "A-PROCEDURE_BINDINGS_V1.json.gz",
+      "bytes": 8198,
+      "SHA256": "fe9eb85d7f9d0c81182947024ffb82f44a61a01267da68482d316f2548c26174",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "A-README.md.gz",
+      "bytes": 8838,
+      "SHA256": "911c7a6ae00e1a0533528ca150dc3af791fa449e0ea77201b2d7d624d9f0f09e",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-adoption.json.gz",
+      "bytes": 2739,
+      "SHA256": "860a0751b99a24187484a32d3188378fe58222cda3069ff08dd74d33e497bce1",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-existing_exact_cell_grid.json.gz",
+      "bytes": 3521600,
+      "SHA256": "4fbcc2ad60e02883f1aa0fb8694d297421546f820e0d4aa0536623f79d1faa54",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-existing_method_roster.json.gz",
+      "bytes": 35052,
+      "SHA256": "9a8708b77f5be5145252e37ad80e8b207ab8293b8e8328a14674e1c7e8b0a261",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-independent_local_review.json.gz",
+      "bytes": 2173,
+      "SHA256": "0cb1bf4d2e4d6bee6263285285605c6dd789899241e06d1fd252705294d293c9",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-local_direction_results.json.gz",
+      "bytes": 16122439,
+      "SHA256": "e73a780f93afdfef2dfd37caa8f5e1ad12b94403103ace20f33ed2e9d9570c17",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    },
+    {
+      "artifact": "B-prior_index_pointer.json.gz",
+      "bytes": 11415,
+      "SHA256": "5289c2d6f87c2462acf0b0970dd0f7df656ea13a4b74e17fc4e16998d17a5c89",
+      "result": "PASS_DECOMPRESSED_EXACT_BYTES"
+    }
+  ],
+  "adoption": {
+    "A": "Semanticagreement:selectionfirst,Ccoordinator,E1-E8,chronology,rights,independentverification;differentdocumenthashnotconflict",
+    "B": "Same substantiveassignment;normalizedadoptionexplicitlynotverbatimchat;old404recordhistorical",
+    "canonical_C_protocol_SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1",
+    "C_pin_by_A_B": "NOT_YET_DEMONSTRATED_IN_THESE_HISTORICAL_EXPORTS"
+  },
+  "A_C": {
+    "rows": 60,
+    "categories": 10,
+    "common_offer_cases": 344,
+    "games": 11,
+    "own_side_arithmetic": "PASS",
+    "C_original_model_binding_matches": 12,
+    "C_csv_SHA": "PASS",
+    "paired_changes": 40,
+    "full_private_pair_rows": "NOT_TRANSFERRED_NOT_RETAINED_IN_THIS_PUBLIC_EXPORT;cannotindependentlyrerowjoin/reconstructbootstrapoutsideownerroute",
+    "C_outcome_scope": "Older003packet;MondaynowFINALnotyetnewplayergrade;positiveparticipationoverlap42unknown_or_pendingexcluded",
+    "C_cmp_att": "RawpointP1diagnosticonly;existingCpaper/coherenceblocksNOTwaived",
+    "other_limitations": [
+      "LOCAL timing-unverified original-line replay; no shared parity or venue/ROI claim",
+      "C mean/median outputs one procedure, not two independent learners",
+      "C subset based on positively evidenced participation; unresolved issued rows remain excluded and counted",
+      "Different issue clocks/information tiers; complete-system descriptive comparison",
+      "Week8 only; no eight-week/historical/TopK or adaptive selector completion"
+    ]
+  },
+  "B": {
+    "score_views": 4404,
+    "side_triads": 1468,
+    "all_triads_rates_counts": "PASS",
+    "original_selected_pool": {
+      "over": {
+        "wins": 109,
+        "losses": 128,
+        "unknown": 8
+      },
+      "under": {
+        "wins": 96,
+        "losses": 82,
+        "unknown": 4
+      },
+      "Combined": {
+        "wins": 205,
+        "losses": 210,
+        "unknown": 12
+      }
+    },
+    "original_selected_total": 427,
+    "decided": 415,
+    "always_under": {
+      "wins": 224,
+      "losses": 191,
+      "rate": 0.5397590361445783
+    },
+    "original": {
+      "wins": 205,
+      "losses": 210,
+      "rate": 0.4939759036144578
+    },
+    "always_under_change_wins": 19,
+    "always_under_change_percentage_points": 4.578313253012048,
+    "qualification": "Outcome-frequencycontrolonoriginalselectedpool;notall-board/noautomaticUnderpolicy/noprofitclaim",
+    "duplicate_panel_warning": "OriginalalsoexistsCOMMON_OFFER_CONTROLS_V2,184W185L/369+10unknown;donotconcatenate",
+    "row_verification": "Publishedaggregates/Bownerlocalreviewonly;rawrestrictedgradebytesnottransferred;notpairedcrosssessionsuperiority",
+    "membership_hash_warning": "Differenthashesundercommonhorizonmayincludequery/forecastvalues;needdefinitionbeforeclaimsameordifferentopportunities",
+    "known_label_or_line_checks": "Notrecomputedfromrawprivaterows;onlypublicreportedaggregatearithmeticisindependenthere"
+  },
+  "storage_402": {
+    "exact_failure": "4,194,706 legacyworkingmetadatabytes vs4,194,304 reserve;excess402;pre-sourcereads/prescoring",
+    "existing_forward_snapshot": {
+      "working_bytes": 856401,
+      "working_cap": 2097152,
+      "headroom_at_snapshot": 1240751
+    },
+    "required_integrator_action": "Identifywhichforwardmetadatafilescountedlegacyandbindnewseparatelyversionedattributionwithcurrentcombinedaccounting;keepoldcaps/failures/uniqueevidence. Ifexistingforwardheadroomcoversactualnewmetadata,newallocationmaynotberequired;do nottruncatefilesorarbitrarilyexclude402bytes.",
+    "unrelated_config": "original-leans24,576\u219249,152resultmetadataamendmentisNOTblanketauthorityfor4MiBguard",
+    "remaining": "Exactcurrentmetadata_scope/file/inodeinventoryandownership needed to identifyactualreclassification/staging remedy;newversionedrootallocationonlyifexistingauthorityinsufficient;neverchangeoldcapsorignore402bytes",
+    "guard_code_review": "PASS_INERT_SOURCE_INSPECTION",
+    "guard_mechanism": "HistoricalMarketStorage._metadata_bytes scans frozen working_metadata_scopes glob/recursion, dedupsdev/inode, rejects unaccounted hardlinks/symlinks; _scan charges entire reservedmetadata amount andrefreshesoldpeer; immutableouterdescriptor forbidsin-placepolicyedit",
+    "integrator_limit": "Fourthpeer spare physical/retainedheadroom cannotcureinnerhistoricalmetadatareserveguard byitself",
+    "opened_allocation_SHA256": "f123cd5ffd6f4a204a76c68bf63817cce63cecd7021543a23503d0233cc3eb26",
+    "reviewed_inert_code": [
+      {
+        "file": "abc_a_local_week8_v2.py",
+        "SHA256": "e46db113e927bbefa91a17f0063e9aa3c2a49991c421ea7f203c9b445fe4a489"
+      },
+      {
+        "file": "historical_market_storage_v1.py",
+        "SHA256": "5650f1934b7471c9f414b8bc77a8e096e700851558deebd8ef119a49f2575c09"
+      },
+      {
+        "file": "A-storage-wrapper.py",
+        "SHA256": "35c4bcc71d22ce546278308dbb1eb8cebde4e2212398b2640966ec63004b33b7"
+      }
+    ],
+    "minimal_next_action": "Astorageintegrator performsreadonlyscopedfile/inodeattributionandcurrentcomplete-accounting audit;stageonly demonstrablynewforwardownedworkingcopies outsidefrozenlegacyglobs underalreadyapprovedforwardmetadata allowance ifpermitted, retainingexactrecoverablebytes;otherwiserequestonespecificboundednewdescriptorreserveaftermeasuredinventory"
+  },
+  "limitations": [
+    "No A/B Cprotocolacknowledgementassumed",
+    "No privateartifactrightsoraccessinferredfrompublicindexes",
+    "No historicalW1-W8completionfromsingleweek",
+    "B original415poolandC920core/A344overlapincompatiblepopulations",
+    "No byte-level verificationofunseenprivaterows/labels/quoteclocks",
+    "Gamebootstrapintervalsreproducedbyowneronly,notindependentlyrecomputedherewithoutrows",
+    "CMP/ATTandfantasyrestrictionspreserved"
+  ]
+}

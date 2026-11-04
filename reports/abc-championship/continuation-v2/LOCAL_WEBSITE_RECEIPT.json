@@ -1,0 +1,42 @@
+{
+  "id": "C-PERIOD-WEBSITE-VERIFICATION-v2-1",
+  "verified_UTC": "2026-11-04T00:08:13.241246+00:00",
+  "url": "http://127.0.0.1:8975/",
+  "expected_commit": null,
+  "checks": [
+    {
+      "viewport": [
+        1440,
+        960
+      ],
+      "category_rows": 12,
+      "A_representative_counts": true,
+      "B_original_counts": true,
+      "C_final_not_prop": true,
+      "Chicago_DST_CST_and_UTC": true,
+      "served_commit_text": "Actually served commit: LOCAL_PREPARED_NOT_DEPLOYED \u00b7 protocol ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1 \u00b7 no A/B current common-row acknowledgement received.",
+      "page_errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "category_rows": 12,
+      "A_representative_counts": true,
+      "B_original_counts": true,
+      "C_final_not_prop": true,
+      "Chicago_DST_CST_and_UTC": true,
+      "served_commit_text": "Actually served commit: LOCAL_PREPARED_NOT_DEPLOYED \u00b7 protocol ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1 \u00b7 no A/B current common-row acknowledgement received.",
+      "page_errors": []
+    },
+    {
+      "corrupt_projection": "FAIL_CLOSED_NO_ROWS_OR_SYNTHETIC_DEFAULTS"
+    }
+  ],
+  "verified_system_TLS_transport": false,
+  "native_Chromium_TLS": "Not asserted; managed browser uses verified system TLS transport for public responses",
+  "received_responses": [],
+  "new_NFL_outcomes_or_selections": 0,
+  "scope": "Rendered count parity/status/timezone/integrity only; no predictive improvement or A/B common acknowledgement"
+}

@@ -1,41 +1,85 @@
 [
   {
     "owner": "C",
-    "task": "publishpincontract+matchedlocalreplay",
-    "state": "EXECUTED_C_ONLY_PARTIAL",
-    "artifact": "CURRENT_PROTOCOL.json"
+    "task": "consume actual A/B indexes and execute public aggregate validation/control scoring",
+    "state": "COMPLETED_FOR_NAMED_ARTIFACTS",
+    "artifact": "continuation-v2/RECEIVED_ARTIFACTS.json",
+    "budget": "0fits/0inference;notfullchampionship"
+  },
+  {
+    "owner": "C",
+    "task": "append Monday final outcome grades from original v4 forecasts",
+    "state": "COMPLETED_1532_GRADED_981_UNKNOWN_0_PENDING",
+    "artifact": "continuation-v2/C_OUTCOME_EXPANSION_HANDOFF.json",
+    "next": "No DNP-as-zero; new append-only outcome version if authoritative corrections appear"
   },
   {
     "owner": "A",
-    "task": "exactexports_or_ownerlocalboundoutputs+independentverification",
-    "state": "AWAITING_ACKNOWLEDGEMENT",
-    "artifact": "A:reports/abc-championship/EXPORT_INDEX.json",
-    "budget": "NoCfitsorjobdirection"
+    "task": "current4MiB metadata scope accounting and permissible forward staging",
+    "state": "EXACT402_BYTE_LEGACY_RESERVE_CONFLICT",
+    "artifact": "continuation-v2/A_STORAGE_REMEDY.md",
+    "next": "Inventory current per-file scope/ownership; use existing approved forward allocation only if authority/headroom/transitionpeaks verified, otherwise one exact descriptor request;no guardbypass"
+  },
+  {
+    "owner": "A",
+    "task": "current common protocol pin, recipe/history/mask and owner-local independent verification",
+    "state": "PUBLIC_AGGREGATES_ADMITTED_ONLY;RAW_PARITY_PENDING",
+    "artifact": "continuation-v2/intake/A-EXPORT_INDEX.json",
+    "next": "Use existing C bound manifest/scorer; no private row publication required; A original14game final regrade still own blocker"
+  },
+  {
+    "owner": "A",
+    "task": "new A/C final overlap version",
+    "state": "C_EXPANDED_CSV_READY;A_LABELS_PRIVATEBOARD_ACCOUNTING_REQUIRED",
+    "artifact": "continuation-v2/C_OUTCOME_EXPANSION_HANDOFF.json",
+    "next": "Read newCSV exacthash and qualified A labels; rerun joins/scoring only;preserve344casev1;do not assume+91matches"
   },
   {
     "owner": "B",
-    "task": "exactexports+commonmaskindependentverification",
-    "state": "AWAITING_ACKNOWLEDGEMENT",
-    "artifact": "B:reports/abc-championship/EXPORT_INDEX.json",
-    "budget": "NoCfitsorjobdirection"
+    "task": "current common protocol pin, membership definition and independent owner-local verification",
+    "state": "PUBLIC_AGGREGATES_ADMITTED_ONLY;RAW_PARITY_PENDING",
+    "artifact": "continuation-v2/B_OWNER_LOCAL_SCORES.json.gz",
+    "next": "Explainquery_membership hash inclusion and return sameboundopportunity pairs; count/horizon equality alone notproof"
+  },
+  {
+    "owner": "B",
+    "task": "W5-W7 point diagnostic week partition",
+    "state": "RETAINED_CUMULATIVE63TRIADS;WEEK_PARTITION_MISSING",
+    "artifact": "reports/point-prop-diagnostic-20261031i/point-offer/v1/SCORES.json",
+    "next": "Export permitted week aggregates from saved source rows;0fits required"
+  },
+  {
+    "owner": "B",
+    "task": "736 older exact D1/D2 outputs under frozen temporal executor",
+    "state": "FIT_REQUIRED_NOT_COMPLETED_BY_BASE_LEAF",
+    "artifact": "reports/point-prop-diagnostic-20261031i/historical-startup/v1/OLDER_D1_D2_EXACT_CELL_GRID.json",
+    "next": "Bind each cell season/history/contract and necessary earlier-source/output retention to owner finite executor; no current model on old training years; actual offer scoring additionally needs qualified historicallines",
+    "specific_dependencies": {
+      "current_delta": "V2-PRIVATE-RECOVERY-DELTA-20261030D-0001",
+      "SHA256": "3ac59cf6888faae55ded308042c05f00bbdf474d3c10b35974dc801d60a1175f",
+      "status": "RESTORED_NOT_ADMITTED_CURRENT_D1D2;not736missingolderfits",
+      "global_recovery": "38otherparts/796917760B;doesnotblockpublicsavedrowaggregates",
+      "exact2022RECENT": "Separatelyqualified2021sourceextensionandchartprimitives"
+    }
   },
   {
     "owner": "C",
-    "task": "Mondaypostfinalnumericalpacket",
-    "state": "STATUS_FINAL_VERIFIED;PLAYER_ACTUAL_PACKET_REQUIRED",
-    "artifact": "WEEK8_STATUS_REFRESH.json",
-    "next": "newimmutablequalifiedplayerfacts/outcomegradeversion;oldpendingstatushistoricalonly"
+    "task": "all12 source-by-week actual-offer coverage and historicalline qualification",
+    "state": "PARTIAL_SOURCE_SPECIFIC",
+    "artifact": "continuation-v2/WEEK_BY_WEEK_GAPS.csv.gz",
+    "next": "Use permitted existingA/Bsource inventories and owner-local routes first; no synthetic substitutions; olderactual-line source notestablished by numericalgrid"
   },
   {
     "owner": "C",
-    "task": "independentweeks/categoriesofferqualification",
-    "state": "SOURCE_SPECIFIC_GAPS",
-    "next": "permittedadditionalactualofferperiods;legacyholdsunchanged"
+    "task": "future fresh-offer primary/shadow capture",
+    "state": "MANUAL_PATH_IMPLEMENTED;NO_NEW_SOURCE_QUALIFIED_THIS_PACKAGE",
+    "artifact": "protocol/PROSPECTIVE_V4.json",
+    "next": "One permitted current exactplayer/event/line/offeredside snapshot with observation/retention evidence before cutoff; prices notrequired for individual direction;CMPATTblocks remain;no expiredlines relabelled current"
   },
   {
     "owner": "C",
-    "task": "incomingexportadapters/fullrostercompletion",
-    "state": "PARTIAL",
-    "next": "realA/Bschemaandrightsreadbackbeforegenericadmission;do notrebuildtheirfits"
+    "task": "new component/model/historical fits",
+    "state": "SEPARATE_FINITE_PACKAGE_WHEN_NECESSARY_INPUTS_RETENTION_QUALIFY",
+    "next": "PriorfailedNGS/sigmoid/workloadunchanged; earlier-role/opportunity deficiency is hypothesis notproven cause; no duplicatingA/Bfits"
   }
 ]
