@@ -1,38 +1,46 @@
 {
-  "version": "ABC-C-ADMISSIONS-v2-continuation-1",
+  "version": "ABC-C-ADMISSIONS-v3-1",
   "previous": {
-    "path": "reports/abc-championship/continuation-v2/PREVIOUS_ADMISSION_LEDGER.json",
-    "SHA256": "a9dbb95e4736a0c534e76f903cff564060a540cbd4bc19277cd740eca85cba23"
+    "path": "reports/abc-championship/shared-intake-v3/PREVIOUS_ADMISSION_LEDGER.json",
+    "SHA256": "3b40290841143c0bfcb0c21a8cbf69af0c10ac27d2620eed957c6fb8df5e6909"
   },
   "C": "Existing raw-row-verified W2-W3 pilot unchanged; new Monday forecast-only packet verified separately",
   "A": {
-    "state": "RECEIVED_VALIDATED_LIMITED_ADMISSION",
-    "index_ref": "2be1accfe383d8508095b8a23332bed05b79afd3",
+    "state": "ADMITTED_OWNER_LOCAL_DIAGNOSTIC_DECIDED_COUNTS_AND_VERIFIED_C_MASKS",
+    "index_ref": "21ca035c0e7a3caf5aae10353a59a09572483e76",
     "index": {
-      "path": "reports/abc-championship/continuation-v2/intake/A-EXPORT_INDEX.json",
-      "SHA256": "5b95abcd8a36ff8755ab43929795d4bf336c21c3cda46ba40b0a71b9149cfeb0"
+      "path": "reports/abc-championship/shared-intake-v3/intake/A-EXPORT_INDEX.json.gz",
+      "SHA256": "837b9ee74ccd536d7862bf7a6578726abb637c13510fa33a5f6b95facbfec080"
     },
-    "admitted": "Public owner-local arithmetic:79 W1-W7 complete point products/553 weekly views;60 A/C W8 views+40 reported paired contrasts",
+    "admitted": "87Cboardviews/203verifiedpairs;1092historicalviews;446W8views;priorA1-7panelsremainseparate",
     "not_admitted": "Private rows/models; source quote/timing/history/commonmask parity not independently recovered",
-    "next": "A pins actual C current protocol and exact bound scorer/manifest; returns permitted owner-local verification with precise history/input/mask bindings; updates344-case overlap as new version after accounting remedy"
+    "next": "Append classification correction and exact337receiving side partitions; source-specific W6-W7 boards/origin artifacts remain",
+    "classification_hold": {
+      "path": "reports/abc-championship/shared-intake-v3/A_STATE_CLASSIFICATION_HOLD.json",
+      "SHA256": "e3ea474478bfbb8e0a4d8968419c56c66c756ed0cdae074453b8800178d0f744"
+    }
   },
   "B": {
-    "state": "RECEIVED_VALIDATED_LIMITED_ADMISSION",
-    "index_ref": "7c0690bfb564db5481cc27a00a45e7f4311b1f70",
+    "state": "ADMITTED_OWNER_LOCAL_SAME_OFFER_DIAGNOSTIC_WITH_PUBLIC_MASK_VERIFICATION",
+    "index_ref": "de34e9625a6e504cef373b3fed77446d62b0bf29",
     "index": {
-      "path": "reports/abc-championship/continuation-v2/intake/B-EXPORT_INDEX.json",
-      "SHA256": "19b9cc3155a42c1c16cbd90641a8f38875e2cc9cd384ca15bb094e6893ea9235"
+      "path": "reports/abc-championship/shared-intake-v3/intake/B-EXPORT_INDEX.json.gz",
+      "SHA256": "e9aaa9e24dc0b2207ea9a90956f32c9b8c820b06f49b5e001fde24abd0b5f779"
     },
-    "admitted": "1691 public complete side triads: W8 1468;W6 80;W7 80;W5-W7 cumulative63; original205/415vs224/415controlrecomputed",
+    "admitted": "684Cboardtriads+219source-specificweeklytriads;Ccontrolsrecomputed;privatecandidatevaluesownerlocal",
     "not_admitted": "Raw private line/forecast/participation joins, common masks, transfer or global recovery waiver",
-    "next": "B binds membership hash semantics to C opportunity manifest and independently checks current common contract; partitions retainedW5-W7weeks without refitting"
+    "next": "111RBmaskowner-localcounts;remaininghistoricalsource/origin/recoverytasks;no forcedprivateexport"
   },
   "artifact_dispositions": {
     "path": "reports/abc-championship/continuation-v2/RECEIVED_ARTIFACTS.json",
     "SHA256": "cf8d59a3136d720e9859f44566801467af33024a625896319edd48077675366d"
   },
   "adoption": "A/B summary documents semantically agree; hashes belong to different documents; NOT byte-identical executable pin acknowledgement",
-  "common_A_B_acknowledgements": "AWAITING_ACTUAL_OWNER_RETURN;C_INTERNAL_AGENTS_ARE_NOT_A_OR_B",
+  "common_A_B_acknowledgements": "RECEIVED_A21ca035c_Bde34e962;PINNED_EXECUTABLE_C1_AND_REPRESENTATIVE_INDEPENDENT_ARITHMETIC",
   "obsolete_404": "Historical superseded by ac9cb1000bcb8f1197505b68ccfe246ea61bbafe publication",
-  "comparison_state": "MULTIPLE_SOURCE_PANELS_PARTIAL_E1;NO_RAW_THREE_WAY_PARITY_OR_UNIVERSAL_RANKING"
+  "comparison_state": "THREE_SAME_OFFER_DIAGNOSTIC_PANELS;TEMPORAL/PRIVATE_INFERENCE_LIMITS;PARTIAL_E1_AND_A2024",
+  "source_receipts": {
+    "path": "reports/abc-championship/shared-intake-v3/ARTIFACT_RECEIPTS.json",
+    "SHA256": "34b0bc559607d6c0ad3b87be4088aa25bc3680dc85c69baa30898d6ac287c784"
+  }
 }

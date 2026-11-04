@@ -1,0 +1,635 @@
+[
+  {
+    "category": "pass_yd",
+    "procedure_id": "C::ALWAYS_OVER",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "panel": "C Pinnacle exact public mask bc1ff922d2bd426007a5f35ea9c22f2ebd3bbbf3aa40de97334128b8d1eb60f1",
+    "mask_id": "bc1ff922d2bd426007a5f35ea9c22f2ebd3bbbf3aa40de97334128b8d1eb60f1",
+    "OVER": {
+      "selected": 63,
+      "wins": 38,
+      "losses": 25,
+      "decided": 63,
+      "rate": 0.6031746031746031
+    },
+    "UNDER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "COMBINED": {
+      "selected": 63,
+      "wins": 38,
+      "losses": 25,
+      "decided": 63,
+      "rate": 0.6031746031746031
+    },
+    "eligible": 64,
+    "selected": 64,
+    "unavailable": 0,
+    "games": 32,
+    "ties": [
+      "C::ALWAYS_OVER"
+    ],
+    "scope": "Same-offer owner-local diagnostic;notcross-sessiontemporalparity;two exposedweeks",
+    "full_system": {
+      "category": "pass_yd",
+      "procedure_id": "C::ALWAYS_OVER-v6 diagnostic::ALWAYS_OVER::ALWAYS_OVER-strict-v6",
+      "local_alias": "ALWAYS_OVER",
+      "period_id": "E1",
+      "actual_weeks": [
+        2,
+        3
+      ],
+      "requested_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "week_view": "ALL",
+      "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+      "scope": "C_ONLY_PARTIAL_NOT_ABC",
+      "OVER": {
+        "selected": 64,
+        "wins": 38,
+        "losses": 25,
+        "decided": 63,
+        "rate": 0.6031746031746031
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 64,
+        "wins": 38,
+        "losses": 25,
+        "decided": 63,
+        "rate": 0.6031746031746031
+      },
+      "eligible": 64,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 25,
+        "WIN": 38,
+        "UNKNOWN_PARTICIPATION": 1
+      },
+      "games": 32,
+      "player_games": 64,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47980918511657444,
+        "high": 0.7146808848095354,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0
+    },
+    "paired_decided": 63,
+    "coverage_note": "Full-system selected count separate from matched decided mask; outside-mask known rows not silently unresolved"
+  },
+  {
+    "category": "pass_td",
+    "procedure_id": "A::CAPTURED_SELECTED_369fec9caec0",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 16,
+      "wins": 9,
+      "losses": 7,
+      "decided": 16,
+      "rate": 0.5625
+    },
+    "UNDER": {
+      "selected": 12,
+      "wins": 7,
+      "losses": 5,
+      "decided": 12,
+      "rate": 0.5833333333333334
+    },
+    "COMBINED": {
+      "selected": 28,
+      "wins": 16,
+      "losses": 12,
+      "decided": 28,
+      "rate": 0.5714285714285714
+    },
+    "eligible": 28,
+    "selected": 28,
+    "unavailable": 0,
+    "games": 14,
+    "states": {
+      "WIN": 16,
+      "LOSS": 12
+    },
+    "ties": [
+      "A::CAPTURED_SELECTED_369fec9caec0"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "pass_cmp",
+    "procedure_id": "A::CONTROL_ALWAYS_UNDER",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 28,
+      "wins": 15,
+      "losses": 13,
+      "decided": 28,
+      "rate": 0.5357142857142857
+    },
+    "COMBINED": {
+      "selected": 28,
+      "wins": 15,
+      "losses": 13,
+      "decided": 28,
+      "rate": 0.5357142857142857
+    },
+    "eligible": 28,
+    "selected": 28,
+    "unavailable": 0,
+    "games": 14,
+    "states": {
+      "WIN": 15,
+      "LOSS": 13
+    },
+    "ties": [
+      "A::CONTROL_ALWAYS_UNDER"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "pass_att",
+    "procedure_id": "A::CONTROL_ALWAYS_UNDER",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 28,
+      "wins": 16,
+      "losses": 12,
+      "decided": 28,
+      "rate": 0.5714285714285714
+    },
+    "COMBINED": {
+      "selected": 28,
+      "wins": 16,
+      "losses": 12,
+      "decided": 28,
+      "rate": 0.5714285714285714
+    },
+    "eligible": 28,
+    "selected": 28,
+    "unavailable": 0,
+    "games": 14,
+    "states": {
+      "WIN": 16,
+      "LOSS": 12
+    },
+    "ties": [
+      "A::CONTROL_ALWAYS_UNDER"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "pass_int",
+    "procedure_id": "A::CAPTURED_SELECTED_369fec9caec0",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 22,
+      "wins": 13,
+      "losses": 9,
+      "decided": 22,
+      "rate": 0.5909090909090909
+    },
+    "UNDER": {
+      "selected": 2,
+      "wins": 1,
+      "losses": 1,
+      "decided": 2,
+      "rate": 0.5
+    },
+    "COMBINED": {
+      "selected": 24,
+      "wins": 14,
+      "losses": 10,
+      "decided": 24,
+      "rate": 0.5833333333333334
+    },
+    "eligible": 24,
+    "selected": 24,
+    "unavailable": 0,
+    "games": 12,
+    "states": {
+      "WIN": 14,
+      "LOSS": 10
+    },
+    "ties": [
+      "A::CAPTURED_SELECTED_369fec9caec0",
+      "A::CONTROL_ALWAYS_OVER"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "rush_yd",
+    "procedure_id": "C::P3_DIRECT",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "panel": "C Pinnacle exact public mask c4fd1fb5f9b53252659bba801521dc423c5dcf75ed15b67fe64ca3767a4ae6cf",
+    "mask_id": "c4fd1fb5f9b53252659bba801521dc423c5dcf75ed15b67fe64ca3767a4ae6cf",
+    "OVER": {
+      "selected": 15,
+      "wins": 10,
+      "losses": 5,
+      "decided": 15,
+      "rate": 0.6666666666666666
+    },
+    "UNDER": {
+      "selected": 159,
+      "wins": 91,
+      "losses": 68,
+      "decided": 159,
+      "rate": 0.5723270440251572
+    },
+    "COMBINED": {
+      "selected": 174,
+      "wins": 101,
+      "losses": 73,
+      "decided": 174,
+      "rate": 0.5804597701149425
+    },
+    "eligible": 181,
+    "selected": 177,
+    "unavailable": 4,
+    "games": 32,
+    "ties": [
+      "C::P3_DIRECT",
+      "C::EARLIER_PREVALENCE_V8"
+    ],
+    "scope": "Same-offer owner-local diagnostic;notcross-sessiontemporalparity;two exposedweeks",
+    "full_system": {
+      "category": "rush_yd",
+      "procedure_id": "C::C-ALL12-LAW-THRESHOLD-v2.1/P3_HGB/H-MULTI/E0_OP/P3_DIRECT::P3_DIRECT::P3_DIRECT-strict-v6",
+      "local_alias": "P3_DIRECT",
+      "period_id": "E1",
+      "actual_weeks": [
+        2,
+        3
+      ],
+      "requested_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "week_view": "ALL",
+      "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+      "scope": "C_ONLY_PARTIAL_NOT_ABC",
+      "OVER": {
+        "selected": 15,
+        "wins": 10,
+        "losses": 5,
+        "decided": 15,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "selected": 162,
+        "wins": 94,
+        "losses": 68,
+        "decided": 162,
+        "rate": 0.5802469135802469
+      },
+      "COMBINED": {
+        "selected": 177,
+        "wins": 104,
+        "losses": 73,
+        "decided": 177,
+        "rate": 0.5875706214689266
+      },
+      "eligible": 181,
+      "unavailable": 4,
+      "abstentions": 0,
+      "states": {
+        "WIN": 104,
+        "LOSS": 73,
+        "UNAVAILABLE_FORECAST": 4
+      },
+      "games": 32,
+      "player_games": 181,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5139392946718131,
+        "high": 0.6574815742050344,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 0.9779005524861878
+    },
+    "paired_decided": 174,
+    "coverage_note": "Full-system selected count separate from matched decided mask; outside-mask known rows not silently unresolved"
+  },
+  {
+    "category": "rush_att",
+    "procedure_id": "A::CONTROL_ALWAYS_OVER",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 29,
+      "wins": 17,
+      "losses": 11,
+      "decided": 28,
+      "rate": 0.6071428571428571
+    },
+    "UNDER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "COMBINED": {
+      "selected": 29,
+      "wins": 17,
+      "losses": 11,
+      "decided": 28,
+      "rate": 0.6071428571428571
+    },
+    "eligible": 29,
+    "selected": 29,
+    "unavailable": 0,
+    "games": 13,
+    "states": {
+      "LOSS": 11,
+      "WIN": 17,
+      "UNKNOWN_PARTICIPATION": 1
+    },
+    "ties": [
+      "A::CONTROL_ALWAYS_OVER"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "rec",
+    "procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory::H-CURRENT-COMMON::lower_median",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "panel": "C Pinnacle exact public mask 4f0fb7b7383857a540a025940364c22c94b65395cd866b67f19fa293e27a07ef",
+    "mask_id": "4f0fb7b7383857a540a025940364c22c94b65395cd866b67f19fa293e27a07ef",
+    "OVER": {
+      "selected": 54,
+      "wins": 33,
+      "losses": 20,
+      "decided": 53,
+      "rate": 0.6226415094339622,
+      "states": {
+        "WIN": 33,
+        "LOSS": 20,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 1,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "UNDER": {
+      "selected": 286,
+      "wins": 161,
+      "losses": 123,
+      "decided": 284,
+      "rate": 0.5669014084507042,
+      "states": {
+        "WIN": 161,
+        "LOSS": 123,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 2,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "COMBINED": {
+      "selected": 340,
+      "wins": 194,
+      "losses": 143,
+      "decided": 337,
+      "rate": 0.5756676557863502,
+      "states": {
+        "WIN": 194,
+        "LOSS": 143,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 3,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "eligible": 362,
+    "selected": 340,
+    "unavailable": 22,
+    "games": 32,
+    "ties": [
+      "B::v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory::H-CURRENT-COMMON::lower_median",
+      "C::P3_DIRECT"
+    ],
+    "scope": "Same-offer owner-local diagnostic;notcross-sessiontemporalparity;two exposedweeks"
+  },
+  {
+    "category": "rec_yd",
+    "procedure_id": "B::v2-c02-explicit-lag-block-removal-leaf-cdf-v1:common-feature-memory::H-CURRENT-COMMON::mean",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "panel": "C Pinnacle exact public mask 2a2e3a97c1a04ea07027333f33dbca3a3eb262651bad153249eb558db40cea32",
+    "mask_id": "2a2e3a97c1a04ea07027333f33dbca3a3eb262651bad153249eb558db40cea32",
+    "OVER": {
+      "selected": 99,
+      "wins": 57,
+      "losses": 40,
+      "decided": 97,
+      "rate": 0.5876288659793815,
+      "states": {
+        "WIN": 57,
+        "LOSS": 40,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 2,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "UNDER": {
+      "selected": 241,
+      "wins": 131,
+      "losses": 109,
+      "decided": 240,
+      "rate": 0.5458333333333333,
+      "states": {
+        "WIN": 131,
+        "LOSS": 109,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 1,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "COMBINED": {
+      "selected": 340,
+      "wins": 188,
+      "losses": 149,
+      "decided": 337,
+      "rate": 0.5578635014836796,
+      "states": {
+        "WIN": 188,
+        "LOSS": 149,
+        "PUSH": 0,
+        "UNKNOWN_PARTICIPATION": 3,
+        "MISSING_ACTUAL": 0,
+        "PENDING": 0,
+        "VOID": 0,
+        "UNRESOLVED_CONTRACT": 0
+      }
+    },
+    "eligible": 361,
+    "selected": 340,
+    "unavailable": 21,
+    "games": 32,
+    "ties": [
+      "B::v2-c02-explicit-lag-block-removal-leaf-cdf-v1:common-feature-memory::H-CURRENT-COMMON::mean"
+    ],
+    "scope": "Same-offer owner-local diagnostic;notcross-sessiontemporalparity;two exposedweeks"
+  },
+  {
+    "category": "rush_rec_yd",
+    "procedure_id": "A::CONTROL_ALWAYS_UNDER",
+    "actual_weeks": [
+      8
+    ],
+    "panel": "A original source full matched board POINT REPLAY;notoriginalissuedselection",
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 28,
+      "wins": 16,
+      "losses": 11,
+      "decided": 27,
+      "rate": 0.5925925925925926
+    },
+    "COMBINED": {
+      "selected": 28,
+      "wins": 16,
+      "losses": 11,
+      "decided": 27,
+      "rate": 0.5925925925925926
+    },
+    "eligible": 28,
+    "selected": 28,
+    "unavailable": 0,
+    "games": 13,
+    "states": {
+      "WIN": 16,
+      "LOSS": 11,
+      "UNKNOWN_PARTICIPATION": 1
+    },
+    "ties": [
+      "A::CONTROL_ALWAYS_UNDER"
+    ],
+    "scope": "A-only W8 snapshot/contract;notC Pinnacleboardorcommon8weeks"
+  },
+  {
+    "category": "anytime_td",
+    "procedure_id": null,
+    "actual_weeks": [],
+    "panel": "No qualified same-contract offer panel",
+    "OVER": null,
+    "UNDER": null,
+    "COMBINED": null,
+    "eligible": null,
+    "selected": null,
+    "unavailable": null,
+    "games": null,
+    "ties": [],
+    "scope": "NOT_ESTABLISHED"
+  },
+  {
+    "category": "fpts",
+    "procedure_id": null,
+    "actual_weeks": [],
+    "panel": "No qualified same-contract offer panel",
+    "OVER": null,
+    "UNDER": null,
+    "COMBINED": null,
+    "eligible": null,
+    "selected": null,
+    "unavailable": null,
+    "games": null,
+    "ties": [],
+    "scope": "NOT_ESTABLISHED"
+  }
+]

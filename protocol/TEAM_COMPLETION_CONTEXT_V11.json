@@ -1,0 +1,54 @@
+{
+  "id": "C-TEAM-COMPLETION-CONTEXT-v11-1",
+  "assignment": "ABC-PREDICTIVE-IMPROVEMENT-01",
+  "registered_UTC": "2026-11-04T20:05:17.846908+00:00",
+  "category": "rec",
+  "execution_order": "Onlyafteroriginaltargetsharecomparisoncomplete;extensionregisteredbeforeanytargetsharescores",
+  "reason": "Source-qualified ordinarycompletionquality may add conversioncontextbeyondtargets;hypothesisnotidentifiedcauseoflosses",
+  "different_from": "NotNGSdepth/separation,attempt-binworkload,allocation simulator,orprobabilityrepair. Teamcompletionsare newoutcomesnotin32E0_OPbase; noCP2.0model-derivedfield.",
+  "source_same_as": "protocol/RECEIVING_TARGETSHARE_V10.json",
+  "units": "Officialfullgameplayercompletions/attemptsaggregatedacrossallteamreportedpassers. 2ptconversionsseparate;no sacks inattemptdenominator;notcurrentstartingQBforecast.",
+  "field_qualification": "Requireallreportingrowcountsnonnullfiniteinteger0<=completions<=attempts;nativegame/teamIDs;missingnotzero;sourcehas79904rows,0missingcountfields,0comp>att beforeperformance",
+  "arms": {
+    "C0": "StrongretainedP3_HGB/E0_OP/H-MULTI;reuse2026safeJSONmodelsfromREFERENCE_BANK;necessarynew2025originfitsonly",
+    "C1": "SamelearnerC0pluseligibleteamgamecount8,attemptsupport8,age_latest,quality_missing",
+    "C2": "C1plus(50*earlierleaguecompletionrate+last8teamcompletions)/(50+last8teamattempts)"
+  },
+  "prior": "Leaguecompletionrate usesonlyteamgameseligiblebeforeeachhistoricalexamplekickoff;50hasattemptunits; no fulltraining/endseasonprior leakage;undefinedprior/denominator=>missing",
+  "opportunity": "Identicalunchangedplayer/teammattempt/targethistoryinputs acrossarms;no actual targetgame workload;directinformationablationnotconditional simulator",
+  "history": "Same2022expandingweeklyupdate,7dayavailability andtraining-onlyimputation ascontrol;no currentrosters forpastgames",
+  "origins": [
+    {
+      "season": 2025,
+      "week": 9
+    },
+    {
+      "season": 2025,
+      "week": 13
+    },
+    {
+      "season": 2026,
+      "week": 2
+    },
+    {
+      "season": 2026,
+      "week": 3
+    }
+  ],
+  "budget": {
+    "maximum_new_fits": 10,
+    "retained_2026_C0_models_reused": 2,
+    "CPU_seconds": 240,
+    "wall_seconds": 480,
+    "RSS_bytes": 805306368,
+    "new_public_bytes": 1048576,
+    "workers": 1,
+    "threads": 1,
+    "hyperparameter_searches": 0,
+    "calibrators": 0
+  },
+  "evaluation": "Samefullquerymembershipandactualofferlines acrossarms;C2-C1,C2-C0;retainunknowns/fallbacks;2025noactualoffers=>diagnostic only;allperiodsexposedresearch",
+  "practical_change": "Samepredeclared1ppdirection/0.005Brierreviewthresholdasv10;notpromotionorproof",
+  "retention": "Safe numeric HGB trees/features/memberIDs/probabilities/sourcehashes inC;freshGitHubrestoration;no unsafeartifactexecution",
+  "state": "REGISTERED_NOT_YET_FIT"
+}
