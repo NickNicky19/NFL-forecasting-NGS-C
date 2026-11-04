@@ -1,0 +1,149 @@
+{
+  "id": "C-PERIOD-WEBSITE-VERIFICATION-v2-1",
+  "verified_UTC": "2026-11-04T00:17:48.154418+00:00",
+  "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "expected_commit": "5a62b4af8344428947bf3247a8b9eff7c2b0f5f1",
+  "checks": [
+    {
+      "viewport": [
+        1440,
+        960
+      ],
+      "category_rows": 12,
+      "A_representative_counts": true,
+      "B_original_counts": true,
+      "C_final_not_prop": true,
+      "Chicago_DST_CST_and_UTC": true,
+      "served_commit_text": "Actually served commit: 5a62b4af8344428947bf3247a8b9eff7c2b0f5f1 \u00b7 protocol ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1 \u00b7 no A/B current common-row acknowledgement received.",
+      "page_errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "category_rows": 12,
+      "A_representative_counts": true,
+      "B_original_counts": true,
+      "C_final_not_prop": true,
+      "Chicago_DST_CST_and_UTC": true,
+      "served_commit_text": "Actually served commit: 5a62b4af8344428947bf3247a8b9eff7c2b0f5f1 \u00b7 protocol ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1 \u00b7 no A/B current common-row acknowledgement received.",
+      "page_errors": []
+    },
+    {
+      "corrupt_projection": "FAIL_CLOSED_NO_ROWS_OR_SYNTHETIC_DEFAULTS"
+    },
+    {
+      "exact_asset_parity": [
+        "championship.html",
+        "championship.js",
+        "style.css",
+        "data/championship-period-v2.json"
+      ]
+    }
+  ],
+  "verified_system_TLS_transport": true,
+  "native_Chromium_TLS": "Not asserted; managed browser uses verified system TLS transport for public responses",
+  "received_responses": [
+    {
+      "path": "championship.html",
+      "status": 200,
+      "bytes": 2512,
+      "SHA256": "29d921a309d890e60b59cac792eb21d26247942e60bdc2416ca6eff606be3821",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10981,
+      "SHA256": "97b7dc7515ff157ff735fecae7ed37c31b39cc5d48181525cd95b2269d7c356a",
+      "TLS_verified": true
+    },
+    {
+      "path": "championship.js",
+      "status": 200,
+      "bytes": 6183,
+      "SHA256": "611a782e3dbbfee76989bd187bbda3f2c121110640555fbc27776670a2f49dee",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1661,
+      "SHA256": "f63a6e97927bb9b0d11186d0a6af950a72cefe08d83b9327166e58aded5e9290",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/championship-period-v2.json",
+      "status": 200,
+      "bytes": 55164,
+      "SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+      "TLS_verified": true
+    },
+    {
+      "path": "championship.html",
+      "status": 200,
+      "bytes": 2512,
+      "SHA256": "29d921a309d890e60b59cac792eb21d26247942e60bdc2416ca6eff606be3821",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10981,
+      "SHA256": "97b7dc7515ff157ff735fecae7ed37c31b39cc5d48181525cd95b2269d7c356a",
+      "TLS_verified": true
+    },
+    {
+      "path": "championship.js",
+      "status": 200,
+      "bytes": 6183,
+      "SHA256": "611a782e3dbbfee76989bd187bbda3f2c121110640555fbc27776670a2f49dee",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1661,
+      "SHA256": "f63a6e97927bb9b0d11186d0a6af950a72cefe08d83b9327166e58aded5e9290",
+      "TLS_verified": true
+    },
+    {
+      "path": "data/championship-period-v2.json",
+      "status": 200,
+      "bytes": 55164,
+      "SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+      "TLS_verified": true
+    },
+    {
+      "path": "championship.html",
+      "status": 200,
+      "bytes": 2512,
+      "SHA256": "29d921a309d890e60b59cac792eb21d26247942e60bdc2416ca6eff606be3821",
+      "TLS_verified": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 10981,
+      "SHA256": "97b7dc7515ff157ff735fecae7ed37c31b39cc5d48181525cd95b2269d7c356a",
+      "TLS_verified": true
+    },
+    {
+      "path": "championship.js",
+      "status": 200,
+      "bytes": 6183,
+      "SHA256": "611a782e3dbbfee76989bd187bbda3f2c121110640555fbc27776670a2f49dee",
+      "TLS_verified": true
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1661,
+      "SHA256": "f63a6e97927bb9b0d11186d0a6af950a72cefe08d83b9327166e58aded5e9290",
+      "TLS_verified": true
+    }
+  ],
+  "new_NFL_outcomes_or_selections": 0,
+  "scope": "Rendered count parity/status/timezone/integrity only; no predictive improvement or A/B common acknowledgement"
+}

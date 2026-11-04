@@ -1,0 +1,7 @@
+# Publication receipt — period continuation
+
+PR #21 merged at `5a62b4af8344428947bf3247a8b9eff7c2b0f5f1`; checked head `86ab9c218a2b57e047db5597b8280d207e3a6cc7`. Run41745383212 checked and deployed successfully. The [comparison page](https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html) was then independently rendered on desktop/mobile through verified system TLS. Exact served HTML/JS/CSS/data hashes and commit matched; timezone, count parity and corruption rejection passed. [Machine receipt](PUBLICATION_RECEIPT.json) / [rendered evidence](PUBLIC_WEBSITE_RECEIPT.json).
+
+[Fresh GitHub restoration](GITHUB_RESTORATION_RECEIPT.json) read11 immutable files and reproduced the named score arithmetic. Original forecasts were not refit/reissued. The bounded current [PropLine version check](SOURCE_EXTENSION_DISPOSITION.json) remained at `f37857bfdc67ac4e3ecb2851eb274aee7601057d`; no additional weeks/categories/lines were downloaded or qualified. This metadata projection is not an authentic historical quote capture. Existing source/rights holds remain.
+
+Prepared, merged, deployed and served-verified now apply to this comparison publication. A/B raw common parity, complete requested-period evidence, new paper selections and scientific promotion remain separate/incomplete. The old website asset remains the checked manual rollback target; no rollback was executed. No original-site changes, external messages, scheduler, paid acquisition or wager.
