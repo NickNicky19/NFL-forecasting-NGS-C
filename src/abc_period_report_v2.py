@@ -74,7 +74,7 @@ def build():
     write('HEADLINE_A_W1_W7.json', headline)
     fields = ['category','procedure_id','method','product','eligible','selected','decided','wins','losses','OVER','UNDER','COMBINED','games','best_constant_wins','difference_wins']
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fields)
+    writer = csv.DictWriter(buf, fields, lineterminator="\n")
     writer.writeheader()
     for x in headline:
         if not x['COMBINED']:
