@@ -1,0 +1,49 @@
+{
+  "id": "C-CANDIDATE-ROSTER-C01-v1",
+  "parent_championship_roster_unchanged": true,
+  "arms": [
+    {
+      "procedure_id": "C::C-RECEIVING-TARGETSHARE-STATE-v10-1::S0",
+      "arm": "S0",
+      "product": "DIRECT_EXACT_THRESHOLD_PROBABILITIES",
+      "history": "H-MULTI expanding2022;7daycurrent/revisedreconstruction",
+      "policy": "LargercompatibleOverUnderprobability;tiesABSTAIN;identityholdunavailable",
+      "state": "EXECUTED_NO_VALUE_GAIN_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::C-RECEIVING-TARGETSHARE-STATE-v10-1::S1",
+      "arm": "S1",
+      "product": "DIRECT_EXACT_THRESHOLD_PROBABILITIES",
+      "history": "H-MULTI expanding2022;7daycurrent/revisedreconstruction",
+      "policy": "LargercompatibleOverUnderprobability;tiesABSTAIN;identityholdunavailable",
+      "state": "EXECUTED_NO_VALUE_GAIN_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::C-TEAM-COMPLETION-CONTEXT-v11-1::C0",
+      "arm": "C0",
+      "product": "DIRECT_EXACT_THRESHOLD_PROBABILITIES",
+      "history": "H-MULTI expanding2022;7daycurrent/revisedreconstruction",
+      "policy": "LargercompatibleOverUnderprobability;tiesABSTAIN;identityholdunavailable",
+      "state": "EXECUTED_NO_VALUE_GAIN_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::C-TEAM-COMPLETION-CONTEXT-v11-1::C1",
+      "arm": "C1",
+      "product": "DIRECT_EXACT_THRESHOLD_PROBABILITIES",
+      "history": "H-MULTI expanding2022;7daycurrent/revisedreconstruction",
+      "policy": "LargercompatibleOverUnderprobability;tiesABSTAIN;identityholdunavailable",
+      "state": "EXECUTED_NO_VALUE_GAIN_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::C-TEAM-COMPLETION-CONTEXT-v11-1::C2",
+      "arm": "C2",
+      "product": "DIRECT_EXACT_THRESHOLD_PROBABILITIES",
+      "history": "H-MULTI expanding2022;7daycurrent/revisedreconstruction",
+      "policy": "LargercompatibleOverUnderprobability;tiesABSTAIN;identityholdunavailable",
+      "state": "EXECUTED_NO_VALUE_GAIN_NOT_PROMOTED"
+    }
+  ],
+  "ninety_percent": "TARGET_NOT_ESTABLISHED",
+  "learner_families": 1,
+  "feature_arms": 5
+}

@@ -60,11 +60,11 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "SHA256": "4937071c15e6ba9dbefc0914efec72982c1e2f618484967edc82fae1c77f890e"
+    "SHA256": "396767ed309695dcba56afa8dc9f3efc0da2ea88408bd47bd586b01a1859c078"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "28130b04a0160ed2d6fab366241b7f4f7b60588bd654181e68c22728c0b71b19"
+    "SHA256": "a97f1a3d6ba5c730dac931ae195281d5e6fb37c432716c93eafae8a47072b7eb"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -215,7 +215,7 @@
     },
     "report": {
       "path": "reports/abc-championship/shared-intake-v3/README.md",
-      "SHA256": "07ac6ee0b91086cd5b290d779f86fd81e4b4aa9645028d89f8c335c025a2e4a0"
+      "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
     },
     "source_receipts": {
       "path": "reports/abc-championship/shared-intake-v3/ARTIFACT_RECEIPTS.json",
@@ -290,7 +290,11 @@
       }
     ],
     "source_coverage_mapping": "PriorC-onlySOURCE_COVERAGEishistorical;continuation-v2weekgridandnewsourceartifacts/periodsareexplicitextensions,not assumedall8weeks",
-    "temporal_parity": "NOT_ESTABLISHED_ACROSS_A_B_C;diagnosticonly"
+    "temporal_parity": "NOT_ESTABLISHED_ACROSS_A_B_C;diagnosticonly",
+    "upstream_fresh_restore": {
+      "path": "reports/abc-championship/shared-intake-v3/UPSTREAM_RESTORE_AND_LOCAL_DEDUP.json",
+      "SHA256": "039b483ef48ea5fa05a166de1ed5ac427a7f8179354d30fe35ca35e5bfc5f97c"
+    }
   },
   "predictive_improvement_assignment": {
     "id": "ABC-PREDICTIVE-IMPROVEMENT-01",
@@ -308,6 +312,52 @@
         "SHA256": "905041304dc6fabc81a74e4ec67cc2013bf74b8e8893afac129c30a21429b215"
       }
     ],
-    "state": "REGISTERED_C_NEXT;NOT_EXECUTED_OR_PROMOTED"
+    "state": "C_EXECUTED_TARGETSHARE_AND_ONE_COMPLETION_INFO_TEST;NO_GAIN_OR_PROMOTION",
+    "report": {
+      "path": "reports/predictive-C01/README.md",
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    "evidence": {
+      "path": "reports/predictive-C01/EVIDENCE_MANIFEST.json",
+      "SHA256": "7e589ceace502db6407e5181283a41ecf1de58b88b4a8e2a7b41937a3ad49ba9"
+    },
+    "independent_review": {
+      "path": "reports/predictive-C01/INDEPENDENT_PREDICTIVE_REVIEW.json",
+      "SHA256": "fe4d58c18aede1df0d34df2ec6d2cbb8e3feba7c678b50536f32e45e0e0bc46a"
+    },
+    "own_side_scores": {
+      "path": "reports/predictive-C01/ACTUAL_LINE_SCORES.json.gz",
+      "SHA256": "c43750558b9b85dd5cfbd996c5579bdc2d77bf979bd5dbb071c006a3eeef4042"
+    },
+    "exact_rows": {
+      "path": "reports/predictive-C01/CANONICAL_ACTUAL_ROWS.json.gz",
+      "SHA256": "cc84c3461f8017d3dce43aedc9d5d30e0c6c92d2d45a9141151c74c74c21eaaa"
+    },
+    "correction": {
+      "path": "reports/predictive-C01/IDENTITY_QUALIFICATION_HOLD.json",
+      "SHA256": "da1cb680c4d10119581986eab5a1bf09e7155f17e314394da02396ede3f33eb8"
+    },
+    "component_status": {
+      "path": "reports/predictive-C01/COMPONENT_STATUS.json",
+      "SHA256": "acfe0132860a6c5ec11189a6140b2350c42f8885494aafe2697cc6b046a008dd"
+    },
+    "code": [
+      {
+        "path": "src/receiving_information_v10.py",
+        "SHA256": "03686ec26fc2231413f44b4f79fe94abc1c59d3db9d48a4a499bff2655a1f5c3"
+      },
+      {
+        "path": "src/predictive_information_c01.py",
+        "SHA256": "43c269c54f8cf4177c35cf048d2796c2162ff96da1f4754cee0bf6dd45e426df"
+      },
+      {
+        "path": "src/predictive_report_c01.py",
+        "SHA256": "db8aa16bcc1a65a9407402e50c2dfbc2e4703c874552cef16607f75e825ce267"
+      },
+      {
+        "path": "src/site_shared_c01.py",
+        "SHA256": "cdf5a49d07b670d44ad89cb7e55fc69a2194e345ba3829efd69e2b749928b929"
+      }
+    ]
   }
 }

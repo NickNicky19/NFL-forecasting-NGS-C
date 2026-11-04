@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "98601b58f5e6cb36c5e5b6882358d76a23899c8e2b1246987a156b1e891dd5d2"
+    "SHA256": "7b251241452e407782177bf5c3c5857600c272e81934919b133793062d48f741"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -67,7 +67,7 @@
   },
   "current_shared_intake_report": {
     "path": "reports/abc-championship/shared-intake-v3/README.md",
-    "SHA256": "9f4d3ac7565039698db5337db25c33f7f652d8faf1f49e10ccaaa3b5c01c11b2"
+    "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
   },
   "current_outputs": [
     {
@@ -108,12 +108,42 @@
     },
     {
       "path": "reports/abc-championship/shared-intake-v3/TWELVE_CATEGORY_STATUS.json",
-      "SHA256": "7f09ac6367cd22031131f2b9a1ef4714958166bc2ab890360630b9b7750cbe43"
+      "SHA256": "479e71dfe51f4fd2ecddb2b3157431146cb8b89970a19a98fd540d28691e42b7"
     },
     {
       "path": "reports/abc-championship/shared-intake-v3/A_STATE_CLASSIFICATION_HOLD.json",
       "SHA256": "e3ea474478bfbb8e0a4d8968419c56c66c756ed0cdae074453b8800178d0f744"
     }
   ],
-  "A_B_ack": "ActuallyreceivedfrompublishedACKs;notCagentinference"
+  "A_B_ack": "ActuallyreceivedfrompublishedACKs;notCagentinference",
+  "current_shared_admissions": "NewA21caandBde34receivedandlimitedexactofferdiagnosticadmission;actualpublishedA/BACKsreceived;privateinference/temporalparitylimitsremain",
+  "predictive_C01": {
+    "report": {
+      "path": "reports/predictive-C01/README.md",
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    "manifest": {
+      "path": "reports/predictive-C01/EVIDENCE_MANIFEST.json",
+      "SHA256": "7e589ceace502db6407e5181283a41ecf1de58b88b4a8e2a7b41937a3ad49ba9"
+    },
+    "input_schema": {
+      "path": "reports/predictive-C01/INPUT_SCHEMA.json",
+      "SHA256": "d3842a9cfa9b18b439de77def2186bdfa670f01f9e3697877d0f2dba071cd068"
+    },
+    "feature_exports": [
+      {
+        "path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+        "SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2"
+      },
+      {
+        "path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+        "SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875"
+      },
+      {
+        "path": "artifacts/predictive-C01/share-original/FEATURE_EXPORT.json.gz",
+        "SHA256": "d86d6af1eab8c7a83a4c4ed257e0010e41874d8d0186bd8c9143a6a34f7a85d3"
+      }
+    ],
+    "state": "EXECUTED_NO_GAIN;PREPARED_EXPORT_NOT_ASSUMED_RECEIVED;22NATIVE_TEAM_QUERY_HOLDS"
+  }
 }

@@ -106,11 +106,19 @@
   {
     "owner": "C",
     "task": "ABC-PREDICTIVE-IMPROVEMENT-01receiverinformation",
-    "state": "REGISTERED_NOT_YET_EXECUTED",
+    "state": "EXECUTED18NECESSARYFITS_2REUSED_C0MODELS;NO_VALUES_GAIN",
     "artifacts": [
       "protocol/RECEIVING_TARGETSHARE_V10.json",
       "protocol/TEAM_COMPLETION_CONTEXT_V11.json"
     ],
-    "next": "Complete original4targetsharefits, then registeredextension4, then onecompletionqualityC0/C1/C2test;reuse2safeC0models"
+    "next": "No promotion;A/Bmayconsumequalifiedfeatureexports;Bownsnewgate;Ccurrentcapture/historyclosurecontinue",
+    "artifact": "reports/predictive-C01/README.md"
+  },
+  {
+    "owner": "C",
+    "task": "C01 new missing-stat query native historical team mapping",
+    "state": "22OFFER_IDENTITIES_HELD;ORIGINAL337COMMONMASK_UNCHANGED",
+    "artifact": "reports/predictive-C01/IDENTITY_QUALIFICATION_HOLD.json",
+    "next": "Qualifynativeevent/team/rolemapbeforeadmitting22extraqueries;no currentrosterguess or refitforgrading"
   }
 ]

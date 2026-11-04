@@ -42,5 +42,18 @@
   "source_receipts": {
     "path": "reports/abc-championship/shared-intake-v3/ARTIFACT_RECEIPTS.json",
     "SHA256": "34b0bc559607d6c0ad3b87be4088aa25bc3680dc85c69baa30898d6ac287c784"
+  },
+  "predictive_C01": {
+    "artifact": "reports/predictive-C01/CANDIDATE_ROSTER.json",
+    "owner": "C",
+    "state": "ADMITTED_AS_SEPARATE_EXPOSED_ACTUAL_LINE_DIAGNOSTIC_ONLY",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "scored_category": "rec",
+    "mask": "337decided,340selectedof362;22identityhold,3selectedunknown",
+    "independent": "Internalread-onlyCverifier;notA/Bnewcandidateacknowledgement",
+    "scientific_promotion": "NONE;no values gain;neutralBrierfailure preserved"
   }
 }

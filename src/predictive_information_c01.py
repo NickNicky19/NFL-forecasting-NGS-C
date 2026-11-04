@@ -22,11 +22,19 @@ from data_v2 import load, History, vector
 from laws_v2 import ThresholdModel
 from receiving_information_v10 import ReceivingInformation, team_projection, feature_schema
 from reliability_v8 import hgb_export, hgb_cdf
-from wave_v2 import GRIDS, clean
+from wave_v2 import GRIDS, clean as original_clean
 
 ROOT=Path(__file__).resolve().parents[1]
 ART=ROOT/'artifacts/predictive-C01'
 OUT=ROOT/'reports/predictive-C01'
+
+
+def clean(value):
+    # Preserve numeric feature vectors without changing any fitted model.
+    if isinstance(value,np.ndarray):return clean(value.tolist())
+    if isinstance(value,dict):return {str(k):clean(v) for k,v in value.items()}
+    if isinstance(value,(list,tuple)):return [clean(v) for v in value]
+    return original_clean(value)
 
 
 def now():return datetime.now(timezone.utc).isoformat()
@@ -183,7 +191,7 @@ def run(inputs,study,stage):
             receipts.append(dict(origin=oid,training_rows=len(ti),training_membership_SHA256=member_SHA,training_members_path=str(member_path.relative_to(ROOT)),query_rows=len(qi),fit_origin_UTC=pd.Timestamp(cutoff,unit='s',tz='UTC').isoformat(),latest_training_available=max(pool[i]['available'] for i in ti),models=meta,retained_point_reference=point_ref))
             if oid not in ledger['completed']:ledger['completed'].append(oid)
             write(ledger_path,ledger)
-            assert time.monotonic()-start<=240 if study=='share' else time.monotonic()-start<=480
+            assert ledger['wall_seconds']+time.monotonic()-start <= (240 if study=='share' else 480)
         offers=[]
         bypred={(r['game_id'],r['player_id']):r for r in allrows}
         for case in cases:
@@ -200,7 +208,7 @@ def run(inputs,study,stage):
                 offers.append(dict(study=study,stage=stage,arm=arm,procedure_id='C::'+protocol['id']+'::'+arm,offer_id=case['offer_id'],game_id=case['game_id'],player_id=case['player_id'],position=case['position'],week=case['week'],line=case['line'],venue=case['venue'],line_tier=case['line_tier'],selected_side=side,actual=actual,state=state,probabilities=p,Brier=brier,log_loss=logloss,evidence_tier='TIMING_UNVERIFIED_ACTUAL_LINE_RECONSTRUCTION_NOT_ISSUED_PICK',book_settlement='UNVERIFIED',trained_on_synthetic_thresholds=True,threshold_outside_training_grid=math.floor(case['line'])<min(model['thresholds']) or math.floor(case['line'])>max(model['thresholds'])))
         write(out/'PREDICTIONS.json.gz',allrows);write(out/'FEATURE_EXPORT.json.gz',features);write(out/'EXACT_OFFER_ROWS.json.gz',offers)
         storage_guard()
-        result=dict(id=protocol['id'],study=study,stage=stage,completed_origins=len(origins),origin_receipts=receipts,new_fits=ledger['fit_attempts'],retained_C0_models_reused=2 if study=='completion' else 0,query_player_game_rows=len(allrows),query_arm_views=len(allrows)*len(arms),actual_offer_arm_views=len(offers),created_UTC=now(),CPU_seconds=time.process_time()-cpu,wall_seconds=time.monotonic()-start,max_RSS_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,new_calibrators=0,unsafe_models_loaded=False,source_inputs='Existingbasic-football-facts-v2.1.zip hash-pinned;current/revised7dayreconstruction',all_periods_research_exposed=True,no_original_forecasts_changed=True,ninety_percent='TARGET_NOT_ESTABLISHED;B_owns_new_selective_gate',retention='Safe primitive JSON trees/features/memberIDs/predictions inC;no solelocalmodel')
+        result=dict(id=protocol['id'],study=study,stage=stage,completed_origins=len(origins),origin_receipts=receipts,new_fits=ledger['fit_attempts'],retained_C0_models_reused=2 if study=='completion' else 0,query_player_game_rows=len(allrows),query_arm_views=len(allrows)*len(arms),actual_offer_arm_views=len(offers),created_UTC=now(),CPU_seconds=ledger['CPU_seconds']+time.process_time()-cpu,wall_seconds=ledger['wall_seconds']+time.monotonic()-start,max_RSS_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,new_calibrators=0,unsafe_models_loaded=False,source_inputs='Existingbasic-football-facts-v2.1.zip hash-pinned;current/revised7dayreconstruction',all_periods_research_exposed=True,no_original_forecasts_changed=True,ninety_percent='TARGET_NOT_ESTABLISHED;B_owns_new_selective_gate',retention='Safe primitive JSON trees/features/memberIDs/predictions inC;no solelocalmodel')
         write(OUT/(study+'-'+stage+'-RUN.json'),result)
         return result
     except Exception as exc:
