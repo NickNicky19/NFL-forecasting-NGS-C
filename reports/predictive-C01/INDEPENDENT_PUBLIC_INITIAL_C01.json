@@ -1,0 +1,160 @@
+{
+  "review_id": "C-INDEPENDENT-PUBLIC-C01-v1",
+  "created_UTC": "2026-11-04T21:03:06.659Z",
+  "status": "PASS_WITH_SCIENTIFIC_LIMITS",
+  "public_URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html",
+  "static_GET_count": 5,
+  "GET_receipts": [
+    {
+      "path": "championship.html",
+      "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html",
+      "http_status": 200,
+      "bytes": 2993,
+      "SHA256": "f0eafdb4b6f9b625eb5f9a6a2691c1c4b0776f29bf79f55d1bbbd6477179fdd7",
+      "response_Date": "Wed, 04 Nov 2026 21:02:18 GMT",
+      "observed_UTC": "2026-11-04T21:02:18.281473+00:00"
+    },
+    {
+      "path": "championship.js",
+      "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.js",
+      "http_status": 200,
+      "bytes": 9347,
+      "SHA256": "84f61094bd6470fb84b7403fc92d87fcc93c18a0b7940ab491ee3f6ccb5108d6",
+      "response_Date": "Wed, 04 Nov 2026 21:02:18 GMT",
+      "observed_UTC": "2026-11-04T21:02:18.448380+00:00"
+    },
+    {
+      "path": "build.json",
+      "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/build.json",
+      "http_status": 200,
+      "bytes": 1765,
+      "SHA256": "8db135165b923ebc28ac0055ef9fd1b54086d5c9d76ef063806cadba4ccadfb2",
+      "response_Date": "Wed, 04 Nov 2026 21:02:18 GMT",
+      "observed_UTC": "2026-11-04T21:02:18.507256+00:00"
+    },
+    {
+      "path": "data/championship-period-v2.json",
+      "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/data/championship-period-v2.json",
+      "http_status": 200,
+      "bytes": 55164,
+      "SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+      "response_Date": "Wed, 04 Nov 2026 21:02:18 GMT",
+      "observed_UTC": "2026-11-04T21:02:18.593725+00:00"
+    },
+    {
+      "path": "data/championship-shared-c01.json",
+      "url": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/data/championship-shared-c01.json",
+      "http_status": 200,
+      "bytes": 40103,
+      "SHA256": "6864575219097100d69c514671f5803600b68fb8e48e6275bba9cad10ae27100",
+      "response_Date": "Wed, 04 Nov 2026 21:02:18 GMT",
+      "observed_UTC": "2026-11-04T21:02:18.709419+00:00"
+    }
+  ],
+  "served_commit": "3f975c940f23f2210b5dc2abea95842d369785fb",
+  "expected_merged_commit": "3f975c940f23f2210b5dc2abea95842d369785fb",
+  "shared_projection_SHA256": "6864575219097100d69c514671f5803600b68fb8e48e6275bba9cad10ae27100",
+  "checks": {
+    "served_HTML_JS_exact_commit_blob_parity": true,
+    "served_both_JSON_exact_commit_blob_and_build_SHA_parity": true,
+    "representative_S_M_F_rendered_row_parity": true,
+    "all_12_categories_visible": true,
+    "anytime_and_fantasy_unavailable": true,
+    "method": "Independent served-assets DOM-render harness; local fetch responses are the five retained live GET bodies. Original JS start/bootstrap and panel rendering run without scorer/root verifier. Full mobile/desktop browser checks are performed separately by parent."
+  },
+  "panels": {
+    "S": {
+      "row_count": 12,
+      "rec": [
+        "Receptions",
+        "B::v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory::H-CURRENT-COMMON::lower_median",
+        "2026 weeks [2, 3] · C Pinnacle exact public mask 4f0fb7b7383857a540a025940364c22c94b65395cd866b67f19fa293e27a07ef",
+        "33-20/53/62.26%",
+        "161-123/284/56.69%",
+        "194-143/337/57.57%",
+        "362/340/337",
+        "32",
+        "Exact masks/strong controls and ties in canonical report",
+        "Owner-local or paired sensitivity in canonical records; limited clusters · Over higher by 5.57pp; different selected pools",
+        "Timing-unverified actual-line diagnostic; 22 unavailable; states {}; venue settlement unverified"
+      ]
+    },
+    "M": {
+      "row_count": 18,
+      "C0": [
+        "Receptions",
+        "completion:C0",
+        "2026 W2–3 / exact lines / fullboard",
+        "39-26/65/60.00%",
+        "155-117/272/56.99%",
+        "194-143/337/57.57%",
+        "362/340/337",
+        "32",
+        "Brier 0.25986835229748334; no new-value improvement",
+        "52.23%–62.73% · WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY · Over higher by 3.01pp; different selected pools",
+        "Timing-unverified actual-line diagnostic; 22 unavailable; states {\"WIN\":194,\"LOSS\":143,\"UNAVAILABLE_FORECAST\":22,\"UNKNOWN_PARTICIPATION\":3}; venue settlement unverified"
+      ],
+      "all_receiving_methods": [
+        {
+          "method": "completion:C0",
+          "combined": "194-143/337/57.57%",
+          "coverage": "362/340/337"
+        },
+        {
+          "method": "completion:C1",
+          "combined": "194-143/337/57.57%",
+          "coverage": "362/340/337"
+        },
+        {
+          "method": "completion:C2",
+          "combined": "194-143/337/57.57%",
+          "coverage": "362/340/337"
+        },
+        {
+          "method": "retained:EARLIER_PREVALENCE_V8",
+          "combined": "182-156/338/53.85%",
+          "coverage": "362/362/338"
+        },
+        {
+          "method": "retained:P2_LAW",
+          "combined": "189-148/337/56.08%",
+          "coverage": "362/340/337"
+        },
+        {
+          "method": "share:S0",
+          "combined": "189-148/337/56.08%",
+          "coverage": "362/340/337"
+        },
+        {
+          "method": "share:S1",
+          "combined": "189-148/337/56.08%",
+          "coverage": "362/340/337"
+        }
+      ]
+    },
+    "F": {
+      "row_count": 12,
+      "rec": [
+        "Receptions",
+        "A::opportunity-four-ou-v1::P1_M",
+        "E4_2024_FULL_REG",
+        "104-57/161/64.60%",
+        "102-57/159/64.15%",
+        "206-114/320/64.38%",
+        "2998/331/320",
+        "266",
+        "Exact masks/strong controls and ties in canonical report",
+        "58.77%–69.83% · WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS · Over higher by 0.45pp; different selected pools",
+        "Timing-unverified actual-line diagnostic; 127 unavailable; states {\"LOSS\":114,\"ABSTAIN\":2540,\"UNAVAILABLE_FORECAST\":127,\"WIN\":206,\"UNKNOWN_PARTICIPATION\":11}; venue settlement unverified"
+      ]
+    }
+  },
+  "limits": [
+    "Publication/served parity is not scientific model admission or predictive improvement.",
+    "All actual-line timing/source/private-inference limitations remain.",
+    "Model probability confidence is not validated; no90%or profit claim.",
+    "No genuinely new pregame picks, authenticated concurrent offer board, entry or wager created.",
+    "No fits, model loads or C repository changes.",
+    "GitHub Pages run status was supplied by parent; this reviewer verified public served commit/assets, not the Actions API independently."
+  ]
+}

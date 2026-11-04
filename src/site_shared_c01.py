@@ -12,9 +12,18 @@ def project():
     historical=read(BASE/'HISTORICAL_RAW_LEADERS.json.gz')
     pooled=read(BASE/'PARTIAL_E5_E7_ALL_PROCEDURES.json')
     scores=read(OUT/'ACTUAL_LINE_SCORES.json.gz')
+    candidate_ids={r['arm']:r['procedure_id'] for r in read(OUT/'CANDIDATE_ROSTER.json')['arms']}
+    retained=read(ROOT/'artifacts/predictive-C01/APPROVED_OFFER_CASES.json.gz')['cases']
     def row(r,period):
         q=dict(r);q['period']=period
         q['method']=r.get('procedure_id',r.get('method_id','N/A'))
+        if r.get('method_id','').startswith(('share:','completion:')):
+            q['method']=candidate_ids[r['method_id'].split(':')[1]]+' / H-MULTI / direct threshold / larger-probability side'
+        elif r.get('method_id','').startswith('retained:'):
+            alias=r['method_id'].split(':',1)[1]
+            versions={c['retained_methods'][alias]['method_version'] for c in retained}
+            assert len(versions)==1
+            q['method']='C::'+next(iter(versions))+'::'+alias
         q['selected']=r.get('selected',(r.get('COMBINED') or {}).get('selected'))
         q['unavailable']=r.get('unavailable')
         return q
@@ -35,7 +44,7 @@ def project():
     panels['E']=dict(label='Partial pooled · same 2024+2026 Weeks 1–5',details='New aggregation of all14 fixed A procedures on BOTH same years and same Weeks1–5. Every season appears before pooling. No missing2022/2023/2025 silently dropped from a claimed full period. Fixed three-category suite summaries retain category-balanced and equal-season weights; these are not all12 routers.',leaders='Observed pooled complete-policy leaders: attempts122/225 (equal-season53.91%); carries74/125 (59.03%); receptions101/163 (61.96%). Receptions selected172/1522. Strong football controls on these exact new selected masks still require A supplement; constants alone are not sufficient evidence of incremental skill.',rows=rr)
     rr=[r for r in scores if r['week_view']=='ALL' and r['role']=='ALL' and r['method_id'] in ['share:S0','share:S1','completion:C0','completion:C1','completion:C2','retained:P2_LAW','retained:EARLIER_PREVALENCE_V8']]
     panels['M']=dict(label='C · new receiving information tests',details='Qualified exact Pinnacle receptions,2026W2–3 only. Unchanged learner/history/rows within each test. ShareS1 adds values toS0; completionC2 adds values toC1 and comparesC0. All22 unresolved native-team queries held unavailable;3selectedunknown remain. Raw fits/inference and classification correction retained. Both2025origins separately tested only synthetic diagnostics; no actual2025offers invented.',leaders='Target-share values:0wins/0probability change versus support. Completion values/support:0wins/0probability change versus C0. C0/C1/C2=194/337; S0/S1=189/337. Brier0.259868/0.260622 exceeds neutral0.25. No new feature earns inclusion;90% TARGET_NOT_ESTABLISHED. All registered Top6/10/20 variants remain exploratory last-recorded-line lists,not tickets.',rows=[row(r,'2026 W2–3 / exact lines / fullboard') for r in rr])
-    bindings=[dict(path=str(p.relative_to(ROOT)),SHA256=sha(p)) for p in [BASE/'TWELVE_CATEGORY_STATUS.json',BASE/'HISTORICAL_RAW_LEADERS.json.gz',BASE/'PARTIAL_E5_E7_ALL_PROCEDURES.json',OUT/'ACTUAL_LINE_SCORES.json.gz',OUT/'IDENTITY_QUALIFICATION_HOLD.json']]
+    bindings=[dict(path=str(p.relative_to(ROOT)),SHA256=sha(p)) for p in [BASE/'TWELVE_CATEGORY_STATUS.json',BASE/'HISTORICAL_RAW_LEADERS.json.gz',BASE/'PARTIAL_E5_E7_ALL_PROCEDURES.json',OUT/'ACTUAL_LINE_SCORES.json.gz',OUT/'IDENTITY_QUALIFICATION_HOLD.json',OUT/'CANDIDATE_ROSTER.json',ROOT/'artifacts/predictive-C01/APPROVED_OFFER_CASES.json.gz']]
     return dict(schema='ABC-SHARED-PREDICTIVE-C01-SITE-v1',prepared_UTC=now(),protocol='ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1',panels=panels,source_bindings=bindings,A_B_acknowledgements='RECEIVED_PINNED_C1_SCOPED_PUBLIC_CHECKS',publication='RESEARCH_DIAGNOSTIC_ONLY;no new original C props issued')
 
 
