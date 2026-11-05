@@ -57,11 +57,19 @@ def match_event(row,event,cutoff):
     assert int(row['season'])==event['season'] and int(row['week'])==event['week'] and event['season_type']==2,'EVENT_SEASON_WEEK_MISMATCH'
     return event['state']=='pre' and event['status_name']=='STATUS_SCHEDULED' and not event['completed'] and event['kickoff']>cutoff
 
-def acquire(season,week,out,cache,historical):
+def restrict_future_batch(future,game_ids=None):
+    if game_ids is None:return future
+    assert game_ids and len(game_ids)==len(set(game_ids)),'INVALID_EXPLICIT_GAME_BATCH'
+    kept=future[future.game_id.isin(game_ids)]
+    assert set(kept.game_id)==set(game_ids),'REQUESTED_GAME_NOT_FUTURE_SCHEDULE_CANDIDATE'
+    return kept
+
+def acquire(season,week,out,cache,historical,game_ids=None):
     if out.exists():raise FileExistsError('Immutable snapshot destination already exists')
     out.mkdir(parents=True);retriever=Retriever(cache);cutoff=now().timestamp()
     b,gm=retriever.fetch('schedule','https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv');full=pd.read_csv(io.BytesIO(b),low_memory=False);full=full[(full.game_type=='REG')&full.season.between(2022,season)].copy();full=kickoff_frame(full)
     future=full[(full.season==season)&(full.week==week)&(full.kickoff>cutoff+300)]
+    future=restrict_future_batch(future,game_ids)
     if future.empty:raise RuntimeError('NO_FUTURE_SCHEDULE_CANDIDATES')
     recent=full[(full.season==season)&(full.kickoff<cutoff)&(full.kickoff>=cutoff-7*86400)&full.home_score.notna()&full.away_score.notna()]
     dates=sorted(set(future.gameday)|set(recent.gameday));events=[]
@@ -113,8 +121,10 @@ def acquire(season,week,out,cache,historical):
     (out/'ATTRIBUTION.md').write_text('NFL numerical statistics, weekly roster and public report-designation facts: nflverse/nflverse-data (publisher CC-BY-4.0). Schedule/native event facts: nflverse/nfldata. Explicit current event state facts: public ESPN scoreboard, with exact native event IDs; presentation/media/articles are excluded. Captured before the listed future games. Original publication/revision clocks remain separately recorded or unknown. Missing news is not healthy. No source scripts executed.\n')
     (out/'LICENSE-CC-BY-4.0.md').write_bytes((historical/'LICENSE-CC-BY-4.0.md').read_bytes())
     manifest['files']={p.name:dict(bytes=p.stat().st_size,SHA256=digest(p.read_bytes())) for p in out.iterdir() if p.is_file()}
+    manifest['explicit_game_batch']=game_ids
+    manifest['batch_policy']='DECLARED_EARLIEST_UNPLAYED_EVENT;OTHER_WEEK_GAMES_DEFERRED_NOT_MISSING_OR_DNP' if game_ids else 'ORIGINAL_ALL_FUTURE_WEEK_CANDIDATES'
     write(out/'SOURCE_MANIFEST.json',manifest)
     print(json.dumps({k:manifest[k] for k in ['created_UTC','events','offense_roster_rows','active_roster_rows','current_stat_rows','future_stat_rows_ignored','invalid_native_roster_rows']}));return manifest
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--season',type=int,required=True);p.add_argument('--week',type=int,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--temporary-raw',type=Path,required=True);p.add_argument('--historical',type=Path,required=True);a=p.parse_args();acquire(a.season,a.week,a.output,a.temporary_raw,a.historical)
+    p=argparse.ArgumentParser();p.add_argument('--season',type=int,required=True);p.add_argument('--week',type=int,required=True);p.add_argument('--output',type=Path,required=True);p.add_argument('--temporary-raw',type=Path,required=True);p.add_argument('--historical',type=Path,required=True);p.add_argument('--game-id',action='append');a=p.parse_args();acquire(a.season,a.week,a.output,a.temporary_raw,a.historical,a.game_id)
