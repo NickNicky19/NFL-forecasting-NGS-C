@@ -1,0 +1,115 @@
+{
+  "id": "C-POST5W-FINAL-PUBLIC-INDEPENDENT-v1",
+  "checked_UTC": "2026-11-05T01:10:12.896795+00:00",
+  "status": "PASS_LOCAL_MIRROR_RENDER_OF_VERIFIED_PUBLIC_ASSETS",
+  "served_commit": "db13b88b691a0093c152c874ed8190992d436cbc",
+  "public_asset_reads": 5,
+  "TLS": "Normal certificate-verified HTTPS urllib reads;no CA/trust mutation or TLS-ignore flags. Not direct Chromium publicHTTPS verification.",
+  "asset_receipts": [
+    {
+      "path": "championship.html",
+      "bytes": 4425,
+      "SHA256": "78810e975bf61ea85f6339b48d59e3ada4052c8b2704765c88904cea73de90c6",
+      "status": 200,
+      "observed_UTC": "2026-11-05T01:09:15.471460+00:00"
+    },
+    {
+      "path": "championship.js",
+      "bytes": 9347,
+      "SHA256": "84f61094bd6470fb84b7403fc92d87fcc93c18a0b7940ab491ee3f6ccb5108d6",
+      "status": 200,
+      "observed_UTC": "2026-11-05T01:09:15.660213+00:00"
+    },
+    {
+      "path": "qualification.js",
+      "bytes": 4406,
+      "SHA256": "fc13c07f26115a07318843f2ba67cbe03a7f41f97d9d83fbf99267e5065f663a",
+      "status": 200,
+      "observed_UTC": "2026-11-05T01:09:15.804100+00:00"
+    },
+    {
+      "path": "data/qualification-5w.json.gz",
+      "bytes": 576086,
+      "SHA256": "19d66fca5eeb62337b5dd866c71445c947f676d5363f01e6f36ae952267a4e9a",
+      "status": 200,
+      "observed_UTC": "2026-11-05T01:09:16.033889+00:00"
+    },
+    {
+      "path": "build.json",
+      "bytes": 1862,
+      "SHA256": "c4300dc3a9616dcbb2067786c7b29083b65d76fbf0539bf42c3bce97c99864c6",
+      "status": 200,
+      "observed_UTC": "2026-11-05T01:09:16.143367+00:00"
+    }
+  ],
+  "delta_from_initial3c319": "HTML differs only by #served{overflow-wrap:anywhere};championshipJS,qualificationJS,andqualificationgzip are byte-identical. Full served40hexcommit verified in browser render.",
+  "browser_method": "Separate Chromium offline fulfilled mirror using exact normalTLSpublicHTML/JS/gzip/publicbuild;unchangedCSSandauxiliaryJSON fromretainedbytes.All page requests locallyfulfilled/aborted;0additionalpublicGETs.",
+  "viewports": [
+    {
+      "width": 320,
+      "initial": {
+        "client": 320,
+        "scroll": 320
+      },
+      "after_UTC_Chicago": {
+        "client": 320,
+        "scroll": 320
+      },
+      "empty_filter": {
+        "client": 320,
+        "scroll": 320
+      },
+      "representative_rows_unchanged": true
+    },
+    {
+      "width": 390,
+      "initial": {
+        "client": 390,
+        "scroll": 390
+      },
+      "after_UTC_Chicago": {
+        "client": 390,
+        "scroll": 390
+      },
+      "empty_filter": {
+        "client": 390,
+        "scroll": 390
+      },
+      "representative_rows_unchanged": true
+    },
+    {
+      "width": 1280,
+      "initial": {
+        "client": 1280,
+        "scroll": 1280
+      },
+      "after_UTC_Chicago": {
+        "client": 1280,
+        "scroll": 1280
+      },
+      "empty_filter": {
+        "client": 1280,
+        "scroll": 1280
+      },
+      "representative_rows_unchanged": true
+    }
+  ],
+  "CountA": {
+    "combined": "87-55/142",
+    "scored_weeks": 7,
+    "operational_export": "BLOCKED_NOT_PRIMARY_ADMISSION"
+  },
+  "C01_C0": {
+    "combined": "194-143/337",
+    "scored_weeks": 2,
+    "floor": "NOT_MET"
+  },
+  "checksum_failure": "Corrupt qualificationgzip clearsallqualificationrows,hidesmorebutton,displaysunavailable;noinferredresults",
+  "page_errors": [],
+  "initial_receipt_preserved_SHA256": "0b75c1201e35a7cf00d251521d55666499451f99d667a83f9077fc7650dcd2f1",
+  "limits": [
+    "CSS/publication verification only;models,predictions,counts,masksandstatesunchanged.",
+    "No fits,newforecast/paperissuance,scientificpromotion,validatedconfidenceorA/Backnowledgement.",
+    "DirectpublicChromiumcertificate limitation remains explicit;no claim it was fixed."
+  ]
+}
