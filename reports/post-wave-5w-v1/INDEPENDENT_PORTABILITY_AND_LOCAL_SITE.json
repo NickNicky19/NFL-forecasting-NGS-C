@@ -1,0 +1,26 @@
+{
+  "review_id": "C-POST5W-PORTABILITY-DELTA-v1",
+  "created_UTC": "2026-11-05T00:46:40.078338+00:00",
+  "status": "PASS_LOCAL_ONLY",
+  "source_delta": {
+    "exact_single_replacement_in_failed_public_copy": true,
+    "reversing_replacement_restores_original_failed_SHA256": "32c6771cace62155d8f37cfa7bbd8f0a34a2d6b304def790ddbb3f8ca4dbb5d6",
+    "public_source_SHA256": "1094a8db6bc7ef482c2f462deb60ea1f22aaccbb81fc6af3a5699f8cc1c40645",
+    "active_and_failed_copy_use_C_VERIFIED_FACTS_DIR_once": true,
+    "active_logic": "Matches previously inspected corrected trace; input content hash guard retained. Earlier threshold normalization/cache/CPU corrections remain distinct from this path-only publication delta.",
+    "public_copy_byte_identical_to_original_claimed": false,
+    "original_independent_receipt_unchanged": true
+  },
+  "local_website": {
+    "all_7272_projected_profiles_match_retained_ledger_fields": true,
+    "compressed_data_SHA_matches_build_binding": true,
+    "independent_DOM_checks": [
+      "CountA7weeks/87-55of142/blocked",
+      "C01two-week194-143of337/METfilterempty",
+      "Chicago-to-UTCchangeevent",
+      "corruptchecksumclearsrows/failsclosed"
+    ],
+    "concerns": "No functional issue found in these local checks; full browser/mobile and served-state verification are separate."
+  },
+  "limits": "No trace rerun, fits, model loading, network, repository edits, deployment claim or model admission. Exact reverse-byte proof applies to failed public copy; active source was compared with prior read, not a separately retained pre-delta active hash."
+}
