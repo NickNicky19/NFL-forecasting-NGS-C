@@ -60,11 +60,11 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "SHA256": "396767ed309695dcba56afa8dc9f3efc0da2ea88408bd47bd586b01a1859c078"
+    "SHA256": "ba598b821e187a51739a77928cf15caab514c36cb26537922f17f4703b69ca63"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "a97f1a3d6ba5c730dac931ae195281d5e6fb37c432716c93eafae8a47072b7eb"
+    "SHA256": "92882695514e05a9030dc8c79bfde38ec668fa45475a73ad35d11625c3ea2048"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -396,6 +396,44 @@
         "path": "reports/predictive-C01/MATCHED_POINT_REFERENCE_APPENDIX.json",
         "SHA256": "1e14fadae5a1a38f66181149bd6740a82a98a390413641505bb58da2ae0a533c"
       }
+    }
+  },
+  "post_wave_5w_v1": {
+    "id": "POST-WAVE-5W-v1",
+    "previous_pointer": {
+      "path": "reports/post-wave-5w-v1/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "d878d68f33c69b8e615eea6d88ed935efb4d8c54ad3392571cd75a2ad0c8684f"
+    },
+    "C_adoption": {
+      "path": "protocol/POST_WAVE_5W_V1.md",
+      "SHA256": "63108b552022ab9eb8e11059bd49aee9407074154b984aefd4687e6b5045bfbe"
+    },
+    "report": {
+      "path": "reports/post-wave-5w-v1/README.md",
+      "SHA256": "1495b5014e3a9aa8dc183b7462e4c31d007b93afcfc27095491801823094ec1c"
+    },
+    "qualification": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "b993b2b3dd56c163db08d1c47d079b835bc5d0e52ac9f3cfb9df1510fa07ee17"
+    },
+    "trace": {
+      "path": "reports/post-wave-5w-v1/MODEL_INPUT_TRACE.json",
+      "SHA256": "f59fdc4db380640908274c520eb93160cc9c43bd157991437341864f58181b2d"
+    },
+    "CountA_delivery": {
+      "path": "reports/post-wave-5w-v1/COUNT_A_DELIVERY_DISPOSITION.json",
+      "SHA256": "8ee51b0d8fba7adcff99b2405c712a68b191b7fa8a1ad467558c9191e874fa5d"
+    },
+    "independent_verification": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_VERIFICATION.json",
+      "SHA256": "ad24fdc51ae3dd28d0a0540a4931f4b777c34a62373220131922159e6477b46b"
+    },
+    "state": "TRACE_COMPLETED_NEGATIVE;EXACT_PRODUCT_FLOOR_APPLIED;COUNT_A_DURATION_MET_DELIVERY_BLOCKED",
+    "preserves_protocol_and_scorer": true,
+    "primary_replacements": 0,
+    "validation": {
+      "path": "reports/post-wave-5w-v1/VALIDATION_RECEIPT.json",
+      "SHA256": "653cbbf03ec57b1922607083ac93bb5ff760705d5d97dc58996d9f5843025e9d"
     }
   }
 }

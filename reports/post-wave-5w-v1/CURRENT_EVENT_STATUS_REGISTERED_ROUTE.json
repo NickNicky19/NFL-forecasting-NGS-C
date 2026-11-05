@@ -1,0 +1,25 @@
+{
+  "observed_UTC": "2026-11-05T00:13:08.348344+00:00",
+  "source_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261105&limit=100",
+  "SHA256": "fbd4f63a9616b9cc79ab5a6e4a56f179d15202f9b5aea612827fe419fad4532d",
+  "events": [
+    {
+      "native_event_id": "401873037",
+      "name": "JAX @ BAL",
+      "kickoff_UTC": "2026-11-06T01:15Z",
+      "state": "pre",
+      "status": "STATUS_SCHEDULED",
+      "completed": false,
+      "season": {
+        "year": 2026,
+        "type": 2,
+        "slug": "regular-season"
+      },
+      "week": {
+        "number": 9
+      }
+    }
+  ],
+  "route": "Existingprospective_v4registeredper-daystatusURL;correctedunsupportedcombineddate/weekquery",
+  "new_forecasts": 0
+}
