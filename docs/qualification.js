@@ -4,13 +4,13 @@ const byId=id=>document.getElementById(id);
 let ledger,shown=50;
 const record=x=>x?.decided?`${x.wins}–${x.losses}/${x.decided} (${(100*x.rate).toFixed(2)}%)`:"N/A — no decided selections";
 function render(){
- byId("qualification-clock").textContent="Ledger prepared "+new Intl.DateTimeFormat("en-US",{timeZone:byId("zone").value,dateStyle:"medium",timeStyle:"long"}).format(new Date(ledger.generated_UTC))+". Count A: seven scored weeks; current corrected-mean delivery blocked. C new value recipes: two actual-line weeks, closed without increment. No new paper issuance.";
+ byId("qualification-clock").textContent="Ledger prepared "+new Intl.DateTimeFormat("en-US",{timeZone:byId("zone").value,dateStyle:"medium",timeStyle:"long"}).format(new Date(ledger.generated_UTC))+". Count A: seven scored weeks; owner-local restoration verified, hosted/current-query consumer delivery unverified. C value recipes are closed without increment. New Week 9 forecasts are shadow-only; no real-prop paper selections.";
  const body=byId("qualification-records");body.replaceChildren();
  const owner=byId("q-owner").value,category=byId("q-category").value,product=byId("q-product").value,floor=byId("q-floor").value;
  const rows=ledger.rows.filter(r=>(!owner||r.owner===owner)&&(!category||r.category===category)&&(!product||r.product===product)&&(!floor||r.five_week_floor===floor));
  for(const r of rows.slice(0,shown)){
   const tr=document.createElement("tr");tr.dataset.qualificationId=r.row_id;
-  const seasons=r.season_records.map(s=>`${s.season}: W${s.scored_weeks.join(",")} · ${s.scored_cases} scored / ${s.selected} selected / ${s.eligible} eligible`).join("; ");
+  const seasons=r.season_records.map(s=>`${s.season}: W${s.scored_weeks.join(",")} · ${s.scored_cases} scored / ${s.selected??"N/A"} selected / ${s.eligible??"N/A"} eligible`).join("; ");
   const own=r.own_side_record;
   const values=[`${r.owner} · ${r.category}`,`${r.procedure_id} · ${r.product} · ${r.role_scope} · ${r.history} · ${r.policy}`,seasons,own?`Over ${record(own.OVER)}; Under ${record(own.UNDER)}; Combined ${record(own.COMBINED)}`:"N/A — numerical/probability/diagnostic product, not an actual-prop hit rate",`${r.scored_week_count} total; ${r.current_2026_scored_week_count} in 2026; duration floor ${r.five_week_floor}. Not primary admission.`,`${r.operational_export}; ${r.strongest_bound_model_control||"Strong controls and exact masks in bound source; no automatic superiority."}`,`${r.source_panel}; ${r.evidence_tier}; ${r.remaining_gates}`];
   for(const value of values){const td=document.createElement("td");td.textContent=value;tr.append(td);}body.append(tr);

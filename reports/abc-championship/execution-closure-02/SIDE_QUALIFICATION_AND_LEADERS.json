@@ -1,0 +1,1912 @@
+[
+  {
+    "category": "pass_yd",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "mean",
+        "wins": 36,
+        "losses": 25,
+        "decided": 61,
+        "rate": 0.5901639344262295,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 47,
+            "lower": 0.4735845295055821,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7031698258196721
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6857142857142857
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "mean",
+        "wins": 36,
+        "losses": 25,
+        "decided": 61,
+        "rate": 0.5901639344262295,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 47,
+            "lower": 0.4735845295055821,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7031698258196721
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6857142857142857
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_yd",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "HGB_MAE_DIRECT",
+        "procedure_id": "a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341",
+        "output": "mae_objective_point",
+        "wins": 37,
+        "losses": 36,
+        "decided": 73,
+        "rate": 0.5068493150684932,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 57,
+            "lower": 0.3866428571428571,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6301369863013698
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4266666666666667,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6143131868131868
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "HGB_MAE_DIRECT",
+        "procedure_id": "a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341",
+        "output": "mae_objective_point",
+        "wins": 37,
+        "losses": 36,
+        "decided": 73,
+        "rate": 0.5068493150684932,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 57,
+            "lower": 0.3866428571428571,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6301369863013698
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4266666666666667,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6143131868131868
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_td",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "median",
+        "wins": 27,
+        "losses": 17,
+        "decided": 44,
+        "rate": 0.6136363636363636,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 38,
+            "lower": 0.4666666666666667,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7562427409988385
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4883720930232558,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.744198416625433
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "median",
+        "wins": 27,
+        "losses": 17,
+        "decided": 44,
+        "rate": 0.6136363636363636,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 38,
+            "lower": 0.4666666666666667,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7562427409988385
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4883720930232558,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.744198416625433
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_td",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f",
+        "output": "legacy_empirical_point",
+        "wins": 44,
+        "losses": 24,
+        "decided": 68,
+        "rate": 0.6470588235294118,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 55,
+            "lower": 0.5396825396825397,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.75
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5757575757575758,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7285774818401937
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+        "output": "mean_objective_point",
+        "wins": 44,
+        "losses": 24,
+        "decided": 68,
+        "rate": 0.6470588235294118,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 55,
+            "lower": 0.5396825396825397,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.75
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5757575757575758,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7285774818401937
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f",
+        "output": "legacy_empirical_point",
+        "wins": 44,
+        "losses": 24,
+        "decided": 68,
+        "rate": 0.6470588235294118,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 55,
+            "lower": 0.5396825396825397,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.75
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5757575757575758,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7285774818401937
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+        "output": "mean_objective_point",
+        "wins": 44,
+        "losses": 24,
+        "decided": 68,
+        "rate": 0.6470588235294118,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 55,
+            "lower": 0.5396825396825397,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.75
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5757575757575758,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7285774818401937
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_cmp",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+        "output": "mean_objective_point",
+        "wins": 35,
+        "losses": 18,
+        "decided": 53,
+        "rate": 0.660377358490566,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 42,
+            "lower": 0.54,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7735849056603774
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.6190476190476191,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.702142035652674
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+        "output": "mean_objective_point",
+        "wins": 35,
+        "losses": 18,
+        "decided": 53,
+        "rate": 0.660377358490566,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 42,
+            "lower": 0.54,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7735849056603774
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.6190476190476191,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.702142035652674
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_cmp",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+        "output": "mean_objective_point",
+        "wins": 44,
+        "losses": 47,
+        "decided": 91,
+        "rate": 0.4835164835164835,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 62,
+            "lower": 0.38539663461538465,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5789473684210527
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3670886075949367,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5753424657534246
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+        "output": "mean_objective_point",
+        "wins": 44,
+        "losses": 47,
+        "decided": 91,
+        "rate": 0.4835164835164835,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 62,
+            "lower": 0.38539663461538465,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5789473684210527
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3670886075949367,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5753424657534246
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_att",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23",
+        "output": "legacy_empirical_point",
+        "wins": 19,
+        "losses": 16,
+        "decided": 35,
+        "rate": 0.5428571428571428,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 32,
+            "lower": 0.36090686274509803,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7027027027027027
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.46808510638297873,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6551724137931034
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd",
+        "output": "mean_objective_point",
+        "wins": 19,
+        "losses": 16,
+        "decided": 35,
+        "rate": 0.5428571428571428,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 32,
+            "lower": 0.36090686274509803,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7027027027027027
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.46808510638297873,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6551724137931034
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23",
+        "output": "legacy_empirical_point",
+        "wins": 19,
+        "losses": 16,
+        "decided": 35,
+        "rate": 0.5428571428571428,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 32,
+            "lower": 0.36090686274509803,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7027027027027027
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.46808510638297873,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6551724137931034
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd",
+        "output": "mean_objective_point",
+        "wins": 19,
+        "losses": 16,
+        "decided": 35,
+        "rate": 0.5428571428571428,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 32,
+            "lower": 0.36090686274509803,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.7027027027027027
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.46808510638297873,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6551724137931034
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_att",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23",
+        "output": "legacy_empirical_point",
+        "wins": 51,
+        "losses": 57,
+        "decided": 108,
+        "rate": 0.4722222222222222,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 70,
+            "lower": 0.383121940364931,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5566309869375907
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3390732265446224,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6092145135566187
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd",
+        "output": "mean_objective_point",
+        "wins": 51,
+        "losses": 57,
+        "decided": 108,
+        "rate": 0.4722222222222222,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 70,
+            "lower": 0.383121940364931,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5566309869375907
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3390732265446224,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6092145135566187
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "COUNT_A_LEGACY_POINT",
+        "procedure_id": "6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23",
+        "output": "legacy_empirical_point",
+        "wins": 51,
+        "losses": 57,
+        "decided": 108,
+        "rate": 0.4722222222222222,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 70,
+            "lower": 0.383121940364931,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5566309869375907
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3390732265446224,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6092145135566187
+          }
+        }
+      },
+      {
+        "method": "COUNT_A_MEAN",
+        "procedure_id": "e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd",
+        "output": "mean_objective_point",
+        "wins": 51,
+        "losses": 57,
+        "decided": 108,
+        "rate": 0.4722222222222222,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 70,
+            "lower": 0.383121940364931,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5566309869375907
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.3390732265446224,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6092145135566187
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_int",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "median",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8,
+        "scored_weeks": [
+          3,
+          6,
+          7
+        ],
+        "five_week_floor": "NOT_MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 5,
+            "lower": 0.4,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          },
+          "week": {
+            "clusters": 3,
+            "lower": 0.6666666666666666,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "mean",
+        "wins": 75,
+        "losses": 58,
+        "decided": 133,
+        "rate": 0.5639097744360902,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 77,
+            "lower": 0.477263986013986,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6444565217391305
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5378693181818182,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "pass_int",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784",
+        "output": "mean_objective_point",
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8,
+        "scored_weeks": [
+          1,
+          2,
+          6,
+          7
+        ],
+        "five_week_floor": "NOT_MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 5,
+            "lower": 0.4,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          },
+          "week": {
+            "clusters": 4,
+            "lower": 0.25,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          }
+        }
+      },
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "mean",
+        "wins": 8,
+        "losses": 2,
+        "decided": 10,
+        "rate": 0.8,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 10,
+            "lower": 0.6,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          },
+          "week": {
+            "clusters": 6,
+            "lower": 0.5,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "mean",
+        "wins": 8,
+        "losses": 2,
+        "decided": 10,
+        "rate": 0.8,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 10,
+            "lower": 0.6,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          },
+          "week": {
+            "clusters": 6,
+            "lower": 0.5,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 1.0
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_yd",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "median",
+        "wins": 58,
+        "losses": 52,
+        "decided": 110,
+        "rate": 0.5272727272727272,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 61,
+            "lower": 0.4444182389937107,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6106452444368072
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4646374458874459,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6052830940988836
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "LEAF_CDF",
+        "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+        "output": "median",
+        "wins": 58,
+        "losses": 52,
+        "decided": 110,
+        "rate": 0.5272727272727272,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 61,
+            "lower": 0.4444182389937107,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6106452444368072
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4646374458874459,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6052830940988836
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_yd",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "EQUAL_CDF_CAT_HGB_POINT",
+        "procedure_id": "d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681",
+        "output": "empirical_point_blend",
+        "wins": 199,
+        "losses": 128,
+        "decided": 327,
+        "rate": 0.6085626911314985,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.558889420299463,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6567164179104478
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5627476904538761,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6405867970660146
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "EQUAL_CDF_CAT_HGB_POINT",
+        "procedure_id": "d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681",
+        "output": "empirical_point_blend",
+        "wins": 199,
+        "losses": 128,
+        "decided": 327,
+        "rate": 0.6085626911314985,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.558889420299463,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6567164179104478
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5627476904538761,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6405867970660146
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_att",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "BACKFIELD_CDF",
+        "procedure_id": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a",
+        "output": "mean",
+        "wins": 70,
+        "losses": 60,
+        "decided": 130,
+        "rate": 0.5384615384615384,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 59,
+            "lower": 0.46338389014142245,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6115514887360184
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.44574966532797855,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5882352941176471
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "BACKFIELD_CDF",
+        "procedure_id": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a",
+        "output": "mean",
+        "wins": 70,
+        "losses": 60,
+        "decided": 130,
+        "rate": 0.5384615384615384,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 59,
+            "lower": 0.46338389014142245,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6115514887360184
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.44574966532797855,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5882352941176471
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_att",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "BACKFIELD_CDF",
+        "procedure_id": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a",
+        "output": "mean",
+        "wins": 104,
+        "losses": 93,
+        "decided": 197,
+        "rate": 0.5279187817258884,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.47367006225240516,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5817377645502646
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4642857142857143,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.572009149227048
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "BACKFIELD_CDF",
+        "procedure_id": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a",
+        "output": "mean",
+        "wins": 104,
+        "losses": 93,
+        "decided": 197,
+        "rate": 0.5279187817258884,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.47367006225240516,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5817377645502646
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4642857142857143,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.572009149227048
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rec",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "ORDERED_CDF",
+        "procedure_id": "677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316",
+        "output": "median",
+        "wins": 154,
+        "losses": 101,
+        "decided": 255,
+        "rate": 0.6039215686274509,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 76,
+            "lower": 0.5471545336490719,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6653069355232133
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5585430924486718,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6366666666666667
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "ORDERED_CDF",
+        "procedure_id": "677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316",
+        "output": "median",
+        "wins": 154,
+        "losses": 101,
+        "decided": 255,
+        "rate": 0.6039215686274509,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 76,
+            "lower": 0.5471545336490719,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6653069355232133
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5585430924486718,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6366666666666667
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rec",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "ORDERED_CDF",
+        "procedure_id": "677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316",
+        "output": "mean",
+        "wins": 271,
+        "losses": 210,
+        "decided": 481,
+        "rate": 0.5634095634095634,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.5133888987212955,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6144391721529626
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5123481808453718,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6115918438678632
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "ORDERED_CDF",
+        "procedure_id": "677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316",
+        "output": "mean",
+        "wins": 271,
+        "losses": 210,
+        "decided": 481,
+        "rate": 0.5634095634095634,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 81,
+            "lower": 0.5133888987212955,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6144391721529626
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5123481808453718,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6115918438678632
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rec_yd",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400",
+        "output": "median_objective_point",
+        "wins": 171,
+        "losses": 146,
+        "decided": 317,
+        "rate": 0.5394321766561514,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 78,
+            "lower": 0.49184839617953957,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5882400226971818
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4978524324996889,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5796062191223482
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_id": "9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400",
+        "output": "median_objective_point",
+        "wins": 171,
+        "losses": 146,
+        "decided": 317,
+        "rate": 0.5394321766561514,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 78,
+            "lower": 0.49184839617953957,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5882400226971818
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.4978524324996889,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5796062191223482
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rec_yd",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a",
+        "output": "mean",
+        "wins": 201,
+        "losses": 162,
+        "decided": 363,
+        "rate": 0.5537190082644629,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 79,
+            "lower": 0.5073673193110884,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5973015737256243
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5160278115745736,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5917749841394521
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a",
+        "output": "mean",
+        "wins": 201,
+        "losses": 162,
+        "decided": 363,
+        "rate": 0.5537190082644629,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 79,
+            "lower": 0.5073673193110884,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5973015737256243
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.5160278115745736,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5917749841394521
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_rec_yd",
+    "side": "OVER",
+    "raw_observed": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35",
+        "output": "mean",
+        "wins": 117,
+        "losses": 113,
+        "decided": 230,
+        "rate": 0.508695652173913,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 66,
+            "lower": 0.44591897030109956,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5682049150036955
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.45522148871029466,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5863971701787027
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35",
+        "output": "mean",
+        "wins": 117,
+        "losses": 113,
+        "decided": 230,
+        "rate": 0.508695652173913,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 66,
+            "lower": 0.44591897030109956,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5682049150036955
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.45522148871029466,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.5863971701787027
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  },
+  {
+    "category": "rush_rec_yd",
+    "side": "UNDER",
+    "raw_observed": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35",
+        "output": "mean",
+        "wins": 130,
+        "losses": 108,
+        "decided": 238,
+        "rate": 0.5462184873949579,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 79,
+            "lower": 0.49062851436770466,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6000390624999999
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.48460762331838564,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6263873626373626
+          }
+        }
+      }
+    ],
+    "highest_five_week_floor_eligible": [
+      {
+        "method": "RESPONSE_CDF",
+        "procedure_id": "39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35",
+        "output": "mean",
+        "wins": 130,
+        "losses": 108,
+        "decided": 238,
+        "rate": 0.5462184873949579,
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "five_week_floor": "MET",
+        "uncertainty": {
+          "game_id": {
+            "clusters": 79,
+            "lower": 0.49062851436770466,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6000390624999999
+          },
+          "week": {
+            "clusters": 7,
+            "lower": 0.48460762331838564,
+            "replicates": 1000,
+            "seed": 20261030,
+            "state": "NOMINAL_EXPOSED_DEVELOPMENT_UNADJUSTED",
+            "upper": 0.6263873626373626
+          }
+        }
+      }
+    ],
+    "scope": "Same category A board; method-selected sides differ, not paired identical selected samples or a new router. Duration does not prove strongest supported admission."
+  }
+]

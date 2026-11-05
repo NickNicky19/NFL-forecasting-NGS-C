@@ -1,0 +1,234 @@
+{
+  "schema": "ABC-EXPORT-v2",
+  "origin_session": "C",
+  "producer_repository": "NickNicky19/NFL-forecasting-NGS-C",
+  "producer_commit": "2d684f22830b817669ecf89f46eb6fdcace8335b",
+  "state": "C_PRIOR_RAW_PILOT_UNCHANGED;NEW_PUBLIC_AGGREGATE_COORDINATION_AND_FINAL_FORECAST_LABELS",
+  "actual_weeks": [
+    2,
+    3
+  ],
+  "requested_periods": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8"
+  ],
+  "method_roster": {
+    "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+    "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+  },
+  "bindings": {
+    "path": "reports/abc-championship/C_INPUT_BINDINGS.json",
+    "SHA256": "91cf77353b70d49d33e5ca80421a69c702dc6d8fbab07043e58b0676580359e8"
+  },
+  "rights": "Inherited exact5approvedCdatasets;analysis/GitHubretention/aggregatequalified;not a grant for otherproducerrows",
+  "missing": "A/Bindexesreceived;currentownercommonpin/mask/rawparitypending;actualhistoricalyears/catsourcegapsremain",
+  "files": [
+    {
+      "path": "reports/abc-championship/SCORES-v2-C-1.json",
+      "SHA256": "aee4ca8ed9b1c84992e887171813aa2d2b0e5a724c77ae65765e5e5116670fc0"
+    },
+    {
+      "path": "reports/abc-championship/PAIRED-v2-C-1.json",
+      "SHA256": "db453388021515e1d7a9afb312b459e8bf70ff2ff01539eb0df8da8591ff41ac"
+    },
+    {
+      "path": "reports/abc-championship/COMMON_CORE-v2-C-1.json",
+      "SHA256": "15c5c843e7e3075723247584699e0f721c960664b762dd7c736b45667447969a"
+    },
+    {
+      "path": "reports/abc-championship/LEADERS-v2-C-1.json",
+      "SHA256": "64f3f83982d3a07c945ed145a1587478d02fc6832a248f44c138a1773f28dd2e"
+    }
+  ],
+  "continuation_report": "continuation-v2/README.md",
+  "outcome_expansion": {
+    "path": "reports/abc-championship/continuation-v2/C_OUTCOME_EXPANSION_HANDOFF.json",
+    "SHA256": "0d651a64ae3d6fe0f5d937d23d5619409b3335f5889d8e5843b273c50149b239"
+  },
+  "common_protocol": {
+    "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
+    "SHA256": "7b251241452e407782177bf5c3c5857600c272e81934919b133793062d48f741"
+  },
+  "period_continuation_publication": {
+    "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
+    "path": "reports/abc-championship/continuation-v2/README.md",
+    "restoration_receipt": {
+      "path": "reports/abc-championship/continuation-v2/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "69ca887dfb48edd3d3c7195743d61c9b75dd297856d51620b521c6fcccf54393"
+    },
+    "A_B_receipt": "C_received_public_exportindexes; noownerindependentcurrentcommonpinreturned",
+    "new_C_source": "NewMondaylabelsandoriginalforecastsCSV;noforecastrefitornewpregamepicks"
+  },
+  "current_shared_intake_report": {
+    "path": "reports/abc-championship/shared-intake-v3/README.md",
+    "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
+  },
+  "current_outputs": [
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_C_SCORES.json.gz",
+      "SHA256": "ca6cf2f6c244696941781a76d8fd8329c953b64e1e31eee03fc896cf0d5fdf9d"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_C_VERIFIED_PAIRS.json.gz",
+      "SHA256": "d5877bb09e7b435253241ba86b72b8457fedacd0121fd6bf5a77143f89af9722"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_SCORES.json.gz",
+      "SHA256": "74e73eb2489c8b2ccfba9390272bde0a9d9e49212ccd5a6867710c94199d76c6"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_WEEK8_FINAL_SCORES.json.gz",
+      "SHA256": "bf87f77c8d4a15c449e148540c28fe88ff204329aa3e3dc8f122c6e22f516a31"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz",
+      "SHA256": "3f908221db5c8a3d3eb463754add443eba62eac2032e7d750173545478900466"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/PUBLIC_C_MASKS_AND_CONTROLS.json.gz",
+      "SHA256": "9268edcd0aac29efcc89bc96882f695da0e2108c38600c18d981b754e3d71324"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/SAME_OFFER_COMPARISONS.json.gz",
+      "SHA256": "c7923d190a65194305e4920a91972ea9e45f2e49aef8e25b2c42b20997ea0566"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/PARTIAL_E5_E7_ALL_PROCEDURES.json",
+      "SHA256": "70309f26bd2547c625f80bfbfd3c52d51c0b1f43eee26ecfee6743f80585125b"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/PARTIAL_FIXED_SUITE_SUMMARIES.json",
+      "SHA256": "cc8ad08574cd48f69e2410c59fd7fe079a9f006e81d99f154b3af28487fe6c44"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "479e71dfe51f4fd2ecddb2b3157431146cb8b89970a19a98fd540d28691e42b7"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_STATE_CLASSIFICATION_HOLD.json",
+      "SHA256": "e3ea474478bfbb8e0a4d8968419c56c66c756ed0cdae074453b8800178d0f744"
+    }
+  ],
+  "A_B_ack": "ActuallyreceivedfrompublishedACKs;notCagentinference",
+  "current_shared_admissions": "NewA21caandBde34receivedandlimitedexactofferdiagnosticadmission;actualpublishedA/BACKsreceived;privateinference/temporalparitylimitsremain",
+  "predictive_C01": {
+    "report": {
+      "path": "reports/predictive-C01/README.md",
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    "manifest": {
+      "path": "reports/predictive-C01/EVIDENCE_MANIFEST.json",
+      "SHA256": "7e589ceace502db6407e5181283a41ecf1de58b88b4a8e2a7b41937a3ad49ba9"
+    },
+    "input_schema": {
+      "path": "reports/predictive-C01/INPUT_SCHEMA.json",
+      "SHA256": "d3842a9cfa9b18b439de77def2186bdfa670f01f9e3697877d0f2dba071cd068"
+    },
+    "feature_exports": [
+      {
+        "path": "artifacts/predictive-C01/share-actual/FEATURE_EXPORT.json.gz",
+        "SHA256": "cb999b65ce4634873f30b9aec12c21f5f1b1d78f6d486a909ece519fc56adfe2"
+      },
+      {
+        "path": "artifacts/predictive-C01/completion-original/FEATURE_EXPORT.json.gz",
+        "SHA256": "720c0ede09543e499547e41336c20ef326dec83faf23c8719cd1889dc98cf875"
+      },
+      {
+        "path": "artifacts/predictive-C01/share-original/FEATURE_EXPORT.json.gz",
+        "SHA256": "d86d6af1eab8c7a83a4c4ed257e0010e41874d8d0186bd8c9143a6a34f7a85d3"
+      }
+    ],
+    "state": "EXECUTED_NO_GAIN;PREPARED_EXPORT_NOT_ASSUMED_RECEIVED;22NATIVE_TEAM_QUERY_HOLDS",
+    "restoration": {
+      "path": "reports/predictive-C01/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "c2bb097be1a22e14aa820b81ee2c29f4d59b16c2d30d78f897f821300cfbe7a9"
+    },
+    "served_verified": {
+      "commit": "2bd0c0c48a10b804c4a00b0f8e048ecd5e40dca9",
+      "receipt": {
+        "path": "reports/predictive-C01/PUBLIC_SERVED_FULL_IDS_RECEIPT.json",
+        "SHA256": "c211183f725a0517e291729e86a2420730b5c506ca93791848d9a36a698b09b9"
+      }
+    }
+  },
+  "post_wave_5w_v1": {
+    "assignment": "POST-WAVE-5W-v1",
+    "report": {
+      "path": "reports/post-wave-5w-v1/README.md",
+      "SHA256": "0588749970f2f0b543e4bc19d2b9ede479e5c254b5a5a1b35c86ee93c51f796c"
+    },
+    "qualification": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "b993b2b3dd56c163db08d1c47d079b835bc5d0e52ac9f3cfb9df1510fa07ee17"
+    },
+    "CSV": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.csv.gz",
+      "SHA256": "9eb6c535f1339b8d15242b486f21fd6429bcea54f6b132a61a9887ad3651c55e"
+    },
+    "trace": {
+      "path": "reports/post-wave-5w-v1/MODEL_INPUT_TRACE.json",
+      "SHA256": "f59fdc4db380640908274c520eb93160cc9c43bd157991437341864f58181b2d"
+    },
+    "CountA_delivery": {
+      "path": "reports/post-wave-5w-v1/COUNT_A_DELIVERY_DISPOSITION.json",
+      "SHA256": "8ee51b0d8fba7adcff99b2405c712a68b191b7fa8a1ad467558c9191e874fa5d"
+    },
+    "source_admissions": {
+      "path": "reports/post-wave-5w-v1/SOURCE_DISPOSITIONS.json",
+      "SHA256": "8e8678e1f62330b9f66e7cdbbf19bdb0fefa84f3d982e50e3c95be457edb416f"
+    },
+    "independent": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_VERIFICATION.json",
+      "SHA256": "ad24fdc51ae3dd28d0a0540a4931f4b777c34a62373220131922159e6477b46b"
+    },
+    "current_producer_capture": "NONE_NEW;originalv4unchanged",
+    "CountA_owner_route_status": "Cdispositionpublished;actualAproducerdeliveryandconsumeracknotreceived",
+    "new_fits": "0football;1softwarepositivecontrol;notNFLweeks",
+    "restoration": {
+      "path": "reports/post-wave-5w-v1/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "27096b72468a896885e8433f0adf77accecb05919c24b84276690bcb10f532f5"
+    },
+    "initial_public_assets": {
+      "path": "reports/post-wave-5w-v1/EXACT_SERVED_ASSET_RECEIPT.json",
+      "SHA256": "e36c9d3627326f5e45c04e82dfdb47b2f62b7dd439fb2f6fce87572a09d0d51c"
+    },
+    "initial_public_independent": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_INITIAL_PUBLIC_ASSETS.json",
+      "SHA256": "0b75c1201e35a7cf00d251521d55666499451f99d667a83f9077fc7650dcd2f1"
+    },
+    "site_acceptance": "DEPLOYED_PUBLIC_ASSETS_AND_INDEPENDENT_RENDERED_MIRROR_PARITY_VERIFIED;DIRECT_PUBLIC_BROWSER_TLS_UNVERIFIED",
+    "publication": {
+      "path": "reports/post-wave-5w-v1/PUBLICATION_RECEIPT.md",
+      "SHA256": "321a7e4e474516d8d4e233b6b6850d1a3d167baa62eec083525590d4c1d02d93"
+    },
+    "resource_receipt": {
+      "path": "reports/post-wave-5w-v1/RESOURCE_PUBLICATION_RECEIPT.json",
+      "SHA256": "8074a003ee978f5f8b8487559944fd5574ac4645c32c0e3fea5d65bf8f2dfa68"
+    },
+    "served_assets": {
+      "path": "reports/post-wave-5w-v1/EXACT_SERVED_ASSET_RECEIPT_FINAL.json",
+      "SHA256": "f4046fd66b99a20c51b7043635395333ed6c30557489108b5c9ffae5ec01c2b4"
+    },
+    "rendered_mirror": {
+      "path": "reports/post-wave-5w-v1/PUBLIC_ASSET_MIRROR_PARITY_FINAL.json",
+      "SHA256": "6f7e8d3b4b4eb51ed15581b3c961046d0ae109d9886f4c0d0ad273d8078daaae"
+    },
+    "independent_final_served": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_FINAL_PUBLIC_ASSETS.json",
+      "SHA256": "ae6d8fff63c07578ae988425e3f1e963560b07d572a967642b8764477abc3840"
+    },
+    "served_commit": "db13b88b691a0093c152c874ed8190992d436cbc",
+    "Pages_run": 41946139398,
+    "new_model_or_paper_admissions": 0,
+    "headline_metadata_correction": {
+      "path": "reports/post-wave-5w-v1/HEADLINE_CONTROL_IDENTITY_CORRECTION.json",
+      "SHA256": "ad8346e08daddf658500ff9ea28429ff0fb2c5a67be6c6ea92e531fa0f415c8a"
+    }
+  }
+}

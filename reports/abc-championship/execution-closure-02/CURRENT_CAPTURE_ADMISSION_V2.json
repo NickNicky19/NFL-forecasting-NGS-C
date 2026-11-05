@@ -1,0 +1,64 @@
+{
+  "batch": "C-FWD-v4-W09-EARLIEST-BATCH-01",
+  "game_id": "2026_09_JAX_BAL",
+  "native_event_id": "401873037",
+  "kickoff_UTC": "2026-11-06T01:15:00Z",
+  "roster_candidates": 33,
+  "candidates_are_not_confirmed_starters": true,
+  "original_W8_capture_unchanged": true,
+  "runs": [
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-pass_yd",
+      "RUN_SHA256": "1f3f019eed97b35cde321e0eebbc47830f8c765f4b0aba89984cf9e9c2ffe092",
+      "forecast_SHA256": "d8238a5d6df17e907d21692ef8ff579feaf73ad1cf264207084c9a6d43c88ccc",
+      "rows": 6,
+      "categories": [
+        "pass_yd"
+      ],
+      "created_UTC": "2026-11-05T23:17:07.854817+00:00",
+      "information_cutoff_UTC": "2026-11-05T23:16:55.230336905+00:00",
+      "state": "SHADOW_FORECAST_ONLY_NOT_PRIMARY_REPLACEMENT",
+      "appearance_conditioned": true
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "RUN_SHA256": "482510862443e6c7c2f28c55568f5297cb09b35d8274789c7dfb9d9c3d50a9bd",
+      "forecast_SHA256": "a0b627b38c7528cedc908e350423cf557ef9ec58c900cb3a6e88c835bf817111",
+      "rows": 197,
+      "categories": [
+        "anytime_td",
+        "fpts",
+        "pass_att",
+        "pass_cmp",
+        "pass_int",
+        "pass_td",
+        "rec",
+        "rec_yd",
+        "rush_att",
+        "rush_rec_yd",
+        "rush_yd"
+      ],
+      "created_UTC": "2026-11-05T23:18:49.414773+00:00",
+      "information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+      "state": "SHADOW_FORECAST_ONLY_NOT_PRIMARY_REPLACEMENT",
+      "appearance_conditioned": true
+    }
+  ],
+  "scored_future_outcomes": 0,
+  "five_week_floor": "NOT_MET_FOR_FORWARD_PROCEDURE;NO_PARENT_WEEKS_BORROWED",
+  "admission": "SHADOW_FORECAST_ONLY;NOT_NEW_PRIMARY_REPLACEMENT",
+  "paper_selections": 0,
+  "actual_offers": 0,
+  "probability_confidence": "Experimental estimates;no establishedactualpropconfidence",
+  "CMP_ATT": "Allpaperselectionsremainblockedbyexistingcoherencepolicy;no oldforecastcaps",
+  "fantasy": "Exactcontracttarget;label/tailcoverage-limitedshadow,notadmittedfullfantasyoffer",
+  "anytime": "RushORreceivingTD event;no NOofferinvented",
+  "TopPicks": "No originalproductionselectorchange;no6legentry",
+  "server_persistence": "GITHUB_SERVER_VERIFIED_PREGAME;2026-11-05T23:34:29Z;6031seconds before kickoff; no new actual-prop selection",
+  "supersedes_initial_summary_SHA256": "c6ffdb42d20112c8e23f652d95cc21e4625b788de01a013d30c49ff5170e7739",
+  "receipts": [
+    "prospective/receipts/C-FWD-v4-20261105-W09-JAXBAL-pass_yd-server.json",
+    "prospective/receipts/C-FWD-v4-20261105-W09-JAXBAL-remainder-server.json"
+  ],
+  "prior_summary_preserved": true
+}

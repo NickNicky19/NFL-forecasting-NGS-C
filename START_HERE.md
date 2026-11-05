@@ -1,3 +1,5 @@
+Current executed continuation: [EXECUTION-CLOSURE-02](reports/abc-championship/execution-closure-02/README.md). New Week 9 capture is shadow forecast-only; source-specific actual-prop records and qualified-product versus operational delivery remain separate.
+
 Current continuation: [POST-WAVE-5W-v1 diagnosis, exact-product qualification and Count A delivery disposition](reports/post-wave-5w-v1/README.md). The original Week 8 capture is fully final-graded (1,532 played / 981 unknown / 0 pending); historical partial/pending notes below remain preserved. Five-week duration is not primary admission. No new Count A/C paper packet has been issued.
 
 # Week 8 results to date — actual-prop status first
