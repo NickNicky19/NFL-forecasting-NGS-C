@@ -1,0 +1,22 @@
+{
+  "id": "C-POST5W-HEADLINE-CORRECTION-INDEPENDENT-v1",
+  "checked_UTC": "2026-11-05T01:15:14.041234+00:00",
+  "status": "PASS",
+  "original_hash_verified": true,
+  "corrected_hash_verified": true,
+  "only_differences": [
+    "CountAmean matched_control.procedure_id",
+    "CountAmean matched_control.derivation"
+  ],
+  "exact_corrected_mean_binding": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+  "own_mean_arithmetic": {
+    "Overtruth_wins": 67,
+    "Undertruth_wins": 75,
+    "procedure_wins": 87,
+    "decided": 142,
+    "gain_vs_best_constant": 12
+  },
+  "original_file_preserved": true,
+  "all_other_metadata_counts_masks_scores_uncertainty_unchanged": true,
+  "limits": "Attribution-only correction; no fits, network, new outcomes or side policy. Owner-local aggregate arithmetic remains its existing evidence tier."
+}
