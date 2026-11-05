@@ -1,0 +1,75 @@
+{
+  "failed_UTC_recorded": "2026-11-05T23:13:03.044602+00:00",
+  "attempt": "C_CURRENT_W9_ALL_FUTURE",
+  "source_requests_consumed": 7,
+  "source_artifacts": [
+    {
+      "source_key": "status_20261102",
+      "SHA256": "17b71be69c71595eff619817992c5fd48194656b0d39c39104a39808ba774e90",
+      "bytes": 13679,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:19.134380+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "status_20261109",
+      "SHA256": "fb695dc65c274672553f0832214ca026798a7eec8c65552b34654a7e6466e3e6",
+      "bytes": 23281,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:20.016650+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "schedule",
+      "SHA256": "22e59afc1957dc4fe0f0a4ec7248a4f552030944777422c730b8a5bd9e7cf764",
+      "bytes": 2188863,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:17.713839+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "status_20261108",
+      "SHA256": "74e4b0d3413934a17f2ce5352d79e61b5ce36a7ba4dffe769689f5f47cc044a7",
+      "bytes": 234197,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:19.735933+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "status_20261105",
+      "SHA256": "4a64e408bb18187de6d5ab3ddfa8ded6fe80c98cd18b7e09946ac22ab09e559f",
+      "bytes": 22928,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:19.450186+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "status_20261101",
+      "SHA256": "60a6c22a3f0ebfb45af811fc3de7ad6b634d6b511362949f75154f34bba03501",
+      "bytes": 107078,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:18.750124+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    },
+    {
+      "source_key": "status_20261029",
+      "SHA256": "cf854a7b237fbdf9000c2697164c0609a8bcebad097a2cada7a718119dbf5089",
+      "bytes": 13467,
+      "observed_local_download_completion_UTC": "2026-11-05T23:08:18.289083+00:00",
+      "HTTP_headers": "NOT_RETAINED_AFTER_FAILED_ATTEMPT"
+    }
+  ],
+  "reason": "EVENT_KICKOFF_MISMATCH",
+  "disposition": "VERIFIED_DATA_OR_CONTRACT_DEFECT:two current native-event sources disagree; no evidence of model arithmetic defect",
+  "example": {
+    "game_id": "2026_09_LV_SF",
+    "native_event_id": "401873047",
+    "schedule_kickoff_UTC": "2026-11-08T21:05:00Z",
+    "scoreboard_kickoff_UTC": "2026-11-08T21:25:00Z",
+    "difference_seconds": 1200,
+    "qualified": false
+  },
+  "other_ready_event": {
+    "game_id": "2026_09_JAX_BAL",
+    "native_event_id": "401873037",
+    "both_kickoff_UTC": "2026-11-06T01:15:00Z"
+  },
+  "scope_response": "Do not edit clocks or relax native join. Separately registered earliest-game batch permits independent matched event only. Default all-week source path unchanged.",
+  "new_fits": 0,
+  "new_forecasts": 0,
+  "raw_rights": "Temporary source bodies not public; minimal schedule/status facts retained here under existing source policy"
+}
