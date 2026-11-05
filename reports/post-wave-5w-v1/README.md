@@ -17,7 +17,7 @@ The actual-prop championship is still partial. This retained A reference panel c
 | Anytime TD | N/A: no compatible offer | N/A | N/A | N/A | Unknown | N/A | NOT MET |
 | Exact chart PPR | N/A: no compatible offer | N/A | N/A | N/A | Unknown | N/A | NOT MET |
 
-Full namespaced identities, side differences, controls, uncertainty and missing states: [canonical headline JSON](HEADLINE_ACTUAL_LINE_REFERENCE.json). The corrected Count A mean is a separate tied procedure from the legacy point; neither borrows the other’s identity.
+Full namespaced identities, side differences, controls, uncertainty and missing states: [canonical headline JSON](HEADLINE_ACTUAL_LINE_REFERENCE_V1_1.json). The corrected Count A mean is a separate tied procedure from the legacy point; neither borrows the other’s identity.
 
 Observed A W1–7 maxima remain: **Over—interceptions, Leaf median 4–1/5 (80%); Under—interceptions, CatBoost 4–1/5 and Leaf mean 8–2/10 (80%), tied; combined—passing TDs, corrected Count A mean and legacy point 87–55/142 (61.27%), tied.** These exposed, differently selected samples are not future leaders. Same-pool constants beat completions by 3 wins and attempts by 6. Count A’s source-bound Leaf-median control is 85/142, only 2 fewer wins, with a paired interval crossing zero. No historical side splice is proposed.
 
@@ -83,3 +83,5 @@ The full deployed commit exposed a 2px overflow at 320px in `#served`, hidden by
 A final route recheck at 00:51:56 UTC found the same A lab-state head, so the prior missing W09 binding remains current at that check. At 00:54:35 UTC the native JAX–BAL event was still scheduled for November 6 at 01:15 UTC. No forecast or offered selection was created. Count A does not block C’s independent forecast-only pipeline: a separate C issuance needs a fresh permitted roster/stat/injury snapshot under its already registered manual source/refit rules; missing offers only block real-line selections.
 
 Final acceptance: Pages run **41946139398**, served **db13b88b691a0093c152c874ed8190992d436cbc**. Exact public assets and independently rendered identical bytes pass 320/390/1280px after commit-text wrapping. Direct Chromium HTTPS remains unverified due to environment TLS trust; no TLS bypass or broad trust change was used. [Final publication/limits](PUBLICATION_RECEIPT.md). No model or paper-selection admission follows.
+
+An appended [v1.1 metadata correction](HEADLINE_CONTROL_IDENTITY_CORRECTION.json) binds Count A mean’s own-pool constants to its exact mean procedure instead of the tied legacy alias. Counts, points, scores and intervals are unchanged; the first headline file remains retained.
