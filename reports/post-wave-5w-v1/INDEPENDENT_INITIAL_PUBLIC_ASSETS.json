@@ -1,0 +1,113 @@
+{
+  "id": "C-POST5W-PUBLIC-INDEPENDENT-v1",
+  "checked_UTC": "2026-11-05T01:00:15.595466+00:00",
+  "state": "INITIAL_PUBLIC_PARITY_PASS_WITH_KNOWN_MOBILE_LIMIT",
+  "served_commit": "3c3199209cc9bcf5bdffbdedb230dac1262004e9",
+  "render_mode": "LOCAL_MIRROR_RENDER_OF_VERIFIED_PUBLIC_ASSETS",
+  "public_reads": 5,
+  "asset_receipts": [
+    {
+      "path": "championship.html",
+      "status": 200,
+      "bytes": 4394,
+      "SHA256": "739bda636b648ee6eb6d7099ba9a70a6096a2c4a726dc2fc24fc17e2019bf1d5",
+      "observed_UTC": "2026-11-05T00:57:38.306833+00:00"
+    },
+    {
+      "path": "championship.js",
+      "status": 200,
+      "bytes": 9347,
+      "SHA256": "84f61094bd6470fb84b7403fc92d87fcc93c18a0b7940ab491ee3f6ccb5108d6",
+      "observed_UTC": "2026-11-05T00:57:38.654615+00:00"
+    },
+    {
+      "path": "qualification.js",
+      "status": 200,
+      "bytes": 4406,
+      "SHA256": "fc13c07f26115a07318843f2ba67cbe03a7f41f97d9d83fbf99267e5065f663a",
+      "observed_UTC": "2026-11-05T00:57:38.876691+00:00"
+    },
+    {
+      "path": "data/qualification-5w.json.gz",
+      "status": 200,
+      "bytes": 576086,
+      "SHA256": "19d66fca5eeb62337b5dd866c71445c947f676d5363f01e6f36ae952267a4e9a",
+      "observed_UTC": "2026-11-05T00:57:39.127026+00:00"
+    },
+    {
+      "path": "build.json",
+      "status": 200,
+      "bytes": 1862,
+      "SHA256": "d2ac7b1e4a9d6ab74d1a06427c06d92acb04b45cad3bfb880fa8bf3b4347794d",
+      "observed_UTC": "2026-11-05T00:57:39.366922+00:00"
+    }
+  ],
+  "TLS": "Normal-verifiedurllibHTTPS for5assets. No trust mutation/TLS-disable flags. Parent reports directChromium certificate limitation; not retried here.",
+  "browser_scope": "SeparateChromium390px mirror of publicHTML/JS/gzip/publicbuild;unchangedCSS/auxiliaryJSON fromretainedbytes. Every page request fulfilled/aborted locally;0additionalpublicGETs. Not directpublicbrowserHTTPS.",
+  "representatives": [
+    {
+      "category": "pass_td",
+      "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "ACTUAL_LINE_DIRECTION:mean_objective_point",
+      "scored_weeks": 7,
+      "floor": "MET",
+      "tier": "TIMING_UNVERIFIED_OWNER_LOCAL_CHRONOLOGICAL_RECONSTRUCTION",
+      "row_matches_retained_ledger": true
+    },
+    {
+      "category": "rec",
+      "procedure_id": "C::C-TEAM-COMPLETION-CONTEXT-v11-1::C0",
+      "product": "ACTUAL_LINE_DIRECTION:DIRECT_THRESHOLD",
+      "scored_weeks": 2,
+      "floor": "NOT_MET",
+      "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;exposedresearch;notissued",
+      "row_matches_retained_ledger": true
+    },
+    {
+      "category": "rec",
+      "procedure_id": "C::C-FORWARD-P2-v4::P2_LEAF::H-MULTI::E0_ENV",
+      "product": "NUMERICAL_MEDIAN",
+      "scored_weeks": 1,
+      "floor": "NOT_MET",
+      "tier": "ORIGINAL_AUTHENTICATED_PREGAME_FORECAST;APPEND_ONLY_FINAL_GRADES;NO_OFFER_SELECTIONS",
+      "row_matches_retained_ledger": true
+    }
+  ],
+  "all12_actual_categories_visible": true,
+  "UTC_display_checked": true,
+  "page_errors": [],
+  "initial_browser_launch_failure": "Default-sandboxsetsockoptEPERMbeforepageload;routine network-enabledgrant allowedofflinebrowserlaunch. No source/trust/TLS controls bypassed.",
+  "restoration_audit": {
+    "owner_source_ref": "6985cb325e937dccf96a147d44ff39ab4aa6ec9d",
+    "initial_fresh_byte_checks_reported": 15,
+    "local_pinned_git_blob_hash_size_checks_by_this_reviewer": 15,
+    "retained_sequence": "Initial15freshbytechecks passed; then archivednumeric-string sum raised TypeError. Failure receipt preserved; completion reused identical bytes with0additionalHTTPreads.",
+    "new_restoration_HTTP_reads_by_this_reviewer": 0,
+    "independent_safe_primitive_checks": [
+      {
+        "arm": "S0",
+        "primitive_threshold_checks": 7,
+        "max_difference": 0.0
+      },
+      {
+        "arm": "S1",
+        "primitive_threshold_checks": 7,
+        "max_difference": 0.0
+      }
+    ],
+    "toy_checks": 2,
+    "CountA_saved_weekly_arithmetic": {
+      "weeks": 7,
+      "wins": 87,
+      "losses": 55,
+      "decided": 142
+    },
+    "scope": "Readback chronology is parentreceipt evidence; this reviewer independently checked immutable local bytes/arithmetic, not another freshGitHubrestoration or A/Bprivate-model inference."
+  },
+  "limits": [
+    "Cinternalverification,notA/Backnowledgement.",
+    "No modeladmission,validatedconfidence,newprematchselectionsorforecastimprovement.",
+    "No fits,unsafeartifactloads,wagers,other-repository changesorC edits."
+  ],
+  "viewport_scope": "Independent representative-row render at390px only; not a fullmobileacceptance. Parent reports320px scroll322 overflow from served40hexcommit afterzonechange; pendingCSS-only correction. No320pxpass claimed here."
+}

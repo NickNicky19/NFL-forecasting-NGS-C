@@ -161,7 +161,7 @@
     "assignment": "POST-WAVE-5W-v1",
     "report": {
       "path": "reports/post-wave-5w-v1/README.md",
-      "SHA256": "1495b5014e3a9aa8dc183b7462e4c31d007b93afcfc27095491801823094ec1c"
+      "SHA256": "aee18155908d1d4197323d0ddd97fa3ef6d15e028ab7b15e421e9843a0e17ae7"
     },
     "qualification": {
       "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz",
@@ -189,6 +189,19 @@
     },
     "current_producer_capture": "NONE_NEW;originalv4unchanged",
     "CountA_owner_route_status": "Cdispositionpublished;actualAproducerdeliveryandconsumeracknotreceived",
-    "new_fits": "0football;1softwarepositivecontrol;notNFLweeks"
+    "new_fits": "0football;1softwarepositivecontrol;notNFLweeks",
+    "restoration": {
+      "path": "reports/post-wave-5w-v1/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "27096b72468a896885e8433f0adf77accecb05919c24b84276690bcb10f532f5"
+    },
+    "initial_public_assets": {
+      "path": "reports/post-wave-5w-v1/EXACT_SERVED_ASSET_RECEIPT.json",
+      "SHA256": "e36c9d3627326f5e45c04e82dfdb47b2f62b7dd439fb2f6fce87572a09d0d51c"
+    },
+    "initial_public_independent": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_INITIAL_PUBLIC_ASSETS.json",
+      "SHA256": "0b75c1201e35a7cf00d251521d55666499451f99d667a83f9077fc7650dcd2f1"
+    },
+    "site_acceptance": "INITIAL_PUBLIC_ASSETS_VERIFIED;320PX_WRAP_CORRECTION_AWAITS_FINAL_DEPLOYED_ASSET_CHECK"
   }
 }
