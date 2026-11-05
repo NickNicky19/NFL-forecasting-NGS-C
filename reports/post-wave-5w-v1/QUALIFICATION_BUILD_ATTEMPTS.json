@@ -33,6 +33,20 @@
     {
       "state": "PLAYWRIGHT_BUNDLED_BINARY_ABSENT",
       "remedy": "Use already installed /usr/bin/chromium via C_BROWSER_EXECUTABLE; no browser download"
+    },
+    {
+      "state": "PUBLIC_TLS_CERT_AUTHORITY_INVALID",
+      "attempts": "Direct public browser visits failed TLS trust. Partial runtime CA synchronization did not resolve it. Combined broad persistent NSS import was rejected by automatic review for wider trust-store impact.",
+      "safe_resolution": "No further CA modification or TLS ignore flag. Normal-TLS urllib byte readback + exact asset hashes + explicit local mirror rendering of those public bytes. Direct public-browser HTTPS remains unverified.",
+      "automatic_review_rejection_preserved": true
     }
-  ]
+  ],
+  "mobile_full_commit_check": {
+    "state": "FAILED320PX_INITIALPUBLIC_MIRROR",
+    "measured_scrollWidth": 322,
+    "viewport": 320,
+    "verified_cause": "#served40hexdeployedcommitunbrokenwordoverflows2px;localplaceholderdidnotexposeit",
+    "controlled_fix": "Only#served{overflow-wrap:anywhere};no data/model/score change",
+    "validation": "Newpublicassetreadbackandfullcommitmirrorrenderrequiredafterfollowupdeploy"
+  }
 }
