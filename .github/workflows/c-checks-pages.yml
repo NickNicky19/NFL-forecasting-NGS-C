@@ -46,6 +46,8 @@ jobs:
       - run: node --check docs/paper.js
       - run: node --check docs/accuracy.js
       - run: node --check docs/championship.js
+      - run: node --check docs/qualification.js
+      - run: python src/site_qualification_5w.py validate
       - name: Verify period bindings, aggregate-to-site parity and saved final CSV (no fits)
         run: |
           python src/abc_period_validation_v2.py

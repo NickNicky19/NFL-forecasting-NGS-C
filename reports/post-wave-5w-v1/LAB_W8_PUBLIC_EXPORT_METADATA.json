@@ -1,0 +1,71 @@
+{
+  "source_ref": "275aa84b27c4239d3b2dfea07755734d9db0ac7c",
+  "source_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting/275aa84b27c4239d3b2dfea07755734d9db0ac7c/state/public/weekly-adaptive-v1/2026-W08/20261102T222232.942832Z--cc9fa4b5364384845d3423ed0896323c54256f6c2b27404d8f8c6f3804444eb7.json",
+  "SHA256": "cc9fa4b5364384845d3423ed0896323c54256f6c2b27404d8f8c6f3804444eb7",
+  "bytes": 138651,
+  "observed_UTC": "2026-11-05T00:09:50.489391+00:00",
+  "keys": [
+    "coverage",
+    "created_at",
+    "durability_receipt_sha256",
+    "expires_at",
+    "identity_scope_sha256",
+    "producer_policy_sha256",
+    "publication",
+    "publication_sha256",
+    "r0_identity_sha256",
+    "rights_authority_sha256",
+    "rights_receipt_sha256",
+    "rows",
+    "schema_version",
+    "season",
+    "state",
+    "week"
+  ],
+  "meta": {
+    "created_at": "2026-11-02T22:22:32.942832+00:00",
+    "durability_receipt_sha256": "7f2f475659d0d805c742c77dd62d4a7d38961e665926a84f60fd14a7219a4030",
+    "expires_at": "2026-11-03T01:15:00+00:00",
+    "identity_scope_sha256": "b06d06d93ae16d2878a2bdbbdc989bcc5fe87dcdf5b072870913f5f82e03cc0d",
+    "producer_policy_sha256": "f5b74b181934e26cb33a717897fdbfe10ddef5212f0dde80d0dac30759f06592",
+    "publication_sha256": "dd8d1e2aa47076d88e091a93d518acf42a714bca3f84a377d2b2c28c64184701",
+    "r0_identity_sha256": "a21ccd21ad395da3487c5e084ab2865c54a357a191419cc4da9ce31c19f83660",
+    "rights_authority_sha256": "e88955f3bfb4496180851c803a17bd8b5a25f39df3bdcbf34458659bdcc49069",
+    "rights_receipt_sha256": "dc0278624b7a0f3f44958d62b1c62ae607cacd295f23fd6c844124780d03c7c6",
+    "schema_version": "weekly-derived-selected-feed-v2",
+    "season": 2026,
+    "state": "DERIVED_SELECTED_ONLY",
+    "week": 8
+  },
+  "rows": 143,
+  "count_a_rows": 0,
+  "sample_public_fields": [
+    {
+      "category": "pass_yd",
+      "method_id": "P2_SELECTED",
+      "model_version": "35d3d9ce21145f5133936a4ec080e3ef6959482b1c58619caa04b390cdb29557",
+      "procedure_version": "2ced2a3d88822d200dec59bb6485356044b8733353c87c91f3fa6825f963ba12",
+      "product": "point_median",
+      "prediction_functional": "intended_median",
+      "forecast_value": 102.0,
+      "issued_at": "2026-11-02T22:12:07.864309+00:00",
+      "persistence_completed_at": "2026-11-02T22:22:25.008796+00:00",
+      "source_cutoff_utc": "2026-11-02T23:45:00+00:00",
+      "valid_until_utc": "2026-11-03T01:15:00+00:00"
+    },
+    {
+      "category": "pass_yd",
+      "method_id": "P2_SELECTED",
+      "model_version": "35d3d9ce21145f5133936a4ec080e3ef6959482b1c58619caa04b390cdb29557",
+      "procedure_version": "2ced2a3d88822d200dec59bb6485356044b8733353c87c91f3fa6825f963ba12",
+      "product": "point_median",
+      "prediction_functional": "intended_median",
+      "forecast_value": 216.0,
+      "issued_at": "2026-11-02T22:12:07.867583+00:00",
+      "persistence_completed_at": "2026-11-02T22:22:25.008796+00:00",
+      "source_cutoff_utc": "2026-11-02T23:45:00+00:00",
+      "valid_until_utc": "2026-11-03T01:15:00+00:00"
+    }
+  ],
+  "raw_model_or_raw_football_rows_retained": false
+}

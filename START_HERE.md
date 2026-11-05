@@ -1,3 +1,5 @@
+Current continuation: [POST-WAVE-5W-v1 diagnosis, exact-product qualification and Count A delivery disposition](reports/post-wave-5w-v1/README.md). The original Week 8 capture is fully final-graded (1,532 played / 981 unknown / 0 pending); historical partial/pending notes below remain preserved. Five-week duration is not primary admission. No new Count A/C paper packet has been issued.
+
 # Week 8 results to date — actual-prop status first
 
 Original pregame actual-line selections: **none**. Qualified Week 8 exact-line replays: **none**. No real-line hit rate or higher-performing selected side is established for any category. Prices and entry payouts are not the missing gate. The original v4 forecast capture remains unchanged.

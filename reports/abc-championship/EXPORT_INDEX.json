@@ -156,5 +156,39 @@
         "SHA256": "c211183f725a0517e291729e86a2420730b5c506ca93791848d9a36a698b09b9"
       }
     }
+  },
+  "post_wave_5w_v1": {
+    "assignment": "POST-WAVE-5W-v1",
+    "report": {
+      "path": "reports/post-wave-5w-v1/README.md",
+      "SHA256": "1495b5014e3a9aa8dc183b7462e4c31d007b93afcfc27095491801823094ec1c"
+    },
+    "qualification": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "b993b2b3dd56c163db08d1c47d079b835bc5d0e52ac9f3cfb9df1510fa07ee17"
+    },
+    "CSV": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.csv.gz",
+      "SHA256": "9eb6c535f1339b8d15242b486f21fd6429bcea54f6b132a61a9887ad3651c55e"
+    },
+    "trace": {
+      "path": "reports/post-wave-5w-v1/MODEL_INPUT_TRACE.json",
+      "SHA256": "f59fdc4db380640908274c520eb93160cc9c43bd157991437341864f58181b2d"
+    },
+    "CountA_delivery": {
+      "path": "reports/post-wave-5w-v1/COUNT_A_DELIVERY_DISPOSITION.json",
+      "SHA256": "8ee51b0d8fba7adcff99b2405c712a68b191b7fa8a1ad467558c9191e874fa5d"
+    },
+    "source_admissions": {
+      "path": "reports/post-wave-5w-v1/SOURCE_DISPOSITIONS.json",
+      "SHA256": "8e8678e1f62330b9f66e7cdbbf19bdb0fefa84f3d982e50e3c95be457edb416f"
+    },
+    "independent": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_VERIFICATION.json",
+      "SHA256": "ad24fdc51ae3dd28d0a0540a4931f4b777c34a62373220131922159e6477b46b"
+    },
+    "current_producer_capture": "NONE_NEW;originalv4unchanged",
+    "CountA_owner_route_status": "Cdispositionpublished;actualAproducerdeliveryandconsumeracknotreceived",
+    "new_fits": "0football;1softwarepositivecontrol;notNFLweeks"
   }
 }

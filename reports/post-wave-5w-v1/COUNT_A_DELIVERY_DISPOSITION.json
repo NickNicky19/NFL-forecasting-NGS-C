@@ -1,0 +1,104 @@
+{
+  "id": "C-COUNT-A-MEAN-DELIVERY-CHECK-5W-v1",
+  "checked_UTC": "2026-11-05T00:39:08.322919+00:00",
+  "producer_owner": "A;existingregisteredproducer,notC",
+  "consumer_owner": "Originalproductionowner",
+  "product": "pass_td__COUNT_A_MEAN",
+  "procedure_sha256": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+  "qualification_row_id": "be5822ee8a6a607e6735c23807575a97b6bfe70f6d02e7b0c1c39787d25d9e98",
+  "duration_floor": "MET",
+  "scored_season_weeks": [
+    [
+      2026,
+      1
+    ],
+    [
+      2026,
+      2
+    ],
+    [
+      2026,
+      3
+    ],
+    [
+      2026,
+      4
+    ],
+    [
+      2026,
+      5
+    ],
+    [
+      2026,
+      6
+    ],
+    [
+      2026,
+      7
+    ]
+  ],
+  "scored_cases": 142,
+  "own_sides": {
+    "OVER": {
+      "wins": 43,
+      "losses": 31,
+      "decided": 74,
+      "rate": 0.581081081081081
+    },
+    "UNDER": {
+      "wins": 44,
+      "losses": 24,
+      "decided": 68,
+      "rate": 0.6470588235294118
+    },
+    "COMBINED": {
+      "wins": 87,
+      "losses": 55,
+      "decided": 142,
+      "rate": 0.6126760563380281
+    }
+  },
+  "source": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+  "rights": "Publishedowner-localaggregatesandpublictechnicalreceipt;privatefit/featuresnotrestoredbyC",
+  "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_CHRONOLOGICAL_RECONSTRUCTION",
+  "training_history": "Exactproducer-boundhistorynotexpandedinpublicCSV;notassumedMULTI",
+  "strongest_matched_model_control": "Leafmedian85/142vsCountA87/142,+2;gameclusterintervalcrosses0;ownerpublicreceipt;notprivateCparity",
+  "fallback": "Zeroofferedhistoricalfallbackcases;no claimthatfallbackperformanceisvalidated;learnedmean/prior-MEAN/incumbentreferencemustremaindistinct",
+  "model_receipt": {
+    "CELL_zip_SHA256": "5f55367c9f3389dbbe713b1aa95e691e77602cde99bf8e5ff657554a2d5a6a36",
+    "MODEL_joblib_SHA256": "4d277e3e3986d712a86d9a55019e35f2e5b5c58d6f4f411af0a0abc65da1b62d",
+    "model_bytes_restored_by_C": false,
+    "corrected_mean": "FORECASTS.parquet.point",
+    "do_not_use": [
+      "legacy_point:mixedfallback",
+      "mean:NaN",
+      "barepredict:mean-correctoromitted/medianfallbackpossible"
+    ],
+    "mean_corrector": "Required existing trained-prior-MEANcorrector; exactcode/artifactbindingnotreceivedbyC"
+  },
+  "route": {
+    "repository": "NickNicky19/NFL-forecasting",
+    "branch": "lab-state",
+    "head": "275aa84b27c4239d3b2dfea07755734d9db0ac7c",
+    "registered_path": "state/public/weekly-adaptive-v1/2026-W09",
+    "path_status": "404_AT_VERIFIED_HEAD;parentexistswithW07/W08",
+    "current_export": "NOT_RECEIVED",
+    "latest_available_W8": "LAB_W8_PUBLIC_EXPORT_METADATA.json",
+    "W8_rows": 143,
+    "W8_CountA_rows": 0,
+    "W8_expired_UTC": "2026-11-03T01:15:00+00:00",
+    "W8_is_current_CountA": false
+  },
+  "consumer_receipt": {
+    "url": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-6642441018",
+    "created_UTC": "2026-11-04T21:22:14Z",
+    "superseding_comment": "None on latest checked discussionpage;notfuturepromise",
+    "status": "BLOCKED_NOT_ADMITTED;0newactivations",
+    "retained": "PROD_COMMENT_6642441018.json.gz"
+  },
+  "next_action": "Arestorescompleteexistingprocedurewithcorrector,demonstratesretained-caseandfreshcurrent-adapterparity,publishespermittedderivedrowsplusrealclocksandeligibility/side/rank/role/fallback/expiryontheexistingadmittedroute. Ccanthenvalidaterows;original-siteowneracknowledges/admitsthroughitsroute.",
+  "actual_delivery": "NOT_DELIVERED_BY_C;NO_CURRENT_ARTIFACT_TO_VALIDATE;PUBLISHED_DISPOSITION_IS_NOT_PRODUCER_DELIVERY",
+  "not_required": "Noblanketrefit,newgeneraldeploymentpermission,fivenewfutureweeks,privatecredentialorpublicmodeltransfer",
+  "next_event_status_reference": "CURRENT_EVENT_STATUS_REGISTERED_ROUTE.json",
+  "primary_probability_or_EV": "NOT_ESTABLISHED_BY_POINT_PRODUCT"
+}

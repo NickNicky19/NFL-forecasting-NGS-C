@@ -1,0 +1,233 @@
+{
+  "review_id": "C-POST-WAVE-5W-INDEPENDENT-v1",
+  "created_UTC": "2026-11-05T00:39:26.221530+00:00",
+  "state": "PASS_WITH_RETAINED_SOURCE_LIMITS_AND_SCOPED_CORRECTIONS",
+  "scope": "Independent C read-only audit; no A/B model re-inference or acknowledgement",
+  "model_trace": {
+    "models": 20,
+    "equivalent_origin_groups": 8,
+    "variable_new_value_fields_confirmed": 12,
+    "fitted_new_value_splits": 0,
+    "player_targets5_support_used_in_all_share_models": true,
+    "semantic_tree_hash_rule": "Features mapped to named columns and leaves to LEAF; threshold metadata normalized int/float only; canonical hash matches retained trace.",
+    "training_origin": "2026-W02",
+    "training_checks": [
+      {
+        "arm": "S0",
+        "rows": 19623,
+        "columns": 41,
+        "fingerprint_match": true,
+        "imputation_and_all_field_stats_match": true
+      },
+      {
+        "arm": "S1",
+        "rows": 19623,
+        "columns": 43,
+        "fingerprint_match": true,
+        "imputation_and_all_field_stats_match": true
+      },
+      {
+        "arm": "C0",
+        "rows": 19623,
+        "columns": 32,
+        "fingerprint_match": true,
+        "imputation_and_all_field_stats_match": true
+      },
+      {
+        "arm": "C1",
+        "rows": 19623,
+        "columns": 36,
+        "fingerprint_match": true,
+        "imputation_and_all_field_stats_match": true
+      },
+      {
+        "arm": "C2",
+        "rows": 19623,
+        "columns": 37,
+        "fingerprint_match": true,
+        "imputation_and_all_field_stats_match": true
+      }
+    ],
+    "source_cutoff": "All training outcomes available strictly before first weekly kickoff under retained7day policy. Existing feature builders reused, independent fingerprint/median/stat calculations; no football fits.",
+    "prior_audit": "Full2524query featurevectors/44170primitiveprobabilities/futuremutation checks retained from previous independent audit; not counted as new NFL evidence.",
+    "new_value_query_column_stats_independently_recomputed": 12,
+    "source_query_variation_includes_raw_held_rows": "Held22new-query identity rows remain unqualified in actual-line scores; raw feature-trace samples are not additional football outcomes."
+  },
+  "software_positive_control": {
+    "fit_count": 1,
+    "football_fits": 0,
+    "qualifying_football_weeks": 0,
+    "split_column": 42,
+    "split_count": 32,
+    "independent_CDF3_low": 0.8933639057581193,
+    "independent_CDF3_high": 0.10663609424188068,
+    "retained_failure": "Initial metadata hash assertion failed after toy save; source attempt/code/CPU16second charge preserved. Toy bytes reused unchanged and no second fit performed.",
+    "retained_failed_trace_code_hash_verified": true
+  },
+  "Count_A": {
+    "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+    "qualified_scored_weeks_at_source_tier": [
+      [
+        2026,
+        1
+      ],
+      [
+        2026,
+        2
+      ],
+      [
+        2026,
+        3
+      ],
+      [
+        2026,
+        4
+      ],
+      [
+        2026,
+        5
+      ],
+      [
+        2026,
+        6
+      ],
+      [
+        2026,
+        7
+      ]
+    ],
+    "week_decided": [
+      9,
+      25,
+      24,
+      23,
+      5,
+      28,
+      28
+    ],
+    "Over": {
+      "wins": 43,
+      "losses": 31,
+      "decided": 74,
+      "rate": 0.581081081081081
+    },
+    "Under": {
+      "wins": 44,
+      "losses": 24,
+      "decided": 68,
+      "rate": 0.6470588235294118
+    },
+    "combined": {
+      "wins": 87,
+      "losses": 55,
+      "decided": 142,
+      "rate": 0.6126760563380281
+    },
+    "games": 78,
+    "tier": "Timing-unverified A owner-local actual-line aggregate arithmetic only",
+    "scope": "QB/all eligible archived P1 corrected mean product; seven scored weeks pass necessary duration floor, not proof of superiority/production admission.",
+    "production_comment": {
+      "id": 6642441018,
+      "body_hash_verified": true,
+      "model_bytes_executed_by_C": false
+    },
+    "lab_metadata": {
+      "rows": 143,
+      "Count_A_rows": 0,
+      "state": "DERIVED_SELECTED_ONLY",
+      "created_at": "2026-11-02T22:22:32.942832+00:00",
+      "expires_at": "2026-11-03T01:15:00+00:00"
+    },
+    "constraints": "Corrected point, legacy fallback and NaN mean remain distinct. No bare-predict substitution. Operational producer export/restoration/mean-corrector identity and consumer parity remain required."
+  },
+  "limits": [
+    "Unused columns under these fixed trees do not prove causal redundancy or that all NGS/representations are ineffective.",
+    "Five distinct scored exact-procedure/target/output/role/policy weeks is necessary only; do not borrow training/fold/parent/other-model weeks or count zero-selected/unresolved weeks.",
+    "Source chronology/publication permissions and private A/B joins retain their existing evidence tier.",
+    "No repository edits, network, football fits or unsafe model deserialization. Safe primitive JSON fields inspected inertly."
+  ],
+  "qualification_initial_review": {
+    "profiles_internal_arithmetic_verified": 7165,
+    "distinct_profile_week_records": 25378,
+    "bound_source_hashes_verified": 19,
+    "owner_floor_counts": [
+      {
+        "owner": "A",
+        "floor": "MET",
+        "profiles": 114
+      },
+      {
+        "owner": "A",
+        "floor": "NOT_MET",
+        "profiles": 482
+      },
+      {
+        "owner": "B",
+        "floor": "NOT_MET",
+        "profiles": 3621
+      },
+      {
+        "owner": "C",
+        "floor": "MET",
+        "profiles": 1967
+      },
+      {
+        "owner": "C",
+        "floor": "NOT_MET",
+        "profiles": 981
+      }
+    ],
+    "defect_before_correction": "A pass_att DEPTH_CDF mean/median W7 selected incorrectly28 vs0; cumulative publicsource says28missing/115selected. Duration6weeks correct;zero-selection/unavailability projection requires scoped correction.",
+    "state": "SUPERSEDED_BY_FINAL;initial_scope_and_found_defect_preserved",
+    "B_new_source_clock_bound_triads_independently_reconciled": 2372,
+    "C01_exact_product_role_policy_profiles_source_reconciled": 60,
+    "C01_duration": "Actual-line/proper-score profiles2weeks;synthetic-grid profiles4distinctweeks;neither meets5. No borrowed parent/training/fold weeks."
+  },
+  "qualification_final": {
+    "product_profiles": 7272,
+    "distinct_profile_week_records": 25649,
+    "by_owner": {
+      "A": 596,
+      "B": 3694,
+      "C": 2982
+    },
+    "floor_states": {
+      "MET": 2081,
+      "NOT_MET": 5191
+    },
+    "zero_selection_week_records": 1031,
+    "unresolved_only_week_records": 0,
+    "bound_source_hashes_verified": 26,
+    "A_archived_source_profiles_reconciled": 79,
+    "A_selected_projection_correction": "RESOLVED:DEPTH_CDFmean/medianW7is0selected/28technicalunavailable/zero-selection week;6scoredweeks retained. Earlier finding preserved.",
+    "C_original_v4_forecast_only_profiles": 34,
+    "C_original_v4_scored_weeks_each": 1,
+    "C_original_v4_actual_line_selections": 0,
+    "B_ALL64_profiles_after_narrow_alias_merge": 128,
+    "B_ALL64_scored_weeks_each": 2,
+    "B_alias_scope": "Only registered terminalW2/W3aliases for same procedure/product/role/history/policy/evidence; exact original weekly counts independently checked; ALLcumulative excluded.",
+    "new_B_side_triads_total": 2444,
+    "extra_B_matched_source_views": 216,
+    "extra_B_matched_triads_checked": 72,
+    "extra_B_reference_source_views": 72,
+    "extra_B_reference_weekly_views_checked": 54,
+    "extra_B_reference_cumulative_views_not_counted": 18,
+    "extra_B_ancillary_unchanged_mean_profile": 1,
+    "B_extension_files": 6,
+    "B_extension_uncompressed_bytes": 1292473,
+    "B_extension_unchanged_cap_bytes": 2097152,
+    "B_COMMON_extension": "Unreceived/unadmitted;automaticreview rejectedoriginal8filerequestovercap.Reduced6filesubsetfitscap.No claimed COMMONscoring.",
+    "all_twelve_category_summaries_match_same_rows": true,
+    "new_primary_replacements": 0
+  },
+  "bindings": {
+    "reports/post-wave-5w-v1/MODEL_INPUT_TRACE.json": "f59fdc4db380640908274c520eb93160cc9c43bd157991437341864f58181b2d",
+    "reports/post-wave-5w-v1/SYNTHETIC_PATH_POSITIVE_CONTROL.json": "2f0e77922233100313c78a97de248037c4576469e08b5a1b7348a6bac655a346",
+    "reports/post-wave-5w-v1/TRACE_ATTEMPTS.json": "f2806715522a0a18ea334e9a0bce719344e7967687bf9a6e1eecf9121c5cb17b",
+    "protocol/POST_WAVE_5W_V1.md": "63108b552022ab9eb8e11059bd49aee9407074154b984aefd4687e6b5045bfbe",
+    "src/five_week_qualification.py": "1c738400fa8a67df51a8de15464b31175e7ad660bcd0cfaa77c6a6221b06bc93",
+    "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz": "b993b2b3dd56c163db08d1c47d079b835bc5d0e52ac9f3cfb9df1510fa07ee17",
+    "reports/post-wave-5w-v1/QUALIFICATION_RUN.json": "599bc8f03638c450441959b09c6c0c564b71df1419f6ac11d496e3404e9b21a3",
+    "reports/post-wave-5w-v1/B_REDUCED_EXTENSION_RECEIPTS.json": "94ecea7d4ea83c172d396a7b5c40636ffc9a9f4d3c559458430755e413b4c5fc"
+  }
+}
