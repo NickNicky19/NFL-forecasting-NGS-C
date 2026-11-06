@@ -47,7 +47,7 @@ for sha in commits:
     entries=[]
     for line in git('diff-tree','--no-commit-id','--name-status','-r',parent,sha).decode().splitlines():
         status,path=line.split('\t',1)
-        assert path.startswith(('AGENTS.md','START_HERE.md','protocol/','reports/','sources/','src/','tests/','prospective/','docs/','scripts/')),'UNEXPECTED_C_PUBLICATION_PATH'
+        assert path.startswith(('AGENTS.md','START_HERE.md','protocol/','reports/','sources/','src/','tests/','prospective/','docs/','scripts/','.github/workflows/c-checks-pages.yml')),'UNEXPECTED_C_PUBLICATION_PATH'
         if status=='D':entries.append({'path':path,'mode':'100644','type':'blob','sha':None});continue
         row=git('ls-tree',sha,'--',path).decode();left,_=row.split('\t');mode,kind,blob=left.split();assert kind=='blob'
         if blob not in known:

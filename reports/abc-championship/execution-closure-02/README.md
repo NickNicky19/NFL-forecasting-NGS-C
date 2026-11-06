@@ -1,3 +1,19 @@
+# Audit-remediation update — C scope
+
+The exact November5 audit index is pinned by AUDIT_SOURCE.json (original TXT SHA256720b464f8077d3a483a4a73245690071866b7757fb6d20763c2ea8d931061795). The publicly retained derivative redacts six private Library locators; it is not claimed byte-identical to the original. No unavailable reproduction ZIP or separate Astra archive was executed. FINDING_RUNTIME_LEDGER.json is the single owner-specific finding/runtime record.
+
+C reproduced and corrected the dormant NaN grading/Brier counterexamples. The independent check found zero transitions among19721 canonical rows and18578 finite selected strict grades; no current scored nonfinite actual exists. This is a software correctness repair, **not a forecasting accuracy gain** or a new set of NFL observations. Original W8 capture bytes remain unchanged.
+
+C's new actual publication failure was also reproduced: PR30run42133503560 rejected a stale exact-offer projection and its hardcoded old forward-manifest hash. The scoped repair regenerates the zero-offer projection and binds the validated current manifest; three corruption checks still reject. No tests or source guards are skipped. Reviewed/merged/served states remain pending until explicit receipts below.
+
+The original-site owner already superseded the older browser failure with successful required integrity/capture run42129928866 atsource928589be2691f0dc33f107a410e98a05992d9425. Current original-site mainfe369c7462e4e4f290727b2d03b696d28ef5454b and November5 23:32baseline data are newer than the audit pin. Its bound overlay still haszero replacement rows andDISABLED_USE_R0. C has not verified or repaired its presence-aware grading path; A2/A3 remain with the original owner, including unknown historical compaction impact. A's actual main53b05f and last scheduled failure42101389919 are unchanged. Static guard strings are not newly observed private-storage failures.
+
+The previously closed feature-no-use diagnosis stays closed and CMP/ATT blocks stay active. The1193/2313 omitted latest histories remain a reported coverage limitation, not a measured accuracy penalty. One source/model-bound reception query-only timing shadow is registered with0fits and27queries; it will compare observed-prefix versus seven-day proxy input to the **same** retained model. This does not certify aligned historical retraining or authentic past source vintages. Any new future comparison remains pending until its own real persistence and later outcomes.
+
+The prior category/product decisions below remain exposed source-panel review contributions. No product is promoted on an unresolved affected source/history/grade path. Duration-qualified candidates do not lose unaffected test weeks automatically. A's producer/history impact and original-site historical grade corrections require their actual owners and recoverable source evidence; no corrected win count is invented. The distinct Astra v10 owner/package route remains unidentified/unavailable to C; its reported negative mixture result and market-assisted attribution finding are retained without claiming C re-execution.
+
+---
+
 # EXECUTION-CLOSURE-02 — executed C contribution
 
 C adopted the exact research document (0204eed08e98388c406d0a8768bfc79241e3f8173faec18096e46d6b069fc815). The production companion is reference-only for C. This continues the existing championship and scorer; it creates no production takeover or competing selector replay.

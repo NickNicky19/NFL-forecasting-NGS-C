@@ -12,14 +12,16 @@ def probability_side(under,push,over):
 
 def grade(side,actual,line,state='PLAYED'):
  if state!='PLAYED':return state
- if actual is None:return 'MISSING_ACTUAL'
+ if actual is None or not math.isfinite(actual):return 'MISSING_ACTUAL'
+ if line is None or not math.isfinite(line):return 'UNAVAILABLE'
  if side=='UNAVAILABLE':return 'UNAVAILABLE'
  if side=='ABSTAIN':return 'ABSTAIN'
  if actual==line:return 'PUSH'
  return 'WIN' if (actual>line)==(side=='OVER') else 'LOSS'
 
 def brier(under,push,over,actual,line):
- probability_side(under,push,over)
+ if probability_side(under,push,over)=='UNAVAILABLE':return None
+ if actual is None or not math.isfinite(actual) or line is None or not math.isfinite(line):return None
  truth=[float(actual<line),float(actual==line),float(actual>line)]
  return .5*sum((p-y)**2 for p,y in zip([under,push,over],truth))
 

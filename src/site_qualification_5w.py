@@ -21,6 +21,11 @@ def project():
     rows=[]
     for r in records:
         q={k:r[k] for k in fields if k in r}
+        if r['owner']=='B' and r['category']=='rush_att' and 'hgb-direct-history-controls-v1:absolute_error_point' in r['procedure_id']:
+            q['operational_export']='INELIGIBLE_HISTORICAL_DEGENERATE_HGB_VERSION;NO_PRIMARY_PROMOTION'
+            q['remaining_gates']='Audit C-F1: original pooled absolute-loss collapse; retain scores as invalidated evidence. Separately named Poisson/role repairs retain their own tested losses and are not collapsed into this version.'
+        if r.get('named_delivery_product')=='pass_td__COUNT_A_MEAN':
+            q['remaining_gates']=str(q.get('remaining_gates',''))+'; A owner must bind exact active history/corrector path and resolve any affected clock/ordering semantics before producer admission; no blanket claim that frozen scores are contaminated.'
         q['selected']=sum(w['selected'] or 0 for w in r['week_records']) if r['week_records'] else None
         q['eligible']=sum(w['eligible'] or 0 for w in r['week_records']) if r['week_records'] else None
         rows.append(q)
