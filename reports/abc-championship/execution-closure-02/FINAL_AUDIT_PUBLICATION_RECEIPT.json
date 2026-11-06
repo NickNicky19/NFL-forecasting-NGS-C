@@ -1,0 +1,178 @@
+{
+  "revision": "AUDIT-REMEDIATION-20261105-v1 / C final publication receipt",
+  "scope": "Session C only; additive to the existing championship and exact EXECUTION-CLOSURE-02 continuations.",
+  "audit_source": {
+    "original_TXT_SHA256": "720b464f8077d3a483a4a73245690071866b7757fb6d20763c2ea8d931061795",
+    "source_record": "reports/abc-championship/execution-closure-02/AUDIT_SOURCE.json",
+    "public_derivative_is_not_original_bytes": true
+  },
+  "C_repairs": [
+    {
+      "finding": "D6 dormant non-finite helper",
+      "state": "REPRODUCED_CORRECTED_INDEPENDENTLY_VERIFIED_MERGED",
+      "path": "src/selection.py",
+      "before": "UNDER with NaN actual returned WIN; Brier returned0.25.",
+      "after": "Missing/non-finite actual returns MISSING_ACTUAL; undefined proper score returns null. Invalid line is unavailable; valid zero/signed/fractional cases remain valid.",
+      "canonical_revalidation": {
+        "rows": 19721,
+        "finite_selected_strict_grades": 18578,
+        "grade_transitions": 0,
+        "scored_nonfinite_actuals": 0
+      },
+      "qualification_effect": "No affected C canonical scored week reset; this is not an accuracy gain."
+    },
+    {
+      "finding": "Current site exact-offer projection binding",
+      "state": "REPRODUCED_CORRECTED_INDEPENDENTLY_VERIFIED_MERGED_SERVED",
+      "path": "src/site_paper_v5.py",
+      "failed_run": 42133503560,
+      "repair": "Regenerate zero-offer projection and bind current validated forward manifest; keep immutable original RUN/forecast guards and corruption rejection.",
+      "real_offers": 0,
+      "paper_selections": 0,
+      "original_predictions_changed": 0
+    },
+    {
+      "finding": "335-offer carry caption",
+      "state": "CORRECTED_MERGED_SERVED_VERIFIED",
+      "path": "docs/championship.js",
+      "correct_scope": "335 mixed-position carry offers;239RB offers belong to a separate panel. Other roles stay source-specific.",
+      "score_changes": 0
+    },
+    {
+      "finding": "Timing-shadow restoration equality",
+      "state": "CORRECTED_MERGED_CI_VERIFIED",
+      "failed_run": 42138313661,
+      "successful_replay_run": 42139123744,
+      "measured_replay": {
+        "different_means": 6,
+        "max_absolute_difference": 8.881784197001252e-16,
+        "weight_differences": 0
+      },
+      "repair": "Existing prospective mean tolerance; empirical weights absolute bound1e-14; identities/contracts/support/priors/medians/flags/hashes stay exact. Saved bytes are unchanged.",
+      "first_failed_runner_magnitudes_not_logged": true
+    },
+    {
+      "finding": "CMP/ATT coherence",
+      "state": "CONTAINED_GUARDS_PRESERVED",
+      "scope": "Prior10 contradictory QB pairs remain blocked. New marginal-order checks do not establish a joint law or a new qualified selection policy.",
+      "original_wagers_claimed": false
+    },
+    {
+      "finding": "C value-feature no-use diagnosis",
+      "state": "CLOSED_REUSED",
+      "scope": "Values reached training but obtained no value splits. No forced usage, repeat fit or new NGS improvement claimed."
+    }
+  ],
+  "current_C_delivery": {
+    "event": "2026_09_JAX_BAL",
+    "native_event_id": "401873037",
+    "scheduled_kickoff_UTC": "2026-11-06T01:15:00Z",
+    "original_batch": {
+      "forecast_rows": 203,
+      "roster_candidates": 33,
+      "categories": 12,
+      "forecast_commit": "0496ad9ddc233c0dca1e18a381afcc00fcaf5a50",
+      "server_run": 42130181998,
+      "server_completed_UTC": "2026-11-05T23:34:29Z",
+      "earliest_lead_seconds": 6031,
+      "admission": "SHADOW_FORECAST_ONLY_NOT_PRIMARY_REPLACEMENT",
+      "candidates_are_not_confirmed_starters": true
+    },
+    "timing_comparison": {
+      "path": "prospective/shadows/AUDIT-D2-C-REC-W09-01",
+      "rows": 27,
+      "overlaps_original_batch": true,
+      "created_UTC": "2026-11-06T00:17:30.313386+00:00",
+      "server_commit": "b24b05401714d65bec6516d26defaf1aa8bc4866",
+      "server_completed_UTC": "2026-11-06T00:21:40Z",
+      "server_run": 42136069679,
+      "lead_seconds": 3200,
+      "feature_changes": 27,
+      "mean_changes": 26,
+      "median_changes": 2,
+      "new_fits": 0,
+      "CPU_seconds": 7.511100461999999,
+      "interpretation": "Query-only observed-prefix versus seven-day-proxy comparison using one fixed model. Not aligned historical retraining, authentic historical clocks, extra independent games, or measured accuracy improvement."
+    },
+    "outcomes": "PENDING_AT_THIS_CHECKPOINT; do not grade unplayed/nonfinal games.",
+    "actual_offers": 0,
+    "qualified_paper_selections": 0,
+    "six_leg_state": "NO_QUALIFIED_SIX_LEG_ENTRY",
+    "status_freshness": "Static status checks expire after30minutes; site marks expiry. No quote or source clock is refreshed by HTML deployment."
+  },
+  "served_state": {
+    "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+    "actual_served_commit": "0fd349324d7021022d8b374c20deb634583fe717",
+    "Pages_run": 42139868482,
+    "event": "C-only manual workflow_dispatch",
+    "checks": "SUCCESS",
+    "deployment": "SUCCESS",
+    "build_UTC": "2026-11-06T00:53:12.008818+00:00",
+    "proof": "24 public TLS assets including all12 forecast payloads verified atb60. Final build/caption/HTML/unchanged forward-manifest verified after0fd deployment; all12 forecast data hashes remain unchanged.",
+    "rendered": "Local mirror of verified public bytes passed twelve-category parity; independent four-category values/models/contracts/Chicago-clock checks; corrected caption and12category rows checked at390px without global overflow.",
+    "direct_public_Chromium_TLS": "NOT_VERIFIED;no trust-store change",
+    "no_original_site_modifications": true,
+    "primary_replacements": 0
+  },
+  "peer_dependencies": [
+    {
+      "owner": "A/registered producer",
+      "action": "Bind existing history availability/order repair into the exact authorized producer; trace affected training/query/model semantics; finish current-source/current-query CountA corrected-mean feed. Local restoration/parity is already complete.",
+      "latest_lab_state": "275aa84b27c4239d3b2dfea07755734d9db0ac7c",
+      "Week9_feed": "Absent on refreshed public route; not proof model missing."
+    },
+    {
+      "owner": "Original website owner",
+      "action": "Integrate presence-aware null/zero/composite grading and missing-TD serialization repair; quantify historical transitions only from retained source presence; execute exact changed Top Picks replay and eligible product admission.",
+      "browser_failure": "Superseded by successful required integrity/capture run42129928866; baseline overlay remains DISABLED_USE_R0 with0replacement rows.",
+      "historical_presence_impact": "UNKNOWN where old compaction destroyed evidence; no corrected win count invented."
+    },
+    {
+      "owner": "B",
+      "action": "Retain exclusion of original collapsed rush-att absolute-loss versions; verify corrected grades and learned/learned versus fallback effects; preserve failed repairs/ranker and0selection90% gate."
+    },
+    {
+      "owner": "Actual authorized Astra v10 artifact owner NOT_ESTABLISHED",
+      "action": "Identify existing approved artifact/handoff route. No package was supplied or executed byC; preserve audit's verified negative mixture result and market-assisted attribution/support findings.",
+      "package_reported_SHA256": "3671d46efed72596c3e22d38d63434bf148eec037f93d36f306fc004f7ee77e0"
+    }
+  ],
+  "preservation": {
+    "original_W8_forecasts": 2513,
+    "original_W8_candidates": 407,
+    "captured_W8_games": 13,
+    "final_W8_graded": 1532,
+    "W8_participation_unknown": 981,
+    "W8_pending": 0,
+    "original_C_actual_line_selections": 0,
+    "old_grades_receipts_failures_preserved": true,
+    "archived_UI_overlay": "Earlier explicitly ARCHIVED partial Week8 overlay remains separate from final championship panel; not relabeled as final."
+  },
+  "retention": {
+    "route": "GitHub only",
+    "restoration": "Eight fresh artifact readbacks plus four original receipt byte checks; restored safe JSON rec model reproduces27 original predictions. Two separately registered new-shadow server byte checks.",
+    "existing_receipts": [
+      "GITHUB_RESTORATION_RECEIPT.json",
+      "PUBLIC_BYTE_MIRROR_RENDERED.json",
+      "EXACT_SERVED_ASSETS.json",
+      "AUDIT_INDEPENDENT_VERIFICATION_FINAL.json"
+    ],
+    "environment_loss": "Execution environment became unavailable after final serving checks. This is a compact retained attestation from completed tool/verifier results; last local-only expanded serving JSONs were not recovered byte-for-byte and are not claimed restored.",
+    "independent_final_message_attestation": {
+      "categories": [
+        "pass_yd",
+        "rec",
+        "anytime_td",
+        "fpts"
+      ],
+      "typed_values_models_contracts_and_missing_lines": "PASS",
+      "exact_Chicago_clocks": "PASS",
+      "mobile390_no_global_overflow": "PASS",
+      "not_A_B_acknowledgement": true
+    },
+    "resource_note": "Failed first timing diagnostic exceeded its30CPU cap before outputs; failure remains preserved. Its120CPU accounting allocation is not an exact measured final duration. No cap reset, unique-evidence deletion, purchase or new football fit occurred for recovery. Successful routine future fits consumed59.928CPU seconds; recovered timing query consumed7.511CPU seconds.",
+    "last_local_whole_C_bytes": 2674182383,
+    "whole_C_cap_unchanged": 2684354560
+  },
+  "ranking_limit": "Current/historical championship remains partial. No actual-line result, five-week duration, weak probability score or tiny side maximum is promoted to a proven future or profitable champion."
+}
