@@ -44,7 +44,10 @@ def build(docs):
 def validate(docs):
     j=read(docs/'data/actual-props-v5.json');assert j==projection(),'OFFER_SITE_NOT_PARITY_WITH_VERIFIED_PACKETS'
     assert read(docs/'build.json')['actual_props_SHA256']==sha(docs/'data/actual-props-v5.json')
-    assert len(j['categories'])==12 and j['forward_manifest_SHA256']=='0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12','V4_DATA_UNEXPECTEDLY_CHANGED'
+    assert len(j['categories'])==12 and j['forward_manifest_SHA256']==sha(docs/'data/forward-manifest.json'),'FORWARD_PROJECTION_BINDING_MISMATCH'
+    # New immutable future batches legitimately change the site manifest. The
+    # original captures remain protected by their own RUN hashes and receipts.
+    # A projection-only refresh never creates a qualified offer or selection.
     print('EXACT_OFFER_SITE_PARITY',len(j['records']))
 
 if __name__=='__main__':

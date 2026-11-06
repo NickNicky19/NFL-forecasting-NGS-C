@@ -5,18 +5,31 @@ from pathlib import Path
 from predictive_information_c01 import ROOT,read,write,sha
 
 BASE=ROOT/'reports/post-wave-5w-v1'
+CURRENT=ROOT/'reports/abc-championship/execution-closure-02'
 SITE=ROOT/'docs/data/qualification-5w.json.gz'
 
 def project():
-    data=read(BASE/'QUALIFICATION_TABLE.json.gz')
+    base=CURRENT if (CURRENT/'QUALIFICATION_TABLE.json.gz').exists() else BASE
+    data=read(base/'QUALIFICATION_TABLE.json.gz')
+    records=list(data['rows'])
+    if data.get('profile_partitions'):
+        from execution_closure02 import b_profiles
+        assert len(data['profile_partitions'])==1
+        part=data['profile_partitions'][0];assert sha(ROOT/part['source']['path'])==part['source']['SHA256']
+        extra=b_profiles();assert len(extra)==part['rows'];records+=extra
     fields=['row_id','owner','procedure_id','category','product','role_scope','history','policy','source_panel','evidence_tier','scored_week_count','current_2026_scored_week_count','scored_cases','five_week_floor','operational_export','tested_season_weeks','zero_selection_weeks','unresolved_only_weeks','season_records','own_side_record','same_decided_constants','named_delivery_product','strongest_bound_model_control','remaining_gates','source_artifacts']
     rows=[]
-    for r in data['rows']:
+    for r in records:
         q={k:r[k] for k in fields if k in r}
-        q['selected']=sum(w['selected'] or 0 for w in r['week_records'])
-        q['eligible']=sum(w['eligible'] or 0 for w in r['week_records'])
+        if r['owner']=='B' and r['category']=='rush_att' and 'hgb-direct-history-controls-v1:absolute_error_point' in r['procedure_id']:
+            q['operational_export']='INELIGIBLE_HISTORICAL_DEGENERATE_HGB_VERSION;NO_PRIMARY_PROMOTION'
+            q['remaining_gates']='Audit C-F1: original pooled absolute-loss collapse; retain scores as invalidated evidence. Separately named Poisson/role repairs retain their own tested losses and are not collapsed into this version.'
+        if r.get('named_delivery_product')=='pass_td__COUNT_A_MEAN':
+            q['remaining_gates']=str(q.get('remaining_gates',''))+'; A owner must bind exact active history/corrector path and resolve any affected clock/ordering semantics before producer admission; no blanket claim that frozen scores are contaminated.'
+        q['selected']=sum(w['selected'] or 0 for w in r['week_records']) if r['week_records'] else None
+        q['eligible']=sum(w['eligible'] or 0 for w in r['week_records']) if r['week_records'] else None
         rows.append(q)
-    return dict(schema='ABC-PRODUCT-QUALIFICATION-5W-v1',generated_UTC=data['generated_UTC'],ledger_SHA256=sha(BASE/'QUALIFICATION_TABLE.json.gz'),rule=data['rule'],limits=data['limits'],categories=read(BASE/'TWELVE_CATEGORY_QUALIFICATION.json'),rows=rows)
+    return dict(schema='ABC-PRODUCT-QUALIFICATION-5W-v1',generated_UTC=data['generated_UTC'],ledger_SHA256=sha(base/'QUALIFICATION_TABLE.json.gz'),rule=data['rule'],limits=data['limits'],current_limits=data.get('current_limits'),profile_partitions=data.get('profile_partitions',[]),categories=read(BASE/'TWELVE_CATEGORY_QUALIFICATION.json'),rows=rows)
 
 def build():
     write(SITE,project());b=read(ROOT/'docs/build.json');b['qualification_5w_SHA256']=sha(SITE);write(ROOT/'docs/build.json',b)

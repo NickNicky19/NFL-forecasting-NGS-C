@@ -11,6 +11,26 @@ from coherence_v4 import state_for
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def dump(p,j):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(j,separators=(',',':'),allow_nan=False))
+def admission_for(root,run,m):
+    path=root/'metadata'/(m['run_id']+'-admission.json')
+    if not path.exists():return 'ORIGINAL_PROVISIONAL_CAPTURE;NO_PRIMARY_PROMOTION'
+    a=read_json(path)
+    assert a['run_id']==m['run_id'] and a['forecast_SHA256']==m['files']['forecasts.json.gz']['SHA256']
+    assert a['admission']=='SHADOW_FORECAST_ONLY_NOT_PRIMARY_REPLACEMENT' and a['qualified_actual_offers']==0
+    return a['admission']
+def refreshed_status(root,r,forecast_hash):
+    found=[]
+    for p in (root/'metadata').glob('STATUS_*.json'):
+        q=read_json(p)
+        if q['forecast_sources_SHA256'].get(r['run_id'])!=forecast_hash:continue
+        assert q['schema']=='C-FORWARD-STATUS-REFRESH-v1'
+        ev=next((e for e in q['events'] if e['game_id']==r['game_id']),None)
+        if ev:
+            assert ev['espn_event_id']==r['espn_event_id'] and ev['kickoff_UTC']==r['kickoff_UTC']
+            found.append(dict(status_observed_UTC=ev['observed_UTC'],current_event_state=ev['state'],current_event_permitted=True,source_status_refresh=str(p)))
+        elif any(e['game_id']==r['game_id'] for e in q['rejected']):
+            found.append(dict(status_observed_UTC=q['created_UTC'],current_event_state='REJECTED_CHANGED_OR_STARTED',current_event_permitted=False,source_status_refresh=str(p)))
+    return max(found,key=lambda q:q['status_observed_UTC']) if found else {}
 def display_and_primary(rows):
     latest={};first={}
     for r in rows:
@@ -31,11 +51,14 @@ def build(root,docs):
     captures=[];runs=[]
     for receipt_path in sorted((root/'receipts').glob('*.json')):
         proof=read_json(receipt_path);run=root/'runs'/proof['run_id'];m,rows=validate_run(run);persisted=validate_receipt(run,proof,m,rows)
+        admission=admission_for(root,run,m)
         source=read_json(run/'sources/SOURCE_MANIFEST.json');status=read_json(run/'status_before_persistence.json')
         status_at=max(s['observed_UTC'] for s in status['sources']);source_at=max(s['observed_UTC'] for s in source['sources'])
         for r in rows:
             keys=['forecast_id','run_id','game_id','event_version','espn_event_id','player_id','name','position','team','opponent_team','season','week','category','kickoff_UTC','availability','practice_status','selection_availability','family','arm','model_id','model_SHA256','policy_id','information_cutoff_UTC','generated_UTC','product_type','mean','median','p05','p95','event_probability','scoring_contract_id','appearance_conditioning','history_support','sparse_player','model_fallback','readiness','limitation']
             captures.append({k:r[k] for k in keys}|dict(source_stat_rows=r.get('historical_stat_row_support',r['history_support']),target_history_support=int(r['features'][3]),target_sparse=int(r['features'][3])<3,support_metadata_correction='C-SUPPORT-DEFINITION-CLARIFICATION-v4.4',server_persisted_UTC=proof['server_check_completed_UTC'],source_snapshot_observed_UTC=source_at,status_observed_UTC=status_at,evidence_tier='GITHUB_SERVER_VERIFIED_PREGAME',primary_scoring_snapshot=True,prop_state='Forecast only—prop line unavailable',line=None,venue=None,product=None,offer_observed_UTC=None,p_under=None,p_push=None,p_over=None,selected_side=None,selection_state='NO_QUALIFIED_CURRENT_OFFER',outcome_state='PENDING',actual=None,consumed_inputs=consumed(r),coherence_state='INDEPENDENT_MARGINALS_NOT_JOINTLY_VALIDATED',forecast_evidence_URL='https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/'+proof['capture_commit']+'/prospective/runs/'+proof['run_id']+'/RUN.json',server_receipt_URL=proof['server_run_URL']))
+            captures[-1]['product_admission']=admission
+            captures[-1].update(refreshed_status(root,r,proof['forecast_blob_SHA256']))
         runs.append(dict(run_id=m['run_id'],rows=len(rows),source_manifest_SHA256=m['source_manifest_SHA256'],capture_commit=proof['capture_commit'],server_persisted_UTC=proof['server_check_completed_UTC'],first_kickoff_UTC=m['first_kickoff_UTC'],earliest_lead_seconds=proof['earliest_actual_lead_seconds'],new_fits=m['new_fits']))
     selected=display_and_primary(captures);rows=list(selected.values());assert rows and not any('law' in r or r['actual'] is not None for r in rows)
     passing={}
@@ -51,7 +74,7 @@ def build(root,docs):
         q=sorted([r for r in rows if r['category']==target],key=lambda r:(r['kickoff_UTC'],r['team'],r['name']));p=docs/'data/forward'/f'{target}.json';dump(p,q)
         files.append(dict(category=target,file='forward/'+p.name,SHA256=sha(p),rows=len(q)))
         categories.append(dict(id=target,label=label,rows=len(q),players=len({r['player_id'] for r in q}),games=len({r['game_id'] for r in q}),sparse_players=sum(r['target_sparse'] for r in q),zero_history=sum(r['target_history_support']==0 for r in q),OUT_or_doubtful=sum(r['selection_availability']=='BLOCKED_OUT' for r in q),model_fallback=sum(r['model_fallback'] for r in q),real_offers=0,real_selections=0,graded=0,implementation='P2_CORE_IMPLEMENTED_LABEL_COVERAGE_PARTIAL' if target=='fpts' else 'P2_CORE_IMPLEMENTED_SIX_COMPONENT_GAPS_REMAIN',issuance='SHADOW_SERVER_CAPTURED' if target=='fpts' else 'FORECAST_ONLY_SERVER_CAPTURED',improvement='NOT_DEMONSTRATED_PROSPECTIVE_PENDING'))
-    manifest=dict(schema='C-UPCOMING-SITE-v4',generated_UTC=datetime.now(timezone.utc).isoformat(),policy_id='C-PROSPECTIVE-v4',runs=runs,files=files,categories=categories,forecast_rows=len(rows),unique_players=len({r['player_id'] for r in rows}),games=len({r['game_id'] for r in rows}),first_kickoff_UTC=min(r['kickoff_UTC'] for r in rows),appearance_conditioning=rows[0]['appearance_conditioning'],real_offers=0,real_selections=0,graded_outcomes=0,six_leg_state='NO_QUALIFIED_SIX_LEG_ENTRY',completion_attempt_contradictions=contradictions,publication='GITHUB_SERVER_VERIFIED_PREGAME',manual_only=True,source_status_max_age_seconds=1800,entries=[],real_offer_results=[],historical_real_offer_results=[],components_reference='https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/main/reports/prospective-v4/COMPONENT_STATUS.json')
+    manifest=dict(schema='C-UPCOMING-SITE-v4',generated_UTC=datetime.now(timezone.utc).isoformat(),policy_id='C-PROSPECTIVE-v4',runs=runs,files=files,categories=categories,forecast_rows=len(rows),unique_players=len({r['player_id'] for r in rows}),games=len({r['game_id'] for r in rows}),first_kickoff_UTC=min(r['kickoff_UTC'] for r in rows),appearance_conditioning=rows[0]['appearance_conditioning'],real_offers=0,real_selections=0,graded_outcomes=0,six_leg_state='NO_QUALIFIED_SIX_LEG_ENTRY',completion_attempt_contradictions=contradictions,publication='GITHUB_SERVER_VERIFIED_PREGAME',manual_only=True,source_status_max_age_seconds=1800,primary_replacement=False,shadow_forecast_rows=sum(r['product_admission']=='SHADOW_FORECAST_ONLY_NOT_PRIMARY_REPLACEMENT' for r in rows),entries=[],real_offer_results=[],historical_real_offer_results=[],components_reference='https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/main/reports/prospective-v4/COMPONENT_STATUS.json')
     dump(docs/'data/forward-manifest.json',manifest)
     build=read_json(docs/'build.json');build.update(forward_manifest_SHA256=sha(docs/'data/forward-manifest.json'),forward_model_version='C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow',forward_feature_cutoff_UTC=max(r['information_cutoff_UTC'] for r in rows),forward_source_observed_UTC=max(r['source_snapshot_observed_UTC'] for r in rows),forward_server_persisted_UTC=max(r['server_persisted_UTC'] for r in rows),status='UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH');dump(docs/'build.json',build)
     print('FUTURE_SITE_PROJECTION',len(rows),len(categories),contradictions);return manifest

@@ -15,7 +15,7 @@
     },
     {
       "path": "src/selection.py",
-      "SHA256": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f"
+      "SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f"
     },
     {
       "path": "src/contracts_v2.py",
@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "92882695514e05a9030dc8c79bfde38ec668fa45475a73ad35d11625c3ea2048"
+    "SHA256": "c03019ca25ec7efe07b766881466dd97613682d232a5299b69ecaff01ff1c017"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -475,5 +475,62 @@
       "path": "reports/post-wave-5w-v1/HEADLINE_CONTROL_IDENTITY_CORRECTION.json",
       "SHA256": "ad8346e08daddf658500ff9ea28429ff0fb2c5a67be6c6ea92e531fa0f415c8a"
     }
+  },
+  "execution_closure_02": {
+    "id": "POST-WAVE-5W-v1/EXECUTION-CLOSURE-02/RESEARCH",
+    "exact_adoption": {
+      "path": "protocol/EXECUTION_CLOSURE_02_RESEARCH.txt",
+      "SHA256": "0204eed08e98388c406d0a8768bfc79241e3f8173faec18096e46d6b069fc815"
+    },
+    "production_scope": "REFERENCE_ONLY;UNCHANGED_ORIGINAL_SITE_OWNER",
+    "report": {
+      "path": "reports/abc-championship/execution-closure-02/README.md",
+      "SHA256": "1f1d536ca1101b00934ca57b5760133b8e906ab31208883af16c701acbd4ce6c"
+    },
+    "decisions": {
+      "path": "reports/abc-championship/execution-closure-02/CATEGORY_PRODUCT_DECISIONS.json",
+      "SHA256": "d817f69d52ab8d736df758227a0c25a701137683500cf19834c408a3f2fd7c8f"
+    },
+    "current_qualification": {
+      "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
+    },
+    "intake_admission": {
+      "path": "reports/abc-championship/execution-closure-02/INTAKE_ADMISSION.json",
+      "SHA256": "0cd0062c78ccddfdf957b3eb40cb0fe7632994fc6034cf61ccc4528291a23fed"
+    },
+    "side_qualification": {
+      "path": "reports/abc-championship/execution-closure-02/SIDE_QUALIFICATION_AND_LEADERS.json",
+      "SHA256": "55930cc7a043bdd213b47d7fc40af62408428ccfe18071abb18481ba1907c0e9"
+    },
+    "current_capture": {
+      "path": "reports/abc-championship/execution-closure-02/CURRENT_CAPTURE_ADMISSION_V2.json",
+      "SHA256": "0e107a3819f0cf54412b2c8ebca064ac72e98c5be98fc7e42ca4c0e4ab3b3355"
+    },
+    "owner_input_export": {
+      "path": "reports/abc-championship/execution-closure-02/C_OWNER_SELECTOR_HANDOFF.json",
+      "SHA256": "304d858f7bbd81570df7ca2e6f0b57656d2a0f52bac237d5e66cbb3d3ee36ab9"
+    },
+    "independent": {
+      "path": "reports/abc-championship/execution-closure-02/INDEPENDENT_STAGE2.json",
+      "SHA256": "624cb0443e2dc9b9e4e91d16e9d4f9cd2d5cae5036e5478e8d2a89711771ed50"
+    },
+    "protocol_scorer_unchanged": true,
+    "primary_replacements": 0,
+    "new_paper_selections": 0,
+    "new_actual_prop_outcomes": 0
+  },
+  "audit_remediation": {
+    "id": "AUDIT-REMEDIATION-20261105-v1",
+    "ledger": {
+      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER.json",
+      "SHA256": "a663caa76f43802eced0a0b1a872cae416cfe5c0cff980921389fb822f8a55f3"
+    },
+    "original_selection_helper_SHA256": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f",
+    "guarded_selection_helper_SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f",
+    "common_scorer_unchanged": true,
+    "finite_canonical_results_unchanged": true,
+    "prior_original_protocol_preserved": true,
+    "qualification_impact": "NoCcanonicalscoredweekreset. Aactiveproducerhistoryimpactrequiresownexactrecipe assessment;knowninvalid B historicalHGB remainsineligible;noautomaticpromotion."
   }
 }

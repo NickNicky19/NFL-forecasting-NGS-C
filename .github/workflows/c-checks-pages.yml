@@ -79,6 +79,9 @@ jobs:
         run: python src/prospective_v4.py verify --root prospective
       - name: Verify immutable paper captures
         run: python src/paper_v5.py verify --root paper
+      - name: Verify freshness query shadow (no fits)
+        if: ${{ hashFiles('prospective/shadows/AUDIT-D2-C-REC-W09-01/RUN.json') != '' }}
+        run: python src/freshness_query_shadow_v1.py verify --output prospective/shadows/AUDIT-D2-C-REC-W09-01
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: checks

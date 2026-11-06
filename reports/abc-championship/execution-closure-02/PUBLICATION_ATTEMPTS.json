@@ -1,0 +1,22 @@
+{
+  "attempts": [
+    {
+      "method": "gitpush_newbranch",
+      "state": "SERVER_FATAL_COMMIT_REFS",
+      "local_commit": "0496ad9ddc233c0dca1e18a381afcc00fcaf5a50"
+    },
+    {
+      "method": "one_identical_retry_after_readback_no_branch",
+      "state": "SERVER_FATAL_COMMIT_REFS"
+    }
+  ],
+  "read_only_diagnosis": {
+    "repo_push_permission": true,
+    "main_protected": false,
+    "rulesets": [],
+    "main_head": "df02c7656dd616224057176d057e2494d51c5b32",
+    "no_policy_or_approval_denial_returned": true
+  },
+  "state_change": "Normal GitHub connector successfully created same C research branch at existingmainSHA; no guard/permission/protection change. Next git push updates existing branch; no force.",
+  "claim": "No qualified current issuance until remote forecast bytes and pregame server validation receipt exist"
+}

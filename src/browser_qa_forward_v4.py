@@ -1,12 +1,12 @@
 """Rendered future-data acceptance; no acquisition, fits or fabricated outcomes."""
-import argparse,json
+import argparse,json,os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 def check(url,root,receipt,expected_commit=None):
     m=json.loads((root/'data/forward-manifest.json').read_text());checks=[];receipt.parent.mkdir(parents=True,exist_ok=True)
     with sync_playwright() as p:
-        browser=p.chromium.launch(headless=True,args=['--no-sandbox']);page=browser.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+        browser=p.chromium.launch(headless=True,executable_path=os.environ.get('C_BROWSER_EXECUTABLE'),args=['--no-sandbox']);page=browser.new_page(viewport={'width':1440,'height':1000});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
         page.goto(url,wait_until='networkidle');page.wait_for_function('state.forwardHealthy');assert page.locator('#view-upcoming').is_visible();assert page.locator('#upcoming-categories button').count()==12
         if expected_commit:assert page.evaluate('state.build.served_commit')==expected_commit
         for c in m['categories']:
@@ -27,7 +27,7 @@ def check(url,root,receipt,expected_commit=None):
         page.select_option('#timezone','UTC');assert all('UTC' in text for text in page.locator('#upcoming-game option').all_text_contents()[1:]);page.locator('#upcoming tbody tr').first.click();assert 'UTC' in page.locator('#detail-body').inner_text();page.click('#close-detail');page.select_option('#timezone','America/Chicago');assert all('America/Chicago' in text for text in page.locator('#upcoming-game option').all_text_contents()[1:])
         assert page.evaluate('()=>state.forwardRows.every(r=>!futureEligible(r,Date.parse(r.kickoff_UTC)))')
         assert page.evaluate('()=>state.forwardRows.every(r=>!sourceCurrent(r,Date.parse(r.status_observed_UTC)+1800001))')
-        page.evaluate('()=>{window.savedNow=Date.now;Date.now=()=>Date.parse("2026-11-04T00:00:00Z");renderForward();}');assert page.locator('#upcoming tbody tr').count()==0 and 'started-game rows suppressed' in page.locator('#upcoming-count').inner_text();page.evaluate('()=>{Date.now=window.savedNow;renderForward();}')
+        page.evaluate('()=>{window.savedNow=Date.now;const afterAll=Math.max(...state.forwardRows.map(r=>Date.parse(r.kickoff_UTC)))+86400000;Date.now=()=>afterAll;renderForward();}');assert page.locator('#upcoming tbody tr').count()==0 and 'started-game rows suppressed' in page.locator('#upcoming-count').inner_text();page.evaluate('()=>{Date.now=window.savedNow;renderForward();}')
         page.click('nav button[data-view=prospective]')
         graded_overlay=json.loads((root/'data/week8-results-v9.json').read_text()) if (root/'data/week8-results-v9.json').exists() else None
         if graded_overlay:

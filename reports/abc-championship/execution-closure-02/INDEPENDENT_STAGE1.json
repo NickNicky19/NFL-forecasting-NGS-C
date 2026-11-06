@@ -1,0 +1,94 @@
+{
+  "review_id": "C-EXECUTION-CLOSURE-02-INDEPENDENT-STAGE1",
+  "checked_UTC": "2026-11-05T23:23:46.330938+00:00",
+  "state": "PASS_SOURCE_GATES_AND_METADATA_WITH_EXPLICIT_LIMITS",
+  "role": "C internal read-only verifier; not an A/B acknowledgement or production owner.",
+  "protocols": [
+    {
+      "path": "protocol/EXECUTION_CLOSURE_02_RESEARCH.txt",
+      "SHA256": "0204eed08e98388c406d0a8768bfc79241e3f8173faec18096e46d6b069fc815",
+      "authority": "C_RESEARCH"
+    },
+    {
+      "path": "protocol/EXECUTION_CLOSURE_02_PRODUCTION_REFERENCE_ONLY.txt",
+      "SHA256": "e14d9acf2fc23b1ed54e44ceee130b2cb0164838c0256635166f14c5f27514cb",
+      "authority": "REFERENCE_ONLY_ORIGINAL_SITE_OWNER"
+    }
+  ],
+  "source_discrepancy": {
+    "category": "VERIFIED_DATA_OR_CONTRACT_DEFECT",
+    "scope": "Cross-sourcekickoffdisagreement,notdemonstratedmodelbug",
+    "W9_native_events_checked": 15,
+    "time_agreements": 14,
+    "disagreement": {
+      "game_id": "2026_09_LV_SF",
+      "native_event_id": "401873047",
+      "nfldata_kickoff_UTC": "2026-11-08T21:05:00+00:00",
+      "ESPN_kickoff_UTC": "2026-11-08T21:25:00+00:00",
+      "difference_seconds": 1200.0
+    },
+    "strict_gate": "NO_DEFECT_FOUND_IN_CHECKED_SCOPE;EVENT_KICKOFF_MISMATCH correctlyfailsclosed;neithertimeoverwritten",
+    "HTTP_clock_limit": "Failedattemptretainsrawhashes/localdownloadcompletion,notHTTPheaders;cannotauthenticateearlierasofpublication"
+  },
+  "earliest_batch": {
+    "game_id": "2026_09_JAX_BAL",
+    "native_event_id": "401873037",
+    "kickoff_UTC": "2026-11-06T01:15:00+00:00",
+    "kickoff_Chicago": "2026-11-05T19:15:00-06:00",
+    "status": "STATUS_SCHEDULED/pre/notcompletedatretainedsnapshot",
+    "strict_sources_agree": true,
+    "earliest_among_retained_W9_events": true,
+    "registration": "CURRENT_CAPTURE_BATCH_REGISTRATION.json;chosenbeforeforecasts/outcomes",
+    "subset_change": "OptionalgameIDsdefaultNonepreservesallfutureweekbehavior;subsetrowunchanged;empty/duplicates/unknownIDsrejected;othergamesdeferrednotDNP. No kickoffguard weakened."
+  },
+  "pilot_gates": {
+    "run_id": "C-FWD-v4-20261105-W09-JAXBAL-pass_yd",
+    "source_manifests_file_hashes_verified": true,
+    "current_season_fact_gameIDs_completed_only": true,
+    "target_game_actual_rows_absent": true,
+    "future_actuals_required": false,
+    "candidate_players": 33,
+    "QB_forecast_queries": 6,
+    "candidate_membership": "CurrentnativeGSIS/team/positionrosterACT;notrealizedparticipantsorstarters;injurymissingunknown",
+    "no_actual_played_realized_starter_fields": true,
+    "saved_actual_source_feature_prefixes_recomputed": 6,
+    "cutoff_UTC": "2026-11-05T23:16:55.230336905+00:00",
+    "target_future_mutation_fixture": "PASS:existingfuturefeaturebuilderignoredpostcutofftargetworkload/outcome/NGS;no-future-actualquerysupported;32featurevectorunchanged",
+    "roles_and_fallback": "Categoryrolespreserved;QB/RBrushingvsRB/WR/TEreceivingdistinct;training-onlyimputation/missingflags+rolepriorblend;sparseplayersretained. NotarbitraryinjuryweightorDNPzero. Out/doubtfulselectionblocked;rosterACTisnotstarter.",
+    "classification": "NO_DEFECT_FOUND_IN_CHECKED_SCOPE;conditionalparticipationisMODELING_LIMITATION",
+    "issuance": "Six local pilot forecasts inspected. Immutable RUN records awaiting server proof at generation; no separate server receipt was inspected in this stage. Zero offers/selections; shadow only, no new scored weeks."
+  },
+  "CountA": {
+    "package_SHA256": "682855c6fd54bf6534b21d21af88abc3c4f92df473562c4925587f5c089e7f21",
+    "parity_receipt_SHA256": "cfaac37c36c264b9b3cde84f9cbf603024810502f2cb4342b4c11b244e90adda",
+    "matching_model_capsule_corrector_environment": true,
+    "exact_procedure": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "restoration": "PASS_EXACT_RETAINED_MODEL_AND_TYPED_CORE_PARITYreportedbyAowner;publicreceiptbytesreceivedandhashverified",
+    "reported_native_fixture_rows": 4,
+    "reported_typed_retained_rows": 64,
+    "reported_fallback_rows": 16,
+    "new_fits_or_current_issuance": 0,
+    "offhost_fresh_source_feed": "UNRESOLVED;offhostrestoreNOT_VERIFIED;currentSOURCE/feature/captureandpublicdeliverynotexecuted. Notamissing-modelconclusion.",
+    "output_contract": "CorrectedFORECASTS.parquet.point;nativeMeanallNaN/legacyPointmixedareforbidden substitutes. QBonly;fulloriginalmeancorrectoronce;learned/prior/incumbent/unavailableoriginexplicit;no probability/EV inferred.",
+    "producer_and_release": "ExistingregisteredAproducer+original-siteownerretainhostedhandover,freshquery,persistence,publication,consumeradmission,TopPicksreplay. Cdidnotloadcapsule/jobliborredoArestore."
+  },
+  "locale_dedup": {
+    "duplicate_files_checked": 216,
+    "duplicate_bytes": 50087655,
+    "full_build_counterpart_hashes_sizes_match": true,
+    "removed_headless_copies_absent": true,
+    "both_executables_and_enUS_retained": true,
+    "scope": "Onlydocumentedruntime.pakduplicates;noNFLsource/model/prediction/evidencefilenameintheplan. Broaderfilesystemhistorynotindependentlyattested.",
+    "wording_correction": "Initialnon-Englishwordingincluded4en-GBcopies;currentplanaccuratelysaysnon-default/non-en-USandretainsfull-browseroriginals."
+  },
+  "limits": [
+    "No network, model fits, unsafe deserialization, repository edits or interference with other sessions.",
+    "No repeat of the closed C trace or A restoration. Source/feature checks concern the new future path only.",
+    "This stage does not establish paper admission, served state or authenticated pregame persistence. Those require their separate receipts and qualified offers."
+  ],
+  "bindings": {
+    "forward_source_helper_SHA256": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+    "pilot_forecast_SHA256": "d8238a5d6df17e907d21692ef8ff579feaf73ad1cf264207084c9a6d43c88ccc",
+    "locale_plan_SHA256": "df53b4524f70221c087f7b9c8acaad4e98881efd48deadb2d43b58a40077c757"
+  }
+}

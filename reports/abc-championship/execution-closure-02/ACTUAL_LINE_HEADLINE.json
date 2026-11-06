@@ -1,0 +1,728 @@
+[
+  {
+    "category": "pass_yd",
+    "procedure_id": "a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": [
+      "QB"
+    ],
+    "tied_combined": [
+      "HGB_MAE_DIRECT"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 41,
+      "losses": 29,
+      "decided": 70,
+      "hit_rate": 0.5857142857142857
+    },
+    "UNDER": {
+      "wins": 37,
+      "losses": 36,
+      "decided": 73,
+      "hit_rate": 0.5068493150684932
+    },
+    "COMBINED": {
+      "wins": 78,
+      "losses": 65,
+      "decided": 143,
+      "hit_rate": 0.5454545454545454
+    },
+    "eligible": 143,
+    "selected": 143,
+    "unknown_participation": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 79,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "OVER",
+    "within_procedure_side_gap_pp": 7.886497064579256,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "pass_td",
+    "procedure_id": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": [
+      "QB"
+    ],
+    "tied_combined": [
+      "COUNT_A_LEGACY_POINT",
+      "COUNT_A_MEAN"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 43,
+      "losses": 31,
+      "decided": 74,
+      "hit_rate": 0.581081081081081
+    },
+    "UNDER": {
+      "wins": 44,
+      "losses": 24,
+      "decided": 68,
+      "hit_rate": 0.6470588235294118
+    },
+    "COMBINED": {
+      "wins": 87,
+      "losses": 55,
+      "decided": 142,
+      "hit_rate": 0.6126760563380281
+    },
+    "eligible": 142,
+    "selected": 142,
+    "unknown_participation": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 78,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "UNDER",
+    "within_procedure_side_gap_pp": 6.597774244833077,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "pass_cmp",
+    "procedure_id": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": [
+      "QB"
+    ],
+    "tied_combined": [
+      "CATBOOST_MEDIUM"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 35,
+      "losses": 18,
+      "decided": 53,
+      "hit_rate": 0.660377358490566
+    },
+    "UNDER": {
+      "wins": 44,
+      "losses": 47,
+      "decided": 91,
+      "hit_rate": 0.4835164835164835
+    },
+    "COMBINED": {
+      "wins": 79,
+      "losses": 65,
+      "decided": 144,
+      "hit_rate": 0.5486111111111112
+    },
+    "eligible": 144,
+    "selected": 144,
+    "unknown_participation": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 79,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "OVER",
+    "within_procedure_side_gap_pp": 17.68608749740825,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "pass_att",
+    "procedure_id": "e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": [
+      "QB"
+    ],
+    "tied_combined": [
+      "COUNT_A_LEGACY_POINT",
+      "COUNT_A_MEAN"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 19,
+      "losses": 16,
+      "decided": 35,
+      "hit_rate": 0.5428571428571428
+    },
+    "UNDER": {
+      "wins": 51,
+      "losses": 57,
+      "decided": 108,
+      "hit_rate": 0.4722222222222222
+    },
+    "COMBINED": {
+      "wins": 70,
+      "losses": 73,
+      "decided": 143,
+      "hit_rate": 0.48951048951048953
+    },
+    "eligible": 143,
+    "selected": 143,
+    "unknown_participation": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 79,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "OVER",
+    "within_procedure_side_gap_pp": 7.063492063492061,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "pass_int",
+    "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": [
+      "QB"
+    ],
+    "tied_combined": [
+      "LEAF_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 75,
+      "losses": 58,
+      "decided": 133,
+      "hit_rate": 0.5639097744360902
+    },
+    "UNDER": {
+      "wins": 8,
+      "losses": 2,
+      "decided": 10,
+      "hit_rate": 0.8
+    },
+    "COMBINED": {
+      "wins": 83,
+      "losses": 60,
+      "decided": 143,
+      "hit_rate": 0.5804195804195804
+    },
+    "eligible": 143,
+    "selected": 143,
+    "unknown_participation": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 78,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "UNDER",
+    "within_procedure_side_gap_pp": 23.60902255639098,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "rush_yd",
+    "procedure_id": "d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681",
+    "method": "EQUAL_CDF_CAT_HGB_POINT",
+    "output": "empirical_point_blend",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": "ORIGINAL_RECORDED_OFFERED_PLAYER_POOL; QBpassing; rushing includes QB/RB/WR; receiving source-eligible roles; exact role exceptions retained.",
+    "tied_combined": [
+      "EQUAL_CDF_CAT_HGB_POINT",
+      "LEAF_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 61,
+      "losses": 55,
+      "decided": 116,
+      "hit_rate": 0.5258620689655172
+    },
+    "UNDER": {
+      "wins": 199,
+      "losses": 128,
+      "decided": 327,
+      "hit_rate": 0.6085626911314985
+    },
+    "COMBINED": {
+      "wins": 260,
+      "losses": 183,
+      "decided": 443,
+      "hit_rate": 0.5869074492099323
+    },
+    "eligible": 455,
+    "selected": 455,
+    "unknown_participation": 12,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 81,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "UNDER",
+    "within_procedure_side_gap_pp": 8.270062216598129,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "rush_att",
+    "procedure_id": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a",
+    "method": "BACKFIELD_CDF",
+    "output": "mean",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "tied_combined": [
+      "BACKFIELD_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 70,
+      "losses": 60,
+      "decided": 130,
+      "hit_rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "wins": 104,
+      "losses": 93,
+      "decided": 197,
+      "hit_rate": 0.5279187817258884
+    },
+    "COMBINED": {
+      "wins": 174,
+      "losses": 153,
+      "decided": 327,
+      "hit_rate": 0.5321100917431193
+    },
+    "eligible": 335,
+    "selected": 335,
+    "unknown_participation": 8,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 81,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "OVER",
+    "within_procedure_side_gap_pp": 1.0542756735650083,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "rec",
+    "procedure_id": "82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": "ORIGINAL_RECORDED_OFFERED_PLAYER_POOL; QBpassing; rushing includes QB/RB/WR; receiving source-eligible roles; exact role exceptions retained.",
+    "tied_combined": [
+      "LEAF_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 157,
+      "losses": 103,
+      "decided": 260,
+      "hit_rate": 0.6038461538461538
+    },
+    "UNDER": {
+      "wins": 364,
+      "losses": 293,
+      "decided": 657,
+      "hit_rate": 0.5540334855403348
+    },
+    "COMBINED": {
+      "wins": 521,
+      "losses": 396,
+      "decided": 917,
+      "hit_rate": 0.5681570338058888
+    },
+    "eligible": 992,
+    "selected": 992,
+    "unknown_participation": 75,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 81,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "OVER",
+    "within_procedure_side_gap_pp": 4.981266830581898,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "rec_yd",
+    "procedure_id": "91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": "ORIGINAL_RECORDED_OFFERED_PLAYER_POOL; QBpassing; rushing includes QB/RB/WR; receiving source-eligible roles; exact role exceptions retained.",
+    "tied_combined": [
+      "RESPONSE_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 298,
+      "losses": 268,
+      "decided": 566,
+      "hit_rate": 0.5265017667844523
+    },
+    "UNDER": {
+      "wins": 201,
+      "losses": 162,
+      "decided": 363,
+      "hit_rate": 0.5537190082644629
+    },
+    "COMBINED": {
+      "wins": 499,
+      "losses": 430,
+      "decided": 929,
+      "hit_rate": 0.5371367061356297
+    },
+    "eligible": 1008,
+    "selected": 1008,
+    "unknown_participation": 79,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 81,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "UNDER",
+    "within_procedure_side_gap_pp": 2.721724148001059,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "rush_rec_yd",
+    "procedure_id": "39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+    "policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+    "role_scope": "ORIGINAL_RECORDED_OFFERED_PLAYER_POOL; QBpassing; rushing includes QB/RB/WR; receiving source-eligible roles; exact role exceptions retained.",
+    "tied_combined": [
+      "RESPONSE_CDF"
+    ],
+    "period_requested": "2026W1-W8",
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "OVER": {
+      "wins": 117,
+      "losses": 113,
+      "decided": 230,
+      "hit_rate": 0.508695652173913
+    },
+    "UNDER": {
+      "wins": 130,
+      "losses": 108,
+      "decided": 238,
+      "hit_rate": 0.5462184873949579
+    },
+    "COMBINED": {
+      "wins": 247,
+      "losses": 221,
+      "decided": 468,
+      "hit_rate": 0.5277777777777778
+    },
+    "eligible": 493,
+    "selected": 493,
+    "unknown_participation": 25,
+    "unavailable": 0,
+    "abstentions": 0,
+    "games": 81,
+    "side_scored_weeks": {
+      "OVER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "UNDER": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_OWNER_LOCAL_ACTUAL_LINE_RECONSTRUCTION;NOT_COMMON_ABC_FULL_PERIOD",
+    "within_procedure_higher_side": "UNDER",
+    "within_procedure_side_gap_pp": 3.7522835221044937,
+    "uncertainty": "Seven exposed week clusters; source nominal game/week intervals retained; max selection unadjusted; no primary switch"
+  },
+  {
+    "category": "anytime_td",
+    "state": "NO_MATCHING_OFFER_CONTRACT",
+    "OVER": null,
+    "UNDER": null,
+    "COMBINED": null
+  },
+  {
+    "category": "fpts",
+    "state": "NO_MATCHING_OFFER_CONTRACT",
+    "OVER": null,
+    "UNDER": null,
+    "COMBINED": null
+  }
+]

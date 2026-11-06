@@ -1,0 +1,33 @@
+{
+  "schema": "C-FRESHNESS-QUERY-SHADOW-v1",
+  "created_UTC": "2026-11-06T00:17:30.313386+00:00",
+  "run_source": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-remainder",
+  "parent_RUN_SHA256": "482510862443e6c7c2f28c55568f5297cb09b35d8274789c7dfb9d9c3d50a9bd",
+  "parent_forecast_SHA256": "a0b627b38c7528cedc908e350423cf557ef9ec58c900cb3a6e88c835bf817111",
+  "model_SHA256": "8a333940431311a6670e6630b6a42f88502e04a1047c55062101bd32a5dae536",
+  "information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+  "first_kickoff_UTC": "2026-11-06T01:15:00+00:00",
+  "target": "rec",
+  "history": "Same frozen H-MULTI seven-day-trained model; no feature/model refit",
+  "policies": [
+    "CAPTURED_OBSERVED_QUERY_ORIGINAL",
+    "SEVEN_DAY_PROXY_QUERY_AT_SAME_CAPTURE_CUTOFF"
+  ],
+  "rows": 27,
+  "feature_changed_rows": 27,
+  "mean_changed_rows": 26,
+  "median_changed_rows": 2,
+  "source_clock_tier": "Authentic current C receipt; historical source vintages remain revised and unauthenticated",
+  "forecast_only": true,
+  "actual_offers": 0,
+  "selected_picks": 0,
+  "new_fits": 0,
+  "primitive_inferences": 27,
+  "CPU_seconds": 7.511100461999999,
+  "rows_SHA256": "5a326ca1868423381e2576ab5ae1cf52005a66208c2dc0abfdde218ccb484919",
+  "state": "RESEARCH_SHADOW_AWAITING_SERVER_PERSISTENCE;NO_ACCURACY_YET",
+  "limitation": "Query-only comparison diagnoses the disclosed training/query age mismatch. It does not repair or certify an aligned historical training procedure. Later final outcomes and real offers are needed for accuracy.",
+  "execution_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11",
+  "execution_code_SHA256": "8a195b3eb43ef5c7ab4904c5cae16f9faddcaa5e4a86c8c213612a557a0edf47",
+  "peak_RSS_bytes": 235540480
+}
