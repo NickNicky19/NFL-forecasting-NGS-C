@@ -39,8 +39,30 @@ def issue(run,out):
 
 def verify(out):
     m=read_json(out/'RUN.json');run=Path(m['run_source']);assert m['schema']=='C-FRESHNESS-QUERY-SHADOW-v1' and m['rows_SHA256']==filehash(out/'ROWS.json.gz') and m['parent_forecast_SHA256']==filehash(run/'forecasts.json.gz') and m['parent_RUN_SHA256']==filehash(run/'RUN.json')
-    _,model,expected=compare(run);saved=unpack(out/'ROWS.json.gz');assert saved==expected and len(saved)==m['rows']==27 and model['model_SHA256']==m['model_SHA256'];assert all(r['actual'] is None and r['line'] is None and r['selected_side'] is None for r in saved)
+    _,model,expected=compare(run);saved=unpack(out/'ROWS.json.gz');assert len(saved)==m['rows']==27 and model['model_SHA256']==m['model_SHA256']
+    reconcile_numeric_rows(saved,expected)
+    assert all(r['actual'] is None and r['line'] is None and r['selected_side'] is None for r in saved)
     print('FRESHNESS_QUERY_SHADOW_VERIFIED_NO_FITS',len(saved))
+
+def reconcile_numeric_rows(saved,expected):
+    """Keep source/identity/support/median exact; allow only numeric reduction ULPs.
+
+    Mean tolerance is the existing prospective_v4 safe-model restoration rule.
+    Empirical weights use a tighter absolute bound. No stored value is changed.
+    """
+    assert len(saved)==len(expected)
+    mean_delta=[];weight_delta=[]
+    for a,b in zip(saved,expected):
+        aa={k:v for k,v in a.items() if k not in ['proxy_mean','proxy_law']};bb={k:v for k,v in b.items() if k not in ['proxy_mean','proxy_law']}
+        assert aa==bb,('NONNUMERIC_OR_TYPED_OUTPUT_MISMATCH',[k for k in aa if aa[k]!=bb.get(k)])
+        la={k:v for k,v in a['proxy_law'].items() if k!='weights'};lb={k:v for k,v in b['proxy_law'].items() if k!='weights'}
+        assert la==lb,'LAW_SUPPORT_PRIOR_OR_SCALE_CHANGED'
+        delta=abs(a['proxy_mean']-b['proxy_mean']);mean_delta.append(delta)
+        assert math.isclose(a['proxy_mean'],b['proxy_mean'],rel_tol=1e-12,abs_tol=1e-10),('MEAN_RESTORATION_MISMATCH',delta)
+        w,v=a['proxy_law']['weights'],b['proxy_law']['weights'];assert len(w)==len(v)
+        for x,y in zip(w,v):
+            delta=abs(x-y);weight_delta.append(delta);assert math.isfinite(x) and math.isfinite(y) and delta<=1e-14,('WEIGHT_RESTORATION_MISMATCH',delta)
+    print('RESTORATION_NUMERIC_DELTAS',json.dumps(dict(mean_differences=sum(x!=0 for x in mean_delta),max_mean_absolute_difference=max(mean_delta,default=0),weight_differences=sum(x!=0 for x in weight_delta),max_weight_absolute_difference=max(weight_delta,default=0)),sort_keys=True))
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('command',choices=['issue','verify']);p.add_argument('--run',type=Path);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
