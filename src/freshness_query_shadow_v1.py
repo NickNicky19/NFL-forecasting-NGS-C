@@ -4,12 +4,12 @@ The same frozen seven-day-trained model is queried with its declared observed
 prefix and a seven-day proxy prefix. No claim of aligned retraining or of
 authentic historical source clocks is made by this query-only comparison.
 """
-import argparse,gzip,hashlib,json,math,time,subprocess,resource
+import argparse,gzip,hashlib,json,math,time,subprocess,resource,signal
 from pathlib import Path
 import numpy as np
 import pandas as pd
 from data_v2 import load,History,vector
-from prospective_v4 import read_json,unpack,features_for_future,qualified_training_frame,stamp,filehash
+from prospective_v4 import read_json,unpack,ObservedHistory,qualified_training_frame,stamp,filehash
 from safe_models_v4 import load as load_model,infer_forest,law_data
 
 class ProxyAtCutoff(History):
@@ -19,10 +19,10 @@ class ProxyAtCutoff(History):
 def compare(run):
     m=read_json(run/'RUN.json');original=[r for r in unpack(run/'forecasts.json.gz') if r['category']=='rec'];assert len(original)==27
     cutoff=pd.Timestamp(m['information_cutoff_UTC']).timestamp();d,g,teams=load(run/'sources');source=read_json(run/'sources/SOURCE_MANIFEST.json');completed=source['completed_game_ids'];d=qualified_training_frame(d,completed,cutoff);teams=teams[teams.game_id.isin(completed)&(teams.kickoff<cutoff)]
-    ph,th=ProxyAtCutoff(d,'player_id',cutoff),ProxyAtCutoff(teams,'team',cutoff);model=next(x for x in read_json(run/'model_manifest.json') if x['target']=='rec');numeric=load_model(run/model['artifact'],model['model_SHA256'])
+    ph,th=ProxyAtCutoff(d,'player_id',cutoff),ProxyAtCutoff(teams,'team',cutoff);oh,ot=ObservedHistory(d,'player_id',cutoff),ObservedHistory(teams,'team',cutoff);model=next(x for x in read_json(run/'model_manifest.json') if x['target']=='rec');numeric=load_model(run/model['artifact'],model['model_SHA256'])
     matrices=[];diagnostics=[]
     for r in original:
-        q=dict(r,kickoff=pd.Timestamp(r['kickoff_UTC']).timestamp());observed=features_for_future(d,teams,q,'rec',r['arm'],cutoff);proxy=vector(q,'rec',ph,th,r['arm']);saved=np.asarray([np.nan if x is None else x for x in r['features']]);assert np.array_equal(observed,saved,equal_nan=True)
+        q=dict(r,kickoff=pd.Timestamp(r['kickoff_UTC']).timestamp());observed=vector(q,'rec',oh,ot,r['arm']);proxy=vector(q,'rec',ph,th,r['arm']);saved=np.asarray([np.nan if x is None else x for x in r['features']]);assert np.array_equal(observed,saved,equal_nan=True)
         matrices.append(proxy);rr=ph.before(r['player_id'],q['kickoff']);diagnostics.append(dict(forecast_id=r['forecast_id'],player_id=r['player_id'],name=r['name'],position=r['position'],game_id=r['game_id'],availability=r['availability'],selection_availability=r['selection_availability'],changed_features=int(np.sum(~np.isclose(proxy,observed,equal_nan=True))),proxy_support=int(proxy[3]),observed_support=int(observed[3]),proxy_latest_game=rr[-1]['game_id'] if rr else None,proxy_feature_age_days=(q['kickoff']-rr[-1]['kickoff'])/86400 if rr else None,observed_target_lag_age_days=r['features'][5],original_observed_mean=r['mean'],original_observed_median=r['median'],appearance_conditioning=r['appearance_conditioning'],actual=None,line=None,selected_side=None))
     laws=infer_forest(numeric,np.asarray(matrices),[r['position'] for r in original])
     for q,r,law in zip(diagnostics,original,laws):q.update(proxy_mean=law.mean(),proxy_median=law.quantile(.5),proxy_law=law_data(law),observed_law=r['law'],mean_changed=not math.isclose(law.mean(),r['mean'],abs_tol=1e-10,rel_tol=1e-12),median_changed=law.quantile(.5)!=r['median'])
@@ -43,4 +43,7 @@ def verify(out):
     print('FRESHNESS_QUERY_SHADOW_VERIFIED_NO_FITS',len(saved))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('command',choices=['issue','verify']);p.add_argument('--run',type=Path);p.add_argument('--output',type=Path,required=True);a=p.parse_args();issue(a.run,a.output) if a.command=='issue' else verify(a.output)
+    p=argparse.ArgumentParser();p.add_argument('command',choices=['issue','verify']);p.add_argument('--run',type=Path);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
+    signal.signal(signal.SIGPROF,lambda *_:(_ for _ in ()).throw(RuntimeError('FRESHNESS_SHADOW_CPU_CAP')));signal.setitimer(signal.ITIMER_PROF,30)
+    try:issue(a.run,a.output) if a.command=='issue' else verify(a.output)
+    finally:signal.setitimer(signal.ITIMER_PROF,0)

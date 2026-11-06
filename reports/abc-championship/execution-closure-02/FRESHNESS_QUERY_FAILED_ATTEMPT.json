@@ -1,0 +1,17 @@
+{
+  "recorded_UTC": "2026-11-06T00:17:04.796606+00:00",
+  "execution_code_commit": "a0df5dc",
+  "state": "FAILED_BUDGET;NO_OUTPUT_PACKET",
+  "original_CPU_cap_seconds": 30,
+  "observed_CPU_lower_bound_seconds": 42,
+  "final_CPU_not_retained": true,
+  "signal": "TERM on own process after observed cap overrun",
+  "root_cause": "ObservedHistory reconstructed twice per each of27queries; completion-only timer check failed to enforce bound duringwork",
+  "new_fits": 0,
+  "packet_rows_persisted": 0,
+  "original203_capture_unchanged": true,
+  "corrective_change": "Build eligible player/team history indexes once for each declaredpolicy; installSIGPROFtimerbeforecompare; definitionsandfixedmodel unchanged",
+  "recovery_CPU_cap_seconds": 30,
+  "recovery_allocation": "Existingremaining240CPUforward budget; conservative120CPUcharge forfailedattempt preserves total undercap with59.928originalfits+120failedbound+30recovery=209.928seconds",
+  "failed_attempt_is_not_forecast_evidence": true
+}
