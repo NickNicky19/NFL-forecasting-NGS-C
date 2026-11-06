@@ -485,7 +485,7 @@
     "production_scope": "REFERENCE_ONLY;UNCHANGED_ORIGINAL_SITE_OWNER",
     "report": {
       "path": "reports/abc-championship/execution-closure-02/README.md",
-      "SHA256": "1f1d536ca1101b00934ca57b5760133b8e906ab31208883af16c701acbd4ce6c"
+      "SHA256": "47145ad26d621bcf4b18ef6b8242d86f65f2d9f31b4923317ceb7ef70c79524b"
     },
     "decisions": {
       "path": "reports/abc-championship/execution-closure-02/CATEGORY_PRODUCT_DECISIONS.json",
@@ -523,14 +523,17 @@
   "audit_remediation": {
     "id": "AUDIT-REMEDIATION-20261105-v1",
     "ledger": {
-      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER.json",
-      "SHA256": "a663caa76f43802eced0a0b1a872cae416cfe5c0cff980921389fb822f8a55f3"
+      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER_V2.json",
+      "SHA256": "b2c5ba8347617d94953818e99432482f1da5e1cd554d65d52716117854f2ac8f"
     },
     "original_selection_helper_SHA256": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f",
     "guarded_selection_helper_SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f",
     "common_scorer_unchanged": true,
     "finite_canonical_results_unchanged": true,
     "prior_original_protocol_preserved": true,
-    "qualification_impact": "NoCcanonicalscoredweekreset. Aactiveproducerhistoryimpactrequiresownexactrecipe assessment;knowninvalid B historicalHGB remainsineligible;noautomaticpromotion."
+    "qualification_impact": "NoCcanonicalscoredweekreset. Aactiveproducerhistoryimpactrequiresownexactrecipe assessment;knowninvalid B historicalHGB remainsineligible;noautomaticpromotion.",
+    "merged_C_source": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+    "actual_served_commit": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+    "source_impact": "No Ccanonicalscoretransitions;origwebsitepresence/Aresearchhistoryrequiresowner-specifictrace;BinvalidoriginalpooledHGBexcluded;Astra separateunavailable"
   }
 }

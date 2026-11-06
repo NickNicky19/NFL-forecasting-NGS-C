@@ -1,0 +1,240 @@
+{
+  "id": "C-AUDIT-REMEDIATION-INDEPENDENT-20261105-v1",
+  "checked_UTC": "2026-11-06T00:09:47.094871+00:00",
+  "scope": "C internal independent read-only verification; no A/B acknowledgement, peer work or production admission",
+  "audit_SHA256": "720b464f8077d3a483a4a73245690071866b7757fb6d20763c2ea8d931061795",
+  "old_defect": {
+    "commit": "794b5c639bacbae7270bab490e24daf99dba864b",
+    "selection_source_SHA256": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f",
+    "NaN_under_grade": "WIN",
+    "NaN_brier": 0.25,
+    "reproduced": true
+  },
+  "repair": {
+    "source_SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f",
+    "finite_zero_signed_fractional_push_comparisons": 96,
+    "missing_null_NaN_infinity_checks": 16,
+    "nonplayed_state_passthrough_checks": 4,
+    "invalid_actual_grade": "MISSING_ACTUAL",
+    "invalid_line_grade": "UNAVAILABLE",
+    "invalid_score_inputs": null,
+    "valid_finite_results_unchanged": true
+  },
+  "canonical_impact": {
+    "rows": 19721,
+    "finite_strict_selected_checked": 18578,
+    "statuses": {
+      "LOSS": 8816,
+      "WIN": 9762,
+      "UNKNOWN_PARTICIPATION": 556,
+      "UNAVAILABLE_FORECAST": 587
+    },
+    "grade_transitions": 0,
+    "scored_nonfinite_actual_or_line_rows": 0,
+    "approved_source_bindings": [
+      {
+        "path": "reports/propline-v7/GRADED_ROWS.json",
+        "SHA256": "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297"
+      },
+      {
+        "path": "reports/propline-v7/CORRECTIONS_GRADED_ROWS_V7_1.json",
+        "SHA256": "a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817"
+      },
+      {
+        "path": "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz",
+        "SHA256": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7"
+      },
+      {
+        "path": "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz",
+        "SHA256": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4"
+      },
+      {
+        "path": "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz",
+        "SHA256": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859"
+      }
+    ],
+    "code_path": "actual_accuracy_v6 imports contracts_v2.grade; selection.point_side only. Dormant selection.grade has no active src caller; brier import in actual_offers_v4 is not invoked there.",
+    "limits": "No unseen A/B/private rows audited. Strong finite-input validation protects current canonical rows; this does not prove every historical helper consumer was unaffected."
+  },
+  "immutable_original_v4": [
+    {
+      "run": "C-FWD-v4-20261101-0009-P2-pass_yd",
+      "members": 18,
+      "forecast_rows": 71,
+      "capture_commit": "d782c25cd1505bcbfe9030b2ae7f966da544ee58",
+      "all_members_unchanged": true
+    },
+    {
+      "run": "C-FWD-v4-20261101-0011-P2-remainder",
+      "members": 38,
+      "forecast_rows": 2442,
+      "capture_commit": "d782c25cd1505bcbfe9030b2ae7f966da544ee58",
+      "all_members_unchanged": true
+    }
+  ],
+  "website_binding_repair": {
+    "changed_projection_keys": [
+      "forward_manifest_SHA256"
+    ],
+    "current_forward_manifest_SHA256": "28235806e3207502999f74435327fa3bea5852a60842ea7c7484cbe516db6efd",
+    "previous_hardcoded_SHA256": "0d6e930ebdf683183db5f0383cebe56026974598b023e2c3cd5d8a2f8abe6f12",
+    "repaired_validator_SHA256": "f62d1e737daaeeab04517043c963c71c2cf708a7da2f935fd6d30f9961879dba",
+    "current_projection_parity_pass": true,
+    "corruption_guards_reject": [
+      "manifest_binding",
+      "projection_checksum",
+      "offer_projection_parity"
+    ],
+    "records": 0,
+    "new_offers_or_selections": 0,
+    "CI_controls_preserved": true,
+    "publication_state": "Local repair verified; no new served-state or completed CI claim from this receipt.",
+    "old_validator_on_current_genuine_capture_projection": "V4_DATA_UNEXPECTEDLY_CHANGED",
+    "old_validator_source_SHA256": "b5a5a193fa99b8b15878e7d115415e7c38d0164d7b7f867c0d7b6f715a0a84cc"
+  },
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "network_calls": 0,
+  "status": "PASS_WITH_SCOPED_LIMITS",
+  "software_tests": {
+    "command": "PYTHONPATH=src python -m unittest discover -s tests -p test_audit_remediation_selection.py -v",
+    "passed": 3,
+    "NFL_forecasts_or_outcomes_added": 0
+  },
+  "audit_read_scope": "Appendix D section6 independently read and source-file SHA verified. Repair is a dormant-helper correctness fix, not explanation or improvement of observed probability reliability.",
+  "query_only_freshness_appendix": {
+    "id": "AUDIT-D2-C-REC-W09-01",
+    "code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11",
+    "code_SHA256": "8a195b3eb43ef5c7ab4904c5cae16f9faddcaa5e4a86c8c213612a557a0edf47",
+    "rows_SHA256": "5a326ca1868423381e2576ab5ae1cf52005a66208c2dc0abfdde218ccb484919",
+    "rows": 27,
+    "independent_observed_and_proxy_prefix_vectors": 54,
+    "independent_primitive_json_proxy_law_inferences": 27,
+    "changed": {
+      "features": 27,
+      "mean": 26,
+      "median": 2
+    },
+    "prefix_pairs": [
+      {
+        "observed": "2026_08_IND_JAX",
+        "proxy": "2026_06_HOU_JAX",
+        "candidates": 10
+      },
+      {
+        "observed": "2024_18_HOU_TEN",
+        "proxy": "2024_18_HOU_TEN",
+        "candidates": 1
+      },
+      {
+        "observed": "2026_08_BAL_BUF",
+        "proxy": "2026_07_CIN_BAL",
+        "candidates": 10
+      },
+      {
+        "observed": "2026_08_IND_JAX",
+        "proxy": "2026_05_PHI_JAX",
+        "candidates": 1
+      },
+      {
+        "observed": "2026_06_BAL_CLE",
+        "proxy": "2026_06_BAL_CLE",
+        "candidates": 1
+      },
+      {
+        "observed": "NONE",
+        "proxy": "NONE",
+        "candidates": 2
+      },
+      {
+        "observed": "2026_04_TEN_BAL",
+        "proxy": "2026_04_TEN_BAL",
+        "candidates": 1
+      },
+      {
+        "observed": "2026_08_IND_JAX",
+        "proxy": "NONE",
+        "candidates": 1
+      }
+    ],
+    "examples": [
+      {
+        "player": "Ameer Abdullah",
+        "role": "RB",
+        "observed_latest": "2026_08_IND_JAX",
+        "proxy_latest": "2026_06_HOU_JAX",
+        "observed_mean": 0.6663112579067654,
+        "proxy_mean": 0.6176885140219,
+        "observed_median": 0.0,
+        "proxy_median": 0.0
+      },
+      {
+        "player": "Nick Vannett",
+        "role": "TE",
+        "observed_latest": "2024_18_HOU_TEN",
+        "proxy_latest": "2024_18_HOU_TEN",
+        "observed_mean": 1.3636335966001696,
+        "proxy_mean": 1.358298227087267,
+        "observed_median": 1.0,
+        "proxy_median": 1.0
+      },
+      {
+        "player": "Derrick Henry",
+        "role": "RB",
+        "observed_latest": "2026_08_BAL_BUF",
+        "proxy_latest": "2026_07_CIN_BAL",
+        "observed_mean": 1.6047334635629273,
+        "proxy_mean": 1.5815284917415455,
+        "observed_median": 1.0,
+        "proxy_median": 1.0
+      },
+      {
+        "player": "Jakobi Meyers",
+        "role": "WR",
+        "observed_latest": "2026_08_IND_JAX",
+        "proxy_latest": "2026_06_HOU_JAX",
+        "observed_mean": 3.1947450857605446,
+        "proxy_mean": 3.862547210653922,
+        "observed_median": 3.0,
+        "proxy_median": 4.0
+      },
+      {
+        "player": "Chris Rodriguez Jr.",
+        "role": "RB",
+        "observed_latest": "2026_08_IND_JAX",
+        "proxy_latest": "2026_06_HOU_JAX",
+        "observed_mean": 0.9282584846634363,
+        "proxy_mean": 0.8433029690581619,
+        "observed_median": 1.0,
+        "proxy_median": 0.0
+      }
+    ],
+    "fixed_model_SHA256": "8a333940431311a6670e6630b6a42f88502e04a1047c55062101bd32a5dae536",
+    "same_parent_laws_and_typed_observed_outputs": true,
+    "original203_capture_unchanged": "Parent frozen remainderRUN/forecast SHA verified; original pass_yd source unchanged from prior scoped receipt. No original forecasts rewritten.",
+    "query_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+    "created_UTC": "2026-11-06T00:17:30.313386+00:00",
+    "kickoff_UTC": "2026-11-06T01:15:00+00:00",
+    "generation_before_five_minute_cutoff": true,
+    "server_publication_state": "Awaiting separate genuine server receipt at issue; local creation/commit metadata alone is not pregame issuance proof.",
+    "failed_attempt_preserved": {
+      "state": "FAILED_BUDGET;NO_OUTPUT_PACKET",
+      "observed_CPU_lower_bound_seconds": 42,
+      "final_CPU_not_retained": true,
+      "packet_rows": 0,
+      "conservative_charged_seconds": 120,
+      "recovery_has_active_CPU_timer": true
+    },
+    "recorded_recovery_CPU_seconds": 7.511100461999999,
+    "independent_check_CPU_seconds": 4.849229268,
+    "new_fits": 0,
+    "actuals_lines_selections": 0,
+    "limits": [
+      "Query-only age comparison on the same frozen seven-day-trained model. It does not retrain or establish a better freshness recipe.",
+      "No accuracy, calibration, selected-side improvement or final outcome established. Exact-line checks are software boundary fixtures only.",
+      "Historical publication/revision clocks remain unauthenticated; no closed input-use trace or earlier19721-grade pass repeated."
+    ],
+    "prior_scoped_receipt_SHA256": "a256acf76ba3ef9024b94facd2d1bda263e37b969def9ab8c80eed425b964075",
+    "prior_scoped_fields_unchanged": true
+  }
+}

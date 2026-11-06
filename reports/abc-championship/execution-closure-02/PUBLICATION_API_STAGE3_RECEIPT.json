@@ -1,0 +1,238 @@
+{
+  "completed_UTC": "2026-11-06T00:20:08.017967+00:00",
+  "repository": "NickNicky19/NFL-forecasting-NGS-C",
+  "branch": "research/execution-closure-02",
+  "previous": "794b5c639bacbae7270bab490e24daf99dba864b",
+  "head": "b24b05401714d65bec6516d26defaf1aa8bc4866",
+  "force": false,
+  "API_calls": 43,
+  "records": [
+    {
+      "kind": "blob",
+      "SHA1": "0eed38e8ece5a7a81a190415d4e67a55953ff71f",
+      "bytes": 4231,
+      "path": ".github/workflows/c-checks-pages.yml"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "1217188d969e0b2494d4c216a72d972c8de37b0c",
+      "bytes": 9254,
+      "path": "AGENTS.md"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "d7db4f604ed1bc7d097ff83fce067029891263df",
+      "bytes": 1753,
+      "path": "docs/build.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "8dc878ba067ca560b5ec33401a879406c49b086c",
+      "bytes": 5958,
+      "path": "docs/data/actual-props-v5.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "083c5215db7f7ad82371651901e8870c9281b1a7",
+      "bytes": 2189296,
+      "path": "docs/data/qualification-5w.json.gz"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "3397b5ec9323f199bb9a3fc088bc7ca6c2d90aae",
+      "bytes": 571,
+      "path": "protocol/AUDIT_REMEDIATION_20261105_C_ADOPTION.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "db1d8535e852bdcc3b9ee36d5196b5831568a025",
+      "bytes": 24468,
+      "path": "reports/abc-championship/CURRENT_PROTOCOL.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "93e04b4e1010a2fc811b11e2c613cb83f5bfd0f0",
+      "bytes": 13569,
+      "path": "reports/abc-championship/EXPORT_INDEX.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "0454e453f9a798eb2804ddf316b82980eb0b690c",
+      "bytes": 9463,
+      "path": "reports/abc-championship/TASK_LEDGER.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "f44885feceb9d09f3f505489cccd8d9df28af7f6",
+      "bytes": 323,
+      "path": "reports/abc-championship/execution-closure-02/AUDIT_D6_REPRO_BEFORE.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "7a5f1c3aa6c0491b440e13311dc87c72d77023f8",
+      "bytes": 441,
+      "path": "reports/abc-championship/execution-closure-02/AUDIT_D6_REVALIDATION.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "1c7b4fc6de872f1a0855dfaf44f7dbc58c50b995",
+      "bytes": 42822,
+      "path": "reports/abc-championship/execution-closure-02/AUDIT_FINDING_INDEX_PUBLIC_SAFE.txt.gz"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "fb37c4ef63daaa5cca18f06b394b2808797b31e4",
+      "bytes": 4531,
+      "path": "reports/abc-championship/execution-closure-02/AUDIT_INDEPENDENT_VERIFICATION.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "15b6c4e364e65fc0091a90a9347a9f7734e080be",
+      "bytes": 1324,
+      "path": "reports/abc-championship/execution-closure-02/AUDIT_SOURCE.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "98c8b3a85f0909bf113107bb7ab189c946b613b6",
+      "bytes": 8468,
+      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "93c35496b2e6d6b963eea83a548afe124e9b658c",
+      "bytes": 1056,
+      "path": "reports/abc-championship/execution-closure-02/FRESHNESS_QUERY_COMPARISON_REGISTRATION.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "345298471fb64c50c8c7dd9eb1d31efb323b3674",
+      "bytes": 4241,
+      "path": "reports/abc-championship/execution-closure-02/LOCAL_RENDERED_FORECAST_PARITY.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "5c11504e8508ae8d45de60d2ef2c3de73c6c9635",
+      "bytes": 19619,
+      "path": "reports/abc-championship/execution-closure-02/PUBLICATION_API_STAGE2_RECEIPT.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "60efa8d5cdb4fe09b646187755c6f7211bfa4c7a",
+      "bytes": 247,
+      "path": "reports/abc-championship/execution-closure-02/PUBLICATION_STAGE3_BUDGET.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "d9e2e8bc82ea82a03688ab12ad203fe6b54098d5",
+      "bytes": 12828,
+      "path": "reports/abc-championship/execution-closure-02/README.md"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "6119dddc42d9faa04397e3a39c2a274bcf791000",
+      "bytes": 4764,
+      "path": "scripts/publish_closure02_git_objects.py"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "7de924da9f8890221beaf170c6c36225a06740d5",
+      "bytes": 6239,
+      "path": "src/freshness_query_shadow_v1.py"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "1a6118303d023006e370fd7eeb9cb64e4cc19bd0",
+      "bytes": 1899,
+      "path": "src/selection.py"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "69daa1428b3014b28f65cc586d126646a72604ce",
+      "bytes": 5296,
+      "path": "src/site_paper_v5.py"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "3f0f5e8fdf88132d47b3639acf2923698e71b215",
+      "bytes": 3608,
+      "path": "src/site_qualification_5w.py"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "8b7318024c96b5006465160b01bbc4e2f5f59c92",
+      "bytes": 1286,
+      "path": "tests/test_audit_remediation_selection.py"
+    },
+    {
+      "kind": "commit",
+      "SHA1": "a0df5dc45eb293965d10279d69f3f1a7afc458bd",
+      "tree": "3e8f0c0aed9bfb0cd4451b2df0fa07eb3ca275d0",
+      "exact_local_identity_preserved": true,
+      "API_observed_UTC": "2026-11-06T00:19:59.678269+00:00"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "0335f92cf782e3e0ab4b5a66a035fadae81c0aa6",
+      "bytes": 991,
+      "path": "reports/abc-championship/execution-closure-02/FRESHNESS_QUERY_FAILED_ATTEMPT.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "b2e5fa2ca9539ade7ad7777ee8a3707f902f3e08",
+      "bytes": 6508,
+      "path": "src/freshness_query_shadow_v1.py"
+    },
+    {
+      "kind": "commit",
+      "SHA1": "15d872a0736943d86d9ea7947f3fb53e0df24d11",
+      "tree": "9d786dcdd2733f5f00f3b526a65f7b2b9aa8eb28",
+      "exact_local_identity_preserved": true,
+      "API_observed_UTC": "2026-11-06T00:20:01.853738+00:00"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "22c8bed5d631db489652920ca36fc02ca5ae3c0d",
+      "bytes": 9839,
+      "path": "prospective/shadows/AUDIT-D2-C-REC-W09-01/ROWS.json.gz"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "01d4d54716e8f424ff9f239128cc38ff7dfb80ab",
+      "bytes": 1734,
+      "path": "prospective/shadows/AUDIT-D2-C-REC-W09-01/RUN.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "4e05449099ab9a6189060b4c6b19498d2d990816",
+      "bytes": 24468,
+      "path": "reports/abc-championship/CURRENT_PROTOCOL.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "f529ede3db0e3605975198236809850ba007adda",
+      "bytes": 13569,
+      "path": "reports/abc-championship/EXPORT_INDEX.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "9846606fa112f18ce2bbeb9c393f5f30c96afa72",
+      "bytes": 9186,
+      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER.json"
+    },
+    {
+      "kind": "blob",
+      "SHA1": "40c9fa0e74028867ae2bddc60f90666fd82f1b62",
+      "bytes": 13218,
+      "path": "reports/abc-championship/execution-closure-02/README.md"
+    },
+    {
+      "kind": "commit",
+      "SHA1": "b24b05401714d65bec6516d26defaf1aa8bc4866",
+      "tree": "9cb5e12a870d652907730e19b6c8bdf2e3b57d90",
+      "exact_local_identity_preserved": true,
+      "API_observed_UTC": "2026-11-06T00:20:06.746459+00:00"
+    }
+  ],
+  "client_dates_not_server_proof": true,
+  "claim": "Objects published through normal API; prospective qualification still requires actual bound server checks and fresh readback."
+}

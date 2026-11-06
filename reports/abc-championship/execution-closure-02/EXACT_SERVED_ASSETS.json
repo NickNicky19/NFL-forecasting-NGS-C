@@ -1,0 +1,207 @@
+{
+  "verified_UTC": "2026-11-06T00:28:44.484466+00:00",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "served_commit": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+  "Pages_run": 42136416581,
+  "build": {
+    "built_at_UTC": "2026-11-06T00:24:36.113669+00:00",
+    "served_commit": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "28235806e3207502999f74435327fa3bea5852a60842ea7c7484cbe516db6efd",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+    "forward_source_observed_UTC": "2026-11-05T23:13:07.510746+00:00",
+    "forward_server_persisted_UTC": "2026-11-05T23:34:29Z",
+    "actual_props_SHA256": "7687dc5f0b2d0195b9cf4f7c3d5d590354102f5b1877b105c5463d192718fe7e",
+    "actual_props_adapter_version": "C-ACTUAL-OFFERS-v5",
+    "actual_accuracy_SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+    "actual_accuracy_policy": "C-ACTUAL-ACCURACY-v6",
+    "reliability_v8_SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa",
+    "week8_results_SHA256": "3b6a2cdaa7b8196d74f7d3bf3dd1addfa27def0a190d51de463b827655d22203",
+    "week8_results_version": "C-W8-v9-20261102-003",
+    "week8_outcome_observed_UTC": "2026-11-02T19:02:11.339016+00:00",
+    "topk_reference_v9_SHA256": "297038b2b6334528508386c4200348a34064e0742d95c925e1ecca3cb3123fbc",
+    "championship_SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+    "championship_shared_C01_SHA256": "83cc05fbef6301b11ed65e99e1e3bbad82c6e90c1cb30a1f9d479439d1e7c820",
+    "qualification_5w_SHA256": "79445ce108e96211471de7370627b5fe7b35cab9903c213635f42e5426ddf191"
+  },
+  "assets": [
+    {
+      "path": "build.json",
+      "SHA256": "1d7f1c24e1ddbc2449163ebca9f9e69b0d246991ba9b2921a5315ce2d1d822db",
+      "bytes": 1862,
+      "server_generated_build": true,
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "index.html",
+      "SHA256": "e943b7367dfd035de4614da6d91be8ee0866ff0e691918497700b3078b878472",
+      "bytes": 34333,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "app.js",
+      "SHA256": "ff7bbb155b1ae7bb0e344b25c09a4f21ef704454d3357e617d598cf6b93acf13",
+      "bytes": 19451,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "style.css",
+      "SHA256": "97b7dc7515ff157ff735fecae7ed37c31b39cc5d48181525cd95b2269d7c356a",
+      "bytes": 10981,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "forward.js",
+      "SHA256": "2b883d5226379f75f474b8eea9e2744a8d542ff462ed80179ef82de0fba32080",
+      "bytes": 10455,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "paper.js",
+      "SHA256": "4477459498eceb8da35c58c12648987d9b290efc8588f65478bef831f4df6e4f",
+      "bytes": 7151,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "qualification.js",
+      "SHA256": "09798066c0f7a10a34313e9a11f89ce26bb4ee5610be77849fc820413d5b78ef",
+      "bytes": 4486,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:40 GMT"
+    },
+    {
+      "path": "championship.js",
+      "SHA256": "84f61094bd6470fb84b7403fc92d87fcc93c18a0b7940ab491ee3f6ccb5108d6",
+      "bytes": 9347,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:41 GMT"
+    },
+    {
+      "path": "championship.html",
+      "SHA256": "3342b968d11f118ed865932fb9608772c86a19d5510168a49088a382b6500f64",
+      "bytes": 4705,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:41 GMT"
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "SHA256": "28235806e3207502999f74435327fa3bea5852a60842ea7c7484cbe516db6efd",
+      "bytes": 8350,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:41 GMT"
+    },
+    {
+      "path": "data/actual-props-v5.json",
+      "SHA256": "7687dc5f0b2d0195b9cf4f7c3d5d590354102f5b1877b105c5463d192718fe7e",
+      "bytes": 5958,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:41 GMT"
+    },
+    {
+      "path": "data/qualification-5w.json.gz",
+      "SHA256": "79445ce108e96211471de7370627b5fe7b35cab9903c213635f42e5426ddf191",
+      "bytes": 2189296,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/pass_yd.json",
+      "SHA256": "5eacf9c3c98d3bf741d4e12d5a4314a45d49d8d66c4fddcd54419c84ae1a8b03",
+      "bytes": 262899,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/pass_td.json",
+      "SHA256": "ce0a072414bcfdbcd4b207fcbcd1e85cd8d7d52fb16e7c93b3c85787003cf3f7",
+      "bytes": 262623,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/pass_cmp.json",
+      "SHA256": "cf8dc10df0d79e11aac5949ca9f576e224301c151ae13e64c12a8351d7245606",
+      "bytes": 240562,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/pass_att.json",
+      "SHA256": "6bce2ca1ae57ba14caab1562faf1672b5abfcd3f880f59e39aba1429c69ef958",
+      "bytes": 240573,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/pass_int.json",
+      "SHA256": "22f93cee3c0c426ba3b025595f7d925433807290269fe7d901fbe4f096f26cd7",
+      "bytes": 240909,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:42 GMT"
+    },
+    {
+      "path": "data/forward/rush_yd.json",
+      "SHA256": "25d7ffb4807e724f15b2811cd2c1b2466e3561649487a93b6f138516ea3f05bc",
+      "bytes": 554527,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:43 GMT"
+    },
+    {
+      "path": "data/forward/rush_att.json",
+      "SHA256": "7ef546d3da437bca7d9eb0dff88c3aac35cc2a4a416a12e0c20a94570fc4abed",
+      "bytes": 554495,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:43 GMT"
+    },
+    {
+      "path": "data/forward/rec.json",
+      "SHA256": "40f577f73d6335e5887f4c8f623d786c26e4d54d578ef20af35181fe4d1160f0",
+      "bytes": 1131585,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:43 GMT"
+    },
+    {
+      "path": "data/forward/rec_yd.json",
+      "SHA256": "78009959b63a7c935737ab25d5657f17fcae629780fc37b8f7c81628446fe6c6",
+      "bytes": 1237846,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:43 GMT"
+    },
+    {
+      "path": "data/forward/rush_rec_yd.json",
+      "SHA256": "09b5c38b8e60a9dbd4ddfca7ed43278f8d6023cde3eb87b0e8431718d3fa2c60",
+      "bytes": 1242027,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:43 GMT"
+    },
+    {
+      "path": "data/forward/anytime_td.json",
+      "SHA256": "5d23e9e57cec0ee6750c87fc1fa9aa4b3f63edffabc3937f5f3cd2929c6816d7",
+      "bytes": 1345596,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:44 GMT"
+    },
+    {
+      "path": "data/forward/fpts.json",
+      "SHA256": "f8f7871ce311771ef531a4660534ebac7fed12fb4055cdd95a7d22a37581b5dc",
+      "bytes": 1374801,
+      "parity": "EXACT",
+      "HTTP_Date": "Fri, 06 Nov 2026 00:28:44 GMT"
+    }
+  ],
+  "GETs": 24,
+  "total_bytes": 10994818,
+  "all12_future_row_payloads_verified": true,
+  "original_site_modified": false,
+  "scope": "Exact public TLS asset verification. Browser tests use explicit local mirror; no direct public Chromium TLS claim or trust changes. Old23MBactualaccuracyasset not freshlydownloaded inthischeck;itsbindingandcanonicalrowsareseparatelyvalidated."
+}
