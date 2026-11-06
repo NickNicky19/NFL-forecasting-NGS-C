@@ -1,3 +1,5 @@
+Current final receipt: [served audit repairs and genuine pregame capture](FINAL_AUDIT_PUBLICATION_RECEIPT.json). C is served-verified at `0fd349324d7021022d8b374c20deb634583fe717` (Pages run 42139868482); the older stage descriptions below remain preserved. No canonical grade changed and no replacement primary was activated. Peer-owned history/presence/current-feed work remains open. The execution environment became unavailable after final checks; the final receipt distinguishes retained evidence from the last unrecovered local expanded logs.
+
 # Audit-remediation update — C scope
 
 The exact November5 audit index is pinned by AUDIT_SOURCE.json (original TXT SHA256720b464f8077d3a483a4a73245690071866b7757fb6d20763c2ea8d931061795). The publicly retained derivative redacts six private Library locators; it is not claimed byte-identical to the original. No unavailable reproduction ZIP or separate Astra archive was executed. FINDING_RUNTIME_LEDGER.json is the single owner-specific finding/runtime record.
