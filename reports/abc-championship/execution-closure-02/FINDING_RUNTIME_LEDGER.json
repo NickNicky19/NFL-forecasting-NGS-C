@@ -15,7 +15,8 @@
       "affected_evidence": "Dormant helper only;18578 finite strict selections/19721 canonical rows unchanged;zero scored nonfinite actuals",
       "historical_impact": "NO_CANONICAL_TRANSITIONS;not claimed sourceofpoor winrates",
       "producer": "C PR30 updatepending",
-      "served": "NOT_YET_MERGED_OR_SERVED"
+      "served": "NOT_YET_MERGED_OR_SERVED",
+      "local_repair_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11"
     },
     {
       "id": "C-SITE-PROJECTION",
@@ -27,7 +28,8 @@
       "affected_evidence": "Website acceptance/publication only;zerooffers and selections;oldprediction/gradebytes unchanged",
       "historical_impact": "NO_SCIENTIFIC_SCORE_CHANGE",
       "producer": "C PR30 updatepending",
-      "served": "NOT_YET_MERGED_OR_SERVED"
+      "served": "NOT_YET_MERGED_OR_SERVED",
+      "local_repair_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11"
     },
     {
       "id": "D3",
@@ -39,19 +41,24 @@
       "affected_evidence": "Originalforecastsnumerical retained;zerooriginalW8 wagers orqualifiedC actual-line selections",
       "historical_impact": "NO_GRADE_REWRITE",
       "producer": "ExistingC guards remain",
-      "served": "ExplicitCMP/ATTlimits retained"
+      "served": "ExplicitCMP/ATTlimits retained",
+      "local_repair_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11"
     },
     {
       "id": "D2",
       "owner": "C",
       "path": "data_v2.History and prospective_v4.ObservedHistory",
-      "state": "DECLARED_TIMING_LIMITATION;CONTROLLED_QUERY_COMPARISON_REGISTERED",
+      "state": "QUERY_ONLY_COMPARISON_EXECUTED_PENDING_SERVER_AND_OUTCOMES",
       "reproduction": "1193/2313 latestprioromissions reportedbyfrozenaudit;nota measuredaccuracyloss. Historical7d training/currentobservedqueries differ.",
       "repair": "No timestamp shortcut. One27query zero-refit observed-versusproxy shadowregistered; originalcurrent203 remainunchanged.",
       "affected_evidence": "Historical clockvalidity remainsreconstruction;futurepairedaccuracy pending",
       "historical_impact": "AUTHENTIC_HISTORICAL_OBSERVATION_VERSIONS_NOT_AVAILABLE;noaccuracyeffectinvented",
       "producer": "Exactoldalgorithm/source/modelbound;newshadowcannotinheritfiveweekfloor",
-      "served": "No newprimary"
+      "served": "No newprimary",
+      "local_repair_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11",
+      "execution": "27 matched current rec queries;27feature changes,26mean changes,2median changes;0fits;7.511CPU;original203 unchanged",
+      "failure_receipt": "FRESHNESS_QUERY_FAILED_ATTEMPT.json",
+      "limitations": "Not aligned historical retraining; no authentic historic clock reconstruction or accuracy gain established."
     },
     {
       "id": "D4",
@@ -63,7 +70,8 @@
       "affected_evidence": "No informationimprovement",
       "historical_impact": "UNCHANGED",
       "producer": "No newmechanismclaimed",
-      "served": "No promotion"
+      "served": "No promotion",
+      "local_repair_code_commit": "15d872a0736943d86d9ea7947f3fb53e0df24d11"
     },
     {
       "id": "A2/A3",
