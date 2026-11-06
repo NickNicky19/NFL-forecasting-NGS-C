@@ -1,0 +1,128 @@
+{
+  "id": "C-FUTURE-RENDERED-ACCEPTANCE-v4",
+  "URL": "http://127.0.0.1:8092/#upcoming",
+  "expected_served_commit": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+  "category_checks": [
+    {
+      "category": "pass_yd",
+      "stored_rows": 77,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "e456885ff5852b272f1b93e6",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_td",
+      "stored_rows": 77,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "4b456a630c4e43c09ec454ad",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_cmp",
+      "stored_rows": 77,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "7c1a519975559ba48ea98a81",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_att",
+      "stored_rows": 77,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "75d3a725d1cd0f82a65dc8df",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "pass_int",
+      "stored_rows": 77,
+      "currently_unplayed_rows": 6,
+      "representative_forecast_id": "683cfcfeb84fb634c6d5dc1b",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_yd",
+      "stored_rows": 181,
+      "currently_unplayed_rows": 13,
+      "representative_forecast_id": "56f8b1ee843478b7b9dd6338",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_att",
+      "stored_rows": 181,
+      "currently_unplayed_rows": 13,
+      "representative_forecast_id": "4cb0e1116bbd1cbeba6f35fc",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec",
+      "stored_rows": 363,
+      "currently_unplayed_rows": 27,
+      "representative_forecast_id": "97466f592edca59b4e666b4c",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rec_yd",
+      "stored_rows": 363,
+      "currently_unplayed_rows": 27,
+      "representative_forecast_id": "1247ffecd844ac12c1490f34",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "rush_rec_yd",
+      "stored_rows": 363,
+      "currently_unplayed_rows": 27,
+      "representative_forecast_id": "b1bf8fb53d0a2fe85ba5c5d8",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "anytime_td",
+      "stored_rows": 440,
+      "currently_unplayed_rows": 33,
+      "representative_forecast_id": "33f51a51bc607429080373d3",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    },
+    {
+      "category": "fpts",
+      "stored_rows": 440,
+      "currently_unplayed_rows": 33,
+      "representative_forecast_id": "52c82c0bfb594012f855a27a",
+      "typed_value_parity": "PASS",
+      "line_venue_probability_unavailable": "PASS"
+    }
+  ],
+  "default_upcoming": false,
+  "synthetic_diagnostics_separate": true,
+  "no_synthetic_defaults_in_props": true,
+  "all_prospective_results_pending": false,
+  "append_only_grade_overlay": "C-W8-v9-20261102-003",
+  "server_clock_and_feature_clock_distinct": true,
+  "role_search_masks": true,
+  "started_games_suppressed": true,
+  "stale_status_fail_closed": true,
+  "Chicago_DST_repeated_hour_disambiguated": [
+    "Nov 1, 2026, 1:30:00 AM CDT \u00b7 America/Chicago",
+    "Nov 1, 2026, 1:30:00 AM CST \u00b7 America/Chicago",
+    "Nov 1, 2026, 12:00:00 PM CST \u00b7 America/Chicago"
+  ],
+  "desktop1440_mobile390": true,
+  "no_global_overflow": true,
+  "HTTP_failure_closed": true,
+  "checksum_failure_closed": true,
+  "page_errors": [],
+  "new_fits": 0,
+  "tests_are": "UI/software checks, not outcomes or wins",
+  "explicit_upcoming_fragment": true,
+  "scope": "Rendered local mirror of exact public TLS-verifiedb60 assets; actualbuildoverriddenwithfreshservedbuild. No directpublicChromium TLS claim.",
+  "public_asset_receipt": "EXACT_SERVED_ASSETS.json",
+  "default_view": "ACTUAL_PROP_ACCURACY"
+}
