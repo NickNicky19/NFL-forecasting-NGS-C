@@ -19,7 +19,7 @@ from laws_v2 import ThresholdModel,Law,Prior,medians,design
 from reliability_v8 import hgb_export,hgb_cdf
 from contracts_v2 import thresholds_for_line
 from context_features_c01 import Context,OWN_NAMES,OPP_NAMES,INTER_NAMES
-from context_sources_c01 import guard
+from context_sources_c01 import guard,pbp_path
 import abc_championship_v2 as common
 
 ROOT=Path(__file__).resolve().parents[1];BASE_ART=ROOT/'artifacts/player-context-matchup-01';BASE_OUT=ROOT/'reports/player-context-matchup-01';ART=BASE_ART;OUT=BASE_OUT;STRICT=False
@@ -55,7 +55,7 @@ def setup(inputs):
  d=pd.concat([d,extra],ignore_index=True);teams=pd.concat([teams,tt[(tt.season==2026)&(tt.week==8)]],ignore_index=True)
  g=pd.concat([g[~((g.season==2026)&(g.week==8))],gg[(gg.season==2026)&(gg.week==8)]],ignore_index=True)
  write(OUT/'FOOTBALL_INPUT_BINDINGS.json',dict(original_facts_SHA256=sha(inputs/'facts.csv.gz'),original_schedule_SHA256=sha(inputs/'schedule.csv'),append_W8_source=str(later.relative_to(ROOT)),append_source_manifest_SHA256=sha(later/'SOURCE_MANIFEST.json'),appended_rows=len(extra),old_rows_replaced=0))
- frames=[pd.read_csv(ROOT/f'sources/player-context-matchup-01/pbp_facts_{year}.csv.gz',low_memory=False) for year in [2025,2026]]
+ frames=[pd.read_csv(pbp_path(year),low_memory=False) for year in [2025,2026]]
  counts=None
  if STRICT:
   cols=['game_id','team','season','week','attempts','completions','targets']

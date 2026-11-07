@@ -20,6 +20,18 @@ def native(x):
     s=str(x)
     return str(int(s[:-2])) if s.endswith('.0') and s[:-2].isdigit() else s
 def records(frame):return frame.astype(object).where(pd.notna(frame),None).to_dict('records')
+def quarantine_stat_orphans(current):
+    from data_v2 import PHYSICAL
+    from contracts_v2 import CATEGORIES,WEIGHTS,RARE
+    import numpy as np
+    factual=list(dict.fromkeys(PHYSICAL+[v[1] for v in CATEGORIES.values() if v[1]]+[k for k in WEIGHTS if k not in RARE]+['fumble_recovery_tds','special_teams_tds']))
+    invalid=current.player_id.isna()|~current.player_id.fillna('').str.fullmatch(r'00-\d{7}')
+    orphans=current[invalid];assert set(factual)<=set(current),'ORPHAN_FACT_SCHEMA_MISSING'
+    if not orphans.empty:
+        values=orphans[factual].to_numpy(float)
+        assert np.isfinite(values).all() and (values==0).all(),'UNKNOWN_OR_NONZERO_NATIVE_PLAYER_STAT_ORPHAN'
+    rejected=records(orphans[['game_id','team','opponent_team','season','week','player_id']])
+    return current[~invalid].copy(),rejected
 def write(path,value):
     path.parent.mkdir(parents=True,exist_ok=True)
     with path.open('x') as f:json.dump(value,f,separators=(',',':'),allow_nan=False)
@@ -108,7 +120,11 @@ def acquire(season,week,out,cache,historical,game_ids=None):
     if injuries.dropna(subset=['gsis_id']).duplicated(['gsis_id','team'],keep=False).any():raise RuntimeError('AMBIGUOUS_CURRENT_INJURY_ID')
     # Replace current-season history with a minimal, completed-only factual projection.
     old=pd.read_csv(historical/'facts.csv.gz',low_memory=False);cols=list(old.columns)
-    current=tables['stats'];current=current[(current.season==season)&(current.season_type=='REG')&current.game_id.isin(completed)]
+    current=tables['stats'];current=current[(current.season==season)&(current.season_type=='REG')&current.game_id.isin(completed)].copy()
+    # A current publisher may include a null-player all-zero aggregate row.
+    # Quarantine only explicitly zero factual rows; unknown/nonzero orphan
+    # production remains a failed source gate, never assigned to a player.
+    current,rejected_stat_orphans=quarantine_stat_orphans(current)
     assert set(cols)<=set(current),'CURRENT_STAT_SCHEMA_CHANGED'
     facts=pd.concat([old[old.season<season],current[cols]],ignore_index=True)
     assert not facts.duplicated(['game_id','player_id']).any()
@@ -117,7 +133,7 @@ def acquire(season,week,out,cache,historical,game_ids=None):
     write(out/'events.json',upcoming);write(out/'roster.json',records(eligible));write(out/'injuries.json',records(injuries));write(out/'status_facts.json',events)
     source_observed={m['id']:m['observed_UTC'] for m in retriever.manifest}
     coverage={t:int(((eligible.team==t)&(eligible.status=='ACT')).sum()) for t in sorted(allowed)}
-    manifest=dict(id='C-CURRENT-SOURCE-SNAPSHOT-v4',season=season,week=week,created_UTC=stamp(),sources=retriever.manifest,completed_game_ids=completed,events=len(upcoming),offense_roster_rows=len(eligible),active_roster_rows=int((eligible.status=='ACT').sum()),active_team_coverage=coverage,missing_team_coverage=[t for t,n in coverage.items() if not n],invalid_native_roster_rows=len(rejected),invalid_roster_reasons=[dict(reason='MISSING_OR_INVALID_GSIS',position=r['position'],team=r['team']) for r in rejected],excluded_events=excluded,source_observed=source_observed,history_original='GitHub-qualified basic-football-facts-v2.1, older seasons retained unchanged',current_stat_rows=len(current),future_stat_rows_ignored=int(((tables['stats'].season==season)&~tables['stats'].game_id.isin(completed)).sum()),rights='Minimal factual roster/status/designation/statistical projection with nflverseCCBY4attribution. No upstream pictures/biographies/articles/NGS/EPA/CPOE/marketpayload. Rawfullresponses temporaryonly.',future_actuals_required=False)
+    manifest=dict(id='C-CURRENT-SOURCE-SNAPSHOT-v4',season=season,week=week,created_UTC=stamp(),sources=retriever.manifest,completed_game_ids=completed,events=len(upcoming),offense_roster_rows=len(eligible),active_roster_rows=int((eligible.status=='ACT').sum()),active_team_coverage=coverage,missing_team_coverage=[t for t,n in coverage.items() if not n],invalid_native_roster_rows=len(rejected),invalid_roster_reasons=[dict(reason='MISSING_OR_INVALID_GSIS',position=r['position'],team=r['team']) for r in rejected],excluded_events=excluded,source_observed=source_observed,history_original='GitHub-qualified basic-football-facts-v2.1, older seasons retained unchanged',current_stat_rows=len(current),quarantined_explicit_zero_stat_orphans=rejected_stat_orphans,source_identity_rule='v4.2_NULL_NATIVE_ALL_CONSUMED_FACTS_EXPLICIT_ZERO_ONLY;nonzero_or_unknown_orphans_fail',future_stat_rows_ignored=int(((tables['stats'].season==season)&~tables['stats'].game_id.isin(completed)).sum()),rights='Minimal factual roster/status/designation/statistical projection with nflverseCCBY4attribution. No upstream pictures/biographies/articles/NGS/EPA/CPOE/marketpayload. Rawfullresponses temporaryonly.',future_actuals_required=False)
     (out/'ATTRIBUTION.md').write_text('NFL numerical statistics, weekly roster and public report-designation facts: nflverse/nflverse-data (publisher CC-BY-4.0). Schedule/native event facts: nflverse/nfldata. Explicit current event state facts: public ESPN scoreboard, with exact native event IDs; presentation/media/articles are excluded. Captured before the listed future games. Original publication/revision clocks remain separately recorded or unknown. Missing news is not healthy. No source scripts executed.\n')
     (out/'LICENSE-CC-BY-4.0.md').write_bytes((historical/'LICENSE-CC-BY-4.0.md').read_bytes())
     manifest['files']={p.name:dict(bytes=p.stat().st_size,SHA256=digest(p.read_bytes())) for p in out.iterdir() if p.is_file()}

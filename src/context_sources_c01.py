@@ -13,6 +13,9 @@ REPORT=ROOT/'reports/player-context-matchup-01'
 COLS=['game_id','play_id','season','season_type','week','game_date','posteam','defteam','down','ydstogo','yardline_100','qtr','game_seconds_remaining','score_differential','play_type','pass_attempt','rush_attempt','sack','qb_dropback','qb_scramble','qb_kneel','qb_spike','two_point_attempt','play_deleted','penalty','pass_location','air_yards','complete_pass','incomplete_pass','interception','receiver_player_id','passer_player_id','rusher_player_id','receiving_yards','passing_yards','rushing_yards','yards_after_catch','run_location','run_gap','first_down_pass','first_down_rush','pass_touchdown','rush_touchdown']
 def now():return datetime.now(timezone.utc).isoformat()
 def sha(b):return hashlib.sha256(b).hexdigest()
+def pbp_path(season):
+ p=OUT/f'pbp_facts_{season}.csv.gz'
+ return p if p.exists() else OUT/f'pbp_facts_{season}.csv.xz'
 def write(p,x):
  p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2,allow_nan=False)+'\n')
 def guard():
@@ -21,6 +24,7 @@ def guard():
  if total>2684354560:raise RuntimeError('WHOLE_C_CAP')
  return total
 def acquire():
+ assert not (OUT/'SOURCE_MANIFEST.json').exists(),'COMPLETED_SOURCE_INTAKE_FROZEN'
  REPORT.mkdir(parents=True,exist_ok=True);OUT.mkdir(parents=True,exist_ok=True)
  ledger=REPORT/'SOURCE_REQUESTS.json'
  requests=json.loads(ledger.read_text()) if ledger.exists() else []

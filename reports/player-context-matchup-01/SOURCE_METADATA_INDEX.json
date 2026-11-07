@@ -1,0 +1,45 @@
+{
+  "id": "C-CONTEXT-METADATA-LOSSLESS-v1",
+  "reason": "Lossless packaging of new source/denominator metadata within unchanged4MiB publication cap;not removal of unique evidence",
+  "archive": "reports/player-context-matchup-01/SOURCE_METADATA.zip",
+  "SHA256": "4f7d9a41b52934a4035714ad740271d9bae6925b5df0c61bb712f5d67ba179cd",
+  "members": [
+    {
+      "member": "reports/player-context-matchup-01/DENOMINATOR_AUDIT.json",
+      "SHA256": "a0b91f01cd26b7bc06090dd7d031bd0197b8fe45444bdfbf182386e150c0e537",
+      "bytes": 80431
+    },
+    {
+      "member": "reports/player-context-matchup-01/FTN_INVENTORY.json",
+      "SHA256": "804b0b4ebe09be23091b36145b86d491fef50febcc8ea164d75c709c474916fc",
+      "bytes": 21205
+    },
+    {
+      "member": "reports/player-context-matchup-01/SOURCE_DOCUMENTATION.json",
+      "SHA256": "6ada7c9ee5d4d1707df968200ad2c51d979f62c29ae5c4e787813cc35e4d411c",
+      "bytes": 33470
+    },
+    {
+      "member": "reports/player-context-matchup-01/native-query-extension-v1/DENOMINATOR_AUDIT.json",
+      "SHA256": "56cf305583e1c38e31eedb8b99602b604121625162670f4e04b8ac3483ae51c0",
+      "bytes": 80423
+    },
+    {
+      "member": "reports/player-context-matchup-01/v1.1/DENOMINATOR_AUDIT.json",
+      "SHA256": "4d61742b55cee23e2d520a370a0380ca9bd0bcf1947469e6b1104834fd9b642e",
+      "bytes": 80423
+    },
+    {
+      "member": "reports/player-context-matchup-01/validation-replay-v1/DENOMINATOR_AUDIT.json",
+      "SHA256": "fee65014f04261f6fee8d0d9dff3b7a40241381ae4087e20d1b55103f3b01df5",
+      "bytes": 80423
+    }
+  ],
+  "restore": "python scripts/restore_context_metadata_v1.py",
+  "partial_report_duplicate": {
+    "old_decoded_path": "reports/player-context-matchup-01/PAIRED_CHANGES.json",
+    "preserved_path": "reports/player-context-matchup-01/FAILED_REPORT_PARTIAL_PAIRS.json.gz",
+    "SHA256_decoded": "f58297867a8d1d3230fd73fb810978297b3db2a5d53ad6822805d3b0f3355700",
+    "status": "Preserved initial failed-report generation;currentpairedJSONgz includes additional registeredsame-modelcontrolviews;not a new fit"
+  }
+}
