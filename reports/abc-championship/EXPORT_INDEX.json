@@ -308,7 +308,7 @@
     "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
     "report": {
       "path": "reports/player-context-matchup-01/README.md",
-      "SHA256": "8361af7a81abbb00f6b7010c8a7eca0d1406f590120d06e66cd9c73288e8af79"
+      "SHA256": "ceea7ede4ef66764f2307826d44cc8a8f70e1ea96493d503ee54afaef9b06365"
     },
     "canonical_actual_rows": {
       "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
@@ -354,8 +354,8 @@
       "SHA256": "d93ee08f4b986dc8a632cb0f14c79725361cbac80ca0c1a4676a0ef06a3e9cec"
     },
     "current_shadow_capture": {
-      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_SERVER.json",
-      "SHA256": "98a96411a3a23d2e1c87d411d008f1f9d1f990b4516dcee36e44a99a52a0bf6b"
+      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_PUBLICATION.json",
+      "SHA256": "b10d2ef8cb9629d2e9a943379ef744ee5abccd81558f072006330d36993a53a6"
     },
     "identity_metadata_correction": {
       "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
@@ -364,6 +364,27 @@
     "canonical_identity_view": {
       "path": "src/context_identity_view_c01.py",
       "SHA256": "b1766f8880ba27992b74d54e2dc4b49f07dce6cce941c2dbeb9045620322a58b"
+    },
+    "server_capture_manifest_original": {
+      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_SERVER.json",
+      "SHA256": "98a96411a3a23d2e1c87d411d008f1f9d1f990b4516dcee36e44a99a52a0bf6b"
+    },
+    "restoration_receipt": {
+      "path": "reports/player-context-matchup-01/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "9dca3939c929b2169c3ef120bee6c0877055b7890737ee6e8b7be1d7e6da6e53"
+    },
+    "served_receipt": {
+      "path": "reports/player-context-matchup-01/SERVED_VERIFICATION.json",
+      "SHA256": "0c87d12eaa615678ed988580d3b0c229ef9d4655bb493e8494bc6574d50b87f3"
+    },
+    "public_served_commit": "d405edd56ed78cdaed1d7aad6b2fc12bf68ae057",
+    "publication_independent_verification": {
+      "path": "reports/player-context-matchup-01/PUBLICATION_INDEPENDENT_VERIFICATION.json",
+      "SHA256": "b396c4d18345e107b3d6c001435c6e5b1b67a7989f0423b075ed4210c4d9d6db"
+    },
+    "forecast_only_grade_summary": {
+      "path": "reports/player-context-matchup-01/JAXBAL_FORECAST_ONLY_SCORES.json",
+      "SHA256": "b6b47c6f8e2164985a0855bff3513f4b280bd807c6084fc48cf361c24c3f7be0"
     }
   }
 }

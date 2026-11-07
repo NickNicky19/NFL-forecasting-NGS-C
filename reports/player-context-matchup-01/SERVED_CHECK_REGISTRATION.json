@@ -1,0 +1,19 @@
+{
+  "id": "C-CONTEXT-SERVED-v1",
+  "registered_UTC": "2026-11-07T14:33:33.813569+00:00",
+  "source_commit": "d405edd56ed78cdaed1d7aad6b2fc12bf68ae057",
+  "maximum_Page_GETs": 24,
+  "maximum_response_bytes": 2097152,
+  "maximum_total_response_bytes": 16777216,
+  "source_HTTPs": 0,
+  "new_fits": 0,
+  "browser": "system Chromium; normal TLS; no trust-store changes",
+  "checks": [
+    "exact build/source commit and changed asset hashes",
+    "canonical context rows and forward retained-row parity",
+    "desktop/mobile rendered values",
+    "Chicago timezone, unavailable/failure states",
+    "stale/started admission suppression",
+    "rollback target retained"
+  ]
+}
