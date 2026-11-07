@@ -25,12 +25,13 @@ class Prefix:
   rs=self.groups.get(key,[]);right=bisect.bisect_left(self.times.get(key,[]),cutoff)
   return rs[max(0,right-n):right]
 class Context:
- def __init__(self,frames,players,schedule):
+ def __init__(self,frames,players,schedule,strict=False,all_position_counts=None):
   pbp=pd.concat(frames,ignore_index=True)
   assert not pbp.duplicated(['game_id','play_id']).any()
   games={r['game_id']:r for r in schedule.to_dict('records')}
   facts={(r['game_id'],r['player_id']):r for r in players.to_dict('records')}
   teamfacts=players.groupby(['game_id','team'],sort=False).attempts.sum().to_dict()
+  official_counts=all_position_counts or {}
   # Preserve official attempts: sacks/no-plays/deleted/two-point plays excluded;
   # spikes remain attempts. Missing receiver is an unallocated target bucket.
   valid=pbp[(pbp.pass_attempt==1)&(pbp.sack!=1)&(pbp.two_point_attempt!=1)&(pbp.play_deleted!=1)&(pbp.play_type!='no_play')].copy()
@@ -40,6 +41,10 @@ class Context:
    g=games[game];opp=g['away_team'] if team==g['home_team'] else g['home_team']
    if team not in [g['home_team'],g['away_team']]:raise ValueError('TEAM_EVENT_CONFLICT')
    attempts=len(f);official=teamfacts.get((game,team));qualified=official is not None and np.isfinite(official) and attempts==official
+   if strict:
+    counts=official_counts.get((game,team))
+    official=counts['attempts'] if counts else None
+    qualified=bool(counts and counts['complete'] and attempts==counts['attempts'] and int((f.complete_pass==1).sum())==counts['completions'] and int(f.receiver_player_id.notna().sum())==counts['targets'])
    q=dict(game_id=game,team=team,opponent=opp,kickoff=float(g['kickoff']),available=float(g['kickoff'])+7*DAY,attempts=attempts,official_attempts=official,passing_complete=bool(qualified),targets=0,wrte_targets=0,depth_n=np.zeros(5),depth_c=np.zeros(5),down_n=np.zeros(5),down_c=np.zeros(5))
    observed_ids=set()
    for pid,pf in f[f.receiver_player_id.notna()].groupby('receiver_player_id',sort=False):
@@ -63,10 +68,10 @@ class Context:
     if native.get('targets')!=0 or native['values']['rec']!=0:continue
     playerrows.append(dict(game_id=game,team=team,player_id=native['player_id'],role=native['position'],kickoff=q['kickoff'],available=q['available'],targets=0,completions=0,depth_n=np.zeros(5),depth_c=np.zeros(5),down_n=np.zeros(5),down_c=np.zeros(5),attempts=attempts,team_complete=bool(qualified),receptions_match=True,air_sum=0.,air_n=0,yac_sum=0.,yac_n=0,short=0,redzone=0))
    teamrows.append(q);quality.append(dict(game_id=game,team=team,pbp_attempts=attempts,official_attempts=float(official) if official is not None else None,qualified=bool(qualified)))
-  self.players=Prefix(playerrows,'player_id');self.teams=Prefix(teamrows,'team')
+  self.players=Prefix(playerrows,'player_id');self.teams=Prefix([r for r in teamrows if r['passing_complete']] if strict else teamrows,'team')
   self.quality=quality;self.raw_player_games=playerrows
   ordered=sorted(teamrows,key=lambda r:(r['kickoff'],r['game_id'],r['team']))
-  self.league=Prefix([dict(r,league='ALL') for r in teamrows],'league')
+  self.league=Prefix([dict(r,league='ALL') for r in teamrows if not strict or r['passing_complete']],'league')
   defenses=[]
   for r in ordered:
    prior=self.teams.before(r['team'],r['kickoff'],8)

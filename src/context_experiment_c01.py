@@ -22,7 +22,7 @@ from context_features_c01 import Context,OWN_NAMES,OPP_NAMES,INTER_NAMES
 from context_sources_c01 import guard
 import abc_championship_v2 as common
 
-ROOT=Path(__file__).resolve().parents[1];ART=ROOT/'artifacts/player-context-matchup-01';OUT=ROOT/'reports/player-context-matchup-01'
+ROOT=Path(__file__).resolve().parents[1];BASE_ART=ROOT/'artifacts/player-context-matchup-01';BASE_OUT=ROOT/'reports/player-context-matchup-01';ART=BASE_ART;OUT=BASE_OUT;STRICT=False
 def now():return datetime.now(timezone.utc).isoformat()
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def clean(x):
@@ -56,7 +56,14 @@ def setup(inputs):
  g=pd.concat([g[~((g.season==2026)&(g.week==8))],gg[(gg.season==2026)&(gg.week==8)]],ignore_index=True)
  write(OUT/'FOOTBALL_INPUT_BINDINGS.json',dict(original_facts_SHA256=sha(inputs/'facts.csv.gz'),original_schedule_SHA256=sha(inputs/'schedule.csv'),append_W8_source=str(later.relative_to(ROOT)),append_source_manifest_SHA256=sha(later/'SOURCE_MANIFEST.json'),appended_rows=len(extra),old_rows_replaced=0))
  frames=[pd.read_csv(ROOT/f'sources/player-context-matchup-01/pbp_facts_{year}.csv.gz',low_memory=False) for year in [2025,2026]]
- context=Context(frames,d,g)
+ counts=None
+ if STRICT:
+  cols=['game_id','team','season','week','attempts','completions','targets']
+  old=pd.read_csv(inputs/'facts.csv.gz',usecols=cols);extra_counts=pd.read_csv(later/'facts.csv.gz',usecols=cols);extra_counts=extra_counts[(extra_counts.season==2026)&(extra_counts.week==8)]
+  all_counts=pd.concat([old,extra_counts],ignore_index=True);counts={}
+  for (game,team),f in all_counts.groupby(['game_id','team'],sort=False):
+   x=f[['attempts','completions','targets']].to_numpy(float);counts[(game,team)]=dict(zip(['attempts','completions','targets'],x.sum(axis=0)));counts[(game,team)]['complete']=bool(np.isfinite(x).all() and (x>=0).all() and np.equal(x,np.floor(x)).all())
+ context=Context(frames,d,g,strict=STRICT,all_position_counts=counts)
  hist,thist=History(d[d.season>=2022],'player_id'),History(teams[teams.season>=2022],'team')
  fields=['game_id','player_id','team','opponent_team','position','season','week','home_team','kickoff','available','values','played']
  pool=d.loc[d.position.isin(['RB','WR','TE']),fields].to_dict('records')
@@ -83,10 +90,14 @@ def pooled_mu(model,x,ids):
   offset+=len(values)
  assert np.all(np.isfinite(eta)) and np.max(eta)<700
  return np.exp(eta)
-def run(inputs):
+def run(inputs,revision='v1'):
+ global ART,OUT,STRICT
+ STRICT=revision=='v1.1'
+ if STRICT:ART=BASE_ART/'v1.1';OUT=BASE_OUT/'v1.1'
  assert not (OUT/'RUN.json').exists(),'COMPLETED_RUN_FROZEN'
  ART.mkdir(parents=True,exist_ok=True);OUT.mkdir(parents=True,exist_ok=True)
- ledgerpath=OUT/'FIT_LEDGER.json';ledger=read(ledgerpath) if ledgerpath.exists() else dict(HGB_attempts=0,count_attempts=0,CPU_seconds=20.14275997,failures=[],completed=[])
+ base_CPU=read(BASE_OUT/'FIT_LEDGER.json')['CPU_seconds'] if STRICT else 20.14275997
+ ledgerpath=OUT/'FIT_LEDGER.json';ledger=read(ledgerpath) if ledgerpath.exists() else dict(HGB_attempts=0,count_attempts=0,CPU_seconds=base_CPU,failures=[],completed=[],reused_models=[])
  cpu=time.process_time();wall=time.monotonic();signal.signal(signal.SIGPROF,lambda *_:(_ for _ in ()).throw(RuntimeError('CPU_CAP')));signal.setitimer(signal.ITIMER_PROF,max(.1,900-ledger['CPU_seconds']))
  predictions=[];numerical=[];features=[];models={};receipts=[]
  try:
@@ -103,12 +114,14 @@ def run(inputs):
     path=ART/f'{oid}-{arm}.json.gz';x=mats[arm][train];fp=fingerprint(x,y)
     if path.exists():
      p=read(path);assert p['training_fingerprint']==fp and p['membership_SHA256']==membership_hash;model=p['model']
+    elif STRICT and (BASE_ART/path.name).exists() and read(BASE_ART/path.name)['training_fingerprint']==fp:
+     original=BASE_ART/path.name;p=read(original);assert p['membership_SHA256']==membership_hash;model=p['model'];ledger['reused_models'].append(dict(path=str(original.relative_to(ROOT)),SHA256=sha(original)));path=original
     else:
      assert ledger['HGB_attempts']<48;ledger['HGB_attempts']+=1;write(ledgerpath,ledger);guard()
      with threadpool_limits(limits=1):fitted=ThresholdModel('MONOTONE_HGB',False,grids).fit(x,y)
      model=hgb_export(fitted);sample=mats[arm][query[:8]]
      assert np.allclose(fitted.cdfs(sample,grids),np.asarray([hgb_cdf(model,f,grids) for f in sample]),rtol=0,atol=1e-12)
-     write(path,dict(model=model,training_fingerprint=fp,membership_SHA256=membership_hash,training_rows=len(train),fit_cutoff_UTC=pd.Timestamp(cut,unit='s',tz='UTC').isoformat(),protocol_SHA256=sha(ROOT/'protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json'),fit_code_SHA256=sha(__file__)))
+     write(path,dict(model=model,training_fingerprint=fp,membership_SHA256=membership_hash,training_rows=len(train),fit_cutoff_UTC=pd.Timestamp(cut,unit='s',tz='UTC').isoformat(),protocol_SHA256=sha(ROOT/('protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json' if STRICT else 'protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json')),fit_code_SHA256=sha(__file__)))
     arm_models[arm]=model;models[str(path.relative_to(ROOT))]=sha(path)
    pmodels={};mus={};ids=np.asarray([[r['player_id'],r['team'],r['opponent_team']] for r in pool])
    if season==2026:
@@ -116,16 +129,18 @@ def run(inputs):
      path=ART/f'{oid}-{label}.json.gz';x=mats['E2'][train];fp=fingerprint(x,y)
      if path.exists():
       p=read(path);assert p['training_fingerprint']==fp and p['membership_SHA256']==membership_hash;model=p['model']
+     elif STRICT and (BASE_ART/path.name).exists() and read(BASE_ART/path.name)['training_fingerprint']==fp:
+      original=BASE_ART/path.name;p=read(original);assert p['membership_SHA256']==membership_hash;model=p['model'];ledger['reused_models'].append(dict(path=str(original.relative_to(ROOT)),SHA256=sha(original)));path=original
      else:
       assert ledger['count_attempts']<16;ledger['count_attempts']+=1;write(ledgerpath,ledger)
       with threadpool_limits(limits=1):model=pooled_fit(x,y,ids[train],partial)
-      write(path,dict(model=model,training_fingerprint=fp,membership_SHA256=membership_hash,fit_cutoff_UTC=pd.Timestamp(cut,unit='s',tz='UTC').isoformat(),protocol_SHA256=sha(ROOT/'protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json')))
+      write(path,dict(model=model,training_fingerprint=fp,membership_SHA256=membership_hash,fit_cutoff_UTC=pd.Timestamp(cut,unit='s',tz='UTC').isoformat(),protocol_SHA256=sha(ROOT/('protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json' if STRICT else 'protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json'))))
      pmodels[label]=model;mus[label]=dict(zip(query,pooled_mu(model,mats['E2'][query],ids[query])));models[str(path.relative_to(ROOT))]=sha(path)
    # Count laws are complete distributions; classifiers are not numerical models.
    prior=Prior(y,'count')
    for i in query:
-    r=pool[i];past=[h['values']['rec'] for h in hist.before(r['player_id'],r['kickoff'],8) if h['values']['rec'] is not None]
-    ownlaw=empirical_law(past,prior) if len(past)>=8 else None
+    r=pool[i];past=[h['values']['rec'] for h in hist.before(r['player_id'],r['kickoff'],100000 if STRICT else 8) if h['values']['rec'] is not None][-8:]
+    ownlaw=empirical_law(past,Prior(past,'count') if STRICT else prior) if len(past)>=8 else None
     if season==2026:
      for label in ['P1','P2','P3']:
       mu=mus[label][i] if label in mus else ownlaw.mean() if ownlaw else mus['P1'][i]
@@ -146,13 +161,13 @@ def run(inputs):
        model=refs['direct_models'][f'C-ALL12-LAW-THRESHOLD-v2.1-rec-H-MULTI-P3_HGB-E0_OP-W{week:02}'];p=hgb_probs(model,mats['E0'][i],case['line'])
       elif method.startswith('E'):p=hgb_probs(arm_models[method],mats[method][i],case['line'])
       else:
-       past=[h['values']['rec'] for h in hist.before(r['player_id'],r['kickoff'],8) if h['values']['rec'] is not None];law=empirical_law(past,prior) if len(past)>=8 else None
+       past=[h['values']['rec'] for h in hist.before(r['player_id'],r['kickoff'],100000 if STRICT else 8) if h['values']['rec'] is not None][-8:];law=empirical_law(past,Prior(past,'count') if STRICT else prior) if len(past)>=8 else None
        fallback=method=='P3' and law is None
        if method=='P3' and law is not None:p=law.probability(case['line']);mean=law.mean();median=law.quantile(.5)
        else:
         mean=mus['P1' if method=='P3' else method][i];median=float(poisson.ppf(.5,mean));p=count_probs(mean,case['line'])
      side=None if p is None else 'OVER' if p['over']>p['under'] else 'UNDER' if p['under']>p['over'] else 'ABSTAIN'
-     row=dict(base,procedure='C::PLAYER-CONTEXT-MATCHUP-01::'+method,method=method,selected_side=side,probabilities=p,fallback=fallback,mean=mean,median=median,status='UNAVAILABLE_FORECAST' if side is None else 'ABSTAIN' if side=='ABSTAIN' else 'UNKNOWN_PARTICIPATION' if case['appearance']!='PLAYED' else 'MISSING_ACTUAL' if case['actual'] is None else 'PUSH' if case['actual']==case['line'] else 'WIN' if (case['actual']>case['line'])==(side=='OVER') else 'LOSS',comparator='OVER_UNDER',evidence_tier='TIMING_UNVERIFIED_ACTUAL_LINE_RECONSTRUCTION',settlement='UNVERIFIED')
+     row=dict(base,procedure='C::PLAYER-CONTEXT-MATCHUP-01::'+revision+'::'+method,method=method,selected_side=side,probabilities=p,fallback=fallback,mean=mean,median=median,status='UNAVAILABLE_FORECAST' if side is None else 'ABSTAIN' if side=='ABSTAIN' else 'UNKNOWN_PARTICIPATION' if case['appearance']!='PLAYED' else 'MISSING_ACTUAL' if case['actual'] is None else 'PUSH' if case['actual']==case['line'] else 'WIN' if (case['actual']>case['line'])==(side=='OVER') else 'LOSS',comparator='OVER_UNDER',evidence_tier='TIMING_UNVERIFIED_ACTUAL_LINE_RECONSTRUCTION',settlement='UNVERIFIED')
      if p:
       assert min(p.values())>=-1e-12 and abs(sum(p.values())-1)<1e-10
       if case['actual'] is not None:
@@ -162,11 +177,11 @@ def run(inputs):
    if oid not in ledger['completed']:ledger['completed'].append(oid)
    write(ledgerpath,ledger);guard();assert resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024<=1288490188,'RSS_CAP';assert time.monotonic()-wall<=1500,'WALL_CAP'
   write(ART/'EXACT_OFFER_ROWS.json.gz',predictions);write(ART/'NUMERICAL_ROWS.json.gz',numerical);write(ART/'FEATURE_EXPORT.json.gz',features)
-  write(OUT/'RUN.json',dict(id='PLAYER-CONTEXT-MATCHUP-01-C-v1',created_UTC=now(),origins=receipts,models=models,new_HGB_fits=ledger['HGB_attempts'],new_count_fits=ledger['count_attempts'],CPU_seconds=ledger['CPU_seconds']+time.process_time()-cpu,wall_seconds=time.monotonic()-wall,peak_RSS_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,actual_offer_method_rows=len(predictions),numerical_method_rows=len(numerical),query_rows=len(features),old_forecasts_changed=0,new_paper_picks=0,source_tier='CURRENT_REVISED_7DAY_RECONSTRUCTION',five_week='Numerical/tested-origin support must be counted per product; actual lines remain two weeks',ninety_percent='TARGET_NOT_ESTABLISHED'))
+  write(OUT/'RUN.json',dict(id='PLAYER-CONTEXT-MATCHUP-01-C-'+revision,created_UTC=now(),origins=receipts,models=models,new_HGB_fits=ledger['HGB_attempts'],new_count_fits=ledger['count_attempts'],CPU_seconds=ledger['CPU_seconds']+time.process_time()-cpu,wall_seconds=time.monotonic()-wall,peak_RSS_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,actual_offer_method_rows=len(predictions),numerical_method_rows=len(numerical),query_rows=len(features),old_forecasts_changed=0,new_paper_picks=0,source_tier='CURRENT_REVISED_7DAY_RECONSTRUCTION',five_week='Numerical/tested-origin support must be counted per product; actual lines remain two weeks',ninety_percent='TARGET_NOT_ESTABLISHED'))
   print(read(OUT/'RUN.json'))
  except Exception as e:
   ledger['failures'].append(dict(created_UTC=now(),error=str(e)));raise
  finally:
   signal.setitimer(signal.ITIMER_PROF,0);ledger['CPU_seconds']+=time.process_time()-cpu;write(ledgerpath,ledger)
 if __name__=='__main__':
- p=argparse.ArgumentParser();p.add_argument('--inputs',type=Path,required=True);a=p.parse_args();run(a.inputs)
+ p=argparse.ArgumentParser();p.add_argument('--inputs',type=Path,required=True);p.add_argument('--revision',choices=['v1','v1.1'],default='v1');a=p.parse_args();run(a.inputs,a.revision)
