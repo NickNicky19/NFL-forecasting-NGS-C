@@ -1,0 +1,50 @@
+{
+  "observed_UTC": "2026-11-07T13:04:00.329521+00:00",
+  "checks": [
+    {
+      "id": "PBP_LICENSE",
+      "url": "https://raw.githubusercontent.com/nflverse/nflverse-data/main/LICENSE.md",
+      "observed_UTC": "2026-11-07T13:03:58.951589+00:00",
+      "bytes": 18651,
+      "SHA256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+      "status": "RECEIVED"
+    },
+    {
+      "id": "PBP_README",
+      "url": "https://raw.githubusercontent.com/nflverse/nflverse-data/main/README.Rmd",
+      "observed_UTC": "2026-11-07T13:03:59.243928+00:00",
+      "bytes": 6606,
+      "SHA256": "fe435e4775606c1f0f61bff9ec0a42ed8b34119bb33df8bf8adf677e9deca0ad",
+      "status": "RECEIVED",
+      "rights_excerpts": []
+    },
+    {
+      "id": "A_IMMUTABLE_EXPORT",
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting/d426c9ef69208ad1783d3a65e7f057640638c76a/reports/abc-championship/EXPORT_INDEX.json",
+      "observed_UTC": "2026-11-07T13:03:59.522522+00:00",
+      "bytes": 150000,
+      "status": "HTTP200_PARTIAL_BODY_LIMIT;NOT_COMPLETE_INDEX_READBACK",
+      "error": "Bounded150000byte body ended beforeJSONcomplete;routeworks;no full-artifactadmission",
+      "SHA256_of_partial_body": "df9d6567c3098059f3d4023a867e9f610153db543085a4d783f54c4b6fdf9dde"
+    },
+    {
+      "id": "B_IMMUTABLE_EXPORT",
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/b23349ca723868e8bb79ff4a581125c20919e756/reports/abc-championship/EXPORT_INDEX.json",
+      "observed_UTC": "2026-11-07T13:04:00.005389+00:00",
+      "bytes": 150000,
+      "status": "HTTP200_PARTIAL_BODY_LIMIT;NOT_COMPLETE_INDEX_READBACK",
+      "error": "Bounded150000byte body ended beforeJSONcomplete;routeworks;no full-artifactadmission",
+      "SHA256_of_partial_body": "1701c0b15b27ca7a1a8de56cdc82d3955ce61c9156f3502eb599be72128c6bed"
+    }
+  ],
+  "current_default_indexes": "Both main export-index paths also returned404 through connector and bounded public static retrieval; prior exports retained; no polling or peer writes",
+  "instruction": "A/B remain execution owners; publish current assignment outputs in existing reachable EXPORT_INDEX routes;C does not duplicate their fits",
+  "current_repository_readback": {
+    "A_main": "f37279a093fcdddece1e369d42ce54349cb1913c",
+    "A_main_message": "Merged audited history semantics repair;not proof approved registeredproducer/runtimecontainsit",
+    "B_main": "948cb4c5d7a9431e079caac5d345c23602603e43",
+    "main_export_paths": "404;researchbranchpinnedindexesrouteHTTP200partialread;notmodelabsence",
+    "context_branch_search": "No matchingcontextbranches returned;not evidence no private/othernamedwork",
+    "new_context_owner_exports": "NOT_RECEIVED;existing priorfullindexes retained inexecution-closure-02/intake"
+  }
+}

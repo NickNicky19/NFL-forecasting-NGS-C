@@ -1,0 +1,48 @@
+{
+  "id": "C-CONTEXT-SOURCE-RETENTION-v2",
+  "reason": "Lossless sourceCSV packaging within unchanged4MiB public cap;no sourcefacts or model semantics changed",
+  "original_source_versions_and_request_hashes_preserved": true,
+  "canonical_files": [
+    {
+      "original_generated_projection_path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "original_generated_gzip_SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "retained_path": "sources/player-context-matchup-01/pbp_facts_2026.csv.xz",
+      "retained_SHA256": "6da7d220c38971ee12e4a2a005c11d0b8a20d1aaa7863daa57bc0daaf695ccab",
+      "decoded_CSV_SHA256": "15b92b5b4369c234dd959217f9a0910a75c18825d0fd2e698bebd5c9aacc6f83",
+      "decoded_CSV_bytes": 2102298,
+      "retained_bytes": 214764,
+      "packaging_only": true
+    },
+    {
+      "original_generated_projection_path": "sources/player-context-matchup-01/ftn_charting_2025.csv.gz",
+      "original_generated_gzip_SHA256": "e8ca98fdfe6fc45e477d0ad57c5ee79ac6dc7a21ee840b02d172431d400d6868",
+      "retained_path": "sources/player-context-matchup-01/ftn_charting_2025.csv.xz",
+      "retained_SHA256": "fdf24c3c6affd6373d500836b7b0af3da7c085b49d562c5e06b56b13c96e8fbf",
+      "decoded_CSV_SHA256": "62a66416043ff08d43303bf5f3af5390e3fe0f29461a1fc6e295a15cac6ea994",
+      "decoded_CSV_bytes": 8128926,
+      "retained_bytes": 352860,
+      "packaging_only": true
+    },
+    {
+      "original_generated_projection_path": "sources/player-context-matchup-01/ftn_charting_2026.csv.gz",
+      "original_generated_gzip_SHA256": "d0a7795c7929dcaf0bad1249f53598868413cab046fec32f759e8b529873de1b",
+      "retained_path": "sources/player-context-matchup-01/ftn_charting_2026.csv.xz",
+      "retained_SHA256": "6193b81a25bd95a261592f494e76ece2b514dd97f6296dd6147859f9b84f66bc",
+      "decoded_CSV_SHA256": "aa63d7b4e649112615edddb2515ef15946a08077d1080390b76654e45cd77ff4",
+      "decoded_CSV_bytes": 3550317,
+      "retained_bytes": 153904,
+      "packaging_only": true
+    },
+    {
+      "original_generated_projection_path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "original_generated_gzip_SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "retained_path": "sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+      "retained_SHA256": "c2897d02bc3e3e951114feeb3a8b624a5adc741e01f34ff7923957873b70176d",
+      "decoded_CSV_SHA256": "b025865d00014f2b53b29f73d9e65b043abdbe2969e4afc29547620f6d96e097",
+      "decoded_CSV_bytes": 4702640,
+      "retained_bytes": 473392,
+      "packaging_only": true
+    }
+  ],
+  "rights": "PBPCCBY4 and separately FTNCCBYSA4 attribution files retained;no mirror of held sources"
+}

@@ -1,0 +1,57 @@
+{
+  "verified_UTC": "2026-11-06T00:56:55.925345+00:00",
+  "served_commit": "0fd349324d7021022d8b374c20deb634583fe717",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/",
+  "GETs_including_first_build_probe": 5,
+  "verified_assets": [
+    {
+      "path": "build.json",
+      "SHA256": "2050ce000d5a0a201c97f7740f1600a0a8d4182477fd803aae66ec94184e0346",
+      "bytes": 1862
+    },
+    {
+      "path": "championship.js",
+      "SHA256": "79f0c71e469f5373743ef62fceab977c8c9c2e40b0cf50efba4d43c7065e387a",
+      "bytes": 9488
+    },
+    {
+      "path": "championship.html",
+      "SHA256": "3342b968d11f118ed865932fb9608772c86a19d5510168a49088a382b6500f64",
+      "bytes": 4705
+    },
+    {
+      "path": "data/forward-manifest.json",
+      "SHA256": "28235806e3207502999f74435327fa3bea5852a60842ea7c7484cbe516db6efd",
+      "bytes": 8350
+    }
+  ],
+  "build": {
+    "built_at_UTC": "2026-11-06T00:53:12.008818+00:00",
+    "served_commit": "0fd349324d7021022d8b374c20deb634583fe717",
+    "asset_release_id": "e760f4b3221c2d98bb4cf8fa344bef49ab290d1d0ace48c72cedd3004537012a",
+    "data_as_of_UTC": null,
+    "source_snapshot_observed_UTC": "2026-10-31T19:17:09.658305+00:00",
+    "model_version": "Raw:C-ALL12-LAW-THRESHOLD-v2.1; fittedsigmoid:C-2025-TRAINED-SIGMOID-v3; perrow typedversions",
+    "status": "UPCOMING_FORECAST_ONLY_AND_SEPARATE_HISTORICAL_RESEARCH",
+    "forward_manifest_SHA256": "28235806e3207502999f74435327fa3bea5852a60842ea7c7484cbe516db6efd",
+    "forward_model_version": "C-FORWARD-P2-v4; chartPPRcoverage-limitedshadow",
+    "forward_feature_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+    "forward_source_observed_UTC": "2026-11-05T23:13:07.510746+00:00",
+    "forward_server_persisted_UTC": "2026-11-05T23:34:29Z",
+    "actual_props_SHA256": "7687dc5f0b2d0195b9cf4f7c3d5d590354102f5b1877b105c5463d192718fe7e",
+    "actual_props_adapter_version": "C-ACTUAL-OFFERS-v5",
+    "actual_accuracy_SHA256": "2dcd53fd6ab05764a0566ebd13d841c16ae87e8f41058d2be17fd026a2384328",
+    "actual_accuracy_policy": "C-ACTUAL-ACCURACY-v6",
+    "reliability_v8_SHA256": "98bd488116631448fdd63f19620ad54bc2a62e103415e64fe304b1914259a6fa",
+    "week8_results_SHA256": "3b6a2cdaa7b8196d74f7d3bf3dd1addfa27def0a190d51de463b827655d22203",
+    "week8_results_version": "C-W8-v9-20261102-003",
+    "week8_outcome_observed_UTC": "2026-11-02T19:02:11.339016+00:00",
+    "topk_reference_v9_SHA256": "297038b2b6334528508386c4200348a34064e0742d95c925e1ecca3cb3123fbc",
+    "championship_SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+    "championship_shared_C01_SHA256": "83cc05fbef6301b11ed65e99e1e3bbad82c6e90c1cb30a1f9d479439d1e7c820",
+    "qualification_5w_SHA256": "79445ce108e96211471de7370627b5fe7b35cab9903c213635f42e5426ddf191"
+  },
+  "unchanged_future_row_verification": "All12payloads byte-verifiedatb60 in EXACT_SERVED_ASSETS.json;currentforward-manifestbytes/hashunchanged, no prediction/source/offer data changed by finalcaption/numericverifierpatch",
+  "role_caption": "Mixed335carryoffers and239RBpanel explicit",
+  "original_site_modified": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "C-CONTEXT-RESTORE-FAIL-v1",
+  "ten_fresh_GitHub_byte_hash_checks": "PASSEDbeforeinferenceassertion",
+  "manifest_receipt": "Notcompleted;notrepresentedassuccessfulrepresentativeinference",
+  "failed_check": "Poissonreplayusednullcanonicalteamtagratherthanretainedconsumedfeatureteam/opponent",
+  "demonstrated_example": {
+    "game": "2026_02_CAR_ATL",
+    "player": "00-0035208",
+    "correct_team": "ATL",
+    "correct_opponent": "CAR",
+    "saved_mean": 1.6176684120418454,
+    "incorrect_null_tag_replay_mean": 1.6451561939338275
+  },
+  "root_cause": "Exportidentitymetadataomission,notfittedmodelpredictionerror",
+  "repair": "AppendROW_IDENTITY_CORRECTION-v1 from pre-existing historicalroster; useactualconsumedidentityforrestoration",
+  "additional_recovery_budget": {
+    "GitHub_GETs": 6,
+    "download_bytes_max": 2097152,
+    "new_fits": 0
+  },
+  "prior_downloads_not_reset": true
+}

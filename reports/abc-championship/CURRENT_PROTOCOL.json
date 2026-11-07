@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "c03019ca25ec7efe07b766881466dd97613682d232a5299b69ecaff01ff1c017"
+    "SHA256": "bb23a2f6a68ed6e5221d1fe3ee2d82c22e88a7ec29b0f9b1e5477437954645f1"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -541,5 +541,69 @@
     },
     "Pages_run": 42139868482,
     "state": "C_SCOPED_REPAIRS_MERGED_AND_SERVED_VERIFIED;PEER_SCOPED_FINDINGS_OPEN;NO_NEW_PRIMARY_OR_ACTUAL_PROP_WIN"
+  },
+  "player_context_matchup_01": {
+    "assignment": "PLAYER-CONTEXT-MATCHUP-01/v1",
+    "C_recipe": "v1.1",
+    "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
+    "report": {
+      "path": "reports/player-context-matchup-01/README.md",
+      "SHA256": "8361af7a81abbb00f6b7010c8a7eca0d1406f590120d06e66cd9c73288e8af79"
+    },
+    "canonical_actual_rows": {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    "result_binding": {
+      "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+      "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+    },
+    "source_export": {
+      "path": "reports/player-context-matchup-01/OWNER_EXPORT_V2.json",
+      "SHA256": "8439afc08c85e8ff270f220c2cafbfb93ba6f491d9643733a781ca47c2f6ba71"
+    },
+    "source_retention": {
+      "path": "sources/player-context-matchup-01/RETENTION_V2.json",
+      "SHA256": "43e8e35172b8b22f8008655db94c169ae88028ff431a558716cc7ee6fb0090cd"
+    },
+    "scored_actual_weeks": [
+      2,
+      3
+    ],
+    "numerical_scored_weeks_2026": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "historical_2025": "W1-W8syntheticdiagnosticsonly;notactualprops",
+    "state": "EXECUTED_NO_HGB_CONTEXT_INCREMENT;PERSONALIZATION_INCONCLUSIVE;NO_PRIMARY_PROMOTION",
+    "qualification_delta": {
+      "path": "reports/player-context-matchup-01/PRODUCT_QUALIFICATION.json",
+      "SHA256": "63ff4f837370ca568dbf9118e2df6638b2778dce1de1a24c6c76d230ceb4c65b"
+    },
+    "new_original_prop_selections": 0,
+    "new_forecast_only_grade_version": "C-NATIVE-GRADE-20261107-JAXBAL-01",
+    "qualification_composition": "Existing immutable shared qualification table plus this append-only product-specific Cdelta;not a competing registry",
+    "roster_amendment": {
+      "path": "reports/player-context-matchup-01/METHOD_ROSTER_AMENDMENT.json",
+      "SHA256": "d93ee08f4b986dc8a632cb0f14c79725361cbac80ca0c1a4676a0ef06a3e9cec"
+    },
+    "current_shadow_capture": {
+      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_SERVER.json",
+      "SHA256": "98a96411a3a23d2e1c87d411d008f1f9d1f990b4516dcee36e44a99a52a0bf6b"
+    },
+    "identity_metadata_correction": {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    },
+    "canonical_identity_view": {
+      "path": "src/context_identity_view_c01.py",
+      "SHA256": "b1766f8880ba27992b74d54e2dc4b49f07dce6cce941c2dbeb9045620322a58b"
+    }
   }
 }

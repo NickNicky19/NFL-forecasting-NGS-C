@@ -1,0 +1,12 @@
+{
+  "version": "v1",
+  "state": "PRESERVED_SCOPE_LIMITED_NOT_PRIMARY_ELIGIBLE",
+  "original_run_SHA256": "f89e98ea712269b33407480e242e666b11b0bfd94a8348b7c1b3f5cc2fbc8adb",
+  "v1_known_last8_support": 1614,
+  "v1_1_last8_known_support": 1940,
+  "changed_fallback_queries": 326,
+  "query_denominator": 2425,
+  "source": "Independent read-only calculation before correction performance inspection",
+  "P3_actual": "95% player empirical plus5% pooled prior;last8rows then known",
+  "opponent_issue": "9 team-game attempts mismatched;historical baseline prior did not exclude them;training/query representation needs corrected recipe"
+}

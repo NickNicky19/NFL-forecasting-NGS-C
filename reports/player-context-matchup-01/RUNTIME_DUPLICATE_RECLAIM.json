@@ -1,0 +1,37 @@
+{
+  "created_UTC": "2026-11-07T13:15:04.232694+00:00",
+  "purpose": "Reclaim byte-identical temporary software cache members, preserving every unique source/model/prediction/archive and the unchanged whole-C cap",
+  "cap_unchanged": 2684354560,
+  "records": [
+    {
+      "temporary_duplicate_removed": "c-v2/browser/chromium_headless_shell-1234/chrome-headless-shell-linux64/libvk_swiftshader.so",
+      "retained_exact_counterpart": "c-v2/browser/chromium-1234/chrome-linux64/libvk_swiftshader.so",
+      "bytes": 4037592,
+      "SHA256": "4d39038dd6d448a3a6b5cf6aefb583d50346fd75ea8879e2563d67844f460dd0",
+      "restore": "Copy retained exact counterpart to removed temporary dependency path if that unused browser cache is needed"
+    },
+    {
+      "temporary_duplicate_removed": "c-v2/browser/chromium_headless_shell-1234/chrome-headless-shell-linux64/icudtl.dat",
+      "retained_exact_counterpart": "c-v2/browser/chromium-1234/chrome-linux64/icudtl.dat",
+      "bytes": 10876560,
+      "SHA256": "9f48c7f9c7c94d516a14870707e910ab94d75ae640ff6842c4af53276cd26ebe",
+      "restore": "Copy retained exact counterpart to removed temporary dependency path if that unused browser cache is needed"
+    },
+    {
+      "temporary_duplicate_removed": "c-v2/browser/chromium_headless_shell-1234/chrome-headless-shell-linux64/v8_context_snapshot.bin",
+      "retained_exact_counterpart": "c-v2/browser/chromium-1234/chrome-linux64/v8_context_snapshot.bin",
+      "bytes": 740440,
+      "SHA256": "bdce7e7ff62412315f1069a763606b19d636ebd5fb0a17daf67929ba3e5934f8",
+      "restore": "Copy retained exact counterpart to removed temporary dependency path if that unused browser cache is needed"
+    },
+    {
+      "temporary_duplicate_removed": "c-v2/browser/chromium_headless_shell-1234/chrome-headless-shell-linux64/libvulkan.so.1",
+      "retained_exact_counterpart": "c-v2/browser/chromium-1234/chrome-linux64/libvulkan.so.1",
+      "bytes": 660576,
+      "SHA256": "33742ba1b7f8ae04a4f9e35f66c343e3789d7d431a396cacc66ec79b579eaf51",
+      "restore": "Copy retained exact counterpart to removed temporary dependency path if that unused browser cache is needed"
+    }
+  ],
+  "bytes_reclaimed": 16315168,
+  "no_NFL_evidence_deleted": true
+}

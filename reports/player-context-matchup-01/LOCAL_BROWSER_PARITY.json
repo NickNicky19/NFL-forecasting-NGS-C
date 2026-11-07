@@ -1,0 +1,40 @@
+{
+  "checked_UTC": "2026-11-07T13:48:14.456470+00:00",
+  "route": "Local static C source;not public served verification",
+  "checks": [
+    {
+      "scope": "WR_TE",
+      "actual_rows": 10,
+      "numerical_rows": 3
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "actual_rows": 10,
+      "numerical_rows": 3
+    },
+    {
+      "scope": "WR",
+      "actual_rows": 10,
+      "numerical_rows": 3
+    },
+    {
+      "scope": "TE",
+      "actual_rows": 10,
+      "numerical_rows": 3
+    },
+    {
+      "scope": "RB",
+      "actual_rows": 10,
+      "numerical_rows": 3
+    }
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "Chicago_CST": true,
+  "missing_and_bad_admission_fail_closed": true,
+  "page_errors": [],
+  "payload_SHA256": "41b8ebfa4d199ed82d6615f2c4c95057b8d5d33fc703242beedbc981c61fc65c",
+  "new_fits": 0
+}

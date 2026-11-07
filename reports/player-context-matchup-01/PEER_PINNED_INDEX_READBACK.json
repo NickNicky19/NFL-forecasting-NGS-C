@@ -1,0 +1,28 @@
+{
+  "observed_UTC": "2026-11-07T13:59:15.552799+00:00",
+  "checks": [
+    {
+      "owner": "A",
+      "ref": "d426c9ef69208ad1783d3a65e7f057640638c76a",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "bytes": 511347,
+      "SHA256": "be76b377d59eb83179f1e82f6efd7449c85ec66c09c1369c020695c6cda3838d",
+      "fresh_readback": "EXACT_MATCH_EXISTING_FULL_INTAKE",
+      "new_assignment_export_present": false,
+      "current_main_404_not_permanent_block": true,
+      "permission_scope": "Existing public technical/aggregateindexonly;not private model/sourcegrant"
+    },
+    {
+      "owner": "B",
+      "ref": "b23349ca723868e8bb79ff4a581125c20919e756",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "bytes": 238224,
+      "SHA256": "75abb980a2270a8a0dadbe20c87a1bcddaa3d18400ace3cfab13eccdf9380b4d",
+      "fresh_readback": "EXACT_MATCH_EXISTING_FULL_INTAKE",
+      "new_assignment_export_present": false,
+      "current_main_404_not_permanent_block": true,
+      "permission_scope": "Existing public technical/aggregateindexonly;not private model/sourcegrant"
+    }
+  ],
+  "current_new_owner_context_comparisons": "NOT_RECEIVED;A/Bown their fits;C sourceexportprepared;no fabricatedA/Bcomparison"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "PLAYER-CONTEXT-MATCHUP-01-C-v1.1",
+  "registered_UTC": "2026-11-07T12:55:44.861599+00:00",
+  "parent_SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851",
+  "reason": "Independent pre-claim review identified incomplete denominator filtering and incorrectly named player-only/fallback semantics. Corrections selected from contracts before examining new performance. Original v1 fits/rows unchanged, retained as unqualified/scope-limited diagnostics.",
+  "changes": [
+    "Verify team attempt/completion/target denominators against ALL reported positions, not just model roles. Hold mismatches in own/final opponent histories AND historical opponent offense-quality/league baselines.",
+    "P3_NO_POOL tail learned only from the same player eight earlier known appearances. Filter eligible known appearances first, then select recent eight by game time; P1 fallback if support insufficient.",
+    "v1 P3 is correctly described as player empirical with pooled geometric tail and last-eight-row fallback, not genuine no-pooling. It cannot qualify the corrected product."
+  ],
+  "preserve": [
+    "Original v1 48HGB+16count fits and 251.705327959 cumulativeCPU; no interruption/overwrite",
+    "Existing canonical scores/forecasts/audit guards unchanged"
+  ],
+  "budget": {
+    "maximum_additional_HGB_fits": 48,
+    "maximum_additional_count_fits": 16,
+    "cumulative_CPU_seconds_cap_unchanged": 900,
+    "wall_per_run_seconds": 1500,
+    "RSS_bytes_unchanged": 1288490188,
+    "new_public_bytes_cap_unchanged": 4194304,
+    "whole_C_cap_unchanged": 2684354560,
+    "workers": 1,
+    "threads": 1
+  },
+  "reuse": "Reuse every exact training fingerprint/membership-compatible completed model; only changed feature semantics require necessary refits. No new hyperparameter/seed/threshold tuning.",
+  "evaluation": "Same registered 16 origins and exact offers; v1.1 main report, original v1 adverse/unqualified diagnostic separately. All periods remain research-exposed; no primary promotion."
+}

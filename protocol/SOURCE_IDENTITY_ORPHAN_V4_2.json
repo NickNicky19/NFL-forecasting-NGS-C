@@ -1,0 +1,12 @@
+{
+  "id": "C-SOURCE-IDENTITY-v4.2",
+  "registered_UTC": "2026-11-07T13:28:11.391087+00:00",
+  "parent": "C-PROSPECTIVE-v4",
+  "trigger": "Fresh JAX-BAL officialsourcecontainsone nullGSIS/nullposition allnumericalzero row;original203forecastlookups unaffected",
+  "scope": "Historicalstatisticalsource intake only;future queries still require rosterGSIS,event,role,cutoff,notoutcomeavailability",
+  "rule": "Quarantine invalid native stat identities ONLY if every consumed numeric field explicitly finitezero; anyunknown/nonzeroorphan fails. Retain rejection metadata. Valid GSIS playedzero rows preserved.",
+  "existing_valid_model_recipe_changed": false,
+  "old_predictions_or_grades_changed": false,
+  "runtime_tests": "tests/test_context_source_orphans.py real source fixture plus null/nonzero guard",
+  "admission": "Input integrity repair only;no new primary promotion or scientific score gain"
+}

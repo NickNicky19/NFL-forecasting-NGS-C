@@ -1,0 +1,8 @@
+{
+  "observed_UTC": "2026-11-07T13:04:50.026462+00:00",
+  "failed_gate": "Old case team was null; initial extension incorrectly required equality with qualified roster team before resolving it",
+  "correction": "Require unique season/week/GSIS source roster row;validate event teams;fill originalunknown team from that projected source only;never use target actuals",
+  "new_fits": 0,
+  "completed_extensions": 0,
+  "CPU_accounting_note": "One failed reconstruction attempt consumed preprocessing;cumulative budget includes bounded120CPU registration for both attempts;failure before output persisted"
+}
