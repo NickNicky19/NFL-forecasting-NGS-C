@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "9f40477d7cf5c422a6908db5ea3f1bf53698d9ab0d9cbc139f70e425f4f7a57c"
+    "SHA256": "ffb4a89c5ad561bd96ed38134560f83ae8f5414a04afc6f71ac92dd3a866acd2"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -301,5 +301,52 @@
     },
     "Pages_run": 42139868482,
     "state": "C_SCOPED_REPAIRS_MERGED_AND_SERVED_VERIFIED;PEER_SCOPED_FINDINGS_OPEN;NO_NEW_PRIMARY_OR_ACTUAL_PROP_WIN"
+  },
+  "player_context_matchup_01": {
+    "assignment": "PLAYER-CONTEXT-MATCHUP-01/v1",
+    "C_recipe": "v1.1",
+    "producer_code_commit": "dcdfb71",
+    "report": {
+      "path": "reports/player-context-matchup-01/README.md",
+      "SHA256": "39792a8b322607587d1ab50c7397b1add56365b8ae3009256f6bc675008e2549"
+    },
+    "canonical_actual_rows": {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    "result_binding": {
+      "path": "reports/player-context-matchup-01/RESULT_BINDINGS.json",
+      "SHA256": "a8484eaf0c6e3ee2a3e570ed3d3f318fcfb2a90242748533afdad9c293e639f5"
+    },
+    "source_export": {
+      "path": "reports/player-context-matchup-01/OWNER_EXPORT.json",
+      "SHA256": "0b01bb02d8b9a9109b91a83461460be34bfa658bf44a1cdcb81be1d3403fe9ad"
+    },
+    "source_retention": {
+      "path": "sources/player-context-matchup-01/RETENTION_V2.json",
+      "SHA256": "43e8e35172b8b22f8008655db94c169ae88028ff431a558716cc7ee6fb0090cd"
+    },
+    "scored_actual_weeks": [
+      2,
+      3
+    ],
+    "numerical_scored_weeks_2026": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "historical_2025": "W1-W8syntheticdiagnosticsonly;notactualprops",
+    "state": "EXECUTED_NO_HGB_CONTEXT_INCREMENT;PERSONALIZATION_INCONCLUSIVE;NO_PRIMARY_PROMOTION",
+    "qualification_delta": {
+      "path": "reports/player-context-matchup-01/PRODUCT_QUALIFICATION.json",
+      "SHA256": "5493ccac03728fee89728ef6a4a82accf202999bb32dea1b36f3fa6b98296bda"
+    },
+    "new_original_prop_selections": 0,
+    "new_forecast_only_grade_version": "C-NATIVE-GRADE-20261107-JAXBAL-01"
   }
 }

@@ -3,11 +3,24 @@ import json,os,resource,signal,time
 from pathlib import Path
 
 def tree_bytes(root):
+    if Path(root).is_file():return os.stat(root,follow_symlinks=False).st_size
     return sum(os.stat(Path(d)/n,follow_symlinks=False).st_size for d,_,names in os.walk(root) for n in names)
+
+def complete_C_roots(provided):
+    # Manual CLI lists are insufficient for the shared C workspace cap.
+    # Include all C task caches; count a nested root only through its parent.
+    workspace=Path('/workspace')
+    candidates=[Path(p).resolve() for p in provided]
+    if workspace.exists():
+        candidates += [p.resolve() for p in workspace.iterdir() if p.name=='ngs-c' or p.name.startswith('c-')]
+    ordered=sorted(set(candidates),key=lambda p:(len(p.parts),str(p)));roots=[]
+    for p in ordered:
+        if not any(p.is_relative_to(r) for r in roots):roots.append(p)
+    return roots
 
 class ForwardBudget:
     def __init__(self,path,out,roots,limits):
-        self.path,self.out,self.roots,self.limits=path,out,roots,limits
+        self.path,self.out,self.roots,self.limits=path,out,complete_C_roots(roots),limits
         self.state=json.loads(path.read_text()) if path.exists() else dict(CPU_seconds=0.,wall_seconds=0.,fit_attempts=[],peak_RSS_bytes=0,peak_cache_bytes=0,stages=[])
         if self.state.get('active'):raise RuntimeError('UNCLEAN_FORWARD_WAVE_REQUIRES_EXPLICIT_REVIEW')
         self.cpu=time.process_time();self.wall=time.monotonic();self.check()

@@ -19,8 +19,8 @@ def pbp_path(season):
 def write(p,x):
  p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,indent=2,allow_nan=False)+'\n')
 def guard():
- roots=[ROOT]+[p for p in Path('/workspace').iterdir() if p.is_dir() and p.name.startswith('c-')]
- total=sum(f.stat().st_size for p in roots for f in p.rglob('*') if f.is_file())
+ from forward_budget_v4 import complete_C_roots,tree_bytes
+ total=sum(tree_bytes(p) for p in complete_C_roots([ROOT]))
  if total>2684354560:raise RuntimeError('WHOLE_C_CAP')
  return total
 def acquire():
