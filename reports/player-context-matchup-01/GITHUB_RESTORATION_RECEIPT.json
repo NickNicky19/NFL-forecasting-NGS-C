@@ -1,0 +1,75 @@
+{
+  "id": "C-CONTEXT-FRESH-GITHUB-RESTORE-RECOVERY-v1",
+  "checked_UTC": "2026-11-07T14:28:20.099118+00:00",
+  "commit": "570abfe18c82760e62bb499e7679a37f0dc7d581",
+  "recovery_GETs": 6,
+  "recovery_bytes": 614131,
+  "initial_failed_GETs_preserved": 10,
+  "files": [
+    {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "bytes": 237063,
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/FEATURE_EXPORT.json.gz",
+      "bytes": 314397,
+      "SHA256": "63f9853f19042bb3e4af691ce46001920d9df28830d1c6a34abfb5f1eab75ed0"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W02-E3.json.gz",
+      "bytes": 6067,
+      "SHA256": "f467eda25cc920511519d4329c0d3514b4ae7b4bb4a54d3dbffb0e1cb98c954c"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W02-P2.json.gz",
+      "bytes": 14212,
+      "SHA256": "5919014b89fe89e612d6ec572fc122a2ec8343fc0536e7ddabcef187b01a74f6"
+    },
+    {
+      "path": "artifacts/predictive-C01/REUSED_REFERENCE.json.gz",
+      "bytes": 30550,
+      "SHA256": "60c6c16f6c006e6af5507a95502b0f43f65fb656729ab1ef2e3c8228efd318dd"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "bytes": 11842,
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    }
+  ],
+  "restored_model_and_feature_bytes_used_for_inference": true,
+  "representative_inference": [
+    {
+      "offer_id": "PL7-1aa071b14ba18f183dfeea2b",
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0035208",
+      "team": "ATL",
+      "opponent_team": "CAR",
+      "line": 1.5,
+      "side": "UNDER",
+      "actual": 1,
+      "statistical_grade": "WIN",
+      "restored_mean": 1.6176684120418454,
+      "probability_max_delta": 0.0
+    },
+    {
+      "offer_id": "PL7-1dbd1b1ec394a93df44ae385",
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0031610",
+      "team": "CAR",
+      "opponent_team": "ATL",
+      "line": 2.5,
+      "side": "UNDER",
+      "actual": 3,
+      "statistical_grade": "LOSS",
+      "restored_mean": 2.1631310020810823,
+      "probability_max_delta": 0.0
+    }
+  ],
+  "safe_HGB_exact_line_parity": true,
+  "original_canonical_bytes_unchanged": true,
+  "identity_overlay_applied_from_fresh_bytes": true,
+  "new_fits": 0,
+  "unsafe_model_loading": false,
+  "not_A_B_independent_ack": true
+}
