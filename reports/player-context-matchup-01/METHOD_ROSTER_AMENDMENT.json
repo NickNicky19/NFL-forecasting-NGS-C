@@ -1,0 +1,145 @@
+{
+  "id": "C-METHOD-ROSTER-CONTEXT-v1.1",
+  "parent_roster": {
+    "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+    "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+  },
+  "old_roster_unchanged": true,
+  "source_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
+  "procedures": [
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E0",
+      "family": "MONOTONE_HGB",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "DIRECT_THRESHOLD",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "RETAINED_CONTROL_ALIAS"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E1",
+      "family": "MONOTONE_HGB",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "DIRECT_THRESHOLD",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E2",
+      "family": "MONOTONE_HGB",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "DIRECT_THRESHOLD",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E3",
+      "family": "MONOTONE_HGB",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "DIRECT_THRESHOLD",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1",
+      "family": "POISSON_COUNT",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "COUNT_DISTRIBUTION_WITH_TYPED_MEAN_MEDIAN",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2",
+      "family": "POISSON_COUNT",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "COUNT_DISTRIBUTION_WITH_TYPED_MEAN_MEDIAN",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P3",
+      "family": "PLAYER_EMPIRICAL_WITH_OWN_GEOMETRIC_TAIL_P1_FALLBACK",
+      "role_scope": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "history": "2022expandingordinaryfacts;newcontextsource2025onward;7daycurrentvintage",
+      "output": "COUNT_DISTRIBUTION_WITH_TYPED_MEAN_MEDIAN",
+      "selection_policy": "ALL_ELIGIBLE_EXACT_OFFER_LARGER_UO;TIE_ABSTAIN",
+      "update": "Weeklyfirstkickofforigin;earlier-onlyfit/impute;fixedsettings",
+      "actual_line_weeks": [
+        "2026W2",
+        "2026W3"
+      ],
+      "primary_eligible": false,
+      "state": "TESTED_EXPOSED_RESEARCH_NOT_PROMOTED"
+    }
+  ],
+  "families_not_score_views": "E0alias/meanmedianviews/weeklyfits are not independent learnerfamilies"
+}

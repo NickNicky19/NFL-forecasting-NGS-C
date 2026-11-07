@@ -1,0 +1,46 @@
+{
+  "schema": "C-FORWARD-STATUS-REFRESH-v1",
+  "created_UTC": "2026-11-07T14:19:09.584548+00:00",
+  "forecast_sources_SHA256": {
+    "C-FWD-v4-20261107-W09-CINATL-pass_yd": "644ffc53279c8cdafb2f99679a3f6dc67b9aa370fc6d2fe756a8718f18ef453c",
+    "C-FWD-v4-20261107-W09-CINATL-remainder": "9642639599f4f7fde54d46e144ebf959b5e144a0f878a0ba22d4025eb12a4d4d"
+  },
+  "events": [
+    {
+      "game_id": "2026_09_CIN_ATL",
+      "season": 2026,
+      "week": 9,
+      "home_team": "ATL",
+      "away_team": "CIN",
+      "gameday": "2026-11-08",
+      "gametime": "09:30",
+      "home_rest": 7,
+      "away_rest": 7,
+      "stadium": "Bernabeu",
+      "roof": null,
+      "espn_event_id": "401873038",
+      "competition_id": "401873038",
+      "competition_state_agreement": true,
+      "kickoff_UTC": "2026-11-08T14:30:00+00:00",
+      "kickoff": 1794148200.0,
+      "season_type": 2,
+      "state": "pre",
+      "status_name": "STATUS_SCHEDULED",
+      "completed": false,
+      "observed_UTC": "2026-11-07T14:19:09.578530+00:00",
+      "source_id": "PUBLISH_STATUS_2026-11-08",
+      "event_version": "2dd467839183e8bfd074ddd22632ee83b14c1c9fb58d0d7598c66ffbdc803b96"
+    }
+  ],
+  "rejected": [],
+  "sources": [
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261108&limit=100",
+      "observed_UTC": "2026-11-07T14:19:09.578530+00:00",
+      "raw_SHA256": "5603b0fa4c6528ae7217c02afd80c0d3221db6606c18ae8302012ca6ef8cfc40",
+      "HTTP_Date": "Sat, 07 Nov 2026 14:19:09 GMT",
+      "HTTP_Age": null
+    }
+  ],
+  "no_forecast_or_quote_clock_changed": true
+}

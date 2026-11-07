@@ -2,8 +2,9 @@
 from collections import Counter
 from context_experiment_c01 import ROOT,read
 from context_report_c01 import group_score
+from context_identity_view_c01 import corrected_rows
 def validate():
- site=read(ROOT/'docs/data/context-matchup-v1.json');rows=read(ROOT/'artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz');scores=read(ROOT/'reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz')
+ site=read(ROOT/'docs/data/context-matchup-v1.json');rows=corrected_rows();scores=read(ROOT/'reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz')
  assert site['schema']=='C-CONTEXT-RESEARCH-v1.1' and site['primary_releases']==site['qualified_paper_picks']==0
  assert len({(r['method'],r['offer_id']) for r in rows})==len(rows),'REPEATED_QUOTE_METHOD'
  assert all(r['category']=='rec' and r['season']==2026 and r['week'] in [2,3] and r['venue']=='pinnacle' for r in rows)

@@ -1,0 +1,18 @@
+{
+  "id": "C-PLAYER-CONTEXT-MATCHUP-01-EXPORT-v2",
+  "base_export": {
+    "path": "reports/player-context-matchup-01/OWNER_EXPORT.json",
+    "SHA256": "0b01bb02d8b9a9109b91a83461460be34bfa658bf44a1cdcb81be1d3403fe9ad"
+  },
+  "identity_metadata_overlay": {
+    "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+    "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+  },
+  "corrected_canonical_view": {
+    "path": "src/context_identity_view_c01.py",
+    "SHA256": "b1766f8880ba27992b74d54e2dc4b49f07dce6cce941c2dbeb9045620322a58b"
+  },
+  "outputs_changed": 0,
+  "grade_or_coverage_changes": 0,
+  "state": "PREPARED_PERMITTED_SOURCE_FEATURE_EXPORT;A_B_RECEIPT_NOT_ASSUMED;NO_PRIMARY_PROMOTION"
+}
