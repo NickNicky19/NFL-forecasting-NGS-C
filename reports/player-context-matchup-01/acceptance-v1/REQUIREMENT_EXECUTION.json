@@ -1,0 +1,101 @@
+[
+  {
+    "requirement": "RB_DIRECTION_GAP_AND_EFFICIENCY",
+    "owner": "A",
+    "state": "PARTIAL",
+    "reason": "Carry direction/gap and carry-count work owner-reported; not completed signed rushing yards/success versus defense.",
+    "quantity": "Fraction of player carries by down/location; conditional yards and success need their own credited-attempt denominator.",
+    "next_action": "A publishes remaining rushing-yard/efficiency comparison under existing allocation; B reviews A.",
+    "evidence": "A_OWNER_LOCAL_REVIEW_AS_RECEIVED.json"
+  },
+  {
+    "requirement": "TEAM_RUN_PROBABILITY_AND_CARRY_ALLOCATION",
+    "owner": "A",
+    "state": "PARTIAL",
+    "reason": "Existing carry allocation/control results do not prove full team run-probability forecasting by future down mix.",
+    "quantity": "Team runs per eligible offensive opportunity differs from player carries per team run.",
+    "next_action": "A binds opportunity probabilities and full-game carry allocation; no duplicate C fit.",
+    "evidence": "A_OWNER_LOCAL_REVIEW_AS_RECEIVED.json"
+  },
+  {
+    "requirement": "QB_DOWN_DROPBACK_AND_ATTEMPTS",
+    "owner": "B",
+    "state": "COMPLETED_PROXY",
+    "reason": "C independent review reconstructed public QB context and inference; full predicted game-script/dropback mixture remains incomplete.",
+    "quantity": "Past QB throw/dropback frequencies; official attempts exclude sacks/scrambles; future exposures are estimated proxies.",
+    "next_action": "B closes missing future-context integration; C review in B_REVIEW.json.",
+    "evidence": "B_REVIEW.json"
+  },
+  {
+    "requirement": "QB_DEPTH_COMPLETION_CATCHABILITY",
+    "owner": "B",
+    "state": "COMPLETED_PROXY",
+    "reason": "Qualified historical depth/down and FTN charted counts inspected; catchability is not completion.",
+    "quantity": "Depth bins<0,0-9,10-19,20+ and UNKNOWN; provider-specific charted catchability.",
+    "next_action": "B retains four offered weeks; private exact-offer regrade and genuine later paired evidence remain.",
+    "evidence": "B_REVIEW.json"
+  },
+  {
+    "requirement": "WRTE_ALIGNMENT_AND_ROUTE_EXPOSURE",
+    "owner": "C",
+    "state": "SOURCE_BLOCKED",
+    "reason": "Inspected PBP and29-field FTN charting lack receiver starting alignment and all untargeted routes.",
+    "quantity": "Targets/team attempts is a proxy; cannot compute true targets/routes or routes/dropbacks.",
+    "next_action": "Source owner supplies qualified snap/route alignment labels and untargeted-route denominator with clocks/rights.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "WRTE_SEPARATION_AND_QB_PREFERENCES",
+    "owner": "C",
+    "state": "PARTIAL",
+    "reason": "Depth/down/targeting proxies executed; no context-qualified separation mechanism or QB-player route preference fit.",
+    "quantity": "Target shares are not route target probabilities; targeted separation is not all-route openness.",
+    "next_action": "C qualifies lagged separation/context and QB-player identity before a separately registered value test.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "OPPONENT_QUALITY_AND_CONTEXT_RESPONSE",
+    "owner": "C",
+    "state": "COMPLETED_PROXY",
+    "reason": "Own earlier target mixture interacts with distinct shrunken depth/down completion residuals, not an identical scalar.",
+    "quantity": "Offense rates use eligible earlier team opportunities and league shrinkage; no causal defense talent/man-zone claim.",
+    "next_action": "Preserve bounded negative E0-E3 result; future stronger representation needs a new hypothesis, not forced splits.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "POOLED_PARTIAL_AND_PLAYER_ONLY",
+    "owner": "C",
+    "state": "COMPLETED_EXACT",
+    "reason": "P1 versus P2 same covariates/family/objective adds L2 player/team/defense intercepts. P3 changes to own empirical law with shared P1 fallback.",
+    "quantity": "P3 conditional own law uses own eight known appearances/tail; full system shares fallback and is not entirely own information.",
+    "next_action": "P1-P2 partial-pooling comparison inconclusive; P3 is a complete-system contrast, not isolated pooling.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "LOOKBACK_SELECTION",
+    "owner": "C",
+    "state": "NOT_EXECUTED",
+    "reason": "Fixed8 was registered, not chosen as optimal;4/16 and earlier-only window selection still queued.",
+    "quantity": "Player appearances and team/opponent opportunity windows are separate.",
+    "next_action": "C registers a new finite earlier-validation4/8/16 comparison before using its choice later; no tuning on exposed offers.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "UNKNOWN_FUTURE_CONTEXT_INTEGRATION",
+    "owner": "C",
+    "state": "PARTIAL",
+    "reason": "Direct full-game count/threshold models consume lagged proxies; no realized target-game context. Full latent opportunity/alignment integration is not implemented.",
+    "quantity": "Lagged predicted-mix proxy is not integration over uncertain future targets/down/alignment.",
+    "next_action": "C completes separately registered upstream OOF/predicted exposure integration; cannot inherit v1.1 qualification.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  },
+  {
+    "requirement": "HISTORICAL_AND_EXACT_LINE_COVERAGE",
+    "owner": "C",
+    "state": "PARTIAL",
+    "reason": "C actual offers W2-3 only;2026 numericalW1-8 and2025 synthetic diagnostics do not add offered weeks.",
+    "quantity": "362offer opportunities,338known; WRTE278/255; 32games/2exposed weeks.",
+    "next_action": "Qualified source owner extends offers or owner-local compatible scoring; no new threshold or forced transfer.",
+    "evidence": "C_RAW_REVIEW.json;FIT_REPRODUCTION_FINAL.json;parent v1.1 source/model/row bindings"
+  }
+]

@@ -1,0 +1,3390 @@
+{
+  "id": "PLAYER-CONTEXT-ACCEPTANCE-01-C-RAW-v1",
+  "evidence_pin": "fa503c1e1a9993e655a905195ce428edf630add5",
+  "verdict": "PASS_WITH_EXPLICIT_ZERO_REPRESENTATION_AND_RECONSTRUCTION_LIMITS",
+  "new_fits": 0,
+  "network_requests": 0,
+  "reference_arithmetic": "Independent raw-play/stat grouping and direct eligible-prefix enumeration; production Context used only for comparison/mutation.",
+  "cases": [
+    {
+      "id": "C-RAW-WIN",
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0036555",
+      "team": "CAR",
+      "opponent": "ATL",
+      "role": "RB",
+      "cutoff_UTC": "2026-09-20T17:00:00+00:00",
+      "target_actual": 2,
+      "target_grade": "WIN",
+      "fields": {
+        "ctx_player_games8": 8.0,
+        "ctx_targets8": 17.0,
+        "ctx_team_attempts8": 234.0,
+        "ctx_age_days": 259.8125,
+        "ctx_missing": 0.0,
+        "ctx_targets_per_team_attempt": 0.07264957264957266,
+        "ctx_targets_per_appearance": 2.125,
+        "ctx_catch_per_target": 0.8823529411764706,
+        "ctx_mean_air_per_known_target": -2.411764705882353,
+        "ctx_mean_YAC_per_complete_known_target": 9.666666666666666,
+        "ctx_short_to_go_target_share": 0.11764705882352941,
+        "ctx_redzone_target_share": 0.11764705882352941,
+        "ctx_depth_share_behind": 0.5882352941176471,
+        "ctx_depth_share_0_9": 0.4117647058823529,
+        "ctx_depth_share_10_19": 0.0,
+        "ctx_depth_share_20plus": 0.0,
+        "ctx_depth_share_unknown": 0.0,
+        "ctx_down_share_1": 0.058823529411764705,
+        "ctx_down_share_2": 0.35294117647058826,
+        "ctx_down_share_3": 0.5294117647058824,
+        "ctx_down_share_4": 0.058823529411764705,
+        "ctx_down_share_unknown": 0.0,
+        "opp_context_games8": 8.0,
+        "opp_target_support8": 279.0,
+        "opp_age_days": 258.9583333333333,
+        "opp_missing": 0.0,
+        "opp_offense_adjusted_completion_residual": -0.024647436490084045,
+        "opp_offense_adjusted_WRTE_target_share_residual": 0.0035842002081307263,
+        "predicted_depth_mix_x_opponent_catch_residual": -0.02466576654211315,
+        "predicted_down_mix_x_opponent_catch_residual": -0.015974475038312997
+      },
+      "own_prior_games": [
+        {
+          "game_id": "2025_10_NO_CAR",
+          "kickoff_UTC": "2025-11-09T18:00:00+00:00",
+          "available_UTC": "2025-11-16T18:00:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 25,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 1.0,
+          "known_air_targets": 1,
+          "YAC_sum": 0.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_11_CAR_ATL",
+          "kickoff_UTC": "2025-11-16T18:00:00+00:00",
+          "available_UTC": "2025-11-23T18:00:00+00:00",
+          "targets": 3,
+          "receptions": 1,
+          "official_team_attempts": 45,
+          "depth_target_counts": [
+            2.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": -6.0,
+          "known_air_targets": 3,
+          "YAC_sum": 12.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_12_CAR_SF",
+          "kickoff_UTC": "2025-11-25T01:15:00+00:00",
+          "available_UTC": "2025-12-02T01:15:00+00:00",
+          "targets": 4,
+          "receptions": 4,
+          "official_team_attempts": 29,
+          "depth_target_counts": [
+            3.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": -14.0,
+          "known_air_targets": 4,
+          "YAC_sum": 41.0,
+          "known_YAC_catches": 4,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_13_LA_CAR",
+          "kickoff_UTC": "2025-11-30T18:00:00+00:00",
+          "available_UTC": "2025-12-07T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 2,
+          "official_team_attempts": 20,
+          "depth_target_counts": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": -5.0,
+          "known_air_targets": 2,
+          "YAC_sum": 46.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_15_CAR_NO",
+          "kickoff_UTC": "2025-12-14T21:25:00+00:00",
+          "available_UTC": "2025-12-21T21:25:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 24,
+          "depth_target_counts": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": -5.0,
+          "known_air_targets": 1,
+          "YAC_sum": 14.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_16_TB_CAR",
+          "kickoff_UTC": "2025-12-21T18:00:00+00:00",
+          "available_UTC": "2025-12-28T18:00:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 32,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 4.0,
+          "known_air_targets": 1,
+          "YAC_sum": 3.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_17_SEA_CAR",
+          "kickoff_UTC": "2025-12-28T18:00:00+00:00",
+          "available_UTC": "2026-01-04T18:00:00+00:00",
+          "targets": 3,
+          "receptions": 3,
+          "official_team_attempts": 24,
+          "depth_target_counts": [
+            3.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": -18.0,
+          "known_air_targets": 3,
+          "YAC_sum": 24.0,
+          "known_YAC_catches": 3,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_18_CAR_TB",
+          "kickoff_UTC": "2026-01-03T21:30:00+00:00",
+          "available_UTC": "2026-01-10T21:30:00+00:00",
+          "targets": 2,
+          "receptions": 2,
+          "official_team_attempts": 35,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 2.0,
+          "known_air_targets": 2,
+          "YAC_sum": 5.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        }
+      ],
+      "raw_targets_denominator": 17,
+      "raw_official_attempt_denominator": 234,
+      "matched_saved_vector": true,
+      "matched_production_vector": true,
+      "one_retained_play": {
+        "game_id": "2025_18_CAR_TB",
+        "play_id": 384,
+        "air_yards": 0.0,
+        "depth_bin": 1,
+        "down": 2.0,
+        "down_bin": 1,
+        "complete_pass": 1,
+        "yards_after_catch": 2.0
+      }
+    },
+    {
+      "id": "C-RAW-LOSS",
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0036970",
+      "team": "ATL",
+      "opponent": "CAR",
+      "role": "TE",
+      "cutoff_UTC": "2026-09-20T17:00:00+00:00",
+      "target_actual": 1,
+      "target_grade": "LOSS",
+      "fields": {
+        "ctx_player_games8": 8.0,
+        "ctx_targets8": 59.0,
+        "ctx_team_attempts8": 247.0,
+        "ctx_age_days": 258.9583333333333,
+        "ctx_missing": 0.0,
+        "ctx_targets_per_team_attempt": 0.2388663967611336,
+        "ctx_targets_per_appearance": 7.375,
+        "ctx_catch_per_target": 0.7288135593220338,
+        "ctx_mean_air_per_known_target": 7.47457627118644,
+        "ctx_mean_YAC_per_complete_known_target": 5.372093023255814,
+        "ctx_short_to_go_target_share": 0.06779661016949153,
+        "ctx_redzone_target_share": 0.11864406779661017,
+        "ctx_depth_share_behind": 0.1016949152542373,
+        "ctx_depth_share_0_9": 0.576271186440678,
+        "ctx_depth_share_10_19": 0.2711864406779661,
+        "ctx_depth_share_20plus": 0.05084745762711865,
+        "ctx_depth_share_unknown": 0.0,
+        "ctx_down_share_1": 0.3050847457627119,
+        "ctx_down_share_2": 0.288135593220339,
+        "ctx_down_share_3": 0.3728813559322034,
+        "ctx_down_share_4": 0.03389830508474576,
+        "ctx_down_share_unknown": 0.0,
+        "opp_context_games8": 8.0,
+        "opp_target_support8": 218.0,
+        "opp_age_days": 259.8125,
+        "opp_missing": 0.0,
+        "opp_offense_adjusted_completion_residual": 0.03151360395143748,
+        "opp_offense_adjusted_WRTE_target_share_residual": 0.01135708439737654,
+        "predicted_depth_mix_x_opponent_catch_residual": 0.021519946221308366,
+        "predicted_down_mix_x_opponent_catch_residual": 0.031022718320840983
+      },
+      "own_prior_games": [
+        {
+          "game_id": "2025_11_CAR_ATL",
+          "kickoff_UTC": "2025-11-16T18:00:00+00:00",
+          "available_UTC": "2025-11-23T18:00:00+00:00",
+          "targets": 3,
+          "receptions": 2,
+          "official_team_attempts": 30,
+          "depth_target_counts": [
+            0.0,
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 12.0,
+          "known_air_targets": 3,
+          "YAC_sum": 8.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_12_ATL_NO",
+          "kickoff_UTC": "2025-11-23T21:25:00+00:00",
+          "available_UTC": "2025-11-30T21:25:00+00:00",
+          "targets": 5,
+          "receptions": 2,
+          "official_team_attempts": 23,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 60.0,
+          "known_air_targets": 5,
+          "YAC_sum": 6.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_13_ATL_NYJ",
+          "kickoff_UTC": "2025-11-30T18:00:00+00:00",
+          "available_UTC": "2025-12-07T18:00:00+00:00",
+          "targets": 8,
+          "receptions": 7,
+          "official_team_attempts": 33,
+          "depth_target_counts": [
+            1.0,
+            6.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            4.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 35.0,
+          "known_air_targets": 8,
+          "YAC_sum": 60.0,
+          "known_YAC_catches": 7,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_14_SEA_ATL",
+          "kickoff_UTC": "2025-12-07T18:00:00+00:00",
+          "available_UTC": "2025-12-14T18:00:00+00:00",
+          "targets": 10,
+          "receptions": 6,
+          "official_team_attempts": 30,
+          "depth_target_counts": [
+            2.0,
+            3.0,
+            3.0,
+            2.0,
+            0.0
+          ],
+          "down_target_counts": [
+            4.0,
+            1.0,
+            5.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 104.0,
+          "known_air_targets": 10,
+          "YAC_sum": 32.0,
+          "known_YAC_catches": 6,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_15_ATL_TB",
+          "kickoff_UTC": "2025-12-12T01:15:00+00:00",
+          "available_UTC": "2025-12-19T01:15:00+00:00",
+          "targets": 12,
+          "receptions": 11,
+          "official_team_attempts": 44,
+          "depth_target_counts": [
+            0.0,
+            8.0,
+            4.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            6.0,
+            0.0,
+            6.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 86.0,
+          "known_air_targets": 12,
+          "YAC_sum": 81.0,
+          "known_YAC_catches": 11,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_16_ATL_ARI",
+          "kickoff_UTC": "2025-12-21T21:05:00+00:00",
+          "available_UTC": "2025-12-28T21:05:00+00:00",
+          "targets": 9,
+          "receptions": 7,
+          "official_team_attempts": 35,
+          "depth_target_counts": [
+            1.0,
+            4.0,
+            4.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            1.0,
+            5.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 75.0,
+          "known_air_targets": 9,
+          "YAC_sum": 17.0,
+          "known_YAC_catches": 7,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_17_LA_ATL",
+          "kickoff_UTC": "2025-12-30T01:15:00+00:00",
+          "available_UTC": "2026-01-06T01:15:00+00:00",
+          "targets": 3,
+          "receptions": 2,
+          "official_team_attempts": 20,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 30.0,
+          "known_air_targets": 3,
+          "YAC_sum": 3.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_18_NO_ATL",
+          "kickoff_UTC": "2026-01-04T18:00:00+00:00",
+          "available_UTC": "2026-01-11T18:00:00+00:00",
+          "targets": 9,
+          "receptions": 6,
+          "official_team_attempts": 32,
+          "depth_target_counts": [
+            2.0,
+            7.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            4.0,
+            2.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 39.0,
+          "known_air_targets": 9,
+          "YAC_sum": 24.0,
+          "known_YAC_catches": 6,
+          "played_zero_target_proof": false
+        }
+      ],
+      "raw_targets_denominator": 59,
+      "raw_official_attempt_denominator": 247,
+      "matched_saved_vector": true,
+      "matched_production_vector": true,
+      "one_retained_play": {
+        "game_id": "2025_18_NO_ATL",
+        "play_id": 260,
+        "air_yards": 9.0,
+        "depth_bin": 1,
+        "down": 4.0,
+        "down_bin": 3,
+        "complete_pass": 1,
+        "yards_after_catch": 0.0
+      }
+    },
+    {
+      "id": "C-RAW-ORDINARY",
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0037005",
+      "team": "CAR",
+      "opponent": "ATL",
+      "role": "TE",
+      "cutoff_UTC": "2026-09-20T17:00:00+00:00",
+      "target_actual": 1,
+      "target_grade": "WIN",
+      "fields": {
+        "ctx_player_games8": 8.0,
+        "ctx_targets8": 16.0,
+        "ctx_team_attempts8": 224.0,
+        "ctx_age_days": 259.8125,
+        "ctx_missing": 0.0,
+        "ctx_targets_per_team_attempt": 0.07142857142857142,
+        "ctx_targets_per_appearance": 2.0,
+        "ctx_catch_per_target": 0.625,
+        "ctx_mean_air_per_known_target": 5.0,
+        "ctx_mean_YAC_per_complete_known_target": 8.7,
+        "ctx_short_to_go_target_share": 0.125,
+        "ctx_redzone_target_share": 0.125,
+        "ctx_depth_share_behind": 0.0625,
+        "ctx_depth_share_0_9": 0.75,
+        "ctx_depth_share_10_19": 0.125,
+        "ctx_depth_share_20plus": 0.0625,
+        "ctx_depth_share_unknown": 0.0,
+        "ctx_down_share_1": 0.375,
+        "ctx_down_share_2": 0.5,
+        "ctx_down_share_3": 0.125,
+        "ctx_down_share_4": 0.0,
+        "ctx_down_share_unknown": 0.0,
+        "opp_context_games8": 8.0,
+        "opp_target_support8": 279.0,
+        "opp_age_days": 258.9583333333333,
+        "opp_missing": 0.0,
+        "opp_offense_adjusted_completion_residual": -0.024647436490084045,
+        "opp_offense_adjusted_WRTE_target_share_residual": 0.0035842002081307263,
+        "predicted_depth_mix_x_opponent_catch_residual": -0.02584663718661996,
+        "predicted_down_mix_x_opponent_catch_residual": -0.028238244385039482
+      },
+      "own_prior_games": [
+        {
+          "game_id": "2025_08_BUF_CAR",
+          "kickoff_UTC": "2025-10-26T17:00:00+00:00",
+          "available_UTC": "2025-11-02T17:00:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 24,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 1.0,
+          "known_air_targets": 1,
+          "YAC_sum": 3.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_09_CAR_GB",
+          "kickoff_UTC": "2025-11-02T18:00:00+00:00",
+          "available_UTC": "2025-11-09T18:00:00+00:00",
+          "targets": 1,
+          "receptions": 0,
+          "official_team_attempts": 20,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 9.0,
+          "known_air_targets": 1,
+          "YAC_sum": 0,
+          "known_YAC_catches": 0,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_11_CAR_ATL",
+          "kickoff_UTC": "2025-11-16T18:00:00+00:00",
+          "available_UTC": "2025-11-23T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 1,
+          "official_team_attempts": 45,
+          "depth_target_counts": [
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 2.0,
+          "known_air_targets": 2,
+          "YAC_sum": 50.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_13_LA_CAR",
+          "kickoff_UTC": "2025-11-30T18:00:00+00:00",
+          "available_UTC": "2025-12-07T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 1,
+          "official_team_attempts": 20,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 5.0,
+          "known_air_targets": 2,
+          "YAC_sum": 1.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_15_CAR_NO",
+          "kickoff_UTC": "2025-12-14T21:25:00+00:00",
+          "available_UTC": "2025-12-21T21:25:00+00:00",
+          "targets": 4,
+          "receptions": 2,
+          "official_team_attempts": 24,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 35.0,
+          "known_air_targets": 4,
+          "YAC_sum": 10.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_16_TB_CAR",
+          "kickoff_UTC": "2025-12-21T18:00:00+00:00",
+          "available_UTC": "2025-12-28T18:00:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 32,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 0.0,
+          "known_air_targets": 1,
+          "YAC_sum": 6.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_17_SEA_CAR",
+          "kickoff_UTC": "2025-12-28T18:00:00+00:00",
+          "available_UTC": "2026-01-04T18:00:00+00:00",
+          "targets": 1,
+          "receptions": 1,
+          "official_team_attempts": 24,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 5.0,
+          "known_air_targets": 1,
+          "YAC_sum": 1.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_18_CAR_TB",
+          "kickoff_UTC": "2026-01-03T21:30:00+00:00",
+          "available_UTC": "2026-01-10T21:30:00+00:00",
+          "targets": 4,
+          "receptions": 3,
+          "official_team_attempts": 35,
+          "depth_target_counts": [
+            0.0,
+            3.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            3.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 23.0,
+          "known_air_targets": 4,
+          "YAC_sum": 16.0,
+          "known_YAC_catches": 3,
+          "played_zero_target_proof": false
+        }
+      ],
+      "raw_targets_denominator": 16,
+      "raw_official_attempt_denominator": 224,
+      "matched_saved_vector": true,
+      "matched_production_vector": true,
+      "one_retained_play": {
+        "game_id": "2025_18_CAR_TB",
+        "play_id": 1161,
+        "air_yards": 2.0,
+        "depth_bin": 1,
+        "down": 2.0,
+        "down_bin": 1,
+        "complete_pass": 1,
+        "yards_after_catch": 6.0
+      }
+    },
+    {
+      "id": "C-RAW-UNKNOWN",
+      "game_id": "2026_02_CIN_HOU",
+      "player_id": "00-0034829",
+      "team": "CIN",
+      "opponent": "HOU",
+      "role": "TE",
+      "cutoff_UTC": "2026-09-20T17:00:00+00:00",
+      "target_actual": null,
+      "target_grade": "UNKNOWN_PARTICIPATION",
+      "fields": {
+        "ctx_player_games8": 8.0,
+        "ctx_targets8": 31.0,
+        "ctx_team_attempts8": 307.0,
+        "ctx_age_days": 258.9583333333333,
+        "ctx_missing": 0.0,
+        "ctx_targets_per_team_attempt": 0.10097719869706841,
+        "ctx_targets_per_appearance": 3.875,
+        "ctx_catch_per_target": 0.7096774193548387,
+        "ctx_mean_air_per_known_target": 10.419354838709678,
+        "ctx_mean_YAC_per_complete_known_target": 2.5,
+        "ctx_short_to_go_target_share": 0.12903225806451613,
+        "ctx_redzone_target_share": 0.12903225806451613,
+        "ctx_depth_share_behind": 0.03225806451612903,
+        "ctx_depth_share_0_9": 0.45161290322580644,
+        "ctx_depth_share_10_19": 0.41935483870967744,
+        "ctx_depth_share_20plus": 0.0967741935483871,
+        "ctx_depth_share_unknown": 0.0,
+        "ctx_down_share_1": 0.25806451612903225,
+        "ctx_down_share_2": 0.3225806451612903,
+        "ctx_down_share_3": 0.2903225806451613,
+        "ctx_down_share_4": 0.12903225806451613,
+        "ctx_down_share_unknown": 0.0,
+        "opp_context_games8": 8.0,
+        "opp_target_support8": 246.0,
+        "opp_age_days": 258.9583333333333,
+        "opp_missing": 0.0,
+        "opp_offense_adjusted_completion_residual": -0.020610349954995,
+        "opp_offense_adjusted_WRTE_target_share_residual": -0.01757624849800701,
+        "predicted_depth_mix_x_opponent_catch_residual": -0.028038519348143207,
+        "predicted_down_mix_x_opponent_catch_residual": -0.012571781227853717
+      },
+      "own_prior_games": [
+        {
+          "game_id": "2025_05_DET_CIN",
+          "kickoff_UTC": "2025-10-05T20:25:00+00:00",
+          "available_UTC": "2025-10-12T20:25:00+00:00",
+          "targets": 5,
+          "receptions": 2,
+          "official_team_attempts": 40,
+          "depth_target_counts": [
+            1.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 38.0,
+          "known_air_targets": 5,
+          "YAC_sum": 3.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_12_NE_CIN",
+          "kickoff_UTC": "2025-11-23T18:00:00+00:00",
+          "available_UTC": "2025-11-30T18:00:00+00:00",
+          "targets": 6,
+          "receptions": 4,
+          "official_team_attempts": 38,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            4.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            1.0,
+            3.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 62.0,
+          "known_air_targets": 6,
+          "YAC_sum": 6.0,
+          "known_YAC_catches": 4,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_13_CIN_BAL",
+          "kickoff_UTC": "2025-11-28T01:20:00+00:00",
+          "available_UTC": "2025-12-05T01:20:00+00:00",
+          "targets": 4,
+          "receptions": 2,
+          "official_team_attempts": 46,
+          "depth_target_counts": [
+            0.0,
+            3.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 27.0,
+          "known_air_targets": 4,
+          "YAC_sum": 4.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_14_CIN_BUF",
+          "kickoff_UTC": "2025-12-07T18:00:00+00:00",
+          "available_UTC": "2025-12-14T18:00:00+00:00",
+          "targets": 6,
+          "receptions": 6,
+          "official_team_attempts": 36,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            3.0,
+            1.0,
+            0.0
+          ],
+          "down_target_counts": [
+            2.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 67.0,
+          "known_air_targets": 6,
+          "YAC_sum": 19.0,
+          "known_YAC_catches": 6,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_15_BAL_CIN",
+          "kickoff_UTC": "2025-12-14T18:00:00+00:00",
+          "available_UTC": "2025-12-21T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 1,
+          "official_team_attempts": 39,
+          "depth_target_counts": [
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 40.0,
+          "known_air_targets": 2,
+          "YAC_sum": 1.0,
+          "known_YAC_catches": 1,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_16_CIN_MIA",
+          "kickoff_UTC": "2025-12-21T18:00:00+00:00",
+          "available_UTC": "2025-12-28T18:00:00+00:00",
+          "targets": 4,
+          "receptions": 3,
+          "official_team_attempts": 33,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            2.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 43.0,
+          "known_air_targets": 4,
+          "YAC_sum": 8.0,
+          "known_YAC_catches": 3,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_17_ARI_CIN",
+          "kickoff_UTC": "2025-12-28T18:00:00+00:00",
+          "available_UTC": "2026-01-04T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 2,
+          "official_team_attempts": 36,
+          "depth_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "down_target_counts": [
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 38.0,
+          "known_air_targets": 2,
+          "YAC_sum": 9.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        },
+        {
+          "game_id": "2025_18_CLE_CIN",
+          "kickoff_UTC": "2026-01-04T18:00:00+00:00",
+          "available_UTC": "2026-01-11T18:00:00+00:00",
+          "targets": 2,
+          "receptions": 2,
+          "official_team_attempts": 39,
+          "depth_target_counts": [
+            0.0,
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "air_sum": 8.0,
+          "known_air_targets": 2,
+          "YAC_sum": 5.0,
+          "known_YAC_catches": 2,
+          "played_zero_target_proof": false
+        }
+      ],
+      "raw_targets_denominator": 31,
+      "raw_official_attempt_denominator": 307,
+      "matched_saved_vector": true,
+      "matched_production_vector": true,
+      "target_source_row_present": false,
+      "unknown_not_DNP_or_zero": true,
+      "one_retained_play": {
+        "game_id": "2025_18_CLE_CIN",
+        "play_id": 2505,
+        "air_yards": 6.0,
+        "depth_bin": 1,
+        "down": 2.0,
+        "down_bin": 1,
+        "complete_pass": 1,
+        "yards_after_catch": 4.0
+      }
+    },
+    {
+      "id": "C-RAW-ZERO_TARGET",
+      "game_id": "2025_02_DEN_IND",
+      "player_id": "00-0035021",
+      "team": "IND",
+      "opponent": "DEN",
+      "role": "WR",
+      "cutoff_UTC": "2025-09-14T20:05:00+00:00",
+      "target_actual": 0,
+      "target_grade": "FORECAST_ONLY_NUMERICAL;NO_OFFER",
+      "fields": {
+        "ctx_player_games8": 1.0,
+        "ctx_targets8": 0.0,
+        "ctx_team_attempts8": 29.0,
+        "ctx_age_days": 7.128472222222222,
+        "ctx_missing": 1.0,
+        "ctx_targets_per_team_attempt": null,
+        "ctx_targets_per_appearance": null,
+        "ctx_catch_per_target": null,
+        "ctx_mean_air_per_known_target": null,
+        "ctx_mean_YAC_per_complete_known_target": null,
+        "ctx_short_to_go_target_share": null,
+        "ctx_redzone_target_share": null,
+        "ctx_depth_share_behind": null,
+        "ctx_depth_share_0_9": null,
+        "ctx_depth_share_10_19": null,
+        "ctx_depth_share_20plus": null,
+        "ctx_depth_share_unknown": null,
+        "ctx_down_share_1": null,
+        "ctx_down_share_2": null,
+        "ctx_down_share_3": null,
+        "ctx_down_share_4": null,
+        "ctx_down_share_unknown": null,
+        "opp_context_games8": 0.0,
+        "opp_target_support8": 0.0,
+        "opp_age_days": null,
+        "opp_missing": 1.0,
+        "opp_offense_adjusted_completion_residual": null,
+        "opp_offense_adjusted_WRTE_target_share_residual": null,
+        "predicted_depth_mix_x_opponent_catch_residual": null,
+        "predicted_down_mix_x_opponent_catch_residual": null
+      },
+      "own_prior_games": [
+        {
+          "game_id": "2025_01_MIA_IND",
+          "kickoff_UTC": "2025-09-07T17:00:00+00:00",
+          "available_UTC": "2025-09-14T17:00:00+00:00",
+          "targets": 0,
+          "receptions": 0,
+          "official_team_attempts": 29,
+          "depth_target_counts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "down_target_counts": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "air_sum": 0.0,
+          "known_air_targets": 0,
+          "YAC_sum": 0.0,
+          "known_YAC_catches": 0,
+          "played_zero_target_proof": true
+        }
+      ],
+      "raw_targets_denominator": 0,
+      "raw_official_attempt_denominator": 29,
+      "matched_saved_vector": true,
+      "matched_production_vector": true,
+      "known_but_omitted_volume_ratios": {
+        "targets_per_team_attempt": 0.0,
+        "targets_per_appearance": 0.0
+      },
+      "quality_rates": "Catch/target,depth/down mixture,mean air/YAC have zero eligible target/catch denominator and are undefined;storedNaN is appropriate there."
+    }
+  ],
+  "opponent_worked_example": {
+    "future_query": {
+      "game_id": "2026_02_CAR_ATL",
+      "player_id": "00-0037005",
+      "team": "CAR",
+      "opponent_team": "ATL",
+      "position": "TE",
+      "kickoff": 1789923600.0
+    },
+    "prior_defense_games": [
+      "2025_11_CAR_ATL",
+      "2025_12_ATL_NO",
+      "2025_13_ATL_NYJ",
+      "2025_14_SEA_ATL",
+      "2025_15_ATL_TB",
+      "2025_16_ATL_ARI",
+      "2025_17_LA_ATL",
+      "2025_18_NO_ATL"
+    ],
+    "prior_game": "2025_18_NO_ATL",
+    "offense": "NO",
+    "defense": "ATL",
+    "depth_bin": "0_to_9_air_yards",
+    "earlier_league_targets": 7418.0,
+    "earlier_league_catches": 5516.0,
+    "earlier_league_completion_rate": 0.7435966567808034,
+    "earlier_offense_games": [
+      "2025_08_TB_NO",
+      "2025_09_NO_LA",
+      "2025_10_NO_CAR",
+      "2025_12_ATL_NO",
+      "2025_13_NO_MIA",
+      "2025_14_NO_TB",
+      "2025_15_CAR_NO",
+      "2025_16_NYJ_NO"
+    ],
+    "earlier_offense_targets": 133.0,
+    "earlier_offense_catches": 107.0,
+    "offense_expected_catch_rate": 0.796548582585726,
+    "observed_game_targets": 15.0,
+    "observed_game_catches": 10.0,
+    "game_catch_residual": -1.9482287387858896,
+    "all_bins_all_defense_games_residual_sum": -7.86253224033681,
+    "defense_identified_targets": 279,
+    "main_completion_feature": -0.024647436490084045,
+    "defense_official_attempts": 291,
+    "WRTE_role_residual_sum": 1.3297382772164994,
+    "main_WRTE_role_feature": 0.0035842002081307263,
+    "depth_bin_residual_sums": [
+      -1.554175992441586,
+      -5.718603362111137,
+      0.7795159543513077,
+      -1.3692688401353945,
+      0.0
+    ],
+    "depth_bin_target_totals": [
+      41.0,
+      136.0,
+      69.0,
+      33.0,
+      0.0
+    ],
+    "depth_bin_shrunk_residuals": [
+      -0.019187357931377606,
+      -0.03249206455744964,
+      0.007151522516984475,
+      -0.018757107399114993,
+      0.0
+    ],
+    "predicted_own_depth_mix": [
+      0.0625,
+      0.75,
+      0.125,
+      0.0625,
+      0.0
+    ],
+    "own_mix_weighted_depth_interaction": -0.02584663718661996,
+    "naive_unweighted_mean_game_catch_residual_rate": -0.03404320617718409
+  },
+  "held_source_team_games": [
+    {
+      "game_id": "2025_02_SEA_PIT",
+      "team": "PIT",
+      "PBP_attempts": 34,
+      "PBP_named_targets": 31,
+      "PBP_completions": 20.0,
+      "official": {
+        "attempts": 35.0,
+        "completions": 20.0,
+        "targets": 31.0,
+        "complete": true
+      }
+    }
+  ],
+  "equations": {
+    "availability": "prior_game_kickoff+7days < query_cutoff; current/revised reconstruction assumption, not authenticated publication.",
+    "offense_expected_bin_rate": "r(g,b)=(sum_C_of_last8_qualified_own_games_before_g +20*earlier_league_C_b/N_b)/(sum_N_of_those_own_games +20);empty league bin=0.5.",
+    "prior_game_residual": "R(g,b)=observed_catches(g,b)-identified_targets(g,b)*r(g,b); offense baseline is constructed BEFORE g.",
+    "opponent_main": "sum_g,b R(g,b)/(sum_g identified_targets_g+40); signed unitless completion residual, not a causal defense score.",
+    "role": "WRTE targets per OFFICIAL TEAM ATTEMPT; prior offense shrink40attempts, final opponent residual shrink80attempts.",
+    "interaction": "sum_b(predicted own earlier target-depth share_b * sum_g R(g,b)/(sum_g N(g,b)+40)); down interaction analogous.",
+    "windows": "Own/defense take eight eligible game-context rows THEN hold unqualified rows without backfill. Historical offense prior filters qualified team games BEFORE last8. League prior uses all earlier qualified games.",
+    "weighting": "Counts pooled by their actual exposure, not equal weighting of game percentages; bin-specific interactions add40pseudo-targets perbin while main completion adds40total."
+  },
+  "meaning_limits": [
+    "Targeted-pass depth/down/field position are not alignment, routes, matchup responsibility or all-route openness.",
+    "Team attempts include official spikes/throwaways/unallocated attempts; named-target bin summaries omit unidentified receivers, not silently allocating them.",
+    "Air yards denominator=known-air named targets; YAC denominator=completed named targets with known YAC, not all targets/receptions.",
+    "Knownzero-target volume ratios are mathematically0 but omitted in saved vectors; quality ratios with zero target/catch denominator are undefined. Games/targets=0/teamattempt counts remain observed, not unknown/DNP.",
+    "Verification case selection by win/loss class is an audit only; it does not change experiment membership or choose a forecasting recipe."
+  ],
+  "mutation_and_cutoff": {
+    "actual_production_current_future_outcome_and_PBP_mutation_plus_appended_future_play": "UNCHANGED",
+    "strict_equal_availability_excluded_then_included_1ms_later": "PASS",
+    "only_memory_mutated": true,
+    "forecast_mutation_trace_reused": "reports/player-context-matchup-01/INDEPENDENT_VERIFICATION.json.gz; no closed tree-use diagnosis repeated"
+  },
+  "population_numerical_views": [
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 2425,
+      "known": 2230,
+      "median_MAE": 1.4291479820627804,
+      "mean_MAE": 1.426784496067523,
+      "mean_RMSE": 2.01096332573156,
+      "mean_bias": -0.40619792971742386,
+      "played_zero": 533,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 646,
+      "known": 606,
+      "median_MAE": 1.3052805280528053,
+      "mean_MAE": 1.3431986523566553,
+      "mean_RMSE": 1.862686111763626,
+      "mean_bias": -0.28084276498898286,
+      "played_zero": 145,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 362,
+      "known": 338,
+      "median_MAE": 1.6301775147928994,
+      "mean_MAE": 1.6416756214324362,
+      "mean_RMSE": 2.2072372801711437,
+      "mean_bias": -0.6557262436651051,
+      "played_zero": 30,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 2425,
+      "known": 2230,
+      "median_MAE": 1.4358744394618834,
+      "mean_MAE": 1.4290436697631221,
+      "mean_RMSE": 2.015526659150266,
+      "mean_bias": -0.41448244521528754,
+      "played_zero": 533,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 646,
+      "known": 606,
+      "median_MAE": 1.311881188118812,
+      "mean_MAE": 1.3433855265008847,
+      "mean_RMSE": 1.8640428890269596,
+      "mean_bias": -0.2905542881344831,
+      "played_zero": 145,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 362,
+      "known": 338,
+      "median_MAE": 1.6420118343195267,
+      "mean_MAE": 1.643278427483484,
+      "mean_RMSE": 2.207652172479182,
+      "mean_bias": -0.6614646472570721,
+      "played_zero": 30,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 2425,
+      "known": 2230,
+      "median_MAE": 1.3188340807174888,
+      "mean_MAE": 1.3318626483202414,
+      "mean_RMSE": 1.839415966711412,
+      "mean_bias": -0.07423304702489392,
+      "played_zero": 533,
+      "fallback_known": 381
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 646,
+      "known": 606,
+      "median_MAE": 1.3283828382838283,
+      "mean_MAE": 1.3447377507729943,
+      "mean_RMSE": 1.8132798905332908,
+      "mean_bias": -0.03720088198750914,
+      "played_zero": 145,
+      "fallback_known": 106
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 362,
+      "known": 338,
+      "median_MAE": 1.7041420118343196,
+      "mean_MAE": 1.6485662095172056,
+      "mean_RMSE": 2.111530378375661,
+      "mean_bias": -0.19827608464601784,
+      "played_zero": 30,
+      "fallback_known": 31
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 1739,
+      "known": 1584,
+      "median_MAE": 1.5277777777777777,
+      "mean_MAE": 1.5158772130780138,
+      "mean_RMSE": 2.119177044128716,
+      "mean_bias": -0.46238556013473103,
+      "played_zero": 312,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 461,
+      "known": 430,
+      "median_MAE": 1.4023255813953488,
+      "mean_MAE": 1.4372863651335108,
+      "mean_RMSE": 1.9992892255123258,
+      "mean_bias": -0.3512796711831406,
+      "played_zero": 86,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 278,
+      "known": 255,
+      "median_MAE": 1.7254901960784315,
+      "mean_MAE": 1.7353579696046328,
+      "mean_RMSE": 2.3263475162637657,
+      "mean_bias": -0.7266401607791579,
+      "played_zero": 19,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 1739,
+      "known": 1584,
+      "median_MAE": 1.5366161616161615,
+      "mean_MAE": 1.5196183414541746,
+      "mean_RMSE": 2.125277101564831,
+      "mean_bias": -0.47206153957273567,
+      "played_zero": 312,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 461,
+      "known": 430,
+      "median_MAE": 1.4093023255813955,
+      "mean_MAE": 1.4390758018908376,
+      "mean_RMSE": 2.001568964991952,
+      "mean_bias": -0.36212404542456,
+      "played_zero": 86,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 278,
+      "known": 255,
+      "median_MAE": 1.7411764705882353,
+      "mean_MAE": 1.7396219860605393,
+      "mean_RMSE": 2.3275086771874998,
+      "mean_bias": -0.7321140597318913,
+      "played_zero": 19,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 1739,
+      "known": 1584,
+      "median_MAE": 1.3914141414141414,
+      "mean_MAE": 1.3878904372477692,
+      "mean_RMSE": 1.9123443785262264,
+      "mean_bias": -0.06575409434310385,
+      "played_zero": 312,
+      "fallback_known": 272
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 461,
+      "known": 430,
+      "median_MAE": 1.4046511627906977,
+      "mean_MAE": 1.4065810605166145,
+      "mean_RMSE": 1.904848971818348,
+      "mean_bias": -0.048514354545414265,
+      "played_zero": 86,
+      "fallback_known": 71
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 278,
+      "known": 255,
+      "median_MAE": 1.8,
+      "mean_MAE": 1.7180382132135164,
+      "mean_RMSE": 2.1958962604442007,
+      "mean_bias": -0.2139022033878956,
+      "played_zero": 19,
+      "fallback_known": 21
+    },
+    {
+      "scope": "RB",
+      "method": "P1",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 686,
+      "known": 646,
+      "median_MAE": 1.1873065015479876,
+      "mean_MAE": 1.2083280506424185,
+      "mean_RMSE": 1.7169963197234122,
+      "mean_bias": -0.26842516411213807,
+      "played_zero": 221,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P1",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 185,
+      "known": 176,
+      "median_MAE": 1.0681818181818181,
+      "mean_MAE": 1.1133252631859283,
+      "mean_RMSE": 1.4767124934881828,
+      "mean_bias": -0.1087525964464386,
+      "played_zero": 59,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P1",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 84,
+      "known": 83,
+      "median_MAE": 1.3373493975903614,
+      "mean_MAE": 1.3538563589756878,
+      "mean_RMSE": 1.7924484549109463,
+      "mean_bias": -0.4378581850616898,
+      "played_zero": 11,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P2",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 686,
+      "known": 646,
+      "median_MAE": 1.1888544891640866,
+      "mean_MAE": 1.2069534531089006,
+      "mean_RMSE": 1.7169794163700332,
+      "mean_bias": -0.2732977927970248,
+      "played_zero": 221,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P2",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 185,
+      "known": 176,
+      "median_MAE": 1.0738636363636365,
+      "mean_MAE": 1.1095967854913402,
+      "mean_RMSE": 1.4750612320414842,
+      "mean_bias": -0.11569635839168156,
+      "played_zero": 59,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P2",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 84,
+      "known": 83,
+      "median_MAE": 1.3373493975903614,
+      "mean_MAE": 1.3472831571563861,
+      "mean_RMSE": 1.7898962039795785,
+      "mean_bias": -0.44440922338865146,
+      "played_zero": 11,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P3",
+      "panel": "2026W1_W8_stat_row_panel",
+      "eligible": 686,
+      "known": 646,
+      "median_MAE": 1.1408668730650156,
+      "mean_MAE": 1.1944818160273558,
+      "mean_RMSE": 1.6469839640513093,
+      "mean_bias": -0.09502354400315313,
+      "played_zero": 221,
+      "fallback_known": 109
+    },
+    {
+      "scope": "RB",
+      "method": "P3",
+      "panel": "2026W2_W3_stat_row_panel",
+      "eligible": 185,
+      "known": 176,
+      "median_MAE": 1.1420454545454546,
+      "mean_MAE": 1.1936433008311946,
+      "mean_RMSE": 1.5672155213036247,
+      "mean_bias": -0.00956001153353641,
+      "played_zero": 59,
+      "fallback_known": 35
+    },
+    {
+      "scope": "RB",
+      "method": "P3",
+      "panel": "2026W2_W3_all_offers_native_extended",
+      "eligible": 84,
+      "known": 83,
+      "median_MAE": 1.4096385542168675,
+      "mean_MAE": 1.4351281258719129,
+      "mean_RMSE": 1.828138705568254,
+      "mean_bias": -0.15026812947518856,
+      "played_zero": 11,
+      "fallback_known": 10
+    }
+  ],
+  "paired_retained_point_control_common_mask": [
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "RETAINED_LEAF_typed_mean_median",
+      "common_player_games": 337,
+      "eligible": 337,
+      "known": 337,
+      "median_MAE": 1.6706231454005935,
+      "mean_MAE": 1.6535488673133492,
+      "mean_RMSE": 2.1183718332123167,
+      "mean_bias": -0.3786281697320188,
+      "played_zero": 29,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1",
+      "common_player_games": 337,
+      "eligible": 337,
+      "known": 337,
+      "median_MAE": 1.632047477744807,
+      "mean_MAE": 1.6435162638025802,
+      "mean_RMSE": 2.209809376929507,
+      "mean_bias": -0.6607028175118679,
+      "played_zero": 29,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2",
+      "common_player_games": 337,
+      "eligible": 337,
+      "known": 337,
+      "median_MAE": 1.6439169139465875,
+      "mean_MAE": 1.6451109414170977,
+      "mean_RMSE": 2.2102190491942446,
+      "mean_bias": -0.6664711335452402,
+      "played_zero": 29,
+      "fallback_known": 0
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3",
+      "common_player_games": 337,
+      "eligible": 337,
+      "known": 337,
+      "median_MAE": 1.7062314540059347,
+      "mean_MAE": 1.6504272987362654,
+      "mean_RMSE": 2.113928829040931,
+      "mean_bias": -0.2018952396232879,
+      "played_zero": 29,
+      "fallback_known": 30
+    },
+    {
+      "scope": "WR_TE",
+      "method": "RETAINED_LEAF_typed_mean_median",
+      "common_player_games": 255,
+      "eligible": 255,
+      "known": 255,
+      "median_MAE": 1.796078431372549,
+      "mean_MAE": 1.7578642390300172,
+      "mean_RMSE": 2.2301896849217284,
+      "mean_bias": -0.40543687234004405,
+      "played_zero": 19,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1",
+      "common_player_games": 255,
+      "eligible": 255,
+      "known": 255,
+      "median_MAE": 1.7254901960784315,
+      "mean_MAE": 1.7353579696046328,
+      "mean_RMSE": 2.3263475162637657,
+      "mean_bias": -0.7266401607791579,
+      "played_zero": 19,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2",
+      "common_player_games": 255,
+      "eligible": 255,
+      "known": 255,
+      "median_MAE": 1.7411764705882353,
+      "mean_MAE": 1.7396219860605393,
+      "mean_RMSE": 2.3275086771874998,
+      "mean_bias": -0.7321140597318913,
+      "played_zero": 19,
+      "fallback_known": 0
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3",
+      "common_player_games": 255,
+      "eligible": 255,
+      "known": 255,
+      "median_MAE": 1.8,
+      "mean_MAE": 1.7180382132135164,
+      "mean_RMSE": 2.1958962604442007,
+      "mean_bias": -0.2139022033878956,
+      "played_zero": 19,
+      "fallback_known": 21
+    },
+    {
+      "scope": "RB",
+      "method": "RETAINED_LEAF_typed_mean_median",
+      "common_player_games": 82,
+      "eligible": 82,
+      "known": 82,
+      "median_MAE": 1.2804878048780488,
+      "mean_MAE": 1.3291535040481017,
+      "mean_RMSE": 1.72493195541429,
+      "mean_bias": -0.29525964332901367,
+      "played_zero": 10,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P1",
+      "common_player_games": 82,
+      "eligible": 82,
+      "known": 82,
+      "median_MAE": 1.3414634146341464,
+      "mean_MAE": 1.3579109591742453,
+      "mean_RMSE": 1.799814069389102,
+      "mean_bias": -0.4556537622294419,
+      "played_zero": 10,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P2",
+      "common_player_games": 82,
+      "eligible": 82,
+      "known": 82,
+      "median_MAE": 1.3414634146341464,
+      "mean_MAE": 1.3512046440502978,
+      "mean_RMSE": 1.7972111013104288,
+      "mean_bias": -0.4623376435745573,
+      "played_zero": 10,
+      "fallback_known": 0
+    },
+    {
+      "scope": "RB",
+      "method": "P3",
+      "common_player_games": 82,
+      "eligible": 82,
+      "known": 82,
+      "median_MAE": 1.4146341463414633,
+      "mean_MAE": 1.4401738451789607,
+      "mean_RMSE": 1.8357903467464194,
+      "mean_bias": -0.16455651084310538,
+      "played_zero": 10,
+      "fallback_known": 9
+    }
+  ],
+  "population_limit": "All-offers native extension includes one playedzero RB outside the original stat-role numerical panel; pairwise reference has337known rows, full new counts338. Same-period panel and W1-W8 panel are different populations; no gain is attributed merely to membership.",
+  "own_side_and_control_arithmetic": [
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "ALWAYS_OVER",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          156,
+          182,
+          338,
+          0.46153846153846156
+        ],
+        "UNDER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "COMBINED": [
+          156,
+          182,
+          338,
+          0.46153846153846156
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "ALWAYS_UNDER",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "UNDER": [
+          182,
+          156,
+          338,
+          0.5384615384615384
+        ],
+        "COMBINED": [
+          182,
+          156,
+          338,
+          0.5384615384615384
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "E0",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          26,
+          65,
+          0.6
+        ],
+        "UNDER": [
+          156,
+          117,
+          273,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          195,
+          143,
+          338,
+          0.5769230769230769
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "E1",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          26,
+          65,
+          0.6
+        ],
+        "UNDER": [
+          156,
+          117,
+          273,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          195,
+          143,
+          338,
+          0.5769230769230769
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "E2",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          26,
+          65,
+          0.6
+        ],
+        "UNDER": [
+          156,
+          117,
+          273,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          195,
+          143,
+          338,
+          0.5769230769230769
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "E3",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          26,
+          65,
+          0.6
+        ],
+        "UNDER": [
+          156,
+          117,
+          273,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          195,
+          143,
+          338,
+          0.5769230769230769
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          43,
+          29,
+          72,
+          0.5972222222222222
+        ],
+        "UNDER": [
+          153,
+          113,
+          266,
+          0.575187969924812
+        ],
+        "COMBINED": [
+          196,
+          142,
+          338,
+          0.5798816568047337
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1_MEAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          54,
+          45,
+          99,
+          0.5454545454545454
+        ],
+        "UNDER": [
+          137,
+          102,
+          239,
+          0.5732217573221757
+        ],
+        "COMBINED": [
+          191,
+          147,
+          338,
+          0.5650887573964497
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P1_MEDIAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          43,
+          29,
+          72,
+          0.5972222222222222
+        ],
+        "UNDER": [
+          153,
+          113,
+          266,
+          0.575187969924812
+        ],
+        "COMBINED": [
+          196,
+          142,
+          338,
+          0.5798816568047337
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          25,
+          64,
+          0.609375
+        ],
+        "UNDER": [
+          157,
+          117,
+          274,
+          0.572992700729927
+        ],
+        "COMBINED": [
+          196,
+          142,
+          338,
+          0.5798816568047337
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2_MEAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          53,
+          48,
+          101,
+          0.5247524752475248
+        ],
+        "UNDER": [
+          134,
+          103,
+          237,
+          0.5654008438818565
+        ],
+        "COMBINED": [
+          187,
+          151,
+          338,
+          0.5532544378698225
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P2_MEDIAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          39,
+          25,
+          64,
+          0.609375
+        ],
+        "UNDER": [
+          157,
+          117,
+          274,
+          0.572992700729927
+        ],
+        "COMBINED": [
+          196,
+          142,
+          338,
+          0.5798816568047337
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          50,
+          51,
+          101,
+          0.49504950495049505
+        ],
+        "UNDER": [
+          131,
+          106,
+          237,
+          0.5527426160337553
+        ],
+        "COMBINED": [
+          181,
+          157,
+          338,
+          0.5355029585798816
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3_MEAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 22,
+      "sides": {
+        "OVER": [
+          77,
+          76,
+          153,
+          0.5032679738562091
+        ],
+        "UNDER": [
+          101,
+          77,
+          178,
+          0.5674157303370787
+        ],
+        "COMBINED": [
+          178,
+          153,
+          331,
+          0.5377643504531722
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "P3_MEDIAN_DIRECTION",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          50,
+          51,
+          101,
+          0.49504950495049505
+        ],
+        "UNDER": [
+          131,
+          106,
+          237,
+          0.5527426160337553
+        ],
+        "COMBINED": [
+          181,
+          157,
+          338,
+          0.5355029585798816
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "RETAINED_EARLIER_PREVALENCE_V8",
+      "eligible": 362,
+      "unknown": 24,
+      "sides": {
+        "OVER": [
+          28,
+          28,
+          56,
+          0.5
+        ],
+        "UNDER": [
+          154,
+          128,
+          282,
+          0.5460992907801419
+        ],
+        "COMBINED": [
+          182,
+          156,
+          338,
+          0.5384615384615384
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "RETAINED_P1_MEAN",
+      "eligible": 362,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          70,
+          74,
+          144,
+          0.4861111111111111
+        ],
+        "UNDER": [
+          107,
+          86,
+          193,
+          0.5544041450777202
+        ],
+        "COMBINED": [
+          177,
+          160,
+          337,
+          0.5252225519287834
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "RETAINED_P1_MEDIAN",
+      "eligible": 362,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          43,
+          35,
+          78,
+          0.5512820512820513
+        ],
+        "UNDER": [
+          146,
+          113,
+          259,
+          0.5637065637065637
+        ],
+        "COMBINED": [
+          189,
+          148,
+          337,
+          0.5608308605341247
+        ]
+      }
+    },
+    {
+      "scope": "ALL_SUPPORTED",
+      "method": "RETAINED_P2_LAW",
+      "eligible": 362,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          43,
+          35,
+          78,
+          0.5512820512820513
+        ],
+        "UNDER": [
+          146,
+          113,
+          259,
+          0.5637065637065637
+        ],
+        "COMBINED": [
+          189,
+          148,
+          337,
+          0.5608308605341247
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "ALWAYS_OVER",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          122,
+          133,
+          255,
+          0.47843137254901963
+        ],
+        "UNDER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "COMBINED": [
+          122,
+          133,
+          255,
+          0.47843137254901963
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "ALWAYS_UNDER",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "UNDER": [
+          133,
+          122,
+          255,
+          0.5215686274509804
+        ],
+        "COMBINED": [
+          133,
+          122,
+          255,
+          0.5215686274509804
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "E0",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          21,
+          56,
+          0.625
+        ],
+        "UNDER": [
+          112,
+          87,
+          199,
+          0.5628140703517588
+        ],
+        "COMBINED": [
+          147,
+          108,
+          255,
+          0.5764705882352941
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "E1",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          21,
+          56,
+          0.625
+        ],
+        "UNDER": [
+          112,
+          87,
+          199,
+          0.5628140703517588
+        ],
+        "COMBINED": [
+          147,
+          108,
+          255,
+          0.5764705882352941
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "E2",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          21,
+          56,
+          0.625
+        ],
+        "UNDER": [
+          112,
+          87,
+          199,
+          0.5628140703517588
+        ],
+        "COMBINED": [
+          147,
+          108,
+          255,
+          0.5764705882352941
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "E3",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          21,
+          56,
+          0.625
+        ],
+        "UNDER": [
+          112,
+          87,
+          199,
+          0.5628140703517588
+        ],
+        "COMBINED": [
+          147,
+          108,
+          255,
+          0.5764705882352941
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          37,
+          21,
+          58,
+          0.6379310344827587
+        ],
+        "UNDER": [
+          112,
+          85,
+          197,
+          0.5685279187817259
+        ],
+        "COMBINED": [
+          149,
+          106,
+          255,
+          0.5843137254901961
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1_MEAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          47,
+          32,
+          79,
+          0.5949367088607594
+        ],
+        "UNDER": [
+          101,
+          75,
+          176,
+          0.5738636363636364
+        ],
+        "COMBINED": [
+          148,
+          107,
+          255,
+          0.5803921568627451
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P1_MEDIAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          37,
+          21,
+          58,
+          0.6379310344827587
+        ],
+        "UNDER": [
+          112,
+          85,
+          197,
+          0.5685279187817259
+        ],
+        "COMBINED": [
+          149,
+          106,
+          255,
+          0.5843137254901961
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          18,
+          53,
+          0.660377358490566
+        ],
+        "UNDER": [
+          115,
+          87,
+          202,
+          0.5693069306930693
+        ],
+        "COMBINED": [
+          150,
+          105,
+          255,
+          0.5882352941176471
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2_MEAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          44,
+          34,
+          78,
+          0.5641025641025641
+        ],
+        "UNDER": [
+          99,
+          78,
+          177,
+          0.559322033898305
+        ],
+        "COMBINED": [
+          143,
+          112,
+          255,
+          0.5607843137254902
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P2_MEDIAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          35,
+          18,
+          53,
+          0.660377358490566
+        ],
+        "UNDER": [
+          115,
+          87,
+          202,
+          0.5693069306930693
+        ],
+        "COMBINED": [
+          150,
+          105,
+          255,
+          0.5882352941176471
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          43,
+          38,
+          81,
+          0.5308641975308642
+        ],
+        "UNDER": [
+          95,
+          79,
+          174,
+          0.5459770114942529
+        ],
+        "COMBINED": [
+          138,
+          117,
+          255,
+          0.5411764705882353
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3_MEAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 21,
+      "sides": {
+        "OVER": [
+          65,
+          53,
+          118,
+          0.5508474576271186
+        ],
+        "UNDER": [
+          78,
+          56,
+          134,
+          0.582089552238806
+        ],
+        "COMBINED": [
+          143,
+          109,
+          252,
+          0.5674603174603174
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "P3_MEDIAN_DIRECTION",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          43,
+          38,
+          81,
+          0.5308641975308642
+        ],
+        "UNDER": [
+          95,
+          79,
+          174,
+          0.5459770114942529
+        ],
+        "COMBINED": [
+          138,
+          117,
+          255,
+          0.5411764705882353
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "RETAINED_EARLIER_PREVALENCE_V8",
+      "eligible": 278,
+      "unknown": 23,
+      "sides": {
+        "OVER": [
+          26,
+          28,
+          54,
+          0.48148148148148145
+        ],
+        "UNDER": [
+          105,
+          96,
+          201,
+          0.5223880597014925
+        ],
+        "COMBINED": [
+          131,
+          124,
+          255,
+          0.5137254901960784
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "RETAINED_P1_MEAN",
+      "eligible": 278,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          59,
+          56,
+          115,
+          0.5130434782608696
+        ],
+        "UNDER": [
+          77,
+          63,
+          140,
+          0.55
+        ],
+        "COMBINED": [
+          136,
+          119,
+          255,
+          0.5333333333333333
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "RETAINED_P1_MEDIAN",
+      "eligible": 278,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          39,
+          28,
+          67,
+          0.582089552238806
+        ],
+        "UNDER": [
+          105,
+          83,
+          188,
+          0.5585106382978723
+        ],
+        "COMBINED": [
+          144,
+          111,
+          255,
+          0.5647058823529412
+        ]
+      }
+    },
+    {
+      "scope": "WR_TE",
+      "method": "RETAINED_P2_LAW",
+      "eligible": 278,
+      "unknown": 3,
+      "sides": {
+        "OVER": [
+          39,
+          28,
+          67,
+          0.582089552238806
+        ],
+        "UNDER": [
+          105,
+          83,
+          188,
+          0.5585106382978723
+        ],
+        "COMBINED": [
+          144,
+          111,
+          255,
+          0.5647058823529412
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "ALWAYS_OVER",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          34,
+          49,
+          83,
+          0.40963855421686746
+        ],
+        "UNDER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "COMBINED": [
+          34,
+          49,
+          83,
+          0.40963855421686746
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "ALWAYS_UNDER",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          0,
+          0,
+          0,
+          null
+        ],
+        "UNDER": [
+          49,
+          34,
+          83,
+          0.5903614457831325
+        ],
+        "COMBINED": [
+          49,
+          34,
+          83,
+          0.5903614457831325
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "E0",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          5,
+          9,
+          0.4444444444444444
+        ],
+        "UNDER": [
+          44,
+          30,
+          74,
+          0.5945945945945946
+        ],
+        "COMBINED": [
+          48,
+          35,
+          83,
+          0.5783132530120482
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "E1",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          5,
+          9,
+          0.4444444444444444
+        ],
+        "UNDER": [
+          44,
+          30,
+          74,
+          0.5945945945945946
+        ],
+        "COMBINED": [
+          48,
+          35,
+          83,
+          0.5783132530120482
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "E2",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          5,
+          9,
+          0.4444444444444444
+        ],
+        "UNDER": [
+          44,
+          30,
+          74,
+          0.5945945945945946
+        ],
+        "COMBINED": [
+          48,
+          35,
+          83,
+          0.5783132530120482
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "E3",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          5,
+          9,
+          0.4444444444444444
+        ],
+        "UNDER": [
+          44,
+          30,
+          74,
+          0.5945945945945946
+        ],
+        "COMBINED": [
+          48,
+          35,
+          83,
+          0.5783132530120482
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P1",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          6,
+          8,
+          14,
+          0.42857142857142855
+        ],
+        "UNDER": [
+          41,
+          28,
+          69,
+          0.5942028985507246
+        ],
+        "COMBINED": [
+          47,
+          36,
+          83,
+          0.5662650602409639
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P1_MEAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          7,
+          13,
+          20,
+          0.35
+        ],
+        "UNDER": [
+          36,
+          27,
+          63,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          43,
+          40,
+          83,
+          0.5180722891566265
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P1_MEDIAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          6,
+          8,
+          14,
+          0.42857142857142855
+        ],
+        "UNDER": [
+          41,
+          28,
+          69,
+          0.5942028985507246
+        ],
+        "COMBINED": [
+          47,
+          36,
+          83,
+          0.5662650602409639
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P2",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          7,
+          11,
+          0.36363636363636365
+        ],
+        "UNDER": [
+          42,
+          30,
+          72,
+          0.5833333333333334
+        ],
+        "COMBINED": [
+          46,
+          37,
+          83,
+          0.5542168674698795
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P2_MEAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          9,
+          14,
+          23,
+          0.391304347826087
+        ],
+        "UNDER": [
+          35,
+          25,
+          60,
+          0.5833333333333334
+        ],
+        "COMBINED": [
+          44,
+          39,
+          83,
+          0.5301204819277109
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P2_MEDIAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          4,
+          7,
+          11,
+          0.36363636363636365
+        ],
+        "UNDER": [
+          42,
+          30,
+          72,
+          0.5833333333333334
+        ],
+        "COMBINED": [
+          46,
+          37,
+          83,
+          0.5542168674698795
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P3",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          7,
+          13,
+          20,
+          0.35
+        ],
+        "UNDER": [
+          36,
+          27,
+          63,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          43,
+          40,
+          83,
+          0.5180722891566265
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P3_MEAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          12,
+          23,
+          35,
+          0.34285714285714286
+        ],
+        "UNDER": [
+          23,
+          21,
+          44,
+          0.5227272727272727
+        ],
+        "COMBINED": [
+          35,
+          44,
+          79,
+          0.4430379746835443
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "P3_MEDIAN_DIRECTION",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          7,
+          13,
+          20,
+          0.35
+        ],
+        "UNDER": [
+          36,
+          27,
+          63,
+          0.5714285714285714
+        ],
+        "COMBINED": [
+          43,
+          40,
+          83,
+          0.5180722891566265
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "RETAINED_EARLIER_PREVALENCE_V8",
+      "eligible": 84,
+      "unknown": 1,
+      "sides": {
+        "OVER": [
+          2,
+          0,
+          2,
+          1.0
+        ],
+        "UNDER": [
+          49,
+          32,
+          81,
+          0.6049382716049383
+        ],
+        "COMBINED": [
+          51,
+          32,
+          83,
+          0.6144578313253012
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "RETAINED_P1_MEAN",
+      "eligible": 84,
+      "unknown": 0,
+      "sides": {
+        "OVER": [
+          11,
+          18,
+          29,
+          0.3793103448275862
+        ],
+        "UNDER": [
+          30,
+          23,
+          53,
+          0.5660377358490566
+        ],
+        "COMBINED": [
+          41,
+          41,
+          82,
+          0.5
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "RETAINED_P1_MEDIAN",
+      "eligible": 84,
+      "unknown": 0,
+      "sides": {
+        "OVER": [
+          4,
+          7,
+          11,
+          0.36363636363636365
+        ],
+        "UNDER": [
+          41,
+          30,
+          71,
+          0.5774647887323944
+        ],
+        "COMBINED": [
+          45,
+          37,
+          82,
+          0.5487804878048781
+        ]
+      }
+    },
+    {
+      "scope": "RB",
+      "method": "RETAINED_P2_LAW",
+      "eligible": 84,
+      "unknown": 0,
+      "sides": {
+        "OVER": [
+          4,
+          7,
+          11,
+          0.36363636363636365
+        ],
+        "UNDER": [
+          41,
+          30,
+          71,
+          0.5774647887323944
+        ],
+        "COMBINED": [
+          45,
+          37,
+          82,
+          0.5487804878048781
+        ]
+      }
+    }
+  ],
+  "neutral_probability_reference": {
+    "half_scaled_U_P_O_Brier": 0.25,
+    "scope": "decisive half-point event only;not a fitted law or sportsbook price"
+  },
+  "qualification": "Two exposed actual-line weeks; statistical box-score direction, book settlement unverified. No primary admission or A/B acknowledgement.",
+  "bindings": [
+    {
+      "path": "src/context_features_c01.py",
+      "SHA256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+      "SHA256": "c2897d02bc3e3e951114feeb3a8b624a5adc741e01f34ff7923957873b70176d"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.xz",
+      "SHA256": "6da7d220c38971ee12e4a2a005c11d0b8a20d1aaa7863daa57bc0daaf695ccab"
+    },
+    {
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/FEATURE_EXPORT.json.gz",
+      "SHA256": "63f9853f19042bb3e4af691ce46001920d9df28830d1c6a34abfb5f1eab75ed0"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    }
+  ],
+  "reproduction_script_SHA256": "70b923686f04227726858279634b4f63c1930390d39d98ac224afaa9c85540d5",
+  "resources": {
+    "CPU_seconds": 35.177130611,
+    "peak_RSS_bytes": 288886784,
+    "one_thread": true,
+    "large_temporary_copies": 0,
+    "followup_CPU_seconds": 0.23124157000000006,
+    "combined_measured_CPU_seconds": 35.408372181000004,
+    "followup_peak_RSS_bytes": 65798144
+  },
+  "frozen_grade_followup": {
+    "freshness_shadow": {
+      "rows": 27,
+      "known": 19,
+      "unknown": 8,
+      "pregame_server_lead_seconds": 3200.0,
+      "metrics": {
+        "observed_median_AE": 0.8947368421052632,
+        "observed_mean_SE": 1.2911006617688332,
+        "observed_CRPS": 0.5677389517014909,
+        "proxy_median_AE": 0.8947368421052632,
+        "proxy_mean_SE": 1.7087715408270616,
+        "proxy_CRPS": 0.6348262550119488
+      },
+      "max_independent_CDF_CRPS_or_error_difference": 6.661338147750939e-16,
+      "case_reversals": {
+        "proxy_CRPS_lower": 7,
+        "observed_CRPS_lower": 12
+      },
+      "frozen_rows_SHA256": "5a326ca1868423381e2576ab5ae1cf52005a66208c2dc0abfdde218ccb484919",
+      "canonical_grade_SHA256": "02ee633e91c674d142b50eab17ebc5ff10d08f8e0d9b44b756e91a6410b648e2",
+      "method": "Independent squared-CDF lattice sum;tail probability below1e-15;not law.crps()",
+      "limits": "One game,zero offers/query-only comparison under same seven-day-trained model;not aligned training/query repair or primary qualification."
+    },
+    "CINATL_native_minimal": {
+      "issued": 179,
+      "states": {
+        "UNKNOWN": 80,
+        "GRADED_PLAYED": 99
+      },
+      "appended_outcome_version": "C-NATIVE-GRADE-20261110-CINATL-01",
+      "outcome_packet_SHA256": "503fe712f97559bdf85457cb9c3f7d74cdf208641d8413122c2171f67daa82c7",
+      "all_direct_signed_anytime_chart_labels_and_point_errors": "PASS",
+      "independent_lattice_CRPS_max_difference": 4.263256414560601e-14,
+      "offers": 0,
+      "new_fits": 0,
+      "source_scope": "Retained qualified outcome projection and existing immutable original forecasts;no new source request"
+    }
+  }
+}

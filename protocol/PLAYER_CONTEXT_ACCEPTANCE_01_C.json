@@ -1,0 +1,46 @@
+{
+  "id": "PLAYER-CONTEXT-ACCEPTANCE-01-C/v1",
+  "registered_UTC": "2026-11-10T00:36:34.909672+00:00",
+  "parent_protocol": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
+  "C_evidence_pin": "fa503c1e1a9993e655a905195ce428edf630add5",
+  "A_start_pin": "846b90ee032812306034f90e397e38dec7cebe99",
+  "B_start_pin": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+  "assignment_supplied_SHA256": "50c264d8f5c55966c05fbb87a19c9ebd4019e2f4484eb534fe210986e8ab1522",
+  "assignment_exact_file_status": "NOT_PRESENT_LOCALLY;verify peer public copy before asserting identity",
+  "C_actual_registered_assignment": {
+    "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+    "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+  },
+  "amendments": [
+    "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json",
+    "protocol/PLAYER_CONTEXT_NATIVE_QUERY_EXTENSION_V1.json",
+    "protocol/PLAYER_CONTEXT_VALIDATION_REPLAY_V1.json"
+  ],
+  "scope": "Acceptance, existing canonical scorer and read-only B review; owners unchanged; no deployment ordered, no new championship or model promotion",
+  "budget": {
+    "verification_fits_max": 3,
+    "fit_origins_frozen": [
+      "2026-W01 pooled P1 and partial P2",
+      "2026-W02 E3 monotone HGB"
+    ],
+    "reason": "Distinct saved families, startup and ordinary offered origin; before new verification scores",
+    "CPU_seconds": 450,
+    "wall_seconds": 1800,
+    "RSS_bytes": 1288490188,
+    "fit_workers": 1,
+    "threads": 1,
+    "new_public_acceptance_bytes": 1048576,
+    "whole_C_bytes_cap_unchanged": 2684354560,
+    "whole_C_bytes_at_registration": 2681911261,
+    "HTTP_peer_metadata_and_permitted_artifacts_max": 30,
+    "HTTP_native_grading_max": 3,
+    "HTTP_total_bytes_max": 33554432,
+    "temporary_bytes_max": 1572864
+  },
+  "no_completed_research_fits_repeated_for_tables": true,
+  "fit_reproduction_is_verification_not_new_NFL_evidence": true,
+  "native_grade": "Only existing179CINATL forecasts after fresh native FINAL, no reissue/refits; append outcomes/grades separately",
+  "independence": "C reviews B; A reviews C not assumed. Internal independent reviews labeled internal, reused by exact scope.",
+  "scope_dispositions": "All12parent targets remain. Missingalignment/routes,4/16lookback,upstreamintegration not relabeled completed.",
+  "source_policy": "No restricted rows/private locators published; normal safe primitive models; C GitHub only"
+}

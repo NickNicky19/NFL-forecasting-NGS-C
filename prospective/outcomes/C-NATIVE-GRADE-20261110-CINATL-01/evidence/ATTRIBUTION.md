@@ -1,0 +1,1 @@
+NFL numerical player facts: nflverse/nflverse-data, CC BY 4.0; schedule:nflverse/nfldata. Native final-status facts: public ESPN scoreboard. C retains minimal factual projections, preserves missingness and computes append-only statistical grades with the existing grader. No actual prop line or venue settlement is inferred.

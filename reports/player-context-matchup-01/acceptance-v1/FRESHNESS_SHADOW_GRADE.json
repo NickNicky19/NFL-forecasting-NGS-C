@@ -1,0 +1,301 @@
+{
+  "id": "C-FROZEN-FRESHNESS-SHADOW-GRADE-v1",
+  "created_UTC": "2026-11-10T00:46:42.326163+00:00",
+  "shadow_rows": 27,
+  "graded": 19,
+  "unknown": 8,
+  "game_count": 1,
+  "original_shadow_SHA256": "5a326ca1868423381e2576ab5ae1cf52005a66208c2dc0abfdde218ccb484919",
+  "server_receipt_SHA256": "5556e44d59a16a5ee58ca3d09b537d59cfd448810eed6dff51f1b8d7d394d45f",
+  "canonical_grade_SHA256": "02ee633e91c674d142b50eab17ebc5ff10d08f8e0d9b44b756e91a6410b648e2",
+  "metrics": {
+    "observed_median_AE": 0.8947368421052632,
+    "proxy_median_AE": 0.8947368421052632,
+    "observed_mean_SE": 1.291100661768833,
+    "proxy_mean_SE": 1.7087715408270616,
+    "observed_CRPS": 0.567738951701491,
+    "proxy_CRPS": 0.6348262550119487
+  },
+  "rows": [
+    {
+      "forecast_id": "b19f30ec62552bc111e25b7e",
+      "player_id": "00-0032104",
+      "state": "GRADED_PLAYED",
+      "actual": 0,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.443970692413296,
+      "proxy_mean_SE": 0.3815391003545829,
+      "observed_CRPS": 0.19947849205153312,
+      "proxy_CRPS": 0.16302124256974254
+    },
+    {
+      "forecast_id": "399485e7c9edc6493a3ef7af",
+      "player_id": "00-0032394",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "97466f592edca59b4e666b4c",
+      "player_id": "00-0032764",
+      "state": "GRADED_PLAYED",
+      "actual": 0,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 2.575169489078669,
+      "proxy_mean_SE": 2.5012323701902877,
+      "observed_CRPS": 0.7983606659608766,
+      "proxy_CRPS": 0.7662461993141767
+    },
+    {
+      "forecast_id": "daff36f3109bdbd5ee069e11",
+      "player_id": "00-0034753",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 1.7880455336766576,
+      "proxy_mean_SE": 1.7524507753669363,
+      "observed_CRPS": 0.6766628322859698,
+      "proxy_CRPS": 0.6804109173515334
+    },
+    {
+      "forecast_id": "74a7212e2c1c2e05b5fde750",
+      "player_id": "00-0034960",
+      "state": "GRADED_PLAYED",
+      "actual": 4,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.6484354769067927,
+      "proxy_mean_SE": 0.018893269299017284,
+      "observed_CRPS": 0.7042236639647184,
+      "proxy_CRPS": 0.5602902310666762
+    },
+    {
+      "forecast_id": "669965877c57ebdd80a96c62",
+      "player_id": "00-0034975",
+      "state": "GRADED_PLAYED",
+      "actual": 3,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 0.16054101448468747,
+      "proxy_mean_SE": 0.8987622857204108,
+      "observed_CRPS": 0.5305293498670955,
+      "proxy_CRPS": 0.7346321406078034
+    },
+    {
+      "forecast_id": "f17883e837237168258b1337",
+      "player_id": "00-0036550",
+      "state": "GRADED_PLAYED",
+      "actual": 1,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 1.5924554643169841,
+      "proxy_mean_SE": 2.1189645890000715,
+      "observed_CRPS": 0.571534413460304,
+      "proxy_CRPS": 0.668805126466987
+    },
+    {
+      "forecast_id": "6fe9c6dfa4aa89dd86d05ebe",
+      "player_id": "00-0036590",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "0bc819552da0ac9cbde4f35e",
+      "player_id": "00-0038606",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 2.0,
+      "proxy_median_AE": 2.0,
+      "observed_mean_SE": 3.116143533581481,
+      "proxy_mean_SE": 5.426351152875271,
+      "observed_CRPS": 0.9085739712203116,
+      "proxy_CRPS": 1.279680257896061
+    },
+    {
+      "forecast_id": "a0f830c168f07536140a9432",
+      "player_id": "00-0038611",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 2.0,
+      "observed_mean_SE": 1.148629875695914,
+      "proxy_mean_SE": 1.3379480213896635,
+      "observed_CRPS": 0.8376458064912846,
+      "proxy_CRPS": 0.8987847689691043
+    },
+    {
+      "forecast_id": "00ddf48a242bd5787f931f60",
+      "player_id": "00-0038935",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 2.0,
+      "proxy_median_AE": 2.0,
+      "observed_mean_SE": 3.526082296477403,
+      "proxy_mean_SE": 4.957664992867577,
+      "observed_CRPS": 0.9834508471372803,
+      "proxy_CRPS": 1.1907861755706486
+    },
+    {
+      "forecast_id": "415b310ce73bed45394b940b",
+      "player_id": "00-0039064",
+      "state": "GRADED_PLAYED",
+      "actual": 3,
+      "observed_median_AE": 2.0,
+      "proxy_median_AE": 2.0,
+      "observed_mean_SE": 3.3053582829775037,
+      "proxy_mean_SE": 6.982986846983537,
+      "observed_CRPS": 0.9956335952380007,
+      "proxy_CRPS": 1.516340931167261
+    },
+    {
+      "forecast_id": "e71be610bd58184166d15285",
+      "player_id": "00-0039792",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "4f7e99c88624f066b99053d9",
+      "player_id": "00-0039796",
+      "state": "GRADED_PLAYED",
+      "actual": 0,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.22190513943780912,
+      "proxy_mean_SE": 0.30731546802161025,
+      "observed_CRPS": 0.09119571092243989,
+      "proxy_CRPS": 0.14014820754613327
+    },
+    {
+      "forecast_id": "8eb4ea0c419384521abc991b",
+      "player_id": "00-0039893",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "f6248f006dbeb577011f5336",
+      "player_id": "00-0040075",
+      "state": "GRADED_PLAYED",
+      "actual": 1,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 0.05712916665536108,
+      "proxy_mean_SE": 0.016273196113928152,
+      "observed_CRPS": 0.3684541073729357,
+      "proxy_CRPS": 0.31782757892250946
+    },
+    {
+      "forecast_id": "0371cc34b0dd6dfb5111057c",
+      "player_id": "00-0040238",
+      "state": "GRADED_PLAYED",
+      "actual": 0,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.7840372975239777,
+      "proxy_mean_SE": 0.6321876847001864,
+      "observed_CRPS": 0.3051351493914014,
+      "proxy_CRPS": 0.27125113780589916
+    },
+    {
+      "forecast_id": "09f93e6f2c47b5508418508d",
+      "player_id": "00-0040718",
+      "state": "GRADED_PLAYED",
+      "actual": 1,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.10674643527588241,
+      "proxy_mean_SE": 0.1059913904580022,
+      "observed_CRPS": 0.22418229925203226,
+      "proxy_CRPS": 0.22548317711457389
+    },
+    {
+      "forecast_id": "a44cf12042310bc9390bc911",
+      "player_id": "00-0040719",
+      "state": "GRADED_PLAYED",
+      "actual": 0,
+      "observed_median_AE": 2.0,
+      "proxy_median_AE": 2.0,
+      "observed_mean_SE": 4.085419420215207,
+      "proxy_mean_SE": 3.947239193750451,
+      "observed_CRPS": 1.0875092901202978,
+      "proxy_CRPS": 1.0580133348916005
+    },
+    {
+      "forecast_id": "d31959167b58f918a08e51ca",
+      "player_id": "00-0040870",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "ff4f1fb88b5722acc56dae39",
+      "player_id": "00-0040876",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "1441291853f75d5f86b88c67",
+      "player_id": "00-0040879",
+      "state": "GRADED_PLAYED",
+      "actual": 1,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.13782473648507473,
+      "proxy_mean_SE": 0.1305132986572337,
+      "observed_CRPS": 0.21194832149883003,
+      "proxy_CRPS": 0.21449724074431353
+    },
+    {
+      "forecast_id": "74811888032df64cc423bd87",
+      "player_id": "00-0040887",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "14ad1c19fe95d953684e8851",
+      "player_id": "00-0041084",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 0.3343130824041267,
+      "proxy_mean_SE": 0.46596014159730986,
+      "observed_CRPS": 0.5250310754777449,
+      "proxy_CRPS": 0.6085014550930837
+    },
+    {
+      "forecast_id": "1efc903a2039a2926dec7d4c",
+      "player_id": "00-0041100",
+      "state": "GRADED_PLAYED",
+      "actual": 1,
+      "observed_median_AE": 0.0,
+      "proxy_median_AE": 0.0,
+      "observed_mean_SE": 0.26130396187628174,
+      "proxy_mean_SE": 0.3110337607255205,
+      "observed_CRPS": 0.27684815205592506,
+      "proxy_CRPS": 0.30155792875970955
+    },
+    {
+      "forecast_id": "841b0e31765b882a59386c37",
+      "player_id": "00-0041106",
+      "state": "UNKNOWN",
+      "actual": null
+    },
+    {
+      "forecast_id": "0330964f6304e8a25f11503e",
+      "player_id": "00-0041503",
+      "state": "GRADED_PLAYED",
+      "actual": 2,
+      "observed_median_AE": 1.0,
+      "proxy_median_AE": 1.0,
+      "observed_mean_SE": 0.2374016741247174,
+      "proxy_mean_SE": 0.17335173764257417,
+      "observed_CRPS": 0.49064233855934825,
+      "proxy_CRPS": 0.46542079336920616
+    }
+  ],
+  "qualified_offers": 0,
+  "new_fits": 0,
+  "originals_changed": 0,
+  "interpretation": "One originally pregame-frozen query-only comparison under same seven-day-trained model. Not aligned training/query information comparison, context finalist evaluation, or actual-line evidence; no primary release."
+}

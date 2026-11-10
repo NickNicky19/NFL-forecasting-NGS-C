@@ -1,0 +1,56 @@
+[
+  {
+    "id": "D6",
+    "path": "src/selection.py",
+    "state": "PASS_CONTAINED",
+    "impact": "Dormanthelperguardretained;Ccontextactualgradesusefinitecommon scorer,nothelper. No canonical transitions."
+  },
+  {
+    "id": "D3",
+    "path": "src/coherence_v4.py",
+    "state": "PASS_CONTAINED",
+    "impact": "CMP/ATTselectionblocksremain;Ccontextstudyonlyrec. No joint completion-attempt claim or cap."
+  },
+  {
+    "id": "D2",
+    "path": "src/data_v2.py;src/context_features_c01.py",
+    "state": "PASS_WITHIN_RECONSTRUCTION_TIER",
+    "impact": "Both historicaltraining/query use strictkickoff+7day availability. Explicitsourceclock authenticity not invented. Current query-only shadow separately graded; not an aligned retrain."
+  },
+  {
+    "id": "D4",
+    "path": "src/context_experiment_c01.py",
+    "state": "CLOSED_SCOPE_REUSED",
+    "impact": "Old feature-nonuse recipe not rerun. New context ablation fixed32iter/depth3; cannot infer best attainablecontextmodel."
+  },
+  {
+    "id": "A_history_clock_and_order",
+    "path": "A/nfl_lab/features.py",
+    "state": "NOT_DEPENDENCY_OF_C_FITS",
+    "impact": "CdoesnotcallAproducer;constant-lagprefix ordered by kickoff/gid. Aactive producer acceptance belongs A."
+  },
+  {
+    "id": "Original_site_presence",
+    "path": "Productionpull/scoring and compaction",
+    "state": "NOT_DEPENDENCY_OF_C_GRADER",
+    "impact": "Cpreservesnull/zero via contracts,target andqualifiedordinaryfacts. Historical productiongradeuncertainty not globallytransferred."
+  },
+  {
+    "id": "C_identity_export",
+    "path": "src/context_identity_view_c01.py",
+    "state": "PASS_CORRECTED_METADATA_ONLY",
+    "impact": "Originalnullteamtags overlay exactly consumed identities;0forecast/probability/grade transitions."
+  },
+  {
+    "id": "C_cache_guard",
+    "path": "src/forward_budget_v4.py",
+    "state": "PASS_CURRENT_GUARD",
+    "impact": "AllCroots counted;oldoverrun retained,notretroactivelycalledcompliant."
+  },
+  {
+    "id": "Astra_v10",
+    "path": "Separateunavailableartifact",
+    "state": "NOT_DEPENDENCY",
+    "impact": "Noartifactowner assumed;noAstra mixturefit repeated."
+  }
+]

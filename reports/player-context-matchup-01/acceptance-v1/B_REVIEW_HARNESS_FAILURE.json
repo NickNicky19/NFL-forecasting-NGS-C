@@ -1,0 +1,22 @@
+{
+  "attempt": "C B typed-adapter AST isolation check",
+  "state": "FAILED_REVIEW_HARNESS_ONLY",
+  "error": "NameError CONTEXTS omitted from review execution namespace",
+  "before_check_script_SHA256": "c6c976ecfd997f50552f3497890473a044d49f0e79a802bf173fab5d8d1b670b",
+  "fix": "Supply declared CONTEXTS=25; source/model/forecast bytes unchanged",
+  "NFL_fits": 0,
+  "B_predictions_or_scores_changed": 0,
+  "UTC": "2026-11-10T00:44:10.945031+00:00",
+  "second_harness_failure": {
+    "error": "math omitted from isolated execution namespace",
+    "fix": "Supply reviewed standard-library math namespace",
+    "NFL_fits": 0,
+    "B_output_changes": 0
+  },
+  "temporary_source_copy_extra_newline": {
+    "status": "CORRECTED_BEFORE_FINAL_BINDING",
+    "extra_bytes": 1,
+    "exact_export_SHA256_now": "ef04cd1592faa320a3ee74748557c6d89473f5794ea946d39a01693758e06c51",
+    "producer_or_prediction_change": false
+  }
+}

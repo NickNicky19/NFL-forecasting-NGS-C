@@ -189,5 +189,26 @@
     "state": "FINAL127GRADED_76UNKNOWN_203TOTAL;0ACTUAL_LINE_SELECTIONS",
     "artifact": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/RUN.json",
     "next": "Append only qualified source/stat corrections; originalpredictions unchanged"
+  },
+  {
+    "task_id": "C_CONTEXT_ACCEPTANCE_v1",
+    "owner": "C",
+    "state": "EXECUTED_BOUNDED_TECHNICAL_REVIEW_SCOPE_PARTIAL",
+    "artifact": "reports/player-context-matchup-01/acceptance-v1/ACCEPTANCE_RECEIPT.json",
+    "next_action": "Publishverifiedreceipts;nonewprimarypromotion"
+  },
+  {
+    "task_id": "A_REVIEW_C_CONTEXT_ACCEPTANCE",
+    "owner": "A",
+    "state": "AWAITING_ACTUAL_PEER_RECEIPT",
+    "artifact": "Cpublicacceptancebindings andsafe model/raw scripts",
+    "next_action": "A executes/reuses independent checks and publishesreceiptinexistingexportindex"
+  },
+  {
+    "task_id": "B_PRIVATE_CONTEXT_ROW_VERIFICATION",
+    "owner": "B",
+    "state": "OWNER_LOCAL_REQUIRED",
+    "artifact": "B112exactofferrows/TopKcommitments",
+    "next_action": "B/sourceownerregradeunderboundcontracts andreturnpermitteddeterministicoutputs;no forcedrawexport"
   }
 ]

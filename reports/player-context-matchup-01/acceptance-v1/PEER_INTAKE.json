@@ -1,0 +1,78 @@
+{
+  "A": {
+    "repo": "NickNicky19/NFL-forecasting",
+    "ref": "846b90ee032812306034f90e397e38dec7cebe99",
+    "index_git_blob": "afe0ac834287ec6ad5c09c279968692415ad2d9c",
+    "index_UTF8_bytes": 533023,
+    "context": {
+      "owner": "A",
+      "state": "PUBLICATION_COMPLETE_OWNER_LOCAL_NOT_C_ADMITTED",
+      "report": "player-context-matchup-01/README.md",
+      "protocol": "player-context-matchup-01/completion-v4/PROTOCOL_V4.json",
+      "protocol_sha256": "ca2f8fdbf34099ae131ae06e747dbd0aabb23cd4f6f4ab6e0471fad7cc8027aa",
+      "requested_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "category": "rush_att",
+      "role": "RB",
+      "new_fits": 5,
+      "new_historical_records": 7464,
+      "reused_control_records": 3732,
+      "unique_queries": 1244,
+      "numerical_supported": 586,
+      "eligible_offers": 239,
+      "decided": 231,
+      "unknown": 8,
+      "source_partitions": "player-context-matchup-01/SOURCE_PANEL_RESULTS_V1.json.gz",
+      "aggregate_manifest": "player-context-matchup-01/PUBLIC_AGGREGATE_MANIFEST_V1.json",
+      "independent_verification": "player-context-matchup-01/INDEPENDENT_VERIFICATION_V1.json",
+      "private_manifest": {
+        "id": "A-PCM01-RELATIONAL-SCORECARD-V4",
+        "sha256": "d2c980a3bc87093ffa38246b70a4faf4c3493c31e85753f826ede05b79f56343",
+        "bytes": 54469,
+        "route": "ExistingAowner-controlled private restoration; not a public-transfer grant",
+        "offhost_restore": "NOT_VERIFIED"
+      },
+      "C_received": "NOT_OBSERVED",
+      "C_admitted": "NOT_OBSERVED",
+      "owner_release": "NONE",
+      "numeric_shadow": "player-context-matchup-01/NUMERIC_SHADOW_REVIEW_PACKAGE_V1.json",
+      "result_commit": "e602cf220f3b63450ca05a0dc7560eef6f870746",
+      "readback": "player-context-matchup-01/PUBLICATION_READBACK_V1.json"
+    }
+  },
+  "B": {
+    "repo": "NickNicky19/NFL-forecasting-V2",
+    "ref": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+    "index_git_blob": "ebd4c4613ff5c856658a1d6f3d4d3afb9d7e8416",
+    "index_UTF8_bytes": 363958
+  },
+  "peer_reviews": {
+    "A_reviews_C": "NOT_RECEIVED: A immutable tree inspected once; found A internal own-study review and unrelated Oct23 intake receipt, neither reviews C Nov7 fits",
+    "B_reviews_A": "NOT_RECEIVED: A own-study reviewer is internal, not B acknowledgment",
+    "C_reviews_B": "EXECUTING; separate receipt with checked and private scopes"
+  },
+  "assignment_exact_file": "UNKNOWN: named TXT not attached/mounted; A/B indexes and A tree contain no exact copy; do not equate registrations with supplied SHA",
+  "one_time_gap_closure_assessment": {
+    "A": "Retained A W1-W7 reception offers could extend C beyond W2-W3 via owner-local exact-line scoring using C public safe per-origin laws/features. Aindex provides aggregates, not transferable offerrows; identity/contract/cutoff/analysis+derivedretention gates mustbe bound before scoring. No C result claimed.",
+    "B": "Four offeredQB completion/attempt weeks are different targets than C reception mechanism; no usable new C reception board received. Private rows stay ownerlocal.",
+    "next_owner": "A/sourceowner validates its retainedrecboard and either publishes permittednormalizedoffers or executes C bound adapter owner-locally with deterministic permitted results; no forced raw redistribution.",
+    "no_duplicate_acquisition": true
+  }
+}

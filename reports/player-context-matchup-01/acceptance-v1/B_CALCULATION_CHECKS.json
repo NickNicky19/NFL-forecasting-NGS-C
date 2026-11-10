@@ -1,0 +1,689 @@
+{
+  "created_UTC": "2026-11-10T00:48:38.283723+00:00",
+  "reviewer": "C internal independent calculation; not B/A acknowledgement",
+  "no_author_summary_or_inference_function_called": true,
+  "new_fits": 0,
+  "public_GETs": 17,
+  "raw_context_checks": [
+    {
+      "season": 2025,
+      "matched_QB_games": 664,
+      "vectors_equal": 664,
+      "C_source_SHA256": "c2897d02bc3e3e951114feeb3a8b624a5adc741e01f34ff7923957873b70176d",
+      "source_vintage_note": "Comparative C snapshot; disagreement need not be producer bug",
+      "FTN_checks": {
+        "thrower_games": 654,
+        "equal": 654,
+        "qualified_QB_games": 628,
+        "equal_qualified_QB_games": 628,
+        "disagreements": [],
+        "samples": [
+          {
+            "game_id": "2025_01_ARI_NO",
+            "player_id": "00-0035228",
+            "eligible_throws": 29,
+            "matched_chart_rows": 29,
+            "flags": {
+              "is_catchable_ball": {
+                "known": 29,
+                "positive": 23
+              },
+              "is_contested_ball": {
+                "known": 29,
+                "positive": 3
+              },
+              "is_drop": {
+                "known": 29,
+                "positive": 0
+              }
+            },
+            "match": true
+          },
+          {
+            "game_id": "2025_01_ARI_NO",
+            "player_id": "00-0039376",
+            "eligible_throws": 46,
+            "matched_chart_rows": 46,
+            "flags": {
+              "is_catchable_ball": {
+                "known": 46,
+                "positive": 32
+              },
+              "is_contested_ball": {
+                "known": 46,
+                "positive": 15
+              },
+              "is_drop": {
+                "known": 46,
+                "positive": 1
+              }
+            },
+            "match": true
+          }
+        ],
+        "C_source_SHA256": "fdf24c3c6affd6373d500836b7b0af3da7c085b49d562c5e06b56b13c96e8fbf"
+      }
+    },
+    {
+      "season": 2026,
+      "matched_QB_games": 275,
+      "vectors_equal": 275,
+      "C_source_SHA256": "6da7d220c38971ee12e4a2a005c11d0b8a20d1aaa7863daa57bc0daaf695ccab",
+      "source_vintage_note": "Comparative C snapshot; disagreement need not be producer bug",
+      "FTN_checks": {
+        "thrower_games": 275,
+        "equal": 275,
+        "qualified_QB_games": 266,
+        "equal_qualified_QB_games": 266,
+        "disagreements": [],
+        "samples": [
+          {
+            "game_id": "2026_01_ARI_LAC",
+            "player_id": "00-0033119",
+            "eligible_throws": 37,
+            "matched_chart_rows": 37,
+            "flags": {
+              "is_catchable_ball": {
+                "known": 37,
+                "positive": 31
+              },
+              "is_contested_ball": {
+                "known": 37,
+                "positive": 6
+              },
+              "is_drop": {
+                "known": 37,
+                "positive": 3
+              }
+            },
+            "match": true
+          },
+          {
+            "game_id": "2026_01_ARI_LAC",
+            "player_id": "00-0036355",
+            "eligible_throws": 27,
+            "matched_chart_rows": 27,
+            "flags": {
+              "is_catchable_ball": {
+                "known": 27,
+                "positive": 19
+              },
+              "is_contested_ball": {
+                "known": 27,
+                "positive": 7
+              },
+              "is_drop": {
+                "known": 27,
+                "positive": 0
+              }
+            },
+            "match": true
+          }
+        ],
+        "C_source_SHA256": "6193b81a25bd95a261592f494e76ece2b514dd97f6296dd6147859f9b84f66bc"
+      }
+    }
+  ],
+  "raw_context_disagreements": [],
+  "raw_deterministic_sample": [
+    {
+      "game_id": "2025_01_PIT_NYJ",
+      "player_id": "00-0023459",
+      "raw_attempts": 30,
+      "B_attempts": 30,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_CIN_CLE",
+      "player_id": "00-0026158",
+      "raw_attempts": 45,
+      "B_attempts": 45,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_HOU_LA",
+      "player_id": "00-0026498",
+      "raw_attempts": 29,
+      "B_attempts": 29,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_NYG_WAS",
+      "player_id": "00-0029263",
+      "raw_attempts": 37,
+      "B_attempts": 37,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_LV_NE",
+      "player_id": "00-0030565",
+      "raw_attempts": 34,
+      "B_attempts": 34,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_DAL_PHI",
+      "player_id": "00-0033077",
+      "raw_attempts": 34,
+      "B_attempts": 34,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_DET_GB",
+      "player_id": "00-0033106",
+      "raw_attempts": 39,
+      "B_attempts": 39,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    },
+    {
+      "game_id": "2025_01_KC_LAC",
+      "player_id": "00-0033873",
+      "raw_attempts": 39,
+      "B_attempts": 39,
+      "unknown_depth": 0,
+      "known_zero_vector": false,
+      "vectors_match": true
+    }
+  ],
+  "representative_inference": {
+    "game_id": "2026_05_TB_DAL",
+    "player_id": "00-0033077",
+    "model": "2026-W05-P2",
+    "mean": 21.351050673952674,
+    "saved_mean": 21.35105067395267,
+    "attempt_mean": 31.149484536082472,
+    "integrated_completion_probability": 0.6854383304231043,
+    "latest_admitted_own_game": "2026_03_BAL_DAL",
+    "latest_admitted_available": 1791245700.0,
+    "fit_cutoff": 1791504900.0,
+    "query_cutoff": 1791504900.0,
+    "fit_latest_training_label": 1791245700.0,
+    "fit_latest_training_feature": 1790554800.0,
+    "conditional_probability_max_delta": 0.0
+  },
+  "opponent_equation": {
+    "conditional_residual": "r_j=(sum completed_j - sum[attempts_j*(own_completed_j+20*earlier_pooled_j)/(own_attempts_j+20)])/(sum attempts_j+100), using last16 eligible opponent team-games",
+    "interaction": "z_j=predicted_own_mix_j*r_j (25 distinct coordinates); does not algebraically collapse to one scalar",
+    "example_context": 1,
+    "defense_attempts": [
+      38.0,
+      101.0,
+      43.0,
+      24.0,
+      0.0,
+      32.0,
+      91.0,
+      41.0,
+      15.0,
+      0.0,
+      12.0,
+      76.0,
+      30.0,
+      18.0,
+      0.0,
+      2.0,
+      5.0,
+      6.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "defense_completed": [
+      27.0,
+      77.0,
+      27.0,
+      5.0,
+      0.0,
+      29.0,
+      72.0,
+      27.0,
+      4.0,
+      0.0,
+      9.0,
+      57.0,
+      14.0,
+      7.0,
+      0.0,
+      0.0,
+      3.0,
+      2.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offense_quality_expected_completed": [
+      29.326319026029324,
+      75.98196362326543,
+      24.101917408865685,
+      9.52285124243749,
+      0.0,
+      25.477000472256126,
+      68.82054305306349,
+      22.55121595124795,
+      5.617442233479308,
+      0.0,
+      8.776783859720316,
+      51.675638404295945,
+      15.007519388947005,
+      6.225314893171969,
+      0.0,
+      1.3075210871602625,
+      3.254508314135409,
+      2.7841212242281412,
+      0.614201245908563,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "residual": [
+      -0.016857384246589308,
+      0.0050648575956943834,
+      0.020266311826114092,
+      -0.03647460679385072,
+      0.0,
+      0.026689390361696014,
+      0.01664637144992938,
+      0.0315516599202273,
+      -0.014064715073733117,
+      0.0,
+      0.0019930012524971763,
+      0.030252054521045766,
+      -0.00775014914574619,
+      0.006565128023966362,
+      0.0,
+      -0.01281883418784571,
+      -0.002423888706051516,
+      -0.007397370039888125,
+      0.01358626229501409,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mix": [
+      0.07476212811578666,
+      0.16155651597724768,
+      0.06074574138598529,
+      0.05160312248726883,
+      7.4451293963489085e-06,
+      0.056819366270585786,
+      0.17542400011912207,
+      0.09485560171535781,
+      0.04052197802197802,
+      4.653205872718068e-06,
+      0.016167098484171655,
+      0.14459371928884124,
+      0.06677443491467881,
+      0.016249925548706037,
+      9.306411745436136e-07,
+      0.00010237052919979749,
+      0.02172581821972066,
+      0.010839177759909467,
+      0.007240388337949314,
+      9.306411745436136e-07,
+      9.306411745436136e-07,
+      9.306411745436136e-07,
+      9.306411745436136e-07,
+      9.306411745436136e-07,
+      9.306411745436136e-07
+    ],
+    "interactions": [
+      -0.0012602939207405535,
+      0.0008182607470812839,
+      0.001231092137036862,
+      -0.0018822036020580467,
+      0.0,
+      0.001516474246499848,
+      0.0029201730672153616,
+      0.0029928516868514992,
+      -0.0005699300751031963,
+      0.0,
+      3.222104752819931e-05,
+      0.004374257079326812,
+      -0.0005175118297116825,
+      0.00010668284160717697,
+      0.0,
+      -1.3122708395342217e-06,
+      -5.2660965412509166e-05,
+      -8.018140881817598e-05,
+      9.83698150771405e-05,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "context_residual_range": [
+      -0.03647460679385072,
+      0.0315516599202273
+    ],
+    "interpretation": "QB-passing completion response by down/depth; not causal defense talent, all-player dropbacks or receiver alignment"
+  },
+  "safe_forest_leaf_weights_max_delta": 1.3877787807814457e-17,
+  "law_checks": [
+    {
+      "line": 0,
+      "Under": 0.0,
+      "Push": 1.363170625487672e-05,
+      "Over": 0.9999863682937451
+    },
+    {
+      "line": 0.5,
+      "Under": 1.3631706254876712e-05,
+      "Push": 0,
+      "Over": 0.9999863682937451
+    },
+    {
+      "line": 20,
+      "Under": 0.45337363930794444,
+      "Push": 0.04948193858991096,
+      "Over": 0.49714442210214455
+    },
+    {
+      "line": 20.5,
+      "Under": 0.5028555778978555,
+      "Push": 0,
+      "Over": 0.49714442210214455
+    },
+    {
+      "line": 21,
+      "Under": 0.5028555778978555,
+      "Push": 0.048107892024260454,
+      "Over": 0.4490365300778846
+    },
+    {
+      "line": 21.5,
+      "Under": 0.5509634699221154,
+      "Push": 0,
+      "Over": 0.4490365300778846
+    }
+  ],
+  "aggregate_side_triads_checked": 300,
+  "focal_records": [
+    {
+      "target": "pass_cmp",
+      "procedure": "B-player-context-matchup-01-v1:E0",
+      "policy": "P2_STATISTICAL_LAW",
+      "sides": {
+        "over": {
+          "wins": 7,
+          "losses": 12,
+          "decided": 19,
+          "selected": 19,
+          "hit_rate": 0.3684210526315789
+        },
+        "under": {
+          "wins": 42,
+          "losses": 51,
+          "decided": 93,
+          "selected": 93,
+          "hit_rate": 0.45161290322580644
+        },
+        "Combined": {
+          "wins": 49,
+          "losses": 63,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.4375
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": 277
+    },
+    {
+      "target": "pass_cmp",
+      "procedure": "B-player-context-matchup-01-v1:E3",
+      "policy": "P2_STATISTICAL_LAW",
+      "sides": {
+        "over": {
+          "wins": 17,
+          "losses": 13,
+          "decided": 30,
+          "selected": 30,
+          "hit_rate": 0.5666666666666667
+        },
+        "under": {
+          "wins": 41,
+          "losses": 41,
+          "decided": 82,
+          "selected": 82,
+          "hit_rate": 0.5
+        },
+        "Combined": {
+          "wins": 58,
+          "losses": 54,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.5178571428571429
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": 277
+    },
+    {
+      "target": "pass_cmp",
+      "procedure": "SAVED_ADJUSTED",
+      "policy": "REGISTERED_DIRECTION",
+      "sides": {
+        "over": {
+          "wins": 22,
+          "losses": 18,
+          "decided": 40,
+          "selected": 40,
+          "hit_rate": 0.55
+        },
+        "under": {
+          "wins": 36,
+          "losses": 36,
+          "decided": 72,
+          "selected": 72,
+          "hit_rate": 0.5
+        },
+        "Combined": {
+          "wins": 58,
+          "losses": 54,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.5178571428571429
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": null
+    },
+    {
+      "target": "pass_cmp",
+      "procedure": "EARLIER_LINE_PREVALENCE",
+      "policy": "REGISTERED_DIRECTION",
+      "sides": {
+        "over": {
+          "wins": 11,
+          "losses": 6,
+          "decided": 17,
+          "selected": 17,
+          "hit_rate": 0.6470588235294118
+        },
+        "under": {
+          "wins": 48,
+          "losses": 47,
+          "decided": 95,
+          "selected": 95,
+          "hit_rate": 0.5052631578947369
+        },
+        "Combined": {
+          "wins": 59,
+          "losses": 53,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.5267857142857143
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": null
+    },
+    {
+      "target": "pass_att",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "policy": "P2_STATISTICAL_LAW",
+      "sides": {
+        "over": {
+          "wins": 1,
+          "losses": 4,
+          "decided": 5,
+          "selected": 5,
+          "hit_rate": 0.2
+        },
+        "under": {
+          "wins": 54,
+          "losses": 53,
+          "decided": 107,
+          "selected": 107,
+          "hit_rate": 0.5046728971962616
+        },
+        "Combined": {
+          "wins": 55,
+          "losses": 57,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.49107142857142855
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": 277
+    },
+    {
+      "target": "pass_att",
+      "procedure": "SAVED_ADJUSTED",
+      "policy": "REGISTERED_DIRECTION",
+      "sides": {
+        "over": {
+          "wins": 22,
+          "losses": 11,
+          "decided": 33,
+          "selected": 33,
+          "hit_rate": 0.6666666666666666
+        },
+        "under": {
+          "wins": 47,
+          "losses": 32,
+          "decided": 79,
+          "selected": 79,
+          "hit_rate": 0.5949367088607594
+        },
+        "Combined": {
+          "wins": 69,
+          "losses": 43,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.6160714285714286
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": null
+    },
+    {
+      "target": "pass_att",
+      "procedure": "EARLIER_LINE_PREVALENCE",
+      "policy": "REGISTERED_DIRECTION",
+      "sides": {
+        "over": {
+          "wins": 6,
+          "losses": 2,
+          "decided": 8,
+          "selected": 8,
+          "hit_rate": 0.75
+        },
+        "under": {
+          "wins": 56,
+          "losses": 48,
+          "decided": 104,
+          "selected": 104,
+          "hit_rate": 0.5384615384615384
+        },
+        "Combined": {
+          "wins": 62,
+          "losses": 50,
+          "decided": 112,
+          "selected": 112,
+          "hit_rate": 0.5535714285714286
+        }
+      },
+      "eligible": 112,
+      "games": 56,
+      "numerical_n": null
+    }
+  ],
+  "earlier_window_selection": {
+    "season": 2024,
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "objective": "full-game forecast completion count NLL",
+    "validation_rows": 302,
+    "window": 8,
+    "strength": 20,
+    "selection_recomputed_from_saved_scores": true,
+    "fresh_tuning_fits_reproduced": false
+  },
+  "actual_offer_row_regrade": "UNKNOWN; offers are owner-local and row_calculations_sha256 commitments do not disclose exact private thresholds or selected members",
+  "offered_numerical_population": "Owner reports E3mean MAE5.3547/bias-1.4779 on112 vs5.8362/bias-0.9234 on277; cannot independently recompute private112 membership",
+  "source_vintage": "C and B current/revised snapshots; plus7day strictly earlier availability is reconstructed, not original publication authentication",
+  "bounds": "No NFL fits, unsafe deserialization, external messages, B writes, raw private offer export or source-policy changes",
+  "active_adapter_repair": {
+    "path": "nfl_v2/player_context_typed_adapter_v2.py",
+    "producer_commit": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+    "SHA256": "ef04cd1592faa320a3ee74748557c6d89473f5794ea946d39a01693758e06c51",
+    "source_bound_v2_read": true,
+    "coefficient_order": [
+      "team",
+      "opponent",
+      "player_id"
+    ],
+    "original_and_sorted_JSON_probabilities_exact": true,
+    "independent_manual_probability_max_delta": 0.0,
+    "bad_level_groups_and_producer_rejected": 2,
+    "old_NFL_predictions_changed": false,
+    "fit_reproduction": false
+  },
+  "fit_verification_scope": "Saved JSON inference only. No B fresh-fit reproduction was run by C in this package. B existing independent restoration receipt was inspected for byte/scope claims, not treated as new fit reproduction."
+}

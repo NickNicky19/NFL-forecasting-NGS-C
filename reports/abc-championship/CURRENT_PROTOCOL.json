@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "bb23a2f6a68ed6e5221d1fe3ee2d82c22e88a7ec29b0f9b1e5477437954645f1"
+    "SHA256": "19dfe8931cd355a3cd23017012cda23c8b6454f3b95ed7314ebbf03d1c72ac5d"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -548,7 +548,7 @@
     "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
     "report": {
       "path": "reports/player-context-matchup-01/README.md",
-      "SHA256": "ceea7ede4ef66764f2307826d44cc8a8f70e1ea96493d503ee54afaef9b06365"
+      "SHA256": "70715e3eefe7eeefa501e506eddc22c13d165e1408e8e42e7423b153ac9017d0"
     },
     "canonical_actual_rows": {
       "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
@@ -625,6 +625,30 @@
     "forecast_only_grade_summary": {
       "path": "reports/player-context-matchup-01/JAXBAL_FORECAST_ONLY_SCORES.json",
       "SHA256": "b6b47c6f8e2164985a0855bff3513f4b280bd807c6084fc48cf361c24c3f7be0"
+    },
+    "acceptance_v1": {
+      "id": "PLAYER-CONTEXT-ACCEPTANCE-01-C/v1",
+      "report": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/README.md",
+        "SHA256": "6e4c303d4aad11ed4e0cd2a619411475462f750de01a1540ef3fe813225c70a2"
+      },
+      "verdicts": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/ACCEPTANCE_RECEIPT.json",
+        "SHA256": "f39a5172421067d8683ef58bbd19987155d276dacb1a641a8e9d901c940bc750"
+      },
+      "requirements": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/REQUIREMENT_EXECUTION.json",
+        "SHA256": "7fc25c63f0facbe6f3562e94d9712efa3e3b789a95dec3781d22300dffcee5d8"
+      },
+      "C_reviews_B": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.json",
+        "SHA256": "5ab3434e54cf4ab5b4d1108d1b36be0e7745a56071bb944b42ca0f7738a2c3bd"
+      },
+      "peer_reviews": "A_reviews_C_NOT_RECEIVED;B_reviews_A_NOT_RECEIVED;internalCindependentcheckedscopeseparate",
+      "native_grade": "C-NATIVE-GRADE-20261110-CINATL-01",
+      "original_issuance_or_model_changes": 0,
+      "new_actual_line_weeks": 0,
+      "deployment_ordered": false
     }
   }
 }
