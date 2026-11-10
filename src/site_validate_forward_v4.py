@@ -12,7 +12,7 @@ def validate(docs,root):
     for p in (root/'receipts').glob('*.json'):
         proof=read_json(p);run=root/'runs'/proof['run_id'];meta,rows=validate_run(run);validate_receipt(run,proof,meta,rows)
         if not legacy_feed_run(meta):
-            assert proof['run_id'] not in manifest_run_ids,'C04_SHADOW_INCLUDED_IN_LEGACY_MANIFEST'
+            assert proof['run_id'] not in manifest_run_ids,'TYPED_SHADOW_INCLUDED_IN_LEGACY_MANIFEST'
             continue
         legacy_run_ids.add(proof['run_id'])
         original.update({r['forecast_id']:r for r in rows})

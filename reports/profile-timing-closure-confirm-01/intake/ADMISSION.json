@@ -1,0 +1,224 @@
+{
+  "id": "C05-EXACT-RECEIPT-ADMISSION-v1",
+  "at_UTC": "2026-11-10T22:50:42.195413+00:00",
+  "source_refs": {
+    "A": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+    "B": "b616b0073a26cb95011df9c53b86ae0693437f15"
+  },
+  "artifacts": [
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/EXPORT_INDEX.json",
+      "actual_decoded_bytes": 39817,
+      "actual_decoded_SHA256": "e3d251a960f09a375fc5ffd1cefc5f6c91aa4bbbe655fa7e594deaa2370b274e",
+      "retained_projection": "A_INDEX.json.xz",
+      "retained_SHA256": "9792aaa7b04fc68f8937a8355b4d0b58a5b6e16fd344e38dac4e67d421de6f31",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "b616b0073a26cb95011df9c53b86ae0693437f15",
+      "source_path": "reports/abc-championship/EXPORT_INDEX.json",
+      "actual_decoded_bytes": 1035815,
+      "actual_decoded_SHA256": "4d934f70cfc44396e984297d9df74ab84cc7a68ec8dc1a7d47d544623ed3419f",
+      "retained_projection": "B_INDEX.json.xz",
+      "retained_SHA256": "976d32246db021ac1c2f97d844018356a2a6063ce4520b50a8f5db7d3082a8a3",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/EXECUTED_CLOSURE_CHECKPOINT_V1.md",
+      "actual_decoded_bytes": 28270,
+      "actual_decoded_SHA256": "172647dbf757c37a8364be8fe54cac7a383b0b5c715cb7b7d578f2ac58d07a24",
+      "retained_projection": "A_REPORT.json.xz",
+      "retained_SHA256": "0dc5cdb9ff99204d8407b05b231bbb0d91a2c34daf7c2ba209b2ca8646ebdd0a",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/freshness-public-v1/MANIFEST_V1.json",
+      "actual_decoded_bytes": 16376,
+      "actual_decoded_SHA256": "a62ce459a9ef28e10ed5a52d28f3eddddbe847426ebfdb9ac56a1b8ac29b331a",
+      "retained_projection": "A_TIMING_MANIFEST.json.xz",
+      "retained_SHA256": "8add57c55e227f24c907c22ea18b77b12f1de585f703b5ff1b7b43227987f27c",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/c03-public-v1/MANIFEST_V1.json",
+      "actual_decoded_bytes": 2839,
+      "actual_decoded_SHA256": "4ee537d5302ec5cd184dbead1232c8c93b51d19cbaa28921e08d4d93a5cf85df",
+      "retained_projection": "A_C03_MANIFEST.json.xz",
+      "retained_SHA256": "f254ba8d7286cb49c010bbfa3e047a4209b3aac70541ac63cf4906bd6df05ba5",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/b-completion-public-v2/MANIFEST.json",
+      "actual_decoded_bytes": 3964,
+      "actual_decoded_SHA256": "ae18d9d80e449135923d2dccd13a56fcf987b3d89ce59a0efc1a95c21e07f081",
+      "retained_projection": "A_BCMP_MANIFEST.json.xz",
+      "retained_SHA256": "8d56f437e927907fd5f18d5d395f9e366f184bfa03aca88255c4c5fe7848f056",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "b616b0073a26cb95011df9c53b86ae0693437f15",
+      "source_path": "reports/profile-increment-closure-next-02/B/ALIGNED_FRESHNESS_REPORT.md",
+      "actual_decoded_bytes": 16633,
+      "actual_decoded_SHA256": "b7022365f6d646a492c244132b6751ba8f51b35438ba87a8f62eb3d620856e4a",
+      "retained_projection": "B_REPORT.json.xz",
+      "retained_SHA256": "d61ee866044499f8c48ae7fda3b3c6f3ba59a74c369e272a001a1a5aad8cc935",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "b616b0073a26cb95011df9c53b86ae0693437f15",
+      "source_path": "reports/profile-increment-closure-next-02/B/PRODUCT_DECISIONS_V1.json",
+      "actual_decoded_bytes": 4050,
+      "actual_decoded_SHA256": "29ce85e93b9ec13baf95fb51eee023acb16afa5364748e770717ca95781847f1",
+      "retained_projection": "B_DECISIONS.json.xz",
+      "retained_SHA256": "fc03fa025658455883cb633c41520ee8eff8df8b7c261e8f3a5f634a06526dc2",
+      "state": "ADMITTED_LISTED_PUBLIC_OWN_SIDE_ARITHMETIC;OTHER_METRICS_OWNER_REPORTED",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "b616b0073a26cb95011df9c53b86ae0693437f15",
+      "source_path": "reports/profile-increment-closure-next-02/B/SAVED_TIMING_OUTPUT_HANDOFF_V1.json",
+      "actual_decoded_bytes": 7734,
+      "actual_decoded_SHA256": "fefa42f1c636fcdc4f30f45c1075dcd9046786397b453fd9bc0a1bc264a33670",
+      "retained_projection": "B_TIMING_HANDOFF.json.xz",
+      "retained_SHA256": "0eb5489c86a424c823dcd70afb3ee4bf2c53a4c790b1e1f1decc03433c1c6f7e",
+      "state": "RECEIVED_VALIDATED_DISCOVERY_OR_BINDING_ONLY",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/c03-public-v1/CUMULATIVE_ALL_PROCEDURES_001.csv",
+      "actual_decoded_bytes": 53042,
+      "actual_decoded_SHA256": "2637c7820264bbed6b32753f9023f28086888042ff6cbac662015a68fb241407",
+      "retained_projection": "A_C03_CUMULATIVE.json.xz",
+      "retained_SHA256": "747dd31bd98558716b60fc7e8d8216ff29f56ae7687e988261f1a306dd990a38",
+      "state": "ADMITTED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/b-completion-public-v2/ANNUAL_ACTUAL_W1_W5_001.csv",
+      "actual_decoded_bytes": 61196,
+      "actual_decoded_SHA256": "61d3f684dee7303ba123b5734ac384b5f58f0d4df627592a5136475073028a0b",
+      "retained_projection": "A_BCMP_ANNUAL1.json.xz",
+      "retained_SHA256": "43530670b79381979b9a489313ad62b1cbb470331b2222ebe4f786ce33011cdc",
+      "state": "ADMITTED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/b-completion-public-v2/ANNUAL_ACTUAL_W1_W5_002.csv",
+      "actual_decoded_bytes": 3310,
+      "actual_decoded_SHA256": "69c8339b95d3f54b96e219962ae09106f5dd6a596bdd6d40a6a69eec1cf506b0",
+      "retained_projection": "A_BCMP_ANNUAL2.json.xz",
+      "retained_SHA256": "b8d01c06a227fe54845c702cb8d3e1b34176bdd97acc0f366f40df7351f53af2",
+      "state": "ADMITTED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/EXECUTION_SUMMARY_V1.json",
+      "actual_decoded_bytes": 38873,
+      "actual_decoded_SHA256": "337df4cc496590fd3feec005b0d9ff0d0b0ec8f1958c5ce90d3475e2241061de",
+      "retained_projection": "A_SUMMARY.json.xz",
+      "retained_SHA256": "bf512ef56c350442f732e0806c2b7bba5b93b8b9b11ca663606477a85532fd71",
+      "state": "ADMITTED_LISTED_PUBLIC_OWN_SIDE_ARITHMETIC;OTHER_METRICS_OWNER_REPORTED",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/freshness-public-v1/ALL_SUMMARIES_001.csv",
+      "actual_decoded_bytes": 61330,
+      "actual_decoded_SHA256": "8bea75b8b35ecb5fca886df90e7aecc880c610bc3aef3d114f842cdc2a15b729",
+      "retained_projection": "A_TIMING_FIRST_SHARD.json.xz",
+      "retained_SHA256": "a4fb10903e5cae995f81d8a7c9336bcfb6f24edf6fd9864bd097887f8978da6f",
+      "state": "ADMITTED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/C03_RECEPTION_EXECUTION_RECEIPT_V1.json",
+      "actual_decoded_bytes": 1802,
+      "actual_decoded_SHA256": "9df3bb853a368841127906e67c41963a3945ddd15c933baf83186f36c11454c4",
+      "retained_projection": "A_C03_EXECUTION_RECEIPT.json.xz",
+      "retained_SHA256": "a8a91809e1fc8b9f1a746cfedc7e9af6da1ddffad74d8c3187132b557282e807",
+      "state": "VALIDATED_EXACT_FORECAST_SOURCE_BYTE_BINDING;PRIVATE_RAW_PARITY_NOT_INSPECTED",
+      "scope": "Publicderivedmetadata/aggregateprojectiononly;referencedunseenfilesnotadmittedasscored"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+      "source_path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/CURRENT_INCUMBENT_PACKET_READBACK_V1.json",
+      "actual_decoded_bytes": 2022,
+      "actual_decoded_SHA256": "f0642e308da5a1361b9a6f7e447ec05702b072f80b8ba2c18bd9aa3a7e1ea5c9",
+      "retained_projection": "A_INCUMBENT_PACKET_RECEIPT.json.xz",
+      "retained_SHA256": "d958e62cd076a934f4cb68c8f550ea4f4d3761b19a39a5a8209ba4ecc1889b45",
+      "state": "RECEIVED_VALIDATED_EXISTING_OWNER_PACKET_METADATA;NO_C_RAW_ORIGINAL_PACKET_OR_SERVED_VERIFICATION",
+      "scope": "Count/declaredclock-order/sourcequalificationmetadataonly;forecastcountnotselectioncount"
+    }
+  ],
+  "arithmetic": {
+    "path": "ARITHMETIC_REVIEW.json",
+    "SHA256": "8711dcae0c0982d83aa57d351f474b06a1f23f297e2e8804b45019299d81a80e",
+    "status": "PASS"
+  },
+  "C03_source_binding": {
+    "path": "EXACT_C03_SOURCE_BINDING.json",
+    "status": "PASS",
+    "SHA256": "bc82da17bc2fd83e05a90c74ec6e92b6befbad9b6e25ccec6fe9c353cfd11e32"
+  },
+  "completed_joins_acknowledged": [
+    "A earlier B R0-R3 completion owner-localjoin,alias-correctedV2 primary88retainedoffersW1-5",
+    "A longer C03 reception/profile/defense owner-localjoin primary469offers/412decidedW1-5;W6-7separatediagnostic"
+  ],
+  "not_completed_by_these_receipts": [
+    "ExactnewBtimingF2/F3earlier-boardjoin",
+    "ExactnewC04timingF2/F3longer-boardjoin"
+  ],
+  "no_private_peer_rows_or_models_retained": true,
+  "verification_limits": [
+    "No independentprivate player/event/line/sourceclock common-mask reconstruction",
+    "No privatefitted-model/source restoration or re-inference",
+    "CSVpartition/weightedmetricarithmetic is notrawproper-scoreverification",
+    "Owner-reported intervals/finality/rights remain at statedsource tier",
+    "ReferencedB26forecastmembersnotfetchedbyC; indexownerreadbackclaimnotCactualreadback",
+    "Currentpublicindexsourcepinswereused,notresetcheckouts;no claimtoalllaterunknownpeerwork"
+  ],
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_offers_collected": 0,
+  "new_calendartestweeks": 0,
+  "C04_F0_F1_alias_reuse": "ExactAusedC03bytesPASS;parentC04F0/F1vsC03R1/R2pointmappingrequired. Canreusepoint-onlybaselineviewwhenthatbindingpasses;notnewF2/F3testorprobabilityqualification.",
+  "incumbent_packet": {
+    "receipt": "A_INCUMBENT_PACKET_RECEIPT.json.xz",
+    "independent_metadata_check": "INCUMBENT_RECEIPT_ARITHMETIC.json",
+    "forecast_rows": 1610,
+    "qualified_offer_or_new_primary_activation_claim": false
+  }
+}

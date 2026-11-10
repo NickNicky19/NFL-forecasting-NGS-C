@@ -1,0 +1,275 @@
+{
+  "id": "C05-C04-F0-F1-EXACT-BASELINE-ALIAS-REUSE-v1",
+  "status": "PASS_EXACT_POINTS_PLUS_PUBLIC_AGGREGATE_ARITHMETIC;PRIVATE_ROW_PARITY_UNKNOWN",
+  "checked_UTC": "2026-11-10T22:56:55.670179+00:00",
+  "A_ref": "a969aeafa945edec686f5b54a9bc64f99bfa4bf0",
+  "A_C03_source_bytes_exact": {
+    "path": "reports/profile-increment-v2/C03_TYPED_POINTS_2025_2026_W1_W8.json.xz",
+    "bytes": 246128,
+    "SHA256": "0a374a147bdad11bf3226265894b00b39928903f62740e0a4d2344f91eeb8497"
+  },
+  "C04_point_export_SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc",
+  "point_values_independently_compared": 19244,
+  "identity_arm_records_compared": 9622,
+  "public_C03_summary_rows_arithmetic_checked": 132,
+  "A_execution_score_to_public_CSV_hash_chain_verified": true,
+  "baseline_products": [
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "source_C03_procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R1::MEAN",
+      "rule": "Unrounded saved point > retained exact line OVER; < UNDER; equality abstains; inherited A statistical outcome contract",
+      "source_panel": "ANNUAL_NAMED_NJ",
+      "requested_period": "2026_W1_W8",
+      "actual_retained_threshold_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "role": "WR_TE",
+      "eligible": 469,
+      "selected": 421,
+      "unavailable_forecasts": 48,
+      "selected_unknown_participation": 9,
+      "decided": 412,
+      "games": 53,
+      "OVER": {
+        "wins": 109,
+        "losses": 84,
+        "decided": 193,
+        "rate": 0.5647668393782384
+      },
+      "UNDER": {
+        "wins": 127,
+        "losses": 92,
+        "decided": 219,
+        "rate": 0.5799086757990868
+      },
+      "COMBINED": {
+        "wins": 236,
+        "losses": 176,
+        "decided": 412,
+        "rate": 0.5728155339805825
+      },
+      "same_offered_player_numerical_owner_reported": {
+        "MAE": 1.7133166460888472,
+        "MSE": 5.212493400940318,
+        "bias": -0.4053836173715766
+      },
+      "strong_compatible_C_control_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "strong_control_wins": 239,
+      "strong_control_decided": 412,
+      "candidate_minus_control_wins": -3,
+      "candidate_minus_control_percentage_points": -0.7281553398058253,
+      "probabilities": "N/A_SAVED_POINTS_ONLY",
+      "evidence_tier": "CURRENT_VINTAGE_7DAY_QUOTE_TIME_UNVERIFIED",
+      "source_views_not_additive": [
+        "FULL_A733",
+        "FIXED_C667"
+      ]
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "source_C03_procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R1::MEDIAN",
+      "rule": "Unrounded saved point > retained exact line OVER; < UNDER; equality abstains; inherited A statistical outcome contract",
+      "source_panel": "ANNUAL_NAMED_NJ",
+      "requested_period": "2026_W1_W8",
+      "actual_retained_threshold_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "role": "WR_TE",
+      "eligible": 469,
+      "selected": 421,
+      "unavailable_forecasts": 48,
+      "selected_unknown_participation": 9,
+      "decided": 412,
+      "games": 53,
+      "OVER": {
+        "wins": 78,
+        "losses": 57,
+        "decided": 135,
+        "rate": 0.5777777777777777
+      },
+      "UNDER": {
+        "wins": 154,
+        "losses": 123,
+        "decided": 277,
+        "rate": 0.555956678700361
+      },
+      "COMBINED": {
+        "wins": 232,
+        "losses": 180,
+        "decided": 412,
+        "rate": 0.5631067961165048
+      },
+      "same_offered_player_numerical_owner_reported": {
+        "MAE": 1.7257281553398058,
+        "MSE": 5.75,
+        "bias": -0.75
+      },
+      "strong_compatible_C_control_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+      "strong_control_wins": 238,
+      "strong_control_decided": 412,
+      "candidate_minus_control_wins": -6,
+      "candidate_minus_control_percentage_points": -1.4563106796116505,
+      "probabilities": "N/A_SAVED_POINTS_ONLY",
+      "evidence_tier": "CURRENT_VINTAGE_7DAY_QUOTE_TIME_UNVERIFIED",
+      "source_views_not_additive": [
+        "FULL_A733",
+        "FIXED_C667"
+      ]
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "source_C03_procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R2::MEAN",
+      "rule": "Unrounded saved point > retained exact line OVER; < UNDER; equality abstains; inherited A statistical outcome contract",
+      "source_panel": "ANNUAL_NAMED_NJ",
+      "requested_period": "2026_W1_W8",
+      "actual_retained_threshold_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "role": "WR_TE",
+      "eligible": 469,
+      "selected": 421,
+      "unavailable_forecasts": 48,
+      "selected_unknown_participation": 9,
+      "decided": 412,
+      "games": 53,
+      "OVER": {
+        "wins": 106,
+        "losses": 92,
+        "decided": 198,
+        "rate": 0.5353535353535354
+      },
+      "UNDER": {
+        "wins": 119,
+        "losses": 95,
+        "decided": 214,
+        "rate": 0.5560747663551402
+      },
+      "COMBINED": {
+        "wins": 225,
+        "losses": 187,
+        "decided": 412,
+        "rate": 0.5461165048543689
+      },
+      "same_offered_player_numerical_owner_reported": {
+        "MAE": 1.7145795481407318,
+        "MSE": 5.190997796255694,
+        "bias": -0.39447592067759274
+      },
+      "strong_compatible_C_control_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "strong_control_wins": 239,
+      "strong_control_decided": 412,
+      "candidate_minus_control_wins": -14,
+      "candidate_minus_control_percentage_points": -3.3980582524271843,
+      "probabilities": "N/A_SAVED_POINTS_ONLY",
+      "evidence_tier": "CURRENT_VINTAGE_7DAY_QUOTE_TIME_UNVERIFIED",
+      "source_views_not_additive": [
+        "FULL_A733",
+        "FIXED_C667"
+      ]
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "source_C03_procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R2::MEDIAN",
+      "rule": "Unrounded saved point > retained exact line OVER; < UNDER; equality abstains; inherited A statistical outcome contract",
+      "source_panel": "ANNUAL_NAMED_NJ",
+      "requested_period": "2026_W1_W8",
+      "actual_retained_threshold_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "role": "WR_TE",
+      "eligible": 469,
+      "selected": 421,
+      "unavailable_forecasts": 48,
+      "selected_unknown_participation": 9,
+      "decided": 412,
+      "games": 53,
+      "OVER": {
+        "wins": 76,
+        "losses": 52,
+        "decided": 128,
+        "rate": 0.59375
+      },
+      "UNDER": {
+        "wins": 159,
+        "losses": 125,
+        "decided": 284,
+        "rate": 0.5598591549295775
+      },
+      "COMBINED": {
+        "wins": 235,
+        "losses": 177,
+        "decided": 412,
+        "rate": 0.5703883495145631
+      },
+      "same_offered_player_numerical_owner_reported": {
+        "MAE": 1.7184466019417475,
+        "MSE": 5.669902912621359,
+        "bias": -0.7524271844660194
+      },
+      "strong_compatible_C_control_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+      "strong_control_wins": 238,
+      "strong_control_decided": 412,
+      "candidate_minus_control_wins": -3,
+      "candidate_minus_control_percentage_points": -0.7281553398058253,
+      "probabilities": "N/A_SAVED_POINTS_ONLY",
+      "evidence_tier": "CURRENT_VINTAGE_7DAY_QUOTE_TIME_UNVERIFIED",
+      "source_views_not_additive": [
+        "FULL_A733",
+        "FIXED_C667"
+      ]
+    }
+  ],
+  "within_method_profile_increment_point_only": {
+    "MEAN": {
+      "F1_minus_F0_wins": -11,
+      "percentage_points": -2.669902912621359
+    },
+    "MEDIAN": {
+      "F1_minus_F0_wins": 3,
+      "percentage_points": 0.7281553398058253
+    }
+  },
+  "C03_defense_median_control": {
+    "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R3::MEDIAN",
+    "wins": 237,
+    "decided": 412,
+    "R3_minus_R2_wins": 2,
+    "strong_old_C_P1_median_wins": 238
+  },
+  "new_C04_F2_F3_joins": "NOT_EXECUTED_BY_THIS_ALIAS_VIEW;newtimingproductsstillrequireAownedjoin",
+  "what_was_executed": "Read-only exact-output alias verification plus independent integer/Decimal aggregate calculation; no private scorer/re-inference/fit",
+  "new_tests_weeks_or_NFL_observations": 0,
+  "same_original_C03_test_reused": true,
+  "probability_confidence_TopPicks_or_EV_qualification": "NOT_SUPPLIED_NOT_TRANSFERRED",
+  "five_week_scope": "Owner reports actual retained thresholds/scored W1-5 for exact point rules, at timing-unverified reconstruction tier. Per-week/private opportunity membership not independently reconstructed. No seven actual-offer-week claim and no original-issuance upgrade.",
+  "W6_W7": "SITE_RECORDED_DK_JURISDICTION_UNKNOWN diagnostic only; excludes them from annual actual-line fiveweek alias record",
+  "paired_uncertainty": "No new interval computed. Point alias shares source paired evidence only when exact masks/rules match; private disagreements/clock evidence not independently inspected.",
+  "verification_limits": [
+    "Public412decidedmaskidentityisownerreported;arithmeticandpointidentityverifiedindependently",
+    "Privateplayer/event/quote/timing/outcome/participationrowsnotreceivedorreplayed",
+    "NumericalMAE/MSE/biasretainedasownerreported;notrecomputedfromprivateactuals",
+    "NoC04F2/F3pointjoinorlaw/rankingqualificationiscreatedbyrenamingbaselines"
+  ],
+  "CPU_seconds": 0.45107676599999996,
+  "peak_RSS_bytes": 62779392,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_GETs": 0,
+  "view_label_caution": "FULL_A733 and FIXED_C667 are retained panel names; the annual source partition actually has469eligible/412decided, not733/667. Full and fixed views overlap and must not be added."
+}

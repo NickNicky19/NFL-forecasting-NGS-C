@@ -1,0 +1,63 @@
+{
+  "id": "C05-EXACT-OWNER-ACTIONS-v1",
+  "completed_do_not_request_again": [
+    {
+      "owner": "A",
+      "task": "BpriorR0-R3completion88offerjoin",
+      "state": "COMPLETE_OWNER_LOCAL_V2;RECEIVED_ARITHMETIC_ADMISSION"
+    },
+    {
+      "owner": "A",
+      "task": "C03receptionprofile/defenseannualandmixedjoin",
+      "state": "COMPLETE_OWNER_LOCAL;RECEIVED_ARITHMETIC_ADMISSION"
+    }
+  ],
+  "new_C04_reception": {
+    "executor": "A",
+    "verifier": "B",
+    "coordinator": "C",
+    "C_forecast_repository": "NickNicky19/NFL-forecasting-NGS-C",
+    "immutable_ref": "0913ce73e31c8189a5191e7e7e019f280dac889c",
+    "member": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
+    "member_SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc",
+    "manifest": "reports/profile-closure-next-02/timing/POINT_HANDOFF_MANIFEST.json",
+    "namespace": "C-RECEIVING-ALIGNED-TIMING-v1",
+    "arms": [
+      "F0",
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "action": "Ajoins exactunroundedmean/medianpoints toalready-ownedannualW1-5receptionoffers;keepfull469coverage+fixed412commonwhereactuallyavailable. C04F0/F1 canreuseexactC03R1/R2POINTbaselinesafterverifiedmapping. NewF2/F3mustbeexecuted;keepW6-7site-thresholdandW8referencepanelsseparate. No point-impliedprobabilities/ranker qualification.",
+    "forecast_state": "PUBLIC_C_BYTES_ALREADY_READ_BACK_BY_C;A_RECEIPT_NOT_OBSERVED",
+    "missing": "A-ownedprivateboardjoinreceiptfortheseexactF2/F3versions"
+  },
+  "new_B_completion": {
+    "executor": "A",
+    "forecast_owner": "B",
+    "independent_verifier": "B",
+    "coordinator": "C",
+    "repository": "NickNicky19/NFL-forecasting-V2",
+    "immutable_producer_ref": "e18841ba20941fdf4cea2ee80b0d4724eeaddd3f",
+    "index_ref": "b616b0073a26cb95011df9c53b86ae0693437f15",
+    "handoff": "reports/profile-increment-closure-next-02/B/SAVED_TIMING_OUTPUT_HANDOFF_V1.json",
+    "namespace": "B-QB-ALIGNED-FRESHNESS-v1",
+    "arms": [
+      "F0",
+      "F1",
+      "F2",
+      "F3"
+    ],
+    "years": {
+      "2025": 664,
+      "2026": 277
+    },
+    "example_exact_member": {
+      "path": "reports/profile-increment-closure-next-02/B/aligned-wave-v1/predictions/2026-W01.json.gz",
+      "sha256": "774fd4a73210b1af80e827895fcd27cab2f0f098196cd66ffd5a451663adf3e6",
+      "bytes": 214593
+    },
+    "action": "OwnerA retrieves exact saved2026W1-W5 timing forecasts usingexistingpublicindex/permittedroute, joins88 annualcompletionoffers,retains fullcoverage/unknowns/aliases, same-offered-player numericalmetrics andstrongcontrols. KeepBPropLineW5-8andAannualW1-5separateunlessexactsource/line/horizoncontractpermitsnamedpairedmatch;neveraddW5physicalduplicates. Bchecksnewtimingresults separatelyfromalready-completedR0-R3.",
+    "missing": "ActualAexecution/membership/aggregate receiptfornewF2/F3;Cnotfetchingprivateoffersorclaimingunseenforecastmembersscored"
+  }
+}

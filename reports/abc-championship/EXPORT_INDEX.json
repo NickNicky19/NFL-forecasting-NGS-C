@@ -915,5 +915,37 @@
       "path": "reports/profile-closure-next-02/FRESH_HISTORICAL_GITHUB_RESTORE.json",
       "SHA256": "5b1265ae15f201ee34eea2905e0261bd274e460f672841d09706c3f3591a9a51"
     }
+  },
+  "profile_timing_closure_confirm_01": {
+    "id": "PROFILE-TIMING-CLOSURE-AND-CONFIRM-01-C/v1",
+    "stage": "EXACT_RECEIPTS_AND_POINT_ALIAS_REUSE_ADMITTED;C05_PRE_CAPTURE",
+    "registration": {
+      "path": "protocol/PROFILE_TIMING_CLOSURE_CONFIRM_01_C.json",
+      "SHA256": "bde60c9358188dbbccc9b242265d7cc720a6bd23940c9a66a9749cf2efa6eec6"
+    },
+    "report": {
+      "path": "reports/profile-timing-closure-confirm-01/README.md",
+      "SHA256": "0df3ad8ef49ba50ed4b05d93114e9f274a9ce36e5fec0d80b2a69946138ccda7"
+    },
+    "previous_pointer": {
+      "path": "reports/profile-timing-closure-confirm-01/PREVIOUS_EXPORT_INDEX.json",
+      "SHA256": "82a0a1a2ddcaaae1c89d3491201e256bc17297ddf387f6b9b3095664283c3bb5"
+    },
+    "admission": {
+      "path": "reports/profile-timing-closure-confirm-01/intake/ADMISSION.json",
+      "SHA256": "b5685f5a40e783b9917100e0f5071510848ed9256be689848cc1bdb8b6153a77"
+    },
+    "source_tier_correction": {
+      "path": "reports/profile-timing-closure-confirm-01/SOURCE_TIER_CORRECTION.json",
+      "SHA256": "e6513997461ac38f59c71d6a30523397838d0cf9b330f96affe2304d65765c53"
+    },
+    "point_alias_check": {
+      "path": "reports/profile-timing-closure-confirm-01/verification/BASELINE_ALIAS_REUSE.json",
+      "SHA256": "abc85b2133fd7a5e4b2ad130b1b1102612cb41bc45284872af1623eaad8baa42"
+    },
+    "new_timing_joins": "A-ownedC04F2/F3andBnewF0-F3remainnotexecuted;olderC03/priorBcompletionjoinscomplete",
+    "new_fits": 0,
+    "old75_unchanged": true,
+    "current_forward_state": "NO_ACTUAL_INFERENCE_OR_ISSUE_YET"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "id": "C05-FITLESS-SOFTWARE-CHECKS-v1",
+  "at_UTC": "2026-11-10T23:03:53.780048+00:00",
+  "new_targeted_tests_passed": 10,
+  "retained_C04_validation_tests_passed": 9,
+  "actual_old_repository_verify": "FORWARD_REPOSITORY_VALID 7",
+  "actual_legacy_consumer_verify": "FORWARD_SITE_CONTRACT_PASS 2895",
+  "new_fits": 0,
+  "new_NFL_inference_rows": 0,
+  "new_issued_rows": 0,
+  "commands": [
+    "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests -p test_current_query_capture_c05.py",
+    "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests -p test_receiving_current_validation_c04.py",
+    "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python src/prospective_v4.py verify --root prospective",
+    "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python src/site_validate_forward_v4.py"
+  ],
+  "code_SHA256": {
+    "src/current_query_capture_c05.py": "4e72a0cf3f306da2d35f62142a2aa714b34a7810b0686da1d8c55bbf22627724",
+    "src/prospective_v4.py": "6f706a89436bf1d70f014e564889976bc30546110051c98a394ab568d1e0f708",
+    "src/site_forward_v4.py": "f4f4c511919c12ea85a51b68bd4804f4211b696b84b670cf2b252e78f43ed63e",
+    "src/site_validate_forward_v4.py": "3ce395ace16acfd9be2c7042e52f502d068e64c5d65c65ea08e9819eba8fdd3b",
+    "tests/test_current_query_capture_c05.py": "6ee96fd519cebb43a2bcf66af1efb62b23353c4f6f129647939744e16445d81d"
+  },
+  "initial_fixture_failure": "SOFTWARE_FIXTURE_CORRECTION.json;no product defect/inference affected",
+  "guards": "No fitting API; root auth plus committed code/current tree guard; complete external draft bytes copied; source clock/lineage/native/roster checks; no synthetic prop outputs."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "C05-INCUMBENT-RECEIPT-METADATA-CHECK-v1",
+  "at_UTC": "2026-11-10T23:08:05.045552+00:00",
+  "status": "PASS_PUBLIC_METADATA_ARITHMETIC_AND_DECLARED_CLOCK_ORDER",
+  "source_projection": "A_INCUMBENT_PACKET_RECEIPT.json.xz",
+  "original_repository": "NickNicky19/nicks-expert-nfl-picks",
+  "original_commit": "c134a44ff1d9b51d0b52926e13387742397b6ccf",
+  "original_member": "data/current-classic/2026/w10/c8ec793f3a23b8df55e40baaa97aaaf71eccd0135c22ee02912ce61e16e5c468.json.gz",
+  "original_compressed_bytes": 35103,
+  "original_compressed_SHA256": "4504bf0b48e56813a818b52ab1d6d2076c238be9fc58fceb2910a74f62803df2",
+  "owner_model": "sleeper-matchup-classic-presence-strict-v2",
+  "owner_schema": "baseline-capture-classic-presence-v2",
+  "forecast_rows": 1610,
+  "unique_player_games": 423,
+  "games": 14,
+  "category_count": 11,
+  "missing_parent_category": "nick-chart-ppr-v1",
+  "category_and_line_source_sums_match": true,
+  "all1610_source_clocks_unverified": true,
+  "qualified_actual_offer_selections_established_by_this_receipt": 0,
+  "archived_top_lists": {
+    "Over": 12,
+    "Under": 12,
+    "qualified_actual_line_or_new_selector_claim": false
+  },
+  "C_original_payload_downloaded": false,
+  "served_consumer_verified_by_C_this_intake": false,
+  "limits": "Areadonlyverificationreceiptactuallyreceived;Cchecksmetadataarithmeticonly. Neither1610forecastsnor24archivedTopPicksbecomequalifiedactualofferselections. NotnewCountAcurrentinference/delivery;noexistingpacketoverwrite."
+}

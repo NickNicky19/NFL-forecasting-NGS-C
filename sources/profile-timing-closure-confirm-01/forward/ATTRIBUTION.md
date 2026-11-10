@@ -1,0 +1,1 @@
+nflverse ordinary current-season roster facts (https://github.com/nflverse/nflverse-data), CC BY 4.0; source version and retrieval metadata in INPUT_MANIFEST.json. Native event facts are minimal public event/status observations. No source presentation, media, news, NGS, market prices, full raw football bodies, or protected player data are retained.
