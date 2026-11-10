@@ -1,0 +1,478 @@
+{
+  "id": "C04-INDEPENDENT-CURRENT-DRAFT-v1",
+  "status": "PASS_CHECKED_SCOPE",
+  "checked_UTC": "2026-11-10T19:36:39.018098+00:00",
+  "code_commit": "9994055c8dd666be4564e066579856091cb4011e",
+  "draft_manifest_SHA256": "05529bfb6276d54432d72bad991818131595025fc89ffba6e012d97c45a281f0",
+  "all_draft_files_verified": 7,
+  "forecast_rows": 1092,
+  "queries": 364,
+  "models": 3,
+  "deterministic_rows_checked": 36,
+  "checked_rows": [
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_BUF_NYJ",
+      "player_id": "00-0039794",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_KC_ATL",
+      "player_id": "00-0040959",
+      "role": "RB",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_MIA_IND",
+      "player_id": "00-0041096",
+      "role": "RB",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0038576",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_JAX_TEN",
+      "player_id": "00-0040718",
+      "role": "WR",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_CAR_NO",
+      "player_id": "00-0040187",
+      "role": "TE",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_NE_DET",
+      "player_id": "00-0038564",
+      "role": "TE",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_CAR_NO",
+      "player_id": "00-0041041",
+      "role": "TE",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_HOU_CLE",
+      "player_id": "00-0039359",
+      "role": "TE",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_NE_DET",
+      "player_id": "00-0036754",
+      "role": "TE",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_LA_ARI",
+      "player_id": "00-0036244",
+      "role": "TE",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "game_id": "2026_10_LA_ARI",
+      "player_id": "00-0041070",
+      "role": "WR",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_NE_DET",
+      "player_id": "00-0040556",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_JAX_TEN",
+      "player_id": "00-0040886",
+      "role": "RB",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_PIT_CIN",
+      "player_id": "00-0035594",
+      "role": "RB",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_MIN_GB",
+      "player_id": "00-0038124",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_JAX_TEN",
+      "player_id": "00-0041106",
+      "role": "WR",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_JAX_TEN",
+      "player_id": "00-0040584",
+      "role": "TE",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_SF_DAL",
+      "player_id": "00-0038643",
+      "role": "TE",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_CAR_NO",
+      "player_id": "00-0039356",
+      "role": "TE",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0038454",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_PIT_CIN",
+      "player_id": "00-0035640",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_SF_DAL",
+      "player_id": "00-0040177",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0039796",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_SF_DAL",
+      "player_id": "00-0041052",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_NE_DET",
+      "player_id": "00-0040568",
+      "role": "RB",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0039355",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_JAX_TEN",
+      "player_id": "00-0040718",
+      "role": "WR",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_MIN_GB",
+      "player_id": "00-0040352",
+      "role": "WR",
+      "sparse": false,
+      "imputed": true
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_LA_ARI",
+      "player_id": "00-0036244",
+      "role": "TE",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_SEA_LV",
+      "player_id": "00-0040058",
+      "role": "TE",
+      "sparse": true,
+      "imputed": true
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_KC_ATL",
+      "player_id": "00-0041013",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_BUF_NYJ",
+      "player_id": "00-0037248",
+      "role": "RB",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0039792",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_BUF_NYJ",
+      "player_id": "00-0034827",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "game_id": "2026_10_MIN_GB",
+      "player_id": "00-0036322",
+      "role": "WR",
+      "sparse": false,
+      "imputed": false
+    }
+  ],
+  "support_group_availability": [
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "RB",
+      "group": "ordinary",
+      "available": 80
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "RB",
+      "group": "sparse",
+      "available": 17
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "RB",
+      "group": "missing",
+      "available": 25
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "WR",
+      "group": "ordinary",
+      "available": 121
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "WR",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "WR",
+      "group": "missing",
+      "available": 36
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "TE",
+      "group": "ordinary",
+      "available": 58
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "TE",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "TE",
+      "group": "missing",
+      "available": 44
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "RB",
+      "group": "ordinary",
+      "available": 73
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "RB",
+      "group": "sparse",
+      "available": 17
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "RB",
+      "group": "missing",
+      "available": 32
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "WR",
+      "group": "ordinary",
+      "available": 116
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "WR",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "WR",
+      "group": "missing",
+      "available": 41
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "TE",
+      "group": "ordinary",
+      "available": 58
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "TE",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C_V11_P1_E2_POOLED_7D",
+      "role": "TE",
+      "group": "missing",
+      "available": 44
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "RB",
+      "group": "ordinary",
+      "available": 74
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "RB",
+      "group": "sparse",
+      "available": 17
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "RB",
+      "group": "missing",
+      "available": 31
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "WR",
+      "group": "ordinary",
+      "available": 115
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "WR",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "WR",
+      "group": "missing",
+      "available": 42
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "TE",
+      "group": "ordinary",
+      "available": 57
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "TE",
+      "group": "sparse",
+      "available": 16
+    },
+    {
+      "model": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "TE",
+      "group": "missing",
+      "available": 45
+    }
+  ],
+  "max_numeric_absolute_difference": 1.7763568394002505e-15,
+  "absolute_tolerance": 1e-10,
+  "training_memberships_verified": "Allmodels:qualifiedcompletedIDs;held13excluded;kickoff<cutoff;old7d/F3available<cutoff;v4observedlabelcontractdistinct",
+  "single_batch_shuffle_roundtrip": true,
+  "independent_math": "Separatetreewalk+leafcounts+geometricmixtureCDFandmean;separatenormalizedPoissonlinearlink",
+  "null_offer_fields_verified_all": true,
+  "no_future_outcome_fields": true,
+  "new_fits": 0,
+  "network_requests": 0,
+  "CPU_seconds": 1.2547821580000003,
+  "peak_RSS_bytes": 283492352,
+  "limitations": "Savedprimitiveinferenceandmembershipreadback,nofreshfit/rawplayrebuild/currentnativefutureeventadmission/serverpublication;notnewNFLaccuracyobservations"
+}

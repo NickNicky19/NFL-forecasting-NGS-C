@@ -544,7 +544,7 @@
   "profile_closure_next_02": {
     "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
     "recorded_UTC": "2026-11-10T19:20:17.431217+00:00",
-    "stage": "PILOT_ONLY",
+    "stage": "CURRENT_CAPTURE_LOCAL_PENDING_SERVER;HISTORICAL_PILOT_ONLY",
     "report": {
       "path": "reports/profile-closure-next-02/README.md",
       "SHA256": "caa4125c8137d3e82f564db794d71727a7b47f465944defcd0ade6c8a2e067b2"
@@ -641,6 +641,10 @@
     "previous_pointer": {
       "path": "reports/profile-closure-next-02/PREVIOUS_EXPORT_INDEX.json",
       "SHA256": "d591c9ee37cc4bc16b979d1bef80e57fa27f08021f6bf76ac1e988012b8c5b04"
+    },
+    "current_capture_local": {
+      "path": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
+      "SHA256": "6708c6877f830f6aa027b8b31c192bb8f51c74b01b435a9414252c34696fc3ab"
     }
   }
 }
