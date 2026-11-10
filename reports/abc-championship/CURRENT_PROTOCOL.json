@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "fa8da4f43b46789ac234667c8414eb189a13ac37ca165f97d493ed6ea64ce55b"
+    "SHA256": "097c353deb06c02ff12d8850b98ca7b0b125cab6e12605320fd15693e0d70ac6"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -784,10 +784,10 @@
   "profile_closure_next_02": {
     "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
     "recorded_UTC": "2026-11-10T20:06:06.026708+00:00",
-    "stage": "COMPLETED_FINITE_TIMING_PACKAGE;CURRENT_PACKET_SERVER_QUALIFIED;C_RESEARCH_SERVED_PENDING",
+    "stage": "COMPLETED_FINITE_TIMING_PACKAGE;CURRENT_PACKET_AND_C_RESEARCH_CONSUMER_SERVED_VERIFIED;FULL_CHAMPIONSHIP_PARTIAL",
     "report": {
       "path": "reports/profile-closure-next-02/README.md",
-      "SHA256": "cee5c96e69807f920b360c2272af0fdc1299d45ee0f7e6e29ff66e12139c5b1e"
+      "SHA256": "bab60c1723f3d6446788a5ca22df1de6a8e9874e3f3772be3cda52610f8c2855"
     },
     "registration": {
       "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
@@ -1037,7 +1037,7 @@
       "current_primary_release": false
     },
     "five_week_policy": "Exact complete numerical/direction/probability/ranked-selection product; unchanged inherited policy; no blanket future wait",
-    "completion_claim": "NAMED_FINITE_C04_HISTORICAL_PACKAGE_EXECUTED;new current pregame forecast-only packet server-qualified; broader requested actual-line/history coverage incomplete; C research served verification pending; no original-site or new primary release",
+    "completion_claim": "NAMED_FINITE_C04_HISTORICAL_PACKAGE_EXECUTED;currentpregameforecast-onlypacketserver-qualifiedandCownresearchserved-verified;broaderrequestedactual-line/historycoverageincomplete;originalsiteunchanged",
     "previous_pointer": {
       "path": "reports/profile-closure-next-02/PREVIOUS_CURRENT_PROTOCOL.json",
       "SHA256": "aaa786ea850d850f3f64b6ed021a633fcc2d73d33d1d38337bfc0813b1af8f2c"
@@ -1076,7 +1076,7 @@
     },
     "evidence": {
       "path": "reports/profile-closure-next-02/EVIDENCE_MANIFEST.json.xz",
-      "SHA256": "42dde548f3dbc4e509d63d45646f0a66d9196403aa948a95fa05d500f9d4fe7d"
+      "SHA256": "8d384deeb012888ddf5c779aea3373e5edadf75856df95f6d84753ddc2423902"
     },
     "current_primary_release": false,
     "current_capture": {
@@ -1137,8 +1137,23 @@
       },
       "local_rendered_model_rows_checked": 75,
       "local_desktop_mobile": "PASS",
-      "served_verification": "PENDING_ROOT_NORMAL_MERGE_PAGES_AND_READBACK",
-      "original_site": "UNCHANGED_NO_C_WRITE_OR_ACTIVATION_CLAIM"
+      "served_verification": "PASS_ACTUAL_COMMIT_0913ce73e31c8189a5191e7e7e019f280dac889c_HTML_JS_DATA_AND75DOM_VALUES",
+      "original_site": "UNCHANGED_NO_C_WRITE_OR_ACTIVATION_CLAIM",
+      "served_URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/context.html"
+    },
+    "served_verification": {
+      "path": "reports/profile-closure-next-02/SERVED_VERIFICATION.json",
+      "SHA256": "a86947cd5b8ccbbd45f604dd8af15b90716bac3c8fdd2cdee1bfa531c1e3f108"
+    },
+    "publication_closure": {
+      "path": "reports/profile-closure-next-02/PUBLICATION_CLOSURE.json",
+      "SHA256": "ae125896dd60be1a48f41a960bb0541f49d50ab519b69e0a0ba868316a8e7462"
+    },
+    "served_commit": "0913ce73e31c8189a5191e7e7e019f280dac889c",
+    "original_website_changed": false,
+    "fresh_historical_point_restoration": {
+      "path": "reports/profile-closure-next-02/FRESH_HISTORICAL_GITHUB_RESTORE.json",
+      "SHA256": "5b1265ae15f201ee34eea2905e0261bd274e460f672841d09706c3f3591a9a51"
     }
   }
 }

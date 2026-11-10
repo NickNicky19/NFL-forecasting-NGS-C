@@ -293,7 +293,7 @@
     "task": "NewC03currentpacket",
     "state": "OLD_C03_PACKET_NOT_ISSUED;SEPARATE_C04_FORECAST_ONLY_PACKET_PUBLISHED",
     "artifact": "reports/profile-increment-v2/CURRENT_QUERY_QUALIFICATION.json",
-    "next": "Old week-specific C03 admission is not retroactively changed. Separate C04 current-known roster packet has qualified real server persistence; C research served check pending, original site unchanged.",
+    "next": "OldC03week-specificadmissionunchanged. SeparateC04packetnowserver-qualifiedandCownresearchserved-verified;originalsiteunchanged.",
     "prior_checkpoint_state": "BLOCKED_EFFECTIVE_WEEK10_ROSTER_CURRENT_MODEL_ADMISSION",
     "superseding_source_receipt": {
       "path": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
@@ -358,7 +358,6 @@
     "state": "COMPLETED_FINITE_32_FIT_PACKAGE;DIRECTION_PROBABILITY_CLOSE_NO_GAIN;NUMERICAL_INCONCLUSIVE",
     "artifact": "reports/profile-closure-next-02/timing/KEEP_STOP.json",
     "completed_new_fits": 32,
-    "completed_origin_arm": "2026-W01 F2",
     "next_action": "Do not repeat closed exact native timing recipe. Preserve all seasons; A may extend unchanged saved typed points to qualified longer offers. Native actual-line product remains two weeks; no primary switch.",
     "registration": {
       "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
@@ -387,36 +386,41 @@
     "independent_acceptance": {
       "path": "reports/profile-closure-next-02/verification/HISTORICAL_ACCEPTANCE.json",
       "SHA256": "e62e8175561e5ad5778518b49d45d6b332266e52abd18802cc0f49425d20c847"
-    }
+    },
+    "pilot_completed_origin_arm": "2026-W01 F2"
   },
   {
     "task_id": "C04_CURRENT_FORECAST_ONLY_PACKET",
     "owner": "C",
-    "state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;75_FORECASTS_25_PLAYERS_1_GAME;NO_OFFERS",
+    "state": "PREGAME_SERVER_QUALIFIED_AND_C_RESEARCH_SERVED_VERIFIED;75ROWS_25PLAYERS_1GAME_NO_OFFERS",
     "artifact": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
-    "next_action": "Retain frozen first packet and grade later under exact model/label rules; do not reissue or backdate. C research consumer locally verified; external served verification still pending. No original-site activation or qualified actual-line selection.",
+    "next_action": "Gradeimmutableoriginalpacketafterqualifiedfinaloutcomes;nooriginalsiteswitch;neverrefreshpastforecasts.",
     "separate_from": "Original website owner delivery and exact Top Picks replay",
     "recorded_UTC": "2026-11-10T19:20:17.431217+00:00",
     "pre_final_state": "SOURCE_INPUTS_QUALIFIED;NO_CURRENT_ISSUANCE_RECEIPT_YET",
-    "updated_UTC": "2026-11-10T20:06:06.026708+00:00",
+    "updated_UTC": "2026-11-10T20:25:48.856276+00:00",
     "server_receipt": {
       "path": "prospective/receipts/C-C04-20261110-W10-FIRST-01-server.json",
       "SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe"
-    }
+    },
+    "prior_served_state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;75_FORECASTS_25_PLAYERS_1_GAME;NO_OFFERS",
+    "served_receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json"
   },
   {
     "owner": "C",
     "task": "C04currentpacketnativeadmission/persistence",
-    "state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;75_FORECASTS_25_PLAYERS_1_GAME;NO_OFFERS",
+    "state": "PREGAME_SERVER_QUALIFIED_AND_C_RESEARCH_SERVED_VERIFIED;75ROWS_25PLAYERS_1GAME_NO_OFFERS",
     "artifact": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
     "next": "Retain frozen first packet and grade later under exact model/label rules; do not reissue or backdate. C research consumer locally verified; external served verification still pending. No original-site activation or qualified actual-line selection.",
     "pre_final_state": "75LOCAL_ISSUED_ROWS_25PLAYERS_1GAME;SERVER_PROOF_PENDING",
-    "next_action": "Retain frozen first packet and grade later under exact model/label rules; do not reissue or backdate. C research consumer locally verified; external served verification still pending. No original-site activation or qualified actual-line selection.",
-    "updated_UTC": "2026-11-10T20:06:06.026708+00:00",
+    "next_action": "Gradeimmutableoriginalpacketafterqualifiedfinaloutcomes;nooriginalsiteswitch;neverrefreshpastforecasts.",
+    "updated_UTC": "2026-11-10T20:25:48.856276+00:00",
     "server_receipt": {
       "path": "prospective/receipts/C-C04-20261110-W10-FIRST-01-server.json",
       "SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe"
-    }
+    },
+    "prior_served_state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;75_FORECASTS_25_PLAYERS_1_GAME;NO_OFFERS",
+    "served_receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json"
   },
   {
     "task_id": "A_C04_TYPED_RECEPTION_LONGER_BOARD",
