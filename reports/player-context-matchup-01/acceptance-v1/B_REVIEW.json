@@ -1,0 +1,157 @@
+{
+  "id": "C-INDEPENDENT-REVIEW-OF-B-CONTEXT-v1",
+  "checked_UTC": "2026-11-10T00:48:38.487615+00:00",
+  "discovery_pin": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+  "producer_pin": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+  "metadata_pin": "f3849b405d5f2cfb9a8fcb24d6302aa3a5bce9dc",
+  "owner": "B",
+  "reviewer": "Session C, read-only, not original author",
+  "assignment_bytes_identity": "UNKNOWN; actual TXT bytes not available in checked material; normalized protocol is not byte adoption",
+  "verdicts": {
+    "A_IMPLEMENTATION": "PASS_SCOPED_REPRESENTATIVE",
+    "B_SEMANTICS_CHRONOLOGY": "PASS_WITHIN_CURRENT_REVISED_SEVEN_DAY_RECONSTRUCTION;AUTHENTIC_CLOCKS_UNKNOWN",
+    "C_REPRODUCIBILITY": "UNKNOWN_OVERALL;PASS_SAVED_INFERENCE_AND_PUBLIC_ARITHMETIC;FRESH_FITS_AND_PRIVATE_REGRADING_NOT_REPRODUCED",
+    "D_COMPARISON_ADEQUACY": "PASS_NARROW_CLAIM_WITH_STRONG_CONTROLS;NOT_UNIVERSAL_CONTEXT_HYPOTHESIS",
+    "E_REQUESTED_SCOPE": "FAIL_INCOMPLETE;4_OFFERED_WEEKS;FLOW_ALIGNMENT_RECEIVER_AND_TARGET_GAPS",
+    "F_GAIN_PRIMARY_RELEASE": "FAIL_NOT_DEMONSTRATED;4_ACTUAL_LINE_WEEKS_LT5;P90_NA"
+  },
+  "calculation_receipt": {
+    "path": "reports/player-context-matchup-01/acceptance-v1/B_CALCULATION_CHECKS.json",
+    "SHA256": "0bc45d901655562c00a40c4409a0c24a7467e9851550ed2b9321eb29ac8c2edd"
+  },
+  "reproduction_script": {
+    "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW_CHECK.py",
+    "SHA256": "a3d7f408b7a0f2ea18aba1b3500a7afc91d98f179a2d184e9757192e75c6f206"
+  },
+  "environment": {
+    "Python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3"
+  },
+  "restored_public_cache": [
+    {
+      "cache_name": "download_0.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/source-fields-v3/DERIVED_QB_GAME_INPUTS.json.gz",
+      "bytes": 246610,
+      "SHA256": "f23bb72f05f398c7108700e10fa7bf63e233aca57bc67eb6820a38c9f212af90"
+    },
+    {
+      "cache_name": "download_1.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-wave-v1/predictions/2026-W05.json.gz",
+      "bytes": 166434,
+      "SHA256": "4c916ef15c8ea47d998087c76ab44cb10b94508c1024f61219ea720b7769b7fc"
+    },
+    {
+      "cache_name": "download_2.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-wave-v1/fits/2026-W05-P2.json.gz",
+      "bytes": 2637,
+      "SHA256": "7e54d75ac0527ad4e7c3342c35999dc8ec3660b16e760d2f7a8af4de8613a2d5"
+    },
+    {
+      "cache_name": "more_0.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-wave-v1/fits/2026-W05-E3.json.gz",
+      "bytes": 36445,
+      "SHA256": "ea8c62b7f3bbb259829c2d3be5e50b609789bc751429bbdc989484add45b429b"
+    },
+    {
+      "cache_name": "more_1.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/source-fields-v3/FTN_DERIVED_QB_GAME_INPUTS.json.gz",
+      "bytes": 84761,
+      "SHA256": "04bdd058d23411c8ebfc76fe599edb07e777803cfca7ffcef859ea9c26c2c750"
+    },
+    {
+      "cache_name": "core.py",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "nfl_v2/player_context_matchup.py",
+      "bytes": 17185,
+      "SHA256": "3db66e8d7c75f444d87f4792add9096a9d04d0390902f67ce21248c206476f29"
+    },
+    {
+      "cache_name": "adapter_v2.py",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "nfl_v2/player_context_typed_adapter_v2.py",
+      "bytes": 1496,
+      "SHA256": "ef04cd1592faa320a3ee74748557c6d89473f5794ea946d39a01693758e06c51"
+    },
+    {
+      "cache_name": "runner.py",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "tools/run_player_context_wave.py",
+      "bytes": 20202,
+      "SHA256": "d2069632c587dd576b65d6906481d969d0a917d5348f138411b0d46c54d32a9b"
+    },
+    {
+      "cache_name": "score.py",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "tools/score_player_context_wave.py",
+      "bytes": 27601,
+      "SHA256": "b090adbf048f58b3fa1be5d553db1a391e65857c97eb3932033bfbafe6d435bd"
+    },
+    {
+      "cache_name": "sides.json",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/ALL_METHOD_SIDE_TABLE.json",
+      "bytes": 212977,
+      "SHA256": "3cfa0ec1f1cf191b32561da8f5189df36f4f270ec21ca058e46eaacd5b77517a"
+    },
+    {
+      "cache_name": "selected.json",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-wave-v1/SELECTED_EARLIER_CONFIG.json",
+      "bytes": 2694,
+      "SHA256": "03d844a764db4566ebc95c8b1e39e5446d13a93d881bc7029a6de8340fb2afed"
+    }
+  ],
+  "new_fits": 0,
+  "public_GETs": 17,
+  "compressed_NFL_input_model_prediction_bytes": 536887,
+  "private_offer_rows_published": 0,
+  "B_mutations": 0,
+  "source_rights": "Public derived PBP facts attributed nflverse CC BY4; FTN derivatives retain FTN/nflverse CC BY-SA4; this does not grant held offer rights",
+  "A_review_of_C": "Outside this reviewer task; root checks once; no peer acknowledgement assumed",
+  "full_source_restoration_claim": "No; representative public files freshly downloaded, independent full-restoration receipt reviewed but not repeated",
+  "finding": "Known portable coefficient-order issue is repaired by bound typedadapter_v2; no NFL-score effect established. Current review found no new producer calculation discrepancy in sampled scope. Two isolated-harness missing namespace failures retained separately.",
+  "scope_limits": [
+    "No B fresh optimizer fit repeated",
+    "No exact private offer-row regrade or TopK membership independently reproduced by C",
+    "No all-information-player-only model claim",
+    "No causal defense or complete-game-flow claim",
+    "No current-query/website verification from stale receipt"
+  ],
+  "next_actions": [
+    {
+      "owner": "B/source owner",
+      "action": "Owner-local exact private-row/member and offered-mask replay under shared bindings; return permitted deterministic evidence, not forced raw export"
+    },
+    {
+      "owner": "B",
+      "action": "Provide/reuse independent material-family fresh-fit receipt and current-query adapter evidence"
+    },
+    {
+      "owner": "Offer source owner",
+      "action": "Qualify missing fifth and W1-4/older actual-line weeks; preserve exact historical clocks"
+    },
+    {
+      "owner": "B",
+      "action": "Separate later pass/dropback, QBreceiver, gain/event experiments under finite next package"
+    }
+  ],
+  "raw_FTN_population_scope": "929 thrower-game source checks include894qualifiedQB-gameinputs;35nonQBthrower-games are not modeled QB examples."
+}

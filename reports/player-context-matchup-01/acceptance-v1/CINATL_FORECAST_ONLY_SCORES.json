@@ -1,0 +1,171 @@
+{
+  "id": "C-CINATL-FORECAST-ONLY-GRADES-20261110",
+  "created_UTC": "2026-11-10T00:41:14.545305+00:00",
+  "original_forecasts": 179,
+  "original_forecasts_changed": 0,
+  "states": {
+    "UNKNOWN": 80,
+    "GRADED_PLAYED": 99
+  },
+  "games": 1,
+  "qualified_offers": 0,
+  "prop_hit_rates": null,
+  "grade_bindings": [
+    {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261110-CINATL-01-C-FWD-v4-20261107-W09-CINATL-pass_yd.json",
+      "SHA256": "309b4b15be62c35064ded7d689e70ec2381382b1b8d072edb60207a474fab233"
+    },
+    {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261110-CINATL-01-C-FWD-v4-20261107-W09-CINATL-remainder.json",
+      "SHA256": "1c08e68e498baa8e1041ebc0e0bdb805c9165215f999265ffa1359ab668696ee"
+    }
+  ],
+  "categories": [
+    {
+      "category": "pass_yd",
+      "issued": 6,
+      "graded": 2,
+      "unknown": 4,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 41.5,
+      "median_bias": 10.5,
+      "mean_CRPS": 26.71291691238343,
+      "mean_NLL": 5.524864441561192
+    },
+    {
+      "category": "pass_td",
+      "issued": 6,
+      "graded": 2,
+      "unknown": 4,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 0.5,
+      "median_bias": -0.5,
+      "mean_CRPS": 0.5505931518589742,
+      "mean_NLL": 1.4844387642973005
+    },
+    {
+      "category": "pass_cmp",
+      "issued": 6,
+      "graded": 2,
+      "unknown": 4,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 1.5,
+      "median_bias": -1.5,
+      "mean_CRPS": 1.8729457929306794,
+      "mean_NLL": 3.0252386356816396
+    },
+    {
+      "category": "pass_att",
+      "issued": 6,
+      "graded": 2,
+      "unknown": 4,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 2.5,
+      "median_bias": 1.5,
+      "mean_CRPS": 2.5313986081002233,
+      "mean_NLL": 3.203719342498388
+    },
+    {
+      "category": "pass_int",
+      "issued": 6,
+      "graded": 2,
+      "unknown": 4,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 0.5,
+      "median_bias": -0.5,
+      "mean_CRPS": 0.29058062874400303,
+      "mean_NLL": 0.8962931300013579
+    },
+    {
+      "category": "rush_yd",
+      "issued": 11,
+      "graded": 5,
+      "unknown": 6,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 22.8,
+      "median_bias": -22.8,
+      "mean_CRPS": 16.783090670381863,
+      "mean_NLL": 5.243386627403072
+    },
+    {
+      "category": "rush_att",
+      "issued": 11,
+      "graded": 5,
+      "unknown": 6,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 3.0,
+      "median_bias": -1.4,
+      "mean_CRPS": 1.8562926221061236,
+      "mean_NLL": 2.5513557653714654
+    },
+    {
+      "category": "rec",
+      "issued": 23,
+      "graded": 15,
+      "unknown": 8,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 0.8,
+      "median_bias": -0.4,
+      "mean_CRPS": 0.7612273822263639,
+      "mean_NLL": 1.6405034473421867
+    },
+    {
+      "category": "rec_yd",
+      "issued": 23,
+      "graded": 15,
+      "unknown": 8,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 19.2,
+      "median_bias": -4.0,
+      "mean_CRPS": 13.848345424731377,
+      "mean_NLL": 4.083457727511526
+    },
+    {
+      "category": "rush_rec_yd",
+      "issued": 23,
+      "graded": 15,
+      "unknown": 8,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 22.8,
+      "median_bias": -8.4,
+      "mean_CRPS": 16.409210796295323,
+      "mean_NLL": 4.597247533351605
+    },
+    {
+      "category": "anytime_td",
+      "issued": 29,
+      "graded": 17,
+      "unknown": 12,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": null,
+      "median_bias": null,
+      "mean_CRPS": 0.18319082985606777,
+      "mean_NLL": 0.5515147950968803
+    },
+    {
+      "category": "fpts",
+      "issued": 29,
+      "graded": 17,
+      "unknown": 12,
+      "pending": 0,
+      "qualified_prop_selections": 0,
+      "median_MAE": 4.363529411764706,
+      "median_bias": -2.125882352941176,
+      "mean_CRPS": 3.1164461311165788,
+      "mean_NLL": 5.5604370301386385
+    }
+  ],
+  "not_context_finalist_capture": "Originalv4Leafshadow;notnewcontextmodelprospectiveconfirmation",
+  "restrictions": "Appearanceconditioned;unknownnotDNP;CMPATTselectionblocks;fptscoverage-limitedshadow;nowagersorvenuesettlement"
+}

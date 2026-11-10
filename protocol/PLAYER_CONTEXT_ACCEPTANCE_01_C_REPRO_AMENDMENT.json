@@ -1,0 +1,18 @@
+{
+  "id": "PLAYER-CONTEXT-ACCEPTANCE-01-C/verification-amendment-1",
+  "registered_UTC": "2026-11-10T00:40:42.864810+00:00",
+  "original_registration_preserved": true,
+  "reason": "Independent verification fitted three models; P1/P2 reproduced exactly. HGB fit finished but test-holder omitted thresholds during export; fitted object lost when verification process exited. This is a verification harness failure, not a scientific model or source correction.",
+  "preserved_failure_receipt": {
+    "path": "reports/player-context-matchup-01/acceptance-v1/FIT_REPRODUCTION.json",
+    "SHA256": "afd57d8de0272a9b76dec6e503d6ff1b7bff9910c7900edc2510b722058ce183"
+  },
+  "maximum_additional_NFL_verification_fits": 1,
+  "only_origin": "2026-W02 E3 same learner/inputs/parameters",
+  "P1_P2_reruns": 0,
+  "maximum_additional_CPU_seconds": 50,
+  "cumulative_CPU_cap_unchanged": 450,
+  "public_storage_and_whole_C_caps_unchanged": true,
+  "synthetic_positive_control": "One separate small software-only fit; not NFLobservation, no outcome tuning",
+  "scientific_predictions_changed": 0
+}
