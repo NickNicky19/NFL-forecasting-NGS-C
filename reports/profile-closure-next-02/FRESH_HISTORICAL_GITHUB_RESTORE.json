@@ -1,0 +1,37 @@
+{
+  "id": "C04-FRESH-HISTORICAL-POINT-RESTORATION-v1",
+  "at_UTC": "2026-11-10T20:28:35.842701+00:00",
+  "commit": "0913ce73e31c8189a5191e7e7e019f280dac889c",
+  "files": [
+    {
+      "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
+      "bytes": 234104,
+      "SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc",
+      "actual_readback": true
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/2025-W01-F3.json.xz",
+      "bytes": 85872,
+      "SHA256": "970ed2184168b4dcdd5364a19869dc48261cd104b2b91e53168cac26a9101cd3",
+      "actual_readback": true
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/CANARY_QUERIES-2025.json.xz",
+      "bytes": 1976,
+      "SHA256": "def2f0297c26f83e9b494f768200cfbea7266584f2f1ef05932e7e5248c83ab4",
+      "actual_readback": true
+    }
+  ],
+  "GETs": 3,
+  "bytes": 321952,
+  "primitive_JSON_restoration": true,
+  "model_origin": "2025-W01-F3",
+  "expected_mean": 4.493000409438569,
+  "restored_mean": 4.493000409438569,
+  "restored_median": 4.0,
+  "tolerance": 1e-10,
+  "unsafe_model_loading": false,
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "peer_receipt": "A_NOT_VERIFIED;publisherreadbackonly"
+}
