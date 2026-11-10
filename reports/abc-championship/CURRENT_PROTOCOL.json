@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "19dfe8931cd355a3cd23017012cda23c8b6454f3b95ed7314ebbf03d1c72ac5d"
+    "SHA256": "79a736a5ad6e886d5351fa9d2675ee4da41d552be0eb65df823f33f933dfd274"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -548,7 +548,7 @@
     "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
     "report": {
       "path": "reports/player-context-matchup-01/README.md",
-      "SHA256": "70715e3eefe7eeefa501e506eddc22c13d165e1408e8e42e7423b153ac9017d0"
+      "SHA256": "c896e9e92e4816c669ca04e8f38fc3f9421b2a32ee59a79eca3f57f252963510"
     },
     "canonical_actual_rows": {
       "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
@@ -644,11 +644,76 @@
         "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.json",
         "SHA256": "5ab3434e54cf4ab5b4d1108d1b36be0e7745a56071bb944b42ca0f7738a2c3bd"
       },
-      "peer_reviews": "A_reviews_C_NOT_RECEIVED;B_reviews_A_NOT_RECEIVED;internalCindependentcheckedscopeseparate",
+      "peer_reviews": "SUPERSEDED_FORWARD: A_C_SCOPED_REVIEW_RECEIVED;B_A_SCOPED_REVIEW_RECEIVED;private/fitlimitsretained",
       "native_grade": "C-NATIVE-GRADE-20261110-CINATL-01",
       "original_issuance_or_model_changes": 0,
       "new_actual_line_weeks": 0,
-      "deployment_ordered": false
+      "deployment_ordered": false,
+      "peer_reviews_as_of_original_acceptance": "A_reviews_C_NOT_RECEIVED;B_reviews_A_NOT_RECEIVED;internalCindependentcheckedscopeseparate",
+      "superseding_peer_receipts": "reports/player-context-matchup-01/completion-decision-v1/UPDATED_PEER_RECEIPTS.json"
+    },
+    "completion_decision_v1": {
+      "id": "PLAYER-CONTEXT-COMPLETION-DECISION-01-C/v1",
+      "report": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/README.md",
+        "SHA256": "691b3f84d59aa978616d42fdf1bbfda11f996c883ca8b27ba9e9aa9c72befd4f"
+      },
+      "A_admission": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/intake/ADMISSION.json",
+        "SHA256": "6523da0150a3e5785dde4ff3a71efaf29c9bd8c9ba56383eaf9b3f86681c27dc"
+      },
+      "updated_peer_receipts": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/UPDATED_PEER_RECEIPTS.json",
+        "SHA256": "c6fe1f8cd9363cff3663c45421ccbeb895359fa85ec4a015a6a8a561cf79f41d"
+      },
+      "point_replay_qualification": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/PRODUCT_QUALIFICATION.json",
+        "SHA256": "bf08902df690e394a7acdbc3d3ff1ad81719887df1ca68b142e7481bd49b65e3"
+      },
+      "profile_index": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/profiles/current-W10/INDEX.json",
+        "SHA256": "ac76de6f5dd1d6496b297360fc8bf19f5687fb1d46f48434ceb622228649476a"
+      },
+      "profile_role_overlay": "profiles/current-W10/PASSER_ROLE_OVERLAY.json.gz mandatory",
+      "strong_control_handoff": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/intake/STRONG_CONTROL_OWNER_LOCAL_HANDOFF.json",
+        "SHA256": "39af8bcbe6bdb36571890e7ef6bbe4497f445bf89f21498ee95c6f96b4aacb1b"
+      },
+      "Week8_point_extension": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/C_EXISTING_POINTS_W08.json",
+        "SHA256": "a3a403c5316124ef9744b8d8e641f2ae19f787c897260545197d9b162eafd88c"
+      },
+      "lookback_decision": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/lookback/KEEP_STOP.json",
+        "SHA256": "91e758cd63e66fd74fe07b3e2adfa4eb52102cb144bc6655490930357587187d"
+      },
+      "independent": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/INDEPENDENT_VERIFICATION.json",
+        "SHA256": "904806f96945879bccce9f297428e3bc49777a925e41a15c9fbead3aee06ecc2"
+      },
+      "new_actual_offer_weeks": 0,
+      "A_C_point_actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_C02_actual_weeks": [
+        2,
+        3
+      ],
+      "current_profiles": 53,
+      "current_forecasts": 0,
+      "current_gate": "ROSTER_WEEK9_TARGET10;NO_MODEL_ADMISSION",
+      "consumer_ack": "NEW_C_CONTROL_EXPORT_NOT_OBSERVED_BY_A",
+      "new_primary_release": false,
+      "evidence_manifest": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/EVIDENCE_MANIFEST.json.gz",
+        "SHA256": "245537b787571f5e2f802ebe3edaf714c4a8773c6225dc2b96b17705668ccf3b"
+      }
     }
   }
 }

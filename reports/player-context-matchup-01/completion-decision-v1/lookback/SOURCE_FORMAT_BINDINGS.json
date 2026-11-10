@@ -1,0 +1,23 @@
+{
+  "id": "C02-lossless-source-format-bindings",
+  "reason": "Legacytemporarygzipchosenbyexistingpbp_path;publicCretainslosslessxz. Compressedbytehashdiffers,butconsumeddecodedCSVbytesareexactlyequal. No newsourceversion/features/model changes.",
+  "source_routes": [
+    {
+      "season": 2025,
+      "executed_local_gzip_SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "retained_path": "sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+      "retained_xz_SHA256": "c2897d02bc3e3e951114feeb3a8b624a5adc741e01f34ff7923957873b70176d",
+      "decoded_CSV_SHA256": "b025865d00014f2b53b29f73d9e65b043abdbe2969e4afc29547620f6d96e097",
+      "decoded_bytes_equal": true
+    },
+    {
+      "season": 2026,
+      "executed_local_gzip_SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "retained_path": "sources/player-context-matchup-01/pbp_facts_2026.csv.xz",
+      "retained_xz_SHA256": "6da7d220c38971ee12e4a2a005c11d0b8a20d1aaa7863daa57bc0daaf695ccab",
+      "decoded_CSV_SHA256": "15b92b5b4369c234dd959217f9a0910a75c18825d0fd2e698bebd5c9aacc6f83",
+      "decoded_bytes_equal": true
+    }
+  ],
+  "old_SOURCE_RETENTION_V2_preserved": true
+}

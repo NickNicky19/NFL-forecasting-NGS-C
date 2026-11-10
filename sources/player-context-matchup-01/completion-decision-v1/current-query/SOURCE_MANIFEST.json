@@ -1,0 +1,200 @@
+{
+  "id": "C-CURRENT-PROFILE-SOURCE-v1",
+  "created_UTC": "2026-11-10T04:54:42.615077+00:00",
+  "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+  "event": {
+    "espn_event_id": "401873052",
+    "competition_id": "401873052",
+    "competition_state_agreement": true,
+    "week": 10,
+    "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "kickoff": 1794532500.0,
+    "home_team": "NYG",
+    "away_team": "WAS",
+    "season": 2026,
+    "season_type": 2,
+    "state": "pre",
+    "status_name": "STATUS_SCHEDULED",
+    "completed": false,
+    "observed_UTC": "2026-11-10T04:54:37.981646+00:00",
+    "source_id": "STATUS_CURRENT",
+    "game_id": "2026_10_WAS_NYG"
+  },
+  "target_week": 10,
+  "roster_source_week": 9,
+  "roster_version_qualification": "PRELIMINARY_PRIOR_WEEK_NOT_CONFIRMED_EVENT_ROSTER",
+  "source_observed": {
+    "PBP2024": "2026-11-10T04:54:31.007398+00:00",
+    "SCHEDULE_CURRENT": "2026-11-10T04:54:37.509509+00:00",
+    "STATUS_CURRENT": "2026-11-10T04:54:37.981646+00:00",
+    "ROSTER_CURRENT": "2026-11-10T04:54:38.441263+00:00",
+    "PBP2026_CURRENT": "2026-11-10T04:54:39.256565+00:00",
+    "STATS_CURRENT": "2026-11-10T04:54:42.076753+00:00"
+  },
+  "sources": [
+    {
+      "id": "SCHEDULE_CURRENT",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "started_UTC": "2026-11-10T04:54:37.080110+00:00",
+      "observed_UTC": "2026-11-10T04:54:37.509509+00:00",
+      "bytes": 2188939,
+      "SHA256": "73186bf6072c98c29c44c2448bf7b901c6baf61404ffb2bb41e91185e110882e",
+      "Date": null,
+      "Last-Modified": null,
+      "ETag": null
+    },
+    {
+      "id": "STATUS_CURRENT",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+      "started_UTC": "2026-11-10T04:54:37.600560+00:00",
+      "observed_UTC": "2026-11-10T04:54:37.981646+00:00",
+      "bytes": 22956,
+      "SHA256": "64f304c2e33a57872bf909aa8889143d39102cee80967886586c523b38003118",
+      "Date": null,
+      "Last-Modified": null,
+      "ETag": null
+    },
+    {
+      "id": "ROSTER_CURRENT",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv.gz",
+      "started_UTC": "2026-11-10T04:54:37.982928+00:00",
+      "observed_UTC": "2026-11-10T04:54:38.441263+00:00",
+      "bytes": 555296,
+      "SHA256": "8b7d5cdc6627422392e24cfee796232f33e2e745731e124c691a43a0292c8087",
+      "Date": null,
+      "Last-Modified": null,
+      "ETag": null
+    },
+    {
+      "id": "PBP2026_CURRENT",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "started_UTC": "2026-11-10T04:54:38.570502+00:00",
+      "observed_UTC": "2026-11-10T04:54:39.256565+00:00",
+      "bytes": 9278392,
+      "SHA256": "7205f6ed4be30cabfe60908b8c152f3090c911abe69841aa5a0d916d158f6257",
+      "Date": null,
+      "Last-Modified": null,
+      "ETag": null
+    },
+    {
+      "id": "STATS_CURRENT",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+      "started_UTC": "2026-11-10T04:54:41.623125+00:00",
+      "observed_UTC": "2026-11-10T04:54:42.076753+00:00",
+      "bytes": 608818,
+      "SHA256": "306ec373eb0941aa8f196b0492421e66a73bbf15da54c6bffd6fe6bf2fe09b91",
+      "Date": null,
+      "Last-Modified": null,
+      "ETag": null
+    }
+  ],
+  "current_PBP_projection": {
+    "path": "sources/player-context-matchup-01/completion-decision-v1/current-query/pbp_context_2026.csv.xz",
+    "bytes": 132512,
+    "SHA256": "8e1dedbdb8ac0b9f54223b5729902923eb64eca4a83baf06054efe5d1dc545cb",
+    "decoded_SHA256": "d3b4a4b8a4ba0f58e7e0b30a330aeb5537be137da965059e1c983878b53d5df5",
+    "rows": 16868,
+    "games": 135,
+    "columns": [
+      "game_id",
+      "play_id",
+      "season",
+      "season_type",
+      "week",
+      "posteam",
+      "down",
+      "ydstogo",
+      "yardline_100",
+      "play_type",
+      "pass_attempt",
+      "rush_attempt",
+      "qb_dropback",
+      "sack",
+      "two_point_attempt",
+      "play_deleted",
+      "receiver_player_id",
+      "passer_player_id",
+      "air_yards",
+      "complete_pass",
+      "yards_after_catch"
+    ]
+  },
+  "baseline_ordinary_facts": "artifacts/basic-football-facts-v2.1.zip immutable baselinehash4ec? actualarchivehashbound separately",
+  "quarantined_explicit_zero_orphans": [
+    {
+      "game_id": "2026_01_NE_SEA",
+      "team": "SEA",
+      "opponent_team": "NE",
+      "season": 2026,
+      "week": 1,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_02_DET_BUF",
+      "team": "BUF",
+      "opponent_team": "DET",
+      "season": 2026,
+      "week": 2,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_03_ATL_GB",
+      "team": "ATL",
+      "opponent_team": "GB",
+      "season": 2026,
+      "week": 3,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_04_PIT_CLE",
+      "team": "CLE",
+      "opponent_team": "PIT",
+      "season": 2026,
+      "week": 4,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_05_TB_DAL",
+      "team": "DAL",
+      "opponent_team": "TB",
+      "season": 2026,
+      "week": 5,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_06_SEA_DEN",
+      "team": "SEA",
+      "opponent_team": "DEN",
+      "season": 2026,
+      "week": 6,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_07_NE_CHI",
+      "team": "NE",
+      "opponent_team": "CHI",
+      "season": 2026,
+      "week": 7,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_08_CAR_GB",
+      "team": "CAR",
+      "opponent_team": "GB",
+      "season": 2026,
+      "week": 8,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_09_JAX_BAL",
+      "team": "JAX",
+      "opponent_team": "BAL",
+      "season": 2026,
+      "week": 9,
+      "player_id": null
+    }
+  ],
+  "future_actuals_required_for_universe": false,
+  "rights": "Ordinarynflversefacts/rosterCCBY4;minimalnativeeventfacts; no odds/NGS/FTN/presentation retained",
+  "source_clock_tier": "Actuallyobservedcurrentbytesbeforefuturekickoff;historicalgamefacts stillcurrentvintage; strict+7dayproxyforfeatures"
+}

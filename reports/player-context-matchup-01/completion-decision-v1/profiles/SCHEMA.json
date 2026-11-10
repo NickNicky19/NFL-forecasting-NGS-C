@@ -1,0 +1,58 @@
+{
+  "schema": "C-ASOF-RECEIVING-PROFILE-v1",
+  "key": [
+    "player_id",
+    "game_id",
+    "team",
+    "position",
+    "opponent_team",
+    "information_cutoff_UTC"
+  ],
+  "query_population": "Explicit roster/event rows QB/RB/WR/TE, never target-game statistical appearances",
+  "required_sections": [
+    "receiving",
+    "rushing",
+    "quarterback",
+    "history",
+    "forecast_adapter",
+    "source_bindings"
+  ],
+  "rate_fields": [
+    "definition",
+    "numerator",
+    "denominator",
+    "raw_estimate",
+    "shrunk_estimate",
+    "state",
+    "eligible_games",
+    "uncertainty"
+  ],
+  "rate_states": [
+    "OBSERVED",
+    "KNOWN_ZERO",
+    "UNDEFINED_DENOMINATOR",
+    "ABSENT_HISTORY",
+    "SOURCE_FIELD_UNQUALIFIED"
+  ],
+  "receiving_source_groups": [
+    "Target/down/depth counts and official team attempts",
+    "QB-to-player targets / QB attempts in same qualified player appearances",
+    "Shrunken offense-adjusted opponent depth/down residuals"
+  ],
+  "blocked_groups": [
+    "truealignment",
+    "allroutes",
+    "separation",
+    "target-per-route",
+    "explicitendzone-target-coordinate"
+  ],
+  "other_owner_sections": {
+    "rushing": "NOT_IMPLEMENTED_OWNER_A",
+    "quarterback": "NOT_IMPLEMENTED_OWNER_B"
+  },
+  "current_gate": "Future native scheduled event with actual observed source clock; same-season/week roster required for current forecast qualification. Prior-week rows generate explicit preliminary/unavailable profiles.",
+  "legacy_feature_contract": "v1.1 exact ordered arrays; raw knownzero ratios may differ from legacy zero-target feature NaNs. Never silently insert new semantics into old fitted model.",
+  "historical_policy": "Strict available=kickoff+7days before min(querycutoff,eventkickoff); current downloads remain current-vintage reconstruction",
+  "uncertainty": "Only descriptive support/Wilson bins shown; not calibrated forecast probabilities or independent-game guarantees",
+  "no_model_fit_or_primary_admission": true
+}
