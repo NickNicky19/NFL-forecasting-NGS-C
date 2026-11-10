@@ -1,0 +1,110 @@
+{
+  "id": "C05-LOCAL-RESEARCH-CONSUMER-RECEIPT-v1",
+  "executed_UTC": "2026-11-10T23:20:38.248647+00:00",
+  "state": "LOCAL_BROWSER_VERIFIED_PUBLICATION_NOT_YET_SERVED_VERIFIED",
+  "URL": "http://127.0.0.1:8765/context.html",
+  "capture_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
+  "capture_run_id": "C-C05-NEDET-FIRST-01",
+  "local_base_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
+  "code_binding": "Current working-tree exact file hashes below; parent commits/reviews publication separately",
+  "canonical_data_SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9",
+  "forecast_rows": 69,
+  "players": 23,
+  "model_count": 3,
+  "all_mean_median_rows_rendered_exactly": true,
+  "reception_annual_rows": 22,
+  "earlier_completion_annual_rows": 22,
+  "actual_annual_line_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "mixed_diagnostic_weeks": [
+    6,
+    7
+  ],
+  "new_timing_product_joins": "NOT_IN_RECEIVED_PACKAGE",
+  "clock_contract": {
+    "football_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+    "model_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+    "eligibility_input_cutoff_UTC": "2026-11-10T22:51:53.312826+00:00",
+    "first_prepared_inference_UTC": "2026-11-10T19:32:19.129862+00:00",
+    "first_inference_UTC": "2026-11-10T23:13:10.603860+00:00",
+    "last_inference_UTC": "2026-11-10T23:13:11.333983+00:00",
+    "native_status_observed_UTC": "2026-11-10T23:15:29.303758+00:00",
+    "issued_UTC": "2026-11-10T23:15:46.092351+00:00",
+    "server_persisted_UTC": "2026-11-10T23:18:26Z"
+  },
+  "old_75_packet": {
+    "run_id": "C-C04-20261110-W10-FIRST-01",
+    "rows": 75,
+    "forecast_SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362"
+  },
+  "old_C04_data_SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55",
+  "real_offers": 0,
+  "real_selections": 0,
+  "primary_switches": 0,
+  "Top_Picks_changes": 0,
+  "original_site_writes": 0,
+  "original_1610_receipt_scope": "A verification metadata actually received; C checks arithmetic, not original payload or browser",
+  "new_fits": 0,
+  "new_NFL_observations_from_UI_tests": 0,
+  "fixture_tests_passed": 8,
+  "checks": [
+    "canonical exporter validate",
+    "existing C04 canonical exporter validate unchanged",
+    "node --check docs/context.js",
+    "69 new and75 old browser parity",
+    "44 exact annual side partitions rendered",
+    "role/search masks",
+    "Chicago separate batch clocks",
+    "fresh/stale/source-expiry/game-start local clock fixtures",
+    "reload failure clears prior C05 state",
+    "HTTP/checksum fail closed preserving C04",
+    "desktop1440/mobile390 no global overflow"
+  ],
+  "files": {
+    "src/site_timing_confirm_c05.py": {
+      "bytes": 12684,
+      "SHA256": "796fac1f730d886d90fd776f79055955d3cce588c93b5ba768f15a6eeb960d26"
+    },
+    "src/browser_qa_timing_confirm_c05.py": {
+      "bytes": 8897,
+      "SHA256": "748c86520c00258d93fb371db9f822dfad27036eedd41bf28c50bf299bcb5d42"
+    },
+    "tests/test_site_timing_confirm_c05.py": {
+      "bytes": 6700,
+      "SHA256": "13515370a4601076c49d15d6df2e61a3e96e54e5a0c5015c82669221f263eb7a"
+    },
+    "docs/context.html": {
+      "bytes": 13818,
+      "SHA256": "e0b30eb7daa7547b768249d0da0ae2af556ac11c3c418c9495196cffad7111fc"
+    },
+    "docs/context.js": {
+      "bytes": 24771,
+      "SHA256": "3c0876cf250268f788fe80ae3a345e634a32f5cdbbb79c03c21be8e09aa8b3f8"
+    },
+    "docs/data/timing-confirm-c05.json": {
+      "bytes": 141920,
+      "SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9"
+    },
+    "docs/build.json": {
+      "bytes": 1947,
+      "SHA256": "cf0c7493faddd7ff018855de423046e41c9ef0bbea70a88eb337db15476d77b0"
+    },
+    "reports/profile-timing-closure-confirm-01/site/local/BROWSER_PARITY.json": {
+      "bytes": 1404,
+      "SHA256": "5b7b9d41fed9d974ed66bf733f06f4ce289c7f15eb9f4bb3934c3c1c29a268fa"
+    },
+    "reports/profile-timing-closure-confirm-01/site/local/C05-desktop.png": {
+      "bytes": 229176,
+      "SHA256": "6316a02a320ede8ec9b99af29f0a6f760acf1114f699ba2ea37a842b37626688"
+    },
+    "reports/profile-timing-closure-confirm-01/site/local/C05-mobile.png": {
+      "bytes": 89642,
+      "SHA256": "64ef91ad3ff07de8f85462c5a28d228ae0d44a6507d30e689860127786afee32"
+    }
+  }
+}

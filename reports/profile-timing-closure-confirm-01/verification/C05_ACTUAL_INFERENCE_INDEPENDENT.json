@@ -1,0 +1,40 @@
+{
+  "id": "C05-INDEPENDENT-ACTUAL-INFERENCE-v1",
+  "status": "PASS_INDEPENDENT_SAFE_JSON_INFERENCE_AND_BINDINGS",
+  "checked_UTC": "2026-11-10T23:15:06.690607+00:00",
+  "code_commit": "0e1768af6134a66fc71d6eaec3f92ef5a10693bb",
+  "draft_SHA256": "61ff14cbfd0d89f08f1d65c60b52407ddb722474f8e0ab6d0f077f2f904f7107",
+  "forecasts_SHA256": "b380f68bcce9d0b614fed0ac36f5c6c4c1c326d719063c807d4f6342cb85f90d",
+  "basic_board": 959,
+  "current_eligible_receiving_players": 23,
+  "actual_inference_rows": 69,
+  "families": {
+    "LEAF": 46,
+    "POISSON": 23
+  },
+  "calculation_path": "Independent standard-library tree traversal, float32 feature conversion, normalized empirical/geometric mixtures, and pooled-Poisson coefficients/quantiles; no author inference or scoring function invoked.",
+  "mean_tolerance": 1e-12,
+  "maximum_mean_absolute_delta": 1.7763568394002505e-15,
+  "maximum_leaf_weight_absolute_delta": 1.1102230246251565e-16,
+  "maximum_mean_delta_from_original_prepared": 4.440892098500626e-16,
+  "quantiles_all_exact": true,
+  "target_outcomes_absent": true,
+  "all_offer_selection_confidence_EV_fields_null": true,
+  "frozen_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "current_eligibility_cutoff_UTC": "2026-11-10T22:51:53.312826+00:00",
+  "inference_start_UTC": "2026-11-10T23:13:09.501680+00:00",
+  "first_inference_UTC": "2026-11-10T23:13:10.603860+00:00",
+  "last_inference_UTC": "2026-11-10T23:13:11.333983+00:00",
+  "inference_completed_UTC": "2026-11-10T23:13:11.455755+00:00",
+  "original_75_RUN_unchanged": true,
+  "original_75_FORECASTS_unchanged": true,
+  "new_fits": 0,
+  "new_GETs": 0,
+  "limitations": [
+    "This verifies the new inference draft, not issuance, native-event freshness, publication, or consumer admission.",
+    "The football source and features remain explicitly frozen; current roster receipt does not establish newer football inputs.",
+    "Receiving forecasts remain appearance-conditioned, with no starter, injury, participation, or actual-offer assertion."
+  ],
+  "CPU_seconds": 1.8490963900000001,
+  "peak_RSS_bytes": 209707008
+}

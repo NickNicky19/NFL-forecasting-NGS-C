@@ -918,14 +918,14 @@
   },
   "profile_timing_closure_confirm_01": {
     "id": "PROFILE-TIMING-CLOSURE-AND-CONFIRM-01-C/v1",
-    "stage": "EXACT_RECEIPTS_AND_POINT_ALIAS_REUSE_ADMITTED;C05_PRE_CAPTURE",
+    "stage": "EXACT_RECEIPTS_ADMITTED;69_ROW_C05_SERVER_PREGAME_QUALIFIED",
     "registration": {
       "path": "protocol/PROFILE_TIMING_CLOSURE_CONFIRM_01_C.json",
       "SHA256": "bde60c9358188dbbccc9b242265d7cc720a6bd23940c9a66a9749cf2efa6eec6"
     },
     "report": {
       "path": "reports/profile-timing-closure-confirm-01/README.md",
-      "SHA256": "0df3ad8ef49ba50ed4b05d93114e9f274a9ce36e5fec0d80b2a69946138ccda7"
+      "SHA256": "cfd9964a3b7d1c342243117c440b05e9f58a53f2e7ab36e33d7968c6858a510e"
     },
     "previous_pointer": {
       "path": "reports/profile-timing-closure-confirm-01/PREVIOUS_EXPORT_INDEX.json",
@@ -946,6 +946,51 @@
     "new_timing_joins": "A-ownedC04F2/F3andBnewF0-F3remainnotexecuted;olderC03/priorBcompletionjoinscomplete",
     "new_fits": 0,
     "old75_unchanged": true,
-    "current_forward_state": "NO_ACTUAL_INFERENCE_OR_ISSUE_YET"
+    "current_forward_state": "69FORECASTS_SERVER_QUALIFIED_AND_LOCAL_CONSUMER_PASS;SERVED_PENDING",
+    "product_qualification": {
+      "path": "reports/profile-timing-closure-confirm-01/PRODUCT_QUALIFICATION.json",
+      "SHA256": "f8148b3d867cbe52c00a2dbc2a77b5be04ad5ffea5dbb8bbb66f3e5358fdf62e"
+    },
+    "all12": {
+      "path": "reports/profile-timing-closure-confirm-01/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "596322df9f9f309f1db5c8646a8a92d5390bd49109e1088610f02ecf366b1481"
+    },
+    "forward_run": {
+      "path": "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json",
+      "SHA256": "edc76d1de4c2d59603a103da3e9c8e899a2f5cbf8835282360f29fb040577de4"
+    },
+    "code_commit": "0e1768af6134a66fc71d6eaec3f92ef5a10693bb",
+    "capture_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
+    "new_primary_switch": false,
+    "current_publication": {
+      "path": "reports/profile-timing-closure-confirm-01/CURRENT_PUBLICATION_RECEIPT.json",
+      "SHA256": "529a265fb626c2d868f993db9bdfc8ad72c2e4198c741c7523061cecbec1d59b"
+    },
+    "qualification_composition": "Append-only exact-product delta and source-scope amendment to the existing shared qualification table; not a competing registry",
+    "local_consumer": {
+      "path": "reports/profile-timing-closure-confirm-01/site/LOCAL_CONSUMER_RECEIPT.json",
+      "SHA256": "aa545dd5da802cddf110082c5de729d7f9f4f71d89cf7b61df2f141587cbf3e4"
+    },
+    "local_browser": {
+      "path": "reports/profile-timing-closure-confirm-01/site/local/BROWSER_PARITY.json",
+      "SHA256": "5b7b9d41fed9d974ed66bf733f06f4ce289c7f15eb9f4bb3934c3c1c29a268fa"
+    },
+    "research_consumer_data": {
+      "path": "docs/data/timing-confirm-c05.json",
+      "SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9"
+    },
+    "original_website_changed": false,
+    "fresh_recovery": {
+      "path": "reports/profile-timing-closure-confirm-01/verification/C05_FRESH_GITHUB_RESTORATION.json",
+      "SHA256": "e0ef0164b36114cf3ccf7eb136299f838ee03b2e0e23aff9f44ade3e1c7302e0"
+    },
+    "final_software": {
+      "path": "reports/profile-timing-closure-confirm-01/FINAL_SOFTWARE_CHECKS.json",
+      "SHA256": "8ec9b14aa811620db7e68d845f69d27f878c4cba82ac48e9f22872cfc406b3b2"
+    },
+    "resources": {
+      "path": "reports/profile-timing-closure-confirm-01/RESOURCE_CLOSURE.json",
+      "SHA256": "14b7f77e84161c79cbe5ac355771227f51facc7e93a84cf01485cee564c811af"
+    }
   }
 }

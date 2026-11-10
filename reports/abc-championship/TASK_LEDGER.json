@@ -415,7 +415,7 @@
     "task": "C04currentpacketnativeadmission/persistence",
     "state": "PREGAME_SERVER_QUALIFIED_AND_C_RESEARCH_SERVED_VERIFIED;75ROWS_25PLAYERS_1GAME_NO_OFFERS",
     "artifact": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
-    "next": "Retain frozen first packet and grade later under exact model/label rules; do not reissue or backdate. C research consumer locally verified; external served verification still pending. No original-site activation or qualified actual-line selection.",
+    "next": "Completed served verification at0913ce7; preserve frozen first75 and grade after qualified final outcomes. Original-site release ownership unchanged.",
     "pre_final_state": "75LOCAL_ISSUED_ROWS_25PLAYERS_1GAME;SERVER_PROOF_PENDING",
     "next_action": "Gradeimmutableoriginalpacketafterqualifiedfinaloutcomes;nooriginalsiteswitch;neverrefreshpastforecasts.",
     "updated_UTC": "2026-11-10T20:25:48.856276+00:00",
@@ -424,7 +424,8 @@
       "SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe"
     },
     "prior_served_state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;75_FORECASTS_25_PLAYERS_1_GAME;NO_OFFERS",
-    "served_receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json"
+    "served_receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json",
+    "pre_C05_next": "Retain frozen first packet and grade later under exact model/label rules; do not reissue or backdate. C research consumer locally verified; external served verification still pending. No original-site activation or qualified actual-line selection."
   },
   {
     "task_id": "A_C04_TYPED_RECEPTION_LONGER_BOARD",
@@ -451,10 +452,11 @@
     "owner": "C",
     "state": "SERVED_VERIFIED_0913ce7;75ORIGINAL_ROWS_UNCHANGED",
     "artifact": "reports/profile-closure-next-02/site/LOCAL_CONSUMER_RECEIPT.json",
-    "next_action": "Root completes normal CI/merge/Pages and verifies exact deployed data bytes and all75 rendered point/label rows. This is only C research site; original-site owner keeps primary releases and exact Top Picks replay.",
+    "next_action": "Completed served verification at0913ce7; preserve original75 and grade only after qualified final outcomes.",
     "recorded_UTC": "2026-11-10T20:06:06.026708+00:00",
     "pre_C05_state": "LOCAL_CONSUMER_AND_DESKTOP_MOBILE_PARITY_PASS;SERVED_VERIFICATION_PENDING",
-    "receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json"
+    "receipt": "reports/profile-closure-next-02/SERVED_VERIFICATION.json",
+    "pre_C05_next_action": "Root completes normal CI/merge/Pages and verifies exact deployed data bytes and all75 rendered point/label rows. This is only C research site; original-site owner keeps primary releases and exact Top Picks replay."
   },
   {
     "task_id": "A_B_NEW_TIMING_CMP_JOIN",
@@ -468,10 +470,19 @@
   {
     "task_id": "C05_NO_REFIT_FORWARD_PACKET",
     "owner": "C",
-    "state": "PREPARED_METADATA_ONLY;ACTUAL_INFERENCE_AND_NATIVE_GATE_PENDING",
-    "artifact": "reports/profile-timing-closure-confirm-01/forward/FEASIBILITY.json",
+    "state": "69_ROWS_SERVER_QUALIFIED_AND_LOCAL_C_RESEARCH_PARITY_PASS;SERVED_PENDING",
+    "artifact": "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json",
     "budget": "0fits;30CPU;4sourcerequests;currentnewinfercodecommitrequired",
-    "next_action": "RunretainedsafeJSONmodelsonfrozenfeaturesaftercleancommit;nativefinalGET4;realissue/persistenceclocks;NEDETshadowonly"
+    "next_action": "Normal C PR/Pages publish then verify actual served bytes/DOM; grade original snapshot only after qualified final outcomes. No primary switch.",
+    "previous_state": "PREPARED_METADATA_ONLY;ACTUAL_INFERENCE_AND_NATIVE_GATE_PENDING",
+    "code_commit": "0e1768af6134a66fc71d6eaec3f92ef5a10693bb",
+    "capture_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
+    "issued_UTC": "2026-11-10T23:15:46.092351+00:00",
+    "new_fits": 0,
+    "updated_UTC": "2026-11-10T23:18:36.970201+00:00",
+    "server_receipt": "reports/profile-timing-closure-confirm-01/CURRENT_PUBLICATION_RECEIPT.json",
+    "local_consumer": "reports/profile-timing-closure-confirm-01/site/LOCAL_CONSUMER_RECEIPT.json",
+    "fresh_recovery": "reports/profile-timing-closure-confirm-01/verification/C05_FRESH_GITHUB_RESTORATION.json"
   },
   {
     "task_id": "C05_C75_GRADE",

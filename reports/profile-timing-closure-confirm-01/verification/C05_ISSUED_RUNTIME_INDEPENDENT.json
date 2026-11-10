@@ -1,0 +1,48 @@
+{
+  "id": "C05-INDEPENDENT-ISSUED-RUNTIME-v1",
+  "status": "PASS_LOCAL_ISSUED_PACKET_AND_COMPLETE_RECOVERY;PUBLICATION_PENDING",
+  "checked_UTC": "2026-11-10T23:17:28.945429+00:00",
+  "run_id": "C-C05-NEDET-FIRST-01",
+  "RUN_SHA256": "edc76d1de4c2d59603a103da3e9c8e899a2f5cbf8835282360f29fb040577de4",
+  "FORECASTS_SHA256": "e3dcb454f25b3a3d6b802a72f47ec91d583fe3eeeaa7fc964a0d4d255b16d32e",
+  "run_bound_files": 13,
+  "recoverable_inference_draft_members": 5,
+  "issued_forecasts": 69,
+  "unique_players": 23,
+  "current_basic_records": 959,
+  "new_fits": 0,
+  "reviewer_new_GETs": 0,
+  "actual_inference_receipt": "C05_ACTUAL_INFERENCE_INDEPENDENT.json",
+  "actual_inference_receipt_SHA256": "ae201e9687efeb1b10d15ee2d317539eaa67c40f1db4532fcc30642e1d525702",
+  "code_commit": "0e1768af6134a66fc71d6eaec3f92ef5a10693bb",
+  "football_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "current_eligibility_cutoff_UTC": "2026-11-10T22:51:53.312826+00:00",
+  "clean_start_UTC": "2026-11-10T23:14:06.440419+00:00",
+  "native_GET_observed_UTC": "2026-11-10T23:15:29.303758+00:00",
+  "HTTP_Date_age_seconds_at_observation": 0.303758,
+  "HTTP_Date_age_seconds_at_issuance": 17.092351,
+  "HTTP_Age_seconds": null,
+  "HTTP_Age_state": "UNKNOWN_PRESERVED; independent Date age qualifies this response",
+  "issued_UTC": "2026-11-10T23:15:46.092351+00:00",
+  "expiry_UTC": [
+    "2026-11-12T03:34:29+00:00"
+  ],
+  "local_RUN_file_mtime_UTC": "2026-11-10T23:15:46.365484+00:00",
+  "zero_real_offers_or_selections": true,
+  "no_primary_replacement": true,
+  "original_75_unchanged": true,
+  "verdict_scope": [
+    "All RUN member bytes/hashes and all five inference-draft members independently read back.",
+    "Issued rows preserve independently reconstructed model outputs, features, inference clocks, and frozen-football claims.",
+    "Latest native response bound by source projection, code, raw response hash, identity, pregame state, Date clock, and clean-start gate.",
+    "Roster publisher freshness and expiry checked separately; current roster is not a starter, health, or gameday guarantee."
+  ],
+  "limitations": [
+    "Raw provider response body is represented by the retained permitted event projection and response hash; the reviewer did not perform a new GET or independently reinterpret the full raw body.",
+    "No GitHub server-time publication receipt or served consumer proof exists in this review yet.",
+    "Forecast-only shadow evidence: no actual offers, selections, grades, or five-week release qualification are created."
+  ],
+  "CPU_seconds": 0.046595534999999993,
+  "peak_RSS_bytes": 16982016
+}

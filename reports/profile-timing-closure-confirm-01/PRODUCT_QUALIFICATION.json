@@ -1,0 +1,278 @@
+{
+  "id": "C05-EXACT-PRODUCT-QUALIFICATION-v1",
+  "new_primary_switch": false,
+  "source_scope_amendment": "intake/QUALIFICATION_AMENDMENT.json",
+  "products": [
+    {
+      "procedure": "C-RECEIVING-ALIGNED-TIMING-v1::F0/F1",
+      "product": "WR/TE mean and median point direction",
+      "actual_scored_season_weeks": [
+        [
+          2026,
+          1
+        ],
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ],
+        [
+          2026,
+          4
+        ],
+        [
+          2026,
+          5
+        ]
+      ],
+      "duration_status": "FIVE_OWNER_REPORTED_RETROSPECTIVE_BLOCKS;NO_NEW_TEST_WEEKS",
+      "evidence_tier": "CURRENT_VINTAGE_7DAY_QUOTE_TIME_UNVERIFIED",
+      "decision": "REUSE_EXACT_C03_POINT_BASELINES;NO_PRIMARY_SWITCH",
+      "verification": "19244 point values independently match literal source; public aggregate arithmetic checked; private membership/clocks/actuals not independently received",
+      "probability_ranking_EV_inheritance": false
+    },
+    {
+      "procedure": "C-RECEIVING-ALIGNED-TIMING-v1::F2/F3",
+      "product": "exact-line direction/probability",
+      "actual_scored_season_weeks": [
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "duration_status": "NOT_MET",
+      "decision": "CLOSE_RECIPE_NO_GAIN_FOR_NATIVE_PANEL",
+      "longer_panel_status": "A_OWNED_EXACT_NEW_JOIN_PENDING",
+      "new_primary_switch": false
+    },
+    {
+      "procedure": "C-RECEIVING-ALIGNED-TIMING-v1::F2/F3",
+      "product": "mean/median numerical",
+      "actual_scored_season_weeks": [
+        [
+          2025,
+          1
+        ],
+        [
+          2025,
+          2
+        ],
+        [
+          2025,
+          3
+        ],
+        [
+          2025,
+          4
+        ],
+        [
+          2025,
+          5
+        ],
+        [
+          2025,
+          6
+        ],
+        [
+          2025,
+          7
+        ],
+        [
+          2025,
+          8
+        ],
+        [
+          2026,
+          1
+        ],
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ],
+        [
+          2026,
+          4
+        ],
+        [
+          2026,
+          5
+        ],
+        [
+          2026,
+          6
+        ],
+        [
+          2026,
+          7
+        ],
+        [
+          2026,
+          8
+        ]
+      ],
+      "duration_status": "MET_FOR_RECONSTRUCTED_NUMERICAL_ONLY",
+      "decision": "INCONCLUSIVE",
+      "reason": "Duration does not establish superiority over strongest compatible offered-player/numerical controls",
+      "new_primary_switch": false
+    },
+    {
+      "procedure": "A48h F3 profile median",
+      "product": "rushing-yard actual-line point direction",
+      "actual_scored_season_weeks": [
+        [
+          2026,
+          1
+        ],
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ],
+        [
+          2026,
+          4
+        ],
+        [
+          2026,
+          5
+        ]
+      ],
+      "duration_status": "DURATION_ONLY;TIMING_UNVERIFIED",
+      "decision": "INCONCLUSIVE_PRIMARY_REPLACEMENT",
+      "wins": 97,
+      "decided": 177,
+      "strong_control_wins": 94,
+      "diagnostic": "W6\u20137 is internal/unqualified and adverse, not a duration extension"
+    },
+    {
+      "procedure": "B-QB-ALIGNED-FRESHNESS-v1::F0/F1/F2/F3",
+      "product": "numerical",
+      "scored_season_week_count": 26,
+      "duration_status": "NUMERICAL_DURATION_MET_ONLY",
+      "decision": "WITHIN_METHOD_TIMING_GAIN_RETAINED;NO_PREFERRED_REPLACEMENT",
+      "new_primary_switch": false
+    },
+    {
+      "procedure": "B-QB-ALIGNED-FRESHNESS-v1::F0/F1/F2/F3",
+      "product": "native exact-line direction/probability",
+      "actual_scored_season_weeks": [
+        [
+          2026,
+          5
+        ],
+        [
+          2026,
+          6
+        ],
+        [
+          2026,
+          7
+        ],
+        [
+          2026,
+          8
+        ]
+      ],
+      "duration_status": "NOT_MET_FOR_PRIMARY_ACTUAL_LINE",
+      "decision": "CLOSE_RECIPE_NO_GAIN",
+      "exact_earlier_A_join": "PENDING;DO_NOT_INHERIT_OLD_R0_R3_JOIN"
+    },
+    {
+      "procedure": "B-QB-OPPORTUNITY-PROFILE-INCREMENT-v1::R0/R1/R2/R3",
+      "product": "prior lower-median point direction",
+      "actual_scored_season_weeks": [
+        [
+          2026,
+          1
+        ],
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ],
+        [
+          2026,
+          4
+        ],
+        [
+          2026,
+          5
+        ]
+      ],
+      "duration_status": "FIVE_OWNER_REPORTED_RETROSPECTIVE_BLOCKS",
+      "decision": "RETAIN_COMPLETED_NEGATIVE_CONTROL_COMPARISON",
+      "wins": [
+        47,
+        42,
+        40,
+        44
+      ],
+      "decided": 88,
+      "strong_control_wins": 52,
+      "evidence_tier": "QUOTE_TIME_UNVERIFIED_OWNER_LOCAL;PUBLIC_ARITHMETIC_ADMITTED"
+    },
+    {
+      "procedure": "C-C05-NEDET-FIRST-01",
+      "product": "appearance-conditioned forecast-only reference/challenger",
+      "scored_season_weeks": [],
+      "duration_status": "NOT_NEW_SCORED_EVIDENCE",
+      "decision": "SHADOW_PENDING_RUNTIME_PUBLICATION_RECEIPT",
+      "actual_inference_rows": 69,
+      "players": 23,
+      "new_fits": 0,
+      "real_offers": 0,
+      "real_selections": 0,
+      "information_policy": "FROZEN_FOOTBALL_SNAPSHOT_FIRST_PUBLICATION_SHADOW",
+      "information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+      "football_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+      "eligibility_cutoff_UTC": "2026-11-10T22:51:53.312826+00:00",
+      "actual_inference_start_UTC": "2026-11-10T23:13:09.501680+00:00",
+      "actual_inference_complete_UTC": "2026-11-10T23:13:11.455755+00:00",
+      "issue_UTC": null,
+      "server_receipt": null
+    },
+    {
+      "procedure": "new complete Top Picks / confidence / EV / 90%-target selection",
+      "product": "ranked selection and price-aware value",
+      "scored_season_weeks": [],
+      "duration_status": "NOT_MET_NOT_TESTED_BY_THIS_PACKAGE",
+      "decision": "NOT_ESTABLISHED",
+      "owner": "original website exact selector replay; B independently verifies; C records actual evidence",
+      "new_primary_switch": false
+    }
+  ],
+  "current_capture": {
+    "run_id": "C-C05-NEDET-FIRST-01",
+    "run": "prospective/runs/C-C05-NEDET-FIRST-01",
+    "issued_UTC": "2026-11-10T23:15:46.092351+00:00",
+    "forecast_rows": 69,
+    "unique_players": 23,
+    "offers": 0,
+    "selections": 0,
+    "decision": "SHADOW_FORECAST_ONLY",
+    "server_state": "QUALIFIED_FRESH_IMMUTABLE_GITHUB_BYTES_AND_SUCCESSFUL_CAPTURE_CHECK",
+    "information_policy": "FROZEN_FOOTBALL_SNAPSHOT_FIRST_PUBLICATION_SHADOW",
+    "new_fits": 0,
+    "server_completed_UTC": "2026-11-10T23:18:26Z",
+    "server_receipt": "CURRENT_PUBLICATION_RECEIPT.json",
+    "consumer_state": "LOCAL_ALL69_AND_PRESERVED75_DESKTOP_MOBILE_FAIL_CLOSED_PASS;SERVED_PENDING",
+    "recovery": "verification/C05_FRESH_GITHUB_RESTORATION.json"
+  }
+}

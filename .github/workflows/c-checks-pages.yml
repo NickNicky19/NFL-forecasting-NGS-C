@@ -53,6 +53,9 @@ jobs:
       - name: Verify C04 matched timing and current consumer (no fits)
         if: ${{ hashFiles('docs/data/profile-closure-next-02.json') != '' }}
         run: python src/site_profile_closure_c04.py --validate
+      - name: Verify exact timing receipts and C05 shadow consumer (no fits)
+        if: ${{ hashFiles('docs/data/timing-confirm-c05.json') != '' }}
+        run: python src/site_timing_confirm_c05.py --validate
       - run: node --check docs/qualification.js
       - run: python src/site_qualification_5w.py validate
       - name: Verify period bindings, aggregate-to-site parity and saved final CSV (no fits)
