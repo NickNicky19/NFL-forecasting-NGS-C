@@ -65,12 +65,63 @@ def aligned_membership(data):
     ))
 
 
+def retain_fixed_independent_fit(data):
+    """One prechosen 2025W01 F3 design, not an additional improvement fit.
+
+    Plain JSON arrays with explicit NumPy dtype/shape restore NaNs as NaNs and
+    integer/float targets exactly. No executable serialization is accepted.
+    """
+    pool, games, p7, p1, matrix7, matrix1, names, bindings, proof = data
+    year, week, arm = 2025, 1, 'F3'
+    cutoff = float(games.loc[(games.season == year) & (games.week == week), 'kickoff'].min())
+    train = [i for i, r in enumerate(p1.pool) if r['available'] < cutoff and r['values']['rec'] is not None]
+    x = matrix1[arm][train]
+    y = np.asarray([pool[i]['values']['rec'] for i in train])
+    roles = np.asarray([pool[i]['position'] for i in train])
+    members = [(pool[i]['game_id'], pool[i]['player_id']) for i in train]
+    query = [i for i, r in enumerate(pool) if r['season'] == year and r['week'] == week]
+    sample = []
+    for role in ['RB', 'WR', 'TE']:
+        i = next(i for i in query if pool[i]['position'] == role)
+        sample.append(dict(game_id=pool[i]['game_id'], player_id=pool[i]['player_id'], role=role, features=matrix1[arm][i]))
+    dataset = dict(
+        id='C04-INDEPENDENT-FRESH-FIT-DESIGN-v1', origin='2025-W01', arm=arm,
+        chosen_before_2025_comparative_scores=True,
+        choice='Fixed earliest 2025 origin F3; root selected before any 2025 scores',
+        created_UTC=d.now(), policy=d.POLICY1,
+        core_code_SHA256=d.sha(ROOT / 'src/receiving_timing_c04.py'),
+        wrapper_code_SHA256=d.sha(Path(__file__)),
+        registration=dict(path=str(d.REG.resolve().relative_to(ROOT)), SHA256=d.sha(d.REG)),
+        feature_order=names[arm], input_bindings=bindings,
+        fit_cutoff=cutoff, membership=members,
+        membership_SHA256=hashlib.sha256(__import__('json').dumps(members, separators=(',', ':')).encode()).hexdigest(),
+        fingerprint=d.fingerprint(x, y),
+        X=dict(dtype=x.dtype.str, shape=list(x.shape), values=x),
+        y=dict(dtype=y.dtype.str, shape=list(y.shape), values=y),
+        roles=dict(dtype=roles.dtype.str, shape=list(roles.shape), values=roles),
+        query_sample=sample, new_fits=0,
+        verification_scope='Exact saved design reproduction; not an independent raw-source reconstruction',
+    )
+    path = d.ART / 'FIT_REPRODUCTION_DATASET-2025-W01-F3.json.xz'
+    assert not path.exists(), 'INDEPENDENT_DESIGN_ALREADY_RETAINED'
+    d.write(path, dataset)
+    d.write(d.OUT / 'INDEPENDENT_FIT_DESIGN_RECEIPT.json', dict(
+        id=dataset['id'], created_UTC=d.now(), path=str(path.relative_to(ROOT)),
+        SHA256=d.sha(path), public_bytes=path.stat().st_size,
+        fingerprint=dataset['fingerprint'], membership_SHA256=dataset['membership_SHA256'],
+        rows=len(train), features=x.shape[1], model_fits=0,
+        separate_verifier_fit='Not yet executed; only its prechosen exact design retained',
+    ))
+
+
 def main(year, registration):
     preserve_receipts(year)
     original = d.prepare
     def observed_prepare():
         data = original()
         aligned_membership(data)
+        if year == 2025:
+            retain_fixed_independent_fit(data)
         return data
     d.prepare = observed_prepare
     d.run(year=year, registration=registration)

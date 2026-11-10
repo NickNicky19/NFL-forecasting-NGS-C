@@ -1,0 +1,9 @@
+{
+  "id": "C04-MOBILE-PREDEPLOYMENT-FAILURE-v1",
+  "at_UTC": "2026-11-10T19:59:19.944999+00:00",
+  "viewport_width": 390,
+  "observed_document_width": 431,
+  "cause": "Current game select label intrinsic width413 plus unbreakable qualification metadata tokens",
+  "affected": "NewC04localUIonly;nosource/model/score/outputchange",
+  "repair": "BoundnewC04filterlabels/minwidth and wrapdecisiontokens;rerunsamebrowserregression"
+}

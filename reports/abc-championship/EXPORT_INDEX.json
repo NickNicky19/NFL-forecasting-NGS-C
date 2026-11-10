@@ -3,7 +3,7 @@
   "origin_session": "C",
   "producer_repository": "NickNicky19/NFL-forecasting-NGS-C",
   "producer_commit": "2d684f22830b817669ecf89f46eb6fdcace8335b",
-  "state": "PROFILE_CLOSURE_NEXT_02_PILOT_ONLY;NEW_EXACT_PEER_AGGREGATE_RECEIPTS;NO_CURRENT_ISSUANCE_OR_PRIMARY_RELEASE_CLAIM",
+  "state": "C04_FINITE_TIMING_PACKAGE_EXECUTED;CURRENT_GITHUB_PREGAME_PACKET_QUALIFIED;C_RESEARCH_SERVED_PENDING;NO_PRIMARY_SWITCH",
   "actual_weeks": [
     2,
     3
@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "50223d4d7b629b2f97f0345fe8bf7d2530596bf310cb6962b754665a2d0f259d"
+    "SHA256": "d33930e9cbf3fabae85081eb774530565fcec781c8dff40de855f2f59929271f"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -543,11 +543,11 @@
   },
   "profile_closure_next_02": {
     "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
-    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00",
-    "stage": "CURRENT_PACKET_GITHUB_RESTORED;HISTORICAL_FULL_AUTHORIZED;CI_BINDING_RECHECK_PENDING",
+    "recorded_UTC": "2026-11-10T20:06:06.026708+00:00",
+    "stage": "COMPLETED_FINITE_TIMING_PACKAGE;CURRENT_PACKET_SERVER_QUALIFIED;C_RESEARCH_SERVED_PENDING",
     "report": {
       "path": "reports/profile-closure-next-02/README.md",
-      "SHA256": "caa4125c8137d3e82f564db794d71727a7b47f465944defcd0ade6c8a2e067b2"
+      "SHA256": "cee5c96e69807f920b360c2272af0fdc1299d45ee0f7e6e29ff66e12139c5b1e"
     },
     "registration": {
       "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
@@ -596,48 +596,208 @@
       "A five-state efficiency recovery owner-local receipt"
     ],
     "limited_admission": "Public aggregate own-side/count/weekly arithmetic only; no private-row/model/quote-clock parity. B four published completion-arm side partitions checked; Brier owner-reported.",
-    "new_C03_and_earlier_CMP": "Separate A-owned joins; exact dependencies recorded; not completed by old scores",
+    "new_C03_and_earlier_CMP": "A owns separate new C03 and C04 longer reception joins and88-offer earlier CMP join; no receipt assumed. Old pooled/ordinaryLeaf reception,ATT and five-state recovery receipt gaps are closed with stated aggregate/private limits.",
     "timing": {
-      "pilot": {
-        "path": "reports/profile-closure-next-02/timing/PILOT.json",
-        "SHA256": "a2997d35b10e1a162fee7c9194cda406f33b5085540a6a5142483afbaf50e3e3"
+      "report": {
+        "path": "reports/profile-closure-next-02/timing/README.md",
+        "SHA256": "377a3106b21ef474f7032234a89b1f420b99bda99748d56c289c385778d48f70"
+      },
+      "decision": {
+        "path": "reports/profile-closure-next-02/timing/KEEP_STOP.json",
+        "SHA256": "1cff95b6055cd2b76f80175c3e7fcfb2d68af840638d16923a82ce4d030e9e90"
       },
       "fit_ledger": {
         "path": "reports/profile-closure-next-02/timing/FIT_LEDGER.json",
-        "SHA256": "557ffcb2e2b76ac76775ada2970f3e0e2cb4277b6289b1eddbd0762c5e135f44"
+        "SHA256": "d3ee2efcd49132f090b7d8065567dec5f9aeced31cac068756ec3a7a4acf0f5d"
       },
       "diagnosis": {
         "path": "reports/profile-closure-next-02/timing/DIAGNOSIS.json",
-        "SHA256": "4d57933351ca54034b19648a3418898e574f07059cbb44ad552f3a0094f0b52c"
+        "SHA256": "00d11f71ba5471fcc4fcf65983e89e792c5a845e0097292572e3f8b5e60b0150"
       },
-      "independent_path_review": {
+      "retained_diagnosis": {
+        "path": "reports/profile-closure-next-02/timing/RETAINED_DIAGNOSIS.json",
+        "SHA256": "4c21b43c2f213b38a18a2161c9e1c7dd247329bc299a4b3951a7f7e318d138cc"
+      },
+      "old_output_reuse": {
+        "path": "reports/profile-closure-next-02/timing/SEVEN_DAY_REUSE_PARITY.json",
+        "SHA256": "436155b8060c59966e72f7ec7b1068fa80b1ca9806a6c018ab8d7e2f9ff7e29b"
+      },
+      "input_bindings": {
+        "path": "reports/profile-closure-next-02/timing/INPUT_BINDINGS.json",
+        "SHA256": "38e2a1d44452e5253792be6d50b791615dfaf39f3ec55563186d33ff0e92681e"
+      },
+      "feature_order": {
+        "path": "reports/profile-closure-next-02/timing/FEATURE_ORDER.json",
+        "SHA256": "07aca583ee388a8fbdc2a9284a899df184e12e0a6f064ce74ddc6b4b9cca8e9f"
+      },
+      "new_historical_fits": 32,
+      "new_baseline_equivalent_refits": 0,
+      "new_independent_verification_fits": 1,
+      "numerical_seasons": {
+        "2025": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "2026": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "native_actual_line_season_weeks": [
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "native_actual_line_eligible": 278,
+      "native_actual_line_decided": 255,
+      "native_actual_line_unknown": 23,
+      "native_actual_line_games": 32,
+      "actual_line_five_week_duration": "NOT_MET_TWO_WEEKS",
+      "numerical_five_week_duration": "MET_DURATION_ONLY_16_RECONSTRUCTED_SEASON_WEEKS",
+      "actual_scores": {
+        "path": "reports/profile-closure-next-02/timing/ACTUAL_LINE_SCORES.json.xz",
+        "SHA256": "0e5c07e3a3fd56871a1b13f7135ccb8458c94632ab051aa62a260438f648822d"
+      },
+      "actual_paired_changes": {
+        "path": "reports/profile-closure-next-02/timing/PAIRED_CHANGES.json.xz",
+        "SHA256": "3306ed40e8d0cddc8610a1ec7b250778a1da25dd9c84e193a206ac614ebf90a8"
+      },
+      "reliability": {
+        "path": "reports/profile-closure-next-02/timing/RELIABILITY.json.xz",
+        "SHA256": "db497e4f4e5b2fbd639c4ce34d0120a05e4bb7f1b6661259c1d2155ee609d344"
+      },
+      "qualified_numerical_scores_2025": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2025.json.xz",
+        "SHA256": "1f0db1da85c06af0ff2f2afaab7f3415bdf25782389656e7f3d3481d4459c9c9"
+      },
+      "qualified_numerical_scores_2026": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2026.json.xz",
+        "SHA256": "df7612f3492d49574551ffc6a656a3011b8eddf19f0a29578f6a9a041acbde97"
+      },
+      "qualified_offered_numerical_scores": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_OFFERED_NUMERICAL_SCORES.json.xz",
+        "SHA256": "3140a1c76e82494baca7e89e75018beebe17565f7851d371407b36cec3cc976e"
+      },
+      "qualified_control_view_2025": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_CONTROL_VIEW-2025.json",
+        "SHA256": "0b18012ba596613003e212749ab3506b83785a8e9cb5ed68fadde282e6826e49"
+      },
+      "qualified_control_view_2026": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_CONTROL_VIEW-2026.json",
+        "SHA256": "2f5f28fc6b46b7c087d11349454e81968ef2e33c0e69383689b1d5a621f828ab"
+      },
+      "broad_numeric_paired_2025": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_PAIRED-2025.json.xz",
+        "SHA256": "448d99c41607651f0c8f32262613303021244445af7ab65e2bb7334c073f939a"
+      },
+      "broad_numeric_paired_2026": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_PAIRED-2026.json.xz",
+        "SHA256": "759118d16503547a92ff5cc745923aac0833ef3266f30b7d20247b9202c02398"
+      },
+      "strong_numeric_paired_2025": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_STRONG_CONTROL_PAIRED-2025.json.xz",
+        "SHA256": "2ea040574d61c699177ec21830192625533f1f6156cf92ccc80a683a1361d4bb"
+      },
+      "strong_numeric_paired_2026": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_STRONG_CONTROL_PAIRED-2026.json.xz",
+        "SHA256": "eafa768f3445d69ee54f37143455449272d7f5df944942d0af587b8ab9c9ca25"
+      },
+      "offered_numeric_paired": {
+        "path": "reports/profile-closure-next-02/timing/OFFERED_NUMERICAL_PAIRED.json.xz",
+        "SHA256": "72a4f8718e579e812306b85accd04de0bff40d9bfd2874d6a0fca7d105a49347"
+      },
+      "offered_strong_controls": {
+        "path": "reports/profile-closure-next-02/timing/OFFERED_STRONG_CONTROL_PAIRED.json.xz",
+        "SHA256": "0397a92a70a34b0990c123387618e4b01e21ba1d1760e6af242b4a78993a9b13"
+      },
+      "typed_handoff_manifest": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF_MANIFEST.json",
+        "SHA256": "bd541f4425f1ac0c627583fbcf5fad8fd7a4fcd598526fe803ea89d84d97367c"
+      },
+      "typed_points": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
+        "SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc"
+      },
+      "typed_handoff_owner_local_readback": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF_READBACK.json",
+        "SHA256": "a477c3d4f95ca265689622617712dfa1c2299f802c61635e86589383e9263889"
+      },
+      "A_receipt": "NOT_VERIFIED",
+      "point_values": 38488,
+      "query_rows": 4811,
+      "independent_acceptance": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_ACCEPTANCE.json",
+        "SHA256": "e62e8175561e5ad5778518b49d45d6b332266e52abd18802cc0f49425d20c847"
+      },
+      "independent_arithmetic": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_ARITHMETIC.json",
+        "SHA256": "ccce98eb6dee842f5879c27749eae4afa9ce63e7a72d4e265b0c462326fb8a94"
+      },
+      "independent_fit": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_FIT_REPRODUCTION.json",
+        "SHA256": "3f9ffa229f261e0a9bdcdb417ed304be74a253d3d71692567a45022a8063c125"
+      },
+      "independent_clock_path": {
         "path": "reports/profile-closure-next-02/verification/TIMING_PATH_REVIEW.json",
         "SHA256": "a00c400997ba5ec4312882bdf7454d1a959f8eb99d57dbe73af0aa2832c40f03"
       },
-      "new_fits": 1,
-      "comparative_scores_published": 0,
-      "alternative_evidence_tier": "RECONSTRUCTED_24H_TIMING_SENSITIVITY;notauthenticatedpublicationclock"
+      "independent_scope": "Internal C distinct calculation path; not A/B acknowledgement; exact reconstruction tier and checked scopes preserved",
+      "historical_CPU_seconds_including_pilot_and_failed_preparation": 483.3572486030001,
+      "failed_prepare_CPU_seconds_included_not_readded": 94.6205,
+      "alternative_evidence_tier": "RECONSTRUCTED_24H_TIMING_SENSITIVITY;notauthenticatedpublicationclock",
+      "native_direction_probability_decision": "CLOSE_RECIPE_NO_GAIN",
+      "numerical_decision": "INCONCLUSIVE",
+      "new_defense_values_tested": false
     },
     "current_source": {
-      "readiness": {
+      "initial_readiness": {
         "path": "reports/profile-closure-next-02/current-source/CURRENT_SOURCE_READINESS.json",
         "SHA256": "93ef5973e88bc891a658f759ca40dc9db735932fc147a67f6da9ab575a93ae26"
       },
+      "initial_readiness_scope": "Earlier source-stage receipt, not final packet state",
       "roster_contract": {
         "path": "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
         "SHA256": "eb37e6c9568ba9f17ddfcd5eba8464111fbdf748021d4f1000f16202d220c689"
       },
-      "input_manifest": {
+      "input_manifest_frozen_predictors": {
         "path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST.json",
         "SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c"
       },
-      "state": "INPUTS_QUALIFIED_FINAL_NATIVE_STATUS_DEFERRED_TO_ISSUANCE",
-      "current_packet_receipt": null,
+      "finality_readiness": {
+        "path": "reports/profile-closure-next-02/current-source/CURRENT_FINALITY_READINESS.json",
+        "SHA256": "b581942d571810e62c3d1eedbfe10a50e5d3279e665dfb1de132d48b3e00e7da"
+      },
+      "actual_input_manifest": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/MODEL_INPUT_MANIFEST.json",
+        "SHA256": "0d80bd9437295246c34e302fd1c6eb417afae4d972762b3b9fd6a356e966475d"
+      },
+      "final_native_admission": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/EVENT_ADMISSION.json",
+        "SHA256": "f89a16c3d1bdd83207ea626d7633522c743e632aa2eef9b73c26bd1a13765d00"
+      },
+      "state": "CURRENT_KNOWN_ROSTER_AND_ONE_NATIVE_FUTURE_EVENT_ADMITTED;PACKET_PERSISTED",
       "current_offers_retrieved": 0,
       "current_primary_release": false
     },
     "five_week_policy": "Exact complete numerical/direction/probability/ranked-selection product; unchanged inherited policy; no blanket future wait",
-    "completion_claim": "PRELIMINARY_PILOT_AND_INTAKE_ONLY;no newly scored NFL weeks; no current issuance/website activation claimed",
+    "completion_claim": "NAMED_FINITE_C04_HISTORICAL_PACKAGE_EXECUTED;new current pregame forecast-only packet server-qualified; broader requested actual-line/history coverage incomplete; C research served verification pending; no original-site or new primary release",
     "previous_pointer": {
       "path": "reports/profile-closure-next-02/PREVIOUS_EXPORT_INDEX.json",
       "SHA256": "d591c9ee37cc4bc16b979d1bef80e57fa27f08021f6bf76ac1e988012b8c5b04"
@@ -649,6 +809,96 @@
     "capture_registration": {
       "path": "reports/profile-closure-next-02/CAPTURE_EXECUTION_REGISTRATION.json",
       "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
+    },
+    "headlines": {
+      "path": "reports/profile-closure-next-02/HEADLINE_RESULTS.json",
+      "SHA256": "d46c85eda5c76a4db195c050f6475730a16fec85a04f3e186a1b34fab4310440"
+    },
+    "decision": {
+      "path": "reports/profile-closure-next-02/KEEP_STOP.json",
+      "SHA256": "b3a6555d2a84be29b584c71dc2d3fc3ec4d97bc5d06e44a26f6d372e080cb989"
+    },
+    "method_roster_amendment": {
+      "path": "reports/profile-closure-next-02/METHOD_ROSTER_AMENDMENT.json",
+      "SHA256": "6b6c87270319a8743ddbf02adc1d65227316941d6d12c1dde44f5dd64c2326c9"
+    },
+    "twelve_categories": {
+      "path": "reports/profile-closure-next-02/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "eb6a45c32e057ee955fb851417cba3ddf347d745b18af368067d796182d5a9bf"
+    },
+    "product_qualification": {
+      "path": "reports/profile-closure-next-02/PRODUCT_QUALIFICATION.json",
+      "SHA256": "053650ba5cf7942e4232634ad1e62a4fd29801af0f8f2128c6a6c1767b156c61"
+    },
+    "resource": {
+      "path": "reports/profile-closure-next-02/RESOURCE_RECEIPT.json",
+      "SHA256": "f51a0f72dfe3557820506e54003e66a70309cce44d642926414610d14ffa302f"
+    },
+    "evidence": {
+      "path": "reports/profile-closure-next-02/EVIDENCE_MANIFEST.json.xz",
+      "SHA256": "42dde548f3dbc4e509d63d45646f0a66d9196403aa948a95fa05d500f9d4fe7d"
+    },
+    "current_primary_release": false,
+    "current_capture": {
+      "state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;FORECAST_ONLY_SHADOW",
+      "run": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/RUN.json",
+        "SHA256": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/FORECASTS.json.xz",
+        "SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362"
+      },
+      "publication_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
+        "SHA256": "40f3ebbc6b20c19f33be6d28204e80657e763ee79944ee217319858010b5f433"
+      },
+      "canonical_server_receipt": {
+        "path": "prospective/receipts/C-C04-20261110-W10-FIRST-01-server.json",
+        "SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe"
+      },
+      "all17file_GitHub_restore_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_GITHUB_READBACK.json",
+        "SHA256": "6f5b00d1029b480d023b6189cfc7d0aaeaa9ab509b4ea5c474674f89afe0de1d"
+      },
+      "local_issue_stage_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
+        "SHA256": "6708c6877f830f6aa027b8b31c192bb8f51c74b01b435a9414252c34696fc3ab"
+      },
+      "local_issue_stage_receipt_scope": "Preserved earlier local stage; qualified server receipt supersedes its pending-publication status",
+      "issued_UTC": "2026-11-10T19:37:43.972513+00:00",
+      "server_check_completed_UTC": "2026-11-10T19:55:36Z",
+      "capture_commit": "dd67371ffe84672958a2412f66d13cfed99b0c55",
+      "original_capture_commit": "ff104ad177d57da28043272cbd0bea13dd88d008",
+      "forecasts_count": 75,
+      "players": 25,
+      "games": [
+        "2026_10_WAS_NYG"
+      ],
+      "unverified_source_games_held": 13,
+      "real_offers": 0,
+      "real_selections": 0,
+      "new_scored_NFL_outcomes": 0,
+      "new_current_fits": 3,
+      "primary_switch": false
+    },
+    "C_research_consumer": {
+      "local_consumer": {
+        "path": "reports/profile-closure-next-02/site/LOCAL_CONSUMER_RECEIPT.json",
+        "SHA256": "8b75f41691608cb453e439aabc14eafeba8d142d8600a945efd3bf597463dc5a"
+      },
+      "browser_parity": {
+        "path": "reports/profile-closure-next-02/site/BROWSER_PARITY.json",
+        "SHA256": "a7a6073fd4113cb4d2f96418613904227c4c49e48936217df9d0b5394bd2e49b"
+      },
+      "data": {
+        "path": "docs/data/profile-closure-next-02.json",
+        "SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55"
+      },
+      "local_rendered_model_rows_checked": 75,
+      "local_desktop_mobile": "PASS",
+      "served_verification": "PENDING_ROOT_NORMAL_MERGE_PAGES_AND_READBACK",
+      "original_site": "UNCHANGED_NO_C_WRITE_OR_ACTIVATION_CLAIM"
     }
   }
 }

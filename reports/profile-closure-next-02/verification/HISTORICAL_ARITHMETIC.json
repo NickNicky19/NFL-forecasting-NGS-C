@@ -1,0 +1,2168 @@
+{
+  "id": "C04-INDEPENDENT-HISTORICAL-ARITHMETIC-v1",
+  "checked_UTC": "2026-11-10T19:57:34.199892+00:00",
+  "status": "PASS",
+  "method": "Independent Python comparison/Counter/math.fsum grade and aggregation,not author scorer/summary call",
+  "source_bindings": [
+    {
+      "path": "artifacts/receiving-timing-c04/ACTUAL_OFFER_ROWS.json.xz",
+      "SHA256": "7f694423cb0f1e50d52da36d426097a083fde035888ec281c47748502da35986"
+    },
+    {
+      "path": "artifacts/profile-increment-v2/ACTUAL_OFFER_ROWS.json.xz",
+      "SHA256": "f78f263547094fc02a4ce704bf89b4b1da2a58d4d7d51061478e2d4c07144991"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/ACTUAL_LINE_SCORES.json.xz",
+      "SHA256": "0e5c07e3a3fd56871a1b13f7135ccb8458c94632ab051aa62a260438f648822d"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/PAIRED_CHANGES.json.xz",
+      "SHA256": "3306ed40e8d0cddc8610a1ec7b250778a1da25dd9c84e193a206ac614ebf90a8"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/NUMERICAL_ROWS-2026.json.xz",
+      "SHA256": "1af42efa33197f04ebca09a6ce07b5a8affc9dbc13a674a6e4f254aad8442280"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/NUMERICAL_SCORES-2026.json.xz",
+      "SHA256": "c88c4001b74acd85ea64b9a8e987299ac07b5453f9f72f00c3a0b04110ddb8ad"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/NUMERICAL_ROWS-2025.json.xz",
+      "SHA256": "3e8e91afb3258b63697b949b0591d57a8b5f63426ca93245ff9025a8288df6a7"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/NUMERICAL_SCORES-2025.json.xz",
+      "SHA256": "13354caad27de897d26ddd6a1570cb43482954949cfe0f8dcd3f91404d90cb42"
+    }
+  ],
+  "checks": {
+    "exact_row_regrades": 7602,
+    "probability_score_rows": 3041,
+    "same_law_median_direction_checks": 1448,
+    "score_cells": 567,
+    "exact_two_week_interval_bounds": 168,
+    "paired_cells": 168,
+    "reliability_and_rank_cells": 81,
+    "old_rename_rows_exact": 2172,
+    "numerical_score_cells": 648,
+    "offered_numeric_score_cells": 1053,
+    "qualified_numeric_strong_control_cells": 810
+  },
+  "native_offers": 362,
+  "native_WR_TE_offers": 278,
+  "periods": [
+    2,
+    3
+  ],
+  "scores_headline": [
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_OVER",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 122,
+        "LOSS": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_UNDER",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 122,
+        "WIN": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 111,
+        "WIN": 144,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "OVER": {
+        "selected": 68,
+        "wins": 39,
+        "losses": 28,
+        "decided": 67,
+        "rate": 0.582089552238806
+      },
+      "UNDER": {
+        "selected": 190,
+        "wins": 105,
+        "losses": 83,
+        "decided": 188,
+        "rate": 0.5585106382978723
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 144,
+        "losses": 111,
+        "decided": 255,
+        "rate": 0.5647058823529412
+      },
+      "Brier": 0.26867019501845496,
+      "log_loss": 0.7433780288018582
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_MEAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 136,
+        "LOSS": 119,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "OVER": {
+        "selected": 118,
+        "wins": 59,
+        "losses": 56,
+        "decided": 115,
+        "rate": 0.5130434782608696
+      },
+      "UNDER": {
+        "selected": 140,
+        "wins": 77,
+        "losses": 63,
+        "decided": 140,
+        "rate": 0.55
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_MEDIAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 111,
+        "WIN": 144,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "OVER": {
+        "selected": 68,
+        "wins": 39,
+        "losses": 28,
+        "decided": 67,
+        "rate": 0.582089552238806
+      },
+      "UNDER": {
+        "selected": 190,
+        "wins": 105,
+        "losses": 83,
+        "decided": 188,
+        "rate": 0.5585106382978723
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 144,
+        "losses": 111,
+        "decided": 255,
+        "rate": 0.5647058823529412
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "E0",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 67,
+        "wins": 35,
+        "losses": 21,
+        "decided": 56,
+        "rate": 0.625
+      },
+      "UNDER": {
+        "selected": 211,
+        "wins": 112,
+        "losses": 87,
+        "decided": 199,
+        "rate": 0.5628140703517588
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "Brier": 0.2620483009473796,
+      "log_loss": 0.7236282674399992
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 146,
+        "LOSS": 109,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 33,
+        "decided": 79,
+        "rate": 0.5822784810126582
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 100,
+        "losses": 76,
+        "decided": 176,
+        "rate": 0.5681818181818182
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 146,
+        "losses": 109,
+        "decided": 255,
+        "rate": 0.5725490196078431
+      },
+      "Brier": 0.2662184251538689,
+      "log_loss": 0.739284176401573
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_MEAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 137,
+        "LOSS": 118,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 134,
+        "wins": 60,
+        "losses": 56,
+        "decided": 116,
+        "rate": 0.5172413793103449
+      },
+      "UNDER": {
+        "selected": 144,
+        "wins": 77,
+        "losses": 62,
+        "decided": 139,
+        "rate": 0.5539568345323741
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_MEDIAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 146,
+        "LOSS": 109,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 33,
+        "decided": 79,
+        "rate": 0.5822784810126582
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 100,
+        "losses": 76,
+        "decided": 176,
+        "rate": 0.5681818181818182
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 146,
+        "losses": 109,
+        "decided": 255,
+        "rate": 0.5725490196078431
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 31,
+        "decided": 76,
+        "rate": 0.5921052631578947
+      },
+      "UNDER": {
+        "selected": 191,
+        "wins": 102,
+        "losses": 77,
+        "decided": 179,
+        "rate": 0.5698324022346368
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "Brier": 0.2682971769363759,
+      "log_loss": 0.7437713203365398
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_MEAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 132,
+        "LOSS": 123,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 136,
+        "wins": 59,
+        "losses": 60,
+        "decided": 119,
+        "rate": 0.4957983193277311
+      },
+      "UNDER": {
+        "selected": 142,
+        "wins": 73,
+        "losses": 63,
+        "decided": 136,
+        "rate": 0.5367647058823529
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 132,
+        "losses": 123,
+        "decided": 255,
+        "rate": 0.5176470588235295
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_MEDIAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 31,
+        "decided": 76,
+        "rate": 0.5921052631578947
+      },
+      "UNDER": {
+        "selected": 191,
+        "wins": 102,
+        "losses": 77,
+        "decided": 179,
+        "rate": 0.5698324022346368
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 119,
+        "WIN": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 38,
+        "losses": 35,
+        "decided": 73,
+        "rate": 0.5205479452054794
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 98,
+        "losses": 84,
+        "decided": 182,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "Brier": 0.2707065175398929,
+      "log_loss": 0.7426786755662858
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_MEAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 136,
+        "WIN": 119,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 134,
+        "wins": 50,
+        "losses": 64,
+        "decided": 114,
+        "rate": 0.43859649122807015
+      },
+      "UNDER": {
+        "selected": 144,
+        "wins": 69,
+        "losses": 72,
+        "decided": 141,
+        "rate": 0.48936170212765956
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 119,
+        "losses": 136,
+        "decided": 255,
+        "rate": 0.4666666666666667
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_MEDIAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 119,
+        "WIN": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 38,
+        "losses": 35,
+        "decided": 73,
+        "rate": 0.5205479452054794
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 98,
+        "losses": 84,
+        "decided": 182,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 118,
+        "WIN": 137,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 36,
+        "decided": 76,
+        "rate": 0.5263157894736842
+      },
+      "UNDER": {
+        "selected": 186,
+        "wins": 97,
+        "losses": 82,
+        "decided": 179,
+        "rate": 0.5418994413407822
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "Brier": 0.2707728039605309,
+      "log_loss": 0.7435159498335175
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_MEAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 119,
+        "LOSS": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 142,
+        "wins": 54,
+        "losses": 68,
+        "decided": 122,
+        "rate": 0.4426229508196721
+      },
+      "UNDER": {
+        "selected": 136,
+        "wins": 65,
+        "losses": 68,
+        "decided": 133,
+        "rate": 0.48872180451127817
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 119,
+        "losses": 136,
+        "decided": 255,
+        "rate": 0.4666666666666667
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_MEDIAN",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 118,
+        "WIN": 137,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 36,
+        "decided": 76,
+        "rate": 0.5263157894736842
+      },
+      "UNDER": {
+        "selected": 186,
+        "wins": 97,
+        "losses": 82,
+        "decided": 179,
+        "rate": 0.5418994413407822
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "P1",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 106,
+        "WIN": 149,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 71,
+        "wins": 37,
+        "losses": 21,
+        "decided": 58,
+        "rate": 0.6379310344827587
+      },
+      "UNDER": {
+        "selected": 207,
+        "wins": 112,
+        "losses": 85,
+        "decided": 197,
+        "rate": 0.5685279187817259
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 149,
+        "losses": 106,
+        "decided": 255,
+        "rate": 0.5843137254901961
+      },
+      "Brier": 0.2795603398601013,
+      "log_loss": 0.7962807283645753
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "P2",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 105,
+        "WIN": 150,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 66,
+        "wins": 35,
+        "losses": 18,
+        "decided": 53,
+        "rate": 0.660377358490566
+      },
+      "UNDER": {
+        "selected": 212,
+        "wins": 115,
+        "losses": 87,
+        "decided": 202,
+        "rate": 0.5693069306930693
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 150,
+        "losses": 105,
+        "decided": 255,
+        "rate": 0.5882352941176471
+      },
+      "Brier": 0.28073779907423557,
+      "log_loss": 0.7996140597936943
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "RETAINED_EARLIER_PREVALENCE_V8",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 124,
+        "WIN": 131,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 71,
+        "wins": 26,
+        "losses": 28,
+        "decided": 54,
+        "rate": 0.48148148148148145
+      },
+      "UNDER": {
+        "selected": 207,
+        "wins": 105,
+        "losses": 96,
+        "decided": 201,
+        "rate": 0.5223880597014925
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 131,
+        "losses": 124,
+        "decided": 255,
+        "rate": 0.5137254901960784
+      },
+      "Brier": 0.2958619172575757,
+      "log_loss": 0.8263583719633616
+    }
+  ],
+  "paired_headline": [
+    {
+      "candidate": "F1_MEAN",
+      "control": "F0_MEAN",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 132,
+      "control_wins": 137,
+      "win_change": -5,
+      "change_pp": -1.9607843137254901,
+      "game_id_sensitivity95_pp": [
+        -4.247104247104247,
+        0.38171594864145514
+      ],
+      "week_sensitivity95_pp": [
+        -2.479338842975207,
+        -1.4925373134328357
+      ]
+    },
+    {
+      "candidate": "F2_MEAN",
+      "control": "F0_MEAN",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 137,
+      "win_change": -18,
+      "change_pp": -7.0588235294117645,
+      "game_id_sensitivity95_pp": [
+        -11.788196963979916,
+        -2.09183228730823
+      ],
+      "week_sensitivity95_pp": [
+        -9.701492537313433,
+        -4.132231404958678
+      ]
+    },
+    {
+      "candidate": "F3_MEAN",
+      "control": "F2_MEAN",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 119,
+      "win_change": 0,
+      "change_pp": 0.0,
+      "game_id_sensitivity95_pp": [
+        -2.049391148890238,
+        1.984126984126984
+      ],
+      "week_sensitivity95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "candidate": "F3_MEAN",
+      "control": "F1_MEAN",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 132,
+      "win_change": -13,
+      "change_pp": -5.098039215686274,
+      "game_id_sensitivity95_pp": [
+        -10.385223048327138,
+        0.8
+      ],
+      "week_sensitivity95_pp": [
+        -8.208955223880597,
+        -1.6528925619834711
+      ]
+    },
+    {
+      "candidate": "F3_MEAN",
+      "control": "P2",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 150,
+      "win_change": -31,
+      "change_pp": -12.156862745098039,
+      "game_id_sensitivity95_pp": [
+        -21.011673151750973,
+        -3.5853016505406967
+      ],
+      "week_sensitivity95_pp": [
+        -16.528925619834713,
+        -8.208955223880597
+      ]
+    },
+    {
+      "candidate": "F3_MEAN",
+      "control": "E0",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 147,
+      "win_change": -28,
+      "change_pp": -10.980392156862745,
+      "game_id_sensitivity95_pp": [
+        -18.289723674610894,
+        -4.081217852994858
+      ],
+      "week_sensitivity95_pp": [
+        -13.223140495867769,
+        -8.955223880597014
+      ]
+    },
+    {
+      "candidate": "F3_MEAN",
+      "control": "RETAINED_EARLIER_PREVALENCE_V8",
+      "product": "MEAN",
+      "decided": 255,
+      "candidate_wins": 119,
+      "control_wins": 131,
+      "win_change": -12,
+      "change_pp": -4.705882352941177,
+      "game_id_sensitivity95_pp": [
+        -14.285714285714285,
+        4.7813545816733045
+      ],
+      "week_sensitivity95_pp": [
+        -12.396694214876034,
+        2.2388059701492535
+      ]
+    },
+    {
+      "candidate": "F1_MEDIAN",
+      "control": "F0_MEDIAN",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 147,
+      "control_wins": 146,
+      "win_change": 1,
+      "change_pp": 0.39215686274509803,
+      "game_id_sensitivity95_pp": [
+        -2.0163330939010056,
+        2.8458188153310084
+      ],
+      "week_sensitivity95_pp": [
+        0.0,
+        0.7462686567164178
+      ]
+    },
+    {
+      "candidate": "F2_MEDIAN",
+      "control": "F0_MEDIAN",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 136,
+      "control_wins": 146,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -7.813265931372548,
+        0.009615384615332146
+      ],
+      "week_sensitivity95_pp": [
+        -5.970149253731343,
+        -1.6528925619834711
+      ]
+    },
+    {
+      "candidate": "F3_MEDIAN",
+      "control": "F2_MEDIAN",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 136,
+      "win_change": 1,
+      "change_pp": 0.39215686274509803,
+      "game_id_sensitivity95_pp": [
+        -2.3531727651690595,
+        3.1746031746031744
+      ],
+      "week_sensitivity95_pp": [
+        -2.479338842975207,
+        2.9850746268656714
+      ]
+    },
+    {
+      "candidate": "F3_MEDIAN",
+      "control": "F1_MEDIAN",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 147,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -8.077702702702704,
+        0.0
+      ],
+      "week_sensitivity95_pp": [
+        -4.132231404958678,
+        -3.731343283582089
+      ]
+    },
+    {
+      "candidate": "F3_MEDIAN",
+      "control": "P2",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 150,
+      "win_change": -13,
+      "change_pp": -5.098039215686274,
+      "game_id_sensitivity95_pp": [
+        -11.153884462151394,
+        1.1904761904761905
+      ],
+      "week_sensitivity95_pp": [
+        -8.264462809917356,
+        -2.2388059701492535
+      ]
+    },
+    {
+      "candidate": "F3_MEDIAN",
+      "control": "E0",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 147,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -8.627814088598402,
+        0.4167102510460248
+      ],
+      "week_sensitivity95_pp": [
+        -4.958677685950414,
+        -2.9850746268656714
+      ]
+    },
+    {
+      "candidate": "F3_MEDIAN",
+      "control": "RETAINED_EARLIER_PREVALENCE_V8",
+      "product": "MEDIAN",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 131,
+      "win_change": 6,
+      "change_pp": 2.3529411764705883,
+      "game_id_sensitivity95_pp": [
+        -5.620657860880007,
+        10.62992125984252
+      ],
+      "week_sensitivity95_pp": [
+        -4.132231404958678,
+        8.208955223880597
+      ]
+    },
+    {
+      "candidate": "F1_LAW",
+      "control": "F0_LAW",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 147,
+      "control_wins": 146,
+      "win_change": 1,
+      "change_pp": 0.39215686274509803,
+      "game_id_sensitivity95_pp": [
+        -2.0163330939010056,
+        2.8458188153310084
+      ],
+      "week_sensitivity95_pp": [
+        0.0,
+        0.7462686567164178
+      ]
+    },
+    {
+      "candidate": "F2_LAW",
+      "control": "F0_LAW",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 136,
+      "control_wins": 146,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -7.813265931372548,
+        0.009615384615332146
+      ],
+      "week_sensitivity95_pp": [
+        -5.970149253731343,
+        -1.6528925619834711
+      ]
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "F2_LAW",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 136,
+      "win_change": 1,
+      "change_pp": 0.39215686274509803,
+      "game_id_sensitivity95_pp": [
+        -2.3531727651690595,
+        3.1746031746031744
+      ],
+      "week_sensitivity95_pp": [
+        -2.479338842975207,
+        2.9850746268656714
+      ]
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "F1_LAW",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 147,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -8.077702702702704,
+        0.0
+      ],
+      "week_sensitivity95_pp": [
+        -4.132231404958678,
+        -3.731343283582089
+      ]
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "P2",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 150,
+      "win_change": -13,
+      "change_pp": -5.098039215686274,
+      "game_id_sensitivity95_pp": [
+        -11.153884462151394,
+        1.1904761904761905
+      ],
+      "week_sensitivity95_pp": [
+        -8.264462809917356,
+        -2.2388059701492535
+      ]
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "E0",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 147,
+      "win_change": -10,
+      "change_pp": -3.9215686274509802,
+      "game_id_sensitivity95_pp": [
+        -8.627814088598402,
+        0.4167102510460248
+      ],
+      "week_sensitivity95_pp": [
+        -4.958677685950414,
+        -2.9850746268656714
+      ]
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "RETAINED_EARLIER_PREVALENCE_V8",
+      "product": "LAW",
+      "decided": 255,
+      "candidate_wins": 137,
+      "control_wins": 131,
+      "win_change": 6,
+      "change_pp": 2.3529411764705883,
+      "game_id_sensitivity95_pp": [
+        -5.620657860880007,
+        10.62992125984252
+      ],
+      "week_sensitivity95_pp": [
+        -4.132231404958678,
+        8.208955223880597
+      ]
+    }
+  ],
+  "numerical": [
+    {
+      "season": 2026,
+      "scope": "WR_TE",
+      "rows": 1739,
+      "methods": [
+        {
+          "season": 2026,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 1739,
+          "available": 1739,
+          "known": 1584,
+          "unknown": 155,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1584,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.403521469582737,
+          "median_MAE": 1.3472222222222223,
+          "mean_MSE": 3.6137969013217717,
+          "mean_RMSE": 1.9009989219675458,
+          "mean_bias": -0.06693359650300135,
+          "median_bias": -0.4154040404040404,
+          "absolute_error_p90": 2.99674068005408,
+          "equal_player_median_MAE": 1.1868043154761905,
+          "hard_fallback": 0,
+          "profile_covered_known": 1350,
+          "any_imputed_known": 423
+        },
+        {
+          "season": 2026,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 1739,
+          "available": 1739,
+          "known": 1584,
+          "unknown": 155,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1584,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.4057961834300514,
+          "median_MAE": 1.3352272727272727,
+          "mean_MSE": 3.6121926771939106,
+          "mean_RMSE": 1.9005769327217223,
+          "mean_bias": -0.05679447811529136,
+          "median_bias": -0.42613636363636365,
+          "absolute_error_p90": 3.0284990968468573,
+          "equal_player_median_MAE": 1.1823846726190477,
+          "hard_fallback": 0,
+          "profile_covered_known": 1350,
+          "any_imputed_known": 471
+        },
+        {
+          "season": 2026,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 1739,
+          "available": 1739,
+          "known": 1584,
+          "unknown": 155,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1584,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.395651509725938,
+          "median_MAE": 1.3339646464646464,
+          "mean_MSE": 3.565376690706503,
+          "mean_RMSE": 1.8882205090260256,
+          "mean_bias": -0.04801127491954579,
+          "median_bias": -0.3996212121212121,
+          "absolute_error_p90": 2.924352132107038,
+          "equal_player_median_MAE": 1.1787537202380953,
+          "hard_fallback": 0,
+          "profile_covered_known": 1403,
+          "any_imputed_known": 372
+        },
+        {
+          "season": 2026,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 1739,
+          "available": 1739,
+          "known": 1584,
+          "unknown": 155,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1584,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3985346266109557,
+          "median_MAE": 1.331439393939394,
+          "mean_MSE": 3.567598812191456,
+          "mean_RMSE": 1.8888088342104545,
+          "mean_bias": -0.038724157630156936,
+          "median_bias": -0.4059343434343434,
+          "absolute_error_p90": 2.9190909105632534,
+          "equal_player_median_MAE": 1.1784672619047618,
+          "hard_fallback": 0,
+          "profile_covered_known": 1403,
+          "any_imputed_known": 421
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "scope": "RB",
+      "rows": 686,
+      "methods": [
+        {
+          "season": 2026,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 686,
+          "available": 686,
+          "known": 646,
+          "unknown": 40,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 646,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1654209590517417,
+          "median_MAE": 1.1037151702786379,
+          "mean_MSE": 2.5136603671597366,
+          "mean_RMSE": 1.5854527325529881,
+          "mean_bias": -0.04379191280164116,
+          "median_bias": -0.42879256965944273,
+          "absolute_error_p90": 2.5872761130636492,
+          "equal_player_median_MAE": 1.008306277056277,
+          "hard_fallback": 0,
+          "profile_covered_known": 524,
+          "any_imputed_known": 154
+        },
+        {
+          "season": 2026,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 686,
+          "available": 686,
+          "known": 646,
+          "unknown": 40,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 646,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1603465883484152,
+          "median_MAE": 1.108359133126935,
+          "mean_MSE": 2.4976342161927683,
+          "mean_RMSE": 1.5803905264815934,
+          "mean_bias": -0.05197634778026205,
+          "median_bias": -0.42105263157894735,
+          "absolute_error_p90": 2.55502239377059,
+          "equal_player_median_MAE": 1.0051677489177488,
+          "hard_fallback": 0,
+          "profile_covered_known": 524,
+          "any_imputed_known": 197
+        },
+        {
+          "season": 2026,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 686,
+          "available": 686,
+          "known": 646,
+          "unknown": 40,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 646,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1474840508514585,
+          "median_MAE": 1.0928792569659442,
+          "mean_MSE": 2.4506158822187594,
+          "mean_RMSE": 1.5654443082456684,
+          "mean_bias": -0.02702916504414282,
+          "median_bias": -0.44891640866873067,
+          "absolute_error_p90": 2.583731944340213,
+          "equal_player_median_MAE": 0.9960407647907649,
+          "hard_fallback": 0,
+          "profile_covered_known": 543,
+          "any_imputed_known": 133
+        },
+        {
+          "season": 2026,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 686,
+          "available": 686,
+          "known": 646,
+          "unknown": 40,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 646,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.14734288924474,
+          "median_MAE": 1.088235294117647,
+          "mean_MSE": 2.451336986450021,
+          "mean_RMSE": 1.5656746106551072,
+          "mean_bias": -0.03242278856288733,
+          "median_bias": -0.43498452012383904,
+          "absolute_error_p90": 2.5577904734994448,
+          "equal_player_median_MAE": 0.9862373737373737,
+          "hard_fallback": 0,
+          "profile_covered_known": 543,
+          "any_imputed_known": 175
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "scope": "ALL_SUPPORTED",
+      "rows": 2425,
+      "methods": [
+        {
+          "season": 2026,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 2425,
+          "available": 2425,
+          "known": 2230,
+          "unknown": 195,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2230,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3345470615993187,
+          "median_MAE": 1.276681614349776,
+          "mean_MSE": 3.2951026407528596,
+          "mean_RMSE": 1.8152417582109717,
+          "mean_bias": -0.06022977243525307,
+          "median_bias": -0.4192825112107623,
+          "absolute_error_p90": 2.856081742581063,
+          "equal_player_median_MAE": 1.1346765697429415,
+          "hard_fallback": 0,
+          "profile_covered_known": 1874,
+          "any_imputed_known": 577
+        },
+        {
+          "season": 2026,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 2425,
+          "available": 2425,
+          "known": 2230,
+          "unknown": 195,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2230,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3346928478144742,
+          "median_MAE": 1.2695067264573991,
+          "mean_MSE": 3.289320584903894,
+          "mean_RMSE": 1.8136484182177905,
+          "mean_bias": -0.05539873273572682,
+          "median_bias": -0.4246636771300448,
+          "absolute_error_p90": 2.8571223948388815,
+          "equal_player_median_MAE": 1.1306310577328278,
+          "hard_fallback": 0,
+          "profile_covered_known": 1874,
+          "any_imputed_known": 668
+        },
+        {
+          "season": 2026,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 2425,
+          "available": 2425,
+          "known": 2230,
+          "unknown": 195,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2230,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3237608467515374,
+          "median_MAE": 1.2641255605381165,
+          "mean_MSE": 3.24244598116252,
+          "mean_RMSE": 1.8006793110275134,
+          "mean_bias": -0.04193304936819588,
+          "median_bias": -0.4139013452914798,
+          "absolute_error_p90": 2.785843293329808,
+          "equal_player_median_MAE": 1.1253950695322377,
+          "hard_fallback": 0,
+          "profile_covered_known": 1946,
+          "any_imputed_known": 505
+        },
+        {
+          "season": 2026,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 2425,
+          "available": 2425,
+          "known": 2230,
+          "unknown": 195,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2230,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3257678721990385,
+          "median_MAE": 1.2609865470852017,
+          "mean_MSE": 3.2442332788152375,
+          "mean_RMSE": 1.80117552693102,
+          "mean_bias": -0.036898738608876144,
+          "median_bias": -0.41434977578475335,
+          "absolute_error_p90": 2.803133234290022,
+          "equal_player_median_MAE": 1.1223293299620731,
+          "hard_fallback": 0,
+          "profile_covered_known": 1946,
+          "any_imputed_known": 596
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "scope": "WR_TE",
+      "rows": 1684,
+      "methods": [
+        {
+          "season": 2025,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 1684,
+          "available": 1684,
+          "known": 1557,
+          "unknown": 127,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1557,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3865167868081034,
+          "median_MAE": 1.3057161207450225,
+          "mean_MSE": 3.344922683931027,
+          "mean_RMSE": 1.8289129787748315,
+          "mean_bias": 0.10176830063313476,
+          "median_bias": -0.2780989081567116,
+          "absolute_error_p90": 2.956167461566497,
+          "equal_player_median_MAE": 1.199265283671224,
+          "hard_fallback": 0,
+          "profile_covered_known": 1323,
+          "any_imputed_known": 451
+        },
+        {
+          "season": 2025,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 1684,
+          "available": 1684,
+          "known": 1557,
+          "unknown": 127,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1557,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.382328323847834,
+          "median_MAE": 1.3018625561978163,
+          "mean_MSE": 3.3330620723288384,
+          "mean_RMSE": 1.82566756895357,
+          "mean_bias": 0.11106129174027791,
+          "median_bias": -0.26525369299935775,
+          "absolute_error_p90": 2.905046151744402,
+          "equal_player_median_MAE": 1.1953088165959453,
+          "hard_fallback": 0,
+          "profile_covered_known": 1323,
+          "any_imputed_known": 489
+        },
+        {
+          "season": 2025,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 1684,
+          "available": 1684,
+          "known": 1557,
+          "unknown": 127,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1557,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3664171627496144,
+          "median_MAE": 1.285806037251124,
+          "mean_MSE": 3.2866897782526245,
+          "mean_RMSE": 1.8129229929185147,
+          "mean_bias": 0.0799160921526164,
+          "median_bias": -0.2697495183044316,
+          "absolute_error_p90": 2.8951503662606553,
+          "equal_player_median_MAE": 1.177015558698727,
+          "hard_fallback": 0,
+          "profile_covered_known": 1381,
+          "any_imputed_known": 401
+        },
+        {
+          "season": 2025,
+          "scope": "WR_TE",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 1684,
+          "available": 1684,
+          "known": 1557,
+          "unknown": 127,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 1557,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3656903227449275,
+          "median_MAE": 1.2967244701348748,
+          "mean_MSE": 3.2789423098089703,
+          "mean_RMSE": 1.8107849982283843,
+          "mean_bias": 0.08824347289752575,
+          "median_bias": -0.27167630057803466,
+          "absolute_error_p90": 2.893086162045273,
+          "equal_player_median_MAE": 1.1906137042275657,
+          "hard_fallback": 0,
+          "profile_covered_known": 1381,
+          "any_imputed_known": 444
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "scope": "RB",
+      "rows": 702,
+      "methods": [
+        {
+          "season": 2025,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 702,
+          "available": 702,
+          "known": 660,
+          "unknown": 42,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 660,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.176143592364928,
+          "median_MAE": 1.087878787878788,
+          "mean_MSE": 2.34451796885028,
+          "mean_RMSE": 1.5311818862729145,
+          "mean_bias": 0.06947430608465711,
+          "median_bias": -0.26666666666666666,
+          "absolute_error_p90": 2.3494519210835114,
+          "equal_player_median_MAE": 0.9918586789554531,
+          "hard_fallback": 0,
+          "profile_covered_known": 547,
+          "any_imputed_known": 184
+        },
+        {
+          "season": 2025,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 702,
+          "available": 702,
+          "known": 660,
+          "unknown": 42,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 660,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1744110290505159,
+          "median_MAE": 1.0984848484848484,
+          "mean_MSE": 2.3408735649374264,
+          "mean_RMSE": 1.529991361066273,
+          "mean_bias": 0.06095097221693663,
+          "median_bias": -0.2833333333333333,
+          "absolute_error_p90": 2.367301204128901,
+          "equal_player_median_MAE": 1.007997311827957,
+          "hard_fallback": 0,
+          "profile_covered_known": 547,
+          "any_imputed_known": 204
+        },
+        {
+          "season": 2025,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 702,
+          "available": 702,
+          "known": 660,
+          "unknown": 42,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 660,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1579620314953372,
+          "median_MAE": 1.0909090909090908,
+          "mean_MSE": 2.266120251496286,
+          "mean_RMSE": 1.5053638269522374,
+          "mean_bias": 0.07357692454583084,
+          "median_bias": -0.2727272727272727,
+          "absolute_error_p90": 2.273638071794146,
+          "equal_player_median_MAE": 0.9751536098310293,
+          "hard_fallback": 0,
+          "profile_covered_known": 571,
+          "any_imputed_known": 162
+        },
+        {
+          "season": 2025,
+          "scope": "RB",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 702,
+          "available": 702,
+          "known": 660,
+          "unknown": 42,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 660,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.1561633120239139,
+          "median_MAE": 1.0712121212121213,
+          "mean_MSE": 2.2729824271926717,
+          "mean_RMSE": 1.507641345676309,
+          "mean_bias": 0.06497616007981152,
+          "median_bias": -0.2803030303030303,
+          "absolute_error_p90": 2.3119267650948183,
+          "equal_player_median_MAE": 0.9796370967741935,
+          "hard_fallback": 0,
+          "profile_covered_known": 571,
+          "any_imputed_known": 181
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "scope": "ALL_SUPPORTED",
+      "rows": 2386,
+      "methods": [
+        {
+          "season": 2025,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F0",
+          "eligible": 2386,
+          "available": 2386,
+          "known": 2217,
+          "unknown": 169,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2217,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.323888772224208,
+          "median_MAE": 1.2408660351826792,
+          "mean_MSE": 3.047102606369777,
+          "mean_RMSE": 1.7455952011763143,
+          "mean_bias": 0.09215439156592896,
+          "median_bias": -0.2746955345060893,
+          "absolute_error_p90": 2.7596258931418576,
+          "equal_player_median_MAE": 1.139034794245567,
+          "hard_fallback": 0,
+          "profile_covered_known": 1870,
+          "any_imputed_known": 635
+        },
+        {
+          "season": 2025,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F1",
+          "eligible": 2386,
+          "available": 2386,
+          "known": 2217,
+          "unknown": 169,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2217,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3204314295915283,
+          "median_MAE": 1.241317095173658,
+          "mean_MSE": 3.037687956461301,
+          "mean_RMSE": 1.7428964273476784,
+          "mean_bias": 0.09614346996066346,
+          "median_bias": -0.2706359945872801,
+          "absolute_error_p90": 2.746987486567531,
+          "equal_player_median_MAE": 1.140913906546225,
+          "hard_fallback": 0,
+          "profile_covered_known": 1870,
+          "any_imputed_known": 693
+        },
+        {
+          "season": 2025,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F2",
+          "eligible": 2386,
+          "available": 2386,
+          "known": 2217,
+          "unknown": 169,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2217,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.304360154798409,
+          "median_MAE": 1.227785295444294,
+          "mean_MSE": 2.9828666444415357,
+          "mean_RMSE": 1.7270977518489032,
+          "mean_bias": 0.07802892452948675,
+          "median_bias": -0.2706359945872801,
+          "absolute_error_p90": 2.740297478625039,
+          "equal_player_median_MAE": 1.1183952269432362,
+          "hard_fallback": 0,
+          "profile_covered_known": 1952,
+          "any_imputed_known": 563
+        },
+        {
+          "season": 2025,
+          "scope": "ALL_SUPPORTED",
+          "cohort": "ALL",
+          "week": "ALL",
+          "method": "F3",
+          "eligible": 2386,
+          "available": 2386,
+          "known": 2217,
+          "unknown": 169,
+          "unavailable": 0,
+          "games": 121,
+          "player_games": 2217,
+          "actual_weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "source_row_conditioned": true,
+          "offered_player_mask": false,
+          "mean_MAE": 1.3033142167116083,
+          "median_MAE": 1.2295895354082094,
+          "mean_MSE": 2.9794684611275284,
+          "mean_RMSE": 1.7261136871966252,
+          "mean_bias": 0.08131680331715074,
+          "median_bias": -0.2742444745151105,
+          "absolute_error_p90": 2.727863205741378,
+          "equal_player_median_MAE": 1.1293464926954389,
+          "hard_fallback": 0,
+          "profile_covered_known": 1952,
+          "any_imputed_known": 625
+        }
+      ]
+    }
+  ],
+  "checker_code_SHA256": "cfc898a004d3c970772b9ac79b9d3c6dd67483179673d28c93a45b86e62d5136",
+  "CPU_seconds": 3.812434971,
+  "peak_RSS_bytes": 122712064,
+  "new_fits": 0,
+  "new_GETs": 0,
+  "source_tier": "Timing-unverifiedactual-line/currentrevisedfootballreconstruction;one-daynotauthenticatedavailability",
+  "limits": "Arithmetic/identity/mask/probability checks; rawcontextmeaning/chronologyreusepriorboundedreview,notnewrawrebuild. Twoactualweeks/32gameclusters; broadnumericconditionalstatrowsnotpregameroster; no90%orprofitabilityclaim."
+}

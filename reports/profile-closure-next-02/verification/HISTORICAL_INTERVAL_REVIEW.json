@@ -1,0 +1,63 @@
+{
+  "id": "C04-INDEPENDENT-GAME-INTERVAL-CHECK-v1",
+  "status": "PASS",
+  "checked_UTC": "2026-11-10T19:58:59.565808+00:00",
+  "comparisons": [
+    {
+      "candidate": "F2_LAW",
+      "control": "F0_LAW",
+      "eligible_decided": 255,
+      "independent_games": 32,
+      "own_win_change": -10,
+      "independently_recomputed95_pp": [
+        -7.813265931372548,
+        0.009615384615332146
+      ],
+      "reported95_pp": [
+        -7.813265931372548,
+        0.009615384615332146
+      ],
+      "interpretation": "Gameclusterresamplingamongtwoexposedweeks;notfutureguarantee,notindependentNFLseasons"
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "F1_LAW",
+      "eligible_decided": 255,
+      "independent_games": 32,
+      "own_win_change": -10,
+      "independently_recomputed95_pp": [
+        -8.077702702702704,
+        0.0
+      ],
+      "reported95_pp": [
+        -8.077702702702704,
+        0.0
+      ],
+      "interpretation": "Gameclusterresamplingamongtwoexposedweeks;notfutureguarantee,notindependentNFLseasons"
+    },
+    {
+      "candidate": "F3_LAW",
+      "control": "F2_LAW",
+      "eligible_decided": 255,
+      "independent_games": 32,
+      "own_win_change": 1,
+      "independently_recomputed95_pp": [
+        -2.3531727651690595,
+        3.1746031746031744
+      ],
+      "reported95_pp": [
+        -2.3531727651690595,
+        3.1746031746031744
+      ],
+      "interpretation": "Gameclusterresamplingamongtwoexposedweeks;notfutureguarantee,notindependentNFLseasons"
+    }
+  ],
+  "resamples": 2000,
+  "seed": 661107,
+  "calculation": "Independentlyregradedrowwins/groupedopportunities,registeredratio-of-sumsresampling; noauthorsummarycall",
+  "CPU_seconds": 0.133165425,
+  "peak_RSS_bytes": 47693824,
+  "new_fits": 0,
+  "GETs": 0,
+  "new_NFL_observations": 0
+}

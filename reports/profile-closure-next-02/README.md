@@ -1,81 +1,79 @@
-# PROFILE-INCREMENT-CLOSURE-AND-NEXT-02 — C preliminary executed checkpoint
+# C04 — aligned freshness tested; current packet published
 
-**New public aggregate admissions close the old reception, earlier-attempt and five-state recovery receipt gaps. C04 is currently `PILOT_ONLY`: one saved 2026-W01 F2 fit; no new comparative accuracy result, additional scored NFL week, current packet or website release is claimed here.**
+Revision C04-checkpoint-v2. The preliminary checkpoint remains recoverable at commit `9994055c8dd666be4564e066579856091cb4011e`. This continuation changes no owner, common scorer or prior result.
 
-The common `ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1` protocol and scorer remain unchanged. This is an additive continuation in the existing championship. Earlier negative profile/defense, carry, catchability, calibration, lookback and feature-nonuse experiments remain closed. The [exact registration](../../protocol/PROFILE_CLOSURE_NEXT_02_C.json) and its initial/pilot/pre-capture versions retain the finite resource limits and amendments. The prior canonical [protocol pointer](PREVIOUS_CURRENT_PROTOCOL.json) and [export pointer](PREVIOUS_EXPORT_INDEX.json) are preserved byte-for-byte, with hashes in the current pointers.
+**The aligned one-day rule lost10 correct reception decisions against each own seven-day baseline on the same255 decided offers. Broad numerical error improved slightly in2025 and2026, but offered-player error/probability quality did not. The native direction/probability recipe is closed without gain; numerical evidence is inconclusive.**
 
-## Newly received comparisons and adverse controls
+A genuinely new forecast-only packet is published for WAS–NYG:75 forecasts,25 current-known roster candidates,three references/shadow procedures. Source status19:37:25UTC; issue19:37:43UTC; successful GitHub bound check19:55:36UTC (November10,1:55:36p.m.CST), before November12,7:15p.m.CST kickoff. No offers,selections,prices,EV or primary switch. See [actual server receipt](CURRENT_PUBLICATION_RECEIPT.json), [17-file recovery](CURRENT_GITHUB_READBACK.json) and [issued records](../../prospective/runs/C-C04-20261110-W10-FIRST-01/RUN.json). C's research consumer is verified separately; no original-site consumption is implied.
 
-A's immutable `1511d1c03a7bf0e7a139d38b602daf68620dbf29` and B's `05032e19e30b1f890a6b2679c70d3c97f0bbb2a1` indexes and permitted public members were actually read back. [Admission](intake/ADMISSION.json) is limited to the stated independent integer/Decimal aggregate calculations; private player-row identities, quote clocks, model restoration and inference are not independently established. Source format and retention failures remain recorded. No private rows, models or protected locators were retained.
+## Same-method actual-line results
 
-| Reception procedure / product / point-direction policy | Actual period | Over W-L/N | Under W-L/N | Combined W-L/N | Same fixed-pool control |
-|---|---|---:|---:|---:|---|
-| C old v1.1 pooled P1 median | 2026 W1-7 | 115-70/185 | 274-208/482 | **389-278/667 (58.32%)** | Always-Under344/667; ordinary C Leaf386/667 |
-| C old v1.1 partial P2 median | 2026 W1-7 | 108-67/175 | 277-215/492 | 385-282/667 (57.72%) | Pooled median389/667 |
-| C retained ordinary Leaf median | 2026 W1-7 | 122-80/202 | 264-201/465 | 386-281/667 (57.87%) | Pooled median389/667 |
-| A Leaf median | 2026 W1-7 | 126-86/212 | 258-197/455 | 384-283/667 (57.57%) | Pooled median389/667 |
+Category rec; WR/TE. Requested2026W1–8; actually scoredW2–3 only. Same278 eligible/selected player-games,255 decided,23 unknown participation,32 games. Forecast availability100%; decided coverage91.7%. Zero hard incumbent fallback, zero abstention/push; every Leaf law retains its declared5% earlier-role prior. Native Pinnacle last-recorded actual-line diagnostics; quote availability and venue settlement unverified. These are reconstructed decisions, not originally issued picks.
 
-These are WR/TE point-direction comparisons on the same667 decided cases,81 games,733 outer offers. C products had678 selected/available,55 unavailable and11 selected unknown outcomes. Original/reconstruction, source and timing limits remain; these are timing-unverified actual-line diagnostics. The ordinary Leaf median is3 wins below the pooled median; the received paired game interval spans **-3.15 to+2.39 percentage points**. It does not establish superiority of either procedure or causation by context. Seven point-direction weeks do not qualify probability, EV or Top Picks. Full candidate records, own sides and coverage are in the [received headline](intake/RECEPTION_ALL_RECEIVED_HEADLINE.json) and [intake report](intake/README.md).
+| Exact registered arm / product / rule | Over W–L/N/% | Under W–L/N/% | Combined W–L/N/% | Own baseline / paired change | Brier |
+|---|---:|---:|---:|---|---:|
+| F0: reused C03R1,7d,law direction (=lower median here) |46–33/79/58.23%|100–76/176/56.82%|146–109/255/57.25%|Unchanged support baseline|.266218|
+| F1: reused C03R2,7d,+17 player values,law |45–31/76/59.21%|102–77/179/56.98%|147–108/255/57.65%|Profile F1−F0:+1win,+0.39pp|.268297|
+| F2: same F0,aligned1d,law |38–35/73/52.05%|98–84/182/53.85%|136–119/255/53.33%|Timing F2−F0:−10wins,−3.92pp|.270707|
+| F3: same F1,aligned1d,law |40–36/76/52.63%|97–82/179/54.19%|137–118/255/53.73%|Timing F3−F1:−10wins;profile F3−F2:+1|.270773|
+| Retained C context P2,compatible own rule |35–18/53/66.04%|115–87/202/56.93%|150–105/255/58.82%|Strongest retained direction control|.280738|
 
-A/B's earlier **attempt** join is complete and received:87 outer offers,81 B-available shared cases,6 unavailable,2026 W1-5,47 shared games. B COMMON_EXPOSURE mean scored Over7-4/11, Under34-36/70, **41-40/81 (50.62%)**; its lower median scored Over4-1/5, Under37-39/76, also41-40/81. Always-Over scored **43/81**. Overlapping Week5 A annual and B PropLine physical games are kept separate by source and not added as independent observations.
+Mean-point direction remains distinct: F0/F1/F2/F3 scored137/132/119/119 of255. Full own-side records, weekly/cohort/policy views and states are in [machine-readable headline](HEADLINE_RESULTS.json) and [all scores](timing/ACTUAL_LINE_SCORES.json.xz). No side maxima are spliced into another procedure. P2 direction success does not establish probability quality: neutral0.25 Brier beats every displayed law; E0's.262048 also beats all four F-arm Briers. Always-Under scored133/255; Always-Over122/255, on exactly these cases.
 
-B's completion profile wave was received on112 offers,56 games,2026 W5-8. Each arm had112 eligible/available/selected/decided, zero statistical push or unknown; venue settlement remains unverified. The independently checked public own-side partitions are:
+Game-cluster95% sensitivity for F2−F0 is−7.81 to+0.01pp; F3−F1 is−8.08 to0.00pp. Profile increments cross zero: F1−F0 −2.02 to+2.85pp; F3−F2 −2.35 to+3.17pp. Two exposed weeks and32 dependent game clusters do not establish future superiority, equivalence or a confidence guarantee. The24-hour clock is a reconstructed sensitivity assumption, not authenticated historical publication. Training-label eligibility, training features and queries all change consistently; source vintages, learner settings, masks, strict boundary, existing defense-support definitions and decision rules stay fixed. No new defensive-value effect was tested. The prior C03 player/defense comparisons remain closed and linked [here](../profile-increment-v2/README.md).
 
-| B exact arm, unchanged registered rule | Over W-L/N | Under W-L/N | Combined W-L/N | Owner-reported Brier |
+## Numerical seasons and offered-player distinction
+
+All declared Weeks1–8 are scored for each numerical season. Available-label/stat-row-conditioned populations retain unknowns and startup; they do not become authenticated pregame universes or actual-offer seasons.
+
+| Actual numerical period / known/eligible / games | F0 median MAE | F1 | F2 | F3 |
 |---|---:|---:|---:|---:|
-| R0 | 17-13/30 | 41-41/82 | 58-54/112 (51.79%) | .266847 |
-| R1 | 14-15/29 | 39-44/83 | 53-59/112 (47.32%) | .269303 |
-| R2 | 11-8/19 | 46-47/93 | 57-55/112 (50.89%) | .268401 |
-| R3 | 16-11/27 | 43-42/85 | 59-53/112 (52.68%) | .267743 |
+|2026W1–8 /1584/1739 /121|1.347222|1.335227|1.333965|1.331439|
+|2025W1–8 /1557/1684 /121|1.305716|1.301863|1.285806|1.296724|
+|2026 offered-player W2–3 /255/278 /32|1.745098|1.737255|1.745098|1.760784|
 
-R3 ties earlier-only prevalence59/112; on the strongest saved-control84-case common mask it scored45 versus47. B numerical duration is26 season-weeks; actual-line direction/probability/selection duration remains **four weeks**, below the exact-product primary floor. Brier and private-row calculation scope are owner-reported, not independently recomputed by C in this intake.
+On the identical255 offered players, retained pooled P1 median MAE1.725490 remains better. F3 mean MAE also worsens1.747570→1.760666 against F1. Broad gains cannot substitute for those losses. Profile value under1d reverses: F3−F2 median MAE improves.002525 in2026 but worsens.010918 in2025. Mean errors/MSE/bias/tails,equal-player views,weekly/startup/cohort masks,paired intervals and strongest saved controls remain in [timing results](timing/README.md). No pooled summary hides either season.
 
-A's five-state rushing-efficiency recovery is **complete owner-local**, not a current recovery blocker: its received report records17,856 frozen outputs,4,574 structured,zero refits, with B corroboration. C did not restore protected state bytes. The new A four-arm package is indexed complete; the full newer report was outside this bounded intake and is not wholesale admitted. No owner is asked to repeat completed recovery or fits.
+## Bottleneck, verification and stopping decision
 
-## Bottleneck and bounded new test
+The retained seven-day policy changes latest admitted prior history on194/278 offers; median prior-game age14→7days under the sensitivity. This is a measured coverage/age weakness, not proof that fresher information improves choices. The completed test now supplies an adverse answer for this exact procedure/source panel. Confidence ordering was also weak; no intercept, confidence gate or threshold search was added.
 
-The existing query-only freshness shadow is not equivalent to an aligned training/query comparison. The [retained diagnosis](timing/DIAGNOSIS.json) finds that changing the reconstruction policy changes the latest admitted prior game for194/278 WR/TE offers and changes median admitted game age from14 to7 days. This is a **measured coverage/age weakness**, not a demonstrated causal accuracy penalty or a newly discovered software defect.
+[Exact decisions](KEEP_STOP.json): native direction/probability **CLOSE_RECIPE_NO_GAIN**; numerical **INCONCLUSIVE**; already frozen current packet **SHADOW**. No primary promotion,90% claim or Top Picks change. Numerical products have16 scored season-weeks under their actual reconstruction contract; new exact-line products still have only two. Old pooled point replay's seven weeks qualify only that point product and evidence scope. Five weeks remains necessary,not sufficient,and is not a per-player five-appearance rule. See [product-specific qualification](PRODUCT_QUALIFICATION.json).
 
-C04 reuses C03R1 support baseline as F0 and C03R2 plus17 player-profile values as F1, under the original seven-day rule. F2/F3 use the same respective learner/inputs with an aligned24-hour reconstruction policy in training labels, historical features and inference. No new defense-value, role, architecture, offset or selector block is included. The24-hour policy is **reconstructed timing sensitivity**, not an authenticated publication timestamp. Explicit unknown clocks remain rejected; the strict boundary remains unchanged.
+Independent calculations regrade saved rows and verify masks,denominators,proper scores,reliability,old-output reuse and numerical controls separately from the author summary. One preselected2025W01F3 fresh-fit reproduction is separately counted,not new NFL evidence. Source/finality and36-row current inference checks are retained [here](verification/). Private A/B raw-row and fit parity remains limited; internal C reviews are never peer acknowledgement.
 
-The [pilot](timing/PILOT.json) completed one F2 origin (2026-W01),98,360 model bytes,70.68 process CPU seconds and464,236,544 peak RSS bytes; no comparative scores have been published. [No-fit preparation](timing/PREPARE_RESOURCE.json), [seven-day reuse parity](timing/SEVEN_DAY_REUSE_PARITY.json) and [independent clock-path checks](verification/TIMING_PATH_REVIEW.json) are separate from accuracy evidence. Remaining historical fits require the existing shared-CPU accounting review. This preliminary stage does not complete the requested2026/2025 W1-8 timing test.
+The new typed packet exposed two publication defects: an unrefreshed task hash and a legacy verifier assuming one forecast filename/schema. Both are corrected with failed CI receipts retained; the existing prospective verifier/grader now dispatches the typed law safely. The saved75 forecasts/models/source bytes never changed. The complete recovery appendix retains two originally omitted draft files before first publication. The HTTP cache-age gate was corrected before its first native use. A wrapper metadata path failure cost94.620CPU seconds before any2025 fit; its code/failure is preserved,one preparation repeated,and no completed fit was rerun. These are scoped software/packaging findings,not invented contamination of earlier NFL scores.
 
-## Current query and delivery
+## Refreshed shared receipts and exact remaining actions
 
-[Source readiness](current-source/CURRENT_SOURCE_READINESS.json) qualifies a current-known-season roster candidate contract, with959 basic QB/RB/WR/TE records. The tentative future universe has842 basic records and364 provider-ACT receiving candidates across14 games, **before final native event admission**. ACT is neither a starter nor health nor future participation guarantee; individual transaction-effective clocks remain unknown. No invented Week10 label is attached. Original week-specific gates remain unchanged.
+New limited aggregate admissions genuinely close older A/C reception/Leaf and A/B attempt receipt gaps,plus A's five-state owner-local recovery. Old C pooled median389/667,ordinary Leaf386/667,strongest A medians384/667 on the same old seven-week core; the3-win difference has a paired interval crossing zero. These old procedures do not confer seven weeks on C03/C04. A/B earlier attempts41/81 lose to Always-Over43/81. B's new completion R3=59/112 ties prevalence and loses45vs47 on its stronger84-case mask. [Receipt scope and source-format correction](intake/README.md) remain explicit.
 
-Before current fitting, the native Week9 finality request returned HTTP400. Immutable inputV2 preserves all original predictor bytes and admits1,208 older official-score games plus two retained native-FINAL games at their original observation clocks;13 recent games remain held. The future-event request uses the separately registered single-date route and can qualify only a subset of the14-game candidate board. At this checkpoint the future native status GET is deferred to issuance, current fits/issued forecasts are zero, current offers retrieved are zero, and no current packet/consumer receipt is asserted. Under the existing owner, eligible future forecast-only capture can continue through real inference, durable GitHub persistence and verified consumer readback. Count A, other older eligible products and the original website owner's exact Top Picks replay remain independent; C claims no original-site activation.
+| Remaining cell / owner | Exact next action |
+|---|---|
+|New C03 and C04 reception on A longer board / A; B verifies|Use immutable C03 typed export plus [C04 point handoff](timing/POINT_HANDOFF_MANIFEST.json),fixed733-offer board/full coverage and named667 core where genuinely compatible. Reuse saved outputs,no refit; do not assume new candidates share every old row. Return permitted own-side/matched deterministic outputs. C has not observed receipt/admission.|
+|Earlier B completion forecasts on A offers / A+B|Execute the88 qualified earlier completion offers W1–5 [10,25,26,23,4],distinct from87 attempts; reconcile W5 book/line/time overlap. [Exact bindings](intake/EXACT_NEXT_ACTIONS.json).|
+|Native actual-line gaps / C source and A's owned board|C has lines only W2–3 here. W1,W4–8 plus2025/2022–24 actual-line extensions need qualified retained offers/owner-local joins. No synthetic thresholds or numerical years substitute. Full2025 and older numerical windows outside this bounded W1–8 package remain queued.|
+|Current13 unverified future games / C existing manual source owner|Remain excluded. At next existing permitted batch qualify their native event status/source clocks before any separate packet; never claim the single-date snapshot verified them. No new scheduler or repeated unchanged query.|
+|Current13 recent historical games / C source owner|Remain out of this current training snapshot after HTTP400; two retained native FINAL receipts keep their original clocks. No unqualified score-only admission.|
+|Original-site Count A/other eligible products and exact selector / retained website owner, A producer; B verifies selector|Continue existing current-query delivery,category-product admission and full-board five-week changed-selector replay independently. C neither modifies nor claims verified use on the original website.|
 
-## Requirement completion and next exact owner actions
-
-| Requirement | Current disposition | Owner / next action |
-|---|---|---|
-| Old C pooled/partial and retained Leaf vs A longer reception board | COMPLETE, limited aggregate arithmetic admission | Preserve667 fixed-mask and733 full-board results; no repeat join |
-| New C03 R1/R2/R3 vs longer A reception board | AWAITING OWNER-LOCAL JOIN | A uses already-published a9cb8ef typed points, same fixed667/full733; B verifies permitted outputs |
-| B retained earlier ATT outputs on A offers | COMPLETE, limited aggregate admission | Preserve81-case records and W5 source overlap |
-| B earlier CMP outputs on A offers | INVENTORY PRESENT, JOIN AWAITED | A executes88 W1-5 completion offers [10,25,26,23,4]; B supplies exact unchanged outputs/history bindings |
-| Five saved A efficiency states | COMPLETE OWNER-LOCAL; protected verification limited | No recovery/refit retry; existing public readback/model-check routes named in intake |
-| C04 aligned timing/profile contrast | PILOT_ONLY | C resumes remaining registered origins after shared-resource review; reuse F0/F1 and saved pilot |
-| Current source-qualified packet | INPUTS QUALIFIED; final event/admission/persistence awaited | C source/capture owner, real future clocks, forecast-only unless authentic offers qualify |
-| Original consumer, Count A and changed Top Picks replay | SOLE WEBSITE OWNER; not verified by this intake | Website owner executes; B independently verifies selector; C records actual receipt |
-
-[Exact immutable dependencies and execution owners](intake/EXACT_NEXT_ACTIONS.json) avoid generic waiting and duplicate source acquisition. No other owner's writes, messages or dispatch were performed.
+The next bounded work is saved-output/source closure and grading the genuinely future frozen packet when supported outcomes arrive—not another learner or repetition of the losing timing recipe. Alignment/all-route denominators and authenticated historic observation vintages remain source gaps,not zeros or disproved mechanisms.
 
 ## All twelve category statuses
 
-| Category | Owned status / finite next dependency |
+|Category|Executed status / exact next owner|
 |---|---|
-| pass_yd | B QB/opportunity work; no new C fit or release |
-| pass_td | Existing Count A producer/consumer delivery continues; current activation requires actual owner receipt |
-| pass_cmp | B four-week actual-line increment received; recipe gains insufficient; A's88-offer earlier-line join remains separate |
-| pass_att | Earlier A/B81-case saved-output comparison complete; loses stronger constant control by2 |
-| pass_int | B finite QB/event follow-on; no new C recipe |
-| rush_yd | A five-state recovery complete; new four-arm owner report indexed, not fully admitted by C |
-| rush_att | Closed negative carry findings preserved; no duplicate fit |
-| rec | C03 player/defense actual-line recipe remains CLOSE_RECIPE_NO_GAIN; old seven-week C references received; new C03 A-board join awaited; C04 PILOT_ONLY |
-| rec_yd | Existing bounded receiving-yard follow-on; no new C yard fit in this checkpoint |
-| rush_rec_yd | A/C qualified joint components needed; no addition of marginal medians |
-| anytime_td | Inherited rushing-or-receiving event; real offered side/participation contract required |
-| nick-chart-ppr-v1 | Exact complete component labels and matching real offer contract required |
+|pass_yd|Existing QB/opportunity evidence retained; no new C fit or release. B: B owned finite QB follow-on; actual shared-board gaps remain.|
+|pass_td|Older Count A delivery remains independently eligible under its exact qualification. A/website: A producer + website owner verify current corrector/feed/consumer; C asserts no current activation.|
+|pass_cmp|New B profile wave received: R0/R1/R2/R3=58/53/57/59 of112; R3 ties prevalence and loses stronger matched control. A/B: A joins88 earlier completion offers W1-W5 to B retained forecasts; B verifies; four actual B weeks do not become five.|
+|pass_att|Earlier saved-output join received: B41/81, Always-Over43/81. A/B: Preserve W5 book/line overlap separately; no duplicated offers.|
+|pass_int|Existing event/point records retained; no new C mechanism. B: B exact QB/event queue and qualified thresholds.|
+|rush_yd|Five-state recovery complete owner-local:17,856 frozen rows,4,574 structured,zero refits; protected restoration not verified by C. A: A newer four-arm report indexed, not fully admitted in this bounded intake; retain own controls/losses.|
+|rush_att|Closed losing carry/allocation recipes retained; no duplicate fit. A: A new role/information test only with a materially changed justified hypothesis.|
+|rec|C04 aligned timing COMPLETE:32 historical origin fits plus unchanged baselines; actual native2weeks loses10 wins in each timing contrast. C: CLOSE_RECIPE_NO_GAIN for native direction/probability; numerical INCONCLUSIVE; A owns longer-board C03/C04 joins; genuine W10 shadow captured.|
+|rec_yd|Existing receiving-yard evidence and negative recipes retained; no new yard fit. C: Finite qualified receiving-yard information follow-on; alignment/routes remain source-blocked.|
+|rush_rec_yd|No new complete joint-model test. A/C: Qualified opportunity/efficiency/joint components; never sum marginal medians.|
+|anytime_td|Inherited rushing-or-receiving event; no qualified current event offer in C04. A/B/C: Exact offered side, participation and event contract; no invented No/Under.|
+|nick-chart-ppr-v1|No qualified complete matching chart offer in C04. A/B/C: Complete rare components/unique credits plus exact offered chart contract; legacy fantasy not substituted.|
 
-The requested2026 W1-8 and historical championship remains partial. Intake adds verified receipts and calculation scope, not new football observations. Historical-only, reconstruction and genuine original pregame evidence remain separately typed. Five weeks is product-specific and does not by itself establish support or operational readiness. All original losses, failures, budgets and permission boundaries remain in force.
+The common championship remains partial by named cells. This C package completes its registered2025/2026W1–8 timing experiment and current verified capture; it does not establish an all-category,multiseason A/B/C champion or a production switch. All original losses,versions,source permissions and resource limits remain.

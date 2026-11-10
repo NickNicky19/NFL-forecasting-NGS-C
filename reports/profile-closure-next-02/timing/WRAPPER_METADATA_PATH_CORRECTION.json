@@ -1,0 +1,22 @@
+{
+  "id": "C04-DATASET-METADATA-RELATIVE-PATH-CORRECTION-v1",
+  "recorded_UTC": "2026-11-10T19:49:05.998030+00:00",
+  "failure": {
+    "year": 2025,
+    "phase": "Required preparation completed; before independent dataset save or any new2025 fit",
+    "error": "'protocol/PROFILE_CLOSURE_NEXT_02_C.json' is not in the subpath of '/workspace/ngs-c'",
+    "old_wrapper_SHA256": "75f11069215b8c0680bb1c4bf2194b285f507284c0a8f7f9129b99f9680ee10a",
+    "historical_CPU_consumed_before": 231.637810515,
+    "historical_CPU_consumed_after": 326.25827131,
+    "failed_preparation_CPU_seconds": 94.62046079499999,
+    "attempts_completed_still16": true
+  },
+  "scope": "Operational dataset metadata path only; no scientific core/model/source/policy change",
+  "repair": "Resolve actual relative CLI registration path before rendering repository-relative manifest location",
+  "corrected_wrapper_SHA256": "89fa76a3f2c782f6ae8c828017b822500c61e4adb149b24a4b705d60e45d021f",
+  "frozen_driver_SHA256": "314b4f645a51e2d9c239ea4e18dc6d53db5ec1f3d85de7c2751d45c6d86a0ac7",
+  "new_fits_before_repair": 0,
+  "preserved_failure": "FIT_LEDGER.failures plus versioned wrapper/receipt/ledger snapshots",
+  "retry": "Same already-authorized2025package;16newfits remain, no equivalent refit; real cumulativeCPU575cap retained",
+  "fit_design_origin_unchanged": "2025-W01-F3; chosen before any2025comparative scores"
+}

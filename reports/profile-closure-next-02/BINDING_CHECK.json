@@ -1,0 +1,44 @@
+{
+  "id": "C04-FINAL-CANONICAL-BINDING-CHECK-v1",
+  "checked_UTC": "2026-11-10T20:06:06.061349+00:00",
+  "status": "PASS",
+  "network_GETs": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "model_deserialization": 0,
+  "new_NFL_observations": 0,
+  "canonical_files": [
+    {
+      "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
+      "SHA256": "d33930e9cbf3fabae85081eb774530565fcec781c8dff40de855f2f59929271f"
+    },
+    {
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "SHA256": "3895f563726518c42de859309dbc82df9315251d6c41771d54eafa3865418ebd"
+    },
+    {
+      "path": "reports/abc-championship/TASK_LEDGER.json",
+      "SHA256": "fa8da4f43b46789ac234667c8414eb189a13ac37ca165f97d493ed6ea64ce55b"
+    }
+  ],
+  "current_node_and_evidence_distinct_local_paths_hash_checked": 252,
+  "checked_local_bytes": 8979560,
+  "prior_pointer_snapshots_exact": true,
+  "historical_pointer_sections_unchanged": true,
+  "existing_GitHub17file_receipt_locally_reverified": true,
+  "actual_line_weeks": [
+    [
+      2026,
+      2
+    ],
+    [
+      2026,
+      3
+    ]
+  ],
+  "numerical_scored_season_weeks": 16,
+  "C_research_served_verification": "PENDING_ROOT",
+  "original_site_activation_claimed": false,
+  "failures": [],
+  "scope": "Local permitted byte readback of current canonical bindings, existing finite evidence manifest and prior17file remote receipt. No new HTTP/peer acknowledgement/model execution. Receipt intentionally not self-bound into canonical pointers."
+}
