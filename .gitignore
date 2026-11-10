@@ -25,3 +25,6 @@ reports/player-context-matchup-01/SOURCE_DOCUMENTATION.json
 reports/player-context-matchup-01/FTN_INVENTORY.json
 # Initial failed-report decoded view is retained as FAILED_REPORT_PARTIAL_PAIRS.json.gz.
 reports/player-context-matchup-01/PAIRED_CHANGES.json
+
+# Exact decoded validation metadata is retained losslessly in adjacent .json.gz.
+/reports/player-context-matchup-01/completion-decision-v1/lookback/VALIDATION_SCORES.json

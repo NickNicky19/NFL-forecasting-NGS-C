@@ -1,0 +1,87 @@
+{
+  "id": "C-COMPLETION-ONE-SOURCE-PASS-v1",
+  "checks": [
+    {
+      "id": "FTN_DOCUMENTED_FIELDS",
+      "url": "https://nflreadr.nflverse.com/articles/dictionary_ftn_charting.html",
+      "bytes": 12446,
+      "SHA256": "bf44be8377e470b51b7851c67b04fabdeb9f8d5b3acd903d563515254ffbcd6e",
+      "observed_UTC": "2026-11-10T05:03:02.500685+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 05:03:02 GMT",
+      "definition_excerpts": [
+        "box 10 number of defenders in the box at the snap is_no_huddle logical nh 11 no huddle is_motion logical mot 12 motion occurred on the play before or at the time of the snap is_play_action logical pap 13 play-action pass is_screen_pass logical scre 14 screen pass is_rpo logical rpo 15 play is considered run-pass option is_trick_play logical trick 1",
+        "ders in the box at the snap is_no_huddle logical nh 11 no huddle is_motion logical mot 12 motion occurred on the play before or at the time of the snap is_play_action logical pap 13 play-action pass is_screen_pass logical scre 14 screen pass is_rpo logical rpo 15 play is considered run-pass option is_trick_play logical trick 16 trick play is_qb_out",
+        "e is only used from 2023 onwards; in 2022 primary reads are not coded and appear as NA is_catchable_ball logical cball 21 catchable ball(defined by throws that are generally on target that are not defended away) is_contested_ball logical cnb 22 contested ball(defined by whether or not the receiver is facing physical contact at the time of the catch",
+        "; in 2022 primary reads are not coded and appear as NA is_catchable_ball logical cball 21 catchable ball(defined by throws that are generally on target that are not defended away) is_contested_ball logical cnb 22 contested ball(defined by whether or not the receiver is facing physical contact at the time of the catch) is_created_reception logical c"
+      ]
+    },
+    {
+      "id": "NGS_DOCUMENTED_FIELDS",
+      "url": "https://nflreadr.nflverse.com/articles/dictionary_nextgen_stats.html",
+      "bytes": 16244,
+      "SHA256": "25e9321375451e3d359c64b28d3242f7bff10d5b21f69bf97ee80df6a1739200",
+      "observed_UTC": "2026-11-10T05:03:02.993436+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 05:03:02 GMT",
+      "definition_excerpts": [
+        "a WR/TE and the defender they\u2019re lined up against at the time of snap on all targets. avg_separation numeric The distance (in yards) measured between a WR/TE and the nearest defender at the time of catch or incompletion. percent_share_of_intended_air_yards numeric The sum of the receivers total intended air yards (all attempts) over the sum of his ",
+        "ured between a WR/TE and the defender they\u2019re lined up against at the time of snap on all targets. avg_separation numeric The distance (in yards) measured between a WR/TE and the nearest defender at the time of catch or incompletion. percent_share_of_intended_air_yards numeric The sum of the receivers total intended air yards (all attempts) over th",
+        "does the player account for. receptions numeric The number of receptions for the receiver targets numeric The numnber of targets for the receiver catch_percentage numeric Percentage of caught passes relative to targets yards numeric The number of receiving yards rec_touchdowns numeric The number of touchdown receptions avg_yac numeric Average yards",
+        "ceptions numeric The number of receptions for the receiver targets numeric The numnber of targets for the receiver catch_percentage numeric Percentage of caught passes relative to targets yards numeric The number of receiving yards rec_touchdowns numeric The number of touchdown receptions avg_yac numeric Average yards gained after catch by a receiv"
+      ]
+    },
+    {
+      "id": "ACTUAL_OFFER_EXTENSION",
+      "url": "https://huggingface.co/api/datasets/propline/graded-player-props-sample",
+      "bytes": 1820,
+      "SHA256": "874b44257b28b1064f3743a19b735b45df25f6121c79fd0cde26e375bd303523",
+      "observed_UTC": "2026-11-10T05:03:03.230521+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 05:03:03 GMT",
+      "revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+      "lastModified": "2026-09-29T16:28:23.000Z",
+      "files": [
+        ".gitattributes",
+        "README.md",
+        "mlb_graded_props_14d_part1.csv.gz",
+        "mlb_graded_props_14d_part2.csv.gz",
+        "nfl_graded_props_14d.csv.gz"
+      ],
+      "prior_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+      "disposition": "UNCHANGED_IMMUTABLE_W2_W3_SAMPLE_NO_FRESH_OPEN_OFFERS"
+    }
+  ],
+  "requirements": [
+    {
+      "group": "Actualreceiveralignment",
+      "needed": "snap/route player+nativeevent+starting alignment slot/outside/inline/backfield,offenseorientation,motionactor,alluntargetedroutes,issue/version/rights",
+      "state": "SOURCE_BLOCKED",
+      "observed": "ExistingPBPdestinationnotalignment;29FTNfieldsnoallroutedenominator;playmotionnotactor",
+      "years": "Historical2022-26andcurrentfutureexplicitversionsrequired",
+      "next_owner": "C sourcequalification;ownerlicensedexport scope decisionifnewsource offered"
+    },
+    {
+      "group": "Allroutesandtargetprobabilityperroute",
+      "needed": "Everyeligibleplayerroute includinguntargeted,teamdropbacks,passprotectionvsroute,statusclock",
+      "state": "SOURCE_BLOCKED",
+      "observed": "Snaps/personnelnotroutes;participationpostseasonclockdoesnotproveinseasoneligibility",
+      "next_owner": "C,existingqualifiedlicensedexport"
+    },
+    {
+      "group": "QBreceiverpairs",
+      "needed": "Nativepasser/receiver/event/play,historicalrole,officialattemptfilter,unallocatedtargetbucket",
+      "state": "SUPPORTED_TARGETING_PROXY",
+      "observed": "ActuallyaccessibleordinaryPBP2024/25/26;target/attemptdenominatorscanqualify,notroutepreferences",
+      "next_owner": "C profileexports;B consumesforQBownedtests"
+    },
+    {
+      "group": "Laggedseparation",
+      "needed": "Nativeplayer/game/week,eligible-targetdenominator,measurementtiming,depth/route/screencontext,publicanalysis+retentionrights",
+      "state": "SOURCE_BLOCKED_FOR_REQUESTED_CONTEXT_TEST",
+      "observed": "NGSdictionarydescribestargetedseparation,notallrouteopenness;existingrawNGSholdsretained,nonewlicensedcontextualrowsorhistoricalvintagesqualified",
+      "next_owner": "C sourceowner;smallscopedapprovedexport,notpublicmirrorworkaround"
+    }
+  ],
+  "source_rights": "ExistingordinarynflversefactsCCBY4;FTNCCBYSA4separate;NGSrightsnotinferredfrompublicURL",
+  "new_collectors_accounts_credits_or_paidcalls": 0,
+  "raw_protected_tracking_rows_published": 0,
+  "source_blocked_not_disproved": true
+}

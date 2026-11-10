@@ -1,0 +1,1 @@
+Ordinary roster/player/play facts: nflverse/nflverse-data, CC BY 4.0; schedule: nflverse/nfldata. Native event-status facts: public ESPN scoreboard. Source versions are actually observed now; original historical publication times remain unknown. No odds, presentation, tracking or protected alignment/route data.

@@ -1,0 +1,589 @@
+{
+  "schema": "C-ASOF-RECEIVING-PROFILE-v1",
+  "profile_rows": 53,
+  "query_rows": 53,
+  "role_counts": {
+    "TE": 10,
+    "QB": 8,
+    "WR": 20,
+    "RB": 15
+  },
+  "states": {
+    "UNQUALIFIED_ROSTER_OR_STATUS_VERSION": 53
+  },
+  "source_manifest": {
+    "snapshot_path": "sources/player-context-matchup-01/completion-decision-v1/current-query",
+    "snapshot_manifest_SHA256": "5f3fc6e8554ec068f56b336492f7665458c4e8a4e9c04f75799d0835dbe2bf6e"
+  },
+  "profiles": {
+    "path": "PROFILES.json.gz",
+    "bytes": 55371,
+    "SHA256": "484c20df5c3f4d38cffe67422db0745c17075f377395621e55c05c9d708a1841"
+  },
+  "records": [
+    {
+      "profile_id": "4c3f2deb30e26c4292b74e33232e3be935f5017179e4789c6edb6aaa514b0a8c",
+      "player_id": "00-0031484",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "TE",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "a4e43d5150fec3ce0b2279458e165fd0679891f3e8ca2636ff0de9e09ccfe322",
+      "player_id": "00-0031503",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "QB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "7243e6f4278d095c06efb553d22803ded4a4164fd92fbb3e57bbc8d307f0e986",
+      "player_id": "00-0031588",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "399c03aadd1badbe531f0df8e76c23c0edec60e08a1c5282de618171a19952c0",
+      "player_id": "00-0032268",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "QB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "c37b0f4a9e15acad09a17df8bb2d52d60271c40455543f689e574f4656957148",
+      "player_id": "00-0033376",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "2e8b322dc19d6193bedd11ff75c5fc1f39cc27a300821b1b0b44627ebf42b02e",
+      "player_id": "00-0033699",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "ffc08ffba67a65e1695d3e3f35ca326f22ff82755b3e4e183ab57e268702c2c0",
+      "player_id": "00-0033955",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "504d6039632ffd4868c3677752b3a70c8d8555628a3d6f434725bfd610fdb46b",
+      "player_id": "00-0034419",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "82e59e4b294c53962b034d955b44b31827df3fb4810479ac9d6f93b1427c5ac6",
+      "player_id": "00-0035250",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "8ee6876ec4b91241f5c87f0d6b08b10b337f5bd28974875de57d641042884edb",
+      "player_id": "00-0035567",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "00516e6ba5f4b830af0b0ae0beb31b17502dfd5707a14ad99ef70e7230aa1865",
+      "player_id": "00-0035645",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "466def0a3bd77429f6919aa096512b8508d857dee30c640c169338b1ca14c13e",
+      "player_id": "00-0035659",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "c9b9eeeb87aeb134d38fb357265bd00af10ab5ca33931822147c23e9a077f46b",
+      "player_id": "00-0036309",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "5999cd765e46987b1a284b212123757fd7fc3ab74acb9bf6e0aa89d309aed7aa",
+      "player_id": "00-0036415",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "1cdee230b4b3d7880fefca123ee5d7a8587c4117571a6be8d3f17f8dcb468020",
+      "player_id": "00-0036626",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "ebee722a9d0e99ba603fc6d1459ea65ea3a7ae0f2a3a10976c88f1de6fe16910",
+      "player_id": "00-0036628",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "9bd80bdc4d993fc7e4532b63e0ed217449850875a4ab1629a74dd12772f9a516",
+      "player_id": "00-0037256",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "b68d7f967062e146524c80ea5c89f84de6564218e3dfafd587b7fb7bfc2286a3",
+      "player_id": "00-0037742",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "1f0a4ffe00a40a7575491cdaa03ddd6aaef10100cae732a0831b21cca8a2da68",
+      "player_id": "00-0037809",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "62f889b1772435fbb6e56e71f78afae77453df5b6e323e51be510abb00221dac",
+      "player_id": "00-0037837",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "111d133411dd15a0675560ec1dc4bfd515bd4b56ff3d1eadd96fbccae9230f2f",
+      "player_id": "00-0037838",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "TE",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "da460d5cdf2bf1cc1ed6d7746d73cb140db9172991bfab206dbc8c9fa3079acc",
+      "player_id": "00-0038396",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "ab73cebc002dd92ff07b2108cfde200eb35935792b3d7db987635ce2ea78ea47",
+      "player_id": "00-0038576",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "6416ad70e0292f38dbbb0494a5e88e9730f2fba600641f79734b12ad91731399",
+      "player_id": "00-0038938",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "513c65343f4ca9275c9ec009fc4e5aaf6761cf68b7edaa56645b5fef57d50612",
+      "player_id": "00-0038998",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "QB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "887bea1157d5451aceb12667927ea20a2a37bff52101ec357537246b9914c186",
+      "player_id": "00-0039305",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "7bc70c5c4c9b3181de02cb7882a436056f83543ed951c2ee45508b1f47b84b5d",
+      "player_id": "00-0039337",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "25491bd8554cb3c5d3e8d0e2158b5fa5973e6746612f52a2e86838d7aae8dfe8",
+      "player_id": "00-0039355",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "9c184265237c105ab64704794c9522394de3251600186a66821b70e4c1f1dc38",
+      "player_id": "00-0039384",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "9d9eb13781b46040085e85ff1b9555492157d1faed2d5400d3a5da142a03d91c",
+      "player_id": "00-0039677",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "QB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "e280f9fb0da9120d0c63714d5ef29511ada492983ba96f3afefab3eb6e32c1b2",
+      "player_id": "00-0039686",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "001e04f78051c17b4ad669e6a926070b09830b549aaeacedec5a046056a60f64",
+      "player_id": "00-0039847",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "TE",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "f2a971499c7b160cd6c93b570e091ddf7a589e9301f534512c0ce774680201bb",
+      "player_id": "00-0039910",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "QB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "1026d067bed21e49bc79756dab63953333d9f353991032b7fa249f70282234d3",
+      "player_id": "00-0039912",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "cab295c438ddf473003c8d0a94d9e5b88b56455fe223ade0171cf623fa34a0a5",
+      "player_id": "00-0039923",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "QB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "72da54583ffad76371bea2c08875d6276e86d781ca7ab384c25834002d20f5de",
+      "player_id": "00-0040021",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "83a0e94530a2f01d28679113e62d6a904721854b8bd85b162bc662103b025198",
+      "player_id": "00-0040164",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "d8e6f2413d2c096dd96bbb4c2833d87aee3bde69efe9384b4e56c23376b0455e",
+      "player_id": "00-0040202",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "cd61ef218dafa3b84b3faebca7e524dd8c362d00d032d5a7093d1fdb039916e0",
+      "player_id": "00-0040225",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "TE",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "5a232e408fefbc37870780dd1014b54ab046500c6dd8fc757d2de1c7be401ebe",
+      "player_id": "00-0040242",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "7af86c73526d8718ea0811f0cf6c5ccecf00c4c006fa8c1e583bf83670c54074",
+      "player_id": "00-0040431",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "e28d72bcdf7e7eec53f181f7920d81c1687dcdae78a41ea01bce4c877846994f",
+      "player_id": "00-0040498",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "8c229763fa7621ac6abf6dffb0e671f81ff1adf026608d42a8eba470fafd80dc",
+      "player_id": "00-0040691",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "QB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "959610b726bde57deb8e85af6ce3f008ba1e888bde9e4c9bd9e6e3393a6b5cad",
+      "player_id": "00-0040715",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "a5cdaeb386152a127c17f6bb461bdde39e6d035e63a7cb68645c8b3777670736",
+      "player_id": "00-0041040",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "c32eef439a2f68729d3c628a66839dcfdc596cf2a17cbaffd9da8ee18e149ab6",
+      "player_id": "00-0041042",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "WR",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "c6612721cc96bbfab025250be0c282ab5255e5ccdf717fc0731ba042be2e7cc3",
+      "player_id": "00-0041117",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "QB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "ef86aab06ac341a5b767644e4b3c5cab46f579a1fd5be84d3f833ce0dacfeb98",
+      "player_id": "00-0041176",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "439ca7b8863ef68069695e0ff78563dee21daff9e3464be8768222b6e096e6e2",
+      "player_id": "00-0041178",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "RB",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "84dcd86f4e17fcf23d9a08f65d588a8bad23c8afc13034d2a9d3fde21b3a5722",
+      "player_id": "00-0041180",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "TE",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "d209128aa4684b77eb89c73885f8e30d425eab3578691c3f692b1115a6684a91",
+      "player_id": "00-0041317",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "WAS",
+      "position": "WR",
+      "opponent_team": "NYG",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "04ec4183f04a2a9450cc4b97c778e6689bedea452cbc5f242006e11498c81957",
+      "player_id": "00-0041376",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    {
+      "profile_id": "d7c58462e160fadc4b9173942e44f88d7ddf172339050f53acacd6cadac20578",
+      "player_id": "00-0041585",
+      "game_id": "2026_10_WAS_NYG",
+      "team": "NYG",
+      "position": "RB",
+      "opponent_team": "WAS",
+      "information_cutoff_UTC": "2026-11-10T04:54:42.615077+00:00",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    }
+  ],
+  "excluded": [],
+  "actuals_required": false,
+  "models_fitted": 0,
+  "qualified_offers": 0,
+  "primary_admission": false,
+  "examples": {
+    "ordinary": {
+      "profile_id": "001e04f78051c17b4ad669e6a926070b09830b549aaeacedec5a046056a60f64",
+      "player_id": "00-0039847",
+      "name": "Theo Johnson",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    "sparse": {
+      "profile_id": "111d133411dd15a0675560ec1dc4bfd515bd4b56ff3d1eadd96fbccae9230f2f",
+      "player_id": "00-0037838",
+      "name": "Isaiah Likely",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    "unseen_or_no_history": {
+      "profile_id": "62f889b1772435fbb6e56e71f78afae77453df5b6e323e51be510abb00221dac",
+      "player_id": "00-0037837",
+      "name": "Calvin Austin III",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    },
+    "known_zero": {
+      "state": "NO_REAL_CASE_IN_DECLARED_UNIVERSE;software_fixture_separate"
+    },
+    "missing_source": {
+      "profile_id": "001e04f78051c17b4ad669e6a926070b09830b549aaeacedec5a046056a60f64",
+      "player_id": "00-0039847",
+      "name": "Theo Johnson",
+      "state": "UNQUALIFIED_ROSTER_OR_STATUS_VERSION"
+    }
+  }
+}

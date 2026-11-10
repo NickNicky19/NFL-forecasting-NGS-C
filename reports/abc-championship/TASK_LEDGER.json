@@ -200,9 +200,10 @@
   {
     "task_id": "A_REVIEW_C_CONTEXT_ACCEPTANCE",
     "owner": "A",
-    "state": "AWAITING_ACTUAL_PEER_RECEIPT",
-    "artifact": "Cpublicacceptancebindings andsafe model/raw scripts",
-    "next_action": "A executes/reuses independent checks and publishesreceiptinexistingexportindex"
+    "state": "RECEIVED_SCOPED_PEER_REVIEW",
+    "artifact": "reports/player-context-matchup-01/completion-decision-v1/intake/ADMISSION.json",
+    "next_action": "No repeatreview; preserveunknownindependentfit/privateparitylimits",
+    "prior_state_preserved_in_Git": "AWAITING_ACTUAL_PEER_RECEIPT"
   },
   {
     "task_id": "B_PRIVATE_CONTEXT_ROW_VERIFICATION",
@@ -210,5 +211,40 @@
     "state": "OWNER_LOCAL_REQUIRED",
     "artifact": "B112exactofferrows/TopKcommitments",
     "next_action": "B/sourceownerregradeunderboundcontracts andreturnpermitteddeterministicoutputs;no forcedrawexport"
+  },
+  {
+    "task_id": "C_CONTEXT_DECISION_WAVE01",
+    "owner": "C",
+    "state": "EXECUTED_LOOKBACK_CLOSED;PROFILE_GATE_BLOCKED",
+    "artifact": "reports/player-context-matchup-01/completion-decision-v1/README.md",
+    "next_action": "No unchanged fitretry; refresh exactroster/modelgateonlyforfuturecapture"
+  },
+  {
+    "task_id": "A_REC667_STRONG_CONTROL_JOIN",
+    "owner": "A",
+    "state": "PREPARED_OWNER_LOCAL_EXECUTION_REQUIRED",
+    "artifact": "reports/player-context-matchup-01/completion-decision-v1/intake/STRONG_CONTROL_OWNER_LOCAL_HANDOFF.json",
+    "next_action": "Same667fixedmask plusfull733coverage; joinstrongALeaf,CretainedLeaf,Bcompatibleoutputs;Bverifies"
+  },
+  {
+    "task_id": "A_EXTEND_C_POINTS_WEEK8",
+    "owner": "A",
+    "state": "C_SAVED_OUTPUT_MAPPING_PUBLISHED;A_EXECUTION_NOT_OBSERVED",
+    "artifact": "reports/player-context-matchup-01/completion-decision-v1/C_EXISTING_POINTS_W08.json",
+    "next_action": "QualifyW8lineboard/horizon/labels; scoreexistingCpoints unchanged; do notspliceoriginalissuance"
+  },
+  {
+    "task_id": "B_ATTEMPT_EARLY_A_OFFERS",
+    "owner": "A/B",
+    "state": "EXISTING_PREPARED_OWNER_LOCAL_JOIN_REQUIRED",
+    "artifact": "Bbf351256export/Aownedearlieractualattemptoffers",
+    "next_action": "AexecuteswithBexactforecastbindings;de-dupW5overlap;completionoffersseparate"
+  },
+  {
+    "task_id": "C_TRUE_ALIGNMENT_ROUTE_SOURCE",
+    "owner": "C",
+    "state": "SOURCE_BLOCKED_UNTESTED",
+    "artifact": "reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json",
+    "next_action": "Qualifiedall-routealignmentexportwithdenominator/rights/clocks;noinferfromdestination"
   }
 ]

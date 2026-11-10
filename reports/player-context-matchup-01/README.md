@@ -41,3 +41,5 @@ Publication checkpoint: PR #34 merged at d405edd56ed78cdaed1d7aad6b2fc12bf68ae05
 [Independent publication check](PUBLICATION_INDEPENDENT_VERIFICATION.json) and [all twelve JAX–BAL forecast-only scores](JAXBAL_FORECAST_ONLY_SCORES.json) retain their verification limits. The [resource failure/remedy](SHARED_STORAGE_GUARD_FAILURE_AND_REMEDY.json) and [current resource status](FINAL_RESOURCE_STATUS.json) are separate from scientific gains.
 
 Acceptance continuation: [independent scope/reproduction verdicts, peer-review limits and append-only later grades](acceptance-v1/README.md). This does not promote the original negative proxy experiment.
+
+[Completion and keep/stop continuation](completion-decision-v1/README.md): genuine peer intake, roster-driven profiles, earlier-selected lookback comparison and bounded decisions; no primary promotion.

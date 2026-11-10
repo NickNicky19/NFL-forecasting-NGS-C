@@ -1,0 +1,43 @@
+{
+  "ordinary_feature_order": "src/data_v2.py:vector E0_OP exact32slots;source codebound bymodelmetadata",
+  "own": {
+    "order": [
+      "qualified_appearance_count",
+      "target_count",
+      "team_attempt_count",
+      "last_eligible_game_age_days",
+      "no_positive_target_context",
+      "targets_per_team_attempt",
+      "targets_per_appearance",
+      "completions_per_target",
+      "air_yards_per_known_air_target",
+      "YAC_per_known_complete_target",
+      "short_to_go_target_share",
+      "redzone_target_share",
+      "depth_share_behind",
+      "depth_share_0_9",
+      "depth_share_10_19",
+      "depth_share_20plus",
+      "depth_share_unknown",
+      "down_share1",
+      "down_share2",
+      "down_share3",
+      "down_share4",
+      "down_share_unknown"
+    ],
+    "window": "MODELARM4/8/16ownappearances;nameswith8inlegacybuilderdo notassertfixed8innewrecipe",
+    "known_zero_coarsening": "Legacyrepresentationpreserved;zero-volume-derivedratiosNaNwithqualitywhenalltargetcounts0"
+  },
+  "opponent": [
+    "eligible_games8",
+    "targets8",
+    "latest_game_age_days",
+    "no_positive_target_context",
+    "offense_adjusted_completion_residual",
+    "offense_adjusted_WRTE_target_share_residual"
+  ],
+  "opponent_window": 8,
+  "lookback_selection": "2025W1-W8endtoendWRTErecmedianMAE;notactualprop-optimized",
+  "dtype": "float64input;training-onlymedianimpute/missingflags/center/scale",
+  "current_actual_offer_metric_view": "src/receiving_lookback_results_c02.py:metric_rows()"
+}
