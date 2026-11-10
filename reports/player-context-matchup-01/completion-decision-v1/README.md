@@ -87,3 +87,7 @@ The one bounded [source pass](SOURCE_QUALIFICATION.json) reused prior qualificat
 | Older-season actual-offer coverage | Missing qualified boards remain explicit; 2025 validation is numerical, 2022–24 training is not testing |
 
 All twelve category dispositions are retained in the canonical continuation status. No private archives were moved, no production owner changed, and no website or selection release was performed. Only byte-identical temporary software duplicates and an unused browser video encoder were reclaimed; all NFL evidence and old archives remain. The pilot retention amendment is finite and preserves the unchanged whole-C cap. HTTP header normalization was repaired prospectively; one byte-identical roster readback recovered metadata without reassigning the original profile cutoff.
+
+## Recovery and publication
+
+The first immutable C publication is `19cd7910afd55f566a8d1251bc3b6564c2199a54`, [PR37](https://github.com/NickNicky19/NFL-forecasting-NGS-C/pull/37). [Fresh GitHub recovery](FRESH_GITHUB_RESTORATION.json) fetched four exact objects (33,271 bytes) and independently calculated a real losing Under case from the restored primitive coefficients: mean2.2849700522, U.6000283897 at2.5, actual3, LOSS. The profile index restored53 preliminary/unqualified rows. GitHub's server PR creation clock is retained; client commit dates are not used as proof of issuance. This is profile/evidence publication, not a forecast/selection capture, live consumer acknowledgment or deployment.
