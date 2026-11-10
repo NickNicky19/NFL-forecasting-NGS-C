@@ -91,7 +91,7 @@
       "threads": 1,
       "fit_workers": 1
     },
-    "execution_authorized": true,
+    "execution_authorized": false,
     "reference_policy_correction": "Actualprospective_v4.qualified_training_frame usesobservedsource-final labels andObservedHistory currentquery; historicaltrainingfeatureHistory retains7d. Do notcallthis all7daligned orC03F0. Reuseexactcode/eligibilityinclheld_ungraded_games.",
     "three_models_frozen_UTC": "2026-11-10T19:04:10.433397+00:00",
     "draft_allocation_reason": "Beforeanycurrentfit:3primitiveJSONmodelsandfulltrainingX/y/identitymembershiprequirefinite6MiBcompressedretention;2MiBinitialestimateunmeasured. Public8MiB/globalcapunchanged;nonewstoragepurchase.",
@@ -99,16 +99,18 @@
     "independent_gate": "PASS beforefits:verification/FINALITY_REVIEW_V2.json andSTATUS_GATE_REVIEW.json;reviewscopeexplicit,actualfuturestatus/issuance/serververificationstillrequired",
     "finality_gate": "Preservev4:recentgames<7drequirematchednativeFINALorretainednativefinalgrade;older>=7drequireofficialscores+observedstats. Applysamequalifiedcompletedwhitelisttoall3modelhistory/context/labels;unverifiedrecentgamesheld.",
     "final_status_route_amendment": "reports/profile-closure-next-02/CURRENT_STATUS_ROUTE_AMENDMENT.json",
-    "source_finality_resolution": "GET9HTTP400preserved;>=7dayofficialscores+2retainednativeFINALgamesadmitted;13recentheld. Currentreceiptislimitedsourcepanel,notfullrecenthistory."
+    "source_finality_resolution": "GET9HTTP400preserved;>=7dayofficialscores+2retainednativeFINALgamesadmitted;13recentheld. Currentreceiptislimitedsourcepanel,notfullrecenthistory.",
+    "completed_run": "prospective/runs/C-C04-20261110-W10-FIRST-01",
+    "future_fits_consumed": 3
   },
   "decision": "Existing1pp/.005Brier descriptive review plusstrongmatchedcontrols;negativeclosesexactrecipe,no90requirement. Fiveweekduration/source/support/operatinggatesseparate.",
   "ownership": "OneCtimingimplementation;Aprivatejoins/recoveryandproducer,BQB/independentselection,originalwebsiteownerrelease. No messages/writes/jobdispatchelsewhere.",
-  "execution_scope": "ONE2026W01F2PILOT_ONLY;nootherfitsuntilrootreview",
+  "execution_scope": "COMPLETE_2026_THEN2025_W1_W8_F2_F3;REUSE_PILOT_AND_ALL_F0_F1",
   "budget": {
     "F2_F3_new_fits_max": 32,
     "F0_F1_equivalent_refits": 0,
     "learner_families": 1,
-    "CPU_seconds": 900,
+    "CPU_seconds": 575,
     "RSS_bytes": 1288490188,
     "process_wall_seconds": 1500,
     "threads": 1,
@@ -122,7 +124,7 @@
     "SHA256": "48bd397a4e9e9a7a77894e70fcf54e6460606a401bb4480c2823ed94dd8d2bd7"
   },
   "pilot_authorization_UTC": "2026-11-10T18:58:28.481853+00:00",
-  "shared_compute_accounting": "Totalnewfeature/fit/independent-verificationprocessCPU900s;beforefullhistoryauthorize remainingaftercurrentcapture+prepare; consumedledgersneverreset.",
+  "shared_compute_accounting": "900CPUwholewave:actualbeforehistory301.502s,incl70.885historicalpilot. Historicalcumulative575max(504.115remaining),laterverification+viewsreserved90;expectedtotal895.618max;allactualledgerspreserved. No refitofcurrentmodels/oldF0F1/pilot.",
   "pilot_registration": {
     "path": "reports/profile-closure-next-02/PILOT_REGISTRATION.json",
     "SHA256": "eae556a49575268f76d1fbc78b8bd1c069d8e64997c2bde90b56277de378c153"
@@ -134,5 +136,10 @@
   "pre_finality_registration": {
     "path": "reports/profile-closure-next-02/PRE_FINALITY_REGISTRATION.json",
     "SHA256": "df41e4836d590c686d07872024ab94b2aae62ebc79e9407c0247bb8ab5a2a9a8"
-  }
+  },
+  "capture_execution_registration": {
+    "path": "reports/profile-closure-next-02/CAPTURE_EXECUTION_REGISTRATION.json",
+    "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
+  },
+  "historical_full_authorized_UTC": "2026-11-10T19:42:22.032675+00:00"
 }

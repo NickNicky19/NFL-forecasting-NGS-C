@@ -784,14 +784,14 @@
   "profile_closure_next_02": {
     "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
     "recorded_UTC": "2026-11-10T19:20:17.431217+00:00",
-    "stage": "CURRENT_CAPTURE_LOCAL_PENDING_SERVER;HISTORICAL_PILOT_ONLY",
+    "stage": "CURRENT_PACKET_GITHUB_RESTORED;HISTORICAL_FULL_AUTHORIZED;CI_BINDING_RECHECK_PENDING",
     "report": {
       "path": "reports/profile-closure-next-02/README.md",
       "SHA256": "caa4125c8137d3e82f564db794d71727a7b47f465944defcd0ade6c8a2e067b2"
     },
     "registration": {
       "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
-      "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
+      "SHA256": "bb2e118bf6d4fdab9d1ef78cf398811b184d42b25da52ea566166fc93046eefe"
     },
     "initial_registration": {
       "path": "reports/profile-closure-next-02/INITIAL_REGISTRATION.json",
@@ -885,6 +885,10 @@
     "current_capture_local": {
       "path": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
       "SHA256": "6708c6877f830f6aa027b8b31c192bb8f51c74b01b435a9414252c34696fc3ab"
+    },
+    "capture_registration": {
+      "path": "reports/profile-closure-next-02/CAPTURE_EXECUTION_REGISTRATION.json",
+      "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
     }
   }
 }
