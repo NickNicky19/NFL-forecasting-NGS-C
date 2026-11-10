@@ -1,0 +1,21 @@
+{
+  "id": "C04-CURRENT-SEASON-ROSTER-SOURCE-QUALIFICATION-v1",
+  "registered_UTC": "2026-11-10T18:43:16.614057+00:00",
+  "owner": "C-c04_current_source",
+  "delegated_scope": "Current-season roster definition/data qualification andonefuturefootballsnapshot only;nofitsorforecastissuance",
+  "GET_limit": 8,
+  "total_response_bytes_limit": 33554432,
+  "per_response_bytes_limit": 12582912,
+  "raw_retention": "Fullrawresponsesmemoryonly;minimalusedordinaryfactprojections/sourceclocks/hashesretainedinC",
+  "sources": [
+    "nflreadr load_rosters documentation",
+    "nflverse rosters/roster_2026.csv",
+    "nflverse current games.csv",
+    "nativefutureeventscoreboard",
+    "nflverse weekly2026 playerstats",
+    "nflverse2026PBP existing43-factual-columnprojection"
+  ],
+  "source_first_gate": "Qualifycurrent-season roster semantics beforedependentfullsourceacquisition; noWeek10fabricationfromWeek9",
+  "no_protected_or_paid_data": true,
+  "no_schedule_or_background_collection": true
+}

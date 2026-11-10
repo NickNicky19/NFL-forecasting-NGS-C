@@ -1,0 +1,62 @@
+{
+  "id": "C04-FINITE-ROSTER-AMENDMENT-v1",
+  "scorer": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1 unchanged",
+  "family": "Same retained count Leaf,32trees/depth8/minleaf30/seed1701/5%role prior",
+  "arms": [
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0",
+      "source": "REUSE C03 R1",
+      "features": 41,
+      "clock": "strict+7day reconstruction",
+      "outputs": [
+        "EXPECTED_MEAN",
+        "LOWER_MEDIAN",
+        "EXACT_LINE_LAW"
+      ],
+      "rule": "Unroundedpointvsretainedline;lawargmaxsupportedside;tiesseparate;unchangedcommonstatisticalgrader"
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1",
+      "source": "REUSE C03 R2",
+      "features": 58,
+      "clock": "strict+7day reconstruction",
+      "outputs": [
+        "EXPECTED_MEAN",
+        "LOWER_MEDIAN",
+        "EXACT_LINE_LAW"
+      ],
+      "rule": "Unroundedpointvsretainedline;lawargmaxsupportedside;tiesseparate;unchangedcommonstatisticalgrader"
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F2",
+      "source": "New same F0 learner",
+      "features": 41,
+      "clock": "strict+1day reconstruction",
+      "outputs": [
+        "EXPECTED_MEAN",
+        "LOWER_MEDIAN",
+        "EXACT_LINE_LAW"
+      ],
+      "rule": "Unroundedpointvsretainedline;lawargmaxsupportedside;tiesseparate;unchangedcommonstatisticalgrader"
+    },
+    {
+      "procedure_id": "C-RECEIVING-ALIGNED-TIMING-v1::F3",
+      "source": "New same F1 learner",
+      "features": 58,
+      "clock": "strict+1day reconstruction",
+      "outputs": [
+        "EXPECTED_MEAN",
+        "LOWER_MEDIAN",
+        "EXACT_LINE_LAW"
+      ],
+      "rule": "Unroundedpointvsretainedline;lawargmaxsupportedside;tiesseparate;unchangedcommonstatisticalgrader"
+    }
+  ],
+  "origin_models": 64,
+  "new_historical_fits": 32,
+  "reused_baseline_origin_models": 32,
+  "independent_new_families": 0,
+  "prior_scientific_exposure": "All periods exposed development; no untouched confirmation claim",
+  "new_defense_values": false,
+  "defense_support": "Same four existing support definitions in all arms; availability alters eligible support, not a new defensive-value mechanism."
+}

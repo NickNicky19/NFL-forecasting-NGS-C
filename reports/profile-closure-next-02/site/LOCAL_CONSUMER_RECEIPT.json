@@ -1,0 +1,54 @@
+{
+  "id": "C04-SITE-LOCAL-CONSUMER-CHECK-v1",
+  "at_UTC": "2026-11-10T20:00:41.731446+00:00",
+  "scope": "Cowncontextresearchsiteonly;originalwebsiteandTopPicksunchanged",
+  "commands": [
+    "PYTHONPATH=src python src/site_profile_closure_c04.py",
+    "PYTHONPATH=src python src/site_profile_closure_c04.py --validate",
+    "PYTHONPATH=src python -m unittest discover -s tests -p test_site_profile_closure_c04.py",
+    "node --check docs/context.js",
+    "PYTHONPATH=src python src/browser_qa_profile_closure_c04.py --url http://127.0.0.1:8874/context.html --root docs --out /workspace/c04-site-browser"
+  ],
+  "local_HTTP_server": "python -m http.server 8874 --bind 127.0.0.1 --directory docs",
+  "browser_executable": "/usr/bin/chromium",
+  "browser_flags": [
+    "--no-sandbox",
+    "--disable-dev-shm-usage"
+  ],
+  "network_scope": "Localhostonlybrowser,noacquisition/newsourcecalls",
+  "actual_site_source": "docs/data/profile-closure-next-02.json",
+  "data_SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55",
+  "software_tests_passed": 6,
+  "actual_rendered_model_rows_checked": 75,
+  "NFL_observations_added": 0,
+  "fits": 0,
+  "site_deployed_or_served_verified": false,
+  "deployment_owner": "Crootnormalchecks/merge/Pagesverificationremain",
+  "prior_failure": "MOBILE_FAILURE.json preserved;correctednewfilterwidthanddecisiontokenwrappingonly;successfulsamefullbrowserregression",
+  "python": "3.12.14",
+  "files": [
+    {
+      "path": "reports/profile-closure-next-02/site/BROWSER_PARITY.json",
+      "SHA256": "a7a6073fd4113cb4d2f96418613904227c4c49e48936217df9d0b5394bd2e49b",
+      "bytes": 1144
+    },
+    {
+      "path": "reports/profile-closure-next-02/site/C04-desktop.png",
+      "SHA256": "18d4c45a8fc63eef73046965d0083c26ee2c38eb58fbf5128d0e7fa29ac995cd",
+      "bytes": 198378
+    },
+    {
+      "path": "reports/profile-closure-next-02/site/C04-mobile.png",
+      "SHA256": "42c33d8179959859fb02a93d30fb263cfb9c83f4a9218bf6825b6c2da64149b6",
+      "bytes": 76723
+    },
+    {
+      "path": "reports/profile-closure-next-02/site/MOBILE_FAILURE.json",
+      "SHA256": "1a87a49a20daf83026b7a8443e2b9831970817f5c6699a74979449500a209baf",
+      "bytes": 430
+    }
+  ],
+  "browser_code_SHA256": "ca0d55854bf10bd5c99714a69fb31ef956550242c95fcbcf043c1654431e9205",
+  "consumer_code_SHA256": "1f6da4537aea7a7c691b15a5e4eb525f76762386026fb70f5896d43b6d30836f",
+  "producer_code_SHA256": "e5e7e3048639be94c992bf5e6d34844009edb212c91e6fd4c250116127b609af"
+}

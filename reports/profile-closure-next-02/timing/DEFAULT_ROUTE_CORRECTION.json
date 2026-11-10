@@ -1,0 +1,25 @@
+{
+  "id": "C04-DEFAULT-REGISTRATION-ROUTE-CORRECTION-v1",
+  "recorded_UTC": "2026-11-10T19:08:46.053528+00:00",
+  "classification": "VERIFIED_OPERATIONAL_DEFAULT_PATH_DEFECT;NO_FIT_OR_SCORE_CONTAMINATION",
+  "frozen_core": {
+    "path": "src/receiving_timing_c04.py",
+    "SHA256": "314b4f645a51e2d9c239ea4e18dc6d53db5ec1f3d85de7c2751d45c6d86a0ac7",
+    "default_registration": "protocol/PROFILE_INCREMENT_CLOSURE_NEXT_02_C.json",
+    "exists": false,
+    "changed": false
+  },
+  "supported_entrypoint": {
+    "path": "reports/profile-closure-next-02/timing/run_preserving_diagnostics.py",
+    "SHA256": "6a16573f7018fc08ae48febf0514fce1b88f94b11bc95ead244382e03bf9bb29",
+    "default_registration": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
+    "exists": true
+  },
+  "minimal_reproduction": "import receiving_timing_c04 as core; assert not core.REG.exists(); import supported wrapper; assert wrapper.REGISTRATION.exists()",
+  "actual_pilot_registration": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
+  "actual_pilot_passed_explicit_registration": true,
+  "effect": "Unused default CLI would fail before fit. Supported wrapper supplies actual route; no change to source eligibility, model semantics, saved model hash or scores. TimedInputs current adapter imports no REG.",
+  "new_fits": 0,
+  "new_inference": 0,
+  "five_week_record_reset": false
+}

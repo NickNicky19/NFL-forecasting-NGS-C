@@ -1,0 +1,502 @@
+{
+  "id": "C04-INDEPENDENT-HISTORICAL-ACCEPTANCE-v1",
+  "at_UTC": "2026-11-10T20:02:23.798817+00:00",
+  "reviewer": "InternalCindependentread-onlyreview;notA/Breceipt",
+  "new_NFL_observations": 0,
+  "new_verification_fits": 1,
+  "source_bytes_checked": [
+    {
+      "path": "artifacts/receiving-timing-c04/ACTUAL_OFFER_ROWS.json.xz",
+      "SHA256": "7f694423cb0f1e50d52da36d426097a083fde035888ec281c47748502da35986"
+    },
+    {
+      "path": "artifacts/profile-increment-v2/ACTUAL_OFFER_ROWS.json.xz",
+      "SHA256": "f78f263547094fc02a4ce704bf89b4b1da2a58d4d7d51061478e2d4c07144991"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/ACTUAL_LINE_SCORES.json.xz",
+      "SHA256": "0e5c07e3a3fd56871a1b13f7135ccb8458c94632ab051aa62a260438f648822d"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/PAIRED_CHANGES.json.xz",
+      "SHA256": "3306ed40e8d0cddc8610a1ec7b250778a1da25dd9c84e193a206ac614ebf90a8"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/NUMERICAL_ROWS-2026.json.xz",
+      "SHA256": "1af42efa33197f04ebca09a6ce07b5a8affc9dbc13a674a6e4f254aad8442280"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/NUMERICAL_SCORES-2026.json.xz",
+      "SHA256": "c88c4001b74acd85ea64b9a8e987299ac07b5453f9f72f00c3a0b04110ddb8ad"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/NUMERICAL_ROWS-2025.json.xz",
+      "SHA256": "3e8e91afb3258b63697b949b0591d57a8b5f63426ca93245ff9025a8288df6a7"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/NUMERICAL_SCORES-2025.json.xz",
+      "SHA256": "13354caad27de897d26ddd6a1570cb43482954949cfe0f8dcd3f91404d90cb42"
+    },
+    {
+      "path": "reports/player-context-matchup-01/completion-decision-v1/intake/C_RETAINED_LEAF_POINTS_W1_W7.json.gz",
+      "SHA256": "05a6b8bbad28ce7978c59f1ae026d6fb61fed964db724f41be253e4606119ccc"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/RELIABILITY.json.xz",
+      "SHA256": "db497e4f4e5b2fbd639c4ce34d0120a05e4bb7f1b6661259c1d2155ee609d344"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2025.json.xz",
+      "SHA256": "1f0db1da85c06af0ff2f2afaab7f3415bdf25782389656e7f3d3481d4459c9c9"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2026.json.xz",
+      "SHA256": "df7612f3492d49574551ffc6a656a3011b8eddf19f0a29578f6a9a041acbde97"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/QUALIFIED_OFFERED_NUMERICAL_SCORES.json.xz",
+      "SHA256": "3140a1c76e82494baca7e89e75018beebe17565f7851d371407b36cec3cc976e"
+    },
+    {
+      "path": "reports/profile-closure-next-02/timing/OFFERED_NUMERICAL_SCORES.json.xz",
+      "SHA256": "612a105e825beb892709c894672febc3511aebc13a785c63b9ed5b9490cf84b3"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/FIT_REPRODUCTION_DATASET-2025-W01-F3.json.xz",
+      "SHA256": "2f757c8376dd3b1e1bf2f56f10efcf2e1f7fe9890224f41f146e1acfb89b877d"
+    },
+    {
+      "path": "artifacts/profile-increment-v2/NUMERICAL_ROWS-2025.json.xz",
+      "SHA256": "85357be8c09f38c2cd7afa7635670f542d7c8078349f507fee77c2888aebb399"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/CANARY_QUERIES-2025.json.xz",
+      "SHA256": "def2f0297c26f83e9b494f768200cfbea7266584f2f1ef05932e7e5248c83ab4"
+    },
+    {
+      "path": "artifacts/profile-increment-v2/NUMERICAL_ROWS-2026.json.xz",
+      "SHA256": "299594ea400bc40f07bca866791067800258655df34be3aadd5702d33c589b3d"
+    },
+    {
+      "path": "artifacts/receiving-timing-c04/CANARY_QUERIES-2026.json.xz",
+      "SHA256": "1b5e906113157ffa8370286e4acc1a70dd06deae5f29fdd91317ec2d3d6eb65a"
+    }
+  ],
+  "receipts": [
+    {
+      "path": "reports/profile-closure-next-02/verification/HISTORICAL_ARITHMETIC.json",
+      "SHA256": "ccce98eb6dee842f5879c27749eae4afa9ce63e7a72d4e265b0c462326fb8a94"
+    },
+    {
+      "path": "reports/profile-closure-next-02/verification/HISTORICAL_FIT_REPRODUCTION.json",
+      "SHA256": "3f9ffa229f261e0a9bdcdb417ed304be74a253d3d71692567a45022a8063c125"
+    },
+    {
+      "path": "reports/profile-closure-next-02/verification/HISTORICAL_INTERVAL_REVIEW.json",
+      "SHA256": "48fa7f457549546f740d5b93752de5fd90263a72337e351ab230c4199a306342"
+    },
+    {
+      "path": "reports/profile-closure-next-02/verification/HISTORICAL_CANARY_RESTORATION.json",
+      "SHA256": "f7be4ce9285e107a544c4dab3f7c1f6471d2263b35c23d81ee62c900016fbbd6"
+    },
+    {
+      "path": "reports/profile-closure-next-02/verification/HISTORICAL_CHECKER_FAILURES.json",
+      "SHA256": "ce75a09d1dacaa69fb8c8111540a2ee70e4a5e7c21f6b6d56b8868ce97900216"
+    }
+  ],
+  "verdicts": {
+    "A_implementation": {
+      "verdict": "PASS",
+      "scope": "ExactdeclaredC04family/config;oneindependentfreshfitof14611x58design,32savednewmodelcanaries,2172oldrename-onlyrows;notfullre-inferenceofeveryquery"
+    },
+    "B_semantics_chronology": {
+      "verdict": "PASS",
+      "scope": "Withinregisteredcurrent-vintage7d/1dreconstructiontier;reusesboundedsource/clockreviews;unknownclocksnotsilentlyfilled;notauthenticatedhistoricfootball/quoteavailability"
+    },
+    "C_reproducibility": {
+      "verdict": "PASS",
+      "scope": "Primitiveforestfreshfitexact,32safeJSONcanariesmaxmeanerror1.33e-15;7602rowgrades,567own-sidecells,168pairs,81rank/reliabilitycells,648numeric/1053offerednumeric/810strongcontrolcells"
+    },
+    "D_fairness_for_specific_claim": {
+      "verdict": "PASS",
+      "scope": "Ownbaseline/profilecomparisonsfixedopportunities/cohortswithstrongcontrolsandfullcoverage;separatenumericandofferedpopulations;exposeddevelopmenttwoactualweeksnotproofstablefutureadvantage"
+    },
+    "E_parent_requested_scope": {
+      "verdict": "FAIL",
+      "named_finite_C04_package": "PASS",
+      "gaps": "C04nativeactual-lineevidenceonly2026W2-3;2026W1/W4-8,2025early/fullactualoffersand2022-24C04historicalactualpanelsnotexecuted;owner-localAextensionnotreceived. Numeric2025/26W1-8completed16season-weeksdoesnotfillpropweeks."
+    },
+    "F_gain_and_release": {
+      "verdict": "FAIL",
+      "direction": "F2/F3eachlose10/255againstownoldtiminglawbaseline;strongoldP2still150/255",
+      "probability": "F2/F3Brierworseandneutral.25remainsstronger;no90targetsupport",
+      "numerical": "ObservedmodestbroadMAEgainsbothyears;profileincrementreversesunder1d:2025worse,2026better. Usefuloperationalimprovementnotestablishedbythesechecks.",
+      "exact_product_primary_eligibility": "Actual-lineproducts2scoredweeks<5;globalTopPickspolicyunexecuted. Numericduration16weekscanmeetdurationonly,notautomaticsource/support/admission orswitch."
+    }
+  },
+  "own_actual_headline": [
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_OVER",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 122,
+        "LOSS": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_UNDER",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 122,
+        "WIN": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "Brier": null,
+      "log_loss": null
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "E0",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 67,
+        "wins": 35,
+        "losses": 21,
+        "decided": 56,
+        "rate": 0.625
+      },
+      "UNDER": {
+        "selected": 211,
+        "wins": 112,
+        "losses": 87,
+        "decided": 199,
+        "rate": 0.5628140703517588
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "Brier": 0.2620483009473796,
+      "log_loss": 0.7236282674399992
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 146,
+        "LOSS": 109,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 33,
+        "decided": 79,
+        "rate": 0.5822784810126582
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 100,
+        "losses": 76,
+        "decided": 176,
+        "rate": 0.5681818181818182
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 146,
+        "losses": 109,
+        "decided": 255,
+        "rate": 0.5725490196078431
+      },
+      "Brier": 0.2662184251538689,
+      "log_loss": 0.739284176401573
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 31,
+        "decided": 76,
+        "rate": 0.5921052631578947
+      },
+      "UNDER": {
+        "selected": 191,
+        "wins": 102,
+        "losses": 77,
+        "decided": 179,
+        "rate": 0.5698324022346368
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "Brier": 0.2682971769363759,
+      "log_loss": 0.7437713203365398
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 119,
+        "WIN": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 90,
+        "wins": 38,
+        "losses": 35,
+        "decided": 73,
+        "rate": 0.5205479452054794
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 98,
+        "losses": 84,
+        "decided": 182,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "Brier": 0.2707065175398929,
+      "log_loss": 0.7426786755662858
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_LAW",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 118,
+        "WIN": 137,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 36,
+        "decided": 76,
+        "rate": 0.5263157894736842
+      },
+      "UNDER": {
+        "selected": 186,
+        "wins": 97,
+        "losses": 82,
+        "decided": 179,
+        "rate": 0.5418994413407822
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "Brier": 0.2707728039605309,
+      "log_loss": 0.7435159498335175
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "P2",
+      "eligible": 278,
+      "games": 32,
+      "player_games": 278,
+      "states": {
+        "LOSS": 105,
+        "WIN": 150,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "OVER": {
+        "selected": 66,
+        "wins": 35,
+        "losses": 18,
+        "decided": 53,
+        "rate": 0.660377358490566
+      },
+      "UNDER": {
+        "selected": 212,
+        "wins": 115,
+        "losses": 87,
+        "decided": 202,
+        "rate": 0.5693069306930693
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 150,
+        "losses": 105,
+        "decided": 255,
+        "rate": 0.5882352941176471
+      },
+      "Brier": 0.28073779907423557,
+      "log_loss": 0.7996140597936943
+    }
+  ],
+  "numeric_profile_reversals": [
+    {
+      "season": 2026,
+      "known": 1584,
+      "F0_median_MAE": 1.3472222222222223,
+      "F1_median_MAE": 1.3352272727272727,
+      "F2_median_MAE": 1.3339646464646464,
+      "F3_median_MAE": 1.331439393939394,
+      "profile_effect_original_F1_minus_F0": -0.011994949494949614,
+      "profile_effect_alternative_F3_minus_F2": -0.002525252525252375
+    },
+    {
+      "season": 2025,
+      "known": 1557,
+      "F0_median_MAE": 1.3057161207450225,
+      "F1_median_MAE": 1.3018625561978163,
+      "F2_median_MAE": 1.285806037251124,
+      "F3_median_MAE": 1.2967244701348748,
+      "profile_effect_original_F1_minus_F0": -0.003853564547206201,
+      "profile_effect_alternative_F3_minus_F2": 0.010918432883750828
+    }
+  ],
+  "resource": {
+    "measured_successful_CPU_seconds": {
+      "arithmetic_initial_success": 4.04486744,
+      "arithmetic_extended_success": 3.812434971,
+      "fresh_fit": 2.78124889,
+      "intervals": 0.133165425,
+      "canary_initial": 0.603308969,
+      "canary_whitespace_recheck": 0.536081139
+    },
+    "measured_successful_total": 11.911106834,
+    "unmeasured_failed_checker_processes": 4,
+    "conservative_CPU_reserve_for_unmeasured_failures": 10,
+    "accounted_upper_total": 21.911106834,
+    "registered_CPU_limit": 60,
+    "fresh_fit_peak_RSS": 224411648,
+    "fit_workers": 1,
+    "threads": 1,
+    "failed_checker_receipts_preserved": true
+  },
+  "environment": {
+    "Python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "commands": [
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/profile-closure-next-02/verification/HISTORICAL_check.py",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/profile-closure-next-02/verification/HISTORICAL_fit_reproduction.py",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/profile-closure-next-02/verification/HISTORICAL_intervals.py",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/profile-closure-next-02/verification/HISTORICAL_canary_check.py"
+  ],
+  "remaining_owners": {
+    "A": "Owner-localnewC03/C04savedpointlongerreceptionboardjoin,withrealreceipt;Ccannottransferprivaterowsorassumeadmission",
+    "C": "Preserveboundednegativeactualtimingconclusion;furtheractualsourcecoverageandlatergradecapturedpacketunderrealoutcomes",
+    "Website_owner": "Original-siteproductadmissionandexactglobalTopPicksreplayseparate;thisreviewordersnodeployment"
+  }
+}

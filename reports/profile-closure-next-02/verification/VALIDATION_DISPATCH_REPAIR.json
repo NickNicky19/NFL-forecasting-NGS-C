@@ -1,0 +1,24 @@
+{
+  "id": "C04-TYPED-VALIDATION-DISPATCH-REPAIR-v1",
+  "recorded_UTC": "2026-11-10T19:53:04.640028+00:00",
+  "cause": "ExistingprospectiveverifierassumedlowercasegzipforallRUNschemas;C04usesdeclaredtypedXZ.Forecastbytesandproducerunchanged.",
+  "correction": "OneexplicitC04schemaadapter,oldlegacydispatchpreserved;exactreceipt/filenameandcount-lawtyping;originalissuanceclockchecks,notcurrentexpiry.",
+  "software_failure_preserved": {
+    "path": "reports/profile-closure-next-02/verification/VALIDATION_FIRST_FAILED_SUITE.log.gz",
+    "decoded_SHA256": "4de3b39749a7445bede5d25e7c14ca302f2b2ddf90f77cdf5e7326d84d56df39",
+    "tests": 234,
+    "failed": 1,
+    "reason": "Firstheld-ungradedintegrationreadRUNunconditionally;oldlegacymarkerfixturehasnomodelRUN. RepairedwithC04-onlyexplicitforecast_filemarker+exactformatwhitelist+schemaforuppercase. Olddefault unchanged."
+  },
+  "new_targeted_tests_passed": 9,
+  "legacy_affected_tests": "Re-run separately;rootCIprovidescompletefinalsuite",
+  "independent_reproduction_fits": 0,
+  "NFL_scores_or_forecasts_changed": 0,
+  "producer_models_sources_RUN_changed": false,
+  "compatibility": "Nonmutatingpolicy/scoringcontractviews;existinggraderreusedwithsavedLeaforPoissonlaw;stableclosedformPoissonCRPSvalidatedagainstCDFsumandzero-mu.",
+  "files": [
+    "src/prospective_v4.py",
+    "src/receiving_current_validation_c04.py",
+    "tests/test_receiving_current_validation_c04.py"
+  ]
+}

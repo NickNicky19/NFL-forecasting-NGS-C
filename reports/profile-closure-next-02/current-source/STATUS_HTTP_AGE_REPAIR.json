@@ -1,0 +1,23 @@
+{
+  "id": "C04-STATUS-HTTP-AGE-PREEXECUTION-REPAIR-v1",
+  "recorded_UTC": "2026-11-10T19:12:02.230061+00:00",
+  "status": "UNEXECUTED_PATH_CORRECTED_BEFORE_FIRST_FINAL_STATUS_GET",
+  "prior_code_path": "reports/profile-closure-next-02/current-source/acquire_current_sources-unexecuted-status-v4.py.gz",
+  "prior_decoded_code_SHA256": "5d9e1e3553d3e9abe44d5e4ac4c087a43241c89989ad669d69f26dfdaf4ea682",
+  "affected_scope": "Only reserved native status path not yet executed; no forecast or canonical historical scores contaminated",
+  "counterexample": "A fresh local observed_UTC plus HTTP Age 7200 or HTTP Date two hours old must not authenticate current status.",
+  "model_input_manifest_unchanged": true,
+  "max_status_response_age_seconds": 1800,
+  "max_HTTP_date_future_clock_skew_seconds": 5,
+  "corrected_code_path": "reports/profile-closure-next-02/current-source/acquire_current_sources.py",
+  "corrected_code_SHA256": "e442d8c02a46326751f8f39ac6295271469a6e819788c769d273d44a499978b6",
+  "offline_fixture_receipt": {
+    "path": "reports/profile-closure-next-02/current-source/STATUS_HTTP_CLOCK_FIXTURES.json",
+    "SHA256": "025ab78dbcb89aee82c550d5c28248b66250a1e1c3b33cc2b48415dcc0a6dc00",
+    "cases": 14,
+    "all_expected_dispositions_passed": true
+  },
+  "final_status_executed": false,
+  "original_current_input_manifest_SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c",
+  "bounded_read_note": "Before each final request, remaining application body-byte budget is computed from actual ledger; body read cannot exceed the smaller remaining/per-response cap. An exactly bound-length response is conservatively rejected as possibly truncated, without reading another byte."
+}

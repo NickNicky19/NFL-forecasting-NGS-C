@@ -1,0 +1,39 @@
+{
+  "id": "C04-POST-PILOT-CPU-PLAN-v1",
+  "recorded_UTC": "2026-11-10T19:17:04.074092+00:00",
+  "new_fits": 0,
+  "measured": {
+    "C04_no_fit_prepare_diagnose_CPU_seconds": 72.845291301,
+    "C04_pilot_inclusive_CPU_seconds": 70.88455215100001,
+    "pilot_is_preparation_dominated": true,
+    "difference_is_not_per_fit_measurement": true,
+    "related_C03_one_68_feature_Leaf_fit_CPU_seconds": 3.1244107719999974,
+    "related_C03_48_fit_wave_inclusive_CPU_seconds": 375.86139124700003
+  },
+  "related_fit_source": {
+    "path": "reports/profile-increment-v2/verification/FRESH_FIT_ATTEMPT.json",
+    "SHA256": "5c316ab68cd9f8be4d92c0c65eaeabe8263f0ccba5ac0cddb0fecdb065be46b6",
+    "source_scope": "Existing independent representative fit; wider than C04 support/profile models; estimate evidence only, not new C04 fit"
+  },
+  "remaining_plan": {
+    "fits": 31,
+    "estimated_fit_CPU_seconds": [
+      97,
+      125
+    ],
+    "estimated_two_required_preparations_CPU_seconds": 146,
+    "estimated_scoring_control_view_CPU_seconds": [
+      30,
+      70
+    ],
+    "expected_additional_CPU_seconds": [
+      275,
+      340
+    ],
+    "planning_reserve_CPU_seconds": 400,
+    "guaranteed": false
+  },
+  "shared_cap_CPU_seconds": 900,
+  "release_condition": "Parent deducts actual no-fit/pilot/current-capture/independent-review usage and authorizes historical continuation only within remaining shared cap. One C fit worker; current packet publication first.",
+  "resumption": "Existing year-level run_preserving_diagnostics.py reuses pilot and saved per-origin models. No new per-origin wrapper or extra cold preparation authorized/needed."
+}

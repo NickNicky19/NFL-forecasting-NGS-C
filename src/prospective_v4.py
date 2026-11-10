@@ -164,6 +164,9 @@ def issue_wave(source,out,cache,run_id,budget,categories=None):
 
 def validate_run(run,check_clock=False):
     m=read_json(run/'RUN.json')
+    if m.get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1':
+        from receiving_current_validation_c04 import validate_run as validate_c04
+        return validate_c04(run,check_clock)
     for name,info in m['files'].items():assert filehash(run/name)==info['SHA256'],'CAPTURE_BYTES_CHANGED:'+name
     rows=unpack(run/'forecasts.json.gz');assert len(rows)==m['forecast_rows'] and len({r['forecast_id'] for r in rows})==len(rows)
     snapshot=run/'sources';sm=validate_snapshot(snapshot,pd.Timestamp(m['information_cutoff_UTC']).timestamp())
@@ -183,6 +186,9 @@ def validate_run(run,check_clock=False):
     return m,rows
 
 def validate_receipt(run,receipt,m,rows):
+    if m.get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1':
+        from receiving_current_validation_c04 import validate_receipt as validate_c04_receipt
+        return validate_c04_receipt(run,receipt,m,rows)
     assert receipt['schema']=='C-SERVER-PREGAME-RECEIPT-v4' and receipt['qualified_prospective'] is True
     assert receipt['run_id']==m['run_id'] and receipt['forecast_blob_SHA256']==filehash(run/'forecasts.json.gz')
     assert receipt['run_manifest_SHA256']==filehash(run/'RUN.json')
@@ -201,10 +207,12 @@ def server_receipt(run,commit,workflow_run,output):
     assert all(persisted+pd.Timedelta(seconds=300)<pd.Timestamp(r['kickoff_UTC']) for r in rows),'LATE_GITHUB_PERSISTENCE'
     relative=run.relative_to(Path.cwd()) if run.is_absolute() else run
     from urllib.request import urlopen
-    url='https://raw.githubusercontent.com/'+repo+'/'+commit+'/'+relative.as_posix()+'/forecasts.json.gz'
-    b=urlopen(url,timeout=30).read();assert digest(b)==m['files']['forecasts.json.gz']['SHA256']
+    typed=m.get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1'
+    forecast_name='FORECASTS.json.xz' if typed else 'forecasts.json.gz'
+    url='https://raw.githubusercontent.com/'+repo+'/'+commit+'/'+relative.as_posix()+'/'+forecast_name
+    b=urlopen(url,timeout=30).read();assert digest(b)==m['files'][forecast_name]['SHA256']
     manifest_url=url.rsplit('/',1)[0]+'/RUN.json';assert digest(urlopen(manifest_url,timeout=30).read())==filehash(run/'RUN.json'),'SERVER_RUN_CHAIN_MISMATCH'
-    receipt=dict(schema='C-SERVER-PREGAME-RECEIPT-v4',run_id=m['run_id'],run_manifest_SHA256=filehash(run/'RUN.json'),capture_commit=commit,forecast_blob_SHA256=digest(b),forecast_bytes=len(b),server_workflow_run=workflow_run,server_run_created_UTC=j['created_at'],server_run_started_UTC=j['run_started_at'],server_check_completed_UTC=check['completed_at'],server_run_URL=j['html_url'],verified_UTC=stamp(),qualified_prospective=True,earliest_actual_lead_seconds=min((pd.Timestamp(r['kickoff_UTC'])-persisted).total_seconds() for r in rows),not_client_commit_dates=True,fresh_GitHub_bytes_verified=True,scoring_snapshot='FIRST_QUALIFIED_ON_DEMAND-v1')
+    receipt=dict(schema='C04-SERVER-PREGAME-RECEIPT-v1' if typed else 'C-SERVER-PREGAME-RECEIPT-v4',run_id=m['run_id'],run_manifest_SHA256=filehash(run/'RUN.json'),capture_commit=commit,forecast_blob_SHA256=digest(b),forecast_bytes=len(b),server_workflow_run=workflow_run,server_run_created_UTC=j['created_at'],server_run_started_UTC=j['run_started_at'],server_check_completed_UTC=check['completed_at'],server_run_URL=j['html_url'],verified_UTC=stamp(),qualified_prospective=True,earliest_actual_lead_seconds=min((pd.Timestamp(r['kickoff_UTC'])-persisted).total_seconds() for r in rows),not_client_commit_dates=True,fresh_GitHub_bytes_verified=True,scoring_snapshot='FIRST_QUALIFIED_ON_DEMAND-v1')
     write(output,receipt);print('SERVER_PREGAME_RECEIPT',receipt['server_check_completed_UTC'],receipt['earliest_actual_lead_seconds']);return receipt
 
 def grade_run(run,receipt_path,outcomes,output):
@@ -229,7 +237,12 @@ def grade_run(run,receipt_path,outcomes,output):
             assert state in ['PLAYED','DNP','UNKNOWN','VOID','CANCELLED','PENDING']
             final_games.add(r['game_id'])
         if state=='PLAYED' and a.get('actual') is not None:
-            y=a['actual'];law=law_load(r['law']);error=None if r['mean'] is None else r['median']-y
+            y=a['actual']
+            if m.get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1':
+                from receiving_current_validation_c04 import load_capture_law
+                law=load_capture_law(r['law'])
+            else:law=law_load(r['law'])
+            error=None if r['mean'] is None else r['median']-y
             assert not isinstance(y,bool) and math.isfinite(y) and abs(y*law.scale-round(y*law.scale))<1e-8
             if CATEGORIES[r['category']][2]=='count':assert y>=0
             if r['category']=='anytime_td':
@@ -241,7 +254,7 @@ def grade_run(run,receipt_path,outcomes,output):
             nll=-law.logpmf(int(round(y*law.scale)))
             grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='GRADED_PLAYED',actual=y,median_error=error,absolute_error=None if error is None else abs(error),mean_squared_error=None if r['mean'] is None else (r['mean']-y)**2,CRPS=law.crps(y),NLL=nll if math.isfinite(nll) else 'Infinity',offer_grade='NO_QUALIFIED_OFFER',book_settlement='UNVERIFIED'))
         else:grades.append(dict(forecast_id=r['forecast_id'],game_id=r['game_id'],player_id=r['player_id'],category=r['category'],state='PLAYED_MISSING_ACTUAL' if state=='PLAYED' else state,actual=None,offer_grade='UNAVAILABLE',book_settlement='UNVERIFIED'))
-    write(output,dict(schema='C-PROSPECTIVE-GRADING-v4',run_id=m['run_id'],created_UTC=stamp(),forecast_SHA256=receipt['forecast_blob_SHA256'],outcome_version=packet['version'],outcome_packet_SHA256=filehash(outcomes),confirmed_final_game_ids=sorted(final_games),grades=grades));return grades
+    write(output,dict(schema='C-PROSPECTIVE-GRADING-v4',run_id=m['run_id'],created_UTC=stamp(),forecast_SHA256=receipt['forecast_blob_SHA256'],outcome_version=packet['version'],outcome_packet_SHA256=filehash(outcomes),confirmed_final_game_ids=sorted(final_games),grades=grades,**({'forecast_file':'FORECASTS.json.xz'} if m.get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1' else {})));return grades
 
 def first_qualified_snapshots(root):
     first={}
@@ -258,7 +271,11 @@ def held_ungraded_games(completed,root):
         if key[0] in completed:needed.setdefault(key[0],set()).add(forecast_id)
     marked=set()
     for p in (root/'grades').glob('*.json'):
-        j=read_json(p);run=root/'runs'/j['run_id'];assert j['forecast_SHA256']==filehash(run/'forecasts.json.gz')
+        j=read_json(p);run=root/'runs'/j['run_id']
+        forecast_name=j.get('forecast_file','forecasts.json.gz')
+        assert forecast_name in ['forecasts.json.gz','FORECASTS.json.xz'],'UNKNOWN_GRADE_FORECAST_FORMAT'
+        if forecast_name=='FORECASTS.json.xz':assert read_json(run/'RUN.json').get('schema')=='C04-CURRENT-FORECAST-ONLY-RUN-v1'
+        assert j['forecast_SHA256']==filehash(run/forecast_name)
         assert pd.Timestamp(j['created_UTC'])<=pd.Timestamp(now()),'GRADING_MARKER_FROM_FUTURE'
         finals=set(j.get('confirmed_final_game_ids',[]))
         marked.update(r['forecast_id'] for r in j['grades'] if r.get('game_id') in finals)

@@ -1,0 +1,1529 @@
+{
+  "id": "C04-WITHIN-METHOD-RESULTS-v1",
+  "category": "rec",
+  "role": "WR_TE",
+  "requested_period": "2026REGW1-W8",
+  "actually_scored_actual_weeks": [
+    2,
+    3
+  ],
+  "actual_rows": [
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_OVER",
+      "OVER": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 122,
+        "losses": 133,
+        "decided": 255,
+        "rate": 0.47843137254901963
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 122,
+        "LOSS": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.41789556559315205,
+        "high": 0.5396073782933605,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "ALWAYS_UNDER",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 133,
+        "losses": 122,
+        "decided": 255,
+        "rate": 0.5215686274509804
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 122,
+        "WIN": 133,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.4603926217066396,
+        "high": 0.582104434406848,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_LAW",
+      "OVER": {
+        "selected": 68,
+        "wins": 39,
+        "losses": 28,
+        "decided": 67,
+        "rate": 0.582089552238806
+      },
+      "UNDER": {
+        "selected": 190,
+        "wins": 105,
+        "losses": 83,
+        "decided": 188,
+        "rate": 0.5585106382978723
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 144,
+        "losses": 111,
+        "decided": 255,
+        "rate": 0.5647058823529412
+      },
+      "eligible": 278,
+      "unavailable": 20,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 111,
+        "WIN": 144,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5033383974287715,
+        "high": 0.624152770911691,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 0.9280575539568345,
+      "Brier": 0.26867019501845496,
+      "log_loss": 0.7433780288018582,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_MEAN",
+      "OVER": {
+        "selected": 118,
+        "wins": 59,
+        "losses": 56,
+        "decided": 115,
+        "rate": 0.5130434782608696
+      },
+      "UNDER": {
+        "selected": 140,
+        "wins": 77,
+        "losses": 63,
+        "decided": 140,
+        "rate": 0.55
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "eligible": 278,
+      "unavailable": 20,
+      "abstentions": 0,
+      "states": {
+        "WIN": 136,
+        "LOSS": 119,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47206036729009204,
+        "high": 0.5936169012489341,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 0.9280575539568345,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "CONTROL_LEAF_MEDIAN",
+      "OVER": {
+        "selected": 68,
+        "wins": 39,
+        "losses": 28,
+        "decided": 67,
+        "rate": 0.582089552238806
+      },
+      "UNDER": {
+        "selected": 190,
+        "wins": 105,
+        "losses": 83,
+        "decided": 188,
+        "rate": 0.5585106382978723
+      },
+      "COMBINED": {
+        "selected": 258,
+        "wins": 144,
+        "losses": 111,
+        "decided": 255,
+        "rate": 0.5647058823529412
+      },
+      "eligible": 278,
+      "unavailable": 20,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 111,
+        "WIN": 144,
+        "UNAVAILABLE_FORECAST": 20,
+        "UNKNOWN_PARTICIPATION": 3
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5033383974287715,
+        "high": 0.624152770911691,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 0.9280575539568345,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "E0",
+      "OVER": {
+        "selected": 67,
+        "wins": 35,
+        "losses": 21,
+        "decided": 56,
+        "rate": 0.625
+      },
+      "UNDER": {
+        "selected": 211,
+        "wins": 112,
+        "losses": 87,
+        "decided": 199,
+        "rate": 0.5628140703517588
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5151298379645244,
+        "high": 0.6355415428014766,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2620483009473796,
+      "log_loss": 0.7236282674399992,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_LAW",
+      "OVER": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 33,
+        "decided": 79,
+        "rate": 0.5822784810126582
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 100,
+        "losses": 76,
+        "decided": 176,
+        "rate": 0.5681818181818182
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 146,
+        "losses": 109,
+        "decided": 255,
+        "rate": 0.5725490196078431
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 146,
+        "LOSS": 109,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5111955526911435,
+        "high": 0.631749090599678,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2662184251538689,
+      "log_loss": 0.739284176401573,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_MEAN",
+      "OVER": {
+        "selected": 134,
+        "wins": 60,
+        "losses": 56,
+        "decided": 116,
+        "rate": 0.5172413793103449
+      },
+      "UNDER": {
+        "selected": 144,
+        "wins": 77,
+        "losses": 62,
+        "decided": 139,
+        "rate": 0.5539568345323741
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 137,
+        "LOSS": 118,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47595704042096404,
+        "high": 0.5974469655932415,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F0_MEDIAN",
+      "OVER": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 33,
+        "decided": 79,
+        "rate": 0.5822784810126582
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 100,
+        "losses": 76,
+        "decided": 176,
+        "rate": 0.5681818181818182
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 146,
+        "losses": 109,
+        "decided": 255,
+        "rate": 0.5725490196078431
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 146,
+        "LOSS": 109,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5111955526911435,
+        "high": 0.631749090599678,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_LAW",
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 31,
+        "decided": 76,
+        "rate": 0.5921052631578947
+      },
+      "UNDER": {
+        "selected": 191,
+        "wins": 102,
+        "losses": 77,
+        "decided": 179,
+        "rate": 0.5698324022346368
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5151298379645244,
+        "high": 0.6355415428014766,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2682971769363759,
+      "log_loss": 0.7437713203365398,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_MEAN",
+      "OVER": {
+        "selected": 136,
+        "wins": 59,
+        "losses": 60,
+        "decided": 119,
+        "rate": 0.4957983193277311
+      },
+      "UNDER": {
+        "selected": 142,
+        "wins": 73,
+        "losses": 63,
+        "decided": 136,
+        "rate": 0.5367647058823529
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 132,
+        "losses": 123,
+        "decided": 255,
+        "rate": 0.5176470588235295
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 132,
+        "LOSS": 123,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.4565107819996047,
+        "high": 0.5782595366387034,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F1_MEDIAN",
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 31,
+        "decided": 76,
+        "rate": 0.5921052631578947
+      },
+      "UNDER": {
+        "selected": 191,
+        "wins": 102,
+        "losses": 77,
+        "decided": 179,
+        "rate": 0.5698324022346368
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 147,
+        "losses": 108,
+        "decided": 255,
+        "rate": 0.5764705882352941
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 147,
+        "LOSS": 108,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5151298379645244,
+        "high": 0.6355415428014766,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 250,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_LAW",
+      "OVER": {
+        "selected": 90,
+        "wins": 38,
+        "losses": 35,
+        "decided": 73,
+        "rate": 0.5205479452054794
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 98,
+        "losses": 84,
+        "decided": 182,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 119,
+        "WIN": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47206036729009204,
+        "high": 0.5936169012489341,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2707065175398929,
+      "log_loss": 0.7426786755662859,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_MEAN",
+      "OVER": {
+        "selected": 134,
+        "wins": 50,
+        "losses": 64,
+        "decided": 114,
+        "rate": 0.43859649122807015
+      },
+      "UNDER": {
+        "selected": 144,
+        "wins": 69,
+        "losses": 72,
+        "decided": 141,
+        "rate": 0.48936170212765956
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 119,
+        "losses": 136,
+        "decided": 255,
+        "rate": 0.4666666666666667
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 136,
+        "WIN": 119,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.40638309875106593,
+        "high": 0.527939632709908,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F2_MEDIAN",
+      "OVER": {
+        "selected": 90,
+        "wins": 38,
+        "losses": 35,
+        "decided": 73,
+        "rate": 0.5205479452054794
+      },
+      "UNDER": {
+        "selected": 188,
+        "wins": 98,
+        "losses": 84,
+        "decided": 182,
+        "rate": 0.5384615384615384
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 136,
+        "losses": 119,
+        "decided": 255,
+        "rate": 0.5333333333333333
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 119,
+        "WIN": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47206036729009204,
+        "high": 0.5936169012489341,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_LAW",
+      "OVER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 36,
+        "decided": 76,
+        "rate": 0.5263157894736842
+      },
+      "UNDER": {
+        "selected": 186,
+        "wins": 97,
+        "losses": 82,
+        "decided": 179,
+        "rate": 0.5418994413407822
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 118,
+        "WIN": 137,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47595704042096404,
+        "high": 0.5974469655932415,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2707728039605309,
+      "log_loss": 0.7435159498335177,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_MEAN",
+      "OVER": {
+        "selected": 142,
+        "wins": 54,
+        "losses": 68,
+        "decided": 122,
+        "rate": 0.4426229508196721
+      },
+      "UNDER": {
+        "selected": 136,
+        "wins": 65,
+        "losses": 68,
+        "decided": 133,
+        "rate": 0.48872180451127817
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 119,
+        "losses": 136,
+        "decided": 255,
+        "rate": 0.4666666666666667
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "WIN": 119,
+        "LOSS": 136,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.40638309875106593,
+        "high": 0.527939632709908,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "F3_MEDIAN",
+      "OVER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 36,
+        "decided": 76,
+        "rate": 0.5263157894736842
+      },
+      "UNDER": {
+        "selected": 186,
+        "wins": 97,
+        "losses": 82,
+        "decided": 179,
+        "rate": 0.5418994413407822
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 137,
+        "losses": 118,
+        "decided": 255,
+        "rate": 0.5372549019607843
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 118,
+        "WIN": 137,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.47595704042096404,
+        "high": 0.5974469655932415,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": null,
+      "log_loss": null,
+      "profile_covered": 275,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "P1",
+      "OVER": {
+        "selected": 71,
+        "wins": 37,
+        "losses": 21,
+        "decided": 58,
+        "rate": 0.6379310344827587
+      },
+      "UNDER": {
+        "selected": 207,
+        "wins": 112,
+        "losses": 85,
+        "decided": 197,
+        "rate": 0.5685279187817259
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 149,
+        "losses": 106,
+        "decided": 255,
+        "rate": 0.5843137254901961
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 106,
+        "WIN": 149,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.523009891197656,
+        "high": 0.6431149645187042,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2795603398601013,
+      "log_loss": 0.7962807283645753,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "P2",
+      "OVER": {
+        "selected": 66,
+        "wins": 35,
+        "losses": 18,
+        "decided": 53,
+        "rate": 0.660377358490566
+      },
+      "UNDER": {
+        "selected": 212,
+        "wins": 115,
+        "losses": 87,
+        "decided": 202,
+        "rate": 0.5693069306930693
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 150,
+        "losses": 105,
+        "decided": 255,
+        "rate": 0.5882352941176471
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 105,
+        "WIN": 150,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.5269556885133038,
+        "high": 0.6468959046782361,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.28073779907423557,
+      "log_loss": 0.7996140597936944,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    },
+    {
+      "scope": "WR_TE",
+      "cohort": "ALL",
+      "week": "ALL",
+      "method": "RETAINED_EARLIER_PREVALENCE_V8",
+      "OVER": {
+        "selected": 71,
+        "wins": 26,
+        "losses": 28,
+        "decided": 54,
+        "rate": 0.48148148148148145
+      },
+      "UNDER": {
+        "selected": 207,
+        "wins": 105,
+        "losses": 96,
+        "decided": 201,
+        "rate": 0.5223880597014925
+      },
+      "COMBINED": {
+        "selected": 278,
+        "wins": 131,
+        "losses": 124,
+        "decided": 255,
+        "rate": 0.5137254901960784
+      },
+      "eligible": 278,
+      "unavailable": 0,
+      "abstentions": 0,
+      "states": {
+        "LOSS": 124,
+        "WIN": 131,
+        "UNKNOWN_PARTICIPATION": 23
+      },
+      "games": 32,
+      "player_games": 278,
+      "weeks": [
+        2,
+        3
+      ],
+      "uncertainty": {
+        "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+        "low": 0.45263264052079355,
+        "high": 0.5744109406423347,
+        "dependence_aware": false,
+        "week_clusters": 2
+      },
+      "coverage": 1.0,
+      "Brier": 0.2958619172575757,
+      "log_loss": 0.8263583719633616,
+      "profile_covered": 0,
+      "hard_fallback": 0,
+      "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINES;EXPOSED_RECONSTRUCTION"
+    }
+  ],
+  "broad_numeric_by_season": {
+    "2025": [
+      {
+        "season": 2025,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F0",
+        "eligible": 1684,
+        "available": 1684,
+        "known": 1557,
+        "unknown": 127,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1557,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.3865167868081034,
+        "median_MAE": 1.3057161207450225,
+        "mean_MSE": 3.344922683931027,
+        "mean_RMSE": 1.8289129787748315,
+        "mean_bias": 0.10176830063313476,
+        "median_bias": -0.2780989081567116,
+        "absolute_error_p90": 2.956167461566497,
+        "equal_player_median_MAE": 1.199265283671224,
+        "hard_fallback": 0,
+        "profile_covered_known": 1323,
+        "any_imputed_known": 451
+      },
+      {
+        "season": 2025,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F1",
+        "eligible": 1684,
+        "available": 1684,
+        "known": 1557,
+        "unknown": 127,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1557,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.382328323847834,
+        "median_MAE": 1.3018625561978163,
+        "mean_MSE": 3.3330620723288384,
+        "mean_RMSE": 1.82566756895357,
+        "mean_bias": 0.11106129174027791,
+        "median_bias": -0.26525369299935775,
+        "absolute_error_p90": 2.905046151744402,
+        "equal_player_median_MAE": 1.1953088165959453,
+        "hard_fallback": 0,
+        "profile_covered_known": 1323,
+        "any_imputed_known": 489
+      },
+      {
+        "season": 2025,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F2",
+        "eligible": 1684,
+        "available": 1684,
+        "known": 1557,
+        "unknown": 127,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1557,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.3664171627496144,
+        "median_MAE": 1.285806037251124,
+        "mean_MSE": 3.2866897782526245,
+        "mean_RMSE": 1.8129229929185147,
+        "mean_bias": 0.0799160921526164,
+        "median_bias": -0.2697495183044316,
+        "absolute_error_p90": 2.8951503662606553,
+        "equal_player_median_MAE": 1.177015558698727,
+        "hard_fallback": 0,
+        "profile_covered_known": 1381,
+        "any_imputed_known": 401
+      },
+      {
+        "season": 2025,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F3",
+        "eligible": 1684,
+        "available": 1684,
+        "known": 1557,
+        "unknown": 127,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1557,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.3656903227449275,
+        "median_MAE": 1.2967244701348748,
+        "mean_MSE": 3.2789423098089703,
+        "mean_RMSE": 1.8107849982283843,
+        "mean_bias": 0.08824347289752575,
+        "median_bias": -0.27167630057803466,
+        "absolute_error_p90": 2.893086162045273,
+        "equal_player_median_MAE": 1.1906137042275657,
+        "hard_fallback": 0,
+        "profile_covered_known": 1381,
+        "any_imputed_known": 444
+      },
+      {
+        "season": 2025,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "CONTROL_LEAF",
+        "eligible": 1684,
+        "available": 1684,
+        "known": 1557,
+        "unknown": 127,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1557,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.3789810461857868,
+        "median_MAE": 1.296082209377007,
+        "mean_MSE": 3.319021893928496,
+        "mean_RMSE": 1.8218182933345728,
+        "mean_bias": 0.06567414048560954,
+        "median_bias": -0.33269107257546565,
+        "absolute_error_p90": 2.8828417690526256,
+        "equal_player_median_MAE": 1.1943540782649693,
+        "hard_fallback": 0,
+        "profile_covered_known": 0,
+        "any_imputed_known": 363
+      }
+    ],
+    "2026": [
+      {
+        "season": 2026,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F0",
+        "eligible": 1739,
+        "available": 1739,
+        "known": 1584,
+        "unknown": 155,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1584,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.403521469582737,
+        "median_MAE": 1.3472222222222223,
+        "mean_MSE": 3.6137969013217717,
+        "mean_RMSE": 1.9009989219675458,
+        "mean_bias": -0.06693359650300135,
+        "median_bias": -0.4154040404040404,
+        "absolute_error_p90": 2.99674068005408,
+        "equal_player_median_MAE": 1.1868043154761905,
+        "hard_fallback": 0,
+        "profile_covered_known": 1350,
+        "any_imputed_known": 423
+      },
+      {
+        "season": 2026,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F1",
+        "eligible": 1739,
+        "available": 1739,
+        "known": 1584,
+        "unknown": 155,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1584,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.4057961834300514,
+        "median_MAE": 1.3352272727272727,
+        "mean_MSE": 3.6121926771939106,
+        "mean_RMSE": 1.9005769327217223,
+        "mean_bias": -0.05679447811529136,
+        "median_bias": -0.42613636363636365,
+        "absolute_error_p90": 3.0284990968468573,
+        "equal_player_median_MAE": 1.1823846726190477,
+        "hard_fallback": 0,
+        "profile_covered_known": 1350,
+        "any_imputed_known": 471
+      },
+      {
+        "season": 2026,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F2",
+        "eligible": 1739,
+        "available": 1739,
+        "known": 1584,
+        "unknown": 155,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1584,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.395651509725938,
+        "median_MAE": 1.3339646464646464,
+        "mean_MSE": 3.565376690706503,
+        "mean_RMSE": 1.8882205090260256,
+        "mean_bias": -0.04801127491954579,
+        "median_bias": -0.3996212121212121,
+        "absolute_error_p90": 2.924352132107038,
+        "equal_player_median_MAE": 1.1787537202380953,
+        "hard_fallback": 0,
+        "profile_covered_known": 1403,
+        "any_imputed_known": 372
+      },
+      {
+        "season": 2026,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "F3",
+        "eligible": 1739,
+        "available": 1739,
+        "known": 1584,
+        "unknown": 155,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1584,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.3985346266109557,
+        "median_MAE": 1.331439393939394,
+        "mean_MSE": 3.567598812191456,
+        "mean_RMSE": 1.8888088342104545,
+        "mean_bias": -0.038724157630156936,
+        "median_bias": -0.4059343434343434,
+        "absolute_error_p90": 2.9190909105632534,
+        "equal_player_median_MAE": 1.1784672619047618,
+        "hard_fallback": 0,
+        "profile_covered_known": 1403,
+        "any_imputed_known": 421
+      },
+      {
+        "season": 2026,
+        "scope": "WR_TE",
+        "cohort": "ALL",
+        "week": "ALL",
+        "method": "CONTROL_LEAF",
+        "eligible": 1739,
+        "available": 1739,
+        "known": 1584,
+        "unknown": 155,
+        "unavailable": 0,
+        "games": 121,
+        "player_games": 1584,
+        "actual_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "source_row_conditioned": true,
+        "offered_player_mask": false,
+        "mean_MAE": 1.4122678976363126,
+        "median_MAE": 1.3491161616161615,
+        "mean_MSE": 3.648042498631908,
+        "mean_RMSE": 1.909984947226524,
+        "mean_bias": -0.06813482805939039,
+        "median_bias": -0.4412878787878788,
+        "absolute_error_p90": 3.046038760332039,
+        "equal_player_median_MAE": 1.1830543154761906,
+        "hard_fallback": 0,
+        "profile_covered_known": 0,
+        "any_imputed_known": 348
+      }
+    ]
+  },
+  "new_actual_offer_weeks": 0,
+  "same_learner_family": 1,
+  "current_packet": "C-C04-20261110-W10-FIRST-01",
+  "current_graded_outcomes": 0
+}

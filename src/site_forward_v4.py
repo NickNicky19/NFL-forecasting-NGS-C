@@ -47,10 +47,21 @@ def consumed(r):
     if len(f)>=41:out.update(opponent_allowed_passing_yards_per_attempt=f[35],opponent_pass_attempt_support=f[36],opponent_allowed_rushing_yards_per_carry=f[37],opponent_carry_support=f[38],opponent_allowed_receiving_yards_per_target=f[39],opponent_target_support=f[40])
     return out
 
+def legacy_feed_run(meta):
+    """Only the declared legacy schema enters this consumer, after validation.
+
+    C04 forecast-only snapshots have their own hash-bound consumer. Recognizing
+    that exact schema does not skip its run or server-receipt validation.
+    """
+    schema=meta.get('schema')
+    assert schema in ['C-PREGAME-RUN-v4','C04-CURRENT-FORECAST-ONLY-RUN-v1'],'UNKNOWN_PROSPECTIVE_CONSUMER_SCHEMA'
+    return schema=='C-PREGAME-RUN-v4'
+
 def build(root,docs):
     captures=[];runs=[]
     for receipt_path in sorted((root/'receipts').glob('*.json')):
         proof=read_json(receipt_path);run=root/'runs'/proof['run_id'];m,rows=validate_run(run);persisted=validate_receipt(run,proof,m,rows)
+        if not legacy_feed_run(m):continue  # Separate validated C04 research/shadow consumer.
         admission=admission_for(root,run,m)
         source=read_json(run/'sources/SOURCE_MANIFEST.json');status=read_json(run/'status_before_persistence.json')
         status_at=max(s['observed_UTC'] for s in status['sources']);source_at=max(s['observed_UTC'] for s in source['sources'])

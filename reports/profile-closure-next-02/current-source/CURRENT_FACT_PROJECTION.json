@@ -1,0 +1,124 @@
+{
+  "source": {
+    "id": "CURRENT_PLAYER_STATS",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+    "started_UTC": "2026-11-10T18:55:23.706888+00:00",
+    "state": "RECEIVED",
+    "status": 200,
+    "bytes": 613546,
+    "SHA256": "fa81925d8c4bd252c9d536879119c0b249fd7b847508b7283a26c4d80a4ba6c6",
+    "observed_UTC": "2026-11-10T18:55:24.489370+00:00",
+    "HTTP_Date": "Tue, 10 Nov 2026 18:55:24 GMT",
+    "HTTP_Age": "2940",
+    "HTTP_Last_Modified": "Tue, 10 Nov 2026 17:04:16 GMT",
+    "ETag": "\"0x8DF3F4CA74E3D93\""
+  },
+  "rows": 9455,
+  "used_columns": [
+    "player_id",
+    "player_display_name",
+    "position",
+    "season",
+    "week",
+    "season_type",
+    "game_id",
+    "team",
+    "opponent_team",
+    "attempts",
+    "carries",
+    "targets",
+    "receptions",
+    "sacks_suffered",
+    "passing_tds",
+    "rushing_tds",
+    "receiving_tds",
+    "passing_2pt_conversions",
+    "rushing_2pt_conversions",
+    "receiving_2pt_conversions",
+    "kickoff_returns",
+    "punt_returns",
+    "special_teams_tds",
+    "passing_interceptions",
+    "rushing_yards",
+    "passing_yards",
+    "receiving_yards",
+    "fumbles_lost_total",
+    "fumble_recovery_tds",
+    "completions"
+  ],
+  "quarantined_stat_orphans": [
+    {
+      "game_id": "2026_01_NE_SEA",
+      "team": "SEA",
+      "opponent_team": "NE",
+      "season": 2026,
+      "week": 1,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_02_DET_BUF",
+      "team": "BUF",
+      "opponent_team": "DET",
+      "season": 2026,
+      "week": 2,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_03_ATL_GB",
+      "team": "ATL",
+      "opponent_team": "GB",
+      "season": 2026,
+      "week": 3,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_04_PIT_CLE",
+      "team": "CLE",
+      "opponent_team": "PIT",
+      "season": 2026,
+      "week": 4,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_05_TB_DAL",
+      "team": "DAL",
+      "opponent_team": "TB",
+      "season": 2026,
+      "week": 5,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_06_SEA_DEN",
+      "team": "SEA",
+      "opponent_team": "DEN",
+      "season": 2026,
+      "week": 6,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_07_NE_CHI",
+      "team": "NE",
+      "opponent_team": "CHI",
+      "season": 2026,
+      "week": 7,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_08_CAR_GB",
+      "team": "CAR",
+      "opponent_team": "GB",
+      "season": 2026,
+      "week": 8,
+      "player_id": null
+    },
+    {
+      "game_id": "2026_09_JAX_BAL",
+      "team": "JAX",
+      "opponent_team": "BAL",
+      "season": 2026,
+      "week": 9,
+      "player_id": null
+    }
+  ],
+  "unknown_fields_not_zero_filled": true
+}

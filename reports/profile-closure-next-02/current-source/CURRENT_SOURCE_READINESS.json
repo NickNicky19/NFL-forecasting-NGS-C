@@ -1,0 +1,29 @@
+{
+  "id": "C04-CURRENT-SOURCE-READINESS-v1",
+  "recorded_UTC": "2026-11-10T19:17:17.213559+00:00",
+  "state": "MODEL_INPUTS_QUALIFIED_FINAL_NATIVE_STATUS_DEFERRED_TO_ISSUANCE",
+  "model_input_manifest": {
+    "path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST.json",
+    "SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c"
+  },
+  "current_known_roster_contract": "NFLVERSE_CURRENT_KNOWN_SEASON_ROSTER_SNAPSHOT-v1",
+  "roster_query_week": null,
+  "all_league_basic_records": 959,
+  "tentative_future_basic_records": 842,
+  "tentative_future_source_ACT_receiving_candidates": 364,
+  "tentative_games_not_native_admitted": 14,
+  "final_native_status_file": "sources/profile-closure-next-02/events.json",
+  "final_native_manifest": "sources/profile-closure-next-02/SOURCE_MANIFEST.json",
+  "remaining_action_owner": "C source executor, after root/capture readiness, one corrected weekly native status GET with one explicitly registered parameter-only fallback",
+  "status_clock_fixture_receipt": "reports/profile-closure-next-02/current-source/STATUS_HTTP_CLOCK_FIXTURES.json",
+  "no_final_native_GET_yet": true,
+  "fits_or_forecasts_issued_by_source_task": 0,
+  "current_offers_retrieved": 0,
+  "limits": [
+    "Known current provider ACT candidate is not a confirmed starter, healthy status or future gameday roster",
+    "Individual roster transaction effective times remain unknown",
+    "Current statistical revision is not authenticated original historical availability",
+    "Recent finality is current schedule scores plus weekly stats; exact prospective policy must preserve any native finality holds",
+    "No additional actual-line evidence or NFL test weeks from this source task"
+  ]
+}

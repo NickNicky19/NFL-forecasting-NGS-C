@@ -1,0 +1,14 @@
+{
+  "id": "C04-CI-TASK-BINDING-CORRECTION-v1",
+  "at_UTC": "2026-11-10T19:41:25.801561+00:00",
+  "failed_run": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/42887388208",
+  "failed_head": "ff104ad177d57da28043272cbd0bea13dd88d008",
+  "error": "BOUND_HASH_MISMATCH reports/abc-championship/TASK_LEDGER.json",
+  "cause": "OwnerappendedcurrentcapturetaskafterpointerbindingwithoutrefreshingcurrenttaskSHA.",
+  "previous_bound_SHA256": "108e1b523a322fcd17ac93a15ddc953a7ddeb7c9568a99426a5bbd5576f29c88",
+  "correct_current_SHA256": "e5420d9cca5f24d970cacc5b1612d1f5d760844cc1610e675b08df5bbf716547",
+  "fix": "Updateonlycurrenttasksbinding;retainpreviouscanonicalpointerandallforecasts/models/sourcebytes.",
+  "forecast_or_grade_changes": 0,
+  "new_fits": 0,
+  "scope": "Registrybindingrepair,notNFLpredictiondefect"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "C04-INTAKE-RETENTION-GUARD-AND-LOSSLESS-REPACK-v1",
+  "UTC": "2026-11-10T18:45:35.632355+00:00",
+  "original_retention_cap": 163840,
+  "measured_before_remedy_bytes": 168346,
+  "cap_initially_exceeded": true,
+  "cause": "Generatedgzipmetadata projectionswerewrittenbeforetotalretentionguard; guardthenstoppedsubsequentrequests",
+  "remedy": "Losslessxzmetadatawrapperencoding; exactdecodedbytesanddeterministicgziproundtripverified; no source/model/score changes",
+  "cap_raised": false,
+  "HTTP_budget_compliance": "6logicalGETs;rawresponsebyteswithinregistered4MiB;noHTTPcapviolation",
+  "mapping": [
+    {
+      "old_path": "B_PROFILE_REPORT.json.gz",
+      "old_bytes": 7133,
+      "old_SHA256": "1f31aab0e0432bbdec072530b354becab99dae003247b268cf3bbd596364ca05",
+      "decoded_SHA256": "5aefdbea69066b292d02898235b23d725304e783ca04b824571f9c9bfc110b54",
+      "new_path": "B_PROFILE_REPORT.json.xz",
+      "new_bytes": 6816,
+      "new_SHA256": "6fe550b60052ce5ed2c244a1d3d431554f99d35ea1138ff5857138c5043e206c",
+      "exact_original_gzip_reproducible": true
+    },
+    {
+      "old_path": "A_RECEPTION_STRONG.json.gz",
+      "old_bytes": 36855,
+      "old_SHA256": "b54cd2a24e918cee6cfbc811419854fa31139e11b2ae9b887fd93a62cf3b07e6",
+      "decoded_SHA256": "f00ff70bc15b0e8248a52654cac97deb19bb02cbefc7bdf3c26760b7d9dbd3c2",
+      "new_path": "A_RECEPTION_STRONG.json.xz",
+      "new_bytes": 20116,
+      "new_SHA256": "72e16a66e04ddd1d5bb851535b67f5ec8763a145b7ec606bd404f801e81698d7",
+      "exact_original_gzip_reproducible": true
+    },
+    {
+      "old_path": "B_INDEX.json.gz",
+      "old_bytes": 88232,
+      "old_SHA256": "43e386308ec2ac14d4aad229954e5b8ad7ad9cebfcea84dc2b72d38d23ea5273",
+      "decoded_SHA256": "e782f1252acd4ac6e7a7a9befba2393d7aebdaa261c9023bccfba1bb885f0b53",
+      "new_path": "B_INDEX.json.xz",
+      "new_bytes": 72756,
+      "new_SHA256": "77e76362169ad16aa3bea067a0b40cabb1ebf89497546a4c92fb7e6bbdd08a5b",
+      "exact_original_gzip_reproducible": true
+    },
+    {
+      "old_path": "A_INDEX.json.gz",
+      "old_bytes": 8995,
+      "old_SHA256": "daa4edec60791a05be528cdee4e5484fffa8b6f563e426fbc6a82dce60407f3c",
+      "decoded_SHA256": "e665d603629f626b699fffea48231df785a592c9ceb6d067b91e77509df6c68e",
+      "new_path": "A_INDEX.json.xz",
+      "new_bytes": 8184,
+      "new_SHA256": "f58748fae799f1d65e86259f1b91b68dc572aa2c77c3fdae85140323fe16dc41",
+      "exact_original_gzip_reproducible": true
+    },
+    {
+      "old_path": "A_C_LEAF_TABLES.json.gz",
+      "old_bytes": 2481,
+      "old_SHA256": "0b459f23b8b0f1445c4fe7aceb663681e8f410bf7aba1973db282b9594b55e9c",
+      "decoded_SHA256": "149cd0df49cce79b8a76abcebb73b5c0695bc7b86e1abe4b79b937984b947cb4",
+      "new_path": "A_C_LEAF_TABLES.json.xz",
+      "new_bytes": 2252,
+      "new_SHA256": "2fe4d6f1e19421a9dd5bff53bda0f43e9953d5ae02941f8cf43fe1b4ab349ba8",
+      "exact_original_gzip_reproducible": true
+    },
+    {
+      "old_path": "A_RECOVERY_REPORT.json.gz",
+      "old_bytes": 6122,
+      "old_SHA256": "b8aeb1332254078973c00faf4334b2df5ae585e80572e1cfd90a05c2a5fff091",
+      "decoded_SHA256": "1bd7bea71dcc9aedbac487caeddae19109a9b64058b2c423e69a0737865074ca",
+      "new_path": "A_RECOVERY_REPORT.json.xz",
+      "new_bytes": 5848,
+      "new_SHA256": "a546106f8ab123f60df690d1f16634d98642121fddbc70fbc0b24a685dcf8d43",
+      "exact_original_gzip_reproducible": true
+    }
+  ],
+  "minimal_index_projection": {
+    "UTC": "2026-11-10T18:46:40.190978+00:00",
+    "file": "B_INDEX.json.xz",
+    "before_bytes": 72756,
+    "after_bytes": 4240,
+    "before_generated_SHA256": "77e76362169ad16aa3bea067a0b40cabb1ebf89497546a4c92fb7e6bbdd08a5b",
+    "full_source_exact_binding_preserved": {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "05032e19e30b1f890a6b2679c70d3c97f0bbb2a1",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "decoded_bytes": 881348,
+      "decoded_SHA256": "5ea67926d37b0c0c4eb3008e8c7eec41e3a19f3a5a9f45567f6b3c79b45db023",
+      "Git_blob_SHA": "665cad3e867c591e859cbd9d02fb14acb15b4f01",
+      "observed_UTC": "2026-11-10T18:42:51.708636+00:00"
+    },
+    "omission": "Unrelated older exports already retained in C/sourceownerindex; actual newer results retrieved separately. No unique NFL rows, predictions, models or grades removed."
+  }
+}

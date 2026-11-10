@@ -50,6 +50,9 @@ jobs:
         run: node --check docs/context.js
       - if: ${{ hashFiles('docs/data/context-matchup-v1.json') != '' }}
         run: python src/context_site_validate_c01.py
+      - name: Verify C04 matched timing and current consumer (no fits)
+        if: ${{ hashFiles('docs/data/profile-closure-next-02.json') != '' }}
+        run: python src/site_profile_closure_c04.py --validate
       - run: node --check docs/qualification.js
       - run: python src/site_qualification_5w.py validate
       - name: Verify period bindings, aggregate-to-site parity and saved final CSV (no fits)

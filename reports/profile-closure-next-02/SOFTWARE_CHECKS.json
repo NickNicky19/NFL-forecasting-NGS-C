@@ -1,0 +1,12 @@
+{
+  "id": "C04-SOFTWARE-CHECKS-PRE-CURRENT-v1",
+  "at_UTC": "2026-11-10T19:20:35.729233+00:00",
+  "command": "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests",
+  "python": "3.12.14",
+  "tests_passed": 218,
+  "exit": 0,
+  "log": "reports/profile-closure-next-02/SOFTWARE_CHECK_LOG.txt.gz",
+  "decoded_log_SHA256": "f0432056e80361ba9cfb56b82cfce83861ca5a8893b173ce404c63a57ed7b578",
+  "NFL_observations_added": 0,
+  "scope": "Pre-finality-whitelistedit;rerunaffectedtestsafterlatestchanges;notreleaseoractualcapture"
+}
