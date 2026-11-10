@@ -1,0 +1,146 @@
+{
+  "id": "C05-FORWARD-NOREFIT-FEASIBILITY-v1",
+  "at_UTC": "2026-11-10T22:46:02.024018+00:00",
+  "status": "CONDITIONALLY_EXECUTABLE;SOURCE_QUALIFICATION_AND_LINEAGE_ADAPTER_REQUIRED",
+  "read_only_scope": true,
+  "network_calls": 0,
+  "new_fits": 0,
+  "current_eligibility_verified": false,
+  "deterministic_event_policy": "Earliest retained scheduled future game not already captured; kickoff then canonical gameID; selected before any new event outcomes/offer scores",
+  "provisional_event": {
+    "game_id": "2026_10_NE_DET",
+    "season": 2026,
+    "week": 10,
+    "gameday": "2026-11-15",
+    "gametime": "09:30",
+    "home_team": "DET",
+    "away_team": "NE",
+    "espn": 401873053,
+    "kickoff": 1794753000.0
+  },
+  "kickoff_UTC": "2026-11-15T14:30:00+00:00",
+  "kickoff_America_Chicago": "2026-11-15 08:30 CST",
+  "draft_rows": 69,
+  "draft_unique_players": 23,
+  "role_counts": {
+    "RB": 7,
+    "WR": 10,
+    "TE": 6
+  },
+  "models": [
+    {
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "path": "models/C_V4_RETAINED_REFERENCE_OBSERVED.json.xz",
+      "SHA256": "a8f0dacd8d31dd6a7a1523228f29ef7f96d45510810439b761a85c9639e01d0b",
+      "feature_count": 32,
+      "family": "LEAF",
+      "feature_policy": "UNCHANGED_V4_MIXED_HISTORICAL_FEATURE_KICKOFF_PLUS7D_WITH_SOURCE_COMPLETED_LABELS_AND_OBSERVED_CURRENT_QUERY",
+      "training_rows": 21869
+    },
+    {
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "path": "models/C_V11_P1_E2_POOLED_7D.json.xz",
+      "SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb",
+      "feature_count": 60,
+      "family": "POISSON",
+      "feature_policy": "ALL_LABEL_FEATURE_QUERY_KICKOFF_PLUS7D_STRICT_RECONSTRUCTION;CONTEXT2025_2026_ONLY",
+      "training_rows": 21835
+    },
+    {
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "path": "models/C04_F3_PROFILE_1D_SHADOW.json.xz",
+      "SHA256": "5b1144957e6c14bc5b449823c10ab12baada7afcb4c7a3fd54e3ea07b601a7da",
+      "feature_count": 58,
+      "family": "LEAF",
+      "feature_policy": "ALIGNED_ALL_LABEL_FEATURE_QUERY_KICKOFF_PLUS1D_STRICT_CURRENT_VINTAGE_RECONSTRUCTION_NOT_OBSERVED_PUBLICATION",
+      "training_rows": 21869
+    }
+  ],
+  "retained_bindings": [
+    {
+      "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/RUN.json",
+      "bytes": 5892,
+      "SHA256": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d"
+    },
+    {
+      "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/DRAFT.json",
+      "bytes": 32410,
+      "SHA256": "05529bfb6276d54432d72bad991818131595025fc89ffba6e012d97c45a281f0"
+    },
+    {
+      "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/DRAFT_FORECASTS.json.xz",
+      "bytes": 175680,
+      "SHA256": "ba8d41c716e5fd404399845054cba0bda237a75f12feff49cd79c1ba91acff00"
+    }
+  ],
+  "forecast_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "football_predictor_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "original_frozen75": "Unchanged; WASHINGTON\u2013NYG original scheduled kickoff2026-11-13T01:15Z; no qualified final outcome receipt available locally. No new grade may be inferred.",
+  "smallest_source_package": [
+    "Current known-season roster projection/native IDs/team/role/status, actual response/source clocks and version",
+    "Exact native event status for20261115 single-date endpoint; ID401873053,NEatDET,REG2026W10,kickoff agreement,unplayed,HTTPcacheAge/Date checks",
+    "To call this a latest-information update, check consumed ordinary stats/PBP versions against retained strongETags. If changed, current-source recipe cannot silently reuse incompatible feature/model semantics.",
+    "If ordinarysource version cannot be established unchanged: explicit earlier19:23-cutoff shadow-first-publication only, or hold a latest-input product. New current eligibility clock does not refresh old football feature clock."
+  ],
+  "source_call_authority_currently": "ZERO_GET_READONLY;parent must register finite source allowance before calls",
+  "existing_issuer_incompatibility": [
+    "fit_draft/issue enforce currentHEAD/code/registration equality with old draft. Actual original draft code commit9994055 is not currentHEAD. Do not rewrite that old producer binding.",
+    "validate_status_snapshot hard-binds original C04 collector module and input/source paths; original collector has fixedNov12route. Do not mutate it or original source files, because old75 validation depends on those bytes.",
+    "Typed C04 validator requires output rows equal original draft including original inference clock. New actual re-inference needs an explicit separate lineage mode, not a fabricated current clock on an old row."
+  ],
+  "minimal_adapter_plan": [
+    "Extend existing typed C04 capture/validation infrastructure with one registered lineage mode for safe-model re-inference of immutable saved inputs; no new evaluator/scorer. Preserve default original-v1 branch unchanged.",
+    "Load exact originalmodelmetadata/feature_order and savedvectors, verify all hashes and original producer/source bindings, then run infer_forest or pooled_mu without fitting. Retain original source/feature cutoff and original preliminary inference clock as lineage; write new actual inference/issue/persistence clocks.",
+    "Build full current event roster board independently of target stats; intersect supported player/event/team/role with frozenfeature rows. New/mismatched players get explicit unavailable records, not retrospective exclusion or invented fallback.",
+    "Use registered currentcollector path/hash and retained executedcode snapshot in new source manifest. Reuse existing strict HTTPcache/event identity/status parsers; do not replace STATUS_CODE_PATH or old source manifests.",
+    "For new packet, first eligible native event only; preserve full considered-board exclusions. Fresh roster is current-known status, not starter/health/gameday confirmation. No original-site activation, new primary or TopPicks rule.",
+    "Reuse existing server receipt and grading path through explicit typed validation; add only normalized metadata needed for first-snapshot registry. Keep old75/source/RUN/modelbytes unchanged."
+  ],
+  "necessary_tests": [
+    "All3models exactoriginalfit/draft hash and feature-order binding; safeJSONinference only; single/batch/shuffled identity parity.",
+    "Current roster duplicate/missingID/nonACT/team/role/unseen-player reasons; target actual/statrow/participation absent and mutation-invariant.",
+    "Native event ID/team/kickoff/season/week/prestatus, actualHTTPDate/Age and clean-start clock; stale/unknown-both/start/reschedule fail closed.",
+    "Unchanged-source proof or explicit frozen-feature/earlier-cutoff label; new status/inference/build clocks never rewrite feature-source vintage.",
+    "Both references/challenger same supported query mask; complete board available/unavailable counts; all line/side/confidence/EV null without qualified offers.",
+    "Old75 and all legacy2895site rows remain byte/semantic unchanged; new source metadata cannot break their validation.",
+    "GitHubactualreadback/serverpersistence before earliest game; rendered value/source label/expiry/fallback parity under existing C research authority."
+  ],
+  "preflight_resources": {
+    "model_file_compressed_total_bytes": 2074212,
+    "expected_inference_rows": 69,
+    "fit_count": 0,
+    "expected_inference_CPU_seconds_upper_planning": 10,
+    "expected_RSS_bytes_upper_planning": 536870912,
+    "expected_new_permitted_public_bytes_upper_planning": 1048576,
+    "whole_C_cap_unchanged": 2684354560,
+    "one_thread": true,
+    "one_manual_batch_only": true
+  },
+  "offers": {
+    "status": "NO_CURRENT_OPEN_OFFER_ADMITTED",
+    "last_existing_PropLine_metadata_receipt": "reports/player-context-matchup-01/CURRENT_OFFERS_DISPOSITION.json",
+    "source_revision": "f37857bfdc67ac4e3ecb2851eb274aee7601057d",
+    "coverage": "ImmutablehistoricalW2-W3fourmarkets;notcurrentOPENquotes",
+    "legacy_holds": "ESPN/Sleeper source analysis/retention holds remain;no inferred actualoffer from site reference thresholds",
+    "minimum_dependency": "Permitted exactnativeplayer/event/stat/fullgameOT/venue/product/tier/line/offeredside and OPEN observation/decision clocks;prices separately required onlyforEV."
+  },
+  "original_site": {
+    "reported_packet": 1610,
+    "status": "USER_REPORTED_PRESERVE;NO_LOCAL_MATCHING_PACKET_RECEIPT_LOCATED",
+    "last_retained_consumer_contract": "reports/profile-increment-v2/STATIC_CONSUMER_CONTRACT.json",
+    "last_observed_UTC": "2026-11-10T12:03:11.348050+00:00",
+    "permitted_discovery_routes": [
+      "OriginalsitePR1comment6642441018andlegitimatesupersedingreceipt",
+      "data/weekly-adaptive-overlay.json pointer and ownerpublished technical delivery receipt",
+      "data/week.json actualboard subjecttosourceanalysis/retentionrights before wholesale retention"
+    ],
+    "current_consumption": "NOT_VERIFIED_BY_THIS_READONLY_LOCAL_REVIEW",
+    "writes": 0
+  },
+  "blocked_cells": {
+    "new_current_capture": "Parent-owned source qualification and explicit no-refit lineage implementation/verification required; not model recovery blocked.",
+    "old75_grading": "Qualified official final outcomes absent; future scheduled event, no syntheticgrade.",
+    "real_line_selection": "No qualified currentOPENoffer/board; numericalforecast-only remains independently feasible.",
+    "original1610comparison": "Original owner exact receipt/schema/source access; do not count1610forecasts as selections."
+  }
+}

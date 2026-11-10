@@ -1,0 +1,22 @@
+{
+  "id": "C05-SOURCE-EXECUTED-PREPARE-BINDING-v1",
+  "recorded_UTC": "2026-11-10T22:53:05.452517+00:00",
+  "code_path": "reports/profile-timing-closure-confirm-01/forward-source/acquire_forward_sources_c05.py",
+  "code_SHA256": "4d1b21d421f01fbf7fe0fbd273ce33b275464aba6ec824f38c78180e578b564e",
+  "input_manifest_path": "sources/profile-timing-closure-confirm-01/forward/INPUT_MANIFEST.json",
+  "input_manifest_SHA256": "90a453a41518771717143cae4155005fb109eeb01cc3f755524fd83a31b166d7",
+  "commands": [
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python reports/profile-timing-closure-confirm-01/forward-source/acquire_forward_sources_c05.py --stage prepare"
+  ],
+  "source_request_count": 3,
+  "source_body_bytes_read": 981583,
+  "source_methods": [
+    "GET",
+    "HEAD",
+    "HEAD"
+  ],
+  "old_sources_unchanged": true,
+  "new_fits": 0,
+  "new_forecasts_or_selections": 0,
+  "next_stage": "DEFERRED_NATIVE_ROOT_CLEAN_GATE_GO_REQUIRED"
+}

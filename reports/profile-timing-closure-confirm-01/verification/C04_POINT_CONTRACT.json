@@ -1,0 +1,180 @@
+{
+  "id": "C05-INDEPENDENT-C04-POINT-CONTRACT-v1",
+  "checked_UTC": "2026-11-10T22:44:49.625986+00:00",
+  "status": "PASS_LOCAL_EXACT_POINT_AND_IMMUTABLE_PACKET_SCOPE",
+  "protocol": {
+    "protocol": {
+      "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",
+      "SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1"
+    },
+    "scorer": {
+      "path": "src/abc_championship_v2.py",
+      "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+    },
+    "schema": {
+      "path": "reports/abc-championship/EXPORT_SCHEMA-v2.json",
+      "SHA256": "0ba0755f94889a33fb7c02efbf4cc9e414b9a733fc3bc7f1357faba1c294f2f4"
+    },
+    "roster": {
+      "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+      "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+    }
+  },
+  "point_artifact": {
+    "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
+    "SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc",
+    "query_rows": 4811,
+    "arm_query_records": 19244,
+    "typed_point_values": 38488,
+    "public_bytes": 234104
+  },
+  "source_rows": 4811,
+  "point_values_exact": 38488,
+  "origin_model_bindings_verified": 64,
+  "weekly_training_cutoff_metadata_checked": 16,
+  "seasons_weeks": [
+    {
+      "season": 2025,
+      "week": 1,
+      "queries": 321
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "queries": 309
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "queries": 312
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "queries": 316
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "queries": 284
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "queries": 288
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "queries": 299
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "queries": 257
+    },
+    {
+      "season": 2026,
+      "week": 1,
+      "queries": 320
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "queries": 320
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "queries": 326
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "queries": 324
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "queries": 306
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "queries": 284
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "queries": 272
+    },
+    {
+      "season": 2026,
+      "week": 8,
+      "queries": 273
+    }
+  ],
+  "role_counts": {
+    "WR": 2249,
+    "RB": 1388,
+    "TE": 1174
+  },
+  "changed_points": [
+    {
+      "old": "F0",
+      "new": "F2",
+      "product": "mean",
+      "rows": 4811
+    },
+    {
+      "old": "F0",
+      "new": "F2",
+      "product": "median",
+      "rows": 888
+    },
+    {
+      "old": "F1",
+      "new": "F3",
+      "product": "mean",
+      "rows": 4811
+    },
+    {
+      "old": "F1",
+      "new": "F3",
+      "product": "median",
+      "rows": 851
+    }
+  ],
+  "F0_F1_C03_mapping": {
+    "F0": "C03::R1::same_output",
+    "F1": "C03::R2::same_output"
+  },
+  "mean_median_source_precision_exact": true,
+  "point_payload_probability_line_side_actual_participation_fields": false,
+  "laws_or_probability_scores_supported_by_point_export": false,
+  "past_GitHub_actual_readback_receipt_reused": "reports/profile-closure-next-02/FRESH_HISTORICAL_GITHUB_RESTORE.json",
+  "new_network_GETs": 0,
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "old75packet": {
+    "files_exact": true,
+    "forecasts": 75,
+    "players": 25,
+    "games": 1,
+    "RUN_SHA256": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d",
+    "forecasts_SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+    "receipt_SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe",
+    "recorded_kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "recorded_kickoff_still_future_at_check": true,
+    "new_native_status_checked": false,
+    "grading": "NO_NEW_QUALIFIED_FINAL_OUTCOMES;DO_NOT_GRADE_OR_BACKDATE"
+  },
+  "A_private_board_access": "NOT_INSPECTED;no733privateoffersorprivateclocksreceived",
+  "join_ready": "A_can_bind_saved_exact_points_to_its_owned_qualified_offer/outcome_manifest_without_fit;F0/F1_baseline_reuse_only_if_exact_same_row/source/line/horizon/outcome/rule",
+  "source_separation": "W1-5_retained_actual_line_panel_must_be_separate_from_W6-7_internal_or_unqualified_threshold_diagnostics_and_W8_reference_rows;do_not_call_mixed7weeks_actual-offer_evidence",
+  "qualification": "Numerical16season-weeks_does_not_supply_actual-line_weeks/probability/TopPicks_history;newAjoinsmay_extend_only_exact_typed_point_rule",
+  "CPU_seconds": 1.5053270239999998,
+  "peak_RSS_bytes": 65683456,
+  "budget_CPU_seconds": 30,
+  "scope_limit": "Checks_saved_point/metadata/byte_contracts;reuses_prior_raw_feature/chronology_and_fresh-fit_receipts;not_another_model_fit_or_independent_private-row_replay"
+}

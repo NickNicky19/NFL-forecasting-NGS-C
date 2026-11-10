@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/freshness-public-v1/MANIFEST_V1.json",
+      "expected": "a62ce459a9ef28e10ed5a52d28f3eddddbe847426ebfdb9ac56a1b8ac29b331a",
+      "actual": "a62ce459a9ef28e10ed5a52d28f3eddddbe847426ebfdb9ac56a1b8ac29b331a",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/profile-increment-closure-next-02/B/ALIGNED_FRESHNESS_REPORT.md",
+      "expected": "b7022365f6d646a492c244132b6751ba8f51b35438ba87a8f62eb3d620856e4a",
+      "actual": "b7022365f6d646a492c244132b6751ba8f51b35438ba87a8f62eb3d620856e4a",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/profile-increment-closure-next-02/B/PRODUCT_DECISIONS_V1.json",
+      "expected": "29ce85e93b9ec13baf95fb51eee023acb16afa5364748e770717ca95781847f1",
+      "actual": "29ce85e93b9ec13baf95fb51eee023acb16afa5364748e770717ca95781847f1",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/profile-increment-closure-next-02/B/SAVED_TIMING_OUTPUT_HANDOFF_V1.json",
+      "expected": "fefa42f1c636fcdc4f30f45c1075dcd9046786397b453fd9bc0a1bc264a33670",
+      "actual": "fefa42f1c636fcdc4f30f45c1075dcd9046786397b453fd9bc0a1bc264a33670",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/c03-public-v1/CUMULATIVE_ALL_PROCEDURES_001.csv",
+      "expected": "2637c7820264bbed6b32753f9023f28086888042ff6cbac662015a68fb241407",
+      "actual": "2637c7820264bbed6b32753f9023f28086888042ff6cbac662015a68fb241407",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/b-completion-public-v2/ANNUAL_ACTUAL_W1_W5_001.csv",
+      "expected": "61d3f684dee7303ba123b5734ac384b5f58f0d4df627592a5136475073028a0b",
+      "actual": "61d3f684dee7303ba123b5734ac384b5f58f0d4df627592a5136475073028a0b",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/b-completion-public-v2/ANNUAL_ACTUAL_W1_W5_002.csv",
+      "expected": "69c8339b95d3f54b96e219962ae09106f5dd6a596bdd6d40a6a69eec1cf506b0",
+      "actual": "69c8339b95d3f54b96e219962ae09106f5dd6a596bdd6d40a6a69eec1cf506b0",
+      "status": "MATCH"
+    },
+    {
+      "path": "reports/abc-championship/profile-increment-to-release-01/closure-next-02/freshness-public-v1/ALL_SUMMARIES_001.csv",
+      "expected": "8bea75b8b35ecb5fca886df90e7aecc880c610bc3aef3d114f842cdc2a15b729",
+      "actual": "8bea75b8b35ecb5fca886df90e7aecc880c610bc3aef3d114f842cdc2a15b729",
+      "status": "MATCH"
+    }
+  ],
+  "all_received_indexed_members_match": true,
+  "unseen_referenced_files_not_claimed_verified": true
+}

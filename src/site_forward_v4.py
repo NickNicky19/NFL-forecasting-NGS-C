@@ -54,7 +54,7 @@ def legacy_feed_run(meta):
     that exact schema does not skip its run or server-receipt validation.
     """
     schema=meta.get('schema')
-    assert schema in ['C-PREGAME-RUN-v4','C04-CURRENT-FORECAST-ONLY-RUN-v1'],'UNKNOWN_PROSPECTIVE_CONSUMER_SCHEMA'
+    assert schema in ['C-PREGAME-RUN-v4','C04-CURRENT-FORECAST-ONLY-RUN-v1','C05-FROZEN-FOOTBALL-CURRENT-QUERY-RUN-v1'],'UNKNOWN_PROSPECTIVE_CONSUMER_SCHEMA'
     return schema=='C-PREGAME-RUN-v4'
 
 def build(root,docs):

@@ -1,0 +1,37 @@
+{
+  "id": "C05-SOURCE-OFFLINE-CHECK-v1",
+  "at_UTC": "2026-11-10T22:54:06.491797+00:00",
+  "source_code_SHA256": "4d1b21d421f01fbf7fe0fbd273ce33b275464aba6ec824f38c78180e578b564e",
+  "HEAD_methods_preserved_for_redirects": [
+    301,
+    302,
+    303,
+    307,
+    308
+  ],
+  "native_clock_cases": [
+    {
+      "case": "unknownAgeKnownDate",
+      "qualified": true,
+      "expected": true
+    },
+    {
+      "case": "bothUnknown",
+      "qualified": false,
+      "expected": false
+    },
+    {
+      "case": "oldCache",
+      "qualified": false,
+      "expected": false
+    },
+    {
+      "case": "futureDate",
+      "qualified": false,
+      "expected": false
+    }
+  ],
+  "network_requests": 0,
+  "fits": 0,
+  "NFL_observations_added": 0
+}

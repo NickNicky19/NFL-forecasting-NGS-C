@@ -1,0 +1,16 @@
+{
+  "id": "C05-RETENTION-GUARD-FAILURE-AND-LOSSLESS-REPACK-v1",
+  "at_UTC": "2026-11-10T22:52:59.762007+00:00",
+  "failed_actual_tree_bytes": 865448,
+  "cap_unchanged": 524288,
+  "cause": "UncompressedderivativeHEADLINE duplicatedfullpublictablesalreadyretained;notnewrowdata. Finalguardrejectedsize.",
+  "remedy": "LosslessHEADLINE_FULL.json.xz retainsalloriginal507KBbytes;HEADLINEjsoncontainsdeterministicall-methodannualprojection. Failedresource/manifestbytesalso retainedxz; no source refetch/private migration/capraise.",
+  "full_decoded_bytes": 505421,
+  "full_decoded_SHA256": "e373a151450bdc7352791c8fadaf31b7f7fdb843449c18c3a4a7f527f42436fa",
+  "full_compressed_bytes": 16560,
+  "new_compact_primary_counts": {
+    "C03": 22,
+    "BpriorCMP": 22,
+    "Atiming": 12
+  }
+}

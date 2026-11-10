@@ -1,0 +1,23 @@
+{
+  "id": "C05-INDEPENDENT-REPRODUCTION-COMMANDS-v1",
+  "environment": {
+    "Python": "3.12.14",
+    "implementation_dependencies": "Python standard library only; no estimator deserialization or library inference invoked.",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "commands_executed": [
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python /workspace/check-c05-independent.py",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python /workspace/check-c05-runtime-independent.py"
+  ],
+  "working_directory": "/workspace/ngs-c",
+  "saved_exact_scripts": {
+    "check_c05_actual_inference.py": "3d2afb3abb26ebf4916f691a78f6a4274ae228ccba21324afb0b31b55fe768e8",
+    "check_c05_issued_runtime.py": "ebf0bad98aa7bdec8d46bc09ddade5071926ca29918282a54b0be08bdd946775"
+  },
+  "reproduction_note": "Exact executed scripts use /workspace/ngs-c and /workspace/c05-current-draft. Restore the committed repository at its capture publication binding, copy the retained run inference_draft directory to /workspace/c05-current-draft, and invoke the saved scripts from /workspace/ngs-c. The first writes /workspace/c05-actual-inference-independent.json; the second verifies local issue/recovery and writes its verification receipt. Preserve original receipts before a reproduction; new checked_UTC/resource metadata are not additional NFL observations.",
+  "proof_limits": [
+    "The script checks the literal 0e1768 producer code binding; report/receipt commits may be later without changing that producer identity.",
+    "This reproduction verifies saved inference and local issued bytes. A subsequent server-time publication and served consumer receipt require their separate verification."
+  ]
+}

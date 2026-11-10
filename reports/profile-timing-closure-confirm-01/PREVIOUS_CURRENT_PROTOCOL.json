@@ -1,0 +1,1159 @@
+{
+  "protocol_id": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
+  "protocol": {
+    "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",
+    "SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1"
+  },
+  "scorer": {
+    "path": "src/abc_championship_v2.py",
+    "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+  },
+  "dependencies": [
+    {
+      "path": "src/actual_accuracy_v6.py",
+      "SHA256": "92260304be31b0fbee42faa3ab78616f77c3791bd2613edb9d322f9bbf29aa2a"
+    },
+    {
+      "path": "src/selection.py",
+      "SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f"
+    },
+    {
+      "path": "src/contracts_v2.py",
+      "SHA256": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+    },
+    {
+      "path": "src/actual_offers_v4.py",
+      "SHA256": "39b187dbdf750b5cdd7b26197bc2c56240ce5aab2bef67392fc77c1a8938e186"
+    },
+    {
+      "path": "src/offer_validator_v2.py",
+      "SHA256": "a24a51491c061d7825a31a98fdfdf57358a666dd9b850e0f1b117cc776b0ac51"
+    }
+  ],
+  "schema": {
+    "path": "reports/abc-championship/EXPORT_SCHEMA-v2.json",
+    "SHA256": "0ba0755f94889a33fb7c02efbf4cc9e414b9a733fc3bc7f1357faba1c294f2f4"
+  },
+  "roster": {
+    "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+    "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+  },
+  "population_offers_outcomes": {
+    "path": "reports/abc-championship/C_INPUT_BINDINGS.json",
+    "SHA256": "91cf77353b70d49d33e5ca80421a69c702dc6d8fbab07043e58b0676580359e8"
+  },
+  "masks": {
+    "path": "reports/abc-championship/COMMON_CORE-v2-C-1.json",
+    "SHA256": "15c5c843e7e3075723247584699e0f721c960664b762dd7c736b45667447969a"
+  },
+  "scores": {
+    "path": "reports/abc-championship/SCORES-v2-C-1.json",
+    "SHA256": "aee4ca8ed9b1c84992e887171813aa2d2b0e5a724c77ae65765e5e5116670fc0"
+  },
+  "corrections": "Original priorgrades preserved; append C Monday final labels as separate version;no forecasts changed",
+  "contributions": [
+    "C raw verified local pilot",
+    "A public owner-local aggregates",
+    "B public owner-local aggregates"
+  ],
+  "A_B_independent_acknowledgement": "RECEIVED_PINNED_C1_REPRESENTATIVE_SCOPED_CHECKS",
+  "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
+  "admission": {
+    "path": "reports/abc-championship/ADMISSION_LEDGER.json",
+    "SHA256": "ba598b821e187a51739a77928cf15caab514c36cb26537922f17f4703b69ca63"
+  },
+  "tasks": {
+    "path": "reports/abc-championship/TASK_LEDGER.json",
+    "SHA256": "097c353deb06c02ff12d8850b98ca7b0b125cab6e12605320fd15693e0d70ac6"
+  },
+  "roster_coverage": {
+    "path": "reports/abc-championship/METHOD_COVERAGE.json",
+    "SHA256": "6af8da0d043d53c69710834363fe52984420cf4d017f7916b9e8aa55c903004c"
+  },
+  "failed_attempts": {
+    "path": "reports/abc-championship/FAILED_ATTEMPTS.json",
+    "SHA256": "486ecf9d012aa2ce3db34e650b414349e99bbdc4c4d410ebc022fc50a1417c69"
+  },
+  "source_coverage": {
+    "path": "reports/abc-championship/SOURCE_COVERAGE.csv",
+    "SHA256": "e25e8d0e89aeb1bf85a51dfdb01f6b8fbd5c7a0815c9d7475aeca461b05ccd90"
+  },
+  "strong_control_pairs": {
+    "path": "reports/abc-championship/STRONG_CONTROL_PAIRS.json",
+    "SHA256": "652416f0d01c9a0504901d00144445096364aa5fb96d4a526db5a42cc35010bc"
+  },
+  "strong_control_code": {
+    "path": "src/abc_strong_controls_v2.py",
+    "SHA256": "cbcfba49dcafcfe3c737dc4ddca7fdd76caa5380bc6e501e9ffd1e1e338add42"
+  },
+  "suite_summaries": {
+    "path": "reports/abc-championship/SUITE_SUMMARIES.json",
+    "SHA256": "b0076ed3200fdb1c8429c2ddd523ea04e993847b1b7fbbe1ad23d09ff20cefd7"
+  },
+  "suite_code": {
+    "path": "src/abc_suite_summaries_v2.py",
+    "SHA256": "7e5017d49b1547fc660617a741d60d0d85f49762609ae49596595f3cdbf0d8aa"
+  },
+  "continuation": {
+    "id": "ABC-C-PERIOD-CONTINUATION-v2-1",
+    "amendment": {
+      "path": "protocol/ABC_PERIOD_CONTINUATION_V2.md",
+      "SHA256": "e6a5b8488a7810231100098d1de53f19f902fa378dc1d4efa975ed62431b6f20"
+    },
+    "previous_pointer": {
+      "path": "reports/abc-championship/continuation-v2/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "9c41652972e84f2c82726ab09ced9ab115b10aa7620b1f26566ada7ed6f8c4eb"
+    },
+    "report": {
+      "path": "reports/abc-championship/continuation-v2/README.md",
+      "SHA256": "ac9a377383ed4ded6d97ffca0ad05bc8b340e3b43cc1ebaf59573a2a530e4144"
+    },
+    "execution": {
+      "path": "reports/abc-championship/continuation-v2/EXECUTION_PACKAGE.json",
+      "SHA256": "5430ea3d7ff097d3bc03d81a9cd6496d445aa3d58bc4c097b25a0335e9e991a0"
+    },
+    "source_admissions": {
+      "path": "reports/abc-championship/continuation-v2/RECEIVED_ARTIFACTS.json",
+      "SHA256": "cf8d59a3136d720e9859f44566801467af33024a625896319edd48077675366d"
+    },
+    "week_grid": {
+      "path": "reports/abc-championship/continuation-v2/WEEK_BY_WEEK_GAPS.csv.gz",
+      "SHA256": "450e1200d4867d5c8893cd97ccd253fb7100cfb612d099a72d78056b76ce34b5"
+    },
+    "periods": {
+      "path": "reports/abc-championship/continuation-v2/PERIOD_COMPLETENESS.json",
+      "SHA256": "84fa562947dc2ff3264b9505f913d293f827c37d305862bf8afaa694be0ed563"
+    },
+    "adapters": [
+      {
+        "path": "src/abc_handoff_adapters_v2.py",
+        "SHA256": "119e75b3f3dadc0ddfb7715d1b96d969996226707ca67cda7af724b75d8f86a4"
+      },
+      {
+        "path": "src/abc_a_archived_adapter_v2.py",
+        "SHA256": "4854d3ff3bf16ecd07263bd7d05028b8e315bdab5caff0c5565edb05e2869f14"
+      },
+      {
+        "path": "src/abc_period_report_v2.py",
+        "SHA256": "ac3ac328b74620b4eb2b1d7dfeb909a95f2c2ca94456cc0a9d1fa74b5fa24134"
+      }
+    ],
+    "outputs": [
+      {
+        "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+        "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/HEADLINE_A_W1_W7.json",
+        "SHA256": "0d1a4ad1982ce1ff22810f57c5ba76e20858c6c7ae5c41b56e8135853854a74e"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_W1_W7_RAW_LEADERS.json",
+        "SHA256": "685a40c4a7781d327319547a2ed879440fbb86b5d9fd13577098261e9009b70b"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_WEEKLY_RAW_LEADERS.json",
+        "SHA256": "963460ac2c18d969fb4247f9b1fc17f6827a83a28f20ccf7a4147c5a181ed6dd"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_WEEK_CLUSTER_UNCERTAINTY.json",
+        "SHA256": "2dcb42255c949c284bb62e6196553c93197c2cb2e927236512aff7cfa07b35a1"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_W1_W7_OWN_MASK_CONSTANT_CONTROLS.json",
+        "SHA256": "14ad801f96140a2b90e90d78a2443bb3edcf25c09463f1f55d55ae7d9eeec3f0"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_C_OWNER_LOCAL_SCORES.json",
+        "SHA256": "ac21c979b35e5146744a4b5405a96bcf42cc18cf4bcaaec4ca81d42dab771d40"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/A_C_OWNER_LOCAL_PAIRED.json",
+        "SHA256": "54d054b8ea61036e096615e98f4fe7ddfda18e67bfb0d3e92a641c7f03d270ba"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz",
+        "SHA256": "98186c19eda7890ebfc81af520c8681009ac7ba69696edaebd2ca70f55e44254"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz",
+        "SHA256": "3fa42b1e75ca44592014c035027d25136cc4cb2e7fe6fe71c7fdafe96caab764"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/B_ORIGINAL_SELECTED_POOL_CONTROL.json",
+        "SHA256": "aa7d7275237f51b0beec52af6105dc150fe44228ebf6143c2930a664237443f9"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/HISTORICAL_CELL_DISPOSITION.json.gz",
+        "SHA256": "50fe3be935c08de64c677340cb5f87c62072ee23b8426fe651b783f52949abfe"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/C_WEEK8_FINAL_FORECAST_GRADES.json",
+        "SHA256": "ce4f3e8437180ce62331246c59df62ff88f4d60567643a7a04e7cfd0b45581cb"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/C_WEEK8_FINAL_GRADED_FORECAST_ROWS.csv.gz",
+        "SHA256": "92c0882f45bfa7c4d8ab2f97ab830d830fcf36b344ec93636b23f989ebe6fa2d"
+      },
+      {
+        "path": "reports/abc-championship/continuation-v2/C_OUTCOME_EXPANSION_HANDOFF.json",
+        "SHA256": "0d651a64ae3d6fe0f5d937d23d5619409b3335f5889d8e5843b273c50149b239"
+      }
+    ],
+    "new_fit_policy": "Initialzerofitpilotnotpermanentban; future exactmissingfits getownfinitepackageandrights/recovery/retention; no duplicatefits",
+    "limitations": "Owner-local public aggregate arithmetic only,not unseen raw-row commonmask verification;incompatiblepanels notpooled",
+    "final_independent_review": {
+      "path": "reports/abc-championship/continuation-v2/INDEPENDENT_FINAL_PERIOD_REVIEW.json",
+      "SHA256": "359c912d4b38fc59b79cf3f213cf01fcd6beaf48208118140f70790c88bce620"
+    }
+  },
+  "shared_intake": {
+    "id": "ABC-C-SHARED-INTAKE-v3-1",
+    "previous_pointer": {
+      "path": "reports/abc-championship/shared-intake-v3/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "9526f5ea65548e23751633e2865020c1cc0957b8fe293ea4e7421e2d75302307"
+    },
+    "report": {
+      "path": "reports/abc-championship/shared-intake-v3/README.md",
+      "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
+    },
+    "source_receipts": {
+      "path": "reports/abc-championship/shared-intake-v3/ARTIFACT_RECEIPTS.json",
+      "SHA256": "34b0bc559607d6c0ad3b87be4088aa25bc3680dc85c69baa30898d6ac287c784"
+    },
+    "execution": {
+      "path": "reports/abc-championship/shared-intake-v3/EXECUTION_PACKAGE.json",
+      "SHA256": "966e66603795856629ca87639a2a4bf4e0b11281f339b314a565cb01e233e1ef"
+    },
+    "code": {
+      "path": "src/abc_shared_intake_v3.py",
+      "SHA256": "7a6c17777cfaba7149e3344363c7b214c416362ae7b3c569e2226b144590296a"
+    },
+    "outputs": [
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_C_SCORES.json.gz",
+        "SHA256": "ca6cf2f6c244696941781a76d8fd8329c953b64e1e31eee03fc896cf0d5fdf9d"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_C_VERIFIED_PAIRS.json.gz",
+        "SHA256": "d5877bb09e7b435253241ba86b72b8457fedacd0121fd6bf5a77143f89af9722"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_SCORES.json.gz",
+        "SHA256": "74e73eb2489c8b2ccfba9390272bde0a9d9e49212ccd5a6867710c94199d76c6"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_WEEK8_FINAL_SCORES.json.gz",
+        "SHA256": "bf87f77c8d4a15c449e148540c28fe88ff204329aa3e3dc8f122c6e22f516a31"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz",
+        "SHA256": "3f908221db5c8a3d3eb463754add443eba62eac2032e7d750173545478900466"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PUBLIC_C_MASKS_AND_CONTROLS.json.gz",
+        "SHA256": "9268edcd0aac29efcc89bc96882f695da0e2108c38600c18d981b754e3d71324"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/SAME_OFFER_COMPARISONS.json.gz",
+        "SHA256": "c7923d190a65194305e4920a91972ea9e45f2e49aef8e25b2c42b20997ea0566"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PARTIAL_E5_E7_ALL_PROCEDURES.json",
+        "SHA256": "70309f26bd2547c625f80bfbfd3c52d51c0b1f43eee26ecfee6743f80585125b"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/PARTIAL_FIXED_SUITE_SUMMARIES.json",
+        "SHA256": "cc8ad08574cd48f69e2410c59fd7fe079a9f006e81d99f154b3af28487fe6c44"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/TWELVE_CATEGORY_STATUS.json",
+        "SHA256": "479e71dfe51f4fd2ecddb2b3157431146cb8b89970a19a98fd540d28691e42b7"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/A_STATE_CLASSIFICATION_HOLD.json",
+        "SHA256": "e3ea474478bfbb8e0a4d8968419c56c66c756ed0cdae074453b8800178d0f744"
+      }
+    ],
+    "independent_review": {
+      "path": "reports/abc-championship/shared-intake-v3/INDEPENDENT_SHARED_INTAKE_REVIEW.json.gz",
+      "SHA256": "02337412f0a4f41c0a1c19dfe3acc47b95aea421c7fc82849c6591e94f1dd72b"
+    },
+    "acknowledgements": [
+      {
+        "path": "reports/abc-championship/shared-intake-v3/intake/A-ACK.source.gz",
+        "SHA256": "1b1cbc4342684e27ac0b1f241e1d7d0ce1f97c1e59860ada49f847e876cb1c0f"
+      },
+      {
+        "path": "reports/abc-championship/shared-intake-v3/intake/C_protocol_pin_and_B_acknowledgement.source.gz",
+        "SHA256": "32c531286fd0b31d4b7a7f746a37c76bfcb20d6734444dc511281f55af9b3f8d"
+      }
+    ],
+    "source_coverage_mapping": "PriorC-onlySOURCE_COVERAGEishistorical;continuation-v2weekgridandnewsourceartifacts/periodsareexplicitextensions,not assumedall8weeks",
+    "temporal_parity": "NOT_ESTABLISHED_ACROSS_A_B_C;diagnosticonly",
+    "upstream_fresh_restore": {
+      "path": "reports/abc-championship/shared-intake-v3/UPSTREAM_RESTORE_AND_LOCAL_DEDUP.json",
+      "SHA256": "039b483ef48ea5fa05a166de1ed5ac427a7f8179354d30fe35ca35e5bfc5f97c"
+    }
+  },
+  "predictive_improvement_assignment": {
+    "id": "ABC-PREDICTIVE-IMPROVEMENT-01",
+    "C_adoption": {
+      "path": "protocol/ABC_PREDICTIVE_IMPROVEMENT_01_C_ADOPTION.md",
+      "SHA256": "7fc909d079b3b0492343749a1c6e1c164d2dd14be30def21bc6911f01216bb0e"
+    },
+    "registered": [
+      {
+        "path": "protocol/RECEIVING_TARGETSHARE_V10.json",
+        "SHA256": "fb4a353e0aaba2b1af89ddc212db06515e06bf0554e92bef2467672be1fdd61c"
+      },
+      {
+        "path": "protocol/TEAM_COMPLETION_CONTEXT_V11.json",
+        "SHA256": "905041304dc6fabc81a74e4ec67cc2013bf74b8e8893afac129c30a21429b215"
+      }
+    ],
+    "state": "C_EXECUTED_TARGETSHARE_AND_ONE_COMPLETION_INFO_TEST;NO_GAIN_OR_PROMOTION",
+    "report": {
+      "path": "reports/predictive-C01/README.md",
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    "evidence": {
+      "path": "reports/predictive-C01/EVIDENCE_MANIFEST.json",
+      "SHA256": "7e589ceace502db6407e5181283a41ecf1de58b88b4a8e2a7b41937a3ad49ba9"
+    },
+    "independent_review": {
+      "path": "reports/predictive-C01/INDEPENDENT_PREDICTIVE_REVIEW.json",
+      "SHA256": "fe4d58c18aede1df0d34df2ec6d2cbb8e3feba7c678b50536f32e45e0e0bc46a"
+    },
+    "own_side_scores": {
+      "path": "reports/predictive-C01/ACTUAL_LINE_SCORES.json.gz",
+      "SHA256": "c43750558b9b85dd5cfbd996c5579bdc2d77bf979bd5dbb071c006a3eeef4042"
+    },
+    "exact_rows": {
+      "path": "reports/predictive-C01/CANONICAL_ACTUAL_ROWS.json.gz",
+      "SHA256": "cc84c3461f8017d3dce43aedc9d5d30e0c6c92d2d45a9141151c74c74c21eaaa"
+    },
+    "correction": {
+      "path": "reports/predictive-C01/IDENTITY_QUALIFICATION_HOLD.json",
+      "SHA256": "da1cb680c4d10119581986eab5a1bf09e7155f17e314394da02396ede3f33eb8"
+    },
+    "component_status": {
+      "path": "reports/predictive-C01/COMPONENT_STATUS.json",
+      "SHA256": "acfe0132860a6c5ec11189a6140b2350c42f8885494aafe2697cc6b046a008dd"
+    },
+    "code": [
+      {
+        "path": "src/receiving_information_v10.py",
+        "SHA256": "03686ec26fc2231413f44b4f79fe94abc1c59d3db9d48a4a499bff2655a1f5c3"
+      },
+      {
+        "path": "src/predictive_information_c01.py",
+        "SHA256": "43c269c54f8cf4177c35cf048d2796c2162ff96da1f4754cee0bf6dd45e426df"
+      },
+      {
+        "path": "src/predictive_report_c01.py",
+        "SHA256": "db8aa16bcc1a65a9407402e50c2dfbc2e4703c874552cef16607f75e825ce267"
+      },
+      {
+        "path": "src/site_shared_c01.py",
+        "SHA256": "31475f6944920bbab05dd79b9e44c39339aa3e64e8288cc63dc25aed2b4d8b47"
+      }
+    ],
+    "restoration": {
+      "path": "reports/predictive-C01/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "c2bb097be1a22e14aa820b81ee2c29f4d59b16c2d30d78f897f821300cfbe7a9"
+    },
+    "restoration_state": "FRESH_GITHUB_BYTES_69OBJECTS_20REPRESENTATIVE_INFERENCES_432SIDEPARTITIONS_PASSED",
+    "initial_served_state": {
+      "commit": "3f975c940f23f2210b5dc2abea95842d369785fb",
+      "root_browser_receipt": {
+        "path": "reports/predictive-C01/PUBLIC_SERVED_RECEIPT.json",
+        "SHA256": "8d2d76c4805af670816aed3855956fd0229db76f623789bf888cb0ef51855c59"
+      },
+      "independent_receipt": {
+        "path": "reports/predictive-C01/INDEPENDENT_PUBLIC_INITIAL_C01.json",
+        "SHA256": "5f42ff3b25e31807d8e580ebcea79b071b5fd5b6df1a5c55f207f75603171b03"
+      },
+      "qualification": "INITIAL_SHORT_ALIAS_UI_ONLY;methodlineagelabelcorrectionforward;models/scoresunchanged"
+    },
+    "feature_support_appendix": {
+      "path": "reports/predictive-C01/SUPPORT_SUBSET_APPENDIX.json",
+      "SHA256": "0c2d334c16b68cb48188163d8a0debb2c44d651e1338637533da7e851a932413"
+    },
+    "served_verified": {
+      "commit": "2bd0c0c48a10b804c4a00b0f8e048ecd5e40dca9",
+      "Pages_run": 41913117003,
+      "state": "DEPLOYED_SERVED_VERIFIED_RESEARCH_ONLY;NO_MODEL_PROMOTION_OR_NEW_PREGAME_PICKS",
+      "browser": {
+        "path": "reports/predictive-C01/PUBLIC_SERVED_FULL_IDS_RECEIPT.json",
+        "SHA256": "c211183f725a0517e291729e86a2420730b5c506ca93791848d9a36a698b09b9"
+      },
+      "independent_delta": {
+        "path": "reports/predictive-C01/INDEPENDENT_PUBLIC_FULL_IDS_RECEIPT.json",
+        "SHA256": "95c8ea4e57bef0e14e1ab9878dd90f04dc75c4606935c463bef95b96655b99d9"
+      },
+      "point_reference_appendix": {
+        "path": "reports/predictive-C01/MATCHED_POINT_REFERENCE_APPENDIX.json",
+        "SHA256": "1e14fadae5a1a38f66181149bd6740a82a98a390413641505bb58da2ae0a533c"
+      }
+    }
+  },
+  "post_wave_5w_v1": {
+    "id": "POST-WAVE-5W-v1",
+    "previous_pointer": {
+      "path": "reports/post-wave-5w-v1/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "d878d68f33c69b8e615eea6d88ed935efb4d8c54ad3392571cd75a2ad0c8684f"
+    },
+    "C_adoption": {
+      "path": "protocol/POST_WAVE_5W_V1.md",
+      "SHA256": "63108b552022ab9eb8e11059bd49aee9407074154b984aefd4687e6b5045bfbe"
+    },
+    "report": {
+      "path": "reports/post-wave-5w-v1/README.md",
+      "SHA256": "0588749970f2f0b543e4bc19d2b9ede479e5c254b5a5a1b35c86ee93c51f796c"
+    },
+    "qualification": {
+      "path": "reports/post-wave-5w-v1/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "b993b2b3dd56c163db08d1c47d079b835bc5d0e52ac9f3cfb9df1510fa07ee17"
+    },
+    "trace": {
+      "path": "reports/post-wave-5w-v1/MODEL_INPUT_TRACE.json",
+      "SHA256": "f59fdc4db380640908274c520eb93160cc9c43bd157991437341864f58181b2d"
+    },
+    "CountA_delivery": {
+      "path": "reports/post-wave-5w-v1/COUNT_A_DELIVERY_DISPOSITION.json",
+      "SHA256": "8ee51b0d8fba7adcff99b2405c712a68b191b7fa8a1ad467558c9191e874fa5d"
+    },
+    "independent_verification": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_VERIFICATION.json",
+      "SHA256": "ad24fdc51ae3dd28d0a0540a4931f4b777c34a62373220131922159e6477b46b"
+    },
+    "state": "TRACE_COMPLETED_NEGATIVE;EXACT_PRODUCT_FLOOR_APPLIED;COUNT_A_DURATION_MET_DELIVERY_BLOCKED",
+    "preserves_protocol_and_scorer": true,
+    "primary_replacements": 0,
+    "validation": {
+      "path": "reports/post-wave-5w-v1/VALIDATION_RECEIPT.json",
+      "SHA256": "653cbbf03ec57b1922607083ac93bb5ff760705d5d97dc58996d9f5843025e9d"
+    },
+    "restoration": {
+      "path": "reports/post-wave-5w-v1/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "27096b72468a896885e8433f0adf77accecb05919c24b84276690bcb10f532f5"
+    },
+    "initial_public_assets": {
+      "path": "reports/post-wave-5w-v1/EXACT_SERVED_ASSET_RECEIPT.json",
+      "SHA256": "e36c9d3627326f5e45c04e82dfdb47b2f62b7dd439fb2f6fce87572a09d0d51c"
+    },
+    "initial_public_independent": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_INITIAL_PUBLIC_ASSETS.json",
+      "SHA256": "0b75c1201e35a7cf00d251521d55666499451f99d667a83f9077fc7650dcd2f1"
+    },
+    "site_acceptance": "DEPLOYED_PUBLIC_ASSETS_AND_INDEPENDENT_RENDERED_MIRROR_PARITY_VERIFIED;DIRECT_PUBLIC_BROWSER_TLS_UNVERIFIED",
+    "publication": {
+      "path": "reports/post-wave-5w-v1/PUBLICATION_RECEIPT.md",
+      "SHA256": "321a7e4e474516d8d4e233b6b6850d1a3d167baa62eec083525590d4c1d02d93"
+    },
+    "resource_receipt": {
+      "path": "reports/post-wave-5w-v1/RESOURCE_PUBLICATION_RECEIPT.json",
+      "SHA256": "8074a003ee978f5f8b8487559944fd5574ac4645c32c0e3fea5d65bf8f2dfa68"
+    },
+    "served_assets": {
+      "path": "reports/post-wave-5w-v1/EXACT_SERVED_ASSET_RECEIPT_FINAL.json",
+      "SHA256": "f4046fd66b99a20c51b7043635395333ed6c30557489108b5c9ffae5ec01c2b4"
+    },
+    "rendered_mirror": {
+      "path": "reports/post-wave-5w-v1/PUBLIC_ASSET_MIRROR_PARITY_FINAL.json",
+      "SHA256": "6f7e8d3b4b4eb51ed15581b3c961046d0ae109d9886f4c0d0ad273d8078daaae"
+    },
+    "independent_final_served": {
+      "path": "reports/post-wave-5w-v1/INDEPENDENT_FINAL_PUBLIC_ASSETS.json",
+      "SHA256": "ae6d8fff63c07578ae988425e3f1e963560b07d572a967642b8764477abc3840"
+    },
+    "served_commit": "db13b88b691a0093c152c874ed8190992d436cbc",
+    "Pages_run": 41946139398,
+    "new_model_or_paper_admissions": 0,
+    "headline_metadata_correction": {
+      "path": "reports/post-wave-5w-v1/HEADLINE_CONTROL_IDENTITY_CORRECTION.json",
+      "SHA256": "ad8346e08daddf658500ff9ea28429ff0fb2c5a67be6c6ea92e531fa0f415c8a"
+    }
+  },
+  "execution_closure_02": {
+    "id": "POST-WAVE-5W-v1/EXECUTION-CLOSURE-02/RESEARCH",
+    "exact_adoption": {
+      "path": "protocol/EXECUTION_CLOSURE_02_RESEARCH.txt",
+      "SHA256": "0204eed08e98388c406d0a8768bfc79241e3f8173faec18096e46d6b069fc815"
+    },
+    "production_scope": "REFERENCE_ONLY;UNCHANGED_ORIGINAL_SITE_OWNER",
+    "report": {
+      "path": "reports/abc-championship/execution-closure-02/README.md",
+      "SHA256": "4f5eea726d51aad9913044d9ababc3d4ae8115357a346335d7b07f01bc614f35"
+    },
+    "decisions": {
+      "path": "reports/abc-championship/execution-closure-02/CATEGORY_PRODUCT_DECISIONS.json",
+      "SHA256": "d817f69d52ab8d736df758227a0c25a701137683500cf19834c408a3f2fd7c8f"
+    },
+    "current_qualification": {
+      "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
+      "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
+    },
+    "intake_admission": {
+      "path": "reports/abc-championship/execution-closure-02/INTAKE_ADMISSION.json",
+      "SHA256": "0cd0062c78ccddfdf957b3eb40cb0fe7632994fc6034cf61ccc4528291a23fed"
+    },
+    "side_qualification": {
+      "path": "reports/abc-championship/execution-closure-02/SIDE_QUALIFICATION_AND_LEADERS.json",
+      "SHA256": "55930cc7a043bdd213b47d7fc40af62408428ccfe18071abb18481ba1907c0e9"
+    },
+    "current_capture": {
+      "path": "reports/abc-championship/execution-closure-02/CURRENT_CAPTURE_ADMISSION_V2.json",
+      "SHA256": "0e107a3819f0cf54412b2c8ebca064ac72e98c5be98fc7e42ca4c0e4ab3b3355"
+    },
+    "owner_input_export": {
+      "path": "reports/abc-championship/execution-closure-02/C_OWNER_SELECTOR_HANDOFF.json",
+      "SHA256": "304d858f7bbd81570df7ca2e6f0b57656d2a0f52bac237d5e66cbb3d3ee36ab9"
+    },
+    "independent": {
+      "path": "reports/abc-championship/execution-closure-02/INDEPENDENT_STAGE2.json",
+      "SHA256": "624cb0443e2dc9b9e4e91d16e9d4f9cd2d5cae5036e5478e8d2a89711771ed50"
+    },
+    "protocol_scorer_unchanged": true,
+    "primary_replacements": 0,
+    "new_paper_selections": 0,
+    "new_actual_prop_outcomes": 0
+  },
+  "audit_remediation": {
+    "id": "AUDIT-REMEDIATION-20261105-v1",
+    "ledger": {
+      "path": "reports/abc-championship/execution-closure-02/FINDING_RUNTIME_LEDGER_V2.json",
+      "SHA256": "b2c5ba8347617d94953818e99432482f1da5e1cd554d65d52716117854f2ac8f"
+    },
+    "original_selection_helper_SHA256": "dc5c87ea7b8933947f57244ca90a6fa3fb8a374909c04993fa3b0bb831d6a13f",
+    "guarded_selection_helper_SHA256": "ba3cd2d5c33eb05f3c07e8f2674f6d51b51694c8fd722f8eaba5db089907997f",
+    "common_scorer_unchanged": true,
+    "finite_canonical_results_unchanged": true,
+    "prior_original_protocol_preserved": true,
+    "qualification_impact": "NoCcanonicalscoredweekreset. Aactiveproducerhistoryimpactrequiresownexactrecipe assessment;knowninvalid B historicalHGB remainsineligible;noautomaticpromotion.",
+    "merged_C_source": "b60a03040c62dd27700d5323c099b747fb3ac0f5",
+    "actual_served_commit": "0fd349324d7021022d8b374c20deb634583fe717",
+    "source_impact": "No Ccanonicalscoretransitions;origwebsitepresence/Aresearchhistoryrequiresowner-specifictrace;BinvalidoriginalpooledHGBexcluded;Astra separateunavailable",
+    "final_publication": {
+      "path": "reports/abc-championship/execution-closure-02/FINAL_AUDIT_PUBLICATION_RECEIPT.json",
+      "SHA256": "f853fc98a3c8394b9c2a0f2a94d6cee433ddfe5bc46d2ca3694e6b73cf7a5b5d"
+    },
+    "Pages_run": 42139868482,
+    "state": "C_SCOPED_REPAIRS_MERGED_AND_SERVED_VERIFIED;PEER_SCOPED_FINDINGS_OPEN;NO_NEW_PRIMARY_OR_ACTUAL_PROP_WIN"
+  },
+  "player_context_matchup_01": {
+    "assignment": "PLAYER-CONTEXT-MATCHUP-01/v1",
+    "C_recipe": "v1.1",
+    "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
+    "report": {
+      "path": "reports/player-context-matchup-01/README.md",
+      "SHA256": "389ed79f2e50851e038e640ee7b2ab8d5d85ccfc0dec8279c31f8ee7b185cb95"
+    },
+    "canonical_actual_rows": {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    "result_binding": {
+      "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+      "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+    },
+    "source_export": {
+      "path": "reports/player-context-matchup-01/OWNER_EXPORT_V2.json",
+      "SHA256": "8439afc08c85e8ff270f220c2cafbfb93ba6f491d9643733a781ca47c2f6ba71"
+    },
+    "source_retention": {
+      "path": "sources/player-context-matchup-01/RETENTION_V2.json",
+      "SHA256": "43e8e35172b8b22f8008655db94c169ae88028ff431a558716cc7ee6fb0090cd"
+    },
+    "scored_actual_weeks": [
+      2,
+      3
+    ],
+    "numerical_scored_weeks_2026": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "historical_2025": "W1-W8syntheticdiagnosticsonly;notactualprops",
+    "state": "EXECUTED_NO_HGB_CONTEXT_INCREMENT;PERSONALIZATION_INCONCLUSIVE;NO_PRIMARY_PROMOTION",
+    "qualification_delta": {
+      "path": "reports/player-context-matchup-01/PRODUCT_QUALIFICATION.json",
+      "SHA256": "63ff4f837370ca568dbf9118e2df6638b2778dce1de1a24c6c76d230ceb4c65b"
+    },
+    "new_original_prop_selections": 0,
+    "new_forecast_only_grade_version": "C-NATIVE-GRADE-20261107-JAXBAL-01",
+    "qualification_composition": "Existing immutable shared qualification table plus this append-only product-specific Cdelta;not a competing registry",
+    "roster_amendment": {
+      "path": "reports/player-context-matchup-01/METHOD_ROSTER_AMENDMENT.json",
+      "SHA256": "d93ee08f4b986dc8a632cb0f14c79725361cbac80ca0c1a4676a0ef06a3e9cec"
+    },
+    "current_shadow_capture": {
+      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_PUBLICATION.json",
+      "SHA256": "b10d2ef8cb9629d2e9a943379ef744ee5abccd81558f072006330d36993a53a6"
+    },
+    "identity_metadata_correction": {
+      "path": "artifacts/player-context-matchup-01/ROW_IDENTITY_CORRECTION-v1.json.gz",
+      "SHA256": "651e1866dec54bf603e48bdd9a9270d220d340530a44cc45cedbad00c0e423a2"
+    },
+    "canonical_identity_view": {
+      "path": "src/context_identity_view_c01.py",
+      "SHA256": "b1766f8880ba27992b74d54e2dc4b49f07dce6cce941c2dbeb9045620322a58b"
+    },
+    "server_capture_manifest_original": {
+      "path": "reports/player-context-matchup-01/NEW_FORWARD_BATCH_SERVER.json",
+      "SHA256": "98a96411a3a23d2e1c87d411d008f1f9d1f990b4516dcee36e44a99a52a0bf6b"
+    },
+    "restoration_receipt": {
+      "path": "reports/player-context-matchup-01/GITHUB_RESTORATION_RECEIPT.json",
+      "SHA256": "9dca3939c929b2169c3ef120bee6c0877055b7890737ee6e8b7be1d7e6da6e53"
+    },
+    "served_receipt": {
+      "path": "reports/player-context-matchup-01/SERVED_VERIFICATION.json",
+      "SHA256": "0c87d12eaa615678ed988580d3b0c229ef9d4655bb493e8494bc6574d50b87f3"
+    },
+    "public_served_commit": "d405edd56ed78cdaed1d7aad6b2fc12bf68ae057",
+    "publication_independent_verification": {
+      "path": "reports/player-context-matchup-01/PUBLICATION_INDEPENDENT_VERIFICATION.json",
+      "SHA256": "b396c4d18345e107b3d6c001435c6e5b1b67a7989f0423b075ed4210c4d9d6db"
+    },
+    "forecast_only_grade_summary": {
+      "path": "reports/player-context-matchup-01/JAXBAL_FORECAST_ONLY_SCORES.json",
+      "SHA256": "b6b47c6f8e2164985a0855bff3513f4b280bd807c6084fc48cf361c24c3f7be0"
+    },
+    "acceptance_v1": {
+      "id": "PLAYER-CONTEXT-ACCEPTANCE-01-C/v1",
+      "report": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/README.md",
+        "SHA256": "e08abadd3d42d1fd70e76fe3923f592c01659c3aae0dc125509698e98d295fe8"
+      },
+      "verdicts": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/ACCEPTANCE_RECEIPT.json",
+        "SHA256": "f39a5172421067d8683ef58bbd19987155d276dacb1a641a8e9d901c940bc750"
+      },
+      "requirements": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/REQUIREMENT_EXECUTION.json",
+        "SHA256": "7fc25c63f0facbe6f3562e94d9712efa3e3b789a95dec3781d22300dffcee5d8"
+      },
+      "C_reviews_B": {
+        "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.json",
+        "SHA256": "5ab3434e54cf4ab5b4d1108d1b36be0e7745a56071bb944b42ca0f7738a2c3bd"
+      },
+      "peer_reviews": "SUPERSEDED_FORWARD: A_C_SCOPED_REVIEW_RECEIVED;B_A_SCOPED_REVIEW_RECEIVED;private/fitlimitsretained",
+      "native_grade": "C-NATIVE-GRADE-20261110-CINATL-01",
+      "original_issuance_or_model_changes": 0,
+      "new_actual_line_weeks": 0,
+      "deployment_ordered": false,
+      "peer_reviews_as_of_original_acceptance": "A_reviews_C_NOT_RECEIVED;B_reviews_A_NOT_RECEIVED;internalCindependentcheckedscopeseparate",
+      "superseding_peer_receipts": "reports/player-context-matchup-01/completion-decision-v1/UPDATED_PEER_RECEIPTS.json"
+    },
+    "completion_decision_v1": {
+      "id": "PLAYER-CONTEXT-COMPLETION-DECISION-01-C/v1",
+      "report": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/README.md",
+        "SHA256": "c82f3e027444a4dc7edb0c6bc72c8349b2441f5af9e73f984abae51183919689"
+      },
+      "A_admission": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/intake/ADMISSION.json",
+        "SHA256": "6523da0150a3e5785dde4ff3a71efaf29c9bd8c9ba56383eaf9b3f86681c27dc"
+      },
+      "updated_peer_receipts": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/UPDATED_PEER_RECEIPTS.json",
+        "SHA256": "c6fe1f8cd9363cff3663c45421ccbeb895359fa85ec4a015a6a8a561cf79f41d"
+      },
+      "point_replay_qualification": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/PRODUCT_QUALIFICATION.json",
+        "SHA256": "bf08902df690e394a7acdbc3d3ff1ad81719887df1ca68b142e7481bd49b65e3"
+      },
+      "profile_index": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/profiles/current-W10/INDEX.json",
+        "SHA256": "ac76de6f5dd1d6496b297360fc8bf19f5687fb1d46f48434ceb622228649476a"
+      },
+      "profile_role_overlay": "profiles/current-W10/PASSER_ROLE_OVERLAY.json.gz mandatory",
+      "strong_control_handoff": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/intake/STRONG_CONTROL_OWNER_LOCAL_HANDOFF.json",
+        "SHA256": "39af8bcbe6bdb36571890e7ef6bbe4497f445bf89f21498ee95c6f96b4aacb1b"
+      },
+      "Week8_point_extension": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/C_EXISTING_POINTS_W08.json",
+        "SHA256": "a3a403c5316124ef9744b8d8e641f2ae19f787c897260545197d9b162eafd88c"
+      },
+      "lookback_decision": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/lookback/KEEP_STOP.json",
+        "SHA256": "91e758cd63e66fd74fe07b3e2adfa4eb52102cb144bc6655490930357587187d"
+      },
+      "independent": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/INDEPENDENT_VERIFICATION.json",
+        "SHA256": "904806f96945879bccce9f297428e3bc49777a925e41a15c9fbead3aee06ecc2"
+      },
+      "new_actual_offer_weeks": 0,
+      "A_C_point_actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "new_C02_actual_weeks": [
+        2,
+        3
+      ],
+      "current_profiles": 53,
+      "current_forecasts": 0,
+      "current_gate": "ROSTER_WEEK9_TARGET10;NO_MODEL_ADMISSION",
+      "consumer_ack": "NEW_C_CONTROL_EXPORT_NOT_OBSERVED_BY_A",
+      "new_primary_release": false,
+      "evidence_manifest": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/EVIDENCE_MANIFEST.json.gz",
+        "SHA256": "e7d4e4899c9b8f64f03620f5cfa71e447448d824095a91d004d671b98d1b36c8"
+      },
+      "fresh_GitHub_recovery": {
+        "path": "reports/player-context-matchup-01/completion-decision-v1/FRESH_GITHUB_RESTORATION.json",
+        "SHA256": "dd2f5747c722789ee34987d865997f9906ca164b8551c90a8d63cd0a06ee4773"
+      }
+    }
+  },
+  "profile_increment_v2": {
+    "id": "PROFILE-INCREMENT-TO-RELEASE-01-C-v2",
+    "report": {
+      "path": "reports/profile-increment-v2/README.md",
+      "SHA256": "ab17c051f926c826668975f8fa836ec1bbdd0cd1d1b18c9a0c3dcf88afa17d45"
+    },
+    "registration": {
+      "path": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json",
+      "SHA256": "53ee7d92dd60c7f97697939e09e4937a334ccaceea2151a4d7034843c7045f1c"
+    },
+    "decision": {
+      "path": "reports/profile-increment-v2/KEEP_STOP.json",
+      "SHA256": "b2c1c86d10c48869252eb6bf9ac40bfc745027f7c006dfb9e62b4354541b8770"
+    },
+    "handoff": {
+      "path": "reports/profile-increment-v2/HANDOFF.json",
+      "SHA256": "fc73a8188a8283f7dcb586c926cfa18f019105b7478ce5e76688d3aa0cae83af"
+    },
+    "typed_points": {
+      "path": "reports/profile-increment-v2/TYPED_POINT_HANDOFF.json",
+      "SHA256": "e22456faf1c092f833fc431b96b96a4c1f483a44941b20b88d9ca20f3f5492c1"
+    },
+    "profile_schema": {
+      "path": "reports/profile-increment-v2/COMMON_PROFILE_SCHEMA.json",
+      "SHA256": "059c72420f3b9f0f040f69835c44ce27335d8b9c53f88e16e08218f929f26a8c"
+    },
+    "twelve_categories": {
+      "path": "reports/profile-increment-v2/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "9d900b5895f782922046d5d683f626f5dccf707c23e80c7a848a27afebeec7cb"
+    },
+    "new_peer_admissions": "NONE_NEWER_COMPLETION_RECEIPT_NOT_LOCATED;oldacceptedaggregatesunchanged",
+    "current_primary_release": false,
+    "C_research_data": {
+      "path": "docs/data/profile-increment-v2.json",
+      "SHA256": "8ba0c23ed7318e873a2b70813bcbc0dbc82383069b80a9a94add5e46bd953b39"
+    },
+    "evidence": {
+      "path": "reports/profile-increment-v2/EVIDENCE_MANIFEST.json.xz",
+      "SHA256": "0285688cce4877da3491e07c82f77b3dd246dc5c3dcfa7251cd24b9764056a59"
+    },
+    "resource": {
+      "path": "reports/profile-increment-v2/RESOURCE_RECEIPT.json",
+      "SHA256": "ecb7e07cf4ee1fa0566a09834e4bd3b805aeb69cf67fcc24b7b19938479ffd29"
+    },
+    "roster": {
+      "path": "reports/profile-increment-v2/METHOD_ROSTER_V2.json",
+      "SHA256": "f2cbc15f02b16c044ab077d10dafeb6888e164714fdeb8f01e460bc0cb470587"
+    },
+    "fresh_recovery": {
+      "path": "reports/profile-increment-v2/FRESH_GITHUB_RECOVERY.json",
+      "SHA256": "6cd1ee259086d6ad1856095468276a90681e4baa01cc45db5a0ff1307cecafc7"
+    },
+    "actual_typed_export_readback": {
+      "path": "reports/profile-increment-v2/TYPED_EXPORT_READBACK.json",
+      "SHA256": "9a1a49334b12a49fc65111d25283c67f54386cc9bef8bc5ad80c3478a37523be"
+    },
+    "publication_closure": {
+      "path": "reports/profile-increment-v2/PUBLICATION_CLOSURE.json",
+      "SHA256": "0ac11701c9bdb2741c434aac354a9f6e29437aa2beb35b593666203d1f082c58"
+    }
+  },
+  "profile_closure_next_02": {
+    "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
+    "recorded_UTC": "2026-11-10T20:06:06.026708+00:00",
+    "stage": "COMPLETED_FINITE_TIMING_PACKAGE;CURRENT_PACKET_AND_C_RESEARCH_CONSUMER_SERVED_VERIFIED;FULL_CHAMPIONSHIP_PARTIAL",
+    "report": {
+      "path": "reports/profile-closure-next-02/README.md",
+      "SHA256": "bab60c1723f3d6446788a5ca22df1de6a8e9874e3f3772be3cda52610f8c2855"
+    },
+    "registration": {
+      "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
+      "SHA256": "bb2e118bf6d4fdab9d1ef78cf398811b184d42b25da52ea566166fc93046eefe"
+    },
+    "initial_registration": {
+      "path": "reports/profile-closure-next-02/INITIAL_REGISTRATION.json",
+      "SHA256": "48bd397a4e9e9a7a77894e70fcf54e6460606a401bb4480c2823ed94dd8d2bd7"
+    },
+    "pilot_registration": {
+      "path": "reports/profile-closure-next-02/PILOT_REGISTRATION.json",
+      "SHA256": "eae556a49575268f76d1fbc78b8bd1c069d8e64997c2bde90b56277de378c153"
+    },
+    "pre_capture_registration": {
+      "path": "reports/profile-closure-next-02/PRE_CAPTURE_REGISTRATION.json",
+      "SHA256": "ebd9faeb063af6a299ecd73536244f3b2c5be59565a3d57dc28f9c8a116454ea"
+    },
+    "common_protocol_unchanged": {
+      "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",
+      "SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1"
+    },
+    "common_scorer_unchanged": {
+      "path": "src/abc_championship_v2.py",
+      "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+    },
+    "intake": {
+      "path": "reports/profile-closure-next-02/intake/ADMISSION.json",
+      "SHA256": "6e3f3315e8641dd5d8f876bb034566978ebbfe8c39fae9d3f6029715b8e9351c"
+    },
+    "independent_arithmetic": {
+      "path": "reports/profile-closure-next-02/intake/ARITHMETIC_REVIEW.json",
+      "SHA256": "438adef5365b0aab8c69f08dd3ba101dabac47fc9271946fbb28b15ccc95ae1e"
+    },
+    "exact_next_owner_actions": {
+      "path": "reports/profile-closure-next-02/intake/EXACT_NEXT_ACTIONS.json",
+      "SHA256": "e4b339fc4be74ded5305a50c3a76ccb113d290dfdeb504147b88ac5f74fde4e2"
+    },
+    "intake_resources_and_preserved_failures": {
+      "path": "reports/profile-closure-next-02/intake/RESOURCE_RECEIPT.json",
+      "SHA256": "ff31934118b4b224a5ce9f308483e48b196236de03b94a5b933bafb040416106"
+    },
+    "old_receipts_now_closed": [
+      "A old C pooled/partial strong reception join",
+      "A retained ordinary C Leaf reception join",
+      "A/B earlier ATT join",
+      "A five-state efficiency recovery owner-local receipt"
+    ],
+    "limited_admission": "Public aggregate own-side/count/weekly arithmetic only; no private-row/model/quote-clock parity. B four published completion-arm side partitions checked; Brier owner-reported.",
+    "new_C03_and_earlier_CMP": "A owns separate new C03 and C04 longer reception joins and88-offer earlier CMP join; no receipt assumed. Old pooled/ordinaryLeaf reception,ATT and five-state recovery receipt gaps are closed with stated aggregate/private limits.",
+    "timing": {
+      "report": {
+        "path": "reports/profile-closure-next-02/timing/README.md",
+        "SHA256": "377a3106b21ef474f7032234a89b1f420b99bda99748d56c289c385778d48f70"
+      },
+      "decision": {
+        "path": "reports/profile-closure-next-02/timing/KEEP_STOP.json",
+        "SHA256": "1cff95b6055cd2b76f80175c3e7fcfb2d68af840638d16923a82ce4d030e9e90"
+      },
+      "fit_ledger": {
+        "path": "reports/profile-closure-next-02/timing/FIT_LEDGER.json",
+        "SHA256": "d3ee2efcd49132f090b7d8065567dec5f9aeced31cac068756ec3a7a4acf0f5d"
+      },
+      "diagnosis": {
+        "path": "reports/profile-closure-next-02/timing/DIAGNOSIS.json",
+        "SHA256": "00d11f71ba5471fcc4fcf65983e89e792c5a845e0097292572e3f8b5e60b0150"
+      },
+      "retained_diagnosis": {
+        "path": "reports/profile-closure-next-02/timing/RETAINED_DIAGNOSIS.json",
+        "SHA256": "4c21b43c2f213b38a18a2161c9e1c7dd247329bc299a4b3951a7f7e318d138cc"
+      },
+      "old_output_reuse": {
+        "path": "reports/profile-closure-next-02/timing/SEVEN_DAY_REUSE_PARITY.json",
+        "SHA256": "436155b8060c59966e72f7ec7b1068fa80b1ca9806a6c018ab8d7e2f9ff7e29b"
+      },
+      "input_bindings": {
+        "path": "reports/profile-closure-next-02/timing/INPUT_BINDINGS.json",
+        "SHA256": "38e2a1d44452e5253792be6d50b791615dfaf39f3ec55563186d33ff0e92681e"
+      },
+      "feature_order": {
+        "path": "reports/profile-closure-next-02/timing/FEATURE_ORDER.json",
+        "SHA256": "07aca583ee388a8fbdc2a9284a899df184e12e0a6f064ce74ddc6b4b9cca8e9f"
+      },
+      "new_historical_fits": 32,
+      "new_baseline_equivalent_refits": 0,
+      "new_independent_verification_fits": 1,
+      "numerical_seasons": {
+        "2025": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "2026": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      "native_actual_line_season_weeks": [
+        [
+          2026,
+          2
+        ],
+        [
+          2026,
+          3
+        ]
+      ],
+      "native_actual_line_eligible": 278,
+      "native_actual_line_decided": 255,
+      "native_actual_line_unknown": 23,
+      "native_actual_line_games": 32,
+      "actual_line_five_week_duration": "NOT_MET_TWO_WEEKS",
+      "numerical_five_week_duration": "MET_DURATION_ONLY_16_RECONSTRUCTED_SEASON_WEEKS",
+      "actual_scores": {
+        "path": "reports/profile-closure-next-02/timing/ACTUAL_LINE_SCORES.json.xz",
+        "SHA256": "0e5c07e3a3fd56871a1b13f7135ccb8458c94632ab051aa62a260438f648822d"
+      },
+      "actual_paired_changes": {
+        "path": "reports/profile-closure-next-02/timing/PAIRED_CHANGES.json.xz",
+        "SHA256": "3306ed40e8d0cddc8610a1ec7b250778a1da25dd9c84e193a206ac614ebf90a8"
+      },
+      "reliability": {
+        "path": "reports/profile-closure-next-02/timing/RELIABILITY.json.xz",
+        "SHA256": "db497e4f4e5b2fbd639c4ce34d0120a05e4bb7f1b6661259c1d2155ee609d344"
+      },
+      "qualified_numerical_scores_2025": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2025.json.xz",
+        "SHA256": "1f0db1da85c06af0ff2f2afaab7f3415bdf25782389656e7f3d3481d4459c9c9"
+      },
+      "qualified_numerical_scores_2026": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_NUMERICAL_SCORES-2026.json.xz",
+        "SHA256": "df7612f3492d49574551ffc6a656a3011b8eddf19f0a29578f6a9a041acbde97"
+      },
+      "qualified_offered_numerical_scores": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_OFFERED_NUMERICAL_SCORES.json.xz",
+        "SHA256": "3140a1c76e82494baca7e89e75018beebe17565f7851d371407b36cec3cc976e"
+      },
+      "qualified_control_view_2025": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_CONTROL_VIEW-2025.json",
+        "SHA256": "0b18012ba596613003e212749ab3506b83785a8e9cb5ed68fadde282e6826e49"
+      },
+      "qualified_control_view_2026": {
+        "path": "reports/profile-closure-next-02/timing/QUALIFIED_CONTROL_VIEW-2026.json",
+        "SHA256": "2f5f28fc6b46b7c087d11349454e81968ef2e33c0e69383689b1d5a621f828ab"
+      },
+      "broad_numeric_paired_2025": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_PAIRED-2025.json.xz",
+        "SHA256": "448d99c41607651f0c8f32262613303021244445af7ab65e2bb7334c073f939a"
+      },
+      "broad_numeric_paired_2026": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_PAIRED-2026.json.xz",
+        "SHA256": "759118d16503547a92ff5cc745923aac0833ef3266f30b7d20247b9202c02398"
+      },
+      "strong_numeric_paired_2025": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_STRONG_CONTROL_PAIRED-2025.json.xz",
+        "SHA256": "2ea040574d61c699177ec21830192625533f1f6156cf92ccc80a683a1361d4bb"
+      },
+      "strong_numeric_paired_2026": {
+        "path": "reports/profile-closure-next-02/timing/NUMERICAL_STRONG_CONTROL_PAIRED-2026.json.xz",
+        "SHA256": "eafa768f3445d69ee54f37143455449272d7f5df944942d0af587b8ab9c9ca25"
+      },
+      "offered_numeric_paired": {
+        "path": "reports/profile-closure-next-02/timing/OFFERED_NUMERICAL_PAIRED.json.xz",
+        "SHA256": "72a4f8718e579e812306b85accd04de0bff40d9bfd2874d6a0fca7d105a49347"
+      },
+      "offered_strong_controls": {
+        "path": "reports/profile-closure-next-02/timing/OFFERED_STRONG_CONTROL_PAIRED.json.xz",
+        "SHA256": "0397a92a70a34b0990c123387618e4b01e21ba1d1760e6af242b4a78993a9b13"
+      },
+      "typed_handoff_manifest": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF_MANIFEST.json",
+        "SHA256": "bd541f4425f1ac0c627583fbcf5fad8fd7a4fcd598526fe803ea89d84d97367c"
+      },
+      "typed_points": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
+        "SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc"
+      },
+      "typed_handoff_owner_local_readback": {
+        "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF_READBACK.json",
+        "SHA256": "a477c3d4f95ca265689622617712dfa1c2299f802c61635e86589383e9263889"
+      },
+      "A_receipt": "NOT_VERIFIED",
+      "point_values": 38488,
+      "query_rows": 4811,
+      "independent_acceptance": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_ACCEPTANCE.json",
+        "SHA256": "e62e8175561e5ad5778518b49d45d6b332266e52abd18802cc0f49425d20c847"
+      },
+      "independent_arithmetic": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_ARITHMETIC.json",
+        "SHA256": "ccce98eb6dee842f5879c27749eae4afa9ce63e7a72d4e265b0c462326fb8a94"
+      },
+      "independent_fit": {
+        "path": "reports/profile-closure-next-02/verification/HISTORICAL_FIT_REPRODUCTION.json",
+        "SHA256": "3f9ffa229f261e0a9bdcdb417ed304be74a253d3d71692567a45022a8063c125"
+      },
+      "independent_clock_path": {
+        "path": "reports/profile-closure-next-02/verification/TIMING_PATH_REVIEW.json",
+        "SHA256": "a00c400997ba5ec4312882bdf7454d1a959f8eb99d57dbe73af0aa2832c40f03"
+      },
+      "independent_scope": "Internal C distinct calculation path; not A/B acknowledgement; exact reconstruction tier and checked scopes preserved",
+      "historical_CPU_seconds_including_pilot_and_failed_preparation": 483.3572486030001,
+      "failed_prepare_CPU_seconds_included_not_readded": 94.6205,
+      "alternative_evidence_tier": "RECONSTRUCTED_24H_TIMING_SENSITIVITY;notauthenticatedpublicationclock",
+      "native_direction_probability_decision": "CLOSE_RECIPE_NO_GAIN",
+      "numerical_decision": "INCONCLUSIVE",
+      "new_defense_values_tested": false
+    },
+    "current_source": {
+      "initial_readiness": {
+        "path": "reports/profile-closure-next-02/current-source/CURRENT_SOURCE_READINESS.json",
+        "SHA256": "93ef5973e88bc891a658f759ca40dc9db735932fc147a67f6da9ab575a93ae26"
+      },
+      "initial_readiness_scope": "Earlier source-stage receipt, not final packet state",
+      "roster_contract": {
+        "path": "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
+        "SHA256": "eb37e6c9568ba9f17ddfcd5eba8464111fbdf748021d4f1000f16202d220c689"
+      },
+      "input_manifest_frozen_predictors": {
+        "path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST.json",
+        "SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c"
+      },
+      "finality_readiness": {
+        "path": "reports/profile-closure-next-02/current-source/CURRENT_FINALITY_READINESS.json",
+        "SHA256": "b581942d571810e62c3d1eedbfe10a50e5d3279e665dfb1de132d48b3e00e7da"
+      },
+      "actual_input_manifest": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/MODEL_INPUT_MANIFEST.json",
+        "SHA256": "0d80bd9437295246c34e302fd1c6eb417afae4d972762b3b9fd6a356e966475d"
+      },
+      "final_native_admission": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/EVENT_ADMISSION.json",
+        "SHA256": "f89a16c3d1bdd83207ea626d7633522c743e632aa2eef9b73c26bd1a13765d00"
+      },
+      "state": "CURRENT_KNOWN_ROSTER_AND_ONE_NATIVE_FUTURE_EVENT_ADMITTED;PACKET_PERSISTED",
+      "current_offers_retrieved": 0,
+      "current_primary_release": false
+    },
+    "five_week_policy": "Exact complete numerical/direction/probability/ranked-selection product; unchanged inherited policy; no blanket future wait",
+    "completion_claim": "NAMED_FINITE_C04_HISTORICAL_PACKAGE_EXECUTED;currentpregameforecast-onlypacketserver-qualifiedandCownresearchserved-verified;broaderrequestedactual-line/historycoverageincomplete;originalsiteunchanged",
+    "previous_pointer": {
+      "path": "reports/profile-closure-next-02/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "aaa786ea850d850f3f64b6ed021a633fcc2d73d33d1d38337bfc0813b1af8f2c"
+    },
+    "current_capture_local": {
+      "path": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
+      "SHA256": "6708c6877f830f6aa027b8b31c192bb8f51c74b01b435a9414252c34696fc3ab"
+    },
+    "capture_registration": {
+      "path": "reports/profile-closure-next-02/CAPTURE_EXECUTION_REGISTRATION.json",
+      "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
+    },
+    "headlines": {
+      "path": "reports/profile-closure-next-02/HEADLINE_RESULTS.json",
+      "SHA256": "d46c85eda5c76a4db195c050f6475730a16fec85a04f3e186a1b34fab4310440"
+    },
+    "decision": {
+      "path": "reports/profile-closure-next-02/KEEP_STOP.json",
+      "SHA256": "b3a6555d2a84be29b584c71dc2d3fc3ec4d97bc5d06e44a26f6d372e080cb989"
+    },
+    "method_roster_amendment": {
+      "path": "reports/profile-closure-next-02/METHOD_ROSTER_AMENDMENT.json",
+      "SHA256": "6b6c87270319a8743ddbf02adc1d65227316941d6d12c1dde44f5dd64c2326c9"
+    },
+    "twelve_categories": {
+      "path": "reports/profile-closure-next-02/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "eb6a45c32e057ee955fb851417cba3ddf347d745b18af368067d796182d5a9bf"
+    },
+    "product_qualification": {
+      "path": "reports/profile-closure-next-02/PRODUCT_QUALIFICATION.json",
+      "SHA256": "053650ba5cf7942e4232634ad1e62a4fd29801af0f8f2128c6a6c1767b156c61"
+    },
+    "resource": {
+      "path": "reports/profile-closure-next-02/RESOURCE_RECEIPT.json",
+      "SHA256": "f51a0f72dfe3557820506e54003e66a70309cce44d642926414610d14ffa302f"
+    },
+    "evidence": {
+      "path": "reports/profile-closure-next-02/EVIDENCE_MANIFEST.json.xz",
+      "SHA256": "8d384deeb012888ddf5c779aea3373e5edadf75856df95f6d84753ddc2423902"
+    },
+    "current_primary_release": false,
+    "current_capture": {
+      "state": "PUBLISHED_GITHUB_SERVER_PREGAME_QUALIFIED;FORECAST_ONLY_SHADOW",
+      "run": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/RUN.json",
+        "SHA256": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/FORECASTS.json.xz",
+        "SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362"
+      },
+      "publication_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_PUBLICATION_RECEIPT.json",
+        "SHA256": "40f3ebbc6b20c19f33be6d28204e80657e763ee79944ee217319858010b5f433"
+      },
+      "canonical_server_receipt": {
+        "path": "prospective/receipts/C-C04-20261110-W10-FIRST-01-server.json",
+        "SHA256": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe"
+      },
+      "all17file_GitHub_restore_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_GITHUB_READBACK.json",
+        "SHA256": "6f5b00d1029b480d023b6189cfc7d0aaeaa9ab509b4ea5c474674f89afe0de1d"
+      },
+      "local_issue_stage_receipt": {
+        "path": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
+        "SHA256": "6708c6877f830f6aa027b8b31c192bb8f51c74b01b435a9414252c34696fc3ab"
+      },
+      "local_issue_stage_receipt_scope": "Preserved earlier local stage; qualified server receipt supersedes its pending-publication status",
+      "issued_UTC": "2026-11-10T19:37:43.972513+00:00",
+      "server_check_completed_UTC": "2026-11-10T19:55:36Z",
+      "capture_commit": "dd67371ffe84672958a2412f66d13cfed99b0c55",
+      "original_capture_commit": "ff104ad177d57da28043272cbd0bea13dd88d008",
+      "forecasts_count": 75,
+      "players": 25,
+      "games": [
+        "2026_10_WAS_NYG"
+      ],
+      "unverified_source_games_held": 13,
+      "real_offers": 0,
+      "real_selections": 0,
+      "new_scored_NFL_outcomes": 0,
+      "new_current_fits": 3,
+      "primary_switch": false
+    },
+    "C_research_consumer": {
+      "local_consumer": {
+        "path": "reports/profile-closure-next-02/site/LOCAL_CONSUMER_RECEIPT.json",
+        "SHA256": "8b75f41691608cb453e439aabc14eafeba8d142d8600a945efd3bf597463dc5a"
+      },
+      "browser_parity": {
+        "path": "reports/profile-closure-next-02/site/BROWSER_PARITY.json",
+        "SHA256": "a7a6073fd4113cb4d2f96418613904227c4c49e48936217df9d0b5394bd2e49b"
+      },
+      "data": {
+        "path": "docs/data/profile-closure-next-02.json",
+        "SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55"
+      },
+      "local_rendered_model_rows_checked": 75,
+      "local_desktop_mobile": "PASS",
+      "served_verification": "PASS_ACTUAL_COMMIT_0913ce73e31c8189a5191e7e7e019f280dac889c_HTML_JS_DATA_AND75DOM_VALUES",
+      "original_site": "UNCHANGED_NO_C_WRITE_OR_ACTIVATION_CLAIM",
+      "served_URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/context.html"
+    },
+    "served_verification": {
+      "path": "reports/profile-closure-next-02/SERVED_VERIFICATION.json",
+      "SHA256": "a86947cd5b8ccbbd45f604dd8af15b90716bac3c8fdd2cdee1bfa531c1e3f108"
+    },
+    "publication_closure": {
+      "path": "reports/profile-closure-next-02/PUBLICATION_CLOSURE.json",
+      "SHA256": "ae125896dd60be1a48f41a960bb0541f49d50ab519b69e0a0ba868316a8e7462"
+    },
+    "served_commit": "0913ce73e31c8189a5191e7e7e019f280dac889c",
+    "original_website_changed": false,
+    "fresh_historical_point_restoration": {
+      "path": "reports/profile-closure-next-02/FRESH_HISTORICAL_GITHUB_RESTORE.json",
+      "SHA256": "5b1265ae15f201ee34eea2905e0261bd274e460f672841d09706c3f3591a9a51"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "C05-FINAL-SOFTWARE-CHECKS-v1",
+  "tested_UTC": "2026-11-10T23:21:43.028470+00:00",
+  "tests": 257,
+  "elapsed_suite_seconds": 15.623,
+  "status": "PASS",
+  "new_NFL_observations": 0,
+  "new_fits": 0,
+  "other_checks": [
+    "node --check docs/context.js",
+    "python src/site_timing_confirm_c05.py --validate",
+    "python src/abc_period_validation_v2.py",
+    "python src/prospective_v4.py verify --root prospective:8",
+    "git diff --check"
+  ],
+  "log": {
+    "path": "reports/profile-timing-closure-confirm-01/FINAL_SOFTWARE_CHECKS.log.gz",
+    "SHA256": "fd9711741d813399149e760c640dd70cfc8e01a9c2ce188e9304887f90b7c031"
+  },
+  "note": "These are software checks, not additional test weeks or forecast accuracy."
+}

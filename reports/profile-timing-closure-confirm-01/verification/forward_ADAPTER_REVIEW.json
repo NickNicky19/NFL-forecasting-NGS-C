@@ -1,0 +1,92 @@
+{
+  "id": "C05-INDEPENDENT-FITLESS-ADAPTER-PRE-INFERENCE-v1",
+  "checked_UTC": "2026-11-10T23:06:15.237588+00:00",
+  "status": "PASS_FOR_BOUND_CURRENT_METADATA_AND_REGISTERED_PATH;ACTUAL_INFERENCE_NATIVE_ISSUE_PENDING",
+  "adapter_SHA256": "4e72a0cf3f306da2d35f62142a2aa714b34a7810b0686da1d8c55bbf22627724",
+  "source_INPUT_SHA256": "90a453a41518771717143cae4155005fb109eeb01cc3f755524fd83a31b166d7",
+  "collector_SHA256": "4d1b21d421f01fbf7fe0fbd273ce33b275464aba6ec824f38c78180e578b564e",
+  "target": "2026_10_NE_DET",
+  "selection": "Earliest uncaptured event from the frozen 14-game board; current target source bytes match the bound original event.",
+  "basic": 959,
+  "target_current_ACT_receiving_candidates": 23,
+  "bound_inference_rows": 69,
+  "families_three_existing_procedures": [
+    "C_V4_RETAINED_REFERENCE_OBSERVED",
+    "C_V11_P1_E2_POOLED_7D",
+    "C04_F3_PROFILE_1D_SHADOW"
+  ],
+  "frozen_football_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "frozen_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "current_eligibility_cutoff_UTC": "2026-11-10T22:51:53.312826+00:00",
+  "fit_calls_in_adapter_AST": 0,
+  "new_fits": 0,
+  "actual_NFL_inference_executed_by_reviewer": 0,
+  "new_GETs": 0,
+  "target_outcome_mutation_invariant_for_query_board": true,
+  "roster_not_starter_health_or_gameday_guarantee": true,
+  "current_ID_team_role_kickoff_vectors_compatible": true,
+  "unseen_or_changed_player_fields": "Retain the eligible board record with FROZEN_FEATURE_UNAVAILABLE; hold all three outputs and never fill them from target actuals.",
+  "code_and_clock_contracts": [
+    "Require committed code and policy plus a clean Git tree before inference.",
+    "Preserve original model producer 9994055 and original prepared clocks as lineage.",
+    "Call safe JSON infer_forest / pooled_mu before the new inference clock; require parity with prepared points.",
+    "Assign the new inference clock only after actual inference; keep the football window explicitly frozen.",
+    "Bind native collector code hash, response SHA, event bytes, and HTTP_status=200.",
+    "Require independent HTTP Age plus elapsed time, or Date age, at issue within 1,800 seconds; reject when both clocks are unknown.",
+    "Enforce clean proof, source observation, real issue/persistence clocks, and the future-game gate.",
+    "Retain all inference_draft members, including draft metadata.",
+    "Use explicit C04/C05 dispatch and the legacy consumer allowlist; reject an unknown consumer schema.",
+    "Reuse the existing grader and typed law loader; do not derive probabilities from a point export."
+  ],
+  "independent_clock_expectation_cases": [
+    {
+      "Age": null,
+      "Date": "Tue, 10 Nov 2026 23:00:00 GMT",
+      "elapsed": 0,
+      "qualified": true
+    },
+    {
+      "Age": null,
+      "Date": null,
+      "elapsed": 0,
+      "qualified": false
+    },
+    {
+      "Age": 7200,
+      "Date": "Tue, 10 Nov 2026 23:00:00 GMT",
+      "elapsed": 0,
+      "qualified": false
+    },
+    {
+      "Age": 1800,
+      "Date": "Tue, 10 Nov 2026 22:30:00 GMT",
+      "elapsed": 0,
+      "qualified": true
+    },
+    {
+      "Age": 1799,
+      "Date": "Tue, 10 Nov 2026 23:00:00 GMT",
+      "elapsed": 2,
+      "qualified": false
+    },
+    {
+      "Age": 0,
+      "Date": "Tue, 10 Nov 2026 21:00:00 GMT",
+      "elapsed": 0,
+      "qualified": false
+    }
+  ],
+  "software_tests": "Ten targeted fixtures passed using synthetic mock inference; no NFL model prediction was executed by the reviewer.",
+  "actual_native_source_status": "NOT_YET_FETCHED_NOT_AUTHENTICATED_BY_THIS_RECEIPT",
+  "old75_packet": "Reused the prior immutability receipt and lineage hash verification; no changes.",
+  "same_source_HEADER_version_note": "Strong HEAD ETags match the retained representation. They do not establish an original historical clock or a latest-input claim; the frozen-football policy remains declared.",
+  "source_schema_HTTP_status_field_checked": true,
+  "limitations": [
+    "This is pre-inference path and fixture verification, not proof of a new capture or served consumption.",
+    "Executed-model parity and actual native cache/receipt gates remain to be verified on the resulting artifact.",
+    "The old C04 validator branch remains unchanged; the new code adds typed C05 dispatch.",
+    "Private A boards and source clocks, and the original website 1,610-forecast packet, were not inspected."
+  ],
+  "CPU_seconds": 2.53930763,
+  "peak_RSS_bytes": 154574848
+}

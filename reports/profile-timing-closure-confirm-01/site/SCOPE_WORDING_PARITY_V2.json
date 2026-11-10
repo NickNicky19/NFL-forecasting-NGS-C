@@ -1,0 +1,20 @@
+{
+  "id": "C05-SCOPE-WORDING-PARITY-v2",
+  "executed_UTC": "2026-11-10T23:27:53.421208+00:00",
+  "base_commit": "8e175c637582ddefd93848718af279ed7ca7e7aa",
+  "change": "Replace unexecuted claim with awaiting actual received receipt; no inference about unindexed work",
+  "old_text": "The newer B timing procedures are separate, unexecuted joins.",
+  "new_text": "The newer B timing procedures are separate joins awaiting an actual received receipt.",
+  "old_JS_SHA256": "3c0876cf250268f788fe80ae3a345e634a32f5cdbbb79c03c21be8e09aa8b3f8",
+  "new_JS_SHA256": "5afd365c9935b9a5d0f9d3b933d71d9f4ecdba3a162988526c9113235036184f",
+  "only_expected_bytes_changed": true,
+  "node_check": "PASS",
+  "canonical_export_validate": "PASS",
+  "canonical_payload_SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9",
+  "old_C04_data_SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55",
+  "old_C04_75_forecasts_SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+  "first_local_receipt_preserved": true,
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "additional_browser_run": "NOT_REQUIRED_FOR_LITERAL_ONLY_CHANGE;firstfullparityretained;servedparitypending"
+}
