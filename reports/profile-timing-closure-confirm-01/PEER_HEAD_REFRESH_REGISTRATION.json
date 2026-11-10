@@ -1,0 +1,12 @@
+{
+  "id": "C05-PEER-HEAD-METADATA-REFRESH-v1",
+  "registered_UTC": "2026-11-10T23:22:37.889478+00:00",
+  "max_requests": 2,
+  "max_body_bytes": 8192,
+  "scope": "Read-only main ref metadata once per A/B, to detect superseding work. No artifact collection, scoring, fitted models or private data. Existing 16 artifact intake attempts remain consumed, frozen and within their own unchanged limits.",
+  "repositories": [
+    "NickNicky19/NFL-forecasting",
+    "NickNicky19/NFL-forecasting-V2"
+  ],
+  "on_changed_HEAD": "Record exact new head as pending discovery; do not claim new receipt or repeat unchanged routes."
+}

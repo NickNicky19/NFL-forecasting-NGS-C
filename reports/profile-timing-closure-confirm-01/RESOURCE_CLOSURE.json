@@ -355,5 +355,17 @@
   "peer_body_bytes": 1922219,
   "peer_retained_bytes": 466984,
   "server_browser_and_restore_requests": "Separate bounded validation routes; actual receipts record them. No paid acquisition or scheduling.",
-  "software_observations": 0
+  "software_observations": 0,
+  "one_time_peer_HEAD_metadata": {
+    "requests": 2,
+    "body_bytes": 710,
+    "receipt": "PEER_HEAD_REFRESH.json"
+  },
+  "superseding_research_index_discovery": {
+    "requests": 5,
+    "body_bytes": 1526387,
+    "retained_bytes_including_ignored_cache": 27665,
+    "receipt": "superseding-intake/RESOURCE_RECEIPT.json",
+    "result": "No new scientific admissions; B new research index byte-identical; main index404s are route-specific."
+  }
 }

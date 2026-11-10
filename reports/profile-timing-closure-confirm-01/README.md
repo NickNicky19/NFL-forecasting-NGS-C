@@ -1,8 +1,10 @@
 # C05 — timing closure, exact receipts and forward confirmation
 
-**New in this package:** completed A-owned C03 reception and prior B R0–R3 completion joins are received; exact C04 F0/F1 POINT baseline reuse is verified. No new historical fit or new historical week was created. The new C04 F2/F3 and B F0–F3 timing joins remain assigned to A.
+**New in this package:** completed A-owned C03 reception and prior B R0–R3 completion joins are received; exact C04 F0/F1 POINT baseline reuse is verified. No new historical fit or new historical week was created. The new C04 F2/F3 and B F0–F3 timing joins remain assigned to A; no exact-version execution receipts were received.
 
 The annual retained-offer panels actually cover **2026 Weeks 1–5**. Older W1–7 reception totals also include W6–7 internal or unqualified website thresholds; they remain preserved as mixed diagnostics. This scope correction changes no saved prediction, win or loss. Public arithmetic admission does not establish access to the private offers, source clocks, outcomes or fitted artifacts.
+
+C04 below resolves to `C-RECEIVING-ALIGNED-TIMING-v1`; F0/F1 preserve seven-day reconstructed history admission. [The immutable handoff manifest](../profile-closure-next-02/timing/POINT_HANDOFF_MANIFEST.json) binds each historical-origin fit cutoff, feature order, saved model and output. Prior B rows resolve to `B-QB-OPPORTUNITY-PROFILE-INCREMENT-v1`, not the newer aligned-timing namespace.
 
 | Category / exact point product | Actual weeks | Over W–L/N/% | Under W–L/N/% | Combined W–L/N/% | Eligible / selected / unavailable / unknown; games | Strong compatible control |
 |---|---|---|---|---|---|---|
@@ -39,7 +41,7 @@ C’s original 75 WAS–NYG forecasts remain immutable and ungraded; kickoff Nov
 | pass_int | No new timing-wave event replacement established. B retains the owned exact QB/event queue and qualified-threshold requirements. |
 | rush_yd | A 48-hour F3 median97/177 on W1–5 versus stronger unchanged controls 94; W6–7 threshold diagnostic50/102 versus F0 56/102 is adverse. A retains the five-week signal and uncertainty; no automatic new fit or lag search. |
 | rush_att | Losing carry/allocation recipes remain closed; no new C experiment or switch. A may progress only a distinct evidence-supported role/information hypothesis under a finite package. |
-| rec | Exact C04 native W2–3 timing contrasts each lose ten wins. Received C03 annual W1–5: strongest C P1 mean 239/412, R3 median237/412. C04 F0/F1 POINT baselines reuse exact C03 bytes; F2/F3 longer-board join still unexecuted. A executes only the new C04 F2/F3 point join using the bound handoff; C records actual receipt. Keep probability and ranking weeks separate. |
+| rec | Exact C04 native W2–3 timing contrasts each lose ten wins. Received C03 annual W1–5: strongest C P1 mean 239/412, R3 median237/412. C04 F0/F1 POINT baselines reuse exact C03 bytes; F2/F3 longer-board join has no received exact-version execution receipt. A executes only the new C04 F2/F3 point join using the bound handoff; C records actual receipt. Keep probability and ranking weeks separate. |
 | rec_yd | No new receiving-yard replacement tested by this timing closure. C retains finite qualified receiving-yard follow-on; actual alignment/all-route inputs remain source-blocked where absent. |
 | rush_rec_yd | No new complete joint-model evaluation; component means/medians cannot confer qualification. A/C retain qualified opportunity/efficiency/joint requirements; never sum marginal medians. |
 | anytime_td | No qualified current exact rushing-or-receiving TD offer admitted in C05. Existing source/event owner supplies permitted exact event/side/participation contract; no invented No/Under. |
@@ -48,3 +50,5 @@ C’s original 75 WAS–NYG forecasts remain immutable and ungraded; kickoff Nov
 Evidence: [actual intake](intake/README.md), [source-scope amendment](intake/QUALIFICATION_AMENDMENT.json), [exact point/source verification](verification/BASELINE_ALIAS_REUSE.json), [product qualification](PRODUCT_QUALIFICATION.json), [all twelve statuses](TWELVE_CATEGORY_STATUS.json). The common scorer, sole original-site owner, source permissions, recovery gates and finite budgets are unchanged.
 
 The complete new packet and six source/projection members were freshly restored from immutable GitHub bytes: 20 files, 283,207 decoded bytes; separate workflow metadata confirms the exact capture head and successful check. [Recovery and persistence verification](verification/C05_FRESH_GITHUB_RESTORATION.json). These checks do not add football observations or authenticate historical source clocks.
+
+A one-time peer refresh checked the current main refs and relevant open research PRs. The main refs do not expose the canonical research indexes; their 404s do not mean models or prior exports are missing. B’s newer research head `b046aab1877e5fb0412864d215a40df1c722a2df` exposes a byte-identical export index (SHA-256 `4d934f70cfc44396e984297d9df74ab84cc7a68ec8dc1a7d47d544623ed3419f`). No newer applicable comparison receipt was established. Earlier immutable admissions remain operative; [bounded refresh evidence](superseding-intake/README.md) preserves the failed routes.

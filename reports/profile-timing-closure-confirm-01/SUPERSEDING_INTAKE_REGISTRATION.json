@@ -1,0 +1,17 @@
+{
+  "id": "C05-SUPERSEDING-EXACT-RECEIPT-INTAKE-v1",
+  "registered_UTC": "2026-11-10T23:22:56.242342+00:00",
+  "trigger": "One-time peer HEAD refresh found legitimate newer A/B commits; required continuation refresh. Existing16 artifact intake calls and limits remain consumed/frozen.",
+  "refs": {
+    "A": "f37279a093fcdddece1e369d42ce54349cb1913c",
+    "B": "948cb4c5d7a9431e079caac5d345c23602603e43"
+  },
+  "GETs_max": 6,
+  "body_bytes_max": 8388608,
+  "single_body_bytes_max": 3145728,
+  "retained_delta_bytes_max": 131072,
+  "scope": "Exact new export indexes then up to4 newly indexed public aggregate/receipt members necessary to resolve C04/Bnewtiming joins or current packet receipt. No restricted forecast/offer/model rows, private locators or sharing changes.",
+  "new_fits": 0,
+  "unchanged_whole_C_cap_bytes": 2684354560,
+  "write_root": "reports/profile-timing-closure-confirm-01/superseding-intake"
+}

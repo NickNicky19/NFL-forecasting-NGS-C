@@ -1165,7 +1165,7 @@
     },
     "report": {
       "path": "reports/profile-timing-closure-confirm-01/README.md",
-      "SHA256": "cfd9964a3b7d1c342243117c440b05e9f58a53f2e7ab36e33d7968c6858a510e"
+      "SHA256": "54ecd9ef9f39a25bbd40c141eec9cb9f337db737641c10a129fb1a228ee9a9ce"
     },
     "previous_pointer": {
       "path": "reports/profile-timing-closure-confirm-01/PREVIOUS_CURRENT_PROTOCOL.json",
@@ -1183,7 +1183,7 @@
       "path": "reports/profile-timing-closure-confirm-01/verification/BASELINE_ALIAS_REUSE.json",
       "SHA256": "abc85b2133fd7a5e4b2ad130b1b1102612cb41bc45284872af1623eaad8baa42"
     },
-    "new_timing_joins": "A-ownedC04F2/F3andBnewF0-F3remainnotexecuted;olderC03/priorBcompletionjoinscomplete",
+    "new_timing_joins": "A-owned exact C04F2/F3 and BnewF0-F3: no execution receipt in the received immutable packages. Completed C03/priorBjoins stay acknowledged.",
     "new_fits": 0,
     "old75_unchanged": true,
     "current_forward_state": "69FORECASTS_SERVER_QUALIFIED_AND_LOCAL_CONSUMER_PASS;SERVED_PENDING",
@@ -1193,7 +1193,7 @@
     },
     "all12": {
       "path": "reports/profile-timing-closure-confirm-01/TWELVE_CATEGORY_STATUS.json",
-      "SHA256": "596322df9f9f309f1db5c8646a8a92d5390bd49109e1088610f02ecf366b1481"
+      "SHA256": "9b90768059a4fa178b3252c658e7935ae9c7f63c6dc744b45125710bd3193df8"
     },
     "forward_run": {
       "path": "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json",
@@ -1230,7 +1230,19 @@
     },
     "resources": {
       "path": "reports/profile-timing-closure-confirm-01/RESOURCE_CLOSURE.json",
-      "SHA256": "14b7f77e84161c79cbe5ac355771227f51facc7e93a84cf01485cee564c811af"
+      "SHA256": "f26a92805df5f5a19d4703205eb2452c4bc2f0db13702eeb16da1360969ceedb"
+    },
+    "scope_wording_parity": {
+      "path": "reports/profile-timing-closure-confirm-01/site/SCOPE_WORDING_PARITY_V2.json",
+      "SHA256": "74c0251f4b1165152affdc4900a7c87eafc3c22e77b9fa7dbedd2e1dfb16816d"
+    },
+    "peer_HEAD_refresh": {
+      "path": "reports/profile-timing-closure-confirm-01/PEER_HEAD_REFRESH.json",
+      "SHA256": "b82235f8a5e183ef19fc62e03773d6ba2f4f9a8ecc94b54e67a865e739ce2a39"
+    },
+    "superseding_intake": {
+      "path": "reports/profile-timing-closure-confirm-01/superseding-intake/ADMISSION.json",
+      "SHA256": "610710f102d1d2bae8fbccd5f3c3e14fe2a8ebb72911cd7732590b2dd9a9ad3b"
     }
   }
 }
