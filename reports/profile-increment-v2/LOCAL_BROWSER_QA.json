@@ -1,0 +1,49 @@
+{
+  "id": "C-C03-LOCAL-BROWSER-QA-v1",
+  "actual_observed_UTC": "2026-11-10T12:14:54.533854+00:00",
+  "URL": "http://127.0.0.1:8765/context.html",
+  "checks": [
+    {
+      "viewport": 1440,
+      "HTTP": 200,
+      "actual_rows": 18,
+      "numerical_rows": 8,
+      "paired_rows": 10,
+      "exact_rendered_records": true,
+      "Chicago_DST": "CST Nov10 5:45:06",
+      "old_role_filter_independent": true,
+      "page_errors": [],
+      "body_overflow": false
+    },
+    {
+      "viewport": 390,
+      "HTTP": 200,
+      "actual_rows": 18,
+      "numerical_rows": 8,
+      "paired_rows": 10,
+      "exact_rendered_records": true,
+      "Chicago_DST": "CST Nov10 5:45:06",
+      "old_role_filter_independent": true,
+      "page_errors": [],
+      "body_overflow": false
+    },
+    {
+      "failure": "newpayload503",
+      "fail_closed": true,
+      "old_study_preserved": true
+    },
+    {
+      "failure": "oldpayload503",
+      "new_study_independent": true
+    },
+    {
+      "rollback_source": "06da9bb",
+      "old_HTML_JS_preview": "PASS",
+      "deployed_rollback": false
+    }
+  ],
+  "data_SHA256": "8ba0c23ed7318e873a2b70813bcbc0dbc82383069b80a9a94add5e46bd953b39",
+  "only_C_research_results_published": true,
+  "forecast_or_policy_release": false,
+  "original_site_browser_or_payload_consumption_verified": false
+}

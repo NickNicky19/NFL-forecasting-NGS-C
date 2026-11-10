@@ -1,0 +1,87 @@
+{
+  "id": "C03-FRESH-GITHUB-RESTORATION-v1",
+  "immutable_commit": "471066ee8fd0745def26b8c5c1ae6bbcaf8f6d3e",
+  "completed_UTC": "2026-11-10T12:35:48.279085+00:00",
+  "GETs": 5,
+  "response_bytes": 248910,
+  "files": [
+    {
+      "path": "artifacts/profile-increment-v2/2026-W02-R3.json.xz",
+      "SHA256": "cebf7277d1c68534b2244b846619c8d25b007850c0892044fa168b70bf15c96f",
+      "bytes": 99464,
+      "HTTP": 200,
+      "observed_UTC": "2026-11-10T12:35:46.317214+00:00",
+      "server_Date": "Tue, 10 Nov 2026 12:35:46 GMT",
+      "ETag": "\"b5e15482efaedea2862bedf7e0c2d841acec1d105de18910ea719c45ff636840\""
+    },
+    {
+      "path": "artifacts/profile-increment-v2/CANARY_QUERIES-2026.json.xz",
+      "SHA256": "b2c1cfbbd738b794aa2bcf85397a26da89bc27c39759acdc3e7c36e06435cf74",
+      "bytes": 3272,
+      "HTTP": 200,
+      "observed_UTC": "2026-11-10T12:35:46.629373+00:00",
+      "server_Date": "Tue, 10 Nov 2026 12:35:46 GMT",
+      "ETag": "\"2ee18ccf1e39e7b8236757654c825079a7f7638f9292f175ea42cd7c3d58c473\""
+    },
+    {
+      "path": "artifacts/profile-increment-v2/ACTUAL_OFFER_ROWS.json.xz",
+      "SHA256": "f78f263547094fc02a4ce704bf89b4b1da2a58d4d7d51061478e2d4c07144991",
+      "bytes": 136260,
+      "HTTP": 200,
+      "observed_UTC": "2026-11-10T12:35:46.913103+00:00",
+      "server_Date": "Tue, 10 Nov 2026 12:35:46 GMT",
+      "ETag": "\"0b97bead0ae298b34d53c10b5d74bed2eaf2161b3c24f187fff794361dcbe511\""
+    },
+    {
+      "path": "reports/profile-increment-v2/EVIDENCE_MANIFEST.json.xz",
+      "SHA256": "7b44adc7fe3520e55d8e8b0b68712e045c0a6214bacbde2f3ba0be9ef65a3ac1",
+      "bytes": 9036,
+      "HTTP": 200,
+      "observed_UTC": "2026-11-10T12:35:47.318463+00:00",
+      "server_Date": "Tue, 10 Nov 2026 12:35:47 GMT",
+      "ETag": "\"083ec14e4b9be367400022b913bc6eb76421d0dc879365e25bec245f735cff7a\""
+    },
+    {
+      "path": "reports/profile-increment-v2/TYPED_POINT_HANDOFF.json",
+      "SHA256": "2e5f7261890e9076a24c500998aa6470ff54b60ec3104ffb37ec8af2c424b2cf",
+      "bytes": 878,
+      "HTTP": 200,
+      "observed_UTC": "2026-11-10T12:35:47.585972+00:00",
+      "server_Date": "Tue, 10 Nov 2026 12:35:47 GMT",
+      "ETag": "\"fede7bb1c199bc13189c8dee70a41fa357d7a4239d02df610b9ff191e28940a8\""
+    }
+  ],
+  "server_PR_receipt": {
+    "createdAt": "2026-11-10T12:35:00Z",
+    "headRefOid": "471066ee8fd0745def26b8c5c1ae6bbcaf8f6d3e",
+    "state": "OPEN",
+    "updatedAt": "2026-11-10T12:35:00Z",
+    "url": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/pull/38"
+  },
+  "representative": {
+    "game_id": "2026_02_IND_KC",
+    "player_id": "00-0030279",
+    "category": "rec",
+    "venue": "pinnacle",
+    "line": 3.5,
+    "mean": 4.103098979834169,
+    "median": 4.0,
+    "probabilities": {
+      "under": 0.43316744720720335,
+      "push": 0,
+      "over": 0.5668325527927967
+    },
+    "side": "OVER",
+    "actual": 1,
+    "grade": "LOSS",
+    "changed_line_recomputed": true,
+    "integer_mass_normalized": true,
+    "tier": "TIMING_UNVERIFIED_ACTUAL_LINE_RESEARCH;NOT_ORIGINAL_ISSUANCE"
+  },
+  "safe_JSON_only": true,
+  "new_fits": 0,
+  "consumer_acknowledged": false,
+  "primary_model_activation": false,
+  "status": "PASS",
+  "limits": "Representativefreshrestoration/inference+originalrowmatch, notallmodelsrefit ornewNFLobservations. GitHubPRclockserver-side;authorcommitdatesnotusedasissuanceproof."
+}

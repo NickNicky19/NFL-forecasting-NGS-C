@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "eb1c1208ce7dc9cb710304c8a826f31cfaec6bc405a722627e0a15f8b48428ca"
+    "SHA256": "a517305b3c26ea2a4189d14cbff60555872d620a6bd7ae055f127f7782f15d8f"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -308,7 +308,7 @@
     "producer_code_commit": "dcdfb71d732bfb455384f41bf2d87a48eb4bf248",
     "report": {
       "path": "reports/player-context-matchup-01/README.md",
-      "SHA256": "c896e9e92e4816c669ca04e8f38fc3f9421b2a32ee59a79eca3f57f252963510"
+      "SHA256": "389ed79f2e50851e038e640ee7b2ab8d5d85ccfc0dec8279c31f8ee7b185cb95"
     },
     "canonical_actual_rows": {
       "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
@@ -478,6 +478,63 @@
         "path": "reports/player-context-matchup-01/completion-decision-v1/FRESH_GITHUB_RESTORATION.json",
         "SHA256": "dd2f5747c722789ee34987d865997f9906ca164b8551c90a8d63cd0a06ee4773"
       }
+    }
+  },
+  "profile_increment_v2": {
+    "id": "PROFILE-INCREMENT-TO-RELEASE-01-C-v2",
+    "report": {
+      "path": "reports/profile-increment-v2/README.md",
+      "SHA256": "8ba9b9ff828f6db3dfbf65e4ffc4fa994be611661f5de03de383bca37630fe9e"
+    },
+    "registration": {
+      "path": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json",
+      "SHA256": "53ee7d92dd60c7f97697939e09e4937a334ccaceea2151a4d7034843c7045f1c"
+    },
+    "decision": {
+      "path": "reports/profile-increment-v2/KEEP_STOP.json",
+      "SHA256": "b2c1c86d10c48869252eb6bf9ac40bfc745027f7c006dfb9e62b4354541b8770"
+    },
+    "handoff": {
+      "path": "reports/profile-increment-v2/HANDOFF.json",
+      "SHA256": "0f6bca03107aab8300acffee93eeb7f8fba20ba034fc3738b6065c7801ac0b1f"
+    },
+    "typed_points": {
+      "path": "reports/profile-increment-v2/TYPED_POINT_HANDOFF.json",
+      "SHA256": "e22456faf1c092f833fc431b96b96a4c1f483a44941b20b88d9ca20f3f5492c1"
+    },
+    "profile_schema": {
+      "path": "reports/profile-increment-v2/COMMON_PROFILE_SCHEMA.json",
+      "SHA256": "059c72420f3b9f0f040f69835c44ce27335d8b9c53f88e16e08218f929f26a8c"
+    },
+    "twelve_categories": {
+      "path": "reports/profile-increment-v2/TWELVE_CATEGORY_STATUS.json",
+      "SHA256": "9d900b5895f782922046d5d683f626f5dccf707c23e80c7a848a27afebeec7cb"
+    },
+    "new_peer_admissions": "NONE_NEWER_COMPLETION_RECEIPT_NOT_LOCATED;oldacceptedaggregatesunchanged",
+    "current_primary_release": false,
+    "C_research_data": {
+      "path": "docs/data/profile-increment-v2.json",
+      "SHA256": "8ba0c23ed7318e873a2b70813bcbc0dbc82383069b80a9a94add5e46bd953b39"
+    },
+    "evidence": {
+      "path": "reports/profile-increment-v2/EVIDENCE_MANIFEST.json.xz",
+      "SHA256": "01f000ca0928aeb06ca36800b1bd26db83d42d8fcb67ac0ffc26e5899403721c"
+    },
+    "resource": {
+      "path": "reports/profile-increment-v2/RESOURCE_RECEIPT.json",
+      "SHA256": "ecb7e07cf4ee1fa0566a09834e4bd3b805aeb69cf67fcc24b7b19938479ffd29"
+    },
+    "roster": {
+      "path": "reports/profile-increment-v2/METHOD_ROSTER_V2.json",
+      "SHA256": "f2cbc15f02b16c044ab077d10dafeb6888e164714fdeb8f01e460bc0cb470587"
+    },
+    "fresh_recovery": {
+      "path": "reports/profile-increment-v2/FRESH_GITHUB_RECOVERY.json",
+      "SHA256": "6cd1ee259086d6ad1856095468276a90681e4baa01cc45db5a0ff1307cecafc7"
+    },
+    "actual_typed_export_readback": {
+      "path": "reports/profile-increment-v2/TYPED_EXPORT_READBACK.json",
+      "SHA256": "9a1a49334b12a49fc65111d25283c67f54386cc9bef8bc5ad80c3478a37523be"
     }
   }
 }

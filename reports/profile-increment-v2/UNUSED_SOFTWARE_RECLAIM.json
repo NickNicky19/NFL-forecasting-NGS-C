@@ -1,0 +1,13 @@
+{
+  "checked_UTC": "2026-11-10T11:42:05.193525+00:00",
+  "unused_software": "/workspace/c-v2/browser/chromium-1234/chrome-linux64/chrome",
+  "bytes": 290614600,
+  "SHA256": "0b20b130e7edd9dd51873be867761295fe0cfad490c2b9a64f95bd3cfc08fa71",
+  "reason": "Unused temporary headed-browser executable. Existing C jobs use headless shell or explicit system Chromium; no active process. Keep all NFL bytes and unchanged cap.",
+  "system_browser": "/usr/bin/chromium",
+  "system_browser_smoke": "PASS 154.0.8037.57 outside syscall sandbox",
+  "legacy_headless_smoke_before_cleanup": "FAIL ICU data missing; pre-existing local runtime limitation, not caused by this reclaim. System path succeeds; no site deployed.",
+  "NFL_evidence_removed": 0,
+  "whole_C_cap_unchanged": 2684354560,
+  "scope": "Local optional software cache only, no source/model/archive or installedsystem change"
+}

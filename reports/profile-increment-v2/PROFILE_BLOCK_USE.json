@@ -1,0 +1,77 @@
+[
+  {
+    "block": "ordinary_role_history",
+    "definition": "Player same-stat/usage lag means, role, team volume; original32 E0_OP",
+    "denominators": "Known earlier player appearances/teamgames perretainedcontract",
+    "source": "Existingqualified2022-26factsarchive+W8append",
+    "availability": "Strictkickoff+7day current-vintage reconstruction; currentvintagesnotbackdated",
+    "already_consumed_by": [
+      "RetainedLeafR0",
+      "allR1-R3"
+    ],
+    "readiness": [
+      "HISTORICAL_PROFILE_AVAILABLE",
+      "READY_FOR_THIS_METHOD"
+    ]
+  },
+  {
+    "block": "player_target_down_depth",
+    "definition": "Identified-target destination depth/down mix, target/teamattempt volume, catch/target and knownYACquality; not alignment/routes",
+    "numerator_denominator": "Targets/officialteamattempts; catches/identifiedtargets; depth/downcount/allidentifiedtargets; knownYACsum/knowncompletedtargets",
+    "lookback": "8earliereligibleappearances; same-teamqualifiedcontexts; actualsupport/missingflags",
+    "source": "Qualified2024-26PBP+official completeness/nativehistoricalplayerfacts",
+    "raw_shrunk": "Rawownprofilevalues; training-only impute+missingindicators; no arbitrary role/injury effect",
+    "already_consumed_by": [
+      "ClosedHGBcontext/Poissoncomparison differentlearners",
+      "NEWLeafR2/R3combination"
+    ],
+    "readiness": [
+      "HISTORICAL_PROFILE_AVAILABLE",
+      "READY_FOR_THIS_METHOD"
+    ],
+    "full_request": "FULL_ORIGINAL_REQUEST_INCOMPLETE:alignment/allroutes absent"
+  },
+  {
+    "block": "raw_receiving_role_depth_defense",
+    "definition": "Defensive catches/target at WR/TE xknownfourdepthcells, WR/TE identifiedtargetshares; other/unknown+unallocated retained separately",
+    "denominators": "Per-role/depthidentifiedtargets; yardsperknown-targetcount and yardsperknown-catchcount distinct; missingcoverageexplicit",
+    "lookback": "Last8qualifieddefensegames admittedbyavailabilitythenorderedgametime",
+    "raw_shrunk": "20earlierleague-cellpseudo-targets forcatchrate; role-share prior/supportperdeclaredschema",
+    "source": "SameonequalifiedPBPprojection/nativefacts; no independent duplicatecollection",
+    "already_consumed_by": [
+      "NEWLeafR1support",
+      "NEWLeafR3values"
+    ],
+    "readiness": [
+      "HISTORICAL_PROFILE_AVAILABLE",
+      "CURRENT_QUERY_PROFILE_AVAILABLE_ASOF_RECONSTRUCTION",
+      "READY_FOR_THIS_METHOD_HISTORICAL"
+    ],
+    "not_claimed": [
+      "Opponent-adjustedtalent",
+      "Truealignment/routes",
+      "Standaloneeffectofdefensewithoutplayerblock",
+      "Shadowdefenderassignments"
+    ]
+  },
+  {
+    "block": "current_roster_role",
+    "definition": "Actuallyobservednativeplayer/team/role/status fromweeklyroster; not starter/healthconfirmation",
+    "source": "sources/profile-increment-v2/SOURCE_MANIFEST.json",
+    "current": "53basicrecords;35receivingpriority;WRtop20=20/TEtop20=10 withinfirstfutureeventuniverse",
+    "readiness": [
+      "CURRENT_QUERY_PROFILE_AVAILABLE_BASIC_PRIOR_WEEK",
+      "NOT_READY_FOR_FORECAST_ADMISSION"
+    ],
+    "blocker": "Week9records/effectiveweek10coverageunknown, despiteactualnewHTTPbody; projected53same. Boundcurrentmodel/qualifiedOPENofferalsoabsent."
+  },
+  {
+    "block": "true_alignment_routes_separation",
+    "definition": "Actualreceiverstartingalignment/alluntargetedroutes/context-qualifiedtrackingseparation",
+    "readiness": [
+      "SOURCE_BLOCKED",
+      "FULL_ORIGINAL_REQUEST_INCOMPLETE"
+    ],
+    "blocker": "Noqualifiedallroute/actor-specificalignment field, denominator, rights/vintages; oldsourceholdsunchanged. Passdestinationnotalignment; snapsnotroutes."
+  }
+]

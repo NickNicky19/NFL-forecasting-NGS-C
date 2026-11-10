@@ -1,0 +1,46 @@
+{
+  "id": "C-COMMON-PLAYER-DEFENSE-ENVELOPE-v2",
+  "owner": "C",
+  "existing_player_schema": "reports/player-context-matchup-01/completion-decision-v1/profiles/SCHEMA.json",
+  "receiving_defense_schema": "reports/profile-increment-v2/definitions/DEFENSE_SCHEMA.json",
+  "keys": [
+    "canonical_player_or_team",
+    "historicalteam/role",
+    "event/nativeversion",
+    "actualcutoffUTC",
+    "profileversion",
+    "sourcebindings"
+  ],
+  "required_per_measure": [
+    "definition/unit",
+    "numerator/denominator",
+    "eligiblegames/plays",
+    "lookback",
+    "latestadmittedsource",
+    "originalavailabilitytier",
+    "raw/shrunk/prior",
+    "support/uncertainty",
+    "missingness/fallback",
+    "consumingmethod"
+  ],
+  "separate_populations": [
+    "training",
+    "profilingpriority",
+    "recommendationeligibleactualoffers"
+  ],
+  "other_components": {
+    "rushing": "A_OWNED;notimplementedbyC",
+    "QBopportunity/conversion": "B_OWNED;notimplementedbyC"
+  },
+  "peer_adoption": "NOT_ACKNOWLEDGED;Cpublishedschemaisproposalnotdeliveryreceipt",
+  "asof_defense_index": "reports/profile-increment-v2/experiment/DEFENSE_SNAPSHOT_INDEX.json",
+  "current_basic_index": "reports/profile-increment-v2/CURRENT_BASIC_INDEX.json",
+  "truth_states": [
+    "KNOWN_ZERO",
+    "OBSERVED",
+    "EXPLICIT_NULL",
+    "ABSENT_FIELD",
+    "UNDEFINED_DENOMINATOR",
+    "SOURCE_BLOCKED"
+  ]
+}

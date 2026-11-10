@@ -1,0 +1,129 @@
+{
+  "id": "ABC-TEAM-DEFENSE-ENVELOPE-v1",
+  "owner": "C common envelope; A rushing/B passing components remain producer-owned",
+  "component": "C-RECEIVING-DEFENSE-C03-v1",
+  "keys": [
+    "canonical_team",
+    "season",
+    "event_id_or_snapshot",
+    "cutoff_UTC",
+    "source_version",
+    "profile_version"
+  ],
+  "teams": [
+    "ARI",
+    "ATL",
+    "BAL",
+    "BUF",
+    "CAR",
+    "CHI",
+    "CIN",
+    "CLE",
+    "DAL",
+    "DEN",
+    "DET",
+    "GB",
+    "HOU",
+    "IND",
+    "JAX",
+    "KC",
+    "LA",
+    "LAC",
+    "LV",
+    "MIA",
+    "MIN",
+    "NE",
+    "NO",
+    "NYG",
+    "NYJ",
+    "PHI",
+    "PIT",
+    "SEA",
+    "SF",
+    "TB",
+    "TEN",
+    "WAS"
+  ],
+  "roles": [
+    "WR",
+    "TE",
+    "RB",
+    "OTHER_OR_UNKNOWN"
+  ],
+  "depth": [
+    "behind_LOS",
+    "0_9",
+    "10_19",
+    "20plus",
+    "UNKNOWN"
+  ],
+  "cell_counters": [
+    "targets",
+    "catches",
+    "known_target_yard_count",
+    "known_target_yard_sum",
+    "known_catch_yard_count",
+    "known_catch_yard_sum"
+  ],
+  "availability": "Historical current-vintage kickoff+7d strictly before cutoff; an explicitly supplied unknown availability is rejected; admit first then last8 by game time. No authentication of original publication clocks.",
+  "qualification": "Existing strict Context must reconcile official attempts, completions, identified targets. Unknown native role remains OTHER_OR_UNKNOWN. No target-game participation used to choose a profile.",
+  "fixed_support_order": [
+    "receiving_defense_games8",
+    "receiving_defense_target_support8",
+    "receiving_defense_age_days",
+    "receiving_defense_missing"
+  ],
+  "fixed_value_order": [
+    "receiving_defense_WR_catch_per_target_behind_LOS",
+    "receiving_defense_WR_catch_per_target_0_9",
+    "receiving_defense_WR_catch_per_target_10_19",
+    "receiving_defense_WR_catch_per_target_20plus",
+    "receiving_defense_TE_catch_per_target_behind_LOS",
+    "receiving_defense_TE_catch_per_target_0_9",
+    "receiving_defense_TE_catch_per_target_10_19",
+    "receiving_defense_TE_catch_per_target_20plus",
+    "receiving_defense_WR_target_share",
+    "receiving_defense_TE_target_share"
+  ],
+  "catch_shrinkage": {
+    "equation": "(defense_cell_catches +20*earlier_league_same_role_depth_catch_rate)/(defense_cell_targets+20)",
+    "prior_fallback": "Earlier all-role/depth league rate; neutral .5 only when league has no eligible target. No-history modelvalues remain NaN."
+  },
+  "share_shrinkage": {
+    "equation": "(defense_role_targets+40*earlier_league_role_targets/earlier_league_targets)/(defense_all_role_targets+40)",
+    "denominator": "Identified targets including OTHER_OR_UNKNOWN; not routes or all official attempts; unallocated attempts separately retained"
+  },
+  "fields_to_use": [
+    {
+      "field": "role/depth catch_per_target",
+      "unit": "unitless",
+      "numerator": "qualified complete-pass targets",
+      "denominator": "all identified targets in role/depth cell",
+      "source": "Existing pinned ordinary nflverse PBP; native historical role facts",
+      "role_scope": "WR/TE values; RB/OTHER in rawprofile",
+      "already_consumed_by": "Old broad residual context differs; new role-depth response not already a Leafinput",
+      "readiness": "HISTORICAL_PROFILE_AVAILABLE where counts qualify; READY_FOR_THIS_METHOD requires separately fitted augmented model"
+    },
+    {
+      "field": "receiving_yards",
+      "unit": "signed yards",
+      "numerator": "sum of finite explicitly retained receiving_yards",
+      "denominator": "known-yard targets or known-yard catches, separately; fullYPT/YPR only when all required components known",
+      "source": "Optional actual PBP field; no stat-presence inference from participation/incompletion",
+      "readiness": "Unknown/absent fields remain unknown; not included in rec countmodel vector"
+    },
+    {
+      "field": "team target volume",
+      "unit": "counts/pergames where reported",
+      "numerator": "identified target count, allroles",
+      "denominator": "eligible8 qualified teamgames; official attempts/unallocated independently reported",
+      "already_consumed_by": "Existing ordinary opportunities; rawprofile only inthisblock"
+    }
+  ],
+  "unimplemented": [
+    "alignment/all untargeted routes/contextual separation/coverage sourceblocked",
+    "A rushing component",
+    "B passing opportunity/conversion component"
+  ],
+  "scientific_limit": "Raw context-conditioned response, not opponent-quality-adjusted talent, causal defense attribution, or standalone defense-value test."
+}

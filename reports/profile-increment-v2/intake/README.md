@@ -1,0 +1,11 @@
+# Scoped peer intake — profile increment v2
+
+A/B research indexes are not present at the inspected current **main** paths. The raw404s and A contents404 are scoped route findings, not proof that their reports, models or completed joins are absent. Existing C admissions remain unchanged. No new A/B score or current consumer admission is established by this intake.
+
+Known immutable A `02d4988a6eaf1edb51a80be363cc02bc01da30bc` and B `bf351256c0561b864c598ad6bf8812a7937d012f` export indexes were read back. These are older acceptance indexes, not newer completion receipts. A's733/678/667/55/11 coverage arithmetic and B's17–13 Over plus41–41 Under =58–54/112 completion arithmetic independently reconcile. This is index-statement arithmetic, not raw row regrading or independent fitting. All prior adverse results and verification limits remain.
+
+The user reports the reception and passing-attempt joins completed and A rushing efficiency interrupted with five saved states. That report is preserved as **USER_REPORTED_COMPLETED / CURRENT_RECEIPT_NOT_LOCATED**, not changed to unexecuted because main lacks a report. A must identify the exact already-published immutable index/report and saved-state manifest, or publish the permitted outputs under its established owner-local route; C must then record their actual received scope. `EXACT_NEXT_ARTIFACTS.json` binds available older B handoffs without implying they are the new result.
+
+The website README at `720903184c54e4fe73c9213da5938d06970a5f00` states a daily08:06America/Chicago target and checkpoint freshness rules. README text is not verification of the current selector, rendered values, active overlay, CountA admission or scheduled reliability. The original-site owner retains those duties.
+
+**Resource failure retained:** the redundant B index fetch exceeded the400KiB response budget (at least609818known response bytes across successful recorded files, excluding branch metadata/error bodies). Network stopped; no new fit, private-row access, peer write or external message occurred. Exact pagination HTTPcount was not logged; cap compliance is not asserted. This is an intake execution error, not an NFL accuracy observation. `BUDGET_FAILURE.json` preserves it; old budgets are not reset. Compressed permitted retention remains within80KiB.
