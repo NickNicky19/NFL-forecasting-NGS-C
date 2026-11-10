@@ -1,0 +1,79 @@
+{
+  "id": "C05-SERVED-RESEARCH-CONSUMER-BINDING-v1",
+  "executed_UTC": "2026-11-10T23:39:39.190397+00:00",
+  "state": "SERVED_BROWSER_VERIFIED_C_RESEARCH_VIEW_ONLY",
+  "deployed_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/context.html?verified=fdbb7556ae90152b76f00ee43cfbad46f8f8b24a",
+  "capture_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
+  "capture_run_id": "C-C05-NEDET-FIRST-01",
+  "canonical_data_SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9",
+  "verified_served_build": {
+    "path": "build.json",
+    "bytes": 2064,
+    "SHA256": "fcc3ae9dcee275121a3c871a63e0dcfa2e3afa0643a2e6d21b07e1bfa414f747",
+    "verification": "deployment_stamp_and_payload_bindings",
+    "byte_identity_to_local_source_tree_required": false
+  },
+  "source_tree_build_SHA256": "cf0c7493faddd7ff018855de423046e41c9ef0bbea70a88eb337db15476d77b0",
+  "source_tree_build_served_commit_marker": "LOCAL_PREPARED_NOT_DEPLOYED",
+  "browser_rows": 69,
+  "players": 23,
+  "models": 3,
+  "annual_reception_rows": 22,
+  "annual_completion_rows": 22,
+  "preserved_old_C04_rows": 75,
+  "preserved_old_C04_data_SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55",
+  "all_own_side_records_rendered": true,
+  "annual_W1_W5_vs_mixed_W6_W7_correction_visible": true,
+  "new_timing_joins": "AWAITING_ACTUAL_RECEIVED_RECEIPT",
+  "complete_new_packet_clock_chain": "FROZEN_FOOTBALL_SNAPSHOT_FIRST_PUBLICATION_SHADOW",
+  "football_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "model_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "actual_new_inference_UTC": "2026-11-10T23:13:10.603860+00:00",
+  "actual_issued_UTC": "2026-11-10T23:15:46.092351+00:00",
+  "GitHub_server_persisted_UTC": "2026-11-10T23:18:26Z",
+  "TLS": {
+    "first_attempt": "with_additional_permissions: ERR_CERT_AUTHORITY_INVALID before page load; preserved",
+    "successful_runtime": "Existing C04 exec_command require_escalated path; inherited proxy/CA",
+    "verification_enabled": true,
+    "ignore_https_errors": false,
+    "ignore_certificate_errors_flag": false,
+    "trust_store_mutations": 0
+  },
+  "real_offers": 0,
+  "real_selections": 0,
+  "primary_model_switch": false,
+  "Top_Picks_change": false,
+  "original_website_browser_or_activation_verified": false,
+  "original_website_writes": 0,
+  "new_fits": 0,
+  "new_inference_from_browser_test": 0,
+  "new_NFL_observations_from_tests": 0,
+  "files": {
+    "reports/profile-timing-closure-confirm-01/SERVED_VERIFICATION.json": {
+      "bytes": 2480,
+      "SHA256": "16cbf70113b16d55733fa32fad16ef31fd8ec3085f48cc0216092f4772c22db9"
+    },
+    "reports/profile-timing-closure-confirm-01/site/served/BROWSER_PARITY.json": {
+      "bytes": 1484,
+      "SHA256": "1b6ab4c1a3217adb1922afc5f8e2a867c4b9079b26cd317c4df27426e2ca0519"
+    },
+    "reports/profile-timing-closure-confirm-01/site/served/C05-desktop.png": {
+      "bytes": 229176,
+      "SHA256": "6316a02a320ede8ec9b99af29f0a6f760acf1114f699ba2ea37a842b37626688"
+    },
+    "reports/profile-timing-closure-confirm-01/site/served/C05-mobile.png": {
+      "bytes": 89642,
+      "SHA256": "64ef91ad3ff07de8f85462c5a28d228ae0d44a6507d30e689860127786afee32"
+    },
+    "reports/profile-timing-closure-confirm-01/site/served/ATTEMPT_1_TLS_FAILURE.json": {
+      "bytes": 791,
+      "SHA256": "55647c0852be203a8773723e6c3bc1d82729d535fb52d5d11ce44f046fae8b31"
+    },
+    "reports/profile-timing-closure-confirm-01/site/served/BINDING_ATTEMPT_1_LOCAL_BUILD_MISMATCH.json": {
+      "bytes": 654,
+      "SHA256": "f3495bc9292ad8068ff3512a18e3605b8960e79383672c40f5ea1ecaaa46a7d1"
+    }
+  },
+  "binding_finalized_UTC": "2026-11-10T23:40:00.955135+00:00"
+}

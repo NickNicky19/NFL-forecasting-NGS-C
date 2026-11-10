@@ -1,0 +1,15 @@
+{
+  "id": "C05-SERVED-BROWSER-ATTEMPT-1",
+  "recorded_UTC": "2026-11-10T23:37:30.544262+00:00",
+  "deployed_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/context.html?verified=fdbb7556ae90152b76f00ee43cfbad46f8f8b24a",
+  "status": "ENVIRONMENT_TLS_FAILURE_BEFORE_PAGE_LOAD",
+  "error": "Page.goto net::ERR_CERT_AUTHORITY_INVALID",
+  "runtime": "/usr/bin/chromium via exec_command with_additional_permissions network enabled",
+  "page_or_forecast_defect_established": false,
+  "assertions_executed": 0,
+  "site_data_mutations": 0,
+  "TLS_verification_disabled": false,
+  "trust_store_mutations": 0,
+  "next_action": "Retry existing successful C04 require_escalated runtime path with inherited proxy/CA and no TLS bypass"
+}

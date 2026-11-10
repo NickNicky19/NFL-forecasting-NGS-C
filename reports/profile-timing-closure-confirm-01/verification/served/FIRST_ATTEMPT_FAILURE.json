@@ -1,0 +1,45 @@
+{
+  "id": "C05-SERVED-VERIFIER-FIRST-ATTEMPT-v1",
+  "recorded_UTC": "2026-11-10T23:36:34.343542+00:00",
+  "state": "CHECKER_SCHEMA_ERROR_AFTER_ALL_FIVE_SERVED_BYTE_PARITY_CHECKS_PASSED",
+  "executed_script_SHA256": "74f177d53a5d1bb74a93d9c38310beeb6d6262fd108a22dc8cbe5ef6922c8168",
+  "error": "Verifier compared current.games to scalar1; the declared schema uses the exact event list [2026_10_NE_DET].",
+  "actual_payload": {
+    "rows": 69,
+    "players": 23,
+    "games": [
+      "2026_10_NE_DET"
+    ]
+  },
+  "GETs_consumed": 5,
+  "cached_readbacks": [
+    {
+      "path": "build.json",
+      "bytes": 2064,
+      "SHA256": "fcc3ae9dcee275121a3c871a63e0dcfa2e3afa0643a2e6d21b07e1bfa414f747"
+    },
+    {
+      "path": "context.html",
+      "bytes": 13818,
+      "SHA256": "e0b30eb7daa7547b768249d0da0ae2af556ac11c3c418c9495196cffad7111fc"
+    },
+    {
+      "path": "context.js",
+      "bytes": 24795,
+      "SHA256": "5afd365c9935b9a5d0f9d3b933d71d9f4ecdba3a162988526c9113235036184f"
+    },
+    {
+      "path": "data/timing-confirm-c05.json",
+      "bytes": 141920,
+      "SHA256": "e6da0210c18b5c589b744c465e5fc0e6cc5615adcd3aff3758b0c3eb1a1c5ee9"
+    },
+    {
+      "path": "data/profile-closure-next-02.json",
+      "bytes": 135352,
+      "SHA256": "1ba757dee65177db5a7b4adf16347c5cad43f4bd040312b21fd975248d3acb55"
+    }
+  ],
+  "response_bytes": 317949,
+  "forecast_or_site_defect_demonstrated": false,
+  "remedy": "Correct verifier to test the one exact game list; recheck same freshly retained served bytes without repeating HTTP requests. No forecast, payload, grade, model or schema change."
+}
