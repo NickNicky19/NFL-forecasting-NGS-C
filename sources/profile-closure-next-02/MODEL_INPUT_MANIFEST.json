@@ -1,0 +1,161 @@
+{
+  "id": "C04-CURRENT-MODEL-INPUTS-v1",
+  "actual_input_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "roster_contract": "NFLVERSE_CURRENT_KNOWN_SEASON_ROSTER_SNAPSHOT-v1",
+  "roster_week": null,
+  "roster_definition_note": "Projectiondoesnotuseafuturegameweek;originalfullheaderpresenceunrecordedafterpreserveddiagnosticfailure",
+  "source_observed": {
+    "CURRENT_ROSTER_DEFINITION": "2026-11-10T18:45:37.832444+00:00",
+    "CURRENT_SEASON_ROSTER": "2026-11-10T18:45:38.394906+00:00",
+    "CURRENT_ROSTER_DICTIONARY": "2026-11-10T18:47:20.108560+00:00",
+    "SCHEDULE_CURRENT": "2026-11-10T18:49:36.089323+00:00",
+    "SCHEDULE_RECOVERY_CURRENT": "2026-11-10T18:55:23.601276+00:00",
+    "CURRENT_PLAYER_STATS": "2026-11-10T18:55:24.489370+00:00",
+    "CURRENT_PBP": "2026-11-10T18:55:26.326632+00:00"
+  },
+  "sources": [
+    {
+      "id": "CURRENT_ROSTER_DEFINITION",
+      "url": "https://nflreadr.nflverse.com/reference/load_rosters.html",
+      "started_UTC": "2026-11-10T18:45:37.428093+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 14413,
+      "SHA256": "df2f43f71e537fd3603784bdd3de0fbfaa9abf433a565643d63626d041006d14",
+      "observed_UTC": "2026-11-10T18:45:37.832444+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:45:37 GMT",
+      "HTTP_Age": "0",
+      "HTTP_Last_Modified": "Thu, 17 Sep 2026 12:48:32 GMT",
+      "ETag": "\"6aabe1a0-384d\""
+    },
+    {
+      "id": "CURRENT_SEASON_ROSTER",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "started_UTC": "2026-11-10T18:45:37.835200+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 981583,
+      "SHA256": "3ea4df63ac6772d590e0203b00b00ff403fe32df99e2e1fca7141d8c104ccc15",
+      "observed_UTC": "2026-11-10T18:45:38.394906+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:45:38 GMT",
+      "HTTP_Age": "336",
+      "HTTP_Last_Modified": "Tue, 10 Nov 2026 15:34:29 GMT",
+      "ETag": "\"0x8DF3F401C8539E9\""
+    },
+    {
+      "id": "CURRENT_ROSTER_DICTIONARY",
+      "url": "https://nflreadr.nflverse.com/articles/dictionary_rosters.html",
+      "started_UTC": "2026-11-10T18:47:19.747450+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 11274,
+      "SHA256": "007e75b449c53149b28d039d71f10286b68938b133bf194e456f428047dad3b5",
+      "observed_UTC": "2026-11-10T18:47:20.108560+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:47:20 GMT",
+      "HTTP_Age": "0",
+      "HTTP_Last_Modified": "Thu, 17 Sep 2026 12:48:32 GMT",
+      "ETag": "\"6aabe1a0-2c0a\""
+    },
+    {
+      "id": "SCHEDULE_CURRENT",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "started_UTC": "2026-11-10T18:49:35.532800+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 2189361,
+      "SHA256": "174ab7739be7ea1c90946444195f4090297a03b54dd891ad7212d36e273f9a41",
+      "observed_UTC": "2026-11-10T18:49:36.089323+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:49:35 GMT",
+      "HTTP_Age": null,
+      "HTTP_Last_Modified": null,
+      "ETag": "\"7e0b8c7fd9216987435b3285d55362ac5fcd5210ef0c9b03d5bb481e04cce9fc\""
+    },
+    {
+      "id": "CURRENT_NATIVE_STATUS",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112-20261116&limit=100",
+      "started_UTC": "2026-11-10T18:49:36.196363+00:00",
+      "state": "FAILED",
+      "error": "HTTPError:HTTP Error 400: Bad Request",
+      "observed_UTC": "2026-11-10T18:49:36.557443+00:00"
+    },
+    {
+      "id": "SCHEDULE_RECOVERY_CURRENT",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "started_UTC": "2026-11-10T18:55:23.004622+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 2189361,
+      "SHA256": "174ab7739be7ea1c90946444195f4090297a03b54dd891ad7212d36e273f9a41",
+      "observed_UTC": "2026-11-10T18:55:23.601276+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:55:23 GMT",
+      "HTTP_Age": null,
+      "HTTP_Last_Modified": null,
+      "ETag": "\"7e0b8c7fd9216987435b3285d55362ac5fcd5210ef0c9b03d5bb481e04cce9fc\""
+    },
+    {
+      "id": "CURRENT_PLAYER_STATS",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+      "started_UTC": "2026-11-10T18:55:23.706888+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 613546,
+      "SHA256": "fa81925d8c4bd252c9d536879119c0b249fd7b847508b7283a26c4d80a4ba6c6",
+      "observed_UTC": "2026-11-10T18:55:24.489370+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:55:24 GMT",
+      "HTTP_Age": "2940",
+      "HTTP_Last_Modified": "Tue, 10 Nov 2026 17:04:16 GMT",
+      "ETag": "\"0x8DF3F4CA74E3D93\""
+    },
+    {
+      "id": "CURRENT_PBP",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "started_UTC": "2026-11-10T18:55:24.987320+00:00",
+      "state": "RECEIVED",
+      "status": 200,
+      "bytes": 9346187,
+      "SHA256": "06d5d1be5579800b26bb80fbcb8512c9aef762bb38428a74f86757e25e79981b",
+      "observed_UTC": "2026-11-10T18:55:26.326632+00:00",
+      "HTTP_Date": "Tue, 10 Nov 2026 18:55:25 GMT",
+      "HTTP_Age": "3087",
+      "HTTP_Last_Modified": "Tue, 10 Nov 2026 17:02:13 GMT",
+      "ETag": "\"0x8DF3F4C5D95D970\""
+    }
+  ],
+  "files": [
+    {
+      "path": "sources/profile-closure-next-02/roster_current_season.json",
+      "bytes": 106245,
+      "SHA256": "bf725f7bd40b6327e03a0ae040ff107d51fe5defa7f2b1bbea2831bf66642050"
+    },
+    {
+      "path": "sources/profile-closure-next-02/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2"
+    },
+    {
+      "path": "sources/profile-closure-next-02/candidate_schedule.json",
+      "bytes": 3686,
+      "SHA256": "435d6e92aecdbd3463bdc6393e10f4afc3900cb1a48ff7fee2133f162b76d00d"
+    },
+    {
+      "path": "sources/profile-closure-next-02/current_facts_2026.csv.gz",
+      "bytes": 161447,
+      "SHA256": "350ecd653332dde323e67097459cdd7662ec729aba977a1ea3f92c57bf1e346a"
+    },
+    {
+      "path": "sources/profile-closure-next-02/pbp_facts_2026.csv.xz",
+      "bytes": 242672,
+      "SHA256": "ec6cf4186d2da567b28b06cdc791bbd04c8ea17ffc4cd5cd12640e51a4e1bad2"
+    }
+  ],
+  "target_season": 2026,
+  "target_week": 10,
+  "tentative_future_games": 14,
+  "native_event_admission": "PENDING_RESERVED_FINAL_STATUS_GET_AT_ISSUANCE",
+  "future_target_outcomes_absent": true,
+  "source_history_vintage": "Currentrevisedhistoricalfacts,notauthenticatedoriginalavailability",
+  "roster_qualification": "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
+  "fits_or_forecasts_issued": 0,
+  "rights": "Existingapprovedordinarynflverse factualprojectionandminimalnativeeventfacts;noodds/privateNGS/FTN/descriptions",
+  "failed_schedule_attempt_preserved": "reports/profile-closure-next-02/current-source/FOOTBALL_STAGE_FAILURE.json"
+}

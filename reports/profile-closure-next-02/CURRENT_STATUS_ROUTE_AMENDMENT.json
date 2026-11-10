@@ -1,0 +1,13 @@
+{
+  "id": "C04-FINAL-STATUS-ROUTE-AMENDMENT-v1",
+  "registered_UTC": "2026-11-10T19:24:25.696163+00:00",
+  "decision_before_model_fits_and_capture": true,
+  "reason": "Two distinct date-range scoreboard queries returnedHTTP400;do not repeat a failing range style. Useexistingworkingdatesingle-eventroute;noaccessbypass.",
+  "next_reserved_attempt": 10,
+  "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+  "candidate_board_preserved": "14futuregames/364receivingqueriesbeforeeventqualification",
+  "admission": "Onlyexactnativefutureverifiedsubset;othersheldwithreason. Noassumedfullweekstatus.",
+  "total_GET_max_unchanged": 11,
+  "source_bytes_max_unchanged": 33554432,
+  "attempt11": "Noautomaticretry;reserveunusedunlessexactpermittednewdependencyreviewed."
+}

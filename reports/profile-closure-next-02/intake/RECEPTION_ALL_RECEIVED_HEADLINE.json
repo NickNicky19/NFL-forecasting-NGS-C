@@ -1,0 +1,1160 @@
+[
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 284,
+      "rate": 0.5742128935532234,
+      "selected": 733,
+      "wins": 383
+    },
+    "OVER": {
+      "decided": 331,
+      "losses": 146,
+      "rate": 0.5589123867069486,
+      "selected": 375,
+      "wins": 185
+    },
+    "UNDER": {
+      "decided": 336,
+      "losses": 138,
+      "rate": 0.5892857142857143,
+      "selected": 358,
+      "wins": 198
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::COUNT_A_LEGACY_POINT::legacy_empirical_point",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6635767365785945,
+      "MSE": 4.8248779157862325,
+      "bias": -0.2978617895537428,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 284,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 383
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5942028985507246,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5439543215405284,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 284,
+      "rate": 0.5742128935532234,
+      "selected": 733,
+      "wins": 383
+    },
+    "OVER": {
+      "decided": 331,
+      "losses": 146,
+      "rate": 0.5589123867069486,
+      "selected": 375,
+      "wins": 185
+    },
+    "UNDER": {
+      "decided": 336,
+      "losses": 138,
+      "rate": 0.5892857142857143,
+      "selected": 358,
+      "wins": 198
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::COUNT_A_MEAN::mean_objective_point",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6635767365785945,
+      "MSE": 4.8248779157862325,
+      "bias": -0.2978617895537428,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 284,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 383
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5942028985507246,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5439543215405284,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 289,
+      "rate": 0.5667166416791605,
+      "selected": 733,
+      "wins": 378
+    },
+    "OVER": {
+      "decided": 210,
+      "losses": 88,
+      "rate": 0.580952380952381,
+      "selected": 246,
+      "wins": 122
+    },
+    "UNDER": {
+      "decided": 457,
+      "losses": 201,
+      "rate": 0.5601750547045952,
+      "selected": 487,
+      "wins": 256
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::HGB_MAE_DIRECT::mae_objective_point",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6877283718838028,
+      "MSE": 5.24231596099549,
+      "bias": -0.6842563077404487,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 289,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 378
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5956834532374101,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5360229667866555,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 291,
+      "rate": 0.5637181409295352,
+      "selected": 733,
+      "wins": 376
+    },
+    "OVER": {
+      "decided": 326,
+      "losses": 147,
+      "rate": 0.549079754601227,
+      "selected": 369,
+      "wins": 179
+    },
+    "UNDER": {
+      "decided": 341,
+      "losses": 144,
+      "rate": 0.5777126099706745,
+      "selected": 364,
+      "wins": 197
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::CATBOOST_MEDIUM::mean_objective_point",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6626960760585672,
+      "MSE": 4.8388959434815755,
+      "bias": -0.3098633022104662,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 291,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 376
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5808756395120032,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5340909090909091,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 284,
+      "rate": 0.5742128935532234,
+      "selected": 733,
+      "wins": 383
+    },
+    "OVER": {
+      "decided": 331,
+      "losses": 146,
+      "rate": 0.5589123867069486,
+      "selected": 375,
+      "wins": 185
+    },
+    "UNDER": {
+      "decided": 336,
+      "losses": 138,
+      "rate": 0.5892857142857143,
+      "selected": 358,
+      "wins": 198
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::LEAF_CDF::mean",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.666088870132527,
+      "MSE": 4.859691456106434,
+      "bias": -0.3247168977147796,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 284,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 383
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5910194174757282,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5544267053701016,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 283,
+      "rate": 0.5757121439280359,
+      "selected": 733,
+      "wins": 384
+    },
+    "OVER": {
+      "decided": 212,
+      "losses": 86,
+      "rate": 0.5943396226415094,
+      "selected": 247,
+      "wins": 126
+    },
+    "UNDER": {
+      "decided": 455,
+      "losses": 197,
+      "rate": 0.567032967032967,
+      "selected": 486,
+      "wins": 258
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::LEAF_CDF::median",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.671664167916042,
+      "MSE": 5.320839580209895,
+      "bias": -0.6731634182908546,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 283,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 384
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.6010728212311652,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5489891135303266,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 288,
+      "rate": 0.568215892053973,
+      "selected": 733,
+      "wins": 379
+    },
+    "OVER": {
+      "decided": 325,
+      "losses": 145,
+      "rate": 0.5538461538461539,
+      "selected": 372,
+      "wins": 180
+    },
+    "UNDER": {
+      "decided": 342,
+      "losses": 143,
+      "rate": 0.5818713450292398,
+      "selected": 361,
+      "wins": 199
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::ORDERED_CDF::mean",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6628380586158484,
+      "MSE": 4.856144877347691,
+      "bias": -0.33854093353902565,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 288,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 379
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5948012232415902,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5393458664655881,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 283,
+      "rate": 0.5757121439280359,
+      "selected": 733,
+      "wins": 384
+    },
+    "OVER": {
+      "decided": 210,
+      "losses": 85,
+      "rate": 0.5952380952380952,
+      "selected": 244,
+      "wins": 125
+    },
+    "UNDER": {
+      "decided": 457,
+      "losses": 198,
+      "rate": 0.5667396061269147,
+      "selected": 489,
+      "wins": 259
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "A::ORDERED_CDF::median",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.6611694152923537,
+      "MSE": 5.256371814092954,
+      "bias": -0.6746626686656672,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 283,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 384
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5938242280285035,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5445557935536516,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 285,
+      "rate": 0.5727136431784108,
+      "selected": 678,
+      "wins": 382
+    },
+    "OVER": {
+      "decided": 242,
+      "losses": 102,
+      "rate": 0.5785123966942148,
+      "selected": 248,
+      "wins": 140
+    },
+    "UNDER": {
+      "decided": 425,
+      "losses": 183,
+      "rate": 0.5694117647058824,
+      "selected": 430,
+      "wins": 242
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+    "coverage": 0.9249658935879945,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.7588506196557498,
+      "MSE": 5.679667352027878,
+      "bias": -0.712119901388525,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 285,
+      "UNAVAILABLE_FORECAST": 55,
+      "UNKNOWN_PARTICIPATION": 11,
+      "WIN": 382
+    },
+    "unavailable": 55,
+    "unavailable_reasons": {
+      "MISSING_C_CANONICAL_PLAYER_GAME": 55
+    },
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.6061776061776062,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5401312598170562,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 278,
+      "rate": 0.5832083958020989,
+      "selected": 678,
+      "wins": 389
+    },
+    "OVER": {
+      "decided": 185,
+      "losses": 70,
+      "rate": 0.6216216216216216,
+      "selected": 191,
+      "wins": 115
+    },
+    "UNDER": {
+      "decided": 482,
+      "losses": 208,
+      "rate": 0.5684647302904564,
+      "selected": 487,
+      "wins": 274
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+    "coverage": 0.9249658935879945,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.7736131934032984,
+      "MSE": 6.067466266866567,
+      "bias": -0.9070464767616192,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 278,
+      "UNAVAILABLE_FORECAST": 55,
+      "UNKNOWN_PARTICIPATION": 11,
+      "WIN": 389
+    },
+    "unavailable": 55,
+    "unavailable_reasons": {
+      "MISSING_C_CANONICAL_PLAYER_GAME": 55
+    },
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.6069357869544644,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5536584417554907,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 288,
+      "rate": 0.568215892053973,
+      "selected": 678,
+      "wins": 379
+    },
+    "OVER": {
+      "decided": 235,
+      "losses": 100,
+      "rate": 0.574468085106383,
+      "selected": 241,
+      "wins": 135
+    },
+    "UNDER": {
+      "decided": 432,
+      "losses": 188,
+      "rate": 0.5648148148148148,
+      "selected": 437,
+      "wins": 244
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::mean",
+    "coverage": 0.9249658935879945,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.7665775614188155,
+      "MSE": 5.72464126188372,
+      "bias": -0.7187739265765053,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 288,
+      "UNAVAILABLE_FORECAST": 55,
+      "UNKNOWN_PARTICIPATION": 11,
+      "WIN": 379
+    },
+    "unavailable": 55,
+    "unavailable_reasons": {
+      "MISSING_C_CANONICAL_PLAYER_GAME": 55
+    },
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5986852581294,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5375964677748366,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 282,
+      "rate": 0.5772113943028486,
+      "selected": 678,
+      "wins": 385
+    },
+    "OVER": {
+      "decided": 175,
+      "losses": 67,
+      "rate": 0.6171428571428571,
+      "selected": 181,
+      "wins": 108
+    },
+    "UNDER": {
+      "decided": 492,
+      "losses": 215,
+      "rate": 0.5630081300813008,
+      "selected": 497,
+      "wins": 277
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::median",
+    "coverage": 0.9249658935879945,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": 1.7976011994002998,
+      "MSE": 6.1544227886056975,
+      "bias": -0.9310344827586207,
+      "scored": 667
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 282,
+      "UNAVAILABLE_FORECAST": 55,
+      "UNKNOWN_PARTICIPATION": 11,
+      "WIN": 385
+    },
+    "unavailable": 55,
+    "unavailable_reasons": {
+      "MISSING_C_CANONICAL_PLAYER_GAME": 55
+    },
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.6032840506506717,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.5466101694915254,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 344,
+      "rate": 0.48425787106446777,
+      "selected": 733,
+      "wins": 323
+    },
+    "OVER": {
+      "decided": 667,
+      "losses": 344,
+      "rate": 0.48425787106446777,
+      "selected": 733,
+      "wins": 323
+    },
+    "UNDER": {
+      "decided": 0,
+      "losses": null,
+      "rate": null,
+      "selected": 0,
+      "wins": null
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "ALWAYS_OVER",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": null,
+      "MSE": null,
+      "bias": null,
+      "scored": 0
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 344,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 323
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5181518151815182,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.4473324213406293,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "COMBINED": {
+      "decided": 667,
+      "losses": 323,
+      "rate": 0.5157421289355323,
+      "selected": 733,
+      "wins": 344
+    },
+    "OVER": {
+      "decided": 0,
+      "losses": null,
+      "rate": null,
+      "selected": 0,
+      "wins": null
+    },
+    "UNDER": {
+      "decided": 667,
+      "losses": 323,
+      "rate": 0.5157421289355323,
+      "selected": 733,
+      "wins": 344
+    },
+    "abstentions": 0,
+    "actual_scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "candidate_id": "ALWAYS_UNDER",
+    "coverage": 1.0,
+    "eligible": 733,
+    "fallback_outputs": 0,
+    "games": 81,
+    "numerical": {
+      "MAE": null,
+      "MSE": null,
+      "bias": null,
+      "scored": 0
+    },
+    "outer_appearance_states": {
+      "PLAYED": 667,
+      "UNKNOWN": 66
+    },
+    "player_games": 733,
+    "source_panel": "ALL",
+    "states": {
+      "LOSS": 323,
+      "UNKNOWN_PARTICIPATION": 66,
+      "WIN": 344
+    },
+    "unavailable": 0,
+    "unavailable_reasons": {},
+    "uncertainty": {
+      "dependence_aware": true,
+      "high": 0.5526675786593708,
+      "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+      "low": 0.48184818481848185,
+      "small_cluster_caution": true,
+      "week_clusters": 7
+    },
+    "view": "FULL_A733",
+    "week_view": "ALL",
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "candidate_id": "C::C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT_DIRECTION",
+    "OVER": {
+      "wins": 183,
+      "losses": 142,
+      "decided": 325,
+      "rate": 0.563076923076923,
+      "selected": null
+    },
+    "UNDER": {
+      "wins": 202,
+      "losses": 140,
+      "decided": 342,
+      "rate": 0.5906432748538012,
+      "selected": null
+    },
+    "COMBINED": {
+      "wins": 385,
+      "losses": 282,
+      "decided": 667,
+      "rate": 0.5772113943028486,
+      "selected": 678
+    },
+    "eligible": 733,
+    "unavailable": 55,
+    "states": {
+      "UNKNOWN_PARTICIPATION": 11
+    },
+    "games": 81,
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_panel": "ALL",
+    "evidence": "Samefixed667points;source-mixedownerlocalquote-timing-unverified diagnostic;no newC03profileprocedure"
+  },
+  {
+    "candidate_id": "C::C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT_DIRECTION",
+    "OVER": {
+      "wins": 122,
+      "losses": 80,
+      "decided": 202,
+      "rate": 0.6039603960396039,
+      "selected": null
+    },
+    "UNDER": {
+      "wins": 264,
+      "losses": 201,
+      "decided": 465,
+      "rate": 0.567741935483871,
+      "selected": null
+    },
+    "COMBINED": {
+      "wins": 386,
+      "losses": 281,
+      "decided": 667,
+      "rate": 0.5787106446776612,
+      "selected": 678
+    },
+    "eligible": 733,
+    "unavailable": 55,
+    "states": {
+      "UNKNOWN_PARTICIPATION": 11
+    },
+    "games": 81,
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_panel": "ALL",
+    "evidence": "Samefixed667points;source-mixedownerlocalquote-timing-unverified diagnostic;no newC03profileprocedure"
+  }
+]

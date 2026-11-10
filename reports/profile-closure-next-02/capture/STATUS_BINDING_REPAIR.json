@@ -1,0 +1,9 @@
+{
+  "id": "C04-ISSUER-STATUS-HTTP-BINDING-REPAIR-v1",
+  "recorded_UTC": "2026-11-10T19:16:33+00:00",
+  "original_code_SHA256": "b7eadf8f0ad32547d31b2c1d7b63e105497150674f17899605afa425844573c1",
+  "original_code": "reports/profile-closure-next-02/capture/issuer-before-status-header-binding.py.gz",
+  "scope": "Unissued current capture path; tests/prepare only. No model fits/forecasts or actual historical contamination.",
+  "weakness": "Issue admitted caller-local observed time without independently checking HTTP Age/Date and final status manifest derivative bindings.",
+  "repair": "Independent header freshness at receipt and issuance; event byte/source/clock/raw/code bindings; preserve original metadata-only preparation."
+}

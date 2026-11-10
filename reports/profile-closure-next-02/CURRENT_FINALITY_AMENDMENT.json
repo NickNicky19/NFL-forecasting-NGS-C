@@ -1,0 +1,16 @@
+{
+  "id": "C04-CURRENT-SOURCE-FINALITY-AMENDMENT-v1",
+  "registered_UTC": "2026-11-10T19:20:11.376800+00:00",
+  "owner": "Csource",
+  "attempts_already_consumed": 8,
+  "total_attempts_max": 11,
+  "total_bytes_max_unchanged": 33554432,
+  "reason": "Observednflversescore/statcompletiondoesnotreplaceexistingv4explicitFINALforrecentgames. No currentfits or forecasts yet. Qualifysourcefirst.",
+  "sequence": [
+    "9:ONEWeek9nativecompletionproof;failedresponsemeansholdunconfirmedrecentgames,notunboundedretry",
+    "10:reservedWeek10pregamestatusaftercleanproof",
+    "11:onlypreviouslyregisteredWeek10fallbackcondition"
+  ],
+  "minimum_qualification": "Schedule/nativeidentityteams/kickoffandexplicitFINAL;retainedofficialscoreforolder>=7days;unknownnotfilled",
+  "input_versions": "Preservev1MODEL_INPUT_MANIFEST;v2actualinformationcutoffadvancestofinalityobservation;footballpredictorbytesstayfrozen18:55. LaterWeek10operationalcheckdoesnotupdatepredictors."
+}

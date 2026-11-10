@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "605a2fe2d4a26a2589b8d830d6473d1e04751db489c9e2f3f973342b488193d1"
+    "SHA256": "108e1b523a322fcd17ac93a15ddc953a7ddeb7c9568a99426a5bbd5576f29c88"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -779,6 +779,108 @@
     "publication_closure": {
       "path": "reports/profile-increment-v2/PUBLICATION_CLOSURE.json",
       "SHA256": "0ac11701c9bdb2741c434aac354a9f6e29437aa2beb35b593666203d1f082c58"
+    }
+  },
+  "profile_closure_next_02": {
+    "id": "PROFILE-INCREMENT-CLOSURE-AND-NEXT-02-C/v1",
+    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00",
+    "stage": "PILOT_ONLY",
+    "report": {
+      "path": "reports/profile-closure-next-02/README.md",
+      "SHA256": "caa4125c8137d3e82f564db794d71727a7b47f465944defcd0ade6c8a2e067b2"
+    },
+    "registration": {
+      "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
+      "SHA256": "c65129d79e7c61abe4d2dac95a5f70dfbf96793f8aa5e0f6f7dd26dd61e821b9"
+    },
+    "initial_registration": {
+      "path": "reports/profile-closure-next-02/INITIAL_REGISTRATION.json",
+      "SHA256": "48bd397a4e9e9a7a77894e70fcf54e6460606a401bb4480c2823ed94dd8d2bd7"
+    },
+    "pilot_registration": {
+      "path": "reports/profile-closure-next-02/PILOT_REGISTRATION.json",
+      "SHA256": "eae556a49575268f76d1fbc78b8bd1c069d8e64997c2bde90b56277de378c153"
+    },
+    "pre_capture_registration": {
+      "path": "reports/profile-closure-next-02/PRE_CAPTURE_REGISTRATION.json",
+      "SHA256": "ebd9faeb063af6a299ecd73536244f3b2c5be59565a3d57dc28f9c8a116454ea"
+    },
+    "common_protocol_unchanged": {
+      "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",
+      "SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1"
+    },
+    "common_scorer_unchanged": {
+      "path": "src/abc_championship_v2.py",
+      "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+    },
+    "intake": {
+      "path": "reports/profile-closure-next-02/intake/ADMISSION.json",
+      "SHA256": "6e3f3315e8641dd5d8f876bb034566978ebbfe8c39fae9d3f6029715b8e9351c"
+    },
+    "independent_arithmetic": {
+      "path": "reports/profile-closure-next-02/intake/ARITHMETIC_REVIEW.json",
+      "SHA256": "438adef5365b0aab8c69f08dd3ba101dabac47fc9271946fbb28b15ccc95ae1e"
+    },
+    "exact_next_owner_actions": {
+      "path": "reports/profile-closure-next-02/intake/EXACT_NEXT_ACTIONS.json",
+      "SHA256": "e4b339fc4be74ded5305a50c3a76ccb113d290dfdeb504147b88ac5f74fde4e2"
+    },
+    "intake_resources_and_preserved_failures": {
+      "path": "reports/profile-closure-next-02/intake/RESOURCE_RECEIPT.json",
+      "SHA256": "ff31934118b4b224a5ce9f308483e48b196236de03b94a5b933bafb040416106"
+    },
+    "old_receipts_now_closed": [
+      "A old C pooled/partial strong reception join",
+      "A retained ordinary C Leaf reception join",
+      "A/B earlier ATT join",
+      "A five-state efficiency recovery owner-local receipt"
+    ],
+    "limited_admission": "Public aggregate own-side/count/weekly arithmetic only; no private-row/model/quote-clock parity. B four published completion-arm side partitions checked; Brier owner-reported.",
+    "new_C03_and_earlier_CMP": "Separate A-owned joins; exact dependencies recorded; not completed by old scores",
+    "timing": {
+      "pilot": {
+        "path": "reports/profile-closure-next-02/timing/PILOT.json",
+        "SHA256": "a2997d35b10e1a162fee7c9194cda406f33b5085540a6a5142483afbaf50e3e3"
+      },
+      "fit_ledger": {
+        "path": "reports/profile-closure-next-02/timing/FIT_LEDGER.json",
+        "SHA256": "557ffcb2e2b76ac76775ada2970f3e0e2cb4277b6289b1eddbd0762c5e135f44"
+      },
+      "diagnosis": {
+        "path": "reports/profile-closure-next-02/timing/DIAGNOSIS.json",
+        "SHA256": "4d57933351ca54034b19648a3418898e574f07059cbb44ad552f3a0094f0b52c"
+      },
+      "independent_path_review": {
+        "path": "reports/profile-closure-next-02/verification/TIMING_PATH_REVIEW.json",
+        "SHA256": "a00c400997ba5ec4312882bdf7454d1a959f8eb99d57dbe73af0aa2832c40f03"
+      },
+      "new_fits": 1,
+      "comparative_scores_published": 0,
+      "alternative_evidence_tier": "RECONSTRUCTED_24H_TIMING_SENSITIVITY;notauthenticatedpublicationclock"
+    },
+    "current_source": {
+      "readiness": {
+        "path": "reports/profile-closure-next-02/current-source/CURRENT_SOURCE_READINESS.json",
+        "SHA256": "93ef5973e88bc891a658f759ca40dc9db735932fc147a67f6da9ab575a93ae26"
+      },
+      "roster_contract": {
+        "path": "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
+        "SHA256": "eb37e6c9568ba9f17ddfcd5eba8464111fbdf748021d4f1000f16202d220c689"
+      },
+      "input_manifest": {
+        "path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST.json",
+        "SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c"
+      },
+      "state": "INPUTS_QUALIFIED_FINAL_NATIVE_STATUS_DEFERRED_TO_ISSUANCE",
+      "current_packet_receipt": null,
+      "current_offers_retrieved": 0,
+      "current_primary_release": false
+    },
+    "five_week_policy": "Exact complete numerical/direction/probability/ranked-selection product; unchanged inherited policy; no blanket future wait",
+    "completion_claim": "PRELIMINARY_PILOT_AND_INTAKE_ONLY;no newly scored NFL weeks; no current issuance/website activation claimed",
+    "previous_pointer": {
+      "path": "reports/profile-closure-next-02/PREVIOUS_CURRENT_PROTOCOL.json",
+      "SHA256": "aaa786ea850d850f3f64b6ed021a633fcc2d73d33d1d38337bfc0813b1af8f2c"
     }
   }
 }

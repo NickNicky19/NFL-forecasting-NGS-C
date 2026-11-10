@@ -1,0 +1,37 @@
+{
+  "id": "C04-CURRENT-FINALITY-READINESS-v1",
+  "recorded_UTC": "2026-11-10T19:26:48.180304+00:00",
+  "state": "INPUT_V2_READY_NATIVE_FUTURE_EVENT_GATE_STILL_DEFERRED",
+  "v2_path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST_V2.json",
+  "v2_SHA256": "cefd21643c25b1f18cf3bcaf16f92c863a9a1d87e317f6f54aad21a5c3f33bb5",
+  "original_input_v1_SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c",
+  "actual_input_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "football_predictor_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "qualified_completed_games": 1210,
+  "older_final_games": 1208,
+  "recent_native_final_games": [
+    "2026_09_CIN_ATL",
+    "2026_09_JAX_BAL"
+  ],
+  "held_recent_games": [
+    "2026_09_ARI_SEA",
+    "2026_09_BUF_MIN",
+    "2026_09_CLE_NO",
+    "2026_09_DAL_IND",
+    "2026_09_DEN_CAR",
+    "2026_09_DET_MIA",
+    "2026_09_GB_NE",
+    "2026_09_HOU_LAC",
+    "2026_09_LA_WAS",
+    "2026_09_LV_SF",
+    "2026_09_NYG_PHI",
+    "2026_09_NYJ_KC",
+    "2026_09_TB_CHI"
+  ],
+  "native_finality_attempt": "HTTP400; no retry; retained2nativefinalproofs originalclocks, not freshfinality",
+  "attempts": 9,
+  "successful_response_body_bytes": 15345725,
+  "next_native_route": "RegisteredoneknownsinglefirsteventGET10, deferred untilrootdraftcleanproof",
+  "source_status_code_SHA256": "4d36110632021949580481514389228ee73d7e7092c40c664d498157547048de",
+  "model_fits_or_forecasts_by_source_task": 0
+}

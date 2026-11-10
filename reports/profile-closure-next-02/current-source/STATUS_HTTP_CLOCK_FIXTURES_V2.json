@@ -1,0 +1,123 @@
+{
+  "id": "C04-STATUS-HTTP-CLOCK-FIXTURES-v1",
+  "executed_UTC": "2026-11-10T19:26:48.546966+00:00",
+  "fixture_only": true,
+  "new_NFL_games_weeks_or_forecasts": 0,
+  "status_source_code_SHA256": "4d36110632021949580481514389228ee73d7e7092c40c664d498157547048de",
+  "fixture_code_SHA256": "9fe4783466312c1973ef8a1baeddbac8de4c55213d04541c50800bc0f178c9fe",
+  "cases": [
+    {
+      "case": "fresh",
+      "input_HTTP_Age": "0",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 19:59:50 GMT",
+      "expected_qualified": true,
+      "actual_qualified": true,
+      "rejection": null
+    },
+    {
+      "case": "old_cache_receipt_fresh",
+      "input_HTTP_Age": "7200",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID_OR_STALE"
+    },
+    {
+      "case": "negative_age",
+      "input_HTTP_Age": "-1",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID_OR_STALE"
+    },
+    {
+      "case": "nan_age",
+      "input_HTTP_Age": "nan",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID_OR_STALE"
+    },
+    {
+      "case": "infinite_age",
+      "input_HTTP_Age": "inf",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID_OR_STALE"
+    },
+    {
+      "case": "unparseable_age",
+      "input_HTTP_Age": "unknown",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID"
+    },
+    {
+      "case": "old_date_with_zero_age",
+      "input_HTTP_Age": "0",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 18:00:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_DATE_STALE_OR_FUTURE"
+    },
+    {
+      "case": "future_date",
+      "input_HTTP_Age": "0",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 20:01:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_DATE_STALE_OR_FUTURE"
+    },
+    {
+      "case": "malformed_date",
+      "input_HTTP_Age": "0",
+      "input_HTTP_Date": "not-a-date",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_DATE_INVALID"
+    },
+    {
+      "case": "both_clock_fields_unknown",
+      "input_HTTP_Age": null,
+      "input_HTTP_Date": null,
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_RESPONSE_AGE_UNKNOWN"
+    },
+    {
+      "case": "date_establishes_response_age",
+      "input_HTTP_Age": null,
+      "input_HTTP_Date": "Tue, 10 Nov 2026 19:59:50 GMT",
+      "expected_qualified": true,
+      "actual_qualified": true,
+      "rejection": null
+    },
+    {
+      "case": "age_establishes_response_age",
+      "input_HTTP_Age": "10",
+      "input_HTTP_Date": null,
+      "expected_qualified": true,
+      "actual_qualified": true,
+      "rejection": null
+    },
+    {
+      "case": "exact_1800_boundary",
+      "input_HTTP_Age": "1800",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 19:30:00 GMT",
+      "expected_qualified": true,
+      "actual_qualified": true,
+      "rejection": null
+    },
+    {
+      "case": "beyond_boundary",
+      "input_HTTP_Age": "1800.1",
+      "input_HTTP_Date": "Tue, 10 Nov 2026 19:30:00 GMT",
+      "expected_qualified": false,
+      "actual_qualified": false,
+      "rejection": "STATUS_HTTP_AGE_INVALID_OR_STALE"
+    }
+  ],
+  "all_expected_dispositions_passed": true
+}

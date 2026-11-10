@@ -222,12 +222,18 @@
   {
     "task_id": "A_REC667_STRONG_CONTROL_JOIN",
     "owner": "A",
-    "state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
+    "state": "COMPLETED_OWNER_LOCAL;RECEIVED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC_ADMISSION",
     "artifact": "reports/player-context-matchup-01/completion-decision-v1/intake/STRONG_CONTROL_OWNER_LOCAL_HANDOFF.json",
-    "next_action": "Same667fixedmask plusfull733coverage; joinstrongALeaf,CretainedLeaf,Bcompatibleoutputs;Bverifies",
+    "next_action": "Old C v1.1 pooled/partial and retained ordinary Leaf comparisons received; 667 fixed WR/TE decided cases,733 outer offers,W1-7. New C03 R1/R2/R3 join remains a separate A task.",
     "previous_state_as_of_prior_checkpoint": "PREPARED_OWNER_LOCAL_EXECUTION_REQUIRED",
     "current_evidence": "reports/profile-increment-v2/intake/ROUTE_FINDINGS.json",
-    "next": "Provideexactexistingnewerimmutablecompletionmanifest/ref, not repeatcompletedjoin"
+    "next": "Provideexactexistingnewerimmutablecompletionmanifest/ref, not repeatcompletedjoin",
+    "prior_checkpoint_state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
+    "superseding_receipt": {
+      "path": "reports/profile-closure-next-02/intake/ADMISSION.json",
+      "SHA256": "6e3f3315e8641dd5d8f876bb034566978ebbfe8c39fae9d3f6029715b8e9351c"
+    },
+    "updated_UTC": "2026-11-10T19:20:17.431217+00:00"
   },
   {
     "task_id": "A_EXTEND_C_POINTS_WEEK8",
@@ -239,9 +245,15 @@
   {
     "task_id": "B_ATTEMPT_EARLY_A_OFFERS",
     "owner": "A/B",
-    "state": "EXISTING_PREPARED_OWNER_LOCAL_JOIN_REQUIRED",
+    "state": "COMPLETED_OWNER_LOCAL;RECEIVED_LIMITED_PUBLIC_AGGREGATE_ARITHMETIC_ADMISSION",
     "artifact": "Bbf351256export/Aownedearlieractualattemptoffers",
-    "next_action": "AexecuteswithBexactforecastbindings;de-dupW5overlap;completionoffersseparate"
+    "next_action": "87 outer ATT offers W1-5;81 available shared cases,6 unavailable; both B point products41/81 versus Always-Over43/81. W5 source overlap not counted twice; earlier CMP is separate.",
+    "prior_checkpoint_state": "EXISTING_PREPARED_OWNER_LOCAL_JOIN_REQUIRED",
+    "superseding_receipt": {
+      "path": "reports/profile-closure-next-02/intake/ADMISSION.json",
+      "SHA256": "6e3f3315e8641dd5d8f876bb034566978ebbfe8c39fae9d3f6029715b8e9351c"
+    },
+    "updated_UTC": "2026-11-10T19:20:17.431217+00:00"
   },
   {
     "task_id": "C_TRUE_ALIGNMENT_ROUTE_SOURCE",
@@ -261,22 +273,33 @@
   {
     "owner": "A",
     "task": "Five saved rushing-efficiency state recovery receipt",
-    "state": "OWNER_RECOVERY_REPORTED_NEWER_MANIFEST_NOT_LOCATED_BY_C",
-    "artifact": "reports/profile-increment-v2/intake/EXACT_NEXT_ARTIFACTS.json",
-    "next": "Publish exact existingfivestatehashmanifest/ref through AEXPORT_INDEX; CdoesnotfitrecoverinA"
+    "state": "COMPLETE_OWNER_LOCAL_RECOVERY_RECEIPT_RECEIVED",
+    "artifact": "reports/profile-closure-next-02/intake/ADMISSION.json",
+    "next": "No recovery/refit retry. A reports17,856 frozen outputs/4,574 structured,zero refits; B corroborates. Protected model/state bytes not independently restored by C.",
+    "prior_checkpoint_state": "OWNER_RECOVERY_REPORTED_NEWER_MANIFEST_NOT_LOCATED_BY_C",
+    "updated_UTC": "2026-11-10T19:20:17.431217+00:00"
   },
   {
     "owner": "A/B",
     "task": "Completedreception/attemptjoins supersedingreceipt",
-    "state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
-    "next": "Supplyexactpublishedresults/masks/version; no assumptionprivateparity"
+    "state": "RECEIVED_LIMITED_AGGREGATE_ARITHMETIC_ADMISSION",
+    "next": "Closed old reception/ATT receipt gap. New C03 reception and earlier CMP joins remain distinct owner tasks; no private row parity claimed.",
+    "prior_checkpoint_state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
+    "artifact": "reports/profile-closure-next-02/intake/ADMISSION.json",
+    "updated_UTC": "2026-11-10T19:20:17.431217+00:00"
   },
   {
     "owner": "C",
     "task": "NewC03currentpacket",
-    "state": "BLOCKED_EFFECTIVE_WEEK10_ROSTER_CURRENT_MODEL_ADMISSION",
+    "state": "OLD_C03_PACKET_NOT_ISSUED;C04_SEPARATE_CURRENT_SOURCE_QUALIFICATION_IN_PROGRESS",
     "artifact": "reports/profile-increment-v2/CURRENT_QUERY_QUALIFICATION.json",
-    "next": "Onegenuinelynew source-effectiveversion andfreshnativeevent;futurecutoffonly;noautomaticpolls"
+    "next": "Original week-specific gate remains unchanged. Separate C04 current-known-season roster candidate contract qualified; native event admission and actual packet persistence still required; no current issuance in this preliminary checkpoint.",
+    "prior_checkpoint_state": "BLOCKED_EFFECTIVE_WEEK10_ROSTER_CURRENT_MODEL_ADMISSION",
+    "superseding_source_receipt": {
+      "path": "reports/profile-closure-next-02/current-source/CURRENT_SOURCE_READINESS.json",
+      "SHA256": "93ef5973e88bc891a658f759ca40dc9db735932fc147a67f6da9ab575a93ae26"
+    },
+    "updated_UTC": "2026-11-10T19:20:17.431217+00:00"
   },
   {
     "owner": "Originalwebsiteowner",
@@ -284,5 +307,68 @@
     "state": "EXISTING_OWNER_ONLY_CURRENT_SERVED_VALUES_NOT_VERIFIED_BY_C",
     "artifact": "reports/profile-increment-v2/STATIC_CONSUMER_CONTRACT.json",
     "next": "Useindependentlyqualifiedoldproducts; typedmeansvsmedians; oneexactselectorreplaywithBverification; no newC03primaryswitch"
+  },
+  {
+    "task_id": "A_C03_TYPED_RECEPTION_LONGER_BOARD",
+    "owner": "A",
+    "verification_owner": "B",
+    "state": "AWAITING_OWNER_LOCAL_JOIN_NOT_IN_RECEIVED_EXPORTS",
+    "artifact": "reports/profile-increment-v2/TYPED_POINT_HANDOFF.json",
+    "C_immutable_ref": "a9cb8ef61a294b73f558b3c5daad483094af80b2",
+    "forecast_member": "reports/profile-increment-v2/C03_TYPED_POINTS_2025_2026_W1_W8.json.xz",
+    "board": "Existing A733 WR/TE offer board; fixed667 declared decided mask; W1-7",
+    "next_action": "Join unchanged C03 R1/R2/R3 typed means/medians and unchanged baselines on qualified same opportunities; export complete-board coverage plus matched own-side results. New recipes cannot inherit old C389/667 or ordinary Leaf386/667.",
+    "dependency": {
+      "path": "reports/profile-closure-next-02/intake/EXACT_NEXT_ACTIONS.json",
+      "SHA256": "e4b339fc4be74ded5305a50c3a76ccb113d290dfdeb504147b88ac5f74fde4e2"
+    },
+    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00"
+  },
+  {
+    "task_id": "A_B_CMP_EARLIER_OFFER_JOIN",
+    "owner": "A",
+    "prediction_owner": "B",
+    "verification_owner": "B",
+    "state": "EXECUTABLE_SOURCE_INVENTORY_PRESENT;OWNER_LOCAL_JOIN_AWAITED",
+    "annual_offer_counts_W1_W5": [
+      10,
+      25,
+      26,
+      23,
+      4
+    ],
+    "annual_total": 88,
+    "B_bound_producer": "62cbf5af364ad8b3a5d178cd7ed6221ee43c5f26",
+    "B_immutable_export_ref": "05032e19e30b1f890a6b2679c70d3c97f0bbb2a1",
+    "next_action": "B supplies exact unchanged completion/history/output bindings; A executes against existing88 completion offers W1-5, qualifies source/horizon/identities and de-duplicates physical W5 overlap. ATT87-offer completion does not complete this CMP task.",
+    "dependency": {
+      "path": "reports/profile-closure-next-02/intake/EXACT_NEXT_ACTIONS.json",
+      "SHA256": "e4b339fc4be74ded5305a50c3a76ccb113d290dfdeb504147b88ac5f74fde4e2"
+    },
+    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00"
+  },
+  {
+    "task_id": "C04_ALIGNED_INFORMATION_TIMING",
+    "owner": "C",
+    "state": "PILOT_ONLY",
+    "artifact": "reports/profile-closure-next-02/timing/PILOT.json",
+    "completed_new_fits": 1,
+    "completed_origin_arm": "2026-W01 F2",
+    "comparative_scores_published": 0,
+    "next_action": "Resume remaining31 registered historical fits only after root resource review; reuse saved F2 pilot, original F0/F1, exact fixed cohorts. Alternative24h timing is reconstructed sensitivity, not authenticated historical availability.",
+    "registration": {
+      "path": "protocol/PROFILE_CLOSURE_NEXT_02_C.json",
+      "SHA256": "21588f901cc4836fcd4bcec63ba35634e3dccfd8e5c256901059668827cf750c"
+    },
+    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00"
+  },
+  {
+    "task_id": "C04_CURRENT_FORECAST_ONLY_PACKET",
+    "owner": "C",
+    "state": "SOURCE_INPUTS_QUALIFIED;NO_CURRENT_ISSUANCE_RECEIPT_YET",
+    "artifact": "reports/profile-closure-next-02/current-source/CURRENT_SOURCE_READINESS.json",
+    "next_action": "Under existing manual capture owner obtain final native future event/status admission, complete frozen reference/challenger inference, actual durable GitHub persistence and consumer receipt. No qualified offers currently retrieved; forecast-only until real offer contract qualifies. No primary switch.",
+    "separate_from": "Original website owner delivery and exact Top Picks replay",
+    "recorded_UTC": "2026-11-10T19:20:17.431217+00:00"
   }
 ]

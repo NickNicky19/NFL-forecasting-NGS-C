@@ -1,0 +1,22 @@
+{
+  "id": "C04-FINALITY-EXECUTED-CODE-BINDING-v1",
+  "recorded_UTC": "2026-11-10T19:25:07.284522+00:00",
+  "model_input_manifest_v2": {
+    "path": "sources/profile-closure-next-02/MODEL_INPUT_MANIFEST_V2.json",
+    "bytes": 35761,
+    "SHA256": "cefd21643c25b1f18cf3bcaf16f92c863a9a1d87e317f6f54aad21a5c3f33bb5"
+  },
+  "finality_proof": {
+    "path": "sources/profile-closure-next-02/completed_game_proof.json",
+    "bytes": 66000,
+    "SHA256": "b085647871f6a52f50d7cbfdc4e39dad48465abc6e1e2cdb10aec26f684cf35c"
+  },
+  "execution_code": {
+    "path": "reports/profile-closure-next-02/current-source/acquire_current_sources-completion-executed-v5.py.gz",
+    "bytes": 8839,
+    "SHA256": "cd70161ff09ba835dbb2e60808ad6c694479c5e8f829d8dba6751fa974a5d6e3",
+    "decoded_SHA256": "df53fd917e8cecf7e7f0b003e0e167c3a1a61c8af9abd0a1aafcabbc29708b36"
+  },
+  "original_v1_unchanged_SHA256": "fc517bdbcf6487da871980f4e495f1f1bdfef96c929340c61bb09aa3f2657c6c",
+  "note": "ActualGET9executedcodeversion;laterunusedpregamestatusrouteeditsmustnotrewriteprooforexecutionhash. NativeGET9HTTP400andretained2finalprooffallbackarenotfreshnative-finalreceipt."
+}

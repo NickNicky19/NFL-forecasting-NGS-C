@@ -1,0 +1,101 @@
+{
+  "id": "C04-CURRENT-SEASON-ROSTER-QUALIFICATION-v1",
+  "qualified_UTC": "2026-11-10T18:48:44.092502+00:00",
+  "source": {
+    "id": "CURRENT_SEASON_ROSTER",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "started_UTC": "2026-11-10T18:45:37.835200+00:00",
+    "state": "RECEIVED",
+    "status": 200,
+    "bytes": 981583,
+    "SHA256": "3ea4df63ac6772d590e0203b00b00ff403fe32df99e2e1fca7141d8c104ccc15",
+    "observed_UTC": "2026-11-10T18:45:38.394906+00:00",
+    "HTTP_Date": "Tue, 10 Nov 2026 18:45:38 GMT",
+    "HTTP_Age": "336",
+    "HTTP_Last_Modified": "Tue, 10 Nov 2026 15:34:29 GMT",
+    "ETag": "\"0x8DF3F401C8539E9\""
+  },
+  "documentation": {
+    "id": "CURRENT_ROSTER_DEFINITION",
+    "url": "https://nflreadr.nflverse.com/reference/load_rosters.html",
+    "started_UTC": "2026-11-10T18:45:37.428093+00:00",
+    "state": "RECEIVED",
+    "status": 200,
+    "bytes": 14413,
+    "SHA256": "df2f43f71e537fd3603784bdd3de0fbfaa9abf433a565643d63626d041006d14",
+    "observed_UTC": "2026-11-10T18:45:37.832444+00:00",
+    "HTTP_Date": "Tue, 10 Nov 2026 18:45:37 GMT",
+    "HTTP_Age": "0",
+    "HTTP_Last_Modified": "Thu, 17 Sep 2026 12:48:32 GMT",
+    "ETag": "\"6aabe1a0-384d\""
+  },
+  "daily_update_evidence": {
+    "path": "reports/player-context-matchup-01/SOURCE_DOCUMENTATION.json",
+    "SHA256": "6ada7c9ee5d4d1707df968200ad2c51d979f62c29ae5c4e787813cc35e4d411c",
+    "published_statement": "Roster data updates every day at7AMUTC",
+    "original_observed_UTC": "2026-11-07T12:42:35.900549+00:00"
+  },
+  "required_used_fields": [
+    "season",
+    "team",
+    "position",
+    "gsis_id",
+    "full_name",
+    "status"
+  ],
+  "required_fields_present_verified_by_executed_assert": true,
+  "source_full_header": "Notretainedafterpost-download diagnosticfailure;no assertionaboutoriginalweekcolumnabsence",
+  "projection_week": null,
+  "projection_week_reason": "Season/current snapshot is not assigned an invented future event week; any provider last-roster-week field is not used as a future-week assertion",
+  "rows": 959,
+  "duplicate_native_rows": 0,
+  "duplicate_native_examples": [],
+  "missing_native_ids": 1,
+  "counts_by_role": {
+    "QB": 122,
+    "RB": 223,
+    "WR": 400,
+    "TE": 214
+  },
+  "counts_by_status": {
+    "ACT": 495,
+    "DEV": 198,
+    "INA": 9,
+    "RET": 9,
+    "RES": 112,
+    "CUT": 135,
+    "EXE": 1
+  },
+  "source_revision_age_seconds_at_observation": 11469.394906,
+  "source_snapshot_version_clock_UTC": "2026-11-10T15:34:29+00:00",
+  "individual_transaction_effective_UTC": "UNKNOWN_NOT_FILLED_FROM_HTTP_CLOCK",
+  "historical_original_availability_UTC": "UNKNOWN_NOT_BACKDATED",
+  "source_contract": "NFLVERSE_CURRENT_KNOWN_SEASON_ROSTER_SNAPSHOT-v1",
+  "status": "QUALIFIED_FOR_CURRENT_KNOWN_ROSTER_CANDIDATE_UNIVERSE_ONLY",
+  "scope": "Actuallyobservedlatestseason-levelrosterstate; basicidentity/team/role/providerstatus. Candidateforecastconditionalonappearance, not promiseoffuturegamedaymembership orstarter/health. ParentnewC04adapter must bindthissourcecontractexplicitly;oldweeklygateunchanged.",
+  "forecast_candidate_rule": "PreserveeveryQB/RB/WR/TEbasicrecord;validuniqueGSISandteam/event;onlyproviderACTmayreceiveexperimentalcurrentforecast, otherstatus/native-missingheldexplicitly. No individualstarter/injurypenalty probability.",
+  "current_event_admission": "Requiresseparatelyrefreshednativegame/kickoff/status, beforefuturecutoff;seasonrosterqualificationaloneisnotissuance",
+  "dictionary_attempt": "ROSTER_DICTIONARY.json retrieved200butno field-definition text extracted;no repeatedrequestor made-updictionaryquote",
+  "rights": {
+    "analysis": "Existingapprovedordinarynflverse factualsources",
+    "GitHub_projection_retention": "CCBY4currentordinaryrosterprojectionandattribution;noextraPII",
+    "raw_full_roster_retention": "Memoryonly,notretained",
+    "license_path": "sources/player-context-matchup-01/LICENSE-CC-BY-4.0.md",
+    "license_SHA256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111"
+  },
+  "projection": {
+    "path": "sources/profile-closure-next-02/roster_current_season.json",
+    "SHA256": "bf725f7bd40b6327e03a0ae040ff107d51fe5defa7f2b1bbea2831bf66642050",
+    "bytes": 106245
+  },
+  "postprocess_failure_preserved": "ROSTER_STAGE_FAILURE.json",
+  "fits": 0,
+  "forecasts_issued": 0,
+  "not_claimed": [
+    "Confirmedstarter",
+    "Healthy",
+    "Futureparticipation",
+    "Trueevent-weekroster",
+    "Authenticatedhistoricalsnapshots"
+  ]
+}
