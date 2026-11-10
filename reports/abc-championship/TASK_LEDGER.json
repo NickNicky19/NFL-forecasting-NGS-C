@@ -463,26 +463,30 @@
     "owner": "A",
     "forecast_owner": "B",
     "verification_owner": "B",
-    "state": "SAVED_OUTPUTS_INDEXED_NEW_F0_F3_JOIN_NOT_EXECUTED",
+    "state": "SAVED_OUTPUTS_INDEXED;EXACT_NEW_TIMING_JOIN_RECEIPT_NOT_IN_RECEIVED_PACKAGE",
     "artifact": "reports/profile-timing-closure-confirm-01/intake/EXACT_NEXT_ACTIONS.json",
-    "next_action": "UseexactB-QB-ALIGNED-FRESHNESS-v1 F0-F3outputsat e18841ba;earlierannual88offersW1-W5;keepW5source/horizonoverlapseparate."
+    "next_action": "A executes or publishes exact B timing F0-F3 join receipt on annual W1-W5 completion board; B independently checks permitted membership/arithmetic; reconcile W5 book/line/source/horizon. Do not repeat completed priorR0-R3.",
+    "pre_scope_correction_state": "SAVED_OUTPUTS_INDEXED_NEW_F0_F3_JOIN_NOT_EXECUTED"
   },
   {
     "task_id": "C05_NO_REFIT_FORWARD_PACKET",
     "owner": "C",
-    "state": "69_ROWS_SERVER_QUALIFIED_AND_LOCAL_C_RESEARCH_PARITY_PASS;SERVED_PENDING",
+    "state": "SERVER_PREGAME_QUALIFIED_AND_C_RESEARCH_SERVED_VERIFIED;69FORECASTS_23PLAYERS_NO_OFFERS",
     "artifact": "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json",
     "budget": "0fits;30CPU;4sourcerequests;currentnewinfercodecommitrequired",
-    "next_action": "Normal C PR/Pages publish then verify actual served bytes/DOM; grade original snapshot only after qualified final outcomes. No primary switch.",
+    "next_action": "Preserve immutable original and grade after qualified final outcomes. No timing refit, original-site switch or duplicate capture.",
     "previous_state": "PREPARED_METADATA_ONLY;ACTUAL_INFERENCE_AND_NATIVE_GATE_PENDING",
     "code_commit": "0e1768af6134a66fc71d6eaec3f92ef5a10693bb",
     "capture_commit": "5a2fec4457154b423ab631ea3c896c077ebe85b4",
     "issued_UTC": "2026-11-10T23:15:46.092351+00:00",
     "new_fits": 0,
-    "updated_UTC": "2026-11-10T23:18:36.970201+00:00",
+    "updated_UTC": "2026-11-10T23:41:16.071553+00:00",
     "server_receipt": "reports/profile-timing-closure-confirm-01/CURRENT_PUBLICATION_RECEIPT.json",
     "local_consumer": "reports/profile-timing-closure-confirm-01/site/LOCAL_CONSUMER_RECEIPT.json",
-    "fresh_recovery": "reports/profile-timing-closure-confirm-01/verification/C05_FRESH_GITHUB_RESTORATION.json"
+    "fresh_recovery": "reports/profile-timing-closure-confirm-01/verification/C05_FRESH_GITHUB_RESTORATION.json",
+    "pre_served_state": "69_ROWS_SERVER_QUALIFIED_AND_LOCAL_C_RESEARCH_PARITY_PASS;SERVED_PENDING",
+    "served_receipt": "reports/profile-timing-closure-confirm-01/site/served/SERVED_CONSUMER_RECEIPT.json",
+    "publication_closure": "reports/profile-timing-closure-confirm-01/PUBLICATION_CLOSURE.json"
   },
   {
     "task_id": "C05_C75_GRADE",

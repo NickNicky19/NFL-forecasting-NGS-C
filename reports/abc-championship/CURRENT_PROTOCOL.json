@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "47e417f3dbd570a4d7772eaf0601551f94ab26b310a120f8a2381dd8f772dab2"
+    "SHA256": "5e394e15a2b9df42e370ed94d22e73dbbf6d8b25f3e56fba6fd81e6b5bb37f9c"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1158,14 +1158,14 @@
   },
   "profile_timing_closure_confirm_01": {
     "id": "PROFILE-TIMING-CLOSURE-AND-CONFIRM-01-C/v1",
-    "stage": "EXACT_RECEIPTS_ADMITTED;69_ROW_C05_SERVER_PREGAME_QUALIFIED",
+    "stage": "C_OWNED_FINITE_PACKAGE_CLOSED;EXACT_RECEIPTS_ACKNOWLEDGED;C05_SERVED_VERIFIED",
     "registration": {
       "path": "protocol/PROFILE_TIMING_CLOSURE_CONFIRM_01_C.json",
       "SHA256": "bde60c9358188dbbccc9b242265d7cc720a6bd23940c9a66a9749cf2efa6eec6"
     },
     "report": {
       "path": "reports/profile-timing-closure-confirm-01/README.md",
-      "SHA256": "54ecd9ef9f39a25bbd40c141eec9cb9f337db737641c10a129fb1a228ee9a9ce"
+      "SHA256": "31281563e4794f4a9c035d6530b3293bc725ad2128658760e6da9603f86a3b16"
     },
     "previous_pointer": {
       "path": "reports/profile-timing-closure-confirm-01/PREVIOUS_CURRENT_PROTOCOL.json",
@@ -1186,10 +1186,10 @@
     "new_timing_joins": "A-owned exact C04F2/F3 and BnewF0-F3: no execution receipt in the received immutable packages. Completed C03/priorBjoins stay acknowledged.",
     "new_fits": 0,
     "old75_unchanged": true,
-    "current_forward_state": "69FORECASTS_SERVER_QUALIFIED_AND_LOCAL_CONSUMER_PASS;SERVED_PENDING",
+    "current_forward_state": "69FORECASTS_23PLAYERS_1GAME_SERVER_PREGAME_AND_C_RESEARCH_SERVED_VERIFIED;0OFFERS;NO_PRIMARY_SWITCH",
     "product_qualification": {
       "path": "reports/profile-timing-closure-confirm-01/PRODUCT_QUALIFICATION.json",
-      "SHA256": "f8148b3d867cbe52c00a2dbc2a77b5be04ad5ffea5dbb8bbb66f3e5358fdf62e"
+      "SHA256": "e7c549f8f4cb90d90f19a528982f99beb58d2cb0460ca4c453c23beb53e074a8"
     },
     "all12": {
       "path": "reports/profile-timing-closure-confirm-01/TWELVE_CATEGORY_STATUS.json",
@@ -1243,6 +1243,20 @@
     "superseding_intake": {
       "path": "reports/profile-timing-closure-confirm-01/superseding-intake/ADMISSION.json",
       "SHA256": "610710f102d1d2bae8fbccd5f3c3e14fe2a8ebb72911cd7732590b2dd9a9ad3b"
-    }
+    },
+    "pre_served_stage": "EXACT_RECEIPTS_ADMITTED;69_ROW_C05_SERVER_PREGAME_QUALIFIED",
+    "served_verification": {
+      "path": "reports/profile-timing-closure-confirm-01/SERVED_VERIFICATION.json",
+      "SHA256": "16cbf70113b16d55733fa32fad16ef31fd8ec3085f48cc0216092f4772c22db9"
+    },
+    "served_browser": {
+      "path": "reports/profile-timing-closure-confirm-01/site/served/SERVED_CONSUMER_RECEIPT.json",
+      "SHA256": "9535f019855105f95a1f96e4da7ac1caf300748522f084cae2e8c4dee0c78518"
+    },
+    "publication_closure": {
+      "path": "reports/profile-timing-closure-confirm-01/PUBLICATION_CLOSURE.json",
+      "SHA256": "85dae0a5f36b5b223e04ff6140f746801406c1b9e5efac805717510400c6b2e0"
+    },
+    "served_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a"
   }
 }
