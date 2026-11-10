@@ -133,5 +133,38 @@
     "Content_Type": "application/octet-stream",
     "Content_Length": "9346187",
     "response_final_host": "release-assets.githubusercontent.com"
+  },
+  {
+    "id": "C05_NATIVE_SUNDAY_20261115",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=100",
+    "method": "GET",
+    "started_UTC": "2026-11-10T23:15:28.853952+00:00",
+    "state": "RECEIVED",
+    "body_read_bound": 3145728,
+    "HTTP_status": 200,
+    "observed_UTC": "2026-11-10T23:15:29.303758+00:00",
+    "body_bytes_read": 216765,
+    "SHA256": "7781c712edd3f745cec9d5410e9d1edab6add68827aa187c45bd3e9054db2403",
+    "HTTP_headers_original_case": [
+      [
+        "content-type",
+        "application/json;charset=UTF-8"
+      ],
+      [
+        "cache-control",
+        "max-age=1"
+      ],
+      [
+        "date",
+        "Tue, 10 Nov 2026 23:15:29 GMT"
+      ]
+    ],
+    "HTTP_Date": "Tue, 10 Nov 2026 23:15:29 GMT",
+    "HTTP_Age": null,
+    "HTTP_Last_Modified": null,
+    "ETag": null,
+    "Content_Type": "application/json;charset=UTF-8",
+    "Content_Length": null,
+    "response_final_host": "site.api.espn.com"
   }
 ]

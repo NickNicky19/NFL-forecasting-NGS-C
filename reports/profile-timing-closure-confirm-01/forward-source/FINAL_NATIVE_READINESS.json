@@ -1,0 +1,30 @@
+{
+  "id": "C05-FINAL-NATIVE-READINESS-v1",
+  "created_UTC": "2026-11-10T23:15:29.542777+00:00",
+  "source_manifest": {
+    "path": "sources/profile-timing-closure-confirm-01/forward/SOURCE_MANIFEST.json",
+    "bytes": 8703,
+    "SHA256": "b01ad559fee891ea4e5cc76f671f3916702e734c245d3d353f2b3ac1b5689adc"
+  },
+  "game_id": "2026_10_NE_DET",
+  "native_event": "401873053",
+  "kickoff_UTC": "2026-11-15T14:30:00+00:00",
+  "native_observed_UTC": "2026-11-10T23:15:29.303758+00:00",
+  "HTTP_response_clock": {
+    "state": "HTTP_RESPONSE_CLOCK_QUALIFIED",
+    "max_age_seconds": 1800,
+    "future_Date_clock_skew_tolerance_seconds": 5,
+    "HTTP_Age_seconds": null,
+    "HTTP_Date_UTC": "2026-11-10T23:15:29+00:00",
+    "HTTP_Date_age_seconds_at_observation": 0.303758,
+    "observed_UTC": "2026-11-10T23:15:29.303758+00:00",
+    "source_id": "C05_NATIVE_SUNDAY_20261115",
+    "response_raw_SHA256": "7781c712edd3f745cec9d5410e9d1edab6add68827aa187c45bd3e9054db2403",
+    "HTTP_Age_raw": null,
+    "HTTP_Date_raw": "Tue, 10 Nov 2026 23:15:29 GMT",
+    "original_event_publication_clock": "NOT_AUTHENTICATED_BY_HTTP_RESPONSE_CLOCK"
+  },
+  "requests_consumed": 4,
+  "new_fits": 0,
+  "new_forecasts": 0
+}
