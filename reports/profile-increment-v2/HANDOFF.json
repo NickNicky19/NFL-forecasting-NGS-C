@@ -24,7 +24,7 @@
     "rows": 14433,
     "models": 48,
     "actual_export_created_UTC": "2026-11-10T12:11:10.294133+00:00",
-    "status": "PREPARED_FOR_C_PUBLICATION;OWNER_RECEIPT_PENDING",
+    "status": "PUBLISHED_C_IMMUTABLE_BYTES_READ_BACK;OWNER_RECEIPT_PENDING",
     "private_board_access": "Aonly;newearlierjoinsuserreportedcompletecurrentreceiptnotlocated;thisnewC03joinisaseparatefollow-on",
     "existing_scorer": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
     "consumer_primary_activation": false,
@@ -32,11 +32,14 @@
       "mean": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEAN",
       "median": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEDIAN",
       "note": "Exportrowprocedureisbasearm/modelID;typedfunctionalfielddeterminescompletepoint-directionprocedure,notanuntestedrouter."
-    }
+    },
+    "state_at_initial_preparation": "PREPARED_FOR_C_PUBLICATION;OWNER_RECEIPT_PENDING",
+    "publication_receipt": "reports/profile-increment-v2/TYPED_EXPORT_READBACK.json",
+    "publication_commit": "471066ee8fd0745def26b8c5c1ae6bbcaf8f6d3e"
   },
   "qualification": "reports/profile-increment-v2/KEEP_STOP.json",
   "weekly_evidence": "reports/profile-increment-v2/experiment/README.md",
-  "recovery_receipt": "PendingregisteredfreshGitHubrecovery",
+  "recovery_receipt": "FRESH_GITHUB_RECOVERY.json;TYPED_EXPORT_READBACK.json",
   "missing_stale_fallback": "Unqualifiedcurrentroster/model/role/source/status/offer=>no newC03forecast/selection. Originalconsumerincumbentfallbackremainsownercontrolled. Missingmodelinputs useorigintraining-onlyimputation+flags, notactuals/zero.",
   "runtime": "OneCPUthread;existingrequirements.txt/Python3.12;newcurrent-originfitnotinthiscomplete48fitpackage",
   "retraining": "SamefixedLeafweeklyorigin/earliertrainingstrict7d rule. Newsource/history/fieldrecipegetsnewversion;originalpointslawsneverrewritten.",
@@ -49,11 +52,16 @@
   "rollback": "KeepincumbentoriginalproductandpriorCstate; Cresultsrollbackcanredeploy06da9bbnormalchecks;previewtestedLOCAL_BROWSER_QA",
   "states": {
     "prepared": true,
-    "published": "PendingCcommitreadback",
+    "published": true,
     "consumer_acknowledged": false,
     "original_producer_current_packet": false,
     "served_original_values": false,
-    "new_primary_release": false
+    "new_primary_release": false,
+    "publication_proof": {
+      "commit": "471066ee8fd0745def26b8c5c1ae6bbcaf8f6d3e",
+      "readback_UTC": "2026-11-10T12:36:56.565350+00:00",
+      "receipt": "TYPED_EXPORT_READBACK.json"
+    }
   },
   "next_owner_action": "A/Bprovideexactnewercompletion/recoverymanifestrefthrough existingindexes. AcanexecuteNEWC03typedpointjoinowner-local; notconfusedwithcompletedolderjoins. Websiteownerusesmean-countcontractanditsownadmission/replay;medianisnotmean."
 }

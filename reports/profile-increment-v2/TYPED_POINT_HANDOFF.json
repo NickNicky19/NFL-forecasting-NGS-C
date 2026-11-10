@@ -5,7 +5,7 @@
   "rows": 14433,
   "models": 48,
   "actual_export_created_UTC": "2026-11-10T12:11:10.294133+00:00",
-  "status": "PREPARED_FOR_C_PUBLICATION;OWNER_RECEIPT_PENDING",
+  "status": "PUBLISHED_C_IMMUTABLE_BYTES_READ_BACK;OWNER_RECEIPT_PENDING",
   "private_board_access": "Aonly;newearlierjoinsuserreportedcompletecurrentreceiptnotlocated;thisnewC03joinisaseparatefollow-on",
   "existing_scorer": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
   "consumer_primary_activation": false,
@@ -13,5 +13,8 @@
     "mean": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEAN",
     "median": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEDIAN",
     "note": "Exportrowprocedureisbasearm/modelID;typedfunctionalfielddeterminescompletepoint-directionprocedure,notanuntestedrouter."
-  }
+  },
+  "state_at_initial_preparation": "PREPARED_FOR_C_PUBLICATION;OWNER_RECEIPT_PENDING",
+  "publication_receipt": "reports/profile-increment-v2/TYPED_EXPORT_READBACK.json",
+  "publication_commit": "471066ee8fd0745def26b8c5c1ae6bbcaf8f6d3e"
 }

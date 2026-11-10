@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "9041f3da96e99f1412ad6e4097d48b5006ffbad7caa81da7bc3a6f1daef3ace9"
+    "SHA256": "a517305b3c26ea2a4189d14cbff60555872d620a6bd7ae055f127f7782f15d8f"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -484,7 +484,7 @@
     "id": "PROFILE-INCREMENT-TO-RELEASE-01-C-v2",
     "report": {
       "path": "reports/profile-increment-v2/README.md",
-      "SHA256": "99a2557d1b10a585dde4ff39758ef5f212373803619a307a1cb46c546dbbba39"
+      "SHA256": "8ba9b9ff828f6db3dfbf65e4ffc4fa994be611661f5de03de383bca37630fe9e"
     },
     "registration": {
       "path": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json",
@@ -496,11 +496,11 @@
     },
     "handoff": {
       "path": "reports/profile-increment-v2/HANDOFF.json",
-      "SHA256": "b69d792443bae990f7e8a3239e590dfd5f4a11e222ead306640bc44f866ba145"
+      "SHA256": "0f6bca03107aab8300acffee93eeb7f8fba20ba034fc3738b6065c7801ac0b1f"
     },
     "typed_points": {
       "path": "reports/profile-increment-v2/TYPED_POINT_HANDOFF.json",
-      "SHA256": "2e5f7261890e9076a24c500998aa6470ff54b60ec3104ffb37ec8af2c424b2cf"
+      "SHA256": "e22456faf1c092f833fc431b96b96a4c1f483a44941b20b88d9ca20f3f5492c1"
     },
     "profile_schema": {
       "path": "reports/profile-increment-v2/COMMON_PROFILE_SCHEMA.json",
@@ -508,7 +508,7 @@
     },
     "twelve_categories": {
       "path": "reports/profile-increment-v2/TWELVE_CATEGORY_STATUS.json",
-      "SHA256": "8ebede79e7d387e1631e7712fc73cfe864352c54954779eed1ee622c58908da6"
+      "SHA256": "9d900b5895f782922046d5d683f626f5dccf707c23e80c7a848a27afebeec7cb"
     },
     "new_peer_admissions": "NONE_NEWER_COMPLETION_RECEIPT_NOT_LOCATED;oldacceptedaggregatesunchanged",
     "current_primary_release": false,
@@ -518,7 +518,7 @@
     },
     "evidence": {
       "path": "reports/profile-increment-v2/EVIDENCE_MANIFEST.json.xz",
-      "SHA256": "7b44adc7fe3520e55d8e8b0b68712e045c0a6214bacbde2f3ba0be9ef65a3ac1"
+      "SHA256": "01f000ca0928aeb06ca36800b1bd26db83d42d8fcb67ac0ffc26e5899403721c"
     },
     "resource": {
       "path": "reports/profile-increment-v2/RESOURCE_RECEIPT.json",
@@ -527,6 +527,14 @@
     "roster": {
       "path": "reports/profile-increment-v2/METHOD_ROSTER_V2.json",
       "SHA256": "f2cbc15f02b16c044ab077d10dafeb6888e164714fdeb8f01e460bc0cb470587"
+    },
+    "fresh_recovery": {
+      "path": "reports/profile-increment-v2/FRESH_GITHUB_RECOVERY.json",
+      "SHA256": "6cd1ee259086d6ad1856095468276a90681e4baa01cc45db5a0ff1307cecafc7"
+    },
+    "actual_typed_export_readback": {
+      "path": "reports/profile-increment-v2/TYPED_EXPORT_READBACK.json",
+      "SHA256": "9a1a49334b12a49fc65111d25283c67f54386cc9bef8bc5ad80c3478a37523be"
     }
   }
 }
