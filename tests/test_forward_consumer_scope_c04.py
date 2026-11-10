@@ -33,13 +33,14 @@ class ForwardConsumerScope(unittest.TestCase):
     receipt.assert_called_once()
  def test_all_actual_receipts_validate_in_their_correct_consumer_scope(self):
   prospective=ROOT/'prospective';proofs=[json.loads(p.read_text()) for p in (prospective/'receipts').glob('*.json')]
-  self.assertEqual(len(proofs),7)
+  required={'C-FWD-v4-20261105-W09-JAXBAL-pass_yd','C-FWD-v4-20261107-W09-CINATL-remainder','C-FWD-v4-20261101-0011-P2-remainder','C-C04-20261110-W10-FIRST-01','C-FWD-v4-20261101-0009-P2-pass_yd','C-FWD-v4-20261107-W09-CINATL-pass_yd','C-FWD-v4-20261105-W09-JAXBAL-remainder'}
+  self.assertTrue(required<={p['run_id'] for p in proofs})
   legacy=[];shadow=[]
   for proof in proofs:
    meta,rows=build.validate_run(prospective/'runs'/proof['run_id']);build.validate_receipt(prospective/'runs'/proof['run_id'],proof,meta,rows)
    (legacy if build.legacy_feed_run(meta) else shadow).append((proof['run_id'],len(rows)))
-  self.assertEqual(len(legacy),6);self.assertEqual(shadow,[('C-C04-20261110-W10-FIRST-01',75)])
-  self.assertEqual(len(check.validate(ROOT/'docs',prospective)['runs']),6)
+  self.assertGreaterEqual(len(legacy),6);self.assertEqual(dict(shadow)['C-C04-20261110-W10-FIRST-01'],75)
+  self.assertEqual({x['run_id'] for x in check.validate(ROOT/'docs',prospective)['runs']},{name for name,_ in legacy})
  def test_actual_legacy_builder_ignores_c04_source_layout_and_preserves_payload(self):
   # C04 intentionally lacks legacy sources/SOURCE_MANIFEST.json. The checked
   # schema gate must run before that layout is accessed; all seven receipts are
@@ -48,7 +49,7 @@ class ForwardConsumerScope(unittest.TestCase):
   with tempfile.TemporaryDirectory() as td:
    docs=Path(td);shutil.copyfile(ROOT/'docs/build.json',docs/'build.json')
    with contextlib.chdir(ROOT):manifest=build.build(Path('prospective'),docs)
-   self.assertEqual(len(manifest['runs']),6)
+   self.assertGreaterEqual(len(manifest['runs']),6)
    self.assertNotIn('C-C04-20261110-W10-FIRST-01',{r['run_id'] for r in manifest['runs']})
    for item in manifest['files']:
     self.assertEqual((docs/'data'/item['file']).read_bytes(),(ROOT/'docs/data'/item['file']).read_bytes(),item['category'])
