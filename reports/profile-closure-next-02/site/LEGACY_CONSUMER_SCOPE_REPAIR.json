@@ -1,0 +1,106 @@
+{
+  "id": "C04-LEGACY-CONSUMER-SCOPE-REPAIR-v1",
+  "recorded_UTC": "2026-11-10T20:15:08.808750+00:00",
+  "failure": {
+    "CI_run": 42892302212,
+    "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/42892302212",
+    "head": "55938f371aeb32c915b7fc0b93fec1a614d5da34",
+    "log_timestamp_UTC": "2026-11-10T20:10:33.920Z",
+    "path": "src/site_validate_forward_v4.py:26",
+    "assertion": "len(seen)==m.forecast_rows==len(uniqueoriginalpolicykeys)",
+    "log_source": "ExactimmutableCIpin/URLandrejectionreportedbyroot;noadditionalGETordownloadedlogclaimed"
+  },
+  "reproduction": {
+    "legacy_site_rows": 2895,
+    "old_unfiltered_unique_policy_keys": 2970,
+    "legacy_unique_policy_keys": 2895,
+    "separate_C04_rows": 75,
+    "validated_receipts": 7,
+    "legacy_receipts": 6,
+    "separate_C04_receipts": 1
+  },
+  "root_cause": "The legacy validator added the separate 75-row C04 schema to its reference pool, while the frozen legacy feed correctly contained only 2,895 legacy rows. The legacy builder also needed the same explicit scope check before accessing the legacy source layout.",
+  "repair": "Both consumers first run validate_run and validate_receipt. Only exact C-PREGAME-RUN-v4 enters the legacy feed. Exact C04-CURRENT-FORECAST-ONLY-RUN-v1 stays in its separate checked consumer. Unknown schemas fail. C04 is explicitly required to be absent from legacy manifest.runs.",
+  "stage": "CORRECTED_LOCALLY_AND_REGRESSION_CHECKED;parentcommitpushCIconsumerrecheckremaining",
+  "tests": {
+    "command": "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests -p test_forward_consumer_scope_c04.py",
+    "count": 5,
+    "actual_retained_validator": "FORWARD_SITE_CONTRACT_PASS2895",
+    "temporary_builder": "All twelve legacy category JSON payloads reproduced byte-for-byte, with six legacy runs and no C04 legacy source path required.",
+    "invalid_receipt_or_unknown_schema": "failclosedbeforeadmission",
+    "test_invocation_failure_preserved": "The first temporary build used an absolute root and differed only in existing relative versus absolute evidence-path strings. The rerun used the actual relative CLI route. Production path logic and payloads were unchanged.",
+    "passed": true
+  },
+  "old_payload_bindings": [
+    {
+      "path": "docs/data/forward/anytime_td.json",
+      "SHA256": "28aff503ba2d7ec6fabae537658d61a36f37161f0d82e143416686b126ad5f34",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/fpts.json",
+      "SHA256": "4d0087142dbdf3f7a87ccc1e748c592b9159c7f3afd4a84eb8b620b89bbcd057",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/pass_att.json",
+      "SHA256": "4ef2f970770fe67de9e96488ec2c0f41c7fd5aa9f8c9abd4493825b1ca048f89",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/pass_cmp.json",
+      "SHA256": "0ed2ab0921c1837bc2ce9ef5eb12c1a94872abe81a3dd000159a348ed2828309",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/pass_int.json",
+      "SHA256": "f20de00387e930f56f16980f9074130c3a718f338d296b295c91fc59fbad0f0c",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/pass_td.json",
+      "SHA256": "23e2ec47aad852541906ab51b8c58fe51f5176282040c0ca7327b1826d48dcf1",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/pass_yd.json",
+      "SHA256": "11520d4b66a063cc5f53bbd35188a540733329573aa05d54700de2d89df83baa",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/rec.json",
+      "SHA256": "2d5668a59fbbba1dd3ac5ba79500a2989c08ecffa6a07c1727ae1e8d214c7ab1",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/rec_yd.json",
+      "SHA256": "6c0e4cbda3fabd1a12a8c13153edc28db80f3b1424fb87999d279dfd407db768",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/rush_att.json",
+      "SHA256": "4d43b95d62f6aade342a82923883f204342f7a4f584d105d9c66fd73f49b3514",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/rush_rec_yd.json",
+      "SHA256": "b88d5bebccd37674e3aaa0b9872d61584137cb668a3a5e7920d3c4f74c573e8d",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward/rush_yd.json",
+      "SHA256": "8597972e04be2b917cc6187f04f20cd4a26d8b5739846e818bd135a9042daa7d",
+      "unchanged_from_HEAD": true
+    },
+    {
+      "path": "docs/data/forward-manifest.json",
+      "SHA256": "937424b1fff794f60a2e03705995cc32774f9a25cf93cac233dc9f1c71a21e12",
+      "unchanged_from_HEAD": true
+    }
+  ],
+  "source_model_forecast_grade_changes": 0,
+  "new_fits": 0,
+  "new_GETs": 0,
+  "new_NFL_observations": 0,
+  "original_website_or_TopPicks_changes": 0
+}
