@@ -1,0 +1,59 @@
+{
+  "id": "C03-OWNER-REVIEW-HANDOFF-v2",
+  "scope": "Historicaltypednumericalandactual-linecomparisonpluscurrentquerysoftware;notlivefeed",
+  "producer_owner": "C",
+  "consumer_owner": "Originalwebsiteowner;Cownresearchsiteonlyforresults",
+  "models": {
+    "path": "artifacts/profile-increment-v2",
+    "safe_format": "PlainprimitiveJSON.xz;48augmentedmodels;no pickle",
+    "executing_code": "src/receiving_increment_c03.py",
+    "executing_code_SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198",
+    "schema": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+    "defense_code_SHA256": "1822f048fcdabaefc7f4edcb7e69f4846a119d1212b9a5f575f9190303c7d1c9"
+  },
+  "current_adapter": {
+    "path": "src/receiving_increment_query_c03.py",
+    "SHA256": "e514d2a231736b8998dba26d1855dbfc05bbe572de4389a252f8503367115d44",
+    "readiness": "IMPLEMENTED_AND_SOFTWARE_VERIFIED;currentoriginmodel/rosteradmissionnotcomplete"
+  },
+  "profile_defense_schema": "reports/profile-increment-v2/COMMON_PROFILE_SCHEMA.json",
+  "points_export": {
+    "path": "reports/profile-increment-v2/C03_TYPED_POINTS_2025_2026_W1_W8.json.xz",
+    "SHA256": "0a374a147bdad11bf3226265894b00b39928903f62740e0a4d2344f91eeb8497",
+    "bytes": 246128,
+    "rows": 14433,
+    "models": 48,
+    "actual_export_created_UTC": "2026-11-10T12:11:10.294133+00:00",
+    "status": "PREPARED_FOR_C_PUBLICATION;OWNER_RECEIPT_PENDING",
+    "private_board_access": "Aonly;newearlierjoinsuserreportedcompletecurrentreceiptnotlocated;thisnewC03joinisaseparatefollow-on",
+    "existing_scorer": "ABC-ACTUAL-PROP-CHAMPIONSHIP-v2-C-1",
+    "consumer_primary_activation": false,
+    "exact_procedure_resolution": {
+      "mean": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEAN",
+      "median": "C-RECEIVING-PROFILE-INCREMENT-v2::{arm}::MEDIAN",
+      "note": "Exportrowprocedureisbasearm/modelID;typedfunctionalfielddeterminescompletepoint-directionprocedure,notanuntestedrouter."
+    }
+  },
+  "qualification": "reports/profile-increment-v2/KEEP_STOP.json",
+  "weekly_evidence": "reports/profile-increment-v2/experiment/README.md",
+  "recovery_receipt": "PendingregisteredfreshGitHubrecovery",
+  "missing_stale_fallback": "Unqualifiedcurrentroster/model/role/source/status/offer=>no newC03forecast/selection. Originalconsumerincumbentfallbackremainsownercontrolled. Missingmodelinputs useorigintraining-onlyimputation+flags, notactuals/zero.",
+  "runtime": "OneCPUthread;existingrequirements.txt/Python3.12;newcurrent-originfitnotinthiscomplete48fitpackage",
+  "retraining": "SamefixedLeafweeklyorigin/earliertrainingstrict7d rule. Newsource/history/fieldrecipegetsnewversion;originalpointslawsneverrewritten.",
+  "typed_outputs": [
+    "Expectedmean",
+    "Lowermedian",
+    "Exactempirical-leaf+5%geometrictaildistribution;experimentalprobabilities"
+  ],
+  "ranking": "Existingregisteredlast-recorded-lineTop6/10/20researchonly;no newprimaryTopPicksrouter/EV",
+  "rollback": "KeepincumbentoriginalproductandpriorCstate; Cresultsrollbackcanredeploy06da9bbnormalchecks;previewtestedLOCAL_BROWSER_QA",
+  "states": {
+    "prepared": true,
+    "published": "PendingCcommitreadback",
+    "consumer_acknowledged": false,
+    "original_producer_current_packet": false,
+    "served_original_values": false,
+    "new_primary_release": false
+  },
+  "next_owner_action": "A/Bprovideexactnewercompletion/recoverymanifestrefthrough existingindexes. AcanexecuteNEWC03typedpointjoinowner-local; notconfusedwithcompletedolderjoins. Websiteownerusesmean-countcontractanditsownadmission/replay;medianisnotmean."
+}

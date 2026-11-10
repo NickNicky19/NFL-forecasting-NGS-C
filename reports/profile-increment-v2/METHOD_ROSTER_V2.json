@@ -1,0 +1,365 @@
+{
+  "id": "C03-METHOD-ROSTER-ADDITION-v2",
+  "base_common_roster": {
+    "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+    "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+  },
+  "new_materially_distinct_learner_families": 1,
+  "new_arms": 3,
+  "typed_products": 9,
+  "new_registered_contenders": [
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R1::MEAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R1",
+      "output": "unrounded_expected_mean",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R1.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R1::MEDIAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R1",
+      "output": "lower_median",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R1.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R1::LAW",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R1",
+      "output": "empirical_leaf_plus_geometric_tail_law",
+      "selection_rule": "LargerexactlineOver/Underprobability;equalabstain;pushmassretained",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R1.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R2::MEAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R2",
+      "output": "unrounded_expected_mean",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R2.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R2::MEDIAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R2",
+      "output": "lower_median",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R2.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R2::LAW",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R2",
+      "output": "empirical_leaf_plus_geometric_tail_law",
+      "selection_rule": "LargerexactlineOver/Underprobability;equalabstain;pushmassretained",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R2.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R3::MEAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R3",
+      "output": "unrounded_expected_mean",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R3.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R3::MEDIAN",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R3",
+      "output": "lower_median",
+      "selection_rule": "Exactpoint>lineOver/<Under/equalabstain",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R3.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    },
+    {
+      "procedure_id": "C-RECEIVING-PROFILE-INCREMENT-v2::R3::LAW",
+      "owner": "C",
+      "category": "rec",
+      "roles_primary": [
+        "WR",
+        "TE"
+      ],
+      "roles_full": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "arm": "R3",
+      "output": "empirical_leaf_plus_geometric_tail_law",
+      "selection_rule": "LargerexactlineOver/Underprobability;equalabstain;pushmassretained",
+      "learner_family": "UNCHANGED_EXTRA_TREES_EMPIRICAL_LEAF32_1701",
+      "history": "H-MULTI2022expanding;earlier2024-26context;strict+7dcurrent-vintage",
+      "refit": "Weeklyoriginbeforefirstkickoff;queryfeaturesbeforeeachgamewithsameavailabilitypolicy",
+      "code": {
+        "path": "src/receiving_increment_c03.py",
+        "SHA256": "5c42b388bad93cbb46f4f1d93e37c78c0cb8b3af416aa00b23632bcd7b3a8198"
+      },
+      "feature_order": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "fit_models": "artifacts/profile-increment-v2/{season}-W{week:02}-R3.json.xz",
+      "pre_fit_registration": "protocol/PROFILE_INCREMENT_TO_RELEASE_01_C_V2.json;exactpilot/fullversionsretained",
+      "coverage": {
+        "numerical": [
+          2025,
+          2026
+        ],
+        "actual2026weeks": [
+          2,
+          3
+        ],
+        "prospective": 0
+      },
+      "eligibility": "Notprimaryreplacement;KEEP_STOP applies;pointnumericalweeksnotline/probability/TopKqualification"
+    }
+  ],
+  "R0": "Savedexactoriginalprocedure/reference,notanewfitfamily;aliasesbindoriginalarchive+modelcode/source/points; originalqualificationnotreset",
+  "scientific_registration": "Arm/code/rulechoiceswerefrozenbeforefits;thisispost-executionnormalizedexportinventory,notanewposthocmethodselection"
+}

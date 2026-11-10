@@ -43,3 +43,5 @@ Publication checkpoint: PR #34 merged at d405edd56ed78cdaed1d7aad6b2fc12bf68ae05
 Acceptance continuation: [independent scope/reproduction verdicts, peer-review limits and append-only later grades](acceptance-v1/README.md). This does not promote the original negative proxy experiment.
 
 [Completion and keep/stop continuation](completion-decision-v1/README.md): genuine peer intake, roster-driven profiles, earlier-selected lookback comparison and bounded decisions; no primary promotion.
+
+Latest additive focused player/defense increment: [C03 executed comparisons and keep/stop decisions](../profile-increment-v2/README.md). Earlier closed recipes remain unchanged.

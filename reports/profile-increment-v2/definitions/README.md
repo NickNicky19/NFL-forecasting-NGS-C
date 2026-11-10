@@ -1,0 +1,9 @@
+# Receiving-defense source contract and reusable envelope
+
+`src/receiving_defense_c03.py` reuses the strict qualified attempt extraction and builds all32 team records, including explicit unavailable-history records. No new source is collected. The numeric adapter has4 support fields and10 values (WR/TE catch-per-target at four known depth bins plus WR/TE shares of all identified targets). UNKNOWN-depth/OTHER-role counts remain in profiles and aggregate denominators.
+
+Each historical profile admits source games first, then orders by game time; the retained seven-day policy is reconstruction, not original availability proof. The league shrinkage prior is recomputed only from eligible earlier team-games. No final-season ranking, target-game mixture, routes, coverage or receiver alignment is supplied. Existing adjusted residuals are a separate previously tested block; the new block is explicitly raw context-conditioned response. It does not claim offense-quality adjustment or defense causality.
+
+Signed known yards, explicit observed zero and missing yard components are preserved. Known-yard denominators differ from full targets/receptions. A complete all-target/all-reception ratio is emitted only when every required yard component is finite. A source with no yardage column remains distinct from a source with parsed missing/nonfinite values; original CSV token distinctions are not inferred after parsing. Yardage fields are descriptive and excluded from this reception-count increment.
+
+API: `ReceivingDefense(frames, players, schedule, context=strict_context, source_bindings=...)`; `vector(query, cutoff=None)`; `profile(team, cutoff, event_id=None)`; `snapshot(cutoff, event_map=None)`. `query` requires only opponent_team and kickoff, not actuals or future outcomes. Current-query roster/event admission remains the separate C02 gate. This schema does not claim peer adoption, producer admission or predictive gain.

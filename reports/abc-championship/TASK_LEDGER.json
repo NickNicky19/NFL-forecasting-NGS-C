@@ -222,9 +222,12 @@
   {
     "task_id": "A_REC667_STRONG_CONTROL_JOIN",
     "owner": "A",
-    "state": "PREPARED_OWNER_LOCAL_EXECUTION_REQUIRED",
+    "state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
     "artifact": "reports/player-context-matchup-01/completion-decision-v1/intake/STRONG_CONTROL_OWNER_LOCAL_HANDOFF.json",
-    "next_action": "Same667fixedmask plusfull733coverage; joinstrongALeaf,CretainedLeaf,Bcompatibleoutputs;Bverifies"
+    "next_action": "Same667fixedmask plusfull733coverage; joinstrongALeaf,CretainedLeaf,Bcompatibleoutputs;Bverifies",
+    "previous_state_as_of_prior_checkpoint": "PREPARED_OWNER_LOCAL_EXECUTION_REQUIRED",
+    "current_evidence": "reports/profile-increment-v2/intake/ROUTE_FINDINGS.json",
+    "next": "Provideexactexistingnewerimmutablecompletionmanifest/ref, not repeatcompletedjoin"
   },
   {
     "task_id": "A_EXTEND_C_POINTS_WEEK8",
@@ -246,5 +249,40 @@
     "state": "SOURCE_BLOCKED_UNTESTED",
     "artifact": "reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json",
     "next_action": "Qualifiedall-routealignmentexportwithdenominator/rights/clocks;noinferfromdestination"
+  },
+  {
+    "owner": "C",
+    "task": "PROFILE-INCREMENT-TO-RELEASE-01v2 receiving Leaf player/defense matched test",
+    "state": "COMPLETED_48_NEW_FITS_0_BASELINE_REFITS_2025_2026_W1_W8",
+    "artifact": "reports/profile-increment-v2/README.md",
+    "decision": "ActualreplacementCLOSE_RECIPE_NO_GAIN;numericalINCONCLUSIVE",
+    "next": "No unchangedrepeat; newreceivingyard16fitproposal/sourcequalificationor genuinelylaternumericalshadowseparatebudget"
+  },
+  {
+    "owner": "A",
+    "task": "Five saved rushing-efficiency state recovery receipt",
+    "state": "OWNER_RECOVERY_REPORTED_NEWER_MANIFEST_NOT_LOCATED_BY_C",
+    "artifact": "reports/profile-increment-v2/intake/EXACT_NEXT_ARTIFACTS.json",
+    "next": "Publish exact existingfivestatehashmanifest/ref through AEXPORT_INDEX; CdoesnotfitrecoverinA"
+  },
+  {
+    "owner": "A/B",
+    "task": "Completedreception/attemptjoins supersedingreceipt",
+    "state": "USER_REPORTED_COMPLETED_CURRENT_RECEIPT_NOT_LOCATED",
+    "next": "Supplyexactpublishedresults/masks/version; no assumptionprivateparity"
+  },
+  {
+    "owner": "C",
+    "task": "NewC03currentpacket",
+    "state": "BLOCKED_EFFECTIVE_WEEK10_ROSTER_CURRENT_MODEL_ADMISSION",
+    "artifact": "reports/profile-increment-v2/CURRENT_QUERY_QUALIFICATION.json",
+    "next": "Onegenuinelynew source-effectiveversion andfreshnativeevent;futurecutoffonly;noautomaticpolls"
+  },
+  {
+    "owner": "Originalwebsiteowner",
+    "task": "Originalconsumereligibleproduct/TopPicksrelease",
+    "state": "EXISTING_OWNER_ONLY_CURRENT_SERVED_VALUES_NOT_VERIFIED_BY_C",
+    "artifact": "reports/profile-increment-v2/STATIC_CONSUMER_CONTRACT.json",
+    "next": "Useindependentlyqualifiedoldproducts; typedmeansvsmedians; oneexactselectorreplaywithBverification; no newC03primaryswitch"
   }
 ]

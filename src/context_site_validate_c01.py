@@ -16,4 +16,8 @@ def validate():
  assert site['grade_summary']['states']=={'UNKNOWN':76,'GRADED_PLAYED':127}
  assert len(site['twelve_category_retained_status'])==12
  print('CONTEXT_CANONICAL_SERVED_INPUT_PARITY',len(site['actual_scores']),len(rows))
+ # C03 is an export of canonical records, never another grader.
+ if (ROOT/'docs/data/profile-increment-v2.json').exists():
+  import subprocess,sys
+  subprocess.run([sys.executable,str(ROOT/'scripts/export_profile_increment_v2.py'),'--validate'],check=True)
 if __name__=='__main__':validate()
