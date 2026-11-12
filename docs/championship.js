@@ -61,3 +61,52 @@ async function start(){try{
  select("#scope").textContent="Partial actual-line evidence; source-specific historical and shared masks stay distinct. No future champion, verified probability confidence, ticket, profit or90% claim.";select("#panel").onchange=render;select("#zone").onchange=render;render();
  }catch(e){select("#records").replaceChildren();select("#error").hidden=false;select("#error").textContent=e.message+". Actual-prop results unavailable; no synthetic defaults, rankings or entries.";}}
 start();
+
+// C06 is an independent, bound current-decision projection. It never changes
+// the historical panels, live producer, forecasts or selection implementation.
+window.c06={healthy:false,data:null};
+function c06Text(x){if(x===null||x===undefined)return 'N/A — not established';if(typeof x!=='object')return String(x);if(Array.isArray(x))return x.length?x.map(c06Text).join(' · '):'None reported';return Object.entries(x).map(([k,v])=>k.replaceAll('_',' ')+': '+c06Text(v)).join('; ');}
+function c06Record(x){if(!x||!x.decided)return 'N/A — no decided selections';return `${x.wins}–${x.losses}/${x.decided}/${(100*x.rate).toFixed(2)}%`;}
+function c06Cell(tr,value){const td=document.createElement('td');td.textContent=c06Text(value);tr.append(td);return td;}
+function c06Details(td,title,value){const detail=document.createElement('details'),summary=document.createElement('summary'),p=document.createElement('p');summary.textContent=title;p.textContent=c06Text(value);detail.append(summary,p);td.append(detail);}
+function c06Check(x){
+ if(x.schema!=='C-CATEGORY-PRODUCT-DECISIONS-SITE-v1'||x.model_or_policy_activation!==false||x.publication_scope!=='C_COORDINATOR_RESEARCH_DECISIONS;ORIGINAL_WEBSITE_OWNER_ALONE_RELEASES')throw Error('Unexpected decision publication scope');
+ if(!Array.isArray(x.categories)||x.categories.length!==12)throw Error('Twelve category decisions required');
+ const ids=x.categories.map(r=>r.category==='fpts'?'nick-chart-ppr-v1':r.category),expected=['pass_yd','pass_td','pass_cmp','pass_att','pass_int','rush_yd','rush_att','rec','rec_yd','rush_rec_yd','anytime_td','nick-chart-ppr-v1'];
+ if(new Set(ids).size!==12||expected.some(k=>!ids.includes(k)))throw Error('Missing or duplicate category');
+ const decisions=['KEEP_INCUMBENT','PROVISIONALLY_SWITCH','SHADOW','ABSTAIN','BLOCKED'];
+ for(const r of x.categories){
+  if(!decisions.includes(r.decision))throw Error('Unknown category decision');
+  for(const side of ['OVER','UNDER','COMBINED']){const v=r[side];if(v!==null){if(!v||!['wins','losses','decided'].every(k=>Number.isInteger(v[k])&&v[k]>=0)||v.wins+v.losses!==v.decided)throw Error('Invalid own-side counts');if(v.decided===0?v.rate!==null:typeof v.rate!=='number'||!Number.isFinite(v.rate)||Math.abs(v.rate-v.wins/v.decided)>1e-12)throw Error('Invalid own-side rate');}}
+  if(r.OVER&&r.UNDER&&r.COMBINED&&['wins','losses','decided'].some(k=>r.OVER[k]+r.UNDER[k]!==r.COMBINED[k]))throw Error('Combined record does not sum counts');
+ }
+}
+function c06Render(){
+ const x=window.c06.data;if(!window.c06.healthy||!x)return;const chosen=select('#c06-category').value,rows=x.categories.filter(r=>chosen==='ALL'||r.category===chosen);select('#c06-records').replaceChildren();select('#c06-products').replaceChildren();
+ for(const r of rows){
+  const tr=document.createElement('tr');tr.dataset.category=r.category;
+  c06Cell(tr,`${r.label} · ${c06Text(r.role_scope)}`);
+  c06Cell(tr,`${c06Text(r.exact_procedure)} · ${c06Text(r.output)} · ${c06Text(r.history_policy)} · origin ${c06Text(r.origin)}`);
+  c06Cell(tr,`${c06Text(r.actual_weeks_by_season)} · ${c06Text(r.evidence_tier)}`);
+  for(const side of ['OVER','UNDER','COMBINED'])c06Cell(tr,c06Record(r[side]));
+  c06Cell(tr,r.coverage);
+  const lead=c06Cell(tr,'Preferred eligible: '+c06Text(r.preferred_eligible_candidate));c06Details(lead,'Highest observed within named panels',r.highest_observed_panels);
+  const control=c06Cell(tr,r.controls);c06Details(control,'Uncertainty and comparison limits',r.uncertainty);
+  c06Cell(tr,`${r.decision} · ${c06Text(r.five_week_status)} · ${c06Text(r.current_query)}`);
+  c06Cell(tr,`${c06Text(r.actual_live_method)} · Next owner action: ${c06Text(r.remaining_owner_action)}`);select('#c06-records').append(tr);
+  for(const p of r.other_products){const pr=document.createElement('tr');pr.dataset.category=r.category;pr.dataset.product=typeof p==='object'?(p.product||p.product_id||p.type||'Separate product'):'Separate product';c06Cell(pr,r.label);c06Cell(pr,pr.dataset.product);c06Cell(pr,p);select('#c06-products').append(pr);}
+ }
+ select('#c06-clock').textContent='Decision evidence prepared '+clock(x.prepared_UTC)+'. This is a coordinator record, not an original-site activation receipt or a new NFL observation.';
+}
+async function c06Start(){
+ window.c06.healthy=false;window.c06.data=null;select('#c06-records').replaceChildren();select('#c06-products').replaceChildren();select('#c06-clock').textContent='';select('#c06-limits').textContent='';select('#c06-error').hidden=true;
+ try{
+  const br=await fetch('build.json',{cache:'no-cache'});if(!br.ok)throw Error('Build binding unavailable');const b=await br.json();if(!/^[a-f0-9]{64}$/.test(b.category_decisions_c06_SHA256||''))throw Error('Decision checksum binding unavailable');
+  const response=await fetch('data/category-decisions-c06.json',{cache:'no-cache'});if(!response.ok)throw Error('Canonical decisions unavailable');const text=await response.text();const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text)))].map(v=>v.toString(16).padStart(2,'0')).join('');if(digest!==b.category_decisions_c06_SHA256)throw Error('Decision checksum mismatch');
+  const x=JSON.parse(text);c06Check(x);window.c06.data=x;window.c06.healthy=true;
+  const menu=select('#c06-category'),previous=menu.value;menu.replaceChildren();const all=document.createElement('option');all.value='ALL';all.textContent='All twelve categories';menu.append(all);for(const r of x.categories){const o=document.createElement('option');o.value=r.category;o.textContent=r.label;menu.append(o);}menu.value=x.categories.some(r=>r.category===previous)?previous:'ALL';menu.onchange=c06Render;
+  select('#c06-status').textContent=x.status;select('#c06-limits').textContent='Current exact-version joins are admitted only to their stated public/owner-local verification scope. Annual retained W1–5 offers, archived seven-week panels with their recorded source-week qualifications, and separate native later-week panels remain distinct. Unverified quote clocks stay unverified; no universal cross-panel champion or automatic release is inferred.';c06Render();
+ }catch(e){window.c06.healthy=false;window.c06.data=null;select('#c06-records').replaceChildren();select('#c06-products').replaceChildren();select('#c06-clock').textContent='';select('#c06-limits').textContent='';select('#c06-status').textContent='Current category decisions unavailable';select('#c06-error').hidden=false;select('#c06-error').textContent=e.message+'. No default candidate, primary switch or confidence will be invented.';}
+}
+select('#zone').addEventListener('change',()=>{if(window.c06.healthy)c06Render();});
+c06Start();

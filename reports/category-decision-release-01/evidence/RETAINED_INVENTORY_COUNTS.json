@@ -1,0 +1,120 @@
+{
+  "id": "CATEGORY-RELEASE-RETAINED-INVENTORY-COUNTS-v1",
+  "source": {
+    "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
+    "bytes": 1413168,
+    "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
+  },
+  "total_product_policy_profiles": 8072,
+  "distinct_procedure_id_strings": 1779,
+  "by_owner": {
+    "A": 1396,
+    "B": 3694,
+    "C": 2982
+  },
+  "by_product": {
+    "ACTUAL_LINE_DIRECTION:mean_objective_point": 12,
+    "ACTUAL_LINE_DIRECTION:SOURCE_BOUND_POINT_OR_ORIGINAL_RULE": 249,
+    "TOP_PICKS_DIRECTION": 703,
+    "ACTUAL_LINE_DIRECTION:legacy_empirical_point": 6,
+    "ACTUAL_LINE_DIRECTION:mae_objective_point": 9,
+    "ACTUAL_LINE_DIRECTION:mean": 783,
+    "ACTUAL_LINE_DIRECTION:median": 22,
+    "ACTUAL_LINE_DIRECTION:EXACT_LINE_EVENT_POLICY": 1222,
+    "EXACT_LINE_PROBABILITIES": 40,
+    "NUMERICAL_EXPECTED_MEAN": 405,
+    "ACTUAL_LINE_DIRECTION:recorded_threshold_decision": 120,
+    "ACTUAL_LINE_DIRECTION:point_mean": 6,
+    "ACTUAL_LINE_DIRECTION:empirical_mean": 84,
+    "ACTUAL_LINE_DIRECTION:lower_median": 794,
+    "ACTUAL_LINE_DIRECTION:absolute_error_point": 178,
+    "ACTUAL_LINE_DIRECTION:squared_error_mean": 73,
+    "ACTUAL_LINE_DIRECTION:saved_adjusted_recipe_point": 10,
+    "ACTUAL_LINE_DIRECTION:poisson": 24,
+    "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law": 160,
+    "NUMERICAL_MEDIAN": 404,
+    "OUTCOME_DISTRIBUTION": 410,
+    "SYNTHETIC_THRESHOLD_PROBABILITY_DIAGNOSTIC": 705,
+    "EVENT_PROBABILITY": 83,
+    "ACTUAL_LINE_DIRECTION:REGISTERED_POINT_OR_CONDITIONAL_RULE": 42,
+    "ACTUAL_LINE_DIRECTION:CONSTANT_SIDE": 24,
+    "ACTUAL_LINE_DIRECTION:saved_precision_point": 12,
+    "ACTUAL_LINE_DIRECTION:selected_point": 9,
+    "NUMERICAL_MAE_OBJECTIVE_POINT": 15,
+    "ACTUAL_LINE_DIRECTION:median_objective_point": 4,
+    "ACTUAL_LINE_DIRECTION:empirical_point_blend": 4,
+    "ACTUAL_LINE_DIRECTION:actual_line_categorical_law": 96,
+    "EXACT_LINE_PROBABILITIES:actual_line_categorical_law": 64,
+    "ACTUAL_LINE_DIRECTION:point_median": 4,
+    "ACTUAL_LINE_DIRECTION:ALWAYS_OVER": 42,
+    "ACTUAL_LINE_DIRECTION:ALWAYS_UNDER": 42,
+    "ACTUAL_LINE_DIRECTION:P1_MEAN": 42,
+    "ACTUAL_LINE_DIRECTION:P1_MEDIAN": 42,
+    "ACTUAL_LINE_DIRECTION:P2_LAW": 42,
+    "EXACT_LINE_PROBABILITIES:P2_LAW": 42,
+    "ACTUAL_LINE_DIRECTION:P3_DIRECT": 42,
+    "EXACT_LINE_PROBABILITIES:P3_DIRECT": 42,
+    "ACTUAL_LINE_DIRECTION:EARLIER_PREVALENCE_V8": 42,
+    "EXACT_LINE_PROBABILITIES:EARLIER_PREVALENCE_V8": 42,
+    "ACTUAL_LINE_DIRECTION:P2_LINKED_V8": 6,
+    "EXACT_LINE_PROBABILITIES:P2_LINKED_V8": 6,
+    "ACTUAL_LINE_DIRECTION:P2_WORKLOAD_V8": 6,
+    "EXACT_LINE_PROBABILITIES:P2_WORKLOAD_V8": 6,
+    "ACTUAL_LINE_DIRECTION:poisson_intended_mean_point": 8,
+    "ACTUAL_LINE_DIRECTION:DIRECT_THRESHOLD": 20,
+    "EXACT_LINE_PROBABILITIES:DIRECT_THRESHOLD": 20,
+    "ACTUAL_LINE_DIRECTION:absolute_error": 4,
+    "probability": 3,
+    "probability_normalized": 1,
+    "probability_raw": 1,
+    "median_objective_point": 21,
+    "mae_objective_point": 46,
+    "mean": 164,
+    "median": 139,
+    "mean_objective_point": 72,
+    "legacy_empirical_point": 30,
+    "FOOTBALL": 132,
+    "SHRINK_0_5": 132,
+    "empirical_point_blend": 20,
+    "exact_line_probability": 14,
+    "SAVED_FULL_LAW": 25
+  },
+  "by_reported_floor": {
+    "MET": 2858,
+    "NOT_MET": 5209,
+    "NOT_APPLICABLE": 5
+  },
+  "current_2026_explicit_actual_direction_profiles": 3759,
+  "current_actual_by_owner": {
+    "A": 363,
+    "B": 3070,
+    "C": 326
+  },
+  "current_actual_by_category": {
+    "pass_td": 511,
+    "pass_att": 205,
+    "pass_cmp": 318,
+    "pass_int": 192,
+    "pass_yd": 469,
+    "rec": 856,
+    "rec_yd": 406,
+    "rush_att": 209,
+    "rush_rec_yd": 187,
+    "rush_yd": 406
+  },
+  "current_actual_reported_floor_by_owner": {
+    "A": {
+      "MET": 114,
+      "NOT_MET": 249
+    },
+    "B": {
+      "NOT_MET": 3070
+    },
+    "C": {
+      "NOT_MET": 326
+    }
+  },
+  "do_not_inflate": "Profiles/procedure-ID strings include output/history/policy/source views; these are NOT independent learner-family counts or extra games.",
+  "scope": "Programmatic reconciliation of all8072 retained qualification rows, plus named amendment files. It is not every test ever executed; private/unlocated/invalid/incompatible states remain.",
+  "reported_floor_scope": "As-of retained shared-v2 table across its declared season set; not proof of five current-season actual-offer weeks. Newer C03/C04/Btiming deltas and source corrections must be composed separately."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "CATEGORY-REGISTERED-PRODUCER-RUNTIME-READ-v1",
+  "requested_UTC": "2026-11-12T01:49:50.063159+00:00",
+  "repository": "NickNicky19/NFL-forecasting",
+  "workflow": "lab.yml",
+  "branch": "research/weekly-storage-probe-v1",
+  "endpoint": "repos/NickNicky19/NFL-forecasting/actions/workflows/lab.yml/runs?branch=research%2Fweekly-storage-probe-v1&per_page=1",
+  "max_body_bytes": 65536,
+  "state": "RECEIVED_CURRENT_SCOPED_METADATA",
+  "dispatch_or_write": false,
+  "observed_UTC": "2026-11-12T01:49:50.619884+00:00",
+  "response_bytes": 12998,
+  "response_SHA256": "6d2355a7f1b6e2121e334ca7d80b80d294b92699d9a008d66856ab67031897ed",
+  "returncode": 0,
+  "total_matching_runs": 79,
+  "latest_runs": [
+    {
+      "id": 41564933010,
+      "name": "NFL research lab",
+      "event": "workflow_dispatch",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "research/weekly-storage-probe-v1",
+      "head_sha": "a2ab7d4eeb01b1af7f76af4b8090404b4f096f50",
+      "path": ".github/workflows/lab.yml",
+      "created_at": "2026-11-03T02:15:08Z",
+      "run_started_at": "2026-11-03T02:15:08Z",
+      "updated_at": "2026-11-03T02:15:59Z",
+      "html_url": "https://github.com/NickNicky19/NFL-forecasting/actions/runs/41564933010",
+      "workflow_id": 392888807,
+      "run_number": 141,
+      "run_attempt": 1
+    }
+  ],
+  "scope": "Fresh read of latest run for this exact registered branch/workflow only; no execution, model/source payload, SOURCE/query/issuedRoot or other workflow absence proved."
+}

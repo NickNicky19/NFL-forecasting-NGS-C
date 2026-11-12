@@ -1,0 +1,330 @@
+{
+  "id": "CATEGORY-ORIGINAL-WEBSITE-PRODUCT-BINDINGS-v1",
+  "observed_UTC": "2026-11-12T01:35:29.386973+00:00",
+  "immutable_current_head": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+  "app_SHA256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f",
+  "current_model": {
+    "capture_schema": "baseline-capture-classic-presence-v2",
+    "engine_sha256": {
+      "pull/books.py": "0b89744960136a4f2e594b61e6df754d357706d8c66a8ae359d8eb02bbfa53f8",
+      "pull/build.py": "b83126080149f2f0705682d1c0be0a8ee87610ebb0a88cd57b94b8a82b63ad73",
+      "pull/gamemodel.py": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f",
+      "pull/grade.py": "afd1310d708def4f400e6bf84e981e2edc7635dc946a63571022203c1d3ae735",
+      "pull/matchup.py": "eaf627730041060ad16dd9930accfe54a54cf5fb49bb42d18680b5c572ddd7a5",
+      "pull/news.py": "17ce1b3b6b72694e6b543bd767e287c26a9d1f6dd5dba2de6c873543036842e9",
+      "pull/scoring.py": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d",
+      "pull/sources.py": "36555cdbc55d73ba632d5adae1130288f4f532073857c642ac3ebc7e626b0061"
+    },
+    "grading_version": "statistical-presence-strict-v5-20261106",
+    "model": "sleeper-matchup-classic-presence-strict-v2",
+    "normalized_stats_cache": "stat-keys-presence-strict-v3",
+    "original_shadow_model": "original_sleeper_matchup_baseline",
+    "original_shadow_procedure": "original-builder-default-refresh-v1",
+    "original_shadow_source": "89512ed952308dacc1f6a930915ddbcdccd460d9",
+    "schema_version": "weekly-classic-presence-execution-v2"
+  },
+  "board_generated_UTC": "2026-11-11T21:13:13Z",
+  "period": [
+    2026,
+    10
+  ],
+  "mae_display_pointer": "404_AT_CURRENT_IMMUTABLE_SOURCE_AND_LIVE_SERVED_ROUTE;NO_MODEL_ABSENCE_INFERENCE",
+  "selection_overlay": {
+    "state": "DISABLED_USE_R0",
+    "rows": 0,
+    "frozen_rows": 0,
+    "prepared_at": "2026-11-11T21:13:21.281022+00:00",
+    "display_board_SHA256": "3eabdb6e262dc6c079aa81933e8a8a11a33412182b45e096a4ab9af44cee1c5e",
+    "leaf_SHA256": "2d6d458ad7de11b02af3c95d7e96ee4ae2b54d5aa0f7d36edf66c592c1ebf3b3",
+    "scope": "Current immutable repository pointer/leaf; not separately downloaded from served overlay route"
+  },
+  "Top_Picks_declared_policy": {
+    "version": "selected-projection-gap-classic-presence-v2",
+    "top_n": 12,
+    "minimum_score": 0.35,
+    "minimum_games": 2,
+    "minimum_snap_share": 0.5,
+    "minimum_projected_ppr": {
+      "QB": 10,
+      "RB": 6,
+      "WR": 6,
+      "TE": 6
+    },
+    "projection_line_ratio": [
+      0.4,
+      2.5
+    ],
+    "categories": {
+      "pass_yd": {
+        "lean": 8,
+        "scale": 30,
+        "minimum_line": 150.5
+      },
+      "pass_td": {
+        "lean": 0.15,
+        "scale": 0.6,
+        "minimum_line": 0.5
+      },
+      "pass_cmp": {
+        "lean": 0.8,
+        "scale": 2.5,
+        "minimum_line": 12.5
+      },
+      "pass_att": {
+        "lean": 1,
+        "scale": 3,
+        "minimum_line": 20.5
+      },
+      "pass_int": {
+        "lean": 0.12,
+        "scale": 0.5,
+        "minimum_line": 0.5
+      },
+      "rush_yd": {
+        "lean": 4,
+        "scale": 12,
+        "minimum_line": 15.5
+      },
+      "rush_att": {
+        "lean": 0.8,
+        "scale": 3,
+        "minimum_line": 6.5
+      },
+      "rec": {
+        "lean": 0.3,
+        "scale": 1.2,
+        "minimum_line": 1.5
+      },
+      "rec_yd": {
+        "lean": 4,
+        "scale": 12,
+        "minimum_line": 15.5
+      },
+      "rush_rec_yd": {
+        "lean": 5,
+        "scale": 15,
+        "minimum_line": 25.5
+      }
+    },
+    "unavailable": [
+      "Out",
+      "IR",
+      "PUP",
+      "Suspended",
+      "NA",
+      "Doubtful",
+      "COV",
+      "DNR"
+    ],
+    "fallback": "same-opportunity reference identified by forecast_source and model_version; unavailable is never zero",
+    "meaning": "descriptive scaled forecast gap, not win probability or EV",
+    "tie_order": [
+      "absolute_score_desc",
+      "game_id",
+      "player_id",
+      "category"
+    ]
+  },
+  "rows": [
+    {
+      "category": "pass_yd",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 8,
+      "ranking_scale": 30,
+      "minimum_saved_book_line": 150.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "pass_td",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 0.15,
+      "ranking_scale": 0.6,
+      "minimum_saved_book_line": 0.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "pass_cmp",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 0.8,
+      "ranking_scale": 2.5,
+      "minimum_saved_book_line": 12.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "pass_att",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 1,
+      "ranking_scale": 3,
+      "minimum_saved_book_line": 20.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "pass_int",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 0.12,
+      "ranking_scale": 0.5,
+      "minimum_saved_book_line": 0.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "rush_yd",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 4,
+      "ranking_scale": 12,
+      "minimum_saved_book_line": 15.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "rush_att",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 0.8,
+      "ranking_scale": 3,
+      "minimum_saved_book_line": 6.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "rec",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 0.3,
+      "ranking_scale": 1.2,
+      "minimum_saved_book_line": 1.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "rec_yd",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 4,
+      "ranking_scale": 12,
+      "minimum_saved_book_line": 15.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "rush_rec_yd",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Incumbent prop.adj (Sleeper projection plus declared matchup adjustment); optional independently typed MAE reader falls back because pointer404",
+      "category_direction_path": "Incumbent serialized prop.lean on real book lines; selected override would use selectedPropGap margin, not strict crossing",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": 5,
+      "ranking_scale": 15,
+      "minimum_saved_book_line": 25.5,
+      "current_Top_Picks_path": "Saved incumbent board picks; optional selected-rankings path only when a selected overlay is admitted",
+      "probability_or_confidence": "Point/point gap has no implied probability or EV",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "KEEP_INCUMBENT_METADATA;NO_RESEARCH_OVERRIDE_OBSERVED",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "anytime_td",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Uncalibrated guarded baseline TD probability from projected TDs; not a count point or authenticated offered-event selection",
+      "category_direction_path": "No invented NO/Under offered event; baseline probability display does not establish offered direction",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": null,
+      "ranking_scale": null,
+      "minimum_saved_book_line": null,
+      "current_Top_Picks_path": "Not in the ten-category selectedRankingPolicy map",
+      "probability_or_confidence": "Guarded baseline probability explicitly uncalibrated",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "ABSTAIN_UNSUPPORTED_OFFER_CLAIMS",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    },
+    {
+      "category": "nick-chart-ppr-v1",
+      "current_execution_model_metadata": "sleeper-matchup-classic-presence-strict-v2",
+      "live_numerical_path": "Website league PPR/half-PPR display is not verified as exact nick-chart-ppr-v1; exact-chart product unavailable",
+      "category_direction_path": "No exact chart direction qualified",
+      "selected_override_repository_state": "DISABLED_USE_R0",
+      "selected_override_rows": 0,
+      "registered_selection_margin": null,
+      "ranking_scale": null,
+      "minimum_saved_book_line": null,
+      "current_Top_Picks_path": "Not in the ten-category selectedRankingPolicy map",
+      "probability_or_confidence": "N/A exact chart",
+      "fallback": "Same-opportunity identified incumbent, not zero; absent MAE/selected feed fails closed for that override",
+      "product_disposition_observation": "ABSTAIN_EXACT_CHART_CLAIM",
+      "served_scope": "Exact app.js and meta bytes plus MAEpointer404; no fresh per-player rendered-value/browser or fullboard inspection"
+    }
+  ],
+  "no_new_primary_switch_by_C": true,
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "limits": [
+    "Source constants and consumer validation do not reconstruct the full producer candidate universe or selector writer.",
+    "Manual player-detail MyPicks can retain a separate optional MAE snapshot; Top-card saves exclude it; no new active MAE pointer was found.",
+    "The actual website owner retains release, rendered-value verification and the full changed Top Picks replay."
+  ]
+}

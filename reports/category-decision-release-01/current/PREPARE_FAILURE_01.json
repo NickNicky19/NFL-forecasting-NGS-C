@@ -1,0 +1,11 @@
+{
+  "id": "C06-PREPARE-CHECKER-FAILURE-01",
+  "recorded_UTC": "2026-11-12T01:51:24.866038+00:00",
+  "state": "CHECKER_USED_FILESYSTEM_PRIOR_ALIAS_INSTEAD_OF_BOUND_2025_CONTEXT_MEMBER",
+  "error": "KeyError sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+  "executed_code_SHA256": "4618e36238213a76101a3544c85a2f31628812be8d694b091cdaf2c336d697c2",
+  "new_fits": 0,
+  "new_inference_rows": 0,
+  "affected_NFL_predictions": 0,
+  "remedy": "Select the one exact 2025 context path already bound in the retained draft, not an existing alternate file extension."
+}

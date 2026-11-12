@@ -1,0 +1,44 @@
+{
+  "id": "C06-SITE-PRE-DATA-INDEPENDENT-REVIEW-v1",
+  "at_UTC": "2026-11-12T01:50:13.724305+00:00",
+  "reviewer": "/root/category_decision_site/c06_ui_review",
+  "status": "PASS_BOUNDED_DISPLAY_CODE_ONLY",
+  "checked": [
+    {
+      "path": "src/site_category_decisions_c06.py",
+      "SHA256": "a069ae82c566f8572330d5a08498f09468dd318145b538b86618ea341bea56e0"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "SHA256": "f7ba756f8bbeefa7d427ec23e5fc85a4528e6822d99fe7d6a1aa0bd2fe1ad623"
+    },
+    {
+      "path": "tests/test_site_category_decisions_c06.py",
+      "SHA256": "33d4bcd05f4567aea3a66fa3378a7b423dc1c66f56514dbb6db07129e73cdc0c"
+    },
+    {
+      "path": "docs/championship.html",
+      "SHA256": "eb263b4a7a50baf1ccba56e7d415a38bd613ab092c0866cccb7f478cf06bcc66"
+    },
+    {
+      "path": "docs/championship.js",
+      "SHA256": "6baff33adaedbb52f7f6053d80aee2d744d3c5e70d53346587be00135b25f6ad"
+    }
+  ],
+  "focused_tests": 7,
+  "model_fit_or_source_claims": 0,
+  "no_new_NFL_observations": true,
+  "findings": [
+    "Canonical recommendations copied, not recomputed or promoted",
+    "Null and zero preserved; own-side weighted counts checked",
+    "Hash and HTTP failures clear C06 state",
+    "Legacy table and qualification controls remain"
+  ],
+  "unverified": [
+    "Final canonical bytes and local source bindings",
+    "Actual browser parity",
+    "Served bytes and original-site activation"
+  ],
+  "network_requests": 0,
+  "fits": 0
+}

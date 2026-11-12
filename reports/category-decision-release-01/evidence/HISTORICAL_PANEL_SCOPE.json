@@ -1,0 +1,185 @@
+{
+  "id": "CATEGORY-RELEASE-HISTORICAL-REFERENCE-SCOPE-v1",
+  "score_cells": 1092,
+  "cumulative_cells": 126,
+  "source": {
+    "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_SCORES.json.gz",
+    "bytes": 71156,
+    "SHA256": "74e73eb2489c8b2ccfba9390272bde0a9d9e49212ccd5a6867710c94199d76c6"
+  },
+  "paired_controls": {
+    "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_PAIRED_CONTROLS.json",
+    "bytes": 19204,
+    "SHA256": "c5c4d6a9f79308e6cc72f1049d7f63a555ff5433966ebba9f142730b505d54fc"
+  },
+  "recorded_raw_leaders": {
+    "path": "reports/abc-championship/shared-intake-v3/HISTORICAL_RAW_LEADERS.json.gz",
+    "bytes": 3613,
+    "SHA256": "2d0bc4cf5e57b771a416bdd222f99056f31912dff2f96a194c609be2f165721c"
+  },
+  "panels": [
+    {
+      "period_id": "E1_PARTIAL_2026_W1_5",
+      "category": "pass_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "period_id": "E1_PARTIAL_2026_W1_5",
+      "category": "rec",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "period_id": "E1_PARTIAL_2026_W1_5",
+      "category": "rush_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "period_id": "E3_2024_W1_8",
+      "category": "pass_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "period_id": "E3_2024_W1_8",
+      "category": "rec",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "period_id": "E3_2024_W1_8",
+      "category": "rush_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "period_id": "E4_2024_FULL_REG",
+      "category": "pass_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "period_id": "E4_2024_FULL_REG",
+      "category": "rec",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "period_id": "E4_2024_FULL_REG",
+      "category": "rush_att",
+      "procedures": 14,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    }
+  ],
+  "limits": [
+    "Historical/full/early windows overlap and cannot be summed twice.",
+    "Market-assisted or hybrid M/FS policies and selective coverage are not interchangeable with a full-board football-only product.",
+    "Every candidate retains own sides/selected coverage; zero-selection weeks do not qualify.",
+    "Earlier-only retained2024model-year fit and correction history are bound by the source, not re-inferred or refitted here.",
+    "No2022/2023/2025 actual-offer coverage is invented from training or numerical history."
+  ]
+}

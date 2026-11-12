@@ -56,6 +56,9 @@ jobs:
       - name: Verify exact timing receipts and C05 shadow consumer (no fits)
         if: ${{ hashFiles('docs/data/timing-confirm-c05.json') != '' }}
         run: python src/site_timing_confirm_c05.py --validate
+      - name: Verify consolidated category decisions and owner scopes (no fits)
+        if: ${{ hashFiles('docs/data/category-decisions-c06.json') != '' }}
+        run: python src/site_category_decisions_c06.py --validate
       - run: node --check docs/qualification.js
       - run: python src/site_qualification_5w.py validate
       - name: Verify period bindings, aggregate-to-site parity and saved final CSV (no fits)

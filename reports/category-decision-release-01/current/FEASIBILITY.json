@@ -1,0 +1,233 @@
+{
+  "id": "C06-CURRENT-QUERY-FEASIBILITY-v1",
+  "checked_UTC": "2026-11-12T01:31:37.046505+00:00",
+  "state": "SOURCE_ANALYSIS_3_REQUESTS_EXECUTED;FRESH_FOOTBALL_BODY_COMPARISON_REQUIRED",
+  "new_requests": 0,
+  "new_fits": 0,
+  "new_inference_rows": 0,
+  "new_issues": 0,
+  "retained_models": [
+    {
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "family": "LEAF",
+      "retained_model": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C_V4_RETAINED_REFERENCE_OBSERVED.json.xz",
+        "bytes": 539028,
+        "SHA256": "a8f0dacd8d31dd6a7a1523228f29ef7f96d45510810439b761a85c9639e01d0b"
+      },
+      "feature_policy": "UNCHANGED_V4_MIXED_HISTORICAL_FEATURE_KICKOFF_PLUS7D_WITH_SOURCE_COMPLETED_LABELS_AND_OBSERVED_CURRENT_QUERY",
+      "feature_count": 32,
+      "training_rows": 21869,
+      "fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+      "latest_training_game_UTC": "2026-11-08T14:30:00+00:00",
+      "query_game": "2026_10_WAS_NYG",
+      "prepared_players": 25,
+      "latest_prior_games": [
+        "2025_15_WAS_NYG",
+        "2026_04_ARI_NYG",
+        "2026_05_NYG_WAS",
+        "2026_06_NO_NYG",
+        "2026_07_NYG_HOU",
+        "2026_08_PHI_WAS"
+      ],
+      "hard_incumbent_fallback": false,
+      "current_primary_admission": false
+    },
+    {
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "family": "POISSON",
+      "retained_model": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C_V11_P1_E2_POOLED_7D.json.xz",
+        "bytes": 632252,
+        "SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb"
+      },
+      "feature_policy": "ALL_LABEL_FEATURE_QUERY_KICKOFF_PLUS7D_STRICT_RECONSTRUCTION;CONTEXT2025_2026_ONLY",
+      "feature_count": 60,
+      "training_rows": 21835,
+      "fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+      "latest_training_game_UTC": "2026-11-03T01:15:00+00:00",
+      "query_game": "2026_10_WAS_NYG",
+      "prepared_players": 25,
+      "latest_prior_games": [
+        "2025_15_WAS_NYG",
+        "2026_04_ARI_NYG",
+        "2026_05_NYG_WAS",
+        "2026_06_NO_NYG",
+        "2026_07_NYG_HOU",
+        "2026_08_PHI_WAS"
+      ],
+      "hard_incumbent_fallback": false,
+      "current_primary_admission": false
+    },
+    {
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "family": "LEAF",
+      "retained_model": {
+        "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C04_F3_PROFILE_1D_SHADOW.json.xz",
+        "bytes": 902932,
+        "SHA256": "5b1144957e6c14bc5b449823c10ab12baada7afcb4c7a3fd54e3ea07b601a7da"
+      },
+      "feature_policy": "ALIGNED_ALL_LABEL_FEATURE_QUERY_KICKOFF_PLUS1D_STRICT_CURRENT_VINTAGE_RECONSTRUCTION_NOT_OBSERVED_PUBLICATION",
+      "feature_count": 58,
+      "training_rows": 21869,
+      "fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+      "latest_training_game_UTC": "2026-11-08T14:30:00+00:00",
+      "query_game": "2026_10_WAS_NYG",
+      "prepared_players": 25,
+      "latest_prior_games": [
+        "2025_15_WAS_NYG",
+        "2026_04_ARI_NYG",
+        "2026_05_NYG_WAS",
+        "2026_06_NO_NYG",
+        "2026_07_NYG_HOU",
+        "2026_08_PHI_WAS"
+      ],
+      "hard_incumbent_fallback": false,
+      "current_primary_admission": false
+    }
+  ],
+  "preferred_control_for_feasibility": "C_V11_P1_E2_POOLED_7D",
+  "preference_scope": "Current retained C package feasibility only; final all-session category decision awaits exact new peer intake. P1 is the prior strongest compatible C mean-direction control, not a claim of a universal or deployed champion.",
+  "do_not_default_to": "C04_F3_PROFILE_1D_SHADOW: completed adverse native timing-direction/probability result; no new fit or expanded lag search justified.",
+  "proposed_current_product": {
+    "role_scope_for_candidate_direction": "WR_TE where its exact five-week actual-line evidence applies; RB may remain separately labeled forecast-only shadow/basic coverage. Training may retain RB_WR_TE.",
+    "output": "EXPECTED_MEAN point, optional LOWER_MEDIAN as separately typed shadow; no confidence/EV. Actual direction only when qualified offer exists, by unrounded point>line OVER/<line UNDER/equality ABSTAIN.",
+    "source_policy": "Fresh current-known-season roster and native event admission; football source/model/feature cutoffs preserved unless actual compatible updated inputs are rebuilt. Roster ACT is not starter, injury or participation.",
+    "fallback": "No new silent incumbent fallback. Retain training-only imputation/shrinkage; sparse/missing support explicit; unavailable identity/features remain unavailable.",
+    "offers": "No current qualified OPEN offer found in retained evidence; zero selected until independently admitted real offer/decision contract.",
+    "expiry": "Current use ends at the source-specific roster/native/offer horizon and kickoff buffer. A later issue must have a new ID/horizon and real clocks; it cannot extend or overwrite first packets.",
+    "producer_executor": "C root authorized execution owner in this repository; source and adapter task must be explicitly assigned before execution.",
+    "consumer_executor": "Original-site owner for original production; C root only for C research consumer."
+  },
+  "source_pass_proposal": {
+    "requests_max": 4,
+    "body_bytes_max": 8388608,
+    "steps": [
+      {
+        "order": 1,
+        "method": "GET",
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+        "purpose": "Current roster identities/status; preserve no-week contract and actual publisher/observation clocks.",
+        "state": "EXECUTED"
+      },
+      {
+        "order": 2,
+        "method": "HEAD",
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+        "purpose": "Check strong version/length against retained C04 source; unchanged version does not refresh original observation clock.",
+        "state": "EXECUTED"
+      },
+      {
+        "order": 3,
+        "method": "HEAD",
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "purpose": "Same version check for context inputs; retain original source clock. No body GET under initial cap.",
+        "state": "EXECUTED"
+      },
+      {
+        "order": 4,
+        "method": "GET",
+        "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+        "purpose": "Deferred final native event gate after any code/policy/inference and clean-start proof; known single-day route avoids prior failed range endpoint.",
+        "state": "DEFERRED_NATIVE_GATE_ROOT_GO_REQUIRED"
+      }
+    ],
+    "conditional_fresh_body_requirement": {
+      "known_PBP_compressed_bytes": 9346187,
+      "initial_total_body_cap_bytes": 8388608,
+      "consequence": "If current PBP version differs, initial feasibility allocation cannot fetch it. Register a concrete ordinary-source extension (for example 16MiB total) before GET/rebuild; do not call that a global missing-data or model blocker.",
+      "observed_unchanged_outcome": "Can reuse exact retained models and frozen football vectors only under explicitly disclosed earlier-information horizon. New roster/native eligibility is new evidence; repeated unchanged predictions are not new football observations or predictive improvement."
+    }
+  },
+  "current_adapter_limits": [
+    {
+      "path": "src/current_query_capture_c05.py",
+      "state": "CURRENT_FIXED_3_MODEL_NEDET_FIRST_PUBLICATION_ONLY",
+      "reason": "TARGET=NEDET, model allowlist and first-event ordering bound to old registration; invoking for WAS or subset would violate exact C05 contract. Do not monkeypatch or overwrite old sources/registration."
+    },
+    {
+      "path": "src/receiving_current_capture_c04.py",
+      "state": "REUSABLE_PURE_BUILDING_BLOCKS;OLD_ENTRYPOINT_NOT_REUSABLE_UNCHANGED",
+      "reason": "query_universe, source/clock validators and safe model helpers are reusable. CLI fit-draft requires old3fit registration and fixed source paths. A new scoped thin adapter/registration is needed for a new current horizon or model subset; this remains one C producer, not another platform."
+    },
+    {
+      "path": "src/receiving_increment_query_c03.py",
+      "state": "LEAF_ONLY_PROFILE_ADAPTER;NOT_POOLED_POISSON",
+      "reason": "Requires C03 profile/event-effective roster admission and safe Leaf envelope; bare old current-roster header is not its complete source contract. Do not append columns or substitute Poisson without an explicit correct adapter."
+    }
+  ],
+  "finishable_package_options": [
+    {
+      "id": "C06_FROZEN_P1_CURRENT_ELIGIBILITY_SUPPLEMENT",
+      "new_fits": 0,
+      "new_lags_or_settings": 0,
+      "required_changes": "Small explicit later-horizon adapter using existing safe P1 inference and C04/C05 pure qualification functions, fresh source projection and immutable run. Preserve all original issued packets and scoring order. Do not claim newest football features or independently new NFL cases.",
+      "when_useful": "Only if this closes an actual current consumer delivery/admission need; avoid merely duplicating identical forecasts as progress.",
+      "suggested_budget": {
+        "CPU_seconds": 30,
+        "RSS_bytes": 805306368,
+        "public_bytes": 2097152,
+        "threads": 1
+      }
+    },
+    {
+      "id": "C06_P1_CURRENT_INPUT_REBUILD_IF_NECESSARY",
+      "new_fits_max_initially": 0,
+      "reason": "Qualify actual source changes first. Rebuild P1 query features under unchanged60-field/7-day semantics; current-origin refit only if exact registered update/training contract requires it or eligible training rows/values changed.",
+      "suggested_conditional_allocation": {
+        "current_fits_max": 1,
+        "family": "existing pooled Poisson only",
+        "CPU_seconds": 180,
+        "RSS_bytes": 1288490188,
+        "public_bytes": 4194304,
+        "ordinary_source_body_bytes": 20971520,
+        "threads": 1
+      },
+      "prohibition": "No F3 repetition, extra learner, lag/window/gate search or live-only feature-semantic change.",
+      "pre_fit_equivalence_check": "Compare canonical fact and43-fieldPBP projections, eligible training membership/labels and actual P1 query vectors before deciding a fit is necessary. Changed compression/header/ETag is not enough."
+    }
+  ],
+  "grading": {
+    "old_C04_run": "C-C04-20261110-W10-FIRST-01",
+    "old_C05_run": "C-C05-NEDET-FIRST-01",
+    "original_kickoffs_UTC": [
+      "2026-11-13T01:15:00Z",
+      "2026-11-15T14:30:00Z"
+    ],
+    "state": "PENDING_FUTURE_KICKOFFS_UNDER_BOUND_ORIGINAL_SCHEDULE;NO_NEW_FINALITY_OR_GRADE_FETCH",
+    "new_grades": 0,
+    "route_when_final": "Existing prospective_v4.grade_run with original bound receipt plus qualified FINAL metric/participation outcomes; append new grade version, preserve unknown/DNP/null/zero."
+  },
+  "reused_verification": [
+    {
+      "path": "reports/profile-timing-closure-confirm-01/verification/C05_ACTUAL_INFERENCE_INDEPENDENT.json",
+      "bytes": 2095,
+      "SHA256": "ae201e9687efeb1b10d15ee2d317539eaa67c40f1db4532fcc30642e1d525702"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/verification/C05_FRESH_GITHUB_RESTORATION.json",
+      "bytes": 12343,
+      "SHA256": "e0ef0164b36114cf3ccf7eb136299f838ee03b2e0e23aff9f44ade3e1c7302e0"
+    }
+  ],
+  "next_root_action": "Authorize atmost2 freshstats/PBPGETs within a concrete20MiB total ordinary-source allocation; reuse oldschedule only if currenteventidentity unchanged and bind fresh finalnativeatissuance. Compare actual relevantcanonicalvalues before atmost1P1fit; no replacement claim from source refresh.",
+  "actual_source_analysis": {
+    "path": "SOURCE_ANALYSIS.json",
+    "created_UTC": "2026-11-12T01:33:54.025925+00:00",
+    "upstream_requests": 3,
+    "local_socket_pre_HTTP_failures": 1,
+    "body_downloads": "Currentrosteronly;no stats/PBPbody",
+    "roster_published_UTC": "2026-11-11T07:04:38+00:00",
+    "roster_publisher_age_seconds": 66555.161086,
+    "basic": 959,
+    "target_basic": 60,
+    "target_ACT_receiving": 25,
+    "target_ACT_WR_TE": 18,
+    "target_roster_team_role_status_unchanged": true,
+    "football_HEAD_versions_changed": [
+      "CURRENT_PLAYER_STATS",
+      "CURRENT_PBP"
+    ],
+    "next": "Root authorizes finite fresh football GET/projection comparison before model refit or newer-input claim. Preserve compressed-version versus canonical-value distinction."
+  }
+}

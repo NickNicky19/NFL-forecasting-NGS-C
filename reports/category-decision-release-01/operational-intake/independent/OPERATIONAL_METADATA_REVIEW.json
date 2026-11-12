@@ -1,0 +1,227 @@
+{
+  "id": "C-CATEGORY-INDEPENDENT-OPERATIONAL-METADATA-v1",
+  "checked_UTC": "2026-11-12T01:49:35.457570+00:00",
+  "status": "PASS_RECEIVED_PACKET_INTERNAL_METADATA_AND_DECLARED_LAW_ARITHMETIC",
+  "inputs": [
+    {
+      "path": "reports/category-decision-release-01/operational-intake/B_CAPTURE_METADATA_V2.json.xz",
+      "bytes": 7568,
+      "retained_SHA256": "da785f8fe27681440952799ed5d176b52011eecbc143d5bea1cb872a7fd62aee",
+      "decoded_SHA256": "a77ead99bc663b442f07cc55fa8b7554cddd9cd49ed01ded7f4c80da7ceae78c"
+    },
+    {
+      "path": "reports/category-decision-release-01/operational-intake/A_OPERATIONAL_REFRESH_V1.json.xz",
+      "bytes": 5940,
+      "retained_SHA256": "832455a99851a4d7f960ea1de60c8713184bab04a3ae0c54501ed79445df8486",
+      "decoded_SHA256": "beacac7e6093f06cd469ca57fd3f35cc8889fef5492f850934f229692cc6cdf9"
+    },
+    {
+      "path": "reports/category-decision-release-01/operational-intake/A_OPERATIONAL_REFRESH_V2.json.xz",
+      "bytes": 5464,
+      "retained_SHA256": "d9e458b75d5bce7ab0fcd7deb23af1c9fc488c434043ef41d6424f075e36eb6d",
+      "decoded_SHA256": "27a8affa395a5fb40438bac0e0abd6ed8092e44ff53a0b1a7ca52eb1d72e87d9"
+    },
+    {
+      "path": "reports/category-decision-release-01/operational-intake/A_CURRENT_SOURCE.json.xz",
+      "bytes": 3012,
+      "retained_SHA256": "6dfcb70511e75743ccfb94472484a314a2200188a1d35942232c8541da2b4c56",
+      "decoded_SHA256": "7c185813bd3cc23d3fc7bb2b1487173310d5ce0668cd1a3d70d8da6a1073e2fa"
+    }
+  ],
+  "findings": {
+    "B_record_count": 16,
+    "B_forecast_count": 10,
+    "B_basic_unavailable_count": 6,
+    "B_forecast_players": 5,
+    "B_basic_only_players": 3,
+    "B_arms": {
+      "F0": 5,
+      "F2": 5
+    },
+    "B_basic_only_arms": {
+      "F0": 3,
+      "F2": 3
+    },
+    "B_forecasts": [
+      {
+        "player_id": "00-0031503",
+        "arm": "F0",
+        "mean": 11.530482379890314,
+        "lower_median": 11,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_07_NYG_HOU",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0032268",
+        "arm": "F0",
+        "mean": 11.898069687049444,
+        "lower_median": 12,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_04_IND_WAS",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0039910",
+        "arm": "F0",
+        "mean": 17.599999207493006,
+        "lower_median": 18,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_08_PHI_WAS",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0039923",
+        "arm": "F0",
+        "mean": 15.165081694912612,
+        "lower_median": 16,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_07_NYG_HOU",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0041117",
+        "arm": "F0",
+        "mean": 11.30943111883557,
+        "lower_median": 11,
+        "own_prior_games": 1,
+        "latest_own_game": "2026_04_IND_WAS",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0031503",
+        "arm": "F2",
+        "mean": 12.323278365742846,
+        "lower_median": 13,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_07_NYG_HOU",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0032268",
+        "arm": "F2",
+        "mean": 10.614542863597233,
+        "lower_median": 9,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_04_IND_WAS",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0039910",
+        "arm": "F2",
+        "mean": 18.287111504179883,
+        "lower_median": 19,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_08_PHI_WAS",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0039923",
+        "arm": "F2",
+        "mean": 15.582300176715794,
+        "lower_median": 16,
+        "own_prior_games": 8,
+        "latest_own_game": "2026_07_NYG_HOU",
+        "reconstructed_admitted_history": true
+      },
+      {
+        "player_id": "00-0041117",
+        "arm": "F2",
+        "mean": 11.909621558312816,
+        "lower_median": 12,
+        "own_prior_games": 1,
+        "latest_own_game": "2026_04_IND_WAS",
+        "reconstructed_admitted_history": true
+      }
+    ],
+    "B_unavailable": [
+      {
+        "player_id": "00-0038998",
+        "arm": "F0",
+        "status": "DEV",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      },
+      {
+        "player_id": "00-0039677",
+        "arm": "F0",
+        "status": "DEV",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      },
+      {
+        "player_id": "00-0040691",
+        "arm": "F0",
+        "status": "RES",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      },
+      {
+        "player_id": "00-0038998",
+        "arm": "F2",
+        "status": "DEV",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      },
+      {
+        "player_id": "00-0039677",
+        "arm": "F2",
+        "status": "DEV",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      },
+      {
+        "player_id": "00-0040691",
+        "arm": "F2",
+        "status": "RES",
+        "reason": "NON_ACT_PROVIDER_STATUS_NOT_A_HEALTH_OR_STARTER_INFERENCE"
+      }
+    ],
+    "B_offers": 0,
+    "B_actual_line_selections": 0,
+    "B_native_gate": "VALID_AT_ORIGINAL_ISSUE;EXPIRED_FOR_NEW_ISSUANCE_OR_REPRICING",
+    "B_native_observed_UTC": "2026-11-10T23:00:18.061858+00:00",
+    "B_native_expiry_UTC": "2026-11-10T23:30:18+00:00",
+    "B_issue_UTC": "2026-11-10T23:01:29.145519+00:00",
+    "B_kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "B_field_law_checks": {
+      "normalization_support_CDF": true,
+      "geometric_prior_interpretation": "P(K=k)=(1-q)*q^k,k>=0; mean=q/(1-q); no model inference",
+      "maximum_mass_error": 2.220446049250313e-16,
+      "maximum_saved_mean_error": 3.552713678800501e-15,
+      "lower_medians_exact": true,
+      "new_fits": 0,
+      "re_inference": 0,
+      "unused_prior_field": "Geometric count law uses explicit q. Serialized prior.p and prior.mean=null are not substituted for q; the derived law agrees with all saved means/medians."
+    },
+    "B_original_metadata_V1_parity": "NOT_RECHECKED_HERE;ONLY_RECEIVED_V2_INTERNAL_CONSISTENCY",
+    "B_new_original_site_admission": false,
+    "producer": {
+      "registered_branch": "research/weekly-storage-probe-v1",
+      "registered_head_as_of_A_receipt": "fa91988e65939d2b3516371a90a6380aeee3acb3",
+      "workflow": "lab.yml (owner-reported Nov10 receipt)",
+      "current_route": "state/public/weekly-adaptive-v1/2026-W10",
+      "minimum_dependency": "Existing A registered producer executor supplies current authenticated SOURCE.json, source/query completion and feature_capture_receipt; bind PR85+PR87 repaired producer in a real current issued native Root, final serializedRoot<=61440bytes including issuance fields. Do not repeat completed owner-local model restoration.",
+      "named_executor": "Registered A producer execution owner; unique lease-holder identifier not published in inspected receipt",
+      "website_lease_not_producer_lease": {
+        "owner": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+        "lease": 178,
+        "latest_checked_receipt_comment": 6776238418,
+        "created_utc": "2026-11-10T18:50:30+00:00",
+        "scope": "Read-only refreshed receipt; preserve newer owner changes if superseded.",
+        "comment_body_sha256": "ab9c449a2dbaea8c93d17f5a0755c4de2690b8a21ef2175b1574b22a62bab1d9"
+      },
+      "current_status_limit": "As-of received A Nov10 receipt, not fresh producer execution inspection"
+    },
+    "EPA_scope": "The inspected A source gap attaches EPA to F3 efficiency only. No EPA requirement is inferred for Count A or C P1 without their own recipe contract.",
+    "old_current_role_scope": "Known basic ACT snapshot, not expected starters, health or event-effective transaction authentication."
+  },
+  "limits": [
+    "No B model loading, fitted-model inference, raw-source reconstruction or performance/quality validation.",
+    "Native HTTP/source facts are owner metadata; no new observation or original-source-vintage authentication.",
+    "No received original-site consumption, saved-pick, deployment or scientific admission is established.",
+    "Prepared-record hashes are commitments only; no unseen prepared rows were independently restored."
+  ],
+  "GETs": 0,
+  "new_fits": 0,
+  "new_model_inference": 0,
+  "new_NFL_observations": 0,
+  "CPU_seconds": 0.007751993999999998,
+  "peak_RSS_bytes": 12189696,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

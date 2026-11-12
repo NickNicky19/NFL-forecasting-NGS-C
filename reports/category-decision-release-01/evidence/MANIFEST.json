@@ -1,0 +1,115 @@
+{
+  "id": "CATEGORY-RELEASE-RETAINED-EVIDENCE-MANIFEST-v1",
+  "created_UTC": "2026-11-12T01:41:51.716233+00:00",
+  "sources": [
+    {
+      "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
+      "bytes": 1413168,
+      "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
+    },
+    {
+      "path": "reports/abc-championship/execution-closure-02/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 120432,
+      "SHA256": "d817f69d52ab8d736df758227a0c25a701137683500cf19834c408a3f2fd7c8f"
+    },
+    {
+      "path": "reports/abc-championship/execution-closure-02/A_PANEL_PRODUCT_RANKINGS.json.gz",
+      "bytes": 20759,
+      "SHA256": "bc795607bcad09fac0c6cb9a26b4039f9f7e3df5f2a7ce17d77477005f5892b8"
+    },
+    {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/intake/HEADLINE.json",
+      "bytes": 77692,
+      "SHA256": "7c6c78a49daa3ebd8dc9ec844b7f75cce988e94b64c6a81880e4869399a1743f"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/intake/QUALIFICATION_AMENDMENT.json",
+      "bytes": 2446,
+      "SHA256": "7f492f6e317deeed968bfd62f977dbab655deffd7bd4fd21ee392fa5fd531e86"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/SOURCE_TIER_CORRECTION.json",
+      "bytes": 1570,
+      "SHA256": "e6513997461ac38f59c71d6a30523397838d0cf9b330f96affe2304d65765c53"
+    },
+    {
+      "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+      "bytes": 6881,
+      "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+    },
+    {
+      "path": "reports/abc-championship/METHOD_COVERAGE.json",
+      "bytes": 1735,
+      "SHA256": "6af8da0d043d53c69710834363fe52984420cf4d017f7916b9e8aa55c903004c"
+    },
+    {
+      "path": "reports/player-context-matchup-01/PRODUCT_QUALIFICATION.json",
+      "bytes": 29613,
+      "SHA256": "63ff4f837370ca568dbf9118e2df6638b2778dce1de1a24c6c76d230ceb4c65b"
+    },
+    {
+      "path": "reports/profile-increment-v2/METHOD_ROSTER_V2.json",
+      "bytes": 13341,
+      "SHA256": "f2cbc15f02b16c044ab077d10dafeb6888e164714fdeb8f01e460bc0cb470587"
+    },
+    {
+      "path": "reports/profile-closure-next-02/METHOD_ROSTER_AMENDMENT.json",
+      "bytes": 2176,
+      "SHA256": "6b6c87270319a8743ddbf02adc1d65227316941d6d12c1dde44f5dd64c2326c9"
+    },
+    {
+      "path": "reports/profile-closure-next-02/PRODUCT_QUALIFICATION.json",
+      "bytes": 3299,
+      "SHA256": "053650ba5cf7942e4232634ad1e62a4fd29801af0f8f2128c6a6c1767b156c61"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/PRODUCT_QUALIFICATION.json",
+      "bytes": 7352,
+      "SHA256": "e7c549f8f4cb90d90f19a528982f99beb58d2cb0460ca4c453c23beb53e074a8"
+    },
+    {
+      "path": "protocol/ACTUAL_ACCURACY_POLICY_V6.json",
+      "bytes": 4028,
+      "SHA256": "ca4c9c7d2b9a0dc5ff4f877562c3766b38b601b8ec71e22070a4978961409d1e"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_SCORES.json.gz",
+      "bytes": 71156,
+      "SHA256": "74e73eb2489c8b2ccfba9390272bde0a9d9e49212ccd5a6867710c94199d76c6"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/A_HISTORICAL_PAIRED_CONTROLS.json",
+      "bytes": 19204,
+      "SHA256": "c5c4d6a9f79308e6cc72f1049d7f63a555ff5433966ebba9f142730b505d54fc"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/HISTORICAL_RAW_LEADERS.json.gz",
+      "bytes": 3613,
+      "SHA256": "2d0bc4cf5e57b771a416bdd222f99056f31912dff2f96a194c609be2f165721c"
+    }
+  ],
+  "code": {
+    "path": "reports/category-decision-release-01/evidence/build_retained_inventory.py",
+    "bytes": 14578,
+    "SHA256": "2a9e446f1439157e0cd180b2add81db9e20866bc1b3150ae76932795861d5e74"
+  },
+  "new_fits": 0,
+  "new_forecast_inference": 0,
+  "new_grading": 0,
+  "new_NFL_observations": 0,
+  "new_source_requests": 0,
+  "CPU_seconds": 1.652042369,
+  "explicit_limits": [
+    "Old archived seven-week labels remain historical reports, not newly authenticated actual offers.",
+    "C05 W1-W5 correction applies to the named annual longer-board source, not every other source.",
+    "No new A/B timing score is inferred here; parent intake supplies exact current receipt.",
+    "Missing games/weekly counts/fallback stay null.",
+    "Family counts cannot be recovered by counting output/policy/profile rows.",
+    "Constant-side records are matched diagnostic controls, not automatic production policies."
+  ]
+}

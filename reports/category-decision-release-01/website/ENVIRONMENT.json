@@ -1,0 +1,14 @@
+{
+  "id": "CATEGORY-WEBSITE-READONLY-ENVIRONMENT-v1",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "commands": [
+    "python read_public.py <exact GitHub API route> <retained projection name> (REQUESTS.json records each route and observation)",
+    "node reports/category-decision-release-01/website/check_consumer_contract.cjs",
+    "node reports/category-decision-release-01/website/independent_consumer_check.cjs"
+  ],
+  "network": "Inherited managed proxy and TLS verification; first sandbox proxy failure preserved, successful reads used existing require_escalated runtime. No proxy, trust-store or credential changes.",
+  "source_JS_SHA256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f",
+  "new_fits": 0,
+  "new_NFL_observations": 0
+}

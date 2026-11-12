@@ -1,0 +1,250 @@
+{
+  "id": "CATEGORY-CURRENT-SOURCE-ANALYSIS-v1",
+  "created_UTC": "2026-11-12T01:33:54.025925+00:00",
+  "requests_consumed": 3,
+  "runtime_attempts_including_local_socket_failure": 4,
+  "reserved_final_native_requests_remaining": 1,
+  "new_fits": 0,
+  "new_inference_rows": 0,
+  "new_issues": 0,
+  "roster": {
+    "projection": {
+      "path": "reports/category-decision-release-01/current/roster_current_season.json",
+      "bytes": 146524,
+      "SHA256": "0e4674541cfa973484e2ae991941ed9027e413921daef2780c2caf4247de167d"
+    },
+    "raw_headers": [
+      "season",
+      "team",
+      "position",
+      "depth_chart_position",
+      "jersey_number",
+      "status",
+      "full_name",
+      "first_name",
+      "last_name",
+      "birth_date",
+      "height",
+      "weight",
+      "college",
+      "gsis_id",
+      "espn_id",
+      "sportradar_id",
+      "yahoo_id",
+      "rotowire_id",
+      "pff_id",
+      "pfr_id",
+      "fantasy_data_id",
+      "sleeper_id",
+      "years_exp",
+      "headshot_url",
+      "ngs_position",
+      "week",
+      "game_type",
+      "status_description_abbr",
+      "football_name",
+      "esb_id",
+      "gsis_it_id",
+      "smart_id",
+      "entry_year",
+      "rookie_year",
+      "draft_club",
+      "draft_number"
+    ],
+    "raw_has_week_column": true,
+    "contract": "NFLVERSE_CURRENT_KNOWN_SEASON_ROSTER_SNAPSHOT-v1",
+    "basic_records": 959,
+    "target_basic_records": 60,
+    "target_ACT_receiving_candidates": 25,
+    "target_ACT_WR_TE_candidates": 18,
+    "target_role_counts": {
+      "RB": 7,
+      "WR": 10,
+      "TE": 8
+    },
+    "publisher_state": "PASS_36H_SOURCE_PUBLISHER_BOUND",
+    "publisher_error": null,
+    "published_UTC": "2026-11-11T07:04:38+00:00",
+    "publisher_age_seconds": 66555.161086,
+    "source": {
+      "id": "CATEGORY_CURRENT_ROSTER_OUTER_RUNTIME_RETRY",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "method": "GET",
+      "started_UTC": "2026-11-12T01:33:52.499474+00:00",
+      "state": "RECEIVED",
+      "upstream_HTTP_attempted": true,
+      "body_read_bound": 3145728,
+      "HTTP_status": 200,
+      "observed_UTC": "2026-11-12T01:33:53.124920+00:00",
+      "body_bytes_read": 981595,
+      "SHA256": "1bb74960a5c26459057d7bc5c21f90d8de23c040a1e023f25538b51613499d20",
+      "HTTP_headers_original_case": [
+        [
+          "last-modified",
+          "Wed, 11 Nov 2026 07:04:38 GMT"
+        ],
+        [
+          "etag",
+          "\"0x8DF3FC20D2FB009\""
+        ],
+        [
+          "age",
+          "4442"
+        ],
+        [
+          "date",
+          "Thu, 12 Nov 2026 01:33:53 GMT"
+        ],
+        [
+          "content-type",
+          "application/octet-stream"
+        ],
+        [
+          "content-length",
+          "981595"
+        ]
+      ],
+      "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+      "HTTP_Age": "4442",
+      "HTTP_Last_Modified": "Wed, 11 Nov 2026 07:04:38 GMT",
+      "ETag": "\"0x8DF3FC20D2FB009\"",
+      "Content_Length": "981595",
+      "Content_Type": "application/octet-stream",
+      "response_final_host": "release-assets.githubusercontent.com"
+    },
+    "team_role_status_rows_added": [],
+    "team_role_status_rows_removed": [],
+    "individual_transaction_effective_UTC": null,
+    "starter_health_participation": "UNKNOWN_NOT_INFERRED_FROM_ACT"
+  },
+  "football_version_checks": [
+    {
+      "source_id": "CURRENT_PLAYER_STATS",
+      "old_ETag": "\"0x8DF3F4CA74E3D93\"",
+      "current_ETag": "\"0x8DF401755B3EC30\"",
+      "strong_ETag_match": false,
+      "old_body_SHA256": "fa81925d8c4bd252c9d536879119c0b249fd7b847508b7283a26c4d80a4ba6c6",
+      "new_body_SHA256": null,
+      "body_not_downloaded": true,
+      "old_body_bytes": 613546,
+      "current_Content_Length": "613594",
+      "HEAD": {
+        "id": "CATEGORY_STATS_VERSION_HEAD",
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+        "method": "HEAD",
+        "started_UTC": "2026-11-12T01:33:53.161331+00:00",
+        "state": "RECEIVED",
+        "upstream_HTTP_attempted": true,
+        "body_read_bound": 0,
+        "HTTP_status": 200,
+        "observed_UTC": "2026-11-12T01:33:53.635224+00:00",
+        "body_bytes_read": 0,
+        "SHA256": null,
+        "HTTP_headers_original_case": [
+          [
+            "last-modified",
+            "Wed, 11 Nov 2026 17:15:07 GMT"
+          ],
+          [
+            "etag",
+            "\"0x8DF401755B3EC30\""
+          ],
+          [
+            "age",
+            "114"
+          ],
+          [
+            "date",
+            "Thu, 12 Nov 2026 01:33:53 GMT"
+          ],
+          [
+            "content-type",
+            "application/octet-stream"
+          ],
+          [
+            "content-length",
+            "613594"
+          ]
+        ],
+        "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+        "HTTP_Age": "114",
+        "HTTP_Last_Modified": "Wed, 11 Nov 2026 17:15:07 GMT",
+        "ETag": "\"0x8DF401755B3EC30\"",
+        "Content_Length": "613594",
+        "Content_Type": "application/octet-stream",
+        "response_final_host": "release-assets.githubusercontent.com"
+      }
+    },
+    {
+      "source_id": "CURRENT_PBP",
+      "old_ETag": "\"0x8DF3F4C5D95D970\"",
+      "current_ETag": "\"0x8DF4016B3624325\"",
+      "strong_ETag_match": false,
+      "old_body_SHA256": "06d5d1be5579800b26bb80fbcb8512c9aef762bb38428a74f86757e25e79981b",
+      "new_body_SHA256": null,
+      "body_not_downloaded": true,
+      "old_body_bytes": 9346187,
+      "current_Content_Length": "9346348",
+      "HEAD": {
+        "id": "CATEGORY_PBP_VERSION_HEAD",
+        "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+        "method": "HEAD",
+        "started_UTC": "2026-11-12T01:33:53.636057+00:00",
+        "state": "RECEIVED",
+        "upstream_HTTP_attempted": true,
+        "body_read_bound": 0,
+        "HTTP_status": 200,
+        "observed_UTC": "2026-11-12T01:33:53.984521+00:00",
+        "body_bytes_read": 0,
+        "SHA256": null,
+        "HTTP_headers_original_case": [
+          [
+            "last-modified",
+            "Wed, 11 Nov 2026 17:10:35 GMT"
+          ],
+          [
+            "etag",
+            "\"0x8DF4016B3624325\""
+          ],
+          [
+            "age",
+            "4252"
+          ],
+          [
+            "date",
+            "Thu, 12 Nov 2026 01:33:53 GMT"
+          ],
+          [
+            "content-type",
+            "application/octet-stream"
+          ],
+          [
+            "content-length",
+            "9346348"
+          ]
+        ],
+        "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+        "HTTP_Age": "4252",
+        "HTTP_Last_Modified": "Wed, 11 Nov 2026 17:10:35 GMT",
+        "ETag": "\"0x8DF4016B3624325\"",
+        "Content_Length": "9346348",
+        "Content_Type": "application/octet-stream",
+        "response_final_host": "release-assets.githubusercontent.com"
+      }
+    }
+  ],
+  "all_football_HEAD_versions_match": false,
+  "old_football_source_cutoff_UTC": "2026-11-10T18:55:28.982066+00:00",
+  "old_feature_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "source_execution_code": {
+    "path": "reports/category-decision-release-01/current/check_current_sources.py",
+    "bytes": 8079,
+    "SHA256": "fc1a891b7734d638fb3ec5430427c7a8ca3db694802b693d5e6573b8505d6bc9"
+  },
+  "retained_helper": {
+    "path": "reports/profile-timing-closure-confirm-01/forward-source/acquire_forward_sources_c05.py",
+    "bytes": 12147,
+    "SHA256": "4d1b21d421f01fbf7fe0fbd273ce33b275464aba6ec824f38c78180e578b564e"
+  },
+  "scope": "Analysis only: no target outcome, native status, model fit, inference, current offer or issuance. Strong metadata match cannot backdate a source or refresh original model feature clock."
+}

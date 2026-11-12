@@ -1,0 +1,23 @@
+{
+  "id": "CATEGORY-EXACT-PEER-RESOURCE-RECEIPT-v1",
+  "recorded_UTC": "2026-11-12T01:40:13.476011+00:00",
+  "requests_consumed": 73,
+  "requests_max_amended": 73,
+  "normalized_return_bytes_plus_raw_fallback": 5329866,
+  "body_cap": 8388608,
+  "retention_cap": 2097152,
+  "measurement_note": "Connector returns normalized file content/metadata, not original HTTP bodies. Counts above measure received normalized UTF8 envelope bytes; exact member bytes/hash also retained. B oversized file API omission preserved and exact raw fallback verified.",
+  "original_12_request_cap_amendment": "../EXACT_AGGREGATE_SHARD_AMENDMENT.json",
+  "source_body_omission_failures": 1,
+  "orchestration_parse_failures_before_requests": 1,
+  "new_fits": 0,
+  "new_inference": 0,
+  "independent_CPU_receipts": "independent/*REVIEW.json",
+  "python": "3.12.14",
+  "source_permissions": "Only already-public whitelisted aggregate/index/report data;no new sharing/private archive or protected row/model transfer.",
+  "retained_bytes_measured_before_this_receipt_update": 1097201,
+  "decoded_API_member_bytes": 3898267,
+  "raw_fallback_bytes": 1127641,
+  "conservative_API_base64_plus_16KiB_per_envelope_bound": 7505077,
+  "envelope_bound_is_not_direct_HTTP_measurement": true
+}

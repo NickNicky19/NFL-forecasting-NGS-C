@@ -1,0 +1,91 @@
+{
+  "id": "C06-INDEPENDENT-PRE-EXECUTION-REVIEW-v1",
+  "checked_UTC": "2026-11-12T02:13:11.022049+00:00",
+  "status": "PASS_FOR_BOUND_SOURCE_CURRENT_P1_SHADOW_EXECUTION;ACTUAL_INFERENCE_NATIVE_ISSUE_PENDING",
+  "scope": "Read-only independent code/contracts/source review plus deterministic synthetic software fixtures; no fresh fit or actual NFL inference.",
+  "bindings": [
+    {
+      "path": "src/current_query_delivery_c06.py",
+      "bytes": 32283,
+      "SHA256": "65d9823f42e6d1edb4b4ea9e884cc0f3052349cf09c1809e202c2516bbf5322b"
+    },
+    {
+      "path": "tests/test_current_query_delivery_c06.py",
+      "bytes": 8968,
+      "SHA256": "14d6024f65e6e9e2efbba9f07dcee8e4719b84f6d02df7d04896de4a3e336bd8"
+    },
+    {
+      "path": "src/prospective_v4.py",
+      "bytes": 32415,
+      "SHA256": "304cbd7a9b646d443d158ef732cc6535b186f3cf57e58e3f209741ef442d565e"
+    },
+    {
+      "path": "src/site_forward_v4.py",
+      "bytes": 10054,
+      "SHA256": "d5fe7f1f17d57cf728cf2b53f8a3a1f3faa820a8e34fad20447b96fd5524eae6"
+    },
+    {
+      "path": "src/receiving_increment_query_c03.py",
+      "bytes": 13619,
+      "SHA256": "e514d2a231736b8998dba26d1855dbfc05bbe572de4389a252f8503367115d44"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/FROZEN_PREEXECUTION_CHECKPOINT.json",
+      "bytes": 2114,
+      "SHA256": "11c3e668ca5b57fa6179f2eed4b3597f747646456dbe74d28f16bb041ddf2632"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/P1_CURRENT_REUSE_ASSESSMENT.json",
+      "bytes": 8127,
+      "SHA256": "5c6c806bf524469e4d614a41ecf2c6aba4b9af76ca47ae3c1e9dcf185a2b71a8"
+    },
+    {
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+      "bytes": 6969,
+      "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb"
+    }
+  ],
+  "independent_source_review": {
+    "path": "reports/category-decision-release-01/current-verification/INDEPENDENT_SOURCE_RECIPE_REVIEW.json",
+    "bytes": 5470,
+    "SHA256": "28405a2e26b7611a7c2b9d93cc474994193d156da848042721308554bd42c306"
+  },
+  "software_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python -m unittest tests.test_current_query_delivery_c06 -v",
+  "software_result": {
+    "tests": 12,
+    "status": "PASS",
+    "elapsed_seconds": 1.196,
+    "note": "Synthetic fixtures and metadata checks; not NFL observations."
+  },
+  "verified": [
+    "Safe retained pooled Poisson model/hash,60namedfeatures/120transformedcoefficients,alpha.1,nonpartial,exp-link/imputation/scale once; no additional CountA or other corrector.",
+    "Current-source canonical eligible basis is unchanged even though ten raw projection cells changed outside the seven-day window. Historical source availability remains a reconstruction.",
+    "Current25-query roster universe uses canonicalID/event/team/role/status, not target-game appearance/outcomes;18WRTEcandidate and7RBforecast-onlyshadow separately typed.",
+    "Clean committed code/registration and whole-tree clean gates precede actual NFL inference; fresh matching native event check is required after clean-start before issue.",
+    "Complete inference draft is retained and hash-bound; later snapshot validation uses the issue clock so expiration does not erase original grading.",
+    "Strict unrounded expected-mean comparison, equality abstention and offered-side gate; zero mean stays valid; missing/expired/wrongrole fail closed.",
+    "A later offer requires explicit repricing policy and preserves forecast issue/offer observation/new decision clocks in a separate record; forecast rows remain unchanged.",
+    "Typed C06 validation/receipt/forecast-file routing extends the existing prospective grader; no alternative scoring arithmetic/ranker/legacy-feed activation.",
+    "Original75and69forecast hashes remain unchanged. Existing completed representative P1 fresh fit and safe-inference acceptance is reused, no duplicate fit."
+  ],
+  "findings": {
+    "implementation": "NO_DEFECT_FOUND_IN_CHECKED_CURRENT_PATH",
+    "source_semantics": "PASS_RELEVANT_RETAINED_PROJECTION_AND_CLOCK_SCOPE;NOT_AUTHENTICATED_OLD_VINTAGES",
+    "historical_model_family_recipe": "PASS_FEATURE_OBJECTIVE_TRANSFORM_CORRESPONDENCE;WHOLE_CURRENT_POPULATION_ADMISSION_NOT_INFERRED",
+    "actual_new_inference": "PENDING_ROOT_EXECUTION_AND_SEPARATE_INDEPENDENT_CALCULATION",
+    "fresh_native_event": "PENDING_RESERVED_SOURCE_REQUEST",
+    "publication_consumer": "PENDING_REAL_GITHUB_AND_CONSUMER_RECEIPTS",
+    "primary_release": "SHADOW_ONLY;NO_CURRENT_ACTUAL_OFFERS_OR_PRIMARY_SWITCH"
+  },
+  "external_admission_limit": "point_direction_record is a compatibility/rule adapter, not an offer-collection/admission authority. Its caller must already verify the referenced real-offer admission and bound forecast row; hash syntax/qualified boolean alone is not independent source verification. No actual offer has been admitted by these fixtures.",
+  "five_week_limit": "Historical P1 mean239/412 belongs to owner-local retrospective WR/TE five actual-offer weeks with quote timing and private-mask limits. Current roster eligibility, finality/held filters and decision horizon remain separately bound; the7RBoutputs, probability/confidence and TopPicks cannot inherit that qualification. This review does not itself admit a primary replacement.",
+  "new_fits": 0,
+  "new_NFL_inference_rows": 0,
+  "new_GETs": 0,
+  "new_NFL_test_observations": 0,
+  "remaining": [
+    "Root commits exact code and execution authorization without scientific recipe changes.",
+    "Run actual25-row current inference; independently recompute means/Poisson quantiles from safe JSON by a separate calculation path.",
+    "Perform reserved native status admission, real issuance, GitHub server proof and actual consumer verification."
+  ]
+}

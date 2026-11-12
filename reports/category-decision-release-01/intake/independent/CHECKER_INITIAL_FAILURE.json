@@ -1,0 +1,12 @@
+{
+  "id": "INDEPENDENT-CHECKER-FIRST-ATTEMPT-v1",
+  "observed_UTC": "2026-11-12T01:31:34.201198+00:00",
+  "state": "CHECKER_PRODUCT_TYPING_ASSUMPTION_FAILURE",
+  "script_SHA256": "fbc02ebb0ce6c781ecba1a04ea130eb82508b3ff99f75951d2c8aed4f8550be6",
+  "error": "Checker incorrectly required numerical point metrics for P2 event-direction products; authors correctly retained scored0/null numerical fields.",
+  "forecast_or_score_defect": false,
+  "remedy": "Keep P2 numerical N/A and verify16 point products plus3controls numerically; direction counts remain checked for20products.",
+  "new_fits": 0,
+  "GETs": 0,
+  "second_attempt_same_root_cause": "P2 numerical-pair MAE remains null; subtraction of None in checker corrected without changing scores."
+}

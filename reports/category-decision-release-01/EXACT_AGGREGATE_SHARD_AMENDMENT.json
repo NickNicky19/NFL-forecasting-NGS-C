@@ -1,0 +1,11 @@
+{
+  "id": "CATEGORY-EXACT-AGGREGATE-SHARDS-v1",
+  "registered_UTC": "2026-11-12T01:30:48.857148+00:00",
+  "reason": "A actual public exact-version export is split into65 CSV data members;2 read,63 remain. Need fullweekly/paired cells, no cherry-picked shards.",
+  "previous_requests_consumed": 10,
+  "requests_max_total": 73,
+  "additional_exact_members_max": 63,
+  "body_bytes_cap_unchanged": 8388608,
+  "retained_bytes_cap_unchanged": 2097152,
+  "scope": "Only exact65 public aggregate CSVs already listed by actuallyreceivedC04/Btimingmanifests (14C+51B), not player/offer/modelrows. Verifyeachmemberhash; preserveallfailedreadsandcaps. No newscientificfits/joins/observations."
+}
