@@ -54,8 +54,8 @@
     },
     {
       "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/FIELD_TO_USE.csv",
-      "bytes": 22994,
-      "SHA256": "f8f1391b3537eb41007a23abfca985ca470e12b32e6410c3f42bab81ed73d7bb"
+      "bytes": 22974,
+      "SHA256": "465e187d37e812b93a28464d148cb633cd484217a29ee56d99e28bcddf8c5bcf"
     },
     {
       "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/FIELD_TO_USE.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/build_qualification.py",
-      "bytes": 15244,
-      "SHA256": "753aa298ff0601eb7f8c06fcc05aae340dc7f0213e86843533c7abde6720bd99"
+      "bytes": 15264,
+      "SHA256": "2be130ab02b5b35e14957b3add12499d1de0a8b3a5581232e07eef1cb4677394"
     },
     {
       "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/build_supplied_reference.py",
@@ -92,5 +92,6 @@
       "bytes": 5215,
       "SHA256": "1a1800b2b25a5040caafb339db410d38270cb6f6db48cec645d6cc6faa6c5c71"
     }
-  ]
+  ],
+  "encoding_note": "Current C-authored derived FIELD_TO_USE.csv uses LF; original RFC4180 CRLF and pre-fix resource receipt retained at b39cbcf. Supplied Appendix reference bytes are unchanged."
 }
