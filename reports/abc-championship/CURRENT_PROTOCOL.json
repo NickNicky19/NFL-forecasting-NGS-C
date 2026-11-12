@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "b2849f0a5f1579cd3dd3454644f0134a97d1230e4b15c7b2518d5c83d986e144"
+    "SHA256": "5a69b40f31233defa01d458bc9e8c727a911952e1be87e2dd4526abc0cd96711"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1261,7 +1261,7 @@
   },
   "category_decision_release_01": {
     "id": "NFL-CATEGORY-DECISION-AND-RELEASE-01-C/v1",
-    "stage": "ALL12_SCOPED_DECISIONS_AND_COMPLETED_JOINS;CURRENT25_SHADOW_SERVER_QUALIFIED",
+    "stage": "ALL12_SCOPED_DECISIONS_AND_EXACT_JOINS_PUBLISHED;C_RESEARCH_SERVED_VERIFIED;CURRENT_SHADOW_EXPIRED",
     "assignment": {
       "path": "reports/category-decision-release-01/adoption/NFL_CATEGORY_DECISION_AND_RELEASE_01_V1.txt",
       "SHA256": "a6d6b3c8f3b90009cde559fc00ff96d3d8e688ef1c0ae93588e5acdcc4f9d01f"
@@ -1276,7 +1276,7 @@
     },
     "report": {
       "path": "reports/category-decision-release-01/README.md",
-      "SHA256": "919c0d07a4980955f8ab7deb9e58e7ae5090999999f6fe84be6d932a78ae123a"
+      "SHA256": "4d09ba3b9500ce16e3fdac2d60528fa152b543ddeb528853db0a411056dfb5a5"
     },
     "category_product_decisions": {
       "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
@@ -1284,7 +1284,7 @@
     },
     "coverage": {
       "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
-      "SHA256": "9dd9be433d8cac3636a30167e70db2711e942647db07c87506d2e9aac35ddfcf"
+      "SHA256": "7b153d29e29afec5456eb9a69eff6c68aa0a6ebac4ccc8aee7c73c7659d5e5b7"
     },
     "intake": {
       "path": "reports/category-decision-release-01/intake/ADMISSION.json",
@@ -1330,6 +1330,42 @@
       "path": "reports/category-decision-release-01/site/LOCAL_CONSUMER_RECEIPT_V2.json",
       "SHA256": "fe60589fba76cb77c0682419d7064204ca87701dcd74f1897c0a3a4b5934751d"
     },
-    "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED"
+    "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
+    "coverage_matrix": {
+      "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
+      "SHA256": "09189f76537b7fb87c5c94496438cfecf44037db4577e0b9364c20bc6644c8c9"
+    },
+    "coverage_scope_amendment": {
+      "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
+      "SHA256": "27725794aad86d0a019f2d2d06bef3c50f9d982d6045ee837e4b9cae2edda010"
+    },
+    "existing_numeric_forecast_handoff": {
+      "path": "reports/category-decision-release-01/legacy-handoff/EXISTING_FORECAST_RETRIEVAL_MAP.json",
+      "SHA256": "db4470870980aaefd1814694836de8987db3421a976953f08c709fe3f4285be8"
+    },
+    "publication_closure": {
+      "path": "reports/category-decision-release-01/PUBLICATION_CLOSURE.json",
+      "SHA256": "ee7eae4fb043eb60f88230d0bdc6eb30252246bafc64d71413b412d077cb815a"
+    },
+    "served_bytes": {
+      "path": "reports/category-decision-release-01/SERVED_VERIFICATION.json",
+      "SHA256": "91c2acabe5959adcf1e16398b38ef6e045583231f851bdcc48ba12a49a962661"
+    },
+    "served_browser": {
+      "path": "reports/category-decision-release-01/site/served/SERVED_CONSUMER_RECEIPT.json",
+      "SHA256": "ed17b096b0cc8a3d0d34c9f601ab9283031ea9365c2d629283c488cbd5018b54"
+    },
+    "actual_expiry_browser": {
+      "path": "reports/category-decision-release-01/site/served/ACTUAL_EXPIRY_PARITY.json",
+      "SHA256": "75602f5ffc694a8ed507e5455aaa950e5cd559e25c65c0b9cbe1a9de4a2eb575"
+    },
+    "operational_stages": {
+      "path": "reports/category-decision-release-01/RELEASE_AND_CAPTURE_STAGES.json",
+      "SHA256": "76fcc4fae9078990f33f98dccdfb0c8ff649ce5f98fbda059e7f1e305761ba92"
+    },
+    "resource_closure": {
+      "path": "reports/category-decision-release-01/RESOURCE_CLOSURE.json",
+      "SHA256": "8897dee8a5baa8dcccda6e27685cb967ec3b4d26c15a38bfac72c0f9cde924af"
+    }
   }
 }

@@ -1,0 +1,63 @@
+{
+  "id": "C06-DIRECT-SERVED-CONSUMER-v1",
+  "executed_UTC": "2026-11-12T03:21:14.387560+00:00",
+  "state": "DIRECT_HTTPS_BROWSER_VERIFIED;CURRENT_USE_EXPIRED;FORECAST_SNAPSHOT_PRESERVED",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html?verified=b38ea4c9f60c15225ae6a252873e943f904309a4",
+  "served_commit": "b38ea4c9f60c15225ae6a252873e943f904309a4",
+  "canonical_data_SHA256": "6fe4320754474e3e2eda614d6d9f0aa0ec54c652b3418a80278497c9be761838",
+  "canonical_data_bytes": 365184,
+  "categories": 12,
+  "separate_product_rows": 48,
+  "actual_current_forecasts": 25,
+  "mean_and_lower_median_values_all_exact": true,
+  "WR_TE_candidate_scope": 18,
+  "RB_shadow": 7,
+  "current_use_state": "EXPIRED_AT_2026-11-12T02:51:07.340270996Z",
+  "real_browser_clock_not_simulated_in_expiry_check": true,
+  "original_forecast_grading_still_permitted": true,
+  "real_offers": 0,
+  "real_selections": 0,
+  "primary_switch": false,
+  "old_legacy_panel_preserved": true,
+  "desktop_and_mobile": "PASS",
+  "HTTP_checksum_build_binding_fail_closed": "PASS",
+  "TLS": "ENABLED_NO_IGNORE_FLAGS_OR_TRUST_CHANGES",
+  "original_website_changed": false,
+  "source_or_model_collection": false,
+  "new_capture_or_model_inference": false,
+  "new_NFL_observations": 0,
+  "evidence": [
+    {
+      "path": "reports/category-decision-release-01/site/served/BROWSER_PARITY.json",
+      "SHA256": "6f674a7633821126147011d2bafd49f24332a908b51d349b4f22b24079b87ea3"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/ACTUAL_EXPIRY_PARITY.json",
+      "SHA256": "75602f5ffc694a8ed507e5455aaa950e5cd559e25c65c0b9cbe1a9de4a2eb575"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/C06-category-desktop.png",
+      "SHA256": "3bf9a3a8956a6f6ce0f3a61ce99c8cf1e25233b3f7c449dabff43cff56be20f6"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/C06-category-mobile.png",
+      "SHA256": "9a90f56f89d42ba6d559413cd8329c999e34e6f668416a38324183d313139865"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/C06-current-expired-desktop.png",
+      "SHA256": "9183d1c42b199ad2b8b8a41d05a1e603057c3282929a2913d751252494e9e082"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/C06-current-expired-mobile.png",
+      "SHA256": "baec6c79ee8263376cef5c0dca2c55a4fd80fecf742bbfb7882b465113315b0c"
+    },
+    {
+      "path": "reports/category-decision-release-01/site/served/check_actual_expiry.py",
+      "SHA256": "91a59149e441ec25781ae04782e0e940cc970f662b0516319e5058ddfffb666c"
+    }
+  ],
+  "served_byte_receipt": {
+    "path": "reports/category-decision-release-01/SERVED_VERIFICATION.json",
+    "SHA256": "91c2acabe5959adcf1e16398b38ef6e045583231f851bdcc48ba12a49a962661"
+  }
+}

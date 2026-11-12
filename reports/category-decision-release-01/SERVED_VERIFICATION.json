@@ -1,0 +1,70 @@
+{
+  "id": "C06-SERVED-BYTE-VERIFICATION-v1",
+  "checked_UTC": "2026-11-12T03:19:30.741722+00:00",
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html",
+  "served_asset_commit": "b38ea4c9f60c15225ae6a252873e943f904309a4",
+  "files": [
+    {
+      "path": "build.json",
+      "bytes": 2167,
+      "SHA256": "0239d082093d4f16b2bdbf0b0ddb73a772e5961a51aac8334b8d5502ef834a46",
+      "HTTP_Date": null,
+      "HTTP_Age": null,
+      "exact_local_asset_parity": false,
+      "deployment_stamp_and_payload_bindings": true
+    },
+    {
+      "path": "championship.html",
+      "bytes": 7958,
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4",
+      "HTTP_Date": null,
+      "HTTP_Age": null,
+      "exact_local_asset_parity": true,
+      "deployment_stamp_and_payload_bindings": false
+    },
+    {
+      "path": "championship.js",
+      "bytes": 21181,
+      "SHA256": "18b54f97a2718e2f58eac0c3f3270f77b92876e7b1aeb99c4cbc6e700cd2092d",
+      "HTTP_Date": null,
+      "HTTP_Age": null,
+      "exact_local_asset_parity": true,
+      "deployment_stamp_and_payload_bindings": false
+    },
+    {
+      "path": "data/category-decisions-c06.json",
+      "bytes": 365184,
+      "SHA256": "6fe4320754474e3e2eda614d6d9f0aa0ec54c652b3418a80278497c9be761838",
+      "HTTP_Date": null,
+      "HTTP_Age": null,
+      "exact_local_asset_parity": true,
+      "deployment_stamp_and_payload_bindings": false
+    },
+    {
+      "path": "data/championship-shared-c01.json",
+      "bytes": 40869,
+      "SHA256": "83cc05fbef6301b11ed65e99e1e3bbad82c6e90c1cb30a1f9d479439d1e7c820",
+      "HTTP_Date": null,
+      "HTTP_Age": null,
+      "exact_local_asset_parity": true,
+      "deployment_stamp_and_payload_bindings": false
+    }
+  ],
+  "GETs": 5,
+  "response_bytes": 437359,
+  "categories": 12,
+  "product_records": 48,
+  "retained_forecast_rows": 25,
+  "WR_TE_candidate_scope": 18,
+  "RB_shadow": 7,
+  "games": 1,
+  "real_offers": 0,
+  "real_selections": 0,
+  "current_recommendation_use": "EXPIRED; ORIGINAL FORECASTS RETAINED FOR GRADING",
+  "C_research_site_deployed": true,
+  "original_website_changed": false,
+  "primary_switch": false,
+  "new_fits": 0,
+  "new_inference": 0,
+  "scope": "Exact served C HTML/JS/current/legacy payload bytes and deployment stamp; direct browser checks recorded separately."
+}

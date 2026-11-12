@@ -1,0 +1,81 @@
+{
+  "id": "C06-PUBLICATION-CLOSURE-v1",
+  "recorded_UTC": "2026-11-12T03:22:34.589470+00:00",
+  "PR44": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/pull/44",
+  "checked_head": "930856a6708e018e66edb34d5e194c176bb679de",
+  "merge_and_served_asset_commit": "b38ea4c9f60c15225ae6a252873e943f904309a4",
+  "merged_UTC": "2026-11-12T03:13:06Z",
+  "deployment_run": 43146695434,
+  "deployment_status": "SUCCESS",
+  "deployment_completed_UTC": "2026-11-12T03:15:29Z",
+  "C_consumer": "SERVED_VERIFIED_RESEARCH_DECISIONS_AND_EXPIRED_CURRENT_USE_SHADOW",
+  "original_website_changed": false,
+  "primary_switch": false,
+  "Top_Picks_changed": false,
+  "category_recommendation_counts": {
+    "KEEP_INCUMBENT": 5,
+    "SHADOW": 4,
+    "BLOCKED": 1,
+    "ABSTAIN": 2,
+    "PROVISIONALLY_SWITCH": 0
+  },
+  "captured_rows": 25,
+  "WR_TE_candidate_scope": 18,
+  "RB_shadow": 7,
+  "actual_offers": 0,
+  "actual_selections": 0,
+  "new_fits": 0,
+  "actual_new_inference_rows": 25,
+  "new_historical_NFL_games": 0,
+  "new_historical_NFL_weeks": 0,
+  "new_product_week_arithmetic_admissions": 100,
+  "current_recommendation_use": "EXPIRED_AFTER_2026-11-12T02:51:07Z;RETAINED_FOR_GRADING",
+  "current_Chicago_clocks": "Issued November11 8:21:15p.m.CST; serverqualified8:42:41p.m.; currentuseexpired8:51:07p.m.",
+  "next_C_action": "Grade immutable original WAS-NYG/NE-DET snapshots only after qualified final outcomes; record actual peer producer/selector receipts when received. No repeat fits, completed joins or freshness search.",
+  "limitations": [
+    "Public aggregate arithmetic does not establish private-row/source-clock/model parity.",
+    "Annual W1-W5 and archived source-week-pending W1-W7 remain separate; all-twelve complete connected W1-W8 champion not established.",
+    "Five-week historical point direction does not transfer to current roster/finality/horizon, RB, probability/confidence or changed Top Picks.",
+    "C research deployment is not original website producer acceptance, activation or scheduled reliability."
+  ],
+  "deployment_metadata": {
+    "path": "reports/category-decision-release-01/DEPLOYMENT_METADATA.json.xz",
+    "SHA256": "3a7da29b56c7d4fec47bfdd786e3c3559d2482daa7dc641dff04a415189991ca"
+  },
+  "PR_metadata": {
+    "path": "reports/category-decision-release-01/PR44_METADATA.json.xz",
+    "SHA256": "47929753d632e0a56402720e4705dee14092190a047862245d4521ca0f9cc7b9"
+  },
+  "server_pregame_receipt": {
+    "path": "reports/category-decision-release-01/CURRENT_PUBLICATION_RECEIPT.json",
+    "SHA256": "6f485a3a65382a6accb179886642d7295da20473a1328395735184820513c924"
+  },
+  "fresh_GitHub_recovery": {
+    "path": "reports/category-decision-release-01/current-verification/FRESH_GITHUB_RESTORATION.json",
+    "SHA256": "3d2df3d92166a0aa6e23ea74f54af4850f381d57feebbd4371a689231671d758"
+  },
+  "independent_server_check": {
+    "path": "reports/category-decision-release-01/current-verification/SERVER_QUALIFICATION_INDEPENDENT.json",
+    "SHA256": "987a6d182ed908d236ca892a6b672a744e4ca998bce5915501e08f97b108fa88"
+  },
+  "served_bytes": {
+    "path": "reports/category-decision-release-01/SERVED_VERIFICATION.json",
+    "SHA256": "91c2acabe5959adcf1e16398b38ef6e045583231f851bdcc48ba12a49a962661"
+  },
+  "served_browser": {
+    "path": "reports/category-decision-release-01/site/served/SERVED_CONSUMER_RECEIPT.json",
+    "SHA256": "ed17b096b0cc8a3d0d34c9f601ab9283031ea9365c2d629283c488cbd5018b54"
+  },
+  "actual_browser_expiry": {
+    "path": "reports/category-decision-release-01/site/served/ACTUAL_EXPIRY_PARITY.json",
+    "SHA256": "75602f5ffc694a8ed507e5455aaa950e5cd559e25c65c0b9cbe1a9de4a2eb575"
+  },
+  "operational_stages": {
+    "path": "reports/category-decision-release-01/RELEASE_AND_CAPTURE_STAGES.json",
+    "SHA256": "76fcc4fae9078990f33f98dccdfb0c8ff649ce5f98fbda059e7f1e305761ba92"
+  },
+  "resources": {
+    "path": "reports/category-decision-release-01/RESOURCE_CLOSURE.json",
+    "SHA256": "8897dee8a5baa8dcccda6e27685cb967ec3b4d26c15a38bfac72c0f9cde924af"
+  }
+}
