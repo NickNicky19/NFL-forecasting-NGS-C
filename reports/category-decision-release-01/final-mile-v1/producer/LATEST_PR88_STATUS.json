@@ -1,0 +1,37 @@
+{
+  "id": "C_FINAL_MILE_PR88_LATEST_STATUS_V1",
+  "observed_UTC": "2026-11-12T06:58:56.589743+00:00",
+  "read_attempt": 13,
+  "actual_HTTP_reads": 1,
+  "normalized_return_bytes": 42164,
+  "decoded_response_bytes": 19722,
+  "decoded_response_SHA256": "238571346550fa0a591adc4713833c7d143b1118bb6b17bb04c0813c53d2df5d",
+  "PR": {
+    "number": 88,
+    "title": "Add guarded Count A mean shadow delivery to the existing producer",
+    "state": "open",
+    "draft": false,
+    "merged": false,
+    "merged_at": null,
+    "updated_at": "2026-11-12T06:41:57Z",
+    "mergeable": true,
+    "mergeable_state": "clean",
+    "html_url": "https://github.com/NickNicky19/NFL-forecasting/pull/88",
+    "head_ref": "research/count-a-native-shadow-20261112-v1",
+    "head_sha": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd",
+    "base_ref": "research/weekly-storage-probe-v1",
+    "base_sha": "fa91988e65939d2b3516371a90a6380aeee3acb3"
+  },
+  "delta": {
+    "draft": {
+      "previous": true,
+      "current": false
+    },
+    "head_sha": {
+      "previous": "af405c4604f6eac935e594f1acd3ab492eef412c",
+      "current": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd"
+    }
+  },
+  "original_ADMISSION_unmodified_SHA256": "b4f1fb95297f3c812ccf871f946085f714f384d61252cbf2751eb1a60b26b38d",
+  "scope": "One safe-checkpoint operational stage refresh, no new scientific evidence or model/proof inspection."
+}

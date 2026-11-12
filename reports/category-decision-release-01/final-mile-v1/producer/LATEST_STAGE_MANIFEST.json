@@ -1,0 +1,49 @@
+{
+  "id": "C_FINAL_MILE_PRODUCER_LATEST_STAGE_MANIFEST_V1",
+  "UTC": "2026-11-12T07:00:54.917138+00:00",
+  "frozen_original_manifest_SHA256": "2f3d008f3845668e38ab14eab372e5e8d0b407f0ba666c3cc6ef58abd51244f9",
+  "frozen_original_ADMISSION_SHA256": "b4f1fb95297f3c812ccf871f946085f714f384d61252cbf2751eb1a60b26b38d",
+  "total_bound_read_attempts": 14,
+  "total_actual_HTTP_reads": 13,
+  "total_normalized_return_bytes": 665887,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_evidence": 0,
+  "supplementary_files": [
+    {
+      "path": "LATEST_NATIVE_RUNTIME.json",
+      "bytes": 1307,
+      "SHA256": "e152afcedf59368cc27749060edb3d4e570ee2b42fdaf2b5949048f84fa7d343"
+    },
+    {
+      "path": "LATEST_PR88_STATUS.json",
+      "bytes": 1381,
+      "SHA256": "a814b493ef1ecd300c570cbc965ca145db69418c27d06c0bdc4cf126ed1a8b05"
+    },
+    {
+      "path": "LATEST_PR88_STATUS_RESPONSE.json.xz",
+      "bytes": 3476,
+      "SHA256": "776fa36b7acf17e10ca7b9afb3a0e0ca58410245d97504504e9184d99c29b94d"
+    },
+    {
+      "path": "OWNER_CURRENT_PR88_CLAIMS.json",
+      "bytes": 2042,
+      "SHA256": "b98afe93d5369df8158d27095661fc1ca69bf6e1869f8370c1b654734ba0d4d3"
+    },
+    {
+      "path": "SAFE_CHECKPOINT_NATIVE_RUNTIME_READ_REGISTRATION.json",
+      "bytes": 639,
+      "SHA256": "292b6674caa08b11ef1432c4a3861f603c5c65c355d13b1a986434a8a6cfe9da"
+    },
+    {
+      "path": "SAFE_CHECKPOINT_READ_REGISTRATION.json",
+      "bytes": 669,
+      "SHA256": "a05964f33578d203240d3298f735cf18bd2b9d631fb94ba088d017ab2100b2bb"
+    },
+    {
+      "path": "SAFE_CHECKPOINT_STATUS.md",
+      "bytes": 2596,
+      "SHA256": "bf261b8b78b7a551d699baff28a691de8a28761d6b65fdc1672f9748db7313e0"
+    }
+  ]
+}

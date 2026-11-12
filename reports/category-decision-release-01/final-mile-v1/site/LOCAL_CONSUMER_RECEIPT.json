@@ -1,9 +1,9 @@
 {
-  "schema": "C-FINAL-MILE-LOCAL-CONSUMER-RECEIPT-v1",
-  "observed_UTC": "2026-11-12T06:54:18.976840+00:00",
-  "status": "PASS_LOCAL_BROWSER_NOT_SERVED_RELEASE",
-  "data_bytes": 525954,
-  "data_SHA256": "2e2bab27e057f36af6dcd22f7d7ce106b82fd51d6cbafc676dcdeab021c7506d",
+  "schema": "C-FINAL-MILE-FINAL-READY-HEAD-LOCAL-RECEIPT-v1",
+  "observed_UTC": "2026-11-12T07:05:16.313355+00:00",
+  "status": "PASS_FINAL_LOCAL_METADATA_NOT_SERVED_RELEASE",
+  "data_bytes": 528350,
+  "data_SHA256": "34567dbdc6d0c8a7548a37a7837bf6a2266309fca1bb263463524ebb6ed011c9",
   "actual_HEAD": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
   "environment": {
     "Python": "3.12.14",
@@ -12,7 +12,7 @@
     "TLS_verification": "ENABLED_NO_IGNORE_FLAGS",
     "network": "Local C pageassets only; no NFLsourceGET"
   },
-  "verification": "Existing browser_qa_category_decisions_c06.check using local_page; bounded screenshot callback checks all12 research/website labels and reasons, TopPicks2/4/2/0,PPRall539,qualified_fifth_week=false,actual25expired and0offers. First callback attempted hidden productdetails; failure preserved, openedexistingdetails andreran unchangedharness.",
+  "verification": "Bounded final local browser rerender of12 ownrecords/48products/25exactmeanmedianexpiredrows/all12researchvswebsite and PR88READY3156058notdraftOPEN_UNMERGED, previousaf405snapshotclearlyhistorical,nativefeedunverified;33sourcebindinghashes checked. Prior unchanged fullharness filter/failclosed/TopW4 checks retained inV1/local.",
   "checked": {
     "own_side_rows_exact": 12,
     "separate_product_rows": 48,
@@ -37,12 +37,16 @@
     "W4_PPR_present_all539": true,
     "W4_qualified_fifth_week": false,
     "scientific_fields_unchanged": 108,
-    "source_bindings_hash_checked": 30,
+    "source_bindings_hash_checked": 33,
     "category_role_filters": true,
     "Chicago_UTC": true,
     "desktop1440_mobile390": true,
     "HTTP_checksum_build_binding_fail_closed": true,
-    "legacy_rows_preserved": 12
+    "legacy_rows_preserved": 12,
+    "PR88_ready_not_draft_head": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd",
+    "PR88_open_unmerged": true,
+    "prior_af405_source_CI_historical": true,
+    "native_current_feed_unverified": true
   },
   "preserved_helper_failure": "local/INITIAL_METADATA_ASSERTION_FAILURE.json",
   "code_under_test": "Root-owned one C-only display line separates research/website dispositions; no selector/model/originalsite change.",
@@ -55,13 +59,13 @@
   "bindings": [
     {
       "path": "docs/data/category-decisions-c06.json",
-      "bytes": 525954,
-      "SHA256": "2e2bab27e057f36af6dcd22f7d7ce106b82fd51d6cbafc676dcdeab021c7506d"
+      "bytes": 528350,
+      "SHA256": "34567dbdc6d0c8a7548a37a7837bf6a2266309fca1bb263463524ebb6ed011c9"
     },
     {
       "path": "docs/build.json",
       "bytes": 2046,
-      "SHA256": "6f29dc8038d9233e6fdceb1f9310763409cbec04ecb8fb784a8b3d5f7da6dbdf"
+      "SHA256": "7ae64a1874e4c8e7641c53e62757bc4a197847d91eb780d68772a53f6366c712"
     },
     {
       "path": "docs/championship.html",
@@ -80,49 +84,32 @@
     },
     {
       "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
-      "bytes": 703324,
-      "SHA256": "064702de2b0c870e22e0627d894eec1f64a35e9a2bc511b9ed246b530262148e"
+      "bytes": 706901,
+      "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
     },
     {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/ADMISSION_METADATA_PARITY.json",
-      "bytes": 33577,
-      "SHA256": "8b97d00b66b0c41ea470fa0469f8bf2206dd7ec7135010e3d9c93d33f5eb0f43"
+      "path": "reports/category-decision-release-01/final-mile-v1/site/LOCAL_CONSUMER_RECEIPT_V1.json",
+      "bytes": 5140,
+      "SHA256": "12f04086f73260b0e6cda652baf759f12d2139bb4605164abab15cabb050232d"
     },
     {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/BROWSER_PARITY.json",
-      "bytes": 1261,
-      "SHA256": "1bda854f5a99bcfe8a1637833d39b751919c93bfdb40d007efc687f745ff3aed"
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/COUNTA-ready-head-desktop.png",
+      "bytes": 118624,
+      "SHA256": "72be82bae66f09684034317e89a41e2355ab3e860769ba8c100ffdfa6214f4f4"
     },
     {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/C06-category-desktop.png",
-      "bytes": 200109,
-      "SHA256": "b0f7349d1085552ef5047e5d9f032eec42d31b2a31d42103e4c06c43c62d383b"
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/COUNTA-ready-head-mobile.png",
+      "bytes": 82361,
+      "SHA256": "0a2d6e946a337ab4334251ce6ec6ef3157464148dc6807dc19dbee07312da812"
     },
     {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/C06-category-mobile.png",
-      "bytes": 82386,
-      "SHA256": "b12780eb8517b8fce71b8ab38b84a90f8d16811f33bc5ff2ab824a0c698aaad5"
-    },
-    {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/INITIAL_METADATA_ASSERTION_FAILURE.json",
-      "bytes": 521,
-      "SHA256": "e0cf397c9e7357be139db5f755ea17fd32cbe93ed444aaeb62843ba71c6e4b45"
-    },
-    {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/SOURCE_AND_SCIENTIFIC_PARITY.json",
-      "bytes": 6934,
-      "SHA256": "1cced5b471da0df1f102a38ce1f6c29f906fa561d0241c30b43de88784e096ed"
-    },
-    {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/TOP_METADATA_DIAGNOSTIC.json",
-      "bytes": 4256,
-      "SHA256": "f2dddf1264104cbc6e450db36ce5e2a3f9d9024ac104fa2016994c58e1217c6e"
-    },
-    {
-      "path": "reports/category-decision-release-01/final-mile-v1/site/local/TOP_W4_metadata-mobile.png",
-      "bytes": 4308,
-      "SHA256": "414114ae207a0b71d5ecdb23fad024a68cbfabb1bffc9992fb95d7352fc55edb"
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/METADATA_PARITY.json",
+      "bytes": 22633,
+      "SHA256": "c34430cf1db2d36034ec6836fa806d8241337a377f8d9b930655704ecbb0c06d"
     }
   ],
-  "next_stage": "After owner publication, exact served bytes and direct C browser once for finaldeploymenthead; no originalwebsite activation inference."
+  "next_stage": "After owner publication, exact served bytes and direct C browser once for finaldeploymenthead; no originalwebsite activation inference.",
+  "preserved_prior_receipt": "LOCAL_CONSUMER_RECEIPT_V1.json",
+  "final_metadata_check": "local-final/METADATA_PARITY.json",
+  "reused_unchanged_checks": "Prior fullharness receiptV1/local; no repeatNFL/math/modeltests."
 }
