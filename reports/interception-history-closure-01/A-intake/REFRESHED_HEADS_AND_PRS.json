@@ -1,0 +1,672 @@
+{
+  "scope": "Connector-normalized public metadata, not private artifact inspection; branch signatures/contact fields omitted",
+  "records": [
+    {
+      "name": "A_BRANCHES",
+      "data": [
+        {
+          "ref": "audit/archive-first-recovery-20261027",
+          "sha": "dc6dffc391f4d5321b95b2ae804b250a2009438a"
+        },
+        {
+          "ref": "audit/archive-first-recovery-main-20261027",
+          "sha": "835808d112e79ba7f1c79187f99c5304060de135"
+        },
+        {
+          "ref": "audit/archive-metadata-runtime-20261025",
+          "sha": "5ba12d23ce7abf577c302f4a8fdd4518963a8012"
+        },
+        {
+          "ref": "audit/archive-packing-20261025",
+          "sha": "cdb3eb5d243ed47ac3657b49e0a5176b5e76fc4c"
+        },
+        {
+          "ref": "audit/artifact-clock-precision-main-20261026",
+          "sha": "74a649178e9c1528223c869a6645e60143f2ba70"
+        },
+        {
+          "ref": "audit/artifact-clock-producer-20261026",
+          "sha": "a1200a4272331d6a6428c54aa89928e1e34516be"
+        },
+        {
+          "ref": "audit/continuation-evidence-20261025",
+          "sha": "5783e8a2214f4669f38fb47feb322558f198dcaa"
+        },
+        {
+          "ref": "audit/count-binding-packet-20261025",
+          "sha": "002de546213af4d2bc5ae60f303a290ef9d95996"
+        },
+        {
+          "ref": "audit/count-retained-release-20261025",
+          "sha": "75b459654c47e9a6e24a4d77bac712bdc1fce3da"
+        },
+        {
+          "ref": "audit/count-runtime-wall-20261025",
+          "sha": "dd648ed1e86a140266e253dd7c7c177e529df932"
+        },
+        {
+          "ref": "audit/discovery-epoch-producer-20261026",
+          "sha": "65f3fac53887d29297f1b1164997eae20702ae32"
+        },
+        {
+          "ref": "audit/dual-runtime-continuation-20261026",
+          "sha": "fefe3a150e88b7b8ae0cba4bc0e3d066db343859"
+        },
+        {
+          "ref": "audit/dual-runtime-main-20261026",
+          "sha": "f063b0059911c145c166a67f7a0c945602b7056d"
+        },
+        {
+          "ref": "audit/first-primary-bootstrap-20261027",
+          "sha": "375d6e4e4d5208b5301d4eff89bdbf0b9537c0ba"
+        },
+        {
+          "ref": "audit/first-primary-bootstrap-main-20261027",
+          "sha": "70ecdb5f198397fbbeecf1f8ef19dc9df5f5f3dd"
+        },
+        {
+          "ref": "audit/fresh-first-primary-claim-20261027",
+          "sha": "5669265e3a5f7e373388f15ccf1a1d99946fb0e5"
+        },
+        {
+          "ref": "audit/fresh-first-primary-claim-main-20261027",
+          "sha": "c6e5848be7792c3b8019b2ef434683567796aba4"
+        },
+        {
+          "ref": "audit/history-runtime-shape-main-20261028",
+          "sha": "dc1d6a040975631e570c2bb834b86725bc735581"
+        },
+        {
+          "ref": "audit/history-runtime-shape-producer-20261028",
+          "sha": "494611dd2a48386f9078d66aa87fe5a1d3f92afb"
+        },
+        {
+          "ref": "audit/metadata-phase-budgets-20261027",
+          "sha": "056a74114aeb48dca0f38ea2c7753422da14b3a5"
+        },
+        {
+          "ref": "audit/metadata-phase-budgets-main-20261027",
+          "sha": "26f3f8824d9088c4b12fd31ce85a9463ac62aede"
+        },
+        {
+          "ref": "audit/numerical-runtime-20261025",
+          "sha": "f77c5cd9a4d875cc2b7c3f55405c053d07484f33"
+        },
+        {
+          "ref": "audit/owner-first-recovery-20261027",
+          "sha": "4e1c255a5f3d18182c53feb7af5a89b81e868a68"
+        },
+        {
+          "ref": "audit/parent-history-final-20261026",
+          "sha": "cf8fbaf76301e88e68262dc4f33950cd3cf17f4d"
+        },
+        {
+          "ref": "audit/pending-post-recovery-20261027",
+          "sha": "77ecb07bb39e4d3adf41fe30eb801796812b6a0d"
+        },
+        {
+          "ref": "audit/pending-post-recovery-main-20261027",
+          "sha": "115a80cb75f20c405308d7c47ba84bbc1d9f256c"
+        },
+        {
+          "ref": "audit/prior-namespace-pending-main-20261028",
+          "sha": "96eb65a185f47a6e0db3ef881ee1eafd940b3e0e"
+        },
+        {
+          "ref": "audit/prior-namespace-pending-read-20261028",
+          "sha": "43a118e37381444bc3ee5b0f7ae51ef6cafcef09"
+        },
+        {
+          "ref": "audit/private-input-masking-20261025",
+          "sha": "adeacd77271abb4e0c46966cea0dc6ec1a62c1c1"
+        },
+        {
+          "ref": "audit/private-rotation-20261025",
+          "sha": "471f4faa4d4b197213f4531b1c37fe6f6fa3e11f"
+        }
+      ]
+    },
+    {
+      "name": "PR90",
+      "data": {
+        "url": "https://github.com/NickNicky19/NFL-forecasting/pull/90",
+        "number": 90,
+        "state": "open",
+        "merged": false,
+        "mergeable": true,
+        "draft": false,
+        "title": "Restore original Count A files in the guarded native producer",
+        "body": "The native Count A extension currently requires its three original private files to be already owned by the runner. Restore the authenticated OWNER_BOOTSTRAP descriptor in the genuine metadata parent before offline inference, retain the original Root, and bind new paths to the actual source/run/job. The original model/corrector, 18-model catalog, output type and separate materialization/row budgets remain intact.\n\nPreserve the existing source-history limit with the parent at 131070/131072 bytes and restore the exact DAD CLI predecessor pin under its existing identity gate. Original 315e/history/model commitments are unchanged. An existing test partition then exhausted its 960-second limit without a reported assertion failure. Frozen measured software-module costs now balance the same full test set across the same four whole-module partitions and unchanged deadlines. Independent coverage arithmetic confirms all 3087 original nodes plus four new CI checks, with no missing or duplicated execution.\n\nAffected runtime/history checks, independent source review, 28 CI-planner checks and all 846 Main acceptance checks pass locally. Required remote CI is running for this final head.\n\nActual owner upload passed identity, authorization, qualification and canary controls, then received HTTP 401 at the first uploads.github.com metadata POST. Post-failure inventory confirms no Count A asset. The inherited connection credential owner must confirm/correct that authentication. No native inference, readable Count A feed, consumer admission or activation is claimed.\n",
+        "base": "research/weekly-storage-probe-v1",
+        "base_sha": "fc3add1eb431e2b75334571350dbbcc8cff399f1",
+        "head": "count-a-owner-native-restore-v1",
+        "head_sha": "cc7c82834edb9a0de404c52d28212737994dd759",
+        "merge_commit_sha": "12fc6d8307b1cd04df4b85d69c6f868a7aa5aac4",
+        "created_at": "2026-11-12T18:36:17Z",
+        "updated_at": "2026-11-12T19:39:32Z",
+        "merged_at": null,
+        "commits": 4,
+        "changed_files": 23
+      }
+    },
+    {
+      "name": "PR91",
+      "data": {
+        "url": "https://github.com/NickNicky19/NFL-forecasting/pull/91",
+        "number": 91,
+        "state": "open",
+        "merged": false,
+        "mergeable": true,
+        "draft": false,
+        "title": "Synchronize Count A owner-restore source validation on main",
+        "body": "Main must validate the same Count A owner-restore source contract as the native producer. Synchronize the shared Count A helper, MAE source inventory and exact DAD predecessor CLI pin, plus the literal helper-hash fixture. The existing preimport, tampering and predecessor identity guards remain intact; producer-only runtimes are not added to main.\n\nValidation: all 846 Main acceptance tests and 33 subtests pass locally; three shared files match the producer byte-for-byte, including the unchanged original history commitments. Genuine owner upload separately stopped at uploads.github.com HTTP 401 before any Count A asset. No inference, feed delivery or activation is claimed.\n",
+        "base": "main",
+        "base_sha": "9c90b5d4043bb881cdbd73b76bd85aaed3a0abbf",
+        "head": "count-a-owner-native-main-sync-v1",
+        "head_sha": "cf3fe6eaeed241d405206b73d67c359290b474ec",
+        "merge_commit_sha": "348769e04c65e5d25c2c7d4088bd663f87b35f4a",
+        "created_at": "2026-11-12T18:36:23Z",
+        "updated_at": "2026-11-12T19:03:40Z",
+        "merged_at": null,
+        "commits": 3,
+        "changed_files": 4
+      }
+    },
+    {
+      "name": "A_MAIN",
+      "data": {
+        "name": "main",
+        "sha": "9c90b5d4043bb881cdbd73b76bd85aaed3a0abbf",
+        "message": "Merge pull request #89 from NickNicky19/research/count-a-main-shared-sync-20261112-v1\n\nSynchronize Main’s guarded Count A registration metadata",
+        "date": "2026-11-12T17:32:05Z"
+      }
+    },
+    {
+      "name": "A_RESEARCH_PRODUCER",
+      "data": {
+        "name": "research/weekly-storage-probe-v1",
+        "sha": "fc3add1eb431e2b75334571350dbbcc8cff399f1",
+        "message": "Merge pull request #88 from NickNicky19/research/count-a-native-shadow-20261112-v1\n\nAdd guarded Count A mean shadow delivery to the existing producer",
+        "date": "2026-11-12T17:30:58Z"
+      }
+    },
+    {
+      "name": "RESEARCH_REFS",
+      "data": [
+        {
+          "ref": "refs/heads/research/accuracy-wave-20261026",
+          "sha": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31"
+        },
+        {
+          "ref": "refs/heads/research/after-audit-distribution-v2-public",
+          "sha": "574b0f3ef834a17fbb745d7e14bec00645533c1e"
+        },
+        {
+          "ref": "refs/heads/research/anytime-blend-publication-20261025",
+          "sha": "52be385bb6e606eeb711798e68c2404fe5e312ed"
+        },
+        {
+          "ref": "refs/heads/research/audit-history-main-v1",
+          "sha": "da590fba5b40e79654859c3619840a2bce399259"
+        },
+        {
+          "ref": "refs/heads/research/audit-history-remediation-v1",
+          "sha": "083674327208b877fdc91ca432e4dfa696280bdb"
+        },
+        {
+          "ref": "refs/heads/research/blinded-week7-capture-20261025",
+          "sha": "8a11b27201a0aee56ef6ca6ccf137f406fd1afe0"
+        },
+        {
+          "ref": "refs/heads/research/cached-correction-pairs-20261025-public",
+          "sha": "81b0f1bafdd4f79575478abb8daab0a469db30dd"
+        },
+        {
+          "ref": "refs/heads/research/combined-yard-publication-20261025",
+          "sha": "4aba1256b8282d30da23b1b6a140ab0121f116e9"
+        },
+        {
+          "ref": "refs/heads/research/count-a-main-shared-sync-20261112-v1",
+          "sha": "11298749041824d30eddbcd1afda5a74f1f9d870"
+        },
+        {
+          "ref": "refs/heads/research/count-a-native-shadow-20261112-v1",
+          "sha": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd"
+        },
+        {
+          "ref": "refs/heads/research/dynamic-workload-results-v1-20261025",
+          "sha": "8ddeee38396f5a289e3ee3d903555b945d0628bc"
+        },
+        {
+          "ref": "refs/heads/research/execution-closure-02-source-v1",
+          "sha": "88dd585b25f86feca2d7ced15d2746b56fa91ce8"
+        },
+        {
+          "ref": "refs/heads/research/ftn-schema-capability-20261025-public",
+          "sha": "04b924305208ab0ff1801334b76f046796c00d62"
+        },
+        {
+          "ref": "refs/heads/research/full-week-method-audit-20261025",
+          "sha": "25edf3ec75c1dbbac27f07493fa00d1cdb34e17e"
+        },
+        {
+          "ref": "refs/heads/research/pooled-ypa-20261022",
+          "sha": "cae6121e2d4dd0fc5a6c7d2217a93cd242533de7"
+        },
+        {
+          "ref": "refs/heads/research/saved-payout-proxy-20261026",
+          "sha": "d7dc8c1a7df0bdc11ea8a4790a059a9ea1942130"
+        },
+        {
+          "ref": "refs/heads/research/session-scorecard-20261025",
+          "sha": "6d5d75517ef6f5a92dc32500702f704ee0b13d28"
+        },
+        {
+          "ref": "refs/heads/research/weekly-storage-probe-v1",
+          "sha": "fc3add1eb431e2b75334571350dbbcc8cff399f1"
+        }
+      ]
+    },
+    {
+      "name": "ALL_REFS",
+      "data": [
+        {
+          "ref": "refs/heads/audit/archive-first-recovery-20261027",
+          "sha": "dc6dffc391f4d5321b95b2ae804b250a2009438a"
+        },
+        {
+          "ref": "refs/heads/audit/archive-first-recovery-main-20261027",
+          "sha": "835808d112e79ba7f1c79187f99c5304060de135"
+        },
+        {
+          "ref": "refs/heads/audit/archive-metadata-runtime-20261025",
+          "sha": "5ba12d23ce7abf577c302f4a8fdd4518963a8012"
+        },
+        {
+          "ref": "refs/heads/audit/archive-packing-20261025",
+          "sha": "cdb3eb5d243ed47ac3657b49e0a5176b5e76fc4c"
+        },
+        {
+          "ref": "refs/heads/audit/artifact-clock-precision-main-20261026",
+          "sha": "74a649178e9c1528223c869a6645e60143f2ba70"
+        },
+        {
+          "ref": "refs/heads/audit/artifact-clock-producer-20261026",
+          "sha": "a1200a4272331d6a6428c54aa89928e1e34516be"
+        },
+        {
+          "ref": "refs/heads/audit/continuation-evidence-20261025",
+          "sha": "5783e8a2214f4669f38fb47feb322558f198dcaa"
+        },
+        {
+          "ref": "refs/heads/audit/count-binding-packet-20261025",
+          "sha": "002de546213af4d2bc5ae60f303a290ef9d95996"
+        },
+        {
+          "ref": "refs/heads/audit/count-retained-release-20261025",
+          "sha": "75b459654c47e9a6e24a4d77bac712bdc1fce3da"
+        },
+        {
+          "ref": "refs/heads/audit/count-runtime-wall-20261025",
+          "sha": "dd648ed1e86a140266e253dd7c7c177e529df932"
+        },
+        {
+          "ref": "refs/heads/audit/discovery-epoch-producer-20261026",
+          "sha": "65f3fac53887d29297f1b1164997eae20702ae32"
+        },
+        {
+          "ref": "refs/heads/audit/dual-runtime-continuation-20261026",
+          "sha": "fefe3a150e88b7b8ae0cba4bc0e3d066db343859"
+        },
+        {
+          "ref": "refs/heads/audit/dual-runtime-main-20261026",
+          "sha": "f063b0059911c145c166a67f7a0c945602b7056d"
+        },
+        {
+          "ref": "refs/heads/audit/first-primary-bootstrap-20261027",
+          "sha": "375d6e4e4d5208b5301d4eff89bdbf0b9537c0ba"
+        },
+        {
+          "ref": "refs/heads/audit/first-primary-bootstrap-main-20261027",
+          "sha": "70ecdb5f198397fbbeecf1f8ef19dc9df5f5f3dd"
+        },
+        {
+          "ref": "refs/heads/audit/fresh-first-primary-claim-20261027",
+          "sha": "5669265e3a5f7e373388f15ccf1a1d99946fb0e5"
+        },
+        {
+          "ref": "refs/heads/audit/fresh-first-primary-claim-main-20261027",
+          "sha": "c6e5848be7792c3b8019b2ef434683567796aba4"
+        },
+        {
+          "ref": "refs/heads/audit/history-runtime-shape-main-20261028",
+          "sha": "dc1d6a040975631e570c2bb834b86725bc735581"
+        },
+        {
+          "ref": "refs/heads/audit/history-runtime-shape-producer-20261028",
+          "sha": "494611dd2a48386f9078d66aa87fe5a1d3f92afb"
+        },
+        {
+          "ref": "refs/heads/audit/metadata-phase-budgets-20261027",
+          "sha": "056a74114aeb48dca0f38ea2c7753422da14b3a5"
+        },
+        {
+          "ref": "refs/heads/audit/metadata-phase-budgets-main-20261027",
+          "sha": "26f3f8824d9088c4b12fd31ce85a9463ac62aede"
+        },
+        {
+          "ref": "refs/heads/audit/numerical-runtime-20261025",
+          "sha": "f77c5cd9a4d875cc2b7c3f55405c053d07484f33"
+        },
+        {
+          "ref": "refs/heads/audit/owner-first-recovery-20261027",
+          "sha": "4e1c255a5f3d18182c53feb7af5a89b81e868a68"
+        },
+        {
+          "ref": "refs/heads/audit/parent-history-final-20261026",
+          "sha": "cf8fbaf76301e88e68262dc4f33950cd3cf17f4d"
+        },
+        {
+          "ref": "refs/heads/audit/pending-post-recovery-20261027",
+          "sha": "77ecb07bb39e4d3adf41fe30eb801796812b6a0d"
+        },
+        {
+          "ref": "refs/heads/audit/pending-post-recovery-main-20261027",
+          "sha": "115a80cb75f20c405308d7c47ba84bbc1d9f256c"
+        },
+        {
+          "ref": "refs/heads/audit/prior-namespace-pending-main-20261028",
+          "sha": "96eb65a185f47a6e0db3ef881ee1eafd940b3e0e"
+        },
+        {
+          "ref": "refs/heads/audit/prior-namespace-pending-read-20261028",
+          "sha": "43a118e37381444bc3ee5b0f7ae51ef6cafcef09"
+        },
+        {
+          "ref": "refs/heads/audit/private-input-masking-20261025",
+          "sha": "adeacd77271abb4e0c46966cea0dc6ec1a62c1c1"
+        },
+        {
+          "ref": "refs/heads/audit/private-rotation-20261025",
+          "sha": "471f4faa4d4b197213f4531b1c37fe6f6fa3e11f"
+        },
+        {
+          "ref": "refs/heads/audit/producer-count-mean-20261025",
+          "sha": "3f7cb5a2b25c3ba6c1fc07cdaea661d53a0ce11f"
+        },
+        {
+          "ref": "refs/heads/audit/recurring-operations-final-20261026",
+          "sha": "1ec16f6fdca455a38ebaaca1635d45bafb86e1be"
+        },
+        {
+          "ref": "refs/heads/audit/recurring-parent-main-20261025",
+          "sha": "8846029ed519f52cc1cfbeeae0a5f8097ac7588e"
+        },
+        {
+          "ref": "refs/heads/audit/recurring-weekly-20261025",
+          "sha": "810be9b1f55bb90f9683bb510d49db954b2e4aa8"
+        },
+        {
+          "ref": "refs/heads/audit/reference-failure-20261025",
+          "sha": "83bd9211a9223ec17927cc031bb3034aa68122ef"
+        },
+        {
+          "ref": "refs/heads/audit/registered-builder-producer-final-20261026",
+          "sha": "75660331eb4acc78bd7b874f2c9ac0f486de7838"
+        },
+        {
+          "ref": "refs/heads/audit/registered-builder-registry-main-20261026",
+          "sha": "54a4faa0f93e69ad727e3a1d7503b820d46c9951"
+        },
+        {
+          "ref": "refs/heads/audit/registration-epoch-main-20261026",
+          "sha": "9d72bca57ee722837011f07db77c9ec651b13bec"
+        },
+        {
+          "ref": "refs/heads/audit/registration-pin-main-20261026",
+          "sha": "1f0a5659770318910c962bfcf301ca85338dbb6f"
+        },
+        {
+          "ref": "refs/heads/audit/registration-pin-producer-20261026",
+          "sha": "9014b0d3e30d3d9be3395a97c8ca0a6eaa338e1c"
+        },
+        {
+          "ref": "refs/heads/audit/release-verified-20261025",
+          "sha": "e078351badf18f807a78960a6c4b75b9129612f5"
+        },
+        {
+          "ref": "refs/heads/audit/retained-epoch-producer-final-20261026",
+          "sha": "43c74df7c182959ec4a095c665b621380d3d1d24"
+        },
+        {
+          "ref": "refs/heads/audit/retained-epoch-registration-main-20261026",
+          "sha": "94e4a6371a93c371760815a113b5fd4a388b0ace"
+        },
+        {
+          "ref": "refs/heads/audit/rotation-metadata-pages-20261026",
+          "sha": "ea89ae4a6440ca490c49b38791e1fd803e6e8cb9"
+        },
+        {
+          "ref": "refs/heads/audit/rotation-receipt-20261025",
+          "sha": "ba15db8e6b2769ae6bbae6132565a949672461cb"
+        },
+        {
+          "ref": "refs/heads/audit/source-history-transition-main-20261028",
+          "sha": "e3b0091563b45ff748d97d28510d30619e1d8ae1"
+        },
+        {
+          "ref": "refs/heads/audit/source-history-transition-producer-20261028",
+          "sha": "96fa196ccc22f10c89ded27e543d1d5fbb7fcf2c"
+        },
+        {
+          "ref": "refs/heads/audit/storage-path-main-20261026",
+          "sha": "69be8811bef104e880c1acf12f770d4883f4697a"
+        },
+        {
+          "ref": "refs/heads/audit/system-20261025",
+          "sha": "42bb1405ad14eecbe4bac54235abddd7c24e1279"
+        },
+        {
+          "ref": "refs/heads/audit/weekly-export-20261025",
+          "sha": "99a8c39d539a6c178df4c542614471f57de24763"
+        },
+        {
+          "ref": "refs/heads/audit/weekly-producer-20261025",
+          "sha": "cd89d6e860734e5d49717139ca3121842e83ce4c"
+        },
+        {
+          "ref": "refs/heads/audit/weekly-runtime-fix-20261025",
+          "sha": "60cfb81625d73c2f47a29f8cd12faaa853cca6f0"
+        },
+        {
+          "ref": "refs/heads/count-a-owner-native-main-sync-v1",
+          "sha": "cf3fe6eaeed241d405206b73d67c359290b474ec"
+        },
+        {
+          "ref": "refs/heads/count-a-owner-native-restore-v1",
+          "sha": "cc7c82834edb9a0de404c52d28212737994dd759"
+        },
+        {
+          "ref": "refs/heads/fix/hosted-source-publication-guard-v1",
+          "sha": "16312015f881fde84c2ecdaa06c59b788151af71"
+        },
+        {
+          "ref": "refs/heads/lab-state",
+          "sha": "275aa84b27c4239d3b2dfea07755734d9db0ac7c"
+        },
+        {
+          "ref": "refs/heads/main",
+          "sha": "9c90b5d4043bb881cdbd73b76bd85aaed3a0abbf"
+        },
+        {
+          "ref": "refs/heads/production/archive-admission-controls-20261031",
+          "sha": "039ecbe8fdd44e396f665a412b3cbc8b2fec763b"
+        },
+        {
+          "ref": "refs/heads/production/archive-admission-read-20261031",
+          "sha": "bea89f73a816e967d01a6955857be4b305f28af0"
+        },
+        {
+          "ref": "refs/heads/production/mae-canonical-period-20261102",
+          "sha": "1bc61d7d17ad40c1954d92cfe9cafe8c6bedee21"
+        },
+        {
+          "ref": "refs/heads/production/mae-canonical-period-parent-20261102",
+          "sha": "7026fae1dda0021e1bf82bb4d235c5d66488457d"
+        },
+        {
+          "ref": "refs/heads/production/mae-capacity-boundary-20261101",
+          "sha": "205cdea2846a3c1f642110b69368cedabc70165a"
+        },
+        {
+          "ref": "refs/heads/production/mae-capacity-parent-20261101",
+          "sha": "a9eeea4b51e2ac411dde8b1dda40befaf7927afb"
+        },
+        {
+          "ref": "refs/heads/production/mae-category-release-20261031",
+          "sha": "1d896c8d067cbe7f01334915091e08499b7afbc4"
+        },
+        {
+          "ref": "refs/heads/production/mae-controller-metadata-20261031",
+          "sha": "13f491e49adad07749e67b8b68edfc9983f9848e"
+        },
+        {
+          "ref": "refs/heads/production/mae-exact-no-write-20261101",
+          "sha": "22dd8f3eca6b0eb0257b2a12245947117657ce8c"
+        },
+        {
+          "ref": "refs/heads/production/mae-fresh-namespace-20261102",
+          "sha": "dbc102592420d48e59acf45b838cc8042f435a93"
+        },
+        {
+          "ref": "refs/heads/production/mae-fresh-parent-20261102",
+          "sha": "74290aa8a96a420c39c1e4f7433552d32997a562"
+        },
+        {
+          "ref": "refs/heads/production/mae-infer-local-scope-20261102",
+          "sha": "28b56fc4fbc536f92eb92f882f75942b27c44e30"
+        },
+        {
+          "ref": "refs/heads/production/mae-infer-local-scope-parent-20261102",
+          "sha": "0b14c88c38fefa863c5bc7c7899e892acab990fe"
+        },
+        {
+          "ref": "refs/heads/production/mae-native-metadata-20261101",
+          "sha": "4742d9be4fcb9b62b5be5be15e89ef753e71ea53"
+        },
+        {
+          "ref": "refs/heads/production/mae-native-readiness-20261031",
+          "sha": "78b1d4d50aea16fed37e5d209518a371aeaeed24"
+        },
+        {
+          "ref": "refs/heads/production/mae-no-write-metadata-20261101",
+          "sha": "801769733808106e50582e47d59ccbf8727aaf62"
+        },
+        {
+          "ref": "refs/heads/production/mae-prior-v5-archive-20261103",
+          "sha": "a0f2ca28142ccc548d5575b000d9a7780293d96b"
+        },
+        {
+          "ref": "refs/heads/production/mae-prior-v5-archive-parent-20261103",
+          "sha": "da69966432749339b3dc263ec95c2e9e056fdcdb"
+        },
+        {
+          "ref": "refs/heads/production/mae-retained-binding-20261101",
+          "sha": "9dc69a31bcae2538f2d7fc0c096fbe917c64222a"
+        },
+        {
+          "ref": "refs/heads/production/mae-retained-parent-20261101",
+          "sha": "ca58105ec035949035c603861327fa70721681e1"
+        },
+        {
+          "ref": "refs/heads/production/mae-v5-history-parent-20261101",
+          "sha": "99ece0738f41691cbf3f87a12cf6d1ba191bf3d8"
+        },
+        {
+          "ref": "refs/heads/production/mae-v5-owner-history-20261101",
+          "sha": "85a25b0cc1ff4d167151cd41d8e8df74623d9673"
+        },
+        {
+          "ref": "refs/heads/production/mae-v5-pinned-history-20261101",
+          "sha": "16e4d2f875c89e553bc0f6326ed45e200c4ae0e6"
+        },
+        {
+          "ref": "refs/heads/production/mae-v5-pinned-history-parent-20261101",
+          "sha": "eaf74621c2ef6d7670be9eb77b6091eb0ddf219f"
+        },
+        {
+          "ref": "refs/heads/research/accuracy-wave-20261026",
+          "sha": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31"
+        },
+        {
+          "ref": "refs/heads/research/after-audit-distribution-v2-public",
+          "sha": "574b0f3ef834a17fbb745d7e14bec00645533c1e"
+        },
+        {
+          "ref": "refs/heads/research/anytime-blend-publication-20261025",
+          "sha": "52be385bb6e606eeb711798e68c2404fe5e312ed"
+        },
+        {
+          "ref": "refs/heads/research/audit-history-main-v1",
+          "sha": "da590fba5b40e79654859c3619840a2bce399259"
+        },
+        {
+          "ref": "refs/heads/research/audit-history-remediation-v1",
+          "sha": "083674327208b877fdc91ca432e4dfa696280bdb"
+        },
+        {
+          "ref": "refs/heads/research/blinded-week7-capture-20261025",
+          "sha": "8a11b27201a0aee56ef6ca6ccf137f406fd1afe0"
+        },
+        {
+          "ref": "refs/heads/research/cached-correction-pairs-20261025-public",
+          "sha": "81b0f1bafdd4f79575478abb8daab0a469db30dd"
+        },
+        {
+          "ref": "refs/heads/research/combined-yard-publication-20261025",
+          "sha": "4aba1256b8282d30da23b1b6a140ab0121f116e9"
+        },
+        {
+          "ref": "refs/heads/research/count-a-main-shared-sync-20261112-v1",
+          "sha": "11298749041824d30eddbcd1afda5a74f1f9d870"
+        },
+        {
+          "ref": "refs/heads/research/count-a-native-shadow-20261112-v1",
+          "sha": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd"
+        },
+        {
+          "ref": "refs/heads/research/dynamic-workload-results-v1-20261025",
+          "sha": "8ddeee38396f5a289e3ee3d903555b945d0628bc"
+        },
+        {
+          "ref": "refs/heads/research/execution-closure-02-source-v1",
+          "sha": "88dd585b25f86feca2d7ced15d2746b56fa91ce8"
+        },
+        {
+          "ref": "refs/heads/research/ftn-schema-capability-20261025-public",
+          "sha": "04b924305208ab0ff1801334b76f046796c00d62"
+        },
+        {
+          "ref": "refs/heads/research/full-week-method-audit-20261025",
+          "sha": "25edf3ec75c1dbbac27f07493fa00d1cdb34e17e"
+        },
+        {
+          "ref": "refs/heads/research/pooled-ypa-20261022",
+          "sha": "cae6121e2d4dd0fc5a6c7d2217a93cd242533de7"
+        },
+        {
+          "ref": "refs/heads/research/saved-payout-proxy-20261026",
+          "sha": "d7dc8c1a7df0bdc11ea8a4790a059a9ea1942130"
+        },
+        {
+          "ref": "refs/heads/research/session-scorecard-20261025",
+          "sha": "6d5d75517ef6f5a92dc32500702f704ee0b13d28"
+        },
+        {
+          "ref": "refs/heads/research/weekly-storage-probe-v1",
+          "sha": "fc3add1eb431e2b75334571350dbbcc8cff399f1"
+        }
+      ]
+    }
+  ]
+}

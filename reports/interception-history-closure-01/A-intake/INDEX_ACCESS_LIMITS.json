@@ -1,0 +1,30 @@
+{
+  "default_main_index": {
+    "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+    "error_code": "NOT_FOUND",
+    "error_data": {
+      "message": "Not Found",
+      "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+      "status": "404"
+    }
+  },
+  "after_audit_public_index": {
+    "error": "GitHub API error 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/contents#get-repository-content\",\"status\":\"404\"}",
+    "error_code": "NOT_FOUND",
+    "error_data": {
+      "message": "Not Found",
+      "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+      "status": "404"
+    }
+  },
+  "accuracy_branch_index": {
+    "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+    "git_blob_SHA": "d6aebf88b9de55bbae383fb78ffcc53790e4e3bc",
+    "observed_exports": 16,
+    "scope": "Latest actual accuracy-wave ref.16th finalmileexport and mergedPR88/89 receipts; no named newerBackfield/CatBoost-HGB pass_cmp completion receipt located in this index."
+  },
+  "encoded_research_branch_failure": {
+    "error": "HTTPError: 400: GitHub Fetch URL contains an invalid repository path. (Response: None)",
+    "error_code": "INVALID_ARGUMENT"
+  }
+}

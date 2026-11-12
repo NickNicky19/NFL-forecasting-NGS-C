@@ -1,0 +1,911 @@
+{
+  "id": "C-RETAINED-W9-GRADING-REUSE-20261112-v1",
+  "started_UTC": "2026-11-12T20:58:06.822578+00:00",
+  "completed_UTC": "2026-11-12T20:58:07.202675+00:00",
+  "status": "REUSED_EXISTING_QUALIFIED_GRADES_NO_NEW_TEST",
+  "verified_HEAD": "fafb891146abed7818b26a2e5cc928e3c14682dc",
+  "executing_verifier_SHA256": "1913805d78fb26c008ecb8fb3e0ece51777cb0e9b38d3a31554078118e0f316a",
+  "original_grader_SHA256": "304cbd7a9b646d443d158ef732cc6535b186f3cf57e58e3f209741ef442d565e",
+  "new_source_reads": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_grade_calls": 0,
+  "new_NFL_games": 0,
+  "new_actual_offer_weeks": 0,
+  "newly_admitted_existing_scope": {
+    "season": 2026,
+    "week": 9,
+    "games": [
+      "2026_09_CIN_ATL",
+      "2026_09_JAX_BAL"
+    ],
+    "forecast_rows": 382,
+    "graded_played": 226,
+    "unknown": 156,
+    "pending": 0
+  },
+  "evidence_tier": "ORIGINAL_GITHUB_PERSISTED_PREGAME_FORECAST_ONLY;NO_QUALIFIED_ACTUAL_OFFERS",
+  "actual_offer_O_U_combined": "N/A_NO_FROZEN_ACTUAL_LINES",
+  "venue_settlement": "UNVERIFIED_NOT_BETTING_RETURNS",
+  "interceptions": {
+    "eligible": 12,
+    "graded": 4,
+    "explicit_reported_zero": 2,
+    "unknown": 8,
+    "unknown_to_zero_changes": 0,
+    "scope": "C_NATIVE_W9_ONLY;NO_CLAIM_ABOUT_ORIGINAL_WEBSITE46"
+  },
+  "CPU_seconds": 0.3303453209999998,
+  "wall_seconds": 0.38147685500007356,
+  "peak_RSS_bytes": 140570624,
+  "bindings": [
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-pass_yd",
+      "run_manifest": {
+        "path": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-pass_yd/RUN.json",
+        "SHA256": "1f3f019eed97b35cde321e0eebbc47830f8c765f4b0aba89984cf9e9c2ffe092"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-pass_yd/forecasts.json.gz",
+        "SHA256": "d8238a5d6df17e907d21692ef8ff579feaf73ad1cf264207084c9a6d43c88ccc"
+      },
+      "server_receipt": {
+        "path": "prospective/receipts/C-FWD-v4-20261105-W09-JAXBAL-pass_yd-server.json",
+        "SHA256": "a9e59a79ec6db136c326ebebcaee517bcada26eb662c8a688a408833fec9a0a8",
+        "persistence_UTC": "2026-11-05T23:34:29Z",
+        "capture_commit": "0496ad9ddc233c0dca1e18a381afcc00fcaf5a50"
+      },
+      "grade": {
+        "path": "prospective/grades/C-NATIVE-GRADE-20261107-JAXBAL-01-C-FWD-v4-20261105-W09-JAXBAL-pass_yd.json",
+        "SHA256": "9fd277477ca642013a5918e70e0f42436f71a50ab3e4546cb4fa42dec2b61f49",
+        "created_UTC": "2026-11-07T12:58:12.347631+00:00"
+      },
+      "outcomes": {
+        "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/OUTCOMES.json",
+        "SHA256": "e3f57ee611bd84880f8f1dc75696fb32d8aff366c5a2ba8033bbf2904e43d885",
+        "version": "C-NATIVE-GRADE-20261107-JAXBAL-01"
+      },
+      "source_evidence": [
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/player_facts.csv.gz",
+          "SHA256": "e3918498f07bbb0a244d7b5ecd72a43cb11dcc53403791414225baccf77e507e",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/native_status.json",
+          "SHA256": "577262edd2af0cac1fb9b55e8a707c79d54dcc08cccc40bd9866f2c5561e7f69",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/schedule.csv",
+          "SHA256": "e0a195e4daf8f06127b015407744da1a0a867aa4d09d3ce7b0967246809f514c",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/SOURCE_MANIFEST.json",
+          "SHA256": "233d87ba4c1dc4a381c934efd8e94ee4d8917829a06dd183187d98c5e7d77506",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/ATTRIBUTION.md",
+          "SHA256": "5a9a021a40cfa3666d23d05af9f4456159035772edbda0733784e8f522dced1f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        }
+      ],
+      "source_native_status_observed_UTC": "2026-11-07T12:58:10.121186+00:00",
+      "unjoined_source_rows": [
+        {
+          "game_id": "2026_09_JAX_BAL",
+          "team": "JAX",
+          "reason": "NO_NATIVE_ID_EXPLICIT_ALL_ZERO_SOURCE_AGGREGATE_NOT_JOINED_TO_FORECAST"
+        }
+      ],
+      "method_identity": [
+        {
+          "target": "pass_yd",
+          "model_SHA256": "c8816191717cb49172fc61ae9d27fdcd1bc49eaa1431abae93e024924598eefe",
+          "model_key": "e0bec7c39332054c0c36288c49858c882bb3950bc288f9de2a724447ddad674d",
+          "training_rows": 2900,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:17:07.296420+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:16:55.230336905+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_yd.json.gz"
+        }
+      ]
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "run_manifest": {
+        "path": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-remainder/RUN.json",
+        "SHA256": "482510862443e6c7c2f28c55568f5297cb09b35d8274789c7dfb9d9c3d50a9bd"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-remainder/forecasts.json.gz",
+        "SHA256": "a0b627b38c7528cedc908e350423cf557ef9ec58c900cb3a6e88c835bf817111"
+      },
+      "server_receipt": {
+        "path": "prospective/receipts/C-FWD-v4-20261105-W09-JAXBAL-remainder-server.json",
+        "SHA256": "09e6b8878a486a4c8ef73f29703f4d1df16e3d20259ee4c5f2339f2d1ebfb52c",
+        "persistence_UTC": "2026-11-05T23:34:29Z",
+        "capture_commit": "0496ad9ddc233c0dca1e18a381afcc00fcaf5a50"
+      },
+      "grade": {
+        "path": "prospective/grades/C-NATIVE-GRADE-20261107-JAXBAL-01-C-FWD-v4-20261105-W09-JAXBAL-remainder.json",
+        "SHA256": "02ee633e91c674d142b50eab17ebc5ff10d08f8e0d9b44b756e91a6410b648e2",
+        "created_UTC": "2026-11-07T12:58:13.228189+00:00"
+      },
+      "outcomes": {
+        "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/OUTCOMES.json",
+        "SHA256": "e3f57ee611bd84880f8f1dc75696fb32d8aff366c5a2ba8033bbf2904e43d885",
+        "version": "C-NATIVE-GRADE-20261107-JAXBAL-01"
+      },
+      "source_evidence": [
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/player_facts.csv.gz",
+          "SHA256": "e3918498f07bbb0a244d7b5ecd72a43cb11dcc53403791414225baccf77e507e",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/native_status.json",
+          "SHA256": "577262edd2af0cac1fb9b55e8a707c79d54dcc08cccc40bd9866f2c5561e7f69",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/schedule.csv",
+          "SHA256": "e0a195e4daf8f06127b015407744da1a0a867aa4d09d3ce7b0967246809f514c",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/SOURCE_MANIFEST.json",
+          "SHA256": "233d87ba4c1dc4a381c934efd8e94ee4d8917829a06dd183187d98c5e7d77506",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261107-JAXBAL-01/evidence/ATTRIBUTION.md",
+          "SHA256": "5a9a021a40cfa3666d23d05af9f4456159035772edbda0733784e8f522dced1f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        }
+      ],
+      "source_native_status_observed_UTC": "2026-11-07T12:58:10.121186+00:00",
+      "unjoined_source_rows": [
+        {
+          "game_id": "2026_09_JAX_BAL",
+          "team": "JAX",
+          "reason": "NO_NATIVE_ID_EXPLICIT_ALL_ZERO_SOURCE_AGGREGATE_NOT_JOINED_TO_FORECAST"
+        }
+      ],
+      "method_identity": [
+        {
+          "target": "pass_td",
+          "model_SHA256": "d0912ebc56c3d33ed63c377b9d0d8b4658e5bc61b88d88d42ef42800cb41ca85",
+          "model_key": "040694f6815e6d9193d41df08243d63d902a8aa3b8103dd85e2507b358fa1911",
+          "training_rows": 2900,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:11.700912+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_td.json.gz"
+        },
+        {
+          "target": "pass_cmp",
+          "model_SHA256": "edc425f960155c443f678c0ea008fe30030a5af8df7ba2083963f5ae982f1cd0",
+          "model_key": "23714617da76d22511ddfa38df6d04e9ec7aadf2206e7c39fced6535fb3512c4",
+          "training_rows": 2900,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:12.537532+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_cmp.json.gz"
+        },
+        {
+          "target": "pass_att",
+          "model_SHA256": "453fb2c981a938d41cb13725f4353b5ec886854f450e74768444fb5262c9eeb0",
+          "model_key": "41896e8884d645fd52faf3efcf5d83c977548a30069cbec6949257d6fc30b4f5",
+          "training_rows": 2900,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:13.376776+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_att.json.gz"
+        },
+        {
+          "target": "pass_int",
+          "model_SHA256": "d38d99a23c2e7fb0162415187004f41268af2919ff2f39e05b828cc0df739dbf",
+          "model_key": "0357968234d38129dd27d5f3f9560cb7c97c879bf711084de582f14084bf2ff3",
+          "training_rows": 2900,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:14.195510+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_int.json.gz"
+        },
+        {
+          "target": "rush_yd",
+          "model_SHA256": "5313c16ccc3fb79c0bbb5c3fc101aafab3705d8de4759a6f3138f81a6d38370d",
+          "model_key": "caab6e5d2edad900d912296f09af3275d9e2bb45f10f31ae6288800a44c29a04",
+          "training_rows": 24735,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:19.011114+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 13,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_yd.json.gz"
+        },
+        {
+          "target": "rush_att",
+          "model_SHA256": "0b342f38c4ba8574bf3cee33b63a44e21544ad33c7c764dad15dfee756186305",
+          "model_key": "a21eda77da4a649a5c968cab5a86724d782b4829de3dec4ff8ab54184f26f290",
+          "training_rows": 24735,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:23.611333+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 13,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_att.json.gz"
+        },
+        {
+          "target": "rec",
+          "model_SHA256": "8a333940431311a6670e6630b6a42f88502e04a1047c55062101bd32a5dae536",
+          "model_key": "29c1f9a66f9f660315560c02571c245c18fe65646a4d0b5a828ce5609fe00ded",
+          "training_rows": 21835,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:27.514168+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 27,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rec.json.gz"
+        },
+        {
+          "target": "rec_yd",
+          "model_SHA256": "085a0bed16d91a358a5b74c5690e747f67e1e7745667a311afac4329ad1758b7",
+          "model_key": "9a5653e3acf089532c43e16327446265e0873b264847907f33ea4ea363a8760d",
+          "training_rows": 21835,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:32.160886+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 27,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rec_yd.json.gz"
+        },
+        {
+          "target": "rush_rec_yd",
+          "model_SHA256": "d873c5b3bddd83251e3b92306de8b3b7048af8b6c26da2618c3aee8fb51a28de",
+          "model_key": "ab9bd19acbfdc79f0ac1ee6837b8f055c0eccbe813883432d72a63548eb3044d",
+          "training_rows": 24735,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:38.956116+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 27,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_rec_yd.json.gz"
+        },
+        {
+          "target": "anytime_td",
+          "model_SHA256": "b7ec97ab03bcc59cc9221f1a92248ee45721b63d283d487d3e8d9472e8a96986",
+          "model_key": "b5a330ea1d94616ed3e55e47b51c3568ab7fcbc2d9a0f0842ebccc46903bde5f",
+          "training_rows": 24735,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:43.799358+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 33,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/anytime_td.json.gz"
+        },
+        {
+          "target": "fpts",
+          "model_SHA256": "ff5715e07b33a458302f5c69525837ba58fd5a210b5312351bc051cde31933bb",
+          "model_key": "d04ce663b4a8b31cc2af258ab0afc2930ffccc017d6574d47aa8e69279930882",
+          "training_rows": 24677,
+          "training_through_UTC": "2026-11-03T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "64ddab3c550f606f1314363f7b9ddffaf7114599db95fa1e92c84f91a9ecdd1b",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-05T23:18:48.685745+00:00",
+          "fit_information_cutoff_UTC": "2026-11-05T23:18:02.414792061+00:00",
+          "numeric_export_parity_queries": 33,
+          "training_label_qualification": "PARTIAL_RARE_ZERO_SUBSET",
+          "reused": false,
+          "artifact": "models/fpts.json.gz"
+        }
+      ]
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-pass_yd",
+      "run_manifest": {
+        "path": "prospective/runs/C-FWD-v4-20261107-W09-CINATL-pass_yd/RUN.json",
+        "SHA256": "cc9890fb88832aad74eb6f4c56e8a00ccf15fde53e35746a481143e8ed24d3f5"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-FWD-v4-20261107-W09-CINATL-pass_yd/forecasts.json.gz",
+        "SHA256": "644ffc53279c8cdafb2f99679a3f6dc67b9aa370fc6d2fe756a8718f18ef453c"
+      },
+      "server_receipt": {
+        "path": "prospective/receipts/C-FWD-v4-20261107-W09-CINATL-pass_yd-server.json",
+        "SHA256": "6f228c7d7c91cc263f89b9ca00bf05932d47c979a40da13b4e8b663ea434602e",
+        "persistence_UTC": "2026-11-07T13:56:39Z",
+        "capture_commit": "41211b96f20747b66a595a939a6af5edfdb0e63b"
+      },
+      "grade": {
+        "path": "prospective/grades/C-NATIVE-GRADE-20261110-CINATL-01-C-FWD-v4-20261107-W09-CINATL-pass_yd.json",
+        "SHA256": "309b4b15be62c35064ded7d689e70ec2381382b1b8d072edb60207a474fab233",
+        "created_UTC": "2026-11-10T00:38:51.157171+00:00"
+      },
+      "outcomes": {
+        "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/OUTCOMES.json",
+        "SHA256": "503fe712f97559bdf85457cb9c3f7d74cdf208641d8413122c2171f67daa82c7",
+        "version": "C-NATIVE-GRADE-20261110-CINATL-01"
+      },
+      "source_evidence": [
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/player_facts.csv.gz",
+          "SHA256": "ded61c1bfbaf6095f1ec794ecd6a5351f66e6ce514be345fce5f2b20f44382f1",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/native_status.json",
+          "SHA256": "5cc03dacf27265443777f35abf3f0cbe2c9e2f4f61a0a64af796fd9707556e9f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/schedule.csv",
+          "SHA256": "a3d8e7ed9cd172df9df1c0ff5dacf8657cb930038d0ffff9218c2bff724d1f3d",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/SOURCE_MANIFEST.json",
+          "SHA256": "7214ad651a20b5388764cdbc924c8b476fee439e12fd57ce70b2c5a63973cc96",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/ATTRIBUTION.md",
+          "SHA256": "5a9a021a40cfa3666d23d05af9f4456159035772edbda0733784e8f522dced1f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        }
+      ],
+      "source_native_status_observed_UTC": "2026-11-10T00:38:48.657819+00:00",
+      "unjoined_source_rows": [],
+      "method_identity": [
+        {
+          "target": "pass_yd",
+          "model_SHA256": "326a67e1a7d5f7e830555e28f94b1adfd1547d87ac830b1c53922a71873e1e4e",
+          "model_key": "1d3b70766b60b3073f745590bfa3ba4a22bccff90f50a74c0f84950c8e66b87a",
+          "training_rows": 2902,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:37:58.502830+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:37:44.892234087+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_yd.json.gz"
+        }
+      ]
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "run_manifest": {
+        "path": "prospective/runs/C-FWD-v4-20261107-W09-CINATL-remainder/RUN.json",
+        "SHA256": "8b570c07794f8e01d3b05cf4b404afe25c7bf1e18e9d137b1f498b8d9c41abc2"
+      },
+      "forecasts": {
+        "path": "prospective/runs/C-FWD-v4-20261107-W09-CINATL-remainder/forecasts.json.gz",
+        "SHA256": "9642639599f4f7fde54d46e144ebf959b5e144a0f878a0ba22d4025eb12a4d4d"
+      },
+      "server_receipt": {
+        "path": "prospective/receipts/C-FWD-v4-20261107-W09-CINATL-remainder-server.json",
+        "SHA256": "2fb7e6ab89c35bad8065f12c7ed79747bd647cf1abf46cd33307415dd8372a2e",
+        "persistence_UTC": "2026-11-07T13:56:39Z",
+        "capture_commit": "41211b96f20747b66a595a939a6af5edfdb0e63b"
+      },
+      "grade": {
+        "path": "prospective/grades/C-NATIVE-GRADE-20261110-CINATL-01-C-FWD-v4-20261107-W09-CINATL-remainder.json",
+        "SHA256": "1c08e68e498baa8e1041ebc0e0bdb805c9165215f999265ffa1359ab668696ee",
+        "created_UTC": "2026-11-10T00:38:50.480413+00:00"
+      },
+      "outcomes": {
+        "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/OUTCOMES.json",
+        "SHA256": "503fe712f97559bdf85457cb9c3f7d74cdf208641d8413122c2171f67daa82c7",
+        "version": "C-NATIVE-GRADE-20261110-CINATL-01"
+      },
+      "source_evidence": [
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/player_facts.csv.gz",
+          "SHA256": "ded61c1bfbaf6095f1ec794ecd6a5351f66e6ce514be345fce5f2b20f44382f1",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/native_status.json",
+          "SHA256": "5cc03dacf27265443777f35abf3f0cbe2c9e2f4f61a0a64af796fd9707556e9f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/schedule.csv",
+          "SHA256": "a3d8e7ed9cd172df9df1c0ff5dacf8657cb930038d0ffff9218c2bff724d1f3d",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/SOURCE_MANIFEST.json",
+          "SHA256": "7214ad651a20b5388764cdbc924c8b476fee439e12fd57ce70b2c5a63973cc96",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        },
+        {
+          "path": "prospective/outcomes/C-NATIVE-GRADE-20261110-CINATL-01/evidence/ATTRIBUTION.md",
+          "SHA256": "5a9a021a40cfa3666d23d05af9f4456159035772edbda0733784e8f522dced1f",
+          "source": "QUALIFIED_ORDINARY_FACTS"
+        }
+      ],
+      "source_native_status_observed_UTC": "2026-11-10T00:38:48.657819+00:00",
+      "unjoined_source_rows": [],
+      "method_identity": [
+        {
+          "target": "pass_td",
+          "model_SHA256": "3edad4c33b9a9777613db6a361f3bba7d079896c3dc40ccbe6e6894a74f73575",
+          "model_key": "f76f37436856e89b4773279dd9c9a31edd7eac277f5d67f1721ea0ccb980209f",
+          "training_rows": 2902,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:38.141526+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_td.json.gz"
+        },
+        {
+          "target": "pass_cmp",
+          "model_SHA256": "0814fc35f181a7244c0402e39d3b3399f7c660993b5e1c67895bbfde6a5d250c",
+          "model_key": "b3b46b1349ac5f9a2dcbc027125bd0dc3497c0758c0a8ee4e38cb318e44a552b",
+          "training_rows": 2902,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:40.400319+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_cmp.json.gz"
+        },
+        {
+          "target": "pass_att",
+          "model_SHA256": "6fb87f4a09c93055f40c9c2703264076f9d648a77e20d87577d7370992b82f17",
+          "model_key": "804bfe73c483e164dd6b83453b29a6c2a1d678da9da89e6fd1358d082af4dfc2",
+          "training_rows": 2902,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:41.598493+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_att.json.gz"
+        },
+        {
+          "target": "pass_int",
+          "model_SHA256": "e308a8322a5c903df5b3c7475a5c94c10eaecede08afb7923ea942ae78273e58",
+          "model_key": "f36626e1ac5c8c42ff7a39fb57ad0ae3fe759b73a989640e65f9a3d8f2f25f7f",
+          "training_rows": 2902,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:42.743453+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 6,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/pass_int.json.gz"
+        },
+        {
+          "target": "rush_yd",
+          "model_SHA256": "08664898a9c6db8f097adefb0ba26d617d22962f9b49999fa2e24ea507b9c959",
+          "model_key": "9c33d1f95e83f031a9cc20b871b035c106f2f72719419c742ee68c6d6d5d27e6",
+          "training_rows": 24755,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:48.481161+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 11,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_yd.json.gz"
+        },
+        {
+          "target": "rush_att",
+          "model_SHA256": "1dacd9d5efe86244bd23e6e33dc558deaf46e555594866589927ce78cdad406c",
+          "model_key": "cc57c85d0255899f2a433480799953a5ff1311316a777b5b117e7bd57909710d",
+          "training_rows": 24755,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:54.409830+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 11,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_att.json.gz"
+        },
+        {
+          "target": "rec",
+          "model_SHA256": "42226fd728c7a295e17f2334866a588758c059affd181c96f9bfe12aba7d9d60",
+          "model_key": "1ac2fe689534bde9d9c7151fcea48bcb140222797f4765a3669d8cca8f32daab",
+          "training_rows": 21853,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:39:58.584282+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 23,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rec.json.gz"
+        },
+        {
+          "target": "rec_yd",
+          "model_SHA256": "70f903d92ca8522afd3211360619e1225c2ff8d828a285800fa43137632e42e8",
+          "model_key": "f9dd21962e3126ba7bd37e029e0c8e6cef7df0da629a9ae6e982b5ac08212907",
+          "training_rows": 21853,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:40:03.482631+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 23,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rec_yd.json.gz"
+        },
+        {
+          "target": "rush_rec_yd",
+          "model_SHA256": "6d6655b7e747deacf0d744b21498d750a544116aa1dd9c597fba9034f9f1b4ef",
+          "model_key": "536b4122f45b49d06b3356247eff15f982df15f18dd1ce28c0a2cd95b14c3a2a",
+          "training_rows": 24755,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 41,
+          "arm": "E0_DEF",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:40:08.640525+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 23,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/rush_rec_yd.json.gz"
+        },
+        {
+          "target": "anytime_td",
+          "model_SHA256": "a8a8ab6bda1e0eba7781d0f16ffaa135ba572ddf059dbaeb77912dac95789d0b",
+          "model_key": "2ca7bf567cab8929659feb6bb9028373774238e86489ee04a1ce05c26ce23a66",
+          "training_rows": 24755,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 32,
+          "arm": "E0_OP",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:40:13.501696+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 29,
+          "training_label_qualification": "OFFICIAL_SUPPORTED_PLAYED_STATS",
+          "reused": false,
+          "artifact": "models/anytime_td.json.gz"
+        },
+        {
+          "target": "fpts",
+          "model_SHA256": "ebeb88833d0c04466bd468e4326fab1d06ff40cfd923ffaea73d8e89ff704363",
+          "model_key": "b93e4e83f77aa73c4f4c623f283fad6347bcedd56d0f4a68ff10c75834aaacac",
+          "training_rows": 24697,
+          "training_through_UTC": "2026-11-06T01:15:00+00:00",
+          "features": 35,
+          "arm": "E0_ENV",
+          "history": "H-MULTI_2022_PLUS_VERIFIED_COMPLETED",
+          "policy_SHA256": "ac1a5ab12026cf8dc1ecb69ab96434b07785c56edf0570b1fb442c5c2f6706cb",
+          "code_SHA256": {
+            "prospective_v4.py": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+            "forward_sources_v4.py": "b05f17e7c0f26310e57b4d4bb09e40ffac341eac99abf2606626590b0193afe8",
+            "forward_budget_v4.py": "bd20dc036ecab2b7754ab5daf7c288ff272444f285cb3d31406725c645d20a83",
+            "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+            "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+            "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+            "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+          },
+          "created_UTC": "2026-11-07T13:40:18.350919+00:00",
+          "fit_information_cutoff_UTC": "2026-11-07T13:39:28.223182917+00:00",
+          "numeric_export_parity_queries": 29,
+          "training_label_qualification": "PARTIAL_RARE_ZERO_SUBSET",
+          "reused": false,
+          "artifact": "models/fpts.json.gz"
+        }
+      ]
+    }
+  ]
+}

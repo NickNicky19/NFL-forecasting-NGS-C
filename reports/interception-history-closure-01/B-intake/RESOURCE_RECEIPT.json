@@ -1,0 +1,23 @@
+{
+  "id": "C-INTERCEPTION-B-INTAKE-RESOURCES-v1",
+  "checked_UTC": "2026-11-12T20:58:20.180864+00:00",
+  "registration": {
+    "path": "reports/interception-history-closure-01/B-intake/REGISTRATION.json",
+    "SHA256": "367771624d4a65b34374e68d359e891f94d5ecd71c7e90ecf337f9d48beca279"
+  },
+  "bound_reads": 10,
+  "connector_reads": 8,
+  "CLI_same_file_fallback_reads": 2,
+  "total_returned_response_bytes": 3114914,
+  "returned_byte_definition": "Complete normalized connector-return UTF8 JSON bytes plus actual CLI response bytes, including transport duplicates/errors. No private/source network acquisition.",
+  "maximum_response_bytes": 4194304,
+  "retention_before_resource_and_manifest_bytes": 326744,
+  "maximum_retention_bytes": 1048576,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_grading": 0,
+  "other_repository_writes_or_peer_messages": 0,
+  "source_clock_scope": "Local registration precedes all reads. Index publication timestamp is owner metadata; authenticated offer/source clocks are not newly established. No exact per-request upstream Date is invented.",
+  "transport_limit_and_correction_receipt": "reports/interception-history-closure-01/B-intake/TRANSPORT_NORMALIZATION.json",
+  "closed": "No further discovery/polling under this package."
+}

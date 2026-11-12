@@ -1,0 +1,26 @@
+{
+  "schema": "C-PERSONNEL-ROSTER-SCOPE-v1",
+  "current_event": "2026_10_WAS_NYG",
+  "current_source_observed_UTC": "2026-11-12T20:48:05.347215+00:00",
+  "full_current_event_effective_roster": "NOT_ESTABLISHED",
+  "expected_starter_or_role": "UNKNOWN_NOT_FILLED_FROM_INJURY_REPORT",
+  "existing_roster_reference": {
+    "path": "sources/profile-closure-next-02/roster_current_season.json",
+    "SHA256": "bf725f7bd40b6327e03a0ae040ff107d51fe5defa7f2b1bbea2831bf66642050",
+    "rows": 959,
+    "target_team_rows": 60,
+    "source_observed_UTC": "2026-11-10T18:45:38.394906+00:00",
+    "contract": "Current-known-season candidate universe only; individual transaction effective times and historical availability unknown",
+    "age_at_new_injury_observation_seconds": 180146.952309,
+    "matching_reported_injury_rows": 11,
+    "matching_position_mismatches": [],
+    "limits": "Prior roster consistency is not proof of current event-effective membership, healthy/active/starter status or complete teammate opportunity denominator."
+  },
+  "decision": "SOURCE_OBSERVATION_CAPTURED;NO_COMPLETE_CURRENT_QUERY_OR_ROLE_ADMISSION",
+  "next_action": {
+    "executor": "Existing Session C roster/query owner",
+    "artifact": "Qualified event-effective current roster/role observation or declared current-known-season uncertainty contract",
+    "completion": "Canonical player/team/event eligibility is established independently of future participation, preserving every missing/unprofiled/unknown teammate; no automatic reported-outcome zeros"
+  },
+  "source_read_count_for_this_scope_check": 0
+}

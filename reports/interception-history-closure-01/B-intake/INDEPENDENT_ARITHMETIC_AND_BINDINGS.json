@@ -1,0 +1,188 @@
+{
+  "id": "C-INTERCEPTION-B-PUBLIC-RECEIPT-VERIFICATION-v1",
+  "checked_UTC": "2026-11-12T20:56:44.600181+00:00",
+  "status": "PASS_RECEIVED_PUBLIC_ARITHMETIC;NEW_INT_AND_SELECTOR_REVIEW_RECEIPTS_NOT_LOCATED_IN_SCOPE",
+  "research_ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+  "index_publication_clock": "2026-11-12T18:17:46.732288+00:00",
+  "exports_inspected": 1424,
+  "exact_index_source_bytes": 1467592,
+  "exact_index_source_SHA256": "5fef49f3e9c61a356826bae926b9aed35477bf58267e5be64b419f812d0dca0c",
+  "exact_index_git_blob_sha": "15b4bdd72dbfd75a50c3712c79726c8703d499da",
+  "decoded_report_SHA256": "2512d522b3258211451873d3fc19afa8799623563e5e6d3e4b22034a9815af1d",
+  "decoded_table_SHA256": "3d97498fe5d51dbdf734a13af3f224abb5dd42c4cd7a19fba8ac08cd595236c3",
+  "package_manifest_SHA256": "ab9f6a416c6407bd9b7a644c74d2fe34197563fb0c4bae8fa6595c902043f950",
+  "independent_side_triads": 110,
+  "empty_side_rate_NA_checks": 85,
+  "new_QB_depth_focal_records": [
+    {
+      "method": "S0",
+      "policy": "P1_MEAN",
+      "own_sides": {
+        "OVER": {
+          "wins": 12,
+          "losses": 5,
+          "decided": 17,
+          "rate": 0.7058823529411765
+        },
+        "UNDER": {
+          "wins": 49,
+          "losses": 46,
+          "decided": 95,
+          "rate": 0.5157894736842106
+        },
+        "COMBINED": {
+          "wins": 61,
+          "losses": 51,
+          "decided": 112,
+          "rate": 0.5446428571428571
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.2677425803125506
+    },
+    {
+      "method": "S0",
+      "policy": "P2_STATISTICAL_LAW",
+      "own_sides": {
+        "OVER": {
+          "wins": 16,
+          "losses": 11,
+          "decided": 27,
+          "rate": 0.5925925925925926
+        },
+        "UNDER": {
+          "wins": 43,
+          "losses": 42,
+          "decided": 85,
+          "rate": 0.5058823529411764
+        },
+        "COMBINED": {
+          "wins": 59,
+          "losses": 53,
+          "decided": 112,
+          "rate": 0.5267857142857143
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.2677425803125506
+    },
+    {
+      "method": "S1",
+      "policy": "P1_MEAN",
+      "own_sides": {
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156
+        },
+        "UNDER": {
+          "wins": 47,
+          "losses": 52,
+          "decided": 99,
+          "rate": 0.47474747474747475
+        },
+        "COMBINED": {
+          "wins": 53,
+          "losses": 59,
+          "decided": 112,
+          "rate": 0.4732142857142857
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.2710131404709667
+    },
+    {
+      "method": "S1",
+      "policy": "P2_STATISTICAL_LAW",
+      "own_sides": {
+        "OVER": {
+          "wins": 7,
+          "losses": 9,
+          "decided": 16,
+          "rate": 0.4375
+        },
+        "UNDER": {
+          "wins": 45,
+          "losses": 51,
+          "decided": 96,
+          "rate": 0.46875
+        },
+        "COMBINED": {
+          "wins": 52,
+          "losses": 60,
+          "decided": 112,
+          "rate": 0.4642857142857143
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.2710131404709667
+    },
+    {
+      "method": "S2",
+      "policy": "P1_MEAN",
+      "own_sides": {
+        "OVER": {
+          "wins": 14,
+          "losses": 15,
+          "decided": 29,
+          "rate": 0.4827586206896552
+        },
+        "UNDER": {
+          "wins": 39,
+          "losses": 44,
+          "decided": 83,
+          "rate": 0.46987951807228917
+        },
+        "COMBINED": {
+          "wins": 53,
+          "losses": 59,
+          "decided": 112,
+          "rate": 0.4732142857142857
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.26530526616055894
+    },
+    {
+      "method": "S2",
+      "policy": "P2_STATISTICAL_LAW",
+      "own_sides": {
+        "OVER": {
+          "wins": 15,
+          "losses": 12,
+          "decided": 27,
+          "rate": 0.5555555555555556
+        },
+        "UNDER": {
+          "wins": 42,
+          "losses": 43,
+          "decided": 85,
+          "rate": 0.49411764705882355
+        },
+        "COMBINED": {
+          "wins": 57,
+          "losses": 55,
+          "decided": 112,
+          "rate": 0.5089285714285714
+        }
+      },
+      "probability_score_binding": "Complete underlying law, not confidence inferred from this point policy",
+      "law_Brier": 0.26530526616055894
+    }
+  ],
+  "new_INT_receipt_paths_in_index": [],
+  "reports_directory_entries": 57,
+  "missing_INT_receipt_scope": "No matching assignment export or report directory at the inspected immutable B head. Not proof unshared/uncommitted or later B work is absent.",
+  "not_a_regrade": "Only supplied public table arithmetic and source-byte commitments checked. No prediction, threshold, source label, original selection or grade was recomputed.",
+  "resources": {
+    "bound_GitHub_reads": 10,
+    "response_bytes": 3114914,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grading": 0,
+    "peer_writes_messages_dispatch": 0,
+    "CPU_seconds": 0.052435606999999995,
+    "peak_RSS_bytes": 18403328
+  }
+}

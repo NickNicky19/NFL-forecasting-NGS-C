@@ -1,0 +1,30 @@
+{
+  "id": "C-B-INTAKE-LOSSLESS-TRANSPORT-NORMALIZATION-v1",
+  "UTC": "2026-11-12T20:54:18.399711+00:00",
+  "reason": "Generic AddFile transport appended one LF after exact received bodies. First digest check caught this before admission. Restore exact received lengths and indexed hashes; no source, forecasts, grades or calculations changed.",
+  "fixed": [
+    {
+      "path": "COMMON_CONTROL_TABLE.json",
+      "added_terminal_newline_bytes_removed": 1,
+      "first_transcription_SHA256": "235baa10fc5e883eef3e7d801a366a6e95ccb3f5b0015f6146c56f32e34a9986",
+      "exact_received_bytes": 618466,
+      "corrected_SHA256": "3d97498fe5d51dbdf734a13af3f224abb5dd42c4cd7a19fba8ac08cd595236c3"
+    },
+    {
+      "path": "B_NEXT_GENERATION_CHECKPOINT_V1.md",
+      "added_terminal_newline_bytes_removed": 1,
+      "first_transcription_SHA256": "424adefa28968747ea611c87f0fa819bc8f927749f9535493b653ae4e3c4a6a4",
+      "exact_received_bytes": 12251,
+      "corrected_SHA256": "2512d522b3258211451873d3fc19afa8799623563e5e6d3e4b22034a9815af1d"
+    },
+    {
+      "path": "NEXT_GEN_PUBLICATION_MEMBERS_V1.json",
+      "added_terminal_newline_bytes_removed": 1,
+      "first_transcription_SHA256": "6a49773adbea65992b263c04c1887cff57b2d7393b970bfb458ef7c49cbb6d11",
+      "exact_received_bytes": 59820,
+      "corrected_SHA256": "ab9f6a416c6407bd9b7a644c74d2fe34197563fb0c4bae8fa6595c902043f950"
+    }
+  ],
+  "first_transcriptions_retained": "FIRST_TRANSPORT_TRANSCRIPTIONS.json.xz",
+  "manifest_lookup_note": "The package manifest selfhash is top-level next_generation_information_research_01.manifest_sha256; not an exports[] entry."
+}

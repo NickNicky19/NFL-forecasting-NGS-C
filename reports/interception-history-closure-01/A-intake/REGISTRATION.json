@@ -1,0 +1,24 @@
+{
+  "id": "C-INTERCEPTION-HISTORICAL-CLOSURE-A-INTAKE-v1",
+  "registered_UTC": "2026-11-12T20:46:28.025517+00:00",
+  "owner": "C read-only A intake",
+  "actual_C_HEAD": "efa487ad1b412038c3845bb35dd55cbdd380dd3e",
+  "source_owner": "A,NickNicky19/NFL-forecasting",
+  "purpose": "Latest A heads/export,PR90/91 new rush_att Top6/pass_cmp retained comparisons and CountA authentication delivery status; reuse saved receipts no fits/joins",
+  "budget": {
+    "bound_GitHub_reads_max": 10,
+    "response_bytes_max": 4194304,
+    "retention_bytes_max": 1048576,
+    "new_fits": 0,
+    "new_inference": 0
+  },
+  "guards": "C-only writes; no peer merges/comments/dispatch/workflow writes/lease changes; aggregate receipt not private row/fit/source-clock verification",
+  "amendment": "Register exact justified increase before reading a known larger index if necessary",
+  "amendments": [
+    {
+      "registered_UTC": "2026-11-12T20:47:53.694945+00:00",
+      "bound_GitHub_reads_max": 12,
+      "reason": "Ten initial reads include invalid percent-encodedbranch read,defaultmain missingindex and prioraccuracybranch olderindex. Parent supplied exact registered reportsbranch from retainedFETCH_LEDGER; fresh matchingrefs already pins after-audit-distribution-v2-public574b0f3. Add exactlytwo boundreads for currentindex and its named executionreport. Byte/retention/fit caps unchanged; no repeated broadsearch."
+    }
+  ]
+}

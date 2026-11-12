@@ -1,0 +1,16 @@
+{
+  "id": "C-RETAINED-W9-GRADING-REUSE-20261112-v1",
+  "registered_UTC": "2026-11-12T20:57:20.879700+00:00",
+  "base_commit": "fafb891146abed7818b26a2e5cc928e3c14682dc",
+  "owner": "C",
+  "scope": "Inspect four immutable W9 native-game captures and existing grade/source/server receipts. Reuse already graded cells; no duplicate grader call, fit or source acquisition.",
+  "budget": {
+    "CPU_seconds_max": 120,
+    "RSS_bytes_max": 1073741824,
+    "new_fits_max": 0,
+    "network_reads_max": 0,
+    "retained_bytes_max": 1048576
+  },
+  "source_policy": "Existing retained native FINAL and explicit-metric player facts only; original versions preserved.",
+  "actual_offer_claim": "NONE: forecast-only numeric/event evidence; never add an actual O/U week."
+}

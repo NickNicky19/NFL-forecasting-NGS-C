@@ -1,0 +1,32 @@
+{
+  "schema": "C-PERSONNEL-OWNER-LOCAL-CHECK-v1",
+  "executed_UTC": "2026-11-12T20:49:53.054426+00:00",
+  "command": "python reports/interception-history-closure-01/personnel/check_personnel_capture.py",
+  "verdict": "PASS_RETAINED_PACKET_IDENTITY_HASH_CLOCK_AND_SCOPE",
+  "projection_rows": 20,
+  "projection_SHA256": "2c3f1453cce57c2d81aac1b8bad145155b9f7c3a22334c30157df925fa09adbe",
+  "event_status_SHA256": "3eeda8847ad0df6650a15ba7969056c790ac469a20a172f38d91ebed3cd9f4cc",
+  "manifest_SHA256": "3f9c9e9b8e7f4f512e3776090770eed966c2d71dc1b9fb142ec1bb388a1fdf4f",
+  "report_status_counts": {
+    "EMPTY_UNKNOWN": 17,
+    "Questionable": 1,
+    "Out": 2
+  },
+  "team_counts": {
+    "NYG": 11,
+    "WAS": 9
+  },
+  "WR_TE_rows": 8,
+  "source_only_issue_UTC": "2026-11-12T20:48:05.379646+00:00",
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "source_only_lead_seconds": 16014.620354,
+  "remote_persistence": "UNVERIFIED_IN_THIS_LOCAL_CHECK",
+  "scope_limits": [
+    "Owner recheck, not independent review",
+    "Raw response hashes/field list were measured only during original extraction; cannot reverify from projection",
+    "Full roster/expected role/health/participation and predictive improvement unestablished",
+    "No forecast or exact-line selections"
+  ],
+  "CPU_seconds": 0.045315999999999995,
+  "max_RSS_KiB": 9728
+}

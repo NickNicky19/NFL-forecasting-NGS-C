@@ -1,0 +1,53 @@
+{
+  "id": "C-INTERCEPTION-B-CONNECTOR-READ-LEDGER-v1",
+  "reads": [
+    {
+      "read": 1,
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+      "returned_bytes": 1632
+    },
+    {
+      "read": 2,
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "returned_bytes": 366
+    },
+    {
+      "read": 3,
+      "ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "encoding": "base64",
+      "returned_bytes": 367
+    },
+    {
+      "read": 4,
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/6279a683cdf61937b08df0549150afe656f72f4b/reports/abc-championship/EXPORT_INDEX.json",
+      "returned_bytes": 351
+    },
+    {
+      "read": 7,
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/6279a683cdf61937b08df0549150afe656f72f4b/reports/next-generation-information-research-01/B/B_NEXT_GENERATION_CHECKPOINT_V1.md",
+      "returned_bytes": 25563
+    },
+    {
+      "read": 8,
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/contents/reports?ref=6279a683cdf61937b08df0549150afe656f72f4b",
+      "returned_bytes": 129187
+    },
+    {
+      "read": 9,
+      "ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+      "path": "reports/next-generation-information-research-01/B/depth-role-scores-v1/COMMON_CONTROL_TABLE.json",
+      "returned_bytes": 1361518
+    },
+    {
+      "read": 10,
+      "ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+      "path": "reports/next-generation-information-research-01/B/PUBLICATION_MEMBERS_V1.json",
+      "returned_bytes": 127099
+    }
+  ],
+  "returned_byte_definition": "UTF8 JSON serialization of complete connector return object, including duplicate presentation fields; CLI fallback bodies separately accounted.",
+  "additional_network_requests": 0
+}

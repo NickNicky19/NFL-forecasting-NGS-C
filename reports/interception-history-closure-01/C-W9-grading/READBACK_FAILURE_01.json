@@ -1,0 +1,10 @@
+{
+  "created_UTC": "2026-11-12T20:58:03.506326+00:00",
+  "code_SHA256": "4a32bdc2d9506c530c14441331fef85ece9d99aecc2c18666446e07cf5c5c8a3",
+  "failed_check": "Assert every retained source row has canonical GSIS ID",
+  "finding": "One source aggregate/orphan row has blank player_id in JAX-BAL evidence. Every retained factual metric in that row is explicitly zero. It cannot join any canonical issued player.",
+  "correction": "Keep explicit unjoined-source disposition; verify canonical identity on forecast-used records, not force an identity for an aggregate source row.",
+  "prediction_or_grade_changes": 0,
+  "new_fits": 0,
+  "network_reads": 0
+}

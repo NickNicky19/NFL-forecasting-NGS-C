@@ -1,0 +1,28 @@
+{
+  "schema": "C-PERSONNEL-LOCAL-CAPTURE-RECEIPT-v1",
+  "snapshot": "sources/current-personnel-interception-closure-20261112-was-nyg",
+  "manifest_SHA256": "3f9c9e9b8e7f4f512e3776090770eed966c2d71dc1b9fb142ec1bb388a1fdf4f",
+  "projection": {
+    "path": "sources/current-personnel-interception-closure-20261112-was-nyg/INJURY_STATUS_FACTS.csv",
+    "bytes": 1429,
+    "SHA256": "2c3f1453cce57c2d81aac1b8bad145155b9f7c3a22334c30157df925fa09adbe",
+    "rows": 20,
+    "columns": [
+      "season",
+      "week",
+      "season_type",
+      "game_type",
+      "team",
+      "gsis_id",
+      "position",
+      "report_status",
+      "practice_status"
+    ]
+  },
+  "issued_UTC": "2026-11-12T20:48:05.379646+00:00",
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "source_reads": 2,
+  "remote_persistence": "NOT_YET_VERIFIED",
+  "fits": 0,
+  "forecasts": 0
+}

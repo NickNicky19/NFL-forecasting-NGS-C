@@ -1,0 +1,82 @@
+{
+  "id": "C-PERSONNEL-INDEPENDENT-PROJECTION-CHECK-20261112-v1",
+  "checked_UTC": "2026-11-12T20:49:58.465680+00:00",
+  "reviewer": "C-owned independent read-only projection check; not Session B endorsement",
+  "source_owner": "receiving_personnel_source",
+  "registration": {
+    "budget_CPU_seconds": 30,
+    "budget_RSS_bytes": 268435456,
+    "network_requests": 0,
+    "maximum_retained_bytes": 102400,
+    "new_fits": 0
+  },
+  "state": "PASS_SCOPED_RETAINED_PROJECTION",
+  "checks": {
+    "projection_bytes_SHA256": true,
+    "schema_exact": true,
+    "twenty_rows": true,
+    "scope_native_identity": true,
+    "manifest_event_exact": true,
+    "pregame_scheduled": true,
+    "canonical_source_keys_unique": true,
+    "unknown_not_healthy_or_zero": true,
+    "real_source_issue_pregame": true
+  },
+  "files": [
+    {
+      "path": "sources/current-personnel-interception-closure-20261112-was-nyg/EVENT_STATUS.json",
+      "bytes": 678,
+      "SHA256": "3eeda8847ad0df6650a15ba7969056c790ac469a20a172f38d91ebed3cd9f4cc"
+    },
+    {
+      "path": "sources/current-personnel-interception-closure-20261112-was-nyg/SOURCE_MANIFEST.json",
+      "bytes": 5049,
+      "SHA256": "3f9c9e9b8e7f4f512e3776090770eed966c2d71dc1b9fb142ec1bb388a1fdf4f"
+    },
+    {
+      "path": "sources/current-personnel-interception-closure-20261112-was-nyg/INJURY_STATUS_FACTS.csv",
+      "bytes": 1429,
+      "SHA256": "2c3f1453cce57c2d81aac1b8bad145155b9f7c3a22334c30157df925fa09adbe"
+    }
+  ],
+  "schema_SHA256": "6ca75ee1412d26414edac6eaf6007ae75100c05d70e9f3dca26a9ddee0ac279c",
+  "rows": 20,
+  "team_counts": {
+    "NYG": 11,
+    "WAS": 9
+  },
+  "report_status_counts": {
+    "": 17,
+    "Questionable": 1,
+    "Out": 2
+  },
+  "practice_status_counts": {
+    "Full Participation in Practice": 15,
+    "Limited Participation in Practice": 2,
+    "Did Not Participate In Practice": 3
+  },
+  "missingness": {
+    "empty_report_statuses": 17,
+    "null_header_values_retained_in_manifest": true,
+    "source_row_publication_clocks": "UNKNOWN",
+    "unlisted_roster_people": "UNKNOWN; no inference from absence",
+    "CSV_empty_vs_source_null": "Both unresolved under declared source contract; full raw not retained, so distinct original null/empty byte provenance is not independently restored. No zero/healthy fill."
+  },
+  "issue_UTC": "2026-11-12T20:48:05.379646+00:00",
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "lead_seconds_at_issue": 16014.620354,
+  "persistence_state": "LOCAL_ONLY_AWAITING_ROOT_SERVER_RECEIPT; this check does not authenticate remote persistence",
+  "scope_limits": [
+    "No network re-query or full raw-body restoration",
+    "Raw-body hashes are producer commitments only; full raw gzip was memory-only",
+    "Native event identity/state checked for internal agreement against retained precheck, not a fresh independent service response",
+    "GSIS/team identities are coherent source keys, not independent roster, starter or event-effective role confirmation",
+    "No forecast, offered line, selection, predictive gain or settlement certified"
+  ],
+  "source_changes": 0,
+  "forecasts": 0,
+  "actual_offers": 0,
+  "selected_decisions": 0,
+  "CPU_seconds": 0.001039605000000006,
+  "max_RSS_bytes": 10092544
+}
