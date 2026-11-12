@@ -1,0 +1,13 @@
+{
+  "id": "C-NEXTINFO-CI-METADATA-CORRECTION-v1",
+  "recorded_UTC": "2026-11-12T18:10:59.512052+00:00",
+  "failed_run": 43276631702,
+  "failed_head": "1cd04dfedcf93c8b0b1883ecab3d081bd1cc8c7e",
+  "finding": "CURRENT_PROTOCOL tasks SHA was not refreshed after the additive task-ledger update. Hosted CI correctly rejected the stale bound hash.",
+  "affected_file": "reports/abc-championship/TASK_LEDGER.json",
+  "old_bound_SHA256": "84554a2da371e4d965667d255602ecc4aef53d310dc42d6d58571922a1296e83",
+  "current_SHA256": "50cef1245c22019de6752ef98425aa5996b2c94a553d9e921cb1a6143b0d19fc",
+  "scoped_correction": "Refresh existing tasks binding; no guard/check removal, forecast/model/output/grade or original-site change.",
+  "local_runner_issue": "First custom shell runner checked only the last command exit in a multiline CI step, so an earlier validation failure was masked. Its PASS26 claim is superseded by actual per-step rerun using bash -e.",
+  "new_predictive_results": 0
+}

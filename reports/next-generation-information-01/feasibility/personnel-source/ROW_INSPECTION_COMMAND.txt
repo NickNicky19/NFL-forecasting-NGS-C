@@ -1,0 +1,22 @@
+Executed once successfully on2026-11-12T17:52:45Z after normal network approval.
+This records the bounded inspection command; it does not install a collector,
+schedule anything, or authorize another read. Current source URL is mutable.
+
+python - <<'PY'
+import urllib.request,urllib.parse,gzip,io,csv,hashlib,json,datetime,collections
+from pathlib import Path
+url='https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz'
+started=datetime.datetime.now(datetime.timezone.utc).isoformat()
+with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'C-bounded-personnel-source-feasibility/1.0'}),timeout=45) as response:
+ raw=response.read(131073)
+ if len(raw)>131072:raise RuntimeError('compressed cap exceeded')
+ headers={k:response.headers.get(k) for k in ['Date','Age','Last-Modified','Content-Length','Content-Type','ETag']};final_host=urllib.parse.urlparse(response.url).hostname;status=response.status
+with gzip.GzipFile(fileobj=io.BytesIO(raw)) as z:
+ decoded=z.read(2097153)
+ if len(decoded)>2097152:raise RuntimeError('decoded cap exceeded')
+rows=list(csv.DictReader(io.StringIO(decoded.decode('utf-8-sig'))));fields=['season','week','season_type','game_type','team','gsis_id','position','report_status','practice_status','date_modified'];keep=[x for x in fields if x in rows[0]]
+buffer=io.StringIO(newline='');writer=csv.DictWriter(buffer,fieldnames=keep,lineterminator='\n');writer.writeheader();writer.writerows({k:r.get(k) for k in keep} for r in rows);projection=buffer.getvalue().encode();assert len(projection)<270000
+base=Path('reports/next-generation-information-01/feasibility/personnel-source');(base/'INJURY_STATUS_CLOCK_2026.csv').write_bytes(projection)
+manifest={'source_url':url,'final_host':final_host,'started_UTC':started,'observed_UTC':datetime.datetime.now(datetime.timezone.utc).isoformat(),'HTTP_status':status,'HTTP_headers':headers,'compressed_bytes':len(raw),'compressed_SHA256':hashlib.sha256(raw).hexdigest(),'decoded_bytes':len(decoded),'decoded_SHA256':hashlib.sha256(decoded).hexdigest(),'all_source_fields':list(rows[0]),'rows':len(rows),'projection_fields':keep,'projection_bytes':len(projection),'projection_SHA256':hashlib.sha256(projection).hexdigest(),'raw_retention':'Memory only; full source bytes not durably retained','rights_basis':'Existing admitted ordinary nflverse CC BY4 factual projection; existing source LICENSE-CC-BY-4.0.md and attribution, not an injury narrative/news reproduction.','original_availability':'Not authenticated by this retrieval or row update clock'};(base/'CURRENT_INJURY_SOURCE_RECEIPT.json').write_text(json.dumps(manifest,indent=2)+'\n')
+print(json.dumps(manifest,indent=2));print('week_counts',dict(collections.Counter(r.get('week') for r in rows)));print('clock_samples',sorted(set(r.get('date_modified','') for r in rows))[:4]);print('clock_latest',sorted(set(r.get('date_modified','') for r in rows))[-4:])
+PY

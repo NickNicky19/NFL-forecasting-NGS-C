@@ -1,0 +1,45 @@
+{
+  "id": "C-NEXTINFO-VALIDATION-v1",
+  "checked_UTC": "2026-11-12T18:13:34.322624+00:00",
+  "software_contracts": {
+    "unittest": {
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 281,
+      "result": "PASS",
+      "console_SHA256": "2bc058ceda41216ce76b2901816be2c0abd7292e2567b778abc1bf73e91ca013"
+    },
+    "existing_workflow_contract_blocks": {
+      "workflow": ".github/workflows/c-checks-pages.yml",
+      "executed_local_commands_excluding_install_and_already_passed_unittest": 26,
+      "result": "PASS_CORRECTED_BASH_ERREXIT_RUN",
+      "console_SHA256": "22fa81b7630fdc7bd041f640f7698e8ad09116d9ad6007d850bee9fd0dd7cacf",
+      "execution": "Every multiline block run with bash -e; preserves first failing exit. Initial last-command-only wrapper claim superseded; hosted failure and correction separately retained."
+    }
+  },
+  "source_and_control_checks": [
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/REPRODUCTION_RECEIPT.json",
+      "bytes": 1389,
+      "SHA256": "6c78c8480fd38d8357f1e01f45130a0182db733242616cae3ca881e32a4ef5c3"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/PERSONNEL_PROJECTION_INDEPENDENT.json",
+      "bytes": 6115,
+      "SHA256": "60cf064664ad6d65d7293fbcbb668f8fb0fd6e5d7820143999df80752e53967c"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/EVALUATION_FEASIBILITY.json",
+      "bytes": 34796,
+      "SHA256": "9eb0bb48e2fe23cde01eb66b9f1734fdf2aa4d0b149cf4cb0135c765e07d6613"
+    }
+  ],
+  "invariance": {
+    "frozen_category_product_decisions_changed": false,
+    "original_forecasts_models_grades_changed": false,
+    "runtime_or_scorer_changed": false,
+    "production_changed": false
+  },
+  "limits": "Software contracts and retained-row arithmetic are not predictive gain, new NFL observations, raw-source restoration or external B review.",
+  "formatting_and_bindings": "Authored CSV normalized to LF; exact B upstream Git blob verified; source/report manifests refreshed after reproduction receipts. git diff --check passes.",
+  "binding_scope": "Mutable coordinator pointer is discovery only; exact protocol/scorer/population dependencies are individually bound, avoiding a circular hash through this receipt."
+}

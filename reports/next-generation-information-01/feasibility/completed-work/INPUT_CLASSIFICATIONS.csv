@@ -1,0 +1,12 @@
+input,class,binding,result
+Latest same-team target share; last2-minus-prior3 target-share change,ALREADY_TESTED,protocol/RECEIVING_TARGETSHARE_V10.json,S1=S0 189/337; Brier .26062233969581355; no value gain
+"Earlier player targets, catch efficiency, down/depth distribution, team attempts, opponent residual",ALREADY_TESTED,reports/player-context-matchup-01/v1.1/INPUT_SCHEMA.json,C01 E0-E3 unchanged147/255; pooled/partial/own-history complete and retained
+Historical QB-receiver target/attempt summaries without route exposure or expected future role,EQUIVALENT_INFORMATION_ALREADY_AVAILABLE,reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json,Supported target/attempt proxy; not alignment preferences or availability-conditioned future role
+Player-profile support/age values and receiving defense increments,ALREADY_TESTED,reports/profile-increment-v2/KEEP_STOP.json,C03 values consumed; no direction/probability/ranking replacement; numerical inconclusive
+One-day instead of seven-day aligned availability,ALREADY_TESTED,reports/profile-closure-next-02/KEEP_STOP.json,C04 native loses10/255 to each own baseline; no further lag search
+Qualified pregame expected teammate-availability/role configuration plus eligible earlier opportunity,SOURCE_BLOCKED,,No new fit authorized by this reconciliation alone
+Current roster listing or absent statistical row as proof of active/inactive/starter state,UNAVAILABLE_OR_SOURCE_BLOCKED,src/receiving_current_capture_c04.py,injury UNKNOWN; starter UNKNOWN; missing row not zero or DNP
+Actual receiving alignment/all routes/contextual separation,SOURCE_BLOCKED,reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json,PBP destination not alignment; snaps not routes; no all-route denominator or qualified historical tracking vintages
+November9/10 defensive snapshot in Weeks1-8,INCOMPATIBLE,,Source unqualified and later than forecast origins; no historical backfill permitted
+Contemporaneous market reference probability,SOURCE_BLOCKED_FOR_NEW_C_COMPARISON,,Existing qualified market-assisted controls retained; new clocks/market/price/event conditioning not established here; no new acquisition
+Target-game realized targets/attempts/availability/routes,INCOMPATIBLE,,Future labels/exposure; forbidden as pregame inputs

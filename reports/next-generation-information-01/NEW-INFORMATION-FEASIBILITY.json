@@ -1,0 +1,256 @@
+{
+  "id": "NFL-NEXT-GENERATION-INFORMATION-RESEARCH-01-C/NEW-INFORMATION-FEASIBILITY-v1",
+  "completed_UTC": "2026-11-12T18:07:37.449227+00:00",
+  "owner": "Session C, receiving/information/source/common evaluation",
+  "executing_base": "aa099aa1ff78c85440173483275e01a9d354e2c8",
+  "assignment_adoption": "C-scoped semantic adoption of the latest user continuation, not claimed byte-identical attachment, no reset or new protocol.",
+  "package_status": "COMPLETED_BOUNDED_FEASIBILITY;HISTORICAL_PREDICTIVE_TEST_SOURCE_BLOCKED",
+  "hypothesis": {
+    "quantity": "Next-game WR/TE target/opportunity allocation and reception outcome conditional on earlier observed expected teammate game availability and role.",
+    "difference": "Observed personnel configuration with earlier teammate opportunity support is distinct from completed lagged share/momentum, team completion rates, own profiles, defense and timing arms. No arbitrary availability-to-workload multiplier.",
+    "new_procedure_identity": null,
+    "registration_for_fit": "NOT_ADMITTED; required historical new-input contract absent",
+    "scope_limit": "A direct P1 information increment would test added personnel information, not by itself a coherent team-target allocation law."
+  },
+  "input_classification": [
+    {
+      "input": "Lagged own target share, momentum, team completions/attempts, down/depth context, pooling, profile, defense and timing",
+      "class": "ALREADY_TESTED_OR_EQUIVALENT_INFORMATION",
+      "action": "REUSE_NEGATIVE_OR_INCONCLUSIVE_RESULTS;NO_REPEAT"
+    },
+    {
+      "input": "Event-effective expected teammate game status plus eligible earlier opportunity support",
+      "class": "GENUINELY_NEW_PROPOSED_BLOCK_BUT_NOT_HISTORICALLY_QUALIFIED",
+      "action": "SOURCE_BLOCKED_HISTORICAL_COMPARISON"
+    },
+    {
+      "input": "Actual inspected Nov12 injury report/practice facts",
+      "class": "OBSERVED_PROSPECTIVE_SOURCE_FACTS_ONLY",
+      "action": "Do not backdate. Current event/roster/complete-teammate contract still unadmitted."
+    },
+    {
+      "input": "Nov2 retained W8 SEA/CHI26 reports",
+      "class": "GENUINE_NARROW_HISTORICAL_PREGAME_SNAPSHOT",
+      "action": "Preserve; insufficient training/history/universe coverage for proposed comparison."
+    },
+    {
+      "input": "True alignment, untargeted routes, play-design and all-route separation",
+      "class": "SOURCE_BLOCKED",
+      "action": "No inference from pass destination, snaps, targeted separation or unqualified workbook."
+    }
+  ],
+  "source_result": {
+    "actual_observed_UTC": "2026-11-12T17:52:46.426679+00:00",
+    "actual_observed_Chicago": "2026-11-12T11:52:46.426679-06:00",
+    "total_rows": 3097,
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "W1_8_rows": 2459,
+    "W1_8_WR_TE_rows": 446,
+    "actual_source_fields": 16,
+    "row_clock_fields": 0,
+    "HTTP_Age_seconds": 3161,
+    "report_and_practice_not_equal": true,
+    "absent_row_and_empty_designation_are_unknown": true,
+    "cross_vintage": {
+      "W9_retained": 266,
+      "changed_report_or_practice": 187,
+      "same": 79,
+      "unmatched": 0,
+      "W8_narrow_retained_and_same": 26
+    },
+    "interpretation": "Historical source revision demonstrated on named retained W9 rows. Exact first availability and historical update timing unassessable. No demonstrated model contamination or forecast-accuracy effect.",
+    "compressed_SHA256": "36c933c378dd06eca5f4d43b1891412ba2d0e632ff0df85ddaddaf32e40ca0d8",
+    "rights": "Minimal public facts/IDs only under verified CC-BY-4.0 attribution route; no names/injury descriptions/raw narratives. Original source response transient in memory; raw hash not independently recomputable offline."
+  },
+  "unchanged_control": {
+    "procedure": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+    "rule": "Strict unrounded mean-versus-line; point tie abstains; law and median distinct.",
+    "native": {
+      "season": 2026,
+      "weeks": [
+        2,
+        3
+      ],
+      "role": [
+        "WR",
+        "TE"
+      ],
+      "venue": "Pinnacle",
+      "eligible": 278,
+      "available": 278,
+      "decided": 255,
+      "unknown": 23,
+      "games": 32,
+      "Over": {
+        "wins": 47,
+        "losses": 32,
+        "decided": 79
+      },
+      "Under": {
+        "wins": 101,
+        "losses": 75,
+        "decided": 176
+      },
+      "combined": {
+        "wins": 148,
+        "losses": 107,
+        "decided": 255,
+        "rate": 0.5803921568627451
+      },
+      "evidence": "Exposed current-vintage reconstruction; authentic recorded lines with unverified quote timing, not original issued selections or verified settlements.",
+      "own_side_arithmetic": "Independently reconciled from retained saved outputs, not a new NFL score or model-fit check."
+    },
+    "annual_A_owner_local": {
+      "season": 2026,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "eligible": 469,
+      "available_selected": 421,
+      "unavailable": 48,
+      "selected_unknown": 9,
+      "decided": 412,
+      "C_P1_mean": {
+        "wins": 239,
+        "losses": 173
+      },
+      "A_retained_Leaf_mean": {
+        "wins": 238,
+        "losses": 174
+      },
+      "comparison": "Same named412mask at A, public aggregate admission only; no private-row or historical-clock parity in C. One-win lead not established superiority."
+    }
+  },
+  "new_candidate_results": {
+    "Over": null,
+    "Under": null,
+    "combined": null,
+    "coverage": null,
+    "MAE_MSE_bias": null,
+    "Brier_logloss": null,
+    "uncertainty": null,
+    "reason": "No candidate fit or changed inference; hypothesis remains untested because inputs did not qualify. Prior controls are not new results."
+  },
+  "execution_counts": {
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_scores": 0,
+    "new_games": 0,
+    "new_scored_weeks": 0,
+    "new_capture_packets": 0,
+    "new_model_or_policy_promotions": 0,
+    "source_read_attempts": 8,
+    "peer_registry_read_attempts": 4
+  },
+  "independent_verification": {
+    "completed": "Separate stdlib calculations reproduce retained projection coverage and187/266 vintage changes; separately reconcile saved native mean own-side records and common masks.",
+    "not_established": [
+      "Discarded raw-source restoration",
+      "Authenticated historical source clocks",
+      "Private A rows",
+      "New candidate fit/inference",
+      "External B endorsement of this receipt"
+    ]
+  },
+  "decision": "SOURCE_OR_RESOURCE_BLOCKED:SOURCE_CONTRACT_ONLY;NO_FIT_RESOURCE_FAILURE",
+  "next_actions": [
+    {
+      "executor": "Session C source/intake owner",
+      "artifact": "Permitted immutable predecision injury/practice designation snapshots or authentic versioned row-clock records, with source semantics and revisions bound to each evaluated event/cutoff",
+      "next_permissible_action": "Inspect an actually supplied/retained earlier snapshot under existing approved route; otherwise capture qualified source facts prospectively through existing manual/authorized jobs only",
+      "completion_condition": "At least the declared historical comparison origins can reconstruct actual source-known teammate report states without assigning a later vintage backward",
+      "authority": "No new paid acquisition/account/collector/scheduler authorized"
+    },
+    {
+      "executor": "Session C pregame roster/query owner",
+      "artifact": "Full canonical historical event-effective teammate roster/role universe including unknown/sparse/unprofiled players and other/unallocated bucket",
+      "next_permissible_action": "Qualify existing roster/event evidence or separately retain prospective admitted roster snapshot; do not use eventual statistical appearance",
+      "completion_condition": "Every eligible teammate has identity/team/event and explicit state or unavailable record at cutoff, independent of target-game outcomes",
+      "authority": "C-only existing source/current-query authority"
+    }
+  ],
+  "product_qualification": {
+    "five_week": "No new exact-product evidence. Existing rule unchanged; five weeks cannot authenticate source timing or establish gain.",
+    "deployment": "No automatic production admission; no alteration of frozen release roster, website selector or current feeds."
+  },
+  "parallel_work": "B owns QB investigation. A CountA/native delivery and original-site release/TopPicks remain with actual owners; existing future captures/audit/recovery continue independently.",
+  "all_twelve_scope": [
+    "pass_yd",
+    "pass_td",
+    "pass_cmp",
+    "pass_att",
+    "pass_int",
+    "rush_yd",
+    "rush_att",
+    "rec",
+    "rec_yd",
+    "rush_rec_yd",
+    "inherited rushing-or-receiving anytime_td",
+    "nick-chart-ppr-v1"
+  ],
+  "existing_category_decision_record": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+  "ordered_backlog": [
+    "Source-qualified personnel information before one same-family control contrast",
+    "Market-anchored exact-line probabilities only with qualified contemporaneous observations",
+    "Coherent game/player opportunity law only for a distinct supported weakness and valid upstream chronology",
+    "Play-design/alignment/matchup only with real qualified fields",
+    "Missing distribution family only after owner inventory and specific distributional weakness; no library tournament"
+  ],
+  "bindings": [
+    {
+      "path": "reports/next-generation-information-01/REGISTRATION.json",
+      "bytes": 2888,
+      "SHA256": "f3fed3ed73f2d69d10429b6363cb721cb133e7fc7746af829529024610302362"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/completed-work/NEW_INFORMATION_FEASIBILITY.json",
+      "bytes": 15949,
+      "SHA256": "efa9fe99acd217e9b01e658cd04dec496c3e5abcbaf829ca5cb90eb97953e027"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/FEASIBILITY.json",
+      "bytes": 4897,
+      "SHA256": "d351baccc5f8ecb57bab164fc5f36e2e3406300a8bba81eb50b4db298f9e4e77"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/CURRENT_INJURY_SOURCE_RECEIPT.json",
+      "bytes": 1800,
+      "SHA256": "062d1a4aa06da3d1d7153392389a43b6f8e3f2b9006ab22dd3037f949bc2a5b9"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/INJURY_STATUS_CLOCK_2026.csv",
+      "bytes": 212204,
+      "SHA256": "2a9ba41a1bea899fde7c8af3cab217bee581dbb6050e68b9fc09d02914162565"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/EVALUATION_FEASIBILITY.json",
+      "bytes": 34796,
+      "SHA256": "9eb0bb48e2fe23cde01eb66b9f1734fdf2aa4d0b149cf4cb0135c765e07d6613"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/PERSONNEL_PROJECTION_INDEPENDENT.json",
+      "bytes": 6115,
+      "SHA256": "60cf064664ad6d65d7293fbcbb668f8fb0fd6e5d7820143999df80752e53967c"
+    },
+    {
+      "path": "reports/next-generation-information-01/peer-refresh/READ_RECEIPT.json",
+      "bytes": 13378,
+      "SHA256": "a83424277bd1ec92db8c3bdcbb9af2550d67a8afb9d91b98d5944ca5412bf0d7"
+    }
+  ]
+}
