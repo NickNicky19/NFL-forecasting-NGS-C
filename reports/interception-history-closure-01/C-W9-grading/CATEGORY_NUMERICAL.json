@@ -1,0 +1,1431 @@
+{
+  "rows": [
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "pass_yd",
+      "eligible_forecasts": 12,
+      "graded_played": 4,
+      "unknown": 8,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 4,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_yd/1d3b70766b60b3073f745590bfa3ba4a22bccff90f50a74c0f84950c8e66b87a",
+        "C-FORWARD-P2-v4/pass_yd/e0bec7c39332054c0c36288c49858c882bb3950bc288f9de2a724447ddad674d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 59.75,
+      "mean_MAE": 55.03616552531688,
+      "mean_MSE": 4751.361614430723,
+      "mean_bias": 30.474939296908296,
+      "mean_CRPS": 38.89686152235302
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "pass_td",
+      "eligible_forecasts": 12,
+      "graded_played": 4,
+      "unknown": 8,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 4,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_td/040694f6815e6d9193d41df08243d63d902a8aa3b8103dd85e2507b358fa1911",
+        "C-FORWARD-P2-v4/pass_td/f76f37436856e89b4773279dd9c9a31edd7eac277f5d67f1721ea0ccb980209f"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 0.75,
+      "mean_MAE": 0.8180011652593291,
+      "mean_MSE": 0.7802536605579857,
+      "mean_bias": 0.17764194434919395,
+      "mean_CRPS": 0.4729926707360441
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "pass_cmp",
+      "eligible_forecasts": 12,
+      "graded_played": 4,
+      "unknown": 8,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 4,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_cmp/23714617da76d22511ddfa38df6d04e9ec7aadf2206e7c39fced6535fb3512c4",
+        "C-FORWARD-P2-v4/pass_cmp/b3b46b1349ac5f9a2dcbc027125bd0dc3497c0758c0a8ee4e38cb318e44a552b"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 3.25,
+      "mean_MAE": 3.2051578253387176,
+      "mean_MSE": 12.933076411535636,
+      "mean_bias": 1.1138846477754831,
+      "mean_CRPS": 2.481973315131733
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "pass_att",
+      "eligible_forecasts": 12,
+      "graded_played": 4,
+      "unknown": 8,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 4,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_att/41896e8884d645fd52faf3efcf5d83c977548a30069cbec6949257d6fc30b4f5",
+        "C-FORWARD-P2-v4/pass_att/804bfe73c483e164dd6b83453b29a6c2a1d678da9da89e6fd1358d082af4dfc2"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 4.75,
+      "mean_MAE": 4.338171946820327,
+      "mean_MSE": 27.123988110675608,
+      "mean_bias": 3.7362203865227377,
+      "mean_CRPS": 3.4863218286778377
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "pass_int",
+      "eligible_forecasts": 12,
+      "graded_played": 4,
+      "unknown": 8,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 4,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_int/0357968234d38129dd27d5f3f9560cb7c97c879bf711084de582f14084bf2ff3",
+        "C-FORWARD-P2-v4/pass_int/f36626e1ac5c8c42ff7a39fb57ad0ae3fe759b73a989640e65f9a3d8f2f25f7f"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 0.5,
+      "mean_MAE": 0.7280719870942717,
+      "mean_MSE": 0.6449674713917104,
+      "mean_bias": -0.08525343281245171,
+      "mean_CRPS": 0.4242989652204542
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "rush_yd",
+      "eligible_forecasts": 24,
+      "graded_played": 14,
+      "unknown": 10,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 14,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_yd/9c33d1f95e83f031a9cc20b871b035c106f2f72719419c742ee68c6d6d5d27e6",
+        "C-FORWARD-P2-v4/rush_yd/caab6e5d2edad900d912296f09af3275d9e2bb45f10f31ae6288800a44c29a04"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 19.571428571428573,
+      "mean_MAE": 19.179610141994186,
+      "mean_MSE": 666.7551948021472,
+      "mean_bias": -6.33414293119032,
+      "mean_CRPS": 14.477197692757418
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "rush_att",
+      "eligible_forecasts": 24,
+      "graded_played": 14,
+      "unknown": 10,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 14,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_att/a21eda77da4a649a5c968cab5a86724d782b4829de3dec4ff8ab54184f26f290",
+        "C-FORWARD-P2-v4/rush_att/cc57c85d0255899f2a433480799953a5ff1311316a777b5b117e7bd57909710d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 2.7142857142857144,
+      "mean_MAE": 2.4962231948837013,
+      "mean_MSE": 8.59942254897157,
+      "mean_bias": -0.4102949964032441,
+      "mean_CRPS": 1.7635948976158136
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "rec",
+      "eligible_forecasts": 50,
+      "graded_played": 34,
+      "unknown": 16,
+      "observed_zero": 7,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 34,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec/1ac2fe689534bde9d9c7151fcea48bcb140222797f4765a3669d8cca8f32daab",
+        "C-FORWARD-P2-v4/rec/29c1f9a66f9f660315560c02571c245c18fe65646a4d0b5a828ce5609fe00ded"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 0.8529411764705882,
+      "mean_MAE": 1.0033131373950357,
+      "mean_MSE": 1.8290389802792544,
+      "mean_bias": 0.2948220250199084,
+      "mean_CRPS": 0.6531014945801115
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "rec_yd",
+      "eligible_forecasts": 50,
+      "graded_played": 34,
+      "unknown": 16,
+      "observed_zero": 7,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 34,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec_yd/9a5653e3acf089532c43e16327446265e0873b264847907f33ea4ea363a8760d",
+        "C-FORWARD-P2-v4/rec_yd/f9dd21962e3126ba7bd37e029e0c8e6cef7df0da629a9ae6e982b5ac08212907"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 16.058823529411764,
+      "mean_MAE": 18.364028248027413,
+      "mean_MSE": 673.0139335399919,
+      "mean_bias": 4.506283649630885,
+      "mean_CRPS": 11.541069961709448
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "rush_rec_yd",
+      "eligible_forecasts": 50,
+      "graded_played": 34,
+      "unknown": 16,
+      "observed_zero": 3,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 34,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_rec_yd/536b4122f45b49d06b3356247eff15f982df15f18dd1ce28c0a2cd95b14c3a2a",
+        "C-FORWARD-P2-v4/rush_rec_yd/ab9bd19acbfdc79f0ac1ee6837b8f055c0eccbe813883432d72a63548eb3044d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 20.88235294117647,
+      "mean_MAE": 22.632450387268094,
+      "mean_MSE": 921.8255908421895,
+      "mean_bias": 2.438503574738912,
+      "mean_CRPS": 14.999882873155684
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "anytime_td",
+      "eligible_forecasts": 62,
+      "graded_played": 38,
+      "unknown": 24,
+      "observed_zero": 29,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 38,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/anytime_td/2ca7bf567cab8929659feb6bb9028373774238e86489ee04a1ce05c26ce23a66",
+        "C-FORWARD-P2-v4/anytime_td/b5a330ea1d94616ed3e55e47b51c3568ab7fcbc2d9a0f0842ebccc46903bde5f"
+      ],
+      "numerical_point_output": "TYPED_EVENT_PROBABILITY_ONLY",
+      "scoring_contracts": [
+        "rush-or-rec-at-least-one-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": null,
+      "mean_MAE": null,
+      "mean_MSE": null,
+      "mean_bias": null,
+      "mean_CRPS": 0.14785327025436454,
+      "binary_Brier": 0.14785327025436454
+    },
+    {
+      "run_id": "ALL_FOUR_RETAINED_RUNS",
+      "category": "nick-chart-ppr-v1",
+      "eligible_forecasts": 62,
+      "graded_played": 38,
+      "unknown": 24,
+      "observed_zero": 3,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 2,
+      "player_games": 38,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/fpts/b93e4e83f77aa73c4f4c623f283fad6347bcedd56d0f4a68ff10c75834aaacac",
+        "C-FORWARD-P2-v4/fpts/d04ce663b4a8b31cc2af258ab0afc2930ffccc017d6574d47aa8e69279930882"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "nick-chart-ppr-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 4.024210526315789,
+      "mean_MAE": 4.365053121595698,
+      "mean_MSE": 30.912955689781292,
+      "mean_bias": 0.6560675383918613,
+      "mean_CRPS": 2.772001875543788
+    }
+  ],
+  "exact_run_rows": [
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-pass_yd",
+      "category": "pass_yd",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_yd/e0bec7c39332054c0c36288c49858c882bb3950bc288f9de2a724447ddad674d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 78.0,
+      "mean_MAE": 71.48505259215479,
+      "mean_MSE": 7955.9291493367855,
+      "mean_bias": 53.34619391515808,
+      "mean_CRPS": 51.08080613232262
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "pass_td",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_td/040694f6815e6d9193d41df08243d63d902a8aa3b8103dd85e2507b358fa1911"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 1.0,
+      "mean_MAE": 0.8093404228157669,
+      "mean_MSE": 0.6709700752943015,
+      "mean_bias": 0.8093404228157669,
+      "mean_CRPS": 0.39539218961311395
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "pass_cmp",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_cmp/23714617da76d22511ddfa38df6d04e9ec7aadf2206e7c39fced6535fb3512c4"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 5.0,
+      "mean_MAE": 4.319042473114201,
+      "mean_MSE": 21.131532083934104,
+      "mean_bias": 4.319042473114201,
+      "mean_CRPS": 3.091000837332787
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "pass_att",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_att/41896e8884d645fd52faf3efcf5d83c977548a30069cbec6949257d6fc30b4f5"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 7.0,
+      "mean_MAE": 5.9783231905478775,
+      "mean_MSE": 44.736273156705515,
+      "mean_bias": 5.9783231905478775,
+      "mean_CRPS": 4.441245049255452
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "pass_int",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_int/0357968234d38129dd27d5f3f9560cb7c97c879bf711084de582f14084bf2ff3"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 0.5,
+      "mean_MAE": 0.9234461656229613,
+      "mean_MSE": 0.9743912880333571,
+      "mean_bias": -0.34876706729507484,
+      "mean_CRPS": 0.5580173016969052
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "rush_yd",
+      "eligible_forecasts": 13,
+      "graded_played": 9,
+      "unknown": 4,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 9,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_yd/caab6e5d2edad900d912296f09af3275d9e2bb45f10f31ae6288800a44c29a04"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 17.77777777777778,
+      "mean_MAE": 18.975369110242724,
+      "mean_MSE": 697.280828150243,
+      "mean_bias": -0.1734255206590978,
+      "mean_CRPS": 13.196146038521615
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "rush_att",
+      "eligible_forecasts": 13,
+      "graded_played": 9,
+      "unknown": 4,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 9,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_att/a21eda77da4a649a5c968cab5a86724d782b4829de3dec4ff8ab54184f26f290"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 2.5555555555555554,
+      "mean_MAE": 2.5017987447932093,
+      "mean_MSE": 7.794832432384636,
+      "mean_bias": -0.20815442240871318,
+      "mean_CRPS": 1.7120961617878634
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "rec",
+      "eligible_forecasts": 27,
+      "graded_played": 19,
+      "unknown": 8,
+      "observed_zero": 5,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 19,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec/29c1f9a66f9f660315560c02571c245c18fe65646a4d0b5a828ce5609fe00ded"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 0.8947368421052632,
+      "mean_MAE": 0.9737000924885859,
+      "mean_MSE": 1.291100661768833,
+      "mean_bias": 0.5966341796250731,
+      "mean_CRPS": 0.567738951701491
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "rec_yd",
+      "eligible_forecasts": 27,
+      "graded_played": 19,
+      "unknown": 8,
+      "observed_zero": 5,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 19,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec_yd/9a5653e3acf089532c43e16327446265e0873b264847907f33ea4ea363a8760d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 13.578947368421053,
+      "mean_MAE": 15.605561851706018,
+      "mean_MSE": 476.6754879273338,
+      "mean_bias": 6.639206924251226,
+      "mean_CRPS": 9.719536701428975
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "rush_rec_yd",
+      "eligible_forecasts": 27,
+      "graded_played": 19,
+      "unknown": 8,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 19,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_rec_yd/ab9bd19acbfdc79f0ac1ee6837b8f055c0eccbe813883432d72a63548eb3044d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 19.36842105263158,
+      "mean_MAE": 21.18834441729618,
+      "mean_MSE": 745.0112979936965,
+      "mean_bias": 6.167162007345212,
+      "mean_CRPS": 13.887255565413865
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "anytime_td",
+      "eligible_forecasts": 33,
+      "graded_played": 21,
+      "unknown": 12,
+      "observed_zero": 17,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 21,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/anytime_td/b5a330ea1d94616ed3e55e47b51c3568ab7fcbc2d9a0f0842ebccc46903bde5f"
+      ],
+      "numerical_point_output": "TYPED_EVENT_PROBABILITY_ONLY",
+      "scoring_contracts": [
+        "rush-or-rec-at-least-one-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": null,
+      "mean_MAE": null,
+      "mean_MSE": null,
+      "mean_bias": null,
+      "mean_CRPS": 0.11924667438631904,
+      "binary_Brier": 0.11924667438631904
+    },
+    {
+      "run_id": "C-FWD-v4-20261105-W09-JAXBAL-remainder",
+      "category": "nick-chart-ppr-v1",
+      "eligible_forecasts": 33,
+      "graded_played": 21,
+      "unknown": 12,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 21,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/fpts/d04ce663b4a8b31cc2af258ab0afc2930ffccc017d6574d47aa8e69279930882"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "nick-chart-ppr-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 3.7495238095238093,
+      "mean_MAE": 4.086689368250269,
+      "mean_MSE": 25.461305151504153,
+      "mean_bias": 1.9359243380750657,
+      "mean_CRPS": 2.4931660496039103
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-pass_yd",
+      "category": "pass_yd",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_yd/1d3b70766b60b3073f745590bfa3ba4a22bccff90f50a74c0f84950c8e66b87a"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 41.5,
+      "mean_MAE": 38.58727845847898,
+      "mean_MSE": 1546.7940795246618,
+      "mean_bias": 7.60368467865851,
+      "mean_CRPS": 26.71291691238343
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "pass_td",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_td/f76f37436856e89b4773279dd9c9a31edd7eac277f5d67f1721ea0ccb980209f"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 0.5,
+      "mean_MAE": 0.8266619077028912,
+      "mean_MSE": 0.8895372458216699,
+      "mean_bias": -0.454056534117379,
+      "mean_CRPS": 0.5505931518589742
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "pass_cmp",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_cmp/b3b46b1349ac5f9a2dcbc027125bd0dc3497c0758c0a8ee4e38cb318e44a552b"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 1.5,
+      "mean_MAE": 2.0912731775632345,
+      "mean_MSE": 4.734620739137166,
+      "mean_bias": -2.0912731775632345,
+      "mean_CRPS": 1.8729457929306794
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "pass_att",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_att/804bfe73c483e164dd6b83453b29a6c2a1d678da9da89e6fd1358d082af4dfc2"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 2.5,
+      "mean_MAE": 2.6980207030927765,
+      "mean_MSE": 9.511703064645705,
+      "mean_bias": 1.4941175824975979,
+      "mean_CRPS": 2.5313986081002233
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "pass_int",
+      "eligible_forecasts": 6,
+      "graded_played": 2,
+      "unknown": 4,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 2,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/pass_int/f36626e1ac5c8c42ff7a39fb57ad0ae3fe759b73a989640e65f9a3d8f2f25f7f"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB"
+      ],
+      "median_MAE": 0.5,
+      "mean_MAE": 0.532697808565582,
+      "mean_MSE": 0.31554365475006363,
+      "mean_bias": 0.17826020167017143,
+      "mean_CRPS": 0.29058062874400303
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "rush_yd",
+      "eligible_forecasts": 11,
+      "graded_played": 5,
+      "unknown": 6,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 5,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_yd/9c33d1f95e83f031a9cc20b871b035c106f2f72719419c742ee68c6d6d5d27e6"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 22.8,
+      "mean_MAE": 19.547243999146822,
+      "mean_MSE": 611.8090547755746,
+      "mean_bias": -17.423434270146522,
+      "mean_CRPS": 16.783090670381863
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "rush_att",
+      "eligible_forecasts": 11,
+      "graded_played": 5,
+      "unknown": 6,
+      "observed_zero": 0,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 5,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_att/cc57c85d0255899f2a433480799953a5ff1311316a777b5b117e7bd57909710d"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB"
+      ],
+      "median_MAE": 3.0,
+      "mean_MAE": 2.486187205046586,
+      "mean_MSE": 10.047684758828046,
+      "mean_bias": -0.7741480295933998,
+      "mean_CRPS": 1.8562926221061236
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "rec",
+      "eligible_forecasts": 23,
+      "graded_played": 15,
+      "unknown": 8,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 15,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec/1ac2fe689534bde9d9c7151fcea48bcb140222797f4765a3669d8cca8f32daab"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 0.8,
+      "mean_MAE": 1.0408229942765386,
+      "mean_MSE": 2.5104275170591217,
+      "mean_bias": -0.08747337081330028,
+      "mean_CRPS": 0.7612273822263639
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "rec_yd",
+      "eligible_forecasts": 23,
+      "graded_played": 15,
+      "unknown": 8,
+      "observed_zero": 2,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 15,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rec_yd/f9dd21962e3126ba7bd37e029e0c8e6cef7df0da629a9ae6e982b5ac08212907"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 19.2,
+      "mean_MAE": 21.858085683367847,
+      "mean_MSE": 921.7092979826923,
+      "mean_bias": 1.8045808351117856,
+      "mean_CRPS": 13.848345424731377
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "rush_rec_yd",
+      "eligible_forecasts": 23,
+      "graded_played": 15,
+      "unknown": 8,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 15,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/rush_rec_yd/536b4122f45b49d06b3356247eff15f982df15f18dd1ce28c0a2cd95b14c3a2a"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "official-player-fullgame-OT-v1"
+      ],
+      "role_scope": [
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 22.8,
+      "mean_MAE": 24.461651282565853,
+      "mean_MSE": 1145.790361783614,
+      "mean_bias": -2.2844637732290685,
+      "mean_CRPS": 16.409210796295323
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "anytime_td",
+      "eligible_forecasts": 29,
+      "graded_played": 17,
+      "unknown": 12,
+      "observed_zero": 12,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 17,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/anytime_td/2ca7bf567cab8929659feb6bb9028373774238e86489ee04a1ce05c26ce23a66"
+      ],
+      "numerical_point_output": "TYPED_EVENT_PROBABILITY_ONLY",
+      "scoring_contracts": [
+        "rush-or-rec-at-least-one-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": null,
+      "mean_MAE": null,
+      "mean_MSE": null,
+      "mean_bias": null,
+      "mean_CRPS": 0.18319082985606777,
+      "binary_Brier": 0.18319082985606777
+    },
+    {
+      "run_id": "C-FWD-v4-20261107-W09-CINATL-remainder",
+      "category": "nick-chart-ppr-v1",
+      "eligible_forecasts": 29,
+      "graded_played": 17,
+      "unknown": 12,
+      "observed_zero": 1,
+      "pending": 0,
+      "actual_scored_weeks": [
+        [
+          2026,
+          9
+        ]
+      ],
+      "games": 1,
+      "player_games": 17,
+      "actual_offer_over": null,
+      "actual_offer_under": null,
+      "actual_offer_combined": null,
+      "actual_offer_reason": "NO_QUALIFIED_RETAINED_LINE",
+      "fallback_outputs": 0,
+      "method_family": "C-FORWARD-P2-v4/retained_Leaf32_8_30_seed1701",
+      "exact_method_ids": [
+        "C-FORWARD-P2-v4/fpts/b93e4e83f77aa73c4f4c623f283fad6347bcedd56d0f4a68ff10c75834aaacac"
+      ],
+      "numerical_point_output": "EXPECTED_MEAN_AND_LOWER_MEDIAN",
+      "scoring_contracts": [
+        "nick-chart-ppr-v1"
+      ],
+      "role_scope": [
+        "QB",
+        "RB",
+        "TE",
+        "WR"
+      ],
+      "median_MAE": 4.363529411764706,
+      "mean_MAE": 4.708914228669462,
+      "mean_MSE": 37.647347531182454,
+      "mean_bias": -0.9249320376873911,
+      "mean_CRPS": 3.1164461311165788
+    }
+  ]
+}

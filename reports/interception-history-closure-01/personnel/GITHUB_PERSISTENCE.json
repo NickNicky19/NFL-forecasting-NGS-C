@@ -1,0 +1,37 @@
+{
+  "schema": "C-PERSONNEL-GITHUB-PERSISTENCE-v1",
+  "snapshot_id": "C-PERSONNEL-WASNYG-20261112-01",
+  "commit": "fafb891146abed7818b26a2e5cc928e3c14682dc",
+  "verified_UTC": "2026-11-12T20:52:48.985961+00:00",
+  "server_existence_proven_before_kickoff": true,
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "files": [
+    {
+      "path": "sources/current-personnel-interception-closure-20261112-was-nyg/SOURCE_MANIFEST.json",
+      "bytes": 5049,
+      "SHA256": "3f9c9e9b8e7f4f512e3776090770eed966c2d71dc1b9fb142ec1bb388a1fdf4f",
+      "git_blob_SHA": "493c5bb00f0abfcc915114c244d457e57a03d72e",
+      "server_Date": "Thu, 12 Nov 2026 20:52:48 GMT",
+      "request_id": "942B:A1F10:D603C8:2A33ABF:6AF62720",
+      "HTTP_status": "HTTP/2.0 200 OK"
+    },
+    {
+      "path": "sources/current-personnel-interception-closure-20261112-was-nyg/INJURY_STATUS_FACTS.csv",
+      "bytes": 1429,
+      "SHA256": "2c3f1453cce57c2d81aac1b8bad145155b9f7c3a22334c30157df925fa09adbe",
+      "git_blob_SHA": "1127e0c1f4ba43f193c1fefee2c9057c06fd9848",
+      "server_Date": "Thu, 12 Nov 2026 20:52:48 GMT",
+      "request_id": "9182:3C8C93:8929F3:1AB2DD5:6AF62720",
+      "HTTP_status": "HTTP/2.0 200 OK"
+    }
+  ],
+  "state": "DURABLE_IMMUTABLE_PREGAME_SOURCE_FACTS_READBACK_VERIFIED",
+  "counts": {
+    "source_fact_rows": 20,
+    "new_forecasts": 0,
+    "offers": 0,
+    "selections": 0,
+    "new_scored_weeks": 0
+  },
+  "limits": "Real server readback time proves these immutable projected facts existed by that response before kickoff. Not original row publication, complete roster/expected roles, fitted challenger, selected prop, primary admission or full raw-source restoration."
+}

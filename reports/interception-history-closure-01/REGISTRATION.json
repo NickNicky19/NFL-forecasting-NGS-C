@@ -1,0 +1,77 @@
+{
+  "id": "C-INTERCEPTION-HISTORY-DELIVERY-CLOSURE-01/v1",
+  "registered_UTC": "2026-11-12T20:47:13.681435+00:00",
+  "adoption": "C-scoped semantic continuation of user NFL A/B/C interception evidence gap, historical testing and delivery instruction; no replacement protocol/evaluator.",
+  "base_commit": "efa487ad1b412038c3845bb35dd55cbdd380dd3e",
+  "scope": [
+    "Admit latest A/B independent interception/historical evidence",
+    "Keep original forecasts, selections and corrected grade versions separate",
+    "Extend existing shared coverage through2026W9 and retained2022\u20132025 actual tested periods",
+    "One permitted prospective injury/personnel source observation under existing route",
+    "Source-specific category decisions; no original-site activation byC"
+  ],
+  "ownership": {
+    "A": "PR90/91, CountAregisteredproducer/authentication and historical fits/joins; read-only toC",
+    "B": "Independent interception source/grading and model-methodology reviews; no assumedack",
+    "C": "Shared intake/ledger/personnel capture and C-only publication",
+    "website": "Original registered owner only"
+  },
+  "budgets": {
+    "A_intake": {
+      "bound_GitHub_reads_max": 10,
+      "response_bytes_max": 4194304,
+      "retained_bytes_max": 1048576,
+      "new_fits": 0
+    },
+    "B_intake": {
+      "bound_GitHub_reads_max": 10,
+      "response_bytes_max": 4194304,
+      "retained_bytes_max": 1048576,
+      "new_fits": 0
+    },
+    "website_intake": {
+      "bound_reads_max": 10,
+      "response_bytes_max": 4194304,
+      "retained_bytes_max": 1048576,
+      "new_fits": 0
+    },
+    "personnel": {
+      "source_reads_max": 6,
+      "compressed_injury_bytes_max": 131072,
+      "decoded_bytes_max": 2097152,
+      "retained_bytes_max": 1048576,
+      "CPU_seconds_max": 90,
+      "RSS_bytes_max": 1073741824,
+      "new_fits": 0
+    },
+    "ledger_local": {
+      "CPU_seconds_max": 120,
+      "RSS_bytes_max": 1073741824,
+      "retained_bytes_max": 3145728
+    },
+    "publication": "Normal C checks/commit/PR/readback; no peer merge/comment/dispatch. Immutable source persistence before verified actual cutoff."
+  },
+  "whole_C_cap_bytes": 2684354560,
+  "historical_personnel_status": "SOURCE_BLOCKED remains: current snapshots cannot authenticate earlier availability",
+  "forbidden": [
+    "Unsupported pass_int zeros",
+    "New broadfit/profile/lag/calibration tournament",
+    "Cross-owner writes/leases",
+    "Credential inspection/disclosure/request",
+    "Paidservices/credits/accounts",
+    "Duplicatecollector/scheduler",
+    "Sourceclockbackdating",
+    "Historicaloverwrites",
+    "Guardbypass",
+    "Wagers"
+  ],
+  "scientific_requirement": "OwnO/U/combinedrecords; exactpolicy, role/week/line/cutoff/selection/fallback; originalissuance/reconstruction/timing-unverified/missing tiers. No new primary without five exact-product scoredseasonweeks and allotherexisting admission.",
+  "ledger_retention_amendment": {
+    "registered_UTC": "2026-11-12T21:04:50.336984+00:00",
+    "basis": "Measured first serialization of31,527source/version entries and own-side metrics is1,929,137gzipbytes. Preserve original coverage records and complete record identities; allow at most3MiB for this metadata version. No extra source reads/fits/grades and global2,684,354,560-byte cap unchanged.",
+    "initial_limit_bytes": 1048576,
+    "first_measured_output_bytes": 1929137,
+    "amended_limit_bytes": 3145728,
+    "initial_measurement_preserved": true
+  }
+}

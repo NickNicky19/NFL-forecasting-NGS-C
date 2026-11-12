@@ -1,0 +1,8 @@
+{
+  "scope": "Coverage metadata, not NFL prediction/grading.",
+  "initial_check": "A first constructor assertion assumed global uniqueness of legacyrow_id and stopped before output. The old table has30495 distinct complete source/version records sharing4182 logical row IDs.",
+  "correction": "Keep each original field and row in order; add coverage_entry_id committed to complete record. No old result was deduplicated, summed, regraded, invalidated or overwritten.",
+  "new_table": "31527 unique fullrecords and entryIDs;5214 logicalrow_ids; sourcecells/outputviews are notnewNFLgames.",
+  "numerical_export_packaging": "Original executed C CSV retained losslessly asCATEGORY_NUMERICAL.csv.gz includingCRLF, preservingdecodedhash.",
+  "source_namespace": "Upstream A/B rawexportpaths refer to their repositories. They are not resolved againstsame-namedCpaths. Exactrawbytes/blobSHA checked withinintakereceipts."
+}

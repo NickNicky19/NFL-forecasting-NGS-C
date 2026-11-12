@@ -1,0 +1,41 @@
+{
+  "schema": "C-COMMON-PERIOD-LEDGER-THROUGH-W9-v1",
+  "old_rows_preserved": 30495,
+  "total_rows": 31527,
+  "row_kinds": {
+    "PRESERVED_PROCEDURE_WEEK": 30495,
+    "HISTORICAL_SOURCE_CELL_NOT_TEST": 864,
+    "W9_ACTUAL_LINE_SOURCE_CELL_NOT_TEST": 12,
+    "RECEIVED_PROCEDURE_WEEK_OR_CUMULATIVE": 110,
+    "EXISTING_ORIGINAL_FORECAST_GRADE_VIEW": 46
+  },
+  "new_NFL_games_or_tests": 0,
+  "new_actual_offer_weeks": 0,
+  "new_grade_calls": 0,
+  "newly_received_scope": "B QBdepthcompletion110weekly/cumulativeaggregateviewsW5\u20138 and existingCtwo-gameW9forecast-onlygrades; these are evidenceadmissions, notnewfootballtesting.",
+  "historical_scope": "2022\u20132025 actual-line sourcecells retained fromexistingSOURCE_COVERAGE; no fabricatedoldseasonresults. Existingnumericalhistoryresearchremainsvalidwithinits ownbindings.",
+  "offer_scope": "2026W1\u20139; no mergingdisconnectedoroverlappingA/Bsourcepanels. ALL is cumulative, notanadditionalweek.",
+  "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE.csv.gz",
+  "SHA256": "594df8f6fcf4c370b4792fff6fa0508f87480ee969919c45256ad469e3ec4615",
+  "bytes": 1929137,
+  "source_bindings": [
+    {
+      "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
+      "SHA256": "9a0c43b4bfc2aa74ab380b9099fe66cc4418a1f36c6fa97dd63671a494506a04"
+    },
+    {
+      "path": "reports/abc-championship/SOURCE_COVERAGE.csv",
+      "SHA256": "e25e8d0e89aeb1bf85a51dfdb01f6b8fbd5c7a0815c9d7475aeca461b05ccd90"
+    },
+    {
+      "path": "reports/interception-history-closure-01/B-intake/COMMON_CONTROL_TABLE.json.xz",
+      "SHA256": "a13b0153e5418e11306e25ece6286d4c4effbc0703ee63e900193c570d7485f7"
+    },
+    {
+      "path": "reports/interception-history-closure-01/C-W9-grading/CATEGORY_NUMERICAL.json",
+      "SHA256": "7bc1e724c49530636b96719cebbdf504b79c90d88ad42865233367105a690a70"
+    }
+  ],
+  "identity_contract": "coverage_entry_id commits complete record/version. Legacy row_id is a logical cell and is not globally unique across source/version/missingness records; records are not independent NFL cases and must never be summed into accuracy.",
+  "legacy_logical_ids": 4182
+}

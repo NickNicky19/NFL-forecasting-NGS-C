@@ -1,0 +1,74 @@
+{
+  "scope": "Connector-normalized response size, not claimed originalHTTPwire bytes; exact sourcefile decoded/Gitblob binding separately retained.",
+  "reads": 11,
+  "total_normalized_response_UTF8_bytes": 223640,
+  "response_cap_bytes": 4194304,
+  "entries": [
+    {
+      "name": "A_BRANCHES",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/branches?per_page=30",
+      "normalized_response_UTF8_bytes": 15994,
+      "isError": false
+    },
+    {
+      "name": "PR90",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/pull/90",
+      "normalized_response_UTF8_bytes": 2779,
+      "isError": false
+    },
+    {
+      "name": "PR91",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/pull/91",
+      "normalized_response_UTF8_bytes": 1850,
+      "isError": false
+    },
+    {
+      "name": "ENCODED_PRODUCER_BRANCH_FAILURE",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/branches/research%2Fweekly-storage-probe-v1",
+      "normalized_response_UTF8_bytes": 291,
+      "isError": true
+    },
+    {
+      "name": "MAIN_BRANCH",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/branches/main",
+      "normalized_response_UTF8_bytes": 11891,
+      "isError": false
+    },
+    {
+      "name": "PRODUCER_BRANCH",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/branches/research/weekly-storage-probe-v1",
+      "normalized_response_UTF8_bytes": 12272,
+      "isError": false
+    },
+    {
+      "name": "DEFAULT_MAIN_EXPORT404",
+      "url": "reports/abc-championship/EXPORT_INDEX.json",
+      "normalized_response_UTF8_bytes": 575,
+      "isError": true
+    },
+    {
+      "name": "RESEARCH_REFS",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/git/matching-refs/heads/research/",
+      "normalized_response_UTF8_bytes": 18483,
+      "isError": false
+    },
+    {
+      "name": "ACCURACY_CURRENT_EXPORT",
+      "url": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31/reports/abc-championship/EXPORT_INDEX.json",
+      "normalized_response_UTF8_bytes": 60371,
+      "isError": false
+    },
+    {
+      "name": "ALL_REFS",
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting/git/matching-refs/heads/",
+      "normalized_response_UTF8_bytes": 98559,
+      "isError": false
+    },
+    {
+      "name": "AFTER_AUDIT_EXPORT404",
+      "url": "574b0f3ef834a17fbb745d7e14bec00645533c1e/reports/abc-championship/EXPORT_INDEX.json",
+      "normalized_response_UTF8_bytes": 575,
+      "isError": true
+    }
+  ]
+}

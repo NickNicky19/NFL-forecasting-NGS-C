@@ -53,7 +53,7 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "SHA256": "5f94a159a1b7d48f6d10c49b92d754caac8d55756ebd262433089f284b55d832"
+    "SHA256": "7e7e24b165557b82af6d498b082d5607ea821e4fc1f801d4d054c463b8b1a102"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -1043,8 +1043,9 @@
       "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
     },
     "coverage": {
-      "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
-      "SHA256": "0b4c437520ac2603f925eb2fb0803ab37810b29c336511b15ff70b52a8ad26b5"
+      "path": "reports/interception-history-closure-01/ledger/PERIOD_COVERAGE_SUMMARY.json",
+      "bytes": 2170,
+      "SHA256": "dd6121e56c861f0f39ae7805cc3b72ae8e09397d1633658604c97e09125a923c"
     },
     "intake": {
       "path": "reports/category-decision-release-01/intake/ADMISSION.json",
@@ -1092,8 +1093,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
-      "SHA256": "9a0c43b4bfc2aa74ab380b9099fe66cc4418a1f36c6fa97dd63671a494506a04"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE.csv.gz",
+      "bytes": 1929137,
+      "SHA256": "594df8f6fcf4c370b4792fff6fa0508f87480ee969919c45256ad469e3ec4615"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1337,7 +1339,16 @@
     "prior_final_mile_served_browser": {
       "path": "reports/category-decision-release-01/follow-through-v1/site/served/SERVED_CONSUMER_RECEIPT.json",
       "SHA256": "2eb12ebb9044fb448ace49e24a87c503fe1b8ba10663b5ddb57f6af36c2c2044"
-    }
+    },
+    "prior_release_coverage_matrix": {
+      "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
+      "SHA256": "9a0c43b4bfc2aa74ab380b9099fe66cc4418a1f36c6fa97dd63671a494506a04"
+    },
+    "prior_release_coverage_summary": {
+      "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
+      "SHA256": "0b4c437520ac2603f925eb2fb0803ab37810b29c336511b15ff70b52a8ad26b5"
+    },
+    "coverage_revision_scope": "Commonledgercurrentversionthrough2026W9/2022–25sourcequeue; originalrelease decisions and prior sourcefiles unchanged."
   },
   "next_generation_information_research_01": {
     "id": "NFL-NEXT-GENERATION-INFORMATION-RESEARCH-01-C/v1",
@@ -1367,6 +1378,79 @@
       "path": "reports/next-generation-information-01/MANIFEST.json",
       "bytes": 8340,
       "SHA256": "923a5f71f6a10a794d3a6bbbbd1ee0ddede381ee1b279357aee135f9d39e6d7d"
+    }
+  },
+  "interception_history_closure_01": {
+    "id": "C-INTERCEPTION-HISTORY-DELIVERY-CHECKPOINT-v1",
+    "stage": "C_INTAKE_LEDGER_AND_PROSPECTIVE_PERSONNEL_COMPLETE;NO_PRIMARY_SWITCH",
+    "report": {
+      "path": "reports/interception-history-closure-01/README.md",
+      "bytes": 6984,
+      "SHA256": "ef5cf1e167527fc1ef13c3be5199030f2b8c913059bf3fed72fb91190f016191"
+    },
+    "checkpoint": {
+      "path": "reports/interception-history-closure-01/CHECKPOINT.json",
+      "bytes": 8428,
+      "SHA256": "0563764cd2de8ac07c60ca6424f6c2ce8c74c554d5cae0e6f203d299a8eefd8b"
+    },
+    "registration": {
+      "path": "reports/interception-history-closure-01/REGISTRATION.json",
+      "bytes": 3486,
+      "SHA256": "eebda74c0c5c087526d948bd9419c747dd1deb0f09f4e4255e3a8e703c34e2de"
+    },
+    "category_products": {
+      "path": "reports/interception-history-closure-01/CATEGORY_PRODUCT_SUPPLEMENT.json",
+      "bytes": 14299,
+      "SHA256": "c406180204a6f0739aac9247fe2eee2abbea1c8a54ba321cdb5f5c9c02c70086"
+    },
+    "period_coverage": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE.csv.gz",
+      "bytes": 1929137,
+      "SHA256": "594df8f6fcf4c370b4792fff6fa0508f87480ee969919c45256ad469e3ec4615"
+    },
+    "period_summary": {
+      "path": "reports/interception-history-closure-01/ledger/PERIOD_COVERAGE_SUMMARY.json",
+      "bytes": 2170,
+      "SHA256": "dd6121e56c861f0f39ae7805cc3b72ae8e09397d1633658604c97e09125a923c"
+    },
+    "personnel_persistence": {
+      "path": "reports/interception-history-closure-01/personnel/GITHUB_PERSISTENCE.json",
+      "bytes": 1677,
+      "SHA256": "32ded87823412f015de859c70c8a09ca0d0f04dfb6228cb512209351fa46cc14"
+    },
+    "A_receipt": {
+      "path": "reports/interception-history-closure-01/A-intake/A_INTAKE_RECEIPT.json",
+      "bytes": 54015,
+      "SHA256": "4067c383b8f523d19c60319b49bdae854c3954305b50de4d1d5fbf222ac8fce0"
+    },
+    "B_admission": {
+      "path": "reports/interception-history-closure-01/B-intake/ADMISSION.json",
+      "bytes": 7008,
+      "SHA256": "c6be120b1af351592281c9b5bd51469930ae9ed5e6eb485d7d2c56bcfb2e1c18"
+    },
+    "C_W9_reuse": {
+      "path": "reports/interception-history-closure-01/C-W9-grading/REUSE_RECEIPT.json",
+      "bytes": 51895,
+      "SHA256": "04f15876d7d9d8f4114046c9afe8eb8a723b74270ad36d6060d2fba3a070cda1"
+    },
+    "historical_personnel": "SOURCE_BLOCKED_UNCHANGED",
+    "new_NFL_scored_weeks": 0,
+    "new_actual_offer_weeks": 0,
+    "original_website_modified": false,
+    "manifest": {
+      "path": "reports/interception-history-closure-01/MANIFEST.json",
+      "bytes": 14551,
+      "SHA256": "4f3e6c017944fe24ee7906607df5f251bd7231037a30292418600e5aa69a0f4c"
+    },
+    "validation": {
+      "path": "reports/interception-history-closure-01/VALIDATION.json",
+      "bytes": 1214,
+      "SHA256": "53ec69de391eec3edb5294774de84299df2606571560f6c8edd93584736fb4ea"
+    },
+    "independent_ledger_review": {
+      "path": "reports/interception-history-closure-01/INDEPENDENT_LEDGER_REVIEW.json",
+      "bytes": 5187,
+      "SHA256": "3d82041f54c057a9b01b424914c7b7764d940e0c147793fc43050440819e7fe7"
     }
   }
 }
