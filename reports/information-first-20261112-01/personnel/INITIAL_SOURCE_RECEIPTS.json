@@ -1,0 +1,46 @@
+{
+  "schema": "C-PERSONNEL-INFORMATION-FIRST-SOURCE-RECEIPTS-v1",
+  "sources": [
+    {
+      "id": "NATIVE_PRECHECK",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+      "started_UTC": "2026-11-12T23:33:17.739377+00:00",
+      "observed_UTC": "2026-11-12T23:33:17.939638+00:00",
+      "HTTP_status": 200,
+      "bytes": 22940,
+      "SHA256": "b96cfe448eece5ddf44ebaf16467ecae1c4c7051905fce72a397511530cd96de",
+      "headers": {
+        "Date": "Thu, 12 Nov 2026 23:33:17 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Length": "22940",
+        "Cache-Control": "max-age=2"
+      },
+      "final_host": "site.api.espn.com",
+      "full_raw_retention": "Temporary memory only; no news/media/names/articles retained"
+    },
+    {
+      "id": "NATIVE_EVENT_DETAIL_INITIAL",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "started_UTC": "2026-11-12T23:33:17.940568+00:00",
+      "observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+      "HTTP_status": 200,
+      "bytes": 116009,
+      "SHA256": "b0cc5651efeb9d517d068693fd6bd6a425795bc9f529a6342578249f522cfcc4",
+      "headers": {
+        "Date": "Thu, 12 Nov 2026 23:33:18 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Length": null,
+        "Cache-Control": "max-age=6"
+      },
+      "final_host": "site.api.espn.com",
+      "full_raw_retention": "Temporary memory only; no news/media/names/articles retained"
+    }
+  ],
+  "source_reads": 2,
+  "CPU_seconds": 0.10313,
+  "max_RSS_KiB": 18304
+}

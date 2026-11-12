@@ -1,0 +1,66 @@
+{
+  "schema": "C-NATIVE-EVENT-ROSTER-SCHEMA-PROBE-v1",
+  "event_id": "401873052",
+  "observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+  "root_fields": [
+    "boxscore",
+    "format",
+    "gameInfo",
+    "lastFiveGames",
+    "leaders",
+    "injuries",
+    "broadcasts",
+    "pickcenter",
+    "odds",
+    "againstTheSpread",
+    "news",
+    "article",
+    "winprobability",
+    "ticketsInfo",
+    "predictor",
+    "header",
+    "wallclockAvailable",
+    "meta",
+    "standings"
+  ],
+  "root_container_shapes": {
+    "boxscore": {
+      "type": "dict",
+      "length": 1,
+      "object_fields": [
+        "teams"
+      ]
+    },
+    "gameInfo": {
+      "type": "dict",
+      "length": 3,
+      "object_fields": [
+        "venue",
+        "weather",
+        "officials"
+      ]
+    },
+    "injuries": {
+      "type": "list",
+      "length": 2,
+      "object_fields": null
+    },
+    "header": {
+      "type": "dict",
+      "length": 8,
+      "object_fields": [
+        "id",
+        "uid",
+        "season",
+        "timeValid",
+        "competitions",
+        "links",
+        "week",
+        "league"
+      ]
+    }
+  },
+  "roster_blocks": [],
+  "boxscore_player_blocks": [],
+  "raw_source_hash": "b0cc5651efeb9d517d068693fd6bd6a425795bc9f529a6342578249f522cfcc4"
+}

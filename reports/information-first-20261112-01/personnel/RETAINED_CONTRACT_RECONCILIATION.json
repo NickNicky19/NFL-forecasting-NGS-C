@@ -1,0 +1,48 @@
+{
+  "schema": "C-INFORMATION-FIRST-RETAINED-PERSONNEL-CONTRACTS-v1",
+  "executed_UTC": "2026-11-12T23:34:37.842018+00:00",
+  "known_season_roster": {
+    "path": "sources/profile-closure-next-02/roster_current_season.json",
+    "sha256": "bf725f7bd40b6327e03a0ae040ff107d51fe5defa7f2b1bbea2831bf66642050",
+    "source_observed_UTC": "2026-11-10T18:45:38.394906+00:00",
+    "contract": "Current-known-season candidate universe; individual transaction effective clocks and historical original availability unknown",
+    "target_team_candidate_rows": 60,
+    "positions": {
+      "TE": 12,
+      "QB": 8,
+      "WR": 24,
+      "RB": 16
+    },
+    "complete_event_effective_universe": false,
+    "starter_or_future_participation_known": false
+  },
+  "weekly_roster": {
+    "prior_contract": "Weekly roster/source snapshot vs event applicability differ; week9 must not be relabeled week10",
+    "event_effective_universe_established": false
+  },
+  "earlier_injury_snapshot": {
+    "immutable_C_commit": "fafb891146abed7818b26a2e5cc928e3c14682dc",
+    "path": "sources/current-personnel-interception-closure-20261112-was-nyg",
+    "source_manifest_SHA256": "3f9c9e9b8e7f4f512e3776090770eed966c2d71dc1b9fb142ec1bb388a1fdf4f",
+    "source_observed_UTC": "2026-11-12T20:48:05.347215+00:00",
+    "source_only_issue_UTC": "2026-11-12T20:48:05.379646+00:00",
+    "reported_rows": 20,
+    "target_teams": {
+      "NYG": 11,
+      "WAS": 9
+    },
+    "WR_TE_rows": 8,
+    "report_only_subset": true,
+    "not_reissued_as_forecast": true
+  },
+  "scope_conclusion": "Retained source facts are useful but do not complete a current event-effective teammate universe. No absence-derived healthy/starter/zero or omitted-player redistribution.",
+  "required_other_bucket": {
+    "id": "UNRESOLVED_TEAMMATES_AND_OTHER_ALLOCATION",
+    "count": null,
+    "state": "UNKNOWN_COUNT_NOT_ZERO",
+    "use": "Do not renormalize all opportunity onto observed roster/injury/query players."
+  },
+  "existing_schema": "reports/next-generation-information-01/feasibility/personnel-source/PERSONNEL_STATUS_SCHEMA.json",
+  "historical_status": "SOURCE_BLOCKED_UNCHANGED",
+  "FTN": "Not accessed; B sole source owner"
+}
