@@ -1,0 +1,41 @@
+{
+  "schema": "C-NEXTINFO-PERSONNEL-REPRODUCTION-v1",
+  "executed_UTC": "2026-11-12T18:00:23.211912+00:00",
+  "command": "python reports/next-generation-information-01/feasibility/personnel-source/reproduce_personnel_source.py",
+  "projection_hash": "2a9ba41a1bea899fde7c8af3cab217bee581dbb6050e68b9fc09d02914162565",
+  "projection_rows": 3097,
+  "W1_8_rows": 2459,
+  "W1_8_WR_TE_rows": 446,
+  "weekly_rows": {
+    "1": 182,
+    "2": 251,
+    "3": 301,
+    "4": 318,
+    "5": 361,
+    "6": 376,
+    "7": 350,
+    "8": 320,
+    "9": 362,
+    "10": 276
+  },
+  "raw_source_verification": "NOT_REEXECUTED_RAW_NOT_DURABLY_RETAINED",
+  "vintage_comparisons": [
+    {
+      "source": "sources/current-pregame-v9-20261102-1930/availability.csv",
+      "rows": 26,
+      "changed": 0
+    },
+    {
+      "source": "sources/current-pregame-closure02-20261105-jax-bal/injuries.json",
+      "rows": 266,
+      "changed": 187
+    }
+  ],
+  "source_clock_fields": [],
+  "clock_scope": "Manifest inspected schema lacks row clocks; current retrieval does not authenticate past availability.",
+  "fits": 0,
+  "CPU_seconds": 0.05956499999999999,
+  "max_RSS_KiB": 14148,
+  "verdict": "PASS_PROJECTION_AGGREGATION_AND_RETAINED_VINTAGE_COMPARISON_ONLY",
+  "limits": "No independent original source restoration, pregame personnel universe, model fit, predictive result or release qualification is established."
+}

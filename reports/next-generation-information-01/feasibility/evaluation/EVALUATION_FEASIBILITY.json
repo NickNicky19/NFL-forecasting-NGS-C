@@ -1,0 +1,1020 @@
+{
+  "id": "C-NEXTINFO-EVALUATION-FEASIBILITY-v1",
+  "checked_UTC": "2026-11-12T18:00:24.024888+00:00",
+  "status": "EVALUATION_READY_PERSONNEL_SOURCE_BLOCKED_NO_NEW_FIT",
+  "scope": "Standard-library read/hash/inventory of retained evidence. No predictors, author graders, fits, raw transfer, source collection or new NFL scoring.",
+  "native_panel": {
+    "period": "2026 W2-W3",
+    "venue": "Pinnacle",
+    "raw_offers": 362,
+    "WR_TE_eligible": 278,
+    "WR_TE_decided": 255,
+    "WR_TE_unknown": 23,
+    "games": 32,
+    "common_contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1",
+    "decided_offer_ids_SHA256": "26029e16e5d1e82aea275ef9301fa473454ad43e19506ae570c4bc13de911262",
+    "hash_contract_fields": [
+      "offer_id",
+      "game_id",
+      "player_id",
+      "category",
+      "position",
+      "line",
+      "week",
+      "season",
+      "actual",
+      "appearance",
+      "venue",
+      "scoring_contract_id",
+      "line_tier",
+      "decision_UTC"
+    ],
+    "weekly": {
+      "2": {
+        "eligible": 136,
+        "saved_states": {
+          "LOSS": 54,
+          "WIN": 67,
+          "UNKNOWN_PARTICIPATION": 15
+        }
+      },
+      "3": {
+        "eligible": 142,
+        "saved_states": {
+          "WIN": 81,
+          "LOSS": 53,
+          "UNKNOWN_PARTICIPATION": 8
+        }
+      }
+    },
+    "contracts": {
+      "E0": {
+        "eligible": 278,
+        "available": 278,
+        "saved_status_counts": {
+          "WIN": 147,
+          "LOSS": 108,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1"
+      },
+      "P1_MEAN_DIRECTION": {
+        "eligible": 278,
+        "available": 278,
+        "saved_status_counts": {
+          "LOSS": 107,
+          "WIN": 148,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1"
+      },
+      "P1_MEDIAN_DIRECTION": {
+        "eligible": 278,
+        "available": 278,
+        "saved_status_counts": {
+          "LOSS": 106,
+          "WIN": 149,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1"
+      },
+      "P1": {
+        "eligible": 278,
+        "available": 278,
+        "saved_status_counts": {
+          "LOSS": 106,
+          "WIN": 149,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1"
+      },
+      "P2": {
+        "eligible": 278,
+        "available": 278,
+        "saved_status_counts": {
+          "LOSS": 105,
+          "WIN": 150,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "contract_SHA256": "06ad41fe4e967f30ed2f5b9e2e64be26fc82f1502d9b7d0e84dc927b4e5887e1"
+      }
+    },
+    "saved_baseline_scores": {
+      "E0": {
+        "OVER": {
+          "selected": 67,
+          "wins": 35,
+          "losses": 21,
+          "decided": 56,
+          "rate": 0.625
+        },
+        "UNDER": {
+          "selected": 211,
+          "wins": 112,
+          "losses": 87,
+          "decided": 199,
+          "rate": 0.5628140703517588
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 147,
+          "losses": 108,
+          "decided": 255,
+          "rate": 0.5764705882352941
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "WIN": 147,
+          "LOSS": 108,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": 0.2620483009473796,
+        "mean_log_loss": 0.7236282674399992
+      },
+      "P1_MEAN_DIRECTION": {
+        "OVER": {
+          "selected": 96,
+          "wins": 47,
+          "losses": 32,
+          "decided": 79,
+          "rate": 0.5949367088607594
+        },
+        "UNDER": {
+          "selected": 182,
+          "wins": 101,
+          "losses": 75,
+          "decided": 176,
+          "rate": 0.5738636363636364
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 148,
+          "losses": 107,
+          "decided": 255,
+          "rate": 0.5803921568627451
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 107,
+          "WIN": 148,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": null,
+        "mean_log_loss": null
+      },
+      "P1_MEDIAN_DIRECTION": {
+        "OVER": {
+          "selected": 71,
+          "wins": 37,
+          "losses": 21,
+          "decided": 58,
+          "rate": 0.6379310344827587
+        },
+        "UNDER": {
+          "selected": 207,
+          "wins": 112,
+          "losses": 85,
+          "decided": 197,
+          "rate": 0.5685279187817259
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 149,
+          "losses": 106,
+          "decided": 255,
+          "rate": 0.5843137254901961
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 106,
+          "WIN": 149,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": null,
+        "mean_log_loss": null
+      },
+      "P1": {
+        "OVER": {
+          "selected": 71,
+          "wins": 37,
+          "losses": 21,
+          "decided": 58,
+          "rate": 0.6379310344827587
+        },
+        "UNDER": {
+          "selected": 207,
+          "wins": 112,
+          "losses": 85,
+          "decided": 197,
+          "rate": 0.5685279187817259
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 149,
+          "losses": 106,
+          "decided": 255,
+          "rate": 0.5843137254901961
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 106,
+          "WIN": 149,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": 0.2795603398601013,
+        "mean_log_loss": 0.7962807283645753
+      },
+      "P2": {
+        "OVER": {
+          "selected": 66,
+          "wins": 35,
+          "losses": 18,
+          "decided": 53,
+          "rate": 0.660377358490566
+        },
+        "UNDER": {
+          "selected": 212,
+          "wins": 115,
+          "losses": 87,
+          "decided": 202,
+          "rate": 0.5693069306930693
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 150,
+          "losses": 105,
+          "decided": 255,
+          "rate": 0.5882352941176471
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 105,
+          "WIN": 150,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": 0.28073779907423557,
+        "mean_log_loss": 0.7996140597936944
+      },
+      "ALWAYS_OVER": {
+        "OVER": {
+          "selected": 278,
+          "wins": 122,
+          "losses": 133,
+          "decided": 255,
+          "rate": 0.47843137254901963
+        },
+        "UNDER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 122,
+          "losses": 133,
+          "decided": 255,
+          "rate": 0.47843137254901963
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "WIN": 122,
+          "LOSS": 133,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": null,
+        "mean_log_loss": null
+      },
+      "ALWAYS_UNDER": {
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 278,
+          "wins": 133,
+          "losses": 122,
+          "decided": 255,
+          "rate": 0.5215686274509804
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 133,
+          "losses": 122,
+          "decided": 255,
+          "rate": 0.5215686274509804
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 122,
+          "WIN": 133,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": null,
+        "mean_log_loss": null
+      },
+      "RETAINED_EARLIER_PREVALENCE_V8": {
+        "OVER": {
+          "selected": 71,
+          "wins": 26,
+          "losses": 28,
+          "decided": 54,
+          "rate": 0.48148148148148145
+        },
+        "UNDER": {
+          "selected": 207,
+          "wins": 105,
+          "losses": 96,
+          "decided": 201,
+          "rate": 0.5223880597014925
+        },
+        "COMBINED": {
+          "selected": 278,
+          "wins": 131,
+          "losses": 124,
+          "decided": 255,
+          "rate": 0.5137254901960784
+        },
+        "eligible": 278,
+        "unavailable": 0,
+        "states": {
+          "LOSS": 124,
+          "WIN": 131,
+          "UNKNOWN_PARTICIPATION": 23
+        },
+        "games": 32,
+        "mean_Brier": 0.2958619172575757,
+        "mean_log_loss": 0.8263583719633616
+      }
+    },
+    "own_side_arithmetic": "Independently counted selected sides and saved WIN/LOSS flags for every retained listed control; no new grading or outcome mutation.",
+    "evidence_tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE;CURRENT_REVISED_7DAY_RECONSTRUCTION;EXPOSED_DEVELOPMENT",
+    "line_tier": "UNVERIFIED_MAIN_ALTERNATE; no main-line-only assertion",
+    "original_issuance_or_venue_settlement": false,
+    "source": "Pinned C corrected PropLine f37857 sample;CCBY4;fullgameOTstatistical,booksettlementunverified",
+    "team_identity": "Some ordinary case team fields are null; existing native-query extension uses the retained native-week roster crosswalk, never target-game stat presence. Do not silently fill from current roster."
+  },
+  "annual_A_owner_local_panel": {
+    "eligible_WR_TE": 469,
+    "selected": 421,
+    "decided": 412,
+    "unavailable": 48,
+    "selected_unknown": 9,
+    "C_P1_mean": [
+      239,
+      412
+    ],
+    "strong_A_Leaf_mean_same_mask": [
+      238,
+      412
+    ],
+    "actual_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "row_access": "NOT_IN_C; public aggregate admission only; A executes joins via existing route",
+    "do_not_substitute": "Old733/667 W1-W7 and A328/579 broader median are separate panels; no raw/clock parity or new-recipe inheritance."
+  },
+  "retained_P1": {
+    "exact_product": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+    "native_mean_method": "P1_MEAN_DIRECTION",
+    "models": [
+      {
+        "origin": "2026-W01",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W01-P1.json.gz",
+        "SHA256": "0aeabe1c405b58b9c61a0d5ae7268c6dabde09ce141d1d9401129277f29516e2",
+        "fit_cutoff_UTC": "2026-09-10T00:20:00+00:00",
+        "membership_SHA256": "71017d6625258c094d90609d8fbc7378720aa0872458fc2a6fa6cd678accf87f",
+        "training_fingerprint": "758be7e67b0cf0052c03a0864239fea429f1560eead2ba8ceb4bab48557569f6",
+        "training_rows": 19605,
+        "query_rows": 320,
+        "alpha": 0.1,
+        "iterations": 86,
+        "converged": true
+      },
+      {
+        "origin": "2026-W02",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W02-P1.json.gz",
+        "SHA256": "36571ae7722b60d900432af251cf098d461887cee89b404a1f10d4d8af69978f",
+        "fit_cutoff_UTC": "2026-09-18T00:15:00+00:00",
+        "membership_SHA256": "8fe99e01e263113c9eafe0a5276ffdf5b1f44abe4a7c2dbf46957d5648dae59c",
+        "training_fingerprint": "25a0b01f7e064a5aba050ed594b2a2217cf9e3e04c30ac7a4d62c7aabe30630e",
+        "training_rows": 19623,
+        "query_rows": 320,
+        "alpha": 0.1,
+        "iterations": 92,
+        "converged": true
+      },
+      {
+        "origin": "2026-W03",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W03-P1.json.gz",
+        "SHA256": "49e21796417c3847695c1ebf657368870ba84fa61b176f9a43f8b6347e6b7e8d",
+        "fit_cutoff_UTC": "2026-09-25T00:15:00+00:00",
+        "membership_SHA256": "0fe1e3b1f18841fd0f09a0ad2026423c36410fd193a4152fc04c23f925c31868",
+        "training_fingerprint": "ce8d49cf03a9a39b93f63ca81191e1e1121491356f747a0678493c5303f18324",
+        "training_rows": 19901,
+        "query_rows": 326,
+        "alpha": 0.1,
+        "iterations": 87,
+        "converged": true
+      },
+      {
+        "origin": "2026-W04",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W04-P1.json.gz",
+        "SHA256": "2f2e282023a37e604b1ae135a567e68893ab7dd144515e8b2a9160a906cb11ad",
+        "fit_cutoff_UTC": "2026-10-02T00:15:00+00:00",
+        "membership_SHA256": "fb25562f22ca0e1accfb55e268edc226a2f79f44c2c43784309096b29c92e98f",
+        "training_fingerprint": "10adf51e04a46774d825d4a0f5d664da8ac9e8ff22ccc2575970f6f650f82bcb",
+        "training_rows": 20203,
+        "query_rows": 324,
+        "alpha": 0.1,
+        "iterations": 91,
+        "converged": true
+      },
+      {
+        "origin": "2026-W05",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W05-P1.json.gz",
+        "SHA256": "a95f7f9e8fd96186bba29bd4160dbb685b1e4b7a510cfb5f4e47d72ea77b396c",
+        "fit_cutoff_UTC": "2026-10-09T00:15:00+00:00",
+        "membership_SHA256": "9a9ce2cedff256426648e95340aa239e0ece7a64382a1485620ba46e3610f302",
+        "training_fingerprint": "695b704b41dc0f01aa805d466f3e2f6f75b875bbf503c14be64f279419d0f02e",
+        "training_rows": 20507,
+        "query_rows": 306,
+        "alpha": 0.1,
+        "iterations": 90,
+        "converged": true
+      },
+      {
+        "origin": "2026-W06",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W06-P1.json.gz",
+        "SHA256": "4b83f22507e6fa029a6e7c95a5e6b5d32d8edb601a3fb5b8a46195322ff75b85",
+        "fit_cutoff_UTC": "2026-10-16T00:15:00+00:00",
+        "membership_SHA256": "76e05ecfce76e58bc2573b2b17d06d9409ba0d131dd3a9d0b6b158864cbfbe70",
+        "training_fingerprint": "4e6f159f8e15266bf7e820ed66e3b2450a13cd5d7bcb5343038f22b2c1728afc",
+        "training_rows": 20800,
+        "query_rows": 284,
+        "alpha": 0.1,
+        "iterations": 84,
+        "converged": true
+      },
+      {
+        "origin": "2026-W07",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W07-P1.json.gz",
+        "SHA256": "b884d5b6f477fc272dccd061eb1825efbc083a1a1eb96001839096d8e82b1cda",
+        "fit_cutoff_UTC": "2026-10-23T00:15:00+00:00",
+        "membership_SHA256": "e7457c5430f3b5a33524ad2572862bbc7eeee99e09bb43afd090797fd85c9e69",
+        "training_fingerprint": "5c358476473d57e05b761e378fb32d6395a988060f919ee19a0eefb98b038d75",
+        "training_rows": 21078,
+        "query_rows": 272,
+        "alpha": 0.1,
+        "iterations": 91,
+        "converged": true
+      },
+      {
+        "origin": "2026-W08",
+        "path": "artifacts/player-context-matchup-01/v1.1/2026-W08-P1.json.gz",
+        "SHA256": "22fb5416ff0a31e0211fcaedf4ca48eed4f082941af0d7ead02f56d0d8343cf8",
+        "fit_cutoff_UTC": "2026-10-30T00:15:00+00:00",
+        "membership_SHA256": "737e05efd8990b9d336becedc3ffac66e77b4befd33cdca1d92bb387a9abd9d7",
+        "training_fingerprint": "7f7657f3434c70b31896d56cd89d00d9c0593553447f05fe593e8352c92e266b",
+        "training_rows": 21336,
+        "query_rows": 273,
+        "alpha": 0.1,
+        "iterations": 87,
+        "converged": true
+      }
+    ],
+    "2025_P1_origin_models": "NOT_PRESENT_IN_RETAINED_RUN;2025 origins have only E1/E2/E3 HGB",
+    "training_years": "Ordinary outcome/history from2022; eligible labels and per-example features strict kickoff+7days. Context PBP loaded only2025/2026; older context is missing, not historical zero.",
+    "ordinary_archive_rows_by_season": {
+      "2022": 17981,
+      "2023": 17806,
+      "2024": 18130,
+      "2025": 18540,
+      "2026": 7447
+    },
+    "feature_contract": "32 E0_OP ordinary fields +22 own target/depth/down +6 opponent values =60; train-only median+missing design120, scale floor1, alpha0.1 Poisson log-link, max120/tol1e-7. No player identity coefficient in pooledP1.",
+    "population": "Training/query RB/WR/TE stat-row-conditioned reconstruction plus separately qualified22 native missing-stat queries. Not a complete historical pregame teammate universe.",
+    "numerical_population": {
+      "query_rows": 2425,
+      "known": 2230,
+      "unknown": 195,
+      "origins": {
+        "2026-W01": 320,
+        "2026-W02": 320,
+        "2026-W03": 326,
+        "2026-W04": 324,
+        "2026-W05": 306,
+        "2026-W06": 284,
+        "2026-W07": 272,
+        "2026-W08": 273
+      }
+    },
+    "not_an_upstream_target_engine": "P1 directly predicts reception count; its mean is neither target share nor forecast team target count. Marginal means do not establish coherent allocation.",
+    "separate_products": "Native mean148/255; law/median149/255; partial law150/255. Annual mean239/412 cannot be copied onto native255 or probability/selection products."
+  },
+  "reuse": {
+    "fresh_fit": "Prior acceptance independently reproduced P1 W1 exactly (0.278706CPU s,19605rows,86iterations); no repeat needed for unchanged control.",
+    "full_prior_fit_receipt": "reports/player-context-matchup-01/acceptance-v1/FIT_REPRODUCTION_FINAL.json",
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "scipy": "1.17.0",
+      "threadpoolctl": "3.6.0"
+    },
+    "existing_native_extension": "22 historical identity-qualified missing-stat queries;0newfits,60.659497CPU s; do not repeat source acquisition or alias recovery.",
+    "source_grader_repairs": "Reuse accepted C strict identities/presence/coherence/native extension and common scorer. New status clocks/role-universe qualification is a new input contract, not another audit of passed paths."
+  },
+  "source_gate": {
+    "status": "SOURCE_BLOCKED",
+    "owner": "receiving_personnel_source / C source coordinator",
+    "evidence": {
+      "schema": "C-NEXTINFO-PERSONNEL-ACTUAL-COVERAGE-v1",
+      "observed_UTC": "2026-11-12T17:52:46.426679+00:00",
+      "source_clock_fields_present": [],
+      "source_clock_fields_absent": [
+        "date_modified",
+        "report_date",
+        "published_at",
+        "observed_at"
+      ],
+      "W1_8_rows": 2459,
+      "W1_8_WR_TE_rows": 446,
+      "weekly": [
+        {
+          "season": 2026,
+          "week": 1,
+          "rows": 182,
+          "unique_teams": 32,
+          "WR_TE_rows": 30,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 121,
+            "Out": 31,
+            "Questionable": 24,
+            "Doubtful": 6
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 21,
+            "Questionable": 4,
+            "Out": 4,
+            "Doubtful": 1
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 96,
+            "Limited Participation in Practice": 50,
+            "Did Not Participate In Practice": 36
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "rows": 251,
+          "unique_teams": 32,
+          "WR_TE_rows": 40,
+          "report_status_counts": {
+            "Questionable": 55,
+            "EXPLICIT_EMPTY_UNKNOWN": 146,
+            "Out": 44,
+            "Doubtful": 6
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 25,
+            "Doubtful": 3,
+            "Out": 7,
+            "Questionable": 5
+          },
+          "practice_status_counts": {
+            "Limited Participation in Practice": 66,
+            "Full Participation in Practice": 120,
+            "Did Not Participate In Practice": 64,
+            "EXPLICIT_EMPTY_UNKNOWN": 1
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "rows": 301,
+          "unique_teams": 32,
+          "WR_TE_rows": 49,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 182,
+            "Questionable": 43,
+            "Out": 69,
+            "Doubtful": 7
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 21,
+            "Questionable": 13,
+            "Out": 14,
+            "Doubtful": 1
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 162,
+            "Limited Participation in Practice": 55,
+            "Did Not Participate In Practice": 84
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "rows": 318,
+          "unique_teams": 32,
+          "WR_TE_rows": 56,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 180,
+            "Questionable": 63,
+            "Out": 73,
+            "Doubtful": 2
+          },
+          "WR_TE_report_status_counts": {
+            "Questionable": 12,
+            "EXPLICIT_EMPTY_UNKNOWN": 30,
+            "Out": 14
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 161,
+            "Limited Participation in Practice": 70,
+            "Did Not Participate In Practice": 86,
+            "EXPLICIT_EMPTY_UNKNOWN": 1
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "rows": 361,
+          "unique_teams": 30,
+          "WR_TE_rows": 72,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 183,
+            "Out": 92,
+            "Questionable": 82,
+            "Doubtful": 4
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 34,
+            "Questionable": 19,
+            "Out": 19
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 176,
+            "Did Not Participate In Practice": 103,
+            "Limited Participation in Practice": 82
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 6,
+          "rows": 376,
+          "unique_teams": 28,
+          "WR_TE_rows": 79,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 195,
+            "Questionable": 94,
+            "Out": 82,
+            "Doubtful": 5
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 48,
+            "Questionable": 15,
+            "Out": 16
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 183,
+            "Did Not Participate In Practice": 87,
+            "Limited Participation in Practice": 105,
+            "EXPLICIT_EMPTY_UNKNOWN": 1
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 7,
+          "rows": 350,
+          "unique_teams": 28,
+          "WR_TE_rows": 62,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 197,
+            "Questionable": 77,
+            "Out": 72,
+            "Doubtful": 4
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 40,
+            "Questionable": 8,
+            "Out": 13,
+            "Doubtful": 1
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 197,
+            "Limited Participation in Practice": 67,
+            "Did Not Participate In Practice": 85,
+            "EXPLICIT_EMPTY_UNKNOWN": 1
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 8,
+          "rows": 320,
+          "unique_teams": 28,
+          "WR_TE_rows": 58,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 188,
+            "Questionable": 79,
+            "Out": 50,
+            "Doubtful": 3
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 29,
+            "Questionable": 18,
+            "Out": 11
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 179,
+            "Did Not Participate In Practice": 72,
+            "Limited Participation in Practice": 69
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 9,
+          "rows": 362,
+          "unique_teams": 30,
+          "WR_TE_rows": 74,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 208,
+            "Out": 75,
+            "Questionable": 73,
+            "Doubtful": 6
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 39,
+            "Questionable": 16,
+            "Out": 17,
+            "Doubtful": 2
+          },
+          "practice_status_counts": {
+            "Full Participation in Practice": 186,
+            "Did Not Participate In Practice": 93,
+            "Limited Participation in Practice": 83
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        },
+        {
+          "season": 2026,
+          "week": 10,
+          "rows": 276,
+          "unique_teams": 26,
+          "WR_TE_rows": 58,
+          "report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 270,
+            "Out": 5,
+            "Questionable": 1
+          },
+          "WR_TE_report_status_counts": {
+            "EXPLICIT_EMPTY_UNKNOWN": 57,
+            "Out": 1
+          },
+          "practice_status_counts": {
+            "Did Not Participate In Practice": 104,
+            "Limited Participation in Practice": 98,
+            "Full Participation in Practice": 74
+          },
+          "duplicate_identity_keys": 0,
+          "unknown_gsis_id": 0,
+          "row_clock_coverage": 0,
+          "authenticated_historical_observation_coverage": 0
+        }
+      ],
+      "interpretation": {
+        "report_status_empty": "Unknown/no game designation supplied; cannot infer healthy/active/starter or known zero",
+        "Out": "Game report designation at retrieved source vintage, not demonstrated actualDNP",
+        "practice_status": "Practice participation is not game participation",
+        "missing_source_row": "Injury feed not full roster/completeness contract; absence not healthy",
+        "row_time_vs_offer_time": "UNASSESSABLE_NO_ROW_CLOCK",
+        "post_origin_revisions": "UNASSESSABLE_NO_VERSION_HISTORY; do not assert zero revisions",
+        "source_download_time": "One current observed vintage, not earlier availability",
+        "duplicate_resolution": "No historical report revisions preserved; cannot select last known designation at an earlier decision"
+      }
+    },
+    "blocker": "2026 injury asset has no per-row report_date/date_modified/availability clock and only reported-injury subset, not all healthy/active teammates. Retained snapshots demonstrate later designation changes. Historical pregame designations and full teammate denominator cannot be recovered from later snapshot/stat appearances.",
+    "do_not_do": "Do not attach latest injury rows to historical games, assume absent means healthy, infer inactive from no stats, invent injury penalties or call a source-vintage gap a runtime failure.",
+    "independent_next_action": "Preserve prospective observations with real clocks, event-effective roster/status unknowns and existing source owner; no duplicate collector. Existing numerical/direction delivery remains independent."
+  },
+  "resources": {
+    "feasibility_CPU_seconds": 0.708063576,
+    "feasibility_peak_RSS_bytes": 117366784,
+    "maximum_CPU_seconds": 90,
+    "maximum_RSS_bytes": 1073741824,
+    "maximum_new_retention_bytes": 1048576,
+    "network": 0,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_NFL_scoring": 0
+  },
+  "bindings": [
+    {
+      "path": "reports/player-context-matchup-01/v1.1/RUN.json",
+      "bytes": 13490,
+      "SHA256": "d79021031fc188e41e9bdfc6f29bea7fb2006b7d606b3707a5f7e4dad8520a22"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/native-query-extension-v1/FULL_OFFER_ROWS.json.gz",
+      "bytes": 99928,
+      "SHA256": "51428b6ade74bd723c93faa179673d5c8f1315bc5256272089d346fffad53381"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/CANONICAL_REPORT_ROWS.json.gz",
+      "bytes": 237063,
+      "SHA256": "7e89b9fb938996e0a7593a82b9f72b26d89fa77a179b6024e5bdcf20a41cb801"
+    },
+    {
+      "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+      "bytes": 23903,
+      "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+    },
+    {
+      "path": "artifacts/predictive-C01/APPROVED_OFFER_CASES.json.gz",
+      "bytes": 37635,
+      "SHA256": "323221587c89cfd5a018a2795a8c0c38051027e063a1aed7b0ab7f7fc9ee680b"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/NUMERICAL_ROWS.json.gz",
+      "bytes": 99722,
+      "SHA256": "398957af85dbd55444a88725397b91060599ebb6e008771f35a9399d8f4af4c8"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/FEATURE_EXPORT.json.gz",
+      "bytes": 314397,
+      "SHA256": "63f9853f19042bb3e4af691ce46001920d9df28830d1c6a34abfb5f1eab75ed0"
+    },
+    {
+      "path": "reports/player-context-matchup-01/v1.1/FOOTBALL_INPUT_BINDINGS.json",
+      "bytes": 413,
+      "SHA256": "9f475d22fd48a5e7b1319799d9244c79f1acd98a86e13209faab7730c85ea844"
+    },
+    {
+      "path": "reports/player-context-matchup-01/acceptance-v1/FIT_REPRODUCTION_FINAL.json",
+      "bytes": 4420,
+      "SHA256": "41dcf10ef81dba15ea8d51132e4557c3d74cf94fb31bfcb26ec71c30f1941432"
+    },
+    {
+      "path": "src/context_experiment_c01.py",
+      "bytes": 17449,
+      "SHA256": "8bbdc0309fae7882fe9bfd4df7efadcee0bcab9d6ac45b91c2b2c6f692c1650b"
+    },
+    {
+      "path": "src/context_features_c01.py",
+      "bytes": 9324,
+      "SHA256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725"
+    },
+    {
+      "path": "src/data_v2.py",
+      "bytes": 4106,
+      "SHA256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a"
+    },
+    {
+      "path": "src/context_native_queries_c01.py",
+      "bytes": 7267,
+      "SHA256": "30b77e382ea851bd3eb3dad7345ab649babe01a522ebc9290e6a902b6a9d915d"
+    },
+    {
+      "path": "src/context_report_c01.py",
+      "bytes": 12370,
+      "SHA256": "07fea347a0f854fa1f42bdff690647170250c0fbe542381223d5fd598ec0b344"
+    },
+    {
+      "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json",
+      "bytes": 2024,
+      "SHA256": "6981749586e6d31c34370a92f29c8e2e584d60afc03028d9aae9583178f59bd7"
+    },
+    {
+      "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
+      "bytes": 78803,
+      "SHA256": "85f535b4f2051deafc24d5f9000f7843d1610e3c4b1e1c9db11646ac02f70ccd"
+    },
+    {
+      "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",
+      "SHA256": "fa19581487519a854948269bc1ce328cbbcdc734afee2464f1ff778d1ff241a1"
+    },
+    {
+      "path": "src/abc_championship_v2.py",
+      "SHA256": "2ba450f91bb5fac869ce3adde031099390ec70408a91204653869032b49b2bce"
+    },
+    {
+      "path": "reports/abc-championship/C_INPUT_BINDINGS.json",
+      "SHA256": "91cf77353b70d49d33e5ca80421a69c702dc6d8fbab07043e58b0676580359e8"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W01-P1.json.gz",
+      "bytes": 2390,
+      "SHA256": "0aeabe1c405b58b9c61a0d5ae7268c6dabde09ce141d1d9401129277f29516e2"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W02-P1.json.gz",
+      "bytes": 2391,
+      "SHA256": "36571ae7722b60d900432af251cf098d461887cee89b404a1f10d4d8af69978f"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W03-P1.json.gz",
+      "bytes": 2347,
+      "SHA256": "49e21796417c3847695c1ebf657368870ba84fa61b176f9a43f8b6347e6b7e8d"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W04-P1.json.gz",
+      "bytes": 2341,
+      "SHA256": "2f2e282023a37e604b1ae135a567e68893ab7dd144515e8b2a9160a906cb11ad"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W05-P1.json.gz",
+      "bytes": 2347,
+      "SHA256": "a95f7f9e8fd96186bba29bd4160dbb685b1e4b7a510cfb5f4e47d72ea77b396c"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W06-P1.json.gz",
+      "bytes": 2235,
+      "SHA256": "4b83f22507e6fa029a6e7c95a5e6b5d32d8edb601a3fb5b8a46195322ff75b85"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W07-P1.json.gz",
+      "bytes": 2379,
+      "SHA256": "b884d5b6f477fc272dccd061eb1825efbc083a1a1eb96001839096d8e82b1cda"
+    },
+    {
+      "path": "artifacts/player-context-matchup-01/v1.1/2026-W08-P1.json.gz",
+      "bytes": 2352,
+      "SHA256": "22fb5416ff0a31e0211fcaedf4ca48eed4f082941af0d7ead02f56d0d8343cf8"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/OWNER_DECISION_ROWS.json",
+      "bytes": 59590,
+      "SHA256": "e9eb9a73283206b95fca7cf42d65c114d2a0c133510e3b1fc007ba5f050f6850"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 706901,
+      "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/ACTUAL_COVERAGE.json",
+      "bytes": 8702,
+      "SHA256": "edd60cc76204f7012e8f2a9b10401fc0d137cc73182a9ae8286055f7f8572670"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "C-NEXTINFO-BOUNDED-SOURCE-READS-v1",
+  "limit": 8,
+  "reads_used": 8,
+  "reads_remaining": 0,
+  "fits": 0,
+  "public_reads": [
+    {
+      "number": 1,
+      "kind": "GitHub release metadata",
+      "url": "https://api.github.com/repos/nflverse/nflverse-data/releases/tags/injuries",
+      "result": "200; actual asset names,sizes,latest revision metadata",
+      "provider_content_chars": 114127,
+      "retained": "RELEASE_METADATA_PROJECTION.json"
+    },
+    {
+      "number": 2,
+      "kind": "GitHub source-doc request",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/master/data-raw/dictionary_injuries.csv",
+      "result": "404 no master ref; no source facts obtained"
+    },
+    {
+      "number": 3,
+      "kind": "GitHub source-doc request",
+      "url": "https://raw.githubusercontent.com/nflverse/nflreadr/master/R/load_injuries.R",
+      "result": "404 no master ref; no source facts obtained"
+    },
+    {
+      "number": 4,
+      "kind": "Official docs",
+      "url": "https://nflreadr.nflverse.com/articles/dictionary_injuries.html",
+      "result": "Official definitions read; returned date_modified documentation does not match actual2026 file schema",
+      "retained": "Paraphrased field mapping, no complete page archive"
+    },
+    {
+      "number": 5,
+      "kind": "Official docs",
+      "url": "https://nflreadr.nflverse.com/reference/load_injuries.html",
+      "result": "Season-level API report contract; advertised availability not substituted for actual rows",
+      "retained": "Paraphrased field mapping, no complete page archive"
+    },
+    {
+      "number": 6,
+      "kind": "Authorized row inspection",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz",
+      "result": "200;65923compressedB/352316decodedB;3097rows; no row clocks",
+      "retained": "212204B minimal factual designation/practice/identity projection; full raw bytes memory only"
+    },
+    {
+      "number": 7,
+      "kind": "Attempt exact public license metadata",
+      "url": "https://api.github.com/repos/nflverse/nflverse-data/license",
+      "result": "Connector rejected this endpoint before source access; counted against finite read budget. No license response obtained."
+    },
+    {
+      "number": 8,
+      "kind": "Exact public repository metadata",
+      "url": "https://api.github.com/repos/nflverse/nflverse-data",
+      "result": "200; repository public; license SPDX CC-BY-4.0; default branch main",
+      "retained": "PUBLIC_REPOSITORY_LICENSE_METADATA.json"
+    }
+  ],
+  "execution_note": "First default-shell network attempt for read6 failed before connection: Errno1 Operation not permitted; same bounded URL succeeded after normal sandbox network approval. No API retry/poll loop or changed trust settings.",
+  "network_bytes_note": "Known current raw response and connector metadata sizes measured above. Official documentation delivered via managed web renderer; exact upstream HTTP transfer bytes not exposed. No response near4MiB cap.",
+  "CPU_memory_note": "No models, estimators or upstream scripts loaded/executed; local metadata/CSV aggregation only. No fit worker or scheduler created.",
+  "remaining_action": "STOP_SOURCE_COLLECTION: finite8read task closed; no more external reads in this package."
+}

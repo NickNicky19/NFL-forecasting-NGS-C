@@ -1,0 +1,19 @@
+{
+  "source_url": "https://nflreadr.nflverse.com/articles/dictionary_injuries.html",
+  "loader_url": "https://nflreadr.nflverse.com/reference/load_injuries.html",
+  "accessed_UTC": "2026-11-12",
+  "version_observed": "1.5.1.9002",
+  "definitions_paraphrased": {
+    "report_status": "Official game injury-report designation",
+    "practice_status": "Practice participation report",
+    "date_modified": "Time the injury information was updated",
+    "week": "Reported injury week"
+  },
+  "limitations": [
+    "date_modified is not documented as an immutable publication or first-availability clock",
+    "API season-level injury records are not a complete healthy/expected starter roster",
+    "Documentation availability is not actual row coverage",
+    "Game-report designation and practice participation have different meanings",
+    "Current downloaded bytes cannot authenticate their earlier availability"
+  ]
+}

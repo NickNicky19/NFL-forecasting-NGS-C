@@ -1,0 +1,42 @@
+{
+  "id": "C-NEXTINFO-VALIDATION-v1",
+  "checked_UTC": "2026-11-12T18:04:02.423885+00:00",
+  "software_contracts": {
+    "unittest": {
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 281,
+      "result": "PASS",
+      "console_SHA256": "2bc058ceda41216ce76b2901816be2c0abd7292e2567b778abc1bf73e91ca013"
+    },
+    "existing_workflow_contract_blocks": {
+      "workflow": ".github/workflows/c-checks-pages.yml",
+      "executed_local_commands_excluding_install_and_already_passed_unittest": 26,
+      "result": "PASS",
+      "console_SHA256": "362916431b7eb7b172ed385b8ed7c2f690c52c122517c43de77ad85d2295f2f1"
+    }
+  },
+  "source_and_control_checks": [
+    {
+      "path": "reports/next-generation-information-01/feasibility/personnel-source/REPRODUCTION_RECEIPT.json",
+      "bytes": 1389,
+      "SHA256": "6c78c8480fd38d8357f1e01f45130a0182db733242616cae3ca881e32a4ef5c3"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/PERSONNEL_PROJECTION_INDEPENDENT.json",
+      "bytes": 6115,
+      "SHA256": "60cf064664ad6d65d7293fbcbb668f8fb0fd6e5d7820143999df80752e53967c"
+    },
+    {
+      "path": "reports/next-generation-information-01/feasibility/evaluation/EVALUATION_FEASIBILITY.json",
+      "bytes": 34761,
+      "SHA256": "4b49eb7a86c8bb670494dddf00a048083bcba6215966ee82d680419206568724"
+    }
+  ],
+  "invariance": {
+    "frozen_category_product_decisions_changed": false,
+    "original_forecasts_models_grades_changed": false,
+    "runtime_or_scorer_changed": false,
+    "production_changed": false
+  },
+  "limits": "Software contracts and retained-row arithmetic are not predictive gain, new NFL observations, raw-source restoration or external B review."
+}

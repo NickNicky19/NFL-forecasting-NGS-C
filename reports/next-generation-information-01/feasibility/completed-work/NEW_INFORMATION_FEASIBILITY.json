@@ -1,0 +1,337 @@
+{
+  "id": "C-NEXT-GENERATION-NEW-INFORMATION-FEASIBILITY-COMPLETED-WORK-v1",
+  "created_UTC": "2026-11-12T17:53:39.035736+00:00",
+  "owner": "C; read-only prior-method reconciliation",
+  "assignment": "NFL-NEXT-GENERATION-INFORMATION-RESEARCH-01",
+  "actual_C_HEAD": "aa099aa1ff78c85440173483275e01a9d354e2c8",
+  "scope": "Bounded named retained recipes and locally admitted A/B exports, not every private/ever-performed experiment; separate source qualification controls feasibility",
+  "decision": "DISTINCT_PERSONNEL_CONDITIONED_HYPOTHESIS;HISTORICAL_FIT_SOURCE_BLOCKED_PENDING_SOURCE_RECEIPT",
+  "source_acquisition": {
+    "new_network_reads": 0,
+    "new_sources_obtained": 0,
+    "new_injury_source_qualification_owner": "C separate source executor; not duplicated"
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_football_scores": 0,
+  "new_NFL_games_or_weeks": 0,
+  "classifications": [
+    {
+      "input": "Latest same-team target share; last2-minus-prior3 target-share change",
+      "class": "ALREADY_TESTED",
+      "binding": "protocol/RECEIVING_TARGETSHARE_V10.json",
+      "result": "S1=S0 189/337; Brier .26062233969581355; no value gain"
+    },
+    {
+      "input": "Earlier player targets, catch efficiency, down/depth distribution, team attempts, opponent residual",
+      "class": "ALREADY_TESTED",
+      "binding": "reports/player-context-matchup-01/v1.1/INPUT_SCHEMA.json",
+      "result": "C01 E0-E3 unchanged147/255; pooled/partial/own-history complete and retained"
+    },
+    {
+      "input": "Historical QB-receiver target/attempt summaries without route exposure or expected future role",
+      "class": "EQUIVALENT_INFORMATION_ALREADY_AVAILABLE",
+      "binding": "reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json",
+      "result": "Supported target/attempt proxy; not alignment preferences or availability-conditioned future role"
+    },
+    {
+      "input": "Player-profile support/age values and receiving defense increments",
+      "class": "ALREADY_TESTED",
+      "binding": "reports/profile-increment-v2/KEEP_STOP.json",
+      "result": "C03 values consumed; no direction/probability/ranking replacement; numerical inconclusive"
+    },
+    {
+      "input": "One-day instead of seven-day aligned availability",
+      "class": "ALREADY_TESTED",
+      "binding": "reports/profile-closure-next-02/KEEP_STOP.json",
+      "result": "C04 native loses10/255 to each own baseline; no further lag search"
+    },
+    {
+      "input": "Qualified pregame expected teammate-availability/role configuration plus eligible earlier opportunity",
+      "class": "SOURCE_BLOCKED",
+      "novelty": "DISTINCT_INFORMATION_HYPOTHESIS_NOT_FOUND_IN_INSPECTED_COMPLETED_RECIPES",
+      "historical_qualification": "NOT_ESTABLISHED_BY_THIS_RECEIPT; separate source-owner assessment controls",
+      "prospective_qualification": "PENDING_REAL_EVENT_EFFECTIVE_STATUS_AND_OBSERVATION_RECEIPT; no future source assumed",
+      "needed": [
+        "Native event/player/historical-team IDs",
+        "Pregame observation and effective/version timestamps",
+        "Provider meaning of OUT/limited/unknown and completeness",
+        "Earlier configurations and target-opportunity numerators/denominators",
+        "Permitted retained execution/rights"
+      ],
+      "result": "No new fit authorized by this reconciliation alone"
+    },
+    {
+      "input": "Current roster listing or absent statistical row as proof of active/inactive/starter state",
+      "class": "UNAVAILABLE_OR_SOURCE_BLOCKED",
+      "binding": "src/receiving_current_capture_c04.py",
+      "result": "injury UNKNOWN; starter UNKNOWN; missing row not zero or DNP"
+    },
+    {
+      "input": "Actual receiving alignment/all routes/contextual separation",
+      "class": "SOURCE_BLOCKED",
+      "binding": "reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json",
+      "result": "PBP destination not alignment; snaps not routes; no all-route denominator or qualified historical tracking vintages"
+    },
+    {
+      "input": "November9/10 defensive snapshot in Weeks1-8",
+      "class": "INCOMPATIBLE",
+      "result": "Source unqualified and later than forecast origins; no historical backfill permitted"
+    },
+    {
+      "input": "Contemporaneous market reference probability",
+      "class": "SOURCE_BLOCKED_FOR_NEW_C_COMPARISON",
+      "result": "Existing qualified market-assisted controls retained; new clocks/market/price/event conditioning not established here; no new acquisition"
+    },
+    {
+      "input": "Target-game realized targets/attempts/availability/routes",
+      "class": "INCOMPATIBLE",
+      "result": "Future labels/exposure; forbidden as pregame inputs"
+    }
+  ],
+  "baseline": {
+    "procedure": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+    "model": "Pooled L2 Poisson; E2 covariates; alpha=.1,max_iter=120,tol=1e-7; training-only impute/scale",
+    "output": "UNROUNDED_EXPECTED_MEAN",
+    "decision": "point>line OVER;point<line UNDER;equal ABSTAIN; no point-derived confidence",
+    "history": "Expanding from2022;current/revised kickoff+7day strictly before example;availability first then game-time order;weekly eligible earlier labels",
+    "named_panel": {
+      "season": 2026,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "evidence": "A owner-local named NJ observed retained actual lines;quote/decision time unverified;historical origin current-vintage;exposed development",
+      "eligible": 469,
+      "available_selected": 421,
+      "unavailable": 48,
+      "unknown": 9,
+      "decided": 412,
+      "games": 53,
+      "OVER": {
+        "wins": 78,
+        "losses": 50,
+        "decided": 128
+      },
+      "UNDER": {
+        "wins": 161,
+        "losses": 123,
+        "decided": 284
+      },
+      "COMBINED": {
+        "wins": 239,
+        "losses": 173,
+        "decided": 412
+      }
+    },
+    "strong_same_mask_control": "A retained Leaf mean238/412, not the broader median328/579; Always-Under211/412",
+    "comparison_binding": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json:rec",
+    "native_P1_law": "149/255,Brier.279560,WRTE2026W2-W3;distinct from mean-versus-line annual view",
+    "current_alias_limit": "C_V11_P1_E2_POOLED_7D does not inherit historical P1 score absent exact feature/history/update/source adapter identity"
+  },
+  "new_hypothesis": {
+    "scientific_quantity": "Information in observed pregame teammate-status configuration about next-game receiving opportunities beyond retained own profile/team opportunity",
+    "same_family_test": "log(mu0)=b0+b*x;log(mu1)=a0+a*x+gamma*z;earlier-only re-fit;support-only arm if genuinely new",
+    "z_contract": "Qualified categorical pregame teammate status and earlier supported opportunity numerators/denominators;unknown distinct;no invented injury weights or starter probabilities",
+    "distinct_from_prior": "V10 is past share/momentum;C01/C03 are past own/context/opponent summaries;C04 changes timing;prospective_v4 status only controls eligibility, no fitted redistribution",
+    "not_claimed": "No normalized team allocation or causal injury effect proved by augmented marginal P1",
+    "integration_identity": "E[R_i|X,A]=E[T_team*s_i*q_i|X,A];dependence and unknown future exposure integrated;other/unallocated bucket preserved",
+    "forbidden": "No deterministic missing-share redistribution, target-game realized workload, postgame source revisions, injury multipliers or route inference"
+  },
+  "retained_negative_findings": {
+    "V10": "S1=S0 189/337;.260622 Brier",
+    "V11": "C0=C1=C2 194/337;.259868 Brier",
+    "C01": "E0-E3 identical147/255;P1 law149,P2 law150,P3 law138;Briers>.25;P2 worse proper score than P1",
+    "C03": "CLOSE_RECIPE_NO_GAIN direction/probability/ranking;INCONCLUSIVE numerical;defense fields used",
+    "C04": "CLOSE_RECIPE_NO_GAIN direction/probability;eachnative timing contrast-10/255;longer meanF0/F1/F2/F3 236/225/216/217 of412",
+    "C_sigmoid": "2025 OOF sigmoid worsens Brier10/12 primary2026 panels;other two changes inconclusive;synthetic/event evidence not offered selections",
+    "B_GLM_rec": "Brier .2858493424959205,337known actual-line cases;modeled appearance versus bookmaker nonvoid conditioning not established",
+    "C_pass_workload": "Small proper-score gains over linked/P2,not stronger P3/no selected hitgain;not new receiving personnel info",
+    "Astra_v10": "Separately owned inaccessible/package-dependent study remains completed negative mixture;market-assisted not history-only;no ownership assumed"
+  },
+  "distribution_family_backlog": {
+    "search_scope": "Named C/A method rosters and existing consolidated1779 distinctprocedure strings; literal case-insensitive named-family search;not private peer code inspection",
+    "NGBoost": "NO_COMPLETED_BINDING_FOUND_IN_INSPECTED_EXPORTS;NOT_GLOBAL_ABSENCE_PROOF",
+    "XGBoostLSS": "NO_COMPLETED_BINDING_FOUND_IN_INSPECTED_EXPORTS;NOT_GLOBAL_ABSENCE_PROOF",
+    "named_distributional_forest": "NO_COMPLETED_BINDING_FOUND_IN_INSPECTED_EXPORTS;existing empirical leaf/response CDF forests are related completed mechanisms",
+    "action": "Exact peer family reconciliation plus specific distribution weakness required before selecting one;no fit by library novelty"
+  },
+  "ordered_queue": [
+    "Admit separate source-status receipt;stop historical test if sourceblocked",
+    "Ifqualified register one same-family P1 information contrast and finite budget before scores",
+    "Qualified contemporaneous market-anchored probabilities",
+    "One distinct coherent opportunity law if justified",
+    "Source-qualified play-design/alignment",
+    "One missing probability family for diagnosed weakness after peer reconciliation"
+  ],
+  "scientific_and_production_boundary": "No new product qualification,primary switch,probability/confidence claim,production write,producer/selector owner transfer or candidate roster expansion",
+  "source_bindings": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 19144,
+      "SHA256": "25e82f1cca042fa21348a3c8c20ed6fc500f5c6980806a64ed2ea2bd3a80941a"
+    },
+    {
+      "path": "reports/next-generation-information-01/REGISTRATION.json",
+      "bytes": 2888,
+      "SHA256": "f3fed3ed73f2d69d10429b6363cb721cb133e7fc7746af829529024610302362"
+    },
+    {
+      "path": "protocol/RECEIVING_TARGETSHARE_V10.json",
+      "bytes": 3963,
+      "SHA256": "fb4a353e0aaba2b1af89ddc212db06515e06bf0554e92bef2467672be1fdd61c"
+    },
+    {
+      "path": "protocol/TEAM_COMPLETION_CONTEXT_V11.json",
+      "bytes": 2835,
+      "SHA256": "905041304dc6fabc81a74e4ec67cc2013bf74b8e8893afac129c30a21429b215"
+    },
+    {
+      "path": "protocol/WORKLOAD_LINK_V8.json",
+      "bytes": 4829,
+      "SHA256": "ff3a7ff1c3cdfd858b5857afc2c6cf8ec5ec98afbf9564f122ef72d9994764a5"
+    },
+    {
+      "path": "reports/predictive-C01/README.md",
+      "bytes": 5619,
+      "SHA256": "72a79f73ae3541e69c1d29cd37c1c0f9f91856ce1d026a978b45214e18beef8b"
+    },
+    {
+      "path": "reports/predictive-C01/ACTUAL_LINE_SCORES.json.gz",
+      "bytes": 15067,
+      "SHA256": "c43750558b9b85dd5cfbd996c5579bdc2d77bf979bd5dbb071c006a3eeef4042"
+    },
+    {
+      "path": "src/receiving_information_v10.py",
+      "bytes": 5760,
+      "SHA256": "03686ec26fc2231413f44b4f79fe94abc1c59d3db9d48a4a499bff2655a1f5c3"
+    },
+    {
+      "path": "src/context_experiment_c01.py",
+      "bytes": 17449,
+      "SHA256": "8bbdc0309fae7882fe9bfd4df7efadcee0bcab9d6ac45b91c2b2c6f692c1650b"
+    },
+    {
+      "path": "src/context_features_c01.py",
+      "bytes": 9324,
+      "SHA256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725"
+    },
+    {
+      "path": "src/prospective_v4.py",
+      "bytes": 32415,
+      "SHA256": "304cbd7a9b646d443d158ef732cc6535b186f3cf57e58e3f209741ef442d565e"
+    },
+    {
+      "path": "src/receiving_current_capture_c04.py",
+      "bytes": 42562,
+      "SHA256": "05d6cd7d55cbdfd23650fda2b34ff2f485593ee9e677bcd49e4a07600e2590d1"
+    },
+    {
+      "path": "reports/player-context-matchup-01/README.md",
+      "bytes": 10016,
+      "SHA256": "389ed79f2e50851e038e640ee7b2ab8d5d85ccfc0dec8279c31f8ee7b185cb95"
+    },
+    {
+      "path": "reports/player-context-matchup-01/v1.1/INPUT_SCHEMA.json",
+      "bytes": 2239,
+      "SHA256": "bbf9e931be87100a18d212ac417469286d2d625f8a887546095d6e29b244e8da"
+    },
+    {
+      "path": "reports/player-context-matchup-01/completion-decision-v1/SOURCE_QUALIFICATION.json",
+      "bytes": 6642,
+      "SHA256": "ded78c46362fb8f0be7f91a5025a9418641cd5877d65821c072cfe9db2e0a4b7"
+    },
+    {
+      "path": "reports/profile-increment-v2/KEEP_STOP.json",
+      "bytes": 1697,
+      "SHA256": "b2c1c86d10c48869252eb6bf9ac40bfc745027f7c006dfb9e62b4354541b8770"
+    },
+    {
+      "path": "reports/profile-increment-v2/PROFILE_BLOCK_USE.json",
+      "bytes": 3650,
+      "SHA256": "01b250814a68f4e5aa4018c2fc76d7ebe774832fab4ba3a58f81a751b27e1282"
+    },
+    {
+      "path": "reports/profile-increment-v2/experiment/FEATURE_ORDER.json",
+      "bytes": 4499,
+      "SHA256": "d2c7ce5aa5b617291c92efe71b7ea3f9406c69be34a44fc64e0e9f3a2d9ec985"
+    },
+    {
+      "path": "reports/profile-increment-v2/experiment/INPUT_BINDINGS.json",
+      "bytes": 3655,
+      "SHA256": "618c44f70d2f1f49145d1f360d99cabfa07089b1aa51227a7368a2bc3985701a"
+    },
+    {
+      "path": "reports/profile-closure-next-02/KEEP_STOP.json",
+      "bytes": 819,
+      "SHA256": "b3a6555d2a84be29b584c71dc2d3fc3ec4d97bc5d06e44a26f6d372e080cb989"
+    },
+    {
+      "path": "reports/profile-closure-next-02/README.md",
+      "bytes": 13389,
+      "SHA256": "bab60c1723f3d6446788a5ca22df1de6a8e9874e3f3772be3cda52610f8c2855"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/README.md",
+      "bytes": 12458,
+      "SHA256": "31281563e4794f4a9c035d6530b3293bc725ad2128658760e6da9603f86a3b16"
+    },
+    {
+      "path": "reports/profile-timing-closure-confirm-01/intake/README.md",
+      "bytes": 8043,
+      "SHA256": "4cf42c98811e985c03db89893fb9ee22c1df43b392cfd69a8130d2eee696c30c"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 706901,
+      "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
+    },
+    {
+      "path": "reports/category-decision-release-01/evidence/RETAINED_INVENTORY_COUNTS.json",
+      "bytes": 4553,
+      "SHA256": "211077591bc7042256d98a412ded47dca8cf65c4143b41783b34aceef160a060"
+    },
+    {
+      "path": "reports/abc-championship/METHOD_ROSTER-v2-C-1.json",
+      "bytes": 6881,
+      "SHA256": "6a39f54967335dcce50235565b8be1736b47e18d2fe6f4847980fe10f7a4d1ef"
+    },
+    {
+      "path": "reports/profile-increment-v2/METHOD_ROSTER_V2.json",
+      "bytes": 13341,
+      "SHA256": "f2cbc15f02b16c044ab077d10dafeb6888e164714fdeb8f01e460bc0cb470587"
+    },
+    {
+      "path": "reports/abc-championship/continuation-v2/intake/A-FINALIST_CATALOG_V1.json",
+      "bytes": 9073,
+      "SHA256": "22be5a7db670f466a794369d7b7a7a7e375798c27c19f32938404a521c6bc51e"
+    },
+    {
+      "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
+      "bytes": 1413168,
+      "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
+    },
+    {
+      "path": "reports/robustness-v3/README.md",
+      "bytes": 5608,
+      "SHA256": "8998ef782573c21e6cd4959db1d561ca7f98ea2de12a8b5a8347cf4c37f68bf8"
+    },
+    {
+      "path": "reports/reliability-v8/README.md",
+      "bytes": 19377,
+      "SHA256": "b5f53c0d9487de24ee5479786176eb5089c0604644cbc05db2f234f49afc5e1c"
+    },
+    {
+      "path": "reports/abc-championship/shared-intake-v3/intake/B_restored_GLM_law_P2_and_proper_probability_scores.source.gz",
+      "bytes": 34849,
+      "SHA256": "f2f5470be7644a7bd9b6559cbb12045a9a57b1725329ed7f5b7404871ee2067d"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_id": "C-PERSONNEL-STATUS-FACTS-v1",
+  "purpose": "Shared source contract proposal for source-qualified player/team/event report facts. It does not estimate target redistribution, health, starter probability or participation.",
+  "identity": [
+    "canonical_player_id",
+    "source_player_id",
+    "canonical_team",
+    "event_id",
+    "season",
+    "week",
+    "role_at_observation"
+  ],
+  "required_clocks": {
+    "observed_UTC": "Actual timezone-aware retrieval clock",
+    "source_updated_UTC": "Nullable only if a documented source clock exists",
+    "authenticated_original_availability_UTC": "Nullable; never synthesized from week,kickoff,HTTPDate or current observation",
+    "event_effective_UTC": "Nullable unless roster/status source establishes applicability"
+  },
+  "field_state_encoding": {
+    "presence": [
+      "present_value",
+      "explicit_null",
+      "empty_field",
+      "absent_field",
+      "unavailable_source"
+    ],
+    "numeric_zero": "Preserve as value0 when a numeric field is genuinely reported; designation data are categorical",
+    "report_status": "Provider official game-report designation; no null/notlisted=>healthy rule",
+    "practice_status": "Practice participation only",
+    "expected_role": "UNKNOWN unless separate qualified pregame role evidence exists",
+    "participation": "Unknown future outcome, not inferred from report/practice status",
+    "statistic_zero": "Not implied by Out/IR/missing row; final participation and outcome grading stay separate"
+  },
+  "support_and_lineage": [
+    "source_url",
+    "source_version_or_hash",
+    "source_schema",
+    "source_row_identity",
+    "source_observed_UTC",
+    "source_field_state",
+    "source_availability_tier",
+    "source_rights",
+    "normalization_version",
+    "fallback_reason"
+  ],
+  "universe_contract": {
+    "basic_board": "Every eligible canonical pregame roster/player record or explicit unavailable record, not target stat appearances",
+    "injury_subset": "Injury feed cannot be the full universe; no missingrow=>healthy",
+    "teammates": "Retain unprofiled/sparse/unknown players and other/unallocated opportunity bucket",
+    "historical_team": "Requires event-effective mapping; current team cannot be copied backwards"
+  },
+  "availability_tiers": [
+    "AUTHENTIC_OBSERVED_PREDECISION_SNAPSHOT",
+    "SOURCE_ROW_UPDATE_CLOCK_RECONSTRUCTION",
+    "CURRENT_VINTAGE_NO_ROW_CLOCK",
+    "CURRENT_KNOWN_SEASON_ROSTER_ONLY",
+    "UNAVAILABLE"
+  ],
+  "compatibility": {
+    "B_reuse": "Same generic status identity/clock contract may be consumed through C existing intake index; no B files or fits executed here",
+    "source_freshness": "Use existing source-specific prospective policy; no new timing lag chosen",
+    "outcomes": "No future outcomes needed for a legitimate query"
+  },
+  "readiness": "Source contract definition only; no mechanism fit, probability law, current role admission or model release"
+}

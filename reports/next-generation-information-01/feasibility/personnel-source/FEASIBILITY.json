@@ -1,0 +1,70 @@
+{
+  "schema": "C-NEXTINFO-PERSONNEL-FEASIBILITY-v1",
+  "assignment": "NFL-NEXT-GENERATION-INFORMATION-RESEARCH-01",
+  "owner": "Session C",
+  "hypothesis": "Pregame teammate report designations and role changes alter receiving-opportunity redistribution beyond retained history/profile alone.",
+  "new_information_class": "GENUINELY_NEW_CANDIDATE_PERSONNEL_BLOCK; NOT_HISTORICALLY_QUALIFIED_IN_INSPECTED_ROWS",
+  "historical_verdict": "SOURCE_BLOCKED",
+  "historical_scope": "2026W1\u20138 via retained C snapshots and actual inspected current2026 injury release; not a claim that all conceivable providers/older archives are unavailable.",
+  "current_verdict": "OBSERVED_SOURCE_FACTS_ONLY; EVENT_EFFECTIVE_AND_COMPLETE_UNIVERSE_NOT_ADMITTED",
+  "executed": "Retained-source audit, actual row/clock/coverage inspection, documented-vs-actual schema reconciliation, retained-vintage comparison and local projection checks.",
+  "not_executed": [
+    "No NFL model fit or changed inference",
+    "No O/U/probability/numerical improvement comparison",
+    "No new current player-role admission",
+    "No production or scheduler change",
+    "No raw-source independent restoration"
+  ],
+  "facts": {
+    "current_observed_UTC": "2026-11-12T17:52:46.426679+00:00",
+    "current_observed_Chicago": "2026-11-12T11:52:46.426679-06:00",
+    "HTTP_Age_seconds": 3161,
+    "HTTP_Last_Modified_UTC": "2026-11-12T15:56:22+00:00",
+    "W1_8_injury_rows": 2459,
+    "W1_8_WR_TE_injury_rows": 446,
+    "W1_8_row_clock_fields": 0,
+    "retained_W8_pregame_rows": 26,
+    "retained_W8_WR_TE_rows": 3,
+    "W9_later_changed_status_rows": 187,
+    "W9_retained_comparable_rows": 266
+  },
+  "distinctions": [
+    "date_modified is documented as update time but is absent from actual2026 source fields",
+    "Global Last-Modified/HTTPAge is not per-row publication/firstavailability",
+    "Current observed injury rows are not newest-at-origin facts; file revisions demonstrably change earlier-week report/practice values",
+    "W8 retained26 rows are genuine narrow pregame evidence for SEA/CHI; they do not supply W1\u20138 complete training/status universe",
+    "Missing report status/injuryrow does not mean healthy, starter, active, DNP or knownzero",
+    "Injury subset plus stat-row-conditioned models cannot supply full pregame teammate allocation denominator",
+    "Existing current-known-season roster lacks authenticated historical event-effective roster/role mapping",
+    "Current W10 tag alone does not establish future event-effective applicability",
+    "2025/2024 assets verified in metadata only; no original row-clock/coverage qualification claimed"
+  ],
+  "read_budget": {
+    "used": 8,
+    "maximum": 8,
+    "fits": 0
+  },
+  "decision": "STOP_HISTORICAL_PERSONNEL_FIT_FOR_THIS_PACKAGE; retain eligible existing methods and independent release/capture work.",
+  "minimum_missing_artifacts": [
+    {
+      "executor": "Session C source/intake owner",
+      "artifact": "Permitted immutable predecision injury/practice designation snapshots or authentic versioned row-clock records, with source semantics and revisions bound to each evaluated event/cutoff",
+      "next_permissible_action": "Inspect an actually supplied/retained earlier snapshot under existing approved route; otherwise capture qualified source facts prospectively through existing manual/authorized jobs only",
+      "completion_condition": "At least the declared historical comparison origins can reconstruct actual source-known teammate report states without assigning a later vintage backward",
+      "authority": "No new paid acquisition/account/collector/scheduler authorized"
+    },
+    {
+      "executor": "Session C pregame roster/query owner",
+      "artifact": "Full canonical historical event-effective teammate roster/role universe including unknown/sparse/unprofiled players and other/unallocated bucket",
+      "next_permissible_action": "Qualify existing roster/event evidence or separately retain prospective admitted roster snapshot; do not use eventual statistical appearance",
+      "completion_condition": "Every eligible teammate has identity/team/event and explicit state or unavailable record at cutoff, independent of target-game outcomes",
+      "authority": "C-only existing source/current-query authority"
+    }
+  ],
+  "qualification": "No new five-week/product or TopPicks evidence; no accuracy claim. Existing original forecasts, source files and negative model results unchanged.",
+  "independent_permitted_projection_receipt": {
+    "path": "reports/next-generation-information-01/feasibility/evaluation/PERSONNEL_PROJECTION_INDEPENDENT.json",
+    "sha256": "fc948c41f0f00722c0c470cb8e521804687b198218d74dd9c676cf10830d1f62",
+    "scope": "Separate calculation of permitted current projection identities/counts and cross-vintage status comparison, no new GET; no raw source/clock/model parity."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "C-RETAINED-PERSONNEL-SOURCE-BINDINGS-v1",
+  "scope": "Existing immutable source snapshots and semantics; hashes bind inspected bytes, not unretained original full source responses.",
+  "bindings": [
+    {
+      "path": "sources/current-pregame-v9-20261102-1930/availability.csv",
+      "bytes": 1767,
+      "sha256": "c563d914075bfedaff9c7dbbbcb8512b38ec0b7d7b88c380e470745969f2aa20"
+    },
+    {
+      "path": "sources/current-pregame-v9-20261102-1930/SOURCE_MANIFEST.json",
+      "bytes": 2526,
+      "sha256": "4bdaca3c4b8c5b2170c18f6ac8b61255d2adfbdea3dab85c855e2572782f0529"
+    },
+    {
+      "path": "sources/current-pregame-closure02-20261105-jax-bal/injuries.json",
+      "bytes": 39947,
+      "sha256": "006e8ae18d62ecf4ce90a21f56e73c3fca62179054afcb2b309e5c9dd1ed8861"
+    },
+    {
+      "path": "sources/current-pregame-closure02-20261105-jax-bal/SOURCE_MANIFEST.json",
+      "bytes": 27701,
+      "sha256": "a8c5ef976a0beeb7ac2a3e7580d7f544179d99377ded9825ea9c10df19e8aec9"
+    },
+    {
+      "path": "sources/profile-closure-next-02/roster_current_season.json",
+      "bytes": 106245,
+      "sha256": "bf725f7bd40b6327e03a0ae040ff107d51fe5defa7f2b1bbea2831bf66642050"
+    },
+    {
+      "path": "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
+      "bytes": 4510,
+      "sha256": "eb37e6c9568ba9f17ddfcd5eba8464111fbdf748021d4f1000f16202d220c689"
+    },
+    {
+      "path": "reports/profile-increment-v2/ROSTER_SEMANTICS.json",
+      "bytes": 6084,
+      "sha256": "329868928096ed16d2ece13223c8fa3ebd156e68d09785183e6133c4a26a730c"
+    }
+  ]
+}

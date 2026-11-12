@@ -1,0 +1,48 @@
+{
+  "schema": "C-NEXTINFO-PERSONNEL-SOURCE-FEASIBILITY-v1",
+  "owner": "Session C",
+  "assignment": "NFL-NEXT-GENERATION-INFORMATION-RESEARCH-01",
+  "scope": "One bounded teammate game-status source qualification; no forecasting/model fitting",
+  "budget": {
+    "external_reads_max": 8,
+    "external_response_bytes_max": 4194304,
+    "retained_bytes_max": 1048576,
+    "fits": 0,
+    "cpu_seconds_max": 90,
+    "memory_bytes_max": 1073741824
+  },
+  "initial_source_sequence": [
+    "Existing retained C source inventories",
+    "Injury release metadata",
+    "Official injury dictionary/loader"
+  ],
+  "source_qualification_required": [
+    "Actual rows and season/week coverage",
+    "Source field meaning",
+    "Actual observation and update clocks",
+    "Rights/retention",
+    "Historical versus prospective restrictions"
+  ],
+  "pending_amendment": "One current-vintage 2026 CSV.GZ row inspection, max100KiB compressed and2MiB decoded; no fits.",
+  "guardrails": [
+    "No target-game actual targets/participation for role admission",
+    "Null designation is unknown, not healthy",
+    "Report Out is designation, not measured DNP",
+    "No current vintage backdating",
+    "No source collection/scheduler or production change"
+  ],
+  "row_inspection_amendment": {
+    "authorized_by": "Parent Session C executor /root, message2026-11-12",
+    "read_number": 6,
+    "source_url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz",
+    "purpose": "Actual 2026 W1\u20138 source row/clock coverage and reconstruction feasibility, no model fit",
+    "limits": {
+      "compressed_bytes_max": 131072,
+      "decompressed_bytes_max": 2097152,
+      "retained_factual_projection_and_provenance_bytes_max": 307200,
+      "fits": 0
+    },
+    "retention": "Original compressed/full CSV response temporary in memory only; permitted minimal public factual status/clock projection, aggregate diagnostics and provenance retained. No injury descriptions/names/media.",
+    "clock_semantics": "Updated time is not authenticated original availability; never backdate revised bytes."
+  }
+}
