@@ -1,0 +1,57 @@
+{
+  "schema": "C-PROSPECTIVE-PERSONNEL-OBSERVATION-REGISTRATION-v1",
+  "assignment": "C-owned prospective immutable predecision injury/personnel capture; historical SOURCE_BLOCKED unchanged",
+  "owner": "Session C receiving/personnel source executor",
+  "registered_UTC": "2026-11-12T20:46:50.670131+00:00",
+  "source_directory": "sources/current-personnel-interception-closure-20261112-was-nyg",
+  "report_directory": "reports/interception-history-closure-01/personnel",
+  "budget": {
+    "source_reads_max": 6,
+    "compressed_source_bytes_max": 131072,
+    "decoded_source_bytes_max": 2097152,
+    "retained_bytes_max": 1048576,
+    "CPU_seconds_max": 90,
+    "memory_bytes_max": 1073741824,
+    "fits": 0,
+    "forecasts": 0,
+    "offer_selections": 0
+  },
+  "fixed_event_discovery": {
+    "game_id": "2026_10_WAS_NYG",
+    "teams": [
+      "WAS",
+      "NYG"
+    ],
+    "kickoff_discovery_UTC": "2026-11-13T01:15:00+00:00",
+    "native_status_route": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+    "must_refresh": true
+  },
+  "source_route": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz",
+  "rights_route": "Existing C ordinary nflverseCCBY4 minimal factual projection; live repository license metadata already corroborated in prior receipt. No names/injury narratives/media/marketpayload. ESPN nativeevent facts only.",
+  "prospective_use": "Source facts captured at real observation, independently of models/offers; no inference of healthy/starter or targetgame participation; eventweek label not enough for full roster/admission.",
+  "persistence_contract": {
+    "planned": "Root publishes exact C commit before actual future cutoff via existing authorized route, then binds GitHubserver timing and fresh retrieval",
+    "this_subtask": "Local immutable minimal source snapshot only until publication receipt exists",
+    "no_backdating": true,
+    "history": "W1\u20138 SOURCE_BLOCKED remains; no originalavailability assigned from currentweek or HTTP clocks"
+  },
+  "allowed_source_stages": [
+    "CurrentUTC and native pregame status",
+    "One bounded fresh injury response with hashes/cacheheaders",
+    "Only existing qualified roster evidence; otherwise explicitunresolved"
+  ],
+  "stop_conditions": [
+    "Eventstarted/completed or unsafe cutoff",
+    "Source cap exceeded",
+    "6publicreads reached",
+    "Rights/identity/sourceclock guard failure"
+  ],
+  "guardrails": [
+    "No newmodel or probability",
+    "No forecasts or recommendations",
+    "No new collector/scheduler",
+    "C-only writes and root-only publication",
+    "No peerworkflow dispatch",
+    "Originalsnapshots unchanged"
+  ]
+}

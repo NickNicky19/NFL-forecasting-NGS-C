@@ -1,0 +1,122 @@
+{
+  "schema": "C-PROSPECTIVE-PERSONNEL-SOURCE-v1",
+  "snapshot_id": "C-PERSONNEL-WASNYG-20261112-01",
+  "source_only_issue_UTC": "2026-11-12T20:48:05.379646+00:00",
+  "source_only_issue_Chicago": "2026-11-12T14:48:05.379646-06:00",
+  "event": {
+    "schema": "C-NATIVE-PERSONNEL-EVENT-v1",
+    "game_id": "2026_10_WAS_NYG",
+    "espn_event_id": "401873052",
+    "competition_id": "401873052",
+    "season": 2026,
+    "season_type": 2,
+    "week": 10,
+    "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "kickoff_Chicago": "2026-11-12T19:15:00-06:00",
+    "home_team": "NYG",
+    "away_team": "WAS",
+    "state": "pre",
+    "status_name": "STATUS_SCHEDULED",
+    "completed": false,
+    "event_competition_agreement": true,
+    "source_observed_UTC": "2026-11-12T20:48:04.918456+00:00",
+    "source_receipt_id": "NATIVE_WAS_NYG_PRECHECK",
+    "scope": "Current native event identity, schedule and pregame state only; no roster/starter or model admission."
+  },
+  "sources": [
+    {
+      "id": "NATIVE_WAS_NYG_PRECHECK",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+      "started_UTC": "2026-11-12T20:48:04.696698+00:00",
+      "observed_UTC": "2026-11-12T20:48:04.918456+00:00",
+      "HTTP_status": 200,
+      "HTTP_headers": {
+        "Date": "Thu, 12 Nov 2026 20:48:04 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "Content-Length": "22958",
+        "Content-Type": "application/json;charset=UTF-8",
+        "ETag": null,
+        "Cache-Control": "max-age=2"
+      },
+      "final_host": "site.api.espn.com",
+      "body_bytes": 22958,
+      "body_SHA256": "67eab342f9d4c507f505890d1f2af81344f04f18931331c13de8b998b625c700",
+      "raw_retention": "Full raw response temporary in memory only; minimal factual projection retained."
+    },
+    {
+      "id": "NFLVERSE_INJURY_2026",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv.gz",
+      "started_UTC": "2026-11-12T20:48:04.919774+00:00",
+      "observed_UTC": "2026-11-12T20:48:05.347215+00:00",
+      "HTTP_status": 200,
+      "HTTP_headers": {
+        "Date": "Thu, 12 Nov 2026 20:48:05 GMT",
+        "Age": "2391",
+        "Last-Modified": "Thu, 12 Nov 2026 15:56:22 GMT",
+        "Content-Length": "65923",
+        "Content-Type": "application/octet-stream",
+        "ETag": "\"0x8DF40D57F943C1F\"",
+        "Cache-Control": null
+      },
+      "final_host": "release-assets.githubusercontent.com",
+      "body_bytes": 65923,
+      "body_SHA256": "36c933c378dd06eca5f4d43b1891412ba2d0e632ff0df85ddaddaf32e40ca0d8",
+      "raw_retention": "Full raw response temporary in memory only; minimal factual projection retained.",
+      "decoded_bytes": 352316,
+      "decoded_SHA256": "89785d46c2b4a86108d5fd31d4353fa9d663116044fc9b63cdea8d1758dfb500",
+      "all_source_fields": [
+        "season",
+        "season_type",
+        "game_type",
+        "team",
+        "week",
+        "gsis_id",
+        "position",
+        "full_name",
+        "first_name",
+        "last_name",
+        "report_primary_injury",
+        "report_secondary_injury",
+        "report_status",
+        "practice_primary_injury",
+        "practice_secondary_injury",
+        "practice_status"
+      ],
+      "all_source_rows": 3097
+    }
+  ],
+  "projection": {
+    "path": "sources/current-personnel-interception-closure-20261112-was-nyg/INJURY_STATUS_FACTS.csv",
+    "bytes": 1429,
+    "SHA256": "2c3f1453cce57c2d81aac1b8bad145155b9f7c3a22334c30157df925fa09adbe",
+    "rows": 20,
+    "columns": [
+      "season",
+      "week",
+      "season_type",
+      "game_type",
+      "team",
+      "gsis_id",
+      "position",
+      "report_status",
+      "practice_status"
+    ]
+  },
+  "source_row_clocks": [],
+  "source_effective_scope": "Source-tagged2026W10 WAS/NYG report facts observed before current native scheduled kickoff. Complete event-effective roster, expected roles and per-row original availability remain UNKNOWN.",
+  "state_contract": "Empty/null/notlisted is not healthy, starter, active or DNP; no statistic zeros inferred. Practice participation differs from game participation. All missing roster players remain unknown rather than healthy.",
+  "rights": "Existing ordinary nflverse CC-BY-4.0 minimal facts plus native public event facts. Names, injury descriptions, narratives, images and market data excluded.",
+  "persistence": {
+    "state": "LOCAL_CAPTURE_AWAITING_ROOT_GITHUB_COMMIT_AND_SERVER_RECEIPT",
+    "local_persistence_UTC": "2026-11-12T20:48:05.379646+00:00",
+    "requirement": "Root must bind exact commit/blob hashes plus real GitHub server timing before actual kickoff; local issue does not prove remote durable pregame persistence.",
+    "forecast_count": 0,
+    "actual_offer_count": 0,
+    "selected_decision_count": 0
+  },
+  "historical_status": "W1\u20138_SOURCE_BLOCKED_UNCHANGED; no current source value is assigned an earlier historical availability.",
+  "source_read_count": 2,
+  "CPU_seconds": 0.17890899999999998,
+  "max_RSS_KiB": 39280
+}
