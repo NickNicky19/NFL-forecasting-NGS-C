@@ -1,0 +1,53 @@
+{
+  "id": "FOLLOW-THROUGH-DEFENSIVE-SUPPLIED-REFERENCE-v1",
+  "recorded_UTC": "2026-11-12T04:14:02.036299+00:00",
+  "source": "User supplied Appendix A in FOLLOW-THROUGH-RELEASE-AND-DEFENSIVE-SOURCE-01 v1",
+  "transcription": "Exact supplied CSV headers/values/order preserved in canonical UTF-8 LF, with terminal newline. This is a canonical transcription, not claimed byte-identical to an independently supplied chat/workbook binary. No external source response obtained.",
+  "workbook": "nfl_defensive_rankings_2026.xlsx",
+  "workbook_state": "NOT_ACCESSIBLE_IN_BOUNDED_LOCAL_FILENAME_SCAN",
+  "paths_scanned": [
+    "/workspace",
+    "/tmp"
+  ],
+  "scan_command": "rg --files /workspace /tmp 2>/dev/null | rg -i '(^|/)nfl_defensive_rankings_2026\\.xlsx$'",
+  "workbook_bytes_hash": null,
+  "original_URLs": null,
+  "external_rights": "UNVERIFIED;only supplied factual tables are retained as user-reference evidence. No workbook or external raw source is republished.",
+  "claimed_period": "User reports2026regularseasonthroughgamescompleted2026-11-09 forA1/A3/A4/A5; alignmentpageupdated2026-11-10 withgamecutoffunknown. Not externallyverified.",
+  "authenticated_historical_vintages": false,
+  "model_admission": "NONE;reference-only",
+  "network_source_requests": 0,
+  "new_fits": 0,
+  "files": [
+    {
+      "path": "A1_TE_receiving_yards.csv",
+      "bytes": 779,
+      "SHA256": "40f238283267cc8c17023a7ae5ea2907fa96282fc545d9bf0ba520f10f90afdd"
+    },
+    {
+      "path": "A2_alignment_efficiency.csv",
+      "bytes": 678,
+      "SHA256": "dbf842707c97441ee0fc91f10db3cbabc66766130a70a5d848d273a46770488b"
+    },
+    {
+      "path": "A3_passing_attempts.csv",
+      "bytes": 783,
+      "SHA256": "442138eb16169b59a15cad5a5b51e6bbc24f0c8ae314fa47beee2bfc8baea217"
+    },
+    {
+      "path": "A4_completions.csv",
+      "bytes": 931,
+      "SHA256": "604c6b59bad820e749365d7d2e4f3d1a581701d4f924122b8bdbe24192e8b2fc"
+    },
+    {
+      "path": "A5_RB_rushing.csv",
+      "bytes": 964,
+      "SHA256": "e342f92bc7438a49daf30976d2ae5094e0a2514808e5226c4cf0747b5601b72f"
+    },
+    {
+      "path": "SUPPLIED_TABLES_CANONICAL.txt",
+      "bytes": 4270,
+      "SHA256": "cb07bbaa59f7cccca73c0b1860bd47511d0532487afd884b8fe1907e2436f053"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state": "CHECKER_INSPECTION_ERROR_OPTIONAL_NA_FIELD",
+  "error": "own_sides None on blocked no-offer category was correctly N/A; inspection formatter tried .get without null guard",
+  "source_data_defect": false,
+  "remedy": "Use null-aware parsing; retain all twelve category records",
+  "new_HTTP_requests_or_fits": 0
+}

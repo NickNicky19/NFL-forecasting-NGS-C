@@ -1021,7 +1021,7 @@
   },
   "category_decision_release_01": {
     "id": "NFL-CATEGORY-DECISION-AND-RELEASE-01-C/v1",
-    "stage": "ALL12_SCOPED_DECISIONS_AND_EXACT_JOINS_PUBLISHED;C_RESEARCH_SERVED_VERIFIED;CURRENT_SHADOW_EXPIRED",
+    "stage": "RELEASE_VERSION_CLOSED_WITH_OWNER_EXCEPTIONS;SOURCE_BOUND_ANNUAL5;FOUR_SELECTOR_WEEKS_RECEIVED;C_PUBLICATION_PENDING",
     "assignment": {
       "path": "reports/category-decision-release-01/adoption/NFL_CATEGORY_DECISION_AND_RELEASE_01_V1.txt",
       "SHA256": "a6d6b3c8f3b90009cde559fc00ff96d3d8e688ef1c0ae93588e5acdcc4f9d01f"
@@ -1036,15 +1036,15 @@
     },
     "report": {
       "path": "reports/category-decision-release-01/README.md",
-      "SHA256": "4d09ba3b9500ce16e3fdac2d60528fa152b543ddeb528853db0a411056dfb5a5"
+      "SHA256": "4300493d841501d8f3ae7f1534c8396f7eb24005c672c341698be1b181f13408"
     },
     "category_product_decisions": {
       "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
-      "SHA256": "f6286af137ca5ef14a4fd183cf93836ec0771893c3ed445e58b432a48f5a844b"
+      "SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601"
     },
     "coverage": {
       "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
-      "SHA256": "7b153d29e29afec5456eb9a69eff6c68aa0a6ebac4ccc8aee7c73c7659d5e5b7"
+      "SHA256": "0b4c437520ac2603f925eb2fb0803ab37810b29c336511b15ff70b52a8ad26b5"
     },
     "intake": {
       "path": "reports/category-decision-release-01/intake/ADMISSION.json",
@@ -1093,7 +1093,7 @@
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
       "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
-      "SHA256": "09189f76537b7fb87c5c94496438cfecf44037db4577e0b9364c20bc6644c8c9"
+      "SHA256": "9a0c43b4bfc2aa74ab380b9099fe66cc4418a1f36c6fa97dd63671a494506a04"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1126,6 +1126,96 @@
     "resource_closure": {
       "path": "reports/category-decision-release-01/RESOURCE_CLOSURE.json",
       "SHA256": "8897dee8a5baa8dcccda6e27685cb967ec3b4d26c15a38bfac72c0f9cde924af"
+    },
+    "follow_through_v1": {
+      "id": "FOLLOW-THROUGH-RELEASE-AND-DEFENSIVE-SOURCE-01-C/v1",
+      "stage": "EXECUTABLE_C_PACKAGE_COMPLETE_PUBLICATION_PENDING",
+      "registration": {
+        "path": "reports/category-decision-release-01/follow-through-v1/REGISTRATION.json",
+        "SHA256": "43de57669194b9e40db7be73cd77131e88fb43c3c15d17e93f9f19517ccb8c68"
+      },
+      "report": {
+        "path": "reports/category-decision-release-01/follow-through-v1/README.md",
+        "SHA256": "5ef96c93c6375afb980846a521de4e922a4f521ca99e630c77311359c1882fae"
+      },
+      "release_roster_freeze": {
+        "path": "reports/category-decision-release-01/follow-through-v1/RELEASE_ROSTER_FREEZE.json",
+        "SHA256": "2b3f7415e4d1102594f0b21b44a7affd1187af5b494fa88067007a1372f57e8f"
+      },
+      "A_B_intake": {
+        "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/ADMISSION.json",
+        "SHA256": "f04edfc4b60b62bf7ec7cdec6363adb878c87b1e4fa539dedcca0984820b6349"
+      },
+      "source_week_resolution": {
+        "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/SOURCE_WEEK_RESOLUTION.json",
+        "SHA256": "f1c6cade469409b601caa0ba197b92221471d7bed26dd7e945f44c3df99b052a"
+      },
+      "CountA_mean_own_weeks": {
+        "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/COUNT_A_MEAN_OWN_WEEKLY_REUSE.json",
+        "SHA256": "cfbfb36b54c59394f25dd9bea4df96e6b552f1374de79dc8266c46407bf1249a"
+      },
+      "website_replay": {
+        "path": "reports/category-decision-release-01/follow-through-v1/website/ADMISSION.json",
+        "SHA256": "bc806d6bcedb64f49e9a49d5526dd1a9d6666a1601f9fb7fa7cf6ee35ac26698"
+      },
+      "weekly_selector_contribution": {
+        "path": "reports/category-decision-release-01/follow-through-v1/website/WEEKLY_CONTRIBUTION_TABLE.json",
+        "SHA256": "bfac3a0d11a7a4e358d9e7790cd85102bfa91098424eb036fce4435cdb0d8052"
+      },
+      "W4_contract": {
+        "path": "reports/category-decision-release-01/follow-through-v1/website/W4_DISPOSITION.json",
+        "SHA256": "99ae8fc5157bb56db7f9ae671829f1e61c418d03ce95788414f344a63604c8db"
+      },
+      "actual_live_products": {
+        "path": "reports/category-decision-release-01/follow-through-v1/website/LIVE_PRODUCT_BINDINGS.json",
+        "SHA256": "d9d30f0f3a8b1707f7fea50f81aac5d503dac62aff8805600be261782f0dc4b5"
+      },
+      "CountA_native_queue": {
+        "path": "reports/category-decision-release-01/follow-through-v1/website/COUNTA_OWNER_QUEUE.json",
+        "SHA256": "552ed80199df3081122825c21c6116af98484b6b6fd6e3fbdbfb7c71e61f27ca"
+      },
+      "defensive_source_report": {
+        "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/README.md",
+        "SHA256": "c49688aa5ce4610d16798187f877d6e35d57022505494f37cbfc2bdb34763df2"
+      },
+      "defensive_field_map": {
+        "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/FIELD_TO_USE.json",
+        "SHA256": "03e7f10b5ece7adab5389fd1e2953b61a70737c29792b40f197c9e284a288d18"
+      },
+      "defensive_independent_review": {
+        "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/INDEPENDENT_REVIEW.json",
+        "SHA256": "173cca8602d53f9fb32c63791e5da6a38345af2c9ab1efe50ed0a66230b6d75f"
+      },
+      "frozen_capture_status": {
+        "path": "reports/category-decision-release-01/follow-through-v1/FROZEN_CAPTURE_STATUS.json",
+        "SHA256": "fa1dd196a6fa46c07a5688eea0258a2790410ab3b672da778f91bdafc888b641"
+      },
+      "coverage_scope": {
+        "path": "reports/category-decision-release-01/follow-through-v1/COVERAGE_SCOPE_RECEIPT.json",
+        "SHA256": "6be4aa8dd572a3a38c7acd1aafb88bb26bbde2c162cb33ed52d596c42c64f67a"
+      },
+      "finite_queue": {
+        "path": "reports/category-decision-release-01/follow-through-v1/FINITE_QUEUE.json",
+        "SHA256": "e409dd9e8d6edef6bdf33ef2031de68694c8e1bb28f9c968153430401d949f3e"
+      },
+      "new_fits": 0,
+      "new_inference": 0,
+      "new_NFL_games_or_weeks": 0,
+      "new_defensive_experiments": 0,
+      "original_site_changed": false,
+      "primary_switch": false,
+      "local_consumer": {
+        "path": "reports/category-decision-release-01/follow-through-v1/site/LOCAL_CONSUMER_RECEIPT.json",
+        "SHA256": "1ce162a7f280c504f099e8baf08fdb879de6441bdd3908f32bfef35c61c724ae"
+      },
+      "resources": {
+        "path": "reports/category-decision-release-01/follow-through-v1/RESOURCE_CLOSURE.json",
+        "SHA256": "6577971b18961c3ba664eaafc4ab56519a7a49e1975327cccb34ff9ac2165567"
+      },
+      "independent_final_review": {
+        "path": "reports/category-decision-release-01/follow-through-v1/FINAL_INDEPENDENT_REVIEW.json",
+        "SHA256": "60fb078218c6cca66f8ca31c23c03315ecc119656d4888a69eadf2e3fd2ae202"
+      }
     }
   }
 }

@@ -1,0 +1,97 @@
+{
+  "schema": "C07-LOCAL-CATEGORY-CONSUMER-RECEIPT-v1",
+  "observed_UTC": "2026-11-12T04:38:11.464812+00:00",
+  "status": "PASS_LOCAL_BROWSER_NOT_SERVED_RELEASE",
+  "data_SHA256": "1122138765cf66a3e41b151985190b51da3b6426cc890c9e8a84e2afb002cc4f",
+  "data_bytes": 782013,
+  "actual_HEAD": "2e604d8801d74788a61b3fa9e5206e7c4a452e81",
+  "commands": [
+    "python src/browser_qa_category_decisions_c06.py --root docs --out reports/category-decision-release-01/follow-through-v1/site/local --executable /usr/bin/chromium",
+    "Additional inline Playwright local check of predeclared52/89,49/86,52/88,44/87,50/87,165/287,146/260,239/412,322/593,208/386 andtwoNAs;25actual-expiredrows/zerooffers"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+    "timezone": "America/Chicago",
+    "TLS_verification": "ENABLED_NO_IGNORE_FLAGS",
+    "browser_permissions": "Approved systemChromium path;local HTTP server only"
+  },
+  "checked": {
+    "own_side_rows": 12,
+    "other_product_rows": 48,
+    "current_mean_median_rows": 25,
+    "WR_TE_rows": 18,
+    "RB_rows": 7,
+    "actual_expired_rows": 25,
+    "real_offers": 0,
+    "real_selections": 0,
+    "category_and_role_filters": true,
+    "mobile390_desktop1440": true,
+    "HTTP_checksum_build_binding_fail_closed": true,
+    "legacy_rows_preserved": 12
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_observations": 0,
+  "original_site_reads": 0,
+  "original_site_writes": 0,
+  "C_source_or_docs_mutations": false,
+  "bindings": [
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "bytes": 782013,
+      "SHA256": "1122138765cf66a3e41b151985190b51da3b6426cc890c9e8a84e2afb002cc4f"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 2046,
+      "SHA256": "3e9e794996a78ebfba1b801dbd187fe7d428c6b80073f54be60406351ab532be"
+    },
+    {
+      "path": "docs/championship.html",
+      "bytes": 7958,
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "bytes": 21181,
+      "SHA256": "18b54f97a2718e2f58eac0c3f3270f77b92876e7b1aeb99c4cbc6e700cd2092d"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "bytes": 9659,
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 1058542,
+      "SHA256": "6bbdd1cc501226f35247943b670790d2e4f9b03a13ecd9d68d442e9ba9e617ff"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local/BROWSER_PARITY.json",
+      "bytes": 1261,
+      "SHA256": "e8420b56f964c2446b7fb67ba9a7adeb37a356b96aacebd8d89f862ebb439793"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local/C06-category-desktop.png",
+      "bytes": 94218,
+      "SHA256": "9fc1d1506601c431b6216cb0da0f5af422e10e2384eb989320f8d8058a481e5c"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local/C06-category-mobile.png",
+      "bytes": 83019,
+      "SHA256": "4718f459de994b14ec930058604e8cedf16b0de775e1c2d72a681bfbf799bc7f"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local/C06-current-expired-mobile.png",
+      "bytes": 41779,
+      "SHA256": "d83474fb6f52367542882947698bf93d1a915da4d9c4f67c878481841371073a"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local/RENDERED_VALUES.json",
+      "bytes": 1458,
+      "SHA256": "315f01b40ad2e07ee211a8688a1dac1c5a71806dae6a74edfe0bfc623a049079"
+    }
+  ],
+  "next_stage": "After owner publication, verify actual served data bytes and direct C browser against exact deployedhead; no original-site release inference."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "FOLLOW-THROUGH-CURRENT-RELEASE-ROSTER-FREEZE-v1",
+  "frozen_UTC": "2026-11-12T04:29:20.819072+00:00",
+  "base_C_commit": "2e604d8801d74788a61b3fa9e5206e7c4a452e81",
+  "base_inventory": {
+    "path": "reports/category-decision-release-01/evidence/RETAINED_INVENTORY_COUNTS.json",
+    "SHA256": "211077591bc7042256d98a412ded47dca8cf65c4143b41783b34aceef160a060"
+  },
+  "prior_decisions": {
+    "path": "reports/category-decision-release-01/follow-through-v1/PRIOR_DECISIONS.json.xz",
+    "SHA256": "bab65bc8a15024a88cec5e5b0ea7c37b12afc56f93de30700006dddd32e2cec2"
+  },
+  "existing_A_contribution": {
+    "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/A_CONTRIBUTION.json.xz",
+    "SHA256": "c36eedf3a8f42c639e601a85fff0907ace2b2c3049c9fe2cec86b3ebbaf8d3ab"
+  },
+  "existing_B_report": {
+    "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/B_REPORT.json.xz",
+    "SHA256": "5b18e7d7bf44706772f0e9c2fd78915f4337a176278e6c29c34d3467b144f4bd"
+  },
+  "current_decisions": {
+    "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+    "SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601"
+  },
+  "inventory_scope": "Existing8072 product/mask/policy profiles plus already-tested late supplied A/B source-bound contributions and retained later C03/C04 products. Counts are not independent fits. No claim all private/unlocated methods were inspected. B common-exposure is an existing tested procedure, not a new fit.",
+  "new_candidates_from_defensive_source": 0,
+  "new_fits": 0,
+  "new_NFL_games_or_weeks": 0,
+  "closure": "This release version is CLOSED_WITH_NAMED_EXCEPTIONS; source-qualified future research enters a later roster and cannot delay independently eligible releases."
+}

@@ -1,0 +1,224 @@
+{
+  "canonical_membership": {
+    "canonical_sha256": "c88fc8d3ccf3cab3f1b9919e7da5dafb02fa1cc78de651ee230cee223c9453c2",
+    "fields": [
+      "week",
+      "policy",
+      "player_id",
+      "game_id",
+      "key",
+      "direction",
+      "line",
+      "line_from",
+      "adj",
+      "score",
+      "source",
+      "candidate_model_sha256",
+      "result",
+      "actual",
+      "as_of_board_clock",
+      "original_issuance"
+    ],
+    "file_sha256": "d463d3cd588e400b0b1cdb9a108d2bcf50c0cf4daf5647be0e61b33b66d65e8a",
+    "hash_algorithm": "SHA256 over json sortedkeys,separatorscomma-colon,noextra whitespace,no trailing newline",
+    "public_delivery": "Rootdecision; local artifact only",
+    "purpose": "Reproducible selectedmembership/value/result commitment; actualexecutionclock excluded, no originals rewritten",
+    "rows": 192,
+    "schema": "read-only-selector-replay-canonical-membership-v1"
+  },
+  "inputs": [
+    {
+      "bytes": 99722,
+      "path": "artifacts/player-context-matchup-01/v1.1/NUMERICAL_ROWS.json.gz",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "398957af85dbd55444a88725397b91060599ebb6e008771f35a9399d8f4af4c8"
+    },
+    {
+      "bytes": 314397,
+      "path": "artifacts/player-context-matchup-01/v1.1/FEATURE_EXPORT.json.gz",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "63f9853f19042bb3e4af691ce46001920d9df28830d1c6a34abfb5f1eab75ed0"
+    },
+    {
+      "bytes": 13490,
+      "path": "reports/player-context-matchup-01/v1.1/RUN.json",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "d79021031fc188e41e9bdfc6f29bea7fb2006b7d606b3707a5f7e4dad8520a22"
+    },
+    {
+      "bytes": 413,
+      "path": "reports/player-context-matchup-01/v1.1/FOOTBALL_INPUT_BINDINGS.json",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "9f475d22fd48a5e7b1319799d9244c79f1acd98a86e13209faab7730c85ea844"
+    },
+    {
+      "bytes": 5440,
+      "path": "sources/propline-v7/historical_identity_crosswalk.json.gz",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "bc0111ba4c71c6fe4056c0b7ec2e4f6e93d2f28597478d5555ae90282ac78e7e"
+    },
+    {
+      "bytes": 5181,
+      "path": "artifacts/reliability-v8/IDENTITY_CROSSWALK.json.gz",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "7e7255198bacc371447120c5f117eb64ac4f0c8cca3771f60f01baeea4de630f"
+    },
+    {
+      "bytes": 82161,
+      "path": "prospective/runs/C-FWD-v4-20261101-0009-P2-pass_yd/sources/schedule.csv",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "10d7d2415784adac506963884ef7b2fdcaf265909c6e4c67bf5132c6e4819d2b"
+    },
+    {
+      "bytes": 82261,
+      "path": "prospective/runs/C-FWD-v4-20261105-W09-JAXBAL-remainder/sources/schedule.csv",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "b794d3d88329048b6c558506b1095f5a2308bd77ac4604dc4b3a4660c201e9bf"
+    },
+    {
+      "bytes": 17449,
+      "path": "src/context_experiment_c01.py",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "8bbdc0309fae7882fe9bfd4df7efadcee0bcab9d6ac45b91c2b2c6f692c1650b"
+    },
+    {
+      "bytes": 9324,
+      "path": "src/context_features_c01.py",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725"
+    },
+    {
+      "bytes": 4106,
+      "path": "src/data_v2.py",
+      "ref": "d9309bb8676fcd2102bfdc9b45adb0c504d0a498",
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "sha256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a"
+    },
+    {
+      "local_name": "W5_FULL_ORIGINAL_BOARD.private.json",
+      "path": "output/data/week.json",
+      "ref": "9f3ddad8a382a033fe6205ef115ad8c541748358",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "028f456a0dbbf9c0d1fa4dd4ea4555d9c205d7c53c3e358ad0d0d5846ffdf6ab"
+    },
+    {
+      "local_name": "W6_FULL_ORIGINAL_BOARD.private.json",
+      "path": "output/data/week.json",
+      "ref": "63e687e1918205b20a1188580d6cf2b6264a5aca",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "d8c87b18481c249453ba912293ef518a602eda4cd0eb98aeb6ab49157e0aeac0"
+    },
+    {
+      "local_name": "W7_FULL_ORIGINAL_BOARD.private.json",
+      "path": "output/data/week.json",
+      "ref": "453e7e6e843b0cb1ae611b0925063e0f96c70196",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "06da8f79ef2e0188bcbba5c137be5aeb6e01dda6ddacbc1d38a17c3afed3d80a"
+    },
+    {
+      "local_name": "W8_FULL_ORIGINAL_BOARD.private.json",
+      "path": "output/data/week.json",
+      "ref": "0f615dd95fb6684ffe84ccd978a49e620ed6ba6c",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "ca926aa36e8bf14a53e5eebdbd9f916c46dc441b6af58834b06fae6f27d77b95"
+    },
+    {
+      "path": "tools/weekly_selected_rankings.py",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "7889c35cefa0df1ba0be53ee749182f243eba35a4f4c63b2c01db023e701e14f"
+    },
+    {
+      "path": "tools/weekly_adaptive_overlay.py",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "6835d58efa3ccc88cff57a0cd55abea349387c49902d3bedd4d57b92274918cb"
+    },
+    {
+      "path": "pull/grade.py",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "afd1310d708def4f400e6bf84e981e2edc7635dc946a63571022203c1d3ae735"
+    },
+    {
+      "path": "pull/scoring.py",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d"
+    },
+    {
+      "path": "pull/gamemodel.py",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f"
+    },
+    {
+      "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_05.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "ae55b422151d663046a5847d2e567536a5fab82501fcb7b26db3d2d5921b21ea"
+    },
+    {
+      "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_06.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "4838c66cbcf9547e4a5d96d4c33f6ccfa48193645c70c82f62c3e330d27b9cb0"
+    },
+    {
+      "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_07.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "efe22d66d995b44192faf95fe54d441efbcb7fa250d5971aaf0bafc30418cdf7"
+    },
+    {
+      "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_08.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "83354df53953a1077f1333f845e9e416edfab8e1bc4493fd33aed75c93d3bf77"
+    },
+    {
+      "path": "output/data/weeks/2026_w04.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "d887bd954022e332a8c2a58360149ef8a219ede6c67d042cffa200caea7d5dfc"
+    },
+    {
+      "path": "output/data/weeks/2026_w05.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "49dc7e3b8ec0dba0d15938159a4b35a0816e5e8aaec8389d9fd5a1649d9bb661"
+    },
+    {
+      "path": "output/data/weeks/2026_w06.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "308bf8700430b27f90baba1330fdecc97469f848790070744277d5a6fefa5fc1"
+    },
+    {
+      "path": "output/data/weeks/2026_w07.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "2b25deff14708af77665835752d1e14d80f0b549edf95fa8f6a88c7828afdb35"
+    },
+    {
+      "path": "output/data/weeks/2026_w08.json",
+      "ref": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+      "repository": "NickNicky19/nicks-expert-nfl-picks",
+      "sha256": "7f85ef26a1c2cdca36adeb5820eb730eafdc79c494cc3109372f7cb809bdca30"
+    }
+  ],
+  "projection_note": "To reproduce exact projection-file hash, retain this recorded header clock after regenerating from immutable original sources. It is a projection clock, not original inference/issuance.",
+  "projection_projected_at": "2026-11-12T01:29:41.985760+00:00",
+  "proof_note": "gzip contains only boundedJSON, no model, executableorrawprivateboard. Decodeandinspect; originalabsolute paths are Rootstagingpaths, not networkdestinations. Samefield/functionresult may be recomputed from temporalcode.",
+  "proof_uncompressed_sha256": "2cf5e923cdf5e8ab560a033e3569d8504eddf6207bef87be9b3137ff4060a0a9"
+}

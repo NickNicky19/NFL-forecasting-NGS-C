@@ -472,7 +472,8 @@
     "pre_scope_correction_state": "SAVED_OUTPUTS_INDEXED_NEW_F0_F3_JOIN_NOT_EXECUTED",
     "pre_category_release_state": "SAVED_OUTPUTS_INDEXED;EXACT_NEW_TIMING_JOIN_RECEIPT_NOT_IN_RECEIVED_PACKAGE",
     "completion_ref": "A_d7c8bc619eb7aed93df8259822eb08488d837005",
-    "updated_UTC": "2026-11-12T02:16:49.809661+00:00"
+    "updated_UTC": "2026-11-12T02:16:49.809661+00:00",
+    "verification_state": "ACTUAL_B_d7_PUBLIC_ARTIFACT_ARITHMETIC_ACK_RECEIVED;NOT_A14_POINT79_OR_PRIVATE_PARITY"
   },
   {
     "task_id": "C05_NO_REFIT_FORWARD_PACKET",
@@ -504,37 +505,40 @@
   {
     "task_id": "C06_ALL_CATEGORY_PRODUCT_DECISIONS",
     "owner": "C",
-    "state": "PUBLISHED_AND_C_RESEARCH_SERVED_VERIFIED;12_SCOPED_DECISIONS;0_PRIMARY_SWITCHES",
+    "state": "SUPERSEDED_FORWARD_BY_SOURCE_BOUND_RELEASE_VERSION;OLD_MIXED_DIAGNOSTICS_PRESERVED",
     "artifact": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
-    "next_action": "Consume exact pending owner source/producer/selector receipts only; no competing master table or duplicate completed joins.",
+    "next_action": "Current release version closed with explicit owner exceptions; no release-roster expansion from defensive source. Original owner independently releases what qualifies.",
     "publication_closure": "reports/category-decision-release-01/PUBLICATION_CLOSURE.json",
-    "updated_UTC": "2026-11-12T03:22:34.589470+00:00"
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
   },
   {
     "task_id": "A_ARCHIVED_SOURCE_WEEK_PROVENANCE",
     "owner": "A",
-    "state": "OWNER_REPORTED_W1_W7_PRESERVED;EXACT_SOURCE_WEEK_BINDING_AWAITED",
-    "artifact": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL",
-    "next_action": "Classify actualbook/line/horizon/sourceweekrecords bycategory; do notblanketinvalidateseparateW6-W8panels."
+    "state": "COMPLETE_A14_OWNER_SOURCE_WEEK_CLASSIFICATION_RECEIVED;QUOTE_VINTAGE_AUTHENTICATION_UNRESOLVED",
+    "artifact": "reports/category-decision-release-01/follow-through-v1/peer-intake/SOURCE_WEEK_RESOLUTION.json",
+    "next_action": "No repeat scoring. Preserve annualW1-W5, same-package siteW6-W7 and separate frozenW8/native panels. Original quote/source/vintage unknown remains a scoped evidence limit.",
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
   },
   {
     "task_id": "A_COUNT_A_CURRENT_REGISTERED_PRODUCER",
     "owner": "A",
-    "executor": "Codex A retained producer executor; verify its own current lease",
+    "executor": "Codex A source-bound native integration executor; registered child github-actions[bot], parent NickNicky19; verify own producer lease",
     "registered_branch": "research/weekly-storage-probe-v1",
     "workflow": "lab.yml",
-    "state": "CURRENT_REPAIRED_RUN_AND_DERIVED_FEED_NOT_VERIFIED",
-    "artifact": "reports/category-decision-release-01/operational-intake/PRODUCER_CURRENT_RUNTIME.json",
-    "next_action": "CurrentSOURCE/query/feature_capture and completecorrectedmean; issueRoot<=61440Bincludingissuancefields, publishreadablederivedfeed; originalowneradmitandserveverify. EPAisnotCountArequirement."
+    "state": "CORRECTOR_SOURCE_RECEIVED;NATIVE_CAPSULE_TEMPLATE_ARCHIVE_CATALOG_EXPORT_NOT_IMPLEMENTED_OR_CURRENTLY_VERIFIED",
+    "artifact": "reports/category-decision-release-01/follow-through-v1/website/COUNTA_OWNER_QUEUE.json",
+    "next_action": "Implement exact delivered native CountA product preserving18slots/singlewriter/cap61440finalwire. Then current source/query/inference/capture/readable feed and original-owner admission; no repeated64case restoration or source publication.",
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
   },
   {
     "task_id": "ORIGINAL_SITE_EXACT_TOP_REPLAY",
     "owner": "Original website owner",
     "executor": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z; lastreportedconsumerlease178",
     "verification_owner": "B",
-    "state": "LAST_REPORTED_FOUR_W5_W8_BOARDS;FIFTH_COMPATIBLE_BOARD_AND_MAPPING_CLOCK_DEPENDENCY",
-    "artifact": "reports/category-decision-release-01/website/EXACT_OWNER_QUEUE.json",
-    "next_action": "Inspectretainedfifthboard/mappingtiming thenexecuteactualcompletepolicyfiveweeksorpreciseblockedreceipt; no Cduplicate replay."
+    "state": "EXECUTED_FOUR_W5_W8_FULL_SYSTEM_WEEKS;ACTUAL_B_VERIFICATION_RECEIVED;FIFTH_BOARD_UNQUALIFIED",
+    "artifact": "reports/category-decision-release-01/follow-through-v1/website/ADMISSION.json",
+    "next_action": "Originalowner assesses specificW4 complete board/timing against frozenpolicy, executes ifqualified orreturns exact missingfields. Weekly candidate/fallback/membership accounting required wherepermitted;8selectedCtotal isnot8membershipswaps. W8fallbackcountsfullsystemweek.",
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
   },
   {
     "task_id": "C06_CURRENT_P1_SOURCE_QUALIFIED_PACKET",
@@ -554,5 +558,22 @@
     "next_action": "Use existing A private-board route only for missing compatible exact P2/H-MULTI mean/median cells after source/horizon/coherence admission. Do not repeat completed C04 joins; unavailable P1/W8/history/off-grid laws remain separate.",
     "completion_condition": "Owner receipt identifies used immutable asset and supported scored cells or exact incompatibility; no public private-row redistribution.",
     "updated_UTC": "2026-11-12T03:22:34.589470+00:00"
+  },
+  {
+    "task_id": "FOLLOW_THROUGH_RELEASE_AND_DEFENSIVE_SOURCE_01_C",
+    "owner": "C",
+    "state": "C_EXECUTABLE_PACKAGE_COMPLETE;CURRENT_RELEASE_DECISIONS_CLOSED_WITH_OWNER_EXCEPTIONS;PUBLICATION_PENDING",
+    "artifact": "reports/category-decision-release-01/follow-through-v1/README.md",
+    "next_action": "Publish existing C research report/decision consumer under normalchecks then verify servedbytes; no original-sitewrite. Remaining native/selector/source tasks are individually bound in FINITE_QUEUE.",
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
+  },
+  {
+    "task_id": "DEFENSIVE_SUPPLIED_SOURCE_01",
+    "owner": "C",
+    "state": "BOUNDED_QUALIFICATION_COMPLETE_SOURCE_BLOCKED;NO_NEW_EXPERIMENT",
+    "artifact": "reports/category-decision-release-01/follow-through-v1/defensive-source/README.md",
+    "next_action": "Only reopens on actually accessible original workbook/reference or source snapshot, definitions/rights/availability and A/B componentreview; no current-roster change, inventedalignment or repeatedsource search.",
+    "completion_condition": "Qualified nonduplicative block for at mostone later-roster group experiment, or exact SOURCE_BLOCKED result retained.",
+    "updated_UTC": "2026-11-12T04:36:06.246097+00:00"
   }
 ]

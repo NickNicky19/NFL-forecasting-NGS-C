@@ -1,0 +1,78 @@
+{
+  "id": "DEFENSIVE-SUPPLIED-TABLE-INTERNAL-CHECK-v1",
+  "checked_UTC": "2026-11-12T04:14:43.239913+00:00",
+  "status": "PASS_INTERNAL_ARITHMETIC_ONLY",
+  "checks": 436,
+  "failed_checks": [],
+  "teams_each": 32,
+  "tables": 5,
+  "rate_checks": 160,
+  "ranking_rows_checked": 160,
+  "game_denominator_crosschecks": 64,
+  "Decimal_rounding": "ROUND_HALF_UP;two decimals per-game and one decimal completion percent as displayed. Agreement is internal arithmetic, not authentication of provider rounding contract.",
+  "count_totals_supplied": {
+    "TE_yards": 14880,
+    "passing_attempts": 8968,
+    "completions": 5741,
+    "RB_carries": 6100
+  },
+  "examples": [
+    {
+      "team": "Bengals",
+      "TE_yards": 645,
+      "games": 8,
+      "exact_yards_per_game": "80.625",
+      "displayed_half_up": "80.63"
+    },
+    {
+      "team": "Dolphins",
+      "completions": 168,
+      "attempts": 221,
+      "completion_percent_formula": "100*168/221",
+      "displayed_percent": "76.0%"
+    },
+    {
+      "team": "Raiders",
+      "slot_YPT": "11.5",
+      "targets": null,
+      "outside_YPT": "9.1",
+      "reason": "No target or yard totals supplied; no denominator was inferred."
+    }
+  ],
+  "not_checked": [
+    "External correctness, season, cutoff, rights and publication clocks.",
+    "Whether passing attempts exclude sacks or include non-QB attempts at the unnamed source.",
+    "PFR fullback/hybrid RB classification.",
+    "Alignment labels/player alignment frequencies/untargeted routes.",
+    "YPC/YPT exact rates without unrounded numerators and denominators."
+  ],
+  "software_observations_not_NFL_tests": true,
+  "new_fits": 0,
+  "new_forecasts": 0,
+  "new_actual_offer_weeks": 0,
+  "network_requests": 0,
+  "CPU_seconds": 0.002146020999999998,
+  "peak_RSS_bytes": 10485760,
+  "bindings": [
+    {
+      "path": "A1_TE_receiving_yards.csv",
+      "SHA256": "40f238283267cc8c17023a7ae5ea2907fa96282fc545d9bf0ba520f10f90afdd"
+    },
+    {
+      "path": "A2_alignment_efficiency.csv",
+      "SHA256": "dbf842707c97441ee0fc91f10db3cbabc66766130a70a5d848d273a46770488b"
+    },
+    {
+      "path": "A3_passing_attempts.csv",
+      "SHA256": "442138eb16169b59a15cad5a5b51e6bbc24f0c8ae314fa47beee2bfc8baea217"
+    },
+    {
+      "path": "A4_completions.csv",
+      "SHA256": "604c6b59bad820e749365d7d2e4f3d1a581701d4f924122b8bdbe24192e8b2fc"
+    },
+    {
+      "path": "A5_RB_rushing.csv",
+      "SHA256": "e342f92bc7438a49daf30976d2ae5094e0a2514808e5226c4cf0747b5601b72f"
+    }
+  ]
+}

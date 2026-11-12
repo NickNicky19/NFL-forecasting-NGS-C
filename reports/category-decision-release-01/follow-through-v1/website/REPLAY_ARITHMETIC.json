@@ -1,0 +1,63 @@
+{
+  "candidate_minus_control_percentage_points": 2.150537634408602,
+  "candidate_minus_control_wins": 2,
+  "changed_memberships": {
+    "candidate_only": {
+      "losses": 3,
+      "wins": 5
+    },
+    "evidence": "Owner reported; underlying public rows unavailable.",
+    "net_win_change": 2,
+    "removed_control_only": {
+      "losses": 5,
+      "wins": 3
+    }
+  },
+  "decided_each": 93,
+  "own_records": {
+    "candidate": {
+      "COMBINED": {
+        "decided": 93,
+        "losses": 43,
+        "rate": 0.5376344086021505,
+        "wins": 50
+      },
+      "OVER": {
+        "decided": 45,
+        "losses": 24,
+        "rate": 0.4666666666666667,
+        "wins": 21
+      },
+      "UNDER": {
+        "decided": 48,
+        "losses": 19,
+        "rate": 0.6041666666666666,
+        "wins": 29
+      }
+    },
+    "control": {
+      "COMBINED": {
+        "decided": 93,
+        "losses": 45,
+        "rate": 0.5161290322580645,
+        "wins": 48
+      },
+      "OVER": {
+        "decided": 45,
+        "losses": 23,
+        "rate": 0.4888888888888889,
+        "wins": 22
+      },
+      "UNDER": {
+        "decided": 48,
+        "losses": 22,
+        "rate": 0.5416666666666666,
+        "wins": 26
+      }
+    }
+  },
+  "schema": "C-REPLAY-ARITHMETIC-v1",
+  "selected_each": 96,
+  "uncertainty": "Four exposed week clusters; no supported replacement superiority, no learned-only gain inference, no confidence/EV/six-leg claim.",
+  "unknown_each": 3
+}

@@ -1,0 +1,96 @@
+{
+  "id": "DEFENSIVE-SOURCE-RESOURCE-AND-VALIDATION-v1",
+  "checked_UTC": "2026-11-12T04:18:22.264370+00:00",
+  "executor": "C internal bounded source reconciliation",
+  "checked_scope": "Canonical supplied facts, internal decimal/rank/game arithmetic, existing local feature/schema bindings; not external verification or actual A/B owner review",
+  "python": "3.12.14",
+  "network_source_requests": 0,
+  "model_loads": 0,
+  "fits": 0,
+  "inference": 0,
+  "scored_games_or_weeks": 0,
+  "retention_bytes_at_check": 109628,
+  "retention_cap_bytes": 2097152,
+  "CPU_seconds_registered_max": 90,
+  "RSS_bytes_registered_max": 1073741824,
+  "arithmetic_CPU_seconds": 0.002146020999999998,
+  "no_workbook_inspection": true,
+  "new_current_release_candidates": 0,
+  "no_running_recipe_change": true,
+  "frozen_original_records_preserved": true,
+  "field_mappings": 19,
+  "new_source_qualified_fields": 0,
+  "status": "BOUNDED_EXECUTABLE_QUALIFICATION_COMPLETE;SOURCE_DEPENDENCIES_EXPLICIT",
+  "files": [
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/A1_TE_receiving_yards.csv",
+      "bytes": 779,
+      "SHA256": "40f238283267cc8c17023a7ae5ea2907fa96282fc545d9bf0ba520f10f90afdd"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/A2_alignment_efficiency.csv",
+      "bytes": 678,
+      "SHA256": "dbf842707c97441ee0fc91f10db3cbabc66766130a70a5d848d273a46770488b"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/A3_passing_attempts.csv",
+      "bytes": 783,
+      "SHA256": "442138eb16169b59a15cad5a5b51e6bbc24f0c8ae314fa47beee2bfc8baea217"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/A4_completions.csv",
+      "bytes": 931,
+      "SHA256": "604c6b59bad820e749365d7d2e4f3d1a581701d4f924122b8bdbe24192e8b2fc"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/A5_RB_rushing.csv",
+      "bytes": 964,
+      "SHA256": "e342f92bc7438a49daf30976d2ae5094e0a2514808e5226c4cf0747b5601b72f"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/ARITHMETIC_CHECK.json",
+      "bytes": 2493,
+      "SHA256": "6285787beb9be2b99a7838656a4f3b016f70667ad7a621399b4c15814d82d2a3"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/FIELD_TO_USE.csv",
+      "bytes": 22994,
+      "SHA256": "f8f1391b3537eb41007a23abfca985ca470e12b32e6410c3f42bab81ed73d7bb"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/FIELD_TO_USE.json",
+      "bytes": 39947,
+      "SHA256": "03e7f10b5ece7adab5389fd1e2953b61a70737c29792b40f197c9e284a288d18"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/README.md",
+      "bytes": 6807,
+      "SHA256": "c49688aa5ce4610d16798187f877d6e35d57022505494f37cbfc2bdb34763df2"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/SUPPLIED_REFERENCE_MANIFEST.json",
+      "bytes": 2252,
+      "SHA256": "5acf731f2aa325a5c7bb55d3b2b9e22e947a1ae732c2a18cb0fa03071d1efd46"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/SUPPLIED_TABLES_CANONICAL.txt",
+      "bytes": 4270,
+      "SHA256": "cb07bbaa59f7cccca73c0b1860bd47511d0532487afd884b8fe1907e2436f053"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/build_qualification.py",
+      "bytes": 15244,
+      "SHA256": "753aa298ff0601eb7f8c06fcc05aae340dc7f0213e86843533c7abde6720bd99"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/build_supplied_reference.py",
+      "bytes": 6271,
+      "SHA256": "2334be86b8ef9d6e20cbec1e75e67e1d7f6b8c59d3f0848022add04c15ca3c87"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/defensive-source/verify_supplied_tables.py",
+      "bytes": 5215,
+      "SHA256": "1a1800b2b25a5040caafb339db410d38270cb6f6db48cec645d6cc6faa6c5c71"
+    }
+  ]
+}

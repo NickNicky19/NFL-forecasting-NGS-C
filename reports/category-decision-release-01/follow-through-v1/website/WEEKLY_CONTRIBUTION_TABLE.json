@@ -1,0 +1,120 @@
+{
+  "aggregate_candidate_fallback_selected_derived_from_owner_count": 88,
+  "aggregate_candidate_generated_selected_owner_reported": 8,
+  "aggregate_candidate_generated_selected_weeks_owner_reported": 3,
+  "candidate_only_memberships_owner_reported": 8,
+  "learned_only_win_loss": null,
+  "membership_changes_are_not_candidate_generated_counts": true,
+  "removed_control_memberships_owner_reported": 8,
+  "schema": "C-WEBSITE-WEEKLY-CONTRIBUTION-v1",
+  "weeks": [
+    {
+      "candidate": {
+        "decided": 24,
+        "losses": 11,
+        "rate": 0.5416666666666666,
+        "wins": 13
+      },
+      "candidate_fallback_selected": null,
+      "candidate_generated_scored_week": null,
+      "candidate_generated_selected_owner_reported": null,
+      "candidate_generated_selected_status": "UNKNOWN_NOT_EXPORTED_PER_WEEK",
+      "candidate_input_overrides_owner_reported": 41,
+      "candidate_only_membership_count": null,
+      "candidate_selected": 24,
+      "control": {
+        "decided": 24,
+        "losses": 12,
+        "rate": 0.5,
+        "wins": 12
+      },
+      "control_selected": 24,
+      "evidence": "Owner-reported conditional retrospective aggregate; C independently checks sums, not private rows.",
+      "full_system_scored_policy_week": true,
+      "season": 2026,
+      "unknown_each": 0,
+      "week": 5
+    },
+    {
+      "candidate": {
+        "decided": 23,
+        "losses": 11,
+        "rate": 0.5217391304347826,
+        "wins": 12
+      },
+      "candidate_fallback_selected": null,
+      "candidate_generated_scored_week": null,
+      "candidate_generated_selected_owner_reported": null,
+      "candidate_generated_selected_status": "UNKNOWN_NOT_EXPORTED_PER_WEEK",
+      "candidate_input_overrides_owner_reported": 35,
+      "candidate_only_membership_count": null,
+      "candidate_selected": 24,
+      "control": {
+        "decided": 23,
+        "losses": 12,
+        "rate": 0.4782608695652174,
+        "wins": 11
+      },
+      "control_selected": 24,
+      "evidence": "Owner-reported conditional retrospective aggregate; C independently checks sums, not private rows.",
+      "full_system_scored_policy_week": true,
+      "season": 2026,
+      "unknown_each": 1,
+      "week": 6
+    },
+    {
+      "candidate": {
+        "decided": 24,
+        "losses": 9,
+        "rate": 0.625,
+        "wins": 15
+      },
+      "candidate_fallback_selected": null,
+      "candidate_generated_scored_week": null,
+      "candidate_generated_selected_owner_reported": null,
+      "candidate_generated_selected_status": "UNKNOWN_NOT_EXPORTED_PER_WEEK",
+      "candidate_input_overrides_owner_reported": 7,
+      "candidate_only_membership_count": null,
+      "candidate_selected": 24,
+      "control": {
+        "decided": 24,
+        "losses": 9,
+        "rate": 0.625,
+        "wins": 15
+      },
+      "control_selected": 24,
+      "evidence": "Owner-reported conditional retrospective aggregate; C independently checks sums, not private rows.",
+      "full_system_scored_policy_week": true,
+      "season": 2026,
+      "unknown_each": 0,
+      "week": 7
+    },
+    {
+      "candidate": {
+        "decided": 22,
+        "losses": 12,
+        "rate": 0.45454545454545453,
+        "wins": 10
+      },
+      "candidate_fallback_selected": 24,
+      "candidate_generated_scored_week": false,
+      "candidate_generated_selected_owner_reported": 0,
+      "candidate_generated_selected_status": "OWNER_REPORTED_ZERO_PUBLIC_ARITHMETIC_ADMITTED",
+      "candidate_input_overrides_owner_reported": 0,
+      "candidate_only_membership_count": null,
+      "candidate_selected": 24,
+      "control": {
+        "decided": 22,
+        "losses": 12,
+        "rate": 0.45454545454545453,
+        "wins": 10
+      },
+      "control_selected": 24,
+      "evidence": "Owner-reported conditional retrospective aggregate; C independently checks sums, not private rows.",
+      "full_system_scored_policy_week": true,
+      "season": 2026,
+      "unknown_each": 2,
+      "week": 8
+    }
+  ]
+}

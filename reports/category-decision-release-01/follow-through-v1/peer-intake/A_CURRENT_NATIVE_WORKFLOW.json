@@ -1,0 +1,29 @@
+{
+  "id": "FT-REGISTERED-PRODUCER-CURRENT-RUNTIME-v1",
+  "observed_UTC": "2026-11-12T04:21:02.486743+00:00",
+  "total_matching_runs": 79,
+  "runs": [
+    {
+      "id": 41564933010,
+      "name": "NFL research lab",
+      "event": "workflow_dispatch",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "research/weekly-storage-probe-v1",
+      "head_sha": "a2ab7d4eeb01b1af7f76af4b8090404b4f096f50",
+      "path": ".github/workflows/lab.yml",
+      "created_at": "2026-11-03T02:15:08Z",
+      "run_started_at": "2026-11-03T02:15:08Z",
+      "updated_at": "2026-11-03T02:15:59Z",
+      "html_url": "https://github.com/NickNicky19/NFL-forecasting/actions/runs/41564933010",
+      "workflow_id": 392888807,
+      "run_number": 141,
+      "run_attempt": 1
+    }
+  ],
+  "scope": "Latestexactregisteredbranch/workflow only;notallworkflowabsence/sourcecompletion/modelavailability proof. No dispatch/write/lease.",
+  "source_response_SHA256": "6d2355a7f1b6e2121e334ca7d80b80d294b92699d9a008d66856ab67031897ed",
+  "response_bytes": 12998,
+  "connector_rejection": "NATIVE_CONNECTOR_FAILURE.json",
+  "retention": "Minimalmetadata;authorcontacts and rawpayloadnotretained"
+}
