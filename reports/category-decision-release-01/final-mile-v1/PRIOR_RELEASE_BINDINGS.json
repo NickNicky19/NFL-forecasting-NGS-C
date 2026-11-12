@@ -1,0 +1,40 @@
+{
+  "id": "FINAL-MILE-UNCHANGED-RELEASE-ARCHIVE-v1",
+  "captured_UTC": "2026-11-12T06:44:30.771754+00:00",
+  "original_bindings_resolve_at_commit": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+  "mapping": [
+    {
+      "original_path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "immutable_source_commit": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+      "retained_copy": {
+        "path": "reports/category-decision-release-01/final-mile-v1/prior-release/CATEGORY_PRODUCT_DECISIONS.json",
+        "SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601"
+      }
+    },
+    {
+      "original_path": "reports/category-decision-release-01/README.md",
+      "immutable_source_commit": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+      "retained_copy": {
+        "path": "reports/category-decision-release-01/final-mile-v1/prior-release/README.md",
+        "SHA256": "c608f90cc6093232e6c58c1de72d85975ec9145d1aba096b3014c1007658208f"
+      }
+    },
+    {
+      "original_path": "reports/category-decision-release-01/follow-through-v1/RELEASE_ROSTER_FREEZE.json",
+      "immutable_source_commit": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+      "retained_copy": {
+        "path": "reports/category-decision-release-01/final-mile-v1/prior-release/RELEASE_ROSTER_FREEZE.json",
+        "SHA256": "2b3f7415e4d1102594f0b21b44a7affd1187af5b494fa88067007a1372f57e8f"
+      }
+    },
+    {
+      "original_path": "reports/category-decision-release-01/follow-through-v1/PUBLICATION_CLOSURE.json",
+      "immutable_source_commit": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+      "retained_copy": {
+        "path": "reports/category-decision-release-01/final-mile-v1/prior-release/PUBLICATION_CLOSURE.json",
+        "SHA256": "2f1d64e282d881488a068ac47fb2e4548bbab7837475a84b4217a2e6c5bb34fa"
+      }
+    }
+  ],
+  "meaning": "Old release receipts bind the old immutable commit; exact prior bytes are copied here for shallow-checkout recovery. Current admission metadata can advance without rewriting predictions, scores or frozen policies."
+}

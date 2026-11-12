@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "bce0fe4d42c5cc8467b44b142a42f73b6ebd35bd19531f374bc5e13e9c55371a"
+    "SHA256": "de10cea9cacba9d3475bb6922c3fad44ac262a676831319bc677a2022b49c9c6"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1261,7 +1261,7 @@
   },
   "category_decision_release_01": {
     "id": "NFL-CATEGORY-DECISION-AND-RELEASE-01-C/v1",
-    "stage": "RELEASE_VERSION_CLOSED_WITH_OWNER_EXCEPTIONS;C_RESEARCH_DIRECT_SERVED_VERIFIED;NO_ORIGINAL_SITE_PRIMARY_SWITCH",
+    "stage": "FINAL_MILE_NATIVE_PR88_OPEN_DRAFT;LATEST_WEBSITE_B_RECEIPTS_RECONCILED;NO_RESEARCH_PRIMARY_ACTIVATION",
     "assignment": {
       "path": "reports/category-decision-release-01/adoption/NFL_CATEGORY_DECISION_AND_RELEASE_01_V1.txt",
       "SHA256": "a6d6b3c8f3b90009cde559fc00ff96d3d8e688ef1c0ae93588e5acdcc4f9d01f"
@@ -1276,11 +1276,11 @@
     },
     "report": {
       "path": "reports/category-decision-release-01/README.md",
-      "SHA256": "c608f90cc6093232e6c58c1de72d85975ec9145d1aba096b3014c1007658208f"
+      "SHA256": "5473e32bddc48e271f732701870c9bfda498c194ed9625c7c5a2f547fbb50d1b"
     },
     "category_product_decisions": {
       "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
-      "SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601"
+      "SHA256": "064702de2b0c870e22e0627d894eec1f64a35e9a2bc511b9ed246b530262148e"
     },
     "coverage": {
       "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
@@ -1480,6 +1480,75 @@
     "prior_C06_local_consumer": {
       "path": "reports/category-decision-release-01/site/LOCAL_CONSUMER_RECEIPT_V2.json",
       "SHA256": "fe60589fba76cb77c0682419d7064204ca87701dcd74f1897c0a3a4b5934751d"
+    },
+    "final_mile_v1": {
+      "id": "FINAL-MILE-PRODUCER-CATEGORY-ADMISSION-C/v1",
+      "stage": "C_RECEIPTS_RECONCILED_PUBLICATION_PENDING",
+      "registration": {
+        "path": "reports/category-decision-release-01/final-mile-v1/REGISTRATION.json",
+        "SHA256": "98d0925a3bdb65e20c81aa81b6f82949b8c85080f173a6a228107ed76fcf2df4"
+      },
+      "report": {
+        "path": "reports/category-decision-release-01/final-mile-v1/README.md",
+        "SHA256": "1c8103464e96cd3cc9d4dd92c2348f09327ed2a23d70d3e5d01ef75f4994716a"
+      },
+      "producer": {
+        "path": "reports/category-decision-release-01/final-mile-v1/producer/ADMISSION.json",
+        "SHA256": "b4f1fb95297f3c812ccf871f946085f714f384d61252cbf2751eb1a60b26b38d"
+      },
+      "website": {
+        "path": "reports/category-decision-release-01/final-mile-v1/website/ADMISSION.json",
+        "SHA256": "c9105430b0b65b45e78bf380c968a7af63396b21c8b5e4b7b7c7fe241ac316db"
+      },
+      "B_verification": {
+        "path": "reports/category-decision-release-01/final-mile-v1/B-intake/ADMISSION.json",
+        "SHA256": "af15712d62047786245091b1fa7ee61a189e0b81a700ac148f72d13847df42d5"
+      },
+      "category_admission": {
+        "path": "reports/category-decision-release-01/final-mile-v1/CATEGORY_ADMISSION_EXPLANATIONS.json",
+        "SHA256": "0127884d58799454983ffbb78152cb1c59401760077059085dd28647052338b9"
+      },
+      "selector_partition": {
+        "path": "reports/category-decision-release-01/final-mile-v1/website/SELECTOR_CONTRIBUTIONS.json",
+        "SHA256": "8ea8c9f82709917b75025177408e29f6408161515495f9a1e91061a431b14c0e"
+      },
+      "W4_assessment": {
+        "path": "reports/category-decision-release-01/final-mile-v1/website/W4_DECISION.json",
+        "SHA256": "b975b6df457fd474567d0fce5727ee04ddf3904b7812a56029d546f6ae22eff2"
+      },
+      "native_website_capture": {
+        "path": "reports/category-decision-release-01/final-mile-v1/website/CURRENT_CAPTURE_RECEIPT.json",
+        "SHA256": "8e7016f1166d2b6d705e82a146709fa5a10ff89cb809617c694c081dddab43df"
+      },
+      "live_products": {
+        "path": "reports/category-decision-release-01/final-mile-v1/website/LIVE_BINDINGS.json",
+        "SHA256": "8d3f436edae2096ba7fb9a9074315601f66838132de881d272545000f9005004"
+      },
+      "finite_queue": {
+        "path": "reports/category-decision-release-01/final-mile-v1/FINITE_QUEUE.json",
+        "SHA256": "60db30328877634865adcafad96917a22c34cfe35b04965d109576ca8f4f7d09"
+      },
+      "prior_release_archive": {
+        "path": "reports/category-decision-release-01/final-mile-v1/PRIOR_RELEASE_BINDINGS.json",
+        "SHA256": "a654525a9f31bdc3fc398d4dc6fb4468c4b921a0f7eb38c4d26b01c98ab1bb34"
+      },
+      "candidate_roster_reopened": false,
+      "new_C_fits": 0,
+      "new_C_forecasts": 0,
+      "new_C_grades": 0,
+      "original_website_changed_by_C": false,
+      "resources": {
+        "path": "reports/category-decision-release-01/final-mile-v1/RESOURCE_CLOSURE.json",
+        "SHA256": "61d18f3f64eebe4a7a04b415f74064ec2c2f2597a5c1c10672b1d530d9ed1ee2"
+      },
+      "local_consumer": {
+        "path": "reports/category-decision-release-01/final-mile-v1/site/LOCAL_CONSUMER_RECEIPT.json",
+        "SHA256": "12f04086f73260b0e6cda652baf759f12d2139bb4605164abab15cabb050232d"
+      },
+      "independent_review": {
+        "path": "reports/category-decision-release-01/final-mile-v1/FINAL_INDEPENDENT_REVIEW.json",
+        "SHA256": "84e4ced61cf09b4b551ed8ad7cdd4a4f99d17daf37cc31e8121a35d75b1acd70"
+      }
     }
   }
 }

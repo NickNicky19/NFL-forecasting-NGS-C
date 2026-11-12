@@ -1,0 +1,128 @@
+{
+  "schema": "C-FINAL-MILE-LOCAL-CONSUMER-RECEIPT-v1",
+  "observed_UTC": "2026-11-12T06:54:18.976840+00:00",
+  "status": "PASS_LOCAL_BROWSER_NOT_SERVED_RELEASE",
+  "data_bytes": 525954,
+  "data_SHA256": "2e2bab27e057f36af6dcd22f7d7ce106b82fd51d6cbafc676dcdeab021c7506d",
+  "actual_HEAD": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+  "environment": {
+    "Python": "3.12.14",
+    "Chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+    "timezone": "America/Chicago",
+    "TLS_verification": "ENABLED_NO_IGNORE_FLAGS",
+    "network": "Local C pageassets only; no NFLsourceGET"
+  },
+  "verification": "Existing browser_qa_category_decisions_c06.check using local_page; bounded screenshot callback checks all12 research/website labels and reasons, TopPicks2/4/2/0,PPRall539,qualified_fifth_week=false,actual25expired and0offers. First callback attempted hidden productdetails; failure preserved, openedexistingdetails andreran unchangedharness.",
+  "checked": {
+    "own_side_rows_exact": 12,
+    "separate_product_rows": 48,
+    "current_mean_median_rows": 25,
+    "WR_TE": 18,
+    "RB": 7,
+    "actual_expired_rows": 25,
+    "real_offers": 0,
+    "real_selections": 0,
+    "all12_research_website_labels_and_reasons": true,
+    "three_SHADOW_vs_KEEP_explicit": [
+      "pass_yd",
+      "rec_yd",
+      "rush_rec_yd"
+    ],
+    "Top_partition": [
+      2,
+      4,
+      2,
+      0
+    ],
+    "W4_PPR_present_all539": true,
+    "W4_qualified_fifth_week": false,
+    "scientific_fields_unchanged": 108,
+    "source_bindings_hash_checked": 30,
+    "category_role_filters": true,
+    "Chicago_UTC": true,
+    "desktop1440_mobile390": true,
+    "HTTP_checksum_build_binding_fail_closed": true,
+    "legacy_rows_preserved": 12
+  },
+  "preserved_helper_failure": "local/INITIAL_METADATA_ASSERTION_FAILURE.json",
+  "code_under_test": "Root-owned one C-only display line separates research/website dispositions; no selector/model/originalsite change.",
+  "source_or_doc_mutations_by_this_verifier": false,
+  "new_NFL_observations": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_selector_replay": 0,
+  "originalsite_actions": 0,
+  "bindings": [
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "bytes": 525954,
+      "SHA256": "2e2bab27e057f36af6dcd22f7d7ce106b82fd51d6cbafc676dcdeab021c7506d"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 2046,
+      "SHA256": "6f29dc8038d9233e6fdceb1f9310763409cbec04ecb8fb784a8b3d5f7da6dbdf"
+    },
+    {
+      "path": "docs/championship.html",
+      "bytes": 7958,
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "bytes": 21341,
+      "SHA256": "dae0f60508ea6799210fd02ea5d19ff2403787d4310b958b1d0aa3c2b2cf4f0e"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "bytes": 9659,
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 703324,
+      "SHA256": "064702de2b0c870e22e0627d894eec1f64a35e9a2bc511b9ed246b530262148e"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/ADMISSION_METADATA_PARITY.json",
+      "bytes": 33577,
+      "SHA256": "8b97d00b66b0c41ea470fa0469f8bf2206dd7ec7135010e3d9c93d33f5eb0f43"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/BROWSER_PARITY.json",
+      "bytes": 1261,
+      "SHA256": "1bda854f5a99bcfe8a1637833d39b751919c93bfdb40d007efc687f745ff3aed"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/C06-category-desktop.png",
+      "bytes": 200109,
+      "SHA256": "b0f7349d1085552ef5047e5d9f032eec42d31b2a31d42103e4c06c43c62d383b"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/C06-category-mobile.png",
+      "bytes": 82386,
+      "SHA256": "b12780eb8517b8fce71b8ab38b84a90f8d16811f33bc5ff2ab824a0c698aaad5"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/INITIAL_METADATA_ASSERTION_FAILURE.json",
+      "bytes": 521,
+      "SHA256": "e0cf397c9e7357be139db5f755ea17fd32cbe93ed444aaeb62843ba71c6e4b45"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/SOURCE_AND_SCIENTIFIC_PARITY.json",
+      "bytes": 6934,
+      "SHA256": "1cced5b471da0df1f102a38ce1f6c29f906fa561d0241c30b43de88784e096ed"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/TOP_METADATA_DIAGNOSTIC.json",
+      "bytes": 4256,
+      "SHA256": "f2dddf1264104cbc6e450db36ce5e2a3f9d9024ac104fa2016994c58e1217c6e"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local/TOP_W4_metadata-mobile.png",
+      "bytes": 4308,
+      "SHA256": "414114ae207a0b71d5ecdb23fad024a68cbfabb1bffc9992fb95d7352fc55edb"
+    }
+  ],
+  "next_stage": "After owner publication, exact served bytes and direct C browser once for finaldeploymenthead; no originalwebsite activation inference."
+}

@@ -1,0 +1,7 @@
+{
+  "state": "CHECKER_WRAPPER_LEVEL_ASSUMPTION",
+  "error": "Initial inspection read nested display metadata instead of raw JSON content; all three raw responses retained before failed display parsing.",
+  "source_or_PR_defect": false,
+  "remedy": "Parse exact retained raw API JSON, no additional request",
+  "HTTP_reads_after_correction": 0
+}

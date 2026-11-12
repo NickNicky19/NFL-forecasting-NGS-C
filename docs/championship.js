@@ -113,7 +113,7 @@ function c06Render(){
   c06Cell(tr,r.coverage);
   const lead=c06Cell(tr,'Preferred eligible: '+c06Text(r.preferred_eligible_candidate));c06Details(lead,'Highest observed within named panels',r.highest_observed_panels);
   const control=c06Cell(tr,r.controls);c06Details(control,'Uncertainty and comparison limits',r.uncertainty);
-  c06Cell(tr,`${r.decision} · ${c06Text(r.five_week_status)} · ${c06Text(r.current_query)}`);
+  c06Cell(tr,`C research: ${r.research_recommendation||r.decision} · Original website: ${r.website_operational_decision||"Not verified"} · ${c06Text(r.admission_reconciliation?.reason)} · ${c06Text(r.five_week_status)} · ${c06Text(r.current_query)}`);
   c06Cell(tr,`${c06Text(r.actual_live_method)} · Next owner action: ${c06Text(r.remaining_owner_action)}`);select('#c06-records').append(tr);
   for(const p of r.other_products){const pr=document.createElement('tr');pr.dataset.category=r.category;pr.dataset.product=typeof p==='object'?(p.product||p.product_id||p.type||'Separate product'):'Separate product';c06Cell(pr,r.label);c06Cell(pr,pr.dataset.product);c06Cell(pr,p);select('#c06-products').append(pr);}
  }
