@@ -1,0 +1,121 @@
+{
+  "id": "C06-INDEPENDENT-PRIOR-CONTEXT-RECOVERY-v1",
+  "checked_UTC": "2026-11-12T02:34:33.246939+00:00",
+  "status": "PASS23FILES_RECOVERED;NEW_EXACT_HEAD_SERVER_CHECK_PENDING",
+  "prior22_immutable_commit": "97b80a91ea2b6dd42851c02553ad6bc3f09adaa1",
+  "qualification_head": "0cbf4c156608f8ec69d928ae7434eec877f14914",
+  "additional_file": {
+    "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+    "bytes": 604500,
+    "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+    "Git_blob_SHA1": "cdde6420189d13c56065711489eac04b47e0dd50",
+    "started_UTC": "2026-11-12T02:34:05.767Z",
+    "completed_UTC": "2026-11-12T02:34:06.317Z"
+  },
+  "decoded_CSV_bytes": 4702640,
+  "decoded_CSV_SHA256": "b025865d00014f2b53b29f73d9e65b043abdbe2969e4afc29547620f6d96e097",
+  "same_decoded_payload_as_tracked_XZ": "sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+  "prior22_objects_unchanged_in_newhead": [
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/RUN.json",
+      "same_Git_blob_SHA1": "c75040fee0141493b3c38bf957fd5123a7620f9f"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/INFERENCE_DRAFT.json",
+      "same_Git_blob_SHA1": "013d8e9488f542ce0ea7dd5e16c0c790253070a6"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CURRENT_BOARD.json.xz",
+      "same_Git_blob_SHA1": "9e365623604002d7a67d30f4c512d9b7b98ae55d"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CURRENT_REUSE_ASSESSMENT.json",
+      "same_Git_blob_SHA1": "cdb8076749f237d3431a093cb4efd5fb94a0d9d7"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/FORECASTS.json.xz",
+      "same_Git_blob_SHA1": "161e621591cecf5b6f2b79a52fcd60fece72c0d8"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CLEAN_START_PROOF.json",
+      "same_Git_blob_SHA1": "82b6dc79d0276ad16f5130c7085f656de09bf581"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/NATIVE_STATUS.json",
+      "same_Git_blob_SHA1": "1420ec7516f786e4a67725e9239cdc5f78e586bd"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/INPUT_MANIFEST.json",
+      "same_Git_blob_SHA1": "b467c2df961667d3d15b66689ea503b26eeb82a5"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/CURRENT_BOARD.json.xz",
+      "same_Git_blob_SHA1": "9e365623604002d7a67d30f4c512d9b7b98ae55d"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/CURRENT_REUSE_ASSESSMENT.json",
+      "same_Git_blob_SHA1": "cdb8076749f237d3431a093cb4efd5fb94a0d9d7"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/INPUT_MANIFEST.json",
+      "same_Git_blob_SHA1": "b467c2df961667d3d15b66689ea503b26eeb82a5"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/DRAFT.json",
+      "same_Git_blob_SHA1": "013d8e9488f542ce0ea7dd5e16c0c790253070a6"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/FORECASTS_DRAFT.json.xz",
+      "same_Git_blob_SHA1": "67143f3a097a38bf9ac9610aea5f08e4f8d91935"
+    },
+    {
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+      "same_Git_blob_SHA1": "4e3b0e481ec113ff7a167fc54bb9ce45db47e00c"
+    },
+    {
+      "path": "sources/category-decision-release-01/roster_current_season.json",
+      "same_Git_blob_SHA1": "48b93d8df54cad48ac83de94a0eae75a7b2c16da"
+    },
+    {
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "same_Git_blob_SHA1": "155aa8bf1724488bd71072d5adae36ae64fef03a"
+    },
+    {
+      "path": "sources/category-decision-release-01/candidate_schedule.json",
+      "same_Git_blob_SHA1": "309e11db7316d57c72d23f9cf115ffd3456d8268"
+    },
+    {
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "same_Git_blob_SHA1": "ffc872d25364c583877315fc8209df6d989da7ac"
+    },
+    {
+      "path": "sources/category-decision-release-01/pbp_facts_2026.csv.xz",
+      "same_Git_blob_SHA1": "4f989214f3db0f6ee1828586cac9c572c3cd65a0"
+    },
+    {
+      "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C_V11_P1_E2_POOLED_7D.json.xz",
+      "same_Git_blob_SHA1": "cd3faa893ebc8ca0d6a2863fa028cec30f1ff162"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/STATUS_SOURCE_MANIFEST.json",
+      "same_Git_blob_SHA1": "1420ec7516f786e4a67725e9239cdc5f78e586bd"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/NATIVE_EVENTS.json",
+      "same_Git_blob_SHA1": "518aab500f924f48fb5a675135b61144a092cd83"
+    }
+  ],
+  "total_file_reads": 23,
+  "file_read_cap": 23,
+  "total_decoded_restored_bytes": 1913106,
+  "total_returned_base64_content_bytes": 2593361,
+  "total_returned_structured_content_bytes": 2643000,
+  "returned_content_byte_cap": 3145728,
+  "accounting_limit": "Measured connector read operations and returned structured content; hidden HTTP headers/envelopes are not exposed.",
+  "new_fits": 0,
+  "extra_NFL_inference": 0,
+  "new_upstream_source_collection": 0,
+  "correction_scope": "Required source encoding retention/Gitignore packaging; model/forecasts/recipe/REG and decoded priorCSV unchanged. Earlier97head checkfailure does not demonstrate inaccurateNFLpredictions.",
+  "server_qualification": "PENDING_PARENT_EXACT0cbSUCCESS_METADATA",
+  "served_consumer": "NOT_VERIFIED_HERE"
+}

@@ -1,0 +1,5453 @@
+[
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::CATBOOST_MEDIUM::bc872dcebfe822d49ae435d048aa89b959b30cf570f404af119960f3701bd8ba::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 14,
+      "losses": 12,
+      "decided": 26,
+      "rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "wins": 29,
+      "losses": 32,
+      "decided": 61,
+      "rate": 0.47540983606557374
+    },
+    "COMBINED": {
+      "wins": 43,
+      "losses": 44,
+      "decided": 87,
+      "rate": 0.4942528735632184
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::COUNT_A_LEGACY_POINT::6aa8cf5de83b8ecae994e9e24412a5eeef688d1b50ea7f3880aa4f369c2aad23::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 14,
+      "losses": 12,
+      "decided": 26,
+      "rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "wins": 29,
+      "losses": 32,
+      "decided": 61,
+      "rate": 0.47540983606557374
+    },
+    "COMBINED": {
+      "wins": 43,
+      "losses": 44,
+      "decided": 87,
+      "rate": 0.4942528735632184
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::COUNT_A_MEAN::e76d6588e12771f9c221bdbc030d25be52dab22e644c549fa0366d2832b6b2cd::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 14,
+      "losses": 12,
+      "decided": 26,
+      "rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "wins": 29,
+      "losses": 32,
+      "decided": 61,
+      "rate": 0.47540983606557374
+    },
+    "COMBINED": {
+      "wins": 43,
+      "losses": 44,
+      "decided": 87,
+      "rate": 0.4942528735632184
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::mean",
+    "method": "DEPTH_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 9,
+      "losses": 10,
+      "decided": 19,
+      "rate": 0.47368421052631576
+    },
+    "UNDER": {
+      "wins": 31,
+      "losses": 37,
+      "decided": 68,
+      "rate": 0.45588235294117646
+    },
+    "COMBINED": {
+      "wins": 40,
+      "losses": 47,
+      "decided": 87,
+      "rate": 0.45977011494252873
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::DEPTH_CDF::9b187e17fcaf1146d4465a18b1a7a996af42826b077cbdfa208ae4cde3583326::median",
+    "method": "DEPTH_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 10,
+      "losses": 12,
+      "decided": 22,
+      "rate": 0.45454545454545453
+    },
+    "UNDER": {
+      "wins": 29,
+      "losses": 36,
+      "decided": 65,
+      "rate": 0.4461538461538462
+    },
+    "COMBINED": {
+      "wins": 39,
+      "losses": 48,
+      "decided": 87,
+      "rate": 0.4482758620689655
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::HGB_MAE_DIRECT::a49c455ae797e612d9532472a729f60a55f7bf55d0122a67332b2fb70d6ccb6d::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 16,
+      "losses": 15,
+      "decided": 31,
+      "rate": 0.5161290322580645
+    },
+    "UNDER": {
+      "wins": 26,
+      "losses": 30,
+      "decided": 56,
+      "rate": 0.4642857142857143
+    },
+    "COMBINED": {
+      "wins": 42,
+      "losses": 45,
+      "decided": 87,
+      "rate": 0.4827586206896552
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 11,
+      "losses": 10,
+      "decided": 21,
+      "rate": 0.5238095238095238
+    },
+    "UNDER": {
+      "wins": 31,
+      "losses": 35,
+      "decided": 66,
+      "rate": 0.4696969696969697
+    },
+    "COMBINED": {
+      "wins": 42,
+      "losses": 45,
+      "decided": 87,
+      "rate": 0.4827586206896552
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 13,
+      "losses": 14,
+      "decided": 27,
+      "rate": 0.48148148148148145
+    },
+    "UNDER": {
+      "wins": 27,
+      "losses": 33,
+      "decided": 60,
+      "rate": 0.45
+    },
+    "COMBINED": {
+      "wins": 40,
+      "losses": 47,
+      "decided": 87,
+      "rate": 0.45977011494252873
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 12,
+      "losses": 12,
+      "decided": 24,
+      "rate": 0.5
+    },
+    "UNDER": {
+      "wins": 29,
+      "losses": 34,
+      "decided": 63,
+      "rate": 0.4603174603174603
+    },
+    "COMBINED": {
+      "wins": 41,
+      "losses": 46,
+      "decided": 87,
+      "rate": 0.47126436781609193
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_att",
+    "origin": "A",
+    "procedure_id": "A::pass_att::RESPONSE_CDF::87b0494f617a671dc597bb963cdd5d97e60659b966e8f1b700f1b3c5ffa1983f::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 13,
+      "losses": 14,
+      "decided": 27,
+      "rate": 0.48148148148148145
+    },
+    "UNDER": {
+      "wins": 27,
+      "losses": 33,
+      "decided": 60,
+      "rate": 0.45
+    },
+    "COMBINED": {
+      "wins": 40,
+      "losses": 47,
+      "decided": 87,
+      "rate": 0.45977011494252873
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 46,
+      "ALWAYS_UNDER": 41,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::CATBOOST_MEDIUM::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 25,
+      "losses": 13,
+      "decided": 38,
+      "rate": 0.6578947368421053
+    },
+    "UNDER": {
+      "wins": 27,
+      "losses": 23,
+      "decided": 50,
+      "rate": 0.54
+    },
+    "COMBINED": {
+      "wins": 52,
+      "losses": 36,
+      "decided": 88,
+      "rate": 0.5909090909090909
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::COUNT_A_LEGACY_POINT::6dc1b2eef1164b94e77829994aa8fad2eb412f035cd9c4100fd271336e77e517::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 20,
+      "losses": 15,
+      "decided": 35,
+      "rate": 0.5714285714285714
+    },
+    "UNDER": {
+      "wins": 25,
+      "losses": 28,
+      "decided": 53,
+      "rate": 0.4716981132075472
+    },
+    "COMBINED": {
+      "wins": 45,
+      "losses": 43,
+      "decided": 88,
+      "rate": 0.5113636363636364
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::COUNT_A_MEAN::74e42511fb39acc351143ace63978024283ba4794eace416f5c891d1ccf1d394::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 20,
+      "losses": 15,
+      "decided": 35,
+      "rate": 0.5714285714285714
+    },
+    "UNDER": {
+      "wins": 25,
+      "losses": 28,
+      "decided": 53,
+      "rate": 0.4716981132075472
+    },
+    "COMBINED": {
+      "wins": 45,
+      "losses": 43,
+      "decided": 88,
+      "rate": 0.5113636363636364
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::HGB_MAE_DIRECT::80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 26,
+      "losses": 14,
+      "decided": 40,
+      "rate": 0.65
+    },
+    "UNDER": {
+      "wins": 26,
+      "losses": 22,
+      "decided": 48,
+      "rate": 0.5416666666666666
+    },
+    "COMBINED": {
+      "wins": 52,
+      "losses": 36,
+      "decided": 88,
+      "rate": 0.5909090909090909
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 21,
+      "losses": 13,
+      "decided": 34,
+      "rate": 0.6176470588235294
+    },
+    "UNDER": {
+      "wins": 27,
+      "losses": 27,
+      "decided": 54,
+      "rate": 0.5
+    },
+    "COMBINED": {
+      "wins": 48,
+      "losses": 40,
+      "decided": 88,
+      "rate": 0.5454545454545454
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 23,
+      "losses": 17,
+      "decided": 40,
+      "rate": 0.575
+    },
+    "UNDER": {
+      "wins": 23,
+      "losses": 25,
+      "decided": 48,
+      "rate": 0.4791666666666667
+    },
+    "COMBINED": {
+      "wins": 46,
+      "losses": 42,
+      "decided": 88,
+      "rate": 0.5227272727272727
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 22,
+      "losses": 14,
+      "decided": 36,
+      "rate": 0.6111111111111112
+    },
+    "UNDER": {
+      "wins": 26,
+      "losses": 26,
+      "decided": 52,
+      "rate": 0.5
+    },
+    "COMBINED": {
+      "wins": 48,
+      "losses": 40,
+      "decided": 88,
+      "rate": 0.5454545454545454
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_cmp",
+    "origin": "A",
+    "procedure_id": "A::pass_cmp::RESPONSE_CDF::8d56cbf02765c8e2c5e483eca6caad749db88cbadf11e84f0680f7e5a880e1e8::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 23,
+      "losses": 15,
+      "decided": 38,
+      "rate": 0.6052631578947368
+    },
+    "UNDER": {
+      "wins": 25,
+      "losses": 25,
+      "decided": 50,
+      "rate": 0.5
+    },
+    "COMBINED": {
+      "wins": 48,
+      "losses": 40,
+      "decided": 88,
+      "rate": 0.5454545454545454
+    },
+    "eligible": 88,
+    "selected": 88,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 40,
+      "decided": 88
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::CATBOOST_MEDIUM::c633c6909be533920b12e4fdc2aca7572093703b24fe2fefb6a4ca9ac90c6784::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 47,
+      "losses": 38,
+      "decided": 85,
+      "rate": 0.5529411764705883
+    },
+    "UNDER": {
+      "wins": 1,
+      "losses": 1,
+      "decided": 2,
+      "rate": 0.5
+    },
+    "COMBINED": {
+      "wins": 48,
+      "losses": 39,
+      "decided": 87,
+      "rate": 0.5517241379310345
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::COUNT_A_LEGACY_POINT::6705e4dba2244eb9057a9a0e84e1f5b88ad13073013c07bb20b3ad1938c21b35::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 43,
+      "losses": 37,
+      "decided": 80,
+      "rate": 0.5375
+    },
+    "UNDER": {
+      "wins": 2,
+      "losses": 5,
+      "decided": 7,
+      "rate": 0.2857142857142857
+    },
+    "COMBINED": {
+      "wins": 45,
+      "losses": 42,
+      "decided": 87,
+      "rate": 0.5172413793103449
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::COUNT_A_MEAN::f260c59798990e024714f8cb009949ce36aa06f272225463c3732cf230b9a1d2::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 43,
+      "losses": 37,
+      "decided": 80,
+      "rate": 0.5375
+    },
+    "UNDER": {
+      "wins": 2,
+      "losses": 5,
+      "decided": 7,
+      "rate": 0.2857142857142857
+    },
+    "COMBINED": {
+      "wins": 45,
+      "losses": 42,
+      "decided": 87,
+      "rate": 0.5172413793103449
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::HGB_MAE_DIRECT::3e1a430fb8dcfe86d77f04a00156044a60e3852989716b790c4dd5ddf73cfdaf::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 0,
+      "losses": 0,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "wins": 39,
+      "losses": 48,
+      "decided": 87,
+      "rate": 0.4482758620689655
+    },
+    "COMBINED": {
+      "wins": 39,
+      "losses": 48,
+      "decided": 87,
+      "rate": 0.4482758620689655
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 46,
+      "losses": 35,
+      "decided": 81,
+      "rate": 0.5679012345679012
+    },
+    "UNDER": {
+      "wins": 4,
+      "losses": 2,
+      "decided": 6,
+      "rate": 0.6666666666666666
+    },
+    "COMBINED": {
+      "wins": 50,
+      "losses": 37,
+      "decided": 87,
+      "rate": 0.5747126436781609
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 1,
+      "losses": 0,
+      "decided": 1,
+      "rate": 1.0
+    },
+    "UNDER": {
+      "wins": 39,
+      "losses": 47,
+      "decided": 86,
+      "rate": 0.45348837209302323
+    },
+    "COMBINED": {
+      "wins": 40,
+      "losses": 47,
+      "decided": 87,
+      "rate": 0.45977011494252873
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 46,
+      "losses": 38,
+      "decided": 84,
+      "rate": 0.5476190476190477
+    },
+    "UNDER": {
+      "wins": 1,
+      "losses": 2,
+      "decided": 3,
+      "rate": 0.3333333333333333
+    },
+    "COMBINED": {
+      "wins": 47,
+      "losses": 40,
+      "decided": 87,
+      "rate": 0.5402298850574713
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_int",
+    "origin": "A",
+    "procedure_id": "A::pass_int::RESPONSE_CDF::7ca7c686711185de4014ebd9aba3bed80ce62f41f63cd351cf4434e658be7cec::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 4,
+      "losses": 1,
+      "decided": 5,
+      "rate": 0.8
+    },
+    "UNDER": {
+      "wins": 38,
+      "losses": 44,
+      "decided": 82,
+      "rate": 0.4634146341463415
+    },
+    "COMBINED": {
+      "wins": 42,
+      "losses": 45,
+      "decided": 87,
+      "rate": 0.4827586206896552
+    },
+    "eligible": 87,
+    "selected": 87,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 39,
+      "decided": 87
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::CATBOOST_MEDIUM::5b0be2edbbf34431088bb9165e89ac7188dd3d6a4c7be0b29030f5541ecdb3f2::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 22,
+      "losses": 18,
+      "decided": 40,
+      "rate": 0.55
+    },
+    "UNDER": {
+      "wins": 26,
+      "losses": 20,
+      "decided": 46,
+      "rate": 0.5652173913043478
+    },
+    "COMBINED": {
+      "wins": 48,
+      "losses": 38,
+      "decided": 86,
+      "rate": 0.5581395348837209
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::COUNT_A_LEGACY_POINT::9c48aab650f35a60631fd5d6af2cef4b8c513416fe0f9b2c61591d7f8af4b85f::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 25,
+      "losses": 20,
+      "decided": 45,
+      "rate": 0.5555555555555556
+    },
+    "UNDER": {
+      "wins": 24,
+      "losses": 17,
+      "decided": 41,
+      "rate": 0.5853658536585366
+    },
+    "COMBINED": {
+      "wins": 49,
+      "losses": 37,
+      "decided": 86,
+      "rate": 0.5697674418604651
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "2019-2025 frozen fit; model cutoff2026-09-01; actual fit2026-10-31 reconstruction; exact qualified recent context stream.",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 25,
+      "losses": 20,
+      "decided": 45,
+      "rate": 0.5555555555555556
+    },
+    "UNDER": {
+      "wins": 24,
+      "losses": 17,
+      "decided": 41,
+      "rate": 0.5853658536585366
+    },
+    "COMBINED": {
+      "wins": 49,
+      "losses": 37,
+      "decided": 86,
+      "rate": 0.5697674418604651
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::HGB_MAE_DIRECT::bdcffa9803bcf96b39da157a16588b88d65b2ced2dc9c55d168a4f19c8e6102a::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 14,
+      "losses": 12,
+      "decided": 26,
+      "rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "wins": 32,
+      "losses": 28,
+      "decided": 60,
+      "rate": 0.5333333333333333
+    },
+    "COMBINED": {
+      "wins": 46,
+      "losses": 40,
+      "decided": 86,
+      "rate": 0.5348837209302325
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 21,
+      "losses": 24,
+      "decided": 45,
+      "rate": 0.4666666666666667
+    },
+    "UNDER": {
+      "wins": 20,
+      "losses": 21,
+      "decided": 41,
+      "rate": 0.4878048780487805
+    },
+    "COMBINED": {
+      "wins": 41,
+      "losses": 45,
+      "decided": 86,
+      "rate": 0.47674418604651164
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 15,
+      "losses": 13,
+      "decided": 28,
+      "rate": 0.5357142857142857
+    },
+    "UNDER": {
+      "wins": 31,
+      "losses": 27,
+      "decided": 58,
+      "rate": 0.5344827586206896
+    },
+    "COMBINED": {
+      "wins": 46,
+      "losses": 40,
+      "decided": 86,
+      "rate": 0.5348837209302325
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 21,
+      "losses": 24,
+      "decided": 45,
+      "rate": 0.4666666666666667
+    },
+    "UNDER": {
+      "wins": 20,
+      "losses": 21,
+      "decided": 41,
+      "rate": 0.4878048780487805
+    },
+    "COMBINED": {
+      "wins": 41,
+      "losses": 45,
+      "decided": 86,
+      "rate": 0.47674418604651164
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_td",
+    "origin": "A",
+    "procedure_id": "A::pass_td::RESPONSE_CDF::646bf90f55f075a35a57d6fa957e27904266ccd6789a8f0d855a273158ea3c46::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 13,
+      "losses": 13,
+      "decided": 26,
+      "rate": 0.5
+    },
+    "UNDER": {
+      "wins": 31,
+      "losses": 29,
+      "decided": 60,
+      "rate": 0.5166666666666667
+    },
+    "COMBINED": {
+      "wins": 44,
+      "losses": 42,
+      "decided": 86,
+      "rate": 0.5116279069767442
+    },
+    "eligible": 86,
+    "selected": 86,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 78,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 42,
+      "ALWAYS_UNDER": 44,
+      "decided": 86
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "median_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 23,
+      "losses": 20,
+      "decided": 43,
+      "rate": 0.5348837209302325
+    },
+    "UNDER": {
+      "wins": 21,
+      "losses": 25,
+      "decided": 46,
+      "rate": 0.45652173913043476
+    },
+    "COMBINED": {
+      "wins": 44,
+      "losses": 45,
+      "decided": 89,
+      "rate": 0.4943820224719101
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::EQUAL_CDF_CAT_HGB_POINT::e218abfd52d8b5d860cd5bbae2c7145bea1670775c0b6fcc5f7b9bbcbd418c05::empirical_point_blend",
+    "method": "EQUAL_CDF_CAT_HGB_POINT",
+    "output": "empirical_point_blend",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 27,
+      "losses": 17,
+      "decided": 44,
+      "rate": 0.6136363636363636
+    },
+    "UNDER": {
+      "wins": 24,
+      "losses": 21,
+      "decided": 45,
+      "rate": 0.5333333333333333
+    },
+    "COMBINED": {
+      "wins": 51,
+      "losses": 38,
+      "decided": 89,
+      "rate": 0.5730337078651685
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::HGB_MAE_DIRECT::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 28,
+      "losses": 17,
+      "decided": 45,
+      "rate": 0.6222222222222222
+    },
+    "UNDER": {
+      "wins": 24,
+      "losses": 20,
+      "decided": 44,
+      "rate": 0.5454545454545454
+    },
+    "COMBINED": {
+      "wins": 52,
+      "losses": 37,
+      "decided": 89,
+      "rate": 0.5842696629213483
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 26,
+      "losses": 16,
+      "decided": 42,
+      "rate": 0.6190476190476191
+    },
+    "UNDER": {
+      "wins": 25,
+      "losses": 22,
+      "decided": 47,
+      "rate": 0.5319148936170213
+    },
+    "COMBINED": {
+      "wins": 51,
+      "losses": 38,
+      "decided": 89,
+      "rate": 0.5730337078651685
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 27,
+      "losses": 18,
+      "decided": 45,
+      "rate": 0.6
+    },
+    "UNDER": {
+      "wins": 23,
+      "losses": 21,
+      "decided": 44,
+      "rate": 0.5227272727272727
+    },
+    "COMBINED": {
+      "wins": 50,
+      "losses": 39,
+      "decided": 89,
+      "rate": 0.5617977528089888
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 28,
+      "losses": 19,
+      "decided": 47,
+      "rate": 0.5957446808510638
+    },
+    "UNDER": {
+      "wins": 22,
+      "losses": 20,
+      "decided": 42,
+      "rate": 0.5238095238095238
+    },
+    "COMBINED": {
+      "wins": 50,
+      "losses": 39,
+      "decided": 89,
+      "rate": 0.5617977528089888
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "pass_yd",
+    "origin": "A",
+    "procedure_id": "A::pass_yd::RESPONSE_CDF::418ccf0e50bac7fbb2df02705f62f428ce00bf9d8f443e31d90e698ca60e21c9::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "QB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 28,
+      "losses": 20,
+      "decided": 48,
+      "rate": 0.5833333333333334
+    },
+    "UNDER": {
+      "wins": 21,
+      "losses": 20,
+      "decided": 41,
+      "rate": 0.5121951219512195
+    },
+    "COMBINED": {
+      "wins": 49,
+      "losses": 40,
+      "decided": 89,
+      "rate": 0.550561797752809
+    },
+    "eligible": 89,
+    "selected": 89,
+    "available": null,
+    "unknown": 0,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 79,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 48,
+      "ALWAYS_UNDER": 41,
+      "decided": 89
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::CATBOOST_MEDIUM::08d8393d8d4e9f3989351546804d875fd3ff900854d6551ddd4e691a47c85cea::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 142,
+      "losses": 120,
+      "decided": 262,
+      "rate": 0.5419847328244275
+    },
+    "UNDER": {
+      "wins": 172,
+      "losses": 145,
+      "decided": 317,
+      "rate": 0.5425867507886435
+    },
+    "COMBINED": {
+      "wins": 314,
+      "losses": 265,
+      "decided": 579,
+      "rate": 0.542314335060449
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 149,
+      "losses": 122,
+      "decided": 271,
+      "rate": 0.5498154981549815
+    },
+    "UNDER": {
+      "wins": 170,
+      "losses": 138,
+      "decided": 308,
+      "rate": 0.551948051948052
+    },
+    "COMBINED": {
+      "wins": 319,
+      "losses": 260,
+      "decided": 579,
+      "rate": 0.5509499136442142
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::COUNT_A_MEAN::7c361c0821df616a356289b2dee9a5f3b82470ba992596b18154f692f87446ad::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 149,
+      "losses": 122,
+      "decided": 271,
+      "rate": 0.5498154981549815
+    },
+    "UNDER": {
+      "wins": 170,
+      "losses": 138,
+      "decided": 308,
+      "rate": 0.551948051948052
+    },
+    "COMBINED": {
+      "wins": 319,
+      "losses": 260,
+      "decided": 579,
+      "rate": 0.5509499136442142
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::HGB_MAE_DIRECT::22858dcf4777d138c08015823d963161dbcc7e9503d1136b1d073c584e90fb63::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 102,
+      "losses": 79,
+      "decided": 181,
+      "rate": 0.56353591160221
+    },
+    "UNDER": {
+      "wins": 213,
+      "losses": 185,
+      "decided": 398,
+      "rate": 0.535175879396985
+    },
+    "COMBINED": {
+      "wins": 315,
+      "losses": 264,
+      "decided": 579,
+      "rate": 0.5440414507772021
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 151,
+      "losses": 121,
+      "decided": 272,
+      "rate": 0.5551470588235294
+    },
+    "UNDER": {
+      "wins": 171,
+      "losses": 136,
+      "decided": 307,
+      "rate": 0.5570032573289903
+    },
+    "COMBINED": {
+      "wins": 322,
+      "losses": 257,
+      "decided": 579,
+      "rate": 0.5561312607944733
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 103,
+      "losses": 67,
+      "decided": 170,
+      "rate": 0.6058823529411764
+    },
+    "UNDER": {
+      "wins": 225,
+      "losses": 184,
+      "decided": 409,
+      "rate": 0.5501222493887531
+    },
+    "COMBINED": {
+      "wins": 328,
+      "losses": 251,
+      "decided": 579,
+      "rate": 0.5664939550949913
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+    "method": "ORDERED_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 152,
+      "losses": 120,
+      "decided": 272,
+      "rate": 0.5588235294117647
+    },
+    "UNDER": {
+      "wins": 172,
+      "losses": 135,
+      "decided": 307,
+      "rate": 0.5602605863192183
+    },
+    "COMBINED": {
+      "wins": 324,
+      "losses": 255,
+      "decided": 579,
+      "rate": 0.5595854922279793
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec",
+    "origin": "A",
+    "procedure_id": "A::rec::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+    "method": "ORDERED_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 97,
+      "losses": 61,
+      "decided": 158,
+      "rate": 0.6139240506329114
+    },
+    "UNDER": {
+      "wins": 231,
+      "losses": 190,
+      "decided": 421,
+      "rate": 0.5486935866983373
+    },
+    "COMBINED": {
+      "wins": 328,
+      "losses": 251,
+      "decided": 579,
+      "rate": 0.5664939550949913
+    },
+    "eligible": 642,
+    "selected": 642,
+    "available": null,
+    "unknown": 63,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 287,
+      "ALWAYS_UNDER": 292,
+      "decided": 579
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "median_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 111,
+      "losses": 90,
+      "decided": 201,
+      "rate": 0.5522388059701493
+    },
+    "UNDER": {
+      "wins": 203,
+      "losses": 189,
+      "decided": 392,
+      "rate": 0.5178571428571429
+    },
+    "COMBINED": {
+      "wins": 314,
+      "losses": 279,
+      "decided": 593,
+      "rate": 0.5295109612141653
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::EQUAL_CDF_CAT_HGB_POINT::9a96afcd9f1af01167323fbbe10b459cfc253b1da75e92087c4c085eef85de69::empirical_point_blend",
+    "method": "EQUAL_CDF_CAT_HGB_POINT",
+    "output": "empirical_point_blend",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 108,
+      "losses": 87,
+      "decided": 195,
+      "rate": 0.5538461538461539
+    },
+    "UNDER": {
+      "wins": 206,
+      "losses": 192,
+      "decided": 398,
+      "rate": 0.5175879396984925
+    },
+    "COMBINED": {
+      "wins": 314,
+      "losses": 279,
+      "decided": 593,
+      "rate": 0.5295109612141653
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::HGB_MAE_DIRECT::6c6bf4be00366240df7de12ea47febd88fb82dfe27e6e184a5aeb636d008fff5::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 104,
+      "losses": 88,
+      "decided": 192,
+      "rate": 0.5416666666666666
+    },
+    "UNDER": {
+      "wins": 205,
+      "losses": 196,
+      "decided": 401,
+      "rate": 0.5112219451371571
+    },
+    "COMBINED": {
+      "wins": 309,
+      "losses": 284,
+      "decided": 593,
+      "rate": 0.521079258010118
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 193,
+      "losses": 164,
+      "decided": 357,
+      "rate": 0.5406162464985994
+    },
+    "UNDER": {
+      "wins": 129,
+      "losses": 107,
+      "decided": 236,
+      "rate": 0.5466101694915254
+    },
+    "COMBINED": {
+      "wins": 322,
+      "losses": 271,
+      "decided": 593,
+      "rate": 0.5430016863406408
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 102,
+      "losses": 81,
+      "decided": 183,
+      "rate": 0.5573770491803278
+    },
+    "UNDER": {
+      "wins": 212,
+      "losses": 198,
+      "decided": 410,
+      "rate": 0.5170731707317073
+    },
+    "COMBINED": {
+      "wins": 314,
+      "losses": 279,
+      "decided": 593,
+      "rate": 0.5295109612141653
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 192,
+      "losses": 165,
+      "decided": 357,
+      "rate": 0.5378151260504201
+    },
+    "UNDER": {
+      "wins": 128,
+      "losses": 108,
+      "decided": 236,
+      "rate": 0.5423728813559322
+    },
+    "COMBINED": {
+      "wins": 320,
+      "losses": 273,
+      "decided": 593,
+      "rate": 0.5396290050590219
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rec_yd::RESPONSE_CDF::91ded3f65eff6db0c3335ff438be87e2509db888f11905c2683059001a6b650a::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 109,
+      "losses": 81,
+      "decided": 190,
+      "rate": 0.5736842105263158
+    },
+    "UNDER": {
+      "wins": 212,
+      "losses": 191,
+      "decided": 403,
+      "rate": 0.5260545905707196
+    },
+    "COMBINED": {
+      "wins": 321,
+      "losses": 272,
+      "decided": 593,
+      "rate": 0.5413153456998314
+    },
+    "eligible": 659,
+    "selected": 659,
+    "available": null,
+    "unknown": 66,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 300,
+      "ALWAYS_UNDER": 293,
+      "decided": 593
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::mean",
+    "method": "BACKFIELD_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 65,
+      "losses": 49,
+      "decided": 114,
+      "rate": 0.5701754385964912
+    },
+    "UNDER": {
+      "wins": 81,
+      "losses": 65,
+      "decided": 146,
+      "rate": 0.5547945205479452
+    },
+    "COMBINED": {
+      "wins": 146,
+      "losses": 114,
+      "decided": 260,
+      "rate": 0.5615384615384615
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::BACKFIELD_CDF::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::median",
+    "method": "BACKFIELD_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 41,
+      "losses": 35,
+      "decided": 76,
+      "rate": 0.5394736842105263
+    },
+    "UNDER": {
+      "wins": 95,
+      "losses": 89,
+      "decided": 184,
+      "rate": 0.5163043478260869
+    },
+    "COMBINED": {
+      "wins": 136,
+      "losses": 124,
+      "decided": 260,
+      "rate": 0.5230769230769231
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::CATBOOST_MEDIUM::e625ea46f0d19e59b6fb827cb2c4b54872fb728c58e1841101de54325669d109::mean_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 61,
+      "losses": 50,
+      "decided": 111,
+      "rate": 0.5495495495495496
+    },
+    "UNDER": {
+      "wins": 80,
+      "losses": 69,
+      "decided": 149,
+      "rate": 0.5369127516778524
+    },
+    "COMBINED": {
+      "wins": 141,
+      "losses": 119,
+      "decided": 260,
+      "rate": 0.5423076923076923
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::COUNT_A_LEGACY_POINT::19366fa2b42beb6e756a47c5567b5dabf948475adab024e81af4c2476137e13b::legacy_empirical_point",
+    "method": "COUNT_A_LEGACY_POINT",
+    "output": "legacy_empirical_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 62,
+      "losses": 51,
+      "decided": 113,
+      "rate": 0.5486725663716814
+    },
+    "UNDER": {
+      "wins": 79,
+      "losses": 68,
+      "decided": 147,
+      "rate": 0.5374149659863946
+    },
+    "COMBINED": {
+      "wins": 141,
+      "losses": 119,
+      "decided": 260,
+      "rate": 0.5423076923076923
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::COUNT_A_MEAN::d097389f5f625d92e6061bd068deab153bb4ba3b02783feedc3a889796b647c8::mean_objective_point",
+    "method": "COUNT_A_MEAN",
+    "output": "mean_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 62,
+      "losses": 51,
+      "decided": 113,
+      "rate": 0.5486725663716814
+    },
+    "UNDER": {
+      "wins": 79,
+      "losses": 68,
+      "decided": 147,
+      "rate": 0.5374149659863946
+    },
+    "COMBINED": {
+      "wins": 141,
+      "losses": 119,
+      "decided": 260,
+      "rate": 0.5423076923076923
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 62,
+      "losses": 48,
+      "decided": 110,
+      "rate": 0.5636363636363636
+    },
+    "UNDER": {
+      "wins": 82,
+      "losses": 68,
+      "decided": 150,
+      "rate": 0.5466666666666666
+    },
+    "COMBINED": {
+      "wins": 144,
+      "losses": 116,
+      "decided": 260,
+      "rate": 0.5538461538461539
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 40,
+      "losses": 36,
+      "decided": 76,
+      "rate": 0.5263157894736842
+    },
+    "UNDER": {
+      "wins": 94,
+      "losses": 90,
+      "decided": 184,
+      "rate": 0.5108695652173914
+    },
+    "COMBINED": {
+      "wins": 134,
+      "losses": 126,
+      "decided": 260,
+      "rate": 0.5153846153846153
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::mean",
+    "method": "ORDERED_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 61,
+      "losses": 48,
+      "decided": 109,
+      "rate": 0.5596330275229358
+    },
+    "UNDER": {
+      "wins": 82,
+      "losses": 69,
+      "decided": 151,
+      "rate": 0.543046357615894
+    },
+    "COMBINED": {
+      "wins": 143,
+      "losses": 117,
+      "decided": 260,
+      "rate": 0.55
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_att",
+    "origin": "A",
+    "procedure_id": "A::rush_att::ORDERED_CDF::677d1ba543eeeb5b13c33e9539fb1cea58c760003e1b2e5cc3e49e884ccb3316::median",
+    "method": "ORDERED_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "MIXED_POSITION_QB_RB_WR;335_OFFERS;NOT_RB_ONLY",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 42,
+      "losses": 32,
+      "decided": 74,
+      "rate": 0.5675675675675675
+    },
+    "UNDER": {
+      "wins": 98,
+      "losses": 88,
+      "decided": 186,
+      "rate": 0.5268817204301075
+    },
+    "COMBINED": {
+      "wins": 140,
+      "losses": 120,
+      "decided": 260,
+      "rate": 0.5384615384615384
+    },
+    "eligible": 266,
+    "selected": 266,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 130,
+      "ALWAYS_UNDER": 130,
+      "decided": 260
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "median_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 62,
+      "losses": 65,
+      "decided": 127,
+      "rate": 0.4881889763779528
+    },
+    "UNDER": {
+      "wins": 134,
+      "losses": 125,
+      "decided": 259,
+      "rate": 0.5173745173745173
+    },
+    "COMBINED": {
+      "wins": 196,
+      "losses": 190,
+      "decided": 386,
+      "rate": 0.5077720207253886
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::EQUAL_CDF_CAT_HGB_POINT::2aabd412f6d95865c20da688c24eddab88736741eb61f8fb3891b5390352315e::empirical_point_blend",
+    "method": "EQUAL_CDF_CAT_HGB_POINT",
+    "output": "empirical_point_blend",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 64,
+      "losses": 67,
+      "decided": 131,
+      "rate": 0.48854961832061067
+    },
+    "UNDER": {
+      "wins": 132,
+      "losses": 123,
+      "decided": 255,
+      "rate": 0.5176470588235295
+    },
+    "COMBINED": {
+      "wins": 196,
+      "losses": 190,
+      "decided": 386,
+      "rate": 0.5077720207253886
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::HGB_MAE_DIRECT::a5d8b74346b1405b83103820eaba11db4ad58fd88606d507860acb5c88f605bf::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 62,
+      "losses": 65,
+      "decided": 127,
+      "rate": 0.4881889763779528
+    },
+    "UNDER": {
+      "wins": 134,
+      "losses": 125,
+      "decided": 259,
+      "rate": 0.5173745173745173
+    },
+    "COMBINED": {
+      "wins": 196,
+      "losses": 190,
+      "decided": 386,
+      "rate": 0.5077720207253886
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 105,
+      "losses": 100,
+      "decided": 205,
+      "rate": 0.5121951219512195
+    },
+    "UNDER": {
+      "wins": 99,
+      "losses": 82,
+      "decided": 181,
+      "rate": 0.5469613259668509
+    },
+    "COMBINED": {
+      "wins": 204,
+      "losses": 182,
+      "decided": 386,
+      "rate": 0.5284974093264249
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 66,
+      "losses": 64,
+      "decided": 130,
+      "rate": 0.5076923076923077
+    },
+    "UNDER": {
+      "wins": 135,
+      "losses": 121,
+      "decided": 256,
+      "rate": 0.52734375
+    },
+    "COMBINED": {
+      "wins": 201,
+      "losses": 185,
+      "decided": 386,
+      "rate": 0.5207253886010362
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 105,
+      "losses": 96,
+      "decided": 201,
+      "rate": 0.5223880597014925
+    },
+    "UNDER": {
+      "wins": 103,
+      "losses": 82,
+      "decided": 185,
+      "rate": 0.5567567567567567
+    },
+    "COMBINED": {
+      "wins": 208,
+      "losses": 178,
+      "decided": 386,
+      "rate": 0.538860103626943
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_rec_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_rec_yd::RESPONSE_CDF::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB/WR/TE",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 64,
+      "losses": 62,
+      "decided": 126,
+      "rate": 0.5079365079365079
+    },
+    "UNDER": {
+      "wins": 137,
+      "losses": 123,
+      "decided": 260,
+      "rate": 0.5269230769230769
+    },
+    "COMBINED": {
+      "wins": 201,
+      "losses": 185,
+      "decided": 386,
+      "rate": 0.5207253886010362
+    },
+    "eligible": 408,
+    "selected": 408,
+    "available": null,
+    "unknown": 22,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 187,
+      "ALWAYS_UNDER": 199,
+      "decided": 386
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::CATBOOST_MEDIUM::9fa09ae8fdc21d286c9f427811262da52243839e489ba003a0078f54fb743400::median_objective_point",
+    "method": "CATBOOST_MEDIUM",
+    "output": "median_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 34,
+      "losses": 39,
+      "decided": 73,
+      "rate": 0.4657534246575342
+    },
+    "UNDER": {
+      "wins": 128,
+      "losses": 86,
+      "decided": 214,
+      "rate": 0.5981308411214953
+    },
+    "COMBINED": {
+      "wins": 162,
+      "losses": 125,
+      "decided": 287,
+      "rate": 0.5644599303135889
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::EQUAL_CDF_CAT_HGB_POINT::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::empirical_point_blend",
+    "method": "EQUAL_CDF_CAT_HGB_POINT",
+    "output": "empirical_point_blend",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 38,
+      "losses": 40,
+      "decided": 78,
+      "rate": 0.48717948717948717
+    },
+    "UNDER": {
+      "wins": 127,
+      "losses": 82,
+      "decided": 209,
+      "rate": 0.6076555023923444
+    },
+    "COMBINED": {
+      "wins": 165,
+      "losses": 122,
+      "decided": 287,
+      "rate": 0.5749128919860628
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::HGB_MAE_DIRECT::78e0a3e29e50d210d93a63a276a3e9c23b278f9d21cab99e804b2b9d43506ef3::mae_objective_point",
+    "method": "HGB_MAE_DIRECT",
+    "output": "mae_objective_point",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 36,
+      "losses": 42,
+      "decided": 78,
+      "rate": 0.46153846153846156
+    },
+    "UNDER": {
+      "wins": 125,
+      "losses": 84,
+      "decided": 209,
+      "rate": 0.5980861244019139
+    },
+    "COMBINED": {
+      "wins": 161,
+      "losses": 126,
+      "decided": 287,
+      "rate": 0.5609756097560976
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::mean",
+    "method": "LEAF_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 70,
+      "losses": 102,
+      "decided": 172,
+      "rate": 0.4069767441860465
+    },
+    "UNDER": {
+      "wins": 65,
+      "losses": 50,
+      "decided": 115,
+      "rate": 0.5652173913043478
+    },
+    "COMBINED": {
+      "wins": 135,
+      "losses": 152,
+      "decided": 287,
+      "rate": 0.47038327526132406
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::LEAF_CDF::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::median",
+    "method": "LEAF_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 36,
+      "losses": 38,
+      "decided": 74,
+      "rate": 0.4864864864864865
+    },
+    "UNDER": {
+      "wins": 129,
+      "losses": 84,
+      "decided": 213,
+      "rate": 0.6056338028169014
+    },
+    "COMBINED": {
+      "wins": 165,
+      "losses": 122,
+      "decided": 287,
+      "rate": 0.5749128919860628
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::RESPONSE_CDF::67ed09d586c4a4472e51c7c298bd8389b8329f319339d293e01934c39d7a4313::mean",
+    "method": "RESPONSE_CDF",
+    "output": "mean",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 68,
+      "losses": 103,
+      "decided": 171,
+      "rate": 0.39766081871345027
+    },
+    "UNDER": {
+      "wins": 64,
+      "losses": 52,
+      "decided": 116,
+      "rate": 0.5517241379310345
+    },
+    "COMBINED": {
+      "wins": 132,
+      "losses": 155,
+      "decided": 287,
+      "rate": 0.45993031358885017
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  },
+  {
+    "category": "rush_yd",
+    "origin": "A",
+    "procedure_id": "A::rush_yd::RESPONSE_CDF::67ed09d586c4a4472e51c7c298bd8389b8329f319339d293e01934c39d7a4313::median",
+    "method": "RESPONSE_CDF",
+    "output": "median",
+    "history": "ExactproducerboundhistorynotexpandedinCSV;seeAfinalistcatalog/config;notassumedMULTI",
+    "role_scope": "RB",
+    "policy": "P1_UNROUNDED_POINT_VS_ACTUAL_LINE_ALL_ELIGIBLE",
+    "requested_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "actually_scored_partitions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "source_panel": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL::FIRST_FIVE_WEEK_SUBPANEL",
+    "source_classification": "SOURCE_QUALIFICATION_PENDING_LATEST_A_BINDING;NOT_AUTOMATICALLY_SAME_AS_C03_ANNUAL_BOARD",
+    "OVER": {
+      "wins": 35,
+      "losses": 41,
+      "decided": 76,
+      "rate": 0.4605263157894737
+    },
+    "UNDER": {
+      "wins": 126,
+      "losses": 85,
+      "decided": 211,
+      "rate": 0.5971563981042654
+    },
+    "COMBINED": {
+      "wins": 161,
+      "losses": 126,
+      "decided": 287,
+      "rate": 0.5609756097560976
+    },
+    "eligible": 293,
+    "selected": 293,
+    "available": null,
+    "unknown": 6,
+    "abstained": 0,
+    "pushes": 0,
+    "fallback": null,
+    "games": null,
+    "player_games": null,
+    "reported_full_seven_week_games": 81,
+    "same_decided_constants": {
+      "ALWAYS_OVER": 120,
+      "ALWAYS_UNDER": 167,
+      "decided": 287
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ARCHIVED_SCORE_PARTITIONS;SOURCE_WEEK_CLASSIFICATION_NOT_REQUALIFIED",
+    "source": {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    "note": "Counts-only reuse of fixed predictions/saved grades; no new NFL games, fits, forecasts or source qualification. Scientific game-count support cannot be inferred from the full seven-week total."
+  }
+]

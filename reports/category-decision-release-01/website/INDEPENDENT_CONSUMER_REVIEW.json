@@ -1,0 +1,58 @@
+{
+  "id": "CATEGORY-WEBSITE-INDEPENDENT-CONSUMER-SOURCE-REVIEW-v1",
+  "checked_UTC": "2026-11-12T01:32:20.509623+00:00",
+  "reviewer": "C internal independent child consumer_contract_check; not A/B verification or original-site owner admission",
+  "status": "PASS_WITH_EXPLICIT_CHECKED_SCOPE_LIMITS",
+  "input_bindings": [
+    {
+      "path": "/workspace/ngs-c/reports/category-decision-release-01/website/CURRENT_APP_JS.decoded.js",
+      "bytes": 367950,
+      "SHA256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/category-decision-release-01/website/CONSUMER_FIXTURES.json",
+      "bytes": 1508,
+      "SHA256": "20ecbe5c51aa6733e939005b1a0e4022015563bc0e51193d07bda7e3aef98e28"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/category-decision-release-01/website/CURRENT_OVERLAY_LEAF.decoded.json",
+      "bytes": 763,
+      "SHA256": "2d6d458ad7de11b02af3c95d7e96ee4ae2b54d5aa0f7d36edf66c592c1ebf3b3"
+    }
+  ],
+  "independent_source_review": [
+    "Read actual MAE load/validation/display and selection/probability readers separately; selectedPropForecast uses existing overlay reader, while maeDisplayForecast uses StatPointMaeV2.forPlayer.",
+    "Read category card/chip leans, line-source gating and custom-line handling. New selected points go through category margin thresholds; they are not strict point-versus-line crossings.",
+    "Read visibleTopPicks, selectedRankingPolicy, ranking validator and comparator; defaults fall back to serialized board.picks.",
+    "Read add-to-MyPicks handler: player-detail MAE display snapshot may be saved separately; Top-card saves do not attach it.",
+    "Confirmed baselineTdProbability requires finite nonnegative projection and finite probability in [0,1]; missing projection is unavailable, and explicit projected0/probability0 is permitted."
+  ],
+  "independent_execution": {
+    "script": {
+      "path": "/workspace/website-independent-source-check.cjs",
+      "bytes": 1515,
+      "SHA256": "e430f8845c232ee513ce158cefff0f4bcc66569104cc320ab893c0cfb22317c7"
+    },
+    "command": "node /workspace/website-independent-source-check.cjs",
+    "checks": 7,
+    "result": "PASS",
+    "specific_cases": [
+      "MAE display value99 leaves effective baseline selection value7.",
+      "Selected typed value3 is used by selection even when MAE display remains99.",
+      "Missing TD projection returnsnull; explicit zero retains0; nonfinite chance returnsnull."
+    ],
+    "not_parent_summary_rerun": true
+  },
+  "parent51fixture_scope": "Correctly limited to fictional invocation of retained selected consumer helpers, policy constants, gap gates, comparator and TD null behavior. Does not run complete producer selector or saved production board.",
+  "necessary_scope_qualifications": [
+    "Current disabled selection overlay does not establish that independent numerical MAE display is inactive; current display pointer and actual joined payload need separate readback.",
+    "Top policy object declares minimum games/snaps/projected PPR/ratio/line and capacity. validateSelectedRankings enforces row identity/source/clock/hash/score/order/capacity and unique players per side, but does not reconstruct all earlier candidate eligibility or full best-per-player selection. The actual producer function/full boards are still required for exact replay.",
+    "Numerical display isolation applies to ranking/lean/probability selection readers; do not claim no saved-record content can change, because manual player-detail MyPicks can retain the display snapshot.",
+    "No supplied actual current board, MAE payload or prospective row was independently checked by this child. No production activation, five-week qualification, predictive gain or source chronology is established."
+  ],
+  "finding": "NO_DEFECT_FOUND_IN_CHECKED_CONSUMER_FUNCTIONS; full pipeline/producer behavior outside checked scope remains UNKNOWN",
+  "network_requests": 0,
+  "new_fits": 0,
+  "new_NFL_observations": 0,
+  "repository_edits": 0
+}

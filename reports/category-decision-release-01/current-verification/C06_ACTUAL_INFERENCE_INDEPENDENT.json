@@ -1,0 +1,42 @@
+{
+  "id": "C06-INDEPENDENT-ACTUAL-INFERENCE-v1",
+  "checked_UTC": "2026-11-12T02:20:37.592417+00:00",
+  "status": "PASS_INDEPENDENT_SAFE_JSON_COEFFICIENTS_POISSON_QUANTILES_AND_CLOCKS",
+  "code_commit": "e9b56a314acea2fbe958dc4415e8693c56516970",
+  "draft_SHA256": "045089a385e8d1619a757e3b1b928061d117618c4461bd7b4fce67e52fcc2d94",
+  "forecasts_SHA256": "4f4c74f65b6cb02c7a572772c0f4a371e4e62322427530dacb09c055ca6f18de",
+  "model_SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb",
+  "calculation_path": "Separate standard-library imputation/missing flags, standardized linear coefficients, exp link and Poisson recurrence; no pooled_mu, author predictor, scorer, SciPy or fitted estimator invoked.",
+  "mean_tolerance": 1e-12,
+  "maximum_mean_absolute_delta": 2.220446049250313e-16,
+  "maximum_delta_from_original25": 0.0,
+  "quantile_values_exact": 75,
+  "maximum_count_mass_error_through100": 5.551115123125783e-16,
+  "basic_board": 959,
+  "current_query_players": 25,
+  "WR_TE_direction_candidate_rows": 18,
+  "RB_separate_shadow_rows": 7,
+  "all_offer_side_confidence_EV_fields_null": true,
+  "target_outcomes_absent": true,
+  "current_information_cutoff_UTC": "2026-11-12T01:43:52.568669+00:00",
+  "model_fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "new_inference_started_UTC": "2026-11-12T02:19:12.699428+00:00",
+  "first_row_inference_UTC": "2026-11-12T02:19:12.997639+00:00",
+  "inference_completed_UTC": "2026-11-12T02:19:13.089072+00:00",
+  "original25_forecast_issued_UTC": "2026-11-10T19:37:43.972513+00:00",
+  "old75_and69_hashes_unchanged": {
+    "prospective/runs/C-C04-20261110-W10-FIRST-01/FORECASTS.json.xz": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+    "prospective/runs/C-C05-NEDET-FIRST-01/FORECASTS.json.xz": "e3dcb454f25b3a3d6b802a72f47ec91d583fe3eeeaa7fc964a0d4d255b16d32e"
+  },
+  "new_fits": 0,
+  "new_GETs": 0,
+  "independent_inference_rows": 25,
+  "new_NFL_test_observations": 0,
+  "CPU_seconds": 0.5523834940000001,
+  "peak_RSS_bytes": 77828096,
+  "limitations": [
+    "This verifies the new draft, not final native-event admission, actual issuance, server persistence or consumer admission.",
+    "Five-week historical WR/TE point evidence does not automatically qualify seven RB shadows, current query eligibility/horizon, probabilities or Top Picks.",
+    "No authentic current offers or original website activation is established."
+  ]
+}

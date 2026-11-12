@@ -1,0 +1,157 @@
+{
+  "id": "C06-INDEPENDENT-CANONICAL-SOURCE-AND-RECIPE-v1",
+  "checked_UTC": "2026-11-12T02:06:38.108326+00:00",
+  "status": "PASS_CURRENT_INPUT_CACHE_REUSE_SCOPE;WHOLE_PRODUCT_RELEASE_NOT_INFERRED",
+  "calculation_path": "stdlib csv/gzip/lzma/datetime and independently reconstructed America/New_York kickoff + strict seven-day admission; no author source comparator or inference called",
+  "current_source_cutoff_UTC": "2026-11-12T01:43:52.568669+00:00",
+  "original_fit_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "strict_eligible_game_sets_equal": true,
+  "eligible_games": 121,
+  "comparisons": [
+    {
+      "path": "current_facts_2026.csv.gz",
+      "total_rows": 9455,
+      "changed_cells": 2,
+      "changes": [
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "player_id": "00-0037809"
+          },
+          "field": "receiving_yards",
+          "old": "56",
+          "new": "57"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "player_id": "00-0039910"
+          },
+          "field": "passing_yards",
+          "old": "273",
+          "new": "274"
+        }
+      ],
+      "eligible_rows": 8420,
+      "eligible_equal": true
+    },
+    {
+      "path": "pbp_facts_2026.csv.xz",
+      "total_rows": 16993,
+      "changed_cells": 8,
+      "changes": [
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4558"
+          },
+          "field": "air_yards",
+          "old": "12",
+          "new": "11"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4558"
+          },
+          "field": "yards_after_catch",
+          "old": "0",
+          "new": "1"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4583"
+          },
+          "field": "air_yards",
+          "old": "0",
+          "new": "-1"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4615"
+          },
+          "field": "air_yards",
+          "old": "29",
+          "new": "28"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4645"
+          },
+          "field": "pass_location",
+          "old": "right",
+          "new": "middle"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4645"
+          },
+          "field": "receiving_yards",
+          "old": "15",
+          "new": "16"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4645"
+          },
+          "field": "passing_yards",
+          "old": "15",
+          "new": "16"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": "4645"
+          },
+          "field": "yards_after_catch",
+          "old": "11",
+          "new": "12"
+        }
+      ],
+      "eligible_rows": 15136,
+      "eligible_equal": true
+    }
+  ],
+  "current_roster_basic": 959,
+  "available_current_queries": 25,
+  "WR_TE_queries": 18,
+  "RB_shadow_queries": 7,
+  "all_current_ID_team_role_keys_match_prepared": true,
+  "source_future_target_outcomes_absent": true,
+  "old_finality_binding_SHA256": "b085647871f6a52f50d7cbfdc4e39dad48465abc6e1e2cdb10aec26f684cf35c",
+  "eligible_games_subset_of_retained_finality": true,
+  "model_SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb",
+  "historical_P1_reuse_acceptance": {
+    "path": "reports/player-context-matchup-01/acceptance-v1/FIT_REPRODUCTION_FINAL.json",
+    "SHA256": "41dcf10ef81dba15ea8d51132e4557c3d74cf94fb31bfcb26ec71c30f1941432",
+    "scope": "Reuse completed P1 fresh-fit and single/batch/shuffle/serialization verification; no fit repeated"
+  },
+  "recipe_equivalence": {
+    "features": 60,
+    "transformed_coefficients": 120,
+    "family": "L2_POOLED_POISSON",
+    "alpha": 0.1,
+    "partial": false,
+    "history": "2022+ labels; seven-day reconstructed availability; E0_OP32 plus22 owncontext+6opponent fields from2025/2026; earlier-only imputation/scale; mean exp link once; no added corrector"
+  },
+  "original_forecast_hashes": {
+    "prospective/runs/C-C04-20261110-W10-FIRST-01/FORECASTS.json.xz": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+    "prospective/runs/C-C05-NEDET-FIRST-01/FORECASTS.json.xz": "e3dcb454f25b3a3d6b802a72f47ec91d583fe3eeeaa7fc964a0d4d255b16d32e"
+  },
+  "limitations": [
+    "Historical exact-offer mean239/412 scope is owner-local five-week WR/TE point-direction at quote-time-unverified reconstructed tier; this check does not independently inspect A private offers/masks/clocks.",
+    "Current pregame roster universe differs from historical stat-row-conditioned query universe. Whole-system eligibility/coverage and current issue horizon cannot inherit five-week admission solely from a shared model family.",
+    "The current retained fit has explicit completed/held-source validation. Those unchanged cache conditions substantiate reuse; they do not authenticate old historical publication times.",
+    "Actual new inference, final native admission, issuance, GitHub persistence and served consumer remain pending."
+  ],
+  "new_fits": 0,
+  "new_NFL_inference": 0,
+  "new_GETs": 0,
+  "CPU_seconds": 1.253413308,
+  "peak_RSS_bytes": 187002880
+}

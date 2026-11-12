@@ -18,6 +18,12 @@ private/
 !reports/abc-championship/continuation-v2/intake/*.csv.gz
 !prospective/outcomes/C-W8-FINAL-EXPANSION-20261104-v2-1/evidence/player_facts.csv.gz
 
+# Exact C06 permitted ordinary-input and aggregate coverage recovery members.
+!sources/category-decision-release-01/current_facts_2026.csv.gz
+!sources/player-context-matchup-01/pbp_facts_2025.csv.gz
+!reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz
+!reports/category-decision-release-01/evidence/RETAINED_W1_W8_COVERAGE.csv.gz
+
 # Exact large context metadata is retained losslessly in SOURCE_METADATA.zip.
 reports/player-context-matchup-01/**/DENOMINATOR_AUDIT.json
 reports/player-context-matchup-01/DENOMINATOR_AUDIT.json

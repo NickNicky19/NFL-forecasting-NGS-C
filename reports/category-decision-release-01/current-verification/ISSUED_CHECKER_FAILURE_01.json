@@ -1,0 +1,13 @@
+{
+  "id": "C06-ISSUED-INDEPENDENT-CHECKER-FAILURE-01",
+  "recorded_UTC": "2026-11-12T02:24:05.935824+00:00",
+  "status": "CHECKER_RECEIPT_SERIALIZATION_FAILED_AFTER_ALL_VALIDATION_ASSERTIONS",
+  "executed_code_SHA256": "97a97f8a1a0f314d2b5a35a79faef63c548b3eb1e2b52bd6490374968a0cc866",
+  "error": "TypeError string indices must be integers, not str; local s source variable overwritten by loop digest when checking original75/69 hashes.",
+  "root_cause": "Independent checker local variable shadowing, not forecast/source/adapter defect.",
+  "affected_NFL_rows": 0,
+  "new_fits": 0,
+  "new_GETs": 0,
+  "new_inference": 0,
+  "remedy": "Rename loop digest variable and rerun same read-only checks; preserve failed code and original NFL bytes."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "C06-PRIOR-CONTEXT-BINDING-RECOVERY-v1",
+  "recorded_UTC": "2026-11-12T02:31:24.470349+00:00",
+  "failed_head": "97b80a91ea2b6dd42851c02553ad6bc3f09adaa1",
+  "failed_run": 43141622561,
+  "cause": "New full source-basis verifier dereferences exact old gzip context file; workspace had it, Git retained an equivalent xz encoding. Missing gzip in clean CI caused FileNotFoundError.",
+  "exact_required_member": {
+    "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+    "bytes": 604500,
+    "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f"
+  },
+  "already_retained_equivalent_xz": "sources/player-context-matchup-01/pbp_facts_2025.csv.xz",
+  "decoded_equal_bytes": 4702640,
+  "decoded_equal_SHA256": "b025865d00014f2b53b29f73d9e65b043abdbe2969e4afc29547620f6d96e097",
+  "repair": "Narrow explicit retention of the exact gzip bytes already bound by original current fit; no source reconstruction, model or forecast changes, no guard removal.",
+  "current_inference_repeated": false,
+  "historical_fits_repeated": false
+}

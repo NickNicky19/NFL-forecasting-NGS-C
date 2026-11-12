@@ -1,0 +1,48 @@
+{
+  "id": "C06-CURRENT-PACKET-DISPLAY-REVIEW-v2",
+  "at_UTC": "2026-11-12T02:35:25.423115+00:00",
+  "reviewer": "/root/category_decision_site/c06_ui_review",
+  "status": "PASS_BOUNDED_CODE_REVIEW;FINAL_DATA_PENDING",
+  "checked_files": [
+    {
+      "path": "src/site_category_decisions_c06.py",
+      "SHA256": "e0f5afbc2009a46de96c81e0a0be19d161d597daa01a6f665df22ff1275e6c64"
+    },
+    {
+      "path": "docs/championship.html",
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "SHA256": "18b54f97a2718e2f58eac0c3f3270f77b92876e7b1aeb99c4cbc6e700cd2092d"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "tests/test_site_category_decisions_c06.py",
+      "SHA256": "86ed0875c630a560a1113eabc4de4a706a868dad0f19b76fd367eaaf71664c29"
+    }
+  ],
+  "focused_tests": 12,
+  "reviewed_fixes": [
+    "Label model_fit_cutoff_UTC as fit information cutoff, not actual fit execution",
+    "One-shot display transition schedules next expiry/kickoff without network polling"
+  ],
+  "scope": [
+    "Optional absent packet hides current section",
+    "Present packet requires existing common run/receipt validation",
+    "25typedrows;18WRTEcandidate-scope+7RBshadow;wholepacketSHADOW",
+    "No lines/sides/probability-at-line/confidence/EV invented",
+    "No model or original-site activation"
+  ],
+  "unexecuted": [
+    "Actual proof-bound final payload export",
+    "Actual25currentplayer browser parity",
+    "Served publication verification"
+  ],
+  "network_requests": 0,
+  "fits": 0,
+  "NFL_observations": 0
+}

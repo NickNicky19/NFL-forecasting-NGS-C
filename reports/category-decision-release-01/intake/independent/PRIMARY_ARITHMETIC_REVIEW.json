@@ -1,0 +1,840 @@
+{
+  "id": "C-CATEGORY-INDEPENDENT-PUBLIC-ARITHMETIC-v1",
+  "checked_UTC": "2026-11-12T01:37:15.740605+00:00",
+  "status": "PASS_PRIMARY_PUBLIC_AGGREGATE_ARITHMETIC_AND_COMPLETE_CSV_PARITY",
+  "input": {
+    "path": "reports/category-decision-release-01/intake/A_EXECUTION_SUMMARY.json.xz",
+    "bytes": 10064,
+    "SHA256": "01a87fb11c0e44bc53d8954dd39c727eb372370f5c63b4b9cb8f5cd63bcedd2b"
+  },
+  "distinct_products_checked": 20,
+  "strong_control_products_checked": 3,
+  "within_method_contrasts_checked": 20,
+  "checks_of_products_controls_and_contrasts": 43,
+  "products": [
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "O": {
+        "decided": 9,
+        "losses": 3,
+        "rate": 0.6666666666666666,
+        "selected": 9,
+        "wins": 6
+      },
+      "U": {
+        "decided": 79,
+        "losses": 42,
+        "rate": 0.46835443037974683,
+        "selected": 79,
+        "wins": 37
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 45,
+        "rate": 0.48863636363636365,
+        "selected": 88,
+        "wins": 43
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "O": {
+        "decided": 15,
+        "losses": 4,
+        "rate": 0.7333333333333333,
+        "selected": 15,
+        "wins": 11
+      },
+      "U": {
+        "decided": 73,
+        "losses": 37,
+        "rate": 0.4931506849315068,
+        "selected": 73,
+        "wins": 36
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 41,
+        "rate": 0.5340909090909091,
+        "selected": 88,
+        "wins": 47
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "O": {
+        "decided": 15,
+        "losses": 4,
+        "rate": 0.7333333333333333,
+        "selected": 15,
+        "wins": 11
+      },
+      "U": {
+        "decided": 73,
+        "losses": 37,
+        "rate": 0.4931506849315068,
+        "selected": 73,
+        "wins": 36
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 41,
+        "rate": 0.5340909090909091,
+        "selected": 88,
+        "wins": 47
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "O": {
+        "decided": 12,
+        "losses": 6,
+        "rate": 0.5,
+        "selected": 12,
+        "wins": 6
+      },
+      "U": {
+        "decided": 76,
+        "losses": 42,
+        "rate": 0.4473684210526316,
+        "selected": 76,
+        "wins": 34
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 48,
+        "rate": 0.45454545454545453,
+        "selected": 88,
+        "wins": 40
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "O": {
+        "decided": 16,
+        "losses": 8,
+        "rate": 0.5,
+        "selected": 16,
+        "wins": 8
+      },
+      "U": {
+        "decided": 72,
+        "losses": 40,
+        "rate": 0.4444444444444444,
+        "selected": 72,
+        "wins": 32
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 48,
+        "rate": 0.45454545454545453,
+        "selected": 88,
+        "wins": 40
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "O": {
+        "decided": 16,
+        "losses": 8,
+        "rate": 0.5,
+        "selected": 16,
+        "wins": 8
+      },
+      "U": {
+        "decided": 72,
+        "losses": 40,
+        "rate": 0.4444444444444444,
+        "selected": 72,
+        "wins": 32
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 48,
+        "rate": 0.45454545454545453,
+        "selected": 88,
+        "wins": 40
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "O": {
+        "decided": 15,
+        "losses": 4,
+        "rate": 0.7333333333333333,
+        "selected": 15,
+        "wins": 11
+      },
+      "U": {
+        "decided": 73,
+        "losses": 37,
+        "rate": 0.4931506849315068,
+        "selected": 73,
+        "wins": 36
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 41,
+        "rate": 0.5340909090909091,
+        "selected": 88,
+        "wins": 47
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "O": {
+        "decided": 18,
+        "losses": 7,
+        "rate": 0.6111111111111112,
+        "selected": 18,
+        "wins": 11
+      },
+      "U": {
+        "decided": 70,
+        "losses": 37,
+        "rate": 0.4714285714285714,
+        "selected": 70,
+        "wins": 33
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 44,
+        "rate": 0.5,
+        "selected": 88,
+        "wins": 44
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "O": {
+        "decided": 18,
+        "losses": 7,
+        "rate": 0.6111111111111112,
+        "selected": 18,
+        "wins": 11
+      },
+      "U": {
+        "decided": 70,
+        "losses": 37,
+        "rate": 0.4714285714285714,
+        "selected": 70,
+        "wins": 33
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 44,
+        "rate": 0.5,
+        "selected": 88,
+        "wins": 44
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "O": {
+        "decided": 11,
+        "losses": 5,
+        "rate": 0.5454545454545454,
+        "selected": 11,
+        "wins": 6
+      },
+      "U": {
+        "decided": 77,
+        "losses": 42,
+        "rate": 0.45454545454545453,
+        "selected": 77,
+        "wins": 35
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 47,
+        "rate": 0.4659090909090909,
+        "selected": 88,
+        "wins": 41
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "O": {
+        "decided": 20,
+        "losses": 8,
+        "rate": 0.6,
+        "selected": 20,
+        "wins": 12
+      },
+      "U": {
+        "decided": 68,
+        "losses": 36,
+        "rate": 0.47058823529411764,
+        "selected": 68,
+        "wins": 32
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 44,
+        "rate": 0.5,
+        "selected": 88,
+        "wins": 44
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "O": {
+        "decided": 20,
+        "losses": 8,
+        "rate": 0.6,
+        "selected": 20,
+        "wins": 12
+      },
+      "U": {
+        "decided": 68,
+        "losses": 36,
+        "rate": 0.47058823529411764,
+        "selected": 68,
+        "wins": 32
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 44,
+        "rate": 0.5,
+        "selected": 88,
+        "wins": 44
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "O": {
+        "decided": 193,
+        "losses": 84,
+        "rate": 0.5647668393782384,
+        "selected": 200,
+        "wins": 109
+      },
+      "U": {
+        "decided": 219,
+        "losses": 92,
+        "rate": 0.5799086757990868,
+        "selected": 221,
+        "wins": 127
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 176,
+        "rate": 0.5728155339805825,
+        "selected": 421,
+        "wins": 236
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "O": {
+        "decided": 135,
+        "losses": 57,
+        "rate": 0.5777777777777777,
+        "selected": 139,
+        "wins": 78
+      },
+      "U": {
+        "decided": 277,
+        "losses": 123,
+        "rate": 0.555956678700361,
+        "selected": 282,
+        "wins": 154
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 180,
+        "rate": 0.5631067961165048,
+        "selected": 421,
+        "wins": 232
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "O": {
+        "decided": 198,
+        "losses": 92,
+        "rate": 0.5353535353535354,
+        "selected": 205,
+        "wins": 106
+      },
+      "U": {
+        "decided": 214,
+        "losses": 95,
+        "rate": 0.5560747663551402,
+        "selected": 216,
+        "wins": 119
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 187,
+        "rate": 0.5461165048543689,
+        "selected": 421,
+        "wins": 225
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "O": {
+        "decided": 128,
+        "losses": 52,
+        "rate": 0.59375,
+        "selected": 132,
+        "wins": 76
+      },
+      "U": {
+        "decided": 284,
+        "losses": 125,
+        "rate": 0.5598591549295775,
+        "selected": 289,
+        "wins": 159
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 177,
+        "rate": 0.5703883495145631,
+        "selected": 421,
+        "wins": 235
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "O": {
+        "decided": 201,
+        "losses": 98,
+        "rate": 0.5124378109452736,
+        "selected": 208,
+        "wins": 103
+      },
+      "U": {
+        "decided": 211,
+        "losses": 98,
+        "rate": 0.5355450236966824,
+        "selected": 213,
+        "wins": 113
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 196,
+        "rate": 0.5242718446601942,
+        "selected": 421,
+        "wins": 216
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "O": {
+        "decided": 127,
+        "losses": 53,
+        "rate": 0.5826771653543307,
+        "selected": 132,
+        "wins": 74
+      },
+      "U": {
+        "decided": 285,
+        "losses": 127,
+        "rate": 0.5543859649122806,
+        "selected": 289,
+        "wins": 158
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 180,
+        "rate": 0.5631067961165048,
+        "selected": 421,
+        "wins": 232
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "O": {
+        "decided": 206,
+        "losses": 100,
+        "rate": 0.5145631067961165,
+        "selected": 213,
+        "wins": 106
+      },
+      "U": {
+        "decided": 206,
+        "losses": 95,
+        "rate": 0.5388349514563107,
+        "selected": 208,
+        "wins": 111
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 195,
+        "rate": 0.5266990291262136,
+        "selected": 421,
+        "wins": 217
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "O": {
+        "decided": 123,
+        "losses": 50,
+        "rate": 0.5934959349593496,
+        "selected": 128,
+        "wins": 73
+      },
+      "U": {
+        "decided": 289,
+        "losses": 128,
+        "rate": 0.5570934256055363,
+        "selected": 293,
+        "wins": 161
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 178,
+        "rate": 0.5679611650485437,
+        "selected": 421,
+        "wins": 234
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    }
+  ],
+  "controls": [
+    {
+      "category": "pass_cmp",
+      "candidate_id": "A::CATBOOST_MEDIUM::mean_objective_point",
+      "O": {
+        "decided": 38,
+        "losses": 13,
+        "rate": 0.6578947368421053,
+        "selected": 38,
+        "wins": 25
+      },
+      "U": {
+        "decided": 50,
+        "losses": 23,
+        "rate": 0.54,
+        "selected": 50,
+        "wins": 27
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 36,
+        "rate": 0.5909090909090909,
+        "selected": 88,
+        "wins": 52
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_id": "A::HGB_MAE_DIRECT::mae_objective_point",
+      "O": {
+        "decided": 40,
+        "losses": 14,
+        "rate": 0.65,
+        "selected": 40,
+        "wins": 26
+      },
+      "U": {
+        "decided": 48,
+        "losses": 22,
+        "rate": 0.5416666666666666,
+        "selected": 48,
+        "wins": 26
+      },
+      "combined": {
+        "decided": 88,
+        "losses": 36,
+        "rate": 0.5909090909090909,
+        "selected": 88,
+        "wins": 52
+      },
+      "eligible": 88,
+      "games": 51,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    },
+    {
+      "category": "rec",
+      "candidate_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "O": {
+        "decided": 128,
+        "losses": 50,
+        "rate": 0.609375,
+        "selected": 133,
+        "wins": 78
+      },
+      "U": {
+        "decided": 284,
+        "losses": 123,
+        "rate": 0.5669014084507042,
+        "selected": 288,
+        "wins": 161
+      },
+      "combined": {
+        "decided": 412,
+        "losses": 173,
+        "rate": 0.5800970873786407,
+        "selected": 421,
+        "wins": 239
+      },
+      "eligible": 469,
+      "games": 53,
+      "evidence": "CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ACTUAL_LINES_QUOTE_AND_DECISION_TIMING_UNVERIFIED_EXPOSED_DEVELOPMENT"
+    }
+  ],
+  "contrasts": [
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "win_change": -3,
+      "decided": 88,
+      "percentage_point_change": -3.409090909090909,
+      "disagreements": 11
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "win_change": -7,
+      "decided": 88,
+      "percentage_point_change": -7.954545454545454,
+      "disagreements": 9
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "win_change": -7,
+      "decided": 88,
+      "percentage_point_change": -7.954545454545454,
+      "disagreements": 9
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "win_change": 4,
+      "decided": 88,
+      "percentage_point_change": 4.545454545454546,
+      "disagreements": 10
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "win_change": -3,
+      "decided": 88,
+      "percentage_point_change": -3.409090909090909,
+      "disagreements": 11
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "win_change": -3,
+      "decided": 88,
+      "percentage_point_change": -3.409090909090909,
+      "disagreements": 11
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "win_change": -6,
+      "decided": 88,
+      "percentage_point_change": -6.818181818181818,
+      "disagreements": 10
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "win_change": 0,
+      "decided": 88,
+      "percentage_point_change": 0.0,
+      "disagreements": 12
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "win_change": 0,
+      "decided": 88,
+      "percentage_point_change": 0.0,
+      "disagreements": 12
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "win_change": 1,
+      "decided": 88,
+      "percentage_point_change": 1.1363636363636365,
+      "disagreements": 9
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "win_change": 4,
+      "decided": 88,
+      "percentage_point_change": 4.545454545454546,
+      "disagreements": 10
+    },
+    {
+      "left": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "right": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "win_change": 4,
+      "decided": 88,
+      "percentage_point_change": 4.545454545454546,
+      "disagreements": 10
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "win_change": -11,
+      "decided": 412,
+      "percentage_point_change": -2.6699029126213594,
+      "disagreements": 13
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "win_change": 3,
+      "decided": 412,
+      "percentage_point_change": 0.7281553398058253,
+      "disagreements": 15
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "win_change": -20,
+      "decided": 412,
+      "percentage_point_change": -4.854368932038835,
+      "disagreements": 50
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "win_change": 0,
+      "decided": 412,
+      "percentage_point_change": 0.0,
+      "disagreements": 36
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "win_change": 1,
+      "decided": 412,
+      "percentage_point_change": 0.24271844660194175,
+      "disagreements": 17
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "win_change": 2,
+      "decided": 412,
+      "percentage_point_change": 0.4854368932038835,
+      "disagreements": 18
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "win_change": -8,
+      "decided": 412,
+      "percentage_point_change": -1.941747572815534,
+      "disagreements": 48
+    },
+    {
+      "left": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "right": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "win_change": -1,
+      "decided": 412,
+      "percentage_point_change": -0.24271844660194175,
+      "disagreements": 41
+    }
+  ],
+  "B_F0_median_vs_F2_mean": "SAME_OBSERVED_TOTAL_NOT_SAME_PROCEDURE",
+  "B_P2_vs_median": "Direction counts equal on this panel; laws/probability and point product identities remain separate.",
+  "C_F2_F3_fallback_or_imputation_flags": "UNKNOWN_NOT_EXPORTED;NULL_NOT_ZERO",
+  "duration": "Five scored2026W1-W5 actual-offer weeks at quote/decision-time-unverified retrospective tier only.",
+  "W5_overlap": "UNKNOWN_PRIVATE_NORMALIZED_MEMBERSHIP_NOT_EXPORTED;DO_NOT_ADD_A88_AND_B112",
+  "confidence_intervals": "Arithmetic/bounds and reported cluster counts checked; private per-game/week vectors not received, so bootstrap intervals remain OWNER_REPORTED_NOT_INDEPENDENTLY_RECONSTRUCTED.",
+  "private_limits": [
+    "No private offer/forecast/label membership independently read.",
+    "No historical source clocks or underlying fitted model parity established.",
+    "No future packet/consumer admission or release verified by this calculation."
+  ],
+  "new_fits": 0,
+  "GETs": 0,
+  "new_NFL_observations": 0,
+  "CPU_seconds": 0.0017408699999999985,
+  "peak_RSS_bytes": 10616832
+}

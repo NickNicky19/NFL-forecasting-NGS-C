@@ -1,0 +1,28 @@
+{
+  "id": "C-CATEGORY-COORDINATOR-REVIEW-v1",
+  "reviewed_UTC": "2026-11-12T01:59:19.701383+00:00",
+  "decisions": {
+    "pass_yd": "KEEP_INCUMBENT",
+    "pass_td": "BLOCKED",
+    "pass_cmp": "SHADOW",
+    "pass_att": "KEEP_INCUMBENT",
+    "pass_int": "SHADOW",
+    "rush_yd": "KEEP_INCUMBENT",
+    "rush_att": "SHADOW",
+    "rec": "SHADOW",
+    "rec_yd": "KEEP_INCUMBENT",
+    "rush_rec_yd": "KEEP_INCUMBENT",
+    "anytime_td": "ABSTAIN",
+    "nick-chart-ppr-v1": "ABSTAIN"
+  },
+  "interpretation": "Decision table is retrospective review plus current operational disposition; no new learned selector/router or primary switch. Scientific support and provisional admission remain separate. Existing incumbent absence of matched labels is not a universal veto.",
+  "edits_to_mechanical_draft": [
+    "Canonical preparation and assignment/source bindings",
+    "Null ownrecords for no matching offer",
+    "Explicit operational scope and preserved rawleaders",
+    "Keep incumbent attempts rather than label losing rawleader preferred",
+    "Named CountA executor/branch/workflow and EPA scope",
+    "Current C source/model parity pending explicit",
+    "Independent numerical/prob/ranking product decisions"
+  ]
+}

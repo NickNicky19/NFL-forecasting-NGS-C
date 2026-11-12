@@ -1,0 +1,39 @@
+{
+  "id": "C06-FROZEN-PREEXECUTION-CHECKPOINT-v1",
+  "frozen_UTC": "2026-11-12T02:10:36.608172+00:00",
+  "paths": {
+    "src/current_query_delivery_c06.py": "65d9823f42e6d1edb4b4ea9e884cc0f3052349cf09c1809e202c2516bbf5322b",
+    "src/prospective_v4.py": "304cbd7a9b646d443d158ef732cc6535b186f3cf57e58e3f209741ef442d565e",
+    "src/site_forward_v4.py": "d5fe7f1f17d57cf728cf2b53f8a3a1f3faa820a8e34fad20447b96fd5524eae6",
+    "tests/test_current_query_delivery_c06.py": "14d6024f65e6e9e2efbba9f07dcee8e4719b84f6d02df7d04896de4a3e336bd8",
+    "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb",
+    "reports/category-decision-release-01/current/P1_CURRENT_REUSE_ASSESSMENT.json": "5c6c806bf524469e4d614a41ecf2c6aba4b9af76ca47ae3c1e9dcf185a2b71a8"
+  },
+  "software_fixtures": 12,
+  "software_status": "PASS",
+  "new_source_body_requests_consumed": 5,
+  "new_current_fits": 0,
+  "new_NFL_inference_rows": 0,
+  "new_issues": 0,
+  "final_native_request": "DEFERRED_ROOT_GATE",
+  "cache_assessment": "EXACT_RETAINED_FIT_AND_VECTOR_REUSE_PROVED",
+  "unchanged_relevant_fact_rows": 8420,
+  "unchanged_relevant_PBP_rows": 15136,
+  "current_query_players": 25,
+  "WR_TE_point_candidate_role": 18,
+  "RB_forecast_shadow": 7,
+  "historical_candidate_attribution": "Retained current P1 uses same60-fieldE2, pooled_fit partialFalse, training-onlyimputation/scale, alpha.1 andstrict7dreconstruction; exact current roster and contemporaneous source/finality horizon remain operational SHADOW, not automatic historical point/probability/ranker admission. Independent reviewer owns final scoped equivalence verdict.",
+  "model_fit": {
+    "iterations": 82,
+    "converged": true,
+    "alpha": 0.1
+  },
+  "executed_body_source_CPU_seconds": 5.353179829,
+  "preserved_failures": [
+    "INITIAL_SOCKET_FAILURE_LEDGER.json.xz",
+    "PREPARE_FAILURE_01.json",
+    "PREPARE_FAILURE_02.json",
+    "PREPARE_FAILURE_03.json"
+  ],
+  "scope": "Current producer implementation and explicit source/version parity, no predictive-gain or primary deployment claim."
+}

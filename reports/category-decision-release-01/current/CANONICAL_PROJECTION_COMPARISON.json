@@ -1,0 +1,294 @@
+{
+  "id": "C06-CURRENT-CANONICAL-PROJECTION-COMPARISON-v1",
+  "created_UTC": "2026-11-12T01:43:52.566957+00:00",
+  "comparisons": [
+    {
+      "old": {
+        "path": "sources/profile-closure-next-02/current_facts_2026.csv.gz",
+        "bytes": 161447,
+        "SHA256": "350ecd653332dde323e67097459cdd7662ec729aba977a1ea3f92c57bf1e346a"
+      },
+      "new": {
+        "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+        "bytes": 161446,
+        "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21"
+      },
+      "old_rows": 9455,
+      "new_rows": 9455,
+      "same_columns": true,
+      "same_shape": true,
+      "canonical_frame_equal": false,
+      "byte_equal": false,
+      "old_dtypes": {
+        "player_id": "object",
+        "player_display_name": "object",
+        "position": "object",
+        "season": "int64",
+        "week": "int64",
+        "season_type": "object",
+        "game_id": "object",
+        "team": "object",
+        "opponent_team": "object",
+        "attempts": "int64",
+        "carries": "int64",
+        "targets": "int64",
+        "receptions": "int64",
+        "sacks_suffered": "int64",
+        "passing_tds": "int64",
+        "rushing_tds": "int64",
+        "receiving_tds": "int64",
+        "passing_2pt_conversions": "int64",
+        "rushing_2pt_conversions": "int64",
+        "receiving_2pt_conversions": "int64",
+        "kickoff_returns": "int64",
+        "punt_returns": "int64",
+        "special_teams_tds": "int64",
+        "passing_interceptions": "int64",
+        "rushing_yards": "int64",
+        "passing_yards": "int64",
+        "receiving_yards": "int64",
+        "fumbles_lost_total": "int64",
+        "fumble_recovery_tds": "int64",
+        "completions": "int64"
+      },
+      "new_dtypes": {
+        "player_id": "object",
+        "player_display_name": "object",
+        "position": "object",
+        "season": "int64",
+        "week": "int64",
+        "season_type": "object",
+        "game_id": "object",
+        "team": "object",
+        "opponent_team": "object",
+        "attempts": "int64",
+        "carries": "int64",
+        "targets": "int64",
+        "receptions": "int64",
+        "sacks_suffered": "int64",
+        "passing_tds": "int64",
+        "rushing_tds": "int64",
+        "receiving_tds": "int64",
+        "passing_2pt_conversions": "int64",
+        "rushing_2pt_conversions": "int64",
+        "receiving_2pt_conversions": "int64",
+        "kickoff_returns": "int64",
+        "punt_returns": "int64",
+        "special_teams_tds": "int64",
+        "passing_interceptions": "int64",
+        "rushing_yards": "int64",
+        "passing_yards": "int64",
+        "receiving_yards": "int64",
+        "fumbles_lost_total": "int64",
+        "fumble_recovery_tds": "int64",
+        "completions": "int64"
+      },
+      "changed_cell_examples": [
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "player_id": "00-0039910"
+          },
+          "field": "passing_yards",
+          "old": 273,
+          "new": 274
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "player_id": "00-0037809"
+          },
+          "field": "receiving_yards",
+          "old": 56,
+          "new": 57
+        }
+      ]
+    },
+    {
+      "old": {
+        "path": "sources/profile-closure-next-02/pbp_facts_2026.csv.xz",
+        "bytes": 242672,
+        "SHA256": "ec6cf4186d2da567b28b06cdc791bbd04c8ea17ffc4cd5cd12640e51a4e1bad2"
+      },
+      "new": {
+        "path": "sources/category-decision-release-01/pbp_facts_2026.csv.xz",
+        "bytes": 242652,
+        "SHA256": "d9f13c0c1d298492087eff7d8963394f2db2944eb445a51f33b92ef9fac013d3"
+      },
+      "old_rows": 16993,
+      "new_rows": 16993,
+      "same_columns": true,
+      "same_shape": true,
+      "canonical_frame_equal": false,
+      "byte_equal": false,
+      "old_dtypes": {
+        "game_id": "object",
+        "play_id": "int64",
+        "season": "int64",
+        "season_type": "object",
+        "week": "int64",
+        "game_date": "object",
+        "posteam": "object",
+        "defteam": "object",
+        "down": "float64",
+        "ydstogo": "int64",
+        "yardline_100": "int64",
+        "qtr": "int64",
+        "game_seconds_remaining": "int64",
+        "score_differential": "int64",
+        "play_type": "object",
+        "pass_attempt": "int64",
+        "rush_attempt": "int64",
+        "sack": "int64",
+        "qb_dropback": "int64",
+        "qb_scramble": "int64",
+        "qb_kneel": "int64",
+        "qb_spike": "int64",
+        "two_point_attempt": "int64",
+        "play_deleted": "int64",
+        "penalty": "int64",
+        "pass_location": "object",
+        "air_yards": "float64",
+        "complete_pass": "int64",
+        "incomplete_pass": "int64",
+        "interception": "int64",
+        "receiver_player_id": "object",
+        "passer_player_id": "object",
+        "rusher_player_id": "object",
+        "receiving_yards": "float64",
+        "passing_yards": "float64",
+        "rushing_yards": "float64",
+        "yards_after_catch": "float64",
+        "run_location": "object",
+        "run_gap": "object",
+        "first_down_pass": "int64",
+        "first_down_rush": "int64",
+        "pass_touchdown": "int64",
+        "rush_touchdown": "int64"
+      },
+      "new_dtypes": {
+        "game_id": "object",
+        "play_id": "int64",
+        "season": "int64",
+        "season_type": "object",
+        "week": "int64",
+        "game_date": "object",
+        "posteam": "object",
+        "defteam": "object",
+        "down": "float64",
+        "ydstogo": "int64",
+        "yardline_100": "int64",
+        "qtr": "int64",
+        "game_seconds_remaining": "int64",
+        "score_differential": "int64",
+        "play_type": "object",
+        "pass_attempt": "int64",
+        "rush_attempt": "int64",
+        "sack": "int64",
+        "qb_dropback": "int64",
+        "qb_scramble": "int64",
+        "qb_kneel": "int64",
+        "qb_spike": "int64",
+        "two_point_attempt": "int64",
+        "play_deleted": "int64",
+        "penalty": "int64",
+        "pass_location": "object",
+        "air_yards": "float64",
+        "complete_pass": "int64",
+        "incomplete_pass": "int64",
+        "interception": "int64",
+        "receiver_player_id": "object",
+        "passer_player_id": "object",
+        "rusher_player_id": "object",
+        "receiving_yards": "float64",
+        "passing_yards": "float64",
+        "rushing_yards": "float64",
+        "yards_after_catch": "float64",
+        "run_location": "object",
+        "run_gap": "object",
+        "first_down_pass": "int64",
+        "first_down_rush": "int64",
+        "pass_touchdown": "int64",
+        "rush_touchdown": "int64"
+      },
+      "changed_cell_examples": [
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4645
+          },
+          "field": "pass_location",
+          "old": "right",
+          "new": "middle"
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4558
+          },
+          "field": "air_yards",
+          "old": 12.0,
+          "new": 11.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4583
+          },
+          "field": "air_yards",
+          "old": 0.0,
+          "new": -1.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4615
+          },
+          "field": "air_yards",
+          "old": 29.0,
+          "new": 28.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4645
+          },
+          "field": "receiving_yards",
+          "old": 15.0,
+          "new": 16.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4645
+          },
+          "field": "passing_yards",
+          "old": 15.0,
+          "new": 16.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4558
+          },
+          "field": "yards_after_catch",
+          "old": 0.0,
+          "new": 1.0
+        },
+        {
+          "identity": {
+            "game_id": "2026_09_LA_WAS",
+            "play_id": 4645
+          },
+          "field": "yards_after_catch",
+          "old": 11.0,
+          "new": 12.0
+        }
+      ]
+    }
+  ],
+  "all_canonical_projections_equal": false,
+  "new_fits": 0,
+  "new_inference": 0,
+  "source_version_change_is_not_automatically_feature_change": true
+}

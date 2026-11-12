@@ -1,0 +1,145 @@
+{
+  "id": "CATEGORY-OPERATIONAL-METADATA-ADMISSION-v1",
+  "recorded_UTC": "2026-11-12T01:49:15.184443+00:00",
+  "A_asof_UTC": "2026-11-10T23:01:47+00:00",
+  "A_state": "Exactpublicreceiptbytebindingsverified;notfreshproducerexecutionconfirmation",
+  "registered_producer": {
+    "A_main": "f37279a093fcdddece1e369d42ce54349cb1913c",
+    "registered_producer_branch": "research/weekly-storage-probe-v1",
+    "registered_producer_head": "fa91988e65939d2b3516371a90a6380aeee3acb3",
+    "lab_state_ref": "275aa84b27c4239d3b2dfea07755734d9db0ac7c",
+    "current_W10_route": "state/public/weekly-adaptive-v1/2026-W10",
+    "current_W10_route_readback": "404 at exact lab-state ref; route absence does not prove model package absence.",
+    "last_checked_registered_lab_workflow_run": {
+      "id": 41564933010,
+      "created_utc": "2026-11-03T02:15:08+00:00",
+      "conclusion": "success",
+      "scope": "Latest3 runs returned for lab.yml and exact registered branch; no current attempt in this checked route, not proof all workflows absent."
+    },
+    "product": "pass_td__COUNT_A_MEAN",
+    "procedure": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "first_dependency": "Existing A registered producer executor supplies current authenticated SOURCE.json, source/query completion and feature_capture_receipt; bind PR85+PR87 repaired producer in a real current issued native Root, final serializedRoot<=61440bytes including issuance fields. Do not repeat completed owner-local model restoration.",
+    "typed_output": "Corrected FORECASTS.parquet.point is mean; legacy_point is mixed fallback; mean field NaN. Apply exact corrector once; no bare-predict substitution.",
+    "website_owner_lease": {
+      "owner": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+      "lease": 178,
+      "latest_checked_receipt_comment": 6776238418,
+      "created_utc": "2026-11-10T18:50:30+00:00",
+      "scope": "Read-only refreshed receipt; preserve newer owner changes if superseded.",
+      "comment_body_sha256": "ab9c449a2dbaea8c93d17f5a0755c4de2690b8a21ef2175b1574b22a62bab1d9"
+    },
+    "after_producer_action": "Publish permitted derived bytes through existing route; original-site owner admits/consumes and verifies intended output, fallback, expiry and saved-selector isolation. A research shadow cannot substitute for this receipt.",
+    "failure_interpretation": "Do not describe old cadence/static legacy guards as current private-durability failure. Latest current first dependency is source/issuedRoot closure, not unproved storage failure."
+  },
+  "executor_resolution": {
+    "next_executor": "Codex A retained registered producer executor;retain established lease",
+    "registered_branch": "research/weekly-storage-probe-v1",
+    "workflow": "lab.yml",
+    "unique_producer_execution_leaseholder": "UNKNOWN_NOT_IDENTIFIED_IN_PUBLIC_RECEIPT",
+    "consumer_executor": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+    "consumer_lease": 178,
+    "specific_next_action": "Codex A verifies current authorized branch/workflow holder; supplies authenticated current SOURCE/query/feature_capture_receipt and repaired real issuedRoot<=61440bytes including issuance fields, then permitted derived feed. C does not dispatch or take lease.",
+    "old_run_scope": "41564933010 recorded asofNov10, not current runtime verification unless refreshed separately.",
+    "runtime_currentness": "FreshNov12 exactregisteredbranch/workflow latest-runmetadata; lateststillNov3 a2ab7d4; no newrunthere shown. Doesnotinspectotherworkflows or activebranchHEAD/sourcepayload.",
+    "runtime_receipt": "PRODUCER_CURRENT_RUNTIME.json"
+  },
+  "CountA_minimum_contract": {
+    "product": "pass_td__COUNT_A_MEAN",
+    "procedure": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "mean_field": "Corrected FORECASTS.parquet.point",
+    "do_not_substitute": [
+      "legacy_point mixed fallback",
+      "NaN mean",
+      "median",
+      "barepredict without exact corrector"
+    ],
+    "first_dependencies": [
+      "current authenticated SOURCE.json",
+      "source/query completion",
+      "feature_capture_receipt",
+      "PR85+PR87 repaired native issuedRoot<=61440serializedB including issuance fields",
+      "permitted derived feed publication and consumer receipt"
+    ],
+    "F3_EPA_requirement_transfers_to_CountA_or_C_P1": false
+  },
+  "A_rushing_source_scope": {
+    "applies_to": "A F0/F3 fresh rolling-history shadow, not all current models",
+    "current_candidate_RBs": 7,
+    "dense_census_gap": "Historical observation-bound weekly roster/presence/participation slots for missingW8/admissibleW9;no sparse-drop/unknown-as-zero substitution",
+    "F3_EPA_gap": "CurrentCprojectedPBP omits actual epa consumedbyA F3;first_down_rush isnotEPA-success; reuseapprovedupstreamprojectionifpossible",
+    "finality_gap": "13W9gamesheldincludingtargetteams; preserveholds",
+    "availability_gap": "Real observations/version-boundeligiblegame map, no backdating unknown clocks",
+    "source_receipt_currentness": "As ofNov10;doesnotprove currentabsenceelsewhere"
+  },
+  "B_packet": {
+    "source_ref": "b046aab1877e5fb0412864d215a40df1c722a2df",
+    "member": "reports/profile-timing-closure-confirm-01/B/forward-current-v1/FORECASTS_METADATA_V2.json",
+    "SHA256": "a77ead99bc663b442f07cc55fa8b7554cddd9cd49ed01ded7f4c80da7ceae78c",
+    "actual_metadata_readback": "PASS_EXACT_BYTES_AND_GIT_BLOB",
+    "rows": 16,
+    "actual_forecasts": 10,
+    "unavailable_method_rows": 6,
+    "unique_forecast_players": 5,
+    "arms": [
+      "F0",
+      "F2"
+    ],
+    "issue_UTC": "2026-11-10T23:01:29.145519+00:00",
+    "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "native_observed_UTC": "2026-11-10T23:00:18.061858+00:00",
+    "native_expiry_UTC": "2026-11-10T23:30:18+00:00",
+    "native_receipt_expired_now": true,
+    "expiry_action": "Stop new current-use/issuance/repricing;preserve immutable original forlatergrading",
+    "offers": 0,
+    "actual_line_selections": 0,
+    "model_or_original_packet_reinferred_by_C": false,
+    "original_to_V2_parity": "A and B reported comparison; C readsV2actualmember only and doesnotclaim independentoriginalmodelinference",
+    "GitHub_persistence": "Owner-reported in actualA/Breceipts; originalGithubreadbackNov10T23:03:10.984485Z. C nowindependentlyreadsmetadata memberbytes, not serverworkflow or all modelbytes.",
+    "source_information": "Four W9QBrowsfromtwoFINALgames;34recentQBrows/13gamesheld. Conditionalappearance ACT isnotstarter/healthprobability.",
+    "consumer": "NOT_DELIVERED_OR_ADMITTED peractualmetadata; noCactivationclaim",
+    "scientific_qualification_from_this_capture": false,
+    "independent_metadata_calculation": "independent/OPERATIONAL_METADATA_REVIEW.json",
+    "independent_model_fit_or_reinference": false,
+    "law_check_scope": "Saved JSON leaf+geometric laws normalize and reproduce declaredmeans/lowermedians by separate stdlib calculation;not model inference, calibration or future accuracy."
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_observations": 0,
+  "original_intake_changed": false,
+  "producer_current_runtime": {
+    "id": "CATEGORY-REGISTERED-PRODUCER-RUNTIME-READ-v1",
+    "requested_UTC": "2026-11-12T01:49:50.063159+00:00",
+    "repository": "NickNicky19/NFL-forecasting",
+    "workflow": "lab.yml",
+    "branch": "research/weekly-storage-probe-v1",
+    "endpoint": "repos/NickNicky19/NFL-forecasting/actions/workflows/lab.yml/runs?branch=research%2Fweekly-storage-probe-v1&per_page=1",
+    "max_body_bytes": 65536,
+    "state": "RECEIVED_CURRENT_SCOPED_METADATA",
+    "dispatch_or_write": false,
+    "observed_UTC": "2026-11-12T01:49:50.619884+00:00",
+    "response_bytes": 12998,
+    "response_SHA256": "6d2355a7f1b6e2121e334ca7d80b80d294b92699d9a008d66856ab67031897ed",
+    "returncode": 0,
+    "total_matching_runs": 79,
+    "latest_runs": [
+      {
+        "id": 41564933010,
+        "name": "NFL research lab",
+        "event": "workflow_dispatch",
+        "status": "completed",
+        "conclusion": "success",
+        "head_branch": "research/weekly-storage-probe-v1",
+        "head_sha": "a2ab7d4eeb01b1af7f76af4b8090404b4f096f50",
+        "path": ".github/workflows/lab.yml",
+        "created_at": "2026-11-03T02:15:08Z",
+        "run_started_at": "2026-11-03T02:15:08Z",
+        "updated_at": "2026-11-03T02:15:59Z",
+        "html_url": "https://github.com/NickNicky19/NFL-forecasting/actions/runs/41564933010",
+        "workflow_id": 392888807,
+        "run_number": 141,
+        "run_attempt": 1
+      }
+    ],
+    "scope": "Fresh read of latest run for this exact registered branch/workflow only; no execution, model/source payload, SOURCE/query/issuedRoot or other workflow absence proved."
+  }
+}

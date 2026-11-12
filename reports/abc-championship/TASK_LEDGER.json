@@ -431,8 +431,8 @@
     "task_id": "A_C04_TYPED_RECEPTION_LONGER_BOARD",
     "owner": "A",
     "verification_owner": "B",
-    "state": "F0_F1_POINT_BASELINES_REUSED_WITH_EXACT_PROOF;NEW_F2_F3_AJOIN_AWAITED",
-    "artifact": "reports/profile-closure-next-02/timing/POINT_HANDOFF_MANIFEST.json",
+    "state": "COMPLETE_A_OWNER_LOCAL;C_RECEIVED_VALIDATED_PUBLIC_ARITHMETIC_ADMISSION",
+    "artifact": "reports/category-decision-release-01/intake/ADMISSION.json",
     "typed_export": {
       "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF.json.xz",
       "SHA256": "4fd67d7915f9da3df9bec152155e809eb34d60f89d3ea751e26da9eb0a5c8abc"
@@ -441,11 +441,14 @@
       "path": "reports/profile-closure-next-02/timing/POINT_HANDOFF_READBACK.json",
       "SHA256": "a477c3d4f95ca265689622617712dfa1c2299f802c61635e86589383e9263889"
     },
-    "next_action": "A joins exact C04F2/F3 savedpoints; reuseF0/F1sourceC03R1/R2withoutrefit; no probability inference.",
+    "next_action": "No duplicate scoring. Retain source-specificW1-W5 results, supplied intervals andprivateverification limits; B/A W5normalizedmembership remains separate.",
     "board": "Annual469eligible/412decidedwherecompatible;W6-W7diagnosticseparate",
     "recorded_UTC": "2026-11-10T20:06:06.026708+00:00",
     "pre_C05_state": "POINT_EXPORT_PREPARED_OWNER_LOCAL_READBACK_VERIFIED;A_RECEIPT_NOT_VERIFIED",
-    "binding": "reports/profile-timing-closure-confirm-01/verification/BASELINE_ALIAS_REUSE.json"
+    "binding": "reports/profile-timing-closure-confirm-01/verification/BASELINE_ALIAS_REUSE.json",
+    "pre_category_release_state": "F0_F1_POINT_BASELINES_REUSED_WITH_EXACT_PROOF;NEW_F2_F3_AJOIN_AWAITED",
+    "completion_ref": "A_d7c8bc619eb7aed93df8259822eb08488d837005",
+    "updated_UTC": "2026-11-12T02:16:49.809661+00:00"
   },
   {
     "task_id": "C04_C_RESEARCH_SERVED_CONSUMPTION",
@@ -463,10 +466,13 @@
     "owner": "A",
     "forecast_owner": "B",
     "verification_owner": "B",
-    "state": "SAVED_OUTPUTS_INDEXED;EXACT_NEW_TIMING_JOIN_RECEIPT_NOT_IN_RECEIVED_PACKAGE",
-    "artifact": "reports/profile-timing-closure-confirm-01/intake/EXACT_NEXT_ACTIONS.json",
-    "next_action": "A executes or publishes exact B timing F0-F3 join receipt on annual W1-W5 completion board; B independently checks permitted membership/arithmetic; reconcile W5 book/line/source/horizon. Do not repeat completed priorR0-R3.",
-    "pre_scope_correction_state": "SAVED_OUTPUTS_INDEXED_NEW_F0_F3_JOIN_NOT_EXECUTED"
+    "state": "COMPLETE_A_OWNER_LOCAL;C_RECEIVED_VALIDATED_PUBLIC_ARITHMETIC_ADMISSION",
+    "artifact": "reports/category-decision-release-01/intake/ADMISSION.json",
+    "next_action": "No duplicate scoring. Retain source-specificW1-W5 results, supplied intervals andprivateverification limits; B/A W5normalizedmembership remains separate.",
+    "pre_scope_correction_state": "SAVED_OUTPUTS_INDEXED_NEW_F0_F3_JOIN_NOT_EXECUTED",
+    "pre_category_release_state": "SAVED_OUTPUTS_INDEXED;EXACT_NEW_TIMING_JOIN_RECEIPT_NOT_IN_RECEIVED_PACKAGE",
+    "completion_ref": "A_d7c8bc619eb7aed93df8259822eb08488d837005",
+    "updated_UTC": "2026-11-12T02:16:49.809661+00:00"
   },
   {
     "task_id": "C05_NO_REFIT_FORWARD_PACKET",
@@ -494,5 +500,46 @@
     "state": "PENDING_FUTURE_KICKOFF;0NEWGRADES",
     "artifact": "reports/profile-timing-closure-confirm-01/GRADING_DISPOSITION.json",
     "next_action": "Afterqualifiedfinaloutcomesgradeimmutableoriginalsnapshotusingexistinggrader;unknownstatesretained"
+  },
+  {
+    "task_id": "C06_ALL_CATEGORY_PRODUCT_DECISIONS",
+    "owner": "C",
+    "state": "SCOPED_12_CATEGORY_DECISIONS_PREPARED;ORIGINAL_OWNER_ALONE_RELEASES",
+    "artifact": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+    "next_action": "Publish shared report/currentcoverage andactualconsumerbindings; preserveeligibleprovisionalpaths, no blindswitch or globalrawpercentagewinner."
+  },
+  {
+    "task_id": "A_ARCHIVED_SOURCE_WEEK_PROVENANCE",
+    "owner": "A",
+    "state": "OWNER_REPORTED_W1_W7_PRESERVED;EXACT_SOURCE_WEEK_BINDING_AWAITED",
+    "artifact": "A_FIXED_W1_W7_ARCHIVED_POINT_PANEL",
+    "next_action": "Classify actualbook/line/horizon/sourceweekrecords bycategory; do notblanketinvalidateseparateW6-W8panels."
+  },
+  {
+    "task_id": "A_COUNT_A_CURRENT_REGISTERED_PRODUCER",
+    "owner": "A",
+    "executor": "Codex A retained producer executor; verify its own current lease",
+    "registered_branch": "research/weekly-storage-probe-v1",
+    "workflow": "lab.yml",
+    "state": "CURRENT_REPAIRED_RUN_AND_DERIVED_FEED_NOT_VERIFIED",
+    "artifact": "reports/category-decision-release-01/operational-intake/PRODUCER_CURRENT_RUNTIME.json",
+    "next_action": "CurrentSOURCE/query/feature_capture and completecorrectedmean; issueRoot<=61440Bincludingissuancefields, publishreadablederivedfeed; originalowneradmitandserveverify. EPAisnotCountArequirement."
+  },
+  {
+    "task_id": "ORIGINAL_SITE_EXACT_TOP_REPLAY",
+    "owner": "Original website owner",
+    "executor": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z; lastreportedconsumerlease178",
+    "verification_owner": "B",
+    "state": "LAST_REPORTED_FOUR_W5_W8_BOARDS;FIFTH_COMPATIBLE_BOARD_AND_MAPPING_CLOCK_DEPENDENCY",
+    "artifact": "reports/category-decision-release-01/website/EXACT_OWNER_QUEUE.json",
+    "next_action": "Inspectretainedfifthboard/mappingtiming thenexecuteactualcompletepolicyfiveweeksorpreciseblockedreceipt; no Cduplicate replay."
+  },
+  {
+    "task_id": "C06_CURRENT_P1_SOURCE_QUALIFIED_PACKET",
+    "owner": "C",
+    "state": "25ROWS_SERVER_QUALIFIED_BEFORE_EXPIRY;RECOMMENDATION_USE_EXPIRED;C_LOCAL_CONSUMER_VERIFIED",
+    "artifact": "reports/category-decision-release-01/CURRENT_PUBLICATION_RECEIPT.json",
+    "new_fits": 0,
+    "next_action": "Publishretainedshadowwithhonestexpiry;latergradeoriginalpacketsafterqualifiedfinality. Anynewcurrentrecommendation/repricingrequiresfreshsource/nativeadmissionunderexistingowner;no primaryswitch."
   }
 ]

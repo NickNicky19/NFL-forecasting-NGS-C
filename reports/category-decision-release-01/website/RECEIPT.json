@@ -1,0 +1,58 @@
+{
+  "id": "CATEGORY-WEBSITE-READONLY-RECEIPT-v1",
+  "checked_UTC": "2026-11-12T01:35:29.387690+00:00",
+  "repository": "NickNicky19/nicks-expert-nfl-picks",
+  "current_head": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+  "starting_comment": {
+    "id": 6781537258,
+    "created_UTC": "2026-11-10T22:53:53Z",
+    "actual_received": true,
+    "newer_issue_comments_found": 0,
+    "scope": "This owner receipt still describes new A joins as pending; that text is superseded by the newly supplied/verified A exact join receipts, not a request to rerun them."
+  },
+  "owner_forecast_comparison": {
+    "identity": "NFL-WEB-C-FROZEN-FORECAST-COMPARISON-20261110-v2",
+    "owner": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+    "C_packet_rows": 75,
+    "C_players": 25,
+    "website_original_forecasts": 1610,
+    "matched_players": 10,
+    "matched_model_rows": 30,
+    "unmatched_players": 15,
+    "qualified_offers": 0,
+    "outcomes": 0,
+    "independent_verification": "Owner reports 4041 independent assertions. C received/reconciled the public receipt, not full private joins/models or a re-executed verification.",
+    "state": "ACKNOWLEDGED_OWNER_EXECUTED_FORECAST_ONLY_COMPARISON;NOT_PRIMARY_ADMISSION"
+  },
+  "current_source_policy_artifact": {
+    "path": "reports/weekly-consumer-v6/CURRENT_POLICY_STATIC.json",
+    "state": "PROPOSED_STATIC_CONTRACT_PASS",
+    "installed_acceptance": false,
+    "deployed": false,
+    "production_model_changed": false,
+    "not_current_producer_acceptance": true
+  },
+  "verified_this_wave": [
+    "Actual supplied owner comment bytes/hash",
+    "Current immutable HEAD/tree/consumer code",
+    "Current direction-overlay pointer/leaf bytes/hash and disabled0 state",
+    "Served app.js exact immutable-source parity",
+    "Live served meta exact immutable-source parity/model/grading/cache/generated clock",
+    "Live and immutable MAEdisplay pointer404",
+    "51 exact consumer fictional fixtures plus seven independent source fixtures"
+  ],
+  "not_verified_this_wave": [
+    "New original-site release or research-model activation",
+    "Full current served player-board values and browser/mobile DOM",
+    "Registered A producer/current source/model restoration or execution",
+    "Complete exact changed Top Picks replay",
+    "Scheduling reliability of Nov11 run; metadata generation is not workflow success"
+  ],
+  "source_presence_audit_scope": "Current execution metadata binds statistical-presence-strict-v5-20261106 and stat-keys-presence-strict-v3. This is not a new reproduction/regrade of every historical presence finding.",
+  "original_site_writes": 0,
+  "workflow_dispatches": 0,
+  "external_messages": 0,
+  "new_fits": 0,
+  "new_forecasts": 0,
+  "new_NFL_observations": 0
+}

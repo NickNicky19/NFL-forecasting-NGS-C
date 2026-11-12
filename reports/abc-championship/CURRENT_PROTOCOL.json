@@ -64,7 +64,7 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "SHA256": "5e394e15a2b9df42e370ed94d22e73dbbf6d8b25f3e56fba6fd81e6b5bb37f9c"
+    "SHA256": "b2849f0a5f1579cd3dd3454644f0134a97d1230e4b15c7b2518d5c83d986e144"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1258,5 +1258,78 @@
       "SHA256": "85dae0a5f36b5b223e04ff6140f746801406c1b9e5efac805717510400c6b2e0"
     },
     "served_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a"
+  },
+  "category_decision_release_01": {
+    "id": "NFL-CATEGORY-DECISION-AND-RELEASE-01-C/v1",
+    "stage": "ALL12_SCOPED_DECISIONS_AND_COMPLETED_JOINS;CURRENT25_SHADOW_SERVER_QUALIFIED",
+    "assignment": {
+      "path": "reports/category-decision-release-01/adoption/NFL_CATEGORY_DECISION_AND_RELEASE_01_V1.txt",
+      "SHA256": "a6d6b3c8f3b90009cde559fc00ff96d3d8e688ef1c0ae93588e5acdcc4f9d01f"
+    },
+    "adoption_receipt": {
+      "path": "reports/category-decision-release-01/adoption/ADOPTION_RECEIPT.json",
+      "SHA256": "bb8f697c28eac63fabf6794f3f041963e8c848be788cc2db13e2522772a2a00f"
+    },
+    "registration": {
+      "path": "reports/category-decision-release-01/REGISTRATION.json",
+      "SHA256": "59472ce152207c3162c6c86657e8a28891e00881066cf1b8b30990e896f14666"
+    },
+    "report": {
+      "path": "reports/category-decision-release-01/README.md",
+      "SHA256": "919c0d07a4980955f8ab7deb9e58e7ae5090999999f6fe84be6d932a78ae123a"
+    },
+    "category_product_decisions": {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "SHA256": "f6286af137ca5ef14a4fd183cf93836ec0771893c3ed445e58b432a48f5a844b"
+    },
+    "coverage": {
+      "path": "reports/category-decision-release-01/COVERAGE_SUMMARY.json",
+      "SHA256": "9dd9be433d8cac3636a30167e70db2711e942647db07c87506d2e9aac35ddfcf"
+    },
+    "intake": {
+      "path": "reports/category-decision-release-01/intake/ADMISSION.json",
+      "SHA256": "57bbce1f223c1fe3f89fc344605f4708e1f6077850fb79b5adcb4e5de7dd8d92"
+    },
+    "operational_intake": {
+      "path": "reports/category-decision-release-01/operational-intake/ADMISSION.json",
+      "SHA256": "72952adc0a5ef81ae5ca0d973bca0cb61d12c3c4e15aaeb25a17f7cf39f39285"
+    },
+    "actual_website_bindings": {
+      "path": "reports/category-decision-release-01/website/LIVE_PRODUCT_BINDINGS.json",
+      "SHA256": "83514b8f91e3b854c0bc1a4bc83e7e992d46b15b3dc828e7ff4d584782e754d3"
+    },
+    "current_shadow_registration": {
+      "path": "reports/category-decision-release-01/CURRENT_P1_DELIVERY_REGISTRATION.json",
+      "SHA256": "bf30af905a186268ccfae1fb83944d45697cc696b0d5c4b0d9e8e9b23f63b52b"
+    },
+    "preexecution_review": {
+      "path": "reports/category-decision-release-01/current-verification/PRE_EXECUTION_REVIEW.json",
+      "SHA256": "ffefc4a9197eb50357bdbf65efd0246f89426ea55c6b08aaaa726f2247775771"
+    },
+    "qualification_composition": "Existing shared8072-profilequalification pluslaterboundrosters andthisexact-product/sourceamendment;one Ccanonicaltable, no newgrader.",
+    "common_protocol_and_scorer": "UNCHANGED",
+    "new_historical_fits": 0,
+    "new_actual_NFL_games": 0,
+    "new_actual_NFL_weeks": 0,
+    "original_website_changed": false,
+    "original_website_release_owner": "Retained original website owner; C readonly",
+    "joins_completed": "B F0-F3 completion andC04 timingreception ownerA d7; receivedandpublicarithmeticadmitted; oldpendingstates superseded.",
+    "current_publication": {
+      "path": "reports/category-decision-release-01/CURRENT_PUBLICATION_RECEIPT.json",
+      "SHA256": "6f485a3a65382a6accb179886642d7295da20473a1328395735184820513c924"
+    },
+    "current_handoff": {
+      "path": "reports/category-decision-release-01/CURRENT_QUERY_HANDOFF.json",
+      "SHA256": "e0cf825d349aef01777cff7283760cad3e61a95d48e5d232be08d4ce67d7ea19"
+    },
+    "current_server_independent": {
+      "path": "reports/category-decision-release-01/current-verification/SERVER_QUALIFICATION_INDEPENDENT.json",
+      "SHA256": "987a6d182ed908d236ca892a6b672a744e4ca998bce5915501e08f97b108fa88"
+    },
+    "local_consumer": {
+      "path": "reports/category-decision-release-01/site/LOCAL_CONSUMER_RECEIPT_V2.json",
+      "SHA256": "fe60589fba76cb77c0682419d7064204ca87701dcd74f1897c0a3a4b5934751d"
+    },
+    "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED"
   }
 }

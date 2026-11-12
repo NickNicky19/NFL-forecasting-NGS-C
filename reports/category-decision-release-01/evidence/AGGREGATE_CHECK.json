@@ -1,0 +1,12 @@
+{
+  "id": "CATEGORY-RELEASE-RETAINED-AGGREGATE-CHECK-v1",
+  "checked_UTC": "2026-11-12T01:33:23.680789+00:00",
+  "status": "PASS",
+  "all_79_original_seven_week_side_sums_match": true,
+  "all_79_first5_subpanels_side_counts_match_separate_literal_week_selection": true,
+  "combined_weighted_by_counts_not_mean_of_percentages": true,
+  "no_NFL_source_row_regrading": true,
+  "no_source_or_qualification_upgrade": true,
+  "missing_weekly_game_counts_retained_null": true,
+  "limitations": "Separate aggregate arithmetic only; not private row/mask/clock/model verification. New timing receipts are outside this retained-only task."
+}

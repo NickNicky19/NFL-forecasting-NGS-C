@@ -1,0 +1,14 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('crypto');
+const s=fs.readFileSync('/workspace/ngs-c/reports/category-decision-release-01/website/CURRENT_APP_JS.decoded.js','utf8');
+const extract=(a,b)=>s.slice(s.indexOf(a),s.indexOf(b,s.indexOf(a)));
+let selection=null;const ctx={S:{data:{},maeDisplay:{}},StatPointMaeV2:{forPlayer:()=>({value:99,expectedMean:100})},selectedPropForecast:()=>selection,isClassicBaseline:x=>x==='sleeper-matchup-classic-presence-strict-v2'};vm.createContext(ctx);
+vm.runInContext(extract('function maeDisplayForecast(','function maeDisplayDetails(')+extract('function baselineTdProbability(','function selectedPropGap('),ctx);
+const p={reference_model:'sleeper-matchup-classic-presence-strict-v2'},prop={key:'rec',adj:7};
+assert.equal(ctx.maeDisplayForecast(p,'rec').value,99);
+assert.equal(ctx.effectivePropForecast(p,prop).value,7);
+selection={value:3,label:'mean'};assert.equal(ctx.effectivePropForecast(p,prop).value,3);
+assert.equal(ctx.maeDisplayForecast(p,'rec').value,99);
+assert.equal(ctx.baselineTdProbability({proj:null,td_chance:0}),null);
+assert.equal(ctx.baselineTdProbability({proj:0,td_chance:0}),0);
+assert.equal(ctx.baselineTdProbability({proj:1,td_chance:Infinity}),null);
+console.log(JSON.stringify({status:'PASS',checks:7,scope:'Independent isolation and TD-null fixtures using exact source spans; no production data, network, model fit or NFL observation.',source_SHA256:crypto.createHash('sha256').update(s).digest('hex')}));

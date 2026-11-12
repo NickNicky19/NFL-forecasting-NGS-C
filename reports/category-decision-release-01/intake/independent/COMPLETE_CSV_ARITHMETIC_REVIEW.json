@@ -1,0 +1,1224 @@
+{
+  "id": "C-CATEGORY-INDEPENDENT-COMPLETE-AGGREGATE-CSV-v1",
+  "checked_UTC": "2026-11-12T01:37:38.513189+00:00",
+  "status": "PASS_SEPARATE_PUBLIC_CSV_ARITHMETIC_AND_WEEKLY_RECONCILIATION",
+  "primary_products_matched_to_complete_CSVs": 20,
+  "distinct_B_law_Briers": {
+    "F0": 0.2619130380362296,
+    "F1": 0.26751710603312934,
+    "F2": 0.2625502608072056,
+    "F3": 0.2646625184397822
+  },
+  "files_checked": 65,
+  "aggregate_rows_checked": 4758,
+  "summary_rows": 1686,
+  "paired_rows": 3072,
+  "manifest_counts": {
+    "B_aggregate_rows": 3654,
+    "C04_aggregate_rows": 1104
+  },
+  "unique_summary_groups": 486,
+  "weekly_reconciliations": 156,
+  "weighted_numerical_reconciliations": 360,
+  "weighted_probability_reconciliations": 108,
+  "paired_arithmetic_reconciliations": 3072,
+  "duration_witnesses": [
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "view": "FULL_A_BOARD",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "view": "SHARED_ALL_FOUR_B_TIMING_ARMS",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "B",
+      "candidate": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "view": "CANONICAL_TEAM_ALIAS_TIMING_SUBGROUP",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "five_distinct_weeks_met": false
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "view": "FULL_A733",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    },
+    {
+      "group": "C04",
+      "candidate": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "view": "FIXED_C667",
+      "actual_scored_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "five_distinct_weeks_met": true
+    }
+  ],
+  "null_fallback_fields_preserved": 516,
+  "probability_rows_checked": 1170,
+  "files": [
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_001.csv",
+      "SHA256": "6b791e6777b426a9e763bdcfc2b188fbe0f1c581be52a8df1dc0e05b5b81b1ff",
+      "decoded_bytes": 60636,
+      "rows": 38,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_002.csv",
+      "SHA256": "fe5c5dc318473cef55a1fd0b7d57ca915fc4f00f0f45f49c39c35ef4fcfb7cf5",
+      "decoded_bytes": 60522,
+      "rows": 38,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_003.csv",
+      "SHA256": "a26053badd1a6d08c878e6c1b1c8d8f3745eb3de2da45e53415786075e2a7ccf",
+      "decoded_bytes": 61367,
+      "rows": 39,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_004.csv",
+      "SHA256": "57dbf04df3658f9da0b9b9bc08c90ffe734f5f6ec777da88ecb8c631043740c8",
+      "decoded_bytes": 61399,
+      "rows": 43,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_005.csv",
+      "SHA256": "8868a75c364e8236104e9e49694210003a5c823e2e0dad84d53c63987ad1696b",
+      "decoded_bytes": 59787,
+      "rows": 42,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_006.csv",
+      "SHA256": "fd130b1eb588cd65c642858ec182174f8fdd87423e691a3e0f43ce0435382524",
+      "decoded_bytes": 61074,
+      "rows": 48,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_007.csv",
+      "SHA256": "dce898ad18020be844df43c390dc4412f856f6a0e7af243dff8af6ce2453daa8",
+      "decoded_bytes": 60568,
+      "rows": 49,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_008.csv",
+      "SHA256": "67929fe8f689694c5cb80a28e2118b0a10e56d13507940a5b50f3302d1249a9b",
+      "decoded_bytes": 60892,
+      "rows": 44,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_009.csv",
+      "SHA256": "31cf9938fe31290e78a8c8952f8130de54af2ca3224548687e8e32e95afe69ce",
+      "decoded_bytes": 60319,
+      "rows": 38,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_010.csv",
+      "SHA256": "c0965779d829b678f804cb61a01320ec37435c649dc4b00f0b5bd854b1871a3c",
+      "decoded_bytes": 60025,
+      "rows": 37,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_011.csv",
+      "SHA256": "fa6f9d505b3c7e308e1cfd9d65232c666fd39e2f598cb803381c85e11bbdea6a",
+      "decoded_bytes": 60668,
+      "rows": 40,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_012.csv",
+      "SHA256": "220df4526709e0fa665db94c204c2f1d045008ddd25c89140a569430ecd7e0c5",
+      "decoded_bytes": 60275,
+      "rows": 42,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_013.csv",
+      "SHA256": "c18bd099df659620c70c4527825171d1262a7451740599764a7131df79bed19b",
+      "decoded_bytes": 60180,
+      "rows": 42,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_014.csv",
+      "SHA256": "2d7dbd20349e3a2451636b5b855897251cb8a5090e6693ebd426f871696a386e",
+      "decoded_bytes": 61295,
+      "rows": 49,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_015.csv",
+      "SHA256": "737d8e19c8aa075e28f510c3082a0c1e8d7d5686a8dda7366f91f36cd80b503e",
+      "decoded_bytes": 61114,
+      "rows": 49,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_016.csv",
+      "SHA256": "2b13bb737f8b48c0f6500134995870618f43c3fd583000282a8967fca8fcfa3e",
+      "decoded_bytes": 60709,
+      "rows": 47,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_017.csv",
+      "SHA256": "5317f491f9d22de9d4878a83bf2d217eeb6de979964fe7b2dfc598379ecf7be6",
+      "decoded_bytes": 60194,
+      "rows": 47,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_018.csv",
+      "SHA256": "40f1be980ec1fc1c4858a5415168584eea8254f48ada6642265a257d3b7efb35",
+      "decoded_bytes": 61155,
+      "rows": 49,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_019.csv",
+      "SHA256": "2193b6764b889f1f48e552388dc0d59643508284f45f021c9bd47409f3122c2d",
+      "decoded_bytes": 60562,
+      "rows": 50,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_020.csv",
+      "SHA256": "26659806c167ede372d58475452825f468d14eeedce9aa0035e2216a13918bcb",
+      "decoded_bytes": 60278,
+      "rows": 51,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_021.csv",
+      "SHA256": "fe6b91e8be5e17eb30ced0126f05cf2e4f12616e96bf9d4156ed83f5e79b9e81",
+      "decoded_bytes": 61242,
+      "rows": 54,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_022.csv",
+      "SHA256": "85905612bd3612911cbf14f535f0e699ffb5453ad76ac3d05859e489237503de",
+      "decoded_bytes": 40381,
+      "rows": 36,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_001.csv",
+      "SHA256": "2575e7dddf86b0bb6db2ac23a3290a2b5514fbb1e6bfdaa831e9117ec95169a2",
+      "decoded_bytes": 60562,
+      "rows": 37,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_002.csv",
+      "SHA256": "359b7858e56d7e6bc79773d76c6e397c7b116556b5b69fb943c6c73ac36847b2",
+      "decoded_bytes": 60981,
+      "rows": 39,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_003.csv",
+      "SHA256": "5b26705bb106419fd66c8c5c086af084293b673f35ab4446e58214692129ab9b",
+      "decoded_bytes": 61356,
+      "rows": 36,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_004.csv",
+      "SHA256": "724aecd6cb1272bf82a3850f1a2a5e91f1a0a11313b7928116016a506e570207",
+      "decoded_bytes": 60772,
+      "rows": 39,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_005.csv",
+      "SHA256": "32f94dab6d182c89f8e74f1d363d1332c9885a08787301f37a6506d279d763ab",
+      "decoded_bytes": 60652,
+      "rows": 43,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_006.csv",
+      "SHA256": "7c8fddee51a2e45b66a916b0a6e89b14169841d7997d9eaf2ce06311208cbb58",
+      "decoded_bytes": 6056,
+      "rows": 4,
+      "kind": "summary"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_001.csv",
+      "SHA256": "37ee20360fe67521b1a70ef19ba8738264cbdf5e23e5f8860202edd756b5fcbb",
+      "decoded_bytes": 60987,
+      "rows": 111,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_002.csv",
+      "SHA256": "73905de0b174ac5a9c1677f061bdda9f780ab96fc0b407d7e039a7603c7de120",
+      "decoded_bytes": 61161,
+      "rows": 113,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_003.csv",
+      "SHA256": "620bc4f7243ccf3f32b7161901a29674c01a36283de1c06e0f5f985e9b363f5d",
+      "decoded_bytes": 61357,
+      "rows": 109,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_004.csv",
+      "SHA256": "994443c526874fad3ac500eaaa375afc3cd69a5ec0ef422b3ee87b138854b3bc",
+      "decoded_bytes": 61207,
+      "rows": 114,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_005.csv",
+      "SHA256": "a69da44ba3337a28974299a8613dd3ca13fd0c07c99fc88aefd4a469f2e937d0",
+      "decoded_bytes": 61128,
+      "rows": 109,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_006.csv",
+      "SHA256": "d7ace00522f8400f4fe23d2f8ecc06cd282a3c4fdede0801e1988ea798a40a50",
+      "decoded_bytes": 60922,
+      "rows": 108,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_007.csv",
+      "SHA256": "43b7cbb0df357cb5df87fca8af855cadb66e21b1c7d1513e0901f3133f29142c",
+      "decoded_bytes": 61174,
+      "rows": 109,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_008.csv",
+      "SHA256": "a5d660554c471d8ef98a7e457ff27153cffefeb448044662d089c9e2f66b8216",
+      "decoded_bytes": 61095,
+      "rows": 105,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_009.csv",
+      "SHA256": "82817514e074b48fa3900bcefd565b6e1e2d896e0ecb1ff92af640aceb36be46",
+      "decoded_bytes": 60774,
+      "rows": 111,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_010.csv",
+      "SHA256": "a893554be2be5b9f2134dd6a997525c0898c13e60d8c5c20ceb0d0b257f1e5dd",
+      "decoded_bytes": 61140,
+      "rows": 108,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_011.csv",
+      "SHA256": "41b19eaa7fd57ad72bc15892230938003e4b2d747d58110c62c7403b5405ae1f",
+      "decoded_bytes": 61041,
+      "rows": 107,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_012.csv",
+      "SHA256": "fcc7deff4f74e3e792c1d5233ad8b729ecc5f888b1cbd5fb43727c2d28902fba",
+      "decoded_bytes": 61094,
+      "rows": 108,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_013.csv",
+      "SHA256": "f322cd865c1497e78578f785e497711038bdaca1b49c439ffa2f8c734e9c70a4",
+      "decoded_bytes": 61039,
+      "rows": 104,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_014.csv",
+      "SHA256": "6ff9e2916ec12d3c2b0efcac1bbbf705d2c888db8dae8a30ef0a8891a361fde3",
+      "decoded_bytes": 61164,
+      "rows": 109,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_015.csv",
+      "SHA256": "1ad517bb978924e304bb6ba6a42e0f50d5a032972a82da8faed72697daa094af",
+      "decoded_bytes": 61036,
+      "rows": 101,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_016.csv",
+      "SHA256": "8d889e9c121c79a0d57202e2d22bc31402ddf313c8989ba2c22425a256a94878",
+      "decoded_bytes": 60980,
+      "rows": 114,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_017.csv",
+      "SHA256": "18a40b97977649aa94a9918737cef78f125b1310e6f3357e1d09b973f43f1d76",
+      "decoded_bytes": 61328,
+      "rows": 116,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_018.csv",
+      "SHA256": "07070de751987da09ba5453fbe161444d408deb1e0da91d9f88cec3e6d615390",
+      "decoded_bytes": 61036,
+      "rows": 114,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_019.csv",
+      "SHA256": "7418353de9a5aaa50742d82191a96484b5fd1db9d317462819444aa088b8f36d",
+      "decoded_bytes": 60920,
+      "rows": 120,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_020.csv",
+      "SHA256": "ce0d68603f4c181ddc916c492b7cdc7b33509b06bac61fba9e3bfe205f4b90e5",
+      "decoded_bytes": 60905,
+      "rows": 119,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_021.csv",
+      "SHA256": "ce54ecd6d883daaf933ffa6b16bd854605cfec36ff11433aada481954696bcad",
+      "decoded_bytes": 61276,
+      "rows": 119,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_022.csv",
+      "SHA256": "e496c00c6b3f4e4893081b9a525b3d52c4fb730cfa835cf76e2f58daa0582b6c",
+      "decoded_bytes": 61277,
+      "rows": 121,
+      "kind": "pair"
+    },
+    {
+      "group": "B",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_023.csv",
+      "SHA256": "8ccd043fded0a69a27b619c5591ac9b5fd384d8ca5516fd5e7ca0b5f6e8d14e9",
+      "decoded_bytes": 17641,
+      "rows": 35,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_001.csv",
+      "SHA256": "427386b3931f0c22c0bfc1e6394aecd9439f42221b82013fbbee1fcab6c3331a",
+      "decoded_bytes": 60629,
+      "rows": 72,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_002.csv",
+      "SHA256": "31b9ee0f069a5bc619c00b1d314c3e49727cb9a62b60e919ef763029eae02711",
+      "decoded_bytes": 60777,
+      "rows": 74,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_003.csv",
+      "SHA256": "b9f9c666c3a33115b6bd9cc128e6c54d98bf1e86f80fc3d2cd2673150250b203",
+      "decoded_bytes": 60739,
+      "rows": 74,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_004.csv",
+      "SHA256": "a07e356e3f8d8a7123347f5fbb5c904b5dac7269751140d8bf2e42dd7f1a8215",
+      "decoded_bytes": 61366,
+      "rows": 76,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_005.csv",
+      "SHA256": "3f841298ae7402c3f62e940f6f7ae6d74c32a75715ba8e2230824c5b47ee0595",
+      "decoded_bytes": 60967,
+      "rows": 82,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_WEEKLY_AND_CUMULATIVE_006.csv",
+      "SHA256": "46203d983f974ece8f64023e1174c7f3c4c755e004a78b5f87df44bd1ee30fc7",
+      "decoded_bytes": 4720,
+      "rows": 6,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_001.csv",
+      "SHA256": "25f0a3e02988055d9169368d98e8858a4db6eafa97d50f6bbfa01edc878c4e10",
+      "decoded_bytes": 60913,
+      "rows": 82,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "RETAINED_CONTROLS_CUMULATIVE_002.csv",
+      "SHA256": "8cc3390e8b776d832040f387526cb103ec8a8eadbdbad9ecab4e6bd3e9923f20",
+      "decoded_bytes": 41626,
+      "rows": 50,
+      "kind": "summary"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_001.csv",
+      "SHA256": "b4fb7aa92b310b73b521f7d8b20778c4aa79e813dd7eaafb8cc591fc0f890829",
+      "decoded_bytes": 61098,
+      "rows": 111,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_002.csv",
+      "SHA256": "8b23412f9bbd65667e2ef5ea6b0d7d4074aff83e3abb7ee9de238b16649906be",
+      "decoded_bytes": 61143,
+      "rows": 110,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_003.csv",
+      "SHA256": "64e37b157a2187bfc8e8b91f8d3bc1eca4b209bf8983a99ed41504c0133952aa",
+      "decoded_bytes": 61195,
+      "rows": 110,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_004.csv",
+      "SHA256": "96c2dad3f724a5691314aae107cdf4882b001151ea1b44f819985360b259e7fb",
+      "decoded_bytes": 61056,
+      "rows": 110,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_005.csv",
+      "SHA256": "3d18ad942055b1e64a027f60eb0e4dae0ca34205d464a2f8ce06bcb594fb4d0c",
+      "decoded_bytes": 61010,
+      "rows": 110,
+      "kind": "pair"
+    },
+    {
+      "group": "C04",
+      "member": "ALL_NEW_TIMING_MATCHED_PAIRS_006.csv",
+      "SHA256": "f2705165d8757bc3abcbf4d208de0182cddc6a9b07543a1fb5e8443aae92fb3f",
+      "decoded_bytes": 21012,
+      "rows": 37,
+      "kind": "pair"
+    }
+  ],
+  "private_membership_source_clocks_model_fit": "UNKNOWN_NOT_INDEPENDENTLY_INSPECTED",
+  "bootstrap_intervals": "Bounds/cluster metadata arithmetic checked; no underlying private resampling reconstruction.",
+  "source_panels": "AnnualW1-W5 actual quotes timing-unverified; W6-W7 website-threshold diagnostics and mixed views are not pooled as authenticated offers.",
+  "B_W5_cross_source_overlap": "UNKNOWN;NO_A88_PLUS_NATIVE_B112_POOL",
+  "new_fits": 0,
+  "new_GETs": 0,
+  "new_NFL_observations": 0,
+  "CPU_seconds": 0.204012327,
+  "peak_RSS_bytes": 26083328
+}

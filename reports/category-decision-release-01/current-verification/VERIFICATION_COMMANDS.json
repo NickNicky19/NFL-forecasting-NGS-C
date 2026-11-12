@@ -1,0 +1,105 @@
+{
+  "id": "C06-INDEPENDENT-VERIFICATION-COMMANDS-v1",
+  "recorded_UTC": "2026-11-12T02:25:01.849276+00:00",
+  "commands": [
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/category-decision-release-01/current-verification/verify_current_sources.py",
+      "scope": "Independent stdlib canonical source/identity/strict-seven-day eligibility/config checks; no NFL inference or fits."
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src python -m unittest tests.test_current_query_delivery_c06 -v",
+      "scope": "12 deterministic fixture/metadata tests; no actual NFL inference."
+    },
+    {
+      "command": "python /workspace/c06-independent-actual-check.py",
+      "retained_script": "reports/category-decision-release-01/current-verification/verify_actual_c06_inference.py",
+      "scope": "Actual25 separate standard-library safe-JSON Poisson means/quantiles; no author predictor, scorer or optimizer.",
+      "restoration": "Restore the complete immutable RUN/inference_draft subtree to /workspace/c06-current-draft, restore referenced oldC04 model/forecast/source objects at their exact GitHub hashes in /workspace/ngs-c, then run the retained script. The outside-Git output path is /workspace/c06-actual-inference-independent.json."
+    },
+    {
+      "command": "python reports/category-decision-release-01/current-verification/verify_issued_c06.py",
+      "scope": "Issued RUN/source/draft/identity/clocks/hash recovery. No additional coefficient inference, fits or HTTP."
+    },
+    {
+      "command": "python reports/category-decision-release-01/current-verification/verify_fresh_github_c06.py",
+      "scope": "Decode/hash/contract check of22 actual immutable base64 file responses retained at /workspace/c06-fresh-restore/FETCH_RESPONSES.json; reproducing needs the same permitted GitHub reads, not author score functions."
+    },
+    {
+      "command": "python reports/category-decision-release-01/current-verification/verify_prior_context_recovery.py",
+      "scope": "Check23rd exact GZ encoding recovery against already tracked XZdecodedCSV; no new HTTP/inference."
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python reports/category-decision-release-01/current-verification/verify_server_binding_c06.py",
+      "scope": "Check24th source-textsnapshot recovery and2 actual workflow/jobs metadata responses at SERVER_BINDING_RESPONSES.json. Metadata-only assessment runs with Git calls and inference forbidden. Packaging ASTcomparison itself uses exact historical execution commit e9b56... Gitobject; restore/fetch that permitted public commit if repository is shallow."
+    }
+  ],
+  "receipts": [
+    {
+      "path": "reports/category-decision-release-01/current-verification/INDEPENDENT_SOURCE_RECIPE_REVIEW.json",
+      "SHA256": "28405a2e26b7611a7c2b9d93cc474994193d156da848042721308554bd42c306"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/PRE_EXECUTION_REVIEW.json",
+      "SHA256": "ffefc4a9197eb50357bdbf65efd0246f89426ea55c6b08aaaa726f2247775771"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/C06_ACTUAL_INFERENCE_INDEPENDENT.json",
+      "SHA256": "66308bb80384f2031571539f2ce10c29a758c7f4bc196e959857389ea732ac5d"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/C06_ISSUED_RUNTIME_INDEPENDENT.json",
+      "SHA256": "029031dc2e8f6cfc6e7c5e2f5f9cbeb8e618df249cde565478ffb924398115fd"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/ISSUED_CHECKER_FAILURE_01.json",
+      "SHA256": "1f8b352e88a96d65415130295d2c1fce5cd2680a2dda2d2efb9c378e123fafd9"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/FRESH_GITHUB_RESTORE_PLAN.json",
+      "SHA256": "bf170145d436852f96b0391d6f2dce60deaeb462c47cf968d8e2a0b56df5dd73"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/FRESH_GITHUB_RESTORATION.json",
+      "SHA256": "3d2df3d92166a0aa6e23ea74f54af4850f381d57feebbd4371a689231671d758"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/PRIOR_CONTEXT_RECOVERY_AMENDMENT.json",
+      "SHA256": "21e8c752ebd0923cd3bb149335ce54fa5743acb3e4bf6ca5d78b08dfad20c756"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/PRIOR_CONTEXT_FRESH_RECOVERY.json",
+      "SHA256": "fba966e734fe61bdb95da13affe44edb12d69d3a07745f4ec13962820484b03b"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/SERVER_BINDING_READ_PLAN.json",
+      "SHA256": "c40fdf458e72421067910e2c1f28e9c1f97ec77ffd1a703fe79e5cf35a6023cf"
+    },
+    {
+      "path": "reports/category-decision-release-01/current-verification/SERVER_QUALIFICATION_INDEPENDENT.json",
+      "SHA256": "987a6d182ed908d236ca892a6b672a744e4ca998bce5915501e08f97b108fa88"
+    }
+  ],
+  "counts": {
+    "fits": 0,
+    "GETs": 0,
+    "independent_actual_inference_rows": 25,
+    "additional_issued_check_inference_rows": 0,
+    "NFL_outcome_observations": 0
+  },
+  "limits": "Local checked-scope receipts only; no A/B independent fit endorsement, private-row access, publication or original-site activation claimed.",
+  "fresh_recovery_update_UTC": "2026-11-12T02:53:43.580179+00:00",
+  "fresh_remote_scope": {
+    "file_reads": 24,
+    "workflow_metadata_reads": 2,
+    "returned_structured_content_bytes": 2733072,
+    "byte_cap": 3145728,
+    "refs": [
+      "97b80a91ea2b6dd42851c02553ad6bc3f09adaa1",
+      "0cbf4c156608f8ec69d928ae7434eec877f14914",
+      "d1425e648ce14a99449873f5c8223fc423b5635e"
+    ],
+    "new_upstream_collection": 0,
+    "new_fits": 0,
+    "extra_NFL_inference": 0
+  }
+}

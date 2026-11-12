@@ -1,0 +1,10 @@
+{
+  "id": "C06-PREPARE-CHECKER-FAILURE-03",
+  "recorded_UTC": "2026-11-12T01:58:03.434624+00:00",
+  "state": "AST_NORMALIZER_SELECTED_FIRST_LOOP_INSTEAD_OF_TYPED_GRADE_LOOP",
+  "executed_code_SHA256": "d7c8d6be8c982030d2c98fe4205b17ef333a3ce3e06794105c5362946ca1ffe5",
+  "new_fits": 0,
+  "new_inference_rows": 0,
+  "affected_predictions": 0,
+  "remedy": "Select the one loop declaring forecast_name; keep strict expected-format-extension assertion."
+}

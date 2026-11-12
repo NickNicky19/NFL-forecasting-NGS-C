@@ -1,0 +1,888 @@
+{
+  "id": "C-CATEGORY-PRIMARY-CSV-PARITY-v1",
+  "status": "PASS",
+  "products": [
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::mean",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2619130380362296,
+        "Over_event_AUC": 0.5557291666666667,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.2537980432661075
+          },
+          {
+            "bin_index": 3,
+            "count": 32,
+            "observed_Over": 0.5625,
+            "predicted_Over": 0.36837303701091983
+          },
+          {
+            "bin_index": 4,
+            "count": 35,
+            "observed_Over": 0.4857142857142857,
+            "predicted_Over": 0.45287847617660404
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.7857142857142857,
+            "predicted_Over": 0.5398607533947538
+          },
+          {
+            "bin_index": 6,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.6240589413055098
+          }
+        ],
+        "three_state_log_loss": 0.718192526586285
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5657894736842105,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4177215189873418,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::lower_median",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2619130380362296,
+        "Over_event_AUC": 0.5557291666666667,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.2537980432661075
+          },
+          {
+            "bin_index": 3,
+            "count": 32,
+            "observed_Over": 0.5625,
+            "predicted_Over": 0.36837303701091983
+          },
+          {
+            "bin_index": 4,
+            "count": 35,
+            "observed_Over": 0.4857142857142857,
+            "predicted_Over": 0.45287847617660404
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.7857142857142857,
+            "predicted_Over": 0.5398607533947538
+          },
+          {
+            "bin_index": 6,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.6240589413055098
+          }
+        ],
+        "three_state_log_loss": 0.718192526586285
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5789473684210527,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4936708860759494,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F0::P2",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2619130380362296,
+        "Over_event_AUC": 0.5557291666666667,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.2537980432661075
+          },
+          {
+            "bin_index": 3,
+            "count": 32,
+            "observed_Over": 0.5625,
+            "predicted_Over": 0.36837303701091983
+          },
+          {
+            "bin_index": 4,
+            "count": 35,
+            "observed_Over": 0.4857142857142857,
+            "predicted_Over": 0.45287847617660404
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.7857142857142857,
+            "predicted_Over": 0.5398607533947538
+          },
+          {
+            "bin_index": 6,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.6240589413055098
+          }
+        ],
+        "three_state_log_loss": 0.718192526586285
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5789473684210527,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4936708860759494,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::mean",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.26751710603312934,
+        "Over_event_AUC": 0.5145833333333333,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 7,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.2563531826760104
+          },
+          {
+            "bin_index": 3,
+            "count": 27,
+            "observed_Over": 0.6296296296296297,
+            "predicted_Over": 0.3585598778671351
+          },
+          {
+            "bin_index": 4,
+            "count": 38,
+            "observed_Over": 0.5263157894736842,
+            "predicted_Over": 0.4467350981694384
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.5419415084363707
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6423092455717364
+          }
+        ],
+        "three_state_log_loss": 0.730369889911164
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5166666666666667,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.35064935064935066,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::lower_median",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.26751710603312934,
+        "Over_event_AUC": 0.5145833333333333,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 7,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.2563531826760104
+          },
+          {
+            "bin_index": 3,
+            "count": 27,
+            "observed_Over": 0.6296296296296297,
+            "predicted_Over": 0.3585598778671351
+          },
+          {
+            "bin_index": 4,
+            "count": 38,
+            "observed_Over": 0.5263157894736842,
+            "predicted_Over": 0.4467350981694384
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.5419415084363707
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6423092455717364
+          }
+        ],
+        "three_state_log_loss": 0.730369889911164
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.49385261550209986,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.36666666666666664,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F1::P2",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.26751710603312934,
+        "Over_event_AUC": 0.5145833333333333,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 7,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.2563531826760104
+          },
+          {
+            "bin_index": 3,
+            "count": 27,
+            "observed_Over": 0.6296296296296297,
+            "predicted_Over": 0.3585598778671351
+          },
+          {
+            "bin_index": 4,
+            "count": 38,
+            "observed_Over": 0.5263157894736842,
+            "predicted_Over": 0.4467350981694384
+          },
+          {
+            "bin_index": 5,
+            "count": 14,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.5419415084363707
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6423092455717364
+          }
+        ],
+        "three_state_log_loss": 0.730369889911164
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.49385261550209986,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.36666666666666664,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::mean",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2625502608072056,
+        "Over_event_AUC": 0.521875,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.2565349872038237
+          },
+          {
+            "bin_index": 3,
+            "count": 24,
+            "observed_Over": 0.4583333333333333,
+            "predicted_Over": 0.3608004368839246
+          },
+          {
+            "bin_index": 4,
+            "count": 41,
+            "observed_Over": 0.5609756097560976,
+            "predicted_Over": 0.4528421827517471
+          },
+          {
+            "bin_index": 5,
+            "count": 15,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5399136231493105
+          },
+          {
+            "bin_index": 6,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.6261428417098532
+          }
+        ],
+        "three_state_log_loss": 0.7190301241946233
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5945945945945946,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4875,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::lower_median",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2625502608072056,
+        "Over_event_AUC": 0.521875,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.2565349872038237
+          },
+          {
+            "bin_index": 3,
+            "count": 24,
+            "observed_Over": 0.4583333333333333,
+            "predicted_Over": 0.3608004368839246
+          },
+          {
+            "bin_index": 4,
+            "count": 41,
+            "observed_Over": 0.5609756097560976,
+            "predicted_Over": 0.4528421827517471
+          },
+          {
+            "bin_index": 5,
+            "count": 15,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5399136231493105
+          },
+          {
+            "bin_index": 6,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.6261428417098532
+          }
+        ],
+        "three_state_log_loss": 0.7190301241946233
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5540540540540541,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4375,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F2::P2",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2625502608072056,
+        "Over_event_AUC": 0.521875,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.2565349872038237
+          },
+          {
+            "bin_index": 3,
+            "count": 24,
+            "observed_Over": 0.4583333333333333,
+            "predicted_Over": 0.3608004368839246
+          },
+          {
+            "bin_index": 4,
+            "count": 41,
+            "observed_Over": 0.5609756097560976,
+            "predicted_Over": 0.4528421827517471
+          },
+          {
+            "bin_index": 5,
+            "count": 15,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5399136231493105
+          },
+          {
+            "bin_index": 6,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.6261428417098532
+          }
+        ],
+        "three_state_log_loss": 0.7190301241946233
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5540540540540541,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4375,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::mean",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2646625184397822,
+        "Over_event_AUC": 0.5026041666666666,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.186872317095246
+          },
+          {
+            "bin_index": 2,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.23944638481548075
+          },
+          {
+            "bin_index": 3,
+            "count": 20,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.3502739469884123
+          },
+          {
+            "bin_index": 4,
+            "count": 44,
+            "observed_Over": 0.5227272727272727,
+            "predicted_Over": 0.4438000326656905
+          },
+          {
+            "bin_index": 5,
+            "count": 16,
+            "observed_Over": 0.6875,
+            "predicted_Over": 0.5335951393554679
+          },
+          {
+            "bin_index": 6,
+            "count": 4,
+            "observed_Over": 0.25,
+            "predicted_Over": 0.6218450810058305
+          }
+        ],
+        "three_state_log_loss": 0.7230382888715217
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5675675675675675,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.34375,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::lower_median",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2646625184397822,
+        "Over_event_AUC": 0.5026041666666666,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.186872317095246
+          },
+          {
+            "bin_index": 2,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.23944638481548075
+          },
+          {
+            "bin_index": 3,
+            "count": 20,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.3502739469884123
+          },
+          {
+            "bin_index": 4,
+            "count": 44,
+            "observed_Over": 0.5227272727272727,
+            "predicted_Over": 0.4438000326656905
+          },
+          {
+            "bin_index": 5,
+            "count": 16,
+            "observed_Over": 0.6875,
+            "predicted_Over": 0.5335951393554679
+          },
+          {
+            "bin_index": 6,
+            "count": 4,
+            "observed_Over": 0.25,
+            "predicted_Over": 0.6218450810058305
+          }
+        ],
+        "three_state_log_loss": 0.7230382888715217
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5447154471544715,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.3958333333333333,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "B",
+      "candidate_id": "B-QB-ALIGNED-FRESHNESS-v1:F3::P2",
+      "W1_W5": true,
+      "probability": {
+        "Brier": 0.2646625184397822,
+        "Over_event_AUC": 0.5026041666666666,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 88,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.186872317095246
+          },
+          {
+            "bin_index": 2,
+            "count": 3,
+            "observed_Over": 0.3333333333333333,
+            "predicted_Over": 0.23944638481548075
+          },
+          {
+            "bin_index": 3,
+            "count": 20,
+            "observed_Over": 0.6,
+            "predicted_Over": 0.3502739469884123
+          },
+          {
+            "bin_index": 4,
+            "count": 44,
+            "observed_Over": 0.5227272727272727,
+            "predicted_Over": 0.4438000326656905
+          },
+          {
+            "bin_index": 5,
+            "count": 16,
+            "observed_Over": 0.6875,
+            "predicted_Over": 0.5335951393554679
+          },
+          {
+            "bin_index": 6,
+            "count": 4,
+            "observed_Over": 0.25,
+            "predicted_Over": 0.6218450810058305
+          }
+        ],
+        "three_state_log_loss": 0.7230382888715217
+      },
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5447154471544715,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.3958333333333333,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "eligible_mask_sha256": "f4461239948b8581da99e330fa1cf71c651901c4fe32981d6081d909e80e8af2",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5915789473684211,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.5454545454545454,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F0::MEDIAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5787234042553191,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.5390946502057613,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5659574468085107,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.5174825174825175,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F1::MEDIAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5925925925925926,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.5390946502057613,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "",
+      "unknown_fallback_flags": ""
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5412844036697247,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.4883720930232558,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "UNKNOWN_NOT_EXPORTED;not_assumed_no_fallback",
+      "unknown_fallback_flags": "421"
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F2::MEDIAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5933806146572104,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.525460297858907,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "UNKNOWN_NOT_EXPORTED;not_assumed_no_fallback",
+      "unknown_fallback_flags": "421"
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5322862129144852,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.514018691588785,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "UNKNOWN_NOT_EXPORTED;not_assumed_no_fallback",
+      "unknown_fallback_flags": "421"
+    },
+    {
+      "group": "C04",
+      "candidate_id": "C-RECEIVING-ALIGNED-TIMING-v1::F3::MEDIAN",
+      "W1_W5": true,
+      "probability": "N/A_TYPED_POINTS_ONLY;NO_PROBABILITY_LAW_OR_CONFIDENCE_INFERRED",
+      "uncertainty": {
+        "dependence_aware": true,
+        "high": 0.5958549222797928,
+        "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+        "low": 0.5335276967930029,
+        "small_cluster_caution": true,
+        "week_clusters": 5
+      },
+      "decided_mask_sha256": "",
+      "eligible_mask_sha256": "",
+      "actual_scored_weeks": "[1,2,3,4,5]",
+      "fallback_flag_state": "UNKNOWN_NOT_EXPORTED;not_assumed_no_fallback",
+      "unknown_fallback_flags": "421"
+    }
+  ],
+  "source_files": 65,
+  "new_fits": 0,
+  "GETs": 0,
+  "new_NFL_observations": 0
+}

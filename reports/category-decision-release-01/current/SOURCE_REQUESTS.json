@@ -1,0 +1,155 @@
+[
+  {
+    "id": "CATEGORY_CURRENT_ROSTER",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "method": "GET",
+    "started_UTC": "2026-11-12T01:32:47.303985+00:00",
+    "state": "FAILED",
+    "body_read_bound": 3145728,
+    "observed_UTC": "2026-11-12T01:32:47.310457+00:00",
+    "error_type": "URLError",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "body_bytes_read": 0,
+    "upstream_HTTP_attempted": false,
+    "runtime_failure_class": "SOCKET_OPEN_DENIED_BEFORE_HTTP",
+    "source_body_or_response_received": false
+  },
+  {
+    "id": "CATEGORY_CURRENT_ROSTER_OUTER_RUNTIME_RETRY",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+    "method": "GET",
+    "started_UTC": "2026-11-12T01:33:52.499474+00:00",
+    "state": "RECEIVED",
+    "upstream_HTTP_attempted": true,
+    "body_read_bound": 3145728,
+    "HTTP_status": 200,
+    "observed_UTC": "2026-11-12T01:33:53.124920+00:00",
+    "body_bytes_read": 981595,
+    "SHA256": "1bb74960a5c26459057d7bc5c21f90d8de23c040a1e023f25538b51613499d20",
+    "HTTP_headers_original_case": [
+      [
+        "last-modified",
+        "Wed, 11 Nov 2026 07:04:38 GMT"
+      ],
+      [
+        "etag",
+        "\"0x8DF3FC20D2FB009\""
+      ],
+      [
+        "age",
+        "4442"
+      ],
+      [
+        "date",
+        "Thu, 12 Nov 2026 01:33:53 GMT"
+      ],
+      [
+        "content-type",
+        "application/octet-stream"
+      ],
+      [
+        "content-length",
+        "981595"
+      ]
+    ],
+    "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+    "HTTP_Age": "4442",
+    "HTTP_Last_Modified": "Wed, 11 Nov 2026 07:04:38 GMT",
+    "ETag": "\"0x8DF3FC20D2FB009\"",
+    "Content_Length": "981595",
+    "Content_Type": "application/octet-stream",
+    "response_final_host": "release-assets.githubusercontent.com"
+  },
+  {
+    "id": "CATEGORY_STATS_VERSION_HEAD",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+    "method": "HEAD",
+    "started_UTC": "2026-11-12T01:33:53.161331+00:00",
+    "state": "RECEIVED",
+    "upstream_HTTP_attempted": true,
+    "body_read_bound": 0,
+    "HTTP_status": 200,
+    "observed_UTC": "2026-11-12T01:33:53.635224+00:00",
+    "body_bytes_read": 0,
+    "SHA256": null,
+    "HTTP_headers_original_case": [
+      [
+        "last-modified",
+        "Wed, 11 Nov 2026 17:15:07 GMT"
+      ],
+      [
+        "etag",
+        "\"0x8DF401755B3EC30\""
+      ],
+      [
+        "age",
+        "114"
+      ],
+      [
+        "date",
+        "Thu, 12 Nov 2026 01:33:53 GMT"
+      ],
+      [
+        "content-type",
+        "application/octet-stream"
+      ],
+      [
+        "content-length",
+        "613594"
+      ]
+    ],
+    "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+    "HTTP_Age": "114",
+    "HTTP_Last_Modified": "Wed, 11 Nov 2026 17:15:07 GMT",
+    "ETag": "\"0x8DF401755B3EC30\"",
+    "Content_Length": "613594",
+    "Content_Type": "application/octet-stream",
+    "response_final_host": "release-assets.githubusercontent.com"
+  },
+  {
+    "id": "CATEGORY_PBP_VERSION_HEAD",
+    "url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+    "method": "HEAD",
+    "started_UTC": "2026-11-12T01:33:53.636057+00:00",
+    "state": "RECEIVED",
+    "upstream_HTTP_attempted": true,
+    "body_read_bound": 0,
+    "HTTP_status": 200,
+    "observed_UTC": "2026-11-12T01:33:53.984521+00:00",
+    "body_bytes_read": 0,
+    "SHA256": null,
+    "HTTP_headers_original_case": [
+      [
+        "last-modified",
+        "Wed, 11 Nov 2026 17:10:35 GMT"
+      ],
+      [
+        "etag",
+        "\"0x8DF4016B3624325\""
+      ],
+      [
+        "age",
+        "4252"
+      ],
+      [
+        "date",
+        "Thu, 12 Nov 2026 01:33:53 GMT"
+      ],
+      [
+        "content-type",
+        "application/octet-stream"
+      ],
+      [
+        "content-length",
+        "9346348"
+      ]
+    ],
+    "HTTP_Date": "Thu, 12 Nov 2026 01:33:53 GMT",
+    "HTTP_Age": "4252",
+    "HTTP_Last_Modified": "Wed, 11 Nov 2026 17:10:35 GMT",
+    "ETag": "\"0x8DF4016B3624325\"",
+    "Content_Length": "9346348",
+    "Content_Type": "application/octet-stream",
+    "response_final_host": "release-assets.githubusercontent.com"
+  }
+]
