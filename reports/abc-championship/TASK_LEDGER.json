@@ -504,9 +504,11 @@
   {
     "task_id": "C06_ALL_CATEGORY_PRODUCT_DECISIONS",
     "owner": "C",
-    "state": "SCOPED_12_CATEGORY_DECISIONS_PREPARED;ORIGINAL_OWNER_ALONE_RELEASES",
+    "state": "PUBLISHED_AND_C_RESEARCH_SERVED_VERIFIED;12_SCOPED_DECISIONS;0_PRIMARY_SWITCHES",
     "artifact": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
-    "next_action": "Publish shared report/currentcoverage andactualconsumerbindings; preserveeligibleprovisionalpaths, no blindswitch or globalrawpercentagewinner."
+    "next_action": "Consume exact pending owner source/producer/selector receipts only; no competing master table or duplicate completed joins.",
+    "publication_closure": "reports/category-decision-release-01/PUBLICATION_CLOSURE.json",
+    "updated_UTC": "2026-11-12T03:22:34.589470+00:00"
   },
   {
     "task_id": "A_ARCHIVED_SOURCE_WEEK_PROVENANCE",
@@ -537,9 +539,20 @@
   {
     "task_id": "C06_CURRENT_P1_SOURCE_QUALIFIED_PACKET",
     "owner": "C",
-    "state": "25ROWS_SERVER_QUALIFIED_BEFORE_EXPIRY;RECOMMENDATION_USE_EXPIRED;C_LOCAL_CONSUMER_VERIFIED",
+    "state": "25_ROWS_SERVER_PREGAME_QUALIFIED_AND_C_RESEARCH_SERVED_VERIFIED;CURRENT_USE_EXPIRED",
     "artifact": "reports/category-decision-release-01/CURRENT_PUBLICATION_RECEIPT.json",
     "new_fits": 0,
-    "next_action": "Publishretainedshadowwithhonestexpiry;latergradeoriginalpacketsafterqualifiedfinality. Anynewcurrentrecommendation/repricingrequiresfreshsource/nativeadmissionunderexistingowner;no primaryswitch."
+    "next_action": "Preserve original supplementary forecast; grade only after qualified final outcomes. New current recommendation requires fresh native/source admission, not relabeling old expiry.",
+    "updated_UTC": "2026-11-12T03:22:34.589470+00:00"
+  },
+  {
+    "task_id": "A_EXISTING_C_LEGACY_FORECAST_COMPATIBILITY",
+    "owner": "A",
+    "verification_owner": "B",
+    "state": "EXISTING_PUBLIC_NUMERIC_ASSETS_MAPPED;A_RECEIPT_OR_JOIN_NOT_ASSUMED",
+    "artifact": "reports/category-decision-release-01/legacy-handoff/EXISTING_FORECAST_RETRIEVAL_MAP.json",
+    "next_action": "Use existing A private-board route only for missing compatible exact P2/H-MULTI mean/median cells after source/horizon/coherence admission. Do not repeat completed C04 joins; unavailable P1/W8/history/off-grid laws remain separate.",
+    "completion_condition": "Owner receipt identifies used immutable asset and supported scored cells or exact incompatibility; no public private-row redistribution.",
+    "updated_UTC": "2026-11-12T03:22:34.589470+00:00"
   }
 ]

@@ -1,14 +1,14 @@
 {
   "id": "C06-OPERATIONAL-STAGES-v1",
-  "recorded_UTC": "2026-11-12T03:03:01.547164+00:00",
+  "recorded_UTC": "2026-11-12T03:22:34.589470+00:00",
   "prepared": true,
   "published": true,
   "received_by_C_and_fresh_GitHub_restored": true,
   "independently_verified": true,
   "C_research_admitted_scope": "SCOPED_DIAGNOSTIC_AND_SHADOW_FORECAST_ONLY",
   "captured": true,
-  "deployed": false,
-  "served_verified": false,
+  "deployed": true,
+  "served_verified": true,
   "scientifically_qualified_current_primary": false,
   "original_website_changed": false,
   "original_website_consumer_acknowledged": false,
@@ -27,5 +27,9 @@
     "PROVISIONALLY_SWITCH": 0
   },
   "counts_note": "Decision enum counts arecategoryrecommendations, not NFLaccuracyorwebsitechanges.",
-  "count_source": "Computed from the twelve canonical category rows, not hand-entered or NFL observations."
+  "count_source": "Computed from the twelve canonical category rows, not hand-entered or NFL observations.",
+  "C_research_asset_commit": "b38ea4c9f60c15225ae6a252873e943f904309a4",
+  "deployment_run": 43146695434,
+  "served_scope": "C RESEARCH ONLY;12 decisions/48 products/25 expired-current-use retained forecasts; original website unchanged",
+  "served_receipt": "site/served/SERVED_CONSUMER_RECEIPT.json"
 }
