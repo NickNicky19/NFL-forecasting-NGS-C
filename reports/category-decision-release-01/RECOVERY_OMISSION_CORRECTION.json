@@ -1,0 +1,28 @@
+{
+  "id": "C06-PRE-ADMISSION-RECOVERY-OMISSION-v1",
+  "found_UTC": "2026-11-12T02:28:03.443400+00:00",
+  "state": "THREE_REQUIRED_LOCAL_MEMBERS_OMITTED_BY_GENERIC_GITIGNORE_BEFORE_SERVER_ADMISSION",
+  "files": [
+    {
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21"
+    },
+    {
+      "path": "reports/category-decision-release-01/W1_W8_COVERAGE.csv.gz",
+      "bytes": 452320,
+      "SHA256": "16d30bcace7d9359a47fb9d0368b6b872a3924add1d33635461cee78272083e1"
+    },
+    {
+      "path": "reports/category-decision-release-01/evidence/RETAINED_W1_W8_COVERAGE.csv.gz",
+      "bytes": 411223,
+      "SHA256": "bebd8e974a88c9fb61922c104d17bd7eb67d66180d8067987240f39320147dda"
+    }
+  ],
+  "cause": "Generic *.csv.gz rule; input manifest and projections were correct locally, but initial publication did not contain these members.",
+  "repair": "Three exact public ordinary-input/aggregate-path exceptions only. General ignore/private/model guards and byte caps unchanged.",
+  "prediction_grade_or_qualification_change": false,
+  "re_inference_required": false,
+  "first_capture_commit": "568bb95",
+  "server_admission_before_fix": false
+}
