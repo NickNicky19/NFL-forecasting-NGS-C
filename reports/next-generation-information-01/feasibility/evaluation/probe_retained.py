@@ -59,7 +59,10 @@ def run():
               "src/context_native_queries_c01.py", "src/context_report_c01.py",
               "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json"]:
         bindings[p] = {"path": p, "bytes": (ROOT / p).stat().st_size, "SHA256": sha(p)}
-    protocol = bind("reports/abc-championship/CURRENT_PROTOCOL.json")
+    # CURRENT_PROTOCOL is a mutable discovery pointer that this package updates.
+    # Bind the actual immutable protocol/scorer/population bytes below, avoiding
+    # a circular whole-file commitment to the receipt pointing back to us.
+    protocol = read("reports/abc-championship/CURRENT_PROTOCOL.json")
     for key in ["protocol", "scorer", "population_offers_outcomes"]:
         b = protocol[key]
         assert sha(b["path"]) == b["SHA256"]
@@ -163,6 +166,7 @@ def run():
         "resources": {"feasibility_CPU_seconds": time.process_time() - started, "feasibility_peak_RSS_bytes": resource.getrusage(resource.RUSAGE_SELF).ru_maxrss * 1024,
                       "maximum_CPU_seconds": 90, "maximum_RSS_bytes": 1073741824, "maximum_new_retention_bytes": 1048576,
                       "network": 0, "new_fits": 0, "new_inference": 0, "new_NFL_scoring": 0},
+        "coordination_binding_scope": "CURRENT_PROTOCOL used for discovery only; exact protocol/scorer/population dependencies are individually hash-verified. The task updates its own node in that mutable pointer.",
         "bindings": list(bindings.values())}
     OUT.mkdir(parents=True, exist_ok=True)
     p = OUT / "EVALUATION_FEASIBILITY.json"

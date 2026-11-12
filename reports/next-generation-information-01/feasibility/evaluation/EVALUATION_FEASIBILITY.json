@@ -1,6 +1,6 @@
 {
   "id": "C-NEXTINFO-EVALUATION-FEASIBILITY-v1",
-  "checked_UTC": "2026-11-12T18:00:24.024888+00:00",
+  "checked_UTC": "2026-11-12T18:07:37.337787+00:00",
   "status": "EVALUATION_READY_PERSONNEL_SOURCE_BLOCKED_NO_NEW_FIT",
   "scope": "Standard-library read/hash/inventory of retained evidence. No predictors, author graders, fits, raw transfer, source collection or new NFL scoring.",
   "native_panel": {
@@ -858,8 +858,8 @@
     "independent_next_action": "Preserve prospective observations with real clocks, event-effective roster/status unknowns and existing source owner; no duplicate collector. Existing numerical/direction delivery remains independent."
   },
   "resources": {
-    "feasibility_CPU_seconds": 0.708063576,
-    "feasibility_peak_RSS_bytes": 117366784,
+    "feasibility_CPU_seconds": 2.0450060050000003,
+    "feasibility_peak_RSS_bytes": 117501952,
     "maximum_CPU_seconds": 90,
     "maximum_RSS_bytes": 1073741824,
     "maximum_new_retention_bytes": 1048576,
@@ -868,6 +868,7 @@
     "new_inference": 0,
     "new_NFL_scoring": 0
   },
+  "coordination_binding_scope": "CURRENT_PROTOCOL used for discovery only; exact protocol/scorer/population dependencies are individually hash-verified. The task updates its own node in that mutable pointer.",
   "bindings": [
     {
       "path": "reports/player-context-matchup-01/v1.1/RUN.json",
@@ -943,11 +944,6 @@
       "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json",
       "bytes": 2024,
       "SHA256": "6981749586e6d31c34370a92f29c8e2e584d60afc03028d9aae9583178f59bd7"
-    },
-    {
-      "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-      "bytes": 78803,
-      "SHA256": "85f535b4f2051deafc24d5f9000f7843d1610e3c4b1e1c9db11646ac02f70ccd"
     },
     {
       "path": "reports/abc-championship/PROTOCOL-v2-C-1.json",

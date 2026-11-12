@@ -28,8 +28,8 @@
     },
     {
       "path": "reports/next-generation-information-01/feasibility/evaluation/EVALUATION_FEASIBILITY.json",
-      "bytes": 34761,
-      "SHA256": "4b49eb7a86c8bb670494dddf00a048083bcba6215966ee82d680419206568724"
+      "bytes": 34796,
+      "SHA256": "9eb0bb48e2fe23cde01eb66b9f1734fdf2aa4d0b149cf4cb0135c765e07d6613"
     }
   ],
   "invariance": {
@@ -39,5 +39,6 @@
     "production_changed": false
   },
   "limits": "Software contracts and retained-row arithmetic are not predictive gain, new NFL observations, raw-source restoration or external B review.",
-  "formatting_and_bindings": "Authored CSV normalized to LF; exact B upstream Git blob verified; source/report manifests refreshed after reproduction receipts. git diff --check passes."
+  "formatting_and_bindings": "Authored CSV normalized to LF; exact B upstream Git blob verified; source/report manifests refreshed after reproduction receipts. git diff --check passes.",
+  "binding_scope": "Mutable coordinator pointer is discovery only; exact protocol/scorer/population dependencies are individually bound, avoiding a circular hash through this receipt."
 }
