@@ -1,0 +1,674 @@
+{
+  "CountA_actual_consumer_active_rows": 0,
+  "MAE_display_feed_status": 404,
+  "actual_saved_top_payload": {
+    "SHA256": "2c8e17cac1738181cedb8adf54f1f82fe583608b4f55ba02542721ff4e2437f4",
+    "over": 12,
+    "policy": {
+      "categories": {
+        "pass_att": {
+          "lean": 1,
+          "minimum_line": 20.5,
+          "scale": 3
+        },
+        "pass_cmp": {
+          "lean": 0.8,
+          "minimum_line": 12.5,
+          "scale": 2.5
+        },
+        "pass_int": {
+          "lean": 0.12,
+          "minimum_line": 0.5,
+          "scale": 0.5
+        },
+        "pass_td": {
+          "lean": 0.15,
+          "minimum_line": 0.5,
+          "scale": 0.6
+        },
+        "pass_yd": {
+          "lean": 8,
+          "minimum_line": 150.5,
+          "scale": 30
+        },
+        "rec": {
+          "lean": 0.3,
+          "minimum_line": 1.5,
+          "scale": 1.2
+        },
+        "rec_yd": {
+          "lean": 4,
+          "minimum_line": 15.5,
+          "scale": 12
+        },
+        "rush_att": {
+          "lean": 0.8,
+          "minimum_line": 6.5,
+          "scale": 3
+        },
+        "rush_rec_yd": {
+          "lean": 5,
+          "minimum_line": 25.5,
+          "scale": 15
+        },
+        "rush_yd": {
+          "lean": 4,
+          "minimum_line": 15.5,
+          "scale": 12
+        }
+      },
+      "fallback": "same-opportunity reference identified by forecast_source and model_version; unavailable is never zero",
+      "meaning": "descriptive scaled forecast gap, not win probability or EV",
+      "minimum_games": 2,
+      "minimum_projected_ppr": {
+        "QB": 10,
+        "RB": 6,
+        "TE": 6,
+        "WR": 6
+      },
+      "minimum_score": 0.35,
+      "minimum_snap_share": 0.5,
+      "projection_line_ratio": [
+        0.4,
+        2.5
+      ],
+      "tie_order": [
+        "absolute_score_desc",
+        "game_id",
+        "player_id",
+        "category"
+      ],
+      "top_n": 12,
+      "unavailable": [
+        "Out",
+        "IR",
+        "PUP",
+        "Suspended",
+        "NA",
+        "Doubtful",
+        "COV",
+        "DNR"
+      ],
+      "version": "selected-projection-gap-classic-presence-v2"
+    },
+    "research_rows": 0,
+    "rows": 24,
+    "under": 12
+  },
+  "actual_served_meta": {
+    "execution_model": {
+      "capture_schema": "baseline-capture-classic-presence-v2",
+      "engine_sha256": {
+        "pull/books.py": "0b89744960136a4f2e594b61e6df754d357706d8c66a8ae359d8eb02bbfa53f8",
+        "pull/build.py": "b83126080149f2f0705682d1c0be0a8ee87610ebb0a88cd57b94b8a82b63ad73",
+        "pull/gamemodel.py": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f",
+        "pull/grade.py": "afd1310d708def4f400e6bf84e981e2edc7635dc946a63571022203c1d3ae735",
+        "pull/matchup.py": "eaf627730041060ad16dd9930accfe54a54cf5fb49bb42d18680b5c572ddd7a5",
+        "pull/news.py": "17ce1b3b6b72694e6b543bd767e287c26a9d1f6dd5dba2de6c873543036842e9",
+        "pull/scoring.py": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d",
+        "pull/sources.py": "36555cdbc55d73ba632d5adae1130288f4f532073857c642ac3ebc7e626b0061"
+      },
+      "grading_version": "statistical-presence-strict-v5-20261106",
+      "model": "sleeper-matchup-classic-presence-strict-v2",
+      "normalized_stats_cache": "stat-keys-presence-strict-v3",
+      "original_shadow_model": "original_sleeper_matchup_baseline",
+      "original_shadow_procedure": "original-builder-default-refresh-v1",
+      "original_shadow_source": "89512ed952308dacc1f6a930915ddbcdccd460d9",
+      "schema_version": "weekly-classic-presence-execution-v2"
+    },
+    "generated_at": "2026-11-12T04:31:02Z",
+    "season": 2026,
+    "week": 10
+  },
+  "category_records": [
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "pass_yd",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "KEEP_INCUMBENT"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "BLOCKED",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "pass_td",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "BLOCKED"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "pass_cmp",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "SHADOW"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "KEEP_INCUMBENT",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "pass_att",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "KEEP_INCUMBENT"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "pass_int",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "SHADOW"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "KEEP_INCUMBENT",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "rush_yd",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "KEEP_INCUMBENT"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "rush_att",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "SHADOW"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "rec",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "SHADOW"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "rec_yd",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "KEEP_INCUMBENT"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "SHADOW",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "active_baseline_trace": "app.propChip:selected ? effectiveGap?.lean : prop.lean; unedited detail starts prop.lean",
+      "category": "rush_rec_yd",
+      "category_direction": "Current no-selected-row branch renders serialized prop.lean. selectedPropGap is the selected-only override and also serves filtering/sorting; edited customlines have an explicit margin branch.",
+      "display": "sleeper-matchup-classic-presence-strict-v2:prop.adj/reference_point",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "owner_reported_selected_override_direction": "production selectedPropGap category margin/abstention, distinct from strict challenger point-v-line",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "selected_override_trace": "selected && !selected.binary -> selectedPropGap(...).lean; not activated by empty overlay",
+      "website_actual_primary": "sleeper-matchup-classic-presence-strict-v2",
+      "website_operational_candidate_disposition": "KEEP_INCUMBENT"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "ABSTAIN",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "category": "anytime_td",
+      "category_direction": "No new exact offered-direction research product admitted",
+      "display": "finite projection plus guarded td_chance; explicitly uncalibrated",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "website_actual_primary": "Guarded uncalibrated baseline td_chance, not a new offered-direction product",
+      "website_operational_candidate_disposition": "ABSTAIN"
+    },
+    {
+      "C_scientific_review_snapshot_decision": "ABSTAIN",
+      "Top_Picks": "selected-projection-gap-classic-presence-v2:genuine CURRENT_BASELINE/reference_point inputs; research mapping not activated",
+      "category": "nick-chart-ppr-v1",
+      "category_direction": "No new exact offered-direction research product admitted",
+      "display": "exact contract NOT_ADMITTED",
+      "fallback": "existing model sparse/missing behavior, strict-presence/null handling, stale age shown; original records retained",
+      "operational_effect": "No research activation; incumbent operational branch retained. Scientific SHADOW review does not mean public replacement.",
+      "probability": "NO_CALIBRATED_CONFIDENCE_OR_EV; no probability derived from gap/history",
+      "research_primary_rows": 0,
+      "website_actual_primary": "NOT_ADMITTED; league-scoring PPR separate",
+      "website_operational_candidate_disposition": "ABSTAIN"
+    }
+  ],
+  "main": "869d9a8839ae83dfccdb3bbb6610a0e0df867667",
+  "new_C_browser_run": false,
+  "observed_UTC": "2026-11-12T06:32:27.334582+00:00",
+  "original_site_write_or_dispatch": false,
+  "owner_fresh_browser_scope": {
+    "check_count": 112,
+    "checks": [
+      "390 generated",
+      "390 model",
+      "390 policy",
+      "390 caption",
+      "390 nooverflow",
+      "390overvalues/sides/order",
+      "390undervalues/sides/order",
+      "390anytime_tdvalue",
+      "390anytime_tdsource",
+      "390anytime_tdselected",
+      "390anytime_tdindependentMAE",
+      "390pass_attvalue",
+      "390pass_attsource",
+      "390pass_attselected",
+      "390pass_attindependentMAE",
+      "390pass_cmpvalue",
+      "390pass_cmpsource",
+      "390pass_cmpselected",
+      "390pass_cmpindependentMAE",
+      "390pass_intvalue",
+      "390pass_intsource",
+      "390pass_intselected",
+      "390pass_intindependentMAE",
+      "390pass_tdvalue",
+      "390pass_tdsource",
+      "390pass_tdselected",
+      "390pass_tdindependentMAE",
+      "390pass_ydvalue",
+      "390pass_ydsource",
+      "390pass_ydselected",
+      "390pass_ydindependentMAE",
+      "390recvalue",
+      "390recsource",
+      "390recselected",
+      "390recindependentMAE",
+      "390rec_ydvalue",
+      "390rec_ydsource",
+      "390rec_ydselected",
+      "390rec_ydindependentMAE",
+      "390rush_attvalue",
+      "390rush_attsource",
+      "390rush_attselected",
+      "390rush_attindependentMAE",
+      "390rush_rec_ydvalue",
+      "390rush_rec_ydsource",
+      "390rush_rec_ydselected",
+      "390rush_rec_ydindependentMAE",
+      "390rush_ydvalue",
+      "390rush_ydsource",
+      "390rush_ydselected",
+      "390rush_ydindependentMAE",
+      "390Chicagokickoff",
+      "390fresh current payload",
+      "390customline",
+      "390savedreload",
+      "390pageerrors",
+      "1280 generated",
+      "1280 model",
+      "1280 policy",
+      "1280 caption",
+      "1280 nooverflow",
+      "1280overvalues/sides/order",
+      "1280undervalues/sides/order",
+      "1280anytime_tdvalue",
+      "1280anytime_tdsource",
+      "1280anytime_tdselected",
+      "1280anytime_tdindependentMAE",
+      "1280pass_attvalue",
+      "1280pass_attsource",
+      "1280pass_attselected",
+      "1280pass_attindependentMAE",
+      "1280pass_cmpvalue",
+      "1280pass_cmpsource",
+      "1280pass_cmpselected",
+      "1280pass_cmpindependentMAE",
+      "1280pass_intvalue",
+      "1280pass_intsource",
+      "1280pass_intselected",
+      "1280pass_intindependentMAE",
+      "1280pass_tdvalue",
+      "1280pass_tdsource",
+      "1280pass_tdselected",
+      "1280pass_tdindependentMAE",
+      "1280pass_ydvalue",
+      "1280pass_ydsource",
+      "1280pass_ydselected",
+      "1280pass_ydindependentMAE",
+      "1280recvalue",
+      "1280recsource",
+      "1280recselected",
+      "1280recindependentMAE",
+      "1280rec_ydvalue",
+      "1280rec_ydsource",
+      "1280rec_ydselected",
+      "1280rec_ydindependentMAE",
+      "1280rush_attvalue",
+      "1280rush_attsource",
+      "1280rush_attselected",
+      "1280rush_attindependentMAE",
+      "1280rush_rec_ydvalue",
+      "1280rush_rec_ydsource",
+      "1280rush_rec_ydselected",
+      "1280rush_rec_ydindependentMAE",
+      "1280rush_ydvalue",
+      "1280rush_ydsource",
+      "1280rush_ydselected",
+      "1280rush_ydindependentMAE",
+      "1280Chicagokickoff",
+      "1280fresh current payload",
+      "1280customline",
+      "1280savedreload",
+      "1280pageerrors"
+    ],
+    "direct": {
+      "state": "NOT_REPEATED_PRIOR_CERTIFICATE_FAILURE_NO_BYPASS"
+    },
+    "head": "869d9a8839ae83dfccdb3bbb6610a0e0df867667",
+    "method": "CA_VERIFIED_SERVED_BYTE_REPLAY;directattemptseparatelyreported",
+    "new_model_activation": 0,
+    "state": "PASS",
+    "widths": [
+      {
+        "health": "Build age: 5 minutes. Individual quote timestamps are not verified. Projection gaps are not win probabilities or expected value.",
+        "kickoff": "Thu 7:15 PM",
+        "samples": [
+          {
+            "actual": 0.711,
+            "category": "anytime_td",
+            "direction": null,
+            "expected": 0.711,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "category": "fpts",
+            "state": "UNAVAILABLE_PROP_PRODUCT"
+          },
+          {
+            "actual": 31.96,
+            "category": "pass_att",
+            "direction": "over",
+            "expected": 31.96,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 19.21,
+            "category": "pass_cmp",
+            "direction": null,
+            "expected": 19.21,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 0.37,
+            "category": "pass_int",
+            "direction": "under",
+            "expected": 0.37,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 1.71,
+            "category": "pass_td",
+            "direction": "over",
+            "expected": 1.71,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 235.71,
+            "category": "pass_yd",
+            "direction": null,
+            "expected": 235.71,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 4.53,
+            "category": "rec",
+            "direction": "over",
+            "expected": 4.53,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 29.7,
+            "category": "rec_yd",
+            "direction": null,
+            "expected": 29.7,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 16.9,
+            "category": "rush_att",
+            "direction": "under",
+            "expected": 16.9,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 111.96,
+            "category": "rush_rec_yd",
+            "direction": "under",
+            "expected": 111.96,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 44.68,
+            "category": "rush_yd",
+            "direction": "over",
+            "expected": 44.68,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          }
+        ],
+        "width": 390
+      },
+      {
+        "health": "Build age: 5 minutes. Individual quote timestamps are not verified. Projection gaps are not win probabilities or expected value.",
+        "kickoff": "Thu 7:15 PM",
+        "samples": [
+          {
+            "actual": 0.711,
+            "category": "anytime_td",
+            "direction": null,
+            "expected": 0.711,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "category": "fpts",
+            "state": "UNAVAILABLE_PROP_PRODUCT"
+          },
+          {
+            "actual": 31.96,
+            "category": "pass_att",
+            "direction": "over",
+            "expected": 31.96,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 19.21,
+            "category": "pass_cmp",
+            "direction": null,
+            "expected": 19.21,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 0.37,
+            "category": "pass_int",
+            "direction": "under",
+            "expected": 0.37,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 1.71,
+            "category": "pass_td",
+            "direction": "over",
+            "expected": 1.71,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 235.71,
+            "category": "pass_yd",
+            "direction": null,
+            "expected": 235.71,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 4.53,
+            "category": "rec",
+            "direction": "over",
+            "expected": 4.53,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 29.7,
+            "category": "rec_yd",
+            "direction": null,
+            "expected": 29.7,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 16.9,
+            "category": "rush_att",
+            "direction": "under",
+            "expected": 16.9,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 111.96,
+            "category": "rush_rec_yd",
+            "direction": "under",
+            "expected": 111.96,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          },
+          {
+            "actual": 44.68,
+            "category": "rush_yd",
+            "direction": "over",
+            "expected": 44.68,
+            "mae": null,
+            "selected": null,
+            "source": "CURRENT_BASELINE"
+          }
+        ],
+        "width": 1280
+      }
+    ]
+  },
+  "schema": "C-FINAL-MILE-WEBSITE-LIVE-BINDINGS-v1",
+  "scientific_review_snapshot": {
+    "SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636",
+    "path": "docs/data/category-decisions-c06.json",
+    "scope": "Existing C research consumer snapshot, not a new master ranking."
+  },
+  "served_byte_checks_are_not_C_DOM_checks": true,
+  "served_receipts": "SERVED_READ_RECEIPTS.json",
+  "source_overlay": {
+    "SHA256": "115e63f6e259af0e9982518bf30b9e40a1527f43522a9f3555986ca96ed9c13b",
+    "rows": 0,
+    "state": "DISABLED_USE_R0"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "entries": [
+    {
+      "URL": "https://api.github.com/repos/NickNicky19/nicks-expert-nfl-picks/issues/1/comments?since=2026-11-12T02%3A15%3A00Z&per_page=100",
+      "normalized_SHA256": "7377a5b128c3a0d85f288f3f58881b428d007dee465994411eca2020b13dde8e",
+      "normalized_bytes": 134713,
+      "read": 1,
+      "retained_SHA256": "d1f3ae867d2bbb355ecd0bbee92c18891df3b342276482d2aa64ca8fec1a08ec",
+      "retained_bytes": 134715,
+      "retained_path": "SOURCE_RECENT_COMMENTS.json"
+    },
+    {
+      "URL": "https://api.github.com/repos/NickNicky19/nicks-expert-nfl-picks/git/ref/heads/main",
+      "normalized_SHA256": "caeac381daa1562ca05a90a01e1662a9b2f564e6e502b48fdbe405968a4d9523",
+      "normalized_bytes": 366,
+      "read": 2,
+      "retained_SHA256": "8472836aa0bb928c39ae8f2e6d1a24d8ff37a14c8245348483d92101810a3d68",
+      "retained_bytes": 368,
+      "retained_path": "SOURCE_MAIN_REF.json"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/869d9a8839ae83dfccdb3bbb6610a0e0df867667/output/data/weekly-adaptive-overlay.json",
+      "normalized_SHA256": "da0d7b32d063ae5dc9441ac1c48bc150c6db3deac3e0066d9dd84d162976f24e",
+      "normalized_bytes": 333,
+      "read": 3,
+      "retained_SHA256": "2485321b185390b145e305f1f88bf297d7b220811742132162da95a6f332d557",
+      "retained_bytes": 335,
+      "retained_path": "SOURCE_CURRENT_OVERLAY_POINTER.json"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/869d9a8839ae83dfccdb3bbb6610a0e0df867667/output/data/weekly-selected-rankings.json",
+      "normalized_SHA256": "abcc95f2843a22322b8e33d4d6ae27898ad7146f4e8d877e31859de01c93b2b3",
+      "normalized_bytes": 474,
+      "read": 4,
+      "retained_SHA256": "f465a96451e32f6a9ff2d9d27174eebec006c43610a1069a44a9b2fee6e5e090",
+      "retained_bytes": 476,
+      "retained_path": "SOURCE_CURRENT_TOP_POINTER.json"
+    },
+    {
+      "URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/869d9a8839ae83dfccdb3bbb6610a0e0df867667/output/data/meta.json",
+      "normalized_SHA256": "f2978954d61508d17f9934502acd73b37ce1a0dcd1d6cae1528421fdeec1af9f",
+      "normalized_bytes": 1249,
+      "read": 5,
+      "retained_SHA256": "af8d14bf220c982408e479fac57ded576c7bdc3846ae05c56c94bc70619ed07b",
+      "retained_bytes": 1251,
+      "retained_path": "SOURCE_CURRENT_META.json"
+    },
+    {
+      "HTTP_status": 200,
+      "SHA256": "f2978954d61508d17f9934502acd73b37ce1a0dcd1d6cae1528421fdeec1af9f",
+      "TLS": "DEFAULT_VERIFIED_NO_BYPASS",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/meta.json",
+      "bytes": 1249,
+      "headers": {
+        "age": "0",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 12 Nov 2026 06:28:17 GMT",
+        "etag": "\"6af54118-4e1\"",
+        "last-modified": "Thu, 12 Nov 2026 04:31:20 GMT"
+      },
+      "name": "META",
+      "normalized_bytes": 1249,
+      "observed_UTC": "2026-11-12T06:28:17.193449+00:00",
+      "read": 6,
+      "retained_path": "SERVED_META.json"
+    },
+    {
+      "HTTP_status": 200,
+      "SHA256": "115e63f6e259af0e9982518bf30b9e40a1527f43522a9f3555986ca96ed9c13b",
+      "TLS": "DEFAULT_VERIFIED_NO_BYPASS",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-adaptive/115e63f6e259af0e9982518bf30b9e40a1527f43522a9f3555986ca96ed9c13b.json",
+      "bytes": 763,
+      "headers": {
+        "age": "0",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 12 Nov 2026 06:28:17 GMT",
+        "etag": "\"6af54118-2fb\"",
+        "last-modified": "Thu, 12 Nov 2026 04:31:20 GMT"
+      },
+      "name": "OVERLAY_LEAF",
+      "normalized_bytes": 763,
+      "observed_UTC": "2026-11-12T06:28:17.486677+00:00",
+      "read": 7,
+      "retained_path": "SERVED_OVERLAY_LEAF.json"
+    },
+    {
+      "HTTP_status": 200,
+      "SHA256": "2c8e17cac1738181cedb8adf54f1f82fe583608b4f55ba02542721ff4e2437f4",
+      "TLS": "DEFAULT_VERIFIED_NO_BYPASS",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-selected-rankings/2c8e17cac1738181cedb8adf54f1f82fe583608b4f55ba02542721ff4e2437f4.json",
+      "bytes": 11936,
+      "headers": {
+        "age": "0",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Thu, 12 Nov 2026 06:28:17 GMT",
+        "etag": "\"6af54118-2ea0\"",
+        "last-modified": "Thu, 12 Nov 2026 04:31:20 GMT"
+      },
+      "name": "TOP_LEAF",
+      "normalized_bytes": 11936,
+      "observed_UTC": "2026-11-12T06:28:17.714940+00:00",
+      "read": 8,
+      "retained_path": "SERVED_TOP_LEAF.json"
+    },
+    {
+      "HTTP_status": 200,
+      "SHA256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f",
+      "TLS": "DEFAULT_VERIFIED_NO_BYPASS",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/app.js",
+      "bytes": 367950,
+      "headers": {
+        "age": "0",
+        "content-type": "application/javascript; charset=utf-8",
+        "date": "Thu, 12 Nov 2026 06:28:18 GMT",
+        "etag": "\"6af54118-59d4e\"",
+        "last-modified": "Thu, 12 Nov 2026 04:31:20 GMT"
+      },
+      "name": "APP",
+      "normalized_bytes": 367950,
+      "observed_UTC": "2026-11-12T06:28:17.891864+00:00",
+      "read": 9,
+      "retained_path": "SERVED_APP.js"
+    },
+    {
+      "HTTP_status": 404,
+      "SHA256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+      "TLS": "DEFAULT_VERIFIED_NO_BYPASS",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-mae-display.json",
+      "bytes": 9379,
+      "headers": {
+        "age": "0",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Thu, 12 Nov 2026 06:28:18 GMT",
+        "etag": "\"6abd0db9-24a3\""
+      },
+      "name": "MAE_DISPLAY",
+      "normalized_bytes": 9379,
+      "observed_UTC": "2026-11-12T06:28:18.138815+00:00",
+      "read": 10,
+      "retained_path": "SERVED_MAE_DISPLAY.error.txt"
+    }
+  ],
+  "finalized_UTC": "2026-11-12T06:32:27.334582+00:00",
+  "helper_failure": "New receipt fenced block is rawbase64(XZ), notJSON transport. Initial JSON parsing failed locally; decoded as documented, verified both exact hashes; no refetch.",
+  "no_polling": true,
+  "normalized_bytes": 528412,
+  "reads": 10,
+  "schema": "C-FINAL-MILE-WEBSITE-READ-LEDGER-v1",
+  "terminal_current_route_pass_complete": true,
+  "unused_registered_reads": 2
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "C-FINAL-MILE-WEBSITE-READ-PLAN-v1",
+  "registered_UTC": "2026-11-12T06:26:23.040113+00:00",
+  "scope": "Read-only original-site current receipts, exact currentfeed/pointer/consumer stages and fifthselectorweek receipt; no replay/producer/model/site mutation.",
+  "requests_max": 12,
+  "normalized_bytes_max": 8388608,
+  "retained_bytes_max": 2097152,
+  "CPU_seconds_max": 90,
+  "RSS_bytes_max": 1073741824,
+  "previous_source_comments": [
+    6812058949,
+    6812397309
+  ],
+  "previous_website_HEAD": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+  "previous_actualservedmeta_UTC": "2026-11-12T04:20:36.377313+00:00",
+  "no_polling": "One bounded current route pass; no repeatedstatuspoll.",
+  "producer_PR88": "Separate native/source execution owner; C does not duplicate."
+}

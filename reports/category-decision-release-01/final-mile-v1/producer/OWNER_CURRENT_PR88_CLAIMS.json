@@ -1,0 +1,42 @@
+{
+  "id": "C_RECEIVED_OWNER_CURRENT_PR88_CLAIMS_V1",
+  "source": "ActualreceivedLATEST_PR88_STATUS_RESPONSE body; owner-reported, not independentlyreproducedCproof",
+  "head": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd",
+  "original_observation": "2026-11-12T06:58:56.589743+00:00",
+  "scoped_metadata_defect": {
+    "old_head": "af405c4604f6eac935e594f1acd3ab492eef412c",
+    "owner_reproduction": "COUNT_A_ORIGINAL_RECIPE rejection: addednewline in canonicalrecipe hash, original no-newline",
+    "corrected_head": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd",
+    "procedure": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "prediction_recipe_changed_claim": false,
+    "original_proof_bytes": 26032,
+    "original_FIT_START_bytes": 5968,
+    "tests_reported": 22,
+    "subtests_reported": 12,
+    "C_counterexample_execution": false,
+    "C_newsource_or_privateproof_inspected": false
+  },
+  "current_CI": {
+    "run": 43169607018,
+    "owner_reported_state_in_receivedbody": "running",
+    "independent_current_run_query": false,
+    "old_successful_af405_run": 43163271248,
+    "old_success_scope": "HistoricalexactheadsourceCI only, not newhead or genuinemetadataacceptance"
+  },
+  "owner_reported_remaining_dependency": {
+    "condition": "main points to absent source-bound bootstrap registration; main/producer executablepins mustmatch",
+    "existing_route": [
+      "CONTROLLER_REGISTRATION",
+      "restore/seal",
+      "create-only registration"
+    ],
+    "C_independent_registration_check": false,
+    "executor": "Codex A and existing authorized registeredproducer owner; noCtakeover"
+  },
+  "named_new_bindings": [
+    "reports/abc-championship/final-mile-producer-delivery-01/producer/COUNTA_FIT_ENCODER_FIX_SOURCE_MANIFEST_V1.json",
+    "reports/abc-championship/final-mile-producer-delivery-01/review/COUNTA_ENCODING_INDEPENDENT_REVIEW_V1.json"
+  ],
+  "new_fit_inference_packet_or_scoredweek_claimed": false,
+  "raw_body_SHA256": "59930a4998f13c227b3141adff494b1431f793e3c6f16113b109c98c4ae543b0"
+}

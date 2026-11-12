@@ -1,0 +1,243 @@
+{
+  "id": "C_FINAL_MILE_PUBLIC_PR88_SOURCE_CHECK_V1",
+  "UTC": "2026-11-12T06:32:19.369105+00:00",
+  "reviewer": "C /root/category_peer_intake/final_mile_source_check; distinct local verification, not an A/B acknowledgment",
+  "verdict": "PASS_PUBLIC_IDENTITY_AND_INSPECTED_SOURCE_CONTRACT;NATIVE_CURRENT_EXECUTION_UNKNOWN",
+  "PR": {
+    "url": "https://github.com/NickNicky19/NFL-forecasting/pull/88",
+    "head": "af405c4604f6eac935e594f1acd3ab492eef412c",
+    "base": "fa91988e65939d2b3516371a90a6380aeee3acb3",
+    "state": "open",
+    "draft": true,
+    "merged": false
+  },
+  "checked_scope": {
+    "API_changed_files": 20,
+    "complete_added_file_reconstructions": 11,
+    "all_reconstruction_and_retained_hashes_pass": true,
+    "manifest_files": 15,
+    "manifest_total_bytes_recomputed": 654202,
+    "manifest_Git_blobs_matched_to_API_changedfiles": 13,
+    "all_changed_manifest_blobs_match": true,
+    "full_unmodified_base_sources_not_refetched": [
+      {
+        "path": "nfl_lab/audit_weekly_public_v1.py",
+        "manifest_equals_base": true,
+        "scope": "Not a changed PR file; owner restored-base assertion received, full base file not separately fetched by this reviewer."
+      },
+      {
+        "path": "nfl_lab/weekly_mae_display_profile_v1.py",
+        "manifest_equals_base": true,
+        "scope": "Not a changed PR file; owner restored-base assertion received, full base file not separately fetched by this reviewer."
+      }
+    ],
+    "AST_only_parsed_modules": [
+      "adapter",
+      "extension",
+      "corrector"
+    ],
+    "NFL_model_loads": 0,
+    "fits": 0,
+    "inference": 0,
+    "synthetic_tests_rerun": 0,
+    "HTTP_reads": 0
+  },
+  "reconstructed_files": [
+    {
+      "path": "docs/count-a-native-shadow-v1.md",
+      "bytes": 5529,
+      "sha256": "41df5c93f6edae84531996643346189b40547b2a77689f9f1cfbba8082a8bc1c",
+      "git_blob_sha1": "9e8ef289b8bf7c5f6e70eab47ede14f9ee8a6e05",
+      "PASS": true
+    },
+    {
+      "path": "nfl_lab/count_a_mean_export_adapter_v1.py",
+      "bytes": 3460,
+      "sha256": "a3b44ee5c7937e830d0c2693d3fa55b0fed52c9cba51ae5058c04b2e7075b527",
+      "git_blob_sha1": "8ddba67130cc8085cb9c018c1a955f6fefd84329",
+      "PASS": true
+    },
+    {
+      "path": "nfl_lab/count_a_native_extension_v1.py",
+      "bytes": 18733,
+      "sha256": "dec10328c7811d788c4b605a4098d01e8f95ab99dca3455b547cc699e7686008",
+      "git_blob_sha1": "69a3d44a656e00c739ffe08a3cfd680c688d2450",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/producer/COUNT_A_NATIVE_REVIEW_SOURCE_MANIFEST_V1.json",
+      "bytes": 7585,
+      "sha256": "19257c15ce673207e4398dc6ee0f605244256f406340e4a23af492cf5044b654",
+      "git_blob_sha1": "10b44377de40b2e43b3672f7d3c77b626fd45eb5",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/producer/COUNT_A_NATIVE_REVIEW_SOURCE_MANIFEST_V2.json",
+      "bytes": 12256,
+      "sha256": "35015b318c2cc31bf71f068cf21758acf3f62148ef5cb350583d6696378d21f6",
+      "git_blob_sha1": "2135bc06a092e98542f9904247df9a053ba792d3",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/review/COUNTA_DATA_CONTRACT_REVIEW_V1.json",
+      "bytes": 14225,
+      "sha256": "efd053c2d78eb29154ae5f80dd2790b2264cd8d792935b3160df807cddbe60ee",
+      "git_blob_sha1": "14a1d2772b2cdf4e69e2756701b75c03f72214f3",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/review/COUNTA_DATA_CONTRACT_REVIEW_V2.json",
+      "bytes": 18199,
+      "sha256": "dc63bc7987ae2870dd4dab13592a2f181f3917e2d8ba3420665f2645da2b7bbb",
+      "git_blob_sha1": "979271c1b0e16ce14cbbfaf74f74f9e04eb5bbf3",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/review/COUNTA_NATIVE_PREEXEC_INDEPENDENT_REVIEW_V3.json",
+      "bytes": 14531,
+      "sha256": "c9adcd5608d8b2d4053c6f3725880b8555177f32a33cf84a12ae735527153cdb",
+      "git_blob_sha1": "2e40156db5952083465655d8733d3430825a88ec",
+      "PASS": true
+    },
+    {
+      "path": "reports/abc-championship/follow-through-release-defensive-source-01/review/COUNTA_NATIVE_PREEXEC_INDEPENDENT_REVIEW_V4.json",
+      "bytes": 23049,
+      "sha256": "d568d42fdce30b178432f9eaa98793fd290a57075d09ea2579ef5d120945b00d",
+      "git_blob_sha1": "1ae7b8319f25372da89dfb82c5a40f2c349ef90b",
+      "PASS": true
+    },
+    {
+      "path": "tests/test_count_a_native_extension_v1.py",
+      "bytes": 14677,
+      "sha256": "5bf6ce70469b0eca687f61de627dac3103486c2a970e40c62006071ca3ce1462",
+      "git_blob_sha1": "0ff90b9b720b99175d51cebbd510f73f09c8ae08",
+      "PASS": true
+    },
+    {
+      "path": "tools/modern_count_a_mean_v3.py",
+      "bytes": 31195,
+      "sha256": "aa7c002506b57d7c1ca643f4236e5fb8b5132bebb00ad86720ee11221b6d9fb6",
+      "git_blob_sha1": "eeeb2af4c87ad4ffe72cc1df3b9ee35e75e247ae",
+      "PASS": true
+    }
+  ],
+  "manifest_matches": [
+    {
+      "path": "config/weekly-mae-display-core3-v1.json",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "be9900996afa96c23924cfea012e605a2e86c780c0fb2d7264b3840f65685f9b"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_archive_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "17c4fc86b14844339e7601d251fefb228df2ef9b28fb0cd4d050d8cd2d35d97a"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_controller_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "2b2ddb1e035f18003a3b159e232d8bccbf52ed3800093c719808e56015307350"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_delivery_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "e4147a025673ad02af27d31cd2a97d3d3bcb3d246c4d342b882989229ef415d4"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_grade_history_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "40f5e92f132b574206b8260c4fc7eea7e38e3358e40649d192210c2a5bffd48d"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_hosted_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "60a2352a2be574fe45a2e238547cc4c0f07494676740c3d4d91837f0e0a2d479"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_runtime_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "4e7564234c5cf851a74abb7d5a4c505f4e6d74c322d32f2258480544edde2096"
+    },
+    {
+      "path": "nfl_lab/audit_weekly_template_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "0db6b797447598e8297c9adeb33487e9e08f844438f61b698b33b0a8fe3f56e7"
+    },
+    {
+      "path": "nfl_lab/count_a_mean_export_adapter_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": true,
+      "manifest_SHA256": "a3b44ee5c7937e830d0c2693d3fa55b0fed52c9cba51ae5058c04b2e7075b527"
+    },
+    {
+      "path": "nfl_lab/count_a_native_extension_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": true,
+      "manifest_SHA256": "dec10328c7811d788c4b605a4098d01e8f95ab99dca3455b547cc699e7686008"
+    },
+    {
+      "path": "tests/test_count_a_native_extension_v1.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": true,
+      "manifest_SHA256": "5bf6ce70469b0eca687f61de627dac3103486c2a970e40c62006071ca3ce1462"
+    },
+    {
+      "path": "tools/modern_count_a_mean_v3.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": true,
+      "manifest_SHA256": "aa7c002506b57d7c1ca643f4236e5fb8b5132bebb00ad86720ee11221b6d9fb6"
+    },
+    {
+      "path": "tools/persist_state.py",
+      "git_blob_matches_API": true,
+      "full_source_SHA256_independently_recomputed": false,
+      "manifest_SHA256": "bb6c688d60931bffe189794afd3601019b45e49e6d96c24dfd8029d629475058"
+    }
+  ],
+  "adapter_findings": [
+    "Exact f860 procedure and model4d277e... bound, pass_td/count/variantA/QB required.",
+    "Query uses future.query_projection, rejects unknown warm clocks and features at/after cutoff; training cutoff precedes query cutoff.",
+    "Exactly one mean_corrector call in predict_verified_mean; expected_mean and selection_point receive corrected point, legacy_point is audit only.",
+    "Learned mean, trained prior mean and incumbent fallback required are distinctly labeled; probability and EV remain None."
+  ],
+  "native_component_findings": [
+    "Optional closed Root field; exact owned capsule/member census, source config/contract/helper pins, original FIT_START/proof and environment/type checked before trusted model deserialization.",
+    "Capture requires verified native context and current prepared source, writes ROWS/CAPTURE, reads rows back, and requires persistence before cutoff.",
+    "Derived companion requires genuine in-memory LiveAcceptance and sealed owned aliases; Root/body/model/procedure/capsule are rebound to durable rows.",
+    "Public pair is authorized shadow-only: no primary activation or ranking change; expected bytes regenerated from durable alias rows.",
+    "Only source code inspected: no actual current Root, private capsule, native acceptance, current QB source/inference, durable rows, public feed or served consumer established by this reviewer."
+  ],
+  "corrector_function_SHA256": "93f13e25bc9cd763444c28264faa5de7024e27a2aaae6ba88977ebebc446943d",
+  "owner_review_receipts_received": {
+    "data_contract": {
+      "verdict": "PASS_FROZEN_SOURCE_DELTA_SCOPE;REAL_NATIVE_CURRENT_EXECUTION_UNKNOWN",
+      "scientific_status": "No forecast,fit,eligibility,direction or selection procedure changed by this inspected bridge delta. Existing scientific/provisional requirements and oldnegativeevidence preserved; engineeringPASS is not deployment."
+    },
+    "preexec": {
+      "verdict": "PASS_FROZEN_V2_COMPATIBILITY_SOURCE_PIN_AUTHORITY_DURABLE_HANDOFF_DELTA_AND21_SYNTHETIC_TESTS",
+      "scope": "Independent source/path/pin/authority review of manifestV2 and public immutable base source;21synthetic checks rerun. Reused actual hash-bound149/12 legacy verification logs; no149-test rerun, native/model/source-row access or dispatch.",
+      "quick_synthetic_tests_owner_reported": 21
+    },
+    "scope": "Reviews received and source/hash consistency checked; owner software runs not rerun by this C subagent."
+  },
+  "stage_conclusion": {
+    "source_implemented_and_PR_published": true,
+    "CI_success": "PRbody reports run43163271248; API runtime verification belongs parent",
+    "merged_into_registeredbranch": false,
+    "producer_bound_executed_current_feed_served": "UNKNOWN_NOT_PROVED_BY_PR_OR_TESTS"
+  },
+  "next_authorized_owner_action": "A/retained registered executor reviews and accepts exact PR88 successor, supplies actual source-profile/successor Root and original capsule/FIT_START/proof plus qualified current QB source/query, measures full issued Root <=61440 bytes, then executes existing produce/restore/export route under existing authority. C does not merge/dispatch/take over.",
+  "resources": {
+    "CPU_seconds": 0.037557485999999994,
+    "maxRSS_bytes": 16355328,
+    "cap_CPU_seconds": 15,
+    "cap_RSS_bytes": 134217728
+  }
+}

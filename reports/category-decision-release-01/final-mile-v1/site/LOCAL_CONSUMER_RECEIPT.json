@@ -1,0 +1,115 @@
+{
+  "schema": "C-FINAL-MILE-FINAL-READY-HEAD-LOCAL-RECEIPT-v1",
+  "observed_UTC": "2026-11-12T07:05:16.313355+00:00",
+  "status": "PASS_FINAL_LOCAL_METADATA_NOT_SERVED_RELEASE",
+  "data_bytes": 528350,
+  "data_SHA256": "34567dbdc6d0c8a7548a37a7837bf6a2266309fca1bb263463524ebb6ed011c9",
+  "actual_HEAD": "aaeb3c98a25a4e0a762abb5e5db0c3e6b38cbc71",
+  "environment": {
+    "Python": "3.12.14",
+    "Chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+    "timezone": "America/Chicago",
+    "TLS_verification": "ENABLED_NO_IGNORE_FLAGS",
+    "network": "Local C pageassets only; no NFLsourceGET"
+  },
+  "verification": "Bounded final local browser rerender of12 ownrecords/48products/25exactmeanmedianexpiredrows/all12researchvswebsite and PR88READY3156058notdraftOPEN_UNMERGED, previousaf405snapshotclearlyhistorical,nativefeedunverified;33sourcebindinghashes checked. Prior unchanged fullharness filter/failclosed/TopW4 checks retained inV1/local.",
+  "checked": {
+    "own_side_rows_exact": 12,
+    "separate_product_rows": 48,
+    "current_mean_median_rows": 25,
+    "WR_TE": 18,
+    "RB": 7,
+    "actual_expired_rows": 25,
+    "real_offers": 0,
+    "real_selections": 0,
+    "all12_research_website_labels_and_reasons": true,
+    "three_SHADOW_vs_KEEP_explicit": [
+      "pass_yd",
+      "rec_yd",
+      "rush_rec_yd"
+    ],
+    "Top_partition": [
+      2,
+      4,
+      2,
+      0
+    ],
+    "W4_PPR_present_all539": true,
+    "W4_qualified_fifth_week": false,
+    "scientific_fields_unchanged": 108,
+    "source_bindings_hash_checked": 33,
+    "category_role_filters": true,
+    "Chicago_UTC": true,
+    "desktop1440_mobile390": true,
+    "HTTP_checksum_build_binding_fail_closed": true,
+    "legacy_rows_preserved": 12,
+    "PR88_ready_not_draft_head": "3156058b91c7d9f0bb0f2cdebc4831994214e5bd",
+    "PR88_open_unmerged": true,
+    "prior_af405_source_CI_historical": true,
+    "native_current_feed_unverified": true
+  },
+  "preserved_helper_failure": "local/INITIAL_METADATA_ASSERTION_FAILURE.json",
+  "code_under_test": "Root-owned one C-only display line separates research/website dispositions; no selector/model/originalsite change.",
+  "source_or_doc_mutations_by_this_verifier": false,
+  "new_NFL_observations": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_selector_replay": 0,
+  "originalsite_actions": 0,
+  "bindings": [
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "bytes": 528350,
+      "SHA256": "34567dbdc6d0c8a7548a37a7837bf6a2266309fca1bb263463524ebb6ed011c9"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 2046,
+      "SHA256": "7ae64a1874e4c8e7641c53e62757bc4a197847d91eb780d68772a53f6366c712"
+    },
+    {
+      "path": "docs/championship.html",
+      "bytes": 7958,
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "bytes": 21341,
+      "SHA256": "dae0f60508ea6799210fd02ea5d19ff2403787d4310b958b1d0aa3c2b2cf4f0e"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "bytes": 9659,
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 706901,
+      "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/LOCAL_CONSUMER_RECEIPT_V1.json",
+      "bytes": 5140,
+      "SHA256": "12f04086f73260b0e6cda652baf759f12d2139bb4605164abab15cabb050232d"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/COUNTA-ready-head-desktop.png",
+      "bytes": 118624,
+      "SHA256": "72be82bae66f09684034317e89a41e2355ab3e860769ba8c100ffdfa6214f4f4"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/COUNTA-ready-head-mobile.png",
+      "bytes": 82361,
+      "SHA256": "0a2d6e946a337ab4334251ce6ec6ef3157464148dc6807dc19dbee07312da812"
+    },
+    {
+      "path": "reports/category-decision-release-01/final-mile-v1/site/local-final/METADATA_PARITY.json",
+      "bytes": 22633,
+      "SHA256": "c34430cf1db2d36034ec6836fa806d8241337a377f8d9b930655704ecbb0c06d"
+    }
+  ],
+  "next_stage": "After owner publication, exact served bytes and direct C browser once for finaldeploymenthead; no originalwebsite activation inference.",
+  "preserved_prior_receipt": "LOCAL_CONSUMER_RECEIPT_V1.json",
+  "final_metadata_check": "local-final/METADATA_PARITY.json",
+  "reused_unchanged_checks": "Prior fullharness receiptV1/local; no repeatNFL/math/modeltests."
+}

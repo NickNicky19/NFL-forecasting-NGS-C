@@ -1,0 +1,36 @@
+{
+  "id": "C_FINAL_MILE_PRODUCER_RETENTION_RESOURCE_V1",
+  "UTC": "2026-11-12T06:40:43.367565+00:00",
+  "verification": {
+    "state": "PASS_PUBLIC_RETENTION_AND_STAGE_BOUNDARIES",
+    "checked_bindings": 16,
+    "network_reads": 0,
+    "fits": 0,
+    "inference": 0,
+    "new_NFL_evidence": 0
+  },
+  "registered_read_attempts": 12,
+  "retained_response_or_failure_rows": 12,
+  "connector_preHTTP_rejections": 1,
+  "actual_HTTP_reads": 11,
+  "normalized_return_bytes": 610725,
+  "decoded_received_bytes": 284894,
+  "registered_limits": {
+    "read_attempts": 14,
+    "normalized_bytes": 8388608,
+    "retained_bytes": 2097152,
+    "CPU_seconds": 90,
+    "RSS_bytes": 1073741824
+  },
+  "verification_measured_wall_seconds": 0.02011017499899026,
+  "verification_measured_CPU_seconds": 0.020109443000000005,
+  "verification_process_peak_RSS_bytes": 11927552,
+  "resource_measurement_scope": "This local retention/finalization process only; connector service CPU/RSS not observable. Local operations finite, no model execution. Independent source check has separate measured CPU/RSS receipt.",
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_observations": 0,
+  "new_qualifying_weeks": 0,
+  "network_polling_loops": 0,
+  "dispatches": 0,
+  "peer_writes": 0
+}

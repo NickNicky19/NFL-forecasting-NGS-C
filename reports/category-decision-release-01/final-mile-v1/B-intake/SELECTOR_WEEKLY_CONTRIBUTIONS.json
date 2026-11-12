@@ -1,0 +1,949 @@
+{
+  "id": "C-RECEIVED-B-SELECTOR-WEEKLY-CONTRIBUTIONS-v1",
+  "source_ref": "6b77aa5c32de3c926b15ec66557f39a75129129e",
+  "source": {
+    "key": "SELECTOR_ACCOUNTING",
+    "repository": "NickNicky19/NFL-forecasting-V2",
+    "retrieval_ref": "6b77aa5c32de3c926b15ec66557f39a75129129e",
+    "producer_ref": "12b8b5072101e970b895abdd275c188d50e4d4ff",
+    "path": "reports/follow-through-release-defensive-source-01/B/selector-review/SELECTOR_CONTRIBUTION_ACCOUNTING_V1.json",
+    "decoded_bytes": 31330,
+    "decoded_SHA256": "bff965845244f098acf17734ce629dd950eaa927b96d267154fc09d34ecd5dd4",
+    "retained": {
+      "path": "reports/category-decision-release-01/final-mile-v1/B-intake/SELECTOR_ACCOUNTING.json.xz",
+      "bytes": 3488,
+      "SHA256": "de710d9efb81dd40895df300b801bfe48b39692fe1c77b6cc655063424febc98"
+    }
+  },
+  "policy": "NFL-WEB-EXACT-SELECTOR-REC-P1-MEAN-WRTE-20261112-v1",
+  "weeks": [
+    {
+      "season": 2026,
+      "week": 5,
+      "candidate_generated": {
+        "selected": 2,
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "accuracy": 1.0,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 2,
+            "wins": 2,
+            "losses": 0,
+            "decided": 2,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "fallback_generated": {
+        "selected": 22,
+        "wins": 11,
+        "losses": 11,
+        "decided": 22,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 7,
+            "losses": 5,
+            "decided": 12,
+            "accuracy": 0.5833333333333334,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 10,
+            "wins": 4,
+            "losses": 6,
+            "decided": 10,
+            "accuracy": 0.4,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_candidate": {
+        "selected": 24,
+        "wins": 13,
+        "losses": 11,
+        "decided": 24,
+        "accuracy": 0.5416666666666666,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 7,
+            "losses": 5,
+            "decided": 12,
+            "accuracy": 0.5833333333333334,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_control": {
+        "selected": 24,
+        "wins": 12,
+        "losses": 12,
+        "decided": 24,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 7,
+            "losses": 5,
+            "decided": 12,
+            "accuracy": 0.5833333333333334,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 5,
+            "losses": 7,
+            "decided": 12,
+            "accuracy": 0.4166666666666667,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "candidate_only_memberships": {
+        "selected": 2,
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "accuracy": 1.0,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 2,
+            "wins": 2,
+            "losses": 0,
+            "decided": 2,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "removed_control_memberships": {
+        "selected": 2,
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 2,
+            "wins": 1,
+            "losses": 1,
+            "decided": 2,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "input_overrides": 41,
+      "common_selected_point_changes": 0,
+      "common_selected_score_changes": 0,
+      "source_scope": "Actual B accounting receipt, C public arithmetic checked; no C private membership reconstruction."
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "candidate_generated": {
+        "selected": 4,
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 3,
+            "wins": 2,
+            "losses": 1,
+            "decided": 3,
+            "accuracy": 0.6666666666666666,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "fallback_generated": {
+        "selected": 20,
+        "wins": 10,
+        "losses": 9,
+        "decided": 19,
+        "accuracy": 0.5263157894736842,
+        "unresolved": 1,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 11,
+            "wins": 4,
+            "losses": 6,
+            "decided": 10,
+            "accuracy": 0.4,
+            "unresolved": 1,
+            "push": 0
+          },
+          "under": {
+            "selected": 9,
+            "wins": 6,
+            "losses": 3,
+            "decided": 9,
+            "accuracy": 0.6666666666666666,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_candidate": {
+        "selected": 24,
+        "wins": 12,
+        "losses": 11,
+        "decided": 23,
+        "accuracy": 0.5217391304347826,
+        "unresolved": 1,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 4,
+            "losses": 7,
+            "decided": 11,
+            "accuracy": 0.36363636363636365,
+            "unresolved": 1,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 8,
+            "losses": 4,
+            "decided": 12,
+            "accuracy": 0.6666666666666666,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_control": {
+        "selected": 24,
+        "wins": 11,
+        "losses": 12,
+        "decided": 23,
+        "accuracy": 0.4782608695652174,
+        "unresolved": 1,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 5,
+            "losses": 6,
+            "decided": 11,
+            "accuracy": 0.45454545454545453,
+            "unresolved": 1,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "candidate_only_memberships": {
+        "selected": 4,
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 3,
+            "wins": 2,
+            "losses": 1,
+            "decided": 3,
+            "accuracy": 0.6666666666666666,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "removed_control_memberships": {
+        "selected": 4,
+        "wins": 1,
+        "losses": 3,
+        "decided": 4,
+        "accuracy": 0.25,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 1,
+            "losses": 0,
+            "decided": 1,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 3,
+            "decided": 3,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "input_overrides": 35,
+      "common_selected_point_changes": 0,
+      "common_selected_score_changes": 0,
+      "source_scope": "Actual B accounting receipt, C public arithmetic checked; no C private membership reconstruction."
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "candidate_generated": {
+        "selected": 2,
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 1,
+            "wins": 1,
+            "losses": 0,
+            "decided": 1,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "fallback_generated": {
+        "selected": 22,
+        "wins": 14,
+        "losses": 8,
+        "decided": 22,
+        "accuracy": 0.6363636363636364,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 11,
+            "wins": 6,
+            "losses": 5,
+            "decided": 11,
+            "accuracy": 0.5454545454545454,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 11,
+            "wins": 8,
+            "losses": 3,
+            "decided": 11,
+            "accuracy": 0.7272727272727273,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_candidate": {
+        "selected": 24,
+        "wins": 15,
+        "losses": 9,
+        "decided": 24,
+        "accuracy": 0.625,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 9,
+            "losses": 3,
+            "decided": 12,
+            "accuracy": 0.75,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_control": {
+        "selected": 24,
+        "wins": 15,
+        "losses": 9,
+        "decided": 24,
+        "accuracy": 0.625,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 9,
+            "losses": 3,
+            "decided": 12,
+            "accuracy": 0.75,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "candidate_only_memberships": {
+        "selected": 2,
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 1,
+            "wins": 1,
+            "losses": 0,
+            "decided": 1,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "removed_control_memberships": {
+        "selected": 2,
+        "wins": 1,
+        "losses": 1,
+        "decided": 2,
+        "accuracy": 0.5,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 1,
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "accuracy": 0.0,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 1,
+            "wins": 1,
+            "losses": 0,
+            "decided": 1,
+            "accuracy": 1.0,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "input_overrides": 7,
+      "common_selected_point_changes": 0,
+      "common_selected_score_changes": 0,
+      "source_scope": "Actual B accounting receipt, C public arithmetic checked; no C private membership reconstruction."
+    },
+    {
+      "season": 2026,
+      "week": 8,
+      "candidate_generated": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "accuracy": null,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "fallback_generated": {
+        "selected": 24,
+        "wins": 10,
+        "losses": 12,
+        "decided": 22,
+        "accuracy": 0.45454545454545453,
+        "unresolved": 2,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 4,
+            "losses": 6,
+            "decided": 10,
+            "accuracy": 0.4,
+            "unresolved": 2,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_candidate": {
+        "selected": 24,
+        "wins": 10,
+        "losses": 12,
+        "decided": 22,
+        "accuracy": 0.45454545454545453,
+        "unresolved": 2,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 4,
+            "losses": 6,
+            "decided": 10,
+            "accuracy": 0.4,
+            "unresolved": 2,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "full_control": {
+        "selected": 24,
+        "wins": 10,
+        "losses": 12,
+        "decided": 22,
+        "accuracy": 0.45454545454545453,
+        "unresolved": 2,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 12,
+            "wins": 4,
+            "losses": 6,
+            "decided": 10,
+            "accuracy": 0.4,
+            "unresolved": 2,
+            "push": 0
+          },
+          "under": {
+            "selected": 12,
+            "wins": 6,
+            "losses": 6,
+            "decided": 12,
+            "accuracy": 0.5,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "candidate_only_memberships": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "accuracy": null,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "removed_control_memberships": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "accuracy": null,
+        "unresolved": 0,
+        "push": 0,
+        "void": 0,
+        "other_states": {},
+        "own_sides": {
+          "over": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          },
+          "under": {
+            "selected": 0,
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "accuracy": null,
+            "unresolved": 0,
+            "push": 0
+          }
+        }
+      },
+      "input_overrides": 0,
+      "common_selected_point_changes": 0,
+      "common_selected_score_changes": 0,
+      "source_scope": "Actual B accounting receipt, C public arithmetic checked; no C private membership reconstruction."
+    }
+  ],
+  "cumulative": {
+    "candidate_generated_selected": {
+      "selected": 8,
+      "wins": 5,
+      "losses": 3,
+      "decided": 8,
+      "accuracy": 0.625,
+      "unresolved": 0,
+      "push": 0,
+      "void": 0,
+      "other_states": {},
+      "own_sides": {
+        "over": {
+          "selected": 2,
+          "wins": 0,
+          "losses": 2,
+          "decided": 2,
+          "accuracy": 0.0,
+          "unresolved": 0,
+          "push": 0
+        },
+        "under": {
+          "selected": 6,
+          "wins": 5,
+          "losses": 1,
+          "decided": 6,
+          "accuracy": 0.8333333333333334,
+          "unresolved": 0,
+          "push": 0
+        }
+      }
+    },
+    "fallback_generated_selected": {
+      "selected": 88,
+      "wins": 45,
+      "losses": 40,
+      "decided": 85,
+      "accuracy": 0.5294117647058824,
+      "unresolved": 3,
+      "push": 0,
+      "void": 0,
+      "other_states": {},
+      "own_sides": {
+        "over": {
+          "selected": 46,
+          "wins": 21,
+          "losses": 22,
+          "decided": 43,
+          "accuracy": 0.4883720930232558,
+          "unresolved": 3,
+          "push": 0
+        },
+        "under": {
+          "selected": 42,
+          "wins": 24,
+          "losses": 18,
+          "decided": 42,
+          "accuracy": 0.5714285714285714,
+          "unresolved": 0,
+          "push": 0
+        }
+      }
+    },
+    "full_candidate": {
+      "selected": 96,
+      "wins": 50,
+      "losses": 43,
+      "decided": 93,
+      "accuracy": 0.5376344086021505,
+      "unresolved": 3,
+      "push": 0,
+      "void": 0,
+      "other_states": {},
+      "own_sides": {
+        "over": {
+          "selected": 48,
+          "wins": 21,
+          "losses": 24,
+          "decided": 45,
+          "accuracy": 0.4666666666666667,
+          "unresolved": 3,
+          "push": 0
+        },
+        "under": {
+          "selected": 48,
+          "wins": 29,
+          "losses": 19,
+          "decided": 48,
+          "accuracy": 0.6041666666666666,
+          "unresolved": 0,
+          "push": 0
+        }
+      }
+    },
+    "full_control": {
+      "selected": 96,
+      "wins": 48,
+      "losses": 45,
+      "decided": 93,
+      "accuracy": 0.5161290322580645,
+      "unresolved": 3,
+      "push": 0,
+      "void": 0,
+      "other_states": {},
+      "own_sides": {
+        "over": {
+          "selected": 48,
+          "wins": 22,
+          "losses": 23,
+          "decided": 45,
+          "accuracy": 0.4888888888888889,
+          "unresolved": 3,
+          "push": 0
+        },
+        "under": {
+          "selected": 48,
+          "wins": 26,
+          "losses": 22,
+          "decided": 48,
+          "accuracy": 0.5416666666666666,
+          "unresolved": 0,
+          "push": 0
+        }
+      }
+    },
+    "new_memberships": 8,
+    "removed_memberships": 8,
+    "candidate_model_rows_in_common": 0,
+    "candidate_model_rows_new": 8,
+    "fallback_rows_new": 0,
+    "candidate_contributing_weeks": [
+      5,
+      6,
+      7
+    ],
+    "complete_system_scored_weeks": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "candidate_generated_selected_point_changes": 8,
+    "candidate_generated_selected_score_changes": 8,
+    "candidate_generated_selected_local_gate_side_flips": 3,
+    "candidate_generated_selected_saved_margin_side_flips": 4,
+    "candidate_generated_selected_became_locally_eligible": 2,
+    "changed_side_on_opportunity_selected_both_policies": 0
+  },
+  "identity_scope": "B reports verified source/identity membership. C checks the public arithmetic only. In THIS fixed replay the8 candidate-generated selected rows equal8new memberships and none arecommon; no general identity assumption.",
+  "five_week_status": "FOUR_SCORED_SYSTEM_WEEKS;NOT_PRIMARY_QUALIFIED. Candidate generated selected rows in three weeks; no new learned-only week-counting rule imposed.",
+  "new_fifth_week": false,
+  "no_new_grader_or_policy": true
+}
