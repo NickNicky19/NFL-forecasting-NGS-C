@@ -63,8 +63,9 @@ class CurrentP1Tests(unittest.TestCase):
   with self.assertRaisesRegex(AssertionError,'UNKNOWN'):site.legacy_feed_run({'schema':'C06-UNKNOWN'})
  def test_actual_source_basis_metadata_no_fit_or_nfl_inference(self):
   cutoff=c.read(c.SOURCE/'MODEL_INPUT_MANIFEST.json')['actual_input_cutoff_UTC']
-  with patch.object(c,'pooled_mu') as infer:
+  with patch.object(c,'pooled_mu') as infer,patch.object(c.subprocess,'check_output',side_effect=AssertionError('Assessment must work without historical Git objects')) as git_history:
    a=c.assess(at=c.aware(cutoff).timestamp())
+  git_history.assert_not_called()
   infer.assert_not_called();self.assertEqual(a['state'],'EXACT_RETAINED_FIT_AND_VECTOR_REUSE_PROVED');self.assertEqual(a['available_players'],25);self.assertEqual(a['WR_TE_current_query_rows'],18);self.assertEqual(a['RB_shadow_rows'],7);self.assertEqual(a['eligible_fact_rows_current'],8420);self.assertEqual(a['eligible_PBP_rows_current'],15136);self.assertEqual(a['new_fits_required'],0)
  def test_exact_mean_offer_boundary_zero_and_explicit_repricing(self):
   r=dict(query(),model_id=c.MODEL,mean=0.,forecast_id='fixture',issued_UTC='2026-11-12T02:00:00Z',expires_UTC='2026-11-12T02:30:00Z')

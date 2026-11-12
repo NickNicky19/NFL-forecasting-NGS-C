@@ -88,7 +88,9 @@ def assess(source=SOURCE,at=None):
  dependency_names=['data_v2.py','contracts_v2.py','context_features_c01.py','context_experiment_c01.py','receiving_current_capture_c04.py','laws_v2.py','forward_sources_v4.py']
  dependencies={name:sha(ROOT/'src'/name) for name in dependency_names}
  assert all(dependencies[name]==original_draft['code_SHA256'][name] for name in dependency_names),'C06_FEATURE_RECIPE_CODE_CHANGED'
- old_prospective=subprocess.check_output(['git','show',original_draft['code_commit']+':src/prospective_v4.py'],cwd=ROOT,text=True)
+ historical_source=ROOT/'reports/category-decision-release-01/current/source-snapshots/prospective_v4_at_9994055.py'
+ historical_bytes=historical_source.read_bytes();assert hashlib.sha256(historical_bytes).hexdigest()==original_draft['code_SHA256']['prospective_v4.py'],'C06_HISTORICAL_SOURCE_SNAPSHOT_HASH_MISMATCH'
+ old_prospective=historical_bytes.decode('utf-8')
  def function_ast(text,name):
   found=[n for n in ast.parse(text).body if isinstance(n,ast.FunctionDef) and n.name==name];assert len(found)==1;return ast.dump(found[0],include_attributes=False)
  current_prospective=(ROOT/'src/prospective_v4.py').read_text()

@@ -1,0 +1,30 @@
+{
+  "id": "C06-SHALLOW-CHECKOUT-SOURCE-PACKAGING-FIX-v1",
+  "created_UTC": "2026-11-12T02:38:05.531351+00:00",
+  "cause": "Clean depth-one Actions checkout lacks the historical producer Git object; assess used git show for a bound source-only AST comparison.",
+  "repair": "Retain exact historical source bytes as a regular file, verify the already-bound producer SHA256 before decoding/AST parsing, never execute snapshot. No full Git history fetch or guard removal.",
+  "historical_producer_commit": "9994055c8dd666be4564e066579856091cb4011e",
+  "original_DRAFT_binding_key": "prospective_v4.py",
+  "expected_historical_source_SHA256": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+  "pre_fix_git_show_bytes": 29775,
+  "pre_fix_git_show_SHA256": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea",
+  "retained_snapshot": {
+    "path": "reports/category-decision-release-01/current/source-snapshots/prospective_v4_at_9994055.py",
+    "bytes": 29775,
+    "SHA256": "9abd61a443ac38e2a3cb4d59f0ee7d35569657eb33a629dd9d2ef34a94b6a4ea"
+  },
+  "source_text_exactly_preserved": true,
+  "pre_fix_adapter_SHA256": "65d9823f42e6d1edb4b4ea9e884cc0f3052349cf09c1809e202c2516bbf5322b",
+  "post_fix_adapter_SHA256": "bcfd657f541394db89111bd0bd1e8579ab1c91c43a0ae9dfb549750a40e697f1",
+  "predictions_models_features_and_sources_changed": false,
+  "new_fits": 0,
+  "new_inference_rows": 0,
+  "new_issues": 0,
+  "new_network_requests": 0,
+  "verification_status": "PASS_UNCHANGED_ACTUAL_ASSESSMENT_WITH_GIT_AND_INFERENCE_DISABLED",
+  "verified_UTC": "2026-11-12T02:38:49.888672+00:00",
+  "existing_fixture_suite": "12 tests PASS",
+  "exact_assessment_unchanged": true,
+  "assessment_SHA256": "5c6c806bf524469e4d614a41ecf2c6aba4b9af76ca47ae3c1e9dcf185a2b71a8",
+  "post_fix_test_SHA256": "6268ec1c79422574e97d0fc41db6a8353bfded6fa783b8977dc69aed3d953792"
+}
