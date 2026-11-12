@@ -1,0 +1,85 @@
+{
+  "id": "C06-LOCAL-CATEGORY-CONSUMER-v2",
+  "at_UTC": "2026-11-12T02:50:11.991491+00:00",
+  "state": "LOCAL_BROWSER_AND_CANONICAL_CURRENT_PACKET_PARITY_PASS;SERVED_NOT_CHECKED",
+  "canonical": {
+    "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+    "SHA256": "4d8d32d757d78456ebec25b1db897a9963ee10c8b7289883c27e490bb8c764a3"
+  },
+  "data_SHA256": "5beb31d009930420ca6c9195bd8c54af34927ab918865a2a1e8ea7819627e500",
+  "payload_bytes": 365184,
+  "categories": 12,
+  "other_product_rows": 48,
+  "current_packet": {
+    "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+    "forecast_rows": 25,
+    "WR_TE_direction_candidate_rows": 18,
+    "RB_shadow_rows": 7,
+    "all25_expected_mean_lower_median_values_exact": true,
+    "real_offers": 0,
+    "real_selections": 0,
+    "primary_replacement": false,
+    "model_fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+    "source_information_cutoff_UTC": "2026-11-12T01:43:52.568669+00:00",
+    "actual_inference_UTC": "2026-11-12T02:19:12.997639+00:00",
+    "issued_UTC": "2026-11-12T02:21:15.235915+00:00",
+    "server_persisted_UTC": "2026-11-12T02:42:41Z",
+    "expires_UTC": "2026-11-12T02:51:07.340270996+00:00"
+  },
+  "all_own_side_records_and_decisions_exact": true,
+  "all12_historical_records_unchanged_from_commit": "e9b56a314acea2fbe958dc4415e8693c56516970",
+  "historical_fields_unchanged": {
+    "pass_yd": true,
+    "pass_td": true,
+    "pass_cmp": true,
+    "pass_att": true,
+    "pass_int": true,
+    "rush_yd": true,
+    "rush_att": true,
+    "rec": true,
+    "rec_yd": true,
+    "rush_rec_yd": true,
+    "anytime_td": true,
+    "nick-chart-ppr-v1": true
+  },
+  "source_bindings_and_common_capture_receipt_verified": true,
+  "no_recommendation_computation": true,
+  "original_website_changed": false,
+  "models_or_policies_activated": false,
+  "new_NFL_observations": 0,
+  "new_fits": 0,
+  "source_GETs": 0,
+  "browser": {
+    "path": "local-v2/BROWSER_PARITY.json",
+    "SHA256": "754f8d34d1fb83c06d0842d93fa4e256853ae53dce94cf356cb8f9d64a9183cc"
+  },
+  "focused_tests": 12,
+  "earlier_local_v1_receipt_preserved": true,
+  "TLS_scope": "LocalHTTPdoesnotexerciseTLS; browserverificationnotswitched_off;noignoreflags. DirectservedHTTPSbrowserverificationremainsseparate.",
+  "checked_files": [
+    {
+      "path": "docs/championship.html",
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "SHA256": "18b54f97a2718e2f58eac0c3f3270f77b92876e7b1aeb99c4cbc6e700cd2092d"
+    },
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "SHA256": "5beb31d009930420ca6c9195bd8c54af34927ab918865a2a1e8ea7819627e500"
+    },
+    {
+      "path": "src/site_category_decisions_c06.py",
+      "SHA256": "e0f5afbc2009a46de96c81e0a0be19d161d597daa01a6f665df22ff1275e6c64"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "tests/test_site_category_decisions_c06.py",
+      "SHA256": "86ed0875c630a560a1113eabc4de4a706a868dad0f19b76fd367eaaf71664c29"
+    }
+  ]
+}

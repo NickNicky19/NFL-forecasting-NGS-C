@@ -1,0 +1,19 @@
+{
+  "id": "C06-EXACT-PRIOR-CONTEXT-RECOVERY-AMENDMENT-v1",
+  "registered_UTC": "2026-11-12T02:34:05.688292+00:00",
+  "previous_file_reads_consumed": 22,
+  "file_reads_max_total": 23,
+  "returned_content_byte_cap_unchanged": 3145728,
+  "additional_file": {
+    "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+    "bytes": 604500,
+    "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f"
+  },
+  "additional_immutable_commit": "0cbf4c156608f8ec69d928ae7434eec877f14914",
+  "prior22_commit": "97b80a91ea2b6dd42851c02553ad6bc3f09adaa1",
+  "reason": "Clean CI exposed omitted required prior2025context gzip encoding; exact payload nowtracked, same decoded CSV as retainedXZ; no model/forecast/policy/REG change.",
+  "new_fits": 0,
+  "extra_NFL_inference": 0,
+  "new_upstream_source_collection": 0,
+  "state": "ONE_GITHUB_BASE64_READ_AUTHORIZED_BY_PARENT;SERVER_PROOF_PENDING"
+}

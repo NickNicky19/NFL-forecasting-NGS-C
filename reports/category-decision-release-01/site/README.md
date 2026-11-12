@@ -9,3 +9,9 @@ Local browser validation passed all twelve records and48 separate product rows, 
 The first local browser attempt found a real presentation defect: a long machine-status string overflowed the mobile viewport. Its receipt and layout traces remain under local-v1. A scoped wrapping fix resolved it; no forecasts, grades, decisions or data changed.
 
 See LOCAL_CONSUMER_RECEIPT_V1.json, local-v1/BROWSER_PARITY.json and PRE_DATA_INDEPENDENT_REVIEW.json. These software checks add no NFL observations or qualifying weeks.
+
+## Proof-bound current packet (v2)
+
+The optional current-query section now renders all25 stored P1 expected means and lower medians from the server-qualified packet. Eighteen WR/TE rows retain their declared candidate-role scope; seven RB rows remain shadow-only. The entire packet remains forecast-only shadow, with no offers, selected sides, confidence or EV. Model-fit information cutoff, source admission, actual inference, issuance, server persistence and expiry clocks are separate. Expiry and game-start display transitions require no HTTP refresh and do not erase grading records.
+
+The common existing capture validator verifies the run and server receipt before projection. Local-v2 browser parity checks all25 mean/median values,18/7role filters, expiry/kickoff behavior and clearing on failure, alongside the unchanged12historical records and48other-product rows. All12 focused tests pass. Original v1 receipts remain preserved. Local HTTP browser testing does not itself test TLS; no browser TLS verification was disabled. Actual served HTTPS consumption remains a separate later receipt.

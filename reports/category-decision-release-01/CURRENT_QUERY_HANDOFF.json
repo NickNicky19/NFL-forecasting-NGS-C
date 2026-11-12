@@ -1,0 +1,55 @@
+{
+  "id": "C06-CURRENT-QUERY-HANDOFF-v1",
+  "prepared_UTC": "2026-11-12T02:43:45.586304+00:00",
+  "producer_owner": "C",
+  "producer_code_commit": "e9b56a314acea2fbe958dc4415e8693c56516970",
+  "consumer_owner": "Original website owner NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z; C research consumer separately",
+  "candidate_historical_identity": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+  "current_model_identity": "C_V11_P1_E2_POOLED_7D",
+  "scope": "SOURCE_CURRENT_SHADOW;18WRTEcandidate-scope/7RBforecast-onlyshadow;whole-systemhorizon/query/finalityfiveweekinheritanceUNKNOWN",
+  "model": {
+    "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C_V11_P1_E2_POOLED_7D.json.xz",
+    "bytes": 632252,
+    "SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb"
+  },
+  "model_fit_information_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "input_schema": {
+    "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+    "bytes": 6969,
+    "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb"
+  },
+  "current_source_validation_cutoff_UTC": "2026-11-12T01:43:52.568669+00:00",
+  "feature_order": "Exact60fields inauthenticatedsafeJSON;trainingimputation/missingflags/scale thenPoissonlink exactlyonce",
+  "correction": "NoextraCountAcorrector orincumbentmatchupmodifier;pooledP1inputsalreadycontainqualifiedopponent/context",
+  "run_path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01",
+  "RUN_SHA256": "9846fc48c86b795bbcbb62f215a33332012eed43c523500a0a6699c9dacfeead",
+  "forecast_path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/FORECASTS.json.xz",
+  "forecast_SHA256": "8f7b505452ad74ba0ecf8194e429ab400ff9296e8c17a8014067e4c66f3ebfbc",
+  "adapter": "src/current_query_delivery_c06.py:point_direction_record(row,offer,decision_UTC,repricing_policy=...)",
+  "direction_policy": "UnroundedEXPECTED_MEAN > exactadmittedlineOVER,<UNDER,=ABSTAIN; onlyofferedside;currentexternallyadmittedrealOPENoffer andcompatible source/stat/role/time/rights required",
+  "later_line_policy": "LATER_CAPTURED_PREGAME_LINE_BOTH_CLOCKS_PRESERVED;separatedecisionrecord;neverrewriteearlierforecastassameissuedpick",
+  "typed_outputs": [
+    "EXPECTED_MEAN",
+    "LOWER_MEDIAN_SEPARATE_SHADOW",
+    "EXPERIMENTAL_CONDITIONAL_POISSON_LAW_NOT_CALIBRATED_CONFIDENCE"
+  ],
+  "not_outputs": [
+    "per-pickconfidence",
+    "EV",
+    "TopPicks",
+    "actualselectedsideswithoutqualifiedoffers"
+  ],
+  "real_offers": 0,
+  "real_selections": 0,
+  "fallback": "Missing/stale/unsupportedrole/unboundfeatures:unavailableorshadow;originalownerusesidentifiedincumbentunderalreadyapprovedpath.Nozeroimputationforunknownstats;knownzeroisvalid.",
+  "expiry": "Savedrowexpires_UTCstopsnewrecommendation/repricing,notoriginalgrading;newnative/sourceadmissionneededforlatercurrentreuse",
+  "current_readiness": "SERVER_QUALIFIED_BEFORE_EXPIRY;CURRENT_RECOMMENDATION_USE_EXPIRED;RETAINED_SHADOW_FOR_GRADING;ORIGINAL_CONSUMER_NOT_ACKNOWLEDGED",
+  "weekly_evidence": "CATEGORY_PRODUCT_DECISIONS.json namedannualW1-W5pointpanel239/412;current25notautomaticwholeproductqualification",
+  "independent_checks": "current-verification/PRE_EXECUTION_REVIEW.json,C06_ACTUAL_INFERENCE_INDEPENDENT.json,C06_ISSUED_RUNTIME_INDEPENDENT.json",
+  "runtime": "Python3.12,numpy2.3.5,pandas2.2.3,scipy1.17,scikit-learn1.8;1thread;actualinfer.388CPU/249MB;0newfits",
+  "safe_restoration": "GitHubimmutableRUN/source/modelsha+fullinference_draft;safeJSONonly; priorGZexactencodingandhistoricalsourcebytesretainedbycorrectionreceipts beforeadmission",
+  "rollback": "Originalownerkeepsunchangedincumbentdisplay/direction/TopPicks;removeCexperimentalfeed/pathwithoutoverwritingoldpredictions/selections. Original75+69firstsnapshotsimmutable.",
+  "server_receipt": "reports/category-decision-release-01/CURRENT_PUBLICATION_RECEIPT.json",
+  "expires_UTC": "2026-11-12T02:51:07.340271+00:00",
+  "current_state_recorded_UTC": "2026-11-12T02:55:49.425664+00:00"
+}

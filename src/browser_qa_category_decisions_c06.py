@@ -37,6 +37,29 @@ def check(url,root,out,executable='/usr/bin/chromium'):
    assert page.evaluate('(cat)=>window.c06.data.categories.find(r=>r.category===cat).exact_procedure',r['category'])==r['exact_procedure']
   limits=page.locator('#c06-limits').inner_text();assert 'Annual retained W1–5' in limits and 'native later-week' in limits and 'Unverified quote clocks stay unverified' in limits
   assert 'original-site activation' in page.locator('#c06-clock').inner_text()
+  current=data.get('current_packet')
+  if current:
+   assert page.locator('#c06-current-section').is_visible() and page.locator('#c06-current-records tr').count()==25
+   for r in current['rows']:
+    cells=page.locator(f'#c06-current-records tr[data-forecast-id="{r["forecast_id"]}"] td');assert cells.count()==7
+    assert cells.nth(1).inner_text()==f'{r["mean"]:.4f}' and cells.nth(2).inner_text()==f'{r["median"]:.4f}'
+    assert cells.nth(6).inner_text()=='Unavailable · no qualified offer or selection'
+    assert ('RB forecast shadow' if r['position']=='RB' else 'WR/TE historical candidate role') in cells.nth(5).inner_text()
+   page.select_option('#c06-current-role','WR_TE');assert page.locator('#c06-current-records tr').count()==18
+   page.select_option('#c06-current-role','RB');assert page.locator('#c06-current-records tr').count()==7
+   page.select_option('#c06-current-role','ALL')
+   clocks=page.locator('#c06-current-clock').inner_text()
+   for label in ['Model fit information cutoff','current roster observed','current football/source admission','actually re-inferred','native status','issued','GitHub server persistence','current use expires','America/Chicago']:assert label in clocks
+   page.evaluate('()=>{window.c06OriginalNow=Date.now;Date.now=()=>Date.parse(window.c06.data.current_packet.issued_UTC)+1000;c06RenderCurrent();}')
+   assert all('Within source/status expiry' in v for v in page.locator('#c06-current-records td:nth-child(6)').all_inner_texts())
+   page.evaluate('()=>{Date.now=()=>Date.parse(window.c06.data.current_packet.expires_UTC)+1000;c06RenderCurrent();}')
+   assert all('Expired for current use' in v for v in page.locator('#c06-current-records td:nth-child(6)').all_inner_texts())
+   assert page.evaluate('Date.parse(window.c06NextTransitionUTC)')==page.evaluate('Date.parse(window.c06.data.current_packet.rows[0].kickoff_UTC)')
+   page.evaluate('()=>{Date.now=()=>Date.parse(window.c06.data.current_packet.rows[0].kickoff_UTC)+1000;c06RenderCurrent();}')
+   assert all('Game started' in v for v in page.locator('#c06-current-records td:nth-child(6)').all_inner_texts())
+   assert page.evaluate('window.c06NextTransitionUTC') is None
+   page.evaluate('()=>{Date.now=window.c06OriginalNow;c06RenderCurrent();}')
+  else:assert page.locator('#c06-current-section').is_hidden() and page.locator('#c06-current-records tr').count()==0
   first=rows[0];page.select_option('#c06-category',first['category']);assert page.locator('#c06-records tr').count()==1
   assert page.locator('#c06-products tr').count()==len(first['other_products']);page.select_option('#c06-category','ALL')
   before=page.locator('#c06-clock').inner_text();page.select_option('#zone','UTC');after=page.locator('#c06-clock').inner_text();assert before!=after
@@ -49,6 +72,7 @@ def check(url,root,out,executable='/usr/bin/chromium'):
   page.evaluate('c06Start()');page.wait_for_function('window.c06.healthy===false&&document.querySelector("#c06-error").hidden===false')
   assert page.locator('#c06-records tr').count()==page.locator('#c06-products tr').count()==0
   assert page.locator('#c06-clock').inner_text()==page.locator('#c06-limits').inner_text()==''
+  assert page.locator('#c06-current-section').is_hidden() and page.locator('#c06-current-records tr').count()==0 and page.locator('#c06-current-clock').inner_text()==''
   assert page.locator('#records tr').count()==12,'C06_FAILURE_ERASED_LEGACY'
   context.close()
   for mode in ['HTTP','CHECKSUM','BUILD_BINDING']:
@@ -62,11 +86,12 @@ def check(url,root,out,executable='/usr/bin/chromium'):
     bad.route('**/build.json',lambda route:route.fulfill(status=200,content_type='application/json',body=json.dumps(build)))
    bad.goto(url);bad.wait_for_function('document.querySelector("#c06-error").hidden===false&&document.querySelectorAll("#records tr").length===12')
    assert bad.locator('#c06-records tr').count()==bad.locator('#c06-products tr').count()==0
+   assert bad.locator('#c06-current-section').is_hidden() and bad.locator('#c06-current-records tr').count()==0
    assert 'No default candidate' in bad.locator('#c06-error').inner_text();ctx.close()
   browser.close()
  assert not errors,errors
  assert hashlib.sha256(oldpath.read_bytes()).hexdigest()==oldhash
- result=dict(id='C06-CATEGORY-DECISION-BROWSER-v1',executed_UTC=datetime.now(timezone.utc).isoformat(),URL=url,data_SHA256=hashlib.sha256(datafile.read_bytes()).hexdigest(),categories_checked=[r['category'] for r in rows],all_12_own_side_records_and_decisions_exact=True,other_product_rows=sum(len(r['other_products']) for r in rows),scoped_source_and_timing_limits_visible=True,category_filter=True,Chicago_UTC_clock_display=True,desktop1440_mobile390_no_global_overflow=True,HTTP_checksum_build_binding_fail_closed=True,old_success_text_cleared_on_reload_failure=True,preserved_legacy_panel_rows=12,preserved_legacy_data_SHA256=oldhash,page_errors=[],new_NFL_observations=0,new_fits=0,TLS_verification='ENABLED_NO_IGNORE_FLAGS')
+ result=dict(id='C06-CATEGORY-DECISION-BROWSER-v1',executed_UTC=datetime.now(timezone.utc).isoformat(),URL=url,data_SHA256=hashlib.sha256(datafile.read_bytes()).hexdigest(),categories_checked=[r['category'] for r in rows],all_12_own_side_records_and_decisions_exact=True,current_forecast_rows_checked=len(current['rows']) if current else 0,current_25_expected_means_and_medians_exact=bool(current),current_role_masks_18_WRTE_7_RB=bool(current),current_expiry_started_clock_fixtures=bool(current),other_product_rows=sum(len(r['other_products']) for r in rows),scoped_source_and_timing_limits_visible=True,category_filter=True,Chicago_UTC_clock_display=True,desktop1440_mobile390_no_global_overflow=True,HTTP_checksum_build_binding_fail_closed=True,old_success_text_cleared_on_reload_failure=True,preserved_legacy_panel_rows=12,preserved_legacy_data_SHA256=oldhash,page_errors=[],new_NFL_observations=0,new_fits=0,TLS_verification='ENABLED_NO_IGNORE_FLAGS')
  (out/'BROWSER_PARITY.json').write_text(json.dumps(result,indent=2)+'\n');print('C06_CATEGORY_BROWSER_PASS',len(rows));return result
 
 if __name__=='__main__':

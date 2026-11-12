@@ -1,0 +1,267 @@
+{
+  "id": "C06-INDEPENDENT-FRESH-GITHUB-RESTORATION-v1",
+  "checked_UTC": "2026-11-12T02:32:25.245096+00:00",
+  "status": "PASS_FRESH_IMMUTABLE_BYTES_AND_DECODED_CONTRACTS;EXACT_HEAD_SERVER_CHECK_PENDING",
+  "repository": "NickNicky19/NFL-forecasting-NGS-C",
+  "immutable_commit": "97b80a91ea2b6dd42851c02553ad6bc3f09adaa1",
+  "read_operations": 22,
+  "file_read_cap": 22,
+  "restored_decoded_bytes": 1308606,
+  "returned_base64_content_bytes": 1773927,
+  "returned_structured_content_bytes": 1809838,
+  "returned_byte_cap": 3145728,
+  "transport_limit": "Connector-returned content bytes and read operations are measured; hidden internal HTTP headers/envelopes are not raw-transport measurements.",
+  "restored_files": [
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/RUN.json",
+      "bytes": 6738,
+      "SHA256": "9846fc48c86b795bbcbb62f215a33332012eed43c523500a0a6699c9dacfeead",
+      "Git_blob_SHA1": "c75040fee0141493b3c38bf957fd5123a7620f9f",
+      "exact_immutable_bytes": true,
+      "started_UTC": null,
+      "completed_UTC": "2026-11-12T02:30:43.554Z",
+      "request_clock_state": "FIRST_CALL_START_NOT_RECORDED; COMPLETION_ACTUAL"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/INFERENCE_DRAFT.json",
+      "bytes": 5353,
+      "SHA256": "045089a385e8d1619a757e3b1b928061d117618c4461bd7b4fce67e52fcc2d94",
+      "Git_blob_SHA1": "013d8e9488f542ce0ea7dd5e16c0c790253070a6",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:43.554Z",
+      "completed_UTC": "2026-11-12T02:30:43.953Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CURRENT_BOARD.json.xz",
+      "bytes": 16496,
+      "SHA256": "d9611a9d431dee871b1a1a204ad24af3d4fc33a07a6a49b5600940e1794714b6",
+      "Git_blob_SHA1": "9e365623604002d7a67d30f4c512d9b7b98ae55d",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:43.554Z",
+      "completed_UTC": "2026-11-12T02:30:44.386Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CURRENT_REUSE_ASSESSMENT.json",
+      "bytes": 8127,
+      "SHA256": "5c6c806bf524469e4d614a41ecf2c6aba4b9af76ca47ae3c1e9dcf185a2b71a8",
+      "Git_blob_SHA1": "cdb8076749f237d3431a093cb4efd5fb94a0d9d7",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:43.554Z",
+      "completed_UTC": "2026-11-12T02:30:43.924Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/FORECASTS.json.xz",
+      "bytes": 6860,
+      "SHA256": "8f7b505452ad74ba0ecf8194e429ab400ff9296e8c17a8014067e4c66f3ebfbc",
+      "Git_blob_SHA1": "161e621591cecf5b6f2b79a52fcd60fece72c0d8",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.387Z",
+      "completed_UTC": "2026-11-12T02:30:44.691Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/CLEAN_START_PROOF.json",
+      "bytes": 1487,
+      "SHA256": "59f0110297282751778cbfeff3c531b7952ecbb00ab2ca3324a837569a6ef355",
+      "Git_blob_SHA1": "82b6dc79d0276ad16f5130c7085f656de09bf581",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.387Z",
+      "completed_UTC": "2026-11-12T02:30:44.798Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/NATIVE_STATUS.json",
+      "bytes": 1896,
+      "SHA256": "59fa7466652bc54e9b98e4583a265fb45ef6f6f473d7220d58cb785ce4b43c30",
+      "Git_blob_SHA1": "1420ec7516f786e4a67725e9239cdc5f78e586bd",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.387Z",
+      "completed_UTC": "2026-11-12T02:30:44.911Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/INPUT_MANIFEST.json",
+      "bytes": 5629,
+      "SHA256": "77333e8fd38f8ea77862054f8347d4799692814334b6f1cea7ee362bd2522774",
+      "Git_blob_SHA1": "b467c2df961667d3d15b66689ea503b26eeb82a5",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.912Z",
+      "completed_UTC": "2026-11-12T02:30:45.281Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/CURRENT_BOARD.json.xz",
+      "bytes": 16496,
+      "SHA256": "d9611a9d431dee871b1a1a204ad24af3d4fc33a07a6a49b5600940e1794714b6",
+      "Git_blob_SHA1": "9e365623604002d7a67d30f4c512d9b7b98ae55d",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.912Z",
+      "completed_UTC": "2026-11-12T02:30:45.243Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/CURRENT_REUSE_ASSESSMENT.json",
+      "bytes": 8127,
+      "SHA256": "5c6c806bf524469e4d614a41ecf2c6aba4b9af76ca47ae3c1e9dcf185a2b71a8",
+      "Git_blob_SHA1": "cdb8076749f237d3431a093cb4efd5fb94a0d9d7",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:44.912Z",
+      "completed_UTC": "2026-11-12T02:30:45.200Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/INPUT_MANIFEST.json",
+      "bytes": 5629,
+      "SHA256": "77333e8fd38f8ea77862054f8347d4799692814334b6f1cea7ee362bd2522774",
+      "Git_blob_SHA1": "b467c2df961667d3d15b66689ea503b26eeb82a5",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.283Z",
+      "completed_UTC": "2026-11-12T02:30:45.577Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/DRAFT.json",
+      "bytes": 5353,
+      "SHA256": "045089a385e8d1619a757e3b1b928061d117618c4461bd7b4fce67e52fcc2d94",
+      "Git_blob_SHA1": "013d8e9488f542ce0ea7dd5e16c0c790253070a6",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.283Z",
+      "completed_UTC": "2026-11-12T02:30:45.606Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/inference_draft/FORECASTS_DRAFT.json.xz",
+      "bytes": 6164,
+      "SHA256": "4f4c74f65b6cb02c7a572772c0f4a371e4e62322427530dacb09c055ca6f18de",
+      "Git_blob_SHA1": "67143f3a097a38bf9ac9610aea5f08e4f8d91935",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.283Z",
+      "completed_UTC": "2026-11-12T02:30:45.608Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+      "bytes": 6969,
+      "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb",
+      "Git_blob_SHA1": "4e3b0e481ec113ff7a167fc54bb9ce45db47e00c",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.609Z",
+      "completed_UTC": "2026-11-12T02:30:45.892Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/roster_current_season.json",
+      "bytes": 146524,
+      "SHA256": "0e4674541cfa973484e2ae991941ed9027e413921daef2780c2caf4247de167d",
+      "Git_blob_SHA1": "48b93d8df54cad48ac83de94a0eae75a7b2c16da",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.609Z",
+      "completed_UTC": "2026-11-12T02:30:46.043Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+      "Git_blob_SHA1": "155aa8bf1724488bd71072d5adae36ae64fef03a",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:45.609Z",
+      "completed_UTC": "2026-11-12T02:30:45.923Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/candidate_schedule.json",
+      "bytes": 3686,
+      "SHA256": "435d6e92aecdbd3463bdc6393e10f4afc3900cb1a48ff7fee2133f162b76d00d",
+      "Git_blob_SHA1": "309e11db7316d57c72d23f9cf115ffd3456d8268",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.045Z",
+      "completed_UTC": "2026-11-12T02:30:46.452Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+      "Git_blob_SHA1": "ffc872d25364c583877315fc8209df6d989da7ac",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.045Z",
+      "completed_UTC": "2026-11-12T02:30:46.592Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "sources/category-decision-release-01/pbp_facts_2026.csv.xz",
+      "bytes": 242652,
+      "SHA256": "d9f13c0c1d298492087eff7d8963394f2db2944eb445a51f33b92ef9fac013d3",
+      "Git_blob_SHA1": "4f989214f3db0f6ee1828586cac9c572c3cd65a0",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.045Z",
+      "completed_UTC": "2026-11-12T02:30:46.591Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "prospective/runs/C-C04-20261110-W10-FIRST-01/draft/models/C_V11_P1_E2_POOLED_7D.json.xz",
+      "bytes": 632252,
+      "SHA256": "a50d14aa526448ec626b43924e58934456478c6088d08babe8fe10199e1b67eb",
+      "Git_blob_SHA1": "cd3faa893ebc8ca0d6a2863fa028cec30f1ff162",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.596Z",
+      "completed_UTC": "2026-11-12T02:30:47.133Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/STATUS_SOURCE_MANIFEST.json",
+      "bytes": 1896,
+      "SHA256": "59fa7466652bc54e9b98e4583a265fb45ef6f6f473d7220d58cb785ce4b43c30",
+      "Git_blob_SHA1": "1420ec7516f786e4a67725e9239cdc5f78e586bd",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.596Z",
+      "completed_UTC": "2026-11-12T02:30:46.893Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    },
+    {
+      "path": "reports/category-decision-release-01/current/NATIVE_EVENTS.json",
+      "bytes": 394,
+      "SHA256": "1f0a8e5d2b964f2ae6ab1e361ece60458db0574ae8eedd22047031b200aa73a4",
+      "Git_blob_SHA1": "518aab500f924f48fb5a675135b61144a092cd83",
+      "exact_immutable_bytes": true,
+      "started_UTC": "2026-11-12T02:30:46.597Z",
+      "completed_UTC": "2026-11-12T02:30:46.847Z",
+      "request_clock_state": "ACTUAL_CONNECTOR_CALL_CLOCKS_RECORDED"
+    }
+  ],
+  "RUN_SHA256": "9846fc48c86b795bbcbb62f215a33332012eed43c523500a0a6699c9dacfeead",
+  "FORECASTS_SHA256": "8f7b505452ad74ba0ecf8194e429ab400ff9296e8c17a8014067e4c66f3ebfbc",
+  "complete_RUN_members": 12,
+  "complete_inference_draft_members": 4,
+  "missing_before_guard_fix_source_facts_now_read_back": {
+    "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+    "bytes": 161446,
+    "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21"
+  },
+  "safe_P1_model_readback": true,
+  "forecast_rows": 25,
+  "WR_TE_direction_candidate_rows": 18,
+  "RB_separate_shadow_rows": 7,
+  "complete_basic_board": 959,
+  "source_cutoff_UTC": "2026-11-12T01:43:52.568669+00:00",
+  "fit_cutoff_UTC": "2026-11-10T19:23:09.469852+00:00",
+  "native_observed_UTC": "2026-11-12T02:21:07.340271+00:00",
+  "issued_UTC": "2026-11-12T02:21:15.235915+00:00",
+  "all_original75_and69_hashes_unchanged": true,
+  "new_fits": 0,
+  "new_upstream_source_collection": 0,
+  "extra_NFL_inference": 0,
+  "new_NFL_test_observations": 0,
+  "CPU_seconds": 0.384499765,
+  "peak_RSS_bytes": 80424960,
+  "limitations": [
+    "This is actual remote readback, not a local path/hash-only claim.",
+    "Exact-head CI/server persistence binding is pending the parent\u2019s successful-check metadata.",
+    "No original-site consumer activation, qualified offers, current recommendations or five-week product admission inferred.",
+    "Original immutable RUN retains its awaiting-server state; any server qualification is appended as a separate receipt."
+  ]
+}
