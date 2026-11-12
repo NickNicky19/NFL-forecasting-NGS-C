@@ -1,0 +1,50 @@
+{
+  "canonical_membership": {
+    "canonical_sha256": "c88fc8d3ccf3cab3f1b9919e7da5dafb02fa1cc78de651ee230cee223c9453c2",
+    "fields": [
+      "week",
+      "policy",
+      "player_id",
+      "game_id",
+      "key",
+      "direction",
+      "line",
+      "line_from",
+      "adj",
+      "score",
+      "source",
+      "candidate_model_sha256",
+      "result",
+      "actual",
+      "as_of_board_clock",
+      "original_issuance"
+    ],
+    "file_sha256": "d463d3cd588e400b0b1cdb9a108d2bcf50c0cf4daf5647be0e61b33b66d65e8a",
+    "hash_algorithm": "SHA256 over json sortedkeys,separatorscomma-colon,noextra whitespace,no trailing newline",
+    "public_delivery": "Rootdecision; local artifact only",
+    "purpose": "Reproducible selectedmembership/value/result commitment; actualexecutionclock excluded, no originals rewritten",
+    "rows": 192,
+    "schema": "read-only-selector-replay-canonical-membership-v1"
+  },
+  "code_executed": false,
+  "conditional_proof_decoded_SHA256": "2cf5e923cdf5e8ab560a033e3569d8504eddf6207bef87be9b3137ff4060a0a9",
+  "decoded_projection": "Absolute owner staging prefixes replaced by logical-root labels; exact public comment bytes and decoded hashes retained.",
+  "fenced_block_SHA256": [
+    "a69a34eb9f38592c27d01b596428cbba49c581baebc487d9e2f86f0993afd31d",
+    "8452d57cffea1395132eeff51079ef041ef43ce7aa660cf2547b1ce486572741",
+    "ec659d8c030dbf9467517d0a41f9fa3ee0967f80b51748aaa539be1c21b8dfb8",
+    "b4866f6f5615ecfae610733562c78c4a06fd1d2eef6aa5c4dc660353e2561f82",
+    "10a9246466b294d21470383e08a2db5d247803a3f10994e72c4a5675afcc184a"
+  ],
+  "raw_192_policy_pick_rows_delivered": false,
+  "review_decoded_SHA256": "f54c43a09b658b7cbcff9da82dd67ea6ffa99cca9d7ffaa66156d5b42a577bcb",
+  "review_decoded_bytes": 287548,
+  "review_files": [
+    "ASSIGNMENT_RECORD.json",
+    "LIVE_PRODUCT_BINDINGS.json",
+    "OPERATIONAL_CATEGORY_DECISIONS.json",
+    "W1_W8_COVERAGE.json",
+    "research-ab/NEW_TIMING_WEEKLY_COVERAGE.compact.json"
+  ],
+  "review_gzip_SHA256": "b489e0c4a57a7bbb9cc059a159dadaafe9f10d944429bd740a421c2d8826dd5d"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "FOLLOW-THROUGH-COVERAGE-PROJECTION-NULL-v1",
+  "initial_failure": "KeyError None on an explicitly untested event/chart procedure_ref while preparing source-disposition CSV; no output score or forecast was produced.",
+  "correction": "Handle absent procedure as NO_COMPATIBLE_OFFER_PRODUCT, and keep UNKNOWN count strings null/empty rather than numeric zero.",
+  "affected_scope": "Report-source projection only, not canonical NFL grader or original website.",
+  "final_rows": 30495,
+  "new_NFL_observations": 0,
+  "original_predictions_or_grades_changed": false
+}

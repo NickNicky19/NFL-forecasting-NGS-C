@@ -1,0 +1,182 @@
+{
+  "id": "C-FOLLOW-THROUGH-DEFENSIVE-SOURCE-INDEPENDENT-REVIEW-v1",
+  "checked_UTC": "2026-11-12T04:23:05.510503+00:00",
+  "reviewer": "C independent bounded verifier; separate from supplied-reference and qualification builders",
+  "status": "PASS_WITH_SOURCE_QUALIFICATION_LIMITS",
+  "source_fidelity": "PASS for five headers and22 deterministic ordinary/boundary/tied rows relayed directly from current user Appendix A by root. Full original assignment text/workbook bytes were not independently available to this reviewer; no claim of full-text or full160-row independent transcription parity.",
+  "raw_user_quote_samples": {
+    "A1": [
+      "1,Lions,8,704,88.00",
+      "2,Broncos,9,679,75.44",
+      "T14,Cardinals,9,456,50.67",
+      "T14,Steelers,8,456,57.00",
+      "32,Jaguars,8,250,31.25"
+    ],
+    "A2": [
+      "1,Raiders,11.5,9.1",
+      "T6,Bengals,10.6,6.5",
+      "T6,Cowboys,10.6,7.5",
+      "32,Seahawks,4.4,7.8"
+    ],
+    "A3": [
+      "1,Broncos,9,344,38.22",
+      "4,Lions,8,313,39.13",
+      "T6,Bills,8,300,37.50",
+      "T6,Eagles,9,300,33.33",
+      "32,Dolphins,8,221,27.63"
+    ],
+    "A4": [
+      "1,Falcons,210,23.33,66.0%",
+      "T7,Titans,193,24.13,71.0%",
+      "26,Dolphins,168,21.00,76.0%",
+      "32,Vikings,135,16.88,57.7%"
+    ],
+    "A5": [
+      "1,Eagles,9,240,26.67,4.08",
+      "T6,Falcons,9,211,23.44,4.65",
+      "T6,Browns,9,211,23.44,4.91",
+      "32,Lions,8,147,18.38,3.93"
+    ]
+  },
+  "sampling_rule": "Fixed supplied sample covering table maxima/minima, equal totals with unequal game denominators, displayed ties and half-cent decimal boundaries; selected before independent arithmetic. Not selected by forecast wins.",
+  "team_inventory": {
+    "tables": 5,
+    "rows_per_table": 32,
+    "same32_unique_NFL_team_names": true,
+    "scope": "Inventory counts and identities only, not external season/game authentication"
+  },
+  "independent_arithmetic": {
+    "status": "PASS",
+    "rates_reconstructed": 22,
+    "method": "Separate Python standard-library csv and decimal.Decimal division with ROUND_HALF_UP; no builder or author verifier imports and no NFL models/scoring. Five TE yds/game, five attempts/game, four completions/game plus four completion percentages, four RB carries/game.",
+    "rounding_limit": "Displayed values match half-up arithmetic. Original provider rounding implementation remains unverified.",
+    "worked_examples": [
+      {
+        "quantity": "Lions TE yards/game",
+        "calculation": "704/8",
+        "result": "88.00"
+      },
+      {
+        "quantity": "Broncos TE yards/game",
+        "calculation": "679/9",
+        "result": "75.44"
+      },
+      {
+        "quantity": "Cardinals versus Steelers TE equal total",
+        "calculation": "456/9 versus456/8",
+        "result": "50.67 versus57.00; both T14 total-yard rank retained"
+      },
+      {
+        "quantity": "Lions attempts/game half-cent",
+        "calculation": "313/8=39.125",
+        "result": "39.13"
+      },
+      {
+        "quantity": "Bills versus Eagles attempts/game",
+        "calculation": "300/8 versus300/9",
+        "result": "37.50 versus33.33; both T6 total-attempt rank retained"
+      },
+      {
+        "quantity": "Titans completions/game half-cent",
+        "calculation": "193/8=24.125",
+        "result": "24.13"
+      },
+      {
+        "quantity": "Titans completion percent",
+        "calculation": "100*193/272",
+        "result": "71.0%"
+      },
+      {
+        "quantity": "Dolphins completion percent",
+        "calculation": "100*168/221",
+        "result": "76.0%"
+      },
+      {
+        "quantity": "Vikings completions/game half-cent",
+        "calculation": "135/8=16.875",
+        "result": "16.88"
+      },
+      {
+        "quantity": "Lions RB carries/game half-cent",
+        "calculation": "147/8=18.375",
+        "result": "18.38"
+      }
+    ],
+    "A2_target_counts_inferred": false,
+    "A5_yard_totals_inferred": false,
+    "provider_or_original_game_completeness_authenticated": false
+  },
+  "contract_and_actual_use": {
+    "fields_reviewed": 19,
+    "classification_counts": {
+      "ALREADY_PRESENT": 7,
+      "SOURCE_BLOCKED": 9,
+      "INCOMPATIBLE": 3
+    },
+    "C03_receiving_defense": "Inspected src/receiving_defense_c03.py directly. Roster-position TE roles and air-yard depth cells retain signed known-target/catch yardage sums/counts and complete-component flags. The fitted vector contains four support indicators, eight WR/TE depth catch-per-target values and two role target shares. TE yardage sums/per-game derived availability are not fitted R3 reception-count inputs. ALREADY_PRESENT here means quantity overlap, not identical supplied snapshot or actual model consumption.",
+    "alignment_route_scope": "Roster TE across alignments is not inline/H-back. Depth or pass destination is not receiver starting alignment; no actor-specific X/Z, all-route denominator or targets-per-route is supplied. SOURCE_BLOCKED/INCOMPATIBLE distinctions are retained.",
+    "attempts": "Corrected exact user definition: excludes sacks, includes occasional non-QB attempts. src/data_v2.py forms team allowed_attempts before QB/RB/WR/TE filtering; Context excludes sacks/no-plays/deleted/two-point plays and retains spikes. This is ordinary-count overlap, not verified provider or B-current-model equivalence.",
+    "completion": "Inspected Context strict official-count reconciliation and v11 registration. Offensive all-passers completion context, raw defensive allowed completion rate, identified-target catches and offense-adjusted residuals are different quantities/recipes. The map retains B-owned exact contract review rather than declaring all raw-rate combinations tested.",
+    "rushing": "Existing C all-player allowed_carries and allowed_rushing_yards/allowed_carries do not establish A5 RB-only/FB/hybrid population parity. Exact A-owned review, unrounded signed-yard numerator and original source still required.",
+    "source_time": "Claimed completed-Nov9/updated-Nov10 current snapshot must not enter W1-W8 histories. No archived per-origin observation/version clocks authenticated. Historical/current guards and no backdating are explicit.",
+    "new_source_qualified_fields": 0,
+    "current_release_inventory_changed": false,
+    "new_appendix_experiment_registered_or_executed": false
+  },
+  "workbook_scan": {
+    "status": "NOT_LOCATED_IN_BOUNDED_ACCESSIBLE_LOCAL_FILENAME_SCAN",
+    "filename": "nfl_defensive_rankings_2026.xlsx",
+    "roots": [
+      "/workspace",
+      "/tmp"
+    ],
+    "independent_command": [
+      "rg",
+      "--files",
+      "--hidden",
+      "-g",
+      "!**/.git/**",
+      "/workspace",
+      "/tmp"
+    ],
+    "accessible_file_paths_examined": 13043,
+    "matches": [],
+    "rg_exit_code": 2,
+    "stderr_present": true,
+    "limits": "Only accessible filenames; scan reported errors and cannot prove absence elsewhere or in inaccessible paths. No workbook body, sheets, references or original source response inspected.",
+    "source_requests": 0
+  },
+  "checked_bindings": {
+    "mapping_11_existing_code_schema_report_members": "PASS",
+    "resource_14_members": "PASS",
+    "manifest_6_transcription_members": "PASS",
+    "FIELD_TO_USE_SHA256": "03e7f10b5ece7adab5389fd1e2953b61a70737c29792b40f197c9e284a288d18",
+    "canonical_tables_SHA256": "cb07bbaa59f7cccca73c0b1860bd47511d0532487afd884b8fe1907e2436f053",
+    "manifest_SHA256": "5acf731f2aa325a5c7bb55d3b2b9e22e947a1ae732c2a18cb0fa03071d1efd46"
+  },
+  "relay_corrections_not_source_defects": [
+    "Root initially relayed Titans rank as8, corrected to exact user T7 before comparison. Saved source already T7.",
+    "Root initially summarized A3 as excluding non-QB, then supplied exact sentence including occasional non-QB attempts. Saved mapping matches corrected definition. No data/model/grade discrepancy resulted."
+  ],
+  "review_not_claimed": [
+    "External source authentication, rights or workbook access",
+    "Complete independent rerun of436 author arithmetic checks",
+    "Actual A/B component-owner approval or private-row parity",
+    "New fit, forecast, probability, game, scored week or improvement",
+    "A new release gate or original-site activation"
+  ],
+  "disposition": "Keep reference-only/SOURCE_BLOCKED. No mathematical discrepancy in checked sample or material source-mapping conflict established. Existing negative recipes remain closed; permitted existing-source qualification is the next bounded action.",
+  "resources": {
+    "CPU_seconds_registered_max": 60,
+    "RSS_bytes_registered_max": 1073741824,
+    "receipt_bytes_limit": 32768,
+    "receipt_generation_CPU_seconds": 0.001652074999999989,
+    "receipt_generation_peak_RSS_bytes": 10878976,
+    "independent_filename_scan_reported_CPU_seconds": 0.014076114,
+    "network_operations": 0,
+    "model_loads": 0,
+    "fits": 0,
+    "inference": 0,
+    "NFL_scoring": 0
+  }
+}

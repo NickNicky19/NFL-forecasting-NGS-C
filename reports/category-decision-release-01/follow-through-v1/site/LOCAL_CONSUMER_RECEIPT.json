@@ -1,0 +1,118 @@
+{
+  "schema": "C07-FINAL-LOCAL-CATEGORY-CONSUMER-RECEIPT-v1",
+  "observed_UTC": "2026-11-12T04:40:51.273661+00:00",
+  "status": "PASS_FINAL_LOCAL_BROWSER_NOT_SERVED_RELEASE",
+  "data_SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636",
+  "data_bytes": 781180,
+  "actual_HEAD": "2e604d8801d74788a61b3fa9e5206e7c4a452e81",
+  "commands": [
+    "python src/browser_qa_category_decisions_c06.py --root docs --out reports/category-decision-release-01/follow-through-v1/site/local-final --executable /usr/bin/chromium",
+    "Bounded inline local Playwright metadata check: no-offer preferrednull, highestpanels[], ABSTAIN/NOT_MET; reception VERIFIED_THEN_EXPIRED;25realclockexpired; SOURCE_BINDING_CHECK verifies24payloadhashes."
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+    "timezone": "America/Chicago",
+    "TLS_verification": "ENABLED_NO_IGNORE_FLAGS",
+    "browser_permissions": "Approved systemChromium path;local HTTP server only"
+  },
+  "checked": {
+    "own_side_rows": 12,
+    "other_product_rows": 48,
+    "current_mean_median_rows": 25,
+    "WR_TE_rows": 18,
+    "RB_rows": 7,
+    "actual_expired_rows": 25,
+    "real_offers": 0,
+    "real_selections": 0,
+    "category_and_role_filters": true,
+    "mobile390_desktop1440": true,
+    "HTTP_checksum_build_binding_fail_closed": true,
+    "legacy_rows_preserved": 12
+  },
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_observations": 0,
+  "original_site_reads": 0,
+  "original_site_writes": 0,
+  "C_source_or_docs_mutations": false,
+  "bindings": [
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "bytes": 781180,
+      "SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 2046,
+      "SHA256": "47af5239d82a0271dba8543a72d69e823256a804c13450e2f94985581fcc7514"
+    },
+    {
+      "path": "docs/championship.html",
+      "bytes": 7958,
+      "SHA256": "885f5c2c824200affe7c1c19fdcc1ca1b0bb7a6ac88e440883575e91da1849b4"
+    },
+    {
+      "path": "docs/championship.js",
+      "bytes": 21181,
+      "SHA256": "18b54f97a2718e2f58eac0c3f3270f77b92876e7b1aeb99c4cbc6e700cd2092d"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "bytes": 9659,
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+      "bytes": 1057555,
+      "SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/BROWSER_PARITY.json",
+      "bytes": 1261,
+      "SHA256": "d3a84a86eb3682288c7fee38717b65103323c6c6f3141408e8b2ba3e69367cb9"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/C06-category-desktop.png",
+      "bytes": 94218,
+      "SHA256": "9fc1d1506601c431b6216cb0da0f5af422e10e2384eb989320f8d8058a481e5c"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/C06-category-mobile.png",
+      "bytes": 83019,
+      "SHA256": "4718f459de994b14ec930058604e8cedf16b0de775e1c2d72a681bfbf799bc7f"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/C06-current-expired-mobile.png",
+      "bytes": 41779,
+      "SHA256": "d83474fb6f52367542882947698bf93d1a915da4d9c4f67c878481841371073a"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/INITIAL_METADATA_ASSERTION_FAILURE.json",
+      "bytes": 334,
+      "SHA256": "5684d99127a897f68cfb3416d81e4bb0bda473dffb07b4155e3afd7d5ccafb0b"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/METADATA_PARITY.json",
+      "bytes": 2417,
+      "SHA256": "b505793a43b5360ade789c6d667c160b6203a029922e8c2596422e567c2cca81"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/local-final/SOURCE_BINDING_CHECK.json",
+      "bytes": 6826,
+      "SHA256": "e5e97a109f0f68f35b2557a31bd2bf5064708138306a83fbd9e6dae452f5fe6a"
+    }
+  ],
+  "next_stage": "After owner publication, verify actual served data bytes and direct C browser against exact deployedhead; no original-site release inference.",
+  "prior_receipt": "LOCAL_CONSUMER_RECEIPT_V1.json",
+  "metadata_corrections": {
+    "no_offer_candidates_null_and_empty_observed_panels": true,
+    "rec_current_query_verified_then_expired": true,
+    "all24_payload_source_bindings_hash_match": true,
+    "immutable_registration_fix": "Root-owned frozen registration binding; no mutation by this verifier."
+  },
+  "preserved_helper_failures": [
+    "local-final/INITIAL_METADATA_ASSERTION_FAILURE.json",
+    "local-final/SOURCE_BINDING_CHECK.json (optional bytes field assumption corrected)"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "FOLLOW-THROUGH-FROZEN-CAPTURE-STATUS-v1",
+  "checked_UTC": "2026-11-12T04:14:41.272358+00:00",
+  "rows": [
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "forecasts": 75,
+      "players": 25,
+      "games": {
+        "2026_10_WAS_NYG": "2026-11-13T01:15:00+00:00"
+      },
+      "RUN_SHA256": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d",
+      "FORECASTS_SHA256": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+      "real_offers": 0,
+      "real_selections": 0,
+      "current_use": "EXPIRED; no reissue/repricing without qualified fresh admission",
+      "grade_status": "PENDING_RECORDED_FUTURE_KICKOFF;no new final-status request or grade due from these saved scheduled times",
+      "source_limit": "No fresh provider finality/current-offer observation is claimed by this metadata check."
+    },
+    {
+      "run_id": "C-C05-NEDET-FIRST-01",
+      "forecasts": 69,
+      "players": 23,
+      "games": {
+        "2026_10_NE_DET": "2026-11-15T14:30:00+00:00"
+      },
+      "RUN_SHA256": "edc76d1de4c2d59603a103da3e9c8e899a2f5cbf8835282360f29fb040577de4",
+      "FORECASTS_SHA256": "e3dcb454f25b3a3d6b802a72f47ec91d583fe3eeeaa7fc964a0d4d255b16d32e",
+      "real_offers": 0,
+      "real_selections": 0,
+      "current_use": "EXPIRED; no reissue/repricing without qualified fresh admission",
+      "grade_status": "PENDING_RECORDED_FUTURE_KICKOFF;no new final-status request or grade due from these saved scheduled times",
+      "source_limit": "No fresh provider finality/current-offer observation is claimed by this metadata check."
+    },
+    {
+      "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+      "forecasts": 25,
+      "players": 25,
+      "games": {
+        "2026_10_WAS_NYG": "2026-11-13T01:15:00+00:00"
+      },
+      "RUN_SHA256": "9846fc48c86b795bbcbb62f215a33332012eed43c523500a0a6699c9dacfeead",
+      "FORECASTS_SHA256": "8f7b505452ad74ba0ecf8194e429ab400ff9296e8c17a8014067e4c66f3ebfbc",
+      "real_offers": 0,
+      "real_selections": 0,
+      "current_use": "EXPIRED; no reissue/repricing without qualified fresh admission",
+      "grade_status": "PENDING_RECORDED_FUTURE_KICKOFF;no new final-status request or grade due from these saved scheduled times",
+      "source_limit": "No fresh provider finality/current-offer observation is claimed by this metadata check."
+    }
+  ],
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_captures": 0,
+  "new_grades": 0,
+  "new_NFL_games_or_weeks": 0,
+  "warning": "C06 supplements the C04 P1 subset for the same game; repeated clocks/rows are not additional NFL games, selections or validation weeks. All original hashes preserved.",
+  "next_executor": "C",
+  "next_action": "Grade first-valid immutable snapshots only after qualified final outcomes through existing grader. Current selections need real qualified offers and a declared fresh decision/source contract; absent offers remain explicit."
+}

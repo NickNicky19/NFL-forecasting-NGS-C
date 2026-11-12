@@ -1,0 +1,16 @@
+{
+  "recorded_UTC": "2026-11-12T04:30:55.590554+00:00",
+  "state": "CHECKER_EXPECTED_EXPLICIT_NULL_FOR_NA_ROW;SOURCE_OMITS_FIELD",
+  "error": "N/A anytime/chart rows omit exact_procedure instead of serializing null. Preserve N/A without treating as a scored zero.",
+  "repair_wrapper_error": "Initial receipt-writer imported datetime module but invoked class method; wrapper corrected before source or checker mutation.",
+  "source_data_defect": false,
+  "new_GETs_or_fits": 0,
+  "initial_script_SHA256": "07c4bbd3af800593c33cd403d2c02c7cc1baadcfa1f6d846e43939e6a404782f",
+  "weekly_NA_shape": "No annual row encodes wins/losses null with decided0; checker now preserves it as unscored, not a 0/0 scored record.",
+  "additional_schema_corrections": [
+    "No-compatible-product weekly rows legitimately have procedure_ref=null.",
+    "Empty side pools encode wins/losses null and decided0; keep their rate N/A and use only the empty-set additive identity for arithmetic.",
+    "Some separate W6-W8 diagnostic counts explicitly contain UNKNOWN strings; check only the numeric known quantities and do not coerce missingness.",
+    "Inspection helper treated the archived-score top-level list as a dict, then a temporary loop variable typo occurred; both corrected without source or score changes."
+  ]
+}

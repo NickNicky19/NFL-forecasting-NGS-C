@@ -1,0 +1,269 @@
+{
+  "id": "C-FOLLOW-THROUGH-FINAL-INDEPENDENT-REVIEW-v1",
+  "checked_UTC": "2026-11-12T04:41:54.279881+00:00",
+  "status": "PASS_SCOPED_DATA_AND_CONTRACT_REVIEW;FINAL_POINTER_REBIND_RESERVED_TO_ROOT",
+  "reviewer": "C bounded independent verifier",
+  "base_C_commit": "2e604d8801d74788a61b3fa9e5206e7c4a452e81",
+  "checks_passed": 145,
+  "canonical_decisions_SHA256": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601",
+  "release_roster_freeze_SHA256": "2b3f7415e4d1102594f0b21b44a7affd1187af5b494fa88067007a1372f57e8f",
+  "coverage_SHA256": "9a0c43b4bfc2aa74ab380b9099fe66cc4418a1f36c6fa97dd63671a494506a04",
+  "scope": "Own-side aggregate arithmetic and immutable receipt/source identity, exact product and population separation; no private-row regrade, new inference, fit, network or full audit. Prior source/model/inference/fit reviews reused.",
+  "own_counts": {
+    "pass_yd": {
+      "decided": 89,
+      "losses": 37,
+      "rate": 0.5842696629213483,
+      "selected": 89,
+      "wins": 52
+    },
+    "pass_td": {
+      "decided": 86,
+      "losses": 37,
+      "rate": 0.5697674418604651,
+      "selected": 86,
+      "wins": 49
+    },
+    "pass_cmp": {
+      "decided": 88,
+      "losses": 36,
+      "rate": 0.5909090909090909,
+      "selected": 88,
+      "wins": 52
+    },
+    "pass_att": {
+      "decided": 87,
+      "losses": 43,
+      "rate": 0.5057471264367817,
+      "selected": 87,
+      "wins": 44
+    },
+    "pass_int": {
+      "decided": 87,
+      "losses": 37,
+      "rate": 0.5747126436781609,
+      "selected": 87,
+      "wins": 50
+    },
+    "rush_yd": {
+      "decided": 287,
+      "losses": 122,
+      "rate": 0.5749128919860628,
+      "selected": 293,
+      "wins": 165
+    },
+    "rush_att": {
+      "decided": 260,
+      "losses": 114,
+      "rate": 0.5615384615384615,
+      "selected": 266,
+      "wins": 146
+    },
+    "rec": {
+      "wins": 239,
+      "losses": 173,
+      "decided": 412,
+      "rate": 0.5800970873786407,
+      "selected": 421
+    },
+    "rec_yd": {
+      "decided": 593,
+      "losses": 271,
+      "rate": 0.5430016863406408,
+      "selected": 659,
+      "wins": 322
+    },
+    "rush_rec_yd": {
+      "decided": 386,
+      "losses": 178,
+      "rate": 0.538860103626943,
+      "selected": 408,
+      "wins": 208
+    },
+    "anytime_td": null,
+    "nick-chart-ppr-v1": null
+  },
+  "source_tiers": "Ten annual direction rows have owner-source W1-W5 and named68/69/79 book priority. Quote/vintage clocks remain unknown. Anytime/chart have no compatible offer direction here, not global absence. No claimed original issuance or historical-vintage upgrade.",
+  "Count_A_mean": {
+    "status": "PASS_DIRECT_OWN_PRODUCT_REUSE",
+    "exact_original_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+    "scored_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "weekly_wins_decided": [
+      [
+        4,
+        9
+      ],
+      [
+        13,
+        25
+      ],
+      [
+        14,
+        24
+      ],
+      [
+        14,
+        23
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "combined": [
+      49,
+      86
+    ],
+    "legacy_rows_used": false,
+    "limit": "Aggregate/source-week owner qualification only; no independently recovered private rows or original quote/source clocks."
+  },
+  "B_common": {
+    "status": "EXISTING_TESTED_LOWER_MEDIAN, NOT_A_NEW_MODEL",
+    "record": [
+      44,
+      87
+    ],
+    "strong_constant_over": [
+      46,
+      87
+    ],
+    "decision": "KEEP_INCUMBENT",
+    "limit": "Earlier compatible source/hash and A current contribution bind the product. No new B fit or private-row parity inferred."
+  },
+  "reception": {
+    "C_WR_TE_P1_mean": [
+      239,
+      412
+    ],
+    "A_broader_Leaf_median": [
+      328,
+      579
+    ],
+    "paired_C_mask_strong_A_mean": [
+      238,
+      412
+    ],
+    "masks_kept_separate": true,
+    "no_global_winner_inferred": true
+  },
+  "selector": {
+    "full_system_scored_weeks": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "candidate": [
+      50,
+      43,
+      93
+    ],
+    "control": [
+      48,
+      45,
+      93
+    ],
+    "selected_each": 96,
+    "unknown_each": 3,
+    "candidate_generated_selected_owner_reported": 8,
+    "candidate_fallback_selected_derived": 88,
+    "candidate_only_memberships_owner_reported": 8,
+    "identical_membership_not_implied": true,
+    "W8": "Valid full-system fallback-only week; zero candidate-generated selections;24fallback selections/22decided/10wins.",
+    "five_week_primary_qualification": false,
+    "private_membership_grade_parity": "NOT_ESTABLISHED; public commitments/aggregates only"
+  },
+  "original_site_direction": "Checked retained app lines1286-1287 and1323-1324 directly: active zero-selected branch renders serialized prop.lean. selectedPropGap margin is the selected override and other filtering/sorting path, not evidence baseline chips recompute their lean. Custom edited-line detail is separate.",
+  "coverage": {
+    "rows": 30495,
+    "prior_rows": 30248,
+    "source_week_dispositions_added": 242,
+    "exact_mean_own_week_supplement": 5,
+    "compound_key": [
+      "row_id",
+      "season",
+      "week"
+    ],
+    "new_NFL_games_weeks": 0
+  },
+  "protected_unchanged_from_base": [
+    "src",
+    "prospective",
+    "protocol",
+    "artifacts",
+    "tests"
+  ],
+  "current_shadow": "Original75/69/25 packets preserved; current-use expiry is not fresh issuance or new offered picks. Historical scoped point duration does not transfer to changed current role/roster/horizon/probability/Top Picks products.",
+  "review_fixes_confirmed": [
+    "Frozen prior table points to immutable retainedxz plus decoded original hash and base ref.",
+    "Anytime/chart preferred candidate lists empty with explicit NO_QUALIFIED_REPLACEMENT.",
+    "C source-fit reuse described as verified then expired; no automatic whole-product five-week inheritance."
+  ],
+  "hash_bindings": {
+    "local_checks": 101,
+    "unique_paths": 53,
+    "unresolved_targets": [],
+    "time_of_check_differences": [
+      {
+        "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+        "declared": "6bbdd1cc501226f35247943b670790d2e4f9b03a13ecd9d68d442e9ba9e617ff",
+        "actual": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601",
+        "at": "CURRENT_PROTOCOL/category_decision_release_01/category_product_decisions"
+      },
+      {
+        "path": "reports/category-decision-release-01/follow-through-v1/REGISTRATION.json",
+        "declared": "43b467936a94e4cd974c32f190d4d7978142ed61b4b92b0b05fc6017e6bd2b61",
+        "actual": "43de57669194b9e40db7be73cd77131e88fb43c3c15d17e93f9f19517ccb8c68",
+        "at": "CURRENT_PROTOCOL/category_decision_release_01/follow_through_v1/registration"
+      },
+      {
+        "path": "reports/category-decision-release-01/follow-through-v1/RELEASE_ROSTER_FREEZE.json",
+        "declared": "6418ecd3ca3a7c35d4f601715d6038da6a475356d95baa377f4f3c57b80ae291",
+        "actual": "2b3f7415e4d1102594f0b21b44a7affd1187af5b494fa88067007a1372f57e8f",
+        "at": "CURRENT_PROTOCOL/category_decision_release_01/follow_through_v1/release_roster_freeze"
+      },
+      {
+        "path": "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json",
+        "declared": "6bbdd1cc501226f35247943b670790d2e4f9b03a13ecd9d68d442e9ba9e617ff",
+        "actual": "0d95bdb269761fe6a87d7646ea7345fc8b32363d7ad65b472708132fc34c3601",
+        "at": "EXPORT_INDEX/category_decision_release_01/category_product_decisions"
+      },
+      {
+        "path": "reports/category-decision-release-01/follow-through-v1/REGISTRATION.json",
+        "declared": "43b467936a94e4cd974c32f190d4d7978142ed61b4b92b0b05fc6017e6bd2b61",
+        "actual": "43de57669194b9e40db7be73cd77131e88fb43c3c15d17e93f9f19517ccb8c68",
+        "at": "EXPORT_INDEX/category_decision_release_01/follow_through_v1/registration"
+      },
+      {
+        "path": "reports/category-decision-release-01/follow-through-v1/RELEASE_ROSTER_FREEZE.json",
+        "declared": "6418ecd3ca3a7c35d4f601715d6038da6a475356d95baa377f4f3c57b80ae291",
+        "actual": "2b3f7415e4d1102594f0b21b44a7affd1187af5b494fa88067007a1372f57e8f",
+        "at": "EXPORT_INDEX/category_decision_release_01/follow_through_v1/release_roster_freeze"
+      }
+    ],
+    "completion_owner": "Root performs reserved final pointer/roster/site stage rebinding after this receipt; no scientific bytes need change."
+  },
+  "queue_review": "Source-week status acknowledges actual owner receipts. Native Count A runtime/feed remains a concrete source-bound integration task, not missing mathematical correction. Four selector weeks/fifth compatible board and decision timing remain separate. No C cross-owner implementation or universal gate.",
+  "checker_corrections": [
+    "An exploratory JSON reader treated B_REPORT.json.xz as JSON; decoded bytes are Markdown under the saved filename. Reader corrected; source bytes unchanged.",
+    "An exploratory display helper called .get on explicit null own_sides in no-offer categories; helper corrected to preserve null. No scientific data, score or policy affected."
+  ],
+  "release_limit": "This review does not activate an original-site product or establish new superiority, private parity, current browser verification or a fifth selector week. Existing provisional rules/five-week floor retained; no new100-case,90%, all-category or full-history gate.",
+  "resources": {
+    "CPU_seconds": 0.827357762,
+    "peak_RSS_bytes": 190767104,
+    "registered_CPU_seconds": 90,
+    "registered_RSS_bytes": 1073741824,
+    "network": 0,
+    "new_fits": 0,
+    "new_model_inference": 0,
+    "new_NFL_scoring": 0,
+    "new_NFL_games_or_weeks": 0
+  }
+}

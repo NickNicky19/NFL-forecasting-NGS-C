@@ -1,0 +1,474 @@
+{
+  "C_follow_through_verification": {
+    "actual_current_browser_repeated_by_C": false,
+    "at_UTC": "2026-11-12T04:28:08.361429+00:00",
+    "current_top_leaf_or_membership_fetched_by_C": false,
+    "current_top_pointer": {
+      "bytes": 11962,
+      "display_board_sha256": "3eabdb6e262dc6c079aa81933e8a8a11a33412182b45e096a4ab9af44cee1c5e",
+      "overlay_sha256": "2d6d458ad7de11b02af3c95d7e96ee4ae2b54d5aa0f7d36edf66c592c1ebf3b3",
+      "path": "weekly-selected-rankings/f5919bf094f9ad620d9460f31ed13682e163400b2d350cf98db38661e3bc97b4.json",
+      "published_at": "2026-11-11T21:13:21.621671+00:00",
+      "schema_version": "weekly-selected-rankings-pointer-v1",
+      "sha256": "f5919bf094f9ad620d9460f31ed13682e163400b2d350cf98db38661e3bc97b4"
+    },
+    "direction_branch_source": {
+      "SHA256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f",
+      "correction": "Owner supplied direction strings describe selected-only override; active baseline consumes serialized prop.lean.",
+      "lines": [
+        1286,
+        1287,
+        1323,
+        1324
+      ],
+      "path": "reports/category-decision-release-01/website/CURRENT_APP_JS.decoded.js",
+      "source_main_unchanged": true
+    },
+    "new_primary_research_activation_observed": false,
+    "owner_browser_verification": "112 assertions at390/1280 via CA-verified served-byte replay; owner reports direct browser TLS ERR_CERT_AUTHORITY_INVALID; no TLS bypass.",
+    "scope": "Current immutable source pointers/overlay and actual served metadata; remaining rendered membership/value claims are owner receipt, not a new C browser check.",
+    "served_metadata": {
+      "HTTP_Age": null,
+      "HTTP_Date": null,
+      "HTTP_status": 200,
+      "SHA256": "72cac77d4f3d506e1533e43dc310a4aa839845aba90d5e2bda38014840347230",
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/meta.json",
+      "bytes": 1249,
+      "id": "FOLLOW-SERVED-WEBSITE-META-v1",
+      "metadata": {
+        "execution_model": {
+          "capture_schema": "baseline-capture-classic-presence-v2",
+          "engine_sha256": {
+            "pull/books.py": "0b89744960136a4f2e594b61e6df754d357706d8c66a8ae359d8eb02bbfa53f8",
+            "pull/build.py": "b83126080149f2f0705682d1c0be0a8ee87610ebb0a88cd57b94b8a82b63ad73",
+            "pull/gamemodel.py": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f",
+            "pull/grade.py": "afd1310d708def4f400e6bf84e981e2edc7635dc946a63571022203c1d3ae735",
+            "pull/matchup.py": "eaf627730041060ad16dd9930accfe54a54cf5fb49bb42d18680b5c572ddd7a5",
+            "pull/news.py": "17ce1b3b6b72694e6b543bd767e287c26a9d1f6dd5dba2de6c873543036842e9",
+            "pull/scoring.py": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d",
+            "pull/sources.py": "36555cdbc55d73ba632d5adae1130288f4f532073857c642ac3ebc7e626b0061"
+          },
+          "grading_version": "statistical-presence-strict-v5-20261106",
+          "model": "sleeper-matchup-classic-presence-strict-v2",
+          "normalized_stats_cache": "stat-keys-presence-strict-v3",
+          "original_shadow_model": "original_sleeper_matchup_baseline",
+          "original_shadow_procedure": "original-builder-default-refresh-v1",
+          "original_shadow_source": "89512ed952308dacc1f6a930915ddbcdccd460d9",
+          "schema_version": "weekly-classic-presence-execution-v2"
+        },
+        "generated_at": "2026-11-11T21:13:13Z",
+        "season": 2026,
+        "week": 10
+      },
+      "model_or_site_write": false,
+      "new_requests": 1,
+      "observed_UTC": "2026-11-12T04:20:36.377313+00:00",
+      "scope": "Actualservedmetadataonly;nonewbrowserplayer-valueorfullboardinspection"
+    },
+    "source_main": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e",
+    "source_overlay_byte_SHA256": "2d6d458ad7de11b02af3c95d7e96ee4ae2b54d5aa0f7d36edf66c592c1ebf3b3",
+    "source_overlay_fallback_counts": {
+      "publication_not_approved_R0": 2027
+    },
+    "source_overlay_frozen_rows": 0,
+    "source_overlay_rows": 0,
+    "source_overlay_state": "DISABLED_USE_R0"
+  },
+  "app_sha256": "8aa97d75b8a444e4711e972535211208f8ee72414ad48b8840a17075c8a5b52f",
+  "assignment": "NFL-CATEGORY-DECISION-AND-RELEASE-01",
+  "at": "2026-11-12T01:51:33.625006+00:00",
+  "categories": [
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "pass_yd",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 41,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "pass_td",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>0.15 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>0.15 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 35,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "pass_cmp",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>0.8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>0.8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 41,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "pass_att",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>1 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>1 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 42,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "pass_int",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>0.12 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>0.12 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 33,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "rush_yd",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>4 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>4 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 149,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "rush_att",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>0.8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>0.8 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 108,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "rec",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>0.3 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>0.3 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 379,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "rec_yd",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>4 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>4 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 379,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "rush_rec_yd",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Active baseline/no-selected-row branch renders serialized prop.lean; current research overlay has0rows. This receipt does not substitute selectedPropGap for that active baseline field.",
+      "direction_branches": {
+        "baseline_current_active": "propChip: selected ? effectiveGap?.lean : prop.lean; unedited prop detail starts prop.lean",
+        "custom_edited_line_detail": "Recomputes margin from selected?.value ?? prop.adj against edited line; separate explicit user-edit branch.",
+        "selectedPropGap_other_uses": "Also filters/sorts; these uses do not prove baseline rendered lean is recalculated there.",
+        "selected_override_if_admitted": "selectedPropGap: value-line>5 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines."
+      },
+      "display": "prop.adj adjusted baseline reference point; raw projection separate; independent MAE feed absent.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "owner_reported_selected_override_direction": "selectedPropGap: value-line>5 Over; below negative margin Under; otherwise abstain. Real DK/Sleeper lines.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 208,
+      "ranking": "Current baseline eligibility/scaled-gap policy, not confidence ranking.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.propChip baseline serialized prop.lean; selected-only override app.selectedPropGap; prop detail explicit edited-line margin branch",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": "sleeper-matchup-classic-presence-strict-v2",
+      "category": "anytime_td",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "No qualified NO/Under offer product.",
+      "display": "baselineTdProbability requires finite nonnegative proj and valid td_chance.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "probability": "Uncalibrated baseline event estimate.",
+      "prop_opportunity_rows": 612,
+      "ranking": "Not in numeric Top selector.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.selectedPropGap",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    },
+    {
+      "actual_method": null,
+      "category": "nick-chart-ppr-v1",
+      "count_meaning": "Counts prop opportunities, including unavailable output; not finite forecast/selection counts.",
+      "direction": "Unavailable exact chart product.",
+      "display": "Exact chart product unavailable. Legacy league-scoring display remains separate.",
+      "fallback": "Declared finite baseline fallback; unavailable stays unavailable; stale-age disclosure retained.",
+      "probability": "Unavailable; a point gap is not probability.",
+      "prop_opportunity_rows": 0,
+      "ranking": "Not in numeric Top selector.",
+      "selected_research_rows": 0,
+      "sort_does_not_activate_research_models": true,
+      "trace": {
+        "direction": "app.selectedPropGap",
+        "independent_numerical": "app.maeDisplayForecast (no admitted payload)",
+        "point": "app.effectivePropForecast",
+        "ranking": "weekly_selected_rankings.prepare -> saved ranking -> app.visibleTopPicks"
+      }
+    }
+  ],
+  "id": "LIVE_PRODUCT_BINDINGS",
+  "overlay_rows": 0,
+  "rank_policy": {
+    "categories": {
+      "pass_att": {
+        "lean": 1,
+        "minimum_line": 20.5,
+        "scale": 3
+      },
+      "pass_cmp": {
+        "lean": 0.8,
+        "minimum_line": 12.5,
+        "scale": 2.5
+      },
+      "pass_int": {
+        "lean": 0.12,
+        "minimum_line": 0.5,
+        "scale": 0.5
+      },
+      "pass_td": {
+        "lean": 0.15,
+        "minimum_line": 0.5,
+        "scale": 0.6
+      },
+      "pass_yd": {
+        "lean": 8,
+        "minimum_line": 150.5,
+        "scale": 30
+      },
+      "rec": {
+        "lean": 0.3,
+        "minimum_line": 1.5,
+        "scale": 1.2
+      },
+      "rec_yd": {
+        "lean": 4,
+        "minimum_line": 15.5,
+        "scale": 12
+      },
+      "rush_att": {
+        "lean": 0.8,
+        "minimum_line": 6.5,
+        "scale": 3
+      },
+      "rush_rec_yd": {
+        "lean": 5,
+        "minimum_line": 25.5,
+        "scale": 15
+      },
+      "rush_yd": {
+        "lean": 4,
+        "minimum_line": 15.5,
+        "scale": 12
+      }
+    },
+    "fallback": "same-opportunity reference identified by forecast_source and model_version; unavailable is never zero",
+    "meaning": "descriptive scaled forecast gap, not win probability or EV",
+    "minimum_games": 2,
+    "minimum_projected_ppr": {
+      "QB": 10,
+      "RB": 6,
+      "TE": 6,
+      "WR": 6
+    },
+    "minimum_score": 0.35,
+    "minimum_snap_share": 0.5,
+    "projection_line_ratio": [
+      0.4,
+      2.5
+    ],
+    "tie_order": [
+      "absolute_score_desc",
+      "game_id",
+      "player_id",
+      "category"
+    ],
+    "top_n": 12,
+    "unavailable": [
+      "Out",
+      "IR",
+      "PUP",
+      "Suspended",
+      "NA",
+      "Doubtful",
+      "COV",
+      "DNR"
+    ],
+    "version": "selected-projection-gap-classic-presence-v2"
+  },
+  "rank_sources": [
+    "CURRENT_BASELINE"
+  ],
+  "served_generated": "2026-11-11T21:13:13Z",
+  "source": "ccfaa987f5416ca6abce2570f9fee8c4c41c1d3e"
+}

@@ -1,0 +1,545 @@
+{
+  "id": "C-FOLLOW-THROUGH-INDEPENDENT-PEER-REVIEW-v1",
+  "checked_UTC": "2026-11-12T04:32:53.068224+00:00",
+  "status": "PASS_RECEIVED_PUBLIC_ARITHMETIC_AND_STATIC_BINDINGS;CONDITIONAL_SOURCE_SCOPE",
+  "source_hashes_verified": [
+    {
+      "member": "A_CONTRIBUTION.json.xz",
+      "decoded_bytes": 94192,
+      "SHA256": "524311b0735ca206ce9421ee08c051f4aa4c7ae6db702c4634184dc574c54969"
+    },
+    {
+      "member": "A_WEEKLY_COVERAGE.json.xz",
+      "decoded_bytes": 349040,
+      "SHA256": "c86b2901f75f0b266f799a99d8a387ba6148f8597c3393b011295e70537c487d"
+    },
+    {
+      "member": "B_JOIN_ACKNOWLEDGMENT.json.xz",
+      "decoded_bytes": 379238,
+      "SHA256": "fdb4b7db3daae3ba66fe5104178b59a204c08b6f69d3b0608545b34d96cd0e8b"
+    },
+    {
+      "member": "B_SELECTOR_VERIFICATION.json.xz",
+      "decoded_bytes": 27025,
+      "SHA256": "e0aef529f6a354fd6cd6a66a7f4a76737a840cb64cf083a67e562a251560c643"
+    },
+    {
+      "member": "A_COUNTA_EXTENSION.json.xz",
+      "decoded_bytes": 14189,
+      "SHA256": "15bb7e53d83e3e88e7cdf844a578c2eaaba3fab418ffbdca726fad1a9c88d129"
+    },
+    {
+      "member": "A_COUNTA_CORRECTOR_SOURCE.py.xz",
+      "decoded_bytes": 31195,
+      "SHA256": "aa7c002506b57d7c1ca643f4236e5fb8b5132bebb00ad86720ee11221b6d9fb6"
+    }
+  ],
+  "A_contribution_rows": 12,
+  "A_scored_category_rows": 10,
+  "A_no_compatible_product_categories": [
+    "anytime_td",
+    "nick-chart-ppr-v1"
+  ],
+  "A_category_own_records": [
+    {
+      "category": "pass_yd",
+      "procedure": "A::pass_yd::a628c415c7f27ddaab9a9a4296cb189cc56c885c67aa6ded87928e08ac291341::HGB_MAE_DIRECT::mae_objective_point",
+      "own": {
+        "OVER": {
+          "decided": 45,
+          "losses": 17,
+          "rate": 0.6222222222222222,
+          "selected": 45,
+          "wins": 28
+        },
+        "UNDER": {
+          "decided": 44,
+          "losses": 20,
+          "rate": 0.5454545454545454,
+          "selected": 44,
+          "wins": 24
+        },
+        "COMBINED": {
+          "decided": 89,
+          "losses": 37,
+          "rate": 0.5842696629213483,
+          "selected": 89,
+          "wins": 52
+        }
+      },
+      "eligible": 89,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "pass_td",
+      "procedure": "A::pass_td::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::COUNT_A_MEAN::mean_objective_point",
+      "own": {
+        "OVER": {
+          "decided": 45,
+          "losses": 20,
+          "rate": 0.5555555555555556,
+          "selected": 45,
+          "wins": 25
+        },
+        "UNDER": {
+          "decided": 41,
+          "losses": 17,
+          "rate": 0.5853658536585366,
+          "selected": 41,
+          "wins": 24
+        },
+        "COMBINED": {
+          "decided": 86,
+          "losses": 37,
+          "rate": 0.5697674418604651,
+          "selected": 86,
+          "wins": 49
+        }
+      },
+      "eligible": 86,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "pass_cmp",
+      "procedure": "A::pass_cmp::8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6::CATBOOST_MEDIUM::mean_objective_point",
+      "own": {
+        "OVER": {
+          "decided": 38,
+          "losses": 13,
+          "rate": 0.6578947368421053,
+          "selected": 38,
+          "wins": 25
+        },
+        "UNDER": {
+          "decided": 50,
+          "losses": 23,
+          "rate": 0.54,
+          "selected": 50,
+          "wins": 27
+        },
+        "COMBINED": {
+          "decided": 88,
+          "losses": 36,
+          "rate": 0.5909090909090909,
+          "selected": 88,
+          "wins": 52
+        }
+      },
+      "eligible": 88,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "pass_att",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+      "own": {
+        "OVER": {
+          "decided": 5,
+          "losses": 1,
+          "rate": 0.8,
+          "selected": 5,
+          "wins": 4
+        },
+        "UNDER": {
+          "decided": 82,
+          "losses": 42,
+          "rate": 0.4878048780487805,
+          "selected": 82,
+          "wins": 40
+        },
+        "COMBINED": {
+          "decided": 87,
+          "losses": 43,
+          "rate": 0.5057471264367817,
+          "selected": 87,
+          "wins": 44
+        }
+      },
+      "eligible": 87,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "pass_int",
+      "procedure": "A::pass_int::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::LEAF_CDF::mean",
+      "own": {
+        "OVER": {
+          "decided": 81,
+          "losses": 35,
+          "rate": 0.5679012345679012,
+          "selected": 81,
+          "wins": 46
+        },
+        "UNDER": {
+          "decided": 6,
+          "losses": 2,
+          "rate": 0.6666666666666666,
+          "selected": 6,
+          "wins": 4
+        },
+        "COMBINED": {
+          "decided": 87,
+          "losses": 37,
+          "rate": 0.5747126436781609,
+          "selected": 87,
+          "wins": 50
+        }
+      },
+      "eligible": 87,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "rush_yd",
+      "procedure": "A::rush_yd::d253d5e193e297b952ca49b6905186329598289ce0bebac8698c3c30ecea3681::EQUAL_CDF_CAT_HGB_POINT::empirical_point_blend",
+      "own": {
+        "OVER": {
+          "decided": 78,
+          "losses": 40,
+          "rate": 0.48717948717948717,
+          "selected": 81,
+          "wins": 38
+        },
+        "UNDER": {
+          "decided": 209,
+          "losses": 82,
+          "rate": 0.6076555023923444,
+          "selected": 212,
+          "wins": 127
+        },
+        "COMBINED": {
+          "decided": 287,
+          "losses": 122,
+          "rate": 0.5749128919860628,
+          "selected": 293,
+          "wins": 165
+        }
+      },
+      "eligible": 293,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "rush_att",
+      "procedure": "A::rush_att::607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a::BACKFIELD_CDF::mean",
+      "own": {
+        "OVER": {
+          "decided": 114,
+          "losses": 49,
+          "rate": 0.5701754385964912,
+          "selected": 119,
+          "wins": 65
+        },
+        "UNDER": {
+          "decided": 146,
+          "losses": 65,
+          "rate": 0.5547945205479452,
+          "selected": 147,
+          "wins": 81
+        },
+        "COMBINED": {
+          "decided": 260,
+          "losses": 114,
+          "rate": 0.5615384615384615,
+          "selected": 266,
+          "wins": 146
+        }
+      },
+      "eligible": 266,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "rec",
+      "procedure": "A::rec::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::LEAF_CDF::median",
+      "own": {
+        "OVER": {
+          "decided": 170,
+          "losses": 67,
+          "rate": 0.6058823529411764,
+          "selected": 204,
+          "wins": 103
+        },
+        "UNDER": {
+          "decided": 409,
+          "losses": 184,
+          "rate": 0.5501222493887531,
+          "selected": 438,
+          "wins": 225
+        },
+        "COMBINED": {
+          "decided": 579,
+          "losses": 251,
+          "rate": 0.5664939550949913,
+          "selected": 642,
+          "wins": 328
+        }
+      },
+      "eligible": 642,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "rec_yd",
+      "procedure": "A::rec_yd::82c7d2a748188a6f546639e15e34e35cf396143b9190d6b423734f3565258c04::LEAF_CDF::mean",
+      "own": {
+        "OVER": {
+          "decided": 357,
+          "losses": 164,
+          "rate": 0.5406162464985994,
+          "selected": 413,
+          "wins": 193
+        },
+        "UNDER": {
+          "decided": 236,
+          "losses": 107,
+          "rate": 0.5466101694915254,
+          "selected": 246,
+          "wins": 129
+        },
+        "COMBINED": {
+          "decided": 593,
+          "losses": 271,
+          "rate": 0.5430016863406408,
+          "selected": 659,
+          "wins": 322
+        }
+      },
+      "eligible": 659,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "category": "rush_rec_yd",
+      "procedure": "A::rush_rec_yd::39328fd10db4c3c4f7d563fcb80520a95d5faf6f1f6967b507d9b7e74eda9f35::RESPONSE_CDF::mean",
+      "own": {
+        "OVER": {
+          "decided": 201,
+          "losses": 96,
+          "rate": 0.5223880597014925,
+          "selected": 217,
+          "wins": 105
+        },
+        "UNDER": {
+          "decided": 185,
+          "losses": 82,
+          "rate": 0.5567567567567567,
+          "selected": 191,
+          "wins": 103
+        },
+        "COMBINED": {
+          "decided": 386,
+          "losses": 178,
+          "rate": 0.538860103626943,
+          "selected": 408,
+          "wins": 208
+        }
+      },
+      "eligible": 408,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "A_weekly_source_rows": 242,
+  "A_projected_procedures": 36,
+  "A_weekly_scored_rows_checked": 184,
+  "A_weekly_no_score_rows_preserved": 58,
+  "A_projected_unknown_role_refs": [
+    "P001",
+    "P002",
+    "P003",
+    "P006",
+    "P007",
+    "P008",
+    "P009",
+    "P010",
+    "P011",
+    "P034",
+    "P035",
+    "P036"
+  ],
+  "fallback_blank_key_categories": "Explicit UNSPECIFIED/UNKNOWN, not zero: pass_yd,pass_td,pass_cmp,pass_int,rush_yd,rush_att,rec,rec_yd,rush_rec_yd",
+  "annual_book_priority": [
+    {
+      "book_id": 68,
+      "kind": "named",
+      "name": "DraftKings NJ"
+    },
+    {
+      "book_id": 69,
+      "kind": "named",
+      "name": "FanDuel NJ"
+    },
+    {
+      "book_id": 79,
+      "kind": "named",
+      "name": "bet365 NJ"
+    }
+  ],
+  "quote_time": "UNKNOWN_NOT_RETAINED",
+  "COUNT_A_MEAN": {
+    "exact_procedure_version": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "direct_own_weekly_witnesses": [
+      {
+        "week": 1,
+        "wins": 4,
+        "decided": 9
+      },
+      {
+        "week": 2,
+        "wins": 13,
+        "decided": 25
+      },
+      {
+        "week": 3,
+        "wins": 14,
+        "decided": 24
+      },
+      {
+        "week": 4,
+        "wins": 14,
+        "decided": 23
+      },
+      {
+        "week": 5,
+        "wins": 4,
+        "decided": 5
+      }
+    ],
+    "combined": {
+      "OVER": {
+        "decided": 45,
+        "losses": 20,
+        "rate": 0.5555555555555556,
+        "selected": 45,
+        "wins": 25
+      },
+      "UNDER": {
+        "decided": 41,
+        "losses": 17,
+        "rate": 0.5853658536585366,
+        "selected": 41,
+        "wins": 24
+      },
+      "COMBINED": {
+        "decided": 86,
+        "losses": 37,
+        "rate": 0.5697674418604651,
+        "selected": 86,
+        "wins": 49
+      }
+    },
+    "proof": "Actual cached COUNT_A_MEAN/mean_objective_point raw weekly CSV and original cumulative procedure-version row, plus archived own week rows; no legacy tie inference",
+    "legacy_P002_P013": "9c48 legacy products remain separate",
+    "per_week_games_and_source_clocks": "UNKNOWN_NOT_UPGRADED",
+    "five_week": "DURATION_AT_UNVERIFIED_QUOTE_TIER_ONLY;NOT_ADMISSION"
+  },
+  "B_owner_receipt": {
+    "id": "B-ACKNOWLEDGED-A-EXACT-TIMING-JOIN-RECORDS-v1",
+    "annual_records_checked": 64,
+    "selected_pairs_checked": 82,
+    "qualification": {
+      "B_F0_F3": "All exact mean/lower-median/P2 products nowfive A annual scored2026weeks1-5 under quote-time-unverified tier. Earlier four-week-only statement is superseded for duration, not authenticated issuance.",
+      "C04": "All exact point products nowfive A annual weeks1-5; C probability native2week panel remains unchanged.",
+      "supremacy": "Five weeks is a duration floor, not superiority/support/current-query/production admission."
+    },
+    "W5_overlap": "UNKNOWN;NO_CROSS_SOURCE_POOLED_RECORD",
+    "verification_identity": "Actual published B acknowledgement is received; this C calculation does not impersonate B or independently inspect its private underlying source."
+  },
+  "selector": {
+    "owner_policy": "NFL-WEB-EXACT-SELECTOR-REC-P1-MEAN-WRTE-20261112-v1",
+    "actual_ranker_SHA256": "7889c35cefa0df1ba0be53ee749182f243eba35a4f4c63b2c01db023e701e14f",
+    "weeks": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "control": "48W45L/93,3unknown,96selected",
+    "candidate": "50W43L/93,3unknown,96selected",
+    "control_own_over_under_wins": [
+      22,
+      26
+    ],
+    "candidate_own_over_under_wins": [
+      21,
+      29
+    ],
+    "paired_net_hits": 2,
+    "five_week_primary_qualification": false,
+    "week8_candidate_model_selections": 0,
+    "scope": "Actual B independent owner receipt; C checked public weekly/cumulative arithmetic, not repeated raw regrading or production execution.",
+    "incumbent_limit": false
+  },
+  "corrector_AST_only": {
+    "SHA256": "aa7c002506b57d7c1ca643f4236e5fb8b5132bebb00ad86720ee11221b6d9fb6",
+    "bytes": 31195,
+    "function": "correct_fallbacks",
+    "formula": "Only explicit nonempty fallback reasons are replaced with the actually trained role/global prior.mean; warm bit identity guard is present.",
+    "foreign_source_imported_or_executed": false,
+    "actual_producer_corrector_application_or_inference": "NOT_VERIFIED_BY_AST_OR_PREPARED_PACKAGE"
+  },
+  "new_GETs": 0,
+  "new_fits": 0,
+  "new_model_inference": 0,
+  "new_NFL_observations": 0,
+  "CPU_seconds": 0.041395874,
+  "peak_RSS_bytes": 18976768,
+  "limits": [
+    "Protected source membership, per-offer clocks, historical feature vintages and fitted artifacts were not independently inspected.",
+    "An actual B verification receipt is acknowledged at its own scope; this does not extend its four-week selector into five weeks or prove live admission.",
+    "Current producer integration remains distinct from code publication, restoration and metadata availability."
+  ]
+}

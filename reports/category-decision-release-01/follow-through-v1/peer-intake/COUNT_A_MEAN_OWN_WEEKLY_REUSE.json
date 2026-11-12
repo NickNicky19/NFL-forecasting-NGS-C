@@ -1,0 +1,236 @@
+{
+  "id": "FT-COUNT-A-MEAN-EXACT-OWN-WEEKLY-REUSE-v1",
+  "checked_UTC": "2026-11-12T04:25:15.417116+00:00",
+  "status": "PASS_EXACT_MEAN_PRODUCT_OWN_WEEK_ROWS_LOCAL_REUSE;SOURCE_TIER_REMAINS_CONDITIONAL",
+  "source_files": [
+    {
+      "path": "reports/abc-championship/continuation-v2/intake/A-EACH_POINT_PRODUCTS_OWN_OVER_UNDER_BY_WEEK.csv.gz",
+      "bytes": 13145,
+      "SHA256": "e8d26306064754a7fc1ac74fb7a8df4aaa4b6e51a9fd2df005cfcb84794a6e91"
+    },
+    {
+      "path": "reports/abc-championship/continuation-v2/intake/A-EACH_POINT_PRODUCTS_OWN_OVER_UNDER_W1_7.csv",
+      "bytes": 25665,
+      "SHA256": "e038184b9c2bda43b686c411ca4dc17a2735aae2c9871a13f114b42dd05b5646"
+    },
+    {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_ARCHIVED_SCORES.json.gz",
+      "bytes": 25542,
+      "SHA256": "2787e1a0559caf73a2bc0c6749bc70c7612e9bf5b8bc6ed41f3062e5e404e4f6"
+    },
+    {
+      "path": "reports/abc-championship/continuation-v2/A_W1_W7_RUN.json",
+      "bytes": 318,
+      "SHA256": "ae5b0745bdd896f96c5a94236e15bed7ce30b56fe1d99b1d496af6929351e805"
+    }
+  ],
+  "original_A_ref": "2be1accfe383d8508095b8a23332bed05b79afd3",
+  "original_A_weekly_member": "reports/category-topfive-matched-all12-w1w7-20261030/EACH_POINT_PRODUCTS_OWN_OVER_UNDER_BY_WEEK.csv.gz",
+  "source_C_receipt": "reports/abc-championship/continuation-v2/RECEIVED_ARTIFACTS.json",
+  "new_owner_contribution_ref": "14a47eec7a1962601538cdb482771f8c43f2488a",
+  "new_owner_annual_panel_scope": "A_WEEKLY_COVERAGE.json.xz annual_source_policy + A_CONTRIBUTION.json.xz f860 mean row",
+  "procedure_version": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+  "old_alias": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+  "new_alias": "A::pass_td::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::COUNT_A_MEAN::mean_objective_point",
+  "alias_basis": "Same category, exact f860 recipe digest, COUNT_A_MEAN and mean_objective_point; identifier token order differs. No legacy alias or equal-total inference.",
+  "actual_own_rows": [
+    {
+      "season": 2026,
+      "week": 1,
+      "category": "pass_td",
+      "exact_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "mean_objective_point",
+      "source_panel": "ANNUAL_NAMED_NJ_BY_ACTUAL_A14_SOURCE_WEEK_QUALIFICATION",
+      "OVER": {
+        "wins": 1,
+        "losses": 2,
+        "decided": 3,
+        "rate": 0.3333333333333333
+      },
+      "UNDER": {
+        "wins": 3,
+        "losses": 3,
+        "decided": 6,
+        "rate": 0.5
+      },
+      "COMBINED": {
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444
+      },
+      "eligible": 9,
+      "MAE_offered": 0.8472478454999632,
+      "no_lean": 0,
+      "games": "NOT_EXPORTED_FOR_THIS_MEAN_WEEKLY_ROW",
+      "source_issue_clock": "UNVERIFIED",
+      "reconstruction": "CURRENT_VINTAGE_EARLIER_ONLY_AS_OWNER_REPORTED",
+      "fallback": "UNSPECIFIED_NOT_ZERO"
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "category": "pass_td",
+      "exact_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "mean_objective_point",
+      "source_panel": "ANNUAL_NAMED_NJ_BY_ACTUAL_A14_SOURCE_WEEK_QUALIFICATION",
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156
+      },
+      "UNDER": {
+        "wins": 7,
+        "losses": 5,
+        "decided": 12,
+        "rate": 0.5833333333333334
+      },
+      "COMBINED": {
+        "wins": 13,
+        "losses": 12,
+        "decided": 25,
+        "rate": 0.52
+      },
+      "eligible": 25,
+      "MAE_offered": 1.1655893078574324,
+      "no_lean": 0,
+      "games": "NOT_EXPORTED_FOR_THIS_MEAN_WEEKLY_ROW",
+      "source_issue_clock": "UNVERIFIED",
+      "reconstruction": "CURRENT_VINTAGE_EARLIER_ONLY_AS_OWNER_REPORTED",
+      "fallback": "UNSPECIFIED_NOT_ZERO"
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "category": "pass_td",
+      "exact_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "mean_objective_point",
+      "source_panel": "ANNUAL_NAMED_NJ_BY_ACTUAL_A14_SOURCE_WEEK_QUALIFICATION",
+      "OVER": {
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "wins": 8,
+        "losses": 6,
+        "decided": 14,
+        "rate": 0.5714285714285714
+      },
+      "COMBINED": {
+        "wins": 14,
+        "losses": 10,
+        "decided": 24,
+        "rate": 0.5833333333333334
+      },
+      "eligible": 24,
+      "MAE_offered": 0.9617368710397747,
+      "no_lean": 0,
+      "games": "NOT_EXPORTED_FOR_THIS_MEAN_WEEKLY_ROW",
+      "source_issue_clock": "UNVERIFIED",
+      "reconstruction": "CURRENT_VINTAGE_EARLIER_ONLY_AS_OWNER_REPORTED",
+      "fallback": "UNSPECIFIED_NOT_ZERO"
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "category": "pass_td",
+      "exact_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "mean_objective_point",
+      "source_panel": "ANNUAL_NAMED_NJ_BY_ACTUAL_A14_SOURCE_WEEK_QUALIFICATION",
+      "OVER": {
+        "wins": 10,
+        "losses": 6,
+        "decided": 16,
+        "rate": 0.625
+      },
+      "UNDER": {
+        "wins": 4,
+        "losses": 3,
+        "decided": 7,
+        "rate": 0.5714285714285714
+      },
+      "COMBINED": {
+        "wins": 14,
+        "losses": 9,
+        "decided": 23,
+        "rate": 0.6086956521739131
+      },
+      "eligible": 23,
+      "MAE_offered": 0.725386274864472,
+      "no_lean": 0,
+      "games": "NOT_EXPORTED_FOR_THIS_MEAN_WEEKLY_ROW",
+      "source_issue_clock": "UNVERIFIED",
+      "reconstruction": "CURRENT_VINTAGE_EARLIER_ONLY_AS_OWNER_REPORTED",
+      "fallback": "UNSPECIFIED_NOT_ZERO"
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "category": "pass_td",
+      "exact_procedure": "A::pass_td::COUNT_A_MEAN::f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83::mean_objective_point",
+      "product": "mean_objective_point",
+      "source_panel": "ANNUAL_NAMED_NJ_BY_ACTUAL_A14_SOURCE_WEEK_QUALIFICATION",
+      "OVER": {
+        "wins": 2,
+        "losses": 1,
+        "decided": 3,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      "COMBINED": {
+        "wins": 4,
+        "losses": 1,
+        "decided": 5,
+        "rate": 0.8
+      },
+      "eligible": 5,
+      "MAE_offered": 0.5661645915006137,
+      "no_lean": 0,
+      "games": "NOT_EXPORTED_FOR_THIS_MEAN_WEEKLY_ROW",
+      "source_issue_clock": "UNVERIFIED",
+      "reconstruction": "CURRENT_VINTAGE_EARLIER_ONLY_AS_OWNER_REPORTED",
+      "fallback": "UNSPECIFIED_NOT_ZERO"
+    }
+  ],
+  "combined": {
+    "OVER": {
+      "decided": 45,
+      "losses": 20,
+      "rate": 0.5555555555555556,
+      "selected": 45,
+      "wins": 25
+    },
+    "UNDER": {
+      "decided": 41,
+      "losses": 17,
+      "rate": 0.5853658536585366,
+      "selected": 41,
+      "wins": 24
+    },
+    "COMBINED": {
+      "decided": 86,
+      "losses": 37,
+      "rate": 0.5697674418604651,
+      "selected": 86,
+      "wins": 49
+    }
+  },
+  "weekly_sum_matches_actual_new_owner_annual": true,
+  "legacy_product_used_to_fill_mean_weeks": false,
+  "source_membership_independently_reconstructed": false,
+  "quote_or_historical_vintage_authenticated": false,
+  "private_raw_or_model_parity": false,
+  "new_requests": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_NFL_games_or_weeks": 0,
+  "limits": "Sourcebooks/annual W1-W5 assignment is actualA14ownerqualification of the same retained A79 lane, not C raw-row rejoin. Per-week games and exact cutoff/vintage clocks absent for this cached mean product remain unknown. W6-W7 originalrows remain separate diagnostic evidence and are not promoted."
+}
