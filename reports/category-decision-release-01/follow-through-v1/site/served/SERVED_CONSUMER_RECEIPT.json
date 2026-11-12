@@ -1,0 +1,100 @@
+{
+  "schema": "C07-DIRECT-SERVED-CONSUMER-RECEIPT-v1",
+  "executed_UTC": "2026-11-12T04:52:10.508839+00:00",
+  "status": "PASS_DIRECT_C_RESEARCH_SITE_BROWSER",
+  "asset_commit": "7b26e21a888b92c2514f25a424ec64e1db9c693e",
+  "Pages_run": 43157166931,
+  "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html?verified=7b26e21a888b92c2514f25a424ec64e1db9c693e",
+  "data_SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636",
+  "served_verification_path": "reports/category-decision-release-01/follow-through-v1/SERVED_VERIFICATION.json",
+  "served_verification_SHA256": "ca378f5cee739a3883a0082edbefb592b4d0bcf92609a6c0c5813d496f9f3fa2",
+  "browser_receipt": {
+    "id": "C06-CATEGORY-DECISION-BROWSER-v1",
+    "executed_UTC": "2026-11-12T04:52:10.504720+00:00",
+    "URL": "https://nicknicky19.github.io/NFL-forecasting-NGS-C/championship.html?verified=7b26e21a888b92c2514f25a424ec64e1db9c693e",
+    "data_SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636",
+    "categories_checked": [
+      "pass_yd",
+      "pass_td",
+      "pass_cmp",
+      "pass_att",
+      "pass_int",
+      "rush_yd",
+      "rush_att",
+      "rec",
+      "rec_yd",
+      "rush_rec_yd",
+      "anytime_td",
+      "nick-chart-ppr-v1"
+    ],
+    "all_12_own_side_records_and_decisions_exact": true,
+    "current_forecast_rows_checked": 25,
+    "current_25_expected_means_and_medians_exact": true,
+    "current_role_masks_18_WRTE_7_RB": true,
+    "current_expiry_started_clock_fixtures": true,
+    "other_product_rows": 48,
+    "scoped_source_and_timing_limits_visible": true,
+    "category_filter": true,
+    "Chicago_UTC_clock_display": true,
+    "desktop1440_mobile390_no_global_overflow": true,
+    "HTTP_checksum_build_binding_fail_closed": true,
+    "old_success_text_cleared_on_reload_failure": true,
+    "preserved_legacy_panel_rows": 12,
+    "preserved_legacy_data_SHA256": "005dcd5357fdb513cc3c7b6d6544b8cbd1244db88fff9b9d9309a5e497db27ff",
+    "page_errors": [],
+    "new_NFL_observations": 0,
+    "new_fits": 0,
+    "TLS_verification": "ENABLED_NO_IGNORE_FLAGS"
+  },
+  "actual_current_expiry_receipt": "ACTUAL_EXPIRY_PARITY.json",
+  "TLS_verification": "ENABLED_DEFAULT_NO_IGNORE_HTTPS_ERRORS_NO_TRUST_BYPASS",
+  "browser_execution": "System /usr/bin/chromium via known managed TLS route",
+  "new_NFL_observations": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "original_site_actions": 0,
+  "primary_model_switch": false,
+  "scope": "C existing research page display and served asset consumption only; no original website activation or scientific qualification inferred.",
+  "bindings": [
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/SERVED_VERIFICATION.json",
+      "bytes": 2540,
+      "SHA256": "ca378f5cee739a3883a0082edbefb592b4d0bcf92609a6c0c5813d496f9f3fa2"
+    },
+    {
+      "path": "docs/data/category-decisions-c06.json",
+      "bytes": 781180,
+      "SHA256": "77674a19e3dea6f43ee8189cac929a1af36cd6da17ce402dc969ba4a4e16c636"
+    },
+    {
+      "path": "docs/build.json",
+      "bytes": 2046,
+      "SHA256": "47af5239d82a0271dba8543a72d69e823256a804c13450e2f94985581fcc7514"
+    },
+    {
+      "path": "src/browser_qa_category_decisions_c06.py",
+      "bytes": 9659,
+      "SHA256": "b55d881cd691e5a48acc8b91c26c8929de7282cc5d6374a2b870db779f5005f1"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/served/ACTUAL_EXPIRY_PARITY.json",
+      "bytes": 3500,
+      "SHA256": "f23437aaa72f90ee01a6651ef59a38c46fa0b31c28e05e644527e57ec78c0a21"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/served/BROWSER_PARITY.json",
+      "bytes": 1340,
+      "SHA256": "00f2d5bd0a3d066065800258669638b6be8eaf15254326b354ebe8ca3f7ec18f"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/served/C06-category-desktop.png",
+      "bytes": 94218,
+      "SHA256": "9fc1d1506601c431b6216cb0da0f5af422e10e2384eb989320f8d8058a481e5c"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/site/served/C06-category-mobile.png",
+      "bytes": 83019,
+      "SHA256": "4718f459de994b14ec930058604e8cedf16b0de775e1c2d72a681bfbf799bc7f"
+    }
+  ]
+}
