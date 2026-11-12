@@ -1,9 +1,14 @@
 {
   "schema": "C-NEXTINFO-EVIDENCE-MANIFEST-v1",
-  "created_UTC": "2026-11-12T18:07:37.497822+00:00",
+  "created_UTC": "2026-11-12T18:14:19.001344+00:00",
   "base_commit": "aa099aa1ff78c85440173483275e01a9d354e2c8",
   "scope": "C-only bounded new-information feasibility; no candidate model/output registration or changed scientific/runtime protocol.",
   "files": [
+    {
+      "path": "reports/next-generation-information-01/GITHUB_READBACK_V1.json",
+      "bytes": 1652,
+      "SHA256": "e32b9ef6a4078559544a3dae8cb840010aef0cb16413af71df42affc50109921"
+    },
     {
       "path": "reports/next-generation-information-01/NEW-INFORMATION-FEASIBILITY.json",
       "bytes": 11249,
@@ -21,13 +26,18 @@
     },
     {
       "path": "reports/next-generation-information-01/RESOURCE_CLOSURE.json",
-      "bytes": 10515,
-      "SHA256": "008e1c0533f002ea5cf2503b5c07d8e64e68b839a1e5a0701db0ad2e8baef76d"
+      "bytes": 10717,
+      "SHA256": "8e43d4bf03f0487157540bed8199b2a468b947eef657f9c9a2a275093f7fead4"
     },
     {
       "path": "reports/next-generation-information-01/VALIDATION.json",
-      "bytes": 2105,
-      "SHA256": "ae5b01f19d9825c9e89c6ff805310bb89096f59a5d80e6b4f9186180f7106976"
+      "bytes": 2327,
+      "SHA256": "f3e4dbf6bb291fd4fb73e786b6e564920152b0a03c67c4f908ade30d891370bc"
+    },
+    {
+      "path": "reports/next-generation-information-01/WORKFLOW_FAILURE_AND_CORRECTION.json",
+      "bytes": 982,
+      "SHA256": "1f95ec3da662c5db9b1508d384ba07bebbfaf3c90b6d1b317646843141a6b0ce"
     },
     {
       "path": "reports/next-generation-information-01/feasibility/completed-work/INPUT_CLASSIFICATIONS.csv",
@@ -170,7 +180,7 @@
       "SHA256": "a83424277bd1ec92db8c3bdcbb9af2550d67a8afb9d91b98d5944ca5412bf0d7"
     }
   ],
-  "total_bound_bytes": 467033,
+  "total_bound_bytes": 470091,
   "raw_source_full_response_included": false,
   "source_rights": "Minimal factual IDs/status/practice projection and attribution only; public nflverse CC-BY-4.0 metadata corroborated.",
   "fresh_restore_scope": "Exact published report/projection hashes; raw source response cannot be restored from these derived bytes."
