@@ -1,0 +1,39 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-FINAL-READ-LEDGER-v1",
+  "reads_used": 3,
+  "reads_max": 6,
+  "later_observation_used": 1,
+  "later_observation_max": 1,
+  "requests": [
+    {
+      "id": "NATIVE_PRECHECK",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+      "observed_UTC": "2026-11-12T23:33:17.939638+00:00",
+      "bytes": 22940,
+      "SHA256": "b96cfe448eece5ddf44ebaf16467ecae1c4c7051905fce72a397511530cd96de"
+    },
+    {
+      "id": "NATIVE_EVENT_DETAIL_INITIAL",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+      "bytes": 116009,
+      "SHA256": "b0cc5651efeb9d517d068693fd6bd6a425795bc9f529a6342578249f522cfcc4"
+    },
+    {
+      "id": "NATIVE_EVENT_DETAIL_SINGLE_LATER_OBSERVATION",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "observed_UTC": "2026-11-12T23:50:21.504016+00:00",
+      "bytes": 118211,
+      "SHA256": "986c1b2c9e565ce5fe9fe3e5ef38b1f8d39ead4f93124e9d93705996551dc1d2"
+    }
+  ],
+  "total_response_bytes": 257160,
+  "individual_response_cap_bytes": 4194304,
+  "fits": 0,
+  "forecast_rows": 0,
+  "offer_rows": 0,
+  "selected_picks": 0,
+  "collection_state": "CLOSED_FINITE_PACKAGE; no more GETs/poll/wait/sourceguessing.",
+  "CPU_seconds_source_operations": 0.255826,
+  "max_RSS_KiB_source_operations": 44112
+}

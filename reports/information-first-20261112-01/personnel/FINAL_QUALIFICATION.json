@@ -1,0 +1,59 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-FINAL-QUALIFICATION-v1",
+  "executed_UTC": "2026-11-12T23:51:18.528094+00:00",
+  "initial_observation_UTC": "2026-11-12T23:33:18.204168+00:00",
+  "single_later_observation_UTC": "2026-11-12T23:50:21.504016+00:00",
+  "native_event_state": "PASS_PREGAME_EVENT_ONLY",
+  "current_complete_event_effective_personnel_configuration": "SOURCE_BLOCKED",
+  "historical_personnel_training": "SOURCE_BLOCKED_UNCHANGED",
+  "observed_roster_counts": {
+    "initial": 0,
+    "later": 0
+  },
+  "observed_inactive_components": {
+    "initial": false,
+    "later": false
+  },
+  "observed_player_box_blocks": {
+    "initial": 0,
+    "later": 0
+  },
+  "actual_new_information": "Two immutable current nativeevent state/schema observations with real clocks; no complete current role/universe or historicalpersonnelblock obtained",
+  "receipt_paths": {
+    "initial_source_manifest": "sources/current-personnel-information-first-20261112-was-nyg/SOURCE_MANIFEST_INITIAL.json",
+    "later_source_manifest": "sources/current-personnel-information-first-20261112-was-nyg/SOURCE_MANIFEST_LATE.json",
+    "later_response_receipt": "reports/information-first-20261112-01/personnel/LATE_SOURCE_RECEIPT.json"
+  },
+  "source_scope_limits": "Obtained source schema omits requestedcomponents. This doesnot claim everypossibleofficialsource is unavailable or officialinactives have not been published.",
+  "model_decision": "DO_NOT_FIT_OR_INFER_NEW_PERSONNEL_MODEL; no qualifying distinct training/query inputcontract",
+  "future_other_bucket": {
+    "id": "UNRESOLVED_TEAMMATES_AND_OTHER_ALLOCATION",
+    "count": null,
+    "state": "UNKNOWN_NOT_ZERO"
+  },
+  "existing_capture": "Earlier20injuryrowfafb891 retained originalobservation; not reissuedasforecast. No outcomes/actualworkload used.",
+  "exact_missing_artifacts": [
+    {
+      "executor": "Session C source/roster qualification owner",
+      "artifact": "Providerdefined complete eventeffective pregame roster for bothteams plus timestamped transactions/elevations and gameactive/inactive semantics",
+      "next_permissible_action": "Inspect an actuallysupplied existing authorized source/export or separately approved boundedsource task; do not continue polling or invent a route/status",
+      "completion": "All eligibleteammates have nativeidentity/team/event membership and explicit known/unknown states beforecutoff, with otherunallocatedopportunity retained"
+    },
+    {
+      "executor": "Session C research/source owner",
+      "artifact": "Permitted immutable historical personnel versions for trainingorigins and offeredqueries",
+      "next_permissible_action": "Ownerlocalintake of supplied/retained historicalsnapshot with originalclocks, otherwise prospective source accumulation via existingauthorized route",
+      "completion": "Distinct personnelinformation comparison can be trained and evaluated without currentvintagebackfill or targetparticipation"
+    }
+  ],
+  "budgets": {
+    "reads_used": 3,
+    "reads_max": 6,
+    "later_read_used": 1,
+    "later_read_max": 1,
+    "fits": 0,
+    "forecasts": 0,
+    "selections": 0
+  },
+  "stop": "Finitepackagecomplete; no further publicrequests, polls, waits or models. Independenteligible delivery continues."
+}

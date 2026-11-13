@@ -1,0 +1,57 @@
+{
+  "id": "C-A-HISTORICAL-PERMITTED-AGGREGATE-PROJECTIONS-v1",
+  "bindings": [
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "3e712b2da23c20700d41a76d3568e6bd8a0bc75d",
+      "path": "reports/abc-championship/interception-historical-delivery-01/COMPLETION_2024_AGGREGATES_V1.json.gz.b64.json",
+      "upstream_envelope_bytes": 40749,
+      "upstream_envelope_SHA256": "733c5087594d0119a42f794661e8f23409ea67ecd9761d86acb6c7a7a05e8d57",
+      "upstream_decoded_bytes": 287439,
+      "upstream_decoded_SHA256": "06cf813ba4a074e7c91adcac1567e886c69a7c5ab5a2b842ebe5ddba0c4b33a1",
+      "projection_path": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+      "projection_bytes": 30348,
+      "projection_SHA256": "d8f8d805c198414dda0463d12787f1bfde3352507a7d1ddee7c1ae26b4672033",
+      "omitted_local_locator_field_paths": [],
+      "numeric_leaves_preserved": 9816,
+      "retention_scope": "Permission for derived/public aggregates does not imply raw/private archive redistribution; exact upstreambytes remain at immutableA GitHub source. Cretains only permittedprojection."
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "3e712b2da23c20700d41a76d3568e6bd8a0bc75d",
+      "path": "reports/abc-championship/interception-historical-delivery-01/RUSH_HISTORICAL_RESULTS_V1.json.gz.b64.json",
+      "upstream_envelope_bytes": 11164,
+      "upstream_envelope_SHA256": "a85db7d1e77a7bd896e0015fa23ec298246b85c46408eba86036db4963684703",
+      "upstream_decoded_bytes": 69625,
+      "upstream_decoded_SHA256": "0829fdf7630c11bc973bfd39dbf222780246402cd51efe9b1f79872f5fff5f3d",
+      "projection_path": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+      "projection_bytes": 7892,
+      "projection_SHA256": "2fadebdf550ccf06b47b34241c82db9958a1b7505658eeea9e314ecb7be32fde",
+      "omitted_local_locator_field_paths": [
+        "/forecasts/path",
+        "/grade_receipt/path",
+        "/model/path",
+        "/usage/private_writes/0/path",
+        "/usage/private_writes/1/path",
+        "/usage/private_writes/2/path"
+      ],
+      "numeric_leaves_preserved": 3393,
+      "retention_scope": "Permission for derived/public aggregates does not imply raw/private archive redistribution; exact upstreambytes remain at immutableA GitHub source. Cretains only permittedprojection."
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "3e712b2da23c20700d41a76d3568e6bd8a0bc75d",
+      "path": "reports/abc-championship/interception-historical-delivery-01/COMPLETION_2023_AGGREGATES_V1.json.gz.b64.json",
+      "upstream_envelope_bytes": 31165,
+      "upstream_envelope_SHA256": "750f9e5f28b07d364b9c07570e4b2391d517bddb52b03e3767f9164cc71d4f0d",
+      "upstream_decoded_bytes": 267591,
+      "upstream_decoded_SHA256": "bce9bb5f747203ba61994af1f902212a3065bc66830abe89388a57ced9b0f1b3",
+      "projection_path": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+      "projection_bytes": 23158,
+      "projection_SHA256": "63f2a1e0790cb614003ca6e74fcd235c08ecaf7c4b096585047c340fe487e324",
+      "omitted_local_locator_field_paths": [],
+      "numeric_leaves_preserved": 7772,
+      "retention_scope": "Permission for derived/public aggregates does not imply raw/private archive redistribution; exact upstreambytes remain at immutableA GitHub source. Cretains only permittedprojection."
+    }
+  ]
+}

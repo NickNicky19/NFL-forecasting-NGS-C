@@ -1,0 +1,1897 @@
+{
+  "id": "C-INFORMATION-FIRST-TARGET-SUPERSEDING-RECEIPTS-v1",
+  "recorded_UTC": "2026-11-12T23:42:53.378510+00:00",
+  "parent_assessment": "ASSESSMENT_RECEIPT.json; original remains unchanged",
+  "effect": "Scope-specific later measurement correction and prior-season aggregate intake; no fit/grader/policy rerun or primary qualification upgrade",
+  "broad_90_categories_established": [],
+  "selective_90_categories_established": [],
+  "B_source_ref": "10846a2781685f3c1a2cb045d3c887864f32bda7",
+  "B_measurement_version": "CORRECTED_CURRENT_FINAL_LABELS; originalCURRENT_PUBLISHED_PRESENCE_V5 preserved",
+  "B_frozen_population": {
+    "selected_forecasts_sides_lines": 86,
+    "full_retained_board": 144,
+    "source_week_records": [
+      {
+        "week": 5,
+        "rows": 20,
+        "original_missing": 14,
+        "explicit_current_zero": 14
+      },
+      {
+        "week": 6,
+        "rows": 17,
+        "original_missing": 9,
+        "explicit_current_zero": 9
+      },
+      {
+        "week": 7,
+        "rows": 15,
+        "original_missing": 8,
+        "explicit_current_zero": 8
+      },
+      {
+        "week": 8,
+        "rows": 16,
+        "original_missing": 6,
+        "explicit_current_zero": 6
+      },
+      {
+        "week": 9,
+        "rows": 18,
+        "original_missing": 9,
+        "explicit_current_zero": 9
+      }
+    ],
+    "source_final_games": 61,
+    "original_missing": 46,
+    "supported_explicit_current_final_zero": 46,
+    "unknown_or_conflicting": 0
+  },
+  "B_source_contract": {
+    "target": "Official QB interceptions thrown, full game; NFLverse passing_interceptions and ESPN passing.interceptions; defensive interceptions excluded.",
+    "qualified_zero": "Each zero explicitly present in both named passing-stat sources. No source-field omission, participation flag, pass attempts or source-zero completeness assumption substituted for observation.",
+    "identity": "Exact frozen Sleeper\u2192GSIS\u2192ESPN IDs; event\u2192season/week/team/opponent; no fuzzy names, no target participation used to infer zero.",
+    "source_tier": "Current-vintage final-stat correction. Does not prove what historical compacted Sleeper absence originally meant, original pregame forecast/line availability, venue settlement, or prediction improvement.",
+    "C_verification": "Read exact public immutableB evidence/independentaggregate receipts and verifyhash/arithmetic; no independent C access to private 86rowmap,rawNFLverse/ESPNsourcebytes,originalofferclockorfitparity"
+  },
+  "B_transitions": {
+    "WIN -> WIN": 33,
+    "MISSING_ACTUAL -> LOSS": 32,
+    "LOSS -> LOSS": 7,
+    "MISSING_ACTUAL -> WIN": 14
+  },
+  "B_side_or_line_changes": 0,
+  "B_ALL_views": [
+    {
+      "strategy": "CURRENT_PUBLISHED_PRESENCE_V5",
+      "window": "ALL",
+      "side": "over",
+      "selected": 65,
+      "wins": 33,
+      "losses": 0,
+      "push": 0,
+      "decided": 33,
+      "unknown": 32,
+      "rate": 1.0,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5076923076923077,
+        "upper": 1.0,
+        "denominator": 65,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CURRENT_PUBLISHED_PRESENCE_V5",
+      "window": "ALL",
+      "side": "under",
+      "selected": 21,
+      "wins": 0,
+      "losses": 7,
+      "push": 0,
+      "decided": 7,
+      "unknown": 14,
+      "rate": 0.0,
+      "missing_outcome_sensitivity": {
+        "lower": 0.0,
+        "upper": 0.6666666666666666,
+        "denominator": 21,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CURRENT_PUBLISHED_PRESENCE_V5",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 86,
+      "wins": 33,
+      "losses": 7,
+      "push": 0,
+      "decided": 40,
+      "unknown": 46,
+      "rate": 0.825,
+      "missing_outcome_sensitivity": {
+        "lower": 0.38372093023255816,
+        "upper": 0.9186046511627907,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CORRECTED_CURRENT_FINAL_LABELS",
+      "window": "ALL",
+      "side": "over",
+      "selected": 65,
+      "wins": 33,
+      "losses": 32,
+      "push": 0,
+      "decided": 65,
+      "unknown": 0,
+      "rate": 0.5076923076923077,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5076923076923077,
+        "upper": 0.5076923076923077,
+        "denominator": 65,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CORRECTED_CURRENT_FINAL_LABELS",
+      "window": "ALL",
+      "side": "under",
+      "selected": 21,
+      "wins": 14,
+      "losses": 7,
+      "push": 0,
+      "decided": 21,
+      "unknown": 0,
+      "rate": 0.6666666666666666,
+      "missing_outcome_sensitivity": {
+        "lower": 0.6666666666666666,
+        "upper": 0.6666666666666666,
+        "denominator": 21,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CORRECTED_CURRENT_FINAL_LABELS",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 86,
+      "wins": 47,
+      "losses": 39,
+      "push": 0,
+      "decided": 86,
+      "unknown": 0,
+      "rate": 0.5465116279069767,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5465116279069767,
+        "upper": 0.5465116279069767,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_ON_SAME86",
+      "window": "ALL",
+      "side": "over",
+      "selected": 86,
+      "wins": 40,
+      "losses": 46,
+      "push": 0,
+      "decided": 86,
+      "unknown": 0,
+      "rate": 0.46511627906976744,
+      "missing_outcome_sensitivity": {
+        "lower": 0.46511627906976744,
+        "upper": 0.46511627906976744,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_ON_SAME86",
+      "window": "ALL",
+      "side": "under",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_ON_SAME86",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 86,
+      "wins": 40,
+      "losses": 46,
+      "push": 0,
+      "decided": 86,
+      "unknown": 0,
+      "rate": 0.46511627906976744,
+      "missing_outcome_sensitivity": {
+        "lower": 0.46511627906976744,
+        "upper": 0.46511627906976744,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_ON_SAME86",
+      "window": "ALL",
+      "side": "over",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_ON_SAME86",
+      "window": "ALL",
+      "side": "under",
+      "selected": 86,
+      "wins": 46,
+      "losses": 40,
+      "push": 0,
+      "decided": 86,
+      "unknown": 0,
+      "rate": 0.5348837209302325,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5348837209302325,
+        "upper": 0.5348837209302325,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_ON_SAME86",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 86,
+      "wins": 46,
+      "losses": 40,
+      "push": 0,
+      "decided": 86,
+      "unknown": 0,
+      "rate": 0.5348837209302325,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5348837209302325,
+        "upper": 0.5348837209302325,
+        "denominator": 86,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_FULL144",
+      "window": "ALL",
+      "side": "over",
+      "selected": 144,
+      "wins": 73,
+      "losses": 71,
+      "push": 0,
+      "decided": 144,
+      "unknown": 0,
+      "rate": 0.5069444444444444,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5069444444444444,
+        "upper": 0.5069444444444444,
+        "denominator": 144,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_FULL144",
+      "window": "ALL",
+      "side": "under",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_OVER_FULL144",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 144,
+      "wins": 73,
+      "losses": 71,
+      "push": 0,
+      "decided": 144,
+      "unknown": 0,
+      "rate": 0.5069444444444444,
+      "missing_outcome_sensitivity": {
+        "lower": 0.5069444444444444,
+        "upper": 0.5069444444444444,
+        "denominator": 144,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_FULL144",
+      "window": "ALL",
+      "side": "over",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_FULL144",
+      "window": "ALL",
+      "side": "under",
+      "selected": 144,
+      "wins": 71,
+      "losses": 73,
+      "push": 0,
+      "decided": 144,
+      "unknown": 0,
+      "rate": 0.4930555555555556,
+      "missing_outcome_sensitivity": {
+        "lower": 0.4930555555555556,
+        "upper": 0.4930555555555556,
+        "denominator": 144,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "CONSTANT_UNDER_FULL144",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 144,
+      "wins": 71,
+      "losses": 73,
+      "push": 0,
+      "decided": 144,
+      "unknown": 0,
+      "rate": 0.4930555555555556,
+      "missing_outcome_sensitivity": {
+        "lower": 0.4930555555555556,
+        "upper": 0.4930555555555556,
+        "denominator": 144,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_ORIGINAL",
+      "window": "ALL",
+      "side": "over",
+      "selected": 3,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 3,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": 0.0,
+        "upper": 1.0,
+        "denominator": 3,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_ORIGINAL",
+      "window": "ALL",
+      "side": "under",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_ORIGINAL",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 3,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 3,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": 0.0,
+        "upper": 1.0,
+        "denominator": 3,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_CORRECTED",
+      "window": "ALL",
+      "side": "over",
+      "selected": 3,
+      "wins": 0,
+      "losses": 3,
+      "push": 0,
+      "decided": 3,
+      "unknown": 0,
+      "rate": 0.0,
+      "missing_outcome_sensitivity": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "denominator": 3,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_CORRECTED",
+      "window": "ALL",
+      "side": "under",
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "push": 0,
+      "decided": 0,
+      "unknown": 0,
+      "rate": null,
+      "missing_outcome_sensitivity": {
+        "lower": null,
+        "upper": null,
+        "denominator": 0,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    },
+    {
+      "strategy": "RECORDED_TOP_FLAGS_CORRECTED",
+      "window": "ALL",
+      "side": "Combined",
+      "selected": 3,
+      "wins": 0,
+      "losses": 3,
+      "push": 0,
+      "decided": 3,
+      "unknown": 0,
+      "rate": 0.0,
+      "missing_outcome_sensitivity": {
+        "lower": 0.0,
+        "upper": 0.0,
+        "denominator": 3,
+        "meaning": "All selected unresolved lose/win; not assumed grades or a confidence interval"
+      }
+    }
+  ],
+  "B_interpretation": "32formerlyunknown selectedOvers lose and14formerlyunknown selectedUnders win. Correctedcombined47/86 is measurement, not new forecast improvement; partial100%Over33/33 excluded32unknown and is now33/65. No ordinarymainline or original decisionclock/venue qualification follows.",
+  "B_recorded_Top_flags": "Same3originalflaggedOverrecords: unknown\u21923losses. No new selector, not90.",
+  "B_additional_A_arithmetic_scope": {
+    "state": "PASS_PUBLIC_AGGREGATE_AND_DECLARED_POLICY_REVIEW",
+    "periods": [
+      {
+        "period": "ANNUAL_W1_5",
+        "own_sides": {
+          "over": {
+            "wins": 3,
+            "losses": 1,
+            "decided": 4,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          },
+          "under": {
+            "wins": 20,
+            "losses": 6,
+            "decided": 26,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          }
+        },
+        "combined": {
+          "wins": 23,
+          "losses": 7,
+          "decided": 30,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "rate": 0.7666666666666667,
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "period": "SEPARATE_W6_7_DIAGNOSTIC",
+        "own_sides": {
+          "over": {
+            "wins": 0,
+            "losses": 1,
+            "decided": 1,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          },
+          "under": {
+            "wins": 6,
+            "losses": 5,
+            "decided": 11,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          }
+        },
+        "combined": {
+          "wins": 6,
+          "losses": 6,
+          "decided": 12,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "rate": 0.5,
+        "weeks": [
+          6,
+          7
+        ]
+      },
+      {
+        "period": "MIXED_W1_7",
+        "own_sides": {
+          "over": {
+            "wins": 3,
+            "losses": 2,
+            "decided": 5,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          },
+          "under": {
+            "wins": 26,
+            "losses": 11,
+            "decided": 37,
+            "unresolved": 0,
+            "DNP": 0,
+            "push": 0
+          }
+        },
+        "combined": {
+          "wins": 29,
+          "losses": 13,
+          "decided": 42,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "rate": 0.6904761904761905,
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "not_verified": [
+      "private selected player-game membership",
+      "same-selected30 strong-control rows",
+      "raw training features/labels or actual fitted model parity",
+      "original quote/vintage clocks",
+      "new 2026W8-W9 or2022-2025 exact procedure expansion"
+    ],
+    "newly_added_NFL_weeks": 0,
+    "separate_annual_vs_mixed": "AnnualW1-W5Top6=23/30;W6-W7diagnostic=6/12;29/42mixedisnot7qualifiedactualofferweeks",
+    "comparison": "Annualsameprocedure Top6Undercontrol21/30 reported in source reviewed package; do not infer pairedprivatecontrol membership beyond statedverification scope. CatBoost/HGB52/88 tie vsAlwaysOver48/88."
+  },
+  "A_historical_intake": {
+    "normalized_views": 528,
+    "selected_context_views": [
+      {
+        "category": "pass_cmp",
+        "procedure_id": "CATBOOST_MEDIUM_ORIGINAL_2024::point",
+        "product_policy": "UNROUNDED_POINT_DIRECTION",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2024_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 170,
+          "losses": 87,
+          "rate": 0.48823529411764705,
+          "selected": 173,
+          "wins": 83
+        },
+        "UNDER": {
+          "decided": 289,
+          "losses": 145,
+          "rate": 0.4982698961937716,
+          "selected": 292,
+          "wins": 144
+        },
+        "COMBINED": {
+          "decided": 459,
+          "losses": 232,
+          "rate": 0.49455337690631807,
+          "selected": 465,
+          "wins": 227
+        },
+        "eligible": 465,
+        "selected": 465,
+        "unknown": 6,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 259,
+        "player_games": 465,
+        "states": {
+          "LOSS": 232,
+          "UNKNOWN_PARTICIPATION": 6,
+          "WIN": 227
+        },
+        "fallback": {
+          "": 462,
+          "cold_start_role_prior": 3
+        },
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5376604055775956,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4451894349426283,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "numerical": {
+          "MAE": 5.067670253758008,
+          "MSE": 41.46061182084705,
+          "absolute_error_p90": 10.398764715939198,
+          "bias": -0.954389942318467,
+          "learned_or_fallback_states": {
+            "": 456,
+            "cold_start_role_prior": 3
+          },
+          "max_absolute_error": 22.081256080616036,
+          "scored": 459
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "HGB_MAE_DIRECT_ORIGINAL_2024_BASE::point",
+        "product_policy": "UNROUNDED_POINT_DIRECTION",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2024_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 226,
+          "losses": 109,
+          "rate": 0.5176991150442478,
+          "selected": 231,
+          "wins": 117
+        },
+        "UNDER": {
+          "decided": 233,
+          "losses": 111,
+          "rate": 0.5236051502145923,
+          "selected": 234,
+          "wins": 122
+        },
+        "COMBINED": {
+          "decided": 459,
+          "losses": 220,
+          "rate": 0.5206971677559913,
+          "selected": 465,
+          "wins": 239
+        },
+        "eligible": 465,
+        "selected": 465,
+        "unknown": 6,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 259,
+        "player_games": 465,
+        "states": {
+          "LOSS": 220,
+          "UNKNOWN_PARTICIPATION": 6,
+          "WIN": 239
+        },
+        "fallback": {
+          "": 462,
+          "cold_start_role_prior": 3
+        },
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.563857419176568,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.47787364798426746,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "numerical": {
+          "MAE": 4.925250037580314,
+          "MSE": 39.97118032327564,
+          "absolute_error_p90": 10.202453916906165,
+          "bias": -0.3043586037746491,
+          "learned_or_fallback_states": {
+            "": 456,
+            "cold_start_role_prior": 3
+          },
+          "max_absolute_error": 23.97757206767848,
+          "scored": 459
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "ALWAYS_OVER",
+        "product_policy": "CONSTANT_SIDE_CONTROL",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2024_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 459,
+          "losses": 231,
+          "rate": 0.49673202614379086,
+          "selected": 465,
+          "wins": 228
+        },
+        "UNDER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "COMBINED": {
+          "decided": 459,
+          "losses": 231,
+          "rate": 0.49673202614379086,
+          "selected": 465,
+          "wins": 228
+        },
+        "eligible": 465,
+        "selected": 465,
+        "unknown": 6,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 259,
+        "player_games": 465,
+        "states": {
+          "LOSS": 231,
+          "UNKNOWN_PARTICIPATION": 6,
+          "WIN": 228
+        },
+        "fallback": {
+          "CONSTANT_CONTROL": 465
+        },
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5452383645765998,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4425522684266396,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "numerical": {
+          "MAE": null,
+          "MSE": null,
+          "absolute_error_p90": null,
+          "bias": null,
+          "learned_or_fallback_states": {},
+          "max_absolute_error": null,
+          "scored": 0
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "ALWAYS_UNDER",
+        "product_policy": "CONSTANT_SIDE_CONTROL",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2024_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "UNDER": {
+          "decided": 459,
+          "losses": 228,
+          "rate": 0.5032679738562091,
+          "selected": 465,
+          "wins": 231
+        },
+        "COMBINED": {
+          "decided": 459,
+          "losses": 228,
+          "rate": 0.5032679738562091,
+          "selected": 465,
+          "wins": 231
+        },
+        "eligible": 465,
+        "selected": 465,
+        "unknown": 6,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 259,
+        "player_games": 465,
+        "states": {
+          "LOSS": 228,
+          "UNKNOWN_PARTICIPATION": 6,
+          "WIN": 231
+        },
+        "fallback": {
+          "CONSTANT_CONTROL": 465
+        },
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5574477315733605,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.45476163542340015,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "numerical": {
+          "MAE": null,
+          "MSE": null,
+          "absolute_error_p90": null,
+          "bias": null,
+          "learned_or_fallback_states": {},
+          "max_absolute_error": null,
+          "scored": 0
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::BACKFIELD_CDF_P2_TOP6",
+        "product_policy": "BACKFIELD_CDF_P2_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 10,
+          "losses": 3,
+          "rate": 0.7,
+          "selected": 10,
+          "wins": 7
+        },
+        "UNDER": {
+          "decided": 98,
+          "losses": 37,
+          "rate": 0.6224489795918368,
+          "selected": 98,
+          "wins": 61
+        },
+        "COMBINED": {
+          "decided": 108,
+          "losses": 40,
+          "rate": 0.6296296296296297,
+          "selected": 108,
+          "wins": 68
+        },
+        "eligible": 108,
+        "outer_offered_board": 1140,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 40,
+          "WIN": 68
+        },
+        "abstentions": 0,
+        "unavailable": 0,
+        "fallback_selected": 2,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.7037037037037037,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5555555555555556,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::F_PROBABILITY_ON_CANDIDATE_TOP6",
+        "product_policy": "F_PROBABILITY_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 10,
+          "losses": 3,
+          "rate": 0.7,
+          "selected": 10,
+          "wins": 7
+        },
+        "UNDER": {
+          "decided": 98,
+          "losses": 37,
+          "rate": 0.6224489795918368,
+          "selected": 98,
+          "wins": 61
+        },
+        "COMBINED": {
+          "decided": 108,
+          "losses": 40,
+          "rate": 0.6296296296296297,
+          "selected": 108,
+          "wins": 68
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 40,
+          "WIN": 68
+        },
+        "abstentions": 0,
+        "unavailable": 0,
+        "fallback_selected": 2,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.7037037037037037,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5555555555555556,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::FC_PROBABILITY_ON_CANDIDATE_TOP6",
+        "product_policy": "FC_PROBABILITY_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 2,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 2,
+          "wins": 2
+        },
+        "UNDER": {
+          "decided": 106,
+          "losses": 42,
+          "rate": 0.6037735849056604,
+          "selected": 106,
+          "wins": 64
+        },
+        "COMBINED": {
+          "decided": 108,
+          "losses": 42,
+          "rate": 0.6111111111111112,
+          "selected": 108,
+          "wins": 66
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 42,
+          "WIN": 66
+        },
+        "abstentions": 0,
+        "unavailable": 0,
+        "fallback_selected": null,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.6851851851851852,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5370370370370371,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::H_PROBABILITY_ON_CANDIDATE_TOP6",
+        "product_policy": "H_PROBABILITY_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 1,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 1,
+          "wins": 1
+        },
+        "UNDER": {
+          "decided": 64,
+          "losses": 32,
+          "rate": 0.5,
+          "selected": 64,
+          "wins": 32
+        },
+        "COMBINED": {
+          "decided": 65,
+          "losses": 32,
+          "rate": 0.5076923076923077,
+          "selected": 65,
+          "wins": 33
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 32,
+          "UNAVAILABLE_FORECAST": 43,
+          "WIN": 33
+        },
+        "abstentions": 0,
+        "unavailable": 43,
+        "fallback_selected": null,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.605644472897994,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.40383771929824563,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::MARKET_PROBABILITY_ON_CANDIDATE_TOP6",
+        "product_policy": "MARKET_PROBABILITY_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 21,
+          "losses": 11,
+          "rate": 0.47619047619047616,
+          "selected": 21,
+          "wins": 10
+        },
+        "UNDER": {
+          "decided": 51,
+          "losses": 21,
+          "rate": 0.5882352941176471,
+          "selected": 51,
+          "wins": 30
+        },
+        "COMBINED": {
+          "decided": 72,
+          "losses": 32,
+          "rate": 0.5555555555555556,
+          "selected": 72,
+          "wins": 40
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "ABSTAIN": 16,
+          "LOSS": 32,
+          "UNAVAILABLE_FORECAST": 20,
+          "WIN": 40
+        },
+        "abstentions": 16,
+        "unavailable": 20,
+        "fallback_selected": null,
+        "actual_scored_weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.6944444444444444,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4132941176470588,
+          "small_cluster_caution": true,
+          "week_clusters": 17
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::ALWAYS_OVER_ON_CANDIDATE_TOP6",
+        "product_policy": "ALWAYS_OVER_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 108,
+          "losses": 64,
+          "rate": 0.4074074074074074,
+          "selected": 108,
+          "wins": 44
+        },
+        "UNDER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "COMBINED": {
+          "decided": 108,
+          "losses": 64,
+          "rate": 0.4074074074074074,
+          "selected": 108,
+          "wins": 44
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 64,
+          "WIN": 44
+        },
+        "abstentions": 0,
+        "unavailable": 0,
+        "fallback_selected": null,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.48148148148148145,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.3333333333333333,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "rush_att",
+        "procedure_id": "A_BACKFIELD_CDF_ANNUAL_ORIGIN_2024_TOP6_v1::ALWAYS_UNDER_ON_CANDIDATE_TOP6",
+        "product_policy": "ALWAYS_UNDER_ON_CANDIDATE_TOP6",
+        "source_period": "2024_FULL_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "UNDER": {
+          "decided": 108,
+          "losses": 44,
+          "rate": 0.5925925925925926,
+          "selected": 108,
+          "wins": 64
+        },
+        "COMBINED": {
+          "decided": 108,
+          "losses": 44,
+          "rate": 0.5925925925925926,
+          "selected": 108,
+          "wins": 64
+        },
+        "eligible": 108,
+        "outer_offered_board": null,
+        "games": 92,
+        "player_games": 108,
+        "role_counts": {
+          "QB": 25,
+          "RB": 80,
+          "TE": 1,
+          "WR": 2
+        },
+        "states": {
+          "LOSS": 44,
+          "WIN": 64
+        },
+        "abstentions": 0,
+        "unavailable": 0,
+        "fallback_selected": null,
+        "actual_scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.6666666666666666,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5185185185185185,
+          "small_cluster_caution": true,
+          "week_clusters": 18
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_ACTUAL_LINES_QUOTE_TIME_UNVERIFIED",
+        "source_projection": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "CATBOOST_MEDIUM_ORIGINAL_2023::point",
+        "product_policy": "UNROUNDED_POINT_DIRECTION",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2023_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 73,
+          "losses": 37,
+          "rate": 0.4931506849315068,
+          "selected": 74,
+          "wins": 36
+        },
+        "UNDER": {
+          "decided": 152,
+          "losses": 81,
+          "rate": 0.46710526315789475,
+          "selected": 152,
+          "wins": 71
+        },
+        "COMBINED": {
+          "decided": 225,
+          "losses": 118,
+          "rate": 0.47555555555555556,
+          "selected": 226,
+          "wins": 107
+        },
+        "eligible": 226,
+        "selected": 226,
+        "unknown": 1,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 142,
+        "player_games": 226,
+        "states": {
+          "LOSS": 118,
+          "UNKNOWN_PARTICIPATION": 1,
+          "WIN": 107
+        },
+        "fallback": {
+          "": 226
+        },
+        "actual_scored_weeks": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.539750805346762,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4066946518803381,
+          "small_cluster_caution": true,
+          "week_clusters": 13
+        },
+        "numerical": {
+          "MAE": 5.098454734420571,
+          "MSE": 39.57753750741603,
+          "absolute_error_p90": 10.05370568634713,
+          "bias": -0.8847644707646695,
+          "learned_or_fallback_states": {
+            "": 225
+          },
+          "max_absolute_error": 18.26104849457063,
+          "scored": 225
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "HGB_MAE_DIRECT_ORIGINAL_2023_BASE::point",
+        "product_policy": "UNROUNDED_POINT_DIRECTION",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2023_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 93,
+          "losses": 46,
+          "rate": 0.5053763440860215,
+          "selected": 94,
+          "wins": 47
+        },
+        "UNDER": {
+          "decided": 132,
+          "losses": 70,
+          "rate": 0.4696969696969697,
+          "selected": 132,
+          "wins": 62
+        },
+        "COMBINED": {
+          "decided": 225,
+          "losses": 116,
+          "rate": 0.48444444444444446,
+          "selected": 226,
+          "wins": 109
+        },
+        "eligible": 226,
+        "selected": 226,
+        "unknown": 1,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 142,
+        "player_games": 226,
+        "states": {
+          "LOSS": 116,
+          "UNKNOWN_PARTICIPATION": 1,
+          "WIN": 109
+        },
+        "fallback": {
+          "": 226
+        },
+        "actual_scored_weeks": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5352201072544049,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.43231441048034935,
+          "small_cluster_caution": true,
+          "week_clusters": 13
+        },
+        "numerical": {
+          "MAE": 4.861676361883245,
+          "MSE": 37.37299803964656,
+          "absolute_error_p90": 9.392665224672648,
+          "bias": -0.24706673444353022,
+          "learned_or_fallback_states": {
+            "": 225
+          },
+          "max_absolute_error": 20.08231979999741,
+          "scored": 225
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "ALWAYS_OVER",
+        "product_policy": "CONSTANT_SIDE_CONTROL",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2023_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 225,
+          "losses": 108,
+          "rate": 0.52,
+          "selected": 226,
+          "wins": 117
+        },
+        "UNDER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "COMBINED": {
+          "decided": 225,
+          "losses": 108,
+          "rate": 0.52,
+          "selected": 226,
+          "wins": 117
+        },
+        "eligible": 226,
+        "selected": 226,
+        "unknown": 1,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 142,
+        "player_games": 226,
+        "states": {
+          "LOSS": 108,
+          "UNKNOWN_PARTICIPATION": 1,
+          "WIN": 117
+        },
+        "fallback": {
+          "CONSTANT_CONTROL": 226
+        },
+        "actual_scored_weeks": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5767486583184258,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.45146894318516334,
+          "small_cluster_caution": true,
+          "week_clusters": 13
+        },
+        "numerical": {
+          "MAE": null,
+          "MSE": null,
+          "absolute_error_p90": null,
+          "bias": null,
+          "learned_or_fallback_states": {},
+          "max_absolute_error": null,
+          "scored": 0
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      },
+      {
+        "category": "pass_cmp",
+        "procedure_id": "ALWAYS_UNDER",
+        "product_policy": "CONSTANT_SIDE_CONTROL",
+        "comparison_mask": "FULL_SYSTEM",
+        "source_period": "ALL_2023_REG",
+        "week_view": "ALL",
+        "OVER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "UNDER": {
+          "decided": 225,
+          "losses": 117,
+          "rate": 0.48,
+          "selected": 226,
+          "wins": 108
+        },
+        "COMBINED": {
+          "decided": 225,
+          "losses": 117,
+          "rate": 0.48,
+          "selected": 226,
+          "wins": 108
+        },
+        "eligible": 226,
+        "selected": 226,
+        "unknown": 1,
+        "unavailable": 0,
+        "abstentions": 0,
+        "games": 142,
+        "player_games": 226,
+        "states": {
+          "LOSS": 117,
+          "UNKNOWN_PARTICIPATION": 1,
+          "WIN": 108
+        },
+        "fallback": {
+          "CONSTANT_CONTROL": 226
+        },
+        "actual_scored_weeks": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "uncertainty": {
+          "dependence_aware": true,
+          "high": 0.5485310568148365,
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.42325134168157424,
+          "small_cluster_caution": true,
+          "week_clusters": 13
+        },
+        "numerical": {
+          "MAE": null,
+          "MSE": null,
+          "absolute_error_p90": null,
+          "bias": null,
+          "learned_or_fallback_states": {},
+          "max_absolute_error": null,
+          "scored": 0
+        },
+        "source_evidence_tier": "EXPOSED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION;ACTUAL_NAMED_BOOK_LINES_QUOTE_TIME_UNVERIFIED;NO_ORIGINAL_ISSUANCE",
+        "source_projection": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+        "execution_state": "OWNER_REPORTED_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+        "no_new_2026_or_original_issued_record": true
+      }
+    ],
+    "scope": "2024completionW1-W18,2023completionactualW6-W18,2024BackfieldW1-W18 owner-reported actualnamedbook-line diagnostics;current/revised7dayhistory/quotetimeunverified/nooriginalissuance; publicpermittedprojectionnotprivate-rowfitreproduction",
+    "newly_added_2026_weeks": [],
+    "current_W1_W9_effect": "No2026gapfilled; neither priorseasondata nor additionalviews authenticate ordinary/mainline or origindecisiontime",
+    "not_a_new_championship": "Selectedexistingwholeperiodviews/controls only; no crosspanelranking or bestweekstitching"
+  },
+  "new_fits_or_inference_or_grades_by_C_target_assessment": 0,
+  "new_selector_thresholds_or_subgroups": 0,
+  "initial_v1_superseded_claim": "The original README statement that website46INT cells remain unverified is superseded only by this exactB current-finalmeasurementreceipt, not a rewrite of original absence semantics or unrelatedA87-casepanel.",
+  "sources": [
+    {
+      "path": "reports/information-first-20261112-01/B-intake/EXACT_RECEIPT_BINDINGS.json",
+      "bytes": 1543,
+      "SHA256": "6e461483cc82298e678bd8eaa26724c8f6d6adb32ab458383a4fa1f2982e2a88"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "bytes": 37492,
+      "SHA256": "55cccc63055058f533ca9df2585d90b2ebaae38204d61b14171925c2ef161ca7"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "bytes": 23733,
+      "SHA256": "a155b22fe0ab8a29d7259ffa1063c5e9eebd4bed8280c4fb517888874419f71c"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "bytes": 16993,
+      "SHA256": "8d04c15673779adec693f4e0d747e380ecef0ed7dbd9b0ef77cf85e88c1a31b3"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/MEASUREMENT_TRANSITIONS_V1.json",
+      "bytes": 359,
+      "SHA256": "0047b0b4ceb416cfb457e799cdede12fcbf35241a014e931d9e42415eb127428"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/NORMALIZED_HISTORICAL_CONTROL_ROWS.json.gz",
+      "bytes": 43094,
+      "SHA256": "031d0f686639b38ab8289e0606bcdc460f313cd58c545849827a275e4a2b6a6c"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/SOURCE_PROJECTION_BINDINGS.json",
+      "bytes": 3547,
+      "SHA256": "0fdd13ba0f5ea9377637127c45540acd5bf4bb0c248e919be4c40fff0de5d957"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/INDEPENDENT_AGGREGATE_CHECK.json",
+      "bytes": 7546,
+      "SHA256": "9a8cb96a696b585c937b9a8dec7c8281284ab4a19e66bbf85904af2ef7bb66fa"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/ASSESSMENT_RECEIPT.json",
+      "bytes": 4246,
+      "SHA256": "9482f8934dc656994b61fba3b67fd225e19763bbee8143b174c187b67a4a9c4a"
+    }
+  ]
+}

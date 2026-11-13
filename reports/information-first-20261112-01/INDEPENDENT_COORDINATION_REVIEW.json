@@ -1,0 +1,246 @@
+{
+  "id": "C-INFORMATION-FIRST-INDEPENDENT-COORDINATION-CHECK-v1",
+  "checked_UTC": "2026-11-12T23:55:33.970748+00:00",
+  "state": "PASS_SCOPED_C_OWNED_COORDINATION_CHECK",
+  "review_scope": "Not external B endorsement; underlying private fits/quotes/raw final-label map not independently inspected",
+  "budget": {
+    "CPU_seconds_max": 60,
+    "RSS_bytes_max": 805306368,
+    "network": 0,
+    "retained_bytes_max": 131072,
+    "new_fits_inference_or_grader_calls": 0
+  },
+  "B_checked": {
+    "source_side_rows": 144,
+    "complete_triads": 48,
+    "measurement_transitions": {
+      "WIN -> WIN": 33,
+      "MISSING_ACTUAL -> LOSS": 32,
+      "LOSS -> LOSS": 7,
+      "MISSING_ACTUAL -> WIN": 14
+    },
+    "explicit_current_dual_source_zeros_as_B_reported": 46,
+    "original_over": {
+      "wins": 33,
+      "decided": 33,
+      "unknown": 32
+    },
+    "corrected_over": {
+      "wins": 33,
+      "losses": 32,
+      "decided": 65
+    },
+    "corrected_under": {
+      "wins": 14,
+      "losses": 7,
+      "decided": 21
+    },
+    "corrected_combined": {
+      "wins": 47,
+      "losses": 39,
+      "decided": 86
+    },
+    "same86_under_control_wins": 46,
+    "full144board_remains_separate": true,
+    "forecast_side_line_changes": 0,
+    "classification": "Measurement correction; not a predictive improvement or ordinary-mainline timing qualification"
+  },
+  "A_checked": {
+    "summary_views": 528,
+    "partial_2023": "W6-W18actual; requestedW1-W8hasW6-W8only",
+    "2024": "Two distinctcategories/annualrecipes; each18scoredweeks with overlappingearly/full views",
+    "new_2026_testweeks": [],
+    "prior_arithmetic_receipt_reused": "Earlier sameCworker originalAintake arithmetic reused; not falsely counted as a new independent replication of its own normalization",
+    "raw_private_fit_parity": false
+  },
+  "ledger_separate_worker_reused": {
+    "path": "reports/information-first-20261112-01/ledger/INDEPENDENT_READBACK.json",
+    "mapped_scalars": 6912,
+    "rows": 32103,
+    "old31527exact": true,
+    "this_review_fullCSV_rerun": false
+  },
+  "target90": {
+    "broad": "TARGET_NOT_ESTABLISHED",
+    "selective": "TARGET_NOT_ESTABLISHED",
+    "all12categories_retained": true,
+    "tiny_perfect_gates_preserved": [
+      {
+        "category": "rush_yd",
+        "method": "P1_MEAN",
+        "decided": 3,
+        "wins": 3,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rush_yd",
+        "method": "P1_MEDIAN",
+        "decided": 3,
+        "wins": 3,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rush_yd",
+        "method": "P2_LAW",
+        "decided": 3,
+        "wins": 3,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec",
+        "method": "P1_MEAN",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec",
+        "method": "P1_MEDIAN",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec",
+        "method": "P2_LAW",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec_yd",
+        "method": "P1_MEAN",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec_yd",
+        "method": "P1_MEDIAN",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      },
+      {
+        "category": "rec_yd",
+        "method": "P2_LAW",
+        "decided": 2,
+        "wins": 2,
+        "weeks": 2,
+        "scope": "UNDER_ONLY_NOT_CATEGORY90"
+      }
+    ],
+    "tiny_under_only_2week_gates_do_not_qualify_broad_or_selective90": true,
+    "original100percentOver_was33of33_with32unresolved_not65of65": true
+  },
+  "personnel": {
+    "event": "401873052",
+    "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+    "initial_native_observed_UTC": "2026-11-12T23:33:17.939638+00:00",
+    "initial_detail_observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+    "later_observed_UTC": "2026-11-12T23:50:21.504016+00:00",
+    "all_issue_and_observation_clocks_before_kickoff": true,
+    "event_state_both": "pre/notcompleted",
+    "observed_complete_roster": false,
+    "absence_imputed_healthy_zero_or_starter": false,
+    "reads": 3,
+    "read_cap": 6,
+    "later_reads": 1,
+    "no_loop_or_scheduler": true,
+    "historical_model_training": "SOURCE_BLOCKED",
+    "other_bucket_count": null,
+    "remote_durable_capture": "This check verifies retained local metadata, not rootserverpublication after this receipt"
+  },
+  "FTN": {
+    "existing_2025_2026_29field_projections_available_and_hashchecked": true,
+    "prior3aggregate_rates_already_tested": true,
+    "new_B0_B1_B2_receipt": "Pending actual B owner; NOT_LOCATED in boundindex is not unavailabledata/inactiveowner",
+    "new_C_FTN_collection_or_fits": 0,
+    "role_source_ownership_unchanged": true
+  },
+  "production": {
+    "C_only_repository": true,
+    "original_site_writes_by_this_review": 0,
+    "new_primary_switches_or_selector": 0,
+    "publication_versus_code": "No code/greencheck/metadata review treated as issuedfeed or servedadmission"
+  },
+  "files": [
+    {
+      "path": "reports/information-first-20261112-01/B-intake/ADMISSION.json",
+      "bytes": 12268,
+      "SHA256": "2b7e9be61ca0268faa479ea421ea731e0c6b9463718f3356d585dde45ce50afc"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "bytes": 37492,
+      "SHA256": "55cccc63055058f533ca9df2585d90b2ebaae38204d61b14171925c2ef161ca7"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/MEASUREMENT_TRANSITIONS_V1.json",
+      "bytes": 359,
+      "SHA256": "0047b0b4ceb416cfb457e799cdede12fcbf35241a014e931d9e42415eb127428"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/A_INTAKE_RECEIPT.json",
+      "bytes": 10720,
+      "SHA256": "ba32e7cbee29f6b7532a2ad9addb464e6761e0c74653e0cb12ea4666d814bb6d"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/INDEPENDENT_AGGREGATE_CHECK.json",
+      "bytes": 7546,
+      "SHA256": "9a8cb96a696b585c937b9a8dec7c8281284ab4a19e66bbf85904af2ef7bb66fa"
+    },
+    {
+      "path": "reports/information-first-20261112-01/ledger/INDEPENDENT_READBACK.json",
+      "bytes": 935,
+      "SHA256": "7db1a3eab6c687655625f81d75b313e18b9ebd4519abede92f21b8b8d6f51860"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/CURRENT_TARGET_STATUS.json",
+      "bytes": 927,
+      "SHA256": "b14baddd259b74d73f3c1ec7723b07681a4c0a187050187290199059f893de06"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/SUPERSEDING_RECEIPT_SUPPLEMENT_V1.json",
+      "bytes": 54333,
+      "SHA256": "2818fd1e67b5f0bba584bd39beaf3e03d7da22257732c06e08450ef071bdca34"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/FINAL_ADMISSION_NOTE_V1.json",
+      "bytes": 2895,
+      "SHA256": "4137dc104c275131636ee0661057800089bb973f4ea4980aad269cdad80acb11"
+    },
+    {
+      "path": "reports/information-first-20261112-01/personnel/FINAL_QUALIFICATION.json",
+      "bytes": 3253,
+      "SHA256": "928f6d7c73ac761db5aa1ce85b343cfe3e05be8b164614fcb51b207f96e594be"
+    },
+    {
+      "path": "reports/information-first-20261112-01/personnel/FINAL_READ_LEDGER.json",
+      "bytes": 1489,
+      "SHA256": "0a957a2965395665f997c00ca1352a76eabb18246ee131fc0bfa769800f10394"
+    },
+    {
+      "path": "reports/information-first-20261112-01/coordination/FTN_OWNERSHIP_AND_NEW_TEST_STATUS.json",
+      "bytes": 2546,
+      "SHA256": "594902351eb24819824c43b86cd5b79bff3b0330e648cc8dd8cc1f3b709a6752"
+    }
+  ],
+  "scope_limits": [
+    "Public aggregate arithmetic and retained schema/clock/hash checks only",
+    "B explicit zero support received as owner/source-qualified receipt; no C raw provider replay/private map exposure",
+    "A private source/model/fit/history/quote parity not established",
+    "Root software, final manifest and future GitHub persistence checks remain separate",
+    "No new grader, source collector, peer writes, external messages, credentials, paid calls or wagers"
+  ],
+  "CPU_seconds": 0.06894749199999999,
+  "max_RSS_bytes": 16924672
+}

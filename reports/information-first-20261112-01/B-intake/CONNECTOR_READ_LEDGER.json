@@ -1,0 +1,60 @@
+{
+  "reads": [
+    {
+      "read": 1,
+      "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+      "returned_bytes": 1632,
+      "method": "GitHub read-only connector"
+    },
+    {
+      "read": 3,
+      "ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "path": "reports/interception-evidence-closure-01/B/official-source/OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "local": "OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "returned_bytes": 52806,
+      "received_body_bytes": 23733
+    },
+    {
+      "read": 4,
+      "ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "path": "reports/interception-evidence-closure-01/B/regrade-v1/MEASUREMENT_TRANSITIONS_V1.json",
+      "local": "MEASUREMENT_TRANSITIONS_V1.json",
+      "returned_bytes": 1677,
+      "received_body_bytes": 359
+    },
+    {
+      "read": 5,
+      "ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "path": "reports/interception-evidence-closure-01/B/website-audit/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "local": "INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "returned_bytes": 86842,
+      "received_body_bytes": 37492
+    },
+    {
+      "read": 6,
+      "ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "path": "reports/interception-evidence-closure-01/B/historical-delivery-review/INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "local": "INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "returned_bytes": 37941,
+      "received_body_bytes": 16993
+    },
+    {
+      "read": 7,
+      "ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "path": "reports/interception-evidence-closure-01/B/B_INTERCEPTION_AND_DELIVERY_CHECKPOINT_V1.md",
+      "local": "B_INTERCEPTION_AND_DELIVERY_CHECKPOINT_V1.md",
+      "returned_bytes": 32382,
+      "received_body_bytes": 15633
+    },
+    {
+      "read": 8,
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-charting-wave-v1/SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+      "local": "FTN_PRIOR_SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+      "returned_bytes": 3425,
+      "received_body_bytes": 1186
+    }
+  ],
+  "byte_definition": "UTF8 JSON of complete connector returns, including duplicate presentation fields; index CLI raw read2 separately retained.",
+  "additional_FTN_source_collection": 0
+}

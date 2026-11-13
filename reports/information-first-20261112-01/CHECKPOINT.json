@@ -1,0 +1,329 @@
+{
+  "id": "ABC-INFORMATION-FIRST-20261112-01-C/CHECKPOINT-v1",
+  "completed_UTC": "2026-11-13T00:03:50.398008+00:00",
+  "broad_board_90": "TARGET_NOT_ESTABLISHED",
+  "selective_90": "TARGET_NOT_ESTABLISHED",
+  "established_90_categories": [],
+  "interpretation": "No complete procedure establishes >=90% under the requested 2026W1–9 ordinary/mainline contract. Small observed 100% subsets, predicted confidence, a statistical >=90% claim and later frozen performance remain distinct.",
+  "registered_focus": [
+    "B pass_cmp information",
+    "C rec personnel redistribution",
+    "A existing rush_att historical/selection work"
+  ],
+  "all_twelve_target_status": {
+    "path": "reports/information-first-20261112-01/target-status/TWELVE_CATEGORY_TARGET_STATUS.json",
+    "bytes": 71289,
+    "SHA256": "c73c557afeb1b422045787981c44ecfc81ec1f2448a9258c0eae53c76f4299f8"
+  },
+  "current_target_supersession": {
+    "path": "reports/information-first-20261112-01/target-status/CURRENT_TARGET_STATUS.json",
+    "bytes": 927,
+    "SHA256": "b14baddd259b74d73f3c1ec7723b07681a4c0a187050187290199059f893de06"
+  },
+  "interception_measurement": {
+    "B_source_revision": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+    "original": {
+      "OVER": {
+        "wins": 33,
+        "losses": 0,
+        "decided": 33,
+        "unknown": 32
+      },
+      "UNDER": {
+        "wins": 0,
+        "losses": 7,
+        "decided": 7,
+        "unknown": 14
+      },
+      "COMBINED": {
+        "wins": 33,
+        "losses": 7,
+        "decided": 40,
+        "unknown": 46
+      }
+    },
+    "corrected": {
+      "OVER": {
+        "wins": 33,
+        "losses": 32,
+        "decided": 65,
+        "unknown": 0
+      },
+      "UNDER": {
+        "wins": 14,
+        "losses": 7,
+        "decided": 21,
+        "unknown": 0
+      },
+      "COMBINED": {
+        "wins": 47,
+        "losses": 39,
+        "decided": 86,
+        "unknown": 0
+      }
+    },
+    "transitions": {
+      "unknown_to_loss": 32,
+      "unknown_to_win": 14
+    },
+    "explicit_supported_zeros": 46,
+    "original_board": 144,
+    "selected": 86,
+    "genuine_no_lean": 58,
+    "zero_source_contract": "B verified explicit zero in both NFLverse passing_interceptions and ESPN passing.interceptions; no participation/missing-value imputation.",
+    "effect": "Measurement correction of unchanged predictions/sides/lines, not changed forecasts or a predictive-skill gain.",
+    "same_selected_controls": {
+      "Always_Under": [
+        46,
+        86
+      ],
+      "Always_Over": [
+        40,
+        86
+      ]
+    },
+    "original_Over_missing_outcome_bound": {
+      "lower": 0.5076923076923077,
+      "upper": 1.0,
+      "not_a_statistical_interval": true
+    },
+    "line_limits": "Stored DK labels85at0.5/oneat1.5 among86selections. Main/alternative designation, original quote/decision clocks and venue settlement unverified.",
+    "C_verification_scope": "Public receipt/hash/cohort/aggregate consistency, not private correction map or raw official source bodies.",
+    "original_versions_preserved": true,
+    "new_model_or_policy": false
+  },
+  "newly_received_prior_season_tests": [
+    {
+      "category": "pass_cmp",
+      "season": 2024,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "HGB": [
+        239,
+        459
+      ],
+      "CatBoost": [
+        227,
+        459
+      ],
+      "Always_Under": [
+        231,
+        459
+      ],
+      "tier": "Owner-reported named-book current-vintage chronological diagnostic; quote clocks/original issuance unverified."
+    },
+    {
+      "category": "pass_cmp",
+      "season": 2023,
+      "actual_weeks": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "requested_early_W1_W8_actual_weeks": [
+        6,
+        7,
+        8
+      ],
+      "HGB": [
+        109,
+        225
+      ],
+      "CatBoost": [
+        107,
+        225
+      ],
+      "Always_Over": [
+        117,
+        225
+      ],
+      "tier": "Same scoped retrospective tier; missing W1–5 not erased."
+    },
+    {
+      "category": "rush_att",
+      "season": 2024,
+      "actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "Top6_full": [
+        68,
+        108
+      ],
+      "Top6_early": [
+        29,
+        48
+      ],
+      "same_case_point_controls": "Tie each named selected panel",
+      "role_scope": "QB/RB/WR/TE mixed offered population, not RB-only",
+      "tier": "Historical named-book retrospective selector; decision-board simultaneity and quote clocks unverified."
+    }
+  ],
+  "new_2026_test_weeks": 0,
+  "new_original_issued_selections": 0,
+  "C_new_fits_inference_grades": 0,
+  "new_A_fit_as_owner_reported": 1,
+  "prior_season_limits": "All-phase original HGB training differs from current accepted2026REG recipe; no automatic model parity or primary history transfer. Prior-year results cannot establish current W1–9 accuracy.",
+  "FTN": {
+    "owner": "B",
+    "source_existing": "C retained2025/2026 charting projections:29fields/47316and20723rows, no new collection.",
+    "completed_equivalent": "Earlier aggregate catchability/drop/contested values with support/age/global priors already tested; F2 direction54/112 tiesE1; preserve failures.",
+    "new_B0_B1_B2_status": "NOT_RECEIVED_AT_INSPECTED_B10846_INDEX; owner source/prior-use and distinct-execution receipt required, not evidence of unavailable data or absent active work.",
+    "fit_authority": "User already authorizes necessary finite owned fits/inference after source/novelty qualification; no zero-fit-only interpretation.",
+    "next_source_contract": "Postgame charting only earlier games; date_pulled not original availability; unknown/inapplicable !=false, provider-specific denominators and2022readcoding, qualified rights, complete matched chronology/fallback."
+  },
+  "C_personnel": {
+    "current_universe": "SOURCE_BLOCKED_FOR_OBTAINED_EVENT_ROUTE",
+    "historical_training": "SOURCE_BLOCKED_UNCHANGED",
+    "observations_UTC": [
+      "2026-11-12T23:33:18.204168+00:00",
+      "2026-11-12T23:50:21.504016+00:00"
+    ],
+    "source_reads": 3,
+    "later_reads": 1,
+    "source_capture_commit": "35e6e3e514d5c80913a156aca7f5ca544b677314",
+    "server_readback_UTC": "2026-11-12T23:54:18Z",
+    "kickoff_UTC": "2026-11-13T01:15:00Z",
+    "current_teammate_count": null,
+    "new_forecasts_offers_selections": 0,
+    "scope": "Observed source has no complete roster/player component; not proof official inactives are absent elsewhere. No unknown player becomes healthy, active, DNP or zero."
+  },
+  "common_period_ledger": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V2.csv.gz",
+    "bytes": 2082828,
+    "SHA256": "2e79419d282ffd93cc2d3075e20842ea80c982c2b97fd844cdfabdb5a87cd949"
+  },
+  "common_period_summary": {
+    "path": "reports/information-first-20261112-01/ledger/BUILD_RECEIPT.json",
+    "bytes": 3727,
+    "SHA256": "16c4d3b45dc26294ae02bf0ef4f298c3cbe28473690a336721b002d2437bf655"
+  },
+  "distributional_next_wave": "NOT_REGISTERED; one specifically justified conditional-law weakness after information comparison, same information/offers, no mandatory library search or unchanged MonteCarlo.",
+  "production": "No C original-site writes/switches. Five exact-product scored-season-weeks remain necessary, not a90% claim; existing qualified sub90 products/releases need not wait for this wave or all histories.",
+  "operational_handoffs": {
+    "B_official_label_evidence": "READY_FOR_ORIGINAL_OWNER_VERSIONED_GRADING/ADMISSION_WITH_LIMITS",
+    "existing_FTN_projection": "SOURCE_HANDOFF_READY_NOT_A_NEW_PREDICTIVE_PRODUCT",
+    "C_personnel_model": "NOT_READY_INPUT_CONTRACT_BLOCKED",
+    "Count_A_native_feed": "NOT_VERIFIED_BY_C_LATEST_RECEIVED401_OWNER_DEPENDENCY"
+  },
+  "finite_remaining_queue": [
+    {
+      "executor": "Session B, registered FTN source/completion owner",
+      "artifact": "Exact ABC-INFORMATION-FIRST source/prior-use receipt and one non-equivalent B0/B1/B2 completion package, or exact equivalent-test closure",
+      "minimum_action": "Reuse existing permitted charting/joins and completed three-rate studies; identify genuinely new compact information/representation, qualify field/denominator/time/license semantics, register finite fits/folds and execute when supported. C does not duplicate collection or fitting.",
+      "completion": "Immutable recipe/input/output/fallback/evaluation bindings with own O/U/common and full coverage, probability/numerical/uncertainty results, fit-use check and keep/close/shadow decision.",
+      "authority": "Necessary B fits/inference already authorized; no new general permission gate. No source-unavailable claim inferred from absent new receipt."
+    },
+    {
+      "executor": "Session C source/receiving owner",
+      "artifact": "Complete provider-defined event-effective teammate universe with transaction/elevation and active/inactive semantics, plus immutable earlier personnel versions for historical training",
+      "minimum_action": "Use an actually supplied existing authorized source/export or register one bounded source task under existing authority; no further polling of the just-closed event route, no backdating or target participation.",
+      "completion": "Training/query origins have eligible personnel configurations and complete competitors/other bucket; only then register a distinct matched receiving information fit."
+    },
+    {
+      "executor": "Original website owner",
+      "artifact": "Supported corrected interception input/grade versions and actual consumer/served receipt for unchanged saved decisions",
+      "minimum_action": "Apply received explicit final-source labels under the original immutable side/line contracts; preserve original versions. Resolve remaining selector membership identities before canonical policy retotals.",
+      "completion": "Original and corrected historical grades separately bound and actual served consumption checked. Measurement correction does not require five future weeks."
+    },
+    {
+      "executor": "Session A registered source/native owner, coordinating existing credential owner",
+      "artifact": "Authenticated Count A upload/native packet/feed and reviewed exact PR90/91 sources",
+      "minimum_action": "Continue the existing authorized upload-authentication route and applicable PR review/landing; no credential exposure/request, refit-as-auth-repair, guard bypass or peer takeover.",
+      "completion": "Actual producing commit/run/source cutoff/issue/artifact hash, readable feed, consumer admission and served verification, or precise remaining ingress stage."
+    },
+    {
+      "executor": "Session A historical comparison owner",
+      "artifact": "Additional exact 2026 W1–9 and remaining 2022–2025 source-qualified periods, with original method/output/population/selection policy",
+      "minimum_action": "Continue finite owned historical queue using retained fits/forecasts; do not rerun the now-admitted 2023/2024 packages or equate all-phase 2024 HGB with current REG recipe.",
+      "completion": "Actual newly tested period cells and controls, adverse seasons and quote/source limitations, without cross-panel overlap or invented offers."
+    },
+    {
+      "executor": "Original website selector/release owner; B verifies; C records",
+      "artifact": "Exact frozen-selector fifth compatible board or next qualified future capture; separate eligible category feeds",
+      "minimum_action": "Keep same frozen mapping and real decision clocks; source-only observations and category TopK do not qualify a cross-category week. Independently eligible releases continue without waiting for 90%.",
+      "completion": "Canonical policy receipt and scoped B check or exact board gap; actual category-product consumer receipts through existing authority."
+    }
+  ],
+  "bindings": [
+    {
+      "path": "reports/information-first-20261112-01/A-intake/A_INTAKE_RECEIPT.json",
+      "bytes": 10720,
+      "SHA256": "ba32e7cbee29f6b7532a2ad9addb464e6761e0c74653e0cb12ea4666d814bb6d"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/ADMISSION.json",
+      "bytes": 12268,
+      "SHA256": "2b7e9be61ca0268faa479ea421ea731e0c6b9463718f3356d585dde45ce50afc"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/FINAL_ADMISSION_NOTE_V1.json",
+      "bytes": 2895,
+      "SHA256": "4137dc104c275131636ee0661057800089bb973f4ea4980aad269cdad80acb11"
+    },
+    {
+      "path": "reports/information-first-20261112-01/coordination/FTN_OWNERSHIP_AND_NEW_TEST_STATUS.json",
+      "bytes": 2546,
+      "SHA256": "594902351eb24819824c43b86cd5b79bff3b0330e648cc8dd8cc1f3b709a6752"
+    },
+    {
+      "path": "reports/information-first-20261112-01/personnel/FINAL_QUALIFICATION.json",
+      "bytes": 3253,
+      "SHA256": "928f6d7c73ac761db5aa1ce85b343cfe3e05be8b164614fcb51b207f96e594be"
+    },
+    {
+      "path": "reports/information-first-20261112-01/personnel/GITHUB_PERSISTENCE.json",
+      "bytes": 1463,
+      "SHA256": "90b0e6becefde53b17d45940b0223deb0640042a290bc14c2df303c5032f5bc1"
+    },
+    {
+      "path": "reports/information-first-20261112-01/INDEPENDENT_COORDINATION_REVIEW.json",
+      "bytes": 8546,
+      "SHA256": "d3444e9eabe312ca2965a44e77676933f6aecb8af74ede525a86767ba79545b0"
+    }
+  ]
+}

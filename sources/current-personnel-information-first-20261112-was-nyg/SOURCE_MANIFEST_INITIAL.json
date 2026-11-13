@@ -1,0 +1,73 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-INITIAL-SNAPSHOT-v1",
+  "source_only_issue_UTC": "2026-11-12T23:35:37.895447+00:00",
+  "event_id": "401873052",
+  "game_id": "2026_10_WAS_NYG",
+  "sources": [
+    {
+      "id": "NATIVE_PRECHECK",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261112&limit=100",
+      "started_UTC": "2026-11-12T23:33:17.739377+00:00",
+      "observed_UTC": "2026-11-12T23:33:17.939638+00:00",
+      "HTTP_status": 200,
+      "bytes": 22940,
+      "SHA256": "b96cfe448eece5ddf44ebaf16467ecae1c4c7051905fce72a397511530cd96de",
+      "headers": {
+        "Date": "Thu, 12 Nov 2026 23:33:17 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Length": "22940",
+        "Cache-Control": "max-age=2"
+      },
+      "final_host": "site.api.espn.com",
+      "full_raw_retention": "Temporary memory only; no news/media/names/articles retained"
+    },
+    {
+      "id": "NATIVE_EVENT_DETAIL_INITIAL",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "started_UTC": "2026-11-12T23:33:17.940568+00:00",
+      "observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+      "HTTP_status": 200,
+      "bytes": 116009,
+      "SHA256": "b0cc5651efeb9d517d068693fd6bd6a425795bc9f529a6342578249f522cfcc4",
+      "headers": {
+        "Date": "Thu, 12 Nov 2026 23:33:18 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Length": null,
+        "Cache-Control": "max-age=6"
+      },
+      "final_host": "site.api.espn.com",
+      "full_raw_retention": "Temporary memory only; no news/media/names/articles retained"
+    }
+  ],
+  "retained_files": [
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/EVENT_PRECHECK.json",
+      "bytes": 544,
+      "SHA256": "6c9a3a30fbdb0f4174a3f7ca23ba63160946b98fde754b12097f142b87cdba47"
+    },
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/INITIAL_EVENT_ROSTER_STRUCTURE.json",
+      "bytes": 1264,
+      "SHA256": "2e308efac529dd54bfb984f2a89668a26656799abec88e6918cef09c2d48fdf7"
+    }
+  ],
+  "full_event_effective_teammate_universe": "NOT_OBTAINED; native eventdetail has no rosters/inactives/playerbox component",
+  "configuration": "PARTIAL_SOURCE_FACTS_ONLY; do not fabricate player rows from missing source",
+  "player_universe_other_bucket": {
+    "id": "UNRESOLVED_TEAMMATES_AND_OTHER_ALLOCATION",
+    "count": null,
+    "state": "UNKNOWN_NOT_ZERO"
+  },
+  "rights": "Minimal public nativeevent/schemafacts only under existing C route; full temporary response notretained. No news/articles/odds/biographies/names captured.",
+  "persistence": "Local firstobserved snapshot; root separatelybinds commit/serverclock/readback. No forecast/selection is created.",
+  "historical_receiving_personnel": "SOURCE_BLOCKED_UNCHANGED",
+  "later_observation": "Separate predeclared oneoff after23:50UTC only on root safe-checkpoint trigger; initial snapshot files never overwritten",
+  "fits": 0,
+  "forecast_rows": 0,
+  "offered_lines": 0,
+  "selected_picks": 0
+}

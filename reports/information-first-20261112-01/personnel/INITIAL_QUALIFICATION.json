@@ -1,0 +1,51 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-INITIAL-QUALIFICATION-v1",
+  "event_id": "401873052",
+  "observed_UTC": "2026-11-12T23:33:18.204168+00:00",
+  "fresh_native_event_qualification": "PASS_EVENT_ONLY",
+  "current_teammate_universe": "SOURCE_BLOCKED_NO_ROSTERS_OR_INACTIVE_COMPONENT_IN_OBTAINED_RESPONSE",
+  "initial_summary_actual_fields": [
+    "boxscore",
+    "format",
+    "gameInfo",
+    "lastFiveGames",
+    "leaders",
+    "injuries",
+    "broadcasts",
+    "pickcenter",
+    "odds",
+    "againstTheSpread",
+    "news",
+    "article",
+    "winprobability",
+    "ticketsInfo",
+    "predictor",
+    "header",
+    "wallclockAvailable",
+    "meta",
+    "standings"
+  ],
+  "initial_roster_blocks": 0,
+  "initial_player_boxes": 0,
+  "injury_component": "2team subsets present; not complete universe; no raw narratives retained",
+  "current_role_or_starter_evidence": "UNRESOLVED; not inferred from sourceabsence/knownseasonroster/statistics",
+  "historical_training": "SOURCE_BLOCKED; no immutable historical teammate-status versions found or collected",
+  "minimum_missing_artifacts": [
+    {
+      "owner": "Session C personnel/source coordinator",
+      "artifact": "Source-defined full event-effective pregame team roster with timestamped transactions/elevations, plus declared game-active/inactive meanings",
+      "permitted_action": "One predeclared post23:50 event-detail observation only when root safe-checkpoint triggers; otherwise exactsource gap remains",
+      "completion": "Both teams have complete providerdeclared membership at observation with unknown/status/role states preserved independently of future outcomes"
+    },
+    {
+      "owner": "Session C receiving query/model owner",
+      "artifact": "Explicit all-teammate denominator and unprofiled/unknown/other bucket under a qualified event roster contract",
+      "permitted_action": "Reuse admitted fields only; no arbitrary allocation or injury multipliers",
+      "completion": "No omitted candidates silently receivezero or transfer expectedopportunity to observed players"
+    }
+  ],
+  "model_action": "No new fit/inference permitted by initial source outcome; old eligible products continue independently",
+  "source_reads_used": 2,
+  "source_reads_max": 6,
+  "later_read": "Predeclared once after23:50; not yet executed; no wait/poll/scheduler"
+}

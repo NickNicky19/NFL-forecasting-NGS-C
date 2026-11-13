@@ -1,0 +1,303 @@
+{
+  "id": "C-INFORMATION-FIRST-B-INTAKE-ADMISSION-v1",
+  "at_UTC": "2026-11-12T23:42:29.931653+00:00",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "research_branch": "research/independent-audit-20261029",
+  "actual_research_ref": "10846a2781685f3c1a2cb045d3c887864f32bda7",
+  "source_index": {
+    "retained": {
+      "path": "reports/information-first-20261112-01/B-intake/CURRENT_EXPORT_INDEX.json.xz",
+      "bytes": 121372,
+      "SHA256": "18d600b7642e1fd57ea492808f45dda9ecd52a1bbbc9a20bfd086164b7bbae07"
+    },
+    "decoded_bytes": 1532946,
+    "decoded_SHA256": "e60a3ef660e34f9ae5b03591728779176846ad395a26549f655c10c720309625",
+    "at_UTC": "2026-11-12T21:21:52.543314+00:00",
+    "exports": 1506,
+    "unique_paths": 1476
+  },
+  "supersedes_forward_only": {
+    "previous_ref": "6279a683cdf61937b08df0549150afe656f72f4b",
+    "previous_receipt": {
+      "path": "reports/interception-history-closure-01/B-intake/ADMISSION.json",
+      "bytes": 7008,
+      "SHA256": "c6be120b1af351592281c9b5bd51469930ae9ed5e6eb485d7d2c56bcfb2e1c18"
+    },
+    "changed_scope": "New actual correctedINT46 and independent A-method receipts now received. Prior notlocated statuses remain accurate at old pin; no overwrite."
+  },
+  "scope_admitted": "RECEIVED_B_PUBLIC_DUAL_SOURCE_FINAL_LABEL_QUALIFICATION_AND_INDEPENDENT_AGGREGATE_ARITHMETIC;NOT_C_RAW_OFFICIAL_PRIVATE_ROW_OR_FIT_PARITY",
+  "INT_measurement": {
+    "grade_version": "C_RECEIPT_B_INTERCEPTION_CORRECTED_FINAL_LABELS_20261112_v1",
+    "author_strategy": "CORRECTED_CURRENT_FINAL_LABELS",
+    "original_strategy": "CURRENT_PUBLISHED_PRESENCE_V5",
+    "website_main_at_B_audit": "689bc6ff11c7424d5384324e5a7d25dc6e0fad9a",
+    "unchanged_grader_as_B_reported": "statistical-presence-strict-v5-20261106",
+    "original_source_cache": "presence-strict-v3",
+    "frozen_scoring_protocol": {
+      "path": "reports/interception-evidence-closure-01/B/regrade-v1/FROZEN_SCORING_PROTOCOL.json",
+      "producer_commit": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "sha256": "b18c7980f1b9d2fd18ccc9a0448379815eadd9df573aae5cd1a37c949ab68570",
+      "bytes": 2719
+    },
+    "frozen_protocol_contents_independently_fetched_by_C": false,
+    "source_commit": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+    "original_and_corrected_records": {
+      "CURRENT_PUBLISHED_PRESENCE_V5": {
+        "OVER": {
+          "selected": 65,
+          "wins": 33,
+          "losses": 0,
+          "decided": 33,
+          "unknown": 32,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "selected": 21,
+          "wins": 0,
+          "losses": 7,
+          "decided": 7,
+          "unknown": 14,
+          "rate": 0.0
+        },
+        "COMBINED": {
+          "selected": 86,
+          "wins": 33,
+          "losses": 7,
+          "decided": 40,
+          "unknown": 46,
+          "rate": 0.825
+        }
+      },
+      "CORRECTED_CURRENT_FINAL_LABELS": {
+        "OVER": {
+          "selected": 65,
+          "wins": 33,
+          "losses": 32,
+          "decided": 65,
+          "unknown": 0,
+          "rate": 0.5076923076923077
+        },
+        "UNDER": {
+          "selected": 21,
+          "wins": 14,
+          "losses": 7,
+          "decided": 21,
+          "unknown": 0,
+          "rate": 0.6666666666666666
+        },
+        "COMBINED": {
+          "selected": 86,
+          "wins": 47,
+          "losses": 39,
+          "decided": 86,
+          "unknown": 0,
+          "rate": 0.5465116279069767
+        }
+      },
+      "CONSTANT_OVER_ON_SAME86": {
+        "OVER": {
+          "selected": 86,
+          "wins": 40,
+          "losses": 46,
+          "decided": 86,
+          "unknown": 0,
+          "rate": 0.46511627906976744
+        },
+        "UNDER": {
+          "selected": 0,
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "unknown": 0,
+          "rate": null
+        },
+        "COMBINED": {
+          "selected": 86,
+          "wins": 40,
+          "losses": 46,
+          "decided": 86,
+          "unknown": 0,
+          "rate": 0.46511627906976744
+        }
+      },
+      "CONSTANT_UNDER_ON_SAME86": {
+        "OVER": {
+          "selected": 0,
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "unknown": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 86,
+          "wins": 46,
+          "losses": 40,
+          "decided": 86,
+          "unknown": 0,
+          "rate": 0.5348837209302325
+        },
+        "COMBINED": {
+          "selected": 86,
+          "wins": 46,
+          "losses": 40,
+          "decided": 86,
+          "unknown": 0,
+          "rate": 0.5348837209302325
+        }
+      }
+    },
+    "source_mask_SHA256": "c24c54de585dfca9451828f0be9258626919897f06b25db1f8b6305d6c823dad",
+    "board_mask_SHA256": "8eb2c632c6c96f785c8b04f642546127ecf49dab11fd77a7ea6506918515a871",
+    "labels_SHA256": "6a787611a0d13757a57d536b7d90f0777e51594b19a0848192ae824e25012a76",
+    "private_correction_map_SHA256": "15f2b92efacb0c5b901faa4d9ca5ddf740ae733e0895a011129d80c827a7ce8b",
+    "corrected_score_SHA256": "9a91fbd7b679ba35af26d77fcc752a444261ba62d7b9cd8b7a53f7a082f18c4a",
+    "transitions": {
+      "WIN -> WIN": 33,
+      "MISSING_ACTUAL -> LOSS": 32,
+      "LOSS -> LOSS": 7,
+      "MISSING_ACTUAL -> WIN": 14
+    },
+    "effect": "MEASUREMENT_CORRECTION_ONLY;0newforecasts/sides/lines/model/selectionchanges;originalspreserved",
+    "source_qualification": "B explicitly observed bothpassing_interceptions andpassing.interceptions zero on46missingrecords;original40positivevaluesmatch;canonicalQB/event/historicalteam/opponent andfinality checkedbyB. No participation-only zero inference, defensiveINT substitution, absent/null fill, or historicclockclaim. C received evidence/commitments, did not read raw NFLverse/ESPN bodies/private map.",
+    "week_blocks": [
+      [
+        2026,
+        5
+      ],
+      [
+        2026,
+        6
+      ],
+      [
+        2026,
+        7
+      ],
+      [
+        2026,
+        8
+      ],
+      [
+        2026,
+        9
+      ]
+    ],
+    "ordinary_mainline_goal": "PARTIAL_UNQUALIFIED_TIMING:144nativeQB-playergames/72games,86storedleans/61games/41players,58genuinearchivedno-leans,0technicalforecastfailure,53referencepropsseparate. DK-labeled85lines0.5,one1.5. Originalquote/providerpayload/main-vs-alt/timing/settlement notauthenticated;fallbackrecipeattributionUNKNOWN. These86selectionsare not an authenticated ordinary/mainlinefullboard.",
+    "original_46unknown_sensitivity": {
+      "pool": 86,
+      "lower": 0.38372093023255816,
+      "upper": 0.9186046511627907,
+      "meaning": "Logical extremes for old46unknowns, not actual accuracy/CI or future confidence. Actual corrected47/86 is separately observed final-label replay."
+    },
+    "same86_controls_and_uncertainty": "Corrected47/86 vsAlwaysUnder46/86,AlwaysOver40/86. Oneextra win overUnder is not established superiority; Bgameintervalwide andfewweeks. Full144controls are separate.",
+    "eligibility_and_release": "Five labelweeks do not newly qualify original prediction recipe/quote timing or probability/TopPicks. KEEP_INCUMBENT operationally; no model switch ordered. Originalwebsite owner must admit explicit-zero outcome evidence, appendversionedcache/grades with unchangedstrictgrader, and verifyservedbytes."
+  },
+  "selector_impact": {
+    "state": "LIMITED_EXACT_ONE_W6_UNKNOWN_TO_LOSS;NO_RERANK_OR_TOTAL_INHERITANCE",
+    "evidence_scope": "B exactcontrolW6player/event/Over0.5match;candidatecommonmembership inferenceweaker;twoW8identitiesstillneedowner canonicalmanifest. NativeTopflags0W3L notsame3unknowns asfourweekglobalpolicy.",
+    "not_done": [
+      "No rerank",
+      "No canonical whole-selectorretotals",
+      "No fifthcompatibleboard",
+      "No newselectionduration"
+    ]
+  },
+  "A_method_review": {
+    "actual_B_receipt": {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "bytes": 16993,
+      "SHA256": "8d04c15673779adec693f4e0d747e380ecef0ed7dbd9b0ef77cf85e88c1a31b3"
+    },
+    "C_constant_arithmetic": {
+      "Top6_annual": {
+        "own": [
+          23,
+          7,
+          30
+        ],
+        "always_under": [
+          21,
+          9,
+          30
+        ],
+        "always_over": [
+          9,
+          21,
+          30
+        ]
+      },
+      "CatBoost_HGB": [
+        {
+          "method": "CATBOOST_MEDIUM",
+          "procedure_version": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+          "wins": 52,
+          "decided": 88,
+          "constant_over_same88": 48,
+          "constant_under_same88": 40
+        },
+        {
+          "method": "HGB_MAE_DIRECT",
+          "procedure_version": "80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310",
+          "wins": 52,
+          "decided": 88,
+          "constant_over_same88": 48,
+          "constant_under_same88": 40
+        }
+      ],
+      "limit": "Derived from bound published own-side partitions. Private selected identity/model/feature/clock parity and stronger learned selected controls remain unverified by C."
+    },
+    "Top6_annual": "BackfieldFOOTBALL exactTop6annualW1\u20135=23W7L/30; ownO3\u20131/4,U20\u20136/26; same30AlwaysUnder21/30,Over9/30. W6\u20137separate6/12; mixed29/42notsevenactualweeks. Fullweekranknotchronologicalbatchsimulator.",
+    "CatBoost_HGB": "Each52/88annualW1\u20135;same88AlwaysOver48,Under40. Declared fixedearlierfitpolicy/codecheckedbyB;blankfallbackUNSPECIFIED;privateartifact/rawsource/clock/maskparitynotestablished.",
+    "not_admitted": "No newNFLweeks,privatepermemberparity,stronglearnedselectedcontrolcomparison,orautomaticprimarypromotion"
+  },
+  "FTN": {
+    "prior_use": {
+      "path": "reports/information-first-20261112-01/B-intake/FTN_PRIOR_USE_RECONCILIATION.json",
+      "bytes": 6651,
+      "SHA256": "03a93d4ac8fb207d1bafedac28ef522235af83860c4f8eb0836aba2151712544"
+    },
+    "new_information_first_receipt": "NOT_LOCATED_AT_BOUND_INDEX;NO_STATEMENT_THAT_B_IS_INACTIVE",
+    "executor": "B owns qualification and any distinctcompletionfit",
+    "next_action": "Reconcile actualpriorfield/recipe use, charting-versusparticipation contracts, source rows/denominators/availability and appropriate B0/B1/B2 before any newfit; publishpermittedreceipt toexistingEXPORT_INDEX. C willintake withoutduplicatecollection."
+  },
+  "verification": {
+    "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_REVIEW.json",
+    "bytes": 8478,
+    "SHA256": "8c5295ad5e5a8684fa595db1808e9e456e9c5dbd19c81ccfb5267eaf50690f53"
+  },
+  "no_private_transfer_or_unseen_parity_claim": true,
+  "remaining_owner_actions": [
+    {
+      "owner": "Original website owner",
+      "artifact": "Newexplicit-zerooutcomecache/gradeversion andservedreceipt",
+      "next_action": "Intake Bsourcequalification, append0valuesonlywherequalified, retainoriginalgrades, regradewithunchangedstrictpolicy; publishservedproof.",
+      "completion": "Actual newoutcome/gradebytes andsiteconsumption verified;notmerely report."
+    },
+    {
+      "owner": "Original selector execution owner withB verifier",
+      "artifact": "Canonical savedtwoW8unknown identities pluscompletefrozenpolicy/membershipbindings",
+      "next_action": "Resolve identities andappendonlysupported labeltransitions; no policyre-ranking.",
+      "completion": "Exact recordedmembership/scopednewlabelsreceipt, retaininglimitedW6finding."
+    },
+    {
+      "owner": "B FTN source/QB executor",
+      "artifact": "Actual information-first prior-use/sourcequal/newcomparison receipt",
+      "next_action": "Reuseexistingtestedaggregate/depthcatchabilityrecipes;publishdistinctquantity/availabilitybindings whenready.",
+      "completion": "ExactpermittedimmutableEXPORT_INDEXreceipt, notassumedpeeragreement."
+    }
+  ],
+  "resources": {
+    "bound_GitHub_reads": 8,
+    "returned_response_bytes": 1749651,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grading": 0,
+    "FTN_source_collection": 0,
+    "peer_writes_messages_workflow_merge": 0,
+    "CPU_seconds": 0.016561527,
+    "peak_RSS_bytes": 14942208
+  },
+  "production_changes": 0,
+  "peer_writes_messages_workflow_merge": 0,
+  "new_primary_qualification_or_confidence": false
+}

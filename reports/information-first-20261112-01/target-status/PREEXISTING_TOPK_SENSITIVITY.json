@@ -1,0 +1,1616 @@
+[
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E0::WR_TE::MIXED::TOP_6",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 12,
+    "decided": 12,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 12,
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "rate": 0.5
+      }
+    },
+    "wins": 6,
+    "losses": 6,
+    "decided_rate": 0.5,
+    "unresolved": 0,
+    "states": {
+      "LOSS": 6,
+      "WIN": 6
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 6,
+      "decided": 12,
+      "unresolved_selected": 0,
+      "population_for_bounds": 12,
+      "lower": 0.5,
+      "upper": 0.5,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-E0-MIXED-K6",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "states": {
+          "LOSS": 3,
+          "WIN": 3
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.16666666666666666,
+          "high": 0.8333333333333334,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-E0-MIXED-K6",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "states": {
+          "WIN": 3,
+          "LOSS": 3
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.16666666666666666,
+          "high": 0.8333333333333334,
+          "games": 6,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E0::WR_TE::MIXED::TOP_10",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 20,
+    "decided": 20,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 20,
+        "wins": 11,
+        "losses": 9,
+        "decided": 20,
+        "rate": 0.55
+      }
+    },
+    "wins": 11,
+    "losses": 9,
+    "decided_rate": 0.55,
+    "unresolved": 0,
+    "states": {
+      "LOSS": 9,
+      "WIN": 11
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 11,
+      "decided": 20,
+      "unresolved_selected": 0,
+      "population_for_bounds": 20,
+      "lower": 0.55,
+      "upper": 0.55,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-E0-MIXED-K10",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 5,
+          "losses": 5,
+          "decided": 10,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 5,
+          "losses": 5,
+          "decided": 10,
+          "rate": 0.5
+        },
+        "states": {
+          "LOSS": 5,
+          "WIN": 5
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.25,
+          "high": 0.875,
+          "games": 8,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-E0-MIXED-K10",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 6,
+          "losses": 4,
+          "decided": 10,
+          "rate": 0.6
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 6,
+          "losses": 4,
+          "decided": 10,
+          "rate": 0.6
+        },
+        "states": {
+          "WIN": 6,
+          "LOSS": 4
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.2222222222222222,
+          "high": 0.9090909090909091,
+          "games": 9,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E0::WR_TE::MIXED::TOP_20",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 40,
+    "decided": 40,
+    "sides": {
+      "OVER": {
+        "selected": 1,
+        "wins": 0,
+        "losses": 1,
+        "decided": 1,
+        "rate": 0.0
+      },
+      "UNDER": {
+        "selected": 39,
+        "wins": 22,
+        "losses": 17,
+        "decided": 39,
+        "rate": 0.5641025641025641
+      }
+    },
+    "wins": 22,
+    "losses": 18,
+    "decided_rate": 0.55,
+    "unresolved": 0,
+    "states": {
+      "LOSS": 18,
+      "WIN": 22
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 22,
+      "decided": 40,
+      "unresolved_selected": 0,
+      "population_for_bounds": 40,
+      "lower": 0.55,
+      "upper": 0.55,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-E0-MIXED-K20",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 20,
+          "wins": 10,
+          "losses": 10,
+          "decided": 20,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 10,
+          "losses": 10,
+          "decided": 20,
+          "rate": 0.5
+        },
+        "states": {
+          "LOSS": 10,
+          "WIN": 10
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.3157894736842105,
+          "high": 0.7,
+          "games": 12,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-E0-MIXED-K20",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 1,
+          "wins": 0,
+          "losses": 1,
+          "decided": 1,
+          "rate": 0.0
+        },
+        "UNDER": {
+          "selected": 19,
+          "wins": 12,
+          "losses": 7,
+          "decided": 19,
+          "rate": 0.631578947368421
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 12,
+          "losses": 8,
+          "decided": 20,
+          "rate": 0.6
+        },
+        "states": {
+          "WIN": 12,
+          "LOSS": 8
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.35294117647058826,
+          "high": 0.7894736842105263,
+          "games": 11,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::WR_TE::MIXED::TOP_6",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 12,
+    "decided": 12,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 12,
+        "wins": 4,
+        "losses": 8,
+        "decided": 12,
+        "rate": 0.3333333333333333
+      }
+    },
+    "wins": 4,
+    "losses": 8,
+    "decided_rate": 0.3333333333333333,
+    "unresolved": 0,
+    "states": {
+      "LOSS": 8,
+      "WIN": 4
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 4,
+      "decided": 12,
+      "unresolved_selected": 0,
+      "population_for_bounds": 12,
+      "lower": 0.3333333333333333,
+      "upper": 0.3333333333333333,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P1-MIXED-K6",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "states": {
+          "LOSS": 3,
+          "WIN": 3
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.16666666666666666,
+          "high": 0.8333333333333334,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P1-MIXED-K6",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 1,
+          "losses": 5,
+          "decided": 6,
+          "rate": 0.16666666666666666
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 1,
+          "losses": 5,
+          "decided": 6,
+          "rate": 0.16666666666666666
+        },
+        "states": {
+          "WIN": 1,
+          "LOSS": 5
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.0,
+          "high": 0.42857142857142855,
+          "games": 4,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::WR_TE::MIXED::TOP_10",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 20,
+    "decided": 19,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 20,
+        "wins": 5,
+        "losses": 14,
+        "decided": 19,
+        "rate": 0.2631578947368421
+      }
+    },
+    "wins": 5,
+    "losses": 14,
+    "decided_rate": 0.2631578947368421,
+    "unresolved": 1,
+    "states": {
+      "LOSS": 14,
+      "WIN": 5,
+      "UNKNOWN_PARTICIPATION": 1
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 5,
+      "decided": 19,
+      "unresolved_selected": 1,
+      "population_for_bounds": 20,
+      "lower": 0.25,
+      "upper": 0.3,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P1-MIXED-K10",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 3,
+          "losses": 6,
+          "decided": 9,
+          "rate": 0.3333333333333333
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 3,
+          "losses": 6,
+          "decided": 9,
+          "rate": 0.3333333333333333
+        },
+        "states": {
+          "LOSS": 6,
+          "WIN": 3,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.1,
+          "high": 0.625,
+          "games": 7,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P1-MIXED-K10",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 2,
+          "losses": 8,
+          "decided": 10,
+          "rate": 0.2
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 2,
+          "losses": 8,
+          "decided": 10,
+          "rate": 0.2
+        },
+        "states": {
+          "WIN": 2,
+          "LOSS": 8
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.0,
+          "high": 0.45568181818181197,
+          "games": 7,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::WR_TE::MIXED::TOP_20",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 40,
+    "decided": 38,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 40,
+        "wins": 18,
+        "losses": 20,
+        "decided": 38,
+        "rate": 0.47368421052631576
+      }
+    },
+    "wins": 18,
+    "losses": 20,
+    "decided_rate": 0.47368421052631576,
+    "unresolved": 2,
+    "states": {
+      "LOSS": 20,
+      "WIN": 18,
+      "UNKNOWN_PARTICIPATION": 2
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 18,
+      "decided": 38,
+      "unresolved_selected": 2,
+      "population_for_bounds": 40,
+      "lower": 0.45,
+      "upper": 0.5,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P1-MIXED-K20",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 20,
+          "wins": 7,
+          "losses": 11,
+          "decided": 18,
+          "rate": 0.3888888888888889
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 7,
+          "losses": 11,
+          "decided": 18,
+          "rate": 0.3888888888888889
+        },
+        "states": {
+          "LOSS": 11,
+          "WIN": 7,
+          "UNKNOWN_PARTICIPATION": 2
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.15789473684210525,
+          "high": 0.631578947368421,
+          "games": 13,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P1-MIXED-K20",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 20,
+          "wins": 11,
+          "losses": 9,
+          "decided": 20,
+          "rate": 0.55
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 11,
+          "losses": 9,
+          "decided": 20,
+          "rate": 0.55
+        },
+        "states": {
+          "WIN": 11,
+          "LOSS": 9
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.35,
+          "high": 0.7333333333333333,
+          "games": 10,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::WR_TE::MIXED::TOP_6",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 12,
+    "decided": 12,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 12,
+        "wins": 4,
+        "losses": 8,
+        "decided": 12,
+        "rate": 0.3333333333333333
+      }
+    },
+    "wins": 4,
+    "losses": 8,
+    "decided_rate": 0.3333333333333333,
+    "unresolved": 0,
+    "states": {
+      "WIN": 4,
+      "LOSS": 8
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 4,
+      "decided": 12,
+      "unresolved_selected": 0,
+      "population_for_bounds": 12,
+      "lower": 0.3333333333333333,
+      "upper": 0.3333333333333333,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P2-MIXED-K6",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 3,
+          "decided": 6,
+          "rate": 0.5
+        },
+        "states": {
+          "WIN": 3,
+          "LOSS": 3
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.16666666666666666,
+          "high": 0.8333333333333334,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P2-MIXED-K6",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 1,
+          "losses": 5,
+          "decided": 6,
+          "rate": 0.16666666666666666
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 1,
+          "losses": 5,
+          "decided": 6,
+          "rate": 0.16666666666666666
+        },
+        "states": {
+          "WIN": 1,
+          "LOSS": 5
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.0,
+          "high": 0.375,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::WR_TE::MIXED::TOP_10",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 20,
+    "decided": 19,
+    "sides": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 20,
+        "wins": 7,
+        "losses": 12,
+        "decided": 19,
+        "rate": 0.3684210526315789
+      }
+    },
+    "wins": 7,
+    "losses": 12,
+    "decided_rate": 0.3684210526315789,
+    "unresolved": 1,
+    "states": {
+      "WIN": 7,
+      "LOSS": 12,
+      "UNKNOWN_PARTICIPATION": 1
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 7,
+      "decided": 19,
+      "unresolved_selected": 1,
+      "population_for_bounds": 20,
+      "lower": 0.35,
+      "upper": 0.4,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P2-MIXED-K10",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 3,
+          "losses": 6,
+          "decided": 9,
+          "rate": 0.3333333333333333
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 3,
+          "losses": 6,
+          "decided": 9,
+          "rate": 0.3333333333333333
+        },
+        "states": {
+          "WIN": 3,
+          "LOSS": 6,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.09090909090909091,
+          "high": 0.6666666666666666,
+          "games": 7,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P2-MIXED-K10",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 10,
+          "wins": 4,
+          "losses": 6,
+          "decided": 10,
+          "rate": 0.4
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 4,
+          "losses": 6,
+          "decided": 10,
+          "rate": 0.4
+        },
+        "states": {
+          "WIN": 4,
+          "LOSS": 6
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.09977272727272729,
+          "high": 0.7272727272727273,
+          "games": 7,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::WR_TE::MIXED::TOP_20",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 40,
+    "decided": 37,
+    "sides": {
+      "OVER": {
+        "selected": 1,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 39,
+        "wins": 18,
+        "losses": 19,
+        "decided": 37,
+        "rate": 0.4864864864864865
+      }
+    },
+    "wins": 18,
+    "losses": 19,
+    "decided_rate": 0.4864864864864865,
+    "unresolved": 3,
+    "states": {
+      "WIN": 18,
+      "LOSS": 19,
+      "UNKNOWN_PARTICIPATION": 3
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 0,
+    "missing_outcome_sensitivity": {
+      "wins": 18,
+      "decided": 37,
+      "unresolved_selected": 3,
+      "population_for_bounds": 40,
+      "lower": 0.45,
+      "upper": 0.525,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P2-MIXED-K20",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 0,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 20,
+          "wins": 8,
+          "losses": 10,
+          "decided": 18,
+          "rate": 0.4444444444444444
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 8,
+          "losses": 10,
+          "decided": 18,
+          "rate": 0.4444444444444444
+        },
+        "states": {
+          "WIN": 8,
+          "LOSS": 10,
+          "UNKNOWN_PARTICIPATION": 2
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.2222222222222222,
+          "high": 0.6842105263157895,
+          "games": 14,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P2-MIXED-K20",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 1,
+          "wins": null,
+          "losses": null,
+          "decided": 0,
+          "rate": null
+        },
+        "UNDER": {
+          "selected": 19,
+          "wins": 10,
+          "losses": 9,
+          "decided": 19,
+          "rate": 0.5263157894736842
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 10,
+          "losses": 9,
+          "decided": 19,
+          "rate": 0.5263157894736842
+        },
+        "states": {
+          "WIN": 10,
+          "LOSS": 9,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 0,
+        "game_cluster_sensitivity95": {
+          "low": 0.3125,
+          "high": 0.7001470588235286,
+          "games": 9,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P3::WR_TE::MIXED::TOP_6",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 12,
+    "decided": 10,
+    "sides": {
+      "OVER": {
+        "selected": 4,
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      "UNDER": {
+        "selected": 8,
+        "wins": 5,
+        "losses": 3,
+        "decided": 8,
+        "rate": 0.625
+      }
+    },
+    "wins": 7,
+    "losses": 3,
+    "decided_rate": 0.7,
+    "unresolved": 2,
+    "states": {
+      "WIN": 7,
+      "LOSS": 3,
+      "UNKNOWN_PARTICIPATION": 2
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 3,
+    "missing_outcome_sensitivity": {
+      "wins": 7,
+      "decided": 10,
+      "unresolved_selected": 2,
+      "population_for_bounds": 12,
+      "lower": 0.5833333333333334,
+      "upper": 0.75,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P3-MIXED-K6",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 2,
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "selected": 4,
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 3,
+          "losses": 2,
+          "decided": 5,
+          "rate": 0.6
+        },
+        "states": {
+          "WIN": 3,
+          "LOSS": 2,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 2,
+        "game_cluster_sensitivity95": {
+          "low": 0.2,
+          "high": 1.0,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P3-MIXED-K6",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 6,
+        "OVER": {
+          "selected": 2,
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "selected": 4,
+          "wins": 3,
+          "losses": 1,
+          "decided": 4,
+          "rate": 0.75
+        },
+        "COMBINED": {
+          "selected": 6,
+          "wins": 4,
+          "losses": 1,
+          "decided": 5,
+          "rate": 0.8
+        },
+        "states": {
+          "LOSS": 1,
+          "WIN": 4,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 1,
+        "game_cluster_sensitivity95": {
+          "low": 0.4,
+          "high": 1.0,
+          "games": 5,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P3::WR_TE::MIXED::TOP_10",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 20,
+    "decided": 18,
+    "sides": {
+      "OVER": {
+        "selected": 4,
+        "wins": 2,
+        "losses": 0,
+        "decided": 2,
+        "rate": 1.0
+      },
+      "UNDER": {
+        "selected": 16,
+        "wins": 10,
+        "losses": 6,
+        "decided": 16,
+        "rate": 0.625
+      }
+    },
+    "wins": 12,
+    "losses": 6,
+    "decided_rate": 0.6666666666666666,
+    "unresolved": 2,
+    "states": {
+      "WIN": 12,
+      "LOSS": 6,
+      "UNKNOWN_PARTICIPATION": 2
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 3,
+    "missing_outcome_sensitivity": {
+      "wins": 12,
+      "decided": 18,
+      "unresolved_selected": 2,
+      "population_for_bounds": 20,
+      "lower": 0.6,
+      "upper": 0.7,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P3-MIXED-K10",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 2,
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "selected": 8,
+          "wins": 4,
+          "losses": 4,
+          "decided": 8,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 5,
+          "losses": 4,
+          "decided": 9,
+          "rate": 0.5555555555555556
+        },
+        "states": {
+          "WIN": 5,
+          "LOSS": 4,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 2,
+        "game_cluster_sensitivity95": {
+          "low": 0.25,
+          "high": 0.875,
+          "games": 8,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P3-MIXED-K10",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 10,
+        "OVER": {
+          "selected": 2,
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "selected": 8,
+          "wins": 6,
+          "losses": 2,
+          "decided": 8,
+          "rate": 0.75
+        },
+        "COMBINED": {
+          "selected": 10,
+          "wins": 7,
+          "losses": 2,
+          "decided": 9,
+          "rate": 0.7777777777777778
+        },
+        "states": {
+          "LOSS": 2,
+          "WIN": 7,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 1,
+        "game_cluster_sensitivity95": {
+          "low": 0.4,
+          "high": 1.0,
+          "games": 6,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  },
+  {
+    "preexisting_policy": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P3::WR_TE::MIXED::TOP_20",
+    "scope": "Retained two-week within-reception ranking, not cross-category TopPicks or an admitted90selector",
+    "weeks": [
+      2,
+      3
+    ],
+    "season": 2026,
+    "eligible_candidates": 278,
+    "selected": 40,
+    "decided": 36,
+    "sides": {
+      "OVER": {
+        "selected": 11,
+        "wins": 3,
+        "losses": 4,
+        "decided": 7,
+        "rate": 0.42857142857142855
+      },
+      "UNDER": {
+        "selected": 29,
+        "wins": 14,
+        "losses": 15,
+        "decided": 29,
+        "rate": 0.4827586206896552
+      }
+    },
+    "wins": 17,
+    "losses": 19,
+    "decided_rate": 0.4722222222222222,
+    "unresolved": 4,
+    "states": {
+      "WIN": 17,
+      "LOSS": 19,
+      "UNKNOWN_PARTICIPATION": 4
+    },
+    "technical_unavailability_reported_in_ranking_receipt": 0,
+    "technical_unavailability_limit": "These ranking diagnostics do not certify absent source offers or unknown pregame universe as zero unavailability",
+    "fallback_selected": 3,
+    "missing_outcome_sensitivity": {
+      "wins": 17,
+      "decided": 36,
+      "unresolved_selected": 4,
+      "population_for_bounds": 40,
+      "lower": 0.425,
+      "upper": 0.525,
+      "meaning": "All unresolved lose to all unresolved win; not grades, probability, confidence interval or imputation"
+    },
+    "weekly_frozen_receipts": [
+      {
+        "id": "WR_TE-W2-P3-MIXED-K20",
+        "week": 2,
+        "candidate_eligible": 136,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 7,
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5
+        },
+        "UNDER": {
+          "selected": 13,
+          "wins": 5,
+          "losses": 8,
+          "decided": 13,
+          "rate": 0.38461538461538464
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 7,
+          "losses": 10,
+          "decided": 17,
+          "rate": 0.4117647058823529
+        },
+        "states": {
+          "WIN": 7,
+          "LOSS": 10,
+          "UNKNOWN_PARTICIPATION": 3
+        },
+        "fallback_selected": 2,
+        "game_cluster_sensitivity95": {
+          "low": 0.21047149122807016,
+          "high": 0.6875,
+          "games": 12,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      },
+      {
+        "id": "WR_TE-W3-P3-MIXED-K20",
+        "week": 3,
+        "candidate_eligible": 142,
+        "selected_count": 20,
+        "OVER": {
+          "selected": 4,
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333
+        },
+        "UNDER": {
+          "selected": 16,
+          "wins": 9,
+          "losses": 7,
+          "decided": 16,
+          "rate": 0.5625
+        },
+        "COMBINED": {
+          "selected": 20,
+          "wins": 10,
+          "losses": 9,
+          "decided": 19,
+          "rate": 0.5263157894736842
+        },
+        "states": {
+          "LOSS": 9,
+          "WIN": 10,
+          "UNKNOWN_PARTICIPATION": 1
+        },
+        "fallback_selected": 1,
+        "game_cluster_sensitivity95": {
+          "low": 0.25,
+          "high": 0.7368421052631579,
+          "games": 10,
+          "week_count": 1,
+          "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+        }
+      }
+    ],
+    "evidence": "EXPLORATORY_LAST_RECORDED_LINE_RANKING_DIAGNOSTIC;NO_SIMULTANEOUS_BOARD_OR_AVAILABLE_TICKET",
+    "ordinary_mainline_qualified": false,
+    "source_qualification_limit": "NativePinnacle last-recorded lines; main/alternate tier and simultaneous pregameboard/quote availability unverified",
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "controls": "All E0/P1/P2/P3 arms at sameK retained; different selected memberships are not same-case paired superiority. BroadP1/P2 laws149/150 of255,Brier.279560/.280738; AlwaysUnder on broadmask is separate. No subset constantcontrol invented."
+  }
+]

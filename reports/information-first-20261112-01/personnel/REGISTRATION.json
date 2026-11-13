@@ -1,0 +1,49 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-REGISTRATION-v1",
+  "assignment": "ABC-INFORMATION-FIRST-20261112-01",
+  "owner": "Session C receiving/personnel source qualification",
+  "registered_UTC": "2026-11-12T23:33:11.991821+00:00",
+  "source_path": "sources/current-personnel-information-first-20261112-was-nyg",
+  "report_path": "reports/information-first-20261112-01/personnel",
+  "budget": {
+    "public_reads_max": 6,
+    "response_bytes_max": 4194304,
+    "retained_bytes_max": 1048576,
+    "CPU_seconds_max": 90,
+    "memory_bytes_max": 1073741824,
+    "fits": 0,
+    "forecast_rows": 0,
+    "offer_rows": 0
+  },
+  "source_plan": [
+    "Inspect existing known-season/weekly roster and injury source contracts first",
+    "Refresh exact nativeevent401873052 scoreboard state",
+    "One current native event-detail response; inspect actual schema for eventbound complete rosters/inactives",
+    "Only exact referenced team-roster components if actual response provides relevant refs and source meaning supports them",
+    "At most one predeclared later native status observation after23:50UTC when root triggers safe checkpoint; no wait/poll/schedule",
+    "Use current prior20row injurycapturefafb891 only as original observedfacts, never relabel it a new forecast"
+  ],
+  "event": {
+    "game_id": "2026_10_WAS_NYG",
+    "native_event_id": "401873052",
+    "kickoff_discovery_UTC": "2026-11-13T01:15:00+00:00",
+    "must_verify_now": true
+  },
+  "readiness_gates": [
+    "Complete eventeffective teammate universe cannot be inferred from known-season/weeklabel/injury subset",
+    "Source designation, activeflag, inactives and expectedrole mean different things; preserve unknowns",
+    "Absent injuryrow/null\u2260healthy/active/starter/DNP/zero",
+    "No future or targetstats for roster membership",
+    "Historical predecision status/rosters remain SOURCE_BLOCKED",
+    "B sole FTN sourceowner; no FTN requests"
+  ],
+  "rights": "Existing C permitted ordinary minimal roster/status/nativeeventfacts route; no names, biographies, articles, injury descriptions, images, offeredlines or media retained. Hold unqualified source semantics outside admitted schema.",
+  "persistence": "Root owns immutableCcommit/serverclock/readback before actual kickoff. Local capture is not that receipt. All first source files immutable after freezing.",
+  "later_observation": {
+    "maximum": 1,
+    "not_before_UTC": "2026-11-12T23:50:00+00:00",
+    "trigger": "Root safe-checkpoint call while independent work proceeds",
+    "scope": "Same nativeevent status/roster summary only if actual firstresponse establishes relevant component; no polling or sleep"
+  },
+  "no_model_permission": "No new fit/inference absent subsequent sourceadmission and finite fitbudget. A CountA/production tasks continue independently."
+}

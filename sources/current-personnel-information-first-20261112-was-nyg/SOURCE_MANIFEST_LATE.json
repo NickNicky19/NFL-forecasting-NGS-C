@@ -1,0 +1,73 @@
+{
+  "schema": "C-INFORMATION-FIRST-PERSONNEL-SINGLE-LATER-SNAPSHOT-v1",
+  "source_only_issue_UTC": "2026-11-12T23:51:18.528094+00:00",
+  "snapshot_id": "C-INFORMATION-FIRST-WASNYG-LATE-20261112-01",
+  "event_id": "401873052",
+  "game_id": "2026_10_WAS_NYG",
+  "source": {
+    "id": "NATIVE_EVENT_DETAIL_SINGLE_LATER_OBSERVATION",
+    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+    "started_UTC": "2026-11-12T23:50:21.201852+00:00",
+    "observed_UTC": "2026-11-12T23:50:21.504016+00:00",
+    "HTTP_status": 200,
+    "bytes": 118211,
+    "SHA256": "986c1b2c9e565ce5fe9fe3e5ef38b1f8d39ead4f93124e9d93705996551dc1d2",
+    "headers": {
+      "Date": "Thu, 12 Nov 2026 23:50:21 GMT",
+      "Age": null,
+      "Last-Modified": null,
+      "ETag": null,
+      "Content-Length": null,
+      "Cache-Control": "max-age=4"
+    },
+    "final_host": "site.api.espn.com",
+    "raw_retention": "Temporary memory only; no names/news/media/odds/articles retained",
+    "source_reads_cumulative": 3,
+    "later_read_limit_used": 1,
+    "CPU_seconds": 0.152696,
+    "max_RSS_KiB": 44112
+  },
+  "retained_files": [
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/LATE_EVENT_STATUS.json",
+      "bytes": 514,
+      "SHA256": "518286c117331de5ad5e1077f9c5d0214642b40fdd4504fe8b0f35d3ccbe5409"
+    },
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/LATE_EVENT_ROSTER_STRUCTURE.json",
+      "bytes": 706,
+      "SHA256": "8c4106e825a33b50d31fde636547716c28c391c45e5ec2367c58e150d7b8e0fb"
+    }
+  ],
+  "observed_result": {
+    "event_state": "pre",
+    "completed": false,
+    "kickoff_UTC": "2026-11-13T01:15Z",
+    "roster_blocks": 0,
+    "candidate_rows": 0,
+    "player_box_blocks": 0,
+    "inactive_component_present": false
+  },
+  "qualification": "SOURCE_BLOCKED_FOR_COMPLETE_EVENT_EFFECTIVE_TEAMMATE_UNIVERSE_IN_THIS_INSPECTED_SOURCE",
+  "provider_meaning_limits": [
+    "No roster or inactive component was supplied by the queried nativeevent detail; do not conclude none exists elsewhere",
+    "Source absence is not healthy/active/starter/DNP or zero",
+    "Currentknownseason/weeklyroster and earlierinjury subset cannot replace missing eventeffective complete membership",
+    "No expectedrole/playerprobability was inferred from providerflags or eventualstatistics"
+  ],
+  "unallocated_other_bucket": {
+    "id": "UNRESOLVED_TEAMMATES_AND_OTHER_ALLOCATION",
+    "count": null,
+    "state": "UNKNOWN_NOT_ZERO"
+  },
+  "historical_receiving_personnel": "SOURCE_BLOCKED_UNCHANGED",
+  "persistence": "Local sourcefacts captured; root must separately bind immutable commit/serverclock/readback before actualkickoff. No update to firstobservations or original20rowpersonnelsnapshot.",
+  "source_reads_cumulative": 3,
+  "later_read_limit_used": 1,
+  "collection_state": "CLOSED_NO_MORE_REQUESTS_IN_THIS_FINITE_PACKAGE",
+  "fits": 0,
+  "forecast_rows": 0,
+  "actual_offer_rows": 0,
+  "selected_picks": 0,
+  "rights": "Existing permitted C minimal nativeevent/schemafacts; full response temporarymemory only; names/news/media/biographies/injury narratives/odds not retained."
+}

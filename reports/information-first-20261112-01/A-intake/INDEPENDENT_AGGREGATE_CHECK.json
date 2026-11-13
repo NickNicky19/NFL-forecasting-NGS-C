@@ -1,0 +1,197 @@
+{
+  "id": "C-A-HISTORICAL-INDEPENDENT-ARITHMETIC-INTAKE-v1",
+  "checked_UTC": "2026-11-12T23:37:37.102408+00:00",
+  "raw_source_registrations_read": false,
+  "raw_private_rows_models_archive_paths_retained": false,
+  "exact_upstream_envelope_and_decoded_hashes_verified": 3,
+  "all_numeric_leaf_values_and_adverse_results_preserved": true,
+  "own_side_summary_triads_checked": 528,
+  "empty_side_NA_not_zero_rate": 407,
+  "normalized_aggregate_records": 528,
+  "source_period_checks": [
+    {
+      "kind": "pass_cmp",
+      "season": 2024,
+      "requested_W1_W8_actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "full_requested_actual_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "partial": false,
+      "rows_eligible": 465,
+      "games": 259,
+      "summary_records": 224,
+      "paired_controls": 26,
+      "source_policy": "Unchanged historical_market_comparison.pair_and_canonicalize([68,69,79]) then primary_offers; earliest collector snapshot perbook andfixed bookpriority; source clocks naive/unverified",
+      "original_source_limit": "2024HGB e4f325 permittedsource allphase training differs from accepted2026REG375dc79; no source-equivalence or model-fit parity claimed. No fit/inference/model loading in this run.",
+      "procedure_bindings": {
+        "CATBOOST": {
+          "REG": true,
+          "model_sha256": "581e37d8cafc6f78e970650d4cca02434d95773f3c1219b7fe257dd22353f41e",
+          "output": "conditional_mean_objective_point",
+          "recipe": "mediumPoisson128_depth5_seed1753",
+          "training_seasons": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ]
+        },
+        "HGB": {
+          "manifest_sha256": "c46d371696da0a8c124defeebb4cf5cdbc3c856cd057e556b2dfa4e0100e63f6",
+          "model_sha256": "a425360d5110530f61992bf1523ba635c2e522bb11d99e4190e3ef2bf10f3900",
+          "original_allphase": true,
+          "output": "MAE_objective_point_heuristic",
+          "recipe": "absolute_error150_depth3_seed1702",
+          "training_seasons": [
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ]
+        }
+      },
+      "exact_incumbent": "UNAVAILABLE_ON_THIS_HISTORICAL_BOARD; no replacement-superiority claim",
+      "probability": "N/A: no probabilities inferred from points; CDF mean/median used only as typed numerical controls",
+      "source_version_privatefit_and_row_verification": "Owner-local reported scope only; Cverified aggregate arithmetic, not privatehistories/labels/quotes or originalmodel fits.",
+      "new_C_fits": 0,
+      "new_owner_fits_in_this_saved_point_replay": 0
+    },
+    {
+      "kind": "rush_att",
+      "period": "2024W1-W18",
+      "periods_not_additive": [
+        "2024_W1_8",
+        "2024_FULL_REG"
+      ],
+      "records": 38,
+      "paired_controls": 24,
+      "model_family": "BackfieldCDF annual2024",
+      "training_years": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "new_fit_count_as_owner_reported": 1,
+      "new_C_fits": 0,
+      "source_policy": "Offer-derived mixedQB/RB/TE/WR universe; actual namedsource lines as owner reported; historical quote/simultaneousboard clocks unverified",
+      "Top6": "Exactlawprobabilityrank; not mean-gapTop6; selectedlists not authentic issuedtickets",
+      "fiveweek": "18scored2024weeks meet durationonly for this exact retrospectiveproduct/population, not current2026 primary/current-input parity",
+      "fullraw_and_privatefit_verification": "NOT_PERFORMED_BY_C",
+      "role_counts_full": {
+        "QB": 409,
+        "RB": 725,
+        "TE": 4,
+        "WR": 2
+      }
+    },
+    {
+      "kind": "pass_cmp",
+      "season": 2023,
+      "requested_W1_W8_actual_weeks": [
+        6,
+        7,
+        8
+      ],
+      "full_requested_actual_weeks": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "partial": true,
+      "rows_eligible": 226,
+      "games": 142,
+      "summary_records": 224,
+      "paired_controls": 26,
+      "source_policy": "Unchanged historical_market_comparison.pair_and_canonicalize([68,69,79]) then primary_offers; earliest collector snapshot perbook andfixed bookpriority; source clocks naive/unverified",
+      "original_source_limit": "2023HGB e4f325 permittedsource allphase training differs from accepted2026REG375dc79; no source-equivalence or model-fit parity claimed. No fit/inference/model loading in this run.",
+      "procedure_bindings": {
+        "CATBOOST": {
+          "REG": true,
+          "model_sha256": "595139ac48eb0ef6651fe09cb8deae56290ddd62b6b854a3fab594e63f19761a",
+          "output": "conditional_mean_objective_point",
+          "recipe": "mediumPoisson128_depth5_seed1753",
+          "training_seasons": [
+            2019,
+            2020,
+            2021,
+            2022
+          ]
+        },
+        "HGB": {
+          "manifest_sha256": "79a57efe2e52ddf85a85f4670ed9c090b95afc6cc8adcaadf82cc6de16105618",
+          "model_sha256": "2c46300ffca0e54cb7289a4960eca58c14b41f590e1b76327267f60245c02459",
+          "original_allphase": true,
+          "output": "MAE_objective_point_heuristic",
+          "recipe": "absolute_error150_depth3_seed1702",
+          "training_seasons": [
+            2019,
+            2020,
+            2021,
+            2022
+          ]
+        }
+      },
+      "exact_incumbent": "UNAVAILABLE_ON_THIS_HISTORICAL_BOARD; no replacement-superiority claim",
+      "probability": "N/A: no probabilities inferred from points; CDF mean/median used only as typed numerical controls",
+      "source_version_privatefit_and_row_verification": "Owner-local reported scope only; Cverified aggregate arithmetic, not privatehistories/labels/quotes or originalmodel fits.",
+      "new_C_fits": 0,
+      "new_owner_fits_in_this_saved_point_replay": 0
+    }
+  ],
+  "actual_new_2026_weeks": [],
+  "new_original_NFL_observations_or_authentic_selections": 0,
+  "new_C_fits_inference_regrade": 0,
+  "source_qualification": "Owner-bound actual named-book threshold diagnostics with historicalquote/source availability uncertainty; publicaggregate rights only. No syntheticthreshold substitution admitted.",
+  "C_admission": "RECEIVED_AND_AGGREGATE_ARITHMETIC_ADMITTED;notprivate-row,model-fit,vintage,settlement,Top6membershiporcurrentoperationalparity",
+  "no_A_B_union": true,
+  "no_90percent_claim": true,
+  "B_independent_review_for_these_new_A_panels": "NOT_RECEIVED; olderBcontrolreceipts retain original narrower scope",
+  "comparability": "2024HGB original all-phase origins differ from accepted2026REG375dc79. Annual2024Backfield training2019-2023 and mixedrole scope are not2026RB-only. CountAlegacy_point remainslegacy; not correctedf860mean.",
+  "fiveweek_floor": "Existing compatible testweeks maycount; 18historicalduration does not authenticate quotes, reproduce privatefits, qualify anotheroutput/policy, or prove a currentfeed.",
+  "binding_manifest": "SOURCE_PROJECTION_BINDINGS.json",
+  "candidate_Top6_weekly_rows_reconciled": 26,
+  "zero_decided_records_not_tests": 81,
+  "returned_content_bytes": 178562,
+  "successful_GitHub_reads": 7,
+  "connector_client_argument_rejections_before_GitHub": 1
+}

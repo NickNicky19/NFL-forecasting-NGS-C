@@ -1,0 +1,145 @@
+{
+  "id": "C-B-FTN-PRIOR-USE-RECONCILIATION-v1",
+  "at_UTC": "2026-11-12T23:42:29.930956+00:00",
+  "purpose": "Reuse completed recipes and source handoff before B specifies its distinct information-first comparison. No source download, refit, inference or source re-audit.",
+  "owner": "B source qualification/QB-catchability fits; C receives shared source/aggregate evidence only",
+  "retained_C_source": {
+    "archive": {
+      "path": "reports/player-context-matchup-01/SOURCE_METADATA.zip",
+      "bytes": 36663,
+      "SHA256": "4f7d9a41b52934a4035714ad740271d9bae6925b5df0c61bb712f5d67ba179cd"
+    },
+    "member": "reports/player-context-matchup-01/FTN_INVENTORY.json",
+    "member_bytes": 21205,
+    "member_SHA256": "804b0b4ebe09be23091b36145b86d491fef50febcc8ea164d75c709c474916fc",
+    "license": "CC BY-SA4.0",
+    "attribution": "FTN Data via nflverse; FTNData.com",
+    "sources": [
+      {
+        "year": 2025,
+        "rows": 47316,
+        "projection_bytes": 446006,
+        "projection_path_at_inventory": "sources/player-context-matchup-01/ftn_charting_2025.csv.gz",
+        "original_decoded_projection_SHA256": "e8ca98fdfe6fc45e477d0ad57c5ee79ac6dc7a21ee840b02d172431d400d6868",
+        "columns": [
+          "ftn_game_id",
+          "nflverse_game_id",
+          "season",
+          "week",
+          "ftn_play_id",
+          "nflverse_play_id",
+          "starting_hash",
+          "qb_location",
+          "n_offense_backfield",
+          "n_defense_box",
+          "is_no_huddle",
+          "is_motion",
+          "is_play_action",
+          "is_screen_pass",
+          "is_rpo",
+          "is_trick_play",
+          "is_qb_out_of_pocket",
+          "is_interception_worthy",
+          "is_throw_away",
+          "read_thrown",
+          "is_catchable_ball",
+          "is_contested_ball",
+          "is_created_reception",
+          "is_drop",
+          "is_qb_sneak",
+          "n_blitzers",
+          "n_pass_rushers",
+          "is_qb_fault_sack",
+          "date_pulled"
+        ],
+        "column_count": 29
+      },
+      {
+        "year": 2026,
+        "rows": 20723,
+        "projection_bytes": 193835,
+        "projection_path_at_inventory": "sources/player-context-matchup-01/ftn_charting_2026.csv.gz",
+        "original_decoded_projection_SHA256": "d0a7795c7929dcaf0bad1249f53598868413cab046fec32f759e8b529873de1b",
+        "columns": [
+          "ftn_game_id",
+          "nflverse_game_id",
+          "season",
+          "week",
+          "ftn_play_id",
+          "nflverse_play_id",
+          "starting_hash",
+          "qb_location",
+          "n_offense_backfield",
+          "n_defense_box",
+          "is_no_huddle",
+          "is_motion",
+          "is_play_action",
+          "is_screen_pass",
+          "is_rpo",
+          "is_trick_play",
+          "is_qb_out_of_pocket",
+          "is_interception_worthy",
+          "is_throw_away",
+          "read_thrown",
+          "is_catchable_ball",
+          "is_contested_ball",
+          "is_created_reception",
+          "is_drop",
+          "is_qb_sneak",
+          "n_blitzers",
+          "n_pass_rushers",
+          "is_qb_fault_sack",
+          "date_pulled"
+        ],
+        "column_count": 29
+      }
+    ],
+    "availability": "Documented charting within48h, actual current downloads/revisions pinned; historical timing remains reconstructed not authenticated",
+    "timing_limit": "date_pulled/retrieval/current revisions do not authenticate original historical publication. FTN charting and participation are different contracts; no alignment/all-route denominator supplied."
+  },
+  "existing_C_independent_review": {
+    "receipt": {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.json",
+      "bytes": 7432,
+      "SHA256": "5ab3434e54cf4ab5b4d1108d1b36be0e7745a56071bb944b42ca0f7738a2c3bd"
+    },
+    "report": {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.md",
+      "bytes": 7428,
+      "SHA256": "34807593773abbfdc441799db46d60c81b12e643935d1558f8d344683eed1ed3"
+    },
+    "raw_calculation_receipt": {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_CALCULATION_CHECKS.json",
+      "bytes": 17582,
+      "SHA256": "0bc45d901655562c00a40c4409a0c24a7467e9851550ed2b9321eb29ac8c2edd"
+    },
+    "scope": "Prior C independently reconstructed939matchingQB-game PBP vectors and929FTN thrower-game positive/known aggregates,894qualifiedQB. Reused existing result; no rerun. Current/revised source vintage, not authentic original clocks."
+  },
+  "completed_recipes": [
+    {
+      "producer_ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "recipe": "B qb-charting-wave-v1 F1/F2",
+      "actually_consumed": "F1 own support/age; F2 additional earlier aggregate catchability/drop/contested-rate priors. Missing annotations not false; positive/known denominators separate from known/eligible official throws. Not depth-specific catchability conversion.",
+      "code_sha256": "1b8469509a3a41c0f62ba2e19a677f09e5ba1d3791bbf891a1cd7e30662155e0",
+      "source_scope_receipt": {
+        "path": "reports/information-first-20261112-01/B-intake/FTN_PRIOR_SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+        "bytes": 1186,
+        "SHA256": "ab00862021238cc48227b0585ffdc1854ae81ec42e3f344605e06c7e58de89d5"
+      },
+      "result_as_bound_in_latest_index": "FTN F2 direction54/112 tiesE1;52extensionfits preserved. Full completionE3 58/112 ties savedadjusted/AlwaysOver58, loses earlierprevalence59. AllnewthresholdBriers worse thanneutral. Four2026offerweeks5\u20138.",
+      "old_negative_remains_closed": true
+    },
+    {
+      "recipe": "B-QB-SOURCE-DEPTH-ROLE-INCREMENT-v1",
+      "admitted_C_receipt": {
+        "path": "reports/interception-history-closure-01/B-intake/ADMISSION.json",
+        "bytes": 7008,
+        "SHA256": "c6be120b1af351592281c9b5bd51469930ae9ed5e6eb485d7d2c56bcfb2e1c18"
+      },
+      "result": "LawS0/S1/S2=59/52/57wins of112;mean61/53/53. Broad numerical MAE5.7691585\u21925.3358556 on277/eightweeks;offered5.2869722\u21925.2316115 with savedadjusted4.811875 stronger. Keep numericshadow separate from lost direction andBrierS2.265305>neutral.25."
+    }
+  ],
+  "current_new_package_status": "NOT_LOCATED_IN_BOUND_PUBLISHED_INDEX_AT_10846;NOT_A_CLAIM_OF_NO_ACTIVE_OR_UNSHARED_B_WORK",
+  "required_B_action": "Publish/reuse precise prior-use matrix and newB0/B1/B2 source/field/timing/learner/label/selection/output bindings. Declare distinct qualified information versus completed aggregate/depth-conversion recipes before any repeat fit. C does not assign a competing collector or fit.",
+  "original_ownership_and_rights_unchanged": true
+}
