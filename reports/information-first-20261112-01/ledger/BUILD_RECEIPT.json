@@ -1,0 +1,106 @@
+{
+  "id": "C-COMMON-COVERAGE-LEDGER-V2-20261112-v1",
+  "completed_UTC": "2026-11-12T23:47:38.849967+00:00",
+  "builder_SHA256": "05fb97b60c0390bec166cfce7b85d7959cd266be81d09e5d9729555822aad1a4",
+  "inputs": [
+    {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE.csv.gz",
+      "bytes": 1929137,
+      "SHA256": "594df8f6fcf4c370b4792fff6fa0508f87480ee969919c45256ad469e3ec4615"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/NORMALIZED_HISTORICAL_CONTROL_ROWS.json.gz",
+      "bytes": 43094,
+      "SHA256": "031d0f686639b38ab8289e0606bcdc460f313cd58c545849827a275e4a2b6a6c"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "bytes": 37492,
+      "SHA256": "55cccc63055058f533ca9df2585d90b2ebaae38204d61b14171925c2ef161ca7"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/ADMISSION.json",
+      "bytes": 12268,
+      "SHA256": "2b7e9be61ca0268faa479ea421ea731e0c6b9463718f3356d585dde45ce50afc"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "bytes": 23733,
+      "SHA256": "a155b22fe0ab8a29d7259ffa1063c5e9eebd4bed8280c4fb517888874419f71c"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/A_INTAKE_RECEIPT.json",
+      "bytes": 10720,
+      "SHA256": "ba32e7cbee29f6b7532a2ad9addb464e6761e0c74653e0cb12ea4666d814bb6d"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/SOURCE_PROJECTION_BINDINGS.json",
+      "bytes": 3547,
+      "SHA256": "0fdd13ba0f5ea9377637127c45540acd5bf4bb0c248e919be4c40fff0de5d957"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/COMPLETION_2023_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+      "bytes": 23158,
+      "SHA256": "63f2a1e0790cb614003ca6e74fcd235c08ecaf7c4b096585047c340fe487e324"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/COMPLETION_2024_AGGREGATES_V1_PERMITTED_PROJECTION.json.gz",
+      "bytes": 30348,
+      "SHA256": "d8f8d805c198414dda0463d12787f1bfde3352507a7d1ddee7c1ae26b4672033"
+    },
+    {
+      "path": "reports/information-first-20261112-01/A-intake/RUSH_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+      "bytes": 7892,
+      "SHA256": "2fadebdf550ccf06b47b34241c82db9958a1b7505658eeea9e314ecb7be32fde"
+    }
+  ],
+  "output": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V2.csv.gz",
+    "bytes": 2082828,
+    "SHA256": "2e79419d282ffd93cc2d3075e20842ea80c982c2b97fd844cdfabdb5a87cd949"
+  },
+  "prior_rows": 31527,
+  "old_decoded_csv_prefix_exact": true,
+  "old_fields_exact": true,
+  "appended_B_complete_triads": 48,
+  "B_source_side_views_preserved": 144,
+  "appended_A_complete_views": 528,
+  "total_rows": 32103,
+  "unique_complete_entry_ids": 32103,
+  "A_zero_decided_not_tests": 81,
+  "B_zero_decided_not_tests": 9,
+  "added_seasons_by_owner": {
+    "A": [
+      2023,
+      2024
+    ],
+    "B": [
+      2026
+    ]
+  },
+  "B_actual_windows": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "new_2026_evaluation_weeks": 0,
+  "new_original_NFL_games": 0,
+  "new_grader_calls": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "network_reads": 0,
+  "private_row_parity": false,
+  "unmatched_A_B_pooled_or_ranked": false,
+  "qualification": "PUBLIC_OWNER_AGGREGATE_ARITHMETIC_AND_EXACT_SOURCE_BINDINGS_ONLY",
+  "CPU_seconds": 6.268047043,
+  "wall_seconds": 6.300976755999727,
+  "peak_RSS_bytes": 609685504,
+  "readback": {
+    "source_count_fields_checked": 6912,
+    "all_side_rates_reconciled": true,
+    "complete_entry_hashes_checked": 576,
+    "no_empty_side_rate_filled": true
+  }
+}

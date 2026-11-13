@@ -1,0 +1,234 @@
+{
+  "id": "C-INFORMATION-FIRST-B-RECEIPT-INDEPENDENT-v1",
+  "checked_UTC": "2026-11-12T23:41:08.755793+00:00",
+  "status": "PASS_RECEIVED_INT_MEASUREMENT_PUBLIC_ARITHMETIC;NEW_FTN_RECEIPT_NOT_LOCATED",
+  "research_ref": "10846a2781685f3c1a2cb045d3c887864f32bda7",
+  "index_UTC": "2026-11-12T21:21:52.543314+00:00",
+  "source_exports": 1506,
+  "source_unique_export_paths": 1476,
+  "exact_received_bindings": [
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "source_path": "reports/interception-evidence-closure-01/B/official-source/OFFICIAL_INTERCEPTION_EVIDENCE_V1.json",
+      "source_ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "bytes": 23733,
+      "SHA256": "a155b22fe0ab8a29d7259ffa1063c5e9eebd4bed8280c4fb517888874419f71c"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/MEASUREMENT_TRANSITIONS_V1.json",
+      "source_path": "reports/interception-evidence-closure-01/B/regrade-v1/MEASUREMENT_TRANSITIONS_V1.json",
+      "source_ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "bytes": 359,
+      "SHA256": "0047b0b4ceb416cfb457e799cdede12fcbf35241a014e931d9e42415eb127428"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "source_path": "reports/interception-evidence-closure-01/B/website-audit/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json",
+      "source_ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "bytes": 37492,
+      "SHA256": "55cccc63055058f533ca9df2585d90b2ebaae38204d61b14171925c2ef161ca7"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "source_path": "reports/interception-evidence-closure-01/B/historical-delivery-review/INDEPENDENT_METHOD_ARITHMETIC_V1.json",
+      "source_ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "bytes": 16993,
+      "SHA256": "8d04c15673779adec693f4e0d747e380ecef0ed7dbd9b0ef77cf85e88c1a31b3"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/B_INTERCEPTION_AND_DELIVERY_CHECKPOINT_V1.md",
+      "source_path": "reports/interception-evidence-closure-01/B/B_INTERCEPTION_AND_DELIVERY_CHECKPOINT_V1.md",
+      "source_ref": "32d401b804a211ea752e68d9d2bbbfc788d27105",
+      "bytes": 15633,
+      "SHA256": "e417bf1282b7368febdeb0a026480af1b3d96c43b9e9816c3405b8ea404e4a47"
+    },
+    {
+      "path": "/workspace/ngs-c/reports/information-first-20261112-01/B-intake/FTN_PRIOR_SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+      "source_path": "reports/player-context-matchup-01/B/qb-charting-wave-v1/SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+      "source_ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "bytes": 1186,
+      "SHA256": "ab00862021238cc48227b0585ffdc1854ae81ec42e3f344605e06c7e58de89d5"
+    }
+  ],
+  "aggregate_rows_checked": 144,
+  "O_U_Combined_triads_checked": 48,
+  "original_and_corrected_records": {
+    "CURRENT_PUBLISHED_PRESENCE_V5": {
+      "OVER": {
+        "selected": 65,
+        "wins": 33,
+        "losses": 0,
+        "decided": 33,
+        "unknown": 32,
+        "rate": 1.0
+      },
+      "UNDER": {
+        "selected": 21,
+        "wins": 0,
+        "losses": 7,
+        "decided": 7,
+        "unknown": 14,
+        "rate": 0.0
+      },
+      "COMBINED": {
+        "selected": 86,
+        "wins": 33,
+        "losses": 7,
+        "decided": 40,
+        "unknown": 46,
+        "rate": 0.825
+      }
+    },
+    "CORRECTED_CURRENT_FINAL_LABELS": {
+      "OVER": {
+        "selected": 65,
+        "wins": 33,
+        "losses": 32,
+        "decided": 65,
+        "unknown": 0,
+        "rate": 0.5076923076923077
+      },
+      "UNDER": {
+        "selected": 21,
+        "wins": 14,
+        "losses": 7,
+        "decided": 21,
+        "unknown": 0,
+        "rate": 0.6666666666666666
+      },
+      "COMBINED": {
+        "selected": 86,
+        "wins": 47,
+        "losses": 39,
+        "decided": 86,
+        "unknown": 0,
+        "rate": 0.5465116279069767
+      }
+    },
+    "CONSTANT_OVER_ON_SAME86": {
+      "OVER": {
+        "selected": 86,
+        "wins": 40,
+        "losses": 46,
+        "decided": 86,
+        "unknown": 0,
+        "rate": 0.46511627906976744
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "unknown": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 86,
+        "wins": 40,
+        "losses": 46,
+        "decided": 86,
+        "unknown": 0,
+        "rate": 0.46511627906976744
+      }
+    },
+    "CONSTANT_UNDER_ON_SAME86": {
+      "OVER": {
+        "selected": 0,
+        "wins": 0,
+        "losses": 0,
+        "decided": 0,
+        "unknown": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 86,
+        "wins": 46,
+        "losses": 40,
+        "decided": 86,
+        "unknown": 0,
+        "rate": 0.5348837209302325
+      },
+      "COMBINED": {
+        "selected": 86,
+        "wins": 46,
+        "losses": 40,
+        "decided": 86,
+        "unknown": 0,
+        "rate": 0.5348837209302325
+      }
+    }
+  },
+  "transitions": {
+    "WIN -> WIN": 33,
+    "MISSING_ACTUAL -> LOSS": 32,
+    "LOSS -> LOSS": 7,
+    "MISSING_ACTUAL -> WIN": 14
+  },
+  "source_label_qualification_scope": "B actual public independent dual-source final-label receipt received. C checks cohort/label/hash/aggregate consistency, not the private per-player correction map or raw NFLverse/ESPN bodies. Explicit46zeros is B observed evidence, never C participation-based imputation.",
+  "source_selected_mask_SHA256": "c24c54de585dfca9451828f0be9258626919897f06b25db1f8b6305d6c823dad",
+  "source_private_correction_map_SHA256": "15f2b92efacb0c5b901faa4d9ca5ddf740ae733e0895a011129d80c827a7ce8b",
+  "source_board_mask_SHA256": "8eb2c632c6c96f785c8b04f642546127ecf49dab11fd77a7ea6506918515a871",
+  "source_labels_SHA256": "6a787611a0d13757a57d536b7d90f0777e51594b19a0848192ae824e25012a76",
+  "corrected_score_artifact_SHA256": "9a91fbd7b679ba35af26d77fcc752a444261ba62d7b9cd8b7a53f7a082f18c4a",
+  "original_unknown_full_pool_sensitivity": {
+    "pool": 86,
+    "lower": 0.38372093023255816,
+    "upper": 0.9186046511627907,
+    "meaning": "Logical extremes for old46unknowns, not actual accuracy/CI or future confidence. Actual corrected47/86 is separately observed final-label replay."
+  },
+  "same_case_constant_algebra": {
+    "Top6_annual": {
+      "own": [
+        23,
+        7,
+        30
+      ],
+      "always_under": [
+        21,
+        9,
+        30
+      ],
+      "always_over": [
+        9,
+        21,
+        30
+      ]
+    },
+    "CatBoost_HGB": [
+      {
+        "method": "CATBOOST_MEDIUM",
+        "procedure_version": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+        "wins": 52,
+        "decided": 88,
+        "constant_over_same88": 48,
+        "constant_under_same88": 40
+      },
+      {
+        "method": "HGB_MAE_DIRECT",
+        "procedure_version": "80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310",
+        "wins": 52,
+        "decided": 88,
+        "constant_over_same88": 48,
+        "constant_under_same88": 40
+      }
+    ],
+    "limit": "Derived from bound published own-side partitions. Private selected identity/model/feature/clock parity and stronger learned selected controls remain unverified by C."
+  },
+  "book_and_timing": "B report says86DK-labeled stored lines:85at0.5 and1at1.5. Independent provider quote payload, main/alternative classification, quote/decision clocks and venue settlement are not authenticated. Do not call this an authenticated ordinary main-line full board.",
+  "historical_coverage": "Only native stored-side W5-W9 labels in this receipt. Not W1-W4 closure, fullW1-W9 championship, new predictions or a fifth cross-category selector week.",
+  "prior_FTN": {
+    "file": "FTN_PRIOR_SOURCE_DENOMINATOR_AND_CLOCK_SCOPE_V2.json",
+    "scope": "Existing charting quantity/clock correction metadata only. Not new B0/B1/B2 qualification/fit; no FTN dataset/docs collected."
+  },
+  "resources": {
+    "bound_GitHub_reads": 8,
+    "returned_response_bytes": 1749651,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grading": 0,
+    "FTN_source_collection": 0,
+    "peer_writes_messages_workflow_merge": 0,
+    "CPU_seconds": 0.016561527,
+    "peak_RSS_bytes": 14942208
+  }
+}

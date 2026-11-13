@@ -1,0 +1,17 @@
+{
+  "id": "C-COMMON-COVERAGE-LEDGER-V2-20261112-v1",
+  "registered_UTC": "2026-11-12T23:44:16.826363+00:00",
+  "base_commit": "00744b249674b52b6634b47f55f956ab09e278f8",
+  "owner": "C",
+  "scope": "Append independently admitted A/B aggregate views to existing common W1-W9/history ledger; preserve original31527 rows and all fields; no new grader/ranker/inference or football tests.",
+  "budget": {
+    "CPU_seconds_max": 120,
+    "RSS_bytes_max": 1073741824,
+    "network_reads_max": 0,
+    "new_fits_max": 0,
+    "retained_bytes_max": 4194304
+  },
+  "immutable_prior": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE.csv.gz",
+  "versioned_output": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V2.csv.gz",
+  "qualification": "Owner-local aggregate arithmetic admission only; no raw row parity, original-issuance, timing or release qualification inferred."
+}

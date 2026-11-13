@@ -1,0 +1,453 @@
+{
+  "state": "PASS_PUBLIC_AGGREGATE_AND_DECLARED_POLICY_REVIEW",
+  "checks": 42,
+  "check_names": [
+    "CATBOOST_MEDIUMoverdenominator",
+    "CATBOOST_MEDIUMunderdenominator",
+    "CATBOOST_MEDIUMcombineddenominator",
+    "CATBOOST_MEDIUMweighted_wins",
+    "CATBOOST_MEDIUMweighted_losses",
+    "CATBOOST_MEDIUMweighted_decided",
+    "CATBOOST_MEDIUMcombined_rate",
+    "CATBOOST_MEDIUMactual_weeks",
+    "HGB_MAE_DIRECToverdenominator",
+    "HGB_MAE_DIRECTunderdenominator",
+    "HGB_MAE_DIRECTcombineddenominator",
+    "HGB_MAE_DIRECTweighted_wins",
+    "HGB_MAE_DIRECTweighted_losses",
+    "HGB_MAE_DIRECTweighted_decided",
+    "HGB_MAE_DIRECTcombined_rate",
+    "HGB_MAE_DIRECTactual_weeks",
+    "BACKFIELD_CDFoverdenominator",
+    "BACKFIELD_CDFunderdenominator",
+    "BACKFIELD_CDFcombineddenominator",
+    "BACKFIELD_CDFweighted_wins",
+    "BACKFIELD_CDFweighted_losses",
+    "BACKFIELD_CDFweighted_decided",
+    "BACKFIELD_CDFcombined_rate",
+    "BACKFIELD_CDFactual_weeks",
+    "CatBoost_record",
+    "HGB_record",
+    "samecase_constant_over_48",
+    "Cat_HGB_pair_n",
+    "Cat_HGB_pair_win_delta",
+    "Cat_HGB_pair_same_mask",
+    "Cat_HGB_disagreements",
+    "ANNUAL_W1_5overN",
+    "ANNUAL_W1_5underN",
+    "SEPARATE_W6_7_DIAGNOSTICoverN",
+    "SEPARATE_W6_7_DIAGNOSTICunderN",
+    "MIXED_W1_7overN",
+    "MIXED_W1_7underN",
+    "annual_top6_23of30",
+    "mixed_top6_29of42",
+    "W6_W7_each_adverse3of6",
+    "annual_reconciliation_exactkey",
+    "annual_selectedcoverage"
+  ],
+  "retained_CMP_records": [
+    {
+      "category": "pass_cmp",
+      "method": "CATBOOST_MEDIUM",
+      "output": "mean_objective_point",
+      "procedure_version": "8aeaa5083a4dc10d5e19f13cef30bc6607f6f5e1e40582059876583526927da6",
+      "selection_policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+      "role_scope": "[\"QB\"]",
+      "history_rule": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+      "key_sha256": "530e6ee560133398a750840c6da4f9da8ab790c6dfd3779bb8ee578ca5496987",
+      "actual_weeks": "1,2,3,4,5",
+      "eligible_or_opportunities": "88",
+      "over_wins": "25",
+      "over_losses": "13",
+      "over_decided": "38",
+      "under_wins": "27",
+      "under_losses": "23",
+      "under_decided": "50",
+      "combined_wins": "52",
+      "combined_losses": "36",
+      "combined_decided": "88",
+      "combined_rate": "0.5909090909090909",
+      "always_over_own_decided": "48",
+      "always_under_own_decided": "40",
+      "unknown": "0",
+      "unavailable": "0",
+      "abstain": "0",
+      "fallback": "0",
+      "output_support": "SAVED_OUTPUT_EXISTS",
+      "five_week_status": "FIVE_SCORED_W1_W5_BLOCKS_ONLY_NOT_ADMISSION",
+      "source_part": "reports/abc-championship/post-wave-5w-v1/A_FIVE_WEEK_QUALIFICATION_V3__pass_cmp.af984521fe5096b54e786f49271492b18a297c220ac7a620fbea48143a6f4c27.json.gz",
+      "source": "Original RESULTS.zip/recorded_line_point_decisions/FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD"
+    },
+    {
+      "category": "pass_cmp",
+      "method": "HGB_MAE_DIRECT",
+      "output": "mae_objective_point",
+      "procedure_version": "80a9371936a049dfe5b75e458bb55c3f2ff11daf2f0c9e0e6726de0b8cbd6310",
+      "selection_policy": "FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD",
+      "role_scope": "[\"QB\"]",
+      "history_rule": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests.",
+      "key_sha256": "c0fe2d0e1bd5a9724bb63096ed891197c23dbdbae076bf4efb10b93fc9d93541",
+      "actual_weeks": "1,2,3,4,5",
+      "eligible_or_opportunities": "88",
+      "over_wins": "26",
+      "over_losses": "14",
+      "over_decided": "40",
+      "under_wins": "26",
+      "under_losses": "22",
+      "under_decided": "48",
+      "combined_wins": "52",
+      "combined_losses": "36",
+      "combined_decided": "88",
+      "combined_rate": "0.5909090909090909",
+      "always_over_own_decided": "48",
+      "always_under_own_decided": "40",
+      "unknown": "0",
+      "unavailable": "0",
+      "abstain": "0",
+      "fallback": "0",
+      "output_support": "SAVED_OUTPUT_EXISTS",
+      "five_week_status": "FIVE_SCORED_W1_W5_BLOCKS_ONLY_NOT_ADMISSION",
+      "source_part": "reports/abc-championship/post-wave-5w-v1/A_FIVE_WEEK_QUALIFICATION_V3__pass_cmp.af984521fe5096b54e786f49271492b18a297c220ac7a620fbea48143a6f4c27.json.gz",
+      "source": "Original RESULTS.zip/recorded_line_point_decisions/FULL_PRIMARY_ROSTER_INTERSECTION_RECORDED_BOARD"
+    }
+  ],
+  "Top6_exact_key": {
+    "procedure_version": "607c0a1288fd183d4e6de40c1e03851e9c5ed340d226fb2095f472ec7865834a;matched12-frozen-law-outer-v1.1;FOOTBALL",
+    "target": "rush_att",
+    "output": "FOOTBALL",
+    "role_scope": "ORIGINAL_RECORDED_OFFERED_PLAYER_POOL_WITH_ROLE_EXCEPTIONS",
+    "selection_policy": "P2_EXACT_LINE::TOP_6_PER_CATEGORY_WEEK",
+    "history_rule": "Original bound annual/earlier-only procedure; exact per-method code/history retained in original catalog/source manifests."
+  },
+  "Top6_periods": [
+    {
+      "period": "ANNUAL_W1_5",
+      "own_sides": {
+        "over": {
+          "wins": 3,
+          "losses": 1,
+          "decided": 4,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "under": {
+          "wins": 20,
+          "losses": 6,
+          "decided": 26,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        }
+      },
+      "combined": {
+        "wins": 23,
+        "losses": 7,
+        "decided": 30,
+        "unresolved": 0,
+        "DNP": 0,
+        "push": 0
+      },
+      "rate": 0.7666666666666667,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "period": "SEPARATE_W6_7_DIAGNOSTIC",
+      "own_sides": {
+        "over": {
+          "wins": 0,
+          "losses": 1,
+          "decided": 1,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "under": {
+          "wins": 6,
+          "losses": 5,
+          "decided": 11,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        }
+      },
+      "combined": {
+        "wins": 6,
+        "losses": 6,
+        "decided": 12,
+        "unresolved": 0,
+        "DNP": 0,
+        "push": 0
+      },
+      "rate": 0.5,
+      "weeks": [
+        6,
+        7
+      ]
+    },
+    {
+      "period": "MIXED_W1_7",
+      "own_sides": {
+        "over": {
+          "wins": 3,
+          "losses": 2,
+          "decided": 5,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        },
+        "under": {
+          "wins": 26,
+          "losses": 11,
+          "decided": 37,
+          "unresolved": 0,
+          "DNP": 0,
+          "push": 0
+        }
+      },
+      "combined": {
+        "wins": 29,
+        "losses": 13,
+        "decided": 42,
+        "unresolved": 0,
+        "DNP": 0,
+        "push": 0
+      },
+      "rate": 0.6904761904761905,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  ],
+  "newly_added_NFL_weeks": 0,
+  "new_fits": 0,
+  "new_model_inference": 0,
+  "new_NFL_grades": 0,
+  "not_verified": [
+    "private selected player-game membership",
+    "same-selected30 strong-control rows",
+    "raw training features/labels or actual fitted model parity",
+    "original quote/vintage clocks",
+    "new 2026W8-W9 or2022-2025 exact procedure expansion"
+  ],
+  "Top6_schedule_limit": "Inspected source sorts full week by confidence then head6; no chronological decision-batch simulator. Conditional retrospective week ranking, not proof of an executable advance weekly list.",
+  "fallback": "Apply existing A_WEEKLY_COVERAGE_MATRIX_V1 clarification: blank A79 markers UNSPECIFIED, CSVzero alone is not verified nofallback.",
+  "publication_members": [
+    {
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 57011,
+      "sha256": "a62bd565a4b4923dd1d99d1fa6eabc4481b1aad98261d6ea1bb97d0e51386d9a"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/EXECUTED_CATEGORY_DECISIONS_V1.md",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 27358,
+      "sha256": "24b48ea76358800c703e63d52579118c0612755aba295711c5400c47bd5593e1"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_CATEGORY_PRODUCT_CONTRIBUTION_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 94192,
+      "sha256": "524311b0735ca206ce9421ee08c051f4aa4c7ae6db702c4634184dc574c54969"
+    },
+    {
+      "path": "tools/abc_a_historical_leader_pairs_v1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 2958,
+      "sha256": "c3b315fbb256bd0726c970735d98c16f35be74d9c2f7bad08cb30ba12467010a"
+    },
+    {
+      "path": "reports/modern-cdf-control-completion-v1/PUBLIC_RESULTS.md",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 8622,
+      "sha256": "85c82c08e53030c960446e42cfaff1ed801c7433cee204e38fc9f2d66aa379ef"
+    },
+    {
+      "path": "reports/modern-cdf-control-completion-v1/PUBLIC_METRICS.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 475235,
+      "sha256": "10454c2ff679c276e6c62e1cc17c20a3fb273773da20701ba2f4643a64c5020a"
+    },
+    {
+      "path": "nfl_lab/category_topfive_backfield_v1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 8017,
+      "sha256": "d1573acc289d0851b3b9bb55f568f373f328c497af35af910ac6e224003d3fd7"
+    },
+    {
+      "path": "reports/abc-championship/HISTORICAL_LEADER_CONTROL_PAIRS_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 23230,
+      "sha256": "4b325a2b472599dc3a51315bfd27c129183e870aeb8b057a8dcf2efa21492beb"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/LAW_DIRECTION_RECONCILIATION_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 60657,
+      "sha256": "1e982369240307f141d8ab6c266a55407c4deed61f8d2c866f1273777d6d01f1"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_FINITE_REMAINING_QUEUE_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 13357,
+      "sha256": "8b8b1fca2abbf3970d20af94c63ffca61460f0c0586c9a347ca6f9831e8d327e"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_WEEKLY_COVERAGE_MATRIX_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 349040,
+      "sha256": "c86b2901f75f0b266f799a99d8a387ba6148f8597c3393b011295e70537c487d"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_ANNUAL_BOOK_POLICY_METADATA_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 3519,
+      "sha256": "0f902b01e8e6b3e97b67aabed9df7523261a36ed51f607d781df188e13212b7f"
+    },
+    {
+      "path": "tools/category_topfive_matched12_law_outer_v1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 34576,
+      "sha256": "f761c909b34cff9e44edf967ca40c8d6be0e1bf37caf938d6333dc81ba2fffa7"
+    },
+    {
+      "path": "tools/category_topfive_matched12_law_scores_v1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 12714,
+      "sha256": "2a4754b286a81c44a34d389110624de2a5ccbbf155fd4eb6bcb27bda704d2e21"
+    },
+    {
+      "path": "reports/abc-championship/post-wave-5w-v1/A_FIVE_WEEK_QUALIFICATION_V3__rush_att.86af30a7a71f144bb076afe0047ce53a73877ae806f4520f0c616bea1d89a06f.json.gz",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 53684,
+      "sha256": "86af30a7a71f144bb076afe0047ce53a73877ae806f4520f0c616bea1d89a06f"
+    },
+    {
+      "path": "reports/abc-championship/final-mile-producer-delivery-01/ingress-resolution/CURRENT_AUTHENTICATION_BLOCKER_V1.md",
+      "ref": "cc7c82834edb9a0de404c52d28212737994dd759",
+      "bytes": 5963,
+      "sha256": "cdaffa70a01a8ee61c55a2be29f6afdfa795e68ce2c6600aaf84230c853c3055"
+    },
+    {
+      "path": "reports/abc-championship/final-mile-producer-delivery-01/ingress-resolution/ACTUAL_PRIVATE_UPLOAD_FAILURE_V1.json",
+      "ref": "cc7c82834edb9a0de404c52d28212737994dd759",
+      "bytes": 1811,
+      "sha256": "a3999eaff47587d1676816ff1fb8c7c776551f12243a4384e4f71173e9c788fd"
+    },
+    {
+      "path": "reports/abc-championship/final-mile-producer-delivery-01/ingress-resolution/POSTFAILURE_REMOTE_CENSUS_V1.json",
+      "ref": "cc7c82834edb9a0de404c52d28212737994dd759",
+      "bytes": 558,
+      "sha256": "597ac1028fbf6e11e0bf862d21cbbcfd1111832451dfaf23a75631dbdaacc5ab"
+    },
+    {
+      "path": "reports/abc-championship/final-mile-producer-delivery-01/ingress-resolution/OWNER_NATIVE_BRIDGE_REVIEW_V1.json",
+      "ref": "cc7c82834edb9a0de404c52d28212737994dd759",
+      "bytes": 8659,
+      "sha256": "b1d35242456f1ace97fbbf4d5d8fb79cb22b30f6a82b95fccbdc7bb12be0194a"
+    },
+    {
+      "path": "reports/abc-championship/final-mile-producer-delivery-01/ingress-resolution/INDEPENDENT_NATIVE_BRIDGE_REVIEW_V3.json",
+      "ref": "cc7c82834edb9a0de404c52d28212737994dd759",
+      "bytes": 8393,
+      "sha256": "400e608600ab30d623c5a302d144c34bf7b50d38acaee856d0ddcd3f5531e065"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/EXECUTION_PROTOCOL_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 7771,
+      "sha256": "7872966b27b9a0733e49857a1708b252d0d4cfd5e14f833ecd68ef0ee77a74f6"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/fitting/ACTUAL_FIXED13_V1_1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 26032,
+      "sha256": "9071f4fd5f81fb7e0514e9f1ac47a93d207fc5b27cda3d8aa7f7ea16d320b45e"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/fitting/ACTUAL_HGB_V1_1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 15178,
+      "sha256": "b92d9fb6742e8861f45091f735191f988a15725b4619387af3fab74a1909aeca"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/inference/ACTUAL_INFERENCE_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 27129,
+      "sha256": "1547a3f22e50c849c7aca64d50d0c6f37b180e21aac497981a757ea2e081d6e4"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/prepare/ACTUAL_PREPARATION_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 5680,
+      "sha256": "a739bf256f11bf2e16960683ed68cdde04cecce52100ec83343bd8b0dc4ca02c"
+    },
+    {
+      "path": "tools/category_topfive_matched12_missing_fit_v1_1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 15490,
+      "sha256": "6741d8b00c469e05f5313dea8b1ca1c8e46bc4eb36799b5f45aceaaeba92a94a"
+    },
+    {
+      "path": "nfl_lab/median_boosting.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 12790,
+      "sha256": "c5bf8ef481c05027a2a1d4e1d19764920c0820f0614f60736826c17526e7799d"
+    },
+    {
+      "path": "nfl_lab/cdf_engine.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 27618,
+      "sha256": "6a963111f4173a88affe90ca1ce17532cd5eb690a1f28b284e9fa4145eecb214"
+    },
+    {
+      "path": "nfl_lab/direct_boosters.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 11460,
+      "sha256": "475e6aaca01790c896a81e51d911f5f48e4116b95383536501799c4242701e3f"
+    },
+    {
+      "path": "tools/category_topfive_matched12_aux_runner_v1.py",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 25515,
+      "sha256": "9e3e060e098acdcac67607a0a0bc0b23c4fa84ecd8716169eca3cff5c2fee8e9"
+    },
+    {
+      "path": "reports/category-topfive-matched-all12-w1w7-20261030/FINALIST_CATALOG_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 9073,
+      "sha256": "22be5a7db670f466a794369d7b7a7a7e375798c27c19f32938404a521c6bc51e"
+    },
+    {
+      "path": "reports/abc-championship/A_HISTORICAL_COMMON_SCORER_V1.json",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 1869400,
+      "sha256": "db0b7fe7f3700fa76954b85e7405a2f22f95dec73372b79eb81444e69dc4c2f3"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_EVIDENCE_EXISTING_FULL_POLICY_ANNUAL_001.csv",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 58614,
+      "sha256": "dd270ac21267e2e37afc2653baf599da76fcb28bb7c7b4ea6ba24554227f4ac3"
+    },
+    {
+      "path": "reports/abc-championship/category-decision-release-01/A_EVIDENCE_EXISTING_FULL_POLICY_ANNUAL_002.csv",
+      "ref": "b7461fb7a79f89bec179b8c2e59f1b8e2e9ced31",
+      "bytes": 53719,
+      "sha256": "36de2d318e28c0c1aa4761c3f75e6998552376b2acaaa680ebf450c322794869"
+    }
+  ]
+}

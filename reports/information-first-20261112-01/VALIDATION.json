@@ -1,0 +1,25 @@
+{
+  "id": "C-INFORMATION-FIRST-VALIDATION-v1",
+  "checked_UTC": "2026-11-13T00:06:15.934975+00:00",
+  "software": {
+    "unittest_count": 281,
+    "unittest_result": "PASS",
+    "unittest_log_SHA256": "13614c46635c6e6bb91263340f6c91019b3ddea1ef4dee2f2bfb086172efb4f2",
+    "mandatory_workflow_contract_blocks": 26,
+    "block_executor": "bash -e, preservingfirstfailure",
+    "contract_result": "PASS",
+    "contract_log_SHA256": "2e100e6e58608b6e5b836786345b023af8a8bf79cfe3b23dd1c46c85cc71cbe7"
+  },
+  "scientific_receipts": [
+    "B-intake/INDEPENDENT_REVIEW.json",
+    "A-intake/INDEPENDENT_AGGREGATE_CHECK.json",
+    "target-status/FINAL_ADMISSION_NOTE_V1.json",
+    "ledger/INDEPENDENT_READBACK.json",
+    "INDEPENDENT_COORDINATION_REVIEW.json"
+  ],
+  "source_capture": "personnel/GITHUB_PERSISTENCE.json; exactsource-onlyfactsreadbackbeforekickoff",
+  "wire_representation": "target-status/WIRE_REPRESENTATION.json:originalCSVbytesretainedgzip; LFvariantlogicalfieldidentical",
+  "foreign_path_namespace": "coordination/FOREIGN_SOURCE_NAMESPACE_CHECK.json verifies rawBmethodreceipt refers toA_b746EXPORT, notliveCEXPORT. No upstreamhash was rewritten.",
+  "limits": "Theseare software/artifactarithmetic/scope checks, not anewpredictivegain, rawprivatefit/rowparity, authenticatedhistoricalquoteclock, originalsite releaseor90%claim.",
+  "remote_CI": "ExactPRheadmustbereadybeforeexistingauthorizedCmerge; notyetrepresentedaspublishedprimary."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "C-INFORMATION-FIRST-SOURCE-SERVER-PERSISTENCE-v1",
+  "commit": "35e6e3e514d5c80913a156aca7f5ca544b677314",
+  "verified_UTC": "2026-11-12T23:54:18.710261+00:00",
+  "state": "PASS_IMMUTABLE_PREGAME_NATIVE_STATE_AND_SCHEMA_CAPTURE",
+  "files": [
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/SOURCE_MANIFEST_LATE.json",
+      "bytes": 3175,
+      "SHA256": "a8bf14a1494076c4749f382e579347e1d3003e0bf2a51f9e0e1e117a6f17437e",
+      "git_blob_SHA": "43b5740985991c89d248668a150850943bda69f0",
+      "server_Date": "Thu, 12 Nov 2026 23:54:18 GMT",
+      "HTTP_status": "HTTP/2.0 200 OK"
+    },
+    {
+      "path": "sources/current-personnel-information-first-20261112-was-nyg/LATE_EVENT_ROSTER_STRUCTURE.json",
+      "bytes": 706,
+      "SHA256": "8c4106e825a33b50d31fde636547716c28c391c45e5ec2367c58e150d7b8e0fb",
+      "git_blob_SHA": "5f182069c3c3dd78be9b8b24a5c3a1af5fd776ff",
+      "server_Date": "Thu, 12 Nov 2026 23:54:18 GMT",
+      "HTTP_status": "HTTP/2.0 200 OK"
+    }
+  ],
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "new_personnel_universe_players": null,
+  "current_configuration": "SOURCE_BLOCKED_NO_COMPLETE_ROSTER_IN_OBTAINED_ROUTE",
+  "new_forecasts_offers_selections": 0,
+  "limits": "Serverresponse proves these reduced Cfacts/commitments existed beforekickoff. No rawAPIresponse reconstruction, fullroster/roles, historicalsourceclock, modelprediction, offeredpick or primaryadmission implied."
+}

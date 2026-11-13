@@ -1,0 +1,61 @@
+{
+  "id": "C-INFORMATION-FIRST-TARGET-FINAL-ADMISSION-NOTE-v1",
+  "recorded_UTC": "2026-11-12T23:44:24.687152+00:00",
+  "initial_and_supplement_preserved": true,
+  "broad_90_categories_established": [],
+  "selective_90_categories_established": [],
+  "B_final_admission": {
+    "source_ref": "10846a2781685f3c1a2cb045d3c887864f32bda7",
+    "book_and_timing": "B report says86DK-labeled stored lines:85at0.5 and1at1.5. Independent provider quote payload, main/alternative classification, quote/decision clocks and venue settlement are not authenticated. Do not call this an authenticated ordinary main-line full board.",
+    "population": "144frozenboardrecords;86originalselecteddirections. Currentfinaldualprovider86-labelcorrection; not86wholeordinarymainlinecategoryboard.",
+    "own_corrected_OVER": {
+      "wins": 33,
+      "losses": 32,
+      "decided": 65
+    },
+    "own_corrected_UNDER": {
+      "wins": 14,
+      "losses": 7,
+      "decided": 21
+    },
+    "own_corrected_COMBINED": {
+      "wins": 47,
+      "losses": 39,
+      "decided": 86
+    },
+    "measurement_not_prediction_change": true,
+    "current_2026_source_week_scope": "Existing2026W5-W9selectedrecords remeasured; no new issued forecast/game/policy or mainline-clock authentication"
+  },
+  "A_final_admission": {
+    "source_ref": "3e712b2da23c20700d41a76d3568e6bd8a0bc75d",
+    "arithmetic_scope": "528 own-side summaries,26candidateweeklyTop6 rows and paired reportedcountchanges independently reconciled;407empty-sideNArates;81zero-decidedviewsnot tests",
+    "admission": "LIMITED_PUBLIC_AGGREGATE_ARITHMETIC_AND_SOURCE_CLAIM_BINDINGS;NOT_PRIVATE_ROW_OR_FIT_QUOTE_TIME_PARITY",
+    "zero_decided_views": "81of528normalizedviews havezero decided; NOT_TESTED/NA andnotcountedasseasonweeks or90%.",
+    "period_scope": "2024actualscoredW1-W18;2023completionactualW6-W18. Requested2023W1-W5zero/blockedviews cannotfillactualcoverage.",
+    "new_2026_testweeks": [],
+    "no_ordinary_clock_upgrade": true
+  },
+  "new_fit_grader_policy_or_threshold_by_assessment": 0,
+  "sources": [
+    {
+      "path": "reports/information-first-20261112-01/A-intake/A_INTAKE_RECEIPT.json",
+      "bytes": 10720,
+      "SHA256": "ba32e7cbee29f6b7532a2ad9addb464e6761e0c74653e0cb12ea4666d814bb6d"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/ADMISSION.json",
+      "bytes": 12268,
+      "SHA256": "2b7e9be61ca0268faa479ea421ea731e0c6b9463718f3356d585dde45ce50afc"
+    },
+    {
+      "path": "reports/information-first-20261112-01/B-intake/INDEPENDENT_REVIEW.json",
+      "bytes": 8478,
+      "SHA256": "8c5295ad5e5a8684fa595db1808e9e456e9c5dbd19c81ccfb5267eaf50690f53"
+    },
+    {
+      "path": "reports/information-first-20261112-01/target-status/SUPERSEDING_RECEIPT_SUPPLEMENT_V1.json",
+      "bytes": 54333,
+      "SHA256": "2818fd1e67b5f0bba584bd39beaf3e03d7da22257732c06e08450ef071bdca34"
+    }
+  ]
+}

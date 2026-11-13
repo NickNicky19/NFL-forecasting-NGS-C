@@ -1,0 +1,27 @@
+{
+  "id": "C-INFORMATION-FIRST-B-INTAKE-RESOURCE-CLOSURE-v1",
+  "bound_GitHub_reads": 8,
+  "maximum_reads": 8,
+  "returned_response_bytes": 1749651,
+  "maximum_response_bytes": 4194304,
+  "retention_bytes_before_resource_manifest": 263612,
+  "maximum_retention_bytes": 1048576,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_grading": 0,
+  "new_FTN_collection": 0,
+  "peer_writes_messages_dispatch_merge": 0,
+  "verification_command": "python reports/information-first-20261112-01/B-intake/verify_received.py",
+  "verification_resources": {
+    "bound_GitHub_reads": 8,
+    "returned_response_bytes": 1749651,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grading": 0,
+    "FTN_source_collection": 0,
+    "peer_writes_messages_workflow_merge": 0,
+    "CPU_seconds": 0.016561527,
+    "peak_RSS_bytes": 14942208
+  },
+  "no_further_polling": true
+}
