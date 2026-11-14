@@ -1,0 +1,144 @@
+{
+  "id": "C-WAVE-CLOSURE-VALIDATION-v1",
+  "recorded_UTC": "2026-11-14T15:12:43.282677+00:00",
+  "status": "PASS_SCOPED_LOCAL_AND_INDEPENDENT_CHECKS",
+  "unittest": {
+    "count": 281,
+    "status": "PASS",
+    "log_SHA256": "1adbcca0d450deac9fe6f9d570bc52ed61be809b4c6dc285fcd6e78bc7d678b9"
+  },
+  "mandatory_CI_blocks": {
+    "count": 26,
+    "status": "PASS",
+    "blocks": [
+      {
+        "command": "node --check docs/app.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/forward.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/paper.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/accuracy.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/championship.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/context.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/context_site_validate_c01.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_profile_closure_c04.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_timing_confirm_c05.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_category_decisions_c06.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/qualification.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_qualification_5w.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/abc_period_validation_v2.py\npython src/site_shared_c01.py validate\npython scripts/export_week8_final_v2.py\n",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/reliability.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/week8.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/topk.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/actual_accuracy_v6.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_reliability_v8.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/week8_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/topk_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_paper_v5.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_v2.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_forward_v4.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/prospective_v4.py verify --root prospective",
+        "exit": 0
+      },
+      {
+        "command": "python src/paper_v5.py verify --root paper",
+        "exit": 0
+      },
+      {
+        "command": "python src/freshness_query_shadow_v1.py verify --output prospective/shadows/AUDIT-D2-C-REC-W09-01",
+        "exit": 0
+      }
+    ],
+    "wall_seconds": 162.46311671400008
+  },
+  "independent_review": {
+    "path": "reports/wave-closure-next-valid-01/INDEPENDENT_COORDINATION_REVIEW.json",
+    "bytes": 9549,
+    "SHA256": "48e1faa637b88be9c65194ebe3f8a769ca4a87b9dd5e524cf6c7cb13f8a77a47"
+  },
+  "ledger": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+    "bytes": 2157803,
+    "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+  },
+  "prior_decoded_wire_exact_prefix": true,
+  "complete_entry_ids_unique": true,
+  "all_new_common_product_scored_status_populated": true,
+  "source_projection_hashes_checked": true,
+  "original_frozen_packets_unchanged": true,
+  "original_website_modified": false,
+  "source_persistence": {
+    "path": "reports/wave-closure-next-valid-01/personnel/GITHUB_PERSISTENCE.json",
+    "bytes": 1522,
+    "SHA256": "69a66992ef2b20d940a1eaa4c1a0604c85654321c51ae8e6b330e7e28f2ef668"
+  },
+  "no_new_C_fits": true,
+  "scope": "Local checks and independent internal C scope only; no private A/B parity/new B fifth-week review/producer delivery/admission/deployment certified."
+}

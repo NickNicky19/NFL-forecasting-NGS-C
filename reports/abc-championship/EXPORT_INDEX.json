@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 89739,
-    "SHA256": "5924ea52a3ba7bcd5095ea792760f762f4e1705dfcc77a1bba3565ef09958cac"
+    "bytes": 90807,
+    "SHA256": "f1bbc6a8cb8be29be10f2946b70d48103661db3a943505428ac661946a9cb9e4"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -1607,6 +1607,31 @@
     "new_C_fits": 0,
     "new_C_original_forecast_only_graded_game": 1,
     "new_actual_line_selections": 0,
-    "original_website_modified": false
+    "original_website_modified": false,
+    "manifest": {
+      "path": "reports/wave-closure-next-valid-01/MANIFEST.json",
+      "bytes": 20183,
+      "SHA256": "cd1baa6bd142e2a94a8c5e5f5dd68100fcaf3e8f8c50406bf1f78278ef0fea52"
+    },
+    "validation": {
+      "path": "reports/wave-closure-next-valid-01/VALIDATION.json",
+      "bytes": 4128,
+      "SHA256": "1b2e176c5d037d04dec548c76beaa9770aeaac550a6d5d146d7cef4e426be71f"
+    },
+    "independent_coordination": {
+      "path": "reports/wave-closure-next-valid-01/INDEPENDENT_COORDINATION_REVIEW.json",
+      "bytes": 9549,
+      "SHA256": "48e1faa637b88be9c65194ebe3f8a769ca4a87b9dd5e524cf6c7cb13f8a77a47"
+    },
+    "personnel_server_persistence": {
+      "path": "reports/wave-closure-next-valid-01/personnel/GITHUB_PERSISTENCE.json",
+      "bytes": 1522,
+      "SHA256": "69a66992ef2b20d940a1eaa4c1a0604c85654321c51ae8e6b330e7e28f2ef668"
+    },
+    "resource": {
+      "path": "reports/wave-closure-next-valid-01/RESOURCE_CLOSURE.json",
+      "bytes": 22415,
+      "SHA256": "2b357d7aab6bb5ad1a03617770c97c46b9ebdb0e8cdabbaacf3b0d2c98668312"
+    }
   }
 }
