@@ -1,0 +1,1817 @@
+{
+  "id": "C-B-OTHER-QB-RETAINED-CELL-CHECK-v1",
+  "created_UTC": "2026-11-14T18:58:59.687091+00:00",
+  "scope": "Local-onlyexisting1698entryBindex/V3ledger/frozenv1.1roster;noncompletionQBcells",
+  "state": "FINITE_CHECK_COMPLETE;NO_NEW_EXACT_PRODUCT_WEEKS_SAFELY_CLOSED_BY_LOCAL_AGGREGATION",
+  "inputs": [
+    {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+      "bytes": 2157803,
+      "sha256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/roster/FROZEN_ROSTER.json",
+      "bytes": 1391068,
+      "sha256": "85ae5c3b263d05d4fafe11294877e88147450fad3f6b38a79810da2e71cac97e"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/B-intake/B_EXPORT_INDEX_SOURCE.json.gz",
+      "bytes": 166124,
+      "sha256": "ed0d9bae6ea016561327c6daa54200003ddc778d37072135381809cd18e22b53"
+    },
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/A_WEEKLY_COVERAGE.json.xz",
+      "bytes": 22884,
+      "sha256": "1428ac38664a7dde2d60faa6a942ff334324dfc87716bb2950ce54eebd0a60d7"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/roster/FROZEN_ROSTER_V1_1.json",
+      "bytes": 1008,
+      "sha256": "810621714045ad7d9ca6761eb0f2d2f9dee6f62d415ebd048f01925811dfb10d"
+    },
+    {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_CALCULATION_CHECKS.json",
+      "bytes": 17582,
+      "sha256": "0bc45d901655562c00a40c4409a0c24a7467e9851550ed2b9321eb29ac8c2edd"
+    }
+  ],
+  "B_index_entries": 1698,
+  "B_index_head": "acd32c8e7e11257a925e1be1242727265d1ad563",
+  "ledger_entries": 32422,
+  "categories": [
+    {
+      "category": "pass_yd",
+      "frozen_B_candidates": [
+        {
+          "candidate_id": "W1W9-4ed1ce604360f7060b91",
+          "frozen_procedure_id": "SAVED_RAW_PROJECTION_DIRECTION_RETAINED_PRECISION",
+          "output": "saved_precision_point",
+          "history": "ARCHIVED",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "OWNER_EXACT_BINDING_REQUIRED_OR_SEPARATE_SOURCE_RECEIPT",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "SAVED_RAW_PROJECTION_DIRECTION_RETAINED_PRECISION"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "B::SAVED_RAW_PROJECTION_DIRECTION_RETAINED_PRECISION::ARCHIVED::saved_precision_point",
+              "product": "ACTUAL_LINE_DIRECTION:saved_precision_point",
+              "history": "ARCHIVED;featurememory=None",
+              "role_scope": "OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-a0eaf1f422f40ea8cf3bfd0e_W5:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-a0eaf1f422f40ea8cf3bfd0e_W6:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-a0eaf1f422f40ea8cf3bfd0e_W7:OWN_DECISION_ELIGIBLE_FULL_SYSTEM"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:CONTROL:SAVED_RAW_PROJECTION_DIRECTION_RETAINED_PRECISION",
+              "product": "ACTUAL_LINE_DIRECTION:recorded_threshold_decision",
+              "history": "None;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_COMMON_OFFER_CONTROLS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:WEBSITE:SAVED_RAW_PROJECTION_DIRECTION_RETAINED_PRECISION",
+              "product": "ACTUAL_LINE_DIRECTION:recorded_threshold_decision",
+              "history": "None;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_FIXED_ORIGINAL_SOURCE_FINAL_LABELS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-aa5425eb6bab8765cc8f",
+          "frozen_procedure_id": "empirical-player-history-control-v1",
+          "output": "lower_median",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "OWNER_EXACT_BINDING_REQUIRED_OR_SEPARATE_SOURCE_RECEIPT",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "empirical-player-history-control-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-CURRENT-EMPIRICAL::empirical_mean",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-CURRENT;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-CURRENT-EMPIRICAL::lower_median",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-CURRENT;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-MULTI-EMPIRICAL::empirical_mean",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-MULTI;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-MULTI-EMPIRICAL::lower_median",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-MULTI;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-MULTI::lower_median",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-15d30fdb7165fec38552c368_W5:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-15d30fdb7165fec38552c368_W6:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-15d30fdb7165fec38552c368_W7:OWN_DECISION_ELIGIBLE_FULL_SYSTEM"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-MULTI::mean",
+              "product": "ACTUAL_LINE_DIRECTION:mean",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-8b003c3503ea1da5af973df7_W5:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-8b003c3503ea1da5af973df7_W6:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-8b003c3503ea1da5af973df7_W7:OWN_DECISION_ELIGIBLE_FULL_SYSTEM"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-RECENT-EMPIRICAL::empirical_mean",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-RECENT;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::empirical-player-history-control-v1::H-RECENT-EMPIRICAL::lower_median",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-RECENT;featurememory=ARM_LIMITED_TARGET_HISTORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:14058581d7b3ce74862f78de",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-MULTI;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:27e3c5908f4479d7994a3bd4",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-CURRENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:3a6ef11534a174e7dfe2ca34",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-MULTI;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:3fbcf29e200e3ec55b548433",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-MULTI;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:96eeaf5cd29b52a558827fa5",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-RECENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:9a3da52f6a1fcc63fc22eb1e",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-CURRENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:9e76561261c7efcccf6aa570",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-CURRENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:a087570cd692f1bda97ce21e",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-RECENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:ac597b3efd539db6d649f9e2",
+              "product": "ACTUAL_LINE_DIRECTION:empirical_mean",
+              "history": "H-MULTI;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:df0ffc2b272f42eea3c1267c",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-CURRENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:ea27ae4a69864d0f5df990e5",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-RECENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:empirical-player-history-control-v1:f8ffa20e87fe1f4911d1fcd4",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-RECENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-e8ab33a22510a623de7d",
+          "frozen_procedure_id": "hgb-direct-history-controls-v1:absolute_error_point",
+          "output": "absolute_error_point",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "OWNER_EXACT_BINDING_REQUIRED_OR_SEPARATE_SOURCE_RECEIPT",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "hgb-direct-history-controls-v1:absolute_error_point"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ACTUAL_FULL_SYSTEM_AVAILABILITY",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_WEEKLY_FULL:B_WEEKLY_FOCAL_FULL_SYSTEM_pass_yd_W5:ACTUAL_FULL_SYSTEM_AVAILABILITY",
+                "B_WEEKLY_FULL:B_WEEKLY_FOCAL_FULL_SYSTEM_pass_yd_W6:ACTUAL_FULL_SYSTEM_AVAILABILITY",
+                "B_WEEKLY_FULL:B_WEEKLY_FOCAL_FULL_SYSTEM_pass_yd_W7:ACTUAL_FULL_SYSTEM_AVAILABILITY"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=SAVED_ADJUSTED_POINT_DIRECTION_RETAINED_PRECISION:saved_precision_point",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-0d6e499fd3a5b8c6d3aa9202_W5:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=SAVED_ADJUSTED_POINT_DIRECTION_RETAINED_PRECISION:saved_precision_point",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-0d6e499fd3a5b8c6d3aa9202_W6:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=SAVED_ADJUSTED_POINT_DIRECTION_RETAINED_PRECISION:saved_precision_point",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-0d6e499fd3a5b8c6d3aa9202_W7:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=SAVED_ADJUSTED_POINT_DIRECTION_RETAINED_PRECISION:saved_precision_point"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D1:lower_median",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-6f87704de614696d96df41d4_W5:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D1:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-6f87704de614696d96df41d4_W6:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D1:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-6f87704de614696d96df41d4_W7:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D1:lower_median"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:lower_median",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-202c88fcc144929e408d77af_W5:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-202c88fcc144929e408d77af_W6:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-202c88fcc144929e408d77af_W7:FOCAL_COMMON_FULL_SYSTEM:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:lower_median"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:lower_median",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-5d4bd7e24ad3220101465e93_W5:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-5d4bd7e24ad3220101465e93_W6:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:lower_median",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-5d4bd7e24ad3220101465e93_W7:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:lower_median"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::hgb-direct-history-controls-v1:absolute_error_point::H-MULTI::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:mean",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-b81e242fdd0e7c426159ed46_W5:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:mean",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-b81e242fdd0e7c426159ed46_W6:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:mean",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-b81e242fdd0e7c426159ed46_W7:FOCAL_COMMON_LEARNED_ONLY:COMPARATOR=v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:mean"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-hgb-direct-history-controls-v1:absolute_error_point::H-CURRENT-COMMON::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-CURRENT;featurememory=COMMON_2022_FEATURE_MEMORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-hgb-direct-history-controls-v1:absolute_error_point::H-MULTI-COMMON::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=COMMON_2022_FEATURE_MEMORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-hgb-direct-history-controls-v1:absolute_error_point::H-RECENT-COMMON::absolute_error_point",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-RECENT;featurememory=COMMON_2022_FEATURE_MEMORY",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_additional_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:hgb-direct-history-controls-v1:absolute_error_point:3176619f833e3bda06bff485",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-RECENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:hgb-direct-history-controls-v1:absolute_error_point:88b0bb6f82fb5b8d8830aa0d",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-CURRENT;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:hgb-direct-history-controls-v1:absolute_error_point:ff9004f8b937cc28d44d571e",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-MULTI;featurememory=ORIGINAL_CAPTURE_FEATURE_POLICY",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:hgb-direct-history-controls-v1:absolute_error_point:strict-current-inputs:0f711f7933bb1a1d86564520",
+              "product": "ACTUAL_LINE_DIRECTION:absolute_error_point",
+              "history": "H-CURRENT;featurememory=STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-a96ba10e5ba28f8ba893",
+          "frozen_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-e68433a1292a6979a0d8",
+          "frozen_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-d7d280d8d976ebe0caaa",
+          "frozen_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs",
+          "output": "mean",
+          "history": "H-CURRENT",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "OWNER_EXACT_BINDING_REQUIRED_OR_SEPARATE_SOURCE_RECEIPT",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs::H-CURRENT-STRICT::P2_EXACT_LINE_CDF-v1",
+              "product": "ACTUAL_LINE_DIRECTION:actual_line_categorical_law",
+              "history": "H-CURRENT;STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "B_CURRENT_REVISED_7DAY_RECONSTRUCTION;C_LAST_RECORDED_QUOTE_TIMING_UNVERIFIED;C_PINNED_CORRECTED_LABELS",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_ALL64_LAWS:B_C_PINNACLE_RETAINED_LEAF_LAWS_REGISTERED_W2_W3"
+              ],
+              "source_artifacts": [
+                "[\"reports/post-wave-5w-v1/B_ALL_RETAINED_LAWS_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs::H-CURRENT-STRICT::lower_median",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-CURRENT;featurememory=STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_D1_D2_ordered_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_D1_D2_ordered_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs::H-CURRENT-STRICT::mean",
+              "product": "ACTUAL_LINE_DIRECTION:mean",
+              "history": "H-CURRENT;featurememory=STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+              "positive_source_weeks": [
+                "2",
+                "3"
+              ],
+              "source_panels": [
+                "B_D1_D2_ordered_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_2:ALL",
+                "B_D1_D2_ordered_actual_line_saved_points:B_OWNER_LOCAL_C_PINNACLE_W2_W3_3:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs::H-CURRENT::mean",
+              "product": "ACTUAL_LINE_DIRECTION:mean",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "FOCAL_COMMON_LEARNED_ONLY",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-ba85ad281c44af879ee9ba1c_W5:FOCAL_COMMON_LEARNED_ONLY",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-ba85ad281c44af879ee9ba1c_W6:FOCAL_COMMON_LEARNED_ONLY",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-ba85ad281c44af879ee9ba1c_W7:FOCAL_COMMON_LEARNED_ONLY"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B::v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs::H-CURRENT::mean",
+              "product": "ACTUAL_LINE_DIRECTION:mean",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+              "evidence_tier": "RETAINED_PROVIDER_LABELLED_POINT_RULE_REPLAY",
+              "positive_source_weeks": [
+                "5",
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-bfa9d85ba991b4bb7c517ad1_W5:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-bfa9d85ba991b4bb7c517ad1_W6:OWN_DECISION_ELIGIBLE_FULL_SYSTEM",
+                "weekly_retained_method_scores:B_RETAINED_POINT_WEEK_PARTITION_I-SIDE-bfa9d85ba991b4bb7c517ad1_W7:OWN_DECISION_ELIGIBLE_FULL_SYSTEM"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/shared-intake-v3/B_ADMITTED_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:27de7d100f5091f43dcdc783",
+              "product": "ACTUAL_LINE_DIRECTION:lower_median",
+              "history": "H-CURRENT;featurememory=STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "B:v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:34ae330ed4a95ca2702f5c00",
+              "product": "ACTUAL_LINE_DIRECTION:mean",
+              "history": "H-CURRENT;featurememory=STRICT-CURRENT",
+              "role_scope": "ALL",
+              "evidence_tier": "ORIGINAL_PREGAME_OUTPUTS;CURRENT_REVISED_FINAL_LABELS;QUOTE_UPDATE_TIME_UNVERIFIED",
+              "positive_source_weeks": [
+                "8"
+              ],
+              "source_panels": [
+                "B_LOCAL_W8:B_LOCAL_W8_ALL_REGISTERED_ISSUED_COMMON_OFFERS_V2:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": true,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        }
+      ],
+      "state": "PARTIAL_RETAINED_EVIDENCE;NO_NEW_SAME_PROCEDURE_WEEK_CLOSED_BY_THIS_CHECK",
+      "W9_rule": "No new W9 week borrowed from completion or corrected website interceptions; no mean/median/law/history/horizon splicing.",
+      "permissible_next_action": {
+        "executor": "B retainedexactproductexportowner + A privateboardowner",
+        "action": "Resolvefrozenhistory/outputaliasesandsourceboundearlysavedoutputsfirst. NoAearlyjoinfortheseexactBproductswaslocatedinobtainedAweeklybindings; W9model/outputandactualoffer/decisionmasknotlocated. Do notcombineAownmodelresultswithBmodelstrataasoneprocedure.",
+        "completion": "ExactunchangedBprocedureearlyandlateroutputs/source-horizon/maskscorebindings, ordeclaremisingcells; no newfitauthorizedbythislocalcheck"
+      }
+    },
+    {
+      "category": "pass_td",
+      "frozen_B_candidates": [
+        {
+          "candidate_id": "W1W9-ec2263b3a455850640d7",
+          "frozen_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-90dd2643e4f225e58d56",
+          "frozen_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        }
+      ],
+      "state": "PARTIAL_RETAINED_EVIDENCE;NO_NEW_SAME_PROCEDURE_WEEK_CLOSED_BY_THIS_CHECK",
+      "W9_rule": "No new W9 week borrowed from completion or corrected website interceptions; no mean/median/law/history/horizon splicing.",
+      "permissible_next_action": {
+        "executor": "B retainedexactproductexportowner + A privateboardowner",
+        "action": "Resolvefrozenhistory/outputaliasesandsourceboundearlysavedoutputsfirst. NoAearlyjoinfortheseexactBproductswaslocatedinobtainedAweeklybindings; W9model/outputandactualoffer/decisionmasknotlocated. Do notcombineAownmodelresultswithBmodelstrataasoneprocedure.",
+        "completion": "ExactunchangedBprocedureearlyandlateroutputs/source-horizon/maskscorebindings, ordeclaremisingcells; no newfitauthorizedbythislocalcheck"
+      }
+    },
+    {
+      "category": "pass_att",
+      "frozen_B_candidates": [
+        {
+          "candidate_id": "W1W9-4233ab0c9ad0bd7a8979",
+          "frozen_procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+          "output": "lower_median",
+          "history": "Own last8eligibleearlierappearances plus4priorpseudoappearances; eligibleprior/currentseasonprior; weekly origins/strict7dayreconstruction. Source QB stat-row query conditioning remains disclosed.",
+          "role_scope": "QB; common-exposure own-history median with shared prior/fallback contract",
+          "decision_or_ranking_rule": "P1_UNROUNDED_POINT_VS_EXACT_ACTUAL_LINE:point>lineOVER;point<lineUNDER;point==lineABSTAIN; preserved participation/push/settlementcontract",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "OWNER_EXACT_BINDING_REQUIRED_OR_SEPARATE_SOURCE_RECEIPT",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/category-decision-release-01/CATEGORY_PRODUCT_DECISIONS.json"
+          ],
+          "original_id_aliases": [
+            "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+              "product": "lower_median",
+              "history": "Exact owner procedure_ref P005; source/hash bindings retained in A_WEEKLY_COVERAGE",
+              "role_scope": "[\"QB\"]",
+              "evidence_tier": "2026_W1_W5_RETAINED_ACTUAL_LINE_QUOTE_TIMING_UNVERIFIED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_EXPOSED_DEVELOPMENT",
+              "positive_source_weeks": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "source_panels": [
+                "A14_SOURCE_DISPOSITION::A_ANNUAL_NJ"
+              ],
+              "source_artifacts": [
+                "reports/category-decision-release-01/follow-through-v1/peer-intake/A_WEEKLY_COVERAGE.json.xz"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-87d906e769d585976d87",
+          "frozen_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        },
+        {
+          "candidate_id": "W1W9-4f92980504d186436f6e",
+          "frozen_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        }
+      ],
+      "state": "PARTIAL_RETAINED_EVIDENCE;NO_NEW_SAME_PROCEDURE_WEEK_CLOSED_BY_THIS_CHECK",
+      "W9_rule": "No new W9 week borrowed from completion or corrected website interceptions; no mean/median/law/history/horizon splicing.",
+      "A_early_same_B_procedure": {
+        "candidate_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+        "history_and_model_binding": {
+          "B_public_refs": [
+            {
+              "ATT_saved_player_games": 37,
+              "bytes": 169479,
+              "sha256": "de568cc6242b1469056737311fd86fea4888893e864b977c97935a41234eef96",
+              "week": 1
+            },
+            {
+              "ATT_saved_player_games": 39,
+              "bytes": 179736,
+              "sha256": "4216ed10c2817dc6c1d47ebcfbfd086b522c556da1df53cd07281a4e9f1b2bce",
+              "week": 2
+            },
+            {
+              "ATT_saved_player_games": 36,
+              "bytes": 168616,
+              "sha256": "6482e01fc170205af25a0d0b599016636ef29858afd637a57c317ec1368ad073",
+              "week": 3
+            },
+            {
+              "ATT_saved_player_games": 34,
+              "bytes": 156735,
+              "sha256": "40dc188593ecce049eb51b48cd7fdb1ce9ed972f93e697d3085ef3f4f22176f1",
+              "week": 4
+            },
+            {
+              "ATT_saved_player_games": 36,
+              "bytes": 166434,
+              "sha256": "4c916ef15c8ea47d998087c76ab44cb10b94508c1024f61219ea720b7769b7fc",
+              "week": 5
+            }
+          ],
+          "B_source_commit": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+          "alias_only": "2026 LA->LAR team/opponent tokens; LAC unchanged",
+          "old_result": {
+            "bytes": 486493,
+            "path": "reports/abc-championship/player-context-completion-decision-01/B_ATT_ON_A_EARLIER_BOARD_V1.json",
+            "sha256": "a40842d1871e2db58f273cdbe19da40447f67fb3fad4b65a7bc0310e693aa070"
+          },
+          "unchanged_model": true
+        },
+        "origin_session": "B",
+        "output": "lower_median",
+        "procedure_version": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+        "role_scope": [
+          "QB"
+        ],
+        "selection_policy": "STRICT_ORIGINAL_UNROUNDED_POINT_VERSUS_EXACT_LINE",
+        "source_ref": "BATT"
+      },
+      "A_early_actual_source_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "A_early_evidence": "Annualretainedactual-linequoteclocksunverified; P005 lower_median strictunroundedpointcrossing;LA->LARaliasrepaironly,oldresultsunchanged",
+      "native_B_existing_receipt": {
+        "source": "reports/player-context-matchup-01/acceptance-v1/B_CALCULATION_CHECKS.json",
+        "inspected": true,
+        "COMMON_EXPOSURE_reported_policy": "P2_STATISTICAL_LAW",
+        "native_actual_weeks": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "native_combined": [
+          55,
+          57,
+          112
+        ],
+        "strong_saved_adjusted_combined": [
+          69,
+          43,
+          112
+        ],
+        "important_identity_gap": "The explicitly checked55/112nativeproductisLAW; AearlyP005isLOWER_MEDIAN. Halfpoint/countlawcommonlycoincideisnotparityproof. Do notuse55/112tocompletemedianweekswithouttheexactside/modelbindings."
+      },
+      "exact_saved_score_lookup": {
+        "path": "reports/player-context-matchup-01/B/ALL_METHOD_SIDE_TABLE.json",
+        "producer_commit": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+        "bytes": 212977,
+        "sha256": "3cfa0ec1f1cf191b32561da8f5189df36f4f270ec21ca058e46eaacd5b77517a",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/3ad682cf86912f025e5a1699c8a396f3d9065222/reports/player-context-matchup-01/B/ALL_METHOD_SIDE_TABLE.json"
+      },
+      "exact_retain_procedure_protocol": {
+        "path": "reports/player-context-matchup-01/B/qb-wave-v1/FROZEN_PROTOCOL.json",
+        "producer_commit": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+        "bytes": 5256,
+        "sha256": "afefa53e0d2f794f99f29c410e6e0b0260876126526d12404a2d8bcd8993f9fb",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/3ad682cf86912f025e5a1699c8a396f3d9065222/reports/player-context-matchup-01/B/qb-wave-v1/FROZEN_PROTOCOL.json"
+      },
+      "native_full_score_lookup": {
+        "path": "reports/player-context-matchup-01/B/qb-scores-v1/SCORES.json",
+        "producer_commit": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+        "bytes": 11339693,
+        "sha256": "32c23372661e1da18a0f80c57e66b6ee9ab30d1d233aae3af5370bf09c875314",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/3ad682cf86912f025e5a1699c8a396f3d9065222/reports/player-context-matchup-01/B/qb-scores-v1/SCORES.json"
+      },
+      "W9_source_only": {
+        "path": "reports/information-first-20261112-01/B/peer-periods/W9_OFFER_PANEL_V1.json",
+        "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "bytes": 2413,
+        "sha256": "5e7342ddbf4f61790ad2f15ae988d71c6eeb87570bcfed17637af50b477bd992",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/peer-periods/W9_OFFER_PANEL_V1.json"
+      },
+      "permissible_next_action": {
+        "executor": "B exactCOMMON_EXPOSUREexportowner + A existingprivateATTboardexecutor",
+        "action": "Firstresolvealready-savedLOWER_MEDIANnativeW5-8ownsideaggregates/decisionmaskagainstAearlyP005; dedupW5bysource/book/line/horizon. Use boundexistingW9offersandappropriateexactretainedW9forecastsifpresent; otherwisedeclareW9origininference/outputgap. No refitneededforthesavedearly/nativeW1-8cells.",
+        "completion": "Immutableexactpolicyownsideweeklysource/maskreceipt, compatibleuniononlyafteridentity/sourcehorizonproof",
+        "can_close_new_weeks_now_from_public_current_rows_alone": false
+      }
+    },
+    {
+      "category": "pass_int",
+      "frozen_B_candidates": [
+        {
+          "candidate_id": "W1W9-2bae697e33e0da9f1906",
+          "frozen_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+          "output": "saved_complete_leaf_law",
+          "history": "H-MULTI",
+          "role_scope": "QB",
+          "decision_or_ranking_rule": "Preserve source point or exact-law rule; bound policy witnesses below",
+          "abstention": "Preserve bound source rule; technical unavailable is never intentional abstention",
+          "fallback": "Preserve exact saved full-system contract; never infer missing flags as zero or replace unseen support. Exact binding below/owner needed.",
+          "binding_status": "EXACT_SAVED_ARTIFACT_AND_POLICY_WITNESSES;ORIGIN_EXECUTION_SCOPE_STILL_OWNER_BOUND",
+          "missing_fields": [
+            "Exact executing code/model/corrector feature-order and original availability bindings must resolve from owner artifact before new inference; publication tree is not fresh-fit parity."
+          ],
+          "source_paths": [
+            "reports/abc-championship/continuation-v2/B_SOURCE_STRATIFIED_RAW_LEADERS.json.gz"
+          ],
+          "original_id_aliases": [
+            "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1"
+          ],
+          "ledger_supported_exact_or_alias_scopes": [
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-CURRENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-MULTI;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            },
+            {
+              "ledger_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+              "product": "ACTUAL_LINE_DIRECTION:saved_complete_leaf_law",
+              "history": "H-RECENT;featurememory=None",
+              "role_scope": "ALL",
+              "evidence_tier": "Current/revisedfootballinputs plus authenticated snapshot metadata; exactconditionalappearance law, no sportsbooksettlementclaim",
+              "positive_source_weeks": [
+                "6",
+                "7"
+              ],
+              "source_panels": [
+                "B_W6_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:W6:ALL",
+                "B_W7_COMPLETE_LAW:v2-complete-retained-leaf-law-actual-threshold-v1:F7:ALL"
+              ],
+              "source_artifacts": [
+                "[\"reports/abc-championship/continuation-v2/B_OWNER_LOCAL_SCORES.json.gz\"]"
+              ],
+              "semantic_alias_match_only": false,
+              "no_scope_union_performed": true
+            }
+          ],
+          "current_W9_for_this_exact_frozen_product": "NOT_LOCATED_IN_RETAINED_SCORED_LEDGER_AND_BINDINGS;CORRECTED_WEBSITE_INT_SEPARATE"
+        }
+      ],
+      "state": "PARTIAL_RETAINED_EVIDENCE;NO_NEW_SAME_PROCEDURE_WEEK_CLOSED_BY_THIS_CHECK",
+      "W9_rule": "No new W9 week borrowed from completion or corrected website interceptions; no mean/median/law/history/horizon splicing.",
+      "corrected_website_measurement_separate": [
+        {
+          "procedure_id": "B::ARCHIVED_ORIGINAL_WEBSITE_LEANS_UNCHANGED_PREDICTION_LINE_SIDE",
+          "product": "ORIGINAL_ARCHIVED_SIDE_POLICY",
+          "grading_version": "C_RECEIPT_B_INTERCEPTION_CORRECTED_FINAL_LABELS_20261112_v1",
+          "selected": "86",
+          "unknown": "0",
+          "over_wins": "33",
+          "over_losses": "32",
+          "under_wins": "14",
+          "under_losses": "7",
+          "combined_wins": "47",
+          "combined_losses": "39",
+          "combined_decided": "86",
+          "source_artifacts": "reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json;reports/information-first-20261112-01/B-intake/ADMISSION.json"
+        },
+        {
+          "procedure_id": "B::ARCHIVED_ORIGINAL_WEBSITE_LEANS_UNCHANGED_PREDICTION_LINE_SIDE",
+          "product": "ORIGINAL_ARCHIVED_SIDE_POLICY",
+          "grading_version": "ORIGINAL_PRESENCE_V5_LABELS",
+          "selected": "86",
+          "unknown": "46",
+          "over_wins": "33",
+          "over_losses": "0",
+          "under_wins": "0",
+          "under_losses": "7",
+          "combined_wins": "33",
+          "combined_losses": "7",
+          "combined_decided": "40",
+          "source_artifacts": "reports/information-first-20261112-01/B-intake/INDEPENDENT_CORRECTED_GRADE_REVIEW_V1.json;reports/information-first-20261112-01/B-intake/ADMISSION.json"
+        }
+      ],
+      "corrected_scope": "47\u201339/86(W5-9)unchangedwebsitearchiveleans;Ow33-32/65,U14-7/21,58genuineabstentionsonthe144board;original33-7/40+46unknownpreserved. ItisnotBLeafCDF/Ameanprocedureanddoesnotfilltheirmissingweeks.",
+      "permissible_next_action": {
+        "executor": "B retainedlawmodel/sourceowner and A earlyprivateboardowner",
+        "action": "Findsamefrozenlawhistory/outputearlysavedpredictionsandcompatibleW8/W9outputs/offers; qualifyofficialpass_INTpresencepermask. Do notreusecorrectedwebsitegradeasnewmodelpredictionorassignabsentstatzeros.",
+        "completion": "Exactpolicyweeklyownside/membership/sourcecontracts orblockedcells; no currentlyboundAearlyjoinfortheseBfrozenlawproducts"
+      }
+    }
+  ],
+  "interpretation": [
+    "Retainedledgercontainsstubrequestedweekswithzero/unknownscores;onlypositiveactuallyscoredsourcecellsreportedhere.",
+    "Substring/aliassearchlocatessourcecandidates;model/history/output/corrector/side/fallbackequivalenceisnotinferred.",
+    "ExistingAearlyCOMMON_EXPOSURElower_medianjoiniscomplete; thischeckdoesnotrequestduplicatejoinorfits.",
+    "NoextraexactproductweekcreatedfromanotherQBcategory, alternativepointview, correctedwebsitegrading, repeatbook or changingsourcehorizon.",
+    "Cpublicaggregateintakescopeonly;private-rowmembership/source-clock/fresh-fitparityunverified."
+  ],
+  "resources": {
+    "network_reads": 0,
+    "fits": 0,
+    "inference": 0,
+    "grader_runs": 0,
+    "new_union_scores": 0,
+    "peerwrites": 0,
+    "CPU_seconds_this_generation": 0.866616529,
+    "CPU_cap_seconds": 60,
+    "retention_cap_bytes": 1048576
+  },
+  "development_notes": [
+    "Two exploratory lookups assumedB_REVIEW.jsoncontainsasourcesfield; caughtKeyErrorwithoutmutation. CorrectsourcebindinglookupusesB_PUBLIC_BINDINGS.json/B_CALCULATION_CHECKS.json. No result/artifact/model/grading was changed."
+  ],
+  "manifest_rule": "Append-onlysupplementoutsideearlierBintakemanifest; rootfinalpackagebindsthisfile."
+}

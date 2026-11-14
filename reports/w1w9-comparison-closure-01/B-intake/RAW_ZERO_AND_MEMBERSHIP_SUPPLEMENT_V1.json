@@ -1,0 +1,71 @@
+{
+  "id": "B_RAW_REPORTED_ZERO_AND_SELECTOR_CONTRIBUTION_SUPPLEMENT_v1",
+  "verified_UTC": "2026-11-14T14:59:08.916538+00:00",
+  "state": "PASS_TWO_RAW_W4_INT_ZEROS_AND_NONINTERCHANGEABLE_CONTRIBUTION_MEMBERSHIP",
+  "parent_review_sha256": "7d5210178aa8cfcb8015d6e1bf7b5cbce609f8926edecde8c42db5e3c33f5500",
+  "raw_case_checks": [
+    {
+      "case_id": "d7853677c873756861565d660447de768ca25a7511cd343894b7503bbfcd5b95",
+      "player_id": "3163",
+      "event": "401872978",
+      "ESPN_athlete_id": "3046779",
+      "canonical_board_identity_match": true,
+      "team_role_event_season_week_finality_match": true,
+      "passing_group_and_INT_label_explicit": true,
+      "reported_INT_text": "0",
+      "value": 0,
+      "other_four_passing_counters_match": true,
+      "original_missing_value_preserved": true,
+      "source_raw_sha256": "ead264751a91d473f09d19edaddc8a13c749e4041a7ca0330d80fb7afb628794",
+      "statistical_grade": "miss",
+      "participation_not_used_to_fill_zero": true
+    },
+    {
+      "case_id": "621fe83e93b95f263468fee965bb4c2c7d94392339a32d2fe49a94a9aefb0a35",
+      "player_id": "12545",
+      "event": "401872979",
+      "ESPN_athlete_id": "4360689",
+      "canonical_board_identity_match": true,
+      "team_role_event_season_week_finality_match": true,
+      "passing_group_and_INT_label_explicit": true,
+      "reported_INT_text": "0",
+      "value": 0,
+      "other_four_passing_counters_match": true,
+      "original_missing_value_preserved": true,
+      "source_raw_sha256": "6f9cbff1a7a99f6e03b9babfc3e484ab46f6c61a6b870b91b8ce92a480a4b2d5",
+      "statistical_grade": "miss",
+      "participation_not_used_to_fill_zero": true
+    }
+  ],
+  "W4_contribution": {
+    "candidate_generated": 2,
+    "reference_fallback": 12,
+    "model_selected_already_in_control": 1,
+    "model_new_memberships": 1,
+    "fallback_new_memberships": 1,
+    "common_same_side_point_changes": 1,
+    "common_same_side_score_changes": 1,
+    "same_opportunity_selected_both_policies_side_changes": 1
+  },
+  "five_week_contribution": {
+    "candidate_generated_selected": 10,
+    "reference_fallback_selected": 100,
+    "model_selected_already_in_control": 1,
+    "model_new_memberships": 9,
+    "fallback_new_memberships": 1,
+    "candidate_only_same_side_memberships": 10,
+    "control_only_same_side_memberships": 9,
+    "common_same_side_memberships": 100
+  },
+  "interpretation": "Ten candidate-generated selected forecasts and ten candidate-only memberships happen to have equalcounts but are different populations:9newmodelmemberships,1newreferencefallbackmembership,1already-commonmodelselection. Fivecomplete-policyweeksremainvalidatdeclaredtier,notfiveweeksofwidespreadcandidateuse.",
+  "limits": [
+    "DirectsourceparsingvalidatesbothnewW4INTzeros;originalquote/roster/issuanceclocksarenotauthenticated.",
+    "Owner-local27rowselectedfileisnotdirectlyinspected;source-reconstructedBmembership,productionparityandpublishedaggregatesareverified.",
+    "W5-8membershipusespreviousfullBreview;oneW6grade-onlydeltaisasource-boundappendix,notnewselection.",
+    "No model-fit, newforecast, policychange, sourcecollection, sportsbooksettlement orprimaryrelease."
+  ],
+  "new_fits": 0,
+  "new_issued_forecasts_or_sides": 0,
+  "new_NFL_observations": 0,
+  "code_sha256": "5f069a6181d5d3f616e9e663c3123aa071ef06b75761c50aa71258f54224c93d"
+}

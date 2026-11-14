@@ -1,0 +1,23 @@
+{
+  "id": "C-ATT-CONTRACT-LOCAL-CHECK-v1",
+  "completed_UTC": "2026-11-14T19:07:34.169023+00:00",
+  "status": "PASS_EXACT_SOURCE_OUTPUT_BINDING_CHECK",
+  "checks": [
+    "A_P005typedlower_median",
+    "A_discovery2fa_to_B_nativeproducer3ad_binding",
+    "ExactW5predictionSHA_andbytes_match",
+    "Samefrozeninput/code/history/timingcontract",
+    "ExplicitBnativeP1_LOWER_MEDIAN_5weekly/cumulativerecords",
+    "Aearlyofferweekcounts10_25_25_23",
+    "NoAannualW5doublecount",
+    "W9realoffer_exists_exactmedianoutputscore_gap"
+  ],
+  "external_reads": 0,
+  "fits": 0,
+  "model_loads": 0,
+  "inference": 0,
+  "new_combined_scoring": 0,
+  "private_rows": 0,
+  "peer_writes": 0,
+  "scope": "No independent raw offers, source clocks, private membership or fresh-fit parity; existing independent acceptance receipt reused, not repeated."
+}

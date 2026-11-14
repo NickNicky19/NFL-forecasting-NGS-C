@@ -1,0 +1,77 @@
+{
+  "id": "C-B-NATIVE-142-CONTROL-ARITHMETIC-v1",
+  "created_UTC": "2026-11-14T18:37:56.135296+00:00",
+  "source_rows": 462,
+  "selected_complete_procedure_views": 66,
+  "selected_side_views": 198,
+  "method_policy_families": 11,
+  "checks": [
+    {
+      "method": "ALWAYS_OVER",
+      "policy": "REGISTERED_DIRECTION",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "ALWAYS_UNDER",
+      "policy": "REGISTERED_DIRECTION",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "P1_LOWER_MEDIAN",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "P1_MEAN",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "P2_STATISTICAL_LAW",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "P1_LOWER_MEDIAN",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "P1_MEAN",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "P2_STATISTICAL_LAW",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "EARLIER_LINE_PREVALENCE",
+      "policy": "REGISTERED_DIRECTION",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "SAVED_ADJUSTED",
+      "policy": "REGISTERED_DIRECTION",
+      "weekly_to_cumulative": "PASS"
+    },
+    {
+      "method": "SAVED_RAW",
+      "policy": "REGISTERED_DIRECTION",
+      "weekly_to_cumulative": "PASS"
+    }
+  ],
+  "aggregate_count_rate_side_weekly_identities": "PASS",
+  "source_top_schema_aggregate_only": true,
+  "source_private_rows_retrieved": false,
+  "network_reads": 0,
+  "new_fits": 0,
+  "new_grades": 0,
+  "new_union_scores": 0,
+  "new_NFL_games_or_weeks": 0,
+  "CPU_seconds": 0.06634048000000001,
+  "CPU_cap_seconds": 30,
+  "retention_cap_bytes": 1048576,
+  "exact_same142_member_mask_verification": "Notestablishedfromaggregateobject;sameboardidentity/sourcecontractisupstreamownerbound. No private-memberparity claim."
+}

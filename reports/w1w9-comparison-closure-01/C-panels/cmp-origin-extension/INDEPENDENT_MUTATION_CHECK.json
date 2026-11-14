@@ -1,0 +1,29 @@
+{
+  "id": "C-CMP-EXTENSION-INDEPENDENT-MUTATION-v1",
+  "status": "PASS",
+  "checks": [
+    {
+      "week": 8,
+      "training_rows": 2834,
+      "query_rows": 35,
+      "target_query_own_outcomes_and_realized_exposures_mutated": true,
+      "target_and_future_history_mutated": true,
+      "synthetic_future_rows_appended": 2,
+      "training_X_Y_and_query_X_unchanged": true,
+      "numeric_restored_predictions_unchanged": true,
+      "new_fits": 0
+    },
+    {
+      "week": 9,
+      "training_rows": 2867,
+      "query_rows": 38,
+      "target_query_own_outcomes_and_realized_exposures_mutated": true,
+      "target_and_future_history_mutated": true,
+      "synthetic_future_rows_appended": 2,
+      "training_X_Y_and_query_X_unchanged": true,
+      "numeric_restored_predictions_unchanged": true,
+      "new_fits": 0
+    }
+  ],
+  "scope": "Direct unchanged core features on mutated raw target/future rows, including query rows themselves; immutable safe numeric model restoration. No newfit/sourcecall/offergrade. Synthetic rows are separate fixtures, not NFL observations."
+}

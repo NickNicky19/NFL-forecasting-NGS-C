@@ -1,0 +1,246 @@
+{
+  "id": "C-RETAINED-CMP-POINTS-W1-W7-v1",
+  "file": "reports/w1w9-comparison-closure-01/C-panels/C_RETAINED_COMPLETION_POINTS_W1_W7.json.gz",
+  "wire_bytes": 22346,
+  "wire_SHA256": "d8e2d5d6308cd11167ca2dad4f58deb1b85bea6724a4c83c4e591a025f1ca4f1",
+  "decoded_bytes": 221098,
+  "decoded_SHA256": "048759963189f3e0fc115a6a479ae1618e3ad52c92473c10700793bef16f9ed8",
+  "rows": 242,
+  "unique_player_games": 242,
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "query_rows_by_week": {
+    "1": 37,
+    "2": 39,
+    "3": 36,
+    "4": 34,
+    "5": 36,
+    "6": 29,
+    "7": 31
+  },
+  "mean_median_values_unchanged": true,
+  "nonfinite_points": 0,
+  "fallback_rows": 0,
+  "origin_before_query_and_training_before_origin": true,
+  "unsafe_model_deserializations": 0,
+  "source_bindings": [
+    {
+      "week": 1,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W01",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W01/rows.json.gz",
+      "rows": 37,
+      "row_wire_SHA256": "3a78be06d76894d06433507f7332cba7cd10ffcbe6dc30b669a8173e7322e58f",
+      "row_bytes": 9081,
+      "DONE_SHA256": "a65bf4a95776dbcdaf148b30bab20317a5b1fb82777cb8b029518f4faa127d1c",
+      "model_SHA256": "b8d050edf232c4ca0f6480588e1a23eed378d3f207fce6ce95194510f597c966",
+      "fit_origin_UTC": "2026-09-10T00:20:00+00:00",
+      "training_rows": 2623,
+      "training_membership_SHA256": "45f626feaefcc1e6cb4785b512662270ada21acd8cbc74fa1bdc8ea6b24d2d74",
+      "latest_training_available_epoch": 1768180800.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 2,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W02",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W02/rows.json.gz",
+      "rows": 39,
+      "row_wire_SHA256": "16cfc31bd496351504139794cdfd17977c4868f65738f4f223887cffe930a413",
+      "row_bytes": 9623,
+      "DONE_SHA256": "2cea1f06dc8f2a740195a171769dd81a0b360af6fd82e92518c48da7b3efd218",
+      "model_SHA256": "a9908fdafb9460b40dc7c4d250480b2f5820233672511c205735258bd1f838bf",
+      "fit_origin_UTC": "2026-09-18T00:15:00+00:00",
+      "training_rows": 2626,
+      "training_membership_SHA256": "a826486eb10d274968858cd229e1ede5c4c02a338a2868b027059ff861ebe70e",
+      "latest_training_available_epoch": 1789604400.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 3,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W03",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W03/rows.json.gz",
+      "rows": 36,
+      "row_wire_SHA256": "e2eb714255070b527ec365a10b94b878b47e61440665851dfecdcfc1f4787bb9",
+      "row_bytes": 9010,
+      "DONE_SHA256": "986df6d045d55c9badd646a989b07e0b30e341efef27211ddfc091695d0c402c",
+      "model_SHA256": "4a6959eca77f3c6a7740cde8e241455ec72dacf4da7e6a029256307a01615d86",
+      "fit_origin_UTC": "2026-09-25T00:15:00+00:00",
+      "training_rows": 2660,
+      "training_membership_SHA256": "c32a88ecefb040d7c9cebf748f0a14a80e05664a6b3800b563a8b79cfc08b3a7",
+      "latest_training_available_epoch": 1790036100.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 4,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W04",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W04/rows.json.gz",
+      "rows": 34,
+      "row_wire_SHA256": "374c3c0e7fbc4887f7b1f20998fc2c16394af1068338ff17c4519fb03d4e840f",
+      "row_bytes": 8493,
+      "DONE_SHA256": "68d41a0c40f5f4e1a170b1df08a1669b1e6a9a65597c6fcc360878f23b44f861",
+      "model_SHA256": "f58db0bc75e2bf089adfb76d11b7a956e4d65d0b0561624b5821476f6a008e3c",
+      "fit_origin_UTC": "2026-10-02T00:15:00+00:00",
+      "training_rows": 2699,
+      "training_membership_SHA256": "782c6a3ab83afd74ab9c89ba66981fab490d07c9cac85d4d962ae6b6f2cd9bb7",
+      "latest_training_available_epoch": 1790640900.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 5,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W05",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W05/rows.json.gz",
+      "rows": 36,
+      "row_wire_SHA256": "6deedf8b272d955dfa0200c6b3abe8468a721903dc20517cb66733b0dd191663",
+      "row_bytes": 8889,
+      "DONE_SHA256": "09efc665a20bc7f13afcbe758cebc0f59c95e0012c9330766fb327db69d6347f",
+      "model_SHA256": "5449b695689169adf0c4832d23662ac934f4d4fb10254c774a9cd9af781288f6",
+      "fit_origin_UTC": "2026-10-09T00:15:00+00:00",
+      "training_rows": 2735,
+      "training_membership_SHA256": "a4bba6fd415841bb2274236f36cbcb7e641fa5af58e9f1363374a0257f29856e",
+      "latest_training_available_epoch": 1791245700.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 6,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W06",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W06/rows.json.gz",
+      "rows": 29,
+      "row_wire_SHA256": "39147c54380a4b2d869b4e8239daeb11118383055e565cbe33bbb3f16e6f5be3",
+      "row_bytes": 7391,
+      "DONE_SHA256": "c158ce40cd19ea2073ce63ff09ea0089fbf34c326d37928d9c3fe1a7ae3675bc",
+      "model_SHA256": "7327bd7a48df84db6df03bc5d30b82225c2a1c1a425e420af1fbf252f12d94a0",
+      "fit_origin_UTC": "2026-10-16T00:15:00+00:00",
+      "training_rows": 2769,
+      "training_membership_SHA256": "d9fd0b6572e6171974be9b005cf5e78f0359e69e2a19bdfeb724c5388f2c99e2",
+      "latest_training_available_epoch": 1791850500.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    },
+    {
+      "week": 7,
+      "slot": "C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W07",
+      "retained_source_locator": "artifacts/all12-pass_cmp-v2.1.zip::C-ALL12-LAW-THRESHOLD-v2.1-pass_cmp-H-MULTI-P2_LEAF-E0_ENV-W07/rows.json.gz",
+      "rows": 31,
+      "row_wire_SHA256": "465c23530abf0fef3ab084166e4bf3b743d587b037caa8b5cbb485f04df16721",
+      "row_bytes": 7803,
+      "DONE_SHA256": "7303d5ee773a6f36fade20322a3936fb239b003f031dd1aa5d51beba2cf6d4c7",
+      "model_SHA256": "14028ce1e877d631244a5e1ce9831478846b411a8d82cc6be1d1103b9f8c9b09",
+      "fit_origin_UTC": "2026-10-23T00:15:00+00:00",
+      "training_rows": 2805,
+      "training_membership_SHA256": "deec0563440ebbab6d3114e09e738cb59f6956f0c7d51ce07e05255dd82bb4cb",
+      "latest_training_available_epoch": 1792455300.0,
+      "source_sha256": {
+        "LICENSE-CC-BY-4.0.md": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "schedule.csv": "5ac3af003131a316eadba4bf90f9758953cef7a41bb6359fb5eb7d90d8a170f0",
+        "manifest.json": "185b696d71504f5d64d6f4f6fda8dac03e2cf04234bfc9af359c4b8807465a54",
+        "facts.csv.gz": "9abc681265b6bec413de2d9002aa72ac19b1a48ea2e57d4f38698b1cc8717a11",
+        "ATTRIBUTION.md": "961402719f87d4464f645bce63449f28263dc140529c9bd2e4946f78545933ea"
+      },
+      "launch_code_sha256": {
+        "wave_v2.py": "05764e8f3abea04301341e8108a7e79340471c7f4274e79083c546e3085acbf8",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a"
+      },
+      "score_version": "ANALYTIC_LOGPMF_V1"
+    }
+  ],
+  "new_fits": 0,
+  "new_forecast_inference": 0,
+  "new_actual_line_scored_rows": 0,
+  "CPU_seconds": 0.02057813399999999,
+  "verification_scope": "Exact safe saved-row/DONE byte commitments and typed extraction, not freshfit/modelrestoration/sourceclock authentication or completed offer join. Source archive locator is canonical durable artifact namespace; private cache locations omitted.",
+  "durable_archive_binding": {
+    "category": "pass_cmp",
+    "path": "artifacts/all12-pass_cmp-v2.1.zip",
+    "bytes": 5025833,
+    "sha256": "6fb6db4d3a72cd2d91abed1f57b1e41eb6936d81723c82c53e2486252b747e5e",
+    "slots": 98,
+    "rights": "C-authored non-NGS evidence using attributed ordinary facts; no offers/NGS included"
+  },
+  "archive_and_7_safe_row_members_verified_against_published_manifest": true,
+  "model_object_deserializations": 0
+}

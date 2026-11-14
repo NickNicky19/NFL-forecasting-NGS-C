@@ -1,0 +1,21 @@
+{
+  "id": "C-W1W9-REPRODUCTION-SCOPE-v1",
+  "environment": "Pinned requirements.txt; Cauthor origin EXECUTED/PREFLIGHT records actual NumPy/sklearn/Python/thread environment; OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1",
+  "read_only_checks": [
+    "python src/abc_period_validation_v2.py",
+    "python reports/w1w9-comparison-closure-01/C-panels/verify_completion_handoff.py",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests -v"
+  ],
+  "reporting_code": [
+    "completion/assemble_panel.py",
+    "attempt-check/assemble_attempts.py",
+    "assemble_closure.py",
+    "append_common_ledger.py",
+    "write_report.py"
+  ],
+  "restoration": "Restore exact manifest/source hashes first. Assembly is from pregraded owner count artifacts; no private row/source-clock or model-fit parity is inferred. Scripts that create versioned outputs must run only in a separate scratch copy with fresh output names/locations; never replace committed forecasts/grades/ledger versions.",
+  "model_restoration": "CmodelJSON is safe numeric C-NUMERIC-LEAF-v4. Author restoration/single/batch/shuffle/future-mutation checks are bound; independent reviewer inspected decoded tree structure and point bindings, not a fresh-fit reproduction. No pickle loading.",
+  "optional_fresh_fit": "Only if separately justified, use child registered two-origin recipe in a clean pinned workspace and finite budget; this checkpoint did not repeat already-completed fits for another verification receipt.",
+  "source_rights": "FTN-dependent Bderivedparts CC-BY-SA4.0 FTN Data via nflverse; other source/model/code rights separate. Protected raw offer rows remain owner-local.",
+  "code_commits": "Existing immutable core at1bd6d071e2083ae060e601da0ac8c281296babc5; executing newCwrapper is explicitly content-hash bound at actual fit time before later publication, not falsely dated as executing a futurecommit."
+}

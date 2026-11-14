@@ -1,0 +1,38 @@
+{
+  "id": "C-COMPLETION-NAMED-MULTISOURCE-W1W9-v1",
+  "panel_id": "C_AB_COMPLETIONS_A84_W1W4_B142_W5W9_DIAGNOSTIC_V1",
+  "state": "REGISTERED_BEFORE_C_COMBINED_DIRECTION_CALCULATION",
+  "source_decision": "../source-contract/COMPATIBILITY_DECISION.json",
+  "frozen_roster": "../roster/FROZEN_ROSTER.json; only documented pre-score existing-selector omission addendum allowed",
+  "arms": "All six exactB0/B2 mean/lower_median/storedlawproducts with constantOverUnder; ACat/HGB/otherretainedpartialcontenders shown separately, notzero-filled or hindsightstitched",
+  "source_schedule": {
+    "weeks1_4": "ExactA84completedjoinFULL_A_EARLY_BOARD",
+    "weeks5_9": "ExactB142nativefixedmask",
+    "AannualW5": "Notincluded; separateoverlapcell"
+  },
+  "aggregation": "Add integer own-side wins/losses/decided only after exactprocedure/contractdisjoint-week checks; preserveallzero/unknown/push/abstain states. No newoutcomegrading orselector. Commoncontract src/abc_championship_v2.py status/summary unchanged.",
+  "uncertainty": {
+    "policy_reused_from": "src/abc_period_report_v2.py",
+    "resampling_unit": "Whole season-week sufficient-count vector (same namedopportunities for bothprocedures)",
+    "resamples": 500,
+    "seed": 1703,
+    "percentiles": [
+      0.025,
+      0.975
+    ],
+    "statistic": "sum(resampled weeklycandidatewins-controlwins)/sum(resampled weeklycommondecided); never averageunweightedpercentages",
+    "game_bootstrap": "UNKNOWN_NOT_REPRODUCIBLE_FROM_PUBLIC_AGGREGATES; sourcegameintervals retainedseparately",
+    "scope": "Paired WEEK counts only, conditionalonpublicowner same-maskcommitments; no rawcase/disagreement/gameparity. Nine exposedclusters, repeatedplayers/sourcecomposition/multiplecomparisons notadjusted; intervals notsuperiorityproof ornewadmissiongate."
+  },
+  "probability": "KeepA binaryOverBrier andB halfmulticlassBrier/logloss separate; do notpool unlesscontractequivalenceandpushmassproof exists. No pointimpliedprobability.",
+  "numerical": "Poolonlymatchingtypedoutput/MAE_MSE_bias definitions andidentical226scoredmask; otherwise source-stratified results only. Preservebroadnumericpopulationseparately.",
+  "gaps": "A/C later142forecasts notyetverifiedoncommonmask; showpartial/inference/fit/accessstateswithowner, nottestedlosers.",
+  "resources": {
+    "CPU_seconds_max": 90,
+    "RSS_bytes_max": 1073741824,
+    "retained_bytes_max": 2097152,
+    "new_fits": 0,
+    "new_source_reads": 0
+  },
+  "before_scores": true
+}

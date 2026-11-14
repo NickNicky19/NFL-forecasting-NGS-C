@@ -1,0 +1,85 @@
+{
+  "id": "C-CMP-EXTENSION-SOURCE-REBUILD-v1",
+  "all_inputs_preexisting_tracked_C_GitHub_bytes": true,
+  "base_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+  "sources": [
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "bytes": 1388058,
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+      "Git_blob": "a42d34a1411a902efd0e628c5156dc99c507d197",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/artifacts/basic-football-facts-v2.1.zip"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+      "Git_blob": "ffc872d25364c583877315fc8209df6d989da7ac",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/current_facts_2026.csv.gz"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+      "Git_blob": "155aa8bf1724488bd71072d5adae36ae64fef03a",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/schedule.csv"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+      "bytes": 6969,
+      "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb",
+      "Git_blob": "4e3b0e481ec113ff7a167fc54bb9ce45db47e00c",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "src/data_v2.py",
+      "bytes": 4106,
+      "SHA256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+      "Git_blob": "cd9f8811735db7099208a6d0d527468071448e0f",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/src/data_v2.py"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "src/laws_v2.py",
+      "bytes": 6656,
+      "SHA256": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+      "Git_blob": "bb627b66ee92f23c68e7057fcaf2006dc9b00def",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/src/laws_v2.py"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "src/contracts_v2.py",
+      "bytes": 3784,
+      "SHA256": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+      "Git_blob": "3506cbf49ecd5ac3023d4f05abec7e5ba83ea03f",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/src/contracts_v2.py"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "src/safe_models_v4.py",
+      "bytes": 5048,
+      "SHA256": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0",
+      "Git_blob": "1940e4001eb98ea71ffc60ff49bd88697985bffe",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/src/safe_models_v4.py"
+    }
+  ],
+  "rebuild": "extend_completion_origins.prepare(): originalarchivefactsandscheduleunchanged;appendonlyretained2026REGW8/W9currentfactsandschedule;data_v2.load/History/vector unchanged. No mergedcache prerequisite.",
+  "old7proof": "PREFLIGHT.json proves alloriginal7trainingmemberships+242queryfeaturesidenticalafterappend",
+  "source_timing": "Retained Nov12 current-vintage observation is not original W8/W9publication;strict kickoff+7day historical assumption remains.",
+  "raw_transfer": "No extra raw feeds, remote downloads orprotectedexports;allordinarysourcesalreadypermittedandtracked",
+  "unsafe_loading": "ZIPbytes/safeJSONonly;nomodelpickleload",
+  "new_offer_grades": 0
+}

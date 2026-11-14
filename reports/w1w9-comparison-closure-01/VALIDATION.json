@@ -1,0 +1,132 @@
+{
+  "id": "C-W1W9-CLOSURE-VALIDATION-v1",
+  "recorded_UTC": "2026-11-14T20:23:30.972641+00:00",
+  "local_unittests": {
+    "count": 281,
+    "status": "PASS",
+    "log_SHA256": "59c19f1964f29b9fe70cffff8683e1349a2864c8a095dc82f7193750a35a7f1a"
+  },
+  "mandatory_CI_blocks": {
+    "steps": [
+      {
+        "command": "node --check docs/app.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/forward.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/paper.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/accuracy.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/championship.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/context.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/context_site_validate_c01.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_profile_closure_c04.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_timing_confirm_c05.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_category_decisions_c06.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/qualification.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_qualification_5w.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/abc_period_validation_v2.py\npython src/site_shared_c01.py validate\npython scripts/export_week8_final_v2.py\n",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/reliability.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/week8.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/topk.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/actual_accuracy_v6.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_reliability_v8.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/week8_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/topk_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_paper_v5.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_v2.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_forward_v4.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/prospective_v4.py verify --root prospective",
+        "exit": 0
+      },
+      {
+        "command": "python src/paper_v5.py verify --root paper",
+        "exit": 0
+      },
+      {
+        "command": "python src/freshness_query_shadow_v1.py verify --output prospective/shadows/AUDIT-D2-C-REC-W09-01",
+        "exit": 0
+      }
+    ],
+    "wall_seconds": 94.18168683900149
+  },
+  "final_period_binding_validation": "PASS393 afterfinaldata:pointerrefresh; finalmanifestnodeaddition checkedseparately",
+  "independent_review": {
+    "path": "reports/w1w9-comparison-closure-01/INDEPENDENT_COORDINATION_REVIEW.json",
+    "bytes": 46538,
+    "SHA256": "0dd0015dcb78de7c00bce28ca14c2221c33284ec3699aebed3b1f7ae6535f94b"
+  },
+  "author_C_fits": 2,
+  "new_C_actual_offer_grades": 0,
+  "new_NFL_games": 0,
+  "no_original_site_changes": true,
+  "guarded_local_draft_metadata_repairs": "See LOCAL_IMPLEMENTATION_NOTES; no source predictions/side/WLchanges.",
+  "source_terms": "FTN-dependent Bderivatives CC-BY-SA4.0 FTN Data via nflverse; other source/model/code rights separate.",
+  "status": "PASS_WITHIN_SCOPED_CHECKS;FULL_CROSS_SESSION_AND_PRIVATE_PARITY_NOT_CERTIFIED",
+  "corrected_ledger_SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "C-ATT-W1-W8-MEDIAN-COMPATIBILITY-v1",
+  "checked_UTC": "2026-11-14T19:06:32.075321+00:00",
+  "decision": "ALLOW_SCOPED_CONDITIONAL_W1_W8_ACTUAL_LINE_MEDIAN_DIRECTION_ASSEMBLY",
+  "exact_procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+  "output": "lower_median",
+  "native_product_rule": "P1_LOWER_MEDIAN",
+  "selection_rule": "Strict original typed lower median >exactline Over,<line Under,equalityabstains. Do not substitute mean or assumed law direction.",
+  "fixed_source_schedule": [
+    {
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "owner": "A",
+      "source": "P005 A retained annual actual-line panel; book numericIDs/venuemapping andclocksremainunknown",
+      "eligible": 83,
+      "source_games": 48
+    },
+    {
+      "weeks": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "owner": "B",
+      "source": "Exact native ALL_METHOD_SIDE_TABLE COMMON_EXPOSURE P1_LOWER_MEDIAN rows",
+      "eligible": 112,
+      "source_games": 56
+    }
+  ],
+  "AannualW5": "EXCLUDED_FROM_PRIMARY_BY_FIXED_WEEK_SOURCE_POLICY;separatefourannualoffersarenotaddedtoBnativeW5",
+  "expected_eligible_union": 195,
+  "expected_source_reported_game_sum": 104,
+  "actual_source_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "nine_week_status": "PARTIAL;W9_EXACT_ORIGIN_OUTPUT_AND_MATCHING_MEDIAN_SCORE_NOT_YET_BOUND;REAL_W9_ATTEMPT_OFFER_SOURCE_EXISTS",
+  "cross_commit_proof": {
+    "A_discovery_ref": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+    "A_unmodified_model_assertion": true,
+    "A_W5_binding": {
+      "ATT_saved_player_games": 36,
+      "bytes": 166434,
+      "sha256": "4c916ef15c8ea47d998087c76ab44cb10b94508c1024f61219ea720b7769b7fc",
+      "week": 5
+    },
+    "C_prior_independent_restoration_W5_binding": {
+      "cache_name": "download_1.json.gz",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+      "path": "reports/player-context-matchup-01/B/qb-wave-v1/predictions/2026-W05.json.gz",
+      "bytes": 166434,
+      "SHA256": "4c916ef15c8ea47d998087c76ab44cb10b94508c1024f61219ea720b7769b7fc"
+    },
+    "same_exact_bytes": true,
+    "C_prior_review_producer_ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+    "C_prior_review_discovery_ref": "2fa855fc4dd7e9e495126dea93ba90a33fee4be3",
+    "B_current_native_side_table_producer": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+    "B_current_native_side_table_decoded_SHA256": "3cfa0ec1f1cf191b32561da8f5189df36f4f270ec21ca058e46eaacd5b77517a",
+    "public_bindings_link": "C B_PUBLIC_BINDINGS indexref2fa contains original3ad producer code/input/aggregate bindings; same namesalonewere not reliedupon"
+  },
+  "unchanged_model_input_contract": {
+    "protocol_id": "B-player-context-matchup-01-v1",
+    "source_inputs": {
+      "path": "reports/player-context-matchup-01/B/source-fields-v3/DERIVED_QB_GAME_INPUTS.json.gz",
+      "sha256": "f23bb72f05f398c7108700e10fa7bf63e233aca57bc67eb6820a38c9f212af90",
+      "rows": 2901,
+      "license": "CC-BY-4.0",
+      "attribution": "nflverse/nflfastR player-game derivatives; prepared by Session B"
+    },
+    "code_SHA256": {
+      "tools/run_player_context_wave.py": "d2069632c587dd576b65d6906481d969d0a917d5348f138411b0d46c54d32a9b",
+      "nfl_v2/player_context_matchup.py": "3db66e8d7c75f444d87f4792add9096a9d04d0390902f67ce21248c206476f29",
+      "nfl_v2/distribution_wave_v2.py": "417b817debe54b8e8c050d92e3e3fb9283fbc924a832099fbcc9c7ba51517fb9",
+      "nfl_v2/distribution_laws.py": "14f034249f38cd12d5a0ea36b05e64086e0859cc4209f83a55c913cda5742f4d",
+      "nfl_v2/hgb_control.py": "13ad5627152d4aed81540f93088b63716acb98a00bce52089a8ec8cbb619cccf"
+    },
+    "history": "H-RECENT season-relative preceding season + earlier current labels; feature memory expanding from2022",
+    "timing": "Historical label and context availability=kickoff+7days strict<; weekly fit before earliest game kickoff; query refresh at own kickoff leftlimit.",
+    "population": "Retrospective officialQBstat-row query panel; unknown participation retained. Not an exante roster or originally issued forecast.",
+    "common_exposure_definition": "One common empirical gamma-Poisson attempt forecast, not three independent exposure models.",
+    "source_vintage": "Current/revised sources under disclosed +7day reconstruction; not authenticated historical publication.",
+    "A_alias_repair": "2026 LA->LAR team/opponent tokens; LAC unchanged",
+    "repair_scope": "Canonical LA->LAR team/opponent identity alias only; LACunchanged; A declaresunchangedmodel. Preserve oldstrict-identity and correctedalias scoreversions separately."
+  },
+  "field_compatibility": {
+    "target_role": "Both pass_att official creditedQB full-game attempts; sacks/dropbacks aredifferentdefinitions. QB-onlysourcecontract preserved.",
+    "output": "Explicitlower_median onbothslices; no mean/P2 equivalence assumed.",
+    "information_history": "Same bound originalcontext COMMON_EXPOSURE procedure withH-RECENT precedingseason+eligiblecurrent labels, featurememoryfrom2022, kickoff+7days strict<; weekly fit before earliestkickoff/queryownkickoffleftlimit.",
+    "outcomes": "Retainedqualifiedofficial counts andpresence rules; no absentstatistic->0 fromparticipation.",
+    "source_timing": "Quoteclocks/currentvintagehistoricalpublication remainunverified; union is retrospectiveheterogeneousstatisticaldiagnostic only.",
+    "books": "Sourcebookdifferences notveto; exactbookIDs/labels preserved without inventingcanonicalnames, venue ormainline status.",
+    "dedup": "AexactW1\u20134 vsBexactW5\u20138 disjointofficialsourceweeks; excludeAannualW5. Publicopaqueprivatekeys notindependentlydecoded.",
+    "coverage": "Mastereligible195fixed before rootassembly. Keep separatelyallcandidateavailable/selected/decided/unavailable/unknown/fallbackcounts andnamedpairwise masks; no leaguewide completeness claim."
+  },
+  "allowed_aggregation": "Root may assemble own-side/weekly/combined direction counts after registeredpanelpolicy. No new scoring kernel or fits needed. This contractcheck doesnot execute assembledscores.",
+  "not_allowed": [
+    "CallW1\u20138resultaW1\u20139championship",
+    "UseW9FTNcompletionprocedureorforecast-onlypacketasto supplyCOMMON_EXPOSUREattemptmedian",
+    "Borrowmeanorexactlawrecordsforlower-medianproduct",
+    "Inferprobability/EVfrommedian",
+    "MergeAannualW5withoutnormalizedduplicate/source/horizonmembershipproof",
+    "Claimprivate-row/sourceclock/fitparityfrompublicmetadata"
+  ],
+  "W9_next_action": {
+    "executor": "B exact COMMON_EXPOSURE original procedure/output owner with registeredoffer/sourceowner",
+    "artifact": "CompatibleW9historical-origin COMMON_EXPOSURE lower-median attempt prediction and matching30 retainedattemptoffer/mask contract; or trustedvalidorigininference if retainedoutputmissing",
+    "minimum_action": "Inspect approved retainedoriginartifactsfirst. Bind unchangedhistory/code/input/featurecutoffs andscoreexactmedianagainstretainedW9actualoffers; no refitunlessappropriatefitgenuinelyabsent and separatelybounded.",
+    "completion": "W9ownside/coverage/unknown/fallback/source/membershipreceipt for exactmedian,orpreciseblockedartifact. Existing30realoffersarenotdeclaredmissing."
+  },
+  "source_bindings": [
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/A_WEEKLY_COVERAGE.json.xz",
+      "bytes": 22884,
+      "SHA256": "1428ac38664a7dde2d60faa6a942ff334324dfc87716bb2950ce54eebd0a60d7"
+    },
+    {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_REVIEW.json",
+      "bytes": 7432,
+      "SHA256": "5ab3434e54cf4ab5b4d1108d1b36be0e7745a56071bb944b42ca0f7738a2c3bd"
+    },
+    {
+      "path": "reports/player-context-matchup-01/acceptance-v1/B_PUBLIC_BINDINGS.json",
+      "bytes": 4620,
+      "SHA256": "c1ab7110de387c45cd12bb4180a553da7bc423cb05ea4733d9c5281c73d582c2"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/attempt-check/FROZEN_PROTOCOL.json",
+      "bytes": 5256,
+      "SHA256": "afefa53e0d2f794f99f29c410e6e0b0260876126526d12404a2d8bcd8993f9fb"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/attempt-check/ALL_METHOD_SIDE_TABLE.json.gz",
+      "bytes": 7303,
+      "SHA256": "f726aacd913df057eeab23aa343a6dd72bc00bfd43f7901185ae7c3c6d5f8d35"
+    }
+  ],
+  "verification_limit": "Independent C metadata/hash/typed-output contract reconciliation only. ExistingCNov10representative savedinference/publicarithmeticreview reused; no newprivate rows, rawsource, fits, modelrestoration orcoefficientchecks.",
+  "new_external_reads": 0,
+  "new_fits": 0,
+  "new_model_inference": 0,
+  "new_grades": 0,
+  "new_combined_scores": 0,
+  "peer_writes": 0,
+  "numerical_metric_limit": "NativeALL_METHOD_SIDE_TABLE P1_LOWER_MEDIAN row carries numerical_mean_MAE on277broad2026W1\u20138QBrows, not verifiedmedianMAEon112offeredrows. Do notpoolitwithAearlierofferedmedianMAE; a commonmedian/offered-mask numerical score needs exact matchingvalues/outputanddenominator."
+}

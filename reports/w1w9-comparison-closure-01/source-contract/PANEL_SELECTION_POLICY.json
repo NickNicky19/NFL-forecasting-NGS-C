@@ -1,0 +1,132 @@
+{
+  "id": "C-CMP-W1W9-MULTISOURCE-DIAGNOSTIC-PANEL-v1",
+  "frozen_UTC": "2026-11-14T18:34:19.345140+00:00",
+  "owner": "C common panel policy; A remains protected early-offer execution owner; B remains own-output/native offer owner",
+  "freeze_scope": "Retrospective diagnostic panel selection before new combined comparative scoring, on already-exposed seasons. This is not an originally issued source-selection strategy or untouched holdout.",
+  "category": "pass_cmp",
+  "season": 2026,
+  "season_type": "REG",
+  "requested_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "target_contract": {
+    "period": "full_game_including_overtime",
+    "role": "QB",
+    "quantity": "Official credited quarterback pass completions, not catches, passing attempts or dropbacks",
+    "outcome_condition": "Preserve declared physical-appearance conditioning; unknown participation/statistic remains unknown unless qualified source establishes zero",
+    "grading": "Statistical crossing of exact retained actual line; bookmaker settlement remains separate and may be unresolved"
+  },
+  "primary_source_schedule": [
+    {
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "Exact A completed B-output early completion-offer join reported84offers",
+      "source_owner": "A",
+      "selection": "Use already-frozen owner source/book selection and entire retained eligible mask; no model-dependent filtering"
+    },
+    {
+      "weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source": "Exact B native B_FTN_INFORMATION_142_W5_W9_v1 completion-offer board",
+      "source_owner": "B",
+      "selection": "Use entire already-frozen native eligible mask; no model-dependent filtering"
+    }
+  ],
+  "A_annual_W5": "EXCLUDED_FROM_PRIMARY_BY_FIXED_WEEK_SOURCE_SCHEDULE; retain separately for source-overlap/membership sensitivity only. No addition to BnativeW5.",
+  "source_priority_rationale": "The A completed early panel covers the currently missing W1\u20134; the B native later panel coversW5\u20139 under exact saved procedure origins. The schedule is fixed by missing coverage and existing provenance, not observed success rates, lines, sides or model disagreement.",
+  "deduplication": {
+    "canonical_offer_opportunity_key": [
+      "season",
+      "season_type",
+      "official_game_id",
+      "canonical_player_id",
+      "category",
+      "statistic_period",
+      "overtime_inclusion",
+      "role_scope",
+      "canonical_book_and_venue_if_known",
+      "exact_line",
+      "offered_side_contract",
+      "source_snapshot_identity",
+      "diagnostic_horizon_contract"
+    ],
+    "player_game_key": [
+      "season",
+      "official_game_id",
+      "canonical_player_id",
+      "category",
+      "statistic_period"
+    ],
+    "steps": [
+      "Verify canonical player/event/team/role and official game-week mapping before relying on disjoint week labels.",
+      "Within each source slice preserve the original deterministic quote/book selector; exact byte-duplicate source rows do not become new opportunities.",
+      "Opposite-side prices for one common O/U threshold are one comparison opportunity when the source contract supplies both sides; do not count them twice.",
+      "Rows with genuinely different lines/books/horizons remain explicitly distinct source opportunities or predeclared sensitivity panels, not silently collapsed.",
+      "Never use outcomes, forecast availability, predicted side, confidence or candidate success to choose a quote.",
+      "Exclude AannualW5 from primary; if any canonical event crosses bothslices despite officialweeks, require owner-local collision resolution before aggregate union."
+    ],
+    "unknown_fields": "Keep explicit unknown clocks/main-alt/venue; never fill by a presumed timestamp, ordinary-line label or inferred price."
+  },
+  "evidence_tier": "B_RETAINED_REAL_LINES_TIMING_UNVERIFIED_CURRENT_VINTAGE_CHRONOLOGICAL_DIAGNOSTIC",
+  "evidence_classes": {
+    "A_authenticated": "Original qualified decisions/cutoff-qualified actual-offer replays remain separately scored, not inferred for this union.",
+    "B_diagnostic": "Unknown quote clocks permit explicitly labeled retained actual-line statistical diagnostics when underlying actual-line provenance and forecast/label contracts qualify.",
+    "C_reference": "Internal website/reference/synthetic thresholds are excluded from this actual-line panel and remain independent diagnostics."
+  },
+  "forecast_join_key": [
+    "exact_procedure_id",
+    "output_type",
+    "history_update_policy",
+    "feature_policy_version",
+    "preprocessing_corrector_identity",
+    "historical_origin",
+    "player_game_key"
+  ],
+  "comparable_prediction_policy": {
+    "B0": "Exact unchanged R3/FTN B0 history/code/output; B1 only exact support-equivalent alias if owner proves equivalence.",
+    "B2": "Exact same frozen learner plus original own8 lagged throwaway/interception-worthy block; no retuning on early/later outcomes.",
+    "P1_mean": "Unrounded expected mean>line OVER,<line UNDER; exact tie abstains.",
+    "P1_lower_median": "Typed lower median versus exact line; separate product.",
+    "P2_exact_law": "Use saved normalized complete count law; compare exact Over/Under mass under the bound rule, preserve push probability. Never infer law scores or direction from a point export.",
+    "updating": "Each target game uses its own eligible earlier-origin fit/feature history under the unchanged current-vintage seven-day policy; no current fit predicting its own historical labels."
+  },
+  "full_system_and_pairwise": {
+    "stable_board": "Freeze the selected source opportunity universe independently of contenders. For each contender count all eligible offers, technically available outputs, own selections/abstentions, learned/fallback, decided/push/void/unknown states.",
+    "pairwise": "Named common supported masks may compare A/B/C pairs; keep mask hash and excluded counts. A sparse candidate cannot shrink the master board.",
+    "leaders": "Only procedures scoring allnineweeks may receive scoped W1\u20139 panel leader label. Missing origin/output/offer cells staypartial. No global order from disconnected pairwise panels."
+  },
+  "aggregation_guard": "Do not add numerator/denominator aggregates until actual A completed-join contract/identities, B exact later contract, disjoint canonical membership, output rules and outcome semantics pass the qualification receipt. Public owner-local commitments support only explicitly conditional admission; C private-row parity is not presumed.",
+  "uncertainty": "Report weekly/source strata, game/week-aware paired results when paired row outcomes exist, disagreements and unresolved sensitivity. A combined hit-rate difference on different masks is not a paired advantage. Do not invent a game/week bootstrap from summary-only rows.",
+  "sensitivity_panels": [
+    "AearlyW1\u20134 only",
+    "BnativeW5\u20139 only",
+    "AannualW1\u20135 separate, including explicitly qualifiedW5 overlap withBnative",
+    "Each original source/book/line-tier stratum where support permits",
+    "Complete-system versus matched learned/fallback and forecastavailable masks"
+  ],
+  "not_claimed": [
+    "Original issue or authenticated quote availability",
+    "Ordinary main-line status when unknown",
+    "Single-book executable strategy",
+    "Venue settlement/ROI/EV without contract/prices",
+    "Primary admission from duration alone",
+    "Every shortlisted contender already present on allnineweeks"
+  ]
+}

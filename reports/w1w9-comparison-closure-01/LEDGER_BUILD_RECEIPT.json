@@ -1,0 +1,53 @@
+{
+  "id": "C-W1W9-COMPARISON-COVERAGE-V4",
+  "old": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+    "bytes": 2157803,
+    "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+  },
+  "new": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V4.csv.gz",
+    "bytes": 2527713,
+    "SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
+  },
+  "prior_entries": 32422,
+  "appended_entries": 2052,
+  "total_entries": 34474,
+  "by_kind": {
+    "A_OWNER_COMPLETED_EARLY_JOIN_VIEW": 570,
+    "B_RETAINED_NATIVE_CONTROL_VIEW": 66,
+    "SOURCE_COMBINED_COMPLETE_PROCEDURE_VIEW": 80,
+    "SOURCE_COMBINED_EIGHT_WEEK_PROCEDURE": 9,
+    "FROZEN_CANDIDATE_WEEK_COMPLETION_CELL": 1287,
+    "ORIGINAL_AND_CORRECTED_MEASUREMENT_VERSION": 40
+  },
+  "old_decoded_wire_exact_prefix": true,
+  "all_complete_entry_ids_unique": true,
+  "new_NFL_games": 0,
+  "new_original_selected_sides": 0,
+  "new_C_outcome_grades": 0,
+  "newly_assembled_completion_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "newly_assembled_attempt_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "note": "Named overlapping views/cells, not additive NFL observations; unresolved fields stay empty. Source-specific original and corrected measurements preserved separately.",
+  "CPU_seconds": 5.060970832000001,
+  "FTN_dependent_B_attribution": "FTN Data via nflverse, CC BY-SA4.0. Other football inputs/models/code rights separately bound; no protected raw offers or raw charting feed redistribution."
+}

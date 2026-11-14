@@ -1,0 +1,58 @@
+{
+  "B_identity_origin_clock_checks": 90,
+  "CPU_seconds": 0.07,
+  "RSS_bytes": 25239552,
+  "W1_combined": {
+    "A_HGB": "8-2/10",
+    "B0_B1_all_outputs": "6-4/10",
+    "B2_mean": "6-4/10",
+    "B2_median_P2": "7-3/10",
+    "other7_A_outputs": "7-3/10"
+  },
+  "actual_defect_found": false,
+  "aggregates_sha256": "fcd9d4c0fe6181dc5ebe5119031460615e57f3bbbb04a968b0139098e8970ad0",
+  "boundary_checks": "Synthetic zero/null/unknown-participation/push/equality/unavailable/DNP PASS. Fallback identity code-reviewed; no real fallback exercised.",
+  "candidates": 19,
+  "checks": {
+    "Decimal_sides_grades_O_U_combined": "ALL19_PASS",
+    "empty_denominators": "N/A_preserved",
+    "point_MAE_MSE_bias": "PASS_1e-12",
+    "saved_law_worked_case": "PASS_probability1e-12_mean1e-10"
+  },
+  "files_written": 0,
+  "id": "A-FTN-W1-INDEPENDENT-REVIEW-v1",
+  "independent_own_side_rows": 190,
+  "limits": "Predetermined W1 arithmetic and identity/presence trace only; not full four-week regrade, raw-FTN reconstruction, model-fit parity or historical-vintage authentication. No original issuance, homogeneous nine-week panel, release or synthetic NFL evidence claimed.",
+  "network_calls": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "offers": 10,
+  "predetermined_week": 1,
+  "private_vectors_sha256": "b7612b58b75cd21a3fd03ce8834bcf3fd69f459cf25bb9b3cfb6fed171640a54",
+  "real_fixture_commitments": {
+    "loss": "b7dad59fc93ee5a5c17b190768bf0fa9a30870f7e6389bd646ab1edd2aa30c23",
+    "win": "40671ef463b7587ce3a2c4e14d38cd79bce9820039f0b34f68d6a653351ad09d"
+  },
+  "reviewer_note": "Initial empty-side oracle representation corrected from zero to N/A; no NFL repair.",
+  "source_inventory": {
+    "B2_incomplete_fallback": 0,
+    "book_ids": {
+      "68.0": 78,
+      "69.0": 4,
+      "79.0": 2
+    },
+    "book_names": "NOT_BOUND",
+    "cutoff_qualified_false": 84,
+    "historical_publication_clock_unknown": 84,
+    "horizon": "HISTORICAL_LEFT_LIMIT_KICKOFF_RECONSTRUCTION",
+    "known_zero": 0,
+    "offers": 84,
+    "played_explicit_reported_values": 84,
+    "quote_timing_unverified": 84,
+    "stream": "ANNUAL_NAMED_NJ",
+    "unknown_actual": 0,
+    "venue_settlement_unqualified": 84
+  },
+  "state": "PASS_CHECKED_SCOPE",
+  "wall_seconds": 0.071
+}

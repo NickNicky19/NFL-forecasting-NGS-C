@@ -1,0 +1,390 @@
+{
+  "id": "C-W1W9-EXISTING-CONTENDER-CONTRIBUTION-v1",
+  "freeze_authority": "Root freezes final cross-session roster; no new recipe or score-drivensearch here",
+  "candidates": [
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "category": "rec",
+      "local_source_method": "P1_MEAN_DIRECTION",
+      "output": "mean",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Strict unrounded point vs exactline; equalityabstain",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+      "category": "rec",
+      "local_source_method": "P1_MEDIAN_DIRECTION",
+      "output": "median",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Strict unrounded point vs exactline; equalityabstain",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::law",
+      "category": "rec",
+      "local_source_method": "P1",
+      "output": "law",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Original exact-line law/directthreshold side rule; integer push/missing/fallback preserved",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::median",
+      "category": "rec",
+      "local_source_method": "P2_MEDIAN_DIRECTION",
+      "output": "median",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Strict unrounded point vs exactline; equalityabstain",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::law",
+      "category": "rec",
+      "local_source_method": "P2",
+      "output": "law",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Original exact-line law/directthreshold side rule; integer push/missing/fallback preserved",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::E0::direct_probability",
+      "category": "rec",
+      "local_source_method": "E0",
+      "output": "direct_probability",
+      "role_scope": "WR/TE primary; RB secondary separate",
+      "information_policy": "2022 expanding/7day current-vintage reconstruction; no authenticated historical observation clocks",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "source_protocol": {
+        "path": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1.json",
+        "bytes": 4851,
+        "SHA256": "064580987e2c787934c52951624dbea89ea3dbef14d67103598cc039dcf22851"
+      },
+      "source_results": {
+        "path": "reports/player-context-matchup-01/ACTUAL_LINE_SCORES.json.gz",
+        "bytes": 23903,
+        "SHA256": "eb08563367107c8e5fd6d8f9bdce78cdae527b9cb101e9ffaa416efffe0a32ef"
+      },
+      "result_identity_overlay": {
+        "path": "reports/player-context-matchup-01/RESULT_BINDINGS_V2.json",
+        "bytes": 1442,
+        "SHA256": "e51e0a2ca9090ab2bddc345131f497c5c09b9f4f021fc4a0d2c11a8eab953d29"
+      },
+      "actual_C_native_weeks": [
+        2,
+        3
+      ],
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reason": "Existing reported receiving complete product/control; native partial-pooling law/median150/255 retains worseBrier caveat; E1/E2/E3 directnonuse aliases closed",
+      "side_rule": "Original exact-line law/directthreshold side rule; integer push/missing/fallback preserved",
+      "fallback": "Exact bound originalprocedure; no newfallbacks or removedsparseplayers",
+      "status": "REUSED_NATIVE_TWO_WEEK_CONTENDER;AOWNER_LONGER_POINT_PANEL_SEPARATE"
+    },
+    {
+      "procedure_id": "C::C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_ENV::mean",
+      "category": "pass_cmp",
+      "output": "mean",
+      "role_scope": "QB",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "reason": "Root-frozen existingCpointcomparisonbaseline; not previouslytestedactual-completionofferleader",
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "information_policy": "Original weeklyfit earlier-only; querykickoff prefixes with strict kickoff+7dayavailability; H-MULTI2022expanding current-vintage reconstruction",
+      "query_universe": "Original current-vintage stat-row-conditioned QB support, not authenticpregameroster",
+      "side_rule": "Unroundedmean>lineOVER;<lineUNDER;==lineABSTAIN",
+      "corrector": "None; outputpreserving extraction",
+      "fallback": "Originalflags;242rowsalllearned. MissingkeysUNAVAILABLE_FORECAST,never0",
+      "handoff": {
+        "path": "reports/w1w9-comparison-closure-01/C-panels/C_RETAINED_COMPLETION_POINTS_W1_W9.json.gz",
+        "bytes": 28748,
+        "SHA256": "2c82ba8694f6436ea45027e64ee11056234e4256b289ef860788c37d0f3ea2b1"
+      },
+      "handoff_binding": {
+        "path": "reports/w1w9-comparison-closure-01/C-panels/COMPLETION_HANDOFF_W1_W9.json",
+        "SHA256": "9cd00e2192f1c246214be54e0eb5594286a7cba103ecc061bb5523a20eae179b"
+      },
+      "status": "READY_TYPED_POINT_ORIGINS_W1_W9;ACTUAL_OFFER_JOIN_UNSCORED;CMP_ATT_PRIMARY_HOLD",
+      "probabilities": "Not supplied; no grid interpolation or inventedconfidence",
+      "original_retained_origin_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "newly_reconstructed_origin_weeks": [
+        8,
+        9
+      ],
+      "complete_point_origin_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "procedure_id": "C::C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_ENV::median",
+      "category": "pass_cmp",
+      "output": "median",
+      "role_scope": "QB",
+      "source_repo": "NickNicky19/NFL-forecasting-NGS-C",
+      "source_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "reason": "Root-frozen existingCpointcomparisonbaseline; not previouslytestedactual-completionofferleader",
+      "original_fitted_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "information_policy": "Original weeklyfit earlier-only; querykickoff prefixes with strict kickoff+7dayavailability; H-MULTI2022expanding current-vintage reconstruction",
+      "query_universe": "Original current-vintage stat-row-conditioned QB support, not authenticpregameroster",
+      "side_rule": "Unroundedmedian>lineOVER;<lineUNDER;==lineABSTAIN",
+      "corrector": "None; outputpreserving extraction",
+      "fallback": "Originalflags;242rowsalllearned. MissingkeysUNAVAILABLE_FORECAST,never0",
+      "handoff": {
+        "path": "reports/w1w9-comparison-closure-01/C-panels/C_RETAINED_COMPLETION_POINTS_W1_W9.json.gz",
+        "bytes": 28748,
+        "SHA256": "2c82ba8694f6436ea45027e64ee11056234e4256b289ef860788c37d0f3ea2b1"
+      },
+      "handoff_binding": {
+        "path": "reports/w1w9-comparison-closure-01/C-panels/COMPLETION_HANDOFF_W1_W9.json",
+        "SHA256": "9cd00e2192f1c246214be54e0eb5594286a7cba103ecc061bb5523a20eae179b"
+      },
+      "status": "READY_TYPED_POINT_ORIGINS_W1_W9;ACTUAL_OFFER_JOIN_UNSCORED;CMP_ATT_PRIMARY_HOLD",
+      "probabilities": "Not supplied; no grid interpolation or inventedconfidence",
+      "original_retained_origin_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "newly_reconstructed_origin_weeks": [
+        8,
+        9
+      ],
+      "complete_point_origin_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "existing_selected_policy_binding": {
+    "path": "reports/topk-reference-v9/RUN.json",
+    "bytes": 703,
+    "SHA256": "d2d53ba952c028482e96dc6422cb9c9eab4f2121f96672c044aa5c729efed16b"
+  },
+  "selected_policies": "Pre-existing Top6/10/20 views remain only W2\u20133; exact policy membership/role/book scope must match; not website complete selector",
+  "new_fits": 0,
+  "new_scoring": 0,
+  "necessary_missing_origin_fits_executed": 2,
+  "new_exact_procedure_actual_offer_scores": 0
+}

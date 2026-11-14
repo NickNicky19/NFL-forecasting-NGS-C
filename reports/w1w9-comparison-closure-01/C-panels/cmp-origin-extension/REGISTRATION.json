@@ -1,0 +1,69 @@
+{
+  "id": "C-CMP-ORIGIN-EXTENSION-W08-W09-v1",
+  "registered_UTC": "2026-11-14T19:27:04.906831+00:00",
+  "authority": "Root explicit newtask authorizes ONLYtwo necessary C missing historical origins, conditional identical source/feature/learner contracts and complete preflight; userABC-W1W9-COMPARISON-CLOSURE-01 permitsnecessaryfits",
+  "owner": "C",
+  "lease": "C_W1W9_PASS_CMP_ORIGINS_W08_W09_01;soleCfitworker delegatedto/root/nine_week_c_panel;nonblockingexclusivefitlock",
+  "procedure": "C-ALL12-LAW-THRESHOLD-v2.1/pass_cmp/H-MULTI/P2_LEAF/E0_ENV",
+  "periods": [
+    8,
+    9
+  ],
+  "new_fit_cap": 2,
+  "one_worker": true,
+  "OPENBLAS_NUM_THREADS": 1,
+  "OMP_NUM_THREADS": 1,
+  "CPU_seconds_cap": 180,
+  "RSS_bytes_cap": 1073741824,
+  "retention_bytes_cap": 8388608,
+  "whole_C_headroom_root_reported_approximate_bytes": 200000000,
+  "remote_reads": 0,
+  "unsafe_model_deserializations": 0,
+  "extension_adapter_SHA256": "f51323d5a17841730594aceacea074f5aa2004aa6318887d96ec6a5b2c38f204",
+  "core_code_SHA256": {
+    "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+    "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+    "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+    "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0"
+  },
+  "old_source_archive_SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+  "current_source_SHA256": {
+    "sources/category-decision-release-01/current_facts_2026.csv.gz": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+    "sources/category-decision-release-01/schedule.csv": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+    "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb"
+  },
+  "source_version_policy": "Preserve all original source rows/labels/schedule throughW7 exactly; append only alreadyretainedNov12 ordinaryW8/W9 rows/schedule under identical30field schema. Currentvintage7dayreconstruction, not observedhistoricalpublication.",
+  "role_population": "Exact original QB-onlytargetpool. No all-position zero-heavy restoration. Nullcompletionlabelsremainunknown; originalsourceplayedstatusdoesnotfillmissingcompletions.",
+  "parameters": {
+    "class": "laws_v2.LeafModel",
+    "kind": "count",
+    "scale": 1,
+    "n_estimators": 32,
+    "max_depth": 8,
+    "min_samples_leaf": 30,
+    "max_features": 1.0,
+    "bootstrap": false,
+    "random_state": 1701,
+    "n_jobs": 1,
+    "prior_alpha": 0.05,
+    "preprocessing": "training-onlymedianimputation+missingindicators,sourceE0_ENV35features"
+  },
+  "preflight_required": [
+    "corehashes match",
+    "original7fitmembershipand242queryfeaturesequal",
+    "newsourcecanonicalgame/player/teamidentity/schema",
+    "traininglabelsstrictavailable<earliestweeklyorigin",
+    "queryfeaturesstrictearlier7dayhistory",
+    "target/futurelabel/exposuremutationinvariance"
+  ],
+  "restoration": "Existing safe_models_v4 export/save/load/infer_forest and validate_training_model. No pickle read/write.",
+  "output_scope": "Typedpointmean/lowermedianonly;CMPATTprimaryholdunchanged;nooffers/scores/probabilityconfidenceorcurrentissuance",
+  "runtime": {
+    "Python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "threadpoolctl": "3.6.0"
+  }
+}

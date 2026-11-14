@@ -1,0 +1,1081 @@
+{
+  "pairs": [
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": 2,
+      "accuracy_difference": 0.008849557522123894,
+      "week_interval95": [
+        -0.04130681818181818,
+        0.052522408641691554
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": 2,
+      "accuracy_difference": 0.008849557522123894,
+      "week_interval95": [
+        -0.04130681818181818,
+        0.052522408641691554
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 7,
+      "accuracy_difference": 0.030973451327433628,
+      "week_interval95": [
+        0.004584491033089164,
+        0.060337883195345686
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -3,
+      "accuracy_difference": -0.01327433628318584,
+      "week_interval95": [
+        -0.04888888888888889,
+        0.020302469135802456
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -3,
+      "accuracy_difference": -0.01327433628318584,
+      "week_interval95": [
+        -0.04888888888888889,
+        0.020302469135802456
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 4,
+      "accuracy_difference": 0.017699115044247787,
+      "week_interval95": [
+        -0.07967914438502673,
+        0.11018922852983984
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 198,
+      "candidate_only_wins": 101,
+      "control_only_wins": 97,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 8,
+      "accuracy_difference": 0.035398230088495575,
+      "week_interval95": [
+        -0.004784688995215311,
+        0.07711817168338907
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 28,
+      "candidate_only_wins": 18,
+      "control_only_wins": 10,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -2,
+      "accuracy_difference": -0.008849557522123894,
+      "week_interval95": [
+        -0.05252240864169156,
+        0.04130681818181816
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": 0,
+      "accuracy_difference": 0.0,
+      "week_interval95": [
+        0.0,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        -0.02583172970172452,
+        0.08963316756892858
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.04470466003542717,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.04470466003542717,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 2,
+      "accuracy_difference": 0.008849557522123894,
+      "week_interval95": [
+        -0.06306804275108101,
+        0.07789460663038095
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 178,
+      "candidate_only_wins": 90,
+      "control_only_wins": 88,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 6,
+      "accuracy_difference": 0.02654867256637168,
+      "week_interval95": [
+        -0.048038110715034596,
+        0.11041561485755498
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 48,
+      "candidate_only_wins": 27,
+      "control_only_wins": 21,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -2,
+      "accuracy_difference": -0.008849557522123894,
+      "week_interval95": [
+        -0.05252240864169156,
+        0.04130681818181816
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": 0,
+      "accuracy_difference": 0.0,
+      "week_interval95": [
+        0.0,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        -0.02583172970172452,
+        0.08963316756892858
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.04470466003542717,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.04470466003542717,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 2,
+      "accuracy_difference": 0.008849557522123894,
+      "week_interval95": [
+        -0.06306804275108101,
+        0.07789460663038095
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 178,
+      "candidate_only_wins": 90,
+      "control_only_wins": 88,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 6,
+      "accuracy_difference": 0.02654867256637168,
+      "week_interval95": [
+        -0.048038110715034596,
+        0.11041561485755498
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 48,
+      "candidate_only_wins": 27,
+      "control_only_wins": 21,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -7,
+      "accuracy_difference": -0.030973451327433628,
+      "week_interval95": [
+        -0.060337883195345714,
+        -0.004584491033089167
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.08963316756892861,
+        0.025831729701724503
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -5,
+      "accuracy_difference": -0.022123893805309734,
+      "week_interval95": [
+        -0.08963316756892861,
+        0.025831729701724503
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -10,
+      "accuracy_difference": -0.04424778761061947,
+      "week_interval95": [
+        -0.10388623755914504,
+        -0.0043943463307184
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -10,
+      "accuracy_difference": -0.04424778761061947,
+      "week_interval95": [
+        -0.10388623755914504,
+        -0.0043943463307184
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": -3,
+      "accuracy_difference": -0.01327433628318584,
+      "week_interval95": [
+        -0.1006738806453703,
+        0.07558354442255366
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 195,
+      "candidate_only_wins": 96,
+      "control_only_wins": 99,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 1,
+      "accuracy_difference": 0.004424778761061947,
+      "week_interval95": [
+        -0.036190909090909086,
+        0.04519016697588125
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 31,
+      "candidate_only_wins": 16,
+      "control_only_wins": 15,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 3,
+      "accuracy_difference": 0.01327433628318584,
+      "week_interval95": [
+        -0.02030246913580247,
+        0.04888888888888889
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        0.0,
+        0.04470466003542717
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        0.0,
+        0.04470466003542717
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 10,
+      "accuracy_difference": 0.04424778761061947,
+      "week_interval95": [
+        0.004394346330718398,
+        0.10388623755914496
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": 0,
+      "accuracy_difference": 0.0,
+      "week_interval95": [
+        0.0,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 7,
+      "accuracy_difference": 0.030973451327433628,
+      "week_interval95": [
+        -0.04899040383846461,
+        0.10603165938864623
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 171,
+      "candidate_only_wins": 89,
+      "control_only_wins": 82,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 11,
+      "accuracy_difference": 0.048672566371681415,
+      "week_interval95": [
+        -0.011219183359013863,
+        0.11773993361235384
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 55,
+      "candidate_only_wins": 33,
+      "control_only_wins": 22,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 3,
+      "accuracy_difference": 0.01327433628318584,
+      "week_interval95": [
+        -0.02030246913580247,
+        0.04888888888888889
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        0.0,
+        0.04470466003542717
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": 5,
+      "accuracy_difference": 0.022123893805309734,
+      "week_interval95": [
+        0.0,
+        0.04470466003542717
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 10,
+      "accuracy_difference": 0.04424778761061947,
+      "week_interval95": [
+        0.004394346330718398,
+        0.10388623755914496
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": 0,
+      "accuracy_difference": 0.0,
+      "week_interval95": [
+        0.0,
+        0.0
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 7,
+      "accuracy_difference": 0.030973451327433628,
+      "week_interval95": [
+        -0.04899040383846461,
+        0.10603165938864623
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 171,
+      "candidate_only_wins": 89,
+      "control_only_wins": 82,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 11,
+      "accuracy_difference": 0.048672566371681415,
+      "week_interval95": [
+        -0.011219183359013863,
+        0.11773993361235384
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 55,
+      "candidate_only_wins": 33,
+      "control_only_wins": 22,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -4,
+      "accuracy_difference": -0.017699115044247787,
+      "week_interval95": [
+        -0.11018922852983988,
+        0.07967914438502653
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -2,
+      "accuracy_difference": -0.008849557522123894,
+      "week_interval95": [
+        -0.07789460663038099,
+        0.06306804275108101
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -2,
+      "accuracy_difference": -0.008849557522123894,
+      "week_interval95": [
+        -0.07789460663038099,
+        0.06306804275108101
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": 3,
+      "accuracy_difference": 0.01327433628318584,
+      "week_interval95": [
+        -0.0755835444225537,
+        0.10067388064537021
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -7,
+      "accuracy_difference": -0.030973451327433628,
+      "week_interval95": [
+        -0.10603165938864628,
+        0.048990403838464605
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -7,
+      "accuracy_difference": -0.030973451327433628,
+      "week_interval95": [
+        -0.10603165938864628,
+        0.048990403838464605
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "right": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": 4,
+      "accuracy_difference": 0.017699115044247787,
+      "week_interval95": [
+        -0.09170305676855896,
+        0.11842449922958397
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 226,
+      "candidate_only_wins": 115,
+      "control_only_wins": 111,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -8,
+      "accuracy_difference": -0.035398230088495575,
+      "week_interval95": [
+        -0.07711817168338908,
+        0.004784688995215311
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -6,
+      "accuracy_difference": -0.02654867256637168,
+      "week_interval95": [
+        -0.110415614857555,
+        0.04803811071503459
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -6,
+      "accuracy_difference": -0.02654867256637168,
+      "week_interval95": [
+        -0.110415614857555,
+        0.04803811071503459
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_MEAN",
+      "common_decided": 226,
+      "win_difference": -1,
+      "accuracy_difference": -0.004424778761061947,
+      "week_interval95": [
+        -0.04519016697588126,
+        0.03619090909090908
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P1_LOWER_MEDIAN",
+      "common_decided": 226,
+      "win_difference": -11,
+      "accuracy_difference": -0.048672566371681415,
+      "week_interval95": [
+        -0.11773993361235387,
+        0.011219183359013797
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2_STATISTICAL_LAW",
+      "common_decided": 226,
+      "win_difference": -11,
+      "accuracy_difference": -0.048672566371681415,
+      "week_interval95": [
+        -0.11773993361235387,
+        0.011219183359013797
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": null,
+      "candidate_only_wins": null,
+      "control_only_wins": null,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    },
+    {
+      "left": "COMMON::ALWAYS_UNDER::CONSTANT_SIDE",
+      "right": "COMMON::ALWAYS_OVER::CONSTANT_SIDE",
+      "common_decided": 226,
+      "win_difference": -4,
+      "accuracy_difference": -0.017699115044247787,
+      "week_interval95": [
+        -0.11842449922958398,
+        0.09170305676855896
+      ],
+      "weeks": 9,
+      "resamples": 500,
+      "seed": 1703,
+      "side_disagreements": 226,
+      "candidate_only_wins": 111,
+      "control_only_wins": 115,
+      "individual_pair_scope": "Constant-side disagreement derivable from own opposite-side counts only; other raw paired disagreements unavailable in C",
+      "interval_scope": "Paired WHOLE_WEEK sufficient-count diagnostic; same-mask commitments conditional; no pooled game bootstrap, multiplicity adjustment or future guarantee"
+    }
+  ],
+  "policy": {
+    "policy_reused_from": "src/abc_period_report_v2.py",
+    "resampling_unit": "Whole season-week sufficient-count vector (same namedopportunities for bothprocedures)",
+    "resamples": 500,
+    "seed": 1703,
+    "percentiles": [
+      0.025,
+      0.975
+    ],
+    "statistic": "sum(resampled weeklycandidatewins-controlwins)/sum(resampled weeklycommondecided); never averageunweightedpercentages",
+    "game_bootstrap": "UNKNOWN_NOT_REPRODUCIBLE_FROM_PUBLIC_AGGREGATES; sourcegameintervals retainedseparately",
+    "scope": "Paired WEEK counts only, conditionalonpublicowner same-maskcommitments; no rawcase/disagreement/gameparity. Nine exposedclusters, repeatedplayers/sourcecomposition/multiplecomparisons notadjusted; intervals notsuperiorityproof ornewadmissiongate."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "C-CMP-W1-W9-POINT-HANDOFF-v1",
+  "procedure": "C-ALL12-LAW-THRESHOLD-v2.1/pass_cmp/H-MULTI/P2_LEAF/E0_ENV",
+  "path": "reports/w1w9-comparison-closure-01/C-panels/C_RETAINED_COMPLETION_POINTS_W1_W9.json.gz",
+  "bytes": 28748,
+  "SHA256": "2c82ba8694f6436ea45027e64ee11056234e4256b289ef860788c37d0f3ea2b1",
+  "decoded_SHA256": "eeddb10f29e1eb1f7a1e1dce041e240f216cf9af0ceb6d24fbe572e3466b5056",
+  "queries": 315,
+  "typed_mean_median_views": 630,
+  "source_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "by_week": {
+    "1": 37,
+    "2": 39,
+    "3": 36,
+    "4": 34,
+    "5": 36,
+    "6": 29,
+    "7": 31,
+    "8": 35,
+    "9": 38
+  },
+  "original242_handoff_SHA256_unchanged": "d8e2d5d6308cd11167ca2dad4f58deb1b85bea6724a4c83c4e591a025f1ca4f1",
+  "original242_prefix_values_identical": true,
+  "new_fits": 2,
+  "new_inference_queries": 73,
+  "new_offer_scores": 0,
+  "new_source_requests": 0,
+  "hold": "CMPATTprimaryholdretained;noattemptcaporjointlawadded",
+  "ready_for": "Aownerlocalprotectedactualofferjoin;missingquerykeysunavailable,notzero",
+  "safe_numeric_model_paths": [
+    "reports/w1w9-comparison-closure-01/C-panels/cmp-origin-extension/W08/MODEL.json.gz",
+    "reports/w1w9-comparison-closure-01/C-panels/cmp-origin-extension/W09/MODEL.json.gz"
+  ],
+  "execution_receipt": {
+    "path": "reports/w1w9-comparison-closure-01/C-panels/cmp-origin-extension/EXECUTED.json",
+    "SHA256": "39c7779442106c326884ca050b2dab3da9320c4127237957cbbb073efc48bdc3"
+  },
+  "statistical_role_population": "QBonly;originalstatrowconditionalreconstruction;notauthenticpregameparticipation",
+  "preflight_proof": "Original7fit-memberships/242featuresidentical;target/futurelabelandexposuremutationinvariant;safeJSONrestorationtrainingpriors/allleafcounts,meanmedianbatch/singles/shufflespass"
+}

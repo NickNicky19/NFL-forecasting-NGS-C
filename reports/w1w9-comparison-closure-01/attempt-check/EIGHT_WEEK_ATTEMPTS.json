@@ -1,0 +1,819 @@
+{
+  "id": "C-ATT-COMMON-EXPOSURE-MEDIAN-W1W8-v1",
+  "assembled_UTC": "2026-11-14T19:08:19.474590+00:00",
+  "category": "pass_att",
+  "procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+  "output": "P1_LOWER_MEDIAN",
+  "actual_weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "missing_weeks": [
+    9
+  ],
+  "own_sides": {
+    "over": {
+      "wins": 5,
+      "losses": 5,
+      "decided": 10,
+      "selected": 10,
+      "rate": 0.5
+    },
+    "under": {
+      "wins": 94,
+      "losses": 91,
+      "decided": 185,
+      "selected": 185,
+      "rate": 0.5081081081081081
+    },
+    "combined": {
+      "wins": 99,
+      "losses": 96,
+      "decided": 195,
+      "selected": 195,
+      "rate": 0.5076923076923077
+    }
+  },
+  "coverage": {
+    "eligible": 195,
+    "available": 195,
+    "selected": 195,
+    "decided": 195,
+    "unknown": 0,
+    "unavailable": 0,
+    "fallback": 0,
+    "games": 104
+  },
+  "scheduled_games_retained_snapshot": 121,
+  "weekly": [
+    {
+      "week": 1,
+      "source": "A_ANNUAL_W1_W4",
+      "eligible": 10,
+      "available": 10,
+      "selected": 10,
+      "decided": 10,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 6,
+      "own_sides": {
+        "combined": {
+          "decided": 10,
+          "losses": 5,
+          "rate": 0.5,
+          "selected": 10,
+          "wins": 5
+        },
+        "over": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "under": {
+          "decided": 10,
+          "losses": 5,
+          "rate": 0.5,
+          "selected": 10,
+          "wins": 5
+        }
+      },
+      "always_over_wins": 5,
+      "always_under_wins": 5,
+      "raw_source": {
+        "COMBINED": {
+          "decided": 10,
+          "losses": 5,
+          "rate": 0.5,
+          "selected": 10,
+          "wins": 5
+        },
+        "OVER": {
+          "decided": 0,
+          "losses": null,
+          "rate": null,
+          "selected": 0,
+          "wins": null
+        },
+        "UNDER": {
+          "decided": 10,
+          "losses": 5,
+          "rate": 0.5,
+          "selected": 10,
+          "wins": 5
+        },
+        "book_venue": "BOOK_POLICY",
+        "category": "pass_att",
+        "counts": {
+          "abstentions": 0,
+          "available": 10,
+          "decided": 10,
+          "eligible": 10,
+          "fallback": 0,
+          "games": 6,
+          "selected": 10,
+          "states": {
+            "LOSS": 5,
+            "WIN": 5
+          },
+          "unavailable": 0,
+          "unique_player_games": 10,
+          "unknown": 0
+        },
+        "decided_mask_sha256": "3f045146bc80242a0882c4c6d0e3a5c7e9fcff0e17e012db2d79d6030c2d4a7c",
+        "eligible_mask_sha256": "3f045146bc80242a0882c4c6d0e3a5c7e9fcff0e17e012db2d79d6030c2d4a7c",
+        "evidence_tier": "2026_W1_W5_RETAINED_ACTUAL_LINE_QUOTE_TIMING_UNVERIFIED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_EXPOSED_DEVELOPMENT",
+        "forecast_issue_UTC": "UNKNOWN",
+        "missing_requirement": "Original quote/decision clocks, venue settlement and authenticated historical query/feature vintages remain unverified.",
+        "numerical": {
+          "MAE": 5.9,
+          "MSE": 55.1,
+          "bias": -4.5,
+          "scored": 10
+        },
+        "panel": "A_ANNUAL_NJ",
+        "per_week_feature_cutoff_UTC": "UNKNOWN",
+        "per_week_training_cutoff_UTC": "UNKNOWN",
+        "procedure_ref": "P005",
+        "quote_observation_UTC": "UNKNOWN",
+        "season": 2026,
+        "source_ref": "BATT",
+        "source_vintage_UTC": "UNKNOWN",
+        "status": "SCORED_ACTUAL_LINES_TIMING_UNVERIFIED",
+        "week": 1
+      }
+    },
+    {
+      "week": 2,
+      "source": "A_ANNUAL_W1_W4",
+      "eligible": 25,
+      "available": 25,
+      "selected": 25,
+      "decided": 25,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 14,
+      "own_sides": {
+        "combined": {
+          "decided": 25,
+          "losses": 6,
+          "rate": 0.76,
+          "selected": 25,
+          "wins": 19
+        },
+        "over": {
+          "decided": 3,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 3,
+          "wins": 3
+        },
+        "under": {
+          "decided": 22,
+          "losses": 6,
+          "rate": 0.7272727272727273,
+          "selected": 22,
+          "wins": 16
+        }
+      },
+      "always_over_wins": 9,
+      "always_under_wins": 16,
+      "raw_source": {
+        "COMBINED": {
+          "decided": 25,
+          "losses": 6,
+          "rate": 0.76,
+          "selected": 25,
+          "wins": 19
+        },
+        "OVER": {
+          "decided": 3,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 3,
+          "wins": 3
+        },
+        "UNDER": {
+          "decided": 22,
+          "losses": 6,
+          "rate": 0.7272727272727273,
+          "selected": 22,
+          "wins": 16
+        },
+        "book_venue": "BOOK_POLICY",
+        "category": "pass_att",
+        "counts": {
+          "abstentions": 0,
+          "available": 25,
+          "decided": 25,
+          "eligible": 25,
+          "fallback": 0,
+          "games": 14,
+          "selected": 25,
+          "states": {
+            "LOSS": 6,
+            "WIN": 19
+          },
+          "unavailable": 0,
+          "unique_player_games": 25,
+          "unknown": 0
+        },
+        "decided_mask_sha256": "ed646370ac7d1177852d930216e637bea7f786101cc95f495d3db737b599ef2a",
+        "eligible_mask_sha256": "ed646370ac7d1177852d930216e637bea7f786101cc95f495d3db737b599ef2a",
+        "evidence_tier": "2026_W1_W5_RETAINED_ACTUAL_LINE_QUOTE_TIMING_UNVERIFIED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_EXPOSED_DEVELOPMENT",
+        "forecast_issue_UTC": "UNKNOWN",
+        "missing_requirement": "Original quote/decision clocks, venue settlement and authenticated historical query/feature vintages remain unverified.",
+        "numerical": {
+          "MAE": 6.04,
+          "MSE": 71.32,
+          "bias": -3.88,
+          "scored": 25
+        },
+        "panel": "A_ANNUAL_NJ",
+        "per_week_feature_cutoff_UTC": "UNKNOWN",
+        "per_week_training_cutoff_UTC": "UNKNOWN",
+        "procedure_ref": "P005",
+        "quote_observation_UTC": "UNKNOWN",
+        "season": 2026,
+        "source_ref": "BATT",
+        "source_vintage_UTC": "UNKNOWN",
+        "status": "SCORED_ACTUAL_LINES_TIMING_UNVERIFIED",
+        "week": 2
+      }
+    },
+    {
+      "week": 3,
+      "source": "A_ANNUAL_W1_W4",
+      "eligible": 25,
+      "available": 25,
+      "selected": 25,
+      "decided": 25,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 15,
+      "own_sides": {
+        "combined": {
+          "decided": 25,
+          "losses": 16,
+          "rate": 0.36,
+          "selected": 25,
+          "wins": 9
+        },
+        "over": {
+          "decided": 1,
+          "losses": 1,
+          "rate": 0.0,
+          "selected": 1,
+          "wins": 0
+        },
+        "under": {
+          "decided": 24,
+          "losses": 15,
+          "rate": 0.375,
+          "selected": 24,
+          "wins": 9
+        }
+      },
+      "always_over_wins": 15,
+      "always_under_wins": 10,
+      "raw_source": {
+        "COMBINED": {
+          "decided": 25,
+          "losses": 16,
+          "rate": 0.36,
+          "selected": 25,
+          "wins": 9
+        },
+        "OVER": {
+          "decided": 1,
+          "losses": 1,
+          "rate": 0.0,
+          "selected": 1,
+          "wins": 0
+        },
+        "UNDER": {
+          "decided": 24,
+          "losses": 15,
+          "rate": 0.375,
+          "selected": 24,
+          "wins": 9
+        },
+        "book_venue": "BOOK_POLICY",
+        "category": "pass_att",
+        "counts": {
+          "abstentions": 0,
+          "available": 25,
+          "decided": 25,
+          "eligible": 25,
+          "fallback": 0,
+          "games": 15,
+          "selected": 25,
+          "states": {
+            "LOSS": 16,
+            "WIN": 9
+          },
+          "unavailable": 0,
+          "unique_player_games": 25,
+          "unknown": 0
+        },
+        "decided_mask_sha256": "929235249cb0b5fa3b2653c4ae65755eecf711b7e4af420f83966b4f69b7e4e3",
+        "eligible_mask_sha256": "929235249cb0b5fa3b2653c4ae65755eecf711b7e4af420f83966b4f69b7e4e3",
+        "evidence_tier": "2026_W1_W5_RETAINED_ACTUAL_LINE_QUOTE_TIMING_UNVERIFIED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_EXPOSED_DEVELOPMENT",
+        "forecast_issue_UTC": "UNKNOWN",
+        "missing_requirement": "Original quote/decision clocks, venue settlement and authenticated historical query/feature vintages remain unverified.",
+        "numerical": {
+          "MAE": 7.72,
+          "MSE": 111.8,
+          "bias": -6.2,
+          "scored": 25
+        },
+        "panel": "A_ANNUAL_NJ",
+        "per_week_feature_cutoff_UTC": "UNKNOWN",
+        "per_week_training_cutoff_UTC": "UNKNOWN",
+        "procedure_ref": "P005",
+        "quote_observation_UTC": "UNKNOWN",
+        "season": 2026,
+        "source_ref": "BATT",
+        "source_vintage_UTC": "UNKNOWN",
+        "status": "SCORED_ACTUAL_LINES_TIMING_UNVERIFIED",
+        "week": 3
+      }
+    },
+    {
+      "week": 4,
+      "source": "A_ANNUAL_W1_W4",
+      "eligible": 23,
+      "available": 23,
+      "selected": 23,
+      "decided": 23,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 13,
+      "own_sides": {
+        "combined": {
+          "decided": 23,
+          "losses": 12,
+          "rate": 0.4782608695652174,
+          "selected": 23,
+          "wins": 11
+        },
+        "over": {
+          "decided": 1,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 1,
+          "wins": 1
+        },
+        "under": {
+          "decided": 22,
+          "losses": 12,
+          "rate": 0.45454545454545453,
+          "selected": 22,
+          "wins": 10
+        }
+      },
+      "always_over_wins": 13,
+      "always_under_wins": 10,
+      "raw_source": {
+        "COMBINED": {
+          "decided": 23,
+          "losses": 12,
+          "rate": 0.4782608695652174,
+          "selected": 23,
+          "wins": 11
+        },
+        "OVER": {
+          "decided": 1,
+          "losses": 0,
+          "rate": 1.0,
+          "selected": 1,
+          "wins": 1
+        },
+        "UNDER": {
+          "decided": 22,
+          "losses": 12,
+          "rate": 0.45454545454545453,
+          "selected": 22,
+          "wins": 10
+        },
+        "book_venue": "BOOK_POLICY",
+        "category": "pass_att",
+        "counts": {
+          "abstentions": 0,
+          "available": 23,
+          "decided": 23,
+          "eligible": 23,
+          "fallback": 0,
+          "games": 13,
+          "selected": 23,
+          "states": {
+            "LOSS": 12,
+            "WIN": 11
+          },
+          "unavailable": 0,
+          "unique_player_games": 23,
+          "unknown": 0
+        },
+        "decided_mask_sha256": "2b1c03bf077d824188c0c356ff3953f4f61330686ede314b4817b14249050b56",
+        "eligible_mask_sha256": "2b1c03bf077d824188c0c356ff3953f4f61330686ede314b4817b14249050b56",
+        "evidence_tier": "2026_W1_W5_RETAINED_ACTUAL_LINE_QUOTE_TIMING_UNVERIFIED_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION_EXPOSED_DEVELOPMENT",
+        "forecast_issue_UTC": "UNKNOWN",
+        "missing_requirement": "Original quote/decision clocks, venue settlement and authenticated historical query/feature vintages remain unverified.",
+        "numerical": {
+          "MAE": 8.434782608695652,
+          "MSE": 115.73913043478261,
+          "bias": -6.086956521739131,
+          "scored": 23
+        },
+        "panel": "A_ANNUAL_NJ",
+        "per_week_feature_cutoff_UTC": "UNKNOWN",
+        "per_week_training_cutoff_UTC": "UNKNOWN",
+        "procedure_ref": "P005",
+        "quote_observation_UTC": "UNKNOWN",
+        "season": 2026,
+        "source_ref": "BATT",
+        "source_vintage_UTC": "UNKNOWN",
+        "status": "SCORED_ACTUAL_LINES_TIMING_UNVERIFIED",
+        "week": 4
+      }
+    },
+    {
+      "week": 5,
+      "source": "B_NATIVE_W5_W8",
+      "eligible": 28,
+      "available": 28,
+      "selected": 28,
+      "decided": 28,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 14,
+      "own_sides": {
+        "over": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "hit_rate": null
+        },
+        "under": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.5714285714285714
+        },
+        "combined": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.5714285714285714
+        }
+      },
+      "always_over_wins": 12,
+      "always_under_wins": 16,
+      "raw_source": {
+        "procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+        "category": "pass_att",
+        "period": "2026W5",
+        "week_view": 5,
+        "history": "H-RECENT",
+        "output_rule": "P1_LOWER_MEDIAN",
+        "sides": {
+          "over": {
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "selected": 0,
+            "hit_rate": null
+          },
+          "under": {
+            "wins": 16,
+            "losses": 12,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.5714285714285714
+          },
+          "Combined": {
+            "wins": 16,
+            "losses": 12,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.5714285714285714
+          }
+        },
+        "eligible": 28,
+        "technical_unavailable": 0,
+        "fallback": 0,
+        "games": 14,
+        "coverage": 1.0,
+        "numerical_mean_MAE": 8.456403755364676,
+        "numerical_n": 277,
+        "numerical_panel": "2026W1-8retrospectiveQBparticipants",
+        "evidence": "CURRENT_REVISED_SOURCE_SEVEN_DAY_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC"
+      }
+    },
+    {
+      "week": 6,
+      "source": "B_NATIVE_W5_W8",
+      "eligible": 28,
+      "available": 28,
+      "selected": 28,
+      "decided": 28,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 14,
+      "own_sides": {
+        "over": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "selected": 2,
+          "hit_rate": 0.5
+        },
+        "under": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "selected": 26,
+          "hit_rate": 0.34615384615384615
+        },
+        "combined": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.35714285714285715
+        }
+      },
+      "always_over_wins": 18,
+      "always_under_wins": 10,
+      "raw_source": {
+        "procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+        "category": "pass_att",
+        "period": "2026W6",
+        "week_view": 6,
+        "history": "H-RECENT",
+        "output_rule": "P1_LOWER_MEDIAN",
+        "sides": {
+          "over": {
+            "wins": 1,
+            "losses": 1,
+            "decided": 2,
+            "selected": 2,
+            "hit_rate": 0.5
+          },
+          "under": {
+            "wins": 9,
+            "losses": 17,
+            "decided": 26,
+            "selected": 26,
+            "hit_rate": 0.34615384615384615
+          },
+          "Combined": {
+            "wins": 10,
+            "losses": 18,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.35714285714285715
+          }
+        },
+        "eligible": 28,
+        "technical_unavailable": 0,
+        "fallback": 0,
+        "games": 14,
+        "coverage": 1.0,
+        "numerical_mean_MAE": 8.456403755364676,
+        "numerical_n": 277,
+        "numerical_panel": "2026W1-8retrospectiveQBparticipants",
+        "evidence": "CURRENT_REVISED_SOURCE_SEVEN_DAY_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC"
+      }
+    },
+    {
+      "week": 7,
+      "source": "B_NATIVE_W5_W8",
+      "eligible": 28,
+      "available": 28,
+      "selected": 28,
+      "decided": 28,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 14,
+      "own_sides": {
+        "over": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "hit_rate": null
+        },
+        "under": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.6071428571428571
+        },
+        "combined": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.6071428571428571
+        }
+      },
+      "always_over_wins": 11,
+      "always_under_wins": 17,
+      "raw_source": {
+        "procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+        "category": "pass_att",
+        "period": "2026W7",
+        "week_view": 7,
+        "history": "H-RECENT",
+        "output_rule": "P1_LOWER_MEDIAN",
+        "sides": {
+          "over": {
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "selected": 0,
+            "hit_rate": null
+          },
+          "under": {
+            "wins": 17,
+            "losses": 11,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.6071428571428571
+          },
+          "Combined": {
+            "wins": 17,
+            "losses": 11,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.6071428571428571
+          }
+        },
+        "eligible": 28,
+        "technical_unavailable": 0,
+        "fallback": 0,
+        "games": 14,
+        "coverage": 1.0,
+        "numerical_mean_MAE": 8.456403755364676,
+        "numerical_n": 277,
+        "numerical_panel": "2026W1-8retrospectiveQBparticipants",
+        "evidence": "CURRENT_REVISED_SOURCE_SEVEN_DAY_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC"
+      }
+    },
+    {
+      "week": 8,
+      "source": "B_NATIVE_W5_W8",
+      "eligible": 28,
+      "available": 28,
+      "selected": 28,
+      "decided": 28,
+      "unknown": 0,
+      "unavailable": 0,
+      "fallback": 0,
+      "games": 14,
+      "own_sides": {
+        "over": {
+          "wins": 0,
+          "losses": 3,
+          "decided": 3,
+          "selected": 3,
+          "hit_rate": 0.0
+        },
+        "under": {
+          "wins": 12,
+          "losses": 13,
+          "decided": 25,
+          "selected": 25,
+          "hit_rate": 0.48
+        },
+        "combined": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "selected": 28,
+          "hit_rate": 0.42857142857142855
+        }
+      },
+      "always_over_wins": 13,
+      "always_under_wins": 15,
+      "raw_source": {
+        "procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+        "category": "pass_att",
+        "period": "2026W8",
+        "week_view": 8,
+        "history": "H-RECENT",
+        "output_rule": "P1_LOWER_MEDIAN",
+        "sides": {
+          "over": {
+            "wins": 0,
+            "losses": 3,
+            "decided": 3,
+            "selected": 3,
+            "hit_rate": 0.0
+          },
+          "under": {
+            "wins": 12,
+            "losses": 13,
+            "decided": 25,
+            "selected": 25,
+            "hit_rate": 0.48
+          },
+          "Combined": {
+            "wins": 12,
+            "losses": 16,
+            "decided": 28,
+            "selected": 28,
+            "hit_rate": 0.42857142857142855
+          }
+        },
+        "eligible": 28,
+        "technical_unavailable": 0,
+        "fallback": 0,
+        "games": 14,
+        "coverage": 1.0,
+        "numerical_mean_MAE": 8.456403755364676,
+        "numerical_n": 277,
+        "numerical_panel": "2026W1-8retrospectiveQBparticipants",
+        "evidence": "CURRENT_REVISED_SOURCE_SEVEN_DAY_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC"
+      }
+    }
+  ],
+  "matched_controls": {
+    "ALWAYS_OVER": {
+      "wins": 96,
+      "losses": 99,
+      "decided": 195,
+      "rate": 0.49230769230769234,
+      "matched_win_difference": 3,
+      "paired_week_interval95": [
+        -0.14259569865504593,
+        0.179672298678294
+      ]
+    },
+    "ALWAYS_UNDER": {
+      "wins": 99,
+      "losses": 96,
+      "decided": 195,
+      "rate": 0.5076923076923077,
+      "matched_win_difference": 0,
+      "paired_week_interval95": [
+        -0.042832181161998675,
+        0.04605617771730597
+      ]
+    }
+  },
+  "evidence_tier": "RETAINED_ACTUAL_LINES_CURRENT_VINTAGE_SEVEN_DAY_DIAGNOSTIC;UNKNOWN_QUOTE_CLOCK_MAIN_ALT;NOT_ORIGINAL_ISSUANCE",
+  "contract": {
+    "path": "reports/w1w9-comparison-closure-01/source-contract/attempt/COMPATIBILITY_DECISION.json",
+    "bytes": 9073,
+    "SHA256": "2d73db870f6b0b33e699c75fbed33e6952cb29730975067f0456bdf6e3e2074f"
+  },
+  "sources": [
+    {
+      "path": "reports/category-decision-release-01/follow-through-v1/peer-intake/A_WEEKLY_COVERAGE.json.xz",
+      "bytes": 22884,
+      "SHA256": "1428ac38664a7dde2d60faa6a942ff334324dfc87716bb2950ce54eebd0a60d7"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/attempt-check/ALL_METHOD_SIDE_TABLE.json.gz",
+      "bytes": 7303,
+      "SHA256": "f726aacd913df057eeab23aa343a6dd72bc00bfd43f7901185ae7c3c6d5f8d35"
+    }
+  ],
+  "numerical_typing": "Do not pool Amedian errors with B numerical_mean_MAE: the latter is companionmean, notverifiedmedian error.",
+  "probability_typing": "Pointmedian crossing has no inferredconfidence; nativeP2 law is separate evenwhen ownsidecounts match.",
+  "stronger_native_reference": {
+    "source": "B_NATIVE_W5_W8_ONLY",
+    "saved_adjusted_wins": 69,
+    "decided": 112,
+    "median_wins": 55,
+    "scope": "Same later112mask; earlyreference absent, no invented8weekreferenceunion."
+  },
+  "recommendation": "KEEP_INCUMBENT;median ties strongest complete constant-side control and loses stronger native savedadjusted reference. No9weekclaim.",
+  "W9_action": "Breuse anyexactretainedCOMMON_EXPOSURE median origin/output first; otherwiseoneproperregisteredhistoricalorigin fit/inference andscore onknown30ATTsourceoffers, notborrowedCMP/law.",
+  "new_fits": 0,
+  "new_outcome_grades": 0,
+  "new_NFL_games": 0,
+  "new_original_selected_sides": 0,
+  "uncertainty": "Whole-week sufficientcount diagnostic,500resamplesseed1703,eight exposedclusters; no rawpairedgamebootstrap/multiplicitycontrol.",
+  "CPU_seconds": 0.03899984200000001
+}

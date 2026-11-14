@@ -1,0 +1,10 @@
+{
+  "state": "CORRECTED_OFFLINE_NORMALIZER_SCHEMA_ASSERTION",
+  "initial_assumption": "All462sourceviews haveexactly6top-levelkeys",
+  "observed": "18preexistingTopKaggregateviewshaveadditionalK/rank/weekly-selectionkeys;sourcecontainsnoindividualofferorplayerrows",
+  "fix": "AllowexplicitknownaggregateTopKmetadatawhile selectingonlyregistered66requestedproducts/periods;sourcebytesandallcountsunchanged",
+  "failed_preoutput_attempts": 1,
+  "new_grades_or_fits": 0,
+  "network_calls": 0,
+  "scope": "Localdevelopmentassertiononly; noNFLarithmeticdefectorsourcecorrectionclaimed"
+}

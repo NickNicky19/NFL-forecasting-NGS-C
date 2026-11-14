@@ -1,0 +1,73 @@
+{
+  "id": "C-W1W9-COMPARISON-RESOURCE-v1",
+  "measured_UTC": "2026-11-14T19:51:05.898526+00:00",
+  "roots_policy": {
+    "path": "reports/wave-closure-next-valid-01/RESOURCE_CLOSURE.json",
+    "bytes": 22415,
+    "SHA256": "2b357d7aab6bb5ad1a03617770c97c46b9ebdb0e8cdabbaacf3b0d2c98668312"
+  },
+  "new_temporary_prefixes": [
+    "/tmp/w1w9*",
+    "/tmp/c-w1w9*"
+  ],
+  "whole_C_bytes": 2491761110,
+  "unchanged_cap_bytes": 2684354560,
+  "headroom_bytes": 192593450,
+  "accounting": "Same established roots plus current task temporary files; regularfile apparentbytes includingrepo/Git beforefinalcommit; no evidence deletion or spentbudgetreset.",
+  "A_GitHub_reads": 12,
+  "B_GitHub_reads": 12,
+  "root_indexed_aggregate_reads": {
+    "requests": 6,
+    "response_bytes": 2755441,
+    "source": {
+      "artifact_id": "B-EXPORT-022f91e4fab9ffeb",
+      "path": "reports/information-first-20261112-01/B/completion-scores-v1/COMMON_CONTROL_TABLE.json",
+      "bytes": 2364218,
+      "sha256": "945a3b979f8c0539d88c249bc1123e1235ceb27ebfc9337f03c794346faab0e9",
+      "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+      "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-scores-v1/COMMON_CONTROL_TABLE.json",
+      "readback_verified": true,
+      "readback_UTC": "2026-11-13T00:21:24.264138+00:00",
+      "kind": "FTN_COMPLETION_INFORMATION_ABLATION_AND_FROZEN_CONDITIONAL_SHADOW",
+      "rights": "FTN-dependentinputs/models/predictions/scoresCC-BY-SA-4.0,FTNData via nflverse;PBP/statistics separatelyCC-BY-4.0;owncode repositoryterms;no rawfeeds/protectedoffers.",
+      "retention": "IMMUTABLE_GITHUB_EXACT_BYTES_READBACK_VERIFIED",
+      "admission": "LOCAL_INDEPENDENT_B_CHECKED_NOT_C_ADMITTED_OR_SITE_CONSUMED;historicalpublication/quoteclocksnotauthenticated",
+      "periods": "2025REGW1-18numeric;2026REGW1-9numeric,actual-line diagnosticsW5-9only;lateconditionalW10forecast-onlypacket"
+    },
+    "observed_UTC": "2026-11-14T18:35:14.045648+00:00",
+    "raw_ephemeral_only": true,
+    "supplemental_reads": [
+      {
+        "path": "reports/player-context-matchup-01/B/ALL_METHOD_SIDE_TABLE.json",
+        "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+        "bytes": 212977,
+        "sha256": "3cfa0ec1f1cf191b32561da8f5189df36f4f270ec21ca058e46eaacd5b77517a"
+      },
+      {
+        "path": "reports/player-context-matchup-01/B/qb-wave-v1/FROZEN_PROTOCOL.json",
+        "ref": "3ad682cf86912f025e5a1699c8a396f3d9065222",
+        "bytes": 5256,
+        "sha256": "afefa53e0d2f794f99f29c410e6e0b0260876126526d12404a2d8bcd8993f9fb"
+      },
+      {
+        "repository": "NickNicky19/NFL-forecasting",
+        "path": "reports/abc-championship/category-decision-release-01/LAW_DIRECTION_RECONCILIATION_V1.json",
+        "ref": "5a41d2bac6027e0ac1b5a2744d52f8ec5e93c47e",
+        "bytes": 60657,
+        "sha256": "1e982369240307f141d8ab6c266a55407c4deed61f8d2c866f1273777d6d01f1",
+        "already_indexed_immutable_sha_verified": true
+      }
+    ],
+    "root_amendment": "RootREGISTRATION +2 exactindexedaggregateparts, total6noreset"
+  },
+  "C_new_source_reads": 0,
+  "C_necessary_origin_fits": 2,
+  "C_fit_CPU_seconds": 13.97,
+  "C_peak_fit_RSS_bytes": 287875072,
+  "C_actual_offer_grade_runs": 0,
+  "source_grades_reused_not_refitted": true,
+  "new_NFL_games": 0,
+  "new_original_selected_sides": 0,
+  "ledger_wire_bytes": 2527713,
+  "new_collectors_schedulers_paidservices_peerwrites": 0
+}

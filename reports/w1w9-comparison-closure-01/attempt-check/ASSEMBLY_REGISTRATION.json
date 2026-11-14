@@ -1,0 +1,17 @@
+{
+  "id": "C-EXISTING-COMMON-EXPOSURE-ATT-W1W8-v1",
+  "registered_UTC": "2026-11-14T19:05:18.465167+00:00",
+  "existing_frozen_product": "B-player-context-matchup-01-v1:COMMON_EXPOSURE::lower_median",
+  "source_schedule": {
+    "W1_W4": "A completedP005 weeklyretainedreal-line source,83offers",
+    "W5_W8": "BexplicitP1_LOWER_MEDIAN native112offers; notP2substitution",
+    "AannualW5": "Excluded byfixedsourcecalendar; preservedseparately",
+    "W9": "Missingexactsameprocedureoutput/score;30ATTsourceoffersknownbyB;notfilledfromCMPorlaw"
+  },
+  "contract": "Local acceptedB_REVIEW matches A/B W5predictionSHA4c916ef15c8ea47d998087c76ab44cb10b94508c1024f61219ea720b7769b7fc; explicitlower-medianrule;same7day/H-RECENTupdate atdiagnostictier. Awaitsource-contractfinalALLOWbeforeexecuting.",
+  "analysis": "No newgrading/fits/selectors. Sumownintegercounts; constantsderivefromqualifiedfull no-push median owncrossings andcomparepublishedsame-maskconstanttotals. Sourcegameweekcountssumonlyacrossdisjointofficialweeks.",
+  "uncertainty": "Existingseed1703/500wholeweekweightedcountbootstrap; eightclusters; actualindividualgame/disagreementmatrixunavailableexceptconstantsderivedfromownside. No newstatisticaladmissionrule.",
+  "no_new_fits": true,
+  "no_new_source_reads": true,
+  "no_nine_week_claim": true
+}
