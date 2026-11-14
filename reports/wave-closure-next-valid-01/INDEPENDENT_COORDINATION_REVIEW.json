@@ -1,0 +1,251 @@
+{
+  "id": "C-WAVE-CLOSURE-INDEPENDENT-COORDINATION-REVIEW-v1",
+  "reviewer": "C internal independent read-only agent /root/closure_independent_review; not Session B, A or website acknowledgement",
+  "reviewed_UTC": "2026-11-14T15:08:31.873286+00:00",
+  "status": "PASS_CHECKED_SCOPE;PREPUBLICATION_METADATA_DEFECT_CORRECTED",
+  "new_source_requests": 0,
+  "new_fits": 0,
+  "new_grader_or_selector": 0,
+  "checked": {
+    "component_manifest_files": {
+      "A-intake": 11,
+      "B-intake": 18,
+      "website-intake": 19,
+      "personnel": 12,
+      "C-shadow-grading": 17
+    },
+    "A_own_side_triads": 87,
+    "B_own_side_triads": 204,
+    "B_main_mean_mask_commitment_equal": true,
+    "B_mean_baseline_wins": 76,
+    "B_mean_candidate_wins": 72,
+    "B_mean_decided": 142,
+    "B_primary_actual_offer_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "B_missing_actual_offer_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "B_law_baseline_wins": 73,
+    "B_law_candidate_wins": 75,
+    "website_independently_summed": {
+      "control": {
+        "selected": 109,
+        "wins": 49,
+        "losses": 58,
+        "decided": 107,
+        "unknown": 2
+      },
+      "candidate": {
+        "selected": 110,
+        "wins": 53,
+        "losses": 55,
+        "decided": 108,
+        "unknown": 2
+      },
+      "candidate_generated": {
+        "selected": 10,
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "unknown": 0
+      },
+      "candidate_fallback": {
+        "selected": 100,
+        "wins": 47,
+        "losses": 51,
+        "decided": 98,
+        "unknown": 2
+      }
+    },
+    "website_membership": {
+      "same_side_common": 100,
+      "control_only": 9,
+      "candidate_only": 10
+    },
+    "website_valid_complete_policy_week_count": 5,
+    "website_scope": "Partial conditional exposed retrospective W4\u20138; candidate SHADOW. Ten generated and100referencefallback are contribution counts, not a new duration rule or all-category deployment comparison.",
+    "C_original_source_to_grade_rows": 100,
+    "C_unique_outcomes": 25,
+    "C_unique_played": 18,
+    "C_unique_unknown": 7,
+    "C_recomputed_numerical_metrics": [
+      {
+        "run_id": "C-C04-20261110-W10-FIRST-01",
+        "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+        "n": 18,
+        "mean_MAE": 1.3466539255811327,
+        "mean_MSE": 2.8225497566631335,
+        "mean_bias": -0.18389793854220884,
+        "median_MAE": 1.3333333333333333
+      },
+      {
+        "run_id": "C-C04-20261110-W10-FIRST-01",
+        "model_id": "C_V11_P1_E2_POOLED_7D",
+        "n": 18,
+        "mean_MAE": 1.4321546733582844,
+        "mean_MSE": 2.997143921582752,
+        "mean_bias": -0.2523392682219608,
+        "median_MAE": 1.4444444444444444
+      },
+      {
+        "run_id": "C-C04-20261110-W10-FIRST-01",
+        "model_id": "C04_F3_PROFILE_1D_SHADOW",
+        "n": 18,
+        "mean_MAE": 1.3065329217011443,
+        "mean_MSE": 2.675746707430134,
+        "mean_bias": -0.22401220958255383,
+        "median_MAE": 1.3333333333333333
+      },
+      {
+        "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+        "model_id": "C_V11_P1_E2_POOLED_7D",
+        "n": 18,
+        "mean_MAE": 1.4321546733582844,
+        "mean_MSE": 2.997143921582752,
+        "mean_bias": -0.2523392682219608,
+        "median_MAE": 1.4444444444444444
+      }
+    ],
+    "C_offers_or_original_selected_sides": 0,
+    "personnel_observed_roster_section_rows": 164,
+    "personnel_skill_identity_matches": [
+      47,
+      48
+    ],
+    "personnel_limits": "All displayed current status sections available; full event-effective completeness, Detroit explicit selected year, effective intraday clocks and historical predecision configurations remain unqualified. No fit/source-gap closure beyond obtained route.",
+    "common_ledger": {
+      "prior_entries": 32103,
+      "appended_views": 319,
+      "total_entries": 32422,
+      "prior_decoded_bytes_exact_prefix": true,
+      "complete_entry_ids_unique": true,
+      "B_product_scored_status_mapping_verified": true,
+      "B_explicit_product_identities_including_TopK_scope": 13,
+      "source": {
+        "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+        "bytes": 2157803,
+        "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+      }
+    },
+    "canonical_bindings": {
+      "new_protocol_and_export_nodes_equal": true,
+      "direct_bound_artifacts_verified": 14,
+      "task_and_export_protocol_commitments_verified": true,
+      "new_task_present": true,
+      "root_future_review_manifest_validation_bindings_excluded": true
+    }
+  },
+  "resolved_prepublication_findings": [
+    {
+      "classification": "VERIFIED_METADATA_MAPPING_DEFECT_CORRECTED_BEFORE_PUBLICATION",
+      "affected_scope": "The first unpublished V3 draft only:204 appended B common-ledger metadata rows. Source scored outputs and all32103oldrows unaffected.",
+      "reproduction": "Source uses product_id and combined_decided; first draft copied only same-named common fields, leaving common product/scored/status blank while additional_metrics retained values.",
+      "fix": "Map typed product_id to product, combined_decided to scored, explicit scored/no-selection status; distinguishK/rankscope for rollingTopK. Regenerated only known unpublished draft under git-untracked guard.",
+      "before_after_NFL_metrics": "No forecast, side, grade, population, model or NFL metric change. Corrected V3 SHA cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+    },
+    {
+      "classification": "PREPUBLICATION_NARRATIVE_TRANSCRIPTION_CORRECTED",
+      "scope": "Root draft selector weekly table; immutable source and canonical calculations unchanged.",
+      "verified_final_values": {
+        "W6": {
+          "control": [
+            11,
+            13
+          ],
+          "candidate": [
+            12,
+            12
+          ]
+        },
+        "W7": {
+          "control": [
+            15,
+            9
+          ],
+          "candidate": [
+            15,
+            9
+          ]
+        },
+        "W8": {
+          "control": [
+            10,
+            12
+          ],
+          "candidate": [
+            10,
+            12
+          ]
+        }
+      }
+    }
+  ],
+  "verification_limits": [
+    "No private A/B offers/plays, model restoration/fresh fits, quote clocks, individual disagreement masks or bootstrap reproduction. Public exact commitments and aggregate arithmetic are the checked peer scope.",
+    "No new B independent fifth-week review or B frozen-packet grade was obtained; internal C review is not that receipt. B owner queue remains open.",
+    "C numerical labels/errors were checked from retained qualified factual/outcome projection and original frozen rows. No independent second-provider adjudication or re-derived full distribution/CRPS calculation in this reviewer.",
+    "No original website code mutation, native producer execution, new authenticated Count A delivery, browser/mobile run or production release; latest served metadata byte check remains as scoped in owner intake.",
+    "No prospective actual-line selections, historical personnel proof or90%claim established by this review. Whole-policy duration is retained without automatic primary promotion.",
+    "Canonical new-node artifact and task/export commitments were verified before this review is bound into root nodes. Future root manifest/validation/review-node mutation is outside this exact check to avoid a cyclic file-hash commitment."
+  ],
+  "input_bindings": [
+    {
+      "path": "reports/wave-closure-next-valid-01/README.md",
+      "bytes": 9966,
+      "SHA256": "6b3a8fcb9d7a12e8ec7f988b74de9e610d27079c11b8d825de5265d7739d1a17"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/CHECKPOINT.json",
+      "bytes": 3992,
+      "SHA256": "e715c7ee9eadfff1d794f51e5ac5d1853af7def4eab227aa03601423327d16c8"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/FINITE_QUEUE.json",
+      "bytes": 10289,
+      "SHA256": "d7be31f059a20840e31c48131d7fbd7e9649c348dca2256cd3e4b834fc3d7fb3"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/TWELVE_CATEGORY_CLOSURE_STATUS.json",
+      "bytes": 9676,
+      "SHA256": "714c7bbed973ed39fce19fa892be0d7f5146c71299d1b854b534e2338d3bda68"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 2105,
+      "SHA256": "9c9b32527be8229a2f67856f11630ff6ca7c420220f7efb1fbe7735a197c1655"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/A-intake/MANIFEST.json",
+      "bytes": 2477,
+      "SHA256": "4f2e40acd499c3480a52468be5bbe178586546891d75303651d8a871d29dfcc2"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/B-intake/MANIFEST.json",
+      "bytes": 3821,
+      "SHA256": "061dd9e1cbdfb0b9442d603864dbc865e06dd2e2a948e3aa40ab6e19d28abd2b"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/website-intake/MANIFEST.json",
+      "bytes": 4115,
+      "SHA256": "3d70483ed9d2732972da36310358e9f66b377ce98f95de9a89eb7036f51b0533"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/personnel/MANIFEST.json",
+      "bytes": 2458,
+      "SHA256": "2848541d4a8ed9d1e0661ddd21b99287281023857814601de8cd716db9529bfe"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/C-shadow-grading/MANIFEST.json",
+      "bytes": 3815,
+      "SHA256": "78b1d607f725ae439d9751b679fb01c89f3be91523af3550af17467d5f76d5da"
+    }
+  ]
+}

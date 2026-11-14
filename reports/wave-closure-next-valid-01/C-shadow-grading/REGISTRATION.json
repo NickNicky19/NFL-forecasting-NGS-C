@@ -1,0 +1,14 @@
+{
+  "id": "C-W10-FROZEN-WASNYG-GRADING-20261114-01",
+  "scope": "Grade immutable C04 and C06 forecast-only packets for native event401873052; C05 stays pending",
+  "new_fits": 0,
+  "source_reads_max": 3,
+  "total_response_bytes_max": 5242880,
+  "public_retention_bytes_max": 1048576,
+  "source_routes": ["Existing ESPN native scoreboard final-status facts", "Existing nflverse schedule", "Existing nflverse stats_player_week_2026 ordinary numerical facts"],
+  "outcome_identity": "One row per original game/player/category irrespective of forecast-model multiplicity; same existing grade_run and first-qualified-snapshot guards",
+  "missingness": "Missing rows/fields and unresolved physical participation remain UNKNOWN; no assumed zeros/DNP/IR; qualified explicit statistic zero retained",
+  "offers": "No original qualified offers exist; no later line attachment or O/U scores",
+  "source_vintage": "Observed postgame outcome snapshots; never retimestamped as pregame predictors",
+  "completion": "Qualified final event and source-consistent ordinary outcome grades, or precise source/finality block, with original packets unchanged"
+}

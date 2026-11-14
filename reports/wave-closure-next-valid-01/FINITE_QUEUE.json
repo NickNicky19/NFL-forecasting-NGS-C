@@ -1,0 +1,144 @@
+{
+  "id": "C-WAVE-CLOSURE-FINITE-QUEUE-v1",
+  "no_indefinite_polling": true,
+  "rows": [
+    {
+      "id": "B_FROZEN_CONDITIONAL_PACKET_GRADE",
+      "executor": "Session B, registered B packet owner",
+      "artifact": {
+        "id": "B-FTN-COMPLETION-CONDITIONAL-APPEARANCE-SHADOW-v1",
+        "capture_commit": "f7de5d4cb792da497faaf60a5501437082e65c60",
+        "issue_UTC": "2026-11-13T00:09:55.109350+00:00",
+        "remote_readback_completed_UTC": "2026-11-13T00:11:30.591191+00:00",
+        "expiry_UTC": "2026-11-13T01:15:00+00:00",
+        "forecast_rows": 8,
+        "IR_unavailable_records": 2,
+        "queries": 5,
+        "offers": 0,
+        "selected_sides": 0,
+        "grading_executor": "B",
+        "grade_status": "NO_NEW_GRADE_RECEIPT_IN_OBTAINED_B_INDEX_OR_HEAD_PATHS;NOT_C_GRADED",
+        "minimum_next_action": "B append qualified official completion/appearance grade version; retain IR-unavailable/unknown/source-time states; do not append later lines as original picks"
+      },
+      "minimum_permissible_action": "B append qualified official completion/appearance grade version; retain IR-unavailable/unknown/source-time states; do not append later lines as original picks",
+      "completion_condition": "Immutable qualified completion/appearance grade preserving8forecastrows+2IRunavailable;no late-line original-pickclaims",
+      "remaining_authority_or_source_dependency": "B-ownedroute;Cread-only;no new authority requested"
+    },
+    {
+      "id": "B_ADDITIONAL_SELECTOR_WEEK_REVIEW",
+      "executor": "Session B, independent production-selector reviewer",
+      "artifact": "Website b2dcc88604ccf925a2f0a144ffb8f3d57018fb3f V7 W4result/inputbindings; restrictedW4selectedrows under permittedownerlocalroute",
+      "minimum_permissible_action": "Independently calculateW4sides/grades/membership and contribution;no ranker/refit",
+      "completion_condition": "Bimmutable receipt with actual checkedrow/clockscope;Cadmits receipt",
+      "remaining_authority_or_source_dependency": "Permitted restricted-row access or owner-local route;none presumed"
+    },
+    {
+      "id": "A_B_W1_W4_COMPLETION_JOIN",
+      "executor": "Session A, existing owner-local completion-board join owner",
+      "artifact": [
+        {
+          "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W01.json.gz",
+          "bytes": 156402,
+          "sha256": "17c4869b24af86195010322811630aee0210fcfea26788a5bdad1ba7d73c9b5c",
+          "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+          "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W01.json.gz",
+          "rights": "FTN-dependentinputs/models/predictions/scoresCC-BY-SA-4.0,FTNData via nflverse;PBP/statistics separatelyCC-BY-4.0;owncode repositoryterms;no rawfeeds/protectedoffers."
+        },
+        {
+          "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W02.json.gz",
+          "bytes": 166065,
+          "sha256": "0c1a42fe10e2b49a61aa71fe1ffdcb26b8dbc66031443d996088b9cbdf88543a",
+          "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+          "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W02.json.gz",
+          "rights": "FTN-dependentinputs/models/predictions/scoresCC-BY-SA-4.0,FTNData via nflverse;PBP/statistics separatelyCC-BY-4.0;owncode repositoryterms;no rawfeeds/protectedoffers."
+        },
+        {
+          "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W03.json.gz",
+          "bytes": 155318,
+          "sha256": "90cbb16d1f8450eeb60ed34d32f9cc1a9e199d35731a9df4b5baa074d578eca8",
+          "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+          "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W03.json.gz",
+          "rights": "FTN-dependentinputs/models/predictions/scoresCC-BY-SA-4.0,FTNData via nflverse;PBP/statistics separatelyCC-BY-4.0;owncode repositoryterms;no rawfeeds/protectedoffers."
+        },
+        {
+          "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W04.json.gz",
+          "bytes": 146855,
+          "sha256": "14c982416dfb7b21fcfbe9e2085a6ca95d61f598ff1308edf1c5d960e0896d60",
+          "producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+          "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W04.json.gz",
+          "rights": "FTN-dependentinputs/models/predictions/scoresCC-BY-SA-4.0,FTNData via nflverse;PBP/statistics separatelyCC-BY-4.0;owncode repositoryterms;no rawfeeds/protectedoffers."
+        }
+      ],
+      "minimum_permissible_action": "Compatible retained W1\u20134 ordinary completion offers, exact source/horizon/role/line/duplicate membership and owner-local immutable score receipt",
+      "completion_condition": "Exact saved-output joins with own-side/coverage/unknowns and same-maskcontrols; qualify W5 overlap separately, no denominator concatenation",
+      "remaining_authority_or_source_dependency": "Acompatibleoffermembership/sourcecontract;exactBoutputsavailable,no newfit"
+    },
+    {
+      "id": "COUNT_A_UPLOAD_AUTHORIZATION",
+      "executor": "Existing authorized upload-connection administrator",
+      "artifact": "Original A upload-hostmetadataPOST HTTP401;pass_td__COUNT_A_MEAN",
+      "minimum_permissible_action": "Diagnose/fix existing authorized connection capability without exposing/requestingsecrets;signal relevant statechange toA",
+      "completion_condition": "Aauthorizeduploadaccepted andexactartifactreadback;mergealoneinsufficient",
+      "remaining_authority_or_source_dependency": "ConnectionauthorityoutsideC"
+    },
+    {
+      "id": "COUNT_A_EXACT_HEAD_APPROVAL",
+      "executor": "Session A/source authorized PR reviewer",
+      "artifact": {
+        "PR90": "cc7c82834edb9a0de404c52d28212737994dd759",
+        "PR91": "cf3fe6eaeed241d405206b73d67c359290b474ec"
+      },
+      "minimum_permissible_action": "Review/land onlyexactauthorizedcurrentheads viaregisteredprotectedprocess",
+      "completion_condition": "Exact-headmerge orscopedrejectionreceipt;auth remainsseparate",
+      "remaining_authority_or_source_dependency": "NoCpeermerge/dispatchauthority"
+    },
+    {
+      "id": "COUNT_A_NATIVE_CONSUMER",
+      "executor": "Session A registered native producer, then original website owner consumer",
+      "artifact": "pass_td__COUNT_A_MEAN complete model/preprocessing/corrector/typedpoint/source/currentcapsule/issuedRoot",
+      "minimum_permissible_action": "After actualnativegates, executecurrentinference,durableexport/readablederivedfeed;websitecheckscorrectedmeanonce/fallback/type/featureparity;Bverifyfirstdeliveredoutput",
+      "completion_condition": "Producercommit/run/cutoff/issue/hash,readableserverreadback,consumeradmission/served-value",
+      "remaining_authority_or_source_dependency": "Registeredproducer/consumerauthority;noexpiredfeedreuse"
+    },
+    {
+      "id": "C_PERSONNEL_EVENT_EFFECTIVE_HISTORY",
+      "executor": "Session C source/receiving owner",
+      "artifact": {
+        "path": "reports/wave-closure-next-valid-01/personnel/QUALIFICATION.json",
+        "bytes": 5993,
+        "SHA256": "2cc39094935ab67de079dab64bf4363422f79cef9970a591fc4b224572d3c411"
+      },
+      "minimum_permissible_action": "Preserve observedofficialroster/status/transactionfacts; reopencomparisononlywith authenticpredecisionversions+effective movement/identitycoverage;no exhaustedsummarypoll",
+      "completion_condition": "Declared completeeventeffectiveteammates+historicalconfigurations support unchangedP1 vsredistribution,orretainexactSOURCE_BLOCKED",
+      "remaining_authority_or_source_dependency": "Historicalauthenticversions/effectiveclockssstillmissing;no paidacquisition/collector"
+    },
+    {
+      "id": "CURRENT_WEBSITE_CADENCE_NEXT_BOARD",
+      "executor": "Original website owner and existing job/source owners",
+      "artifact": {
+        "path": "reports/wave-closure-next-valid-01/website-intake/CURRENT_SERVED_BYTE_CHECK.json",
+        "bytes": 1542,
+        "SHA256": "1ea3ad9ae9fb1a997facf706c99c67d42369193b35a9406f1ccc4f0038038fe3"
+      },
+      "minimum_permissible_action": "Refresh qualifiednext-event source/offer/forecastpacket through existingjobs;enforceexpiry;keepincumbent/frozenchallengermappingseparate",
+      "completion_condition": "Durablepredecision fullboard,realoffers/rules/sides/clockswherequalified,freshservedbytes/latergrade;otherwiseforecast-only",
+      "remaining_authority_or_source_dependency": "Currentpermittedsource/offeraccess;noCdispatch/duplicatescheduler"
+    },
+    {
+      "id": "C05_ORIGINAL_FUTURE_GRADE",
+      "executor": "Session C original frozen packet owner",
+      "artifact": "prospective/runs/C-C05-NEDET-FIRST-01",
+      "minimum_permissible_action": "Grade original69rows onlyafterqualifiednativefinaloutcomes;preserve issuance/unknowns",
+      "completion_condition": "Versionedforecast-onlygrades;no reissue/backdating/late-lineclaim",
+      "remaining_authority_or_source_dependency": "Futurequalifiedfinals;no newcapture/fitdemanded"
+    },
+    {
+      "id": "BROADER_HISTORY_W1_W9",
+      "executor": "Existing A/B/C per-category executors; Cledgercoordinator",
+      "artifact": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+      "minimum_permissible_action": "Keep exactpending2026W1\u20139/2022\u20132025 sourcecells;reuse savedoutputsfirst;no automaticsearch",
+      "completion_condition": "Compatible exact-procedureweeks/ownside/coverage/controlreceipts;do notsumoverlappingviews",
+      "remaining_authority_or_source_dependency": "Source-specificoffer/model/role/clockgaps inexistingledger"
+    }
+  ]
+}

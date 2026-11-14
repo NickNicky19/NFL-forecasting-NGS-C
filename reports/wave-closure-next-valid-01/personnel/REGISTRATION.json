@@ -1,0 +1,37 @@
+{
+  "id": "C-PERSONNEL-TEAM-ROSTER-TRANSACTION-QUALIFICATION-01",
+  "registered_UTC": "2026-11-14T14:55:10.337589+00:00",
+  "task": "One bounded different source-route qualification; no predictive fit or experimental result",
+  "route": "Official NE and DET team roster status tables plus dated team transaction records, tied to native NE\u2013DET event contract",
+  "sources_selected_before_calls": [
+    "https://www.patriots.com/team/players-roster/",
+    "https://www.detroitlions.com/team/players-roster/",
+    "https://www.patriots.com/team/transactions/",
+    "https://www.detroitlions.com/team/transactions/"
+  ],
+  "budget": {
+    "remote_reads_max": 6,
+    "retained_bytes_max": 5242880,
+    "fits": 0,
+    "collectors": 0,
+    "schedulers": 0
+  },
+  "coverage_questions": [
+    "All roster status sections, not just injury-listed players",
+    "Provider status definitions and transaction effective dates",
+    "NE/DET identities and canonical IDs available",
+    "Current actual observation and next event cutoff, historical clocks unavailable unless explicitly present"
+  ],
+  "retention": "Minimal factual aggregate/identity/status projections only; no full page, biography, photograph or protected article retention; hash/version/HTTP metadata where available",
+  "no_claims": [
+    "No inferred historical publication from observation",
+    "No current roster copied into past games",
+    "No game-active or starter status inferred from roster inclusion",
+    "No model-value claim from source qualification"
+  ],
+  "existing_reused_contracts": [
+    "reports/profile-increment-v2/ROSTER_SEMANTICS.json",
+    "reports/profile-closure-next-02/current-source/ROSTER_QUALIFICATION.json",
+    "reports/information-first-20261112-01/personnel/FINAL_QUALIFICATION.json"
+  ]
+}

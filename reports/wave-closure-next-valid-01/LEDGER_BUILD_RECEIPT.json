@@ -1,0 +1,54 @@
+{
+  "id": "C-WAVE-CLOSURE-COVERAGE-V3",
+  "old": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V2.csv.gz",
+    "bytes": 2082828,
+    "SHA256": "2e79419d282ffd93cc2d3075e20842ea80c982c2b97fd844cdfabdb5a87cd949"
+  },
+  "new": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+    "bytes": 2157803,
+    "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+  },
+  "prior_entries": 32103,
+  "appended_entries": 319,
+  "total_entries": 32422,
+  "A_views": 87,
+  "B_views": 204,
+  "selector_policy_and_contribution_views": 24,
+  "C_forecast_only_model_views": 4,
+  "sources": [
+    {
+      "path": "reports/wave-closure-next-valid-01/A-intake/NORMALIZED_HISTORICAL_CONTROL_ROWS.json.gz",
+      "bytes": 5693,
+      "SHA256": "eb66ce74c0bd128b869c941c1ee64bf26bd28439ec1cb6fbee4b8ab96edfecc5"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/B-intake/NORMALIZED_COMPLETION_SIDE_AGGREGATES.json.gz",
+      "bytes": 21764,
+      "SHA256": "a588974fbadff777cc78f492c5958dd3c5c4b414264dbec5c3b2052f4ec85265"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/website-intake/five-week-summary-v2.json",
+      "bytes": 25557,
+      "SHA256": "8c6646b17841229f3e7108de38bd44e8436dbe88e350343ae4899e01c3ba0f17"
+    },
+    {
+      "path": "reports/wave-closure-next-valid-01/C-shadow-grading/GRADING_RECEIPT.json",
+      "bytes": 9481,
+      "SHA256": "b79f69122e949e7e23dd579ebe88f9e889a22c00c78fde3a53808d90c0730435"
+    }
+  ],
+  "old_decoded_wire_exact_prefix": true,
+  "all_complete_entry_ids_unique": true,
+  "new_2026_actual_offer_games": 0,
+  "new_original_selected_sides": 0,
+  "new_C_forecast_only_graded_game": 1,
+  "new_C_forecast_only_week": [
+    2026,
+    10
+  ],
+  "scope": "Named overlapping evidence views; never sum masks, windows, contribution components or model/run views into independent observations.",
+  "FTN_attribution": "FTN Data via nflverse; CC BY-SA 4.0. Derived public aggregates retain attribution; no new raw charting distribution.",
+  "CPU_seconds": 2.808928143
+}

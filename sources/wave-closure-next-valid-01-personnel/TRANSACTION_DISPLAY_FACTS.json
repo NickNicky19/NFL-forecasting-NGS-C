@@ -1,0 +1,63 @@
+{
+  "source_contract": "OFFICIAL_TEAM_TRANSACTION_DISPLAY_FACTS-v1",
+  "retrieved_between_UTC": [
+    "2026-11-14T14:55:10.337589+00:00",
+    "2026-11-14T14:55:45.261322+00:00"
+  ],
+  "capture_tool": "public web source open",
+  "raw_HTML_or_full_text_retained": false,
+  "historical_original_publication_UTC": null,
+  "dates_scope": "Displayed month/day; exact intraday effective/publication times and explicit selected year were not established in returned text. Do not use as authenticated historical 2026 snapshots.",
+  "sources": [
+    {
+      "team": "NE",
+      "url": "https://www.patriots.com/team/transactions/",
+      "source_total_lines": 452,
+      "selected_displayed_facts": [
+        {
+          "displayed_date_MM_DD": "11/11",
+          "player": "Tanner Arkin",
+          "action": "practice-squad signing"
+        },
+        {
+          "displayed_date_MM_DD": "11/09",
+          "player": "Tanner Arkin",
+          "action": "53-man roster release"
+        },
+        {
+          "displayed_date_MM_DD": "11/07",
+          "player": "Mack Hollins",
+          "action": "53-man roster activation"
+        },
+        {
+          "displayed_date_MM_DD": "10/19",
+          "player": "Romeo Doubs",
+          "action": "injured-reserve placement"
+        }
+      ]
+    },
+    {
+      "team": "DET",
+      "url": "https://www.detroitlions.com/team/transactions/",
+      "source_total_lines": 170,
+      "selected_displayed_facts": [
+        {
+          "displayed_date_MM_DD": "11/11",
+          "player": "Jackson Meeks",
+          "action": "practice-squad re-signing"
+        },
+        {
+          "displayed_date_MM_DD": "11/09",
+          "player": "Jackson Meeks",
+          "action": "waiver"
+        },
+        {
+          "displayed_date_MM_DD": "09/01",
+          "player": "Isiah Pacheco",
+          "action": "Reserve/Injured placement"
+        }
+      ]
+    }
+  ],
+  "comparison": "Selected transaction facts are consistent with observed current roster sections for these players; consistency does not supply original effective clocks or prove every movement is represented."
+}

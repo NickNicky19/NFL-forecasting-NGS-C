@@ -1,0 +1,28 @@
+{
+  "id": "C-LOCAL-DRAFT-LEDGER-METADATA-REPAIR-v1",
+  "verified_defect": "Initial unpublished V3 mapper copied B product_id and combined_decided only into additional_metrics, leaving common product/scored/status blank. The 204 B aggregate views retained side numbers but primary product typing was incomplete.",
+  "affected_scope": "Only C generated never-published V3 local draft SHA6ff0f3a803f5a8835f380075518cf395c8c8fe1c9ed20e888c8b1cf59551dc4f; no V2/source/model/prediction/grade affected.",
+  "minimal_reproduction": {
+    "source": {
+      "product_id": "P1_MEAN",
+      "combined_decided": 142
+    },
+    "before": {
+      "product": "",
+      "scored": "",
+      "status": ""
+    },
+    "after": {
+      "product": "P1_MEAN",
+      "scored": 142,
+      "status": "OWNER_SCORED_DIAGNOSTIC"
+    }
+  },
+  "root_cause": "Common ledger and normalized source use different field names; incomplete explicit schema mapping.",
+  "fix": "Map product_id to product, combined_decided to scored, explicit scored/N-A status; retain K/rank_scope in selective product identity. Regenerate only exact known untracked draft; any tracked or other existing version fails closed.",
+  "before_after_predictive_metrics": "UNCHANGED;metadata typing repair only, no forecast/regrading/side/ranking change",
+  "corrected_V3_SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a",
+  "reviewer": "C independent internal coordination reviewer; not an A/B external receipt",
+  "report_transcription_correction": "Unpublished README W6\u20138 weekly rows corrected from copied draft values to actual immutable website weekly values; cumulative/source/ledger always retained actual published values.",
+  "recorded_UTC": "2026-11-14T15:07:10.877093+00:00"
+}

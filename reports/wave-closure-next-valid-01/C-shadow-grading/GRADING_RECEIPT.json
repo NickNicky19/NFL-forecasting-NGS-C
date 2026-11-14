@@ -1,0 +1,302 @@
+{
+  "id": "C-NATIVE-GRADE-20261114-WASNYG-01",
+  "created_UTC": "2026-11-14T14:56:47.074987+00:00",
+  "original_packet_hashes": {
+    "prospective/runs/C-C04-20261110-W10-FIRST-01/RUN.json": "a951398153017f5dcf30a4b201821ca5bcc4798f9ae58ac36184012b402cb40d",
+    "prospective/runs/C-C04-20261110-W10-FIRST-01/FORECASTS.json.xz": "4334c6e93d41487011e3bedb9a0a0173e38ccfcf5c568b30efbd0b73995be362",
+    "prospective/receipts/C-C04-20261110-W10-FIRST-01-server.json": "5f9f10e1ad90063a74264499cb8b3a3817103367a212343496296071104b90fe",
+    "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/RUN.json": "9846fc48c86b795bbcbb62f215a33332012eed43c523500a0a6699c9dacfeead",
+    "prospective/runs/C-C06-20261112-W10-CURRENT-P1-01/FORECASTS.json.xz": "8f7b505452ad74ba0ecf8194e429ab400ff9296e8c17a8014067e4c66f3ebfbc",
+    "prospective/receipts/C-C06-20261112-W10-CURRENT-P1-01-server.json": "6f485a3a65382a6accb179886642d7295da20473a1328395735184820513c924"
+  },
+  "outcome_packet": {
+    "path": "prospective/outcomes/C-NATIVE-GRADE-20261114-WASNYG-01/OUTCOMES.json",
+    "SHA256": "2a097d05c561f96ef860bfbafd5889db6c380912dddfbe4e8ef60b97769bf00a"
+  },
+  "grade_files": [
+    {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261114-WASNYG-01-C-C04-20261110-W10-FIRST-01.json",
+      "SHA256": "3752fcefbaecfaaf7fd9b312c9264272893cc16a89d7b3981ea5c3934c8f7939",
+      "rows": 75,
+      "states": {
+        "UNKNOWN": 21,
+        "GRADED_PLAYED": 54
+      }
+    },
+    {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261114-WASNYG-01-C-C06-20261112-W10-CURRENT-P1-01.json",
+      "SHA256": "93b0466c3fc1ba0190adbca862bd13b9266c484a8ca57158100d216850c3f8df",
+      "rows": 25,
+      "states": {
+        "UNKNOWN": 7,
+        "GRADED_PLAYED": 18
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "eligible": 25,
+      "states": {
+        "UNKNOWN": 7,
+        "GRADED_PLAYED": 18
+      },
+      "scored": 18,
+      "mean_MAE": 1.3065329217011443,
+      "mean_MSE": 2.675746707430134,
+      "mean_bias": -0.22401220958255383,
+      "median_MAE": 1.3333333333333333,
+      "CRPS": 0.866319677751823,
+      "forecast_only": true,
+      "actual_offers": 0,
+      "OU_direction": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "eligible": 25,
+      "states": {
+        "UNKNOWN": 7,
+        "GRADED_PLAYED": 18
+      },
+      "scored": 18,
+      "mean_MAE": 1.4321546733582844,
+      "mean_MSE": 2.9971439215827522,
+      "mean_bias": -0.2523392682219608,
+      "median_MAE": 1.4444444444444444,
+      "CRPS": 0.9325668542835527,
+      "forecast_only": true,
+      "actual_offers": 0,
+      "OU_direction": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "eligible": 25,
+      "states": {
+        "UNKNOWN": 7,
+        "GRADED_PLAYED": 18
+      },
+      "scored": 18,
+      "mean_MAE": 1.3466539255811325,
+      "mean_MSE": 2.822549756663134,
+      "mean_bias": -0.18389793854220884,
+      "median_MAE": 1.3333333333333333,
+      "CRPS": 0.8933521554552962,
+      "forecast_only": true,
+      "actual_offers": 0,
+      "OU_direction": null
+    },
+    {
+      "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "eligible": 25,
+      "states": {
+        "UNKNOWN": 7,
+        "GRADED_PLAYED": 18
+      },
+      "scored": 18,
+      "mean_MAE": 1.4321546733582844,
+      "mean_MSE": 2.9971439215827522,
+      "mean_bias": -0.2523392682219608,
+      "median_MAE": 1.4444444444444444,
+      "CRPS": 0.9325668542835527,
+      "forecast_only": true,
+      "actual_offers": 0,
+      "OU_direction": null
+    }
+  ],
+  "source_reads": 3,
+  "response_bytes": 2831008,
+  "new_real_games": 1,
+  "new_season_weeks": [
+    [
+      2026,
+      10
+    ]
+  ],
+  "new_actual_offers": 0,
+  "new_original_selected_sides": 0,
+  "new_fits": 0,
+  "first_snapshot_guard_preserved": true,
+  "source_vintage": "Postgame current observed outcome facts; original pregame forecast lineage unchanged",
+  "C05": "Future NEDET packet not graded or refreshed",
+  "remaining": "Qualified offer capture and later games needed; one appearance-conditioned game does not establish superiority",
+  "role_metrics": [
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "FULL_FROZEN_UNIVERSE",
+      "eligible": 25,
+      "scored": 18,
+      "unknown": 7,
+      "mean_MAE": 1.3065329217011443,
+      "mean_MSE": 2.675746707430134,
+      "mean_bias": -0.22401220958255383,
+      "median_MAE": 1.3333333333333333,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "WR_TE",
+      "eligible": 18,
+      "scored": 12,
+      "unknown": 6,
+      "mean_MAE": 1.2299548012353265,
+      "mean_MSE": 2.8014286969680278,
+      "mean_bias": -0.43355775399795765,
+      "median_MAE": 1.25,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "role": "RB_SHADOW",
+      "eligible": 7,
+      "scored": 6,
+      "unknown": 1,
+      "mean_MAE": 1.45968916263278,
+      "mean_MSE": 2.4243827283543475,
+      "mean_bias": 0.19507887924825387,
+      "median_MAE": 1.5,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "FULL_FROZEN_UNIVERSE",
+      "eligible": 25,
+      "scored": 18,
+      "unknown": 7,
+      "mean_MAE": 1.4321546733582844,
+      "mean_MSE": 2.9971439215827522,
+      "mean_bias": -0.2523392682219608,
+      "median_MAE": 1.4444444444444444,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "WR_TE",
+      "eligible": 18,
+      "scored": 12,
+      "unknown": 6,
+      "mean_MAE": 1.4649922801470827,
+      "mean_MSE": 3.390061833803212,
+      "mean_bias": -0.39591633081524535,
+      "median_MAE": 1.4166666666666667,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "RB_SHADOW",
+      "eligible": 7,
+      "scored": 6,
+      "unknown": 1,
+      "mean_MAE": 1.3664794597806875,
+      "mean_MSE": 2.2113080971418317,
+      "mean_bias": 0.034814856964608364,
+      "median_MAE": 1.5,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "FULL_FROZEN_UNIVERSE",
+      "eligible": 25,
+      "scored": 18,
+      "unknown": 7,
+      "mean_MAE": 1.3466539255811325,
+      "mean_MSE": 2.822549756663134,
+      "mean_bias": -0.18389793854220884,
+      "median_MAE": 1.3333333333333333,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "WR_TE",
+      "eligible": 18,
+      "scored": 12,
+      "unknown": 6,
+      "mean_MAE": 1.2598773601354671,
+      "mean_MSE": 2.9380353290986094,
+      "mean_bias": -0.41542279340333393,
+      "median_MAE": 1.25,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C04-20261110-W10-FIRST-01",
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "role": "RB_SHADOW",
+      "eligible": 7,
+      "scored": 6,
+      "unknown": 1,
+      "mean_MAE": 1.5202070564724635,
+      "mean_MSE": 2.5915786117921815,
+      "mean_bias": 0.2791517711800413,
+      "median_MAE": 1.5,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "FULL_FROZEN_UNIVERSE",
+      "eligible": 25,
+      "scored": 18,
+      "unknown": 7,
+      "mean_MAE": 1.4321546733582844,
+      "mean_MSE": 2.9971439215827522,
+      "mean_bias": -0.2523392682219608,
+      "median_MAE": 1.4444444444444444,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "WR_TE",
+      "eligible": 18,
+      "scored": 12,
+      "unknown": 6,
+      "mean_MAE": 1.4649922801470827,
+      "mean_MSE": 3.390061833803212,
+      "mean_bias": -0.39591633081524535,
+      "median_MAE": 1.4166666666666667,
+      "actual_offers": 0,
+      "OU_results": null
+    },
+    {
+      "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "role": "RB_SHADOW",
+      "eligible": 7,
+      "scored": 6,
+      "unknown": 1,
+      "mean_MAE": 1.3664794597806875,
+      "mean_MSE": 2.2113080971418317,
+      "mean_bias": 0.034814856964608364,
+      "median_MAE": 1.5,
+      "actual_offers": 0,
+      "OU_results": null
+    }
+  ],
+  "role_metric_binding": "reports/wave-closure-next-valid-01/C-shadow-grading/INDEPENDENT_CHECK.json",
+  "normalized_ledger_rows": "reports/wave-closure-next-valid-01/C-shadow-grading/NORMALIZED_NUMERICAL_LEDGER_ROWS.json",
+  "unique_players": 25,
+  "qualified_played_players": 18,
+  "unknown_players": 7,
+  "views_not_independent_observations": true
+}
