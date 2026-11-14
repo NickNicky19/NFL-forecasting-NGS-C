@@ -1,0 +1,33 @@
+{
+  "scope": "CA-verified HTTPS metadata/health bytes only; no browser, model inference or quote-clock authentication; no writer action",
+  "results": [
+    {
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/meta.json",
+      "observed_at_UTC": "2026-11-14T14:57:00.288872+00:00",
+      "HTTP_status": 200,
+      "Date": "Sat, 14 Nov 2026 14:57:00 GMT",
+      "Last-Modified": "Fri, 13 Nov 2026 20:51:06 GMT",
+      "ETag": "\"6af7783a-4e7\"",
+      "bytes": 1255,
+      "SHA256": "c9a3a446a66bd271f567ecd4d5a4a9b9ce7f66ef5ccf8f410a0bcb93642d3d5f",
+      "matches_pinned_main_bytes": true,
+      "pinned_local": "CURRENT_META.json",
+      "generated_at": "2026-11-13T20:50:45Z",
+      "wire_restore_note": "Exact Git blob verified after removing accidental C transcription terminal LF; source content unchanged."
+    },
+    {
+      "URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/health.json",
+      "observed_at_UTC": "2026-11-14T14:57:00.511227+00:00",
+      "HTTP_status": 200,
+      "Date": "Sat, 14 Nov 2026 14:57:00 GMT",
+      "Last-Modified": "Fri, 13 Nov 2026 20:51:06 GMT",
+      "ETag": "\"6af7783a-527\"",
+      "bytes": 1319,
+      "SHA256": "202686202e0ab1d1d336c3cdc9e8ac02599610aa7b1a64d8c29c9dbaae0d3665",
+      "matches_pinned_main_bytes": true,
+      "pinned_local": "CURRENT_HEALTH.json",
+      "generated_at": "2026-11-13T20:50:45Z",
+      "wire_restore_note": "Exact Git blob verified after removing accidental C transcription terminal LF; source content unchanged."
+    }
+  ]
+}

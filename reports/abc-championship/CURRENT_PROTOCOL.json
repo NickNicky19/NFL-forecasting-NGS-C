@@ -64,8 +64,8 @@
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 35649,
-    "SHA256": "26d99c429d92d95ec5ed2ace89148bda541b940456e49f4d3088e64b0e72b39b"
+    "bytes": 36100,
+    "SHA256": "9e825d38a0a6fca56ea8ef9e2de7b6e9b02fa802e40b8ff75775ebdebbf1c5e6"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1284,9 +1284,9 @@
       "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
     },
     "coverage": {
-      "path": "reports/information-first-20261112-01/ledger/BUILD_RECEIPT.json",
-      "bytes": 3727,
-      "SHA256": "16c4d3b45dc26294ae02bf0ef4f298c3cbe28473690a336721b002d2437bf655"
+      "path": "reports/wave-closure-next-valid-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 2105,
+      "SHA256": "9c9b32527be8229a2f67856f11630ff6ca7c420220f7efb1fbe7735a197c1655"
     },
     "intake": {
       "path": "reports/category-decision-release-01/intake/ADMISSION.json",
@@ -1334,9 +1334,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V2.csv.gz",
-      "bytes": 2082828,
-      "SHA256": "2e79419d282ffd93cc2d3075e20842ea80c982c2b97fd844cdfabdb5a87cd949"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+      "bytes": 2157803,
+      "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1778,5 +1778,75 @@
       "bytes": 8546,
       "SHA256": "d3444e9eabe312ca2965a44e77676933f6aecb8af74ede525a86767ba79545b0"
     }
+  },
+  "wave_closure_next_valid_01": {
+    "id": "C-WAVE-CLOSURE-NEXT-VALID-20261114-01",
+    "stage": "EXECUTED_C_CLOSURE;NO_NEW_PRIMARY;EXTERNAL_OWNER_TASKS_EXACT",
+    "report": {
+      "path": "reports/wave-closure-next-valid-01/README.md",
+      "bytes": 9966,
+      "SHA256": "6b3a8fcb9d7a12e8ec7f988b74de9e610d27079c11b8d825de5265d7739d1a17"
+    },
+    "checkpoint": {
+      "path": "reports/wave-closure-next-valid-01/CHECKPOINT.json",
+      "bytes": 3992,
+      "SHA256": "e715c7ee9eadfff1d794f51e5ac5d1853af7def4eab227aa03601423327d16c8"
+    },
+    "registration": {
+      "path": "reports/wave-closure-next-valid-01/REGISTRATION.json",
+      "bytes": 2999,
+      "SHA256": "b9f017d4440c48e322038456a97f3a7aa13ede41ba9caddd5b304666f8fe8a76"
+    },
+    "A_admission": {
+      "path": "reports/wave-closure-next-valid-01/A-intake/SOURCE_BINDINGS.json",
+      "bytes": 4533,
+      "SHA256": "4a64960bcdf374e57e0ffd2ef6e3fb75692ba1203ba685e12e6c1e0eb0625972"
+    },
+    "B_admission": {
+      "path": "reports/wave-closure-next-valid-01/B-intake/ADMISSION.json",
+      "bytes": 8950,
+      "SHA256": "66d39af930fafe25695da83230b62643bbf7eaaee57b98300ee701bd0daf2a9d"
+    },
+    "website_admission": {
+      "path": "reports/wave-closure-next-valid-01/website-intake/ADMISSION.json",
+      "bytes": 3009,
+      "SHA256": "9fc7a7949bf976d7c74431164a7fe8419fc4d9aa2d523326eb1c21e79f24ba99"
+    },
+    "personnel": {
+      "path": "reports/wave-closure-next-valid-01/personnel/QUALIFICATION.json",
+      "bytes": 5993,
+      "SHA256": "2cc39094935ab67de079dab64bf4363422f79cef9970a591fc4b224572d3c411"
+    },
+    "C_original_grading": {
+      "path": "reports/wave-closure-next-valid-01/C-shadow-grading/GRADING_RECEIPT.json",
+      "bytes": 9481,
+      "SHA256": "b79f69122e949e7e23dd579ebe88f9e889a22c00c78fde3a53808d90c0730435"
+    },
+    "all_twelve_status": {
+      "path": "reports/wave-closure-next-valid-01/TWELVE_CATEGORY_CLOSURE_STATUS.json",
+      "bytes": 9676,
+      "SHA256": "714c7bbed973ed39fce19fa892be0d7f5146c71299d1b854b534e2338d3bda68"
+    },
+    "queue": {
+      "path": "reports/wave-closure-next-valid-01/FINITE_QUEUE.json",
+      "bytes": 10289,
+      "SHA256": "d7be31f059a20840e31c48131d7fbd7e9649c348dca2256cd3e4b834fc3d7fb3"
+    },
+    "ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
+      "bytes": 2157803,
+      "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+    },
+    "ledger_summary": {
+      "path": "reports/wave-closure-next-valid-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 2105,
+      "SHA256": "9c9b32527be8229a2f67856f11630ff6ca7c420220f7efb1fbe7735a197c1655"
+    },
+    "selector_duration": "FIVE_DISTINCT_POLICY_BLOCKS_MET_AT_PARTIAL_CONDITIONAL_TIER;SHADOW;10candidate100fallback",
+    "new_primary_switches": 0,
+    "new_C_fits": 0,
+    "new_C_original_forecast_only_graded_game": 1,
+    "new_actual_line_selections": 0,
+    "original_website_modified": false
   }
 }

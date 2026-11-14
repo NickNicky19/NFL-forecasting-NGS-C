@@ -1,0 +1,129 @@
+{
+  "id": "C-WAVE-CLOSURE-NEXT-VALID-20261114-01",
+  "completed_UTC": "2026-11-14T15:06:20.860690+00:00",
+  "state": "C_EXECUTABLE_INTAKE_SOURCE_ROUTE_AND_ORIGINAL_SHADOW_GRADING_COMPLETE;EXTERNAL_NATIVE_JOIN_REVIEW_ACTIONS_OPEN",
+  "newly_added_evidence": {
+    "A_2023_Backfield_scored_weeks": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "A_new_NFL_games": 0,
+    "B_new_FTN_procedure_actual_offer_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "B_missing_actual_offer_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "website_fifth_complete_policy_block": [
+      2026,
+      4
+    ],
+    "website_complete_blocks": [
+      [
+        2026,
+        4
+      ],
+      [
+        2026,
+        5
+      ],
+      [
+        2026,
+        6
+      ],
+      [
+        2026,
+        7
+      ],
+      [
+        2026,
+        8
+      ]
+    ],
+    "C_new_original_forecast_only_graded_game": 1,
+    "C_new_graded_week": [
+      2026,
+      10
+    ],
+    "C_unique_queried_players": 25,
+    "C_unique_played": 18,
+    "C_unique_unknown": 7,
+    "new_original_qualified_offer_selections": 0
+  },
+  "decisions": {
+    "A_2023_direction_Top6": "CLOSE_RECIPE_NO_GAIN",
+    "B_new_FTN_mean_direction": "CLOSE_RECIPE_NO_GAIN",
+    "B_new_FTN_probability_replacement": "NO_SUPPORTED_UPGRADE;Brier/loglossworse",
+    "C_personnel_hypothesis": "SOURCE_BLOCKED_NOT_DISPROVED;CURRENT_ROSTER_ROUTE_PARTIALLY_QUALIFIED",
+    "website_frozen_selector": "SHADOW;VALID_FIVE_WEEK_COMPLETE_POLICY_FLOOR_AT_CONDITIONAL_PARTIAL_TIER",
+    "new_category_primary_switches": 0,
+    "broad_90": "TARGET_NOT_ESTABLISHED",
+    "selective_90": "TARGET_NOT_ESTABLISHED"
+  },
+  "within_vs_replacement": "New information failed primary own-baseline direction. No replacement promoted. Stronger controls/older candidates retained under their existing contracts.",
+  "new_C_fits": 0,
+  "peer_implementation_writes": 0,
+  "new_schedulers_collectors": 0,
+  "public_verification_limit": "C independent public aggregate/source commitments and local C source-to-grade trace. No private A/B rows/source clocks/fits or new B fifth-week review presumed.",
+  "defensive_workbook": "Still source-unqualified;noNov9/10backfill orrelease dependency",
+  "bindings": {
+    "A": {
+      "path": "reports/wave-closure-next-valid-01/A-intake/SOURCE_BINDINGS.json",
+      "bytes": 4533,
+      "SHA256": "4a64960bcdf374e57e0ffd2ef6e3fb75692ba1203ba685e12e6c1e0eb0625972"
+    },
+    "B": {
+      "path": "reports/wave-closure-next-valid-01/B-intake/ADMISSION.json",
+      "bytes": 8950,
+      "SHA256": "66d39af930fafe25695da83230b62643bbf7eaaee57b98300ee701bd0daf2a9d"
+    },
+    "website": {
+      "path": "reports/wave-closure-next-valid-01/website-intake/ADMISSION.json",
+      "bytes": 3009,
+      "SHA256": "9fc7a7949bf976d7c74431164a7fe8419fc4d9aa2d523326eb1c21e79f24ba99"
+    },
+    "personnel": {
+      "path": "reports/wave-closure-next-valid-01/personnel/QUALIFICATION.json",
+      "bytes": 5993,
+      "SHA256": "2cc39094935ab67de079dab64bf4363422f79cef9970a591fc4b224572d3c411"
+    },
+    "C_grades": {
+      "path": "reports/wave-closure-next-valid-01/C-shadow-grading/GRADING_RECEIPT.json",
+      "bytes": 9481,
+      "SHA256": "b79f69122e949e7e23dd579ebe88f9e889a22c00c78fde3a53808d90c0730435"
+    },
+    "ledger": {
+      "path": "reports/wave-closure-next-valid-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 2105,
+      "SHA256": "9c9b32527be8229a2f67856f11630ff6ca7c420220f7efb1fbe7735a197c1655"
+    },
+    "all12": {
+      "path": "reports/wave-closure-next-valid-01/TWELVE_CATEGORY_CLOSURE_STATUS.json",
+      "bytes": 9676,
+      "SHA256": "714c7bbed973ed39fce19fa892be0d7f5146c71299d1b854b534e2338d3bda68"
+    },
+    "queue": {
+      "path": "reports/wave-closure-next-valid-01/FINITE_QUEUE.json",
+      "bytes": 10289,
+      "SHA256": "d7be31f059a20840e31c48131d7fbd7e9649c348dca2256cd3e4b834fc3d7fb3"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "Independent-check helper only; no forecasting, source, outcome, grade or selection mutation",
+  "initial_failure": "Assertion expected human-readable run prefix on forecast_id; actual immutable IDs are not run-prefixed",
+  "repair": "Resolve supplementary comparison using the existing run path and model_id; independent identity, state and error checks then pass on all100originalrows",
+  "corrected_check": "independent_check.py",
+  "NFL_fits": 0,
+  "new_source_calls_for_repair": 0,
+  "original_outputs_preserved": true
+}

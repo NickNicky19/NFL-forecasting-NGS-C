@@ -1,0 +1,1165 @@
+{
+  "id": "B_FTN_INDEPENDENT_OUTPUT_ARITHMETIC_v1",
+  "checked_UTC": "2026-11-13T00:04:24.423472+00:00",
+  "verdict": "PASS_CHECKED_SCOPE",
+  "code_SHA256": "c29b91c1b5b947b3461f9e27b8ddc0b3e21732e4701fa0534a86eba0dd02596e",
+  "prior_independent_helper_SHA256": "fe78a84e0a94e440e0c46831a3cd7ef1234e03d8da382aba3355d65cf93a803e",
+  "sources": [
+    {
+      "week": 5,
+      "SHA256": "7ebb7e3b546147f8e7f10fa887fd295f2d72f88eb70600a22448ad29feff69fe"
+    },
+    {
+      "week": 6,
+      "SHA256": "3f7ccc297f7e2dd63d1bdc6c1e625b6183f58b58f3551d4ce2aa8ad02416d5b5"
+    },
+    {
+      "week": 7,
+      "SHA256": "c6b2a6dfd5a983892afcc7882fea337ad105a327972ce6c5c16300e4fb5ead43"
+    },
+    {
+      "week": 8,
+      "SHA256": "43fc0aef34076e5d5389cb47239c9a10d68df80cd5db6973cf008b997504b2c0"
+    },
+    {
+      "week": 9,
+      "SHA256": "63b131964ddc110e78ec8328f6c592f9f96f59be3e946e5a45e4de848cde76f8"
+    }
+  ],
+  "bindings": {
+    "FROZEN_PROTOCOL.json": "88b041ec296b85777d45a22a8a8ed469e589a75d793c342b237f444aaffab744",
+    "FROZEN_SCORING_PROTOCOL.json": "7fb0cc81124d0020ef04951ca64bfe341ab92a8bd8d285fe038c1034abac1105",
+    "COMMON_CONTROL_TABLE.json": "945a3b979f8c0539d88c249bc1123e1235ceb27ebfc9337f03c794346faab0e9",
+    "SCORES.json": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+    "PAIRED_COMPARISONS.json": "5c42eb77f336ea9d1d65dd602b5fac4cd010e02c059f5365a626e27cb9fe34c5",
+    "OWNER_LOCAL_COMMITMENTS.json": "21d58451f11b5fa2d033ca3ea31607d8aeb48331a5c521b0c7fdd33ee002a85f"
+  },
+  "checked": {
+    "Decimal_laws": 2937,
+    "B1_exact_alias_rows": 979,
+    "offered_rows": 142,
+    "method_policy_variants": 37,
+    "probability_vectors": 3496,
+    "weekly_side_aggregates": 666,
+    "new_arm_exact_commitments": 12,
+    "paired_disagreement_views": 216,
+    "numerical_views": 144,
+    "weekly_ranked_side_membership_views": 270,
+    "complete_ranked_policies": 18
+  },
+  "results": [
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 13,
+          "losses": 8,
+          "decided": 21,
+          "selected": 21,
+          "rate": 0.6190476190476191,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 63,
+          "losses": 58,
+          "decided": 121,
+          "selected": 121,
+          "rate": 0.5206611570247934,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 76,
+          "losses": 66,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.5352112676056338,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.2665452222447479,
+        "log_loss": 0.7289025147190994,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": 5,
+      "sides": {
+        "over": {
+          "wins": 3,
+          "losses": 0,
+          "decided": 3,
+          "selected": 3,
+          "rate": 1.0,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "selected": 25,
+          "rate": 0.56,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.6071428571428571,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.23824855083528146,
+        "log_loss": 0.6655778640041896,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": 6,
+      "sides": {
+        "over": {
+          "wins": 2,
+          "losses": 1,
+          "decided": 3,
+          "selected": 3,
+          "rate": 0.6666666666666666,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 9,
+          "losses": 16,
+          "decided": 25,
+          "selected": 25,
+          "rate": 0.36,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 11,
+          "losses": 17,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.39285714285714285,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.31098226181620037,
+        "log_loss": 0.8218317349104851,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": 7,
+      "sides": {
+        "over": {
+          "wins": 3,
+          "losses": 0,
+          "decided": 3,
+          "selected": 3,
+          "rate": 1.0,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 13,
+          "losses": 12,
+          "decided": 25,
+          "selected": 25,
+          "rate": 0.52,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.5714285714285714,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.26257959111116563,
+        "log_loss": 0.7237395301486179,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": 8,
+      "sides": {
+        "over": {
+          "wins": 4,
+          "losses": 4,
+          "decided": 8,
+          "selected": 8,
+          "rate": 0.5,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 13,
+          "losses": 7,
+          "decided": 20,
+          "selected": 20,
+          "rate": 0.65,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.6071428571428571,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.259159917487555,
+        "log_loss": 0.7124077772187699,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_MEAN",
+      "window": 9,
+      "sides": {
+        "over": {
+          "wins": 1,
+          "losses": 3,
+          "decided": 4,
+          "selected": 4,
+          "rate": 0.25,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 14,
+          "losses": 12,
+          "decided": 26,
+          "selected": 26,
+          "rate": 0.5384615384615384,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 15,
+          "losses": 15,
+          "decided": 30,
+          "selected": 30,
+          "rate": 0.5,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 30,
+        "brier": 0.26207508545828445,
+        "log_loss": 0.721485457140479,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P1_LOWER_MEDIAN",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 18,
+          "losses": 16,
+          "decided": 34,
+          "selected": 34,
+          "rate": 0.5294117647058824,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 55,
+          "losses": 53,
+          "decided": 108,
+          "selected": 108,
+          "rate": 0.5092592592592593,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 73,
+          "losses": 69,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.5140845070422535,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.2665452222447479,
+        "log_loss": 0.7289025147190994,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P2_STATISTICAL_LAW",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 18,
+          "losses": 16,
+          "decided": 34,
+          "selected": 34,
+          "rate": 0.5294117647058824,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 55,
+          "losses": 53,
+          "decided": 108,
+          "selected": 108,
+          "rate": 0.5092592592592593,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 73,
+          "losses": 69,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.5140845070422535,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.2665452222447479,
+        "log_loss": 0.7289025147190994,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B0",
+      "policy": "P90",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.2665452222447479,
+        "log_loss": 0.7289025147190994,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 12,
+          "losses": 11,
+          "decided": 23,
+          "selected": 23,
+          "rate": 0.5217391304347826,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 60,
+          "losses": 59,
+          "decided": 119,
+          "selected": 119,
+          "rate": 0.5042016806722689,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 72,
+          "losses": 70,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.5070422535211268,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.26918027997713156,
+        "log_loss": 0.7351794287803792,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": 5,
+      "sides": {
+        "over": {
+          "wins": 3,
+          "losses": 2,
+          "decided": 5,
+          "selected": 5,
+          "rate": 0.6,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 12,
+          "losses": 11,
+          "decided": 23,
+          "selected": 23,
+          "rate": 0.5217391304347826,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.5357142857142857,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.24527436143794393,
+        "log_loss": 0.6801927607197923,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": 6,
+      "sides": {
+        "over": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "selected": 1,
+          "rate": 1.0,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 10,
+          "losses": 17,
+          "decided": 27,
+          "selected": 27,
+          "rate": 0.37037037037037035,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 11,
+          "losses": 17,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.39285714285714285,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.3140027496646701,
+        "log_loss": 0.8329805793389802,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": 7,
+      "sides": {
+        "over": {
+          "wins": 3,
+          "losses": 0,
+          "decided": 3,
+          "selected": 3,
+          "rate": 1.0,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 13,
+          "losses": 12,
+          "decided": 25,
+          "selected": 25,
+          "rate": 0.52,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.5714285714285714,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.2640432812863174,
+        "log_loss": 0.7248581579864295,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": 8,
+      "sides": {
+        "over": {
+          "wins": 4,
+          "losses": 5,
+          "decided": 9,
+          "selected": 9,
+          "rate": 0.4444444444444444,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 12,
+          "losses": 7,
+          "decided": 19,
+          "selected": 19,
+          "rate": 0.631578947368421,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "selected": 28,
+          "rate": 0.5714285714285714,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 28,
+        "brier": 0.24712349797645988,
+        "log_loss": 0.6870554558471194,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_MEAN",
+      "window": 9,
+      "sides": {
+        "over": {
+          "wins": 1,
+          "losses": 4,
+          "decided": 5,
+          "selected": 5,
+          "rate": 0.2,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 13,
+          "losses": 12,
+          "decided": 25,
+          "selected": 25,
+          "rate": 0.52,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 14,
+          "losses": 16,
+          "decided": 30,
+          "selected": 30,
+          "rate": 0.4666666666666667,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 30,
+        "brier": 0.2750390275507241,
+        "log_loss": 0.7497681392609614,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P1_LOWER_MEDIAN",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 19,
+          "losses": 15,
+          "decided": 34,
+          "selected": 34,
+          "rate": 0.5588235294117647,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 56,
+          "losses": 52,
+          "decided": 108,
+          "selected": 108,
+          "rate": 0.5185185185185185,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 75,
+          "losses": 67,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.528169014084507,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.26918027997713156,
+        "log_loss": 0.7351794287803792,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P2_STATISTICAL_LAW",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 19,
+          "losses": 15,
+          "decided": 34,
+          "selected": 34,
+          "rate": 0.5588235294117647,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 56,
+          "losses": 52,
+          "decided": 108,
+          "selected": 108,
+          "rate": 0.5185185185185185,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 75,
+          "losses": 67,
+          "decided": 142,
+          "selected": 142,
+          "rate": 0.528169014084507,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.26918027997713156,
+        "log_loss": 0.7351794287803792,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    },
+    {
+      "method": "B2",
+      "policy": "P90",
+      "window": "ALL",
+      "sides": {
+        "over": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        },
+        "under": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        },
+        "Combined": {
+          "wins": 0,
+          "losses": 0,
+          "decided": 0,
+          "selected": 0,
+          "rate": null,
+          "unknown": 0
+        }
+      },
+      "probability": {
+        "n": 142,
+        "brier": 0.26918027997713156,
+        "log_loss": 0.7351794287803792,
+        "infinite_log_losses": 0
+      },
+      "unavailable": 0,
+      "fallback": 0
+    }
+  ],
+  "ranked_policy_results": [
+    {
+      "method": "B0",
+      "pool": "Combined",
+      "K": 6,
+      "weekly_selected": {
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "028dab8283a92933d045e546340008ab35c54252784751f6705dc59bb8d14432",
+        "6": "ed552179e99ccf70e1093a00698604d5a11b1b5f2d5f5dd9dba5d6c49fcad3b3",
+        "7": "cda5386a7ecd7302b19d9f0f1b25f7f153eb72a122c02f2d1b14711be79efb9b",
+        "8": "eb4fd4d1a9592024d456552af4ea29effd654deb983524c3442256387a21bc4d",
+        "9": "09cf931dd33684af509551f92bed34a3ca0ce85ba5a55e3dcc63da26d9511186"
+      },
+      "wins": 11,
+      "losses": 19,
+      "selected": 30
+    },
+    {
+      "method": "B0",
+      "pool": "Combined",
+      "K": 10,
+      "weekly_selected": {
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10
+      },
+      "weekly_membership_SHA256": {
+        "5": "766cc7754465e3621d3f661020361054a70ef790284e9fc7e1cd969d2c3c4dd8",
+        "6": "7d305469b9ff1ce970612285fce43358f8e092673d79f7dede438988e9f065cf",
+        "7": "8d5f68b3e8f08a91e7fb3b978c491aeba2785c5eb418fab0302ed53af90589d1",
+        "8": "afef529da8443ef6b2f8c8011119c66d197800929d5f6a81a55a59faf2668263",
+        "9": "ffba9053bfd4cfa6cf9c97d095bc5b820af8411b65015c304cacec2a2d098d90"
+      },
+      "wins": 22,
+      "losses": 28,
+      "selected": 50
+    },
+    {
+      "method": "B0",
+      "pool": "Combined",
+      "K": 20,
+      "weekly_selected": {
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20
+      },
+      "weekly_membership_SHA256": {
+        "5": "78550edc9da3e39ba5e2b88922e4de2807e2f35e1a1df9e5a6ec5c76c6aa7ffb",
+        "6": "b4eda0c2dfd6a135a2f099c4fa38c20f3fda36a4f6970b57c28b40eb94327e78",
+        "7": "e76dadb6d614975aa252e875e57a9e6016f4d15770c49fe8d25444c1d6851ac5",
+        "8": "33c9d744f70ee672d518e493ed50ec72e57f948ddd1148779b138f09f41394a8",
+        "9": "f972d6cf639b9d0b910415a6fa4c593b34cd2fe2f82cc27d16c64343e5fccd03"
+      },
+      "wins": 51,
+      "losses": 49,
+      "selected": 100
+    },
+    {
+      "method": "B0",
+      "pool": "over",
+      "K": 6,
+      "weekly_selected": {
+        "5": 5,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "9191c49890cdb93dacc6603d31f8bfe8fbc7d637642569481a5fbbe08ebcf02d",
+        "6": "86392aecb4e18c25c87e928f3ea53cb2969cbd8e717f515311546574ab336571",
+        "7": "ce81ea925f79b812bf3fa298717fec8d0dd775e417341c21975a17b8cbe85156",
+        "8": "fde40ecb988833937c701eee6cabe56b55fa29bba0d32d2a630addcc45a1579e",
+        "9": "8d259dad57ca6dae42080eba8c125a3a29c77c83aba4b5388fff4963bc97494d"
+      },
+      "wins": 13,
+      "losses": 13,
+      "selected": 26
+    },
+    {
+      "method": "B0",
+      "pool": "over",
+      "K": 10,
+      "weekly_selected": {
+        "5": 5,
+        "6": 4,
+        "7": 5,
+        "8": 10,
+        "9": 7
+      },
+      "weekly_membership_SHA256": {
+        "5": "9191c49890cdb93dacc6603d31f8bfe8fbc7d637642569481a5fbbe08ebcf02d",
+        "6": "86392aecb4e18c25c87e928f3ea53cb2969cbd8e717f515311546574ab336571",
+        "7": "ce81ea925f79b812bf3fa298717fec8d0dd775e417341c21975a17b8cbe85156",
+        "8": "d1da42c978824e5fb53bc61b7a6f1f90f12eb12946facf9376da7502d3376239",
+        "9": "89cea1ca42add24b3153a0b6b2def2c30be1e4cc719795dce99cd40129214a59"
+      },
+      "wins": 17,
+      "losses": 14,
+      "selected": 31
+    },
+    {
+      "method": "B0",
+      "pool": "over",
+      "K": 20,
+      "weekly_selected": {
+        "5": 5,
+        "6": 4,
+        "7": 5,
+        "8": 13,
+        "9": 7
+      },
+      "weekly_membership_SHA256": {
+        "5": "9191c49890cdb93dacc6603d31f8bfe8fbc7d637642569481a5fbbe08ebcf02d",
+        "6": "86392aecb4e18c25c87e928f3ea53cb2969cbd8e717f515311546574ab336571",
+        "7": "ce81ea925f79b812bf3fa298717fec8d0dd775e417341c21975a17b8cbe85156",
+        "8": "eec577727c9e845b607d77bf9ac4bcb3c356cbe8d808cd7b2dee84fb1b4e8eef",
+        "9": "89cea1ca42add24b3153a0b6b2def2c30be1e4cc719795dce99cd40129214a59"
+      },
+      "wins": 18,
+      "losses": 16,
+      "selected": 34
+    },
+    {
+      "method": "B0",
+      "pool": "under",
+      "K": 6,
+      "weekly_selected": {
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "4d8eab7b9d88b8df4a16e80d89f16200127014af567d0f4cc17356011e98744f",
+        "6": "ed552179e99ccf70e1093a00698604d5a11b1b5f2d5f5dd9dba5d6c49fcad3b3",
+        "7": "ea863a32baee0afa295b3280edd82ec2759d02de99db966a38e39b312d415b78",
+        "8": "99907168bc5185d5a414ca5d26ad7bcecf0b13ff6a828c51880ba89cce22f717",
+        "9": "d3fd7672dbb0f41e2ef7a0836f73540a9c2b06048968728d0f0519d010332ec6"
+      },
+      "wins": 11,
+      "losses": 19,
+      "selected": 30
+    },
+    {
+      "method": "B0",
+      "pool": "under",
+      "K": 10,
+      "weekly_selected": {
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10
+      },
+      "weekly_membership_SHA256": {
+        "5": "7ed9384ca8e600ca400797b7ace6c484998b4649502ca433c9d1a418ed5ff4ad",
+        "6": "e0b9852ff1536303ab5bfa24359180e73c9e657ebae27cc933972b4f00e78276",
+        "7": "6a519eff31620d6b7a44524af3ec56db59a13f1d80f8bc36db4c037a199213a0",
+        "8": "29fadce2f36475364bff0a7a1d9447e0325a02da82844a0f3262049202cafc91",
+        "9": "65f081cfa781cf69a0df8b308e755a693a66eb5538b99821007716dc2276b69b"
+      },
+      "wins": 23,
+      "losses": 27,
+      "selected": 50
+    },
+    {
+      "method": "B0",
+      "pool": "under",
+      "K": 20,
+      "weekly_selected": {
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 15,
+        "9": 20
+      },
+      "weekly_membership_SHA256": {
+        "5": "6266504c8cae382885dda325009b1276b9d5c7c589cbf7cf1a37847e826dddc0",
+        "6": "6cafc94fa5165d5fdaf9064068c4315d66463bd62cc8531ce26c37569052d260",
+        "7": "c49d43a18aa7650ad604426a92b13839f61bf2750c5fe37783e00d157c2b89b3",
+        "8": "b051055d6e25b362578723fc338f5771dc9cceb072a518b1403f910a60f52e29",
+        "9": "8e7d114fbba51cb49716947581a2416e7a9b0ba06ede5e8fa38561e1151b968b"
+      },
+      "wins": 50,
+      "losses": 45,
+      "selected": 95
+    },
+    {
+      "method": "B2",
+      "pool": "Combined",
+      "K": 6,
+      "weekly_selected": {
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "24613b294a0a973889102aff5dbf507379d736bc3fb235aaa61fca50200b1967",
+        "6": "ed552179e99ccf70e1093a00698604d5a11b1b5f2d5f5dd9dba5d6c49fcad3b3",
+        "7": "cda5386a7ecd7302b19d9f0f1b25f7f153eb72a122c02f2d1b14711be79efb9b",
+        "8": "0afd948b4db7156bfc2f700b9ad14ea217170537273fe5e7081e44a59b706916",
+        "9": "09cf931dd33684af509551f92bed34a3ca0ce85ba5a55e3dcc63da26d9511186"
+      },
+      "wins": 14,
+      "losses": 16,
+      "selected": 30
+    },
+    {
+      "method": "B2",
+      "pool": "Combined",
+      "K": 10,
+      "weekly_selected": {
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10
+      },
+      "weekly_membership_SHA256": {
+        "5": "04c0fbb3b879125d5d4dd93585c83d55fc6922aa37cecd2b92d9cd66bb764424",
+        "6": "2c956c0e759d1f66fdf6445afbd461f5f8e68d911b54aaf975c484121ea2afeb",
+        "7": "3937d87d33ce6fad87e7d560d9d7aebb47466186621edbdc5a53eaa5b59b1d5e",
+        "8": "444898f2e63fd20425b2f85e0e2a2e55b1d21fefa54cff0f052ead3d15e3813b",
+        "9": "dee0bdc32adb47b39fc9179f7426d891e844b6079ba10dad8c49a8a67643bba9"
+      },
+      "wins": 25,
+      "losses": 25,
+      "selected": 50
+    },
+    {
+      "method": "B2",
+      "pool": "Combined",
+      "K": 20,
+      "weekly_selected": {
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20
+      },
+      "weekly_membership_SHA256": {
+        "5": "78550edc9da3e39ba5e2b88922e4de2807e2f35e1a1df9e5a6ec5c76c6aa7ffb",
+        "6": "b4eda0c2dfd6a135a2f099c4fa38c20f3fda36a4f6970b57c28b40eb94327e78",
+        "7": "e76dadb6d614975aa252e875e57a9e6016f4d15770c49fe8d25444c1d6851ac5",
+        "8": "33c9d744f70ee672d518e493ed50ec72e57f948ddd1148779b138f09f41394a8",
+        "9": "f972d6cf639b9d0b910415a6fa4c593b34cd2fe2f82cc27d16c64343e5fccd03"
+      },
+      "wins": 55,
+      "losses": 45,
+      "selected": 100
+    },
+    {
+      "method": "B2",
+      "pool": "over",
+      "K": 6,
+      "weekly_selected": {
+        "5": 6,
+        "6": 4,
+        "7": 4,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "2043b621a9e389618a499e87134d47275d8d7b127af81a347fd8c1824182bf82",
+        "6": "d31316f37a0a92c6eb5b1b431170cc6314cb3ccc325077186bf1d349d4415f89",
+        "7": "52c4d6eab5c1cc723f6fb915470fd8adb0469e5a8c358e53b8e82854de8589fd",
+        "8": "c1a342e88da8347908082e4f81a26593c32c725a11c6a509043a7101dd88b9cb",
+        "9": "ccf1bb471d08bf9b4999d37ef398cdd6523c0693919a25ee280bf70d7c030d04"
+      },
+      "wins": 15,
+      "losses": 11,
+      "selected": 26
+    },
+    {
+      "method": "B2",
+      "pool": "over",
+      "K": 10,
+      "weekly_selected": {
+        "5": 6,
+        "6": 4,
+        "7": 4,
+        "8": 10,
+        "9": 8
+      },
+      "weekly_membership_SHA256": {
+        "5": "2043b621a9e389618a499e87134d47275d8d7b127af81a347fd8c1824182bf82",
+        "6": "d31316f37a0a92c6eb5b1b431170cc6314cb3ccc325077186bf1d349d4415f89",
+        "7": "52c4d6eab5c1cc723f6fb915470fd8adb0469e5a8c358e53b8e82854de8589fd",
+        "8": "6bcad8cef79734c158aa160dde3d15d4cdc930edc51590b7f360e24f55679cc1",
+        "9": "23693d8a38f304af85e76267e8426a33f390989e2632a5f897e4b1d18ece515a"
+      },
+      "wins": 18,
+      "losses": 14,
+      "selected": 32
+    },
+    {
+      "method": "B2",
+      "pool": "over",
+      "K": 20,
+      "weekly_selected": {
+        "5": 6,
+        "6": 4,
+        "7": 4,
+        "8": 12,
+        "9": 8
+      },
+      "weekly_membership_SHA256": {
+        "5": "2043b621a9e389618a499e87134d47275d8d7b127af81a347fd8c1824182bf82",
+        "6": "d31316f37a0a92c6eb5b1b431170cc6314cb3ccc325077186bf1d349d4415f89",
+        "7": "52c4d6eab5c1cc723f6fb915470fd8adb0469e5a8c358e53b8e82854de8589fd",
+        "8": "6ca87dae9820f205c1baf53091f816f04e2ef922af315d665ff1bd4e91696863",
+        "9": "23693d8a38f304af85e76267e8426a33f390989e2632a5f897e4b1d18ece515a"
+      },
+      "wins": 19,
+      "losses": 15,
+      "selected": 34
+    },
+    {
+      "method": "B2",
+      "pool": "under",
+      "K": 6,
+      "weekly_selected": {
+        "5": 6,
+        "6": 6,
+        "7": 6,
+        "8": 6,
+        "9": 6
+      },
+      "weekly_membership_SHA256": {
+        "5": "4d8eab7b9d88b8df4a16e80d89f16200127014af567d0f4cc17356011e98744f",
+        "6": "a9c899d67d85097516cded82b70d15df305d1c715e54d0713bfd60ad599651c6",
+        "7": "cda5386a7ecd7302b19d9f0f1b25f7f153eb72a122c02f2d1b14711be79efb9b",
+        "8": "4d0429415523393d5deca2257022cbe10dda2bc4786fa97da7f3ef473223b277",
+        "9": "4676ada025267cd9a3fa6111426ee3d6288740615819fe4800819f556d8fb60e"
+      },
+      "wins": 11,
+      "losses": 19,
+      "selected": 30
+    },
+    {
+      "method": "B2",
+      "pool": "under",
+      "K": 10,
+      "weekly_selected": {
+        "5": 10,
+        "6": 10,
+        "7": 10,
+        "8": 10,
+        "9": 10
+      },
+      "weekly_membership_SHA256": {
+        "5": "de36b020f7caea265f392f8d218bb0be120ba005fca8be1faf24287f27e664df",
+        "6": "7114a45755a6931fbae138e9783fa2b3011cb853e17d58c959b7b27f72d0e926",
+        "7": "3937d87d33ce6fad87e7d560d9d7aebb47466186621edbdc5a53eaa5b59b1d5e",
+        "8": "ddc41ef4a7731a5e4343e9b190bd951355d6272562d745cfc2200378c71d0982",
+        "9": "71d7cde603a34d6506a480adc3b85998c9fca06c6c62250fb3f11922b32e7107"
+      },
+      "wins": 26,
+      "losses": 24,
+      "selected": 50
+    },
+    {
+      "method": "B2",
+      "pool": "under",
+      "K": 20,
+      "weekly_selected": {
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 16,
+        "9": 20
+      },
+      "weekly_membership_SHA256": {
+        "5": "0c48f7545c2cc97a925a8c077fa5d46b7b9ccdd9dce2494d0e64aaabf10c4ed5",
+        "6": "70b6167e867fac001cb1023df3a8be1f834e212e63568dcc23276fe329d5efce",
+        "7": "660da9c8bd4ae306b12245cc6483d9bca6e7900a7ce065b0fbf07de25549ce40",
+        "8": "776b41d95088e06800b4f5aedeac85a8eeed5e130b4880d43866520332b3a734",
+        "9": "668eace1d81d288f18f23451e9a693be83ed0fcbef62b3cdb21cc5d8a8eb0831"
+      },
+      "wins": 51,
+      "losses": 45,
+      "selected": 96
+    }
+  ],
+  "scope_limits": [
+    "No fit or fresh-fit reproduction here; distinct reviewer receipt required",
+    "No original source-vintage or upstream bookmaker clock authentication",
+    "No peer private-row parity",
+    "No uncertainty-bootstrap reproduction",
+    "No current query, forecast issue, production release or original-site consumer verification"
+  ],
+  "probability_confidence_checks": "Allcheckedweekly/cumulativenew-arm/controltablesandselectedTopK: independentbinmembership,meanconfidence,observedcorrectnessandpairwise-tieAUC",
+  "new_fits": 0,
+  "new_original_issues": 0,
+  "new_NFL_games": 0,
+  "new_scored_weeks_from_verification": 0,
+  "restricted_rows_republished": false
+}

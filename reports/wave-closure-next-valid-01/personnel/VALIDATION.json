@@ -1,0 +1,62 @@
+{
+  "id": "C-OFFICIAL-ROSTER-ROUTE-VALIDATION-v1",
+  "checked_UTC": "2026-11-14T14:59:54.512962+00:00",
+  "counts_reconciled": true,
+  "unique_team_player_links": 164,
+  "all_rows_have_name_position_section_link": true,
+  "selected_transaction_roster_cross_checks": [
+    {
+      "team": "NE",
+      "name": "Tanner Arkin",
+      "latest_selected_transaction_implied_section": "Practice Squad",
+      "observed_roster_section": "Practice Squad",
+      "consistent": true,
+      "effective_or_publication_clock_authenticated": false
+    },
+    {
+      "team": "NE",
+      "name": "Mack Hollins",
+      "latest_selected_transaction_implied_section": "Active",
+      "observed_roster_section": "Active",
+      "consistent": true,
+      "effective_or_publication_clock_authenticated": false
+    },
+    {
+      "team": "NE",
+      "name": "Romeo Doubs",
+      "latest_selected_transaction_implied_section": "Reserve/Injured",
+      "observed_roster_section": "Reserve/Injured",
+      "consistent": true,
+      "effective_or_publication_clock_authenticated": false
+    },
+    {
+      "team": "DET",
+      "name": "Jackson Meeks",
+      "latest_selected_transaction_implied_section": "Practice Squad",
+      "observed_roster_section": "Practice Squad",
+      "consistent": true,
+      "effective_or_publication_clock_authenticated": false
+    },
+    {
+      "team": "DET",
+      "name": "Isiah Pacheco",
+      "latest_selected_transaction_implied_section": "Reserve/Injured",
+      "observed_roster_section": "Reserve/Injured",
+      "consistent": true,
+      "effective_or_publication_clock_authenticated": false
+    }
+  ],
+  "known_limits": [
+    "No independent raw official response reproduction retained; original wire hashes and minimal facts bound.",
+    "Historical clock/sourcecompleteness and eventactive claims not tested.",
+    "No predictive model fit, forecast gain, official roster count legality or starter determination asserted."
+  ],
+  "failure_count": 0,
+  "source_projection_transform": {
+    "path": "reports/wave-closure-next-valid-01/personnel/extract_roster.py",
+    "SHA256": "df646c34db6b91452bd67b48edd06645f7a018203d70bfd48a12ba34597b2ed8",
+    "network": false,
+    "synthetic_fixture": "PASS_nested_name_link_status_sections_and_reported_jersey_zero",
+    "note": "Code preserves executed extraction logic; fixture does not authenticate unretained raw HTML or historical source clocks."
+  }
+}

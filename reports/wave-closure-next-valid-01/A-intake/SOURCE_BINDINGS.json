@@ -1,0 +1,79 @@
+{
+  "discovery_index": {
+    "branch_then_immutable_ref_blob_identity": true,
+    "git_blob": "716275f6c96de7b92a43674940cb03e412232bc0",
+    "path": "reports/abc-championship/EXPORT_INDEX.json"
+  },
+  "omitted_json_pointers": [
+    "/forecasts/path",
+    "/grade_receipt/path",
+    "/model/path",
+    "/usage/private_writes/0/path",
+    "/usage/private_writes/1/path",
+    "/usage/private_writes/2/path",
+    "/code/path",
+    "/grade_capsule/path"
+  ],
+  "projection_transform": "Only owner-local locator strings omitted; values/counts/adverse outcomes preserved. No original private files inspected.",
+  "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+  "repository": "NickNicky19/NFL-forecasting",
+  "sources": [
+    {
+      "decoded_sha256": "49db6e2ab026febe69382d57577bfaec1e0b5446a8b71daf8b01640b279bcd66",
+      "original_bytes": 7793,
+      "original_git_blob": "f6f650f224c62e418f3aefacba2dd4edbe886064",
+      "original_sha256": "f957c572e0263307518de8304c7742e6f4fc1fe584909674197d7c82ff839faa",
+      "path": "reports/abc-championship/information-first-20261112-01/RUSH2023_HISTORICAL_RESULTS_V1.json.gz",
+      "projection": {
+        "bytes": 7602,
+        "path": "reports/wave-closure-next-valid-01/A-intake/RUSH2023_HISTORICAL_RESULTS_V1_PERMITTED_PROJECTION.json.gz",
+        "sha256": "2da2d41c276a476dd390c8c2017ab58d03e25e1106df3939924170336d5ef426"
+      },
+      "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+      "repository": "NickNicky19/NFL-forecasting",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/27ff63c25509db058e651f63f7110af1d7e6fe39/reports/abc-championship/information-first-20261112-01/RUSH2023_HISTORICAL_RESULTS_V1.json.gz"
+    },
+    {
+      "decoded_sha256": "c9caf29389160c988956be67f2eafa7fb89bd8cdb9c37dd5b687b99afae5a65c",
+      "original_bytes": 1651,
+      "original_git_blob": "fc504ef23c4ec5d087922677779c0dcffe8449e9",
+      "original_sha256": "93cbfd555a3974f5849e41f5607c1b7e0265bc439139b392296f0d321e9e91f0",
+      "path": "reports/abc-championship/information-first-20261112-01/RUSH2023_RAW_F_CONTROL_APPENDIX_V1.json.gz",
+      "projection": {
+        "bytes": 1501,
+        "path": "reports/wave-closure-next-valid-01/A-intake/RUSH2023_RAW_F_CONTROL_APPENDIX_V1_PERMITTED_PROJECTION.json.gz",
+        "sha256": "b7810d14e1ed31bc548980d542aee288a4f62a193805bcff9567571dc3a8acc3"
+      },
+      "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+      "repository": "NickNicky19/NFL-forecasting",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/27ff63c25509db058e651f63f7110af1d7e6fe39/reports/abc-championship/information-first-20261112-01/RUSH2023_RAW_F_CONTROL_APPENDIX_V1.json.gz"
+    },
+    {
+      "original_bytes": 7649,
+      "original_git_blob": "17fde2b7e558f3c9033bd131eeffd398de000bcd",
+      "original_sha256": "78444950a1ae8d050597693001936bf1687ef88f1d85ada313277fb841b6d719",
+      "path": "reports/abc-championship/information-first-20261112-01/EXECUTED_INFORMATION_FIRST_A_V1.md",
+      "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+      "repository": "NickNicky19/NFL-forecasting",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/27ff63c25509db058e651f63f7110af1d7e6fe39/reports/abc-championship/information-first-20261112-01/EXECUTED_INFORMATION_FIRST_A_V1.md"
+    },
+    {
+      "original_bytes": 6880,
+      "original_git_blob": "ebb9e0693787f69b8f56dd5b26182e99ff382a0a",
+      "original_sha256": "ae4ec263c474539a5faced632c05d922f0fd943f02fa609dd802fd3399fbdfe3",
+      "path": "reports/abc-championship/information-first-20261112-01/OWNER_STATUS_AND_INTAKE_V1.json",
+      "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+      "repository": "NickNicky19/NFL-forecasting",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/27ff63c25509db058e651f63f7110af1d7e6fe39/reports/abc-championship/information-first-20261112-01/OWNER_STATUS_AND_INTAKE_V1.json"
+    },
+    {
+      "original_bytes": 3486,
+      "original_git_blob": "75773bcf929a2f5c02e3d7f2076c0dd602382219",
+      "original_sha256": "2e6ba7ae5c6c0b6aea9d0957b5be6dbea8a99f43d33f3c697b777fa81ed7e87a",
+      "path": "reports/abc-championship/information-first-20261112-01/EXECUTED_RUSH2023_V1.md",
+      "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+      "repository": "NickNicky19/NFL-forecasting",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/27ff63c25509db058e651f63f7110af1d7e6fe39/reports/abc-championship/information-first-20261112-01/EXECUTED_RUSH2023_V1.md"
+    }
+  ]
+}

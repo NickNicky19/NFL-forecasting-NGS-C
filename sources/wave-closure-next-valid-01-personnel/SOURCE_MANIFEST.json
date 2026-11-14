@@ -1,0 +1,197 @@
+{
+  "sources": [
+    {
+      "id": "NE_official_roster",
+      "url": "https://www.patriots.com/team/players-roster/",
+      "started_UTC": "2026-11-14T14:56:43.056065+00:00",
+      "observed_UTC": "2026-11-14T14:56:43.720840+00:00",
+      "HTTP_status": 200,
+      "HTTP_Date": null,
+      "HTTP_Last_Modified": null,
+      "HTTP_Age": null,
+      "response_bytes": 548952,
+      "response_SHA256": "aa3a94d22de9e259bb2cd0d0c117e112cb96d90d998e489d2fa1b96d4c002d04",
+      "retained_projection": "sources/wave-closure-next-valid-01-personnel/NE_ROSTER_FACTS.json",
+      "projection_bytes": 18353,
+      "projection_SHA256": "c076a0aa36b389f3341bdece5b78ba49ee85c77d31d29e33fa026a13c84fc5b9",
+      "raw_retained": false,
+      "tables": [
+        {
+          "index": 0,
+          "section": "Active",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 52
+        },
+        {
+          "index": 1,
+          "section": "Reserve/Injured",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 10
+        },
+        {
+          "index": 2,
+          "section": "Reserve/Physically Unable to Perform",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 1
+        },
+        {
+          "index": 3,
+          "section": "Practice Squad",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 17
+        }
+      ]
+    },
+    {
+      "id": "DET_official_roster",
+      "url": "https://www.detroitlions.com/team/players-roster/",
+      "started_UTC": "2026-11-14T14:56:43.770525+00:00",
+      "observed_UTC": "2026-11-14T14:56:44.368273+00:00",
+      "HTTP_status": 200,
+      "HTTP_Date": null,
+      "HTTP_Last_Modified": null,
+      "HTTP_Age": null,
+      "response_bytes": 457165,
+      "response_SHA256": "474ada11aa046699649463115d717bda38e01073dfb3f79c5386da3f02509e68",
+      "retained_projection": "sources/wave-closure-next-valid-01-personnel/DET_ROSTER_FACTS.json",
+      "projection_bytes": 19664,
+      "projection_SHA256": "438eead17a0e42f06ad1c60c554fafd94739c3257c87d3f5ecc9e3c667307f1b",
+      "raw_retained": false,
+      "tables": [
+        {
+          "index": 0,
+          "section": "Active",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 54
+        },
+        {
+          "index": 1,
+          "section": "Reserve/Injured",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 10
+        },
+        {
+          "index": 2,
+          "section": "Reserve/Non-Football Injury",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 1
+        },
+        {
+          "index": 3,
+          "section": "Reserve/Physically Unable to Perform",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 1
+        },
+        {
+          "index": 4,
+          "section": "Practice Squad",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 17
+        },
+        {
+          "index": 5,
+          "section": "Practice Squad/Injured",
+          "headers": [
+            "Player",
+            "#",
+            "Pos",
+            "HT",
+            "WT",
+            "Age",
+            "Exp",
+            "College"
+          ],
+          "rows": 1
+        }
+      ]
+    }
+  ],
+  "read_count": 2,
+  "rights": "Minimal factual identity/position/status-section projection from official publiclyaccessible team pages for boundedresearch;no article/biography/photo/fullHTML retained;notclaimed licensedfullpageredistribution",
+  "historical_original_publication": "UNKNOWN",
+  "UTC_all": true,
+  "HTTP_header_extraction_limit": "Response headers were converted to a case-sensitive dict before Date/Last-Modified/Age lookup. Null means unverified in this receipt, not proven absent from the source response. No re-request solely to repair this non-feature metadata.",
+  "source_response_count_including_browser_opens": 6,
+  "no_additional_requests": true
+}
