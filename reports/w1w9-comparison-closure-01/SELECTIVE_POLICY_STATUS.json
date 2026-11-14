@@ -1,0 +1,2828 @@
+{
+  "id": "C-W1W9-EXISTING-SELECTIVE-STATUS-v1",
+  "rows": [
+    {
+      "candidate_id": "W1W9-bcd10b44329297411100",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 112,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 30,
+        "combined_losses": 19,
+        "combined_rate": 0.36666666666666664,
+        "combined_wins": 11,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 21,
+        "history": "H-RECENT",
+        "over_decided": 5,
+        "over_losses": 2,
+        "over_rate": 0.6,
+        "over_wins": 3,
+        "owner": "B",
+        "player_games": 30,
+        "probability_scores": {
+          "brier": 0.3011899442454993,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.8006541434411248,
+          "n": 30,
+          "over_event_AUC": 0.56,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.38461538461538464,
+              "lower": 0.5,
+              "mean_predicted": 0.551054037642161,
+              "n": 13,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.36363636363636365,
+              "lower": 0.6,
+              "mean_predicted": 0.6400774804119036,
+              "n": 11,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.2,
+              "lower": 0.7,
+              "mean_predicted": 0.7402454671865323,
+              "n": 5,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "c1b2be032bf5dd82b3bb26775d62fa6c0a237994b57c8fea3c25aa4e229346b7",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 30,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 25,
+        "under_losses": 17,
+        "under_rate": 0.32,
+        "under_wins": 8,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.36666666666666664,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-8f507fa9ff6d3436ec42",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 116,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 26,
+        "combined_losses": 13,
+        "combined_rate": 0.5,
+        "combined_wins": 13,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 22,
+        "history": "H-RECENT",
+        "over_decided": 26,
+        "over_losses": 13,
+        "over_rate": 0.5,
+        "over_wins": 13,
+        "owner": "B",
+        "player_games": 26,
+        "probability_scores": {
+          "brier": 0.2682295358356013,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7307847357701677,
+          "n": 26,
+          "over_event_AUC": 0.3431952662721893,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5652173913043478,
+              "lower": 0.5,
+              "mean_predicted": 0.5388554694341413,
+              "n": 23,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.0,
+              "lower": 0.6,
+              "mean_predicted": 0.6359149158224581,
+              "n": 3,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.7,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "fedba5599aba98b5de471fe1c5db641707422b8f26bfedf5f996ca9ef601225a",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 26,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-96c3385aa351e054ae5a",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 112,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 30,
+        "combined_losses": 19,
+        "combined_rate": 0.36666666666666664,
+        "combined_wins": 11,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 22,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 30,
+        "probability_scores": {
+          "brier": 0.2904844946656263,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7783698258352822,
+          "n": 30,
+          "over_event_AUC": 0.6411483253588517,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.23076923076923078,
+              "lower": 0.5,
+              "mean_predicted": 0.5625155243242312,
+              "n": 13,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.5454545454545454,
+              "lower": 0.6,
+              "mean_predicted": 0.6396313361484895,
+              "n": 11,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.2,
+              "lower": 0.7,
+              "mean_predicted": 0.7402454671865323,
+              "n": 5,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "6250f735b0c1cd2c3c39b0c21cd80ca0d5acb7747e2e45b751baf34accf0b147",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 30,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 30,
+        "under_losses": 19,
+        "under_rate": 0.36666666666666664,
+        "under_wins": 11,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.36666666666666664,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-f584e07e2e5a464c3912",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 92,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 50,
+        "combined_losses": 28,
+        "combined_rate": 0.44,
+        "combined_wins": 22,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 33,
+        "history": "H-RECENT",
+        "over_decided": 7,
+        "over_losses": 4,
+        "over_rate": 0.42857142857142855,
+        "over_wins": 3,
+        "owner": "B",
+        "player_games": 50,
+        "probability_scores": {
+          "brier": 0.279071803180082,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7543840130565939,
+          "n": 50,
+          "over_event_AUC": 0.5072463768115942,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.4444444444444444,
+              "lower": 0.5,
+              "mean_predicted": 0.5669495057551556,
+              "n": 27,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.47058823529411764,
+              "lower": 0.6,
+              "mean_predicted": 0.6382893614002422,
+              "n": 17,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.2,
+              "lower": 0.7,
+              "mean_predicted": 0.7402454671865323,
+              "n": 5,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "027491950f67ee3f68006f56ec5ce942e66d18edb9edb312f54fd39633136ddd",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 50,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 43,
+        "under_losses": 24,
+        "under_rate": 0.4418604651162791,
+        "under_wins": 19,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.44,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-0095eef79f63e55418e7",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 111,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 31,
+        "combined_losses": 14,
+        "combined_rate": 0.5483870967741935,
+        "combined_wins": 17,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 27,
+        "history": "H-RECENT",
+        "over_decided": 31,
+        "over_losses": 14,
+        "over_rate": 0.5483870967741935,
+        "over_wins": 17,
+        "owner": "B",
+        "player_games": 31,
+        "probability_scores": {
+          "brier": 0.25797604015042525,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.709786756991162,
+          "n": 31,
+          "over_event_AUC": 0.40336134453781514,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5769230769230769,
+              "lower": 0.5,
+              "mean_predicted": 0.5357104700226907,
+              "n": 26,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4,
+              "lower": 0.6,
+              "mean_predicted": 0.6317277279967455,
+              "n": 5,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.7,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "f0631ee49efc3835964cec606fd1022d54fe03cfe790ca1c89397df6b116d3f2",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 31,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5483870967741935,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-c2f6eab64af5e96adfe5",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 92,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 50,
+        "combined_losses": 27,
+        "combined_rate": 0.46,
+        "combined_wins": 23,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 36,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 50,
+        "probability_scores": {
+          "brier": 0.27031713349124553,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7364106224576257,
+          "n": 50,
+          "over_event_AUC": 0.5539452495974235,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.4482758620689655,
+              "lower": 0.5,
+              "mean_predicted": 0.5679230159153438,
+              "n": 29,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.5333333333333333,
+              "lower": 0.6,
+              "mean_predicted": 0.6389008846910987,
+              "n": 15,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.2,
+              "lower": 0.7,
+              "mean_predicted": 0.7402454671865323,
+              "n": 5,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "d075de9a84afde8fad5c837f91c550ca96d1ac70791f65de9e731735da231b69",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 50,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 50,
+        "under_losses": 27,
+        "under_rate": 0.46,
+        "under_wins": 23,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.46,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-eed6f75d5d558d17450f",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 42,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 100,
+        "combined_losses": 49,
+        "combined_rate": 0.51,
+        "combined_wins": 51,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 50,
+        "history": "H-RECENT",
+        "over_decided": 26,
+        "over_losses": 14,
+        "over_rate": 0.46153846153846156,
+        "over_wins": 12,
+        "owner": "B",
+        "player_games": 100,
+        "probability_scores": {
+          "brier": 0.2637327825806377,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7222882258481278,
+          "n": 100,
+          "over_event_AUC": 0.4548374146928944,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5540540540540541,
+              "lower": 0.5,
+              "mean_predicted": 0.550372347656957,
+              "n": 74,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4,
+              "lower": 0.6,
+              "mean_predicted": 0.6351387937485512,
+              "n": 20,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.2,
+              "lower": 0.7,
+              "mean_predicted": 0.7402454671865323,
+              "n": 5,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "bd96c49cb2b468992cb2fa272c29ebe3274141c238f7f7ac229b85364e149740",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 100,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 74,
+        "under_losses": 35,
+        "under_rate": 0.527027027027027,
+        "under_wins": 39,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.51,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-725f317d3b0ba25e3d88",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 108,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 34,
+        "combined_losses": 16,
+        "combined_rate": 0.5294117647058824,
+        "combined_wins": 18,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 28,
+        "history": "H-RECENT",
+        "over_decided": 34,
+        "over_losses": 16,
+        "over_rate": 0.5294117647058824,
+        "over_wins": 18,
+        "owner": "B",
+        "player_games": 34,
+        "probability_scores": {
+          "brier": 0.2555805264665556,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7049141841678804,
+          "n": 34,
+          "over_event_AUC": 0.4791666666666667,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5517241379310345,
+              "lower": 0.5,
+              "mean_predicted": 0.5344592813638309,
+              "n": 29,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4,
+              "lower": 0.6,
+              "mean_predicted": 0.6317277279967455,
+              "n": 5,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.7,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "345378096cdec6082b67b0fbcce9cbb1744057ce6fb092ea4a0bdddf4dc51c3a",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 34,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5294117647058824,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-a455641fb9884d27997e",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 47,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 95,
+        "combined_losses": 45,
+        "combined_rate": 0.5263157894736842,
+        "combined_wins": 50,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 58,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 95,
+        "probability_scores": {
+          "brier": 0.26443419935511486,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7247579817758584,
+          "n": 95,
+          "over_event_AUC": 0.43244444444444446,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5737704918032787,
+              "lower": 0.5,
+              "mean_predicted": 0.5557406763768099,
+              "n": 61,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4583333333333333,
+              "lower": 0.6,
+              "mean_predicted": 0.635832259382005,
+              "n": 24,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.3333333333333333,
+              "lower": 0.7,
+              "mean_predicted": 0.7460046969012155,
+              "n": 9,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 1.0,
+              "lower": 0.8,
+              "mean_predicted": 0.8742471236728483,
+              "n": 1,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "e7801f94bddfb04d23107cb9f73ae3ae9e62d4423be6ab33d50b01749228470e",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 95,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 95,
+        "under_losses": 45,
+        "under_rate": 0.5263157894736842,
+        "under_wins": 50,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5263157894736842,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-4a199a020e74320c5d0e",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+      "policy": "P90",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "source_sides": {
+        "K": null,
+        "abstained": 142,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 0,
+        "combined_losses": 0,
+        "combined_rate": null,
+        "combined_wins": 0,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 0,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 0,
+        "probability_scores": {
+          "brier": null,
+          "infinite_log_losses": 0,
+          "log_loss": null,
+          "n": 0
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0",
+        "product_id": "P90",
+        "query_membership_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "rank_scope": null,
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 0,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "P90",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": null,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-9529effac55ba302c9da",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 112,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 30,
+        "combined_losses": 16,
+        "combined_rate": 0.4666666666666667,
+        "combined_wins": 14,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 20,
+        "history": "H-RECENT",
+        "over_decided": 5,
+        "over_losses": 1,
+        "over_rate": 0.8,
+        "over_wins": 4,
+        "owner": "B",
+        "player_games": 30,
+        "probability_scores": {
+          "brier": 0.2931707510653526,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.78844219039086,
+          "n": 30,
+          "over_event_AUC": 0.6124401913875598,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.45454545454545453,
+              "lower": 0.5,
+              "mean_predicted": 0.5353537424600215,
+              "n": 11,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.5555555555555556,
+              "lower": 0.6,
+              "mean_predicted": 0.6485464877623088,
+              "n": 9,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.375,
+              "lower": 0.7,
+              "mean_predicted": 0.7306753791742635,
+              "n": 8,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "796811cde9a2fdbd72893ce7270619dfd619ef88ebe0de2046cfc567c45e5ae7",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 30,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 25,
+        "under_losses": 15,
+        "under_rate": 0.4,
+        "under_wins": 10,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.4666666666666667,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-310566855132c3aca883",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 116,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 26,
+        "combined_losses": 11,
+        "combined_rate": 0.5769230769230769,
+        "combined_wins": 15,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 23,
+        "history": "H-RECENT",
+        "over_decided": 26,
+        "over_losses": 11,
+        "over_rate": 0.5769230769230769,
+        "over_wins": 15,
+        "owner": "B",
+        "player_games": 26,
+        "probability_scores": {
+          "brier": 0.265078360328378,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7252427714244931,
+          "n": 26,
+          "over_event_AUC": 0.30303030303030304,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.6363636363636364,
+              "lower": 0.5,
+              "mean_predicted": 0.5398175594006158,
+              "n": 22,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.3333333333333333,
+              "lower": 0.6,
+              "mean_predicted": 0.6372010430979481,
+              "n": 3,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.0,
+              "lower": 0.7,
+              "mean_predicted": 0.706393600799008,
+              "n": 1,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "e6c4174053eb9974ee47ac2455dfd0055fee6dd1271762ccc9d440d6f8af5d5c",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 26,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5769230769230769,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-7566ece147249bb87994",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K6::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 6,
+        "abstained": 112,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 30,
+        "combined_losses": 19,
+        "combined_rate": 0.36666666666666664,
+        "combined_wins": 11,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 22,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 30,
+        "probability_scores": {
+          "brier": 0.3039121691873433,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.8096911888794115,
+          "n": 30,
+          "over_event_AUC": 0.6076555023923444,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.2222222222222222,
+              "lower": 0.5,
+              "mean_predicted": 0.5460216611210971,
+              "n": 9,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4166666666666667,
+              "lower": 0.6,
+              "mean_predicted": 0.6466916997896144,
+              "n": 12,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.42857142857142855,
+              "lower": 0.7,
+              "mean_predicted": 0.7341442046564429,
+              "n": 7,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "5dc94619cbaf2db63be06de1df9b5f96667cf822bf9f710b8cb26cce06a4b003",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 30,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 30,
+        "under_losses": 19,
+        "under_rate": 0.36666666666666664,
+        "under_wins": 11,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.36666666666666664,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-bc6cb3c9c2a731e25244",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 92,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 50,
+        "combined_losses": 25,
+        "combined_rate": 0.5,
+        "combined_wins": 25,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 34,
+        "history": "H-RECENT",
+        "over_decided": 7,
+        "over_losses": 3,
+        "over_rate": 0.5714285714285714,
+        "over_wins": 4,
+        "owner": "B",
+        "player_games": 50,
+        "probability_scores": {
+          "brier": 0.27589508715102445,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7504926128810959,
+          "n": 50,
+          "over_event_AUC": 0.5400641025641025,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.47368421052631576,
+              "lower": 0.5,
+              "mean_predicted": 0.5521014784971962,
+              "n": 19,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.5714285714285714,
+              "lower": 0.6,
+              "mean_predicted": 0.6361777083884188,
+              "n": 21,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.375,
+              "lower": 0.7,
+              "mean_predicted": 0.7306753791742635,
+              "n": 8,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "aa2f96d60582b49999ccf73d26e5b21a2ce6bd83fca2678df422eb8ab674826b",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 50,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 43,
+        "under_losses": 22,
+        "under_rate": 0.4883720930232558,
+        "under_wins": 21,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-9692119a8312ea001218",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 110,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 32,
+        "combined_losses": 14,
+        "combined_rate": 0.5625,
+        "combined_wins": 18,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 26,
+        "history": "H-RECENT",
+        "over_decided": 32,
+        "over_losses": 14,
+        "over_rate": 0.5625,
+        "over_wins": 18,
+        "owner": "B",
+        "player_games": 32,
+        "probability_scores": {
+          "brier": 0.2611725425821929,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.717031517140001,
+          "n": 32,
+          "over_event_AUC": 0.38095238095238093,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.6071428571428571,
+              "lower": 0.5,
+              "mean_predicted": 0.5389940218893754,
+              "n": 28,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.3333333333333333,
+              "lower": 0.6,
+              "mean_predicted": 0.6372010430979481,
+              "n": 3,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.0,
+              "lower": 0.7,
+              "mean_predicted": 0.706393600799008,
+              "n": 1,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "7e2492a8a8108c0028384a6ff9456d599411b86b741b3ecaeff6a480e70d6658",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 32,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5625,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-d45a147fbf97f3cbbfd1",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K10::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 10,
+        "abstained": 92,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 50,
+        "combined_losses": 24,
+        "combined_rate": 0.52,
+        "combined_wins": 26,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 37,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 50,
+        "probability_scores": {
+          "brier": 0.26692330271260556,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7317672967770386,
+          "n": 50,
+          "over_event_AUC": 0.5096153846153846,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.5,
+              "mean_predicted": 0.5603688520837619,
+              "n": 22,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.5789473684210527,
+              "lower": 0.6,
+              "mean_predicted": 0.6370349242951097,
+              "n": 19,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.42857142857142855,
+              "lower": 0.7,
+              "mean_predicted": 0.7341442046564429,
+              "n": 7,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "a6812d7e4aeba0cf1941b275bb79ff4bf29ddaddef96288cc8565553c8120cb3",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 50,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 50,
+        "under_losses": 24,
+        "under_rate": 0.52,
+        "under_wins": 26,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.52,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-c0678ce14fda63cf865c",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::Combined",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 42,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 100,
+        "combined_losses": 45,
+        "combined_rate": 0.55,
+        "combined_wins": 55,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 50,
+        "history": "H-RECENT",
+        "over_decided": 24,
+        "over_losses": 11,
+        "over_rate": 0.5416666666666666,
+        "over_wins": 13,
+        "owner": "B",
+        "player_games": 100,
+        "probability_scores": {
+          "brier": 0.2631176957383354,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7224114468856874,
+          "n": 100,
+          "over_event_AUC": 0.49498193496587717,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5846153846153846,
+              "lower": 0.5,
+              "mean_predicted": 0.548761591730693,
+              "n": 65,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.52,
+              "lower": 0.6,
+              "mean_predicted": 0.6360086620699092,
+              "n": 25,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.375,
+              "lower": 0.7,
+              "mean_predicted": 0.7306753791742635,
+              "n": 8,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "bd96c49cb2b468992cb2fa272c29ebe3274141c238f7f7ac229b85364e149740",
+        "rank_scope": "Combined",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 100,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 76,
+        "under_losses": 34,
+        "under_rate": 0.5526315789473685,
+        "under_wins": 42,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.55,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-4ce531360841e62c4c94",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::over",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 108,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 34,
+        "combined_losses": 15,
+        "combined_rate": 0.5588235294117647,
+        "combined_wins": 19,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 27,
+        "history": "H-RECENT",
+        "over_decided": 34,
+        "over_losses": 15,
+        "over_rate": 0.5588235294117647,
+        "over_wins": 19,
+        "owner": "B",
+        "player_games": 34,
+        "probability_scores": {
+          "brier": 0.2588144846060709,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7122019305665851,
+          "n": 34,
+          "over_event_AUC": 0.4280701754385965,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.6,
+              "lower": 0.5,
+              "mean_predicted": 0.5388802933946449,
+              "n": 30,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.3333333333333333,
+              "lower": 0.6,
+              "mean_predicted": 0.6372010430979481,
+              "n": 3,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.0,
+              "lower": 0.7,
+              "mean_predicted": 0.706393600799008,
+              "n": 1,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.8,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "432cbe5cce74958c7bbeebf6ed6e91e6b0e46f82db95e3ad385e39621d42035a",
+        "rank_scope": "over",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 34,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.5588235294117647,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-67f8a13be2d6b2f78565",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "ROLLING_TOP_K_DIAGNOSTIC::K20::under",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_sides": {
+        "K": 20,
+        "abstained": 46,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 96,
+        "combined_losses": 45,
+        "combined_rate": 0.53125,
+        "combined_wins": 51,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 58,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 96,
+        "probability_scores": {
+          "brier": 0.2683757552634542,
+          "conditioning": "MODELED_APPEARANCE",
+          "infinite_log_losses": 0,
+          "log_loss": 0.7339387421342018,
+          "n": 96,
+          "over_event_AUC": 0.43790849673202614,
+          "probability_direction_ties": 0,
+          "reliability": [
+            {
+              "correct_direction_rate": null,
+              "lower": 0,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 0.5
+            },
+            {
+              "correct_direction_rate": 0.5740740740740741,
+              "lower": 0.5,
+              "mean_predicted": 0.553950350464261,
+              "n": 54,
+              "upper": 0.6
+            },
+            {
+              "correct_direction_rate": 0.4482758620689655,
+              "lower": 0.6,
+              "mean_predicted": 0.6434392892894248,
+              "n": 29,
+              "upper": 0.7
+            },
+            {
+              "correct_direction_rate": 0.5454545454545454,
+              "lower": 0.7,
+              "mean_predicted": 0.7467658868223424,
+              "n": 11,
+              "upper": 0.8
+            },
+            {
+              "correct_direction_rate": 0.5,
+              "lower": 0.8,
+              "mean_predicted": 0.8463324662167744,
+              "n": 2,
+              "upper": 0.9
+            },
+            {
+              "correct_direction_rate": null,
+              "lower": 0.9,
+              "mean_predicted": null,
+              "n": 0,
+              "upper": 1
+            }
+          ],
+          "score_contract": "HALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1"
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "ROLLING_TOP_K_DIAGNOSTIC",
+        "query_membership_sha256": "5ba4b52ff7c8cc0b36259ade47b6535ca6545d8a2bbbd84fffdd207059e090b8",
+        "rank_scope": "under",
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 96,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "ROLLING_TOP_K_DIAGNOSTIC",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 96,
+        "under_losses": 45,
+        "under_rate": 0.53125,
+        "under_wins": 51,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": 0.53125,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    },
+    {
+      "candidate_id": "W1W9-137cb710863dcdde0e51",
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "policy": "P90",
+      "evaluated_board_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "source_sides": {
+        "K": null,
+        "abstained": 142,
+        "actual_scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available": null,
+        "category": "pass_cmp",
+        "cohort_id": "ALL",
+        "combined_decided": 0,
+        "combined_losses": 0,
+        "combined_rate": null,
+        "combined_wins": 0,
+        "eligible": 142,
+        "evidence_tier": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "fallback": 0,
+        "games": 0,
+        "history": "H-RECENT",
+        "over_decided": 0,
+        "over_losses": 0,
+        "over_rate": null,
+        "over_wins": 0,
+        "owner": "B",
+        "player_games": 0,
+        "probability_scores": {
+          "brier": null,
+          "infinite_log_losses": 0,
+          "log_loss": null,
+          "n": 0
+        },
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "product_id": "P90",
+        "query_membership_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "rank_scope": null,
+        "registered_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "role_scope": "QB",
+        "season": 2026,
+        "selected": 0,
+        "source_panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+        "source_score_decoded_sha256": "7eea964003be7ce9313937702969dd097a010c49bbe08dcd6cfba2ef9eb20c3a",
+        "source_score_file": "SCORES_SOURCE.json.gz",
+        "source_vintage": "CURRENT_VINTAGE_FTN_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+        "strategy": "P90",
+        "time_panel_id": "B_FTN_INFORMATION_2026_ALL",
+        "unavailable": 0,
+        "under_decided": 0,
+        "under_losses": 0,
+        "under_rate": null,
+        "under_wins": 0,
+        "unknown": 0,
+        "verification_limit": "Public aggregate identities only; no private rows/source clocks/model parity; overlapping cohort/side/policy views never additive.",
+        "week": "ALL"
+      },
+      "accuracy": null,
+      "missing_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nine_week_status": "PARTIAL_NOT_NINE_WEEK_POLICY",
+      "duration_policy": "Existing policy/week-count rule unchanged; evaluatedboards,selectedweeks,decidedweeks distinguished. Emptyselectedgate cannotestablish accuracy.",
+      "next_action": "A executes exact frozenselectionon earlycompleteprotectedboard withsavedlaws; no newK/gates orfit."
+    }
+  ],
+  "nine_week_selected_winner": "NOT_ESTABLISHED",
+  "other_categories": "Existing registered selected contenders retained in frozen roster and source-bound category records; no new ranker/threshold. Website exact TopPicks separate.",
+  "website": "Preserve conditional5week fullpolicy SHADOW,10candidate100fallback; BnewW4reviewcomplete."
+}

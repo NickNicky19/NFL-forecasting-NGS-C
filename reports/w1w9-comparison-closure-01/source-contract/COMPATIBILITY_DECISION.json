@@ -1,0 +1,222 @@
+{
+  "id": "C-CMP-W1W9-MULTISOURCE-COMPATIBILITY-DECISION-v1",
+  "decided_UTC": "2026-11-14T18:37:54.917380+00:00",
+  "policy": {
+    "path": "reports/w1w9-comparison-closure-01/source-contract/PANEL_SELECTION_POLICY.json",
+    "bytes": 7563,
+    "SHA256": "e3fca17f0fa6fb9677b161a9f1e336dde9ca7072081c2060f6530cc6b3e12068"
+  },
+  "decision": "ALLOW_SCOPED_CONDITIONAL_W1_W9_ACTUAL_LINE_DIRECTION_DIAGNOSTIC_UNION",
+  "not_a_source_veto": "Different source files/books andunknownquoteclocks do not aloneprohibit this statisticaldiagnostic; preserve strata andunknowns.",
+  "panel_id": "C-CMP-W1W9-MULTISOURCE-DIAGNOSTIC-PANEL-v1",
+  "source_schedule": [
+    {
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "owner": "A",
+      "panel": "ANNUAL_NAMED_NJ",
+      "eligible": 84,
+      "source_games": 48,
+      "mask_sha256": "12fe9064bc80b901fce44a558fc2d9c177bb58bd364109e46c795d4468aba91c"
+    },
+    {
+      "weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "owner": "B",
+      "panel": "B_FTN_INFORMATION_142_W5_W9_v1",
+      "eligible": 142,
+      "source_games": 71,
+      "mask_binding": "Exact ownerquery_membership_sha256 in weekly/allBnative source summaries"
+    }
+  ],
+  "expected_eligible_union": 226,
+  "sum_reported_source_games": 119,
+  "games_count_scope": "Disjoint officialREGweeksets at ownerreportedvalidationtier; not leaguewideor Cprivateidentityinspection.",
+  "actual_weeks_represented": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "within_week_coverage": "PARTIAL_RETAINED_OFFERS;scheduled/coveredgamebreakdownrequired;no leaguewidecompletenessclaim",
+  "supported_products": [
+    {
+      "A_candidate_suffix": "mean",
+      "B_product_id": "P1_MEAN",
+      "status": "CONDITIONALLY_COMBINABLE_W1_W9_DIRECTION",
+      "arms": [
+        "B0",
+        "B1_exact_alias",
+        "B2"
+      ]
+    },
+    {
+      "A_candidate_suffix": "lower_median",
+      "B_product_id": "P1_LOWER_MEDIAN",
+      "status": "CONDITIONALLY_COMBINABLE_W1_W9_DIRECTION",
+      "arms": [
+        "B0",
+        "B1_exact_alias",
+        "B2"
+      ]
+    },
+    {
+      "A_candidate_suffix": "P2",
+      "B_product_id": "P2_STATISTICAL_LAW",
+      "status": "CONDITIONALLY_COMBINABLE_W1_W9_DIRECTION",
+      "arms": [
+        "B0",
+        "B1_exact_alias",
+        "B2"
+      ]
+    }
+  ],
+  "source_evidence_tier": "CURRENT_VINTAGE_SEVEN_DAY_CHRONOLOGICAL_RECONSTRUCTION;RETAINED_ACTUAL_LINES_QUOTE_TIMING_UNVERIFIED;EXPOSED_HETEROGENEOUS_RETROSPECTIVE_DIAGNOSTIC",
+  "checks": [
+    {
+      "quantity": "canonical full-game target/role",
+      "result": "SUPPORTED_OWNER_CONTRACT",
+      "reason": "Both sides bind official QB pass_cmp/fullgame includingOT and appearance-conditional physical participation; A checks canonicalgame/player/team/opponent/role.",
+      "claim_limit": "C didnotinspect protectedrawidentity/offerrows."
+    },
+    {
+      "quantity": "exact forecast/procedure/origin identity",
+      "result": "SUPPORTED_OWNER_CONTRACT",
+      "reason": "A consumed exact B d79acdd savedW1\u20134 files; B0 originalR3 reuse, B1 exactalias, B2 unchangedFTNinformationarm; H-RECENT/2022_EXPANDING memory and strictseven-day eligibleearlier cutoffs match laterBnative.",
+      "claim_limit": "Code/protocol and sourcehash identities admitted; independentrawmodel/freshfitparity not asserted."
+    },
+    {
+      "quantity": "typed side/output rule",
+      "result": "SUPPORTED_OWNER_CONTRACT",
+      "reason": "Mean andlower-medianstrictcrossing/tieabstention separately retained; P2 exact maxOver/Under fromstoredlaw withintegerpushpreserved matches B rule.",
+      "claim_limit": "Mean/median/law notstitched orconverted intooneparent product."
+    },
+    {
+      "quantity": "fallback/technicalmissingness",
+      "result": "SUPPORTED_OWNER_AGGREGATE",
+      "reason": "A reports all84eligible withallBoutputs available andexactB0 fallbackcontract; Bnative142 available and0reportedfallback. Technicalunavailable never intentionalabstention.",
+      "claim_limit": "Acontrolblankfallbackstates remainUNSPECIFIED,not0orlearnedonly."
+    },
+    {
+      "quantity": "source-line provenance",
+      "result": "SUPPORTED_TIMING_UNVERIFIED_DIAGNOSTIC",
+      "reason": "A bound annual retainedactual lines W1\u20134 and Bnative retainedactualcompletionlinesW5\u20139; W6\u20137olderAinternalreferenceexcluded. Different sources/books permitted.",
+      "claim_limit": "NumericbookIDs68/69/79 remainexact; their canonicalnames/venue mapping unresolvedinnewpublicreceipt. BDKlabelnot independentlyvenueverified. Main/alternative status unknown."
+    },
+    {
+      "quantity": "quote/decision horizon",
+      "result": "CONDITIONAL_DIAGNOSTIC_ONLY",
+      "reason": "A checks offeredkickoff_utc/cutoff_utc against saved B featurecutoff; B later kickoff-left-limit seven-day reconstruction. Originalquote observation/availability clocks unknown; W9 fixedfilewitness isnotindividualquoteclock.",
+      "claim_limit": "No authenticated pregamedecision, originalissuance, homogeneousvenuehorizon or singlebookstrategy claim."
+    },
+    {
+      "quantity": "period disjointness and W5 duplicate control",
+      "result": "SUPPORTED_AT_OWNER_SOURCE_WEEK_SCOPE",
+      "reason": "A exactlyREG2026W1\u20134; B exactlyREG2026W5\u20139; fixedsourcepolicy excludes AannualW5. Canonical gameweek checks preserved by owners; no common requestedweek.",
+      "claim_limit": "Public mask hashes areopaque; Ccannotdecode/exhaustivelyproveprotectedrowintersections. Admit only conditional source-stratifiedunion,notprivate-row parity."
+    },
+    {
+      "quantity": "outcome/presence semantics",
+      "result": "SUPPORTED_OWNER_QUALIFIED_LABEL_CONTRACT",
+      "reason": "A regrades frozenBforecasts withboundpresencequalifiedofficialAcounts, no cachedBactualconflicts; B laterofficialquarterbackcompletionlabels preserveunknown/playedzero/DNP/void.",
+      "claim_limit": "Differentlabel snapshotsremainboundseparately; no transfer ofsourcecompleteness fromparticipation. No venue settlement claim."
+    },
+    {
+      "quantity": "stable eligible comparison board",
+      "result": "SUPPORTED_FOR_LISTED_B_PRODUCTS_AND_CONSTANTS",
+      "reason": "A84 fullboard==allBcommonmask12fe9064...; Bnative142 commonboard. Fullcombineddiagnostic universe thereforeeligible226conditionally,withoutcandidate-basedrow filtering.",
+      "claim_limit": "Astronglearnedcontrols/Ccontenders missingonlatersame142 staypartial/unscored, notlosers. Commonpaneldoesnotmeanallshortlistedforecastsavailable."
+    },
+    {
+      "quantity": "proper probability scores",
+      "result": "KEEP_SOURCE_STRATA_UNTIL_NORMALIZATION_PROVEN",
+      "reason": "A sourceprobability.Brier isbinaryOver-event; Bnative reportsHALF_MULTICLASS_BRIER_OVER_UNDER_PUSH_V1. Integer-linepushmass equivalence notpubliclyestablished.",
+      "claim_limit": "No pooledBrier fromweightedaverage; same-eventproper score requires compatible definition/conditioning/push contract. Count-lawNLL, eventlogloss, numericalerror anddirection remain separate."
+    },
+    {
+      "quantity": "pooled paired game/week uncertainty",
+      "result": "OWNER_LOCAL_VECTOR_OR_SUFFICIENT_CLUSTER_COUNTS_REQUIRED",
+      "reason": "Per-sourceownside/pairedsummariesexist; no completepooledrow/clusterjoinedvector exposed.",
+      "claim_limit": "Do not averageintervals or derivepaireduncertainty fromsummarypercentages; retain sourceintervals anddisagreement counts, request one owner-local pooledcalculation onlyifneeded."
+    }
+  ],
+  "comparison_status": "B_FAMILY_FULL_NINE_WEEK_PANEL_CAN_BE_EXECUTED_AFTER_ROSTER_FREEZE;CROSS_SESSION_CHAMPIONSHIP_STILL_PARTIAL_UNTIL_A_AND_C_SHORTLISTED_PRODUCTS_FACE_SAME_LATER_OFFERS",
+  "A_W1_W4_join_state": "COMPLETE_REUSED;DO_NOT_REPEAT_OR_REQUEST146QUERYHANDOFF_AS_UNEXECUTED",
+  "W5_overlap": "AannualW5excludedfromprimary. If separatelyunioningAannualW1\u20135withBnativeW5\u20139,owner-localnormalizedevent/player/category/role/book/line/source/horizon/decisionduplicatequalificationstillneeded.",
+  "probability_counterexample_not_NFL_result": {
+    "law": {
+      "Over": 0.4,
+      "Under": 0.4,
+      "Push": 0.2
+    },
+    "observed_event": "Over",
+    "binary_Over_Brier": 0.36,
+    "half_multiclass_Brier": 0.28,
+    "meaning": "Identicallawcanhavedifferentscorenormalizations; exactdirectioncompatibilitydoesnotauthorizepoolingunmatchedBrierdefinitions."
+  },
+  "source_bindings": [
+    {
+      "path": "reports/w1w9-comparison-closure-01/A-intake/MEMBERSHIP_AND_COMPARABILITY.json",
+      "bytes": 3490,
+      "SHA256": "726bc20f72c563efa18a2959652d473e602be1337fbf328c20a5acfd3a3fb967"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/A-intake/FTN_COMPLETION_W1_W4_RESULTS_PERMITTED_PROJECTION.json.gz",
+      "bytes": 47480,
+      "SHA256": "fcd9d4c0fe6181dc5ebe5119031460615e57f3bbbb04a968b0139098e8970ad0"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/A-intake/SOURCE_BINDINGS.json",
+      "bytes": 7215,
+      "SHA256": "7ccd2b5e6d155fc314c257db336fbb619ba4968ff2edd6863fcd17319d0abe00"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/B-intake/COMPATIBILITY_AND_ADMISSION.json",
+      "bytes": 19847,
+      "SHA256": "1205824b5722181637a45310a563ce34986398143d64e6f2490702360f0dce1f"
+    },
+    {
+      "path": "reports/w1w9-comparison-closure-01/B-intake/W1_W4_OWNER_LOCAL_JOIN_HANDOFF_V1.json",
+      "bytes": 13841,
+      "SHA256": "c0cd04cd00fc11f9c208080397cbbc24c885cf663e29bb0ce2c4da9cfaab77b8"
+    }
+  ],
+  "A_exact_receipt_head": "5a41d2bac6027e0ac1b5a2744d52f8ec5e93c47e",
+  "B_saved_output_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+  "new_scores_fits_source_calls_or_peer_writes": 0,
+  "verification_limit": "This independent C contractcheck reads permitted ownerreceipts, not rawprotectedoffers/sourcebodies/fits. Opaquekeys/maskhashes do notestablishprivaterowparity ororiginalclocks.",
+  "finite_remaining_actions": [
+    {
+      "executor": "A retainedcompletionmodel/offerjoinowner withB native-maskowner",
+      "artifact": "AshortlistedCatBoost/HGB/other exactcontrol forecasts onBnative142W5\u20139 offers; savedoutputsfirst",
+      "action": "Join validretainedoriginpredictions or executeauthorizedsafeorigininference onlywhereactuallymissing; publishownside/fullboard/pairedmasks",
+      "completion": "Strong A learnedcontendersscoreonthissamestablesource-selected226panel or exactblockedcells."
+    },
+    {
+      "executor": "C ownmodel/sourceowner",
+      "artifact": "CompatibleCcompletionproductandBnativeoffercontract/adapter, ifqualified",
+      "action": "Retain knowncoherence/sourceblocks;scoreonlysavedvalidproductonpermittedactualoffers",
+      "completion": "Actualsamepanel Ccontributionor exactNOT_APPLICABLE/BLOCKED status."
+    },
+    {
+      "executor": "A/B originalprotectedrowowners",
+      "artifact": "Poolednormalized row/cluster commitment andsame probabilityscoredefinition, wherepooleduncertainty/probability metric isrequested",
+      "action": "One permittedowner-localcalculation or sufficientcounts; no protected transfer",
+      "completion": "Pairedgame/weekinterval andcompatibleprobabilityscores withdisclosedscope,or retain source-stratifiedN/A."
+    }
+  ]
+}

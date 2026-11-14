@@ -1,0 +1,44 @@
+{
+  "id": "C-W1W9-LOCAL-IMPLEMENTATION-NOTES-v1",
+  "attempt_assembly_initial_failure": {
+    "scope": "Beforeany8weekoutputfilecreated",
+    "error": "TypeError on None + int for an empty Over group whose selected=decided=0",
+    "fix": "OnlyemptygroupcountNone contributes additiveidentity0 after assertselected=decided0. Nonemptyunknowncount failsclosed. Sourcecounts/originalforecasts/grades unchanged.",
+    "new_NFL_metric_change_from_fix": null,
+    "NFL_refits": 0
+  },
+  "source_population_metadata": "AoriginalCSV fallback0 andlawunknown0 retainedraw; sourcequalification overrides attribution/correctedsourceunresolved inderivedviews only, not sourceNFLgrades.",
+  "roster_amendment": "Existing20Bregisteredselectiveviews omittedinitially restoredbeforeCnewcomparativecalculation, originalv1bytespreserved; no newK/gate/model.",
+  "ledger_assembly_initial_schema_failure": {
+    "scope": "Before V4 output creation; no source/model/outcome touched",
+    "error": "Original preserved W8 grade schema lacks corrected-only issued_or_board_rows/games fields",
+    "fix": "Read absent original coverage fields as unavailable metadata (null), not zero or borrowed corrected coverage; source original and corrected records remain separate",
+    "NFL_metric_changes": 0
+  },
+  "reviewer_origin_assertion_note": "Historical origin equals first target kickoff LEFT-LIMIT cutoff; latest admitted training availability is strictly earlier. Reviewer initial origin<kickoff expectation corrected to origin<=querykickoff; sourcecode strict availability < unchanged, no prediction/grade change.",
+  "unpublished_V4_unknown_projection_repair": {
+    "scope": "40 new original/corrected frozen measurement aggregate rows only; never published/tracked initialdraft SHA08cc706f6b9f8f2a1350a3b967aa67bd219a066564e876c946fe1210d4364564",
+    "minimal_case": {
+      "corrected_rec": {
+        "selected": 125,
+        "decided": 105,
+        "MISSING_ACTUAL": 15,
+        "UNRESOLVED": 5,
+        "initial_common_unknown": 15,
+        "correct_common_unknown": 20
+      },
+      "original_rec": {
+        "selected": 125,
+        "decided": 120,
+        "UNKNOWN_PARTICIPATION": 5,
+        "initial_common_unknown": null,
+        "correct_common_unknown": 5
+      }
+    },
+    "root_cause": "Projected only one corrected unknown component and omitted original states-schema unknown count.",
+    "fix": "Sum source UNKNOWN_PARTICIPATION/MISSING_ACTUAL/UNRESOLVED after exhaustive-state and selected/W-L reconciliation. No individual statistic zero imputation. Preserve source components in additionalmetrics.",
+    "predictions_sides_WL_changes": 0,
+    "old32422rows_preserved": true,
+    "corrected_V4_SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
+  }
+}

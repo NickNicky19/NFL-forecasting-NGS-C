@@ -1,0 +1,128 @@
+{
+  "id": "C-CMP-EXACT-ORIGIN-EXTENSION-W08-W09-v1",
+  "completed_UTC": "2026-11-14T19:27:44.100916+00:00",
+  "new_fits": 2,
+  "new_inference_queries": 73,
+  "weeks": [
+    8,
+    9
+  ],
+  "new_actual_offer_scores": 0,
+  "new_original_issued_picks": 0,
+  "source_before_target_qualification": "Current-vintage chronological reconstruction only, not authenticated source publication",
+  "CPU_seconds": 13.965279465,
+  "wall_seconds": 13.97543577900069,
+  "RSS_bytes": 287875072,
+  "original242_point_handoff_changed": false,
+  "safe_restoration_verified": true,
+  "receipts": [
+    {
+      "week": 8,
+      "FIT_START_UTC": "2026-11-14T19:27:39.823310+00:00",
+      "origin_UTC": "2026-10-30T00:15:00+00:00",
+      "training_rows": 2834,
+      "query_rows": 35,
+      "training_membership_SHA256": "65c0d027daffea40e3fa16f9ad68772b5e5692f3414cd28131d5fd6824204678",
+      "training_matrix_SHA256": "7fa4e4e6aff180134ebc0ad5df79cc7a1111b0427db9bab660b2782dd40def56",
+      "latest_training_available_epoch": 1793060100.0,
+      "first_target_kickoff_epoch": 1793319300.0,
+      "parameters": {
+        "class": "laws_v2.LeafModel",
+        "kind": "count",
+        "scale": 1,
+        "n_estimators": 32,
+        "max_depth": 8,
+        "min_samples_leaf": 30,
+        "max_features": 1.0,
+        "bootstrap": false,
+        "random_state": 1701,
+        "n_jobs": 1,
+        "prior_alpha": 0.05,
+        "preprocessing": "training-onlymedianimputation+missingindicators,sourceE0_ENV35features"
+      },
+      "history": "H-MULTI;2022expanding;strict kickoff+7day < origin and querycutoff",
+      "query_universe": "Original statistical-row-conditioned QB reconstruction; not authenticated pregame roles",
+      "future_invariance": {
+        "target_and_later_mutation_changes_earlier_features": false,
+        "eligible_training_target_or_future_rows": 0,
+        "queries_checked": 35
+      },
+      "active_lease": "C_W1W9_PASS_CMP_ORIGINS_W08_W09_01;soleCfitworker delegatedto/root/nine_week_c_panel;nonblockingexclusivefitlock",
+      "core_code_SHA256": {
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+        "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0"
+      },
+      "FIT_COMPLETE_UTC": "2026-11-14T19:27:40.510177+00:00",
+      "model_format": "C-NUMERIC-LEAF-v4;safeJSONonly",
+      "model_SHA256": "ce1d85985f6a5e55152a169a626ca26160487ab6d2d1d04b56339b3fbae94e14",
+      "points_SHA256": "3d670fe0e3610170487f127ee87a237a7a9fe481faed47c43d158be9bbe2b295",
+      "restored_training_validation": {
+        "training_rows": 2834,
+        "trees": 32,
+        "imputation_priors_all_leaf_counts_verified": true,
+        "new_fits": 0
+      },
+      "max_single_batch_shuffle_mean_difference_tolerance": 1e-12,
+      "point_rows": 35,
+      "new_fits": 1,
+      "new_actual_offer_grades": 0,
+      "CMP_ATT_primary_selection_hold": "RETAINED;not coherentjointcompletionattemptlaw"
+    },
+    {
+      "week": 9,
+      "FIT_START_UTC": "2026-11-14T19:27:43.524514+00:00",
+      "origin_UTC": "2026-11-06T01:15:00+00:00",
+      "training_rows": 2867,
+      "query_rows": 38,
+      "training_membership_SHA256": "f04fe6ab1e8e3fc524c653199370ae38a586c1a1c8d038097c8374f49d7d4a6f",
+      "training_matrix_SHA256": "2f275e69c03b23d32ef04950c14f3e8a8ec0616863dd912e419e77068c55207f",
+      "latest_training_available_epoch": 1793924100.0,
+      "first_target_kickoff_epoch": 1793927700.0,
+      "parameters": {
+        "class": "laws_v2.LeafModel",
+        "kind": "count",
+        "scale": 1,
+        "n_estimators": 32,
+        "max_depth": 8,
+        "min_samples_leaf": 30,
+        "max_features": 1.0,
+        "bootstrap": false,
+        "random_state": 1701,
+        "n_jobs": 1,
+        "prior_alpha": 0.05,
+        "preprocessing": "training-onlymedianimputation+missingindicators,sourceE0_ENV35features"
+      },
+      "history": "H-MULTI;2022expanding;strict kickoff+7day < origin and querycutoff",
+      "query_universe": "Original statistical-row-conditioned QB reconstruction; not authenticated pregame roles",
+      "future_invariance": {
+        "target_and_later_mutation_changes_earlier_features": false,
+        "eligible_training_target_or_future_rows": 0,
+        "queries_checked": 38
+      },
+      "active_lease": "C_W1W9_PASS_CMP_ORIGINS_W08_W09_01;soleCfitworker delegatedto/root/nine_week_c_panel;nonblockingexclusivefitlock",
+      "core_code_SHA256": {
+        "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+        "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+        "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+        "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0"
+      },
+      "FIT_COMPLETE_UTC": "2026-11-14T19:27:44.099872+00:00",
+      "model_format": "C-NUMERIC-LEAF-v4;safeJSONonly",
+      "model_SHA256": "017ba3f58bbffbfca9d0797467a87854f8fd2aec8a3888c026aa5c6adcbc1317",
+      "points_SHA256": "66860a59820294998dc9b37d3f239033f8dd9592ccaf0aa21db4baae11040b98",
+      "restored_training_validation": {
+        "training_rows": 2867,
+        "trees": 32,
+        "imputation_priors_all_leaf_counts_verified": true,
+        "new_fits": 0
+      },
+      "max_single_batch_shuffle_mean_difference_tolerance": 1e-12,
+      "point_rows": 38,
+      "new_fits": 1,
+      "new_actual_offer_grades": 0,
+      "CMP_ATT_primary_selection_hold": "RETAINED;not coherentjointcompletionattemptlaw"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "id": "C-COMPARISON-SECONDARY-METRICS-STRATA-v1",
+  "A_early84": [
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::mean",
+      "numerical": {
+        "MAE": 5.142122042139775,
+        "MSE": 41.309243547979165,
+        "absolute_error_p90": 11.072741901761155,
+        "bias": -2.915815804231289,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 17.39683082738088,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::lower_median",
+      "numerical": {
+        "MAE": 4.833333333333333,
+        "MSE": 36.57142857142857,
+        "absolute_error_p90": 11.0,
+        "bias": -2.238095238095238,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 16.0,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B0::P2",
+      "numerical": {
+        "MAE": null,
+        "MSE": null,
+        "absolute_error_p90": null,
+        "bias": null,
+        "learned_or_fallback_states": {},
+        "max_absolute_error": null,
+        "scored": 0
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B1::mean",
+      "numerical": {
+        "MAE": 5.142122042139775,
+        "MSE": 41.309243547979165,
+        "absolute_error_p90": 11.072741901761155,
+        "bias": -2.915815804231289,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 17.39683082738088,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B1::lower_median",
+      "numerical": {
+        "MAE": 4.833333333333333,
+        "MSE": 36.57142857142857,
+        "absolute_error_p90": 11.0,
+        "bias": -2.238095238095238,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 16.0,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B1::P2",
+      "numerical": {
+        "MAE": null,
+        "MSE": null,
+        "absolute_error_p90": null,
+        "bias": null,
+        "learned_or_fallback_states": {},
+        "max_absolute_error": null,
+        "scored": 0
+      },
+      "probability": {
+        "Brier": 0.2648284753930759,
+        "Over_event_AUC": 0.5068181818181818,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.1934382001528776
+          },
+          {
+            "bin_index": 2,
+            "count": 5,
+            "observed_Over": 0.4,
+            "predicted_Over": 0.2725914557448016
+          },
+          {
+            "bin_index": 3,
+            "count": 30,
+            "observed_Over": 0.5666666666666667,
+            "predicted_Over": 0.3581550728758842
+          },
+          {
+            "bin_index": 4,
+            "count": 34,
+            "observed_Over": 0.47058823529411764,
+            "predicted_Over": 0.4517358912463436
+          },
+          {
+            "bin_index": 5,
+            "count": 12,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.5345889192976109
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6170675169192359
+          }
+        ],
+        "three_state_log_loss": 0.7246533717105922
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::mean",
+      "numerical": {
+        "MAE": 5.125128133625404,
+        "MSE": 40.85462840208597,
+        "absolute_error_p90": 10.66168256443176,
+        "bias": -2.8952252152472733,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 16.29421223119417,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2631282632354981,
+        "Over_event_AUC": 0.5278409090909091,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.19342005976333276
+          },
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.2748549395673256
+          },
+          {
+            "bin_index": 3,
+            "count": 28,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.3548772948447948
+          },
+          {
+            "bin_index": 4,
+            "count": 28,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.4442581508037059
+          },
+          {
+            "bin_index": 5,
+            "count": 19,
+            "observed_Over": 0.6842105263157895,
+            "predicted_Over": 0.5273800998478994
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6315031345766621
+          }
+        ],
+        "three_state_log_loss": 0.7215298969990076
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::lower_median",
+      "numerical": {
+        "MAE": 4.833333333333333,
+        "MSE": 36.30952380952381,
+        "absolute_error_p90": 10.0,
+        "bias": -2.1666666666666665,
+        "learned_or_fallback_states": {
+          "none": 84
+        },
+        "max_absolute_error": 16.0,
+        "scored": 84
+      },
+      "probability": {
+        "Brier": 0.2631282632354981,
+        "Over_event_AUC": 0.5278409090909091,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.19342005976333276
+          },
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.2748549395673256
+          },
+          {
+            "bin_index": 3,
+            "count": 28,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.3548772948447948
+          },
+          {
+            "bin_index": 4,
+            "count": 28,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.4442581508037059
+          },
+          {
+            "bin_index": 5,
+            "count": 19,
+            "observed_Over": 0.6842105263157895,
+            "predicted_Over": 0.5273800998478994
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6315031345766621
+          }
+        ],
+        "three_state_log_loss": 0.7215298969990076
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    },
+    {
+      "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2::P2",
+      "numerical": {
+        "MAE": null,
+        "MSE": null,
+        "absolute_error_p90": null,
+        "bias": null,
+        "learned_or_fallback_states": {},
+        "max_absolute_error": null,
+        "scored": 0
+      },
+      "probability": {
+        "Brier": 0.2631282632354981,
+        "Over_event_AUC": 0.5278409090909091,
+        "conditioning": "B retained physical-participation law; strict Over event. Push is false for binary event; venue nonvoid contract unverified. No recalibration/gate.",
+        "events": 84,
+        "infinite_log_loss_cases": 0,
+        "neutral_binary_half_Brier": 0.25,
+        "reliability_fixed_bins": [
+          {
+            "bin_index": 1,
+            "count": 1,
+            "observed_Over": 0.0,
+            "predicted_Over": 0.19342005976333276
+          },
+          {
+            "bin_index": 2,
+            "count": 6,
+            "observed_Over": 0.6666666666666666,
+            "predicted_Over": 0.2748549395673256
+          },
+          {
+            "bin_index": 3,
+            "count": 28,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.3548772948447948
+          },
+          {
+            "bin_index": 4,
+            "count": 28,
+            "observed_Over": 0.42857142857142855,
+            "predicted_Over": 0.4442581508037059
+          },
+          {
+            "bin_index": 5,
+            "count": 19,
+            "observed_Over": 0.6842105263157895,
+            "predicted_Over": 0.5273800998478994
+          },
+          {
+            "bin_index": 6,
+            "count": 2,
+            "observed_Over": 0.5,
+            "predicted_Over": 0.6315031345766621
+          }
+        ],
+        "three_state_log_loss": 0.7215298969990076
+      },
+      "probability_scope": "SAME_STORED_COMPLETION_LAW_AUXILIARY"
+    }
+  ],
+  "B_native142": {
+    "2026_broad315": {
+      "B0": 5.618873895622019,
+      "B2": 5.59384337573958
+    },
+    "2026_same142offers_owner_reported": {
+      "B0": 4.882822,
+      "B2": 4.951603
+    },
+    "2025_full664_owner_reported": {
+      "B0": 5.987097,
+      "B2": 6.023978
+    }
+  },
+  "B_native_count_law_proper_scores": {
+    "B0_brier": 0.2665452222447479,
+    "B2_brier": 0.26918027997713156,
+    "B0_log_loss": 0.7289025147190994,
+    "B2_log_loss": 0.7351794287803792,
+    "point_products_have_no_invented_confidence": true
+  },
+  "pooling": "No single9weekBrier: AbinaryOver vsBhalfmulticlassdifferentcontracts. No pooledATTmedianMAE fromBcompanionbroadmeanfield. Broadnumericpopulationsarenot offered-playerclaims.",
+  "source_binding": {
+    "path": "reports/wave-closure-next-valid-01/B-intake/ADMISSION.json",
+    "bytes": 8950,
+    "SHA256": "66d39af930fafe25695da83230b62643bbf7eaaee57b98300ee701bd0daf2a9d"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "checked_forecast_identity": {
+    "B0_reused_original": "B-QB-OPPORTUNITY-PROFILE-INCREMENT-v1:R3",
+    "B1": "exact B0 output/input alias, not new fitted procedure",
+    "B_producer_commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+    "feature_memory": "2022_EXPANDING",
+    "history_regime": "H-RECENT",
+    "horizon": "A offer kickoff_utc and cutoff_utc must equal aware B feature_cutoff; canonical game/player/team/opponent/role checked.",
+    "role": "QB",
+    "source_clock": "latest_source_available strictly before feature_cutoff when known; historical publication vintage unverified.",
+    "target": "pass_cmp"
+  },
+  "mask_schema": {
+    "algorithm": "SHA256 of UTF-8 (json.dumps(sorted(opportunity_key strings),sort_keys=True,separators=(comma,colon),allow_nan=False)+LF). Eligible and decided masks computed separately.",
+    "opaque_key_normalization": "Not public in this receipt; cannot independently decode venue/line/horizon identity from the hash.",
+    "source_function": "tools/timing_confirm_b_completion_join_v1.py:mask"
+  },
+  "membership_digest": {
+    "row_fields_in_order": [
+      "candidate_id",
+      "opportunity_key",
+      "str(original line)",
+      "source_stream",
+      "source_sha256",
+      "quote_timing_status",
+      "point",
+      "probability object",
+      "appearance",
+      "actual",
+      "selected side",
+      "grade status",
+      "source feature clock"
+    ],
+    "serialization": "SHA256 canonical JSON of sorted membership rows plus LF. Book is not a separate vector element; may occur in opaque opportunity_key.",
+    "sha256": "13cc18fee6ffbadde585e917cb284be8c3a523477c0a88cde1583fcf1f78d9ba",
+    "source_adapter": "tools/wave_close_b_ftn_completion_join_v1.py"
+  },
+  "multi_source_diagnostic": {
+    "W5_overlap": "If adding A annual W5 to B native W5, need owner-local normalized canonical event/player/category/role/book/line/source/horizon and duplicate membership receipt before concatenation. Different hashes do not prove disjoint offers.",
+    "allowed_claim": "A W1-W4 and B W5-W9 can form an explicitly heterogeneous/source-stratified diagnostic if exact procedure/output/history/fallback/decision and label contracts match and period/event disjointness is established; preserve weekly/source records.",
+    "missing_public_normalized_fields": [
+      "opportunity_key definition/normalization version",
+      "canonical book/venue mapping for numeric IDs68/69/79",
+      "decision cutoff and repricing contract mapped to original source clock states",
+      "outcome/presence version agreement and repeated-source offer deduplication membership",
+      "game/week-cluster sufficient paired counts or owner-local joined vectors for pooled uncertainty"
+    ],
+    "not_established": "One homogeneous ordinary/mainline, book-specific, authenticated pregame or originally issued board; source differences and unknown original clocks remain. No pooled paired cluster interval inferred from aggregate percentages.",
+    "responsible_executors": "A preserves protected source rows and executes joins; B supplies exact native source/forecast output and normalized commitments; C admits scoped aggregates.",
+    "status": "CONDITIONALLY_POSSIBLE_WITH_B_EXACT_PROCEDURE_OUTPUT_CHRONOLOGY_AND_OUTCOME_PARITY;NO_BLANKET_SOURCE_VETO"
+  },
+  "same_source_full_common_mask": {
+    "common_B_same": true,
+    "games": 48,
+    "offers": 84,
+    "sha256": "12fe9064bc80b901fce44a558fc2d9c177bb58bd364109e46c795d4468aba91c"
+  }
+}

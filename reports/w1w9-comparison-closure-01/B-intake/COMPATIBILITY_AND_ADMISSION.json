@@ -1,0 +1,525 @@
+{
+  "id": "C-B-COMPLETION-W1-W9-COMPATIBILITY-v1",
+  "created_UTC": "2026-11-14T18:32:52.943893+00:00",
+  "B_exact_head": "acd32c8e7e11257a925e1be1242727265d1ad563",
+  "new_receipt_commit": "0440b93222736ee7d06c5757a57a449681504a53",
+  "status": "B_SAVED_OUTPUTS_READY;MULTISOURCE_NINE_WEEK_CLAIM_CONDITIONAL_ON_A_NEW_EXECUTED_JOIN_AND_SOURCE_MASK_RECONCILIATION",
+  "exact_procedure": "B-FTN-BALL-QUALITY-COMPLETION-v1",
+  "arms": {
+    "B0": "Unchanged retained R3 law; original941 evaluation outputs reused, new W9 fit only",
+    "B1": "Output-preserving exact B0 support alias, no extra fit",
+    "B2": "Same fixed learner plus own8 lagged throwaway/IWP rates; no modified lag or gate"
+  },
+  "model_and_history": "32-tree ExtraTrees Leaf-CDF seed1701/depth8/minleaf30;95%empirical+5%eligible prior; H-RECENT priorseason+eligiblecurrent labels, expanding2022 feature memory; own8/strength20 earlier2024 choice; strict available<cutoff under current-vintage7day reconstruction. No fresh fits required for this join.",
+  "target_contract": {
+    "category": "pass_cmp",
+    "period": "full_game_including_overtime",
+    "role": "QB",
+    "outcome": "Qualified official quarterback completions conditional on physical appearance; preserve explicit zeros/unknowns/DNP/void separately"
+  },
+  "decision_rules": {
+    "primary": "P1_MEAN: own unrounded mean>exact line =>Over; mean<line=>Under; exact tie abstains",
+    "separate_point": "P1_LOWER_MEDIAN: median versus line, a separate policy",
+    "probability": "P2_STATISTICAL_LAW: exact Over/Under/push mass from saved leaf_mixture; max Over/Under mass direction, exact tie abstains; never infer probabilities from a point",
+    "fallback": "Required FTN incompleteness uses exact B0 fallback, not an intentional abstention. Full-board technical unavailability stays explicit."
+  },
+  "prediction_bindings": [
+    {
+      "season": 2026,
+      "week": 1,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W01.json.gz",
+        "bytes": 156402,
+        "sha256": "17c4869b24af86195010322811630aee0210fcfea26788a5bdad1ba7d73c9b5c",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W01.json.gz"
+      },
+      "arm_rows": {
+        "B0": 37,
+        "B1": 37,
+        "B2": 37
+      },
+      "unique_player_games": 37,
+      "fit_cutoff": 1788999600.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W02.json.gz",
+        "bytes": 166065,
+        "sha256": "0c1a42fe10e2b49a61aa71fe1ffdcb26b8dbc66031443d996088b9cbdf88543a",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W02.json.gz"
+      },
+      "arm_rows": {
+        "B0": 39,
+        "B1": 39,
+        "B2": 39
+      },
+      "unique_player_games": 39,
+      "fit_cutoff": 1789690500.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W03.json.gz",
+        "bytes": 155318,
+        "sha256": "90cbb16d1f8450eeb60ed34d32f9cc1a9e199d35731a9df4b5baa074d578eca8",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W03.json.gz"
+      },
+      "arm_rows": {
+        "B0": 36,
+        "B1": 36,
+        "B2": 36
+      },
+      "unique_player_games": 36,
+      "fit_cutoff": 1790295300.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W04.json.gz",
+        "bytes": 146855,
+        "sha256": "14c982416dfb7b21fcfbe9e2085a6ca95d61f598ff1308edf1c5d960e0896d60",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W04.json.gz"
+      },
+      "arm_rows": {
+        "B0": 34,
+        "B1": 34,
+        "B2": 34
+      },
+      "unique_player_games": 34,
+      "fit_cutoff": 1790900100.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W05.json.gz",
+        "bytes": 152112,
+        "sha256": "08d94bd38de24955151dbc5b75bf69eab2d7f103f3186282ee914b111003c13b",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W05.json.gz"
+      },
+      "arm_rows": {
+        "B0": 36,
+        "B1": 36,
+        "B2": 36
+      },
+      "unique_player_games": 36,
+      "fit_cutoff": 1791504900.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W06.json.gz",
+        "bytes": 129758,
+        "sha256": "a32a08c2bfb3247dcc41312fc91e76da3f613b8fa3a72483fb0ea98d45fc03c6",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W06.json.gz"
+      },
+      "arm_rows": {
+        "B0": 29,
+        "B1": 29,
+        "B2": 29
+      },
+      "unique_player_games": 29,
+      "fit_cutoff": 1792109700.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W07.json.gz",
+        "bytes": 136136,
+        "sha256": "7de69599764ccc795c83e14193a035c8c4bb24db0b0e66fbe7ccab6e9e3ca13f",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W07.json.gz"
+      },
+      "arm_rows": {
+        "B0": 31,
+        "B1": 31,
+        "B2": 31
+      },
+      "unique_player_games": 31,
+      "fit_cutoff": 1792714500.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 8,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W08.json.gz",
+        "bytes": 147424,
+        "sha256": "8ade1488dd913841ed5c7399ab46efa8068b41d93bc13b5a0d825cdf57464952",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W08.json.gz"
+      },
+      "arm_rows": {
+        "B0": 35,
+        "B1": 35,
+        "B2": 35
+      },
+      "unique_player_games": 35,
+      "fit_cutoff": 1793319300.0,
+      "full_laws_retained": true
+    },
+    {
+      "season": 2026,
+      "week": 9,
+      "binding": {
+        "path": "reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W09.json.gz",
+        "bytes": 159494,
+        "sha256": "eaecca2e5b81a28c5c8fc31a4456aeefe5e3a79fd89938d3ae2e8028e09dc159",
+        "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/d79acddf5f094c85001c9b17a525ac7d9e25f9ec/reports/information-first-20261112-01/B/completion-wave-v1/predictions/2026-W09.json.gz"
+      },
+      "arm_rows": {
+        "B0": 38,
+        "B1": 38,
+        "B2": 38
+      },
+      "unique_player_games": 38,
+      "fit_cutoff": 1793927700.0,
+      "full_laws_retained": true
+    }
+  ],
+  "W1_W4_saved": {
+    "unique_QB_game_queries": 146,
+    "arm_rows": 438,
+    "by_week": {
+      "1": 37,
+      "2": 39,
+      "3": 36,
+      "4": 34
+    },
+    "means_medians_full_laws": true,
+    "new_fits_needed": 0
+  },
+  "later_native_panel": {
+    "season": 2026,
+    "weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "rows": 142,
+    "games": 71,
+    "source_strata": {
+      "W5_W8": "Native retained per-game rolling-source assignments,28completionrows/week; individual quote clocks unverified",
+      "W9": "Separate fixedpre-firstT90 file/witness binding,30completionrows/15games; file retention authentication is not individual quote clock/model issuance"
+    },
+    "line_scope": "Observed DK-labelled completion thresholds; main-vs-alternative and sportsbook settlement independentlyunverified",
+    "history_policy": "Current-vintage strict seven-day availability reconstruction; no target-game charting as pregameinput",
+    "mask_commitments": "Exact query_membership_sha256 by arm/side/week in reused24triads and originalB142owner-localoffer/sourcehashes; no publicrowmembershipparity claimed",
+    "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC;CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION"
+  },
+  "B_W1_W4_offer_own_inventory": {
+    "sets": [
+      "Existing native QB offers restoration",
+      "Existing W5 overlap/source closure",
+      "Existing information-first W9 restoration"
+    ],
+    "existing_offered_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "compatible_W1_W4_offer_rows_located": 0,
+    "limit": "No filename/registered-source candidate for W1\u20134 offers in the inspected retained B source sets; not a claim no other owner has them. Restricted A annual88-case board remains A-local."
+  },
+  "A_join_asof_B_receipt": {
+    "ref": "27ff63c25509db058e651f63f7110af1d7e6fe39",
+    "state": "NOT_LOCATED_IN_BOUND_EXPORT;NO_NEW_FTN_OUTPUT_RECEIPT_CLAIMED",
+    "old_completed_joins": "Old E/R/F/timing completion joins are completed and retained; none evaluates this changed B2 automatically."
+  },
+  "supersession_rule": "B asofA27ff63 pending status is historical only; actual newer A84-offerW1-4receipt must supersede if supplied. C doesnotrerunAjoin orassertstillunexecutedbasedonoldBstatus.",
+  "compatible_union_requirements": [
+    "Exactsameprocedure/arm/output/side/role/fullgame/history/refit/fallbackidentities, not E/F/timing aliases",
+    "A retainedW1-4offer/gradebindingandnewB0/B2executionreceipt withcommonmaskAstrongcontrols",
+    "Stratify A source/horizon vs B native rollingW5-8 and fixedW9; union mayonlybe explicitlyheterogeneous timing-unverified diagnostic ifcontractspermit",
+    "Do notunionA W5withB W5until event/player/category/role/book/line/source/horizon/decision and repeatedoffer keys dedup",
+    "Keepeligible/available/selected/unknown/abstained/unavailable/fallbackcounts for eachsourceprocedure, no successfulabstention frommissingoutput",
+    "Offerclockunverifiedremainsunverified after durationcoverageorprivateaggregatearithmetic"
+  ],
+  "strong_controls": {
+    "B_same142_retained_owner_report": {
+      "saved_adjusted_combined_wins": 72,
+      "saved_raw_combined_wins": 71,
+      "earlier_only_prevalence_combined_wins": 72,
+      "always_over_combined_wins": 71,
+      "always_under_combined_wins": 71,
+      "decided": 142,
+      "stored_incumbent_lean": {
+        "selected": 102,
+        "wins": 54,
+        "losses": 48,
+        "abstained": 40
+      }
+    },
+    "B_control_source_needed_for_own_side_detail": {
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "commit": "d79acddf5f094c85001c9b17a525ac7d9e25f9ec",
+      "path": "reports/information-first-20261112-01/B/completion-scores-v1/COMMON_CONTROL_TABLE.json",
+      "source_status": "Indexedbutnotfetchedinthis12-readsubtask; no fabricatedownO/Ucountsfornonconstantcontrols"
+    },
+    "missing_A_controls_on_B_later_rows": {
+      "executor": "A retained completionmodel/private-boardowner, with B source/canonicalmaskowner supplying permitted contract",
+      "artifact": "Exact retained CatBoost/HGB/otherstrongA completeprocedure predictions (or authenticated origin inference) joined to B native2026W5-W9 142-offerplayer/event/book/line/source/horizon/grade mask; weeklyownside+coverage andpairedmembershipcommitments",
+      "purpose": "Necessarybeforeclaimingcross-sessioncompleteW1-W9champion; A W1-W4 84offerjoinorA88W1-W5headlinealonecannotestablishAcontrolsversusBonnativelaterrows",
+      "minimum_action": "Checkalreadyretainedexactoriginoutputsfirst; inferonlyiftrustedappropriateartifactsandpermitexist; publishexactblockedcellsifincompatible/noartifact. Noautomaticrefit/tournament."
+    }
+  },
+  "frozen_grade_intake": {
+    "state": "RECEIVED_COMPLETE_OWNER_B_GRADE;NO_C_REGRADING",
+    "packet_hash": "f9889584338bf7b85f5de3889fbc78f73fee97e2052faea7cc91a28fb203c7bb",
+    "rows": 10,
+    "scored_arm_rows": 6,
+    "unique_appearing_QB_games": 3,
+    "game_clusters": 1,
+    "DNP_forecast_rows": 2,
+    "IR_unavailable_rows": 2,
+    "state_counts": {
+      "QUALIFIED_PLAYED_COUNT": 4,
+      "FROZEN_IR_FORECAST_UNAVAILABLE": 2,
+      "QUALIFIED_PLAYED_ZERO": 2,
+      "EXPLICIT_GAME_ROSTER_DID_NOT_PLAY": 2
+    },
+    "offers": 0,
+    "O_U_picks": 0,
+    "new_primary_O_U_weeks": 0,
+    "new_numerical_week": [
+      2026,
+      10
+    ],
+    "receipt": "SOURCE_AND_GRADING_RECEIPT_V1.json",
+    "independent_B_receipt": "INDEPENDENT_FORWARD_ARITHMETIC_V1.json"
+  },
+  "selector_review_intake": {
+    "state": "B_W4_ADDITIONAL_WEEK_VERIFICATION_RECEIVED_COMPLETE",
+    "policy": "NFL-WEB-EXACT-SELECTOR-REC-P1-MEAN-WRTE-20261112-v1",
+    "duration": {
+      "scored_blocks": [
+        [
+          2026,
+          4
+        ],
+        [
+          2026,
+          5
+        ],
+        [
+          2026,
+          6
+        ],
+        [
+          2026,
+          7
+        ],
+        [
+          2026,
+          8
+        ]
+      ],
+      "five_week_floor": "MET_AT_DECLARED_PARTIAL_CONDITIONAL_RETROSPECTIVE_TIER",
+      "candidate_generated_selected_by_week": [
+        {
+          "week": 4,
+          "candidate": 2,
+          "fallback": 12
+        },
+        {
+          "week": 5,
+          "candidate": 2,
+          "fallback": 22
+        },
+        {
+          "week": 6,
+          "candidate": 4,
+          "fallback": 20
+        },
+        {
+          "week": 7,
+          "candidate": 2,
+          "fallback": 22
+        },
+        {
+          "week": 8,
+          "candidate": 0,
+          "fallback": 24
+        }
+      ],
+      "candidate_contributing_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "W8_fallback_only": true,
+      "do_not_reset_count_or_invent_new_gate": true
+    },
+    "cumulative": {
+      "control": {
+        "selected": 109,
+        "wins": 49,
+        "losses": 58,
+        "decided": 107,
+        "unknown": 2,
+        "rate": 0.45794392523364486,
+        "own_sides": {
+          "over": {
+            "selected": 49,
+            "wins": 22,
+            "losses": 25,
+            "decided": 47,
+            "unknown": 2,
+            "rate": 0.46808510638297873
+          },
+          "under": {
+            "selected": 60,
+            "wins": 27,
+            "losses": 33,
+            "decided": 60,
+            "unknown": 0,
+            "rate": 0.45
+          }
+        }
+      },
+      "candidate": {
+        "selected": 110,
+        "wins": 53,
+        "losses": 55,
+        "decided": 108,
+        "unknown": 2,
+        "rate": 0.49074074074074076,
+        "own_sides": {
+          "over": {
+            "selected": 50,
+            "wins": 22,
+            "losses": 26,
+            "decided": 48,
+            "unknown": 2,
+            "rate": 0.4583333333333333
+          },
+          "under": {
+            "selected": 60,
+            "wins": 31,
+            "losses": 29,
+            "decided": 60,
+            "unknown": 0,
+            "rate": 0.5166666666666667
+          }
+        }
+      },
+      "candidate_generated": {
+        "selected": 10,
+        "wins": 6,
+        "losses": 4,
+        "decided": 10,
+        "unknown": 0,
+        "rate": 0.6,
+        "own_sides": {
+          "over": {
+            "selected": 3,
+            "wins": 1,
+            "losses": 2,
+            "decided": 3,
+            "unknown": 0,
+            "rate": 0.3333333333333333
+          },
+          "under": {
+            "selected": 7,
+            "wins": 5,
+            "losses": 2,
+            "decided": 7,
+            "unknown": 0,
+            "rate": 0.7142857142857143
+          }
+        }
+      },
+      "candidate_fallback": {
+        "selected": 100,
+        "wins": 47,
+        "losses": 51,
+        "decided": 98,
+        "unknown": 2,
+        "rate": 0.47959183673469385,
+        "own_sides": {
+          "over": {
+            "selected": 47,
+            "wins": 21,
+            "losses": 24,
+            "decided": 45,
+            "unknown": 2,
+            "rate": 0.4666666666666667
+          },
+          "under": {
+            "selected": 53,
+            "wins": 26,
+            "losses": 27,
+            "decided": 53,
+            "unknown": 0,
+            "rate": 0.49056603773584906
+          }
+        }
+      }
+    },
+    "membership": {
+      "same_side_common": 100,
+      "control_only": 9,
+      "candidate_only": 10
+    },
+    "limits": [
+      "W4completeavailablebatchis2futuregames/14startedexcluded;notfullpreSundayNFLweek.",
+      "Originalquote/providerpublicationclocksandstatrowqueryuniverseunauthenticated;chronologicalprefixreconstructiononly.",
+      "SamefrozenC-P1meanWRTEreceptionsubstitutiondoesnottestallA/B/Ccategorywinners.",
+      "OwnerW4private27selectedfilebytesnotobtained;B independentlyreconstructedfrompublicsourcebindingsandmatchedpublishedmembershipcounts/ownsideaggregatesandrealproductionfunction.",
+      "Old4weekpriorBverified192rowsreusedplusonesourceboundW6grade-onlydelta;no newcombinedfull-rowhashinvented.",
+      "Fiveexposedweeklyclusters/differentselecteddenominators/10candidate-generatedpicksdonotprovefutureorincumbentsuperiority.",
+      "Noindependentfit/rawchartingvintage/sportsbooksettlement/consumeradmissionorwebsitewrite."
+    ],
+    "decision": "SHADOW",
+    "scope": "Independentproductionfunctionmembership/arithmeticreconstruction,216productionfields/27selectedW4records; notprivateowner27-recordbyteparity",
+    "no_C_replay": true
+  },
+  "C_arithmetic_check": {
+    "state": "PASS_SCOPED_PUBLICAGGREGATE_IDENTITIES",
+    "checked": [
+      "Ownside/cumulative W-L/decided/rates",
+      "10candidate-generated+100fallback=110selected andwins/losses/unknown partition",
+      "10frozenrecordstates,6gradedarmrows;noassumedoutcomes",
+      "24exactalreadyadmittedBmean/lawweeklycumulativetriadsreused"
+    ],
+    "not_checked": [
+      "Privateofferrows/newA84join",
+      "OriginalsourcequoteclockandhistoricalFTNpublication",
+      "Savedmodel/freshfitparity",
+      "NewBfifthweekrawsource/functionreexecution",
+      "Bforwardsource/gradefunctionreexecution"
+    ]
+  },
+  "limits": {
+    "fits": 0,
+    "new_forecasts": 0,
+    "grader_runs": 0,
+    "source_collection": 0,
+    "peerwrites": 0,
+    "new_common_evaluator": false
+  }
+}

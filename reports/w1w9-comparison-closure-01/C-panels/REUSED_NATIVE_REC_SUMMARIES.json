@@ -1,0 +1,1910 @@
+[
+  {
+    "category": "rec",
+    "method": "ALWAYS_OVER",
+    "label": "ALWAYS_OVER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 278,
+      "wins": 122,
+      "losses": 133,
+      "decided": 255,
+      "rate": 0.47843137254901963
+    },
+    "UNDER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 122,
+      "losses": 133,
+      "decided": 255,
+      "rate": 0.47843137254901963
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 122,
+      "LOSS": 133,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.41789556559315205,
+      "high": 0.5396073782933605,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.410435609309773,
+      "high": 0.5416708167330677,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "ALWAYS_UNDER",
+    "label": "ALWAYS_UNDER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 278,
+      "wins": 133,
+      "losses": 122,
+      "decided": 255,
+      "rate": 0.5215686274509804
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 133,
+      "losses": 122,
+      "decided": 255,
+      "rate": 0.5215686274509804
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 122,
+      "WIN": 133,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.4603926217066396,
+      "high": 0.582104434406848,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4583291832669322,
+      "high": 0.589564390690227,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "E0",
+    "label": "Retained HGB direct/E0_OP",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 67,
+      "wins": 35,
+      "losses": 21,
+      "decided": 56,
+      "rate": 0.625
+    },
+    "UNDER": {
+      "selected": 211,
+      "wins": 112,
+      "losses": 87,
+      "decided": 199,
+      "rate": 0.5628140703517588
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 147,
+      "losses": 108,
+      "decided": 255,
+      "rate": 0.5764705882352941
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 147,
+      "LOSS": 108,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5151298379645244,
+      "high": 0.6355415428014766,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.2620483009473796,
+    "mean_log_loss": 0.7236282674399992,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.6347613422764409,
+    "expected_wins": 161.86414228049242,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5113432585347142,
+      "high": 0.6403239253952568,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1",
+    "label": "Pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 71,
+      "wins": 37,
+      "losses": 21,
+      "decided": 58,
+      "rate": 0.6379310344827587
+    },
+    "UNDER": {
+      "selected": 207,
+      "wins": 112,
+      "losses": 85,
+      "decided": 197,
+      "rate": 0.5685279187817259
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 149,
+      "losses": 106,
+      "decided": 255,
+      "rate": 0.5843137254901961
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 106,
+      "WIN": 149,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.523009891197656,
+      "high": 0.6431149645187042,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.2795603398601013,
+    "mean_log_loss": 0.7962807283645753,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.7022214862018595,
+    "expected_wins": 179.0664789814742,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5132026373009749,
+      "high": 0.6586345381526104,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEAN_DIRECTION",
+    "label": "P1_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 96,
+      "wins": 47,
+      "losses": 32,
+      "decided": 79,
+      "rate": 0.5949367088607594
+    },
+    "UNDER": {
+      "selected": 182,
+      "wins": 101,
+      "losses": 75,
+      "decided": 176,
+      "rate": 0.5738636363636364
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 148,
+      "losses": 107,
+      "decided": 255,
+      "rate": 0.5803921568627451
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 107,
+      "WIN": 148,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5190679460422971,
+      "high": 0.6393301721988836,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5189366203879802,
+      "high": 0.6446320878139059,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEDIAN_DIRECTION",
+    "label": "P1_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 71,
+      "wins": 37,
+      "losses": 21,
+      "decided": 58,
+      "rate": 0.6379310344827587
+    },
+    "UNDER": {
+      "selected": 207,
+      "wins": 112,
+      "losses": 85,
+      "decided": 197,
+      "rate": 0.5685279187817259
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 149,
+      "losses": 106,
+      "decided": 255,
+      "rate": 0.5843137254901961
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 106,
+      "WIN": 149,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.523009891197656,
+      "high": 0.6431149645187042,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5132026373009749,
+      "high": 0.6586345381526104,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2",
+    "label": "Partially pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 66,
+      "wins": 35,
+      "losses": 18,
+      "decided": 53,
+      "rate": 0.660377358490566
+    },
+    "UNDER": {
+      "selected": 212,
+      "wins": 115,
+      "losses": 87,
+      "decided": 202,
+      "rate": 0.5693069306930693
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 150,
+      "losses": 105,
+      "decided": 255,
+      "rate": 0.5882352941176471
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 105,
+      "WIN": 150,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5269556885133038,
+      "high": 0.6468959046782361,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.28073779907423557,
+    "mean_log_loss": 0.7996140597936944,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.703415312275612,
+    "expected_wins": 179.37090463028107,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5180686890990256,
+      "high": 0.6601581352557915,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEAN_DIRECTION",
+    "label": "P2_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 93,
+      "wins": 44,
+      "losses": 34,
+      "decided": 78,
+      "rate": 0.5641025641025641
+    },
+    "UNDER": {
+      "selected": 185,
+      "wins": 99,
+      "losses": 78,
+      "decided": 177,
+      "rate": 0.559322033898305
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 143,
+      "losses": 112,
+      "decided": 255,
+      "rate": 0.5607843137254902
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 112,
+      "WIN": 143,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.49941550281868957,
+      "high": 0.6203489280465935,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4901941408974657,
+      "high": 0.6326570471938776,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEDIAN_DIRECTION",
+    "label": "P2_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2,
+      3
+    ],
+    "week": "ALL",
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 66,
+      "wins": 35,
+      "losses": 18,
+      "decided": 53,
+      "rate": 0.660377358490566
+    },
+    "UNDER": {
+      "selected": 212,
+      "wins": 115,
+      "losses": 87,
+      "decided": 202,
+      "rate": 0.5693069306930693
+    },
+    "COMBINED": {
+      "selected": 278,
+      "wins": 150,
+      "losses": 105,
+      "decided": 255,
+      "rate": 0.5882352941176471
+    },
+    "eligible": 278,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 105,
+      "WIN": 150,
+      "UNKNOWN_PARTICIPATION": 23
+    },
+    "games": 32,
+    "player_games": 278,
+    "weeks": [
+      2,
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5269556885133038,
+      "high": 0.6468959046782361,
+      "dependence_aware": false,
+      "week_clusters": 2
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5180686890990256,
+      "high": 0.6601581352557915,
+      "games": 32,
+      "week_count": 2,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "ALWAYS_OVER",
+    "label": "ALWAYS_OVER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 136,
+      "wins": 57,
+      "losses": 64,
+      "decided": 121,
+      "rate": 0.47107438016528924
+    },
+    "UNDER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 57,
+      "losses": 64,
+      "decided": 121,
+      "rate": 0.47107438016528924
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 57,
+      "LOSS": 64,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.3843989169791173,
+      "high": 0.5595299663732161,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.38524590163934425,
+      "high": 0.5583580508474575,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "ALWAYS_UNDER",
+    "label": "ALWAYS_UNDER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 136,
+      "wins": 64,
+      "losses": 57,
+      "decided": 121,
+      "rate": 0.5289256198347108
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 64,
+      "losses": 57,
+      "decided": 121,
+      "rate": 0.5289256198347108
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 57,
+      "WIN": 64,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.44047003362678394,
+      "high": 0.6156010830208827,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.44164194915254235,
+      "high": 0.6147540983606558,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "E0",
+    "label": "Retained HGB direct/E0_OP",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 32,
+      "wins": 14,
+      "losses": 12,
+      "decided": 26,
+      "rate": 0.5384615384615384
+    },
+    "UNDER": {
+      "selected": 104,
+      "wins": 52,
+      "losses": 43,
+      "decided": 95,
+      "rate": 0.5473684210526316
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 66,
+      "losses": 55,
+      "decided": 121,
+      "rate": 0.5454545454545454
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 66,
+      "LOSS": 55,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.4566999677943989,
+      "high": 0.6314117869376484,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.27537473382800226,
+    "mean_log_loss": 0.7537087584707116,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.6390872004606611,
+    "expected_wins": 77.32955125574,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4319758620689655,
+      "high": 0.6613446029776672,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1",
+    "label": "Pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 37,
+      "wins": 18,
+      "losses": 12,
+      "decided": 30,
+      "rate": 0.6
+    },
+    "UNDER": {
+      "selected": 99,
+      "wins": 52,
+      "losses": 39,
+      "decided": 91,
+      "rate": 0.5714285714285714
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 70,
+      "losses": 51,
+      "decided": 121,
+      "rate": 0.5785123966942148
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 51,
+      "WIN": 70,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.48944298498295263,
+      "high": 0.6627500459178565,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.2993374910762032,
+    "mean_log_loss": 0.850852684390298,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.703514070980587,
+    "expected_wins": 85.12520258865105,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4566929133858268,
+      "high": 0.6855206872370264,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEAN_DIRECTION",
+    "label": "P1_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 51,
+      "wins": 22,
+      "losses": 19,
+      "decided": 41,
+      "rate": 0.5365853658536586
+    },
+    "UNDER": {
+      "selected": 85,
+      "wins": 45,
+      "losses": 35,
+      "decided": 80,
+      "rate": 0.5625
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 67,
+      "losses": 54,
+      "decided": 121,
+      "rate": 0.5537190082644629
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 54,
+      "WIN": 67,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.4648501506153885,
+      "high": 0.6392819231588495,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.43381127450980395,
+      "high": 0.6667322834645666,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEDIAN_DIRECTION",
+    "label": "P1_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 37,
+      "wins": 18,
+      "losses": 12,
+      "decided": 30,
+      "rate": 0.6
+    },
+    "UNDER": {
+      "selected": 99,
+      "wins": 52,
+      "losses": 39,
+      "decided": 91,
+      "rate": 0.5714285714285714
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 70,
+      "losses": 51,
+      "decided": 121,
+      "rate": 0.5785123966942148
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 51,
+      "WIN": 70,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.48944298498295263,
+      "high": 0.6627500459178565,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4566929133858268,
+      "high": 0.6855206872370264,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2",
+    "label": "Partially pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 33,
+      "wins": 16,
+      "losses": 10,
+      "decided": 26,
+      "rate": 0.6153846153846154
+    },
+    "UNDER": {
+      "selected": 103,
+      "wins": 54,
+      "losses": 41,
+      "decided": 95,
+      "rate": 0.5684210526315789
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 70,
+      "losses": 51,
+      "decided": 121,
+      "rate": 0.5785123966942148
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 51,
+      "WIN": 70,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.48944298498295263,
+      "high": 0.6627500459178565,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.3007398225458762,
+    "mean_log_loss": 0.8553717499069646,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.7058329735907851,
+    "expected_wins": 85.405789804485,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.464,
+      "high": 0.6859755659360401,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEAN_DIRECTION",
+    "label": "P2_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 48,
+      "wins": 20,
+      "losses": 20,
+      "decided": 40,
+      "rate": 0.5
+    },
+    "UNDER": {
+      "selected": 88,
+      "wins": 44,
+      "losses": 37,
+      "decided": 81,
+      "rate": 0.5432098765432098
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 64,
+      "losses": 57,
+      "decided": 121,
+      "rate": 0.5289256198347108
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 57,
+      "WIN": 64,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.44047003362678394,
+      "high": 0.6156010830208827,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.39470448662640206,
+      "high": 0.6535003942872162,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEDIAN_DIRECTION",
+    "label": "P2_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      2
+    ],
+    "week": 2,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 33,
+      "wins": 16,
+      "losses": 10,
+      "decided": 26,
+      "rate": 0.6153846153846154
+    },
+    "UNDER": {
+      "selected": 103,
+      "wins": 54,
+      "losses": 41,
+      "decided": 95,
+      "rate": 0.5684210526315789
+    },
+    "COMBINED": {
+      "selected": 136,
+      "wins": 70,
+      "losses": 51,
+      "decided": 121,
+      "rate": 0.5785123966942148
+    },
+    "eligible": 136,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 51,
+      "WIN": 70,
+      "UNKNOWN_PARTICIPATION": 15
+    },
+    "games": 16,
+    "player_games": 136,
+    "weeks": [
+      2
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.48944298498295263,
+      "high": 0.6627500459178565,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.464,
+      "high": 0.6859755659360401,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "ALWAYS_OVER",
+    "label": "ALWAYS_OVER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 142,
+      "wins": 65,
+      "losses": 69,
+      "decided": 134,
+      "rate": 0.48507462686567165
+    },
+    "UNDER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 65,
+      "losses": 69,
+      "decided": 134,
+      "rate": 0.48507462686567165
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "LOSS": 69,
+      "WIN": 65,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.4020571693250764,
+      "high": 0.568923985153249,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.3925854700854701,
+      "high": 0.5833333333333334,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "ALWAYS_UNDER",
+    "label": "ALWAYS_UNDER",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 0,
+      "wins": null,
+      "losses": null,
+      "decided": 0,
+      "rate": null
+    },
+    "UNDER": {
+      "selected": 142,
+      "wins": 69,
+      "losses": 65,
+      "decided": 134,
+      "rate": 0.5149253731343284
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 69,
+      "losses": 65,
+      "decided": 134,
+      "rate": 0.5149253731343284
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 69,
+      "LOSS": 65,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.431076014846751,
+      "high": 0.5979428306749237,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4166666666666667,
+      "high": 0.6074145299145298,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "E0",
+    "label": "Retained HGB direct/E0_OP",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 35,
+      "wins": 21,
+      "losses": 9,
+      "decided": 30,
+      "rate": 0.7
+    },
+    "UNDER": {
+      "selected": 107,
+      "wins": 60,
+      "losses": 44,
+      "decided": 104,
+      "rate": 0.5769230769230769
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 81,
+      "losses": 53,
+      "decided": 134,
+      "rate": 0.6044776119402985
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 81,
+      "LOSS": 53,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5198870516142258,
+      "high": 0.6832448670374967,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.25001473095816057,
+    "mean_log_loss": 0.6964660330018188,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.6308551569011375,
+    "expected_wins": 84.53459102475242,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5488721804511278,
+      "high": 0.6691176470588235,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1",
+    "label": "Pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 34,
+      "wins": 19,
+      "losses": 9,
+      "decided": 28,
+      "rate": 0.6785714285714286
+    },
+    "UNDER": {
+      "selected": 108,
+      "wins": 60,
+      "losses": 46,
+      "decided": 106,
+      "rate": 0.5660377358490566
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 79,
+      "losses": 55,
+      "decided": 134,
+      "rate": 0.5895522388059702
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 79,
+      "LOSS": 55,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5048987520124907,
+      "high": 0.6692143211175573,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.26170186749332275,
+    "mean_log_loss": 0.7470030665801541,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.7010543014389788,
+    "expected_wins": 93.94127639282316,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4964015648794833,
+      "high": 0.6793893129770993,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEAN_DIRECTION",
+    "label": "P1_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 45,
+      "wins": 25,
+      "losses": 13,
+      "decided": 38,
+      "rate": 0.6578947368421053
+    },
+    "UNDER": {
+      "selected": 97,
+      "wins": 56,
+      "losses": 40,
+      "decided": 96,
+      "rate": 0.5833333333333334
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 81,
+      "losses": 53,
+      "decided": 134,
+      "rate": 0.6044776119402985
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 81,
+      "LOSS": 53,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5198870516142258,
+      "high": 0.6832448670374967,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5401459854014599,
+      "high": 0.6739212779973649,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P1_MEDIAN_DIRECTION",
+    "label": "P1_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 34,
+      "wins": 19,
+      "losses": 9,
+      "decided": 28,
+      "rate": 0.6785714285714286
+    },
+    "UNDER": {
+      "selected": 108,
+      "wins": 60,
+      "losses": 46,
+      "decided": 106,
+      "rate": 0.5660377358490566
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 79,
+      "losses": 55,
+      "decided": 134,
+      "rate": 0.5895522388059702
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 79,
+      "LOSS": 55,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5048987520124907,
+      "high": 0.6692143211175573,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.4964015648794833,
+      "high": 0.6793893129770993,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2",
+    "label": "Partially pooled contextual Poisson law",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 33,
+      "wins": 19,
+      "losses": 8,
+      "decided": 27,
+      "rate": 0.7037037037037037
+    },
+    "UNDER": {
+      "selected": 109,
+      "wins": 61,
+      "losses": 46,
+      "decided": 107,
+      "rate": 0.5700934579439252
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 80,
+      "losses": 54,
+      "decided": 134,
+      "rate": 0.5970149253731343
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 80,
+      "LOSS": 54,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.512383343274767,
+      "high": 0.6762391526161181,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": 0.26267627041700786,
+    "mean_log_loss": 0.7492656978257413,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": 0.7012322001925082,
+    "expected_wins": 93.96511482579608,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5,
+      "high": 0.6889015151515151,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEAN_DIRECTION",
+    "label": "P2_MEAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 45,
+      "wins": 24,
+      "losses": 14,
+      "decided": 38,
+      "rate": 0.631578947368421
+    },
+    "UNDER": {
+      "selected": 97,
+      "wins": 55,
+      "losses": 41,
+      "decided": 96,
+      "rate": 0.5729166666666666
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 79,
+      "losses": 55,
+      "decided": 134,
+      "rate": 0.5895522388059702
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 79,
+      "LOSS": 55,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.5048987520124907,
+      "high": 0.6692143211175573,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.517666021921341,
+      "high": 0.6640625,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  },
+  {
+    "category": "rec",
+    "method": "P2_MEDIAN_DIRECTION",
+    "label": "P2_MEDIAN_DIRECTION",
+    "scope": "WR_TE",
+    "actual_weeks": [
+      3
+    ],
+    "week": 3,
+    "policy": "ALL_ELIGIBLE_EXACT_OFFERS",
+    "venue": "pinnacle",
+    "tier": "TIMING_UNVERIFIED_LAST_RECORDED_ACTUAL_LINE_DIAGNOSTIC",
+    "five_week_actual_line": false,
+    "OVER": {
+      "selected": 33,
+      "wins": 19,
+      "losses": 8,
+      "decided": 27,
+      "rate": 0.7037037037037037
+    },
+    "UNDER": {
+      "selected": 109,
+      "wins": 61,
+      "losses": 46,
+      "decided": 107,
+      "rate": 0.5700934579439252
+    },
+    "COMBINED": {
+      "selected": 142,
+      "wins": 80,
+      "losses": 54,
+      "decided": 134,
+      "rate": 0.5970149253731343
+    },
+    "eligible": 142,
+    "unavailable": 0,
+    "abstentions": 0,
+    "states": {
+      "WIN": 80,
+      "LOSS": 54,
+      "UNKNOWN_PARTICIPATION": 8
+    },
+    "games": 16,
+    "player_games": 142,
+    "weeks": [
+      3
+    ],
+    "uncertainty": {
+      "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+      "low": 0.512383343274767,
+      "high": 0.6762391526161181,
+      "dependence_aware": false,
+      "week_clusters": 1
+    },
+    "coverage": 1.0,
+    "mean_Brier": null,
+    "mean_log_loss": null,
+    "infinite_log_losses": 0,
+    "mean_selected_confidence": null,
+    "expected_wins": null,
+    "fallback_selected": 0,
+    "fallback_decided": 0,
+    "game_cluster_sensitivity95": {
+      "low": 0.5,
+      "high": 0.6889015151515151,
+      "games": 16,
+      "week_count": 1,
+      "note": "Only two exposed week clusters;game intervals are descriptive,not independent-season confirmation"
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "id": "B_NEXT_ORIGINAL_SELECTION_CAPTURE_SOURCE_QUALIFICATION_v1",
+  "checked_UTC": "2026-11-14T15:05:59.612842+00:00",
+  "state": "PUBLISHED_NATIVE_REFERENCE_BYTES_RETAINED;NO_QUALIFIED_NEW_B_LINE_SELECTION",
+  "source": {
+    "url": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/week.json",
+    "HTTP_status": 200,
+    "observed_UTC": "2026-11-14T14:52:34.498409+00:00",
+    "bytes": 3417078,
+    "sha256": "4ebea35d598aafa16aa39d59acbe9b361d0cb54c8e85b8e49b8e66ef8b4864e3",
+    "source_generated_UTC": "2026-11-13T20:50:45Z",
+    "last_modified": "Fri, 13 Nov 2026 20:51:06 GMT",
+    "age_seconds_at_receipt": 64909.498409
+  },
+  "observed": {
+    "games": 14,
+    "future_games": 13,
+    "completed_games": 1,
+    "players": 727,
+    "native_prop_entries": 2029,
+    "future_native_prop_entries": 1875,
+    "DK_open_tagged_entries": 586
+  },
+  "native_execution_model": {
+    "capture_schema": "baseline-capture-classic-presence-v2",
+    "engine_sha256": {
+      "pull/books.py": "0b89744960136a4f2e594b61e6df754d357706d8c66a8ae359d8eb02bbfa53f8",
+      "pull/build.py": "b83126080149f2f0705682d1c0be0a8ee87610ebb0a88cd57b94b8a82b63ad73",
+      "pull/gamemodel.py": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f",
+      "pull/grade.py": "59b1c6b0044c8571f5695b178ede5469b34e6db77c46a75eb98b7780cd184d1e",
+      "pull/matchup.py": "eaf627730041060ad16dd9930accfe54a54cf5fb49bb42d18680b5c572ddd7a5",
+      "pull/news.py": "17ce1b3b6b72694e6b543bd767e287c26a9d1f6dd5dba2de6c873543036842e9",
+      "pull/scoring.py": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d",
+      "pull/sources.py": "36555cdbc55d73ba632d5adae1130288f4f532073857c642ac3ebc7e626b0061"
+    },
+    "grading_version": "statistical-presence-verified-int-v7-20261112",
+    "model": "sleeper-matchup-classic-presence-strict-v2",
+    "normalized_stats_cache": "stat-keys-presence-strict-v3",
+    "original_shadow_model": "original_sleeper_matchup_baseline",
+    "original_shadow_procedure": "original-builder-default-refresh-v1",
+    "original_shadow_source": "89512ed952308dacc1f6a930915ddbcdccd460d9",
+    "schema_version": "weekly-classic-presence-execution-v2"
+  },
+  "schema": {
+    "prop_fields": {
+      "adj": 2029,
+      "dk_open": 586,
+      "key": 2029,
+      "lean": 2029,
+      "line": 2029,
+      "line_from": 1411,
+      "mf": 1411,
+      "mf_n": 1411,
+      "n": 2029,
+      "our_line": 1411,
+      "over": 2029,
+      "proj": 2029,
+      "sleeper": 586,
+      "source": 2029,
+      "values": 2029,
+      "td_chance": 618
+    },
+    "individual_quote_observation_clock_present": false,
+    "individual_receipt_or_expiry_clock_present": false
+  },
+  "limits": [
+    "Feedgenerated/HTTPobservationclocksarenotindividualquoteclocks; no originalissuance claim fromlaterservedcopy.",
+    "NativeDK-labelledthresholdorline_from doesnotbyitselfestablish book/market/side/decisionclockorvenuecontract.",
+    "NoCountA/B/CnewfeedadmissionororiginalwebsiteconsumerparityprovedbythisHTTPread.",
+    "NoC06freshnessguardrenewaloruniversalagegateimposedonunrelatedincumbent.",
+    "Oneboundedexistingpublishedfeedreadisnotnewschedulerorunattendedcadenceproof.",
+    "Rawnativebytesretainedprivately; publicreceiptcontainsbindings/schema/aggregatesonly."
+  ],
+  "capture": {
+    "new_B_forecasts": 0,
+    "new_B_original_sides": 0,
+    "new_offer_qualified_boards": 0,
+    "observed_future_incumbent_reference_bytes_only": true,
+    "current_model_unchanged": true
+  },
+  "minimum_next_action": {
+    "executor": "Existingauthorizedoriginal-siteoffer/sourceproducer",
+    "artifact": "Permitted exact offer/market/book/side snapshot with observed and durable receipt clocks, event/player identities, line and pregame decision horizon; current compatible forecast/full board binding and frozen policy",
+    "action": "Deliver through existing registered output route before future cutoffs. No newcollector/paidacquisition/dispatchbyB. If qualifiedquotes unavailable retain explicitlyforecast-only evidence.",
+    "completion": "Atleastonegenuinefuture source-qualified offer/forecast/side record durably persisted before its cutoff under unchanged procedure, or exact missingfield/sourcepermission recorded."
+  },
+  "Count_A": "Separateexistingauthorizedconnection-owner401/nativefeedandexactheadmergeactions; no identical upload retry by B",
+  "new_source_reads_after_budget_stop": 0
+}

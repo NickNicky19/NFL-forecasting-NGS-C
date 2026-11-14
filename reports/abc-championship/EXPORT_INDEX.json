@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 90807,
-    "SHA256": "f1bbc6a8cb8be29be10f2946b70d48103661db3a943505428ac661946a9cb9e4"
+    "bytes": 96540,
+    "SHA256": "ff3e9caf6ce88409b3cda70847f2f65b59d7315e2778cdaac37532cccd4c2ea6"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -276,7 +276,7 @@
     "new_paper_selections": 0,
     "new_actual_prop_outcomes": 0
   },
-  "current_execution_report": "reports/wave-closure-next-valid-01/README.md",
+  "current_execution_report": "reports/w1w9-comparison-closure-01/README.md",
   "current_qualification": {
     "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
     "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
@@ -1044,9 +1044,9 @@
       "SHA256": "dbd89914d1b445dc16a92bbfab0dc752aa9576545c3ccf9a1321d3ee1f62afdf"
     },
     "coverage": {
-      "path": "reports/wave-closure-next-valid-01/LEDGER_BUILD_RECEIPT.json",
-      "bytes": 2105,
-      "SHA256": "9c9b32527be8229a2f67856f11630ff6ca7c420220f7efb1fbe7735a197c1655"
+      "path": "reports/w1w9-comparison-closure-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 1630,
+      "SHA256": "f38b7f6694622c220bff89404e31d40ef4a34196ac960ecb9bdff2f71f1c392d"
     },
     "intake": {
       "path": "reports/category-decision-release-01/intake/ADMISSION.json",
@@ -1094,9 +1094,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V3.csv.gz",
-      "bytes": 2157803,
-      "SHA256": "cf70bfc4645b45383756b0f6976170cfab0b3426395e1772f261a1860ac4721a"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V4.csv.gz",
+      "bytes": 2527713,
+      "SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1632,6 +1632,138 @@
       "path": "reports/wave-closure-next-valid-01/RESOURCE_CLOSURE.json",
       "bytes": 22415,
       "SHA256": "2b357d7aab6bb5ad1a03617770c97c46b9ebdb0e8cdabbaacf3b0d2c98668312"
+    }
+  },
+  "w1w9_comparison_closure_01": {
+    "id": "ABC-W1W9-COMPARISON-CLOSURE-01-C/v1",
+    "stage": "EXECUTED_SCOPED_CMP9_ATT8;ALL12_CROSS_SESSION_PARTIAL",
+    "report": {
+      "path": "reports/w1w9-comparison-closure-01/README.md",
+      "bytes": 16193,
+      "SHA256": "a806f71bcf063416e39ae72ca14273d661aa88fa0e59a83a9f7928e2ebf38016"
+    },
+    "checkpoint": {
+      "path": "reports/w1w9-comparison-closure-01/CHECKPOINT.json",
+      "bytes": 4301,
+      "SHA256": "a0c84a31ebdf7af79beed482124cab10a0cb0549a4c78d9e20427440be441489"
+    },
+    "roster": {
+      "path": "reports/w1w9-comparison-closure-01/roster/FROZEN_ROSTER_V1_1.json",
+      "bytes": 1008,
+      "SHA256": "810621714045ad7d9ca6761eb0f2d2f9dee6f62d415ebd048f01925811dfb10d"
+    },
+    "source_policy": {
+      "path": "reports/w1w9-comparison-closure-01/source-contract/COMPATIBILITY_DECISION.json",
+      "bytes": 11252,
+      "SHA256": "cfeb77a079861282225d775af713b4aa590528328c9aa61b9c33fe47ec9f1168"
+    },
+    "attempt_source_policy": {
+      "path": "reports/w1w9-comparison-closure-01/source-contract/attempt/COMPATIBILITY_DECISION.json",
+      "bytes": 9073,
+      "SHA256": "2d73db870f6b0b33e699c75fbed33e6952cb29730975067f0456bdf6e3e2074f"
+    },
+    "completion_results": {
+      "path": "reports/w1w9-comparison-closure-01/completion/NINE_WEEK_COMPLETION.json",
+      "bytes": 402220,
+      "SHA256": "9fb9ab560f446a1095ce6986998cf381bd39e77520d19b741201411cad8a0a46"
+    },
+    "attempt_results": {
+      "path": "reports/w1w9-comparison-closure-01/attempt-check/EIGHT_WEEK_ATTEMPTS.json",
+      "bytes": 22665,
+      "SHA256": "1e88e2b4bbb2e754adfebe0be61750b4d5ee40d65900e0488c30b5584606a8d5"
+    },
+    "all_twelve": {
+      "path": "reports/w1w9-comparison-closure-01/TWELVE_CATEGORY_HEADLINE.json",
+      "bytes": 103812,
+      "SHA256": "8074f0f1e64ede151e5bf6537bb292c821fb99b57044bfb977fd3f2cbb8a539e"
+    },
+    "headline_csv": {
+      "path": "reports/w1w9-comparison-closure-01/HEADLINE_TWELVE_CATEGORY.csv",
+      "bytes": 28513,
+      "SHA256": "bd666ef2265e07a0307db4815bde8d0d1502381ecd9d6b574c96a9ee5f5b670e"
+    },
+    "candidate_week_matrix": {
+      "path": "reports/w1w9-comparison-closure-01/CANDIDATE_WEEK_MATRIX.csv",
+      "bytes": 577374,
+      "SHA256": "e44a14f4eaf080673ae2d52b0b9c200b49a4871bb0d3c42899d318180a264965"
+    },
+    "matrix_detail": {
+      "path": "reports/w1w9-comparison-closure-01/CANDIDATE_WEEK_MATRIX.json",
+      "bytes": 1205587,
+      "SHA256": "2cbdb4059d1474718469d1174eab1482fca834c4af075543e934e1d681f0d782"
+    },
+    "C_handoff": {
+      "path": "reports/w1w9-comparison-closure-01/C-panels/COMPLETION_HANDOFF_W1_W9.json",
+      "bytes": 1836,
+      "SHA256": "9cd00e2192f1c246214be54e0eb5594286a7cba103ecc061bb5523a20eae179b"
+    },
+    "C_typed_point_outputs": {
+      "path": "reports/w1w9-comparison-closure-01/C-panels/C_RETAINED_COMPLETION_POINTS_W1_W9.json.gz",
+      "bytes": 28748,
+      "SHA256": "2c82ba8694f6436ea45027e64ee11056234e4256b289ef860788c37d0f3ea2b1"
+    },
+    "C_origin_execution": {
+      "path": "reports/w1w9-comparison-closure-01/C-panels/cmp-origin-extension/EXECUTED.json",
+      "bytes": 5764,
+      "SHA256": "39c7779442106c326884ca050b2dab3da9320c4127237957cbbb073efc48bdc3"
+    },
+    "A_admission": {
+      "path": "reports/w1w9-comparison-closure-01/A-intake/INTAKE_RECEIPT.json",
+      "bytes": 2300,
+      "SHA256": "cf984981afdc5754a81a80b6fdca8216877b705cc8b367800f6bd461aa1616c9"
+    },
+    "B_admission": {
+      "path": "reports/w1w9-comparison-closure-01/B-intake/COMPATIBILITY_AND_ADMISSION.json",
+      "bytes": 19847,
+      "SHA256": "1205824b5722181637a45310a563ce34986398143d64e6f2490702360f0dce1f"
+    },
+    "queue": {
+      "path": "reports/w1w9-comparison-closure-01/FINITE_QUEUE.json",
+      "bytes": 33467,
+      "SHA256": "333c0873f97b7810058aad08b02880e7e704dbb7123c981a2afff787d435335e"
+    },
+    "ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V4.csv.gz",
+      "bytes": 2527713,
+      "SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
+    },
+    "ledger_summary": {
+      "path": "reports/w1w9-comparison-closure-01/LEDGER_BUILD_RECEIPT.json",
+      "bytes": 1630,
+      "SHA256": "f38b7f6694622c220bff89404e31d40ef4a34196ac960ecb9bdff2f71f1c392d"
+    },
+    "resource": {
+      "path": "reports/w1w9-comparison-closure-01/RESOURCE_CLOSURE.json",
+      "bytes": 3554,
+      "SHA256": "fd0a9d63915657e6a503a77d5bb064b5e3eefc57b1abfaa0d624a76fe4926f3f"
+    },
+    "new_C_origin_fits": 2,
+    "new_actual_offer_grades_by_C": 0,
+    "new_original_issued_selections": 0,
+    "new_NFL_games": 0,
+    "new_primary_switches": 0,
+    "original_site_modified": false,
+    "C_handoff_receipt_status": "C_SOURCE_AND_MODEL_POINT_PACKAGE_IN_THIS_VERSION;PEER_RETRIEVAL_ADMISSION_UNVERIFIED",
+    "side_policy_maxima_not_routers": true,
+    "independent_coordination": {
+      "path": "reports/w1w9-comparison-closure-01/INDEPENDENT_COORDINATION_REVIEW.json",
+      "bytes": 46538,
+      "SHA256": "0dd0015dcb78de7c00bce28ca14c2221c33284ec3699aebed3b1f7ae6535f94b"
+    },
+    "validation": {
+      "path": "reports/w1w9-comparison-closure-01/VALIDATION.json",
+      "bytes": 3827,
+      "SHA256": "dd78ef050b50e2525d2b5537a19f0510fb3e7beb7d36db6505065c03e051dcbf"
+    },
+    "manifest": {
+      "path": "reports/w1w9-comparison-closure-01/MANIFEST.json",
+      "bytes": 28033,
+      "SHA256": "5b41c9e75a604031bb85b5c735cc422e01eca83cad0d55c9a758dc0e22c526d2"
+    },
+    "reproduction": {
+      "path": "reports/w1w9-comparison-closure-01/REPRODUCTION.json",
+      "bytes": 1907,
+      "SHA256": "19624944e5e13d215bba7687d90ef7606ab0fd9edb3d3e39796a1f547e5a9b3a"
     }
   }
 }

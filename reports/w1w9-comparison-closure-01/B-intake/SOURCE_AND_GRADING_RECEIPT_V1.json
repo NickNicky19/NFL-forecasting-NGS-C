@@ -1,0 +1,250 @@
+{
+  "id": "B_FTN_CONDITIONAL_FORWARD_GRADE_20261114_v1",
+  "state": "SIX_CONDITIONAL_FORECASTS_GRADED;DNP_AND_IR_UNAVAILABLE_PRESERVED",
+  "observed_UTC": "2026-11-14T14:58:08.471431+00:00",
+  "frozen_packet_sha256": "f9889584338bf7b85f5de3889fbc78f73fee97e2052faea7cc91a28fb203c7bb",
+  "packet_unchanged": true,
+  "frozen_protocol_sha256": "62ae942af12f00b5f64ab97a4de0fc81af96b2e5284505675a4fd90fd9978adb",
+  "law_capsule_sha256": "865bd27e92926d57c5d3f9c0e0b5967de2f3b8b9ed7d16659599c645870cfcd7",
+  "actual_issue_UTC": "2026-11-13T00:09:55.109350+00:00",
+  "actual_local_persisted_UTC": "2026-11-13T00:09:55.118115+00:00",
+  "prior_remote_capture_UTC": "2026-11-13T00:11:30.591191+00:00",
+  "kickoff_UTC": "2026-11-13T01:15:00+00:00",
+  "original_expiry_UTC": "2026-11-13T01:15:00+00:00",
+  "source_generated_UTC": "2026-11-12T21:45:01Z",
+  "source_received_UTC": "2026-11-12T23:59:28.439603+00:00",
+  "source_age_and_role_limits_preserved": true,
+  "source_members": [
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/28/roster/2576980?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.994596+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:11.340644+00:00",
+      "bytes": 554,
+      "sha256": "d06af1a7d79aa32268ca4c8009543953a1f4919a60c0ad4768e304ec56336b0a",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:11 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/2969939?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.850322+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:11.117317+00:00",
+      "bytes": 743,
+      "sha256": "6cf70b6ae9f64015443ed3e884a3cc558d9544b375bb3c089c9d5866ef89482a",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:11 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/28/roster/4426348?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.041427+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.467115+00:00",
+      "bytes": 741,
+      "sha256": "3aed30f89549af6f25f0ee26b6a746844406b779b54e6a5c7a136fc89cdfaff0",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/4433970?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.533147+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.850156+00:00",
+      "bytes": 743,
+      "sha256": "d2abc4e16783acfde05db51bda1e200252bf3b10bcd5d26f84b112171ab98912",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/status?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:51:42.488110+00:00",
+      "retrieved_UTC": "2026-11-14T14:51:42.987237+00:00",
+      "bytes": 316,
+      "sha256": "3b83ee271d8271039bfc918ef3d87787269e4a4c7199b160259069bdcd1b91a4",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:51:42 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401873052",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:51:42.987646+00:00",
+      "retrieved_UTC": "2026-11-14T14:51:43.384773+00:00",
+      "bytes": 633404,
+      "sha256": "4fd91fb1ac9b235e61e1c360cc8915613f4573402ca01d82e367f6a43fa4bab3",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:51:43 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=UTF-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster?lang=en&region=us&limit=100",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.040776+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.602673+00:00",
+      "bytes": 32632,
+      "sha256": "4c02335536d4f6f7f0bfe633771507f5c71b83fd8a1522445f502364961a005d",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/28/roster?lang=en&region=us&limit=100",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.039916+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.532523+00:00",
+      "bytes": 32642,
+      "sha256": "c2c6ee1355ddc73722f0ac15a7577bedfaa04143a2d90d5e25e2ce94b57b1ba4",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:51:43.391767+00:00",
+      "retrieved_UTC": "2026-11-14T14:51:44.014257+00:00",
+      "bytes": 4241495,
+      "sha256": "19789406c2bc142b17890632d745ad3a8228077f0a01fda18a76b6e99fd97c2d",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:51:43 GMT",
+        "Last-Modified": "Sat, 14 Nov 2026 10:04:19 GMT",
+        "ETag": "\"0x8DF4236A680B2DE\"",
+        "Content-Type": "application/octet-stream"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/2969939/statistics/0?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.923277+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:11.371999+00:00",
+      "bytes": 23944,
+      "sha256": "a9e91ca0da76e5a7ced207afabbb2e81d7141e9d79caf21ddefbec82b2f230a3",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:11 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/28/roster/4426348/statistics/0?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.467476+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.922624+00:00",
+      "bytes": 31705,
+      "sha256": "4035f95b9eef1dcee8ec3fffc3ab64a5dc94e2c5f2b89f013aaeb4047e50cc0a",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/4433970/statistics/0?lang=en&region=us",
+      "status": 200,
+      "started_UTC": "2026-11-14T14:53:10.603039+00:00",
+      "retrieved_UTC": "2026-11-14T14:53:10.994210+00:00",
+      "bytes": 31692,
+      "sha256": "3b0a2012651b0083a66cec8bc4dbc8fed52be2751dc20f559002e0b215595600",
+      "headers": {
+        "Date": "Sat, 14 Nov 2026 14:53:10 GMT",
+        "Last-Modified": null,
+        "ETag": null,
+        "Content-Type": "application/json;charset=utf-8"
+      }
+    }
+  ],
+  "identity_source_sha256": "8af302c4c9f7ce9dbc0c725048e499216f662bccd1fb3569cc8be528b7162f47",
+  "source_successes": 12,
+  "source_failures": [
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/4689114?lang=en&region=us",
+      "error": "HTTPError",
+      "detail": "HTTP Error 404: Not Found",
+      "at_UTC": "2026-11-14T14:53:11.631138+00:00"
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/28/roster/2576980/statistics/0?lang=en&region=us",
+      "error": "HTTPError",
+      "detail": "HTTP Error 404: Not Found",
+      "at_UTC": "2026-11-14T14:53:11.454256+00:00"
+    },
+    {
+      "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401873052/competitions/401873052/competitors/19/roster/4689114/statistics/0?lang=en&region=us",
+      "error": "HTTPError",
+      "detail": "HTTP Error 404: Not Found",
+      "at_UTC": "2026-11-14T14:53:11.697625+00:00"
+    }
+  ],
+  "HTTP_attempts": 15,
+  "raw_source_bytes": 5030611,
+  "max_raw_source_budget_bytes": 20971520,
+  "new_current_source_poll_loops": 0,
+  "new_collector_or_scheduler": 0,
+  "unique_source_candidates": 5,
+  "issued_conditional_forecasts": 8,
+  "query_product_records": 10,
+  "actual_appeared_players": 3,
+  "scored_forecast_rows": 6,
+  "explicit_DNP_players": 1,
+  "DNP_forecasts": 2,
+  "frozen_IR_unavailable_players": 1,
+  "IR_unavailable_records": 2,
+  "unknown_issued_forecast_participation": 0,
+  "unknown_IR_query_actual_participation": 1,
+  "played_zero_completions": 1,
+  "played_zero_basis": "NFLverseexplicitCMP0/ATT0 andESPNexplicitpassingCMP0/ATT0 agree;bothreport2creditedrushes andexactgamerosterdidNotPlay=false. Notzero inferredfromparticipation.",
+  "DNP_basis": "ExactESPNevent/team/athleteroster explicitlydidNotPlay=true; no numeric0 assigned.",
+  "IR_basis": "PreserveoriginalsourceIR/nooutput; missingweeklyrecord andHTTP404 donotestablishactualDNP orstatzero.",
+  "source_ref_and_stat_assertions": "ExactstableGSIS\u2192ESPNbridge;canonicalgame/season/week/team/opponent;full-gamepassingcategory;no fuzzynamejoin",
+  "independent_law_assertions": 24,
+  "manual_CRPS": "DiscreteCDFsquared-error sum plus exactunboundedgeometrictail",
+  "grader_sha256": "b61c9cbbced8e5d64060ef1d14f6d60bec1edd9760fa8903a75c1b09503deadb",
+  "law_sha256": "14f034249f38cd12d5a0ea36b05e64086e0859cc4209f83a55c913cda5742f4d",
+  "adapter_sha256": "ed9af9bc9b6707275e8aad5a7474d55d4e54631199d7b0878f666c0d3e28ad4f",
+  "canonical_score_views": 4,
+  "new_NFL_game_outcomes_for_this_packet": 1,
+  "new_numerical_season_weeks": 1,
+  "new_actual_line_weeks": 0,
+  "new_actual_line_selections": 0,
+  "new_fits": 0,
+  "new_forecasts": 0,
+  "original_site_changes": 0,
+  "C_admission": "NOT_OBSERVED_LOCAL_NOT_C_ADMITTED",
+  "limitations": [
+    "Onegame/threeplayedQBs;notindependentgames or evidenceofgeneralimprovement.",
+    "ActualNFLverseandESPNdataarecurrentfinalvintages,notindependentupstreamlineages guaranteed.",
+    "ESPNactive=falsepostgameisnotusedaspregamehealth or appearance.",
+    "No marketline, selectedside,settlement,confidencecalibration or90%claim."
+  ]
+}

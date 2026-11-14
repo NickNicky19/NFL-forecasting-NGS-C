@@ -1,0 +1,54 @@
+{
+  "week": 8,
+  "FIT_START_UTC": "2026-11-14T19:27:39.823310+00:00",
+  "origin_UTC": "2026-10-30T00:15:00+00:00",
+  "training_rows": 2834,
+  "query_rows": 35,
+  "training_membership_SHA256": "65c0d027daffea40e3fa16f9ad68772b5e5692f3414cd28131d5fd6824204678",
+  "training_matrix_SHA256": "7fa4e4e6aff180134ebc0ad5df79cc7a1111b0427db9bab660b2782dd40def56",
+  "latest_training_available_epoch": 1793060100.0,
+  "first_target_kickoff_epoch": 1793319300.0,
+  "parameters": {
+    "class": "laws_v2.LeafModel",
+    "kind": "count",
+    "scale": 1,
+    "n_estimators": 32,
+    "max_depth": 8,
+    "min_samples_leaf": 30,
+    "max_features": 1.0,
+    "bootstrap": false,
+    "random_state": 1701,
+    "n_jobs": 1,
+    "prior_alpha": 0.05,
+    "preprocessing": "training-onlymedianimputation+missingindicators,sourceE0_ENV35features"
+  },
+  "history": "H-MULTI;2022expanding;strict kickoff+7day < origin and querycutoff",
+  "query_universe": "Original statistical-row-conditioned QB reconstruction; not authenticated pregame roles",
+  "future_invariance": {
+    "target_and_later_mutation_changes_earlier_features": false,
+    "eligible_training_target_or_future_rows": 0,
+    "queries_checked": 35
+  },
+  "active_lease": "C_W1W9_PASS_CMP_ORIGINS_W08_W09_01;soleCfitworker delegatedto/root/nine_week_c_panel;nonblockingexclusivefitlock",
+  "core_code_SHA256": {
+    "data_v2.py": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+    "laws_v2.py": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+    "contracts_v2.py": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+    "safe_models_v4.py": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0"
+  },
+  "FIT_COMPLETE_UTC": "2026-11-14T19:27:40.510177+00:00",
+  "model_format": "C-NUMERIC-LEAF-v4;safeJSONonly",
+  "model_SHA256": "ce1d85985f6a5e55152a169a626ca26160487ab6d2d1d04b56339b3fbae94e14",
+  "points_SHA256": "3d670fe0e3610170487f127ee87a237a7a9fe481faed47c43d158be9bbe2b295",
+  "restored_training_validation": {
+    "training_rows": 2834,
+    "trees": 32,
+    "imputation_priors_all_leaf_counts_verified": true,
+    "new_fits": 0
+  },
+  "max_single_batch_shuffle_mean_difference_tolerance": 1e-12,
+  "point_rows": 35,
+  "new_fits": 1,
+  "new_actual_offer_grades": 0,
+  "CMP_ATT_primary_selection_hold": "RETAINED;not coherentjointcompletionattemptlaw"
+}
