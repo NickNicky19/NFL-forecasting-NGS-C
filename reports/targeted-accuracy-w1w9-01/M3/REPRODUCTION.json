@@ -1,0 +1,32 @@
+{
+  "id": "C-M3-REPRODUCTION-v1.1",
+  "created_UTC": "2026-11-15T05:38:39.541057+00:00",
+  "base_commit": "2b8bbc6da7bfb90106d7956cf86ccc160f2a343e",
+  "publication_commit": "GitcommitcontainingsealedMANIFEST; actualpublicationreceipt separatelyafterpush, neverbackdated",
+  "Python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "existing_dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "research_runtime": "registration/RUNTIME_INSTALL.json officialwheelsha sources; SciPy1.16.3 shadowsdefault1.17 onlyresearchruntime",
+  "environment": "PYTHONPATH=/workspace/c-m3-runtime:src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1",
+  "preparation": "src/targeted_data_m3.py:prepare(root,out), src/targeted_context_m3.py:prepare_block; exactpreparedbytesretained; nofitneededtoreadtypedhandoff",
+  "commands": [
+    "python src/targeted_accuracy_m3.py base",
+    "python src/targeted_accuracy_m3.py context",
+    "from targeted_scores_m3 import summarize; summarize(saved_base_plus_context_offer_rows,saved_predictions,NEW_output_directory)"
+  ],
+  "freeze_guards": "Completedfilesappend-only; do notrerunfitstooverwrite. Reproductionmustusecleantemporaryoutput/orindependentnativefitpath; existingfitledgerno repeatedattempts. SourcebindingchecksretainexactcodevariantsandnumericinferencefixbeforeNFLgrading.",
+  "safe_models": "NativeXGBoostJSON+recipe; numericLeafJSONgzip; primitiveSANITYJSON; no pickle",
+  "source_rights": "Ordinaryfacts/PBPnflverseCCBY4; ProplinequalifiedretaineddiagnosticCCBY4 withfullparentreviews. XGBoostLSSApache2, TorchBSD-style, XGBoostApache2 runtimeonlynotredistributed; otherpackageupstreamterms. NoAprotectedquotes/rows.",
+  "CPU_only_inference": "PYTHONPATH=/workspace/c-m3-inference:src; targeted_inference_m3.load(native_json).predict_params(x, exact_feature_names, roles=qualified_WR_TE_roles)",
+  "CPU_only_runtime_and_all_row_parity": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NATIVE_INFERENCE_PARITY.json",
+    "bytes": 25348,
+    "SHA256": "9005b32a3317ca22da8e45d46424fe20d0f3f1d808e0261670edab7565e6713e"
+  }
+}

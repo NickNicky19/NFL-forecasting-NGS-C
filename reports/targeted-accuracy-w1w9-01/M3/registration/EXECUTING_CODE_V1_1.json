@@ -1,0 +1,44 @@
+{
+  "id": "M3-INFERENCE-NUMERIC-v1.1",
+  "recorded_UTC": "2026-11-15T05:04:22.582792+00:00",
+  "files": [
+    {
+      "path": "src/targeted_accuracy_m3.py",
+      "bytes": 14020,
+      "SHA256": "22eb8a4809d981768afb5ea1bb4718b425c6a9520c4a4c5f487d68a9a76fa3e9"
+    },
+    {
+      "path": "src/targeted_boost_m3.py",
+      "bytes": 9355,
+      "SHA256": "57c8bfd2fb852cd7bd61ce20674ba3cfeaf6225816dd20b14cd563f60136572e"
+    },
+    {
+      "path": "src/targeted_context_m3.py",
+      "bytes": 13858,
+      "SHA256": "426eb89e4260d8fdf38ae9cc8a2408eca169d60b4c41077986ddfa50921950b8"
+    },
+    {
+      "path": "src/targeted_data_m3.py",
+      "bytes": 18927,
+      "SHA256": "29ddb7299dcabeb03b446a81d06f726dd4e6db8d3db14f9ec90765f520e8d4b4"
+    },
+    {
+      "path": "src/targeted_laws_m3.py",
+      "bytes": 13176,
+      "SHA256": "0fd564232a7e065115096b18ff0faa50b3701fa3aec5d13cc948e613da68ff4f"
+    },
+    {
+      "path": "src/targeted_sanity_m3.py",
+      "bytes": 13175,
+      "SHA256": "dea91cc2350cf05d08ca6aa92366f87e0a63ed91ac1eb491afda2db4167357dd"
+    },
+    {
+      "path": "src/targeted_scores_m3.py",
+      "bytes": 25114,
+      "SHA256": "4c2ca3f8cd6176ec47ae8eebd0e82cc51e2dea5ee325aa6ea1193d1aea6e8a9a"
+    }
+  ],
+  "change": "Only float64 releasedresponse-transforms ininference; rawboostermargins/training/modelweights/startvalues unchanged. RepairbeforeanycompletedNFLforecast/grade; preservefirstfailedrun7.245CPU andtwofitstates. No refits.",
+  "verification": "verification/NUMERIC_ADAPTER_REPAIR.json",
+  "algorithm_roster_history_lag_tuning_unchanged": true
+}

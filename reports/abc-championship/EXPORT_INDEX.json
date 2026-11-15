@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 96540,
-    "SHA256": "ff3e9caf6ce88409b3cda70847f2f65b59d7315e2778cdaac37532cccd4c2ea6"
+    "bytes": 104383,
+    "SHA256": "d0f550e5428a344b3ad59bc1c4dc2a77bc77fc79e90cef79a9c55f4efeff50df"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -276,7 +276,11 @@
     "new_paper_selections": 0,
     "new_actual_prop_outcomes": 0
   },
-  "current_execution_report": "reports/w1w9-comparison-closure-01/README.md",
+  "current_execution_report": {
+    "path": "reports/targeted-accuracy-w1w9-01/README.md",
+    "bytes": 24794,
+    "SHA256": "d4cf0362e5281c6ccc131d338a19b5e722ba12f50c2b4d0224dc67907a2762b5"
+  },
   "current_qualification": {
     "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
     "SHA256": "9fc3240046d7eb188b79a57c942657ea747292786946966e923ded6f954306b8"
@@ -1094,9 +1098,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V4.csv.gz",
-      "bytes": 2527713,
-      "SHA256": "21b57c7495e09b6681d119365dda59c2ee2870b52c90ff9c9ed74f7fbe6b3cab"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V5.csv.gz",
+      "bytes": 2642428,
+      "SHA256": "4933da96147dd9d2244049c013dcbe75a57275a254e85da66ff9cf3fcd993c8c"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1359,6 +1363,11 @@
       "path": "reports/interception-history-closure-01/ledger/PERIOD_COVERAGE_SUMMARY.json",
       "bytes": 2170,
       "SHA256": "dd6121e56c861f0f39ae7805cc3b72ae8e09397d1633658604c97e09125a923c"
+    },
+    "coverage_receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/COMMON_LEDGER_APPEND.json",
+      "bytes": 619,
+      "SHA256": "e9ffcba30f2b9a8a42b7472f3480c8f99bb69a073247dc26cfdf237ae71dbafc"
     }
   },
   "next_generation_information_research_01": {
@@ -1764,6 +1773,189 @@
       "path": "reports/w1w9-comparison-closure-01/REPRODUCTION.json",
       "bytes": 1907,
       "SHA256": "19624944e5e13d215bba7687d90ef7606ab0fd9edb3d3e39796a1f547e5a9b3a"
+    }
+  },
+  "targeted_accuracy_w1w9_01": {
+    "id": "NFL-TARGETED-ACCURACY-W1W9-01-C-M3/v1.1",
+    "stage": "EXECUTED_SAME_INPUT_AND_MATCHED_CONTEXT_M3;ACTUAL_LINES_PARTIAL_W2_W3;NO_PRIMARY_PROMOTION",
+    "base_commit": "2b8bbc6da7bfb90106d7956cf86ccc160f2a343e",
+    "frozen_championship_roster_unchanged": true,
+    "report": {
+      "path": "reports/targeted-accuracy-w1w9-01/README.md",
+      "bytes": 24794,
+      "SHA256": "d4cf0362e5281c6ccc131d338a19b5e722ba12f50c2b4d0224dc67907a2762b5"
+    },
+    "registration": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/REGISTRATION.json",
+      "bytes": 5832,
+      "SHA256": "ae632967405c516dcb311361585fc1bec61dfe67958f4d78d9e17368ae710612"
+    },
+    "context_amendment": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/CONTEXT_ARM_AMENDMENT.json",
+      "bytes": 1663,
+      "SHA256": "69c8a2b022a6703503b4523823fbe87137725ffe933fa5878678998369dea906"
+    },
+    "own_results": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/RESULTS.json.gz",
+      "bytes": 135428,
+      "SHA256": "60515d78c8a7ee8ac8dd1b19dd478d6fb589be215d4e7cacd9d25133bbd4daf6"
+    },
+    "selected_results": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/SELECTIVE.json.gz",
+      "bytes": 1805187,
+      "SHA256": "824cb7c7b46200bf9f5e9224fd2a1cf8f4ad9f62c33d756481d8cc7f5791cb98"
+    },
+    "paired_results": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/PAIRS.json.gz",
+      "bytes": 167918,
+      "SHA256": "2a7092ec440273e65c70c3ce840dbe66610a52cbbc13d772006fea852b1ddcae"
+    },
+    "numerical_results": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/NUMERICAL.json.gz",
+      "bytes": 12903,
+      "SHA256": "f8ad67e898398b4599b4e75917f3e5a9f47be3fb7d7da197ecc36da30dbd85ad"
+    },
+    "headline": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/HEADLINE.csv",
+      "bytes": 31306,
+      "SHA256": "0376c972ff6eeca397ab2a3a4923001ab3bbf6d85a63682e0fcce1e4ea933fa0"
+    },
+    "decisions": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/DECISIONS.json",
+      "bytes": 205233,
+      "SHA256": "3fd0de16705e445b38c174269ef66a6fa0e0697ef3d93621293f24d21359748b"
+    },
+    "queue": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/FINITE_QUEUE.json",
+      "bytes": 6145,
+      "SHA256": "96765d5003a9d7624a6994827a460a13485fab29fcd3d7cfa84d81bf2ef326d5"
+    },
+    "typed_handoff": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
+      "bytes": 3812,
+      "SHA256": "e3c3f55d4dc29de8d1ed5a133437d691992df8edd97b4dd928f25e13a62e6e7c"
+    },
+    "parameter_outputs": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_PARAMETERS.json.gz",
+      "bytes": 423918,
+      "SHA256": "11a12036c1bb66386e1a39a3111e6bf17e252f768f49d2f8d1bcf7432a6a3b12"
+    },
+    "source_bindings": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/SOURCE_BINDINGS.json",
+      "bytes": 290039,
+      "SHA256": "200f43b5407a7675904dfeeddda5df77191085764e7904f5e6c2934f8cebec20"
+    },
+    "context_source_bindings": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/CONTEXT_BINDINGS.json",
+      "bytes": 8901,
+      "SHA256": "13b5ffbbd80f333fba4afbc590421d14405bfc7da8b29392656ed073938cbbe3"
+    },
+    "independent_review": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/INDEPENDENT_REVIEW.json",
+      "bytes": 101968,
+      "SHA256": "b75667bff4d44548b2171ff40893beca81acf83eaaff63e9f981812908f72f49"
+    },
+    "score_regeneration": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SCORE_REGENERATION.json",
+      "bytes": 1903,
+      "SHA256": "ed9921dde64e038a5a0cb75f028a3b1fa755a1a9c0f2dd8d87743f93f83324ed"
+    },
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V5.csv.gz",
+      "bytes": 2642428,
+      "SHA256": "4933da96147dd9d2244049c013dcbe75a57275a254e85da66ff9cf3fcd993c8c"
+    },
+    "ledger_append_receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/COMMON_LEDGER_APPEND.json",
+      "bytes": 619,
+      "SHA256": "e9ffcba30f2b9a8a42b7472f3480c8f99bb69a073247dc26cfdf237ae71dbafc"
+    },
+    "resource_closure": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/RESOURCE_CLOSURE.json",
+      "bytes": 18214,
+      "SHA256": "77dae22aafa8c5124b2d1a3283d8c60fd645c80f591fccd8f4285f5b99e08994"
+    },
+    "reproduction": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/REPRODUCTION.json",
+      "bytes": 2256,
+      "SHA256": "cf3f223cc25cb9da1ca024fed419d7fd2ae2a6a8020a9ec8a46a9bbcbac954fc"
+    },
+    "validation": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/VALIDATION.json",
+      "bytes": 4768,
+      "SHA256": "084f55e3675a0a06b7e8aa964cd30987990babace1c1d6a2a17748d705506ff1"
+    },
+    "peer_intake": [
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/intake/A_CURRENT_RECEIPT.json",
+        "bytes": 4591,
+        "SHA256": "26ce993beb5647f117b1a6a24cc68646bbf4594f31fc1b2a3f06af15a73b2a9d"
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/intake/B_CURRENT_RECEIPT.json",
+        "bytes": 3362,
+        "SHA256": "178bfd13891f7f6b2772fef1bfc27f12954fb36d2e42d8f50b88018628050622"
+      }
+    ],
+    "duration": {
+      "numerical_forecast_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "actual_line_scored_weeks": [
+        2,
+        3
+      ],
+      "five_week_new_actual_direction_probability_primary_floor_met": false
+    },
+    "current_query": "NO_CURRENT_PACKET_ISSUED;EVENT_EFFECTIVE_ROSTER_AND_FRESH_SOURCE_ADMISSION_REQUIRED",
+    "primary_products": "Originalwebsiteowneralone; existingeligibleproductsunblocked; no automaticM3TopPicksinheritance",
+    "raw_model_inference": {
+      "path": "src/targeted_inference_m3.py",
+      "bytes": 6702,
+      "SHA256": "7a080b761d1fa212ed5d869e4c4469c1c53019ee73d9d6415b4cc31c4438ac3c"
+    },
+    "native_inference_parity": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NATIVE_INFERENCE_PARITY.json",
+      "bytes": 25348,
+      "SHA256": "9005b32a3317ca22da8e45d46424fe20d0f3f1d808e0261670edab7565e6713e"
+    },
+    "sealed_manifest": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/MANIFEST.json",
+      "bytes": 78353,
+      "SHA256": "b6f590e29f6ac8d3be4422202c338d4445783f617abf9dda28683f02872e2d66"
+    },
+    "clock_semantics": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/CLOCK_SEMANTICS.json",
+      "bytes": 1123,
+      "SHA256": "c3b0a935c87299b2c84e4c6eca915d46b7e9aca9f5bda160803f0a97e7916eb2"
+    },
+    "residual_adequacy": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/RESIDUAL_ADEQUACY.json",
+      "bytes": 37943,
+      "SHA256": "7d7eeacce992bfda49173f41d0e59684938eecc6332e0d97cc22e05588f56b45"
+    },
+    "report_encoding_repair": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/REPORT_FORMAT_REPAIR.json",
+      "bytes": 853,
+      "SHA256": "7b07e10543122fe3d573f769d01d61530ceac326f883e70471df4d6dcc87e262"
+    },
+    "executed_source_format_amendment": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SOURCE_FORMAT_AMENDMENT.json",
+      "bytes": 1371,
+      "SHA256": "f01185c2ebf0b71308eabe96a6b0ff5b295e60f93d5f95a10ea7e279aa4b6152"
+    },
+    "format_amendment_review": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/FORMAT_AMENDMENT_REVIEW.json",
+      "bytes": 1812,
+      "SHA256": "7a1beef8117b3ba8c07a35485e6e0ac456849e9588f4ca96128f0d86ea287ecb"
     }
   }
 }

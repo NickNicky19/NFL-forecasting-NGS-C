@@ -1,0 +1,40 @@
+{
+  "AST_exactly_equal": true,
+  "CPU_seconds": 0.11750402300000001,
+  "CSV_format_amendment": [
+    {
+      "after_SHA256": "0376c972ff6eeca397ab2a3a4923001ab3bbf6d85a63682e0fcce1e4ea933fa0",
+      "before_SHA256": "581aa1a4d437f22bcb3956fe285dd10e7c23813da710cbe1e3280972e9ffa50c",
+      "decoded_rows_identical": true,
+      "only_CRLF_to_LF": true,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/HEADLINE.csv",
+      "rows": 40
+    }
+  ],
+  "archive_SHA256": "a013273aafb8c120190675ebe004042a8ca1a4961593f096149b9084b2ec8597",
+  "archive_decodes_to_exact_committed_executed_bytes": true,
+  "byte_change": {
+    "bytes_removed": 1,
+    "line": 220,
+    "other_lines_identical": true,
+    "removed": "One trailing ASCII space outside string tokens"
+  },
+  "current_format_source_SHA256": "cd5d3aaaf192d8df7eea39821d9f2a858fe3734fc06b1c85311823a9be5f2f14",
+  "executed_source_SHA256": "426eb89e4260d8fdf38ae9cc8a2408eca169d60b4c41077986ddfa50921950b8",
+  "five_week_history_reset": false,
+  "historical_context_source_binding_resolves_by_original_commit_or_archive": true,
+  "id": "C-M3-FORMAT-AMENDMENT-INDEPENDENT-REVIEW-v1",
+  "new_fits": 0,
+  "new_grades": 0,
+  "original_checked_binding_count": 57,
+  "original_executed_commit": "15f7a8fe3ca3dd592b7a617c97676f73e00df0e4",
+  "original_independent_review_SHA256": "b75667bff4d44548b2171ff40893beca81acf83eaaff63e9f981812908f72f49",
+  "original_review_unchanged": true,
+  "recorded_UTC": "2026-11-15T06:04:37.895328+00:00",
+  "reviewer": "C-local /root/closure_independent_review",
+  "scientific_change": false,
+  "scope": "Only format/amendment provenance and original review bindings; no repeated scientific evaluation or production/peer claim.",
+  "source_requests": 0,
+  "status": "PASS_PACKAGING_ONLY",
+  "unchanged_current_checked_bindings": 56
+}

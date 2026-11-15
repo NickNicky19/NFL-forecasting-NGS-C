@@ -1,0 +1,152 @@
+{
+  "id": "C-M3-VALIDATION-v1",
+  "unit_tests": {
+    "command": "PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -m unittest discover -s tests -v",
+    "passed": 286,
+    "seconds": 29.126,
+    "status": "PASS",
+    "log_SHA256": "8bb9d993a6c3d0c483761609357ae26190c0dcbbc21b44957febcec52782f400"
+  },
+  "independent_review": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/INDEPENDENT_REVIEW.json",
+    "bytes": 101968,
+    "SHA256": "b75667bff4d44548b2171ff40893beca81acf83eaaff63e9f981812908f72f49"
+  },
+  "native_runtime_fixtures": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/RUNTIME_FIXTURES.json",
+    "bytes": 7964,
+    "SHA256": "a5eaa5725268b61953214e4036af07630f2ebc1a63309fc453b6edce0af3d765"
+  },
+  "integerlawfixtures": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/INTEGER_LAW_FIXTURES.json",
+    "bytes": 807,
+    "SHA256": "cebccc5197703172d15f1a52084c3ee054f44c4d838dc34a0dfdf7e834d84c3a"
+  },
+  "CI_command_contract": {
+    "status": "PASS",
+    "run_steps": 26,
+    "source_workflow_SHA256": "c162e49e052ed659e3196107c75a2d6cfe0fc1958fdce5d7fc7450cd25523023",
+    "commands": [
+      {
+        "command": "node --check docs/app.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/forward.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/paper.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/accuracy.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/championship.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/context.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/context_site_validate_c01.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_profile_closure_c04.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_timing_confirm_c05.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_category_decisions_c06.py --validate",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/qualification.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_qualification_5w.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/abc_period_validation_v2.py\npython src/site_shared_c01.py validate\npython scripts/export_week8_final_v2.py\n",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/reliability.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/week8.js",
+        "exit": 0
+      },
+      {
+        "command": "node --check docs/topk.js",
+        "exit": 0
+      },
+      {
+        "command": "python src/actual_accuracy_v6.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_reliability_v8.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/week8_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/topk_report_v9.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_paper_v5.py validate",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_v2.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/site_validate_forward_v4.py",
+        "exit": 0
+      },
+      {
+        "command": "python src/prospective_v4.py verify --root prospective",
+        "exit": 0
+      },
+      {
+        "command": "python src/paper_v5.py verify --root paper",
+        "exit": 0
+      },
+      {
+        "command": "python src/freshness_query_shadow_v1.py verify --output prospective/shadows/AUDIT-D2-C-REC-W09-01",
+        "exit": 0
+      }
+    ],
+    "CPU_seconds": 84.267467,
+    "wall_seconds": 84.99026841200248,
+    "log_SHA256": "503be1a240dbbe139616582ce33784f73e3cda6b0ff30c960a5dfce461590807",
+    "unit_repeat_omitted": "Existing286passedunitrun reused; no install/network/NFLfit inmanualCIchecks"
+  },
+  "original_website_browser_mobile_checks": "NOT_PERFORMED_NOT_THIS_RESEARCH_PACKAGE",
+  "source_and_model_limits": "NoA/Bprivateorpeerfitparity, authenticquote/vintageclock orproductionconsumptionclaim",
+  "CPU_only_inference_parity": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NATIVE_INFERENCE_PARITY.json",
+    "bytes": 25348,
+    "SHA256": "9005b32a3317ca22da8e45d46424fe20d0f3f1d808e0261670edab7565e6713e"
+  },
+  "diff_check": "PASS_FULL_STAGED_TREE_REQUIRED_AFTER_REPORT_LF_NORMALIZATION",
+  "report_encoding_repair": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/REPORT_FORMAT_REPAIR.json",
+    "SHA256": "7b07e10543122fe3d573f769d01d61530ceac326f883e70471df4d6dcc87e262"
+  }
+}

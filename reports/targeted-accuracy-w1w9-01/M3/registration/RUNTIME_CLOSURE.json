@@ -1,0 +1,71 @@
+{
+  "id": "M3-TRUSTED-RUNTIME-CLOSURE-v1",
+  "recorded_UTC": "2026-11-15T05:41:44.823925+00:00",
+  "packages": [
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "opt_einsum",
+      "version": "3.4.0"
+    },
+    {
+      "name": "xgboostlss",
+      "version": "0.6.1"
+    },
+    {
+      "name": "pyro-ppl",
+      "version": "1.9.1"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.67.1"
+    },
+    {
+      "name": "filelock",
+      "version": "3.20.0"
+    },
+    {
+      "name": "scipy",
+      "version": "1.16.3"
+    },
+    {
+      "name": "torch",
+      "version": "2.8.0+cpu"
+    },
+    {
+      "name": "xgboost-cpu",
+      "version": "3.1.2"
+    },
+    {
+      "name": "scikit-base",
+      "version": "1.2.1"
+    },
+    {
+      "name": "networkx",
+      "version": "3.5"
+    },
+    {
+      "name": "fsspec",
+      "version": "2025.10.0"
+    },
+    {
+      "name": "pyro-api",
+      "version": "0.1.2"
+    }
+  ],
+  "installed_bytes": 858152306,
+  "software_sources": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/registration/RUNTIME_INSTALL.json",
+    "bytes": 9161,
+    "SHA256": "c5d78a275afc66588e4c5cc6d1f81571658cb245b214a47b93d85233ecc5cc69"
+  },
+  "critical_release_code": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/registration/RELEASED_SOFTWARE_SOURCE.json",
+    "bytes": 1352,
+    "SHA256": "6deedb85699db481bdbbe204b21250f93c371b4328db6b175819515a511891fe"
+  },
+  "training_and_independent_restore_completed": true,
+  "removal": "Remove only downloadedresearchruntime AFTER all scientificfits, freshJSONrestoration, gradientandlawfixtures completed; preserve all model/prediction/source/graderecords andexactofficialwheellock. Reinstallfrompinnedofficialwheels underunchangedcap iflaterauthorized. No binaryredistribution."
+}

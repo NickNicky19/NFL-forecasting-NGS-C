@@ -1,0 +1,73 @@
+{
+  "id": "C-M3-HISTORICAL-HANDOFF-v1.1",
+  "generated_UTC": "2026-11-15T05:29:27.004596+00:00",
+  "status": "RESEARCH_SAVED_OUTPUTS_READY;NOT_CURRENT_FEED_OR_PRODUCTION_ADMISSION",
+  "parameter_file": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_PARAMETERS.json.gz",
+    "bytes": 423918,
+    "SHA256": "11a12036c1bb66386e1a39a3111e6bf17e252f768f49d2f8d1bcf7432a6a3b12"
+  },
+  "unchanged_baseline_and_sanity": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/base-PREDICTIONS.json.gz",
+    "bytes": 3648884,
+    "SHA256": "907decacb4ce8ca1b4990ba6ec3eef43049e62b12ae4f4a526776ab4e926faee"
+  },
+  "matched_information_control": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/context-PREDICTIONS.json.gz",
+    "bytes": 3413637,
+    "SHA256": "4d3c71dc103a0a0519813968db2a2cbd465220f01db18874b40e9321b7801b4f"
+  },
+  "inference_adapter": {
+    "path": "src/targeted_laws_m3.py",
+    "bytes": 13176,
+    "SHA256": "0fd564232a7e065115096b18ff0faa50b3701fa3aec5d13cc948e613da68ff4f"
+  },
+  "model_fit_adapter": {
+    "path": "src/targeted_boost_m3.py",
+    "bytes": 9355,
+    "SHA256": "57c8bfd2fb852cd7bd61ce20674ba3cfeaf6225816dd20b14cd563f60136572e"
+  },
+  "history_and_inputs": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/SOURCE_BINDINGS.json",
+    "bytes": 290039,
+    "SHA256": "200f43b5407a7675904dfeeddda5df77191085764e7904f5e6c2934f8cebec20"
+  },
+  "runtime": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/registration/RUNTIME_INSTALL.json",
+    "bytes": 9161,
+    "SHA256": "c5d78a275afc66588e4c5cc6d1f81571658cb245b214a47b93d85233ecc5cc69"
+  },
+  "comparison_grades": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/RESULTS.json.gz",
+    "bytes": 135428,
+    "SHA256": "60515d78c8a7ee8ac8dd1b19dd478d6fb589be215d4e7cacd9d25133bbd4daf6"
+  },
+  "same_case_contrasts": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/PAIRS.json.gz",
+    "bytes": 167918,
+    "SHA256": "2a7092ec440273e65c70c3ce840dbe66610a52cbbc13d772006fea852b1ddcae"
+  },
+  "law": "NB total_count/probs; signedyards binCDF(k+.5)-CDF(k-.5); no probability frompoint. Mean/median/lawrules separate.",
+  "decision_rule": "LAW Over iff P(Over)>P(Under)+1e-12; reverseUnder; tiesABSTAIN. Pointstrictcrossing separate.",
+  "fallback": "Research roleappropriate pooledlearnedoutputs withtrain-onlyimputation; no hardmodel orincumbentfallback; unsupportedrole/source ->UNAVAILABLE, neverforcepick. Leaf5%roleprior component explicit.",
+  "producer": "C, thisregisteredM3engine; no externalproducerlease claimed",
+  "consumer_executors": {
+    "A": "Permittedownerlocalearlyreception/yardactualofferjoin onexactunchangedM3outputs",
+    "C": "NativeW2W3commongraderresultpublished",
+    "production": "Originalsiteowneralone; no admission/requestedactivation fromthispacket"
+  },
+  "current_query_dependency": "Qualified event-effective WRTEidentity/roster andcompatiblecurrent-source/history cutoffviaexistingC06route; necessarycurrentoriginmodelifregistered. No future outcomesrequired. No newcurrentpacketissuedhere.",
+  "rollback": "Researchonly, keepexistingreference; originalsiteunchangedbyC. Preservealloldforecasts/grades.",
+  "raw_model_inference_without_Torch": {
+    "path": "src/targeted_inference_m3.py",
+    "bytes": 6702,
+    "SHA256": "7a080b761d1fa212ed5d869e4c4469c1c53019ee73d9d6415b4cc31c4438ac3c"
+  },
+  "native_inference_parity": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NATIVE_INFERENCE_PARITY.json",
+    "bytes": 25348,
+    "SHA256": "9005b32a3317ca22da8e45d46424fe20d0f3f1d808e0261670edab7565e6713e"
+  },
+  "packaging_refreshed_UTC": "2026-11-15T05:54:19.115292+00:00",
+  "role_validation": "Mandatory qualified WR/TErole list foradmittedoutputs; roles=None is explicitly NOT_CHECKED rawmathematicalinference only"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "NFL-TARGETED-ACCURACY-W1W9-01-C-M3-v1",
+  "adopted_UTC": "2026-11-15T04:47:02.718227+00:00",
+  "base_commit": "2b8bbc6da7bfb90106d7956cf86ccc160f2a343e",
+  "owner": "C / NickNicky19/NFL-forecasting-NGS-C",
+  "assignment": "NFL-TARGETED-ACCURACY-W1W9-01",
+  "registration_type": "C-scoped semantic registration; not claimed byte-identical to chat document",
+  "parent": "protocol/PLAYER_CONTEXT_MATCHUP_01_C_V1_1.json",
+  "unlocated_parent_label": "MATCHUP-PERSONALIZATION-01 exact external bytes not located; preserve actual adopted C parents",
+  "frozen_roster_unchanged": true,
+  "target": [
+    "rec",
+    "rec_yd"
+  ],
+  "hypothesis": "Changing the conditional law to feature-dependent NB mean/dispersion and StudentT location/scale/tails improves exact-line probabilities versus unchanged same-input empirical Leaf. No zero inflation or personnel/alignment invented.",
+  "prior_equivalence": "No completed equivalent binding in inspected1779IDs; Astra v10/v12 not obtained. C01/C03/C04/V10/V11 and prior failures preserved.",
+  "history": "H-MULTI 2022+ role-appropriate RB/WR/TE outcomes; strict available=kickoff+7d < origin; current-vintage reconstructed clocks; no authenticated vintage claim",
+  "query": "WR/TE, all2026REGW1-9 native offer identities plus separately labeled stat-row-conditioned numerical universe; no actual workload inputs",
+  "arms": {
+    "M3-0": "C-ALL12-LAW-THRESHOLD-v2.1 rec/rec_yd H-MULTI P2_LEAF E0_OP32; reuse exact safe laws/forests where compatible otherwise same-code necessaryoriginfit",
+    "M3-1": "XGBoostLSS0.6.1; NegativeBinomial forrec; StudentT continuousNLL fit followed by exact integer-bin yard probabilities; same E0_OP32/history/cases",
+    "SANITY": "Earlier-fit regularized simple NB and StudentT location/scale models, sameinputs; no feature/windowsearch",
+    "M3-2": "Conditional registered existing Context input block only after explicit source/coverage qualification; paired unchanged Leaf receives same block; not authorized to silently substitute raw defense ranks. If blocked report exact cell whileM3-1 executes."
+  },
+  "fixed_fit": {
+    "boosting_rounds": 32,
+    "max_depth": 3,
+    "eta": 0.05,
+    "min_child_weight": 30,
+    "subsample": 1,
+    "colsample_bytree": 1,
+    "lambda": 10,
+    "seed": 1703,
+    "nthread": 1,
+    "tree_method": "hist",
+    "tuning": "No exposed-score search; fixed capacity matches retained bounded depth3/32iteration precedent. Distribution start parameters fitted on eligible earlier training only. No hyperopt/earlystop using2026.",
+    "likelihood": "NB NLL; StudentT continuousNLL approximation explicitly separate from discretized evaluationlogmass",
+    "imputation": "Earlier-training medians and missing indicators identical to retained design()"
+  },
+  "source_policy": {
+    "native_primary": "Outcome-independent pinnacle,draftkings,fanduel source precedence then stableofferid; oneplayer/game/target; repeats retained separately",
+    "quote_timing": "Retain known clocks and TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC tier; do not infer main/alternate",
+    "A_board": "Protected early/later A rows owner-local; export compatible predictions, do not manufacture offers"
+  },
+  "selection": {
+    "board": "Perweek pertarget frozen retained diagnostic sourceboard; retrospective fullweekly ranking not originally executable pregamelist",
+    "coverage": [
+      1.0,
+      0.5,
+      0.25,
+      0.1
+    ],
+    "topk": [
+      6,
+      10,
+      20
+    ],
+    "side_scopes": [
+      "COMBINED",
+      "OVER",
+      "UNDER"
+    ],
+    "rank": "Own chosen-side conditional-on-decision probability descending; ties game_id,player_id,offer_id lexicographic; ceil(fraction*eligible) no forced public picks",
+    "thresholds": [
+      0.75,
+      0.8,
+      0.9
+    ],
+    "calibration": "Earlier-only prior2025 validation when compatible genuineoffers exist; otherwise calibration unavailable and calibratedthreshold cells BLOCKED; rawthreshold diagnostic shown separately. No targetseasoncalibration.",
+    "zero_selections": "N/A accuracy; evaluated/selected/decidedweeks distinct",
+    "unknowns": "Retain participation/actual/technicalmissing separately; sensitivitybounds on selectedunknowns"
+  },
+  "grading": "Reuse src/abc_championship_v2.py status/summary and qualified correctednativeoutcomes; explicit unknown neverzero; exactpush",
+  "uncertainty": "Existing game/week-aware commoninterval plus registered500wholeweekpairedresamples seed1703; two nativeweeks limits; no IID90guarantee, multiple-search exposed",
+  "support_rules": "Existing practicaldifference/tie/source/admission rules unchanged;75/80/90 observed vs supported distinct; no minimumpercent releasegate",
+  "budget": {
+    "scientific_CPU_seconds": 900,
+    "wall_seconds": 2400,
+    "primary_and_control_fit_attempts_max": 90,
+    "independent_fits_max": 2,
+    "one_fit_worker": true,
+    "fit_RSS_bytes": 1288490188,
+    "new_public_bytes_max": 33554432,
+    "whole_C_bytes_cap_unchanged": 2684354560,
+    "runtime_installed_bytes_max": 838860800,
+    "software_requests_max": 64,
+    "software_response_bytes_max": 314572800,
+    "football_source_new_requests_max": 0,
+    "temp_disk_accounted": true,
+    "prior_source_discovery_reads": 10,
+    "prior_discovery_response_bytes_lower_bound": 1336257,
+    "prior_spent_not_reset": true,
+    "package_wheels_removed_after_verified_install": true
+  },
+  "recovery": "Verified exactduplicatecachemanifest and trackedoriginalarchives preserved; optionalbrowsercacheonly. No originalscientificrecord deleted. SafeJSON/UBJSONmodelrestore only; no pickleload.",
+  "completion": "Execute supported same-input M3-1 and controls all9origins; score allnativeoffers; retain exact missingactualofferweeks and M3-2 qualificationgap. Freeze results regardlesswin/loss. No originalsitewrites."
+}

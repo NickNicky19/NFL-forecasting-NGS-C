@@ -1,0 +1,2892 @@
+{
+  "authority": {
+    "NFL_fresh_fits": 1,
+    "football_source_requests": 0,
+    "network_requests": 0,
+    "new_fitted_models_retained": 0,
+    "peer_writes": 0,
+    "production_writes": 0,
+    "repository": "NickNicky19/NFL-forecasting-NGS-C",
+    "writes": [
+      "reports/targeted-accuracy-w1w9-01/M3/verification/standalonecheck.py",
+      "reports/targeted-accuracy-w1w9-01/M3/verification/INDEPENDENT_REVIEW.json"
+    ]
+  },
+  "binding_exclusions": "Future parent README/manifest/current pointers/resource totals/publication and this review itself excluded to prevent hash cycles; actual model/source/forecast/score/version bytes are bound.",
+  "checked_file_bindings": [
+    {
+      "SHA256": "9055061f07204d81c9a5ee40c621b90744f71eeb7d863d46a8f10405185db89d",
+      "bytes": 23328,
+      "path": "AGENTS.md"
+    },
+    {
+      "SHA256": "ae632967405c516dcb311361585fc1bec61dfe67958f4d78d9e17368ae710612",
+      "bytes": 5832,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/REGISTRATION.json"
+    },
+    {
+      "SHA256": "69c8a2b022a6703503b4523823fbe87137725ffe933fa5878678998369dea906",
+      "bytes": 1663,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/CONTEXT_ARM_AMENDMENT.json"
+    },
+    {
+      "SHA256": "20f067f51c3bedd36f409d9c9043b1aa7f8f827f2ecc0765ad73661e08dbea44",
+      "bytes": 1588,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/EXECUTING_CODE_V1_1.json"
+    },
+    {
+      "SHA256": "10222375b0e49355f0081c30bbc774ccbdf06cffe67cbdaafd0c305d677e3cf4",
+      "bytes": 999,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/RESUMPTION_METADATA_REPAIR.json"
+    },
+    {
+      "SHA256": "2ee2cd8d0db52835723caa9b957e6d4dc12d80f6a9f997b43d8df192d0441967",
+      "bytes": 2910,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NUMERIC_ADAPTER_REPAIR.json"
+    },
+    {
+      "SHA256": "2434b8ec63a567a2ac4f68151b2cebc5933b82bef8ecdc23c23771bf985fba60",
+      "bytes": 28908,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/SCORING_REPAIR.json"
+    },
+    {
+      "SHA256": "6deedb85699db481bdbbe204b21250f93c371b4328db6b175819515a511891fe",
+      "bytes": 1352,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/RELEASED_SOFTWARE_SOURCE.json"
+    },
+    {
+      "SHA256": "e0c8403688765c50042c2128b3b38b1ca5330c015f02d3e33e34fa4a14a5b2af",
+      "bytes": 274083,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/COMPACT_CONTEXT_MATRIX.json.gz"
+    },
+    {
+      "SHA256": "13b5ffbbd80f333fba4afbc590421d14405bfc7da8b29392656ed073938cbbe3",
+      "bytes": 8901,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/CONTEXT_BINDINGS.json"
+    },
+    {
+      "SHA256": "af12e1bd0d23cdfaf0b7435c9e4b0c0eb7f9425fdc5006dfef5ab9ba0eecb0e0",
+      "bytes": 1687821,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/FEATURES_AND_MEMBER_FACTS.json.gz"
+    },
+    {
+      "SHA256": "d3b8a2b6d9ae9ce1a93b561d60965658511e479f109e274002b0ab0eb65e462f",
+      "bytes": 389134,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/NATIVE_OFFERS.json.gz"
+    },
+    {
+      "SHA256": "200f43b5407a7675904dfeeddda5df77191085764e7904f5e6c2934f8cebec20",
+      "bytes": 290039,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/inputs/SOURCE_BINDINGS.json"
+    },
+    {
+      "SHA256": "3244175ca89268cc7757831c605301eb16ae2e6bb51d4570d04cc257a1a3364c",
+      "bytes": 49263,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/base-ORIGINS.json"
+    },
+    {
+      "SHA256": "f250a66c7f171c0ad68c6275c432bbf6b736928d199d0b2166d99c76ace3bf37",
+      "bytes": 455257,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/base-OFFER_ROWS.json.gz"
+    },
+    {
+      "SHA256": "907decacb4ce8ca1b4990ba6ec3eef43049e62b12ae4f4a526776ab4e926faee",
+      "bytes": 3648884,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/base-PREDICTIONS.json.gz"
+    },
+    {
+      "SHA256": "55b7a12d6653c33d271eb7ce4ddeea02b1ccf0ef4400eb493e70a120fdd232f3",
+      "bytes": 210,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/base-CHECKS.json"
+    },
+    {
+      "SHA256": "b666bc51aeaa6be3e2672b16b5923e6d1059d45d97356c3cb894dc02e2654a55",
+      "bytes": 30982,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/context-ORIGINS.json"
+    },
+    {
+      "SHA256": "ec4a3081bc602eebebc91e09d15c3622408550ba97be69701b03d1fe6642c142",
+      "bytes": 236006,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/context-OFFER_ROWS.json.gz"
+    },
+    {
+      "SHA256": "4d3c71dc103a0a0519813968db2a2cbd465220f01db18874b40e9321b7801b4f",
+      "bytes": 3413637,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/context-PREDICTIONS.json.gz"
+    },
+    {
+      "SHA256": "55b7a12d6653c33d271eb7ce4ddeea02b1ccf0ef4400eb493e70a120fdd232f3",
+      "bytes": 210,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/context-CHECKS.json"
+    },
+    {
+      "SHA256": "464a1520e732195f8aa2a6c7dee165c4bfd4266f01913cbfdc7fa11e197161b7",
+      "bytes": 12902,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/NUMERICAL.json.gz"
+    },
+    {
+      "SHA256": "d9720f46ca9477c440a326b59c704bcfd75ecf9b1d8a76db1030d71cc1aad4c2",
+      "bytes": 30161,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/PAIRS.json.gz"
+    },
+    {
+      "SHA256": "4a9179645e6b7afd3a2340a10095c703fcdc5bd2a8cbee3a57814f0c94a0de8d",
+      "bytes": 135425,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/RESULTS.json.gz"
+    },
+    {
+      "SHA256": "66e97e1a653c962f2aea61bcbc23aa8f3219b6774a684eda3f31367deb35d7f6",
+      "bytes": 66708,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTED_MEMBERSHIP.json.gz"
+    },
+    {
+      "SHA256": "1e58dc106682a9c288a70cb08199822a326062c0fe3928e4c66eec9db9d294f2",
+      "bytes": 398168,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTIVE.json.gz"
+    },
+    {
+      "SHA256": "f8ad67e898398b4599b4e75917f3e5a9f47be3fb7d7da197ecc36da30dbd85ad",
+      "bytes": 12903,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/NUMERICAL.json.gz"
+    },
+    {
+      "SHA256": "2a7092ec440273e65c70c3ce840dbe66610a52cbbc13d772006fea852b1ddcae",
+      "bytes": 167918,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/PAIRS.json.gz"
+    },
+    {
+      "SHA256": "60515d78c8a7ee8ac8dd1b19dd478d6fb589be215d4e7cacd9d25133bbd4daf6",
+      "bytes": 135428,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/RESULTS.json.gz"
+    },
+    {
+      "SHA256": "72a5c15f4bee821a517b7a3f8e63b8692cc9278e510c3e0422961863cb8de231",
+      "bytes": 66710,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/SELECTED_MEMBERSHIP.json.gz"
+    },
+    {
+      "SHA256": "824cb7c7b46200bf9f5e9224fd2a1cf8f4ad9f62c33d756481d8cc7f5791cb98",
+      "bytes": 1805187,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/SELECTIVE.json.gz"
+    },
+    {
+      "SHA256": "28746603f1433093ba49844dfe3156aab85a3085624aeaf909394801d03854a1",
+      "bytes": 14208,
+      "path": "src/targeted_accuracy_m3.py"
+    },
+    {
+      "SHA256": "29ddb7299dcabeb03b446a81d06f726dd4e6db8d3db14f9ec90765f520e8d4b4",
+      "bytes": 18927,
+      "path": "src/targeted_data_m3.py"
+    },
+    {
+      "SHA256": "426eb89e4260d8fdf38ae9cc8a2408eca169d60b4c41077986ddfa50921950b8",
+      "bytes": 13858,
+      "path": "src/targeted_context_m3.py"
+    },
+    {
+      "SHA256": "57c8bfd2fb852cd7bd61ce20674ba3cfeaf6225816dd20b14cd563f60136572e",
+      "bytes": 9355,
+      "path": "src/targeted_boost_m3.py"
+    },
+    {
+      "SHA256": "0fd564232a7e065115096b18ff0faa50b3701fa3aec5d13cc948e613da68ff4f",
+      "bytes": 13176,
+      "path": "src/targeted_laws_m3.py"
+    },
+    {
+      "SHA256": "dea91cc2350cf05d08ca6aa92366f87e0a63ed91ac1eb491afda2db4167357dd",
+      "bytes": 13175,
+      "path": "src/targeted_sanity_m3.py"
+    },
+    {
+      "SHA256": "b29cb533f176b31a0e4bb0a565d299a2bda9ec6823ab2119594720d9c8290cab",
+      "bytes": 34907,
+      "path": "src/targeted_scores_m3.py"
+    },
+    {
+      "SHA256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+      "bytes": 4106,
+      "path": "src/data_v2.py"
+    },
+    {
+      "SHA256": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+      "bytes": 3784,
+      "path": "src/contracts_v2.py"
+    },
+    {
+      "SHA256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725",
+      "bytes": 9324,
+      "path": "src/context_features_c01.py"
+    },
+    {
+      "SHA256": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c",
+      "bytes": 6656,
+      "path": "src/laws_v2.py"
+    },
+    {
+      "SHA256": "31ebca8cc7379f996ca966d5a3bca072b19226311ac4e40d6a012c7e8ea86620",
+      "bytes": 33572,
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/standalonecheck.py"
+    },
+    {
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+      "bytes": 1388058,
+      "path": "artifacts/basic-football-facts-v2.1.zip"
+    },
+    {
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+      "bytes": 161446,
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz"
+    },
+    {
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+      "bytes": 18432,
+      "path": "sources/category-decision-release-01/schedule.csv"
+    },
+    {
+      "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb",
+      "bytes": 6969,
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json"
+    },
+    {
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "bytes": 479880,
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz"
+    },
+    {
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "bytes": 604500,
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz"
+    },
+    {
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "bytes": 271301,
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz"
+    },
+    {
+      "SHA256": "bc0111ba4c71c6fe4056c0b7ec2e4f6e93d2f28597478d5555ae90282ac78e7e",
+      "bytes": 5440,
+      "path": "sources/propline-v7/historical_identity_crosswalk.json.gz"
+    },
+    {
+      "SHA256": "7e7255198bacc371447120c5f117eb64ac4f0c8cca3771f60f01baeea4de630f",
+      "bytes": 5181,
+      "path": "artifacts/reliability-v8/IDENTITY_CROSSWALK.json.gz"
+    },
+    {
+      "SHA256": "c7ccb7fdd7e4e6a7da1c1de3670badf5fa1a9db8a6071ed460970f746a47d297",
+      "bytes": 14785587,
+      "path": "reports/propline-v7/GRADED_ROWS.json"
+    },
+    {
+      "SHA256": "a4de224a4acb1fe8d208f3f623066971fcba5bd9c6a00c2effe440dae3fb2817",
+      "bytes": 26495,
+      "path": "reports/propline-v7/CORRECTIONS_GRADED_ROWS_V7_1.json"
+    },
+    {
+      "SHA256": "4479712aa537895ca33ca4bc75107373f6bdf125355b1ee03816a7406e179ea7",
+      "bytes": 2613220,
+      "path": "artifacts/reliability-v8/BOOK_GRADED_ROWS.json.gz"
+    },
+    {
+      "SHA256": "d44f8d6e7e6e6c445311afeddd14cca7ce3f4d8b2e82dedf25fa2cfc15df06c4",
+      "bytes": 433777,
+      "path": "artifacts/reliability-v8/WORKLOAD_GRADED_ROWS.json.gz"
+    },
+    {
+      "SHA256": "cb717c26003eefd6dc1d61deb928d4e40c7c929a27ce9d1ce4abb2ec2faec859",
+      "bytes": 260359,
+      "path": "artifacts/reliability-v8/PREVALENCE_GRADED_ROWS.json.gz"
+    }
+  ],
+  "checked_model_bindings": [
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "3dd05ddde5d092567074734bf3a4cb83f9eacd44dd58e6ff8936dc2680487577",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "0a72a9adfadedef509c73206cc343451070181cb36cb8f33d8dbb37a2a879d59",
+        "bytes": 116786,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 1
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "86d0ac72dcf970af1f9d6e66a73b765617c567ccfc9b0013bce486d6368446f5",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "60511215854452f45e8aa3708dca35c4e22584223f8750254d7fac04bd129c0f",
+        "bytes": 78898,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "312db443c1151e9d2aa537315b5b531ca877f4499c450d5f7edc091d6ff19a84",
+        "bytes": 2778,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 1
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "3ae5fe792ebd5c5019a79ce756dde8d645a1dc4ff90a2c056b74fa6cb76a4b6f",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "a081c3cdefe561e096c9cd38e104ec762d33da9957726c885ff86daf2fde6de2",
+        "bytes": 5011,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/SANITY.json"
+      },
+      "target": "rec",
+      "week": 1
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "7c643a4c903d74c7862169afc4a5f22ff679dce4c304101994a8ce7880fbdea6",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "1eb1fcc08bc40bf26f10fcdf88b235ca02d07fa321f2ba7395a37aeb31273618",
+        "bytes": 295557,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 1
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "c0e1014e36e30472ce3f09e78cde60fab1e7d998806424a65b9aa2c954cc8f03",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "9b60768f833be5192cd7b59c89241fd0f6b52d4e669e23cb52a23364a41658ef",
+        "bytes": 116897,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "d36c88a998fe3c9cc20ed8dfa23a21cefbe3b6f9e2062a47df358146382642c3",
+        "bytes": 2874,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 1
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "c7a1166007f8686cb2ebb99119a6b99e6b72156ac4d6e3ebb8379c592bf82cc2",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "54872fa836c687201b36a4a295dbd63170df261f47f615faf533fcf553399406",
+        "bytes": 4709,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 1
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "03014cab5c2aeaec527b0ace2b597f0bbcaceceb036650f9e332499fa3927fff",
+        "bytes": 1379,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "5f8b666c4cb55002f763c11f41be5edb679f83438610a911a0640335f7c37d92",
+        "bytes": 116366,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 2
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "132af3c44e99e6beb6f7462033b5efcc4a1faf27e71daf7fb39c62d3e9ba8a57",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "6bc7aedee410eddbdb7c36451a77ebac31ea82c719995ae39e143a5d72d1fc7b",
+        "bytes": 78555,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "3065cd90c96bc31f5a832b6a4a13baed05ab2cd0db1939d549d07971f8730c83",
+        "bytes": 2778,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 2
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "b38edb49fe87c4e21a0d2a8a12a762b808a03f4eb651624798b16a1e93a72311",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "03cc916e4a5ccd72247127da74adedaf22cffba985967df28e120e605447662b",
+        "bytes": 5012,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/SANITY.json"
+      },
+      "target": "rec",
+      "week": 2
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "e51940681a97bd744bc1f4a4e6b9ad5f2c93f7770c50473482ba88942f28ae60",
+        "bytes": 1433,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "c5107f0d8d41f8196d5c8545a79a055e12bc437a5bea06230e858cd79310ab62",
+        "bytes": 295081,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 2
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "2a05164e78e0fdbb445f81d848e69bcca252d4cfff4225e490eed84f440e5cae",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "ca740e1ea5314b30e909239d01e6be6bb346302d294c6e881ea05baeb7c6dfad",
+        "bytes": 116454,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "fc56cc40d755cfc19e595720f1a00459a090ee438aeaaa7b69dfb7d9b8f0a7ea",
+        "bytes": 2877,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 2
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "d180434a965e62c23c4e372107922108dec84df2aba261b39fb75b110b402e40",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "23060c5107e7d0c58c96e5bd6ea2c6cce88c5e3cbba5824b36be4bb0381bf61a",
+        "bytes": 4705,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 2
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "4f0475b225594e7a18b9c91b5d5222bb012704ad28b50e905ae761b0d54534ed",
+        "bytes": 1379,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "95468830d5e9be991b2e3f55358086b59e5c324d6e785a3e834e88e18bcd8670",
+        "bytes": 115385,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 3
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "a28e740227f25a9721d020ac955f7f5a87a14fbbc79eaca86b5a913993875b1d",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "5b4edd745afd9c65ccb72844dfc15950f4f1d2d23e4a6cc8cfba37b58f76566f",
+        "bytes": 78403,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "44d50fabd9f44845626dd35e91c8f8e7c88fdac0e220baed1c40a31f158bbe08",
+        "bytes": 2755,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 3
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "f10c47034c89cbc3e3ec8e99808cb294f55a0b6204dee036aefe4e97c21e25ff",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "afebaadd61592360a1a838d8d3e90ab0c71c03b7522f9edd4809d03e33f0153c",
+        "bytes": 4975,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/SANITY.json"
+      },
+      "target": "rec",
+      "week": 3
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "bcc3feacdb36df7ceccb096edf0d22182186ebbc9880fed8fcbdb8101a7879a3",
+        "bytes": 1433,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "26c54169df269194d80aadf4d82fcb3a47b391297ef81885a05090e87c76faf6",
+        "bytes": 297455,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 3
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "2a5b5bc2a867c939c48cd47655061ad849cc78b6ef708dc69760761008a1658f",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "184b19e6439cc388be5678f8632db81fab8b5ab515fbef659523cc635f3d6bd4",
+        "bytes": 117326,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "cc51f3a9d331b9aa0d90804186c06abf8374546d279363ddae2b983d8bb21fd8",
+        "bytes": 2853,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 3
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "8e8587921a3e7ec4c956286857605b87ff8e084985ec03c25080a6b2405f6727",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "3c6a7cc7f77ea7cdd3c93e43257c694a191fc1d1c7173ae3d9064e01fb9cde4a",
+        "bytes": 4670,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 3
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "38fd3a91d55c4c96e3e3fab99f4263b642e682d8a739cb94868f3246b13c951e",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "e4ca50c6eae95c90a5b9859be6c736def055b57fe704c41dc35e46d10a4238a9",
+        "bytes": 118401,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 4
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "0750e725af51ce41bdad3a76b6c4c3d4b43fca79aee10e5b53df7abab1de60e2",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "68b83d5da7b5b912539f6a718f8d66cf805df23bb0acf23909bef9239de6921d",
+        "bytes": 78498,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "4211bd7cf0a117d12fdb81d650bc74dc15ad5bbe30a4a556e5df254db2bfea88",
+        "bytes": 2765,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 4
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "a345c2c73f8d191830bb596c1ace2df52a28dcea119549e1e7bad19309bf9bcb",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "f625c4b3178eedb359379fbe8db244f59b57812f304c6f6ab992e38c63b91e78",
+        "bytes": 5000,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/SANITY.json"
+      },
+      "target": "rec",
+      "week": 4
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "63d33f56dc9a9796da0ebe5b3f54718716f22913408e0778bc470c4d74432d6a",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "15c2f72db9a49efcb73eb2dfc32e301a494d93214ae221aa38be3577d8cb7899",
+        "bytes": 292558,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 4
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "fc34a3feba27947c25f9e615e60769f984f9084865617ec481fa13cf8a7f393f",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "b5106e01242e54fb9b060a5faa2dcfdf14e0e9c55c61dfacf79ba643b799becb",
+        "bytes": 117301,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "745deb86f985370356ce5e90e807ccd98eba7c746ced85dfc3e51dd82030b9fe",
+        "bytes": 2862,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 4
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "0d442fee5e7010ccf9aed2305d9ae93dcf2c0ea4e55584f58bab6ed5fda5bc6b",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "88bfabf9e5c32f44f024de559eb18eb873a4146b52c14128c94b770f936da4ab",
+        "bytes": 4694,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 4
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "559ae96c9e3710b384b3a1b3b1a31db21faff5a41f6257ccbcb6c48efe17c393",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "ba8013c499e02d916213d3e7dadf39ee3427c5b6a33e6e5c6a342ad758303e18",
+        "bytes": 117939,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 5
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "a236884c4db51c72ebd525e0526b048718945f117cb0d6d40d2cadab5c944645",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "1b6c9ab82c7e3819df213a917b16b15df94e502721d49a8bd13ebc0907941a9b",
+        "bytes": 78281,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "022b283b389daf33836784439a4502e79b5e329ec4d31659834c5937028f445a",
+        "bytes": 2765,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 5
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "00b64f978233ad7098cb340b3d83c8434212f201142d170ddde2cd4c08e61410",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "9803dff8f0d1deb1833386507d95418748bc2f6dc3a9bf461ee1fb54a2d4d613",
+        "bytes": 4984,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/SANITY.json"
+      },
+      "target": "rec",
+      "week": 5
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "529bd7f23be7b6f4ccd8b63b25ad1c26a22e1bff35d9928c5cbc4218f53cb76f",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "8cea64e09275252b918a5dcea03e3e9becc62d8f76ab08b3a840f85292d20884",
+        "bytes": 297892,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 5
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "f4282d93e25478d8199abd5913ae4636d86fc47a2424e60f430f965cf95ce702",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "ec69f8e0c78507c7104b1f848bb103a6eb27bb421c8a0c7f8c6121e9cfa4cc4c",
+        "bytes": 117555,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "b9ce4d2a3f184ad0dd92f92863996c4d2646de31be8aff7c91ad9f4cf4f9bece",
+        "bytes": 2863,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 5
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "a7900fbaed1b00b8b7357ab2b275f6b82539cb56348ec421b9402f6fd19f1a0a",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "582ec35c9d44da5976cbca70b8d7558b3bb8d53221d52ef3c894d39150af7361",
+        "bytes": 4679,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 5
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "e5715effc2a74d9fb76484bf1f6548fd73c7cc863f3cd71410e287c1bb789b4e",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "6e620eb50a7e2bba51ed278f3bc7c4d304468e6a0e609592405cacb0ded270fb",
+        "bytes": 120402,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 6
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "788ea2a570c9540d7dcc4e2686656f18a0d4787ee0fcd40713af72f28d9dd205",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "f6ffcf455734c6d5b39a3ecc652ad2696ce2f85f8f07dac3eae19288f35d098e",
+        "bytes": 78620,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "9a3656c6dba297fc528466f28a6c31181d44109f762ac565036f3fb9afa87f99",
+        "bytes": 2778,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 6
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "7990ddd555681736fac8884294e4f8c5926c4f3897bd7f734b9bb95be9e7ee8a",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "8e9f38cae1bdc9190f806b57af24630821069b0fe9898050d8d494e432b379a8",
+        "bytes": 5016,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/SANITY.json"
+      },
+      "target": "rec",
+      "week": 6
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "beb7c6e9590cf6b892d30795cd31d51f2f1c3b9ae9db15d8bf79d1950f8031dc",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "3198b331ff67e4143d240269d09fed0a3c7c78ddebfcbc0f7f0c76ab51369478",
+        "bytes": 306234,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 6
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "6c4ab7f1ad78fbf4aff446a17c95537b2a868decd4471eaf5eaa1356a549c668",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "0e59001dbafde5175ad23b5238f8791eeeb412b34e52612975698b8809724c3e",
+        "bytes": 116844,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "1991469d2c9c2bc9478285989283599c57d0b551f5218a6cc4e7dca27047cd3f",
+        "bytes": 2867,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 6
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "aa957eb7db3a05e6aec74dd6e11511c2cef919816a6c29db54cb1560784685f3",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "d99651b32398e63ce5f0dc13e021f371fb49ab959c8a6f6c006abc5e3e6e87ad",
+        "bytes": 4707,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 6
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "12ff0acc64aaa323050eeeb35bf802072bbd25fc3be821bf72f286b0aaa2d6cd",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "fcee0b1a14fd6ee66a8cebf42e38c73d4f61bc7c21b3ac7d4ae678449d247b66",
+        "bytes": 117815,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 7
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "4d60cc28536b4c5aa6ea831cb0fee8e650d4b0f03b95bfa153b2c04dfd997533",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "92ffae07c56975f728e92242bfda58098f2044d82c236c2b51f9fabee84afbf0",
+        "bytes": 78545,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "41d57225c59c513b9af1ac213ceb2706145734424f105ba9162a31d12c11e595",
+        "bytes": 2779,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 7
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "8af12108d9558a1780d19cfcd48a5e125148ff63fd74992873fb2aedb19e0308",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "870a2c01450a077cdb4c34026fa2af36188039d8cf80413b623c3900fe1b6466",
+        "bytes": 4999,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/SANITY.json"
+      },
+      "target": "rec",
+      "week": 7
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "0dafc151bb870b817401292142f28a30f9179491fe5fd08a7a97b80521614415",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "4e1ac3772aaf3327934245a5a55bf3c52ef3a851869389c8bc97247ed2c7c716",
+        "bytes": 306268,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 7
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "1ad89774c80b71c1dcf57bce4b85ccb16c50bab8d9bc53635c093ea4bd6ab071",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "479af956bef5767b2220bf3307bbf4bbecc49ab0c7cbabe0abebf31f726c7fe3",
+        "bytes": 117204,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "3c18fe3bb8aa309e5b84734bbd3660dbc9fa8ffd49d9e7a2f8f548d7e2a997c7",
+        "bytes": 2877,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 7
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "34be967c4f920bc20929c700e4277bf435747e3929b2736b54ef1e7ae98235e0",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "0eca0efb10430570debbb397c2359f70b953c5f428f282e4afec56f241fcab0f",
+        "bytes": 4698,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 7
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "1c6f51cbe98e4f307f7d5e853d180a8fcfd25cb7a9b97b60f4f15e82868898cb",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "7be9eddc455edbdc728df4b24b877d88e2444d22807406c363870b49f06a2f9b",
+        "bytes": 118891,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 8
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "c067eadbb3b6a6dbb5cda51f91ff0335fa78ad1a4a86cc7bef2ec06aeb27ce95",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "c5c84da1e49bf39a85b510adc06cc5f83e4bed496a793d3c0f5e828baad0b500",
+        "bytes": 78567,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "2432954ff0dba026011620949dd3f46701b5578c99fce13db34fe82351e5d4d3",
+        "bytes": 2777,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 8
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "d2305390e4e42dbe0cc0f80925bbd193286c547b989dbcb352bc97873cec07c5",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "1d91b5d9aea6e25598dbb29751ba0047720e6a44795046497c99b6cff42b3642",
+        "bytes": 5021,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/SANITY.json"
+      },
+      "target": "rec",
+      "week": 8
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "eebdb74bf35e378d453233917a00109501d5bb753589b17e75d7b3cccddc38ff",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "6247657edda31fb4d77419469b229a7e17d2a9fd99d041e1e8eb536c55979fbf",
+        "bytes": 308893,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 8
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "59a42d6410000ac6078075fbb4c67298b462cd1e5691a6c06732aad446d212d4",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "7b925ade7bd1bc7959f201b789e2e11498701bb3f40b834bd24dc79bd9116b78",
+        "bytes": 117142,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "4c8cb1b5962a1543bf84a886dfa2161336becf49f8968ecbb6e4fcaa55c307a9",
+        "bytes": 2875,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 8
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "2c0115832d001286bc9ba1050adb70c0df7803d398c2101c1f17511f95ba0430",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "a0c0bbefd327cc2f619f8c6903cf029400ec971cee7dbe95b0057ee78ec1bbc7",
+        "bytes": 4721,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 8
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "3bad3dc1c865c1a35903c101f5f462248a3391b8c89f099adcc1d512a6b235b2",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "657ebbd468b70dae4dea464c2f45987b549504958981fdd6a048996d3c4e90a5",
+        "bytes": 120571,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0.json.gz"
+      },
+      "target": "rec",
+      "week": 9
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "bb1d6d7aee66452f5c2c8767b23ed69538755cdb27cf1fd78febeb79e2f947a9",
+        "bytes": 1113,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "2d01b36923cd1669c847570922ab5c25497167f81e9520354c8daaad94c165d7",
+        "bytes": 78462,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "3ab32c12d517d9f05a6de2b6c609b9bcc9c5dba613d2d83a02f98ce413b5dccf",
+        "bytes": 2779,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-1.recipe.json"
+      },
+      "target": "rec",
+      "week": 9
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "b18c7b8b74094fc3fa4c8c7d6a8c00a04ea21638d3b60482c4fea6dd1cc1e11d",
+        "bytes": 1115,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "d513eb33dc61777ebfd6f966b563be013bb7fd98bbb428b4487eb5c21f7dc2e3",
+        "bytes": 5019,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/SANITY.json"
+      },
+      "target": "rec",
+      "week": 9
+    },
+    {
+      "arm": "M3-0",
+      "binding": {
+        "SHA256": "28c4570e59a6ff05a57f6261b178ac5414ac8820d7fd752eac0b9c4622c7c08c",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0.binding.json"
+      },
+      "model": {
+        "SHA256": "e20aeeeaeaafd31b9e343a940f3363952e7b675b4e82c80bcf7b70ea55393fb7",
+        "bytes": 308164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 9
+    },
+    {
+      "arm": "M3-1",
+      "binding": {
+        "SHA256": "4360588901dd3a94da9a8ae12a07b8c18ab06792bde462b59c3d2ad3439801a2",
+        "bytes": 1164,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-1.binding.json"
+      },
+      "model": {
+        "SHA256": "5c4af6c990b83fdcc123254001ef7985eb681c0898aa8b7e6ab900dc2e83662f",
+        "bytes": 116764,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-1.json"
+      },
+      "recipe": {
+        "SHA256": "a5db812cddb3799c9518b2f9a62ee910cdf2a3afe9c86785ccc2dc3db18d5d2e",
+        "bytes": 2876,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-1.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 9
+    },
+    {
+      "arm": "SANITY",
+      "binding": {
+        "SHA256": "34f11f1c26d5c2b18461d5fe0ce5b9199954e979e536412371f34aa7b1251954",
+        "bytes": 1166,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/SANITY.binding.json"
+      },
+      "model": {
+        "SHA256": "658b0033fbf6d936bf04044c2bc687ec04bb0185f895449751541acbec691645",
+        "bytes": 4711,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/SANITY.json"
+      },
+      "target": "rec_yd",
+      "week": 9
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "a3c02d033f10a0c0fd1f86d7246403fadbcc4133dff3cf87593f1eff9418d031",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "cc5572273c0d11649c53bff56e3fe1290861d85547b00e962e5d849f66e1c02d",
+        "bytes": 117476,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 1
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "ca444a1e7f9aa5cf1be5f2ec8cb4d17ee376177bfbe0c35d06b6311c447baabc",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "9d6439365d669744187712be06cdbd15f6ea491a60efa587195992650c85e818",
+        "bytes": 78822,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "861c893b3bc5390aab86b27871f4a924a1e4218dc3f23a5f3509232fe6716b3d",
+        "bytes": 4006,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 1
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "5386693183d5bd9fd7baeee469e93429963e9eb82d016705a32cb34be379da24",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "41a3cd5285c044da1dbda34e08bdc2ea5841566da39e09dbf3b37f4053614146",
+        "bytes": 292701,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 1
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "21c7f91fdf996bb0ffe9b3e1729835e76a33c276263e66ad522b5d3832ca0a09",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "2d7b8f652af2d9f53816b2e7eb558365494465e7bb9c24503fbb9f246ca38abb",
+        "bytes": 117506,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "b601b4a05421551599038342fc1f270126ae64031bafb224718c378192370c95",
+        "bytes": 4102,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 1
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "2fc19319fbbaf4ddf926617228ebbf71189b0d04a4a18818269130a0913672c9",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "f60367f6da742336d9d4755a3906221ad81cc9690267c78cde43c2183cd357e0",
+        "bytes": 115994,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 2
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "839d6d6fe3416c3a7b5aeb98dafd4c74a39718b4a76255a2f3bc56a6804ab38e",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "d81e7abebc34ba6a11ef9e41b0563041476c379d5bfcd331fa78943237a5468e",
+        "bytes": 78644,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "ad335009900e195cd0b8e17827716170ee8035bdd9f5a8cb916ec002cc9ed120",
+        "bytes": 4006,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 2
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "bee26cf5c62a7835a7f11577d7613fd38268e838c35bfc4ad95e26faefd112ff",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "815f4b9fdc7931dddbb7aac38f7b6bf810d95846b5aab7956d1c068f89489c87",
+        "bytes": 295165,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 2
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "2f3bb1f49f022c41ba3de7c0bdbb38513711e10c15b3b3ca8933e70034a7f6d7",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "1a59e5e76054dab6ab42e39ca0b02f841b57527a9c2cd549485260896a83a7dc",
+        "bytes": 117390,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "d59b2f0c27295aa27cfc98305f6e1da92f26199bc9ccb468f78e72ae18115176",
+        "bytes": 4105,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 2
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "4a0874b74cc7c47461b924b8c6749bc26cdf48b767d027f120238335b4531ade",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "184a7eb54349ceb29638023126d3cf46208826b1d876bcd64b68bf626b3692da",
+        "bytes": 118330,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 3
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "0305a58a6f6f30645cfd211b02095bc832ec917d8e1e7d6f9b459c800b1d37b4",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "6e62cb2d0e86b5db8741f1915ce6115067eb61c671add29a47568baec1d35bb5",
+        "bytes": 78656,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "c6abb578eca6933e9be97faf5eddfe0e926716f1936c893c919aa17268f5585a",
+        "bytes": 3972,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 3
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "53afc575441b257260ab307d32b1fe3881ed8a030f54627676d1ecfb9ef163d0",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "e51c664e7a3aa4336d2a15a7de48dcb6676832e82924b940edf8a712b3f1a761",
+        "bytes": 297961,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 3
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "714d0e59bcd3e6a2c7e80abe5e2e8ec2994e6bccb68bc79988d6ab1a123d8e60",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "84b795e9ff839150c6cba370cfb95e239e68a5bdddac73d32514e012915c05bf",
+        "bytes": 117298,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "8d88764f40e518ab8feddeddc7e70a70bff4f66f68c543389c6ecaf8c2012811",
+        "bytes": 4070,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 3
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "bd940be343b30b20cc08779c40d47014b161254c44c56e40066dca5d1380ec18",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "81c9122dff61a7e6e4aa30e1db44e670cb2c45fa9d9ccad620d0f69d2deceadc",
+        "bytes": 118807,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 4
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "0e32c732fcf95f753f2758be2f2dc6594ba7a80c186da2368982a41d7def1b81",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "b77bba8c417605e17aa9eaf96e45a4f45d40fbfb3cf5bf9380b871d79483e294",
+        "bytes": 78749,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "bb194f2b740f5679dc1dcb46422b27a8a74aac2de8cfd8016306c458879bc7fe",
+        "bytes": 3992,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 4
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "e5173d6d2be8379f1e5c9ded6440b76b6aa6d621cd7ad67ac49a2e34a6859d2d",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "8b837505b5ff16e8b98fdb09b3a37c8d7da9e8fc2c257dfa877073d231df18c8",
+        "bytes": 301757,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 4
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "fbc98f7f495d2efff4746c783c239670eea9037ca8de764a1f957e63118608e5",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "5765ed5c698e17a564cba9a25554c5a7e8e5f29f9ae3e1a5fe6bd4e928e23e26",
+        "bytes": 117514,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "9663b79efbdebddcbfcf187f19978ba8835264a4cc9a44b486ea5585cfb1f60d",
+        "bytes": 4089,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 4
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "7326e5ad93121b4dd40e3a35b5b4fa800d5f88eaacb45ed44bae09fe553e035b",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "b8e3cb2ee718f76f13d4e1027dffa70c2a01b5330c99570c4bc84fbe87e29e68",
+        "bytes": 121163,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 5
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "8aa377bd1231cb51d28d11dd1092b443766bf3b93dc04217b9e3127a1cc98ca9",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "52000a65f95d8e580984751903a24e22738563d88305eff4a66ec9de4726f042",
+        "bytes": 78355,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "902f4b798aa9c8d2adf90540a03ee594601c57263933cff71d322d24baa107a4",
+        "bytes": 3993,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 5
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "d24945a464916f77763e92b9442636d569f16a3d7359c1a9002a77e1ea7f0093",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "2c719025d23a449c984163ff667c8d8c36493b0adc91a6683824a1548cf2d0f5",
+        "bytes": 305171,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 5
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "767b7e721c3894eb990675666eb05b88987216f75a7e2aacc8f871aa3acb9987",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "ab5431dc86e728d12828d50cdab7554e38f4c135f24c11c684fa51201e242eab",
+        "bytes": 117770,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "7d146060e678d536dab799abdd6e248615fb7581de06362d684682982444ee34",
+        "bytes": 4091,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 5
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "21037fbf74665c4ada0c89525edcb514e9655edaf58045bdf847f171b1ab7bac",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "3423d1ff9479cf486ce0758a76717196ca1f90743a1b4e5788aa7626e58b51d4",
+        "bytes": 119267,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 6
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "06169df0b2da468e88511b82e37e4cf27b1b2616b6fa52fce26ac2a837bcbc16",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "eebca62b769580f2a426f246a4b1c32c0bc74a4fb86d7b6c1498104a4c1e794a",
+        "bytes": 78361,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "748c389ca40fd02848d14c305a624ea026fb3ff187aaa8798d17816c67fd8b9e",
+        "bytes": 4007,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 6
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "99a83be8a1ab6f1625b9ff29bf70657ad02044be8d1ea7d0eb9ef49808ae257e",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "91a50b8bcee9fbfa5819ce029881ee8a0ba665fdcc421649b7ca30690bc55985",
+        "bytes": 302979,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 6
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "9cf003ac82332f24d029e772525bb21506a0f5f4079521c80e45d1bb0a625240",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "8c6be78c1f68e9466f850d3b445767a1e0066633735d251807232208aded490a",
+        "bytes": 117294,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "3c4049514b435aaa19cafa358d48b9e6f0b0792a0b078d9fe141ac2af13c55c7",
+        "bytes": 4096,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 6
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "7ffadcd634f53b3ce6ede3378452542a98709e6f1b1eb06780c4dda2d97d2e36",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "dec3519cf565c6e76a43232148fa26b437e6902475196eb9f62df6144476b730",
+        "bytes": 119027,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 7
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "73f0e31cf6c716a2d419eae07485aad318c93c5553f4cf3bdcbdde2069b239d1",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "8caa6fd89eae8c7abf8aa9ac572f42e3485cd512d9ecca237dfb027dffb79680",
+        "bytes": 78197,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "069b810abfb12b8ff4d1b76fc374f92a6ceb49c2cad221b01b0cb248f3caf3f5",
+        "bytes": 4008,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 7
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "39e3baaf549e04cb6f63c094731602319dc43ac69eaff2c74c30ea4139e89726",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "56c8ad5fe5d92e1e0df4c90a6fef537989074c0473922b6d7469f49f6839c63a",
+        "bytes": 305866,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 7
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "fcea9fd90bb0861e51a9dc0e9c35a1ecbcd22b3d62b9d91ea79b4d6786e4ebdd",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "269b7abc6812ae16f6bc45b7d3f4ffbcb733ceeaf774d3a2e1210251be26d023",
+        "bytes": 117597,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "61804ec8cdca3479d2ba830229a968e024afe3bb68b90323c46e3530dad0e295",
+        "bytes": 4106,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 7
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "f07d5ab865e7ff42177783853d48eacb00b172bf801f2f47a0a39193e44d7dce",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "74ea4b28682ed7b59b657ef0cfd6bcccdfa9e4bcae6f488bebc57b1a0e91b716",
+        "bytes": 123283,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 8
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "2244fa03e481ee2650342718ca594c9a0c5d8a78b1b88231014f5f3bf1a3ee65",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "bfe91cd5b24ffdad45742ed521f29c6a5b0060575ff80bdbd3163062d438d50d",
+        "bytes": 78690,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "53a10ca7dcdd50134eb46cee131b0626807cda880e8f53f1325a820bdac6542b",
+        "bytes": 4006,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 8
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "df2fcaa23afcb6e198d9be60f92d1ebe49724a0f9b2ccffccbb46a2b744049f7",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "eb7868994e8a970e435d52b99ed5907f793ae3fa18e4e26f83f902f5783e5bf8",
+        "bytes": 308723,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 8
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "f34e04bf5107f26a4fe1c840995d478a64c1af4b9d12089ca1cbdc2b3f8320d8",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "53fc711696d5b70c5049ff029f449ef1f22ef3f85403a247c04ddf11d196b815",
+        "bytes": 117240,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "eaac8cac685dae271ccf789bee12ec0be1cc3979c26b7716ff32ab160b4c2b8b",
+        "bytes": 4104,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 8
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "3a0fe94d81e3ef8a7ce63ffd006beb5fe79b203c8b96a8bd6ee9f35dc6d27aa6",
+        "bytes": 1523,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "be31b52667c40a568b28c84bf29777111062715038dd94a35361eefbe3e85835",
+        "bytes": 122517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec",
+      "week": 9
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "d13049260af05b05788fc9b152b038b5ca4d7d7b9953f46355497faed8728d9e",
+        "bytes": 1517,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "abe341e7ceca5dd50c1c46ea2749e36c143d5ea2b4d458c9a8d0d4f2eb7c8368",
+        "bytes": 78228,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "da85ad1cc447cfaf7d4aa4e71262172df016be5fbf32740e4d682f07bcf8731c",
+        "bytes": 4021,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-2.recipe.json"
+      },
+      "target": "rec",
+      "week": 9
+    },
+    {
+      "arm": "M3-0+BLOCK",
+      "binding": {
+        "SHA256": "2a5b5bbced47072552b6579d268afd9d36340c184f64bc2f509d2e7881a2368a",
+        "bytes": 1574,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0+BLOCK.binding.json"
+      },
+      "model": {
+        "SHA256": "3c14bb7b416ecbac6cf95a1478fe12e53a591f9f7310f7c2a121dfebe09223c3",
+        "bytes": 308301,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0+BLOCK.json.gz"
+      },
+      "target": "rec_yd",
+      "week": 9
+    },
+    {
+      "arm": "M3-2",
+      "binding": {
+        "SHA256": "de8842d472087f64ca4c25df3279b27f7e00f62aec70fa7a56398b50674fc555",
+        "bytes": 1568,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-2.binding.json"
+      },
+      "model": {
+        "SHA256": "bf8635d3f2ee7776639e18e2784e5fa9af693540c1f39b1d7ff16a6714fd6299",
+        "bytes": 117112,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-2.json"
+      },
+      "recipe": {
+        "SHA256": "340cc4b2635c900c3b6a8ab3cde72de6ec87524c738dc5ed5deffb8a445cb4e3",
+        "bytes": 4118,
+        "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-2.recipe.json"
+      },
+      "target": "rec_yd",
+      "week": 9
+    }
+  ],
+  "chronology_and_bindings": {
+    "admission": "Every training label has available=kickoff+7days strictly before the weekly origin; no query game is in that origin training. Query base/context features admit earlier records strictly before each query kickoff.",
+    "all_membership_X_y_feature_order_model_hash_checks": "PASS",
+    "base_origins": 54,
+    "context_origins": 36,
+    "origin_cutoff": "First scheduled weekly kickoff left-limit; target-game final outcomes and realized exposure never enter the query vector.",
+    "origin_products_checked": 90,
+    "package_fits": 86,
+    "prior_safe_Leaf_origin_reuses": 4,
+    "training_rows_by_week": {
+      "1": 19605,
+      "2": 19623,
+      "3": 19901,
+      "4": 20203,
+      "5": 20507,
+      "6": 20800,
+      "7": 21078,
+      "8": 21336,
+      "9": 21611
+    },
+    "vintage": "Current retained/revised source, explicit seven-day reconstruction. This review does not authenticate original historical publication."
+  },
+  "deterministic_raw_reconstruction": {
+    "E0_opportunity_source_missing_cells": {
+      "appended_attempts": 0,
+      "appended_carries": 0,
+      "appended_sacks": 0,
+      "appended_targets": 0,
+      "original_attempts": 0,
+      "original_carries": 0,
+      "original_sacks": 0,
+      "original_targets": 0
+    },
+    "PBP_deduplication": "game_id/play_id unique across all three panels",
+    "PBP_team_games_held": [
+      {
+        "game": "2025_02_SEA_PIT",
+        "offense": "PIT"
+      }
+    ],
+    "PBP_team_games_qualified": 1327,
+    "absolute_tolerance": 1e-12,
+    "all_cached_target_labels_and_canonical_identities_match_raw": true,
+    "base_feature_values_checked": 384,
+    "cases": [
+      {
+        "context_games": 0,
+        "game": "2022_01_CLE_CAR",
+        "index": 0,
+        "kind": "empty",
+        "player": "00-0027691"
+      },
+      {
+        "attempts": 261,
+        "game": "2026_01_SF_LA",
+        "index": 20888,
+        "kind": "ordinary",
+        "known_air_targets": 59,
+        "own_games": 8,
+        "player": "00-0031381",
+        "targets": 59
+      },
+      {
+        "base_prior_history_retained": true,
+        "context_games": 0,
+        "game": "2024_01_WAS_TB",
+        "index": 10314,
+        "kind": "sparse_context_after_team_change",
+        "player": "00-0030061"
+      },
+      {
+        "game": "2024_02_PIT_DEN",
+        "index": 10619,
+        "kind": "qualified_zero_target",
+        "own_games": 1,
+        "player": "00-0030578",
+        "quality_depth_values": null,
+        "targets": 0,
+        "team_attempts": 23
+      },
+      {
+        "game": "2026_02_CIN_HOU",
+        "index": 23610,
+        "kind": "missing_eligible_stat_row",
+        "player": "00-0034829",
+        "prior_context_targets": 31,
+        "target_labels": {
+          "rec": null,
+          "rec_yd": null
+        }
+      },
+      {
+        "game": "2026_09_NYJ_KC",
+        "index": 23312,
+        "kind": "late_TE",
+        "own_games": 8,
+        "player": "00-0030506",
+        "targets": 47,
+        "team_attempts": 244
+      }
+    ],
+    "context_feature_values_checked": 102,
+    "early_source_missing": "2022/2023 substantive PBP context fields all null; explicit support counts zero and missing flags one.",
+    "equation_example": {
+      "feature": 0.029699093737539317,
+      "offense_adjustment": "Per-depth completion expectations use only earlier eight offense games shrunk with20 earlier-league targets; WRTE allocation expectations shrink with40 earlier-league attempts. Defense residual aggregates shrink denominators by40 targets/80 attempts. No player-average times overall-defense multiplication.",
+      "opponent_attempt_denominator": 361,
+      "opponent_completion_residual_numerator": 9.14732087116211,
+      "opponent_role_residual_numerator": -7.378477863578723,
+      "opponent_target_denominator": 308,
+      "query": "2026_01_SF_LA /00-0031381",
+      "role_feature": -0.020438996852018623
+    },
+    "future_target_raw_mutations": "Six independent raw ordinary-source mutations (future rec/yard/opportunity values to999999) leave earlier base vectors identical. Context source prefixes/equations independently reconstructed; author derived-context mutation receipt remains separately scoped, not a new raw-provider vintage authentication.",
+    "known_zero_contract": "Explicit prior targets=0, receptions=0 and qualified played/team counts establish the zero. Undefined air/depth quality remains null; absent target-game offensive evidence is not zero.",
+    "lookback": "Up to eight source player appearances or defense games selected before qualification/team filtering; offense prior uses qualified earlier team records. Not an unconditional eight eligible-game guarantee.",
+    "primitive_rows": 23633,
+    "selected_attempt_flag_missing": 0,
+    "target_labels_per_row": 2,
+    "valid_PBP_attempt_rows": 43196
+  },
+  "findings": [
+    {
+      "NFL_accuracy_effect": "Not measured/claimed; no pre-repair NFL score existed.",
+      "classification": "VERIFIED_NUMERICAL_INFERENCE_DEFECT_REPAIRED_BEFORE_GRADING",
+      "evidence": "verification/NUMERIC_ADAPTER_REPAIR.json",
+      "owner": "C root",
+      "repair": "Float64 response transformations preserve the exact fitted model; independent native-model byte reproduction and float64 calculations pass.",
+      "scope": "Native Torch32 batch/single response precision, unchanged raw booster margins."
+    },
+    {
+      "NFL_prediction_effect": "None; two failed stages9.492722806CPU retained, saved fits reused.",
+      "classification": "CONTAINED_EXECUTION_METADATA_REPAIR",
+      "evidence": "registration/RESUMPTION_METADATA_REPAIR.json",
+      "repair": "Versioned exact accepted execution hashes and package-fit attribution; old source/checkpoints retained.",
+      "scope": "Restored package fit reported new_fitFalse versus its frozen True checkpoint."
+    },
+    {
+      "NFL_prediction_selection_grade_effect": "None.",
+      "affected_original_views": 341,
+      "classification": "VERIFIED_REPORTING_DEFECT_REPAIRED_APPEND_ONLY",
+      "detected_by_this_review": true,
+      "minimal_case": "rec CONTROL_P3_DIRECT/COVERAGE_100 reported0 matched selected controls versus independently expected272.",
+      "repair": "One canonical identity order; new scores-v1.1 while originals remain; all final selected-control masks/counts now pass.",
+      "scope": "Selected IDs (game,player,category) did not match canonical (category,game,player); same-selected controls falsely empty."
+    },
+    {
+      "classification": "VERIFIED_REPORTING_OMISSIONS_REPAIRED",
+      "prediction_effect": "None; valid old broad/selected records unchanged.",
+      "repair": "206 paired views plus selected strong/constant controls in scores-v1.1.",
+      "scope": "CONTROL_ALWAYS aliases/CONSTANT product excluded from pairs; declared information/same-information family/strong-control contrasts absent."
+    },
+    {
+      "classification": "REPRESENTATION_LIMITATION",
+      "repair": "Documented dual-role/source boundary; no imputation/role rewriting.",
+      "scope": "One native WR offer has ordinary CB role;23 query-only additions mean no role-compatible offensive statistical row, not necessarily total source absence."
+    },
+    {
+      "classification": "SCIENTIFIC_ATTRIBUTION_LIMIT",
+      "disposition": "Whole-block increment only; support-only, standalone player-value and standalone defense effects untested in this package. No additional fit requested.",
+      "scope": "Seventeen-column context block combines new support and substantive player/opponent fields."
+    },
+    {
+      "classification": "NO_DEFECT_FOUND_WITHIN_OTHER_CHECKED_SCOPE",
+      "scope": "Independently reconstructed source counts/labels/features, model bindings, representative fresh fit, integer laws, original own-side counts and corrected reporting calculations."
+    }
+  ],
+  "fitted_input_use": {
+    "context_missing_indicator_splits": 0,
+    "interpretation": "Inputs reached both learners. Split use is not evidence of predictive value or isolated contribution.",
+    "origins_per_target": 9,
+    "rec_context_support_splits": 215,
+    "rec_substantive_context_splits": 111,
+    "rec_yd_context_support_splits": 103,
+    "rec_yd_substantive_context_splits": 77,
+    "source": "Native JSON split-index arrays, not author get_score summary only."
+  },
+  "id": "C-M3-INDEPENDENT-IMPLEMENTATION-REVIEW-v1",
+  "independence": "Separate raw reconstruction, native training, boundary calculations and saved-row arithmetic; not an A/B/website receipt and not an external private-data audit.",
+  "independent_saved_row_calculations": {
+    "active_selective_views_checked": 360,
+    "author_scorer_or_summary_functions_called": false,
+    "blocked_calibration_views": 36,
+    "broad_views_checked": 400,
+    "numerical": "Both broad and offered-player known masks/MAE/MSE/bias independently reconstructed; offered-player actuals come from qualified offer outcomes, not erased by a null broad query actual.",
+    "numerical_views_checked": 100,
+    "offer_product_rows_regraded": 11720,
+    "original_vs_repaired": "RESULTS rows, NUMERICAL rows and SELECTED_MEMBERSHIP rows decode identically between original scores and scores-v1.1; only comparison/reporting views appended/repaired.",
+    "paired_uncertainty": "500 paired whole-week draws, seed1703, manually accumulated week nets and independently interpolated quantiles match all206 paired views. Two native week clusters: descriptive sensitivity only.",
+    "paired_views_checked": 206,
+    "probability_quality": "All checked broad/selected rows recompute half-multiclass Brier and full event log loss from qualified observations; point-only controls have no invented probability.",
+    "representative_law_contrasts": [
+      {
+        "candidate": "M3-1",
+        "candidate_only_wins": 8,
+        "category": "rec",
+        "control": "M3-0",
+        "control_only_wins": 10,
+        "decided": 268,
+        "week_interval": [
+          -0.030303030303030304,
+          0.014705882352941176
+        ],
+        "wins": [
+          150,
+          152
+        ]
+      },
+      {
+        "candidate": "M3-2",
+        "candidate_only_wins": 3,
+        "category": "rec",
+        "control": "M3-1",
+        "control_only_wins": 0,
+        "decided": 268,
+        "week_interval": [
+          0.007352941176470588,
+          0.015151515151515152
+        ],
+        "wins": [
+          153,
+          150
+        ]
+      },
+      {
+        "candidate": "M3-0+BLOCK",
+        "candidate_only_wins": 5,
+        "category": "rec",
+        "control": "M3-0",
+        "control_only_wins": 5,
+        "decided": 268,
+        "week_interval": [
+          0,
+          0
+        ],
+        "wins": [
+          152,
+          152
+        ]
+      },
+      {
+        "candidate": "M3-2",
+        "candidate_only_wins": 11,
+        "category": "rec",
+        "control": "M3-0+BLOCK",
+        "control_only_wins": 10,
+        "decided": 268,
+        "week_interval": [
+          -0.015151515151515152,
+          0.022058823529411766
+        ],
+        "wins": [
+          153,
+          152
+        ]
+      },
+      {
+        "candidate": "M3-2",
+        "candidate_only_wins": 9,
+        "category": "rec",
+        "control": "CONTROL_P3_DIRECT",
+        "control_only_wins": 11,
+        "decided": 268,
+        "week_interval": [
+          -0.022727272727272728,
+          0.007352941176470588
+        ],
+        "wins": [
+          153,
+          155
+        ]
+      },
+      {
+        "candidate": "M3-1",
+        "candidate_only_wins": 33,
+        "category": "rec_yd",
+        "control": "M3-0",
+        "control_only_wins": 37,
+        "decided": 264,
+        "wins": [
+          132,
+          136
+        ]
+      },
+      {
+        "candidate": "M3-2",
+        "candidate_only_wins": 0,
+        "category": "rec_yd",
+        "control": "M3-1",
+        "control_only_wins": 0,
+        "decided": 264,
+        "wins": [
+          132,
+          132
+        ]
+      },
+      {
+        "candidate": "M3-2",
+        "candidate_only_wins": 34,
+        "category": "rec_yd",
+        "control": "M3-0+BLOCK",
+        "control_only_wins": 39,
+        "decided": 264,
+        "wins": [
+          132,
+          137
+        ]
+      }
+    ],
+    "same_selected_controls": "Final nonempty membership, common candidate/control own-side counts and paired nets checked; zero remaining mask mismatches.",
+    "selected_membership_schedules_checked": 720,
+    "unique_native_opportunities": 586,
+    "verified_headline_law_rows": [
+      {
+        "arm": "CONTROL_P3_DIRECT",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 113,
+            "rate": 0.5783582089552238,
+            "selected": 272,
+            "wins": 155
+          },
+          "OVER": {
+            "decided": 60,
+            "losses": 22,
+            "rate": 0.6333333333333333,
+            "selected": 62,
+            "wins": 38
+          },
+          "UNDER": {
+            "decided": 208,
+            "losses": 91,
+            "rate": 0.5625,
+            "selected": 210,
+            "wins": 117
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2641086577930243,
+          "log_loss": 0.728988341457127,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 23,
+        "unknown": 4
+      },
+      {
+        "arm": "M3-0",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 116,
+            "rate": 0.5671641791044776,
+            "selected": 295,
+            "wins": 152
+          },
+          "OVER": {
+            "decided": 71,
+            "losses": 29,
+            "rate": 0.5915492957746479,
+            "selected": 86,
+            "wins": 42
+          },
+          "UNDER": {
+            "decided": 197,
+            "losses": 87,
+            "rate": 0.5583756345177665,
+            "selected": 209,
+            "wins": 110
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.26938840239882406,
+          "log_loss": 0.7457461333116587,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-0+BLOCK",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 116,
+            "rate": 0.5671641791044776,
+            "selected": 295,
+            "wins": 152
+          },
+          "OVER": {
+            "decided": 75,
+            "losses": 31,
+            "rate": 0.5866666666666667,
+            "selected": 88,
+            "wins": 44
+          },
+          "UNDER": {
+            "decided": 193,
+            "losses": 85,
+            "rate": 0.5595854922279793,
+            "selected": 207,
+            "wins": 108
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.26973096690079246,
+          "log_loss": 0.7476996740481957,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-1",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 118,
+            "rate": 0.5597014925373134,
+            "selected": 295,
+            "wins": 150
+          },
+          "OVER": {
+            "decided": 59,
+            "losses": 24,
+            "rate": 0.5932203389830508,
+            "selected": 72,
+            "wins": 35
+          },
+          "UNDER": {
+            "decided": 209,
+            "losses": 94,
+            "rate": 0.5502392344497608,
+            "selected": 223,
+            "wins": 115
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2634196517852923,
+          "log_loss": 0.7289350040545484,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-2",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 115,
+            "rate": 0.5708955223880597,
+            "selected": 295,
+            "wins": 153
+          },
+          "OVER": {
+            "decided": 60,
+            "losses": 23,
+            "rate": 0.6166666666666667,
+            "selected": 73,
+            "wins": 37
+          },
+          "UNDER": {
+            "decided": 208,
+            "losses": 92,
+            "rate": 0.5576923076923077,
+            "selected": 222,
+            "wins": 116
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2633950435937798,
+          "log_loss": 0.7287355405007391,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "SANITY",
+        "category": "rec",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 295,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 268,
+            "losses": 117,
+            "rate": 0.5634328358208955,
+            "selected": 295,
+            "wins": 151
+          },
+          "OVER": {
+            "decided": 54,
+            "losses": 21,
+            "rate": 0.6111111111111112,
+            "selected": 71,
+            "wins": 33
+          },
+          "UNDER": {
+            "decided": 214,
+            "losses": 96,
+            "rate": 0.5514018691588785,
+            "selected": 224,
+            "wins": 118
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.27015491977437445,
+          "log_loss": 0.7551326616759896,
+          "probability_scored": 268
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "CONTROL_P3_DIRECT",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 133,
+            "rate": 0.4962121212121212,
+            "selected": 268,
+            "wins": 131
+          },
+          "OVER": {
+            "decided": 61,
+            "losses": 31,
+            "rate": 0.4918032786885246,
+            "selected": 63,
+            "wins": 30
+          },
+          "UNDER": {
+            "decided": 203,
+            "losses": 102,
+            "rate": 0.4975369458128079,
+            "selected": 205,
+            "wins": 101
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.27665760217324853,
+          "log_loss": 0.7531221835205726,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 23,
+        "unknown": 4
+      },
+      {
+        "arm": "M3-0",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 128,
+            "rate": 0.5151515151515151,
+            "selected": 291,
+            "wins": 136
+          },
+          "OVER": {
+            "decided": 78,
+            "losses": 37,
+            "rate": 0.5256410256410257,
+            "selected": 95,
+            "wins": 41
+          },
+          "UNDER": {
+            "decided": 186,
+            "losses": 91,
+            "rate": 0.510752688172043,
+            "selected": 196,
+            "wins": 95
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.27508949582160575,
+          "log_loss": 0.7509743802372626,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-0+BLOCK",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 127,
+            "rate": 0.5189393939393939,
+            "selected": 291,
+            "wins": 137
+          },
+          "OVER": {
+            "decided": 81,
+            "losses": 38,
+            "rate": 0.5308641975308642,
+            "selected": 98,
+            "wins": 43
+          },
+          "UNDER": {
+            "decided": 183,
+            "losses": 89,
+            "rate": 0.5136612021857924,
+            "selected": 193,
+            "wins": 94
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2742587393464152,
+          "log_loss": 0.7497133711748627,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-1",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 132,
+            "rate": 0.5,
+            "selected": 291,
+            "wins": 132
+          },
+          "OVER": {
+            "decided": 88,
+            "losses": 44,
+            "rate": 0.5,
+            "selected": 111,
+            "wins": 44
+          },
+          "UNDER": {
+            "decided": 176,
+            "losses": 88,
+            "rate": 0.5,
+            "selected": 180,
+            "wins": 88
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2996442841744971,
+          "log_loss": 0.8197990924549448,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "M3-2",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 132,
+            "rate": 0.5,
+            "selected": 291,
+            "wins": 132
+          },
+          "OVER": {
+            "decided": 88,
+            "losses": 44,
+            "rate": 0.5,
+            "selected": 111,
+            "wins": 44
+          },
+          "UNDER": {
+            "decided": 176,
+            "losses": 88,
+            "rate": 0.5,
+            "selected": 180,
+            "wins": 88
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.29929580890231583,
+          "log_loss": 0.8184365824673093,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      },
+      {
+        "arm": "SANITY",
+        "category": "rec_yd",
+        "decided_weeks": [
+          2,
+          3
+        ],
+        "eligible": 291,
+        "evaluated_weeks": [
+          2,
+          3
+        ],
+        "fallback_selected": 0,
+        "own_sides": {
+          "COMBINED": {
+            "decided": 264,
+            "losses": 132,
+            "rate": 0.5,
+            "selected": 291,
+            "wins": 132
+          },
+          "OVER": {
+            "decided": 142,
+            "losses": 71,
+            "rate": 0.5,
+            "selected": 163,
+            "wins": 71
+          },
+          "UNDER": {
+            "decided": 122,
+            "losses": 61,
+            "rate": 0.5,
+            "selected": 128,
+            "wins": 61
+          }
+        },
+        "probability_quality": {
+          "Brier_half_multiclass": 0.2863950969884343,
+          "log_loss": 0.7886118452496957,
+          "probability_scored": 264
+        },
+        "product": "LAW",
+        "selected_weeks": [
+          2,
+          3
+        ],
+        "unavailable": 0,
+        "unknown": 27
+      }
+    ],
+    "weekly_selective_views": "All native weekly_results own-side counts, zero-selection N/A and board technical-unavailability/abstention fields checked."
+  },
+  "law_checks": {
+    "CDF_monotonicity": true,
+    "coherence_scope": "No independent claim about a joint receptions/targets or QB completion/attempt law.",
+    "count_negative_mass_zero_and_zero_workload_possible": true,
+    "finite_nonnegative_mass": true,
+    "fixtures": [
+      {
+        "family": "NB",
+        "parameters": [
+          2.5,
+          0.6
+        ]
+      },
+      {
+        "family": "NB",
+        "parameters": [
+          0.05,
+          0.001001
+        ]
+      },
+      {
+        "family": "StudentT",
+        "parameters": [
+          5,
+          12.25,
+          18
+        ]
+      },
+      {
+        "family": "StudentT",
+        "parameters": [
+          2.1,
+          -0.25,
+          0.1
+        ]
+      },
+      {
+        "family": "StudentT",
+        "parameters": [
+          5,
+          0.25,
+          0.1
+        ]
+      }
+    ],
+    "independent_reference": "SciPy NB success=1-probs and signed Student-t bin CDF/SF differences, not the author probability/grader helper.",
+    "integer_StudentT_moments": "Narrow signed fixture agrees with independent direct stable-mass sum within1e-8; no substitution of latent location for integer mean.",
+    "integer_push_and_half_line_no_push": true,
+    "normalization_with_tails_max_abs": 2.220446049250313e-16,
+    "quantile_orientation": "Lower integer quantiles checked at .01/.5/.99; correct CDF bracket.",
+    "signed_yard_negative_mass_possible": true,
+    "typing": "NB count NLL training; StudentT continuous-density NLL training versus integer-bin event evaluation explicitly different."
+  },
+  "limitations": [
+    "No A/B private rows, raw original publication archives, external fit parity or original-site served consumption inspected.",
+    "Only rec/W1 NB independently fresh-fit; no independent second StudentT NFL fit.",
+    "No source vintage authenticated by a current download, date_pulled, update schedule or seven-day assumption.",
+    "Two actual-offer weeks, exposed development, source/role strata, unknown quote timing and repeated searches prevent general or simultaneous high-accuracy claims.",
+    "No new personnel/alignment/routes/market information obtained; reused context in a new conditional-law combination.",
+    "All other ten categories and previously frozen A/B/website candidates remain their own evidence; this C M3 review does not establish a global twelve-category champion.",
+    "No independently qualified current pregame packet, primary website switch, Top Picks upgrade or90percent guarantee follows from this receipt."
+  ],
+  "query_and_source_membership": {
+    "absent_all_position_stat_rows": 22,
+    "actual_offer_weeks": [
+      2,
+      3
+    ],
+    "native_identity_role_matches_cached_query": true,
+    "native_unique_opportunities": 586,
+    "primary_rec_offers": 295,
+    "primary_rec_yard_offers": 291,
+    "query_only_additions": 23,
+    "quote_clock": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC; main/alternate unverified; no original pregame issuance claim",
+    "repeated_book_views": 1607,
+    "role_boundary_sensitivity": "The two target offers remain in eligible/unknown populations. No zero imputation, inactive designation, source-role rewrite or selective removal; raw-to-feature and saved-side evidence unchanged.",
+    "role_source_boundary": {
+      "appearance": "UNKNOWN",
+      "game": "2026_03_NE_JAX",
+      "interpretation": "Missing role-compatible receiving statistical row; not proof of inactivity or absence of every ordinary source row.",
+      "labels": {
+        "rec": null,
+        "rec_yd": null
+      },
+      "name": "Travis Hunter",
+      "ordinary_role": "CB",
+      "player": "00-0040718",
+      "retained_offer_role": "WR"
+    },
+    "source_precedence": "Outcome-independent Pinnacle then DraftKings then FanDuel then stable offer ID; independently reproduced.",
+    "unique_role_scope": "WR/TE native query; RB/WR/TE training",
+    "universe_limit": "Statistical-row-conditioned reconstruction plus retained offer identities; not authenticated complete historical pregame teammate/roster evidence."
+  },
+  "recorded_UTC": "2026-11-15T05:30:08.482825+00:00",
+  "representative_fresh_fit": {
+    "author_fit_design_median_start_helpers_called": false,
+    "batch_single_tolerance": 1e-06,
+    "feature_order_rejection": "PASS",
+    "fit_attempts": 1,
+    "fit_model_not_retained": true,
+    "fitted_check_CPU_seconds": 1.553288874,
+    "float64_transform_max_abs_error": 1.1102230246251565e-16,
+    "fresh_model_SHA256": "60511215854452f45e8aa3708dca35c4e22584223f8750254d7fac04bd129c0f",
+    "full_process_system_seconds": 1.143,
+    "full_process_user_seconds": 3.648,
+    "full_process_wall_seconds": 4.803,
+    "independent_medians_and_MOM_start": true,
+    "model_SHA256": "60511215854452f45e8aa3708dca35c4e22584223f8750254d7fac04bd129c0f",
+    "native_JSON_roundtrip": "EXACT margins",
+    "native_calls": "NegativeBinomial(stabilization=L2,exp/sigmoid,nll,initialize=False); XGBoostLSS.train32 rounds; independent DMatrix with imputed values+missing indicators and fixed declared params.",
+    "native_model_bytes_exact": true,
+    "one_fit_worker": true,
+    "parent_RUNFITSFINISHED_signal_received_before_fit": true,
+    "peak_RSS_bytes": 533577728,
+    "preselected_before_comparative_gains": "rec/W01/M3-1",
+    "query_rows": 231,
+    "released_Torch32_parameter_difference": 1.628478707438319e-07,
+    "shuffled_row_identity": "EXACT",
+    "training_rows": 19605,
+    "tree_and_raw_margin_identity": "EXACT"
+  },
+  "resources": {
+    "charge_basis": "Conservative bounded total includes unmetered failed reviewer reference pass, early assertion, imports, static/hash checks and law fixtures; not reset to passing-run time.",
+    "expanded_repaired_score_check_CPU_seconds": 5.688675976,
+    "first_repaired_score_check_CPU_seconds": 3.672020041,
+    "first_score_review_CPU_seconds": 1.960929556,
+    "fit_concurrency": 1,
+    "fresh_fit_checked_CPU_seconds": 1.553288874,
+    "fresh_fit_only_CPU_cap_seconds": 20,
+    "fresh_fit_process_CPU_seconds": 4.791,
+    "retained_model_bytes": 0,
+    "review_CPU_charge_seconds": 100,
+    "reviewer_peak_observed_RSS_bytes": 533577728,
+    "source_requests": 0,
+    "successful_raw_reconstruction_CPU_seconds": 34.125785857
+  },
+  "review_execution_notes": [
+    "Initial reviewer assertion incorrectly required complete absence of every ordinary stat row for query-only cases; corrected after identifying retained CB/WR role boundary. No owner source/model/output changed.",
+    "One independent probability reference used upper-tail CDF subtraction and produced \u22121.11e-16 roundoff masses. Reference was corrected to independent SF subtraction; author stable-tail implementation was unaffected.",
+    "One shell launch could not find /usr/bin/time and failed before Python/fitting. Bash timing used for the sole actual fresh fit.",
+    "Raw reconstruction completed before comparative score inspection. Representative rec/W1/M3-1 selected by parent before gains, and fit waited for explicit RUNFITSFINISHED."
+  ],
+  "reviewer": "C-local independent child /root/closure_independent_review",
+  "status": "PASS_CHECKED_SCOPE_AFTER_APPEND_ONLY_REPORTING_REPAIR;NO_REPLACEMENT_OR_PRIMARY_ADMISSION_CERTIFIED",
+  "verdicts": {
+    "comparison_scientific_scope": "PASS bounded same-input family comparison and complete 17-column block comparison. Block jointly changes support/player/opponent information; no isolated substantive-value, player-only or defense-only attribution.",
+    "data_semantics_and_chronology": "PASS_WITHIN_CURRENT_VINTAGE_SEVEN_DAY_RECONSTRUCTION; original source and quote availability UNKNOWN, pregame roster not authenticated.",
+    "fit_inference_reproduction": "PASS one preselected rec/W1 NB fresh fit with exact native JSON bytes. StudentT fresh NFL fit NOT_REPRODUCED; its released parameter support and independent integer-law fixtures checked.",
+    "grading_and_aggregation": "PASS all 11720 stored offer-product rows,400 broad views,100 numerical views,720 selection schedules,206 whole-week paired views and repaired same-selected controls; not external venue-settlement verification.",
+    "implementation": "PASS for checked registered 32/49-feature, chronological, typed-law and saved-row paths; final numeric/reporting repairs distinguished from scientific changes.",
+    "predictive_gain_and_release": "Primary new law replacement not established; context NB +3/268 is a within-method development result, behind retained P3 on the common decided cases. No exact-product five actual-line weeks or new primary release qualified.",
+    "requested_coverage": "PARTIAL actual offers W2/W3 only; W1/W4/W5/W6/W7/W8/W9 absent. Nine numerical/fit origins do not add actual-offer weeks."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "M3-CONTEXT-ARM-AMENDMENT-v1",
+  "recorded_UTC": "2026-11-15T04:58:41.373820+00:00",
+  "execution_authorized": true,
+  "comparison_blind": true,
+  "scores_inspected": false,
+  "parent_registration": "REGISTRATION.json",
+  "features": [
+    "ctx_player_games8",
+    "ctx_targets8",
+    "ctx_team_attempts8",
+    "ctx_age_days",
+    "ctx_missing",
+    "ctx_mean_air_per_known_target",
+    "ctx_depth_share_behind",
+    "ctx_depth_share_0_9",
+    "ctx_depth_share_10_19",
+    "ctx_depth_share_20plus",
+    "ctx_depth_share_unknown",
+    "opp_context_games8",
+    "opp_target_support8",
+    "opp_age_days",
+    "opp_missing",
+    "opp_offense_adjusted_completion_residual",
+    "opp_offense_adjusted_WRTE_target_share_residual"
+  ],
+  "matrix": "inputs/COMPACT_CONTEXT_MATRIX.json.gz",
+  "matrix_SHA256": "e0c8403688765c50042c2128b3b38b1ca5330c015f02d3e33e34fa4a14a5b2af",
+  "source_qualification": "inputs/CONTEXT_BINDINGS.json",
+  "reuse": "Existing C01/C02 information; newly tested with NB/T distributionboosting, notnewfootballsource, alignment or routes.",
+  "arms": [
+    "M3-1 SAME_E0_OP32",
+    "M3-2 SAME_E0_OP32_PLUS17",
+    "M3-0 SAME_E0_OP32",
+    "M3-0+BLOCK SAME_E0_OP32_PLUS17"
+  ],
+  "effect": "M3-2 vsM3-1 informationeffect; M3-0+BLOCK vsM3-0 unchangedlearnerinformationeffect; M3-2 vsM3-0+BLOCK sameinformationdistributioneffect",
+  "capacity_tuning": "Identical fixedsettings fromparent; no tuning; no outcomesscreening",
+  "fits_budget": "Within unchanged90attempt/900CPU/globalstoragecap; noreset",
+  "missing": "2022/23 PBP substantivevaluesnull; supportcounts explicitzero undermissingpanelcontract; no alignment/allrouteinvented"
+}
