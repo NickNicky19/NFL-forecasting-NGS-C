@@ -639,10 +639,33 @@
   {
     "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
     "owner": "C",
-    "state": "ACTUAL_A_B_RECEIPTS_AND_C_DELIVERY_ADMITTED;OWNER_EXECUTION_GAPS_EXPLICIT",
+    "state": "A_M1_COMPLETE_AND_NEW_M2_EARLY_JOIN_RECEIVED;C_FROZEN_M3_DELIVERY_COMPLETE;M3_JOIN_NOT_ESTABLISHED_IN_RECEIVED_SCOPE",
     "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
-    "next_action": "AexecutesNFLM1fixturebeforeonefitunder1800cumulative; AseparatebudgetnewM2early84/M3compatiblejoins; Bverifiesallowedoutputs; Cintakesactualreceipts. No duplicateoldB0/B2join.",
+    "next_action": "Do not repeat M1 or either completed M2 early join. A owns remaining compatible frozen M3 offer joins; B checks permitted selectors; C admits actual receipts.",
     "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
-    "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance"
+    "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance",
+    "original_C56_task": {
+      "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
+      "owner": "C",
+      "state": "ACTUAL_A_B_RECEIPTS_AND_C_DELIVERY_ADMITTED;OWNER_EXECUTION_GAPS_EXPLICIT",
+      "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+      "next_action": "AexecutesNFLM1fixturebeforeonefitunder1800cumulative; AseparatebudgetnewM2early84/M3compatiblejoins; Bverifiesallowedoutputs; Cintakesactualreceipts. No duplicateoldB0/B2join.",
+      "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
+      "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance"
+    },
+    "superseding_receipt": {
+      "path": "reports/information-skill-01/intake/ADMISSION.json",
+      "bytes": 26598,
+      "SHA256": "3c3a71de772773724c1a877ebc92ddf30f44333fa34459926efeaa00ac621e6b"
+    }
+  },
+  {
+    "task_id": "C_INFORMATION_SKILL_01",
+    "owner": "C",
+    "state": "EXECUTED_FROZEN;EXACT_VALUE_DIRECTION_SELECTION_NO_GAIN;NUMERICAL_INCONCLUSIVE",
+    "artifact": "reports/information-skill-01/REGISTRATION.json",
+    "next_action": "No automatic retune. Retain closed results and follow finite source/offer/capture queue; later roster only, no primary activation.",
+    "budget": "Separate finite600CPU/400scientificbefore200reserve/40attempt/1worker; noM1oroldM3budgetrepurposing",
+    "frozen_closure_supersession": "A_bdef actualM1V2completed andnewM2early84join executed; publicreceiptarithmetic only. NewM3joinnotestablishedinretrievedscope."
   }
 ]

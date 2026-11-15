@@ -1,0 +1,120 @@
+{
+  "id": "C-INFORMATION-SKILL-ROLE-DEPTH-v1",
+  "code_SHA256": "57143612e84d5439cef52e6645bee940da4af281b1d8ad408b98447ef2ab7860",
+  "context_code_SHA256": "e9c2b76df51ecd18e9f270a93838b5c36bd765fdb2f47306304b3db4dd914725",
+  "defense_code_SHA256": "1822f048fcdabaefc7f4edcb7e69f4846a119d1212b9a5f575f9190303c7d1c9",
+  "source_files": [
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "bytes": 479880,
+      "games": 272,
+      "plays": 33947
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "bytes": 604500,
+      "games": 272,
+      "plays": 33455
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "bytes": 271301,
+      "games": 120,
+      "plays": 15009
+    }
+  ],
+  "ordinary_source_rebuild": {
+    "original_rows": 79904,
+    "appended_rows": 2015,
+    "original_schedule_rows": 1194,
+    "appended_schedule_rows": 29,
+    "original_prefix_preserved": true,
+    "appended_season_weeks": [
+      [
+        2026,
+        8
+      ],
+      [
+        2026,
+        9
+      ]
+    ],
+    "appended_source_rows_SHA256": "7821cba0befa6b6a23a7998bc77b605804616cc26a9790a72c04fd77b6544827"
+  },
+  "ordinary_source_bindings": [
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "bytes": 1388058,
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+      "Git_blob": "a42d34a1411a902efd0e628c5156dc99c507d197",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/artifacts/basic-football-facts-v2.1.zip"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+      "Git_blob": "ffc872d25364c583877315fc8209df6d989da7ac",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/current_facts_2026.csv.gz"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+      "Git_blob": "155aa8bf1724488bd71072d5adae36ae64fef03a",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/schedule.csv"
+    },
+    {
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "immutable_commit": "1bd6d071e2083ae060e601da0ac8c281296babc5",
+      "path": "sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json",
+      "bytes": 6969,
+      "SHA256": "6112809702e74c1e7bf3dcdbc5087492a442ccc88decb1129735dd5a2113c6fb",
+      "Git_blob": "4e3b0e481ec113ff7a167fc54bb9ce45db47e00c",
+      "URL": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/1bd6d071e2083ae060e601da0ac8c281296babc5/sources/category-decision-release-01/MODEL_INPUT_MANIFEST.json"
+    }
+  ],
+  "source_clock_contract": {
+    "original_publication_time": null,
+    "authenticated_original_observation_time": null,
+    "source_revision_vintage": "Frozen retained current-vintage files with exact SHA256; original per-play revision clocks unavailable",
+    "known_observation_reference": "reports/player-context-matchup-01/SOURCE_METADATA_INDEX.json and retained SOURCE_METADATA.zip; parent source qualification binds actual observed receipt clocks without backdating",
+    "feature_availability": "Reconstructed kickoff+7d only; neither a publication timestamp nor proof of earlier file availability"
+  },
+  "feature_names": [
+    "prior_player_targets8",
+    "prior_opponent_role_targets8",
+    "prior_opponent_games8",
+    "prior_opponent_age_days",
+    "substantive_missing",
+    "forecast_depth_mix_x_role_depth_offense_adjusted_catch_residual"
+  ],
+  "lookback": 8,
+  "prior_targets": 20.0,
+  "global_residual_targets": 40.0,
+  "cutoff_policy": "Explicit finite availability strictly less than cutoff, then game-time ordering; current-vintage kickoff+7d source assumption retained; no authenticated historical publication claim",
+  "target_population": "Existing immutable M3 role-appropriate training/conditional reconstructed query universe; qualified offer queries remain separate",
+  "qualified_team_games": 1327,
+  "held_by_original_totals": 1,
+  "held_by_nonbinary_or_missing_completion_flags": [],
+  "admitted_team_games": 1327,
+  "prior_adjusted_games": 1327,
+  "identity_order_SHA256": "0152756b1bbd00b1cf7593ff976870609272ddfbb7c3103befb7e508be4082fe",
+  "matrix_SHA256": "5b624c79a806e96f87b794e8d5bde5a1a2dacc8c1a18adfd4c751214f8de3ed8",
+  "target_outcomes_used_as_query_predictors": false,
+  "source_terms": "Ordinary factual PBP attribution/retention from existing C01/C03 source bindings; no new FTN or protected offer export",
+  "output_semantics": "Five support indicators plus one role-depth matchup scalar; component rates are diagnostics, not a new count law or per-pick confidence",
+  "new_fits": 0,
+  "new_source_requests": 0,
+  "new_offer_grades": 0,
+  "CPU_seconds": 55.925539564000005,
+  "RSS_bytes": 722980864
+}

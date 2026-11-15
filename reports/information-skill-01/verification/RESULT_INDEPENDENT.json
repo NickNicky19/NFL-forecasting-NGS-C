@@ -1,0 +1,102 @@
+{
+  "id": "C-INFORMATION-SKILL-RESULT-INDEPENDENT-v1",
+  "status": "PASS",
+  "checked_UTC": "2026-11-15T14:56:22.149118+00:00",
+  "fit_reproduction": {
+    "new_independent_fits": 1,
+    "origin": "2026-W02",
+    "arm": "C1_VALUE",
+    "training_rows": 19623,
+    "exact_tree_structures_and_leaf_label_counts": 32,
+    "model_SHA256": "53ee4d91a49cf63b4c51165eea92627af90a4ef83470c1d9fd61dbfdbc78bec5",
+    "probes": [
+      {
+        "game_id": "2026_02_IND_KC",
+        "player_id": "00-0030279",
+        "role": "WR",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": false
+      },
+      {
+        "game_id": "2026_02_IND_KC",
+        "player_id": "00-0030506",
+        "role": "TE",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": false
+      },
+      {
+        "game_id": "2026_02_NYG_LA",
+        "player_id": "00-0031381",
+        "role": "WR",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": false
+      },
+      {
+        "game_id": "2026_02_MIA_SF",
+        "player_id": "00-0031408",
+        "role": "WR",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": false
+      },
+      {
+        "game_id": "2026_02_WAS_DAL",
+        "player_id": "00-0031588",
+        "role": "WR",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": true
+      },
+      {
+        "game_id": "2026_02_CAR_ATL",
+        "player_id": "00-0031610",
+        "role": "TE",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": true
+      },
+      {
+        "game_id": "2026_02_CAR_ATL",
+        "player_id": "00-0032392",
+        "role": "TE",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": true
+      },
+      {
+        "game_id": "2026_02_NO_BAL",
+        "player_id": "00-0032398",
+        "role": "WR",
+        "mean_reproduced": true,
+        "CDF_reproduced": true,
+        "zero_own_target_support": true
+      }
+    ],
+    "tolerance": 1e-10,
+    "native_constructor": "Direct sklearn ExtraTreesRegressor; separate transformations and law arithmetic"
+  },
+  "result_reproduction": {
+    "Decimal_row_grades_checked": 6490,
+    "own_side_full_and_weekly_views_checked": 220,
+    "frozen_membership_views_checked": 480,
+    "memberships_by_arm": {
+      "C1_SUPPORT": 60,
+      "C1_VALUE": 60,
+      "CONTROL_EARLIER_PREVALENCE_V8": 60,
+      "CONTROL_P3_DIRECT": 60,
+      "CONTROL_RETAINED_P2_LAW": 60,
+      "LEAF": 60,
+      "R0_PARTIAL": 60,
+      "R1_PARTIAL": 60
+    },
+    "independent_rank_ties": "Own chosen-side nonpush confidence descending, game/player/offer lexical; existing quotas/thresholds unchanged"
+  },
+  "CPU_seconds": 3.363818709,
+  "new_source_calls": 0,
+  "new_original_selections": 0,
+  "new_scored_NFL_weeks": 0,
+  "limits": "C permitted local rows/model only; no A/B private-row, authentic original source/quote-time or production admission verification. Regrading reproduces frozen derived decisions, not new football observations."
+}

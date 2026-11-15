@@ -1,0 +1,72 @@
+{
+  "id": "C-INFORMATION-SKILL-INDEPENDENT-FEATURE-REVIEW-v1",
+  "checked_UTC": "2026-11-15T14:51:36.825976+00:00",
+  "status": "PASS",
+  "aligned_feature_records": 23633,
+  "detailed_independent_feature_formulas": 70,
+  "earlier_offense_adjustments": 1327,
+  "raw_PBP_residual_proof": [
+    {
+      "game_id": "2024_01_BAL_KC",
+      "offense": "BAL",
+      "valid_attempts": 41,
+      "targets": 40,
+      "catches": 26,
+      "source_SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "residual_reproduced": true
+    },
+    {
+      "game_id": "2024_09_CHI_ARI",
+      "offense": "CHI",
+      "valid_attempts": 41,
+      "targets": 36,
+      "catches": 22,
+      "source_SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "residual_reproduced": true
+    },
+    {
+      "game_id": "2024_18_WAS_DAL",
+      "offense": "DAL",
+      "valid_attempts": 34,
+      "targets": 33,
+      "catches": 20,
+      "source_SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "residual_reproduced": true
+    },
+    {
+      "game_id": "2025_09_IND_PIT",
+      "offense": "IND",
+      "valid_attempts": 50,
+      "targets": 48,
+      "catches": 31,
+      "source_SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "residual_reproduced": true
+    },
+    {
+      "game_id": "2025_18_CLE_CIN",
+      "offense": "CLE",
+      "valid_attempts": 22,
+      "targets": 21,
+      "catches": 11,
+      "source_SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "residual_reproduced": true
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "offense": "WAS",
+      "valid_attempts": 29,
+      "targets": 27,
+      "catches": 16,
+      "source_SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "residual_reproduced": true
+    }
+  ],
+  "exact_residuals_with_numerators_denominators_checked": 0,
+  "independently_rebuilt_full_design_cases": 6,
+  "own_and_opponent_history_admission": "CHECKED_ALL_SAVED_RECORDS",
+  "scope": "Independent formulas/count arithmetic and consumed design replay from retained NFL evidence; integrated full-context mutation reviewed and its equality hashes matched. No private peer rows, raw-PBP mutation rebuild, fit reproduction or original source-vintage authentication.",
+  "new_fits": 0,
+  "new_grades": 0,
+  "new_source_calls": 0,
+  "CPU_seconds": 3.6136705350000002
+}

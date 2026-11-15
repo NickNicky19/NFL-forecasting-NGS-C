@@ -1,0 +1,34 @@
+{
+  "id": "C-INFORMATION-SKILL-ROLE-DEPTH-v1",
+  "status": "IMPLEMENTED_NOT_EXECUTED_PENDING_PARENT_REGISTRATION",
+  "owner": "C",
+  "target": "rec",
+  "roles": ["WR", "TE"],
+  "relationship": "Forecast player target-depth mixture times offense-adjusted defensive conversion residual specific to receiver roster role and target depth.",
+  "not_claimed": ["receiver alignment", "routes", "personnel availability", "causal defensive talent", "authenticated original historical publication"],
+  "closest_completed": {
+    "C01_E3": "All-role adjusted defense residual by depth weighted by player target-depth mixture. New role-specific response is absent; old negative HGB non-use remains closed.",
+    "C03_R3": "Raw shrunk role-by-depth catch rates. New prior-offense adjustment is absent; completed loss remains preserved.",
+    "M3_context17": "Player depth shares with collapsed adjusted opponent conversion/WRTE-share residuals. New role-depth residual and explicit mixture weighting are absent."
+  },
+  "source": "Existing immutable C01 PBP 2024/2025/partial 2026 and ordinary facts, strict all-position attempt/completion/target reconciliation. No new acquisition.",
+  "clocks": "Finite availability strictly before cutoff, kickoff before cutoff, then most recent eight qualified historical-team records. Existing kickoff+7d current-vintage reconstruction retained.",
+  "depth_bins": ["behind_LOS", "0_9", "10_19", "20plus", "UNKNOWN"],
+  "formulas": {
+    "offense_expected_rate_before_each_prior_game": "(prior8_offense_role_depth_catches +20*eligible_league_role_depth_catch_rate)/(prior8_offense_role_depth_targets+20)",
+    "prior_game_residual": "observed_role_depth_catches - observed_role_depth_targets * expected_rate_from_earlier_information",
+    "global_defense_depth_response": "sum_role_residuals_over_defense8/(sum_role_targets_over_defense8+40)",
+    "role_depth_response": "(role_depth_residual_sum+20*global_defense_depth_response)/(role_depth_target_sum+20)",
+    "predicted_player_depth_mix": "(qualified_prior8_same_team_player_depth_targets+20*eligible_league_role_depth_mix)/(qualified_prior8_same_team_player_targets+20)",
+    "substantive_scalar": "dot(predicted_player_depth_mix,role_depth_response)",
+    "baseline_component": "dot(predicted_depth_mix,(own_depth_catches+20*league_role_depth_rate)/(own_depth_targets+20))",
+    "matchup_component": "dot(predicted_depth_mix,clip(baseline_depth_rates+role_depth_response,0,1)); clipping counts and unclipped rates retained"
+  },
+  "support_feature_order": ["prior_player_targets8", "prior_opponent_role_targets8", "prior_opponent_games8", "prior_opponent_age_days", "substantive_missing"],
+  "substantive_feature": "forecast_depth_mix_x_role_depth_offense_adjusted_catch_residual",
+  "prior_fallback": "Empty role-depth cells borrow eligible all-role depth rates/mix, then eligible overall rate. Empty-league neutral startup is explicitly unavailable substantive information, not observed data.",
+  "missingness": "Null/nonbinary complete_pass flags hold the team-game. Unknown air depth is an explicit fifth bin. Genuine zero targets remain zero support; absent defense/league history yields null substantive value. Source tables may contain later labels, but target-game outcomes never enter that game's feature prefix.",
+  "API": "prepare_information_block(root,data,out) returns matrix[n,6], feature_names, aligned records, sourcebindings, engine and saved_evidence_bytes. engine.record(row)/vector(row) support independent checks. Append-only outputs; no models or scoring.",
+  "feature_build_limits": {"CPU_seconds": 65, "RSS_bytes": 1288490188, "public_output_bytes": 8388608, "new_source_calls": 0},
+  "execution_gate": "Parent must finish experiment registration before feature execution. Parent owns fitting, evaluation, retained controls and overall budget accounting."
+}
