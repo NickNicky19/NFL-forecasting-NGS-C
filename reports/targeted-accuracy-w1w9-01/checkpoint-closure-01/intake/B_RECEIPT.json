@@ -1,0 +1,1580 @@
+{
+  "id": "C-CHECKPOINT-CLOSURE-01-B-INTAKE-v1",
+  "observed_UTC": "2026-11-15T12:02:42.076374+00:00",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "branch": "research/independent-audit-20261029",
+  "starting_ref": "11db6280",
+  "request_cap": 5,
+  "response_byte_cap": 5242880,
+  "requests": [
+    {
+      "api_path": "repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+      "bytes": 464,
+      "SHA256": "b1e7effa5487fec2c772c90d44ed8cf5dc4d7d97c9bbf293d40ab1173cbe1028"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/b4da8524a6163e8826d7ad1c70692efa6c211a52/reports/abc-championship/EXPORT_INDEX.json",
+      "bytes": 2206811,
+      "SHA256": "9b65e1ca7093dcec296f1cdf1673ef3fd6a4121b78ff1f699374ac533f732e53"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/README.md",
+      "bytes": 21667,
+      "SHA256": "5818119fe0d4d8697021cc683e3ebde94a465b6e03c85298ba9963953c97ed33"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+      "bytes": 3708,
+      "SHA256": "0e4ac79bd1af5f66c4ffc031adf1dbb72c88335b86c426e51eb1d29646438d60"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+      "bytes": 79675,
+      "SHA256": "f8f23b86aeae93fb9c792cef91099ad753b4a038a7632b1cfcb1efa5b1fdc311"
+    }
+  ],
+  "scope": "Public permitted metadata/report intake only; no raw/private/model-fit/source-clock parity or peer acknowledgement assumed.",
+  "actual_head": "b4da8524a6163e8826d7ad1c70692efa6c211a52",
+  "index_keys": [
+    "actual_new_scope",
+    "adopted_document",
+    "adoption_qualification",
+    "at_utc",
+    "audit_remediation",
+    "budgets",
+    "canonical_discovery",
+    "canonical_owner",
+    "canonical_schema_mapping",
+    "canonical_state",
+    "category_decision_release_01",
+    "current_metadata_qualification",
+    "current_owner_execution_witness",
+    "current_qualification",
+    "delivery",
+    "existing_480_view_delivery",
+    "exports",
+    "final_mile_delivery_01",
+    "follow_through_release_defensive_source_01",
+    "information_first_20261112_01",
+    "interception_evidence_closure_01",
+    "latest_B_law_product_wave",
+    "latest_B_post_wave",
+    "latest_B_predictive_improvement",
+    "latest_C_publication",
+    "latest_execution_closure",
+    "local_resource_clarification",
+    "new_probability_schema_mapping",
+    "new_weekly_scope",
+    "next_action",
+    "next_generation_information_research_01",
+    "owner_local_contract",
+    "periods",
+    "pinned_C",
+    "player_context_acceptance",
+    "player_context_completion_decision",
+    "player_context_matchup",
+    "previous_index",
+    "prior_previous_index",
+    "producer_ref_qualification",
+    "production_changes",
+    "profile_increment_closure_next_02",
+    "profile_increment_to_release_v2",
+    "profile_timing_closure_confirm_01",
+    "readback_attempt_note",
+    "repository",
+    "restricted_evidence",
+    "schema_version",
+    "session",
+    "source_identity",
+    "targeted_accuracy_w1w9_01",
+    "w1w9_comparison_closure_20261114",
+    "wave_closure_next_comparison_20261114"
+  ],
+  "targeted_index_matches": {
+    "targeted_accuracy_w1w9_01": {
+      "C_actual_receipt": "NOT_OBSERVED_FOR_THIS_NEW_PACKAGE",
+      "active_protocol": "reports/targeted-accuracy-w1w9-01/B/wave-v1/FROZEN_PROTOCOL_V2.json",
+      "actual_offer_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "final_manifest": "reports/targeted-accuracy-w1w9-01/B/retention/final-v1/MANIFEST.json",
+      "final_readback": "reports/targeted-accuracy-w1w9-01/B/retention/final-v1/READBACK.json",
+      "final_readback_receipt": {
+        "C_receipt": false,
+        "HTTP_GETs": 2,
+        "UTC": "2026-11-15T05:50:23.662993+00:00",
+        "capsule_sha256": "455e052b8136aa0eafbe5ab7d71f43550189d78b6013b421dc62390c2c8598ac",
+        "category_attempts_so_far": 2,
+        "commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "committed_tree_members_verified": 172,
+        "manifest_sha256": "eaaedce833a99e38a6c39754a9987ed8ebf8ddb275d4731b066001934038b337",
+        "member_individual_raw_URL_GETs": 0,
+        "members": 172,
+        "original_site_use": false,
+        "phase": "final-v1",
+        "state": "EXACT_GITHUB_IMMUTABLE_CAPSULE_AND_ALL_MEMBERS_READBACK"
+      },
+      "native_offers_each_category": 142,
+      "new_M2_early_grade": "A_OWNER_LOCAL_W1_4_JOIN_PENDING;SAVED_OUTPUTS_SUPPLIED_NO_REFIT_REQUIRED",
+      "new_exports": 180,
+      "new_primary_release": false,
+      "numerical_current_queries": 315,
+      "numerical_current_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "old_exports_preserved": 1849,
+      "original20policy_bridge": "reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+      "original_website_consumption": "NOT_CLAIMED",
+      "procedure": "B-TARGETED-QB-CONTEXT-BETA-BINOMIAL-v1",
+      "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+      "readback_metadata_location": "Read receipt paths from the same commit as EXPORT_INDEX; they are created after the evidence producer commit. The exact receipt is also embedded here.",
+      "refreshed_A": "3f10b641134658d3036933928cf2fa08dac4083c",
+      "refreshed_C": "2b8bbc6da7bfb90106d7956cf86ccc160f2a343e",
+      "report": "reports/targeted-accuracy-w1w9-01/B/README.md",
+      "robustness": {
+        "numeric_queries": 303,
+        "season": 2025,
+        "weeks": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "scope": "BBmean/exposurefixed vsP2/C1/C2BIN:0nativeLAWdirectionor19policy membershipchanges. Smalllinepropergains, broadcountNLLworse; DsameinputcontrolcountNLLbetterthanP2butdirectionlosesstrongB0. Useful75/80/90NOT_ESTABLISHED;1/1P90oneweekdisclosed."
+    },
+    "exports": [
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-c28bff36bfe58ffc",
+        "bytes": 3708,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "0e4ac79bd1af5f66c4ffc031adf1dbb72c88335b86c426e51eb1d29646438d60"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-a86b0f8c865f0781",
+        "bytes": 21667,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/README.md",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/README.md",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "5818119fe0d4d8697021cc683e3ebde94a465b6e03c85298ba9963953c97ed33"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-d2e66bb057c14b24",
+        "bytes": 7613,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/evaluation/FROZEN_EVALUATION_PROTOCOL_V1.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/evaluation/FROZEN_EVALUATION_PROTOCOL_V1.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "e6a4479ebcdccec4f1785602f9de2485a6bb4218466434d143a3050d7e216a57"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-17d23ea5ebee6c9f",
+        "bytes": 128785,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/evaluation/MAIN_TABLES_V1.json.gz",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/evaluation/MAIN_TABLES_V1.json.gz",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "b399cf04697fb7429bc61f828dc7483f67e675fb41dcb735da50140bb48fb59b"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-f05e746e028ca57b",
+        "bytes": 6955,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/evaluation/PROBABILITY_TABLES_V1.json.gz",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/evaluation/PROBABILITY_TABLES_V1.json.gz",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "b7024fa119cd7a3f071fc5087a27717715563564e1268c8600d065c4dcd2373e"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-2e49b85010899d82",
+        "bytes": 11367,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/evaluation/README.md",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/evaluation/README.md",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "837257fad04f2d4799899416fe23de11782c3f8a4502bc2ad0da3072ad6cfcd7"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-0f8f416340f92144",
+        "bytes": 242567,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/evaluation/SELECTIVE_TABLES_V1.json.gz",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/evaluation/SELECTIVE_TABLES_V1.json.gz",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "c4e17afca1b71a2303d85364f993f23a7195454fba58bcafa19df5c4718cb39b"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-a35482d8e72ebac4",
+        "bytes": 25763,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/independent/FITTED_STATE_VERIFICATION_V1.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/FITTED_STATE_VERIFICATION_V1.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "1ef0f2b7ca9d2ace505ff706db7aa3bed4e0d653fcd3ffc96476342f77a45ca0"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-74510d908178776e",
+        "bytes": 7291,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/independent/NATIVE_GRADING_AND_SELECTION_VERIFICATION_V1.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/NATIVE_GRADING_AND_SELECTION_VERIFICATION_V1.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "b5f8e4e218afe4d12da69b0d667698275658babadae71f30f31b4bc54c59c51d"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-6bacce81b98285ed",
+        "bytes": 79675,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "f8f23b86aeae93fb9c792cef91099ad753b4a038a7632b1cfcb1efa5b1fdc311"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-4d182500e059a17f",
+        "bytes": 3604,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/prior-source/README.md",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/prior-source/README.md",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "3c2d98c32b6d113043d912180a8dde67560f29f713ea71cf73c1b7d787f62b2b"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-6930a007b7b38a68",
+        "bytes": 968,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/results-index-v1/README.md",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/results-index-v1/README.md",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "4f0376d860509257e26d832881b9912bf17d0230079a831b5ec96f6c7ecbffc3"
+      },
+      {
+        "admission": "LOCAL_B_NOT_C_ADMITTED_OR_ORIGINAL_SITE_ACTIVATION",
+        "artifact_id": "B-EXPORT-c485d28a5f9e6225",
+        "bytes": 14382,
+        "individual_raw_URL_GET": false,
+        "kind": "TARGETED_M2_EXECUTED_RESULTS",
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/FROZEN_PROTOCOL_V2.json",
+        "periods": "2026W1\u20139numeric315;actualoffersW5\u20139CMP/ATT142each;2025W11\u201318numeric303;newearlyM2W1\u20134gradeabsent",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "readback_method": "EXACT_IMMUTABLE_CAPSULE_MEMBER_BYTES",
+        "readback_verified": true,
+        "retention": "IMMUTABLE_GITHUB_CAPSULE_MEMBER_BYTES_AND_COMMITTED_TREE_VERIFIED",
+        "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/wave-v1/FROZEN_PROTOCOL_V2.json",
+        "rights": "Public-safeQBstatisticalderivatives and trustedJSON models; FTN Data via nflverse CC-BY-SA4.0 chartderivatives; ordinarynflverseCC-BY4.0. No protectedraw offer/roster/private locator/secret.",
+        "sha256": "0ee7a43c5cd72c82f19df154f80a9df1dc8583eb285f3b9727bf879967efd25e"
+      }
+    ],
+    "targeted_export_count_seen": 167
+  },
+  "actual_requests": 5,
+  "actual_response_bytes": 2312325,
+  "index_retention": "Only targeted node and matching existing descriptors; whole index not retained.",
+  "obtained": [
+    {
+      "source_path": "reports/targeted-accuracy-w1w9-01/B/README.md",
+      "immutable_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+      "source_bytes": 21667,
+      "source_SHA256": "5818119fe0d4d8697021cc683e3ebde94a465b6e03c85298ba9963953c97ed33",
+      "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/README.md",
+      "retained_projection_path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_README.md.gz",
+      "retained_wire_bytes": 8464,
+      "retained_wire_SHA256": "bbf06aa5cdd17316106cdd3cd5bd264807f90d146075849e158414c6501f0402",
+      "admission_scope": "C actual exact public bytes retrieved; no private rows, source-clock or fitted-state reproduction."
+    },
+    {
+      "source_path": "reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+      "immutable_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+      "source_bytes": 3708,
+      "source_SHA256": "0e4ac79bd1af5f66c4ffc031adf1dbb72c88335b86c426e51eb1d29646438d60",
+      "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+      "retained_projection_path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_OWNER_LOCAL_M2_HANDOFF_V1.json.gz",
+      "retained_wire_bytes": 1634,
+      "retained_wire_SHA256": "d5004c9d097428e8464c2eb4956a0623d7ea44b8533be521a6875e0394809fdf",
+      "admission_scope": "C actual exact public bytes retrieved; no private rows, source-clock or fitted-state reproduction."
+    },
+    {
+      "source_path": "reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+      "immutable_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+      "source_bytes": 79675,
+      "source_SHA256": "f8f23b86aeae93fb9c792cef91099ad753b4a038a7632b1cfcb1efa5b1fdc311",
+      "retrieval_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+      "retained_projection_path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json.gz",
+      "retained_wire_bytes": 17763,
+      "retained_wire_SHA256": "4ccd8ea7400c965946e5f075de549a5dadd7ccc1a53bd60ee6959a04b8332e10",
+      "admission_scope": "C actual exact public bytes retrieved; no private rows, source-clock or fitted-state reproduction."
+    }
+  ],
+  "state": "ACTUAL_NEW_M2_PUBLICATION_RETRIEVED_HASH_VERIFIED;READY_FOR_SCOPED_C_COORDINATOR_ADMISSION",
+  "index_at_UTC": "2026-11-15T05:52:36.956512+00:00",
+  "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+  "supersedes_current_unknown_status": true,
+  "superseded_status_receipt": "reports/targeted-accuracy-w1w9-01/intake/B_CURRENT_RECEIPT.json",
+  "published_own_side_rows": [
+    {
+      "method": "M2_P2_BIN",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 11,
+        "decided": 20,
+        "rate": 0.45,
+        "published_percent": 45.0
+      },
+      "UNDER": {
+        "wins": 60,
+        "losses": 62,
+        "decided": 122,
+        "rate": 0.4918032786885246,
+        "published_percent": 49.18
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": 5.044302,
+      "published_half_three_state_Brier": 0.285032,
+      "published_exact_line_log_loss": 0.77124,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_P2_BIN",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 4,
+        "losses": 6,
+        "decided": 10,
+        "rate": 0.4,
+        "published_percent": 40.0
+      },
+      "UNDER": {
+        "wins": 65,
+        "losses": 67,
+        "decided": 132,
+        "rate": 0.49242424242424243,
+        "published_percent": 49.24
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": 5.373239,
+      "published_half_three_state_Brier": 0.285032,
+      "published_exact_line_log_loss": 0.77124,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_P2_BIN",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 4,
+        "losses": 6,
+        "decided": 10,
+        "rate": 0.4,
+        "published_percent": 40.0
+      },
+      "UNDER": {
+        "wins": 65,
+        "losses": 67,
+        "decided": 132,
+        "rate": 0.49242424242424243,
+        "published_percent": 49.24
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.285032,
+      "published_exact_line_log_loss": 0.77124,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_P2_BB",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 11,
+        "decided": 20,
+        "rate": 0.45,
+        "published_percent": 45.0
+      },
+      "UNDER": {
+        "wins": 60,
+        "losses": 62,
+        "decided": 122,
+        "rate": 0.4918032786885246,
+        "published_percent": 49.18
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": 5.044302,
+      "published_half_three_state_Brier": 0.284912,
+      "published_exact_line_log_loss": 0.770953,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_P2_BB",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 4,
+        "losses": 6,
+        "decided": 10,
+        "rate": 0.4,
+        "published_percent": 40.0
+      },
+      "UNDER": {
+        "wins": 65,
+        "losses": 67,
+        "decided": 132,
+        "rate": 0.49242424242424243,
+        "published_percent": 49.24
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": 5.366197,
+      "published_half_three_state_Brier": 0.284912,
+      "published_exact_line_log_loss": 0.770953,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_P2_BB",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 4,
+        "losses": 6,
+        "decided": 10,
+        "rate": 0.4,
+        "published_percent": 40.0
+      },
+      "UNDER": {
+        "wins": 65,
+        "losses": 67,
+        "decided": 132,
+        "rate": 0.49242424242424243,
+        "published_percent": 49.24
+      },
+      "COMBINED": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "published_percent": 48.59
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.284912,
+      "published_exact_line_log_loss": 0.770953,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BIN",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 13,
+        "decided": 22,
+        "rate": 0.4090909090909091,
+        "published_percent": 40.91
+      },
+      "UNDER": {
+        "wins": 58,
+        "losses": 62,
+        "decided": 120,
+        "rate": 0.48333333333333334,
+        "published_percent": 48.33
+      },
+      "COMBINED": {
+        "wins": 67,
+        "losses": 75,
+        "decided": 142,
+        "rate": 0.47183098591549294,
+        "published_percent": 47.18
+      },
+      "published_mean_or_median_MAE": 5.004872,
+      "published_half_three_state_Brier": 0.281495,
+      "published_exact_line_log_loss": 0.76249,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BIN",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": 5.338028,
+      "published_half_three_state_Brier": 0.281495,
+      "published_exact_line_log_loss": 0.76249,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BIN",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.281495,
+      "published_exact_line_log_loss": 0.76249,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BB",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 13,
+        "decided": 22,
+        "rate": 0.4090909090909091,
+        "published_percent": 40.91
+      },
+      "UNDER": {
+        "wins": 58,
+        "losses": 62,
+        "decided": 120,
+        "rate": 0.48333333333333334,
+        "published_percent": 48.33
+      },
+      "COMBINED": {
+        "wins": 67,
+        "losses": 75,
+        "decided": 142,
+        "rate": 0.47183098591549294,
+        "published_percent": 47.18
+      },
+      "published_mean_or_median_MAE": 5.004872,
+      "published_half_three_state_Brier": 0.281415,
+      "published_exact_line_log_loss": 0.762306,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BB",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": 5.34507,
+      "published_half_three_state_Brier": 0.281415,
+      "published_exact_line_log_loss": 0.762306,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C1_BB",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.281415,
+      "published_exact_line_log_loss": 0.762306,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BIN",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 12,
+        "decided": 21,
+        "rate": 0.42857142857142855,
+        "published_percent": 42.86
+      },
+      "UNDER": {
+        "wins": 59,
+        "losses": 62,
+        "decided": 121,
+        "rate": 0.48760330578512395,
+        "published_percent": 48.76
+      },
+      "COMBINED": {
+        "wins": 68,
+        "losses": 74,
+        "decided": 142,
+        "rate": 0.4788732394366197,
+        "published_percent": 47.89
+      },
+      "published_mean_or_median_MAE": 5.011569,
+      "published_half_three_state_Brier": 0.281558,
+      "published_exact_line_log_loss": 0.76269,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BIN",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": 5.380282,
+      "published_half_three_state_Brier": 0.281558,
+      "published_exact_line_log_loss": 0.76269,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BIN",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.281558,
+      "published_exact_line_log_loss": 0.76269,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BB",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 9,
+        "losses": 12,
+        "decided": 21,
+        "rate": 0.42857142857142855,
+        "published_percent": 42.86
+      },
+      "UNDER": {
+        "wins": 59,
+        "losses": 62,
+        "decided": 121,
+        "rate": 0.48760330578512395,
+        "published_percent": 48.76
+      },
+      "COMBINED": {
+        "wins": 68,
+        "losses": 74,
+        "decided": 142,
+        "rate": 0.4788732394366197,
+        "published_percent": 47.89
+      },
+      "published_mean_or_median_MAE": 5.011569,
+      "published_half_three_state_Brier": 0.281479,
+      "published_exact_line_log_loss": 0.762506,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BB",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": 5.366197,
+      "published_half_three_state_Brier": 0.281479,
+      "published_exact_line_log_loss": 0.762506,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "M2_C2_BB",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "published_percent": 46.15
+      },
+      "UNDER": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "published_percent": 49.61
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.281479,
+      "published_exact_line_log_loss": 0.762506,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "D_M2",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 14,
+        "losses": 17,
+        "decided": 31,
+        "rate": 0.45161290322580644,
+        "published_percent": 45.16
+      },
+      "UNDER": {
+        "wins": 54,
+        "losses": 57,
+        "decided": 111,
+        "rate": 0.4864864864864865,
+        "published_percent": 48.65
+      },
+      "COMBINED": {
+        "wins": 68,
+        "losses": 74,
+        "decided": 142,
+        "rate": 0.4788732394366197,
+        "published_percent": 47.89
+      },
+      "published_mean_or_median_MAE": 5.088538,
+      "published_half_three_state_Brier": 0.275632,
+      "published_exact_line_log_loss": 0.748998,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "D_M2",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 20,
+        "losses": 26,
+        "decided": 46,
+        "rate": 0.43478260869565216,
+        "published_percent": 43.48
+      },
+      "UNDER": {
+        "wins": 45,
+        "losses": 51,
+        "decided": 96,
+        "rate": 0.46875,
+        "published_percent": 46.88
+      },
+      "COMBINED": {
+        "wins": 65,
+        "losses": 77,
+        "decided": 142,
+        "rate": 0.45774647887323944,
+        "published_percent": 45.77
+      },
+      "published_mean_or_median_MAE": 5.169014,
+      "published_half_three_state_Brier": 0.275632,
+      "published_exact_line_log_loss": 0.748998,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "D_M2",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 20,
+        "losses": 26,
+        "decided": 46,
+        "rate": 0.43478260869565216,
+        "published_percent": 43.48
+      },
+      "UNDER": {
+        "wins": 45,
+        "losses": 51,
+        "decided": 96,
+        "rate": 0.46875,
+        "published_percent": 46.88
+      },
+      "COMBINED": {
+        "wins": 65,
+        "losses": 77,
+        "decided": 142,
+        "rate": 0.45774647887323944,
+        "published_percent": 45.77
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.275632,
+      "published_exact_line_log_loss": 0.748998,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "UNCHANGED_ATT",
+      "output": "MEAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 4,
+        "losses": 9,
+        "decided": 13,
+        "rate": 0.3076923076923077,
+        "published_percent": 30.77
+      },
+      "UNDER": {
+        "wins": 66,
+        "losses": 63,
+        "decided": 129,
+        "rate": 0.5116279069767442,
+        "published_percent": 51.16
+      },
+      "COMBINED": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "published_percent": 49.3
+      },
+      "published_mean_or_median_MAE": 7.178027,
+      "published_half_three_state_Brier": 0.273822,
+      "published_exact_line_log_loss": 0.746921,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "UNCHANGED_ATT",
+      "output": "MEDIAN",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 2,
+        "losses": 6,
+        "decided": 8,
+        "rate": 0.25,
+        "published_percent": 25.0
+      },
+      "UNDER": {
+        "wins": 69,
+        "losses": 65,
+        "decided": 134,
+        "rate": 0.5149253731343284,
+        "published_percent": 51.49
+      },
+      "COMBINED": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142,
+        "rate": 0.5,
+        "published_percent": 50.0
+      },
+      "published_mean_or_median_MAE": 7.753521,
+      "published_half_three_state_Brier": 0.273822,
+      "published_exact_line_log_loss": 0.746921,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    },
+    {
+      "method": "UNCHANGED_ATT",
+      "output": "LAW",
+      "actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "OVER": {
+        "wins": 2,
+        "losses": 6,
+        "decided": 8,
+        "rate": 0.25,
+        "published_percent": 25.0
+      },
+      "UNDER": {
+        "wins": 69,
+        "losses": 65,
+        "decided": 134,
+        "rate": 0.5149253731343284,
+        "published_percent": 51.49
+      },
+      "COMBINED": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142,
+        "rate": 0.5,
+        "published_percent": 50.0
+      },
+      "published_mean_or_median_MAE": null,
+      "published_half_three_state_Brier": 0.273822,
+      "published_exact_line_log_loss": 0.746921,
+      "source": "B_README.md exact immutable 11db6280; rounded display metrics, raw score arrays not obtained"
+    }
+  ],
+  "independent_public_calculation": {
+    "own_side_rows_checked": 24,
+    "checks": [
+      "Own wins+losses=decided",
+      "Own Over+Under wins/losses=sum combined",
+      "Printed percentages match actual unequal-denominator own rates within published rounding",
+      "Both142 ordinal permutations bijective and mutually inverse",
+      "142 hashed unique identities map correctly between ordinal spaces",
+      "Native source-week filtered counts28+28+28+28+30=142",
+      "All20 cumulative selected counts equal sums of bound5weeklycounts",
+      "Owner-reported old-policy wins+losses equalselected onknown halfpoint142panel",
+      "EmptyP90 hashes equalcanonicalemptylist; nonempty membership hashes preserved, not independently recreated without protected membership rows"
+    ],
+    "not_performed": [
+      "No source rows or outcomes independently reconstructed",
+      "No fitted model/state inspected or fresh fit",
+      "No raw proper-score or selected-membership recomputation",
+      "No A protected gate/join execution",
+      "No original historical clock authentication"
+    ]
+  },
+  "new_scope": {
+    "procedure": "B-TARGETED-QB-CONTEXT-BETA-BINOMIAL-v1",
+    "actual_line_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "native_offers_per_category": 142,
+    "games": 71,
+    "numerical_weeks_2026": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "numerical_queries_2026": 315,
+    "robustness_2025_weeks": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "robustness_queries_2025": 303,
+    "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC;CURRENT_VINTAGE_STRICT7D_RECONSTRUCTION;EXPOSED_DEVELOPMENT",
+    "unknown_labels_reported": 0,
+    "unavailable_forecasts_reported": 0,
+    "new_early_grade_weeks": [],
+    "old_B0_B2_84_join": "Already completed distinct product; cannot fill these M2 cells",
+    "primary_activation": false
+  },
+  "scientific_conclusion": {
+    "direction": "All three matched BB/BIN pairs unchanged fullboard sides; P2LAW69/142,C1/C2LAW70/142. Fixed19policies memberships unchanged. CLOSE_RECIPE_NO_GAIN for exact native extension only.",
+    "fixed_means_and_opportunity": "Existing negative-binomial attempt law and conditional completion means held fixed; context affects beta-binomial precision/variance only. Not full QB opportunity/conversion test.",
+    "small_probability_changes_reported": {
+      "P2_BB_minus_BIN_Brier": -0.00011998,
+      "P2_BB_minus_BIN_exact_line_log_loss": -0.00028664,
+      "P2_BB_minus_BIN_current_broad_count_log_loss_approximately": 0.00083,
+      "C1_C2_BB_minus_BIN_Brier_approximately": -8e-05,
+      "limitation": "Owner-published aggregate deltas; not rederived from raw rows by C"
+    },
+    "strong_native_completion_controls": {
+      "retained_B0_mean": "76-66/142",
+      "retained_B2_median_or_law": "75-67/142",
+      "saved_adjusted_point": "72-70/142",
+      "C_E0_ENV_mean": "64-78/142",
+      "C_E0_ENV_median": "67-75/142"
+    },
+    "strong_native_attempt_controls": {
+      "unchanged_ATT_median_law": "71-71/142",
+      "saved_adjusted": "81-60/141;1strict-equalityabstention",
+      "saved_raw": "77-65/142"
+    },
+    "support": "Five native weeks duration only; quote timing/mainalt/vintage unverified, insufficient week clusters under B existing eight-cluster rule; no replacement or supported75/80/90 claim.",
+    "narrow_selective_observed": "C1/C2P90 1-0/1 inW5,zeroW6-9,not dependable weekly accuracy."
+  },
+  "component_mapping": [
+    {
+      "component": "Attempt opportunity law and conditional context-conversion means",
+      "status": "REUSED",
+      "reason": "Prior fixed NB attempt law and25 earlier-estimated down/depth conversion contexts remain unchanged. No opportunity-law improvement tested."
+    },
+    {
+      "component": "Context-dependent beta-binomial variance extension",
+      "status": "IMPLEMENTED",
+      "reason": "Three matched mean parentsP2/C1/C2, seven context/support variance predictors; discrete conversionlaw+varianceblock changes together, not pure precision-only ablation."
+    },
+    {
+      "component": "Downstream learned dispersion inputs",
+      "status": "IMPLEMENTED",
+      "reason": "Owner reports earlier-origin OOT means and earlier eligible attempts/completions; C didnotinspectrawfitrows."
+    },
+    {
+      "component": "C1/C2 chartability information",
+      "status": "REUSED",
+      "reason": "Existing depth support/catchability parent controls; C2\u2212C1withinlaw is limited chart-valuecontrast, not fresh sourcecollection."
+    },
+    {
+      "component": "Entire original QB personnel/perattempt-distance/opportunity mechanism",
+      "status": "DEFERRED",
+      "reason": "Full receiver/personnel and jointper-attempt distance mechanism notexecuted; existing aggregate context summaries are narrower."
+    },
+    {
+      "component": "True receiver alignment/all-route cells",
+      "status": "SOURCE_BLOCKED",
+      "reason": "No qualified all-route/alignment source inthispackage; destination notalignment."
+    },
+    {
+      "component": "New M2 W1\u20134 actual-line grades",
+      "status": "DEFERRED",
+      "reason": "A is sole protected84-offer executor; exact savedoutputs+adapter provided; no refitneeded."
+    },
+    {
+      "component": "M4 independent-price residual-logit arm",
+      "status": "SOURCE_BLOCKED",
+      "reason": "Qualified independent-price rows/accessrights missing; old A market work preserved, no newquoteacquisition."
+    }
+  ],
+  "early_join_handoff": {
+    "immutable_handoff_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+    "requested_new_cells": {
+      "season": 2026,
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "owner_bound_existing_offers": [
+        10,
+        25,
+        26,
+        23
+      ],
+      "products": [
+        "M2_P2_BIN",
+        "M2_P2_BB",
+        "M2_C1_BIN",
+        "M2_C1_BB",
+        "M2_C2_BIN",
+        "M2_C2_BB",
+        "D_M2"
+      ],
+      "outputs": [
+        "P1_MEAN",
+        "P1_LOWER_MEDIAN",
+        "P2_STATISTICAL_LAW"
+      ]
+    },
+    "prediction_bindings": [
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W01.json.gz",
+        "sha256": "48468334ac5b79fbba61a95027359f49b4d8562fdc6c528960abfbe43c09a7ba",
+        "bytes": 128221
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W02.json.gz",
+        "sha256": "44ec48621a42179e8228938ba01574a63a04da73dba52195adacb7c3a3e9dbb5",
+        "bytes": 137337
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W03.json.gz",
+        "sha256": "dc1474d30cef3ef0335ff0dce0e0f4ca9333b1c5c0fd0cc2bf32f55b2b75e255",
+        "bytes": 127500
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W04.json.gz",
+        "sha256": "98acf602963cbc410e0c44a363642e8f34ef847e2ffb40de86c60288caabe677",
+        "bytes": 119598
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W05.json.gz",
+        "sha256": "c7655e076243b2736f90da6d206b2fd36091ee2f30cfb322c1fd97a6ff3851ce",
+        "bytes": 127784
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W06.json.gz",
+        "sha256": "ed084d39465d33938a7835d83b7071195c7db6dbebbdae856e3fa700aab0aa21",
+        "bytes": 104196
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W07.json.gz",
+        "sha256": "a15035434c37a22e0a9f60108a319ff091aff0cd3974821bbddd393f5515431f",
+        "bytes": 111188
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W08.json.gz",
+        "sha256": "40bcad92ad2d6090c710983a4d7b8bba3e4758431ec35a5dfa11d597cfc9a8c8",
+        "bytes": 123428
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/B/wave-v1/predictions/2026-W09.json.gz",
+        "sha256": "30dca5f4a33a60d6209d91d1b47696580f6f0faaacd6606239a32f1aac1f111f",
+        "bytes": 114914
+      }
+    ],
+    "adapter": {
+      "path": "tools/query_targeted_qb_m2.py",
+      "sha256": "bf213c1ab3a08728603f13e66b48737daa15a5a74465a374586c017adb3f68d8",
+      "needs": "Qualified canonical game/player/target/season/week/line/source/horizon private opportunity rows; no final outcome needed for decision projection."
+    },
+    "adapter_immutable_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/tools/query_targeted_qb_m2.py",
+    "execution": "Use existing permitted owner-local route only. No repeat old84 FTNB0/B2 join, no refits; these new procedure identities require their own grades. Private input/output stay owner-local; only allowed aggregates/commitments returned.",
+    "outcome_policy": "A common grader uses qualified owner outcomes; preserve parent cached outcomes separately and do not zero unknowns. No model loading beyond trusted JSON/code.",
+    "completion_condition": "Exact perprocedure ownside weekly/cumulative grades, availability/unknown/fallback counts, common masks and selected schedules admitted by C, or one exact incompatible field named.",
+    "owner_action": "A execute alreadypermitted newM2 join on exact10/25/26/23 W1\u20134 compatibleoffers; B independentlycheckpermitted aggregate/membership output, C admitactualreceipt. No C/peerfitimplementation."
+  },
+  "ordinal_bridge": {
+    "immutable_url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/independent/OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json",
+    "source_SHA256": "f8f23b86aeae93fb9c792cef91099ad753b4a038a7632b1cfcb1efa5b1fdc311",
+    "category": "pass_cmp",
+    "weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "row_count": 142,
+    "source_hashes": [
+      {
+        "source_id": "B_RETAINED_2026_W5_QB_OFFERS",
+        "sha256": "7ebb7e3b546147f8e7f10fa887fd295f2d72f88eb70600a22448ad29feff69fe",
+        "bytes": 3159,
+        "filtered_CMP_rows": 28
+      },
+      {
+        "source_id": "B_RETAINED_2026_W6_QB_OFFERS",
+        "sha256": "3f7ccc297f7e2dd63d1bdc6c1e625b6183f58b58f3551d4ce2aa8ad02416d5b5",
+        "bytes": 2924,
+        "filtered_CMP_rows": 28
+      },
+      {
+        "source_id": "B_RETAINED_2026_W7_QB_OFFERS",
+        "sha256": "c6b2a6dfd5a983892afcc7882fea337ad105a327972ce6c5c16300e4fb5ead43",
+        "bytes": 2752,
+        "filtered_CMP_rows": 28
+      },
+      {
+        "source_id": "B_RETAINED_2026_W8_QB_OFFERS",
+        "sha256": "43fc0aef34076e5d5389cb47239c9a10d68df80cd5db6973cf008b997504b2c0",
+        "bytes": 2710,
+        "filtered_CMP_rows": 28
+      },
+      {
+        "source_id": "B_RETAINED_2026_W9_QB_OFFERS",
+        "sha256": "63b131964ddc110e78ec8328f6c592f9f96f59be3e946e5a45e4de848cde76f8",
+        "bytes": 3491,
+        "filtered_CMP_rows": 30
+      }
+    ],
+    "original_policy_count": 20,
+    "owner_reported_checks": 720,
+    "C_public_permutation_math": "PASS",
+    "original_identity_order_SHA256": "8c1d9eb7a0ed0667207d5bf66566f1cdfbcf08ee0f2e2ca262e2673289839259",
+    "canonical_identity_order_SHA256": "d79b943f0331cdcd578aec4cad835b35378ae3501c88c76760b3b0a785addbf5",
+    "meaning": "The old grade commitments hash sorted original filtered142 indices. They are not hashes of a newly lexical re-enumeration. The old confidence rank tie is lexical game/player/line; original indices identify membership, not a hidden tie rule.",
+    "A_receipt_or_private_gate_execution": "NOT_OBSERVED;A alone applies the bridge to its admitted panel and checks all20 native memberships before any early-week extension.",
+    "new_M2_selector_scope": "New M2 recipes and coverage/threshold products require their own records. This output does not transfer old FTN weeks/selection qualification to M2.",
+    "verification_limit": "Reproduces original B owner-local native iterator/membership and public original policy commitments. It does not inspect A private rows or prove A intake/parity, authentic quote timing or original issuance.",
+    "does_not_add_early_weeks": true,
+    "does_not_authenticate_private_rows_or_clocks": true,
+    "C_public_cumulative_weekly_consistency": "PASS20cumulative/100weeklyrecords;nonemptyrawmembershipnotinspected"
+  },
+  "scope_limits": [
+    "Actual public bytes/hashes, own-side table arithmetic and ordinal permutation checks only.",
+    "Owner source-clock, private row, exact actual-offer fields/grade vectors, model fit and selected side/membership validation not independently inspected by C.",
+    "A early84 newM2 execution not obtained; native142 ordinalbridge appliesonlysameboundsourcecontract anddoesnot itself score W1\u20134.",
+    "No fresh currentquery/feed/consumer orprimaryrelease claim.",
+    "No equivalentoldjoin/refit repeated."
+  ],
+  "resource_accounting": {
+    "requests_used": 5,
+    "response_bytes": 2312325,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grades": 0,
+    "source_collection": 0,
+    "peer_writes": 0,
+    "workflow_dispatch": 0,
+    "paid_acquisition": 0,
+    "request_budget_exhausted_stop": true
+  },
+  "completed_UTC": "2026-11-15T12:08:12.799898+00:00",
+  "actual_index_refresh": "Actual researchbranchhead b4da8524a6163e8826d7ad1c70692efa6c211a52 contains immutable producer11db6280 publication; no reset.",
+  "byte_retention_note": "Exact threepublicreport/handoff/bridgebytes retained deterministically gzipped; no model binaries, raw offers, private identities/lines or wholeindex copy retained."
+}

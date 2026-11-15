@@ -1,0 +1,30 @@
+{
+  "id": "C-TARGETED-CHECKPOINT-CLOSURE-LEDGER-v1",
+  "recorded_UTC": "2026-11-15T12:24:26.373205+00:00",
+  "prior": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V5.csv.gz",
+    "bytes": 2642428,
+    "SHA256": "4933da96147dd9d2244049c013dcbe75a57275a254e85da66ff9cf3fcd993c8c"
+  },
+  "new": {
+    "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V6.csv.gz",
+    "bytes": 2674654,
+    "SHA256": "d3a7c4ae7a88bc53c52ea0f4865e86267ded0d67394dbacbe01491440018d06a"
+  },
+  "prior_decoded_prefix_exact": true,
+  "prior_rows": 35370,
+  "new_report_or_missing_cell_views": 327,
+  "total_views": 35697,
+  "new_owner_fits": 0,
+  "new_C_grades": 0,
+  "new_joined_actual_line_weeks": 0,
+  "new_NFL_games": 0,
+  "C_newly_admitted_B_product_duration": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "interpretation": "AdmissionofalreadyexecutedBnativeproducts+explicitunexecutedcells; notnewBexecutionorofferevidence. Missingresultcountsblank, neverzeroaccuracy."
+}

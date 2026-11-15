@@ -1,0 +1,158 @@
+{
+  "id": "C-CHECKPOINT-CLOSURE-01-INDEPENDENT-INTAKE-v1",
+  "recorded_UTC": "2026-11-15T12:14:03.856036+00:00",
+  "status": "PASS_PUBLIC_ARITHMETIC_AND_BINDINGS;PARTIAL_OWNER_LOCAL_PRIVATE_FIT_CLOCK_SCOPE",
+  "reviewer": "Independent C sub-agent; not external B/A acknowledgement",
+  "scope": {
+    "A_budget": {
+      "old_cap": "1200",
+      "approved_cap": "1800",
+      "increment": "600",
+      "recorded_consumption": "1000.166",
+      "recorded_remainder": "799.834",
+      "retention_reserve": "120",
+      "recorded_ceiling_after_reserve": "679.834",
+      "unmetered_tail_and_qualification_overhead": "UNKNOWN_NOT_A_COMPLETE_MEASURED_CPU_CERTIFICATE",
+      "NFL_mutation_fixture": "NOT_EXECUTED_IN_RETRIEVED_CHECKPOINT;NO_NEW_PASS_RECEIVED;CURRENT_JOB_ACTIVITY_NOT_INFERRED"
+    },
+    "B": {
+      "table_rows_checked": 24,
+      "weekly_rows_checked": 5,
+      "native_completion_cases": 142,
+      "native_attempt_cases_owner_reported": 142,
+      "weekly_counts": {
+        "5": 28,
+        "6": 28,
+        "7": 28,
+        "8": 28,
+        "9": 30
+      },
+      "weekly_own_totals": {
+        "P2_BB_LAW": [
+          69,
+          73
+        ],
+        "C2_BB_LAW": [
+          70,
+          72
+        ],
+        "D_M2_LAW": [
+          65,
+          77
+        ],
+        "RETAINED_B0_MEAN": [
+          76,
+          66
+        ]
+      },
+      "BIN_BB_direction_pairs_equal": 9,
+      "mean_MAE_pairs_fixed": 3,
+      "probability_deltas_from_published_rounded_tables": [
+        {
+          "parent": "P2",
+          "delta_wins": 0,
+          "delta_Brier_BB_minus_BIN": "-0.000120",
+          "delta_log_loss_BB_minus_BIN": "-0.000287"
+        },
+        {
+          "parent": "C1",
+          "delta_wins": 0,
+          "delta_Brier_BB_minus_BIN": "-0.000080",
+          "delta_log_loss_BB_minus_BIN": "-0.000184"
+        },
+        {
+          "parent": "C2",
+          "delta_wins": 0,
+          "delta_Brier_BB_minus_BIN": "-0.000079",
+          "delta_log_loss_BB_minus_BIN": "-0.000184"
+        }
+      ],
+      "source_rounded_delta_qualification": "P2 Brier -0.000120 and logloss -0.000287 agree with finer owner-reported -0.00011998/-0.00028664 within displayed rounding; C1/C2 changes similarly small. No calibration/superiority claim.",
+      "fixed_exposure_and_conversion_means": "Explicit owner declaration; source/fit independently uninspected",
+      "selected_19_policy_invariance": "Owner-reported declaration only; new raw M2 membership not independently recomputed here",
+      "older_C_control_identity": "C E0_ENV completions mean64/142, median67/142; not new receiving M3 coverage",
+      "bridge": {
+        "permutation_size": 142,
+        "inverse_and_identity_hash_lookup": "PASS",
+        "cumulative_policies_checked": 20,
+        "weekly_selected_counts_checked": 100,
+        "membership_hash_contents": "NOT_RECOMPUTED_WITHOUT_PRIVATE_IDENTITIES;COUNTS_AND_ENCODING_ONLY",
+        "new_M2_early_grades_added": 0
+      }
+    },
+    "C": {
+      "unchanged_sealed_M3_members_checked": 379,
+      "immutable_delivery_local_artifact_bindings_checked": 249,
+      "delivery_file_sha256": "5e7f66f22bab57764825c4b41f5376c014c5501d7078b86bcf5a2060e2d3d23a",
+      "public_readback_reports": "Exact delivery-source receipt; independent reviewer made zero network calls",
+      "typed_7900_native_inference_parity": "REUSED_EXISTING_PROOF_NOT_REEXECUTED",
+      "actual_line_weeks": [
+        2,
+        3
+      ],
+      "new_actual_line_weeks_added": 0,
+      "A_consumer_receipt": "NOT_ESTABLISHED"
+    }
+  },
+  "verdicts": {
+    "public_counts_rates_budget_and_permutation": "PASS",
+    "private_row_source_clock_fit_parity": "UNKNOWN_NOT_INSPECTED",
+    "A_NFL_fixture_pass": "NOT_RECEIVED_NOT_CERTIFIED",
+    "new_M2_M3_early_or_later_joins": "NOT_RECEIVED_NO_ZERO_RESULTS_FABRICATED",
+    "new_primary_admission": "NOT_AUTHORIZED_OR_CERTIFIED"
+  },
+  "bindings": [
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_RECEIPT.json",
+      "bytes": 7580,
+      "SHA256": "7c091ce2de557ee2b68ec870ee5a2dc4491887b47aeb7e97ba4495ecfc753cf5"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_RECEIPT.json",
+      "bytes": 61186,
+      "SHA256": "bfbc79c38b98a2f6772615b08f9d9ff7bf31c8a061241750a7d6044747d5eead"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_EXECUTED_M1_CHECKPOINT_V1.md.gz",
+      "bytes": 3682,
+      "SHA256": "19288e2f52ac33c91424f69f4770047c9ade09736321356880192b308121f168"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_README.md.gz",
+      "bytes": 8464,
+      "SHA256": "bbf06aa5cdd17316106cdd3cd5bd264807f90d146075849e158414c6501f0402"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_OWNER_LOCAL_M2_HANDOFF_V1.json.gz",
+      "bytes": 1634,
+      "SHA256": "d5004c9d097428e8464c2eb4956a0623d7ea44b8533be521a6875e0394809fdf"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_OWNER_LOCAL_NATIVE_ORDINAL_BRIDGE_V2.json.gz",
+      "bytes": 17763,
+      "SHA256": "4ccd8ea7400c965946e5f075de549a5dadd7ccc1a53bd60ee6959a04b8332e10"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/C_M3_IMMUTABLE_DELIVERY.json",
+      "bytes": 233533,
+      "SHA256": "5e7f66f22bab57764825c4b41f5376c014c5501d7078b86bcf5a2060e2d3d23a"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/MANIFEST.json",
+      "bytes": 78353,
+      "SHA256": "b6f590e29f6ac8d3be4422202c338d4445783f617abf9dda28683f02872e2d66"
+    }
+  ],
+  "resources": {
+    "CPU_seconds": 0.205739053,
+    "CPU_cap": 30,
+    "new_model_fits": 0,
+    "inference_runs": 0,
+    "NFL_grades": 0,
+    "source_requests": 0,
+    "peer_writes": 0,
+    "initial_reviewer_literal_URL_check_failed": true,
+    "reviewer_failure_reason": "Reviewer compared encoded %2B URL with literal plus instead of decodedpath; validdeliveryURL unchanged. Corrected onlyreviewcheck; no data/model/receipt rewritten.",
+    "failed_review_CPU_conservative_charge_seconds": 1
+  }
+}
