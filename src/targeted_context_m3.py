@@ -217,7 +217,7 @@ def prepare_block(root, data, out):
         "all_position_complete_cells": sum(v["complete"] for v in counts.values()),
         "support_by_season": support,
         "missingness": "2022/2023 lack this PBP panel: support zero/missing flags, substantive values "
-                       "NaN. Known-zero-target contexts retain counts but undefined target-quality/" 
+                       "NaN. Known-zero-target contexts retain counts but undefined target-quality/"
                        "depth ratios stay missing under the existing C01 representation.",
         "identity_order_SHA256": digest([[r["game_id"], r["player_id"]] for r in rows]),
         "matrix_SHA256": digest(matrix), "future_context_mutation_check": mutation,

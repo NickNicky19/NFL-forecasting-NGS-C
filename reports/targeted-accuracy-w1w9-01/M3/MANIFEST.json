@@ -45,8 +45,8 @@
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/HEADLINE.csv",
-      "bytes": 31347,
-      "SHA256": "581aa1a4d437f22bcb3956fe285dd10e7c23813da710cbe1e3280972e9ffa50c"
+      "bytes": 31306,
+      "SHA256": "0376c972ff6eeca397ab2a3a4923001ab3bbf6d85a63682e0fcce1e4ea933fa0"
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
@@ -80,8 +80,8 @@
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/VALIDATION.json",
-      "bytes": 4505,
-      "SHA256": "b01fa1574a54d3e05da540b809b9b972e04292a288e4adebd1ab4d2074126c0b"
+      "bytes": 4768,
+      "SHA256": "084f55e3675a0a06b7e8aa964cd30987990babace1c1d6a2a17748d705506ff1"
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/base-CHECKS.json",
@@ -1689,6 +1689,11 @@
       "SHA256": "69c8a2b022a6703503b4523823fbe87137725ffe933fa5878678998369dea906"
     },
     {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/registration/CONTEXT_EXECUTED_V1.py.gz",
+      "bytes": 5080,
+      "SHA256": "a013273aafb8c120190675ebe004042a8ca1a4961593f096149b9084b2ec8597"
+    },
+    {
       "path": "reports/targeted-accuracy-w1w9-01/M3/registration/ENGINE_ORIGINAL_V1.py.gz",
       "bytes": 5597,
       "SHA256": "b8099f21016209b07d1117270276c009accd1c598b82e2aec519f3088d4a0c64"
@@ -1729,31 +1734,6 @@
       "SHA256": "2c380c81a40e169ed8daa7b89f28420e7ecef01b21281ab4f4fc7d684b2c9739"
     },
     {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/NUMERICAL.json.gz",
-      "bytes": 12902,
-      "SHA256": "464a1520e732195f8aa2a6c7dee165c4bfd4266f01913cbfdc7fa11e197161b7"
-    },
-    {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/PAIRS.json.gz",
-      "bytes": 30161,
-      "SHA256": "d9720f46ca9477c440a326b59c704bcfd75ecf9b1d8a76db1030d71cc1aad4c2"
-    },
-    {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/RESULTS.json.gz",
-      "bytes": 135425,
-      "SHA256": "4a9179645e6b7afd3a2340a10095c703fcdc5bd2a8cbee3a57814f0c94a0de8d"
-    },
-    {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTED_MEMBERSHIP.json.gz",
-      "bytes": 66708,
-      "SHA256": "66e97e1a653c962f2aea61bcbc23aa8f3219b6774a684eda3f31367deb35d7f6"
-    },
-    {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTIVE.json.gz",
-      "bytes": 398168,
-      "SHA256": "1e58dc106682a9c288a70cb08199822a326062c0fe3928e4c66eec9db9d294f2"
-    },
-    {
       "path": "reports/targeted-accuracy-w1w9-01/M3/scores-v1.1/NUMERICAL.json.gz",
       "bytes": 12903,
       "SHA256": "f8ad67e898398b4599b4e75917f3e5a9f47be3fb7d7da197ecc36da30dbd85ad"
@@ -1779,9 +1759,44 @@
       "SHA256": "824cb7c7b46200bf9f5e9224fd2a1cf8f4ad9f62c33d756481d8cc7f5791cb98"
     },
     {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/NUMERICAL.json.gz",
+      "bytes": 12902,
+      "SHA256": "464a1520e732195f8aa2a6c7dee165c4bfd4266f01913cbfdc7fa11e197161b7"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/PAIRS.json.gz",
+      "bytes": 30161,
+      "SHA256": "d9720f46ca9477c440a326b59c704bcfd75ecf9b1d8a76db1030d71cc1aad4c2"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/RESULTS.json.gz",
+      "bytes": 135425,
+      "SHA256": "4a9179645e6b7afd3a2340a10095c703fcdc5bd2a8cbee3a57814f0c94a0de8d"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTED_MEMBERSHIP.json.gz",
+      "bytes": 66708,
+      "SHA256": "66e97e1a653c962f2aea61bcbc23aa8f3219b6774a684eda3f31367deb35d7f6"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/scores/SELECTIVE.json.gz",
+      "bytes": 398168,
+      "SHA256": "1e58dc106682a9c288a70cb08199822a326062c0fe3928e4c66eec9db9d294f2"
+    },
+    {
       "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SCORE_REGENERATION.json",
       "bytes": 1903,
       "SHA256": "ed9921dde64e038a5a0cb75f028a3b1fa755a1a9c0f2dd8d87743f93f83324ed"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SOURCE_FORMAT_AMENDMENT.json",
+      "bytes": 1371,
+      "SHA256": "f01185c2ebf0b71308eabe96a6b0ff5b295e60f93d5f95a10ea7e279aa4b6152"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/FORMAT_AMENDMENT_REVIEW.json",
+      "bytes": 1812,
+      "SHA256": "7a1beef8117b3ba8c07a35485e6e0ac456849e9588f4ca96128f0d86ea287ecb"
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/verification/INDEPENDENT_REVIEW.json",
@@ -1802,6 +1817,11 @@
       "path": "reports/targeted-accuracy-w1w9-01/M3/verification/NUMERIC_ADAPTER_REPAIR.json",
       "bytes": 2910,
       "SHA256": "2ee2cd8d0db52835723caa9b957e6d4dc12d80f6a9f997b43d8df192d0441967"
+    },
+    {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/REPORT_FORMAT_REPAIR.json",
+      "bytes": 853,
+      "SHA256": "7b07e10543122fe3d573f769d01d61530ceac326f883e70471df4d6dcc87e262"
     },
     {
       "path": "reports/targeted-accuracy-w1w9-01/M3/verification/RUNTIME_FIXTURES.json",
@@ -1845,8 +1865,8 @@
     },
     {
       "path": "src/targeted_context_m3.py",
-      "bytes": 13858,
-      "SHA256": "426eb89e4260d8fdf38ae9cc8a2408eca169d60b4c41077986ddfa50921950b8"
+      "bytes": 13857,
+      "SHA256": "cd5d3aaaf192d8df7eea39821d9f2a858fe3734fc06b1c85311823a9be5f2f14"
     },
     {
       "path": "src/targeted_data_m3.py",
@@ -1887,5 +1907,15 @@
     "AGENTS.md",
     ".gitignore"
   ],
-  "rights": "PermittedCderivedevidence andowncode; no privateA/Brawrows; runtimesonlypinnednotbinaryredistributed"
+  "rights": "PermittedCderivedevidence andowncode; no privateA/Brawrows; runtimesonlypinnednotbinaryredistributed",
+  "report_encoding_amendment": {
+    "original_manifest_commit": "15f7a8fe3ca3dd592b7a617c97676f73e00df0e4",
+    "original_manifest_SHA256": "15ee1bb6625f52252a92917eeda4702d0571260d936a055ce52dd5eb1dce7190",
+    "decoded_data_unchanged": true
+  },
+  "source_format_amendment": {
+    "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SOURCE_FORMAT_AMENDMENT.json",
+    "bytes": 1371,
+    "SHA256": "f01185c2ebf0b71308eabe96a6b0ff5b295e60f93d5f95a10ea7e279aa4b6152"
+  }
 }

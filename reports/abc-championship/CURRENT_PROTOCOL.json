@@ -2053,8 +2053,8 @@
     },
     "headline": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/HEADLINE.csv",
-      "bytes": 31347,
-      "SHA256": "581aa1a4d437f22bcb3956fe285dd10e7c23813da710cbe1e3280972e9ffa50c"
+      "bytes": 31306,
+      "SHA256": "0376c972ff6eeca397ab2a3a4923001ab3bbf6d85a63682e0fcce1e4ea933fa0"
     },
     "decisions": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/DECISIONS.json",
@@ -2118,8 +2118,8 @@
     },
     "validation": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/VALIDATION.json",
-      "bytes": 4505,
-      "SHA256": "b01fa1574a54d3e05da540b809b9b972e04292a288e4adebd1ab4d2074126c0b"
+      "bytes": 4768,
+      "SHA256": "084f55e3675a0a06b7e8aa964cd30987990babace1c1d6a2a17748d705506ff1"
     },
     "peer_intake": [
       {
@@ -2165,8 +2165,8 @@
     },
     "sealed_manifest": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/MANIFEST.json",
-      "bytes": 77011,
-      "SHA256": "15ee1bb6625f52252a92917eeda4702d0571260d936a055ce52dd5eb1dce7190"
+      "bytes": 78353,
+      "SHA256": "b6f590e29f6ac8d3be4422202c338d4445783f617abf9dda28683f02872e2d66"
     },
     "clock_semantics": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/CLOCK_SEMANTICS.json",
@@ -2177,6 +2177,21 @@
       "path": "reports/targeted-accuracy-w1w9-01/M3/RESIDUAL_ADEQUACY.json",
       "bytes": 37943,
       "SHA256": "7d7eeacce992bfda49173f41d0e59684938eecc6332e0d97cc22e05588f56b45"
+    },
+    "report_encoding_repair": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/REPORT_FORMAT_REPAIR.json",
+      "bytes": 853,
+      "SHA256": "7b07e10543122fe3d573f769d01d61530ceac326f883e70471df4d6dcc87e262"
+    },
+    "executed_source_format_amendment": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/EXECUTED_SOURCE_FORMAT_AMENDMENT.json",
+      "bytes": 1371,
+      "SHA256": "f01185c2ebf0b71308eabe96a6b0ff5b295e60f93d5f95a10ea7e279aa4b6152"
+    },
+    "format_amendment_review": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/verification/FORMAT_AMENDMENT_REVIEW.json",
+      "bytes": 1812,
+      "SHA256": "7a1beef8117b3ba8c07a35485e6e0ac456849e9588f4ca96128f0d86ea287ecb"
     }
   }
 }

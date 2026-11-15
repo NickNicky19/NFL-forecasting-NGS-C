@@ -1,0 +1,14 @@
+{
+  "id": "M3-REPORT-CSV-FORMAT-v1",
+  "recorded_UTC": "2026-11-15T05:59:12.174554+00:00",
+  "original_commit": "15f7a8fe3ca3dd592b7a617c97676f73e00df0e4",
+  "original_path": "reports/targeted-accuracy-w1w9-01/M3/HEADLINE.csv",
+  "before_bytes": 31347,
+  "before_SHA256": "581aa1a4d437f22bcb3956fe285dd10e7c23813da710cbe1e3280972e9ffa50c",
+  "after_bytes": 31306,
+  "after_SHA256": "0376c972ff6eeca397ab2a3a4923001ab3bbf6d85a63682e0fcce1e4ea933fa0",
+  "decoded_rows": 40,
+  "decoded_rows_exactly_equal": true,
+  "change": "Only CRLF->LF encoding fornewreportCSV, preservingoriginalbytesinfirstcommit. Allprediction/grade/selection/modelbytesunchanged.",
+  "finding": "InitialunstageddiffcheckcouldnotseeuntrackedCSV; phase-onlycommitshellcontinueddespitestageddiffcheckfailure. No publicationoccurred. Fix beforepush; subsequentcommitmustfailclosed."
+}
