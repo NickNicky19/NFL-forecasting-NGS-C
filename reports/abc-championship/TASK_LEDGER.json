@@ -632,16 +632,16 @@
     "task": "NFL-TARGETED-ACCURACY-W1W9-01 M3 same-input NB/T law and matched-context comparison",
     "state": "FROZEN_M3_EXECUTED_AND_IMMUTABLE_DELIVERY_VERIFIED;A_NEW_JOINS_PENDING",
     "artifact": "reports/targeted-accuracy-w1w9-01/README.md",
-    "next": "Use checkpoint-closure-01 exactimmutablebindings; do notretuneStudentT orrepeatfits; Aownsprotectedofferjoins.",
+    "next": "A acknowledges source/typed-output receipt and source admission; protected scoring worker pending. C model900CPU budget unchanged, separate A join cap1,260 once. Do not retune Student-t or repeat fits.",
     "budget": "900scientificCPU,90fitattempts,1worker,unchangedwholeCcap, no paidsource/newcollector; actualresourceclosurebound",
     "prior_checkpoint_state": "EXECUTED_SAME_INPUT_AND_MATCHED_CONTEXT_M3;ACTUAL_LINES_PARTIAL_W2_W3;NO_PRIMARY_PROMOTION"
   },
   {
     "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
     "owner": "C",
-    "state": "A_M1_COMPLETE_AND_NEW_M2_EARLY_JOIN_RECEIVED;C_FROZEN_M3_DELIVERY_COMPLETE;M3_JOIN_NOT_ESTABLISHED_IN_RECEIVED_SCOPE",
+    "state": "A_M1_M2_COMPLETE;A_FROZEN_M3_SOURCE_ADMISSION_RECEIPT_COMPLETE;SCORING_AUTHORIZED_PENDING",
     "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
-    "next_action": "Do not repeat M1 or either completed M2 early join. A owns remaining compatible frozen M3 offer joins; B checks permitted selectors; C admits actual receipts.",
+    "next_action": "A alone resumes frozen-C-M3 worker under single1,260 cumulative cap, checkpoints raw grades before selectors. New B INFO early join is a distinct task/account. No renewed approval request or duplicate execution.",
     "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
     "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance",
     "original_C56_task": {
@@ -654,9 +654,32 @@
       "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance"
     },
     "superseding_receipt": {
-      "path": "reports/information-skill-01/intake/ADMISSION.json",
-      "bytes": 26598,
-      "SHA256": "3c3a71de772773724c1a877ebc92ddf30f44333fa34459926efeaa00ac621e6b"
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+      "bytes": 77908,
+      "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+    },
+    "prior_C57_task_state": {
+      "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
+      "owner": "C",
+      "state": "A_M1_COMPLETE_AND_NEW_M2_EARLY_JOIN_RECEIVED;C_FROZEN_M3_DELIVERY_COMPLETE;M3_JOIN_NOT_ESTABLISHED_IN_RECEIVED_SCOPE",
+      "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+      "next_action": "Do not repeat M1 or either completed M2 early join. A owns remaining compatible frozen M3 offer joins; B checks permitted selectors; C admits actual receipts.",
+      "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
+      "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance",
+      "original_C56_task": {
+        "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
+        "owner": "C",
+        "state": "ACTUAL_A_B_RECEIPTS_AND_C_DELIVERY_ADMITTED;OWNER_EXECUTION_GAPS_EXPLICIT",
+        "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+        "next_action": "AexecutesNFLM1fixturebeforeonefitunder1800cumulative; AseparatebudgetnewM2early84/M3compatiblejoins; Bverifiesallowedoutputs; Cintakesactualreceipts. No duplicateoldB0/B2join.",
+        "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
+        "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance"
+      },
+      "superseding_receipt": {
+        "path": "reports/information-skill-01/intake/ADMISSION.json",
+        "bytes": 26598,
+        "SHA256": "3c3a71de772773724c1a877ebc92ddf30f44333fa34459926efeaa00ac621e6b"
+      }
     }
   },
   {
@@ -667,5 +690,53 @@
     "next_action": "No automatic retune. Retain closed results and follow finite source/offer/capture queue; later roster only, no primary activation.",
     "budget": "Separate finite600CPU/400scientificbefore200reserve/40attempt/1worker; noM1oroldM3budgetrepurposing",
     "frozen_closure_supersession": "A_bdef actualM1V2completed andnewM2early84join executed; publicreceiptarithmetic only. NewM3joinnotestablishedinretrievedscope."
+  },
+  {
+    "task_id": "A_FROZEN_C_M3_OWNER_LOCAL_JOIN",
+    "owner": "A registered protected-join executor",
+    "state": "AUTHORIZED_RESUMPTION_PENDING;SOURCE_ADMISSION_AND_OUTPUT_RECEIPT_COMPLETE",
+    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+    "next_action": "Resume existing frozen worker; durably checkpoint raw C grades before existing selector views; preserve memory/source/retention/reserve guards and exact stop if cap prevents completion.",
+    "budget": {
+      "previous_cap": 900,
+      "cap": 1260,
+      "single_increment": 360,
+      "grant_id": "CHECKPOINT-FOLLOW-THROUGH-01_A_FROZEN_C_M3_SINGLE_GRANT",
+      "recorded_spent": 830.968258,
+      "recorded_headroom_including_reserves": 429.031742,
+      "retention_reserve": 120,
+      "reporting_reserve": 20,
+      "recorded_before_reserves_ceiling": 289.031742,
+      "unknown_overhead_preserved": true,
+      "no_transfer_to_M1_or_new_information": true
+    }
+  },
+  {
+    "task_id": "A_B_INFORMATION_SKILL_EARLY_JOIN",
+    "owner": "A executor; B supplier and independent verifier; C intake",
+    "state": "EXACT_FROZEN_HANDOFF_RECEIVED;EARLY_GRADES_NOT_ESTABLISHED",
+    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+    "next_action": "Join supported W1-W4 offers to SKILL_C0/C1/R0/R1 saved outputs at78383a9d with exact unchanged adapter/rules under its own existing budget. Do not substitute old M2 84 grades or spend frozen-C-M3 extension."
+  },
+  {
+    "task_id": "B_NEXT_DISTINCT_QB_OPPORTUNITY_HYPOTHESIS",
+    "owner": "B",
+    "state": "NO_NEW_TEST_ESTABLISHED_IN_RETRIEVED_SCOPE",
+    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/FINITE_QUEUE.json",
+    "next_action": "Reconcile retained opportunity studies; register one distinct qualified information/relationship package with conversion fixed and strong attempt controls, or close precise feasibility gap. No variance/offset/gate repeats or C1 fit retries."
+  },
+  {
+    "task_id": "C_INFORMATION_SKILL_FOLLOW_THROUGH_01",
+    "owner": "C",
+    "state": "ACTUAL_PUBLIC_RECEIPTS_ADMITTED;C05_FINALITY_QUALIFIED_PLAYER_FACTS_MISSING",
+    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+    "next_action": "Maintain exact-scoped common evidence; finish normal publication/readback; no new model or primary activation."
+  },
+  {
+    "task_id": "C05_NEDET_FROZEN_GRADING",
+    "owner": "C existing forecast grading executor",
+    "state": "STOPPED_AT_QUALIFIED_ORDINARY_PLAYER_FACTS_MISSING;FINALITY_SCHEDULE_PASSED",
+    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+    "next_action": "When a genuinely updated qualified player-facts version contains exact2026_10_NE_DET, use existing outcome/grade route under a bounded next capture allocation. Current one-shot3source reads exhausted; do not repeat unchanged source or infer zeros/DNP."
   }
 ]

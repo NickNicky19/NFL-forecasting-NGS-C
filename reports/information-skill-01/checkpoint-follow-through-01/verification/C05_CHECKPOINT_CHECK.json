@@ -1,0 +1,43 @@
+{
+  "id": "C-FOLLOWTHROUGH-C05-CHECKPOINT-INDEPENDENT-v1",
+  "checked_UTC": "2026-11-15T20:57:47.349548+00:00",
+  "status": "PASS_EXECUTED_CHECKPOINT_BINDINGS_AND_EXACT_STOP_SCOPE",
+  "original_C05_hashes_unchanged": {
+    "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json": "edc76d1de4c2d59603a103da3e9c8e899a2f5cbf8835282360f29fb040577de4",
+    "prospective/runs/C-C05-NEDET-FIRST-01/FORECASTS.json.xz": "e3dcb454f25b3a3d6b802a72f47ec91d583fe3eeeaa7fc964a0d4d255b16d32e",
+    "prospective/receipts/C-C05-NEDET-FIRST-01-server.json": "529a265fb626c2d868f993db9bdfc8ad72c2e4198c741c7523061cecbec1d59b"
+  },
+  "C57_sealed_members_unchanged": 123,
+  "older_M3_sealed_members_unchanged": 379,
+  "event": {
+    "id": "401873053",
+    "game": "2026_10_NE_DET",
+    "home": "DET",
+    "away": "NE",
+    "home_score": 35,
+    "away_score": 10,
+    "kickoff_UTC": "2026-11-15T14:30:00+00:00",
+    "state": "FINAL"
+  },
+  "source_attempts": 3,
+  "response_bytes": 2972271,
+  "full_child_CPU_seconds": 3.613394,
+  "player_fact_exact_filter_rows": 0,
+  "player_fact_zero_count_verification_scope": "Code's unique executed len(frame)>0 boundary and preserved stop reason establish the worker's zero-row observation; no independent raw-body reparse.",
+  "finality_verification_scope": "Observed normalized native event and executed schedule equality guards; no raw native/schedule bytes retained or newly retrieved.",
+  "raw_body_SHA256_scope": "Source worker reported hashes/lengths; checked metadata format and cross-receipt consistency, not recomputed hashes of unretained raw bodies.",
+  "original_SOURCE_STATUS_remaining_text": "Generic finality-plus-facts fallback is historical execution text; EXACT_STOP supersedes it: finality qualified, only exact-game ordinary player facts remain missing.",
+  "grade_created": false,
+  "new_forecasts": 0,
+  "new_original_picks": 0,
+  "no_retry_or_source_requery": true,
+  "B_C1_reproduction": "UNCHANGED_FAILED;unrelated to this checkpoint",
+  "resources": {
+    "CPU_seconds": 0.095457972,
+    "RSS_bytes": 17620992,
+    "independent_new_source_requests": 0,
+    "new_fits": 0,
+    "new_grades": 0,
+    "new_inference": 0
+  }
+}

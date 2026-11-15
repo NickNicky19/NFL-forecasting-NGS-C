@@ -1,0 +1,54 @@
+{
+  "id": "C-FOLLOW-THROUGH-VALIDATION-v1",
+  "recorded_UTC": "2026-11-15T21:11:24.204228+00:00",
+  "focused_checks": {
+    "status": "PASS",
+    "checks": [
+      {
+        "pattern": "test_prospective_v4.py",
+        "exit": 0,
+        "CPU_seconds": 2.270648
+      },
+      {
+        "pattern": "test_audit_remediation_selection.py",
+        "exit": 0,
+        "CPU_seconds": 0.10817499999999969
+      }
+    ],
+    "CPU_seconds": 2.3788229999999997,
+    "wall_seconds": 2.3846287129999837,
+    "scope": "Existing prospective grading and explicit missing/null/selection semantics; unchanged model/common grader. C57 full286unit+26CI results retained, currentPR will run requiredCI. No new NFL fit/reproduction."
+  },
+  "focused_log_SHA256": "423fad285d384a70cd5b2577698c174eea0d01c37ea755988f2a6a96aeb3d60b",
+  "reused_unchanged_source_checks": {
+    "C57_commit": "d967615497fc7695575de6a9a4f070c796052dee",
+    "unit_tests": 286,
+    "mandatory_CI_blocks": 26,
+    "source_models_common_grader_unchanged": true,
+    "receipt": "reports/information-skill-01/VALIDATION.json"
+  },
+  "verification": [
+    {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PUBLIC_INTAKE_CHECK.json",
+      "bytes": 2969,
+      "SHA256": "d2d7be6b1739797b441cd833a0dea3c10c0a430861eb14c7a62a926bbf4db75b"
+    },
+    {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PERSONNEL_SCOPE_CHECK.json",
+      "bytes": 2450,
+      "SHA256": "ac7b8db8dd781b9715b5f3d5dc93519d0aed03e2aee09acb9427e46677cd4baa"
+    },
+    {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/C05_CHECKPOINT_CHECK.json",
+      "bytes": 2160,
+      "SHA256": "cb0e70001085faf2547d6581400e2ec06c931a96ad0db0673fd0cbff95d3e4ee"
+    }
+  ],
+  "old_C57_members_unchanged": 123,
+  "old_M3_members_unchanged": 379,
+  "source_scope": "New postgame finality checkpoint is qualified; ordinary player facts are missing; no raw response independent reproduction or C05 grade.",
+  "B_C1_strict_reproduction": "FAILED_PRESERVED;NO_NEW_RETRY;MIXER_LAW_ARITHMETIC_PASS_DISTINCT",
+  "pending_join_counts_are_null_not_model_losses": true,
+  "new_primary_product_activation": false,
+  "current_PR_required_CI": "Normal existing workflow will run; do not equate CI with operational delivery."
+}

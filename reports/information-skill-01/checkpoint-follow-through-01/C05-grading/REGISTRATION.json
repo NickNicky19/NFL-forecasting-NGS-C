@@ -1,0 +1,34 @@
+{
+  "id": "C-C05-NEDET-FROZEN-GRADING-20261115-v1",
+  "registered_UTC": "2026-11-15T20:47:20.958357+00:00",
+  "owner": "C existing frozen forecast grading executor",
+  "authority": "Existing C05/accepted prospective_v4 frozen-packet grading obligation and current continuation; no new forecasts, fits, paid API/compute, collector or scheduler.",
+  "parent": "protocol/PROFILE_TIMING_CLOSURE_CONFIRM_01_C.json",
+  "original_run": "prospective/runs/C-C05-NEDET-FIRST-01",
+  "receipt": "prospective/receipts/C-C05-NEDET-FIRST-01-server.json",
+  "game_id": "2026_10_NE_DET",
+  "event_id": "401873053",
+  "retained_kickoff_UTC": "2026-11-15T14:30:00+00:00",
+  "new_grade_version": "C-NATIVE-GRADE-20261115-NEDET-01",
+  "original69_forecasts_and_23_player_identities_preserved": true,
+  "budget": {
+    "CPU_seconds_max": 30,
+    "source_requests_max": 3,
+    "source_response_bytes_cumulative_max": 5242880,
+    "RSS_bytes_max": 1288490188,
+    "new_public_bytes_max": 2097152,
+    "whole_C_bytes_cap_unchanged": 2684354560,
+    "fits_max": 0,
+    "new_offers_or_selected_sides": 0
+  },
+  "accounting": "Separate frozen-packet outcome operation, not newresearchsourcecollection; charged within retained C information600 ceiling in addition to its metadata200 allocation and prior355.220118. No use of A frozenM3+360 or M1 allowance; no autoextension.",
+  "sources": [
+    "Existing ESPN native scoreboard dates20261115&limit100, exactevent401873053 finality/team/time/version",
+    "Existing nflverse/nfldata games.csv exactgame andscores",
+    "Existing nflverse stats_player_week_2026.csv.gz exactqualifiedordinaryplayerfacts"
+  ],
+  "stop": "One attempt per namedsource, no polling/bypass. Stop atHTTP/access/nonfinal/identity/score/outcomeabsence and retain exactstage. Observation ofpastkickoffdoesnotprovefinal. Ifqualified, minimalpermittedfacts +unchangedgrade_run intoappend-onlynewoutcome/grade; no laterlineassignment orzeroimputation.",
+  "source_privacy": "Rawresponsememory-only, permittednumerical/statusprojections+hash/actualclocks only; no descriptions/odds/EPA/charting retained.",
+  "qualification": "Same repairedC-common outcome/participation/component andfirstsnapshot contracts; explicitzero versusnull, no absentstattozero; no eventuallyplayedfilteratforecast.",
+  "independent_check": "Source eventID/time/team and oldhashinvariance, separate numerical metrics/count arithmetic where permitted. No fit reproduction or broad audit."
+}
