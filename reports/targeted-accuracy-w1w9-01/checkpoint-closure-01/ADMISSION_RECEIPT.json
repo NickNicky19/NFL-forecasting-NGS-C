@@ -1,0 +1,146 @@
+{
+  "id": "C-TARGETED-CHECKPOINT-CLOSURE-ADMISSION-v1",
+  "recorded_UTC": "2026-11-15T12:28:01.304211+00:00",
+  "A": {
+    "owner": "A",
+    "state": "RECEIVED_IMPLEMENTATION_RUNTIME_CHECKPOINT_ADMITTED;NFL_FIXTURE_AND_REMAINING_2026_EXECUTION_PENDING",
+    "receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_RECEIPT.json",
+      "bytes": 7580,
+      "SHA256": "7c091ce2de557ee2b68ec870ee5a2dc4491887b47aeb7e97ba4495ecfc753cf5"
+    },
+    "actual_commit": "775a200e1f74335707590246ed933b75f88df72b",
+    "source_report": "https://github.com/NickNicky19/NFL-forecasting/blob/775a200e1f74335707590246ed933b75f88df72b/reports/abc-championship/targeted-accuracy-w1w9-01/A/EXECUTED_M1_CHECKPOINT_V1.md",
+    "admitted": "Actualpublishedcheckpoint+reportedresource/implementationstate; noexecutedNFLfixture/result/fitparity",
+    "user_budget_authority": {
+      "authority": "UserlatestCHECKPOINT-CLOSURE-01; no claimAalreadyexecutedextension",
+      "prior_cumulative_cap": 1200,
+      "approved_cumulative_cap": 1800,
+      "additional_not_reset": 600,
+      "recorded_consumed_CPU": 1000.166,
+      "old_recorded_remaining": 199.834,
+      "new_recorded_remaining": 799.834,
+      "required_retention_final_checks_reserve": 120,
+      "recorded_remainder_after_reserve_ceiling": 679.834,
+      "limitation": "UnmeteredtailafteroriginalCPU sampleandqualificationoverheadunknown; notcompletemeasuredend-to-endCPU",
+      "allowed_use": "RepairedNFLfixture,onefrozen2026fit,inference,frozenscoring/selection,retention/finalchecks;reuse2025artifacts",
+      "no_new_allowance": "Nonewmodels/parameters/seeds/features/thresholds/search,paidacquisitionorcomputepurchase"
+    },
+    "index_status": "AindexstaledoesnotmakepublishedcheckpointUNKNOWN;Aupdatesitsownindexafterauthorizedresumption",
+    "actual_scored_M1_weeks": [],
+    "new_primary_activation": false
+  },
+  "B": {
+    "owner": "B",
+    "state": "RECEIVED_NATIVE_M2_W5_W9_OWNER_AGGREGATES_PUBLIC_ARITHMETIC_ADMITTED",
+    "receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_RECEIPT.json",
+      "bytes": 61186,
+      "SHA256": "bfbc79c38b98a2f6772615b08f9d9ff7bf31c8a061241750a7d6044747d5eead"
+    },
+    "actual_current_head": "b4da8524a6163e8826d7ad1c70692efa6c211a52",
+    "immutable_producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+    "source_report": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/README.md",
+    "admitted": "24own-sidepublishedrows+nativeperiod/missingearlyhandoff+ordinalpermutation/countarithmetic; proper-scorevaluesareownerreportedrounded,notrawCcomputation",
+    "source_scope": {
+      "procedure": "B-TARGETED-QB-CONTEXT-BETA-BINOMIAL-v1",
+      "actual_line_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "native_offers_per_category": 142,
+      "games": 71,
+      "numerical_weeks_2026": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "numerical_queries_2026": 315,
+      "robustness_2025_weeks": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "robustness_queries_2025": 303,
+      "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC;CURRENT_VINTAGE_STRICT7D_RECONSTRUCTION;EXPOSED_DEVELOPMENT",
+      "unknown_labels_reported": 0,
+      "unavailable_forecasts_reported": 0,
+      "new_early_grade_weeks": [],
+      "old_B0_B2_84_join": "Already completed distinct product; cannot fill these M2 cells",
+      "primary_activation": false
+    },
+    "negative_scope": {
+      "direction": "All three matched BB/BIN pairs unchanged fullboard sides; P2LAW69/142,C1/C2LAW70/142. Fixed19policies memberships unchanged. CLOSE_RECIPE_NO_GAIN for exact native extension only.",
+      "fixed_means_and_opportunity": "Existing negative-binomial attempt law and conditional completion means held fixed; context affects beta-binomial precision/variance only. Not full QB opportunity/conversion test.",
+      "small_probability_changes_reported": {
+        "P2_BB_minus_BIN_Brier": -0.00011998,
+        "P2_BB_minus_BIN_exact_line_log_loss": -0.00028664,
+        "P2_BB_minus_BIN_current_broad_count_log_loss_approximately": 0.00083,
+        "C1_C2_BB_minus_BIN_Brier_approximately": -8e-05,
+        "limitation": "Owner-published aggregate deltas; not rederived from raw rows by C"
+      },
+      "strong_native_completion_controls": {
+        "retained_B0_mean": "76-66/142",
+        "retained_B2_median_or_law": "75-67/142",
+        "saved_adjusted_point": "72-70/142",
+        "C_E0_ENV_mean": "64-78/142",
+        "C_E0_ENV_median": "67-75/142"
+      },
+      "strong_native_attempt_controls": {
+        "unchanged_ATT_median_law": "71-71/142",
+        "saved_adjusted": "81-60/141;1strict-equalityabstention",
+        "saved_raw": "77-65/142"
+      },
+      "support": "Five native weeks duration only; quote timing/mainalt/vintage unverified, insufficient week clusters under B existing eight-cluster rule; no replacement or supported75/80/90 claim.",
+      "narrow_selective_observed": "C1/C2P90 1-0/1 inW5,zeroW6-9,not dependable weekly accuracy."
+    },
+    "private_rows_fits_clocks": "NOT_INSPECTED_OR_REPRODUCED_BY_C",
+    "early84_new_M2_join": "NO_EXECUTION_RECEIPT_IN_OBTAINED_M2_PUBLICATION;A_OWNER_LOCAL_REQUIRED",
+    "new_primary_activation": false
+  },
+  "C": {
+    "owner": "C",
+    "state": "EXISTING_FROZEN_M3_OUTPUTS_IMMUTABLY_PUBLISHED_AND_FRESH_READBACK_VERIFIED",
+    "delivery": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/C_M3_IMMUTABLE_DELIVERY.json",
+      "bytes": 233533,
+      "SHA256": "5e7f66f22bab57764825c4b41f5376c014c5501d7078b86bcf5a2060e2d3d23a"
+    },
+    "source_commit": "d662c16a3d2a5ae13640860e38d4d1e044234c5e",
+    "actual_scored_weeks": [
+      2,
+      3
+    ],
+    "model_fits_repeated": 0,
+    "new_joined_actual_line_weeks": [],
+    "A_consumer_receipt": "NOT_ESTABLISHED",
+    "StudentT": "EXACT_RECIPE_TUNING_CLOSED;FROZEN_OUTPUT_COVERAGE_GRADING_ALLOWED",
+    "NB": "RESEARCH_SHADOW;MEAN_AND_LAW_PRODUCTS_DISTINCT;NO_REPLACEMENT_CLAIM",
+    "new_primary_activation": false
+  },
+  "verification": {
+    "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/verification/INDEPENDENT_INTAKE_REVIEW.json",
+    "bytes": 6178,
+    "SHA256": "6e2887d506c1467bee901f99e226e8280357dbfb107e186db39554d7f9d78978"
+  },
+  "actual_new_joins_executed_or_received": 0,
+  "new_NFL_games": 0,
+  "new_original_selections": 0,
+  "intake_not_private_fit_parity": true,
+  "no_new_M2_M3_primary_authorization": true,
+  "prior_publication_unknown_statuses_superseded_only_for_obtained_scope": true
+}

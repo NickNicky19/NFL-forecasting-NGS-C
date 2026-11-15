@@ -47,3 +47,6 @@ reports/player-context-matchup-01/PAIRED_CHANGES.json
 # Permitted targeted M3 derived evidence; runtime wheels stay outside Git.
 !reports/targeted-accuracy-w1w9-01/**/*.gz
 !reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V5.csv.gz
+
+# Append-only frozen-targeted checkpoint coverage metadata.
+!reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V6.csv.gz

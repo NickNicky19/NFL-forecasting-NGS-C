@@ -630,9 +630,19 @@
   {
     "owner": "C",
     "task": "NFL-TARGETED-ACCURACY-W1W9-01 M3 same-input NB/T law and matched-context comparison",
-    "state": "EXECUTED_SAME_INPUT_AND_MATCHED_CONTEXT_M3;ACTUAL_LINES_PARTIAL_W2_W3;NO_PRIMARY_PROMOTION",
+    "state": "FROZEN_M3_EXECUTED_AND_IMMUTABLE_DELIVERY_VERIFIED;A_NEW_JOINS_PENDING",
     "artifact": "reports/targeted-accuracy-w1w9-01/README.md",
-    "next": "Finiteownerqueue; savedM3paramsforAownerlocaljoins; noStudentTretune; NBprob/numericalshadowconfirmationonly",
-    "budget": "900scientificCPU,90fitattempts,1worker,unchangedwholeCcap, no paidsource/newcollector; actualresourceclosurebound"
+    "next": "Use checkpoint-closure-01 exactimmutablebindings; do notretuneStudentT orrepeatfits; Aownsprotectedofferjoins.",
+    "budget": "900scientificCPU,90fitattempts,1worker,unchangedwholeCcap, no paidsource/newcollector; actualresourceclosurebound",
+    "prior_checkpoint_state": "EXECUTED_SAME_INPUT_AND_MATCHED_CONTEXT_M3;ACTUAL_LINES_PARTIAL_W2_W3;NO_PRIMARY_PROMOTION"
+  },
+  {
+    "task_id": "C_TARGETED_CHECKPOINT_CLOSURE_01",
+    "owner": "C",
+    "state": "ACTUAL_A_B_RECEIPTS_AND_C_DELIVERY_ADMITTED;OWNER_EXECUTION_GAPS_EXPLICIT",
+    "artifact": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+    "next_action": "AexecutesNFLM1fixturebeforeonefitunder1800cumulative; AseparatebudgetnewM2early84/M3compatiblejoins; Bverifiesallowedoutputs; Cintakesactualreceipts. No duplicateoldB0/B2join.",
+    "scope": "Cpublication/intake/delivery only; A/Bmodelsandoriginalsite readonly",
+    "budget": "0Cfits/grades; CmetadatawithinretainedM3remainder, M1extra600A-only notjoinallowance"
   }
 ]

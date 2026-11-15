@@ -1,0 +1,170 @@
+{
+  "id": "C-CHECKPOINT-CLOSURE-01-A-INTAKE-v1",
+  "recorded_UTC": "2026-11-15T12:07:01.329277+00:00",
+  "repository": "NickNicky19/NFL-forecasting",
+  "registered_branch": "research/accuracy-wave-20261026",
+  "actual_HEAD": "775a200e1f74335707590246ed933b75f88df72b",
+  "user_pin_matches_actual_HEAD": true,
+  "read_budget": {
+    "max_requests": 5,
+    "used": 4,
+    "max_response_bytes": 5242880,
+    "decoded_file_bytes": 75306,
+    "measured_connector_envelope_ASCII_bytes": 104704,
+    "head_lookup_transport_bytes": "Unmetered small single-refJSON; not a fulltransportcertificate",
+    "no_repeat_poll": true,
+    "fifth_request": "Unused; no explicitlylinkednewresultneeded"
+  },
+  "requests": [
+    {
+      "ordinal": 1,
+      "tool": "GitHub search_branches",
+      "result": "Exactregisteredbranchlisted; noHEADinresponse"
+    },
+    {
+      "ordinal": 2,
+      "tool": "read-only gh api single git/ref",
+      "path": "repos/NickNicky19/NFL-forecasting/git/ref/heads/research/accuracy-wave-20261026",
+      "HEAD": "775a200e1f74335707590246ed933b75f88df72b"
+    },
+    {
+      "ordinal": 3,
+      "tool": "GitHub fetch_file",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "ref": "775a200e1f74335707590246ed933b75f88df72b",
+      "bytes": 67163,
+      "SHA256": "63f089809aa26328c40039c81589592ae80dad04e2b7234bb2625c0b6eb8a9e5",
+      "git_blob": "d3adea12b920f7070b317ce2cdf7e92d9049b253"
+    },
+    {
+      "ordinal": 4,
+      "tool": "GitHub fetch_file",
+      "path": "reports/abc-championship/targeted-accuracy-w1w9-01/A/EXECUTED_M1_CHECKPOINT_V1.md",
+      "ref": "775a200e1f74335707590246ed933b75f88df72b",
+      "bytes": 8143,
+      "SHA256": "5fdbb4cb4fd4fd2bbbc06a5ddcc1b202aea46593b8a8ccc6d32b402f0807db5e",
+      "git_blob": "501826f61f0da05ee11781aa8ccfb7e99145b3f4"
+    }
+  ],
+  "actual_public_receipt": {
+    "status": "RECEIVED_EXACT_PUBLIC_M1_IMPLEMENTATION_RUNTIME_CHECKPOINT",
+    "url": "https://github.com/NickNicky19/NFL-forecasting/blob/775a200e1f74335707590246ed933b75f88df72b/reports/abc-championship/targeted-accuracy-w1w9-01/A/EXECUTED_M1_CHECKPOINT_V1.md",
+    "path": "reports/abc-championship/targeted-accuracy-w1w9-01/A/EXECUTED_M1_CHECKPOINT_V1.md",
+    "ref": "775a200e1f74335707590246ed933b75f88df72b",
+    "bytes": 8143,
+    "SHA256": "5fdbb4cb4fd4fd2bbbc06a5ddcc1b202aea46593b8a8ccc6d32b402f0807db5e",
+    "retained_gzip": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_EXECUTED_M1_CHECKPOINT_V1.md.gz",
+      "bytes": 3682,
+      "SHA256": "19288e2f52ac33c91424f69f4770047c9ade09736321356880192b308121f168",
+      "decoded_exact": true
+    }
+  },
+  "index": {
+    "url": "https://github.com/NickNicky19/NFL-forecasting/blob/775a200e1f74335707590246ed933b75f88df72b/reports/abc-championship/EXPORT_INDEX.json",
+    "exports": 19,
+    "state": "STALE_DISCOVERY;ACTUAL_M1_REPORT_EXISTS_AT_USER_PIN_BUT_NOT_INDEXED",
+    "M1_indexed": false,
+    "decoded_hash_same_as_prior_C_refresh": true,
+    "current_execution_still_names": "reports/abc-championship/wave-close-next-comparison-20261114-01/EXECUTED_WAVE_CLOSE_A_V1.md",
+    "admission_change": "ReplaceoldM1publicationUNKNOWNwithACTUALLY_RETRIEVED_PARTIAL; indexabsenceisnotmissingreportproof"
+  },
+  "M1": {
+    "implementation": "IMPLEMENTED_PARTIAL_EXECUTION",
+    "scope": "Usage-only RB rush_att; samelearner+14filteredrolefields andprojectedregimelaw; approximate momentprojection, notexactjointposterior/participation/injury-informedmodel",
+    "repaired_NFL_full_context_mutation": "NOT_EXECUTED_AT_RETRIEVED_HEAD; sourceonlyrepair/fictionalfixturesarenotNFLpass",
+    "failed_NFL_case": "Actualfailed-rowfeature/lawdifferencesnotindependentlyreconstructed inownercheckpoint",
+    "retained_2025": "Model/forecastsrestoredwithoutrefit, ownerlocalnotCinspected",
+    "remaining_2026_fit": "NOT_EXECUTED",
+    "new_offer_scored_weeks": [],
+    "new_own_side_probability_selective_results": null,
+    "missing_execution": "Notalossorzeroselectedpicks",
+    "supported_query_source_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "planned_not_scored_panel": {
+      "RB_offers": 286,
+      "mixed_position_offers": 379,
+      "outside_RB_point_fallbacks": 93
+    },
+    "W8_W9": "Missingcompatibleearlierhistory/queryinputs",
+    "authenticated_personnel": "SOURCE_BLOCKED;unknownstatusnotinactive",
+    "rushing_yards": "Separate gainscoredeferred;no carryresulttransfer",
+    "evidence": "Exposedcurrent-vintageretainedreal-linesdiagnostic;quoteclocks/main_alternateunverified;annualW6-W7referencesexcluded"
+  },
+  "budget": {
+    "authority": "UserlatestCHECKPOINT-CLOSURE-01; no claimAalreadyexecutedextension",
+    "prior_cumulative_cap": 1200,
+    "approved_cumulative_cap": 1800,
+    "additional_not_reset": 600,
+    "recorded_consumed_CPU": 1000.166,
+    "old_recorded_remaining": 199.834,
+    "new_recorded_remaining": 799.834,
+    "required_retention_final_checks_reserve": 120,
+    "recorded_remainder_after_reserve_ceiling": 679.834,
+    "limitation": "UnmeteredtailafteroriginalCPU sampleandqualificationoverheadunknown; notcompletemeasuredend-to-endCPU",
+    "allowed_use": "RepairedNFLfixture,onefrozen2026fit,inference,frozenscoring/selection,retention/finalchecks;reuse2025artifacts",
+    "no_new_allowance": "Nonewmodels/parameters/seeds/features/thresholds/search,paidacquisitionorcomputepurchase"
+  },
+  "component_mapping": [
+    {
+      "component": "M1-0direct/structuredcontrols",
+      "status": "REUSED_NOT_RESCORED"
+    },
+    {
+      "component": "M1-1samelearner+14role-statefields",
+      "status": "IMPLEMENTED_PARTIAL;2025retained2026remaining"
+    },
+    {
+      "component": "M1-2projectedvolume/sharelaw",
+      "status": "IMPLEMENTED_UNSCORED;approximateprojection"
+    },
+    {
+      "component": "Historicalpersonnel",
+      "status": "SOURCE_BLOCKED"
+    },
+    {
+      "component": "W8-W9",
+      "status": "SOURCE_OR_QUERY_INPUT_BLOCKED"
+    },
+    {
+      "component": "Rushingyardgain",
+      "status": "DEFERRED_SEPARATE_COMPONENT"
+    }
+  ],
+  "join_reconciliation": {
+    "old_B0_B1_B2_W1_W4": "COMPLETE84OFFERS_PRESERVED;NOT_NEW_M2_GRADES",
+    "new_M2_owner_local_join": "Noexecutionreceiptlocatedincheckedindex/M1report; notglobalabsenceproof",
+    "new_M3_owner_local_join_or_ack": "Noexecutionreceipt/acklocatedincheckedindex/M1report; notglobalabsenceproof"
+  },
+  "admission": {
+    "scope": "PUBLIC_IMPLEMENTATION_RUNTIME_RECEIPT_ONLY",
+    "predictive_score_admitted": false,
+    "private_rows_source_clocks_or_fit_reproduced": false,
+    "peer_ack_or_consumer_receipt": false,
+    "production_activation": false
+  },
+  "next_action": {
+    "executor": "A existing M1 owner",
+    "action": "Apply+600cumulativeextensionwithoutreset; execute repairedNFLmutationonfullteammate/querycontextwithfixedlegitimateidentities/order/denominators andindependentconsumed-design/transformed-inputcheck. Reproducefailedcasewhereavailable; onlyifpassfinishremainingfit/inference/frozenscoring/retentionwithinreserve.",
+    "completion": "ImmutableNFLfixture/result/budgetreceiptwithownO/U/combined,coverage,proper/selection/unknown/fallbackresults; nolawtolerancewaiver",
+    "source": "No newfootballsource requiredforsupportedusage-onlyW1-W7; W8-W9/personnel remainseparate"
+  },
+  "execution": {
+    "fits": 0,
+    "inference": 0,
+    "grading": 0,
+    "joins": 0,
+    "football_source_acquisition": 0,
+    "peer_writes_comments_dispatches": 0,
+    "credentials": 0,
+    "old_records_modified": false,
+    "raw_index_republished": false
+  }
+}

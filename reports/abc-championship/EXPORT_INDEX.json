@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 104383,
-    "SHA256": "d0f550e5428a344b3ad59bc1c4dc2a77bc77fc79e90cef79a9c55f4efeff50df"
+    "bytes": 113468,
+    "SHA256": "8a5eae0279810744261b0dd653b138b2a4b7e70c9193db0c06a9599a61eda60c"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -277,9 +277,9 @@
     "new_actual_prop_outcomes": 0
   },
   "current_execution_report": {
-    "path": "reports/targeted-accuracy-w1w9-01/README.md",
-    "bytes": 24794,
-    "SHA256": "d4cf0362e5281c6ccc131d338a19b5e722ba12f50c2b4d0224dc67907a2762b5"
+    "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+    "bytes": 17457,
+    "SHA256": "0e03289cfe8157dd1f2774f86754b8ace4c1a5187ee1e0331825ca09b90a590c"
   },
   "current_qualification": {
     "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
@@ -1098,9 +1098,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V5.csv.gz",
-      "bytes": 2642428,
-      "SHA256": "4933da96147dd9d2244049c013dcbe75a57275a254e85da66ff9cf3fcd993c8c"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V6.csv.gz",
+      "bytes": 2674654,
+      "SHA256": "d3a7c4ae7a88bc53c52ea0f4865e86267ded0d67394dbacbe01491440018d06a"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1365,9 +1365,9 @@
       "SHA256": "dd6121e56c861f0f39ae7805cc3b72ae8e09397d1633658604c97e09125a923c"
     },
     "coverage_receipt": {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/COMMON_LEDGER_APPEND.json",
-      "bytes": 619,
-      "SHA256": "e9ffcba30f2b9a8a42b7472f3480c8f99bb69a073247dc26cfdf237ae71dbafc"
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 1007,
+      "SHA256": "49cee7c997cc7eeaa49a298a956fbd27b556aaccf59fdc8d95addd6ba4000849"
     }
   },
   "next_generation_information_research_01": {
@@ -1826,9 +1826,9 @@
       "SHA256": "3fd0de16705e445b38c174269ef66a6fa0e0697ef3d93621293f24d21359748b"
     },
     "queue": {
-      "path": "reports/targeted-accuracy-w1w9-01/M3/FINITE_QUEUE.json",
-      "bytes": 6145,
-      "SHA256": "96765d5003a9d7624a6994827a460a13485fab29fcd3d7cfa84d81bf2ef326d5"
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/FINITE_QUEUE.json",
+      "bytes": 7494,
+      "SHA256": "391269b1a74d8bc11dd07ad87df03d3d1c9320f2d56abad95830812ebf1cbc85"
     },
     "typed_handoff": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
@@ -1887,14 +1887,14 @@
     },
     "peer_intake": [
       {
-        "path": "reports/targeted-accuracy-w1w9-01/intake/A_CURRENT_RECEIPT.json",
-        "bytes": 4591,
-        "SHA256": "26ce993beb5647f117b1a6a24cc68646bbf4594f31fc1b2a3f06af15a73b2a9d"
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_RECEIPT.json",
+        "bytes": 7580,
+        "SHA256": "7c091ce2de557ee2b68ec870ee5a2dc4491887b47aeb7e97ba4495ecfc753cf5"
       },
       {
-        "path": "reports/targeted-accuracy-w1w9-01/intake/B_CURRENT_RECEIPT.json",
-        "bytes": 3362,
-        "SHA256": "178bfd13891f7f6b2772fef1bfc27f12954fb36d2e42d8f50b88018628050622"
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_RECEIPT.json",
+        "bytes": 61186,
+        "SHA256": "bfbc79c38b98a2f6772615b08f9d9ff7bf31c8a061241750a7d6044747d5eead"
       }
     ],
     "duration": {
@@ -1956,6 +1956,191 @@
       "path": "reports/targeted-accuracy-w1w9-01/M3/verification/FORMAT_AMENDMENT_REVIEW.json",
       "bytes": 1812,
       "SHA256": "7a1beef8117b3ba8c07a35485e6e0ac456849e9588f4ca96128f0d86ea287ecb"
+    },
+    "checkpoint_closure_01": {
+      "id": "NFL-TARGETED-ACCURACY-W1W9-01-CHECKPOINT-CLOSURE-01-C/v1",
+      "stage": "EXECUTED_C_INTAKE_AND_FROZEN_DELIVERY;M1_OWNER_FIXTURE_PENDING;M2_M3_NEW_OWNER_LOCAL_JOINS_PENDING",
+      "report": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+        "bytes": 17457,
+        "SHA256": "0e03289cfe8157dd1f2774f86754b8ace4c1a5187ee1e0331825ca09b90a590c"
+      },
+      "registration": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/REGISTRATION.json",
+        "bytes": 2303,
+        "SHA256": "79edc07c0a9856c8daee173b9409bbae436606f4f2a287beb7e2c5b03dfe1f87"
+      },
+      "admission": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/ADMISSION_RECEIPT.json",
+        "bytes": 6804,
+        "SHA256": "cfd7083edbca16387f22e85c2db57d8e87bc5c41e549748e932db1f9bf2b2d6b"
+      },
+      "component_mapping": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/COMPONENT_MAPPING.json",
+        "bytes": 8326,
+        "SHA256": "d08e1831aab9477e1a153c612c642e6435d76c5b4e3729e33e453d90e41100a9"
+      },
+      "queue": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/FINITE_QUEUE.json",
+        "bytes": 7494,
+        "SHA256": "391269b1a74d8bc11dd07ad87df03d3d1c9320f2d56abad95830812ebf1cbc85"
+      },
+      "M3_immutable_delivery": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/C_M3_IMMUTABLE_DELIVERY.json",
+        "bytes": 233533,
+        "SHA256": "5e7f66f22bab57764825c4b41f5376c014c5501d7078b86bcf5a2060e2d3d23a"
+      },
+      "A_receipt": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_RECEIPT.json",
+        "bytes": 7580,
+        "SHA256": "7c091ce2de557ee2b68ec870ee5a2dc4491887b47aeb7e97ba4495ecfc753cf5"
+      },
+      "B_receipt": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_RECEIPT.json",
+        "bytes": 61186,
+        "SHA256": "bfbc79c38b98a2f6772615b08f9d9ff7bf31c8a061241750a7d6044747d5eead"
+      },
+      "independent_review": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/verification/INDEPENDENT_INTAKE_REVIEW.json",
+        "bytes": 6178,
+        "SHA256": "6e2887d506c1467bee901f99e226e8280357dbfb107e186db39554d7f9d78978"
+      },
+      "coverage_ledger": {
+        "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V6.csv.gz",
+        "bytes": 2674654,
+        "SHA256": "d3a7c4ae7a88bc53c52ea0f4865e86267ded0d67394dbacbe01491440018d06a"
+      },
+      "ledger_append_receipt": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/LEDGER_APPEND_RECEIPT.json",
+        "bytes": 1007,
+        "SHA256": "49cee7c997cc7eeaa49a298a956fbd27b556aaccf59fdc8d95addd6ba4000849"
+      },
+      "new_joined_actual_line_weeks": [],
+      "new_C_fits": 0,
+      "new_C_grades": 0,
+      "new_original_selections": 0,
+      "production_admission": "NO_NEW_M2_M3_PRIMARY_AUTHORIZATION;OLDER_INDEPENDENT_ELIGIBLE_PRODUCTS_UNBLOCKED",
+      "M1_extra600": "A_cumulative1200_to1800_only; recorded1000.166spent,799.834remainderincl120reserve;unmeteredtailunknown",
+      "verification_scope": "Actualpublicationreceipt/publicarithmetic andCownfrozenoutputs, notprivatepeerfit/roworclockparity",
+      "validation": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/VALIDATION.json",
+        "bytes": 3798,
+        "SHA256": "74ae54bfc0348dc7e02050daf8784b1c5b8149fab6c68668a1b84bf8211b0d42"
+      },
+      "resources": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/RESOURCE_CLOSURE.json",
+        "bytes": 2113,
+        "SHA256": "3703d315e5dc477ee88521d2abb04185c8ab10bbef1ff8eff3685caf850fec15"
+      },
+      "manifest": {
+        "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/MANIFEST.json",
+        "bytes": 4426,
+        "SHA256": "0b9a33998a247d882bf6daf839972efddebfda9079e7fee227ec22094897ffd4"
+      }
+    },
+    "peer_intake_at_original_M3_publication": [
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/intake/A_CURRENT_RECEIPT.json",
+        "bytes": 4591,
+        "SHA256": "26ce993beb5647f117b1a6a24cc68646bbf4594f31fc1b2a3f06af15a73b2a9d"
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/intake/B_CURRENT_RECEIPT.json",
+        "bytes": 3362,
+        "SHA256": "178bfd13891f7f6b2772fef1bfc27f12954fb36d2e42d8f50b88018628050622"
+      }
+    ],
+    "original_M3_queue": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/FINITE_QUEUE.json",
+      "bytes": 6145,
+      "SHA256": "96765d5003a9d7624a6994827a460a13485fab29fcd3d7cfa84d81bf2ef326d5"
+    },
+    "current_checkpoint": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+      "bytes": 17457,
+      "SHA256": "0e03289cfe8157dd1f2774f86754b8ace4c1a5187ee1e0331825ca09b90a590c"
+    },
+    "peer_publication_status": "A775_CHECKPOINT_AND_B11DB_M2_RETRIEVED_ADMITTED_TO_SCOPED_EVIDENCE;NO_NEW_JOINS_RECEIVED"
+  },
+  "targeted_checkpoint_closure_01": {
+    "id": "NFL-TARGETED-ACCURACY-W1W9-01-CHECKPOINT-CLOSURE-01-C/v1",
+    "stage": "EXECUTED_C_INTAKE_AND_FROZEN_DELIVERY;M1_OWNER_FIXTURE_PENDING;M2_M3_NEW_OWNER_LOCAL_JOINS_PENDING",
+    "report": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/README.md",
+      "bytes": 17457,
+      "SHA256": "0e03289cfe8157dd1f2774f86754b8ace4c1a5187ee1e0331825ca09b90a590c"
+    },
+    "registration": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/REGISTRATION.json",
+      "bytes": 2303,
+      "SHA256": "79edc07c0a9856c8daee173b9409bbae436606f4f2a287beb7e2c5b03dfe1f87"
+    },
+    "admission": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/ADMISSION_RECEIPT.json",
+      "bytes": 6804,
+      "SHA256": "cfd7083edbca16387f22e85c2db57d8e87bc5c41e549748e932db1f9bf2b2d6b"
+    },
+    "component_mapping": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/COMPONENT_MAPPING.json",
+      "bytes": 8326,
+      "SHA256": "d08e1831aab9477e1a153c612c642e6435d76c5b4e3729e33e453d90e41100a9"
+    },
+    "queue": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/FINITE_QUEUE.json",
+      "bytes": 7494,
+      "SHA256": "391269b1a74d8bc11dd07ad87df03d3d1c9320f2d56abad95830812ebf1cbc85"
+    },
+    "M3_immutable_delivery": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/C_M3_IMMUTABLE_DELIVERY.json",
+      "bytes": 233533,
+      "SHA256": "5e7f66f22bab57764825c4b41f5376c014c5501d7078b86bcf5a2060e2d3d23a"
+    },
+    "A_receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/A_RECEIPT.json",
+      "bytes": 7580,
+      "SHA256": "7c091ce2de557ee2b68ec870ee5a2dc4491887b47aeb7e97ba4495ecfc753cf5"
+    },
+    "B_receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/intake/B_RECEIPT.json",
+      "bytes": 61186,
+      "SHA256": "bfbc79c38b98a2f6772615b08f9d9ff7bf31c8a061241750a7d6044747d5eead"
+    },
+    "independent_review": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/verification/INDEPENDENT_INTAKE_REVIEW.json",
+      "bytes": 6178,
+      "SHA256": "6e2887d506c1467bee901f99e226e8280357dbfb107e186db39554d7f9d78978"
+    },
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V6.csv.gz",
+      "bytes": 2674654,
+      "SHA256": "d3a7c4ae7a88bc53c52ea0f4865e86267ded0d67394dbacbe01491440018d06a"
+    },
+    "ledger_append_receipt": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 1007,
+      "SHA256": "49cee7c997cc7eeaa49a298a956fbd27b556aaccf59fdc8d95addd6ba4000849"
+    },
+    "new_joined_actual_line_weeks": [],
+    "new_C_fits": 0,
+    "new_C_grades": 0,
+    "new_original_selections": 0,
+    "production_admission": "NO_NEW_M2_M3_PRIMARY_AUTHORIZATION;OLDER_INDEPENDENT_ELIGIBLE_PRODUCTS_UNBLOCKED",
+    "M1_extra600": "A_cumulative1200_to1800_only; recorded1000.166spent,799.834remainderincl120reserve;unmeteredtailunknown",
+    "verification_scope": "Actualpublicationreceipt/publicarithmetic andCownfrozenoutputs, notprivatepeerfit/roworclockparity",
+    "validation": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/VALIDATION.json",
+      "bytes": 3798,
+      "SHA256": "74ae54bfc0348dc7e02050daf8784b1c5b8149fab6c68668a1b84bf8211b0d42"
+    },
+    "resources": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/RESOURCE_CLOSURE.json",
+      "bytes": 2113,
+      "SHA256": "3703d315e5dc477ee88521d2abb04185c8ab10bbef1ff8eff3685caf850fec15"
+    },
+    "manifest": {
+      "path": "reports/targeted-accuracy-w1w9-01/checkpoint-closure-01/MANIFEST.json",
+      "bytes": 4426,
+      "SHA256": "0b9a33998a247d882bf6daf839972efddebfda9079e7fee227ec22094897ffd4"
     }
   }
 }
