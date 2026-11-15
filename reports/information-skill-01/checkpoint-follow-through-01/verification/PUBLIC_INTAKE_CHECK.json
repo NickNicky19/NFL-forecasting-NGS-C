@@ -1,0 +1,79 @@
+{
+  "id": "C-INFORMATION-SKILL-FOLLOWTHROUGH-PUBLIC-INTAKE-CHECK-v1",
+  "checked_UTC": "2026-11-15T20:46:53.135958+00:00",
+  "status": "PASS_PUBLIC_ARITHMETIC_BINDINGS_AND_FAILURE_PRESERVATION",
+  "checks": [
+    {
+      "name": "A_ACTUAL_BODY_AND_OLD_AGGREGATES_AND_SINGLE_EXTENSION",
+      "status": "PASS",
+      "Git_blob": "eea2c9772056f115198fa23c2ff9c4adb17a8306",
+      "old_grade_triads": 8,
+      "new_M3_worker_grades": 0,
+      "recorded_spent": "830.968258",
+      "cumulative_cap": "1260",
+      "headroom_including_reserves": "429.031742",
+      "worker_ceiling_before_reserves": "289.031742",
+      "scope": "Public receipt/budget arithmetic; not private row, source clock or model parity."
+    },
+    {
+      "name": "B_EXACT_PUBLIC_BODIES_AND_NATIVE_OWN_COUNTS",
+      "status": "PASS",
+      "source_files": 4,
+      "own_side_records": 72,
+      "week_sum_products": 12,
+      "actual_line_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided": 142,
+      "new_early_information_grades": "NOT_ESTABLISHED_IN_RECEIVED_SCOPE",
+      "scope": "Exact received public aggregate rows and arithmetic; not independent raw grading/membership."
+    },
+    {
+      "name": "B_STRICT_FIT_STATUS_AND_CHECKED_SCOPE",
+      "status": "PASS_STATUS_PRESERVATION",
+      "C1_reproduction": "FAILED",
+      "C1_coefficient_delta": 0.0006729079367610719,
+      "C1_probability_delta": 0.00015077291959575412,
+      "original_tolerances": {
+        "coefficient_absolute": 1e-05,
+        "prediction_absolute": 1e-07,
+        "objective_absolute": 1e-06,
+        "objective_relative": 1e-10
+      },
+      "independent_full_C1_beta": "NOT_RETAINED",
+      "numerical_termination": "PLAUSIBLE_NOT_PROVED",
+      "mixers": "PASS_REPORTED_COMPARISONS",
+      "saved_laws_and_integer_arithmetic": "PASS_SEPARATE_SCOPE",
+      "additional_optimizer_calls": 0,
+      "downstream_C1_parity": "NOT_ESTABLISHED"
+    }
+  ],
+  "personnel_source": {
+    "state": "FILE_RECEIVED_FOR_SEPARATE_SCOPE_REVIEW",
+    "file": "reports/information-skill-01/checkpoint-follow-through-01/PERSONNEL_SOURCE_DISPOSITION.json",
+    "SHA256": "57727f5834ca3f5231df09a9f8019ce01cc2cd8e82f64217a533d361333780ee"
+  },
+  "source_receipts": [
+    {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+      "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+    },
+    {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+      "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
+    }
+  ],
+  "scope": "Independent C public arithmetic/binding/status review only. No private rows, source vintages, model restoration or fit reproduction newly inspected.",
+  "resources": {
+    "CPU_seconds": 0.010609989,
+    "RSS_bytes": 12058624,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_grades": 0,
+    "new_source_calls": 0
+  }
+}

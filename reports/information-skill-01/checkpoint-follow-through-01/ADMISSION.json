@@ -1,0 +1,3238 @@
+{
+  "id": "C-INFORMATION-SKILL-FOLLOW-THROUGH-ADMISSION-v1",
+  "recorded_UTC": "2026-11-15T20:58:45.668635+00:00",
+  "coordinator": "C",
+  "prior_C57_records_preserved": true,
+  "actual_source_receipts": {
+    "A": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+      "bytes": 77908,
+      "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+    },
+    "B": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+      "bytes": 92191,
+      "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
+    }
+  },
+  "A": {
+    "actual_head": "49ff55bfaee3ae0a9213d2f3a34c45468c7e5a45",
+    "source_report": {
+      "path": "reports/abc-championship/targeted-checkpoint-closure-01/A/EXECUTED_CHECKPOINT_CLOSURE_AND_INFORMATION_PRIORITY_V1.md",
+      "ref": "49ff55bfaee3ae0a9213d2f3a34c45468c7e5a45",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/49ff55bfaee3ae0a9213d2f3a34c45468c7e5a45/reports/abc-championship/targeted-checkpoint-closure-01/A/EXECUTED_CHECKPOINT_CLOSURE_AND_INFORMATION_PRIORITY_V1.md"
+    },
+    "frozen_M3_state": "SOURCE_ADMISSION_DURABLE_PROOF_AND_A_RESEARCH_CONSUMPTION_RECEIVED;SCORING_WORKER_NOT_LAUNCHED_IN_RETRIEVED_CHECKPOINT",
+    "reported_C_bodies_received": 7,
+    "typed_new_arm_rows_matched": 7900,
+    "C_research_consumer_ack": "OWNER_REPORTED_ACTUAL_RECEIPT_AND_OUTPUT_MATCH;NOT_WEBSITE_CONSUMPTION",
+    "raw_grades_received": false,
+    "selective_results_received": false,
+    "new_C_offer_scored_weeks": [],
+    "single_user_budget_authority": {
+      "old_cap_CPU": 900,
+      "new_cumulative_cap_CPU": 1260,
+      "increment_CPU": 360,
+      "recorded_consumption_carried": 830.968258,
+      "recorded_headroom_including_reserves": 429.031742,
+      "retention_reserve_CPU": 120,
+      "reporting_reserve_CPU": 20,
+      "recorded_worker_ceiling_before_reserves": 289.031742,
+      "source_report_previous_not_approved_wording": "SUPERSEDED_BY_CURRENT_USER_AUTHORITY;AUTHORIZED_RESUMPTION_PENDING",
+      "limitations": "Qualification/launcher overhead and original limitations not a complete measured total; carries both failed data attempts, relative-path launch failure, source preflight/containment; not guaranteed sufficient headroom.",
+      "duplicate_receipt_additional_allowance": 0,
+      "M1_and_new_B_C_experiments_funded": false
+    },
+    "old_M1_and_M2": "Previously admitted completed findings retained; old M2 W1\u20139 226 cases do not score new INFO products.",
+    "new_B_information_early_join": "NOT_ESTABLISHED_IN_RETRIEVED_A_REPORT;SEPARATE_EXACT_PRODUCT_AND_ACCOUNTING",
+    "new_C_information_join": "NOT_ESTABLISHED;not funded by M3 extension",
+    "final_pointer_result": "UNCHANGED49ff55;no newer publication retrieved. No claim about unreported active runtime."
+  },
+  "B": {
+    "actual_head": "17f4497cd377d543401fc7eaf50db967c9e45f76",
+    "scientific_producer": "78383a9d29948b90056415c2274a83d6054acf79",
+    "procedure_identity": {
+      "experiment": "INFORMATION-SKILL-01_B_expected_conversion_pass_mix_v1",
+      "models": {
+        "SKILL_C0": "Exact unchanged C2 conditional conversion/static shrunkQBmix/fixed COMMON_EXPOSURE attempts",
+        "SKILL_C1": "Same conversion learner+team/opponent context-choice logratios; static mix",
+        "SKILL_R0": "Original information+conversion and regularized multinomial mixer",
+        "SKILL_R1": "Augmented conversion+same enriched mixer"
+      },
+      "fixed_attempt_law": true,
+      "output_rules": {
+        "P1_MEAN": "Use saved mean, strict >lineOVER,<lineUNDER, equalityABSTAIN; no implied probability or confidence.",
+        "P1_LOWER_MEDIAN": "Use saved lower_median, strict crossing; distinct product.",
+        "P2_STATISTICAL_LAW": "Restore trusted declared gamma-Poisson completion law, exact CDF masses, compare pOver/pUnder strictly; equalABSTAIN, integerpush retained."
+      },
+      "history": "Previousseason+earliercurrentlabels; expanding2022featurememory; own8/teamdef16; strict reconstructedavailable=kickoff+7days<cutoff; weeklyfitbeforefirstgame and pergamequerybeforekickoff. Sourcevintagelimits explicit.",
+      "role": "Canonical QB; conditional historical stat-row panel, not authenticated pregame roster",
+      "source_tier": "Exposeddevelopment,current-vintage7daystrictavailabilityproxy;quoteclocks/main-altunclassified;conditionalstat-rowqueriesnotauthhistoricalpregameroster. No receiverpersonnel/alignment source supplied.",
+      "new_personnel_or_alignment_source": false
+    },
+    "coverage": {
+      "numerical_2026_weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "queries": 315,
+      "actual_line_2026_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "offers": 142,
+      "games": 71,
+      "unknown_outcomes": 0,
+      "technical_unavailable_forecasts": 0,
+      "parent_fallback_selected_perarm": 1,
+      "new_prior_season_test_periods": [],
+      "new_original_selections": 0,
+      "new_future_packets": 0
+    },
+    "own_records": [
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 9,
+          "losses": 12,
+          "decided": 21,
+          "rate": 0.42857142857142855,
+          "selected": 21
+        },
+        "UNDER": {
+          "wins": 59,
+          "losses": 62,
+          "decided": 121,
+          "rate": 0.48760330578512395,
+          "selected": 121
+        },
+        "COMBINED": {
+          "wins": 68,
+          "losses": 74,
+          "decided": 142,
+          "rate": 0.4788732394366197,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 1,
+          "decided": 3,
+          "rate": 0.6666666666666666,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 13,
+          "losses": 12,
+          "decided": 25,
+          "rate": 0.52,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 13,
+          "decided": 24,
+          "rate": 0.4583333333333333,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 13,
+          "losses": 15,
+          "decided": 28,
+          "rate": 0.4642857142857143,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 3,
+          "decided": 4,
+          "rate": 0.25,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 10,
+          "decided": 24,
+          "rate": 0.5833333333333334,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 5,
+          "decided": 8,
+          "rate": 0.375,
+          "selected": 8
+        },
+        "UNDER": {
+          "wins": 12,
+          "losses": 10,
+          "decided": 22,
+          "rate": 0.5454545454545454,
+          "selected": 22
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 15,
+          "decided": 30,
+          "rate": 0.5,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "MEDIAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C0",
+        "policy": "LAW",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 9,
+          "losses": 12,
+          "decided": 21,
+          "rate": 0.42857142857142855,
+          "selected": 21
+        },
+        "UNDER": {
+          "wins": 59,
+          "losses": 62,
+          "decided": 121,
+          "rate": 0.48760330578512395,
+          "selected": 121
+        },
+        "COMBINED": {
+          "wins": 68,
+          "losses": 74,
+          "decided": 142,
+          "rate": 0.4788732394366197,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 1,
+          "decided": 3,
+          "rate": 0.6666666666666666,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 13,
+          "losses": 12,
+          "decided": 25,
+          "rate": 0.52,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 13,
+          "decided": 24,
+          "rate": 0.4583333333333333,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 13,
+          "losses": 15,
+          "decided": 28,
+          "rate": 0.4642857142857143,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 3,
+          "decided": 4,
+          "rate": 0.25,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 10,
+          "decided": 24,
+          "rate": 0.5833333333333334,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 5,
+          "decided": 8,
+          "rate": 0.375,
+          "selected": 8
+        },
+        "UNDER": {
+          "wins": 12,
+          "losses": 10,
+          "decided": 22,
+          "rate": 0.5454545454545454,
+          "selected": 22
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 15,
+          "decided": 30,
+          "rate": 0.5,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "MEDIAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_C1",
+        "policy": "LAW",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 10,
+          "losses": 9,
+          "decided": 19,
+          "rate": 0.5263157894736842,
+          "selected": 19
+        },
+        "UNDER": {
+          "wins": 62,
+          "losses": 61,
+          "decided": 123,
+          "rate": 0.5040650406504065,
+          "selected": 123
+        },
+        "COMBINED": {
+          "wins": 72,
+          "losses": 70,
+          "decided": 142,
+          "rate": 0.5070422535211268,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 0,
+          "decided": 3,
+          "rate": 1.0,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 13,
+          "decided": 24,
+          "rate": 0.4583333333333333,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 13,
+          "losses": 15,
+          "decided": 28,
+          "rate": 0.4642857142857143,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 5,
+          "decided": 8,
+          "rate": 0.375,
+          "selected": 8
+        },
+        "UNDER": {
+          "wins": 12,
+          "losses": 10,
+          "decided": 22,
+          "rate": 0.5454545454545454,
+          "selected": 22
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 15,
+          "decided": 30,
+          "rate": 0.5,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "MEDIAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R0",
+        "policy": "LAW",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 10,
+          "losses": 9,
+          "decided": 19,
+          "rate": 0.5263157894736842,
+          "selected": 19
+        },
+        "UNDER": {
+          "wins": 62,
+          "losses": 61,
+          "decided": 123,
+          "rate": 0.5040650406504065,
+          "selected": 123
+        },
+        "COMBINED": {
+          "wins": 72,
+          "losses": 70,
+          "decided": 142,
+          "rate": 0.5070422535211268,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 0,
+          "decided": 3,
+          "rate": 1.0,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 2,
+          "decided": 4,
+          "rate": 0.5,
+          "selected": 4
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 13,
+          "decided": 24,
+          "rate": 0.4583333333333333,
+          "selected": 24
+        },
+        "COMBINED": {
+          "wins": 13,
+          "losses": 15,
+          "decided": 28,
+          "rate": 0.4642857142857143,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 3,
+          "losses": 5,
+          "decided": 8,
+          "rate": 0.375,
+          "selected": 8
+        },
+        "UNDER": {
+          "wins": 12,
+          "losses": 10,
+          "decided": 22,
+          "rate": 0.5454545454545454,
+          "selected": 22
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 15,
+          "decided": 30,
+          "rate": 0.5,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "MEDIAN",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "ALL",
+        "eligible": 142,
+        "available": 142,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 6,
+          "losses": 7,
+          "decided": 13,
+          "rate": 0.46153846153846156,
+          "selected": 13
+        },
+        "UNDER": {
+          "wins": 64,
+          "losses": 65,
+          "decided": 129,
+          "rate": 0.49612403100775193,
+          "selected": 129
+        },
+        "COMBINED": {
+          "wins": 70,
+          "losses": 72,
+          "decided": 142,
+          "rate": 0.49295774647887325,
+          "selected": 142
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "5",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 0,
+          "decided": 1,
+          "rate": 1.0,
+          "selected": 1
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 13,
+          "decided": 27,
+          "rate": 0.5185185185185185,
+          "selected": 27
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "6",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 17,
+          "decided": 26,
+          "rate": 0.34615384615384615,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 10,
+          "losses": 18,
+          "decided": 28,
+          "rate": 0.35714285714285715,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "7",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 2,
+          "decided": 3,
+          "rate": 0.3333333333333333,
+          "selected": 3
+        },
+        "UNDER": {
+          "wins": 11,
+          "losses": 14,
+          "decided": 25,
+          "rate": 0.44,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 12,
+          "losses": 16,
+          "decided": 28,
+          "rate": 0.42857142857142855,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "8",
+        "eligible": 28,
+        "available": 28,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 1,
+          "losses": 1,
+          "decided": 2,
+          "rate": 0.5,
+          "selected": 2
+        },
+        "UNDER": {
+          "wins": 16,
+          "losses": 10,
+          "decided": 26,
+          "rate": 0.6153846153846154,
+          "selected": 26
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571,
+          "selected": 28
+        }
+      },
+      {
+        "method": "SKILL_R1",
+        "policy": "LAW",
+        "window": "9",
+        "eligible": 30,
+        "available": 30,
+        "unknown": 0,
+        "abstentions": 0,
+        "pushes": 0,
+        "OVER": {
+          "wins": 2,
+          "losses": 3,
+          "decided": 5,
+          "rate": 0.4,
+          "selected": 5
+        },
+        "UNDER": {
+          "wins": 14,
+          "losses": 11,
+          "decided": 25,
+          "rate": 0.56,
+          "selected": 25
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 14,
+          "decided": 30,
+          "rate": 0.5333333333333333,
+          "selected": 30
+        }
+      }
+    ],
+    "proper_and_numeric_metrics_ownerreported": {
+      "SKILL_C0": {
+        "offered_mean_MAE": 5.011569,
+        "Brier": 0.281558,
+        "event_log_loss": 0.76269
+      },
+      "SKILL_C1": {
+        "offered_mean_MAE": 5.010532,
+        "Brier": 0.28151,
+        "event_log_loss": 0.762561
+      },
+      "SKILL_R0": {
+        "offered_mean_MAE": 4.991067,
+        "Brier": 0.280354,
+        "event_log_loss": 0.760417
+      },
+      "SKILL_R1": {
+        "offered_mean_MAE": 4.999834,
+        "Brier": 0.280869,
+        "event_log_loss": 0.761584
+      }
+    },
+    "controls": {
+      "B0_mean": {
+        "wins": 76,
+        "losses": 66,
+        "decided": 142
+      },
+      "B0_law": {
+        "wins": 73,
+        "losses": 69,
+        "decided": 142
+      },
+      "B2_law": {
+        "wins": 75,
+        "losses": 67,
+        "decided": 142
+      },
+      "always_OVER": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142
+      },
+      "always_UNDER": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142
+      },
+      "qualified_exact_incumbent_or_independent_price": "Not supplied; no reconstruction from revised projections"
+    },
+    "component_ownerreported": {
+      "context_crossentropy_per_attempt_C0": 2.440905,
+      "R0": 2.409988,
+      "R1": 2.408416,
+      "conditional_conversion_logloss_original": 0.620973,
+      "enriched": 0.621049,
+      "fixed_attempt_mean_MAE": 7.178027,
+      "mean_absolute_workload_completion_term_approx": 4.62,
+      "mean_absolute_conversion_term_range": [
+        2.33,
+        2.36
+      ],
+      "interpretation": "Absolute terms do not add and are not causal percentages. Actual-attempt substitution is explicitly nondeployable postgame diagnostic; no improved attempt forecast tested."
+    },
+    "selected_policies_ownerreported": [
+      {
+        "policy": "capacity50",
+        "method": "SKILL_C0",
+        "wins": 33,
+        "losses": 38,
+        "decided": 71,
+        "rate": 0.4647887323943662,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity50",
+        "method": "SKILL_C1",
+        "wins": 33,
+        "losses": 38,
+        "decided": 71,
+        "rate": 0.4647887323943662,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity50",
+        "method": "SKILL_R0",
+        "wins": 34,
+        "losses": 37,
+        "decided": 71,
+        "rate": 0.4788732394366197,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity50",
+        "method": "SKILL_R1",
+        "wins": 34,
+        "losses": 37,
+        "decided": 71,
+        "rate": 0.4788732394366197,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity25",
+        "method": "SKILL_C0",
+        "wins": 15,
+        "losses": 20,
+        "decided": 35,
+        "rate": 0.42857142857142855,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity25",
+        "method": "SKILL_C1",
+        "wins": 15,
+        "losses": 20,
+        "decided": 35,
+        "rate": 0.42857142857142855,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity25",
+        "method": "SKILL_R0",
+        "wins": 13,
+        "losses": 22,
+        "decided": 35,
+        "rate": 0.37142857142857144,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity25",
+        "method": "SKILL_R1",
+        "wins": 12,
+        "losses": 23,
+        "decided": 35,
+        "rate": 0.34285714285714286,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity10",
+        "method": "SKILL_C0",
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity10",
+        "method": "SKILL_C1",
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity10",
+        "method": "SKILL_R0",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "capacity10",
+        "method": "SKILL_R1",
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top6",
+        "method": "SKILL_C0",
+        "wins": 11,
+        "losses": 19,
+        "decided": 30,
+        "rate": 0.36666666666666664,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top6",
+        "method": "SKILL_C1",
+        "wins": 11,
+        "losses": 19,
+        "decided": 30,
+        "rate": 0.36666666666666664,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top6",
+        "method": "SKILL_R0",
+        "wins": 11,
+        "losses": 19,
+        "decided": 30,
+        "rate": 0.36666666666666664,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top6",
+        "method": "SKILL_R1",
+        "wins": 10,
+        "losses": 20,
+        "decided": 30,
+        "rate": 0.3333333333333333,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top10",
+        "method": "SKILL_C0",
+        "wins": 21,
+        "losses": 29,
+        "decided": 50,
+        "rate": 0.42,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top10",
+        "method": "SKILL_C1",
+        "wins": 21,
+        "losses": 29,
+        "decided": 50,
+        "rate": 0.42,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top10",
+        "method": "SKILL_R0",
+        "wins": 21,
+        "losses": 29,
+        "decided": 50,
+        "rate": 0.42,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top10",
+        "method": "SKILL_R1",
+        "wins": 21,
+        "losses": 29,
+        "decided": 50,
+        "rate": 0.42,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top20",
+        "method": "SKILL_C0",
+        "wins": 52,
+        "losses": 48,
+        "decided": 100,
+        "rate": 0.52,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top20",
+        "method": "SKILL_C1",
+        "wins": 52,
+        "losses": 48,
+        "decided": 100,
+        "rate": 0.52,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top20",
+        "method": "SKILL_R0",
+        "wins": 52,
+        "losses": 48,
+        "decided": 100,
+        "rate": 0.52,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "Top20",
+        "method": "SKILL_R1",
+        "wins": 52,
+        "losses": 48,
+        "decided": 100,
+        "rate": 0.52,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP75",
+        "method": "SKILL_C0",
+        "wins": 5,
+        "losses": 5,
+        "decided": 10,
+        "rate": 0.5,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP75",
+        "method": "SKILL_C1",
+        "wins": 5,
+        "losses": 5,
+        "decided": 10,
+        "rate": 0.5,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP75",
+        "method": "SKILL_R0",
+        "wins": 5,
+        "losses": 5,
+        "decided": 10,
+        "rate": 0.5,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP75",
+        "method": "SKILL_R1",
+        "wins": 4,
+        "losses": 5,
+        "decided": 9,
+        "rate": 0.4444444444444444,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP80",
+        "method": "SKILL_C0",
+        "wins": 2,
+        "losses": 3,
+        "decided": 5,
+        "rate": 0.4,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP80",
+        "method": "SKILL_C1",
+        "wins": 2,
+        "losses": 3,
+        "decided": 5,
+        "rate": 0.4,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP80",
+        "method": "SKILL_R0",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP80",
+        "method": "SKILL_R1",
+        "wins": 2,
+        "losses": 2,
+        "decided": 4,
+        "rate": 0.5,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP90",
+        "method": "SKILL_C0",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP90",
+        "method": "SKILL_C1",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP90",
+        "method": "SKILL_R0",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      },
+      {
+        "policy": "RawP90",
+        "method": "SKILL_R1",
+        "wins": 1,
+        "losses": 0,
+        "decided": 1,
+        "rate": 1.0,
+        "source": "Published rounded/summary README own-list counts, not independent private membership replay"
+      }
+    ],
+    "selection_limit": "Own chosen lists at original fixed capacity/raw thresholds, not side grades on another policy list. 10percentcapacity7/11 is63.64%, actualcoverage11/142=7.75%. RawP90 one winningUnder inW5, zeroW6-9; not useful highaccuracy confirmation. Detailed own-list overlap and all19 raw/calibrated policies remain ownerbound; not fetched/recomputed by C.",
+    "strict_reproduction": {
+      "status": "FAILED_PRESERVED_NO_AUTOMATIC_RETRY",
+      "all_fit_comparisons_passed": false,
+      "C1": {
+        "source_SHA256": "77947c501e597c53d3f0b57d7a5a6bc0595b76a43b223c72cf02f05ce1d8ac67",
+        "training_membership_match": true,
+        "training_rows": 664,
+        "coefficient_max_absolute_difference": 0.0006729079367610719,
+        "query_probability_max_absolute_difference": 0.00015077291959575412,
+        "objective_difference": 2.98073427984491e-06,
+        "independent_success": true,
+        "tolerance_pass": false,
+        "consumed_new_value_columns": [
+          {
+            "name": "team_context_choice_logratio",
+            "training_nonzero": 6130,
+            "value_min": -3.3310277316898205,
+            "value_max": 3.042471755498192,
+            "source_fitted_coefficient": -0.061713564711726156,
+            "independent_fitted_coefficient": -0.06170763921760344
+          },
+          {
+            "name": "opponent_adjusted_context_choice_logratio",
+            "training_nonzero": 6130,
+            "value_min": -2.3699006472574218,
+            "value_max": 1.4309697710666816,
+            "source_fitted_coefficient": -0.04620921639176889,
+            "independent_fitted_coefficient": -0.04621793289312992
+          }
+        ]
+      },
+      "C1_tolerances": {
+        "coefficient_absolute": 1e-05,
+        "prediction_absolute": 1e-07,
+        "objective_absolute": 1e-06,
+        "objective_relative": 1e-10
+      },
+      "mixers": [
+        {
+          "slot": "2026-W01-R0",
+          "comparison": {
+            "source_SHA256": "b519a3f4b846de26da41c57efbb2e329af50143d471fa74b0eaed636c9128720",
+            "training_membership_match": true,
+            "coefficient_max_absolute_difference": 1.3002932064409833e-12,
+            "query_probability_max_absolute_difference": 5.717648576819556e-14,
+            "scalar_vector_max_absolute_difference": 5.551115123125783e-17,
+            "objective_difference": 0.0,
+            "tolerance_pass": true,
+            "named_feature_coefficients": {
+              "log_static_QB_mix_over_league_mix": -0.8074901621506165
+            },
+            "consumed_feature_nonzero_counts": {
+              "log_static_QB_mix_over_league_mix": 15985
+            }
+          }
+        },
+        {
+          "slot": "2026-W01-R1",
+          "comparison": {
+            "source_SHA256": "b792e7ce6e74e70654bc78cc7a130cc3fad0256d26091484fcfaa9ed02ba8ff5",
+            "training_membership_match": true,
+            "coefficient_max_absolute_difference": 1.7304511990001714e-11,
+            "query_probability_max_absolute_difference": 3.051447983182243e-13,
+            "scalar_vector_max_absolute_difference": 1.1102230246251565e-16,
+            "objective_difference": 0.0,
+            "tolerance_pass": true,
+            "named_feature_coefficients": {
+              "log_static_QB_mix_over_league_mix": -0.6980492710675663,
+              "team_context_choice_logratio": 0.20294727783368796,
+              "opponent_adjusted_context_choice_logratio": 0.18371493719391446
+            },
+            "consumed_feature_nonzero_counts": {
+              "log_static_QB_mix_over_league_mix": 15985,
+              "team_context_choice_logratio": 16600,
+              "opponent_adjusted_context_choice_logratio": 16600
+            }
+          }
+        }
+      ],
+      "no_retry": true,
+      "diagnosis": {
+        "UTC": "2026-11-15T15:12:50.992518+00:00",
+        "source_training_rows": 664,
+        "observed_context_rows": 6130,
+        "training_attempts": 17412,
+        "membership_equal": true,
+        "full_design_max_difference": 0.0,
+        "labels_equal": true,
+        "penalty_exact_equality": true,
+        "objective_probes": [
+          {
+            "beta": "native",
+            "native_loss": 10631.779187442875,
+            "objective_difference": 0.0,
+            "gradient_max_difference": 1.418198891656175e-12,
+            "native_or_probe_gradient_infinity_norm": 0.36579705529760476
+          },
+          {
+            "beta": "zero_probe",
+            "native_loss": 12069.078707909764,
+            "objective_difference": 0.0,
+            "gradient_max_difference": 2.3646862246096134e-11,
+            "native_or_probe_gradient_infinity_norm": 10996.019729369049
+          },
+          {
+            "beta": "native_plus_fixed_probe",
+            "native_loss": 10631.77918748872,
+            "objective_difference": 0.0,
+            "gradient_max_difference": 1.326272425217212e-12,
+            "native_or_probe_gradient_infinity_norm": 0.17802728181719002
+          }
+        ],
+        "native_fit_optimization": {
+          "success": true,
+          "iterations": 126,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "finite": true,
+          "training_context_rows": 6130,
+          "training_attempts": 17412
+        },
+        "optimizer_calls": 0,
+        "verdict": "Both objective/gradient calculations agree at nativebeta and two fixedprobes; no design/label/penalty mismatch found. Numericaltermination sensitivity is plausible, not proved at both betas. Strict coefficient/prediction parity FAILED and remains failed.",
+        "independent_full_beta_retention_limitation": "Independent full C1 beta was not persisted before originalprocess exit. Saved comparisonmaxima/newslopes remain; bothbeta evaluation and independent fullW1forecast restoration unavailable within0morefitcalls. No parameter reconstruction invented.",
+        "independent_W1_forecast_scope": "Only previously measured maxconditionalprobabilitydifference0.00015077291959575412 on37W1queries; no actualearlylines graded.",
+        "preserved_followup_failure": {
+          "error": "Verifier TypeError on explicit emptygroup nullwins/null-losses; source N/A valid, verification now skips empty contributions without rewriting source.",
+          "observed_shell_wall_seconds": 5.648369499,
+          "CPU_seconds": null,
+          "optimizer_calls": 0
+        }
+      },
+      "measured_fit_resource": {
+        "CPU_seconds": 5.798395010999999,
+        "wall_seconds": 5.80435673899774,
+        "peak_RSS_bytes": 217919488
+      },
+      "saved_law_checks": {
+        "rows_checked": 1260,
+        "unique_queries": 315,
+        "all9origins": true,
+        "parent_attempt_bindings_identical": true,
+        "finite": true,
+        "nonnegative_min_mass": 8.127517990920367e-14,
+        "max_tail_bounded_mass_error": 1.000310945187266e-12,
+        "CDF_monotone": true,
+        "max_mean_difference": 0.0,
+        "max_joint_attempt_mass_error": 4.85722573273506e-17,
+        "max_push_or_total_mass_error": 4.676814491233472e-15,
+        "threshold_contract": "Exact integerpush/halfpoint no push; lower median; no actual offers accessed.",
+        "coherent_support": "Explicit A~NB and C|A~Binomial construction; C>A mass0, attempted marginal mass preserved.",
+        "numerical_mass_tolerance": 2e-11,
+        "forecast_file_SHA256": {
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W01.json.gz": "ac6ec3ac7183dda337f8d06cab77bedac7bb1d84e359ff4423c09894ebf93cd8",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W02.json.gz": "ca3f6a17710e1f54fd815de822766731d7303a242150adc4c4370fd7bf942611",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W03.json.gz": "262bc33eb8cc3d5b26f982e67b44b5e5938966000576aa2da9a287a105b58611",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W04.json.gz": "a08d80a61dcd02c041da94dd7c6b004b5668b03884d40f2a1e48f709750bfc65",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W05.json.gz": "3a6813184e6cd23aba5eed77681911b87925503dfed8401085d950053a3f15fa",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W06.json.gz": "5f450db3ab6f7d36326809b1352a48a315469245354195ef09c47f63b9895e18",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W07.json.gz": "52cc46d300f1c2acf52e7cc91301da1dfa40c39e9ab3b4abe60dd44b38fe40e1",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W08.json.gz": "2f0d0f0e327ca37b272d90c919cadcdcd546310f9a6d2fd372e33567831b6c56",
+          "reports/information-skill-01/B/wave-v1/predictions/2026-W09.json.gz": "f520a481cef4759ee5b5c064de5a5d9bf2cc35c506d630c0ba906819f46ac307"
+        },
+        "all_passed": true
+      },
+      "aggregate_arithmetic_scope": {
+        "UTC": "2026-11-15T15:12:51.315526+00:00",
+        "scope": "Independent aggregate counts, ownside/weightedrates, weeklysums/proper-scoreweighting, reliability-counts, displayedmembershipcommitments and originalcapsuledecodedbytes. attribution belongs to full available population; fallback_selected/fallback_fraction belong to selections. No protectedrow/sourceclock/actualoutcome or membershipreconstruction claim.",
+        "canonical_records": 1390,
+        "main_rows": 258,
+        "selective_rows": 1140,
+        "probability_rows": 120,
+        "broad_numeric_rows": 160,
+        "file_hashes": {
+          "MAIN_TABLES_V1.json.gz": {
+            "bytes": 71788,
+            "SHA256": "d1b92a67479238c709ab3cbbde2d2a8e2e5636a4ed69b50fd50cb64610678d5c"
+          },
+          "SELECTIVE_TABLES_V1.json.gz": {
+            "bytes": 267728,
+            "SHA256": "2abc6e199163dd45923c49d7d5a93b2d12f4d930a9805d1b9d9537c7b05af577"
+          },
+          "PROBABILITY_TABLES_V1.json.gz": {
+            "bytes": 24642,
+            "SHA256": "eda79ddb80189c51dbff23e1ba27f14e684ed2ac238ca448e5438041bb09e94f"
+          },
+          "BROAD_NUMERICAL_TABLES_V1.json.gz": {
+            "bytes": 13609,
+            "SHA256": "53afcceb599262c1432fcb46c1fa3ec47e94d687365cd5a1fb8b81267d265a5f"
+          },
+          "MEMBERSHIP_COMMITMENTS_V1.json": {
+            "bytes": 29381,
+            "SHA256": "893cd27ef8f131c232aecdab70a7dfe1791efd72f5ce0f88622887551bec2090"
+          },
+          "SCORES.json": {
+            "bytes": 5212808,
+            "SHA256": "8f0d1f5daf9c7385b6743a115f3025ec997d4ff352bb4f65a31479896665dbaf"
+          }
+        },
+        "optimizer_calls": 0,
+        "new_grading_runs": 0,
+        "strict_fit_failure_unchanged": true,
+        "corrected_verifier_scope_UTC": "2026-11-15T15:13:48.669767+00:00",
+        "source_contract": "reports/targeted-accuracy-w1w9-01/B/evaluation/score_m2_v1.py line199: attribution Counter over rr; fallback_selected over selected. Scientific source and1390records unchanged.",
+        "failures": [],
+        "failure_count": 0,
+        "all_passed": true,
+        "science_rows_changed": 0,
+        "fits": 0
+      },
+      "scope_warning": "C1 strict fit failure is not repaired by savedlaw/arithmetic/CI PASS. Independent fullbeta absent, no downstream parity reconstructed. Numerical termination plausible, not proved; no evidence all losses stem from this discrepancy."
+    },
+    "historical_handoff": {
+      "immutable_commit": "78383a9d29948b90056415c2274a83d6054acf79",
+      "artifact": {
+        "kind": "handoff",
+        "repository": "NickNicky19/NFL-forecasting-V2",
+        "immutable_commit": "78383a9d29948b90056415c2274a83d6054acf79",
+        "path": "reports/information-skill-01/B/HISTORICAL_TYPED_HANDOFF_V1.json",
+        "url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/HISTORICAL_TYPED_HANDOFF_V1.json",
+        "bytes": 10594,
+        "SHA256": "bbaeb3cf44656142c8eb406148e119352f2e90778f6f8405a6445ab72e62f6b9",
+        "Git_blob": "53fd222299e24485125291c8419c37e9835642b7",
+        "local_lossless_gzip": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_INFORMATION_SKILL_HANDOFF.json.gz",
+        "gzip_bytes": 3748,
+        "gzip_SHA256": "6fa428d885e8198d0648ed3d2d69ea59b71f609848adfdb7673f55af1af3ef37"
+      },
+      "adapter": {
+        "path": "tools/query_targeted_qb_m2.py",
+        "producer_commit": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/11db6280f8af4ae215f15ebbcc26c3a891db27f1/tools/query_targeted_qb_m2.py",
+        "sha256": "bf213c1ab3a08728603f13e66b48737daa15a5a74465a374586c017adb3f68d8",
+        "reuse": "Generic method argument supports these saved-row methods; no new grader or ranker. Caller qualifies actual offers/outcomes/clocks and preserves private output outside publicGit."
+      },
+      "forecast_bindings": [
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W01.json.gz",
+          "sha256": "ac6ec3ac7183dda337f8d06cab77bedac7bb1d84e359ff4423c09894ebf93cd8",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W01.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W02.json.gz",
+          "sha256": "ca3f6a17710e1f54fd815de822766731d7303a242150adc4c4370fd7bf942611",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W02.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W03.json.gz",
+          "sha256": "262bc33eb8cc3d5b26f982e67b44b5e5938966000576aa2da9a287a105b58611",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W03.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W04.json.gz",
+          "sha256": "a08d80a61dcd02c041da94dd7c6b004b5668b03884d40f2a1e48f709750bfc65",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W04.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W05.json.gz",
+          "sha256": "3a6813184e6cd23aba5eed77681911b87925503dfed8401085d950053a3f15fa",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W05.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W06.json.gz",
+          "sha256": "5f450db3ab6f7d36326809b1352a48a315469245354195ef09c47f63b9895e18",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W06.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W07.json.gz",
+          "sha256": "52cc46d300f1c2acf52e7cc91301da1dfa40c39e9ab3b4abe60dd44b38fe40e1",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W07.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W08.json.gz",
+          "sha256": "2f0d0f0e327ca37b272d90c919cadcdcd546310f9a6d2fd372e33567831b6c56",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W08.json.gz"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/predictions/2026-W09.json.gz",
+          "sha256": "f520a481cef4759ee5b5c064de5a5d9bf2cc35c506d630c0ba906819f46ac307",
+          "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/78383a9d29948b90056415c2274a83d6054acf79/reports/information-skill-01/B/wave-v1/predictions/2026-W09.json.gz"
+        }
+      ],
+      "model_bindings": [
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W01-C1.json.gz",
+          "bytes": 1842,
+          "sha256": "77947c501e597c53d3f0b57d7a5a6bc0595b76a43b223c72cf02f05ce1d8ac67"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W01-R0.json.gz",
+          "bytes": 744,
+          "sha256": "b519a3f4b846de26da41c57efbb2e329af50143d471fa74b0eaed636c9128720"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W01-R1.json.gz",
+          "bytes": 798,
+          "sha256": "b792e7ce6e74e70654bc78cc7a130cc3fad0256d26091484fcfaa9ed02ba8ff5"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W02-C1.json.gz",
+          "bytes": 1837,
+          "sha256": "27830275486b53c6b56aac9d27c9d396d57c65b7676ca008bdd4e695b7800424"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W02-R0.json.gz",
+          "bytes": 740,
+          "sha256": "e30c06985e9417014165aea5e92b7aa47dfcd9b0526179257216a65a25c08fce"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W02-R1.json.gz",
+          "bytes": 793,
+          "sha256": "7761ab20d3d7bb9f13d88fdb0a491c9d81e971866c0a5e96a4219210765feaf2"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W03-C1.json.gz",
+          "bytes": 1845,
+          "sha256": "db691d2537e8062df5dab128e280baab5b0178138a438ac6fb588bd88dee8579"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W03-R0.json.gz",
+          "bytes": 751,
+          "sha256": "0a5d63923fb5821efb083b60a03f5c033da775d01530cd9fc3a7ced2d13347ae"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W03-R1.json.gz",
+          "bytes": 797,
+          "sha256": "21492fa70a3dd32d611bccfb9fc767a739c4811ac4d2f0acc7ab7d7cc8344d63"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W04-C1.json.gz",
+          "bytes": 1845,
+          "sha256": "f15a7521284e012fb7b45c8a4e66b967792ba7b5233c7a732f9c6a9d8e677408"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W04-R0.json.gz",
+          "bytes": 743,
+          "sha256": "1481bf641901d4ea1212797f43f5218c26d79a7ea3494916c2c290a336f5cdd0"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W04-R1.json.gz",
+          "bytes": 796,
+          "sha256": "ad44a37f855428b13dca1934cc41af6bdae6dc6487553fe5d3b58234890c59c0"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W05-C1.json.gz",
+          "bytes": 1841,
+          "sha256": "1a27a2bcc0af98a64a3a3e0909629acdd15d09f16fc738970ba396b21806525c"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W05-R0.json.gz",
+          "bytes": 743,
+          "sha256": "476ae226013b4991fcd3b127e5a30c18c315c473a625236551ee1bc2d5da403f"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W05-R1.json.gz",
+          "bytes": 801,
+          "sha256": "71283c52fa584c554c70e25c64372351bcd0f0e9a90a90ad973e2570a80e763f"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W06-C1.json.gz",
+          "bytes": 1852,
+          "sha256": "eaff5f8fbd18362e7d4254133efa5090a4837e90fed66b0233929d293f65814e"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W06-R0.json.gz",
+          "bytes": 749,
+          "sha256": "3c8ce3cc46888a00b5c382cab9f4af9ce190d4c28575214be5a9da25598a8514"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W06-R1.json.gz",
+          "bytes": 802,
+          "sha256": "0534928af7f98e914095cf177f6e23e7245d3125ee5cd0a0a8bfdf771b17c27f"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W07-C1.json.gz",
+          "bytes": 1849,
+          "sha256": "57c0e5c8047f0cad3ea945b092698ddd2f546048d980178fb315e8d2d0a4cb9e"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W07-R0.json.gz",
+          "bytes": 753,
+          "sha256": "6d591d9562947536ddd070da18478b211ffa7d0e4cc44fc13b29b03877d1de97"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W07-R1.json.gz",
+          "bytes": 799,
+          "sha256": "38c54d080746034f9b1017133beeda19254c0c0aa827025e8513060f6fc78a8c"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W08-C1.json.gz",
+          "bytes": 1843,
+          "sha256": "a890344de170021a1ceaab014c0d1755a4faae1838c938e318e76d8ad5fcc482"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W08-R0.json.gz",
+          "bytes": 751,
+          "sha256": "6c53cfe4feffeac2099bc07cad27de583830cb6932f5f93360da20aa76bdb240"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W08-R1.json.gz",
+          "bytes": 800,
+          "sha256": "8b3b17e1d41c776ae56b8e2fcdbeee2d322dfdf5acaa1c7f908ef5401b3e82b6"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W09-C1.json.gz",
+          "bytes": 1843,
+          "sha256": "fce78a6a1736cbf92d1a6bf6d935ac82881111b8e37d55b66f9f59f2b80d6e47"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W09-R0.json.gz",
+          "bytes": 741,
+          "sha256": "1e7e2846d1ea203ffbee9af14d950124729b63ed13aa48708dcf7061f175d5fd"
+        },
+        {
+          "path": "reports/information-skill-01/B/wave-v1/fits/2026-W09-R1.json.gz",
+          "bytes": 794,
+          "sha256": "4c4232415912c1713adf7dafff51c7f190d709edb4d80a41d3d1c29461a860ad"
+        }
+      ],
+      "role_and_fallback": "One retained no-own-history parentprior on nativepanel,0newfitfallbacks. Registered optimizationfailure uses typedparentfallback; unsupportedcurrent source/role requires explicitUNAVAILABLE or admittedconsumerfallback, not zeros/forcedpicks."
+    },
+    "new_early_information_product_join": {
+      "state_in_retrieved_B_receipt": "W1_W4_A_OWNER_LOCAL_JOIN_PENDING;NOT_THE_COMPLETED_OLD_M2_JOIN",
+      "evidence": "README atscientific78383 and final receipt16:05UTC stillnativeW5-9only; currenthead17f449 contains no newearlyINFOgrade receipt. This is a B-publication snapshot, not global absence/inactivity proof; superseding A receipt may resolve.",
+      "executor": "A protected owner-local join",
+      "minimum_action": "Use exact78383 frozen SKILL_C0/C1/R0/R1 savedoutputs and generic11db adapter for qualifying84W1\u20134offers under own taskbudget; independently verify permitted results; do not re-fit or use C M3+360grant."
+    },
+    "new_attempt_opportunity_test": {
+      "state": "NOT_ESTABLISHED_IN_RETRIEVED_PUBLICATION",
+      "scope": "CurrentBhead contains closed throwmix comparison and fixedattempt law; no new qualified opportunity experiment/hypothesis execution retrieved. This does not exclude unreported legitimate active work.",
+      "executor": "B",
+      "minimum_action": "Reconcile retained attempt studies and source-qualified distinct opportunity block, freeze conversion, register finite ownbudget if executable; no variance/offset/gate repeat."
+    },
+    "decisions": {
+      "C1_new_block": "CLOSE_RECIPE_NO_GAIN_DIRECTION;NUMERICAL_INCONCLUSIVE;STRICT_FIT_REPRODUCTION_FAILED",
+      "R0_learned_original_mix": "SHADOW_RESEARCH_MEAN_AND_PROBABILITY;LAW_SIDES_UNCHANGED;STRONG_B0_B2_STILL_BETTER",
+      "R1_added_block_over_R0": "CLOSE_RECIPE_NO_GAIN_INCREMENT",
+      "useful70_80_selective": "TARGET_NOT_ESTABLISHED;7/11at10percentcapacity=7.75percentactualcoverage;P90oneUnderwinoneweeknotusefulconfirmation",
+      "new_primary_release": "NONE"
+    },
+    "admission_scope": "C actually retrieved immutable public report, handoff, failed-fit receipt, final delivery and current commit metadata; admission limited to public integer arithmetic and owner-reported scientific/verification scope. No B model/private raw offer access, independent C fit, original quote-clock or whole-row parity."
+  },
+  "C": {
+    "existing_information_values": "Law14disagreements,7wins perarm,0net; scalar consumed, not unused-feature result. Mean+1vs support but ties parent. Existing small mixed numerical/probability effects preserved.",
+    "unchanged_report": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/d967615497fc7695575de6a9a4f070c796052dee/reports/information-skill-01/README.md",
+    "frozen_M3_delivery": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/d662c16a3d2a5ae13640860e38d4d1e044234c5e/reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
+    "newer_information_delivery": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/blob/d967615497fc7695575de6a9a4f070c796052dee/reports/information-skill-01/HISTORICAL_TYPED_HANDOFF.json",
+    "budget_identities_not_interchangeable": true
+  },
+  "personnel_source_disposition": {
+    "path": "reports/information-skill-01/checkpoint-follow-through-01/PERSONNEL_SOURCE_DISPOSITION.json",
+    "bytes": 28165,
+    "SHA256": "57727f5834ca3f5231df09a9f8019ce01cc2cd8e82f64217a533d361333780ee"
+  },
+  "independent_public_check": {
+    "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PUBLIC_INTAKE_CHECK.json",
+    "bytes": 2969,
+    "SHA256": "d2d7be6b1739797b441cd833a0dea3c10c0a430861eb14c7a62a926bbf4db75b"
+  },
+  "verification_limit": "Actual retrieved public reports/bindings and public integer arithmetic; not protected A rows, B fit restoration, independent model parity or historical source clocks. Rounded proper scores remain ownerreported.",
+  "C05_grading": {
+    "state": "SOURCE_FINALITY_AND_SCHEDULE_QUALIFIED;STOP_AT_ORDINARY_PLAYER_FACTS;NO_OUTCOMES_OR_GRADES",
+    "source_checkpoint": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+      "bytes": 3608,
+      "SHA256": "23d3dddf9da5651edcd3f60cbab9d38bcbbcd9bea7c67a4aeb9449ce89762b98"
+    },
+    "resources": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/PROCESS_RESOURCE.json",
+      "bytes": 679,
+      "SHA256": "a6b9cb46b0df2e03b5d3625753a509b5dc06747bafebe840dfa752d021c2fdab"
+    },
+    "native_event": "401873053",
+    "canonical_game": "2026_10_NE_DET",
+    "native_final_observed_UTC": "2026-11-15T20:53:09.425828+00:00",
+    "final_score": "DET35_NE10",
+    "schedule_identity_time_score_match": true,
+    "observed_stats_version_exact_game_season_week_rows": 0,
+    "stats_source_SHA256": "90befdf33b7dc9e92a840d86a73149b759b601842ff5e86257dc653d34de7cac",
+    "stats_observed_UTC": "2026-11-15T20:53:10.919723+00:00",
+    "stats_HTTP_Age_seconds": 5118,
+    "original_forecast_rows": 69,
+    "unique_players": 23,
+    "original_packet_hashes_unchanged": true,
+    "forecast_only_grades": 0,
+    "outcome_packet": null,
+    "new_original_picks": 0,
+    "new_current_feed": false,
+    "source_attempts": 3,
+    "response_bytes": 2972271,
+    "full_child_CPU_seconds": 3.613394,
+    "minimum_next_artifact": "Qualified new ordinary-player-facts version for exact2026_10_NE_DET/REG/2026W10 with real observation clocks and explicit presence/components, then append-only C-OUTCOMES-v4 and existinggrade_run. No retry/poll in this exhausted3-request operation.",
+    "publication_and_final_status_not_predictive_grade": true,
+    "exact_stop": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+      "bytes": 4196,
+      "SHA256": "97517f719f74c8ebdca31efbcb3658ece100c0abd5ec13e681933974e0c62762"
+    },
+    "scope_note": "Native finality observed; schedule compatibility program-checked before third source. No raw schedule row was retained after stop, so no independent raw-response schedule reproduction claimed.",
+    "pre_attempt_personnel_C05_status": "Historical snapshot superseded forward only as to current finality; its source observations and original packet hashes remain unchanged."
+  },
+  "new_C_research_fits": 0,
+  "new_C_research_inference": 0,
+  "new_C_research_offer_grades": 0,
+  "new_original_selected_sides": 0,
+  "new_primary_activation": false,
+  "source_collection_for_metadata": 0,
+  "all_old_versions_losses_and_failures_preserved": true,
+  "final_A_pointer_refresh": {
+    "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_FINAL_REFRESH.json",
+    "bytes": 3508,
+    "SHA256": "c251f8f8e1a1723799d2fd50217d097b1ef191a2a6edf3e3444b5a492d245bc0"
+  }
+}

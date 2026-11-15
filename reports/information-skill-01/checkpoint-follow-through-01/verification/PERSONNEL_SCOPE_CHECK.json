@@ -1,0 +1,40 @@
+{
+  "id": "C-FOLLOWTHROUGH-PERSONNEL-SCOPE-CHECK-v1",
+  "checked_UTC": "2026-11-15T20:48:23.789291+00:00",
+  "status": "PASS_RETAINED_BINDINGS_AND_SCOPE",
+  "source_file": "reports/information-skill-01/checkpoint-follow-through-01/PERSONNEL_SOURCE_DISPOSITION.json",
+  "source_SHA256": "57727f5834ca3f5231df09a9f8019ce01cc2cd8e82f64217a533d361333780ee",
+  "checked_C_binding_count": 17,
+  "checked_C_paths": [
+    "prospective/receipts/C-C05-NEDET-FIRST-01-server.json",
+    "prospective/runs/C-C05-NEDET-FIRST-01/FORECASTS.json.xz",
+    "prospective/runs/C-C05-NEDET-FIRST-01/RUN.json",
+    "reports/interception-history-closure-01/B-intake/B_NEXT_GENERATION_CHECKPOINT_V1.md",
+    "reports/interception-history-closure-01/B-intake/NEXT_GEN_PUBLICATION_MEMBERS_V1.json",
+    "reports/interception-history-closure-01/personnel/GITHUB_PERSISTENCE.json",
+    "reports/next-generation-information-01/feasibility/personnel-source/ACTUAL_COVERAGE.json",
+    "reports/next-generation-information-01/feasibility/personnel-source/FEASIBILITY.json",
+    "reports/next-generation-information-01/feasibility/personnel-source/RETAINED_VINTAGE_COMPARISON.json",
+    "reports/player-context-matchup-01/SOURCE_METADATA.zip",
+    "reports/player-context-matchup-01/SOURCE_METADATA_INDEX.json",
+    "reports/wave-closure-next-valid-01/C-shadow-grading/GRADING_RECEIPT.json",
+    "reports/wave-closure-next-valid-01/personnel/GITHUB_PERSISTENCE.json",
+    "reports/wave-closure-next-valid-01/personnel/QUALIFICATION.json",
+    "sources/wave-closure-next-valid-01-personnel/DET_ROSTER_FACTS.json",
+    "sources/wave-closure-next-valid-01-personnel/NE_ROSTER_FACTS.json",
+    "sources/wave-closure-next-valid-01-personnel/SOURCE_MANIFEST.json"
+  ],
+  "exact_archived_document_member": true,
+  "prior_B_depth_history": "OWNER_REPORTED_CURRENT_VINTAGE_ALREADY_TESTED;RAW_HISTORY_NOT_NEWLY_INSPECTED_BY_C",
+  "historical_personnel": "SOURCE_BLOCKED_ARCHIVED_AVAILABILITY_AND_COMPLETE_EVENT_UNIVERSE",
+  "current_roster": "FROZEN_OBSERVED_164_ROWS;PAST_RETAINED_EVENT_CUTOFF;NOT_HEALTH_OR_STARTS",
+  "C05": "69_ORIGINAL_FORECAST_ONLY_ROWS_PRESERVED;FINAL_EVIDENCE_MISSING_IN_CHECKED_LOCAL_SCOPE",
+  "scope": "Local retained-byte and classification review, not new provider/source-clock validation or outcome collection.",
+  "resources": {
+    "CPU_seconds": 0.003225260999999993,
+    "RSS_bytes": 11141120,
+    "new_network": 0,
+    "new_fits": 0,
+    "new_grades": 0
+  }
+}

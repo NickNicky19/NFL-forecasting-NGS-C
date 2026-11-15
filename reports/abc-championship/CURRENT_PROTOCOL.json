@@ -60,13 +60,13 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 6126,
-    "SHA256": "006817689c7dfbe10b543b841c7d1fd503dfb9cc0cbf2570c84d2aae4cd0a85f"
+    "bytes": 6928,
+    "SHA256": "1ea114cbcf65c7e83de456825496cdfe2da67fd7c8e3087ffbf9af3c9aa1627a"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 39496,
-    "SHA256": "816e870e53198de160c5f0e5ab3e7d5e7e5f79568553d6387086a998b10a11d6"
+    "bytes": 44257,
+    "SHA256": "b8cf21e0e76d10cd666e420e5bb762e979bae5335c98aa26f0292948c74dcc49"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -1259,7 +1259,13 @@
       "path": "reports/profile-timing-closure-confirm-01/PUBLICATION_CLOSURE.json",
       "SHA256": "85dae0a5f36b5b223e04ff6140f746801406c1b9e5efac805717510400c6b2e0"
     },
-    "served_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a"
+    "served_commit": "fdbb7556ae90152b76f00ee43cfbad46f8f8b24a",
+    "C05_grading_checkpoint": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+      "bytes": 4196,
+      "SHA256": "97517f719f74c8ebdca31efbcb3658ece100c0abd5ec13e681933974e0c62762"
+    },
+    "current_C05_state": "PREGAME_PACKET_PRESERVED;POSTGAME_FINALITY_QUALIFIED;ORDINARY_PLAYER_FACTS_MISSING;NO_CURRENT_REISSUE"
   },
   "category_decision_release_01": {
     "id": "NFL-CATEGORY-DECISION-AND-RELEASE-01-C/v1",
@@ -1335,9 +1341,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V7.csv.gz",
-      "bytes": 2718112,
-      "SHA256": "651eb13dbfe55e8f91cd13ed3da0a4bcbc2ced71e69f7a169c7ec7a7f4c916ad"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V8.csv.gz",
+      "bytes": 2751898,
+      "SHA256": "ffea1b60525061e93f8f0f51eed950c598eaa7b385e6f1ed50a19ec020958e13"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1602,9 +1608,9 @@
       "SHA256": "dd6121e56c861f0f39ae7805cc3b72ae8e09397d1633658604c97e09125a923c"
     },
     "coverage_receipt": {
-      "path": "reports/information-skill-01/LEDGER_APPEND_RECEIPT.json",
-      "bytes": 911,
-      "SHA256": "ac4c4223c6a232688647cb162af9f10c64943da5d309af58998f1c6207449324"
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 958,
+      "SHA256": "b673775f791998e6b3a5602c45eff4429a30c6a92435a55bb19978624a175c03"
     }
   },
   "next_generation_information_research_01": {
@@ -2063,9 +2069,9 @@
       "SHA256": "3fd0de16705e445b38c174269ef66a6fa0e0697ef3d93621293f24d21359748b"
     },
     "queue": {
-      "path": "reports/information-skill-01/FINITE_QUEUE.json",
-      "bytes": 7015,
-      "SHA256": "dea335e77681c79433e7eddb8cc0f3e75f430277f72a42457aba6f8599263951"
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/FINITE_QUEUE.json",
+      "bytes": 8414,
+      "SHA256": "e19b7fef03f672b398b31e30dbdfd502bd57f132744ef0c1374921db63973df4"
     },
     "typed_handoff": {
       "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
@@ -2391,11 +2397,17 @@
       "SHA256": "96765d5003a9d7624a6994827a460a13485fab29fcd3d7cfa84d81bf2ef326d5"
     },
     "current_checkpoint": {
-      "path": "reports/information-skill-01/README.md",
-      "bytes": 23382,
-      "SHA256": "ebc4ae7466b83d9b47f66bd4dbf6b548b33bb0edc91c56addcd2f80551310a1a"
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+      "bytes": 21341,
+      "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
     },
-    "peer_publication_status": "NEWER_A_B_PUBLIC_RECEIPTS_ADMITTED;M1_AND_NEW_M2_JOIN_COMPLETE;NO_DUPLICATE_EXECUTION;PRIVATE_PARITY_LIMITS_RETAINED"
+    "peer_publication_status": "NEWER_A_B_PUBLIC_RECEIPTS_ADMITTED;M1_AND_NEW_M2_JOIN_COMPLETE;NO_DUPLICATE_EXECUTION;PRIVATE_PARITY_LIMITS_RETAINED",
+    "A_frozen_M3_consumer_receipt": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+      "bytes": 77908,
+      "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+    },
+    "A_frozen_M3_join_state": "SOURCE_ADMISSION_AND_TYPED_OUTPUT_RECEIPT_COMPLETE;SCORING_WORKER_AUTHORIZED_PENDING;1260SINGLE_CAP"
   },
   "targeted_checkpoint_closure_01": {
     "id": "NFL-TARGETED-ACCURACY-W1W9-01-CHECKPOINT-CLOSURE-01-C/v1",
@@ -2559,9 +2571,9 @@
       }
     },
     "current_checkpoint": {
-      "path": "reports/information-skill-01/README.md",
-      "bytes": 23382,
-      "SHA256": "ebc4ae7466b83d9b47f66bd4dbf6b548b33bb0edc91c56addcd2f80551310a1a"
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+      "bytes": 21341,
+      "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
     },
     "superseding_admission": {
       "path": "reports/information-skill-01/intake/ADMISSION.json",
@@ -2574,7 +2586,8 @@
       2,
       3,
       4
-    ]
+    ],
+    "current_M3_owner_state": "SOURCE_ADMISSION_AND_TYPED_OUTPUT_RECEIPT_COMPLETE;SCORING_WORKER_AUTHORIZED_PENDING;1260SINGLE_CAP"
   },
   "information_skill_01": {
     "report": {
@@ -2749,6 +2762,333 @@
       "path": "reports/information-skill-01/SOURCE_QUALIFICATION.json",
       "bytes": 5304,
       "SHA256": "745f230e64e5d8b6ae07464b90c2d85ab9ceffbbc045bdf5afb91025df0425db"
+    },
+    "follow_through_checkpoint": {
+      "report": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+        "bytes": 21341,
+        "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
+      },
+      "registration": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/REGISTRATION.json",
+        "bytes": 2220,
+        "SHA256": "c9d67f998a2f20a3039e8697c1f773366c3e306806afdc2918e2dc92468738f9"
+      },
+      "admission": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/ADMISSION.json",
+        "bytes": 95960,
+        "SHA256": "f6deb1b1e45a0a60a2a6e1fe5f82cafc7d36f15eed2e939d9991f5bef3c6939c"
+      },
+      "queue": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/FINITE_QUEUE.json",
+        "bytes": 8414,
+        "SHA256": "e19b7fef03f672b398b31e30dbdfd502bd57f132744ef0c1374921db63973df4"
+      },
+      "personnel_source": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/PERSONNEL_SOURCE_DISPOSITION.json",
+        "bytes": 28165,
+        "SHA256": "57727f5834ca3f5231df09a9f8019ce01cc2cd8e82f64217a533d361333780ee"
+      },
+      "A_receipt": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+        "bytes": 77908,
+        "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+      },
+      "A_final_refresh": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_FINAL_REFRESH.json",
+        "bytes": 3508,
+        "SHA256": "c251f8f8e1a1723799d2fd50217d097b1ef191a2a6edf3e3444b5a492d245bc0"
+      },
+      "B_receipt": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+        "bytes": 92191,
+        "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
+      },
+      "B_exact_handoff": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_INFORMATION_SKILL_HANDOFF.json.gz",
+        "bytes": 3748,
+        "SHA256": "6fa428d885e8198d0648ed3d2d69ea59b71f609848adfdb7673f55af1af3ef37"
+      },
+      "B_strict_reproduction": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_FIT_REPRODUCTION.json.gz",
+        "bytes": 7794,
+        "SHA256": "db04a3ffcbdac2a4d8934952c6df12e0ee109fcb093ed7095b1a7a5de93a2560"
+      },
+      "public_verification": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PUBLIC_INTAKE_CHECK.json",
+        "bytes": 2969,
+        "SHA256": "d2d7be6b1739797b441cd833a0dea3c10c0a430861eb14c7a62a926bbf4db75b"
+      },
+      "personnel_verification": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PERSONNEL_SCOPE_CHECK.json",
+        "bytes": 2450,
+        "SHA256": "ac7b8db8dd781b9715b5f3d5dc93519d0aed03e2aee09acb9427e46677cd4baa"
+      },
+      "C05_checkpoint_verification": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/C05_CHECKPOINT_CHECK.json",
+        "bytes": 2160,
+        "SHA256": "cb0e70001085faf2547d6581400e2ec06c931a96ad0db0673fd0cbff95d3e4ee"
+      },
+      "C05_registration": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/REGISTRATION.json",
+        "bytes": 2455,
+        "SHA256": "04df104ad86ac29e7849f4faa0b2df5ca9020d51f0485e10fd312e656cfe28b5"
+      },
+      "C05_source_status": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+        "bytes": 3608,
+        "SHA256": "23d3dddf9da5651edcd3f60cbab9d38bcbbcd9bea7c67a4aeb9449ce89762b98"
+      },
+      "C05_exact_stop": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+        "bytes": 4196,
+        "SHA256": "97517f719f74c8ebdca31efbcb3658ece100c0abd5ec13e681933974e0c62762"
+      },
+      "C05_process_resource": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/PROCESS_RESOURCE.json",
+        "bytes": 679,
+        "SHA256": "a6b9cb46b0df2e03b5d3625753a509b5dc06747bafebe840dfa752d021c2fdab"
+      },
+      "coverage_append": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/LEDGER_APPEND_RECEIPT.json",
+        "bytes": 958,
+        "SHA256": "b673775f791998e6b3a5602c45eff4429a30c6a92435a55bb19978624a175c03"
+      },
+      "id": "INFORMATION-SKILL-01-CHECKPOINT-FOLLOW-THROUGH-01-C/v1",
+      "stage": "C_INTAKE_EXECUTED;A_M3_WORKER_AUTHORIZED_PENDING;NEW_B_INFO_EARLY_PENDING;C05_PLAYER_FACTS_SOURCE_STOP",
+      "coverage_ledger": {
+        "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V8.csv.gz",
+        "bytes": 2751898,
+        "SHA256": "ffea1b60525061e93f8f0f51eed950c598eaa7b385e6f1ed50a19ec020958e13"
+      },
+      "new_C_fits": 0,
+      "new_C_forecasts": 0,
+      "new_original_picks": 0,
+      "new_M3_offer_grades_received": 0,
+      "new_B_early_information_grades_received": 0,
+      "B_new_information_actual_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "C_frozen_M3_actual_weeks": [
+        2,
+        3
+      ],
+      "C_new_information_actual_weeks": [
+        2,
+        3
+      ],
+      "A_join_CPU_grant": {
+        "previous_cap": 900,
+        "cap": 1260,
+        "single_increment": 360,
+        "grant_id": "CHECKPOINT-FOLLOW-THROUGH-01_A_FROZEN_C_M3_SINGLE_GRANT",
+        "recorded_spent": 830.968258,
+        "recorded_headroom_including_reserves": 429.031742,
+        "retention_reserve": 120,
+        "reporting_reserve": 20,
+        "recorded_before_reserves_ceiling": 289.031742,
+        "unknown_overhead_preserved": true,
+        "no_transfer_to_M1_or_new_information": true
+      },
+      "B_C1_reproduction": "FAILED;no retry or full independent coefficient vector parity",
+      "B_R0": "RESEARCH_SHADOW;limited component/mean gains, strong controls remain",
+      "B_R1": "CLOSE_RECIPE_NO_GAIN_ENRICHED_BLOCK",
+      "historical_personnel": "SOURCE_BLOCKED_AUTHENTIC_VINTAGE_AND_FULL_EVENT_EFFECTIVE_UNIVERSE;depth_dt_current_vintage_equivalent_already_tested",
+      "C05": "FINALITY_AND_SCHEDULE_QUALIFIED;PLAYER_FACT_ROWS_ABSENT;NO_GRADES",
+      "C_value_recipe": "CLOSED;14law disagreements7each;not unusedfeature",
+      "primary_activation": false,
+      "owner_boundaries_unchanged": true,
+      "resource_closure": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/RESOURCE_CLOSURE.json",
+        "bytes": 2562,
+        "SHA256": "29cbd189399e8d9925e07930d4e5e29950944c8e317509fac7dd82fc55ecaf1a"
+      },
+      "validation": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/VALIDATION.json",
+        "bytes": 2338,
+        "SHA256": "f3aa12165165a7d0bc803ec2df6fa3fa7e8641807e711f4944d648f3aceb6ff6"
+      },
+      "sealed_manifest": {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/MANIFEST.json",
+        "bytes": 6763,
+        "SHA256": "9ded52e4a20ad44fef3953e27ef7d90a0402e3b64433d6b42b50f031b13f2b2a"
+      }
+    },
+    "current_checkpoint": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+      "bytes": 21341,
+      "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
+    },
+    "current_peer_intake": [
+      {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+        "bytes": 77908,
+        "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+      },
+      {
+        "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+        "bytes": 92191,
+        "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
+      }
+    ]
+  },
+  "information_skill_follow_through_01": {
+    "report": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
+      "bytes": 21341,
+      "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
+    },
+    "registration": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/REGISTRATION.json",
+      "bytes": 2220,
+      "SHA256": "c9d67f998a2f20a3039e8697c1f773366c3e306806afdc2918e2dc92468738f9"
+    },
+    "admission": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/ADMISSION.json",
+      "bytes": 95960,
+      "SHA256": "f6deb1b1e45a0a60a2a6e1fe5f82cafc7d36f15eed2e939d9991f5bef3c6939c"
+    },
+    "queue": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/FINITE_QUEUE.json",
+      "bytes": 8414,
+      "SHA256": "e19b7fef03f672b398b31e30dbdfd502bd57f132744ef0c1374921db63973df4"
+    },
+    "personnel_source": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/PERSONNEL_SOURCE_DISPOSITION.json",
+      "bytes": 28165,
+      "SHA256": "57727f5834ca3f5231df09a9f8019ce01cc2cd8e82f64217a533d361333780ee"
+    },
+    "A_receipt": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
+      "bytes": 77908,
+      "SHA256": "122eec87a2b1f6374a26ebc36e82563ba833727149437e08e8aeea0787e71964"
+    },
+    "A_final_refresh": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_FINAL_REFRESH.json",
+      "bytes": 3508,
+      "SHA256": "c251f8f8e1a1723799d2fd50217d097b1ef191a2a6edf3e3444b5a492d245bc0"
+    },
+    "B_receipt": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+      "bytes": 92191,
+      "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
+    },
+    "B_exact_handoff": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_INFORMATION_SKILL_HANDOFF.json.gz",
+      "bytes": 3748,
+      "SHA256": "6fa428d885e8198d0648ed3d2d69ea59b71f609848adfdb7673f55af1af3ef37"
+    },
+    "B_strict_reproduction": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_FIT_REPRODUCTION.json.gz",
+      "bytes": 7794,
+      "SHA256": "db04a3ffcbdac2a4d8934952c6df12e0ee109fcb093ed7095b1a7a5de93a2560"
+    },
+    "public_verification": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PUBLIC_INTAKE_CHECK.json",
+      "bytes": 2969,
+      "SHA256": "d2d7be6b1739797b441cd833a0dea3c10c0a430861eb14c7a62a926bbf4db75b"
+    },
+    "personnel_verification": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/PERSONNEL_SCOPE_CHECK.json",
+      "bytes": 2450,
+      "SHA256": "ac7b8db8dd781b9715b5f3d5dc93519d0aed03e2aee09acb9427e46677cd4baa"
+    },
+    "C05_checkpoint_verification": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/verification/C05_CHECKPOINT_CHECK.json",
+      "bytes": 2160,
+      "SHA256": "cb0e70001085faf2547d6581400e2ec06c931a96ad0db0673fd0cbff95d3e4ee"
+    },
+    "C05_registration": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/REGISTRATION.json",
+      "bytes": 2455,
+      "SHA256": "04df104ad86ac29e7849f4faa0b2df5ca9020d51f0485e10fd312e656cfe28b5"
+    },
+    "C05_source_status": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+      "bytes": 3608,
+      "SHA256": "23d3dddf9da5651edcd3f60cbab9d38bcbbcd9bea7c67a4aeb9449ce89762b98"
+    },
+    "C05_exact_stop": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+      "bytes": 4196,
+      "SHA256": "97517f719f74c8ebdca31efbcb3658ece100c0abd5ec13e681933974e0c62762"
+    },
+    "C05_process_resource": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/PROCESS_RESOURCE.json",
+      "bytes": 679,
+      "SHA256": "a6b9cb46b0df2e03b5d3625753a509b5dc06747bafebe840dfa752d021c2fdab"
+    },
+    "coverage_append": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 958,
+      "SHA256": "b673775f791998e6b3a5602c45eff4429a30c6a92435a55bb19978624a175c03"
+    },
+    "id": "INFORMATION-SKILL-01-CHECKPOINT-FOLLOW-THROUGH-01-C/v1",
+    "stage": "C_INTAKE_EXECUTED;A_M3_WORKER_AUTHORIZED_PENDING;NEW_B_INFO_EARLY_PENDING;C05_PLAYER_FACTS_SOURCE_STOP",
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V8.csv.gz",
+      "bytes": 2751898,
+      "SHA256": "ffea1b60525061e93f8f0f51eed950c598eaa7b385e6f1ed50a19ec020958e13"
+    },
+    "new_C_fits": 0,
+    "new_C_forecasts": 0,
+    "new_original_picks": 0,
+    "new_M3_offer_grades_received": 0,
+    "new_B_early_information_grades_received": 0,
+    "B_new_information_actual_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "C_frozen_M3_actual_weeks": [
+      2,
+      3
+    ],
+    "C_new_information_actual_weeks": [
+      2,
+      3
+    ],
+    "A_join_CPU_grant": {
+      "previous_cap": 900,
+      "cap": 1260,
+      "single_increment": 360,
+      "grant_id": "CHECKPOINT-FOLLOW-THROUGH-01_A_FROZEN_C_M3_SINGLE_GRANT",
+      "recorded_spent": 830.968258,
+      "recorded_headroom_including_reserves": 429.031742,
+      "retention_reserve": 120,
+      "reporting_reserve": 20,
+      "recorded_before_reserves_ceiling": 289.031742,
+      "unknown_overhead_preserved": true,
+      "no_transfer_to_M1_or_new_information": true
+    },
+    "B_C1_reproduction": "FAILED;no retry or full independent coefficient vector parity",
+    "B_R0": "RESEARCH_SHADOW;limited component/mean gains, strong controls remain",
+    "B_R1": "CLOSE_RECIPE_NO_GAIN_ENRICHED_BLOCK",
+    "historical_personnel": "SOURCE_BLOCKED_AUTHENTIC_VINTAGE_AND_FULL_EVENT_EFFECTIVE_UNIVERSE;depth_dt_current_vintage_equivalent_already_tested",
+    "C05": "FINALITY_AND_SCHEDULE_QUALIFIED;PLAYER_FACT_ROWS_ABSENT;NO_GRADES",
+    "C_value_recipe": "CLOSED;14law disagreements7each;not unusedfeature",
+    "primary_activation": false,
+    "owner_boundaries_unchanged": true,
+    "resource_closure": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/RESOURCE_CLOSURE.json",
+      "bytes": 2562,
+      "SHA256": "29cbd189399e8d9925e07930d4e5e29950944c8e317509fac7dd82fc55ecaf1a"
+    },
+    "validation": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/VALIDATION.json",
+      "bytes": 2338,
+      "SHA256": "f3aa12165165a7d0bc803ec2df6fa3fa7e8641807e711f4944d648f3aceb6ff6"
+    },
+    "sealed_manifest": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/MANIFEST.json",
+      "bytes": 6763,
+      "SHA256": "9ded52e4a20ad44fef3953e27ef7d90a0402e3b64433d6b42b50f031b13f2b2a"
     }
   }
 }

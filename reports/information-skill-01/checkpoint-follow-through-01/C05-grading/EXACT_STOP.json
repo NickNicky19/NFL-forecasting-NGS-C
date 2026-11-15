@@ -1,0 +1,63 @@
+{
+  "id": "C-C05-NEDET-EXACT-STOP-v1",
+  "recorded_UTC": "2026-11-15T20:55:17.001099+00:00",
+  "checkpoint": {
+    "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+    "bytes": 3608,
+    "SHA256": "23d3dddf9da5651edcd3f60cbab9d38bcbbcd9bea7c67a4aeb9449ce89762b98"
+  },
+  "full_process_resource": {
+    "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/PROCESS_RESOURCE.json",
+    "bytes": 679,
+    "SHA256": "a6b9cb46b0df2e03b5d3625753a509b5dc06747bafebe840dfa752d021c2fdab"
+  },
+  "state": "FINALITY_QUALIFIED;ORDINARY_PLAYER_FACTS_NOT_AVAILABLE_IN_OBSERVED_VERSION",
+  "resolved": {
+    "native_event": "401873053",
+    "game": "2026_10_NE_DET",
+    "native_status": "STATUS_FINAL",
+    "native_completed": true,
+    "kickoff_UTC": "2026-11-15T14:30:00+00:00",
+    "home": "DET",
+    "away": "NE",
+    "home_score": 35,
+    "away_score": 10,
+    "native_observation_UTC": "2026-11-15T20:53:09.425828+00:00",
+    "schedule_assertions": "Executed code required exact game, season/week/REG, teams, kickoff and native/schedule final-score equality before third source; no raw schedule row was retained because grading stopped before outcome projection. This is program-checked, not independent raw-response reproduction."
+  },
+  "exact_missing_dependency": {
+    "source": "Existing nflverse stats_player_week_2026.csv.gz",
+    "observed_UTC": "2026-11-15T20:53:10.919723+00:00",
+    "raw_response_SHA256": "90befdf33b7dc9e92a840d86a73149b759b601842ff5e86257dc653d34de7cac",
+    "HTTP_Last_Modified": "Sun, 15 Nov 2026 16:21:10 GMT",
+    "HTTP_Age": "5118",
+    "missing_cell": "No rows for game_id=2026_10_NE_DET, season2026, week10, season_typeREG in the successfully read observed version. Not a proof every source lacks facts.",
+    "do_not_infer": "No player is assigned zero/DNP/played from the absent game rows or final team score."
+  },
+  "next_permitted_action": {
+    "executor": "C existing original frozen-packet grading owner",
+    "action": "Through existing source jobs, observe/admit a genuinely new qualified ordinary-player source version containing the exact final game. Use the same frozen C05 packet and common grade_run in an append-only new grade version. This one-shot registration is exhausted; no immediate retry/poll or inferred current feed.",
+    "minimum_qualification": "A nonempty qualified exact-game ordinary-player frame with canonical identity/team/component presence. Missing individual players remain explicit UNKNOWN, not a demand that all23 personally have stat rows. Final event/version must stay compatible; later updates do not overwrite original forecasts.",
+    "completion": "69 original forecast records are accounted for in a qualified append-only grade, including unknown participation/missing actuals, and forecast-only metrics. No O/U record without genuine original offers."
+  },
+  "actual_execution": {
+    "source_attempts": 3,
+    "source_bytes": 2972271,
+    "full_child_CPU_seconds": 3.613394,
+    "new_fits": 0,
+    "new_forecast_generation": 0,
+    "new_original_picks": 0,
+    "new_actual_offer_weeks": [],
+    "new_scored_season_weeks": [],
+    "new_outcome_packet": false,
+    "new_grade": false,
+    "original_packet_unchanged": true,
+    "remaining_source_attempts_this_registration": 0
+  },
+  "preparation_accounting": {
+    "local_schema_inspection_failure": "One pre-execution inspection tried policy_id on raw C05 rows and raised KeyError. Existing validate_run correctly adds policy_id/scoring_contract_id before grading. No source or model retry; main execution passed original-packet validation.",
+    "conservative_preparation_CPU_seconds_charge": 1.0,
+    "full_child_metering_scope": "PROCESS_RESOURCE measures child imports, validation/restoration and source qualification. Preparation/coordination/final tiny receipt writes are separate bookkeeping, not an exact complete CPU certificate."
+  },
+  "scientific_limit": "Finality/source observations add no decided player outcomes or accuracy result. Original pregame issue/server clocks are unchanged; packet expiry stops recommendation use but does not erase its later grading eligibility."
+}
