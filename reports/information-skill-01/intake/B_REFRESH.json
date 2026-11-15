@@ -1,0 +1,279 @@
+{
+  "id": "INFORMATION-SKILL-01-C-B-REFRESH-v1",
+  "owner": "B",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "recorded_UTC": "2026-11-15T14:39:56.534816+00:00",
+  "branch": "research/independent-audit-20261029",
+  "actual_head": "d2856968342aed4d3b88c7923b9013aa68d6a75a",
+  "previous_head": "b4da8524a6163e8826d7ad1c70692efa6c211a52",
+  "requests_used": 5,
+  "request_cap": 5,
+  "response_byte_cap": 5242880,
+  "requests": [
+    {
+      "ordinal": 1,
+      "kind": "GitHub branchsearch",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "branches": [
+            {
+              "branch": "research/independent-audit-20261029"
+            }
+          ],
+          "cursor": "MQ"
+        },
+        "isError": false
+      },
+      "retained_connector_response_UTF8_bytes": 170,
+      "retained_connector_response_SHA256": "d91099e7c29d20c6d634554d06038767dcbf5f80c126a06f6a102c60086b08cf"
+    },
+    {
+      "ordinal": 2,
+      "kind": "GitHub fetch_file branch discovery index;empty oversized content not admitted",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "",
+          "encoding": "utf-8",
+          "sha": "9d9d32f578e232db14e49aec0295394a549f9db7",
+          "display_url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/research/independent-audit-20261029/reports/abc-championship/EXPORT_INDEX.json",
+          "display_title": "EXPORT_INDEX.json"
+        },
+        "isError": false
+      },
+      "retained_connector_response_UTF8_bytes": 361,
+      "retained_connector_response_SHA256": "37895ba50a4f82f4a5143514fbc892452e5230b8c6549c2736abfedb59377e29"
+    },
+    {
+      "ordinal": 3,
+      "kind": "GitHub exactref metadata",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "content": "{\"ref\":\"refs/heads/research/independent-audit-20261029\",\"node_id\":\"REF_kwDOVcQy7NoALnJlZnMvaGVhZHMvcmVzZWFyY2gvaW5kZXBlbmRlbnQtYXVkaXQtMjAyNjEwMjk\",\"url\":\"https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/refs/heads/research/independent-audit-20261029\",\"object\":{\"sha\":\"d2856968342aed4d3b88c7923b9013aa68d6a75a\",\"type\":\"commit\",\"url\":\"https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/commits/d2856968342aed4d3b88c7923b9013aa68d6a75a\"}}",
+          "title": "independent-audit-20261029",
+          "modified_date": null,
+          "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+          "display_url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+          "display_title": "independent-audit-20261029",
+          "structuredContent": {
+            "title": "independent-audit-20261029",
+            "content": "{\"ref\":\"refs/heads/research/independent-audit-20261029\",\"node_id\":\"REF_kwDOVcQy7NoALnJlZnMvaGVhZHMvcmVzZWFyY2gvaW5kZXBlbmRlbnQtYXVkaXQtMjAyNjEwMjk\",\"url\":\"https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/refs/heads/research/independent-audit-20261029\",\"object\":{\"sha\":\"d2856968342aed4d3b88c7923b9013aa68d6a75a\",\"type\":\"commit\",\"url\":\"https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/commits/d2856968342aed4d3b88c7923b9013aa68d6a75a\"}}",
+            "display_url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029"
+          }
+        },
+        "isError": false
+      },
+      "retained_connector_response_UTF8_bytes": 1632,
+      "retained_connector_response_SHA256": "ae6aafed1b3bbe812019704a1c98b8bddf9122e94d68dadd43998c7d4424cfab"
+    },
+    {
+      "ordinal": 4,
+      "kind": "GitHub raw index;toolrejectedoversize;no bypass",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "HTTPError: 400: GitHub Fetch could not read file contents; the file may be too large or unsupported (Response: None)"
+          }
+        ],
+        "structuredContent": {
+          "error": "HTTPError: 400: GitHub Fetch could not read file contents; the file may be too large or unsupported (Response: None)",
+          "error_code": "INVALID_ARGUMENT"
+        },
+        "isError": true
+      },
+      "retained_connector_response_UTF8_bytes": 351,
+      "retained_connector_response_SHA256": "ff86feb117b9bf12f01dd410f8d09088b1d25cec4cbe4fb527c8cee0ce6a746d"
+    },
+    {
+      "ordinal": 5,
+      "kind": "GitHub exactHEAD commit metadata including newly added full FINAL_DELIVERY receipt patch",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "Action completed."
+          }
+        ],
+        "structuredContent": {
+          "commit": {
+            "sha": "d2856968342aed4d3b88c7923b9013aa68d6a75a",
+            "message": "Close B checkpoint delivery with verified discovery and scoped remaining actions",
+            "url": "https://api.github.com/repos/NickNicky19/NFL-forecasting-V2/commits/d2856968342aed4d3b88c7923b9013aa68d6a75a",
+            "html_url": "https://github.com/NickNicky19/NFL-forecasting-V2/commit/d2856968342aed4d3b88c7923b9013aa68d6a75a",
+            "diff": "@@ -421,3 +421,5 @@ Newcontext-conditionedBBdispersion learnedfromearlierOOT P2/C1/C2 means, fixedAT\n ## Frozen targeted checkpoint closure — November15 UTC / Chicago\n \n [Executed owner-scoped receipt closure](reports/targeted-accuracy-checkpoint-closure-01/B/README.md), exact user text and active budgetV2 appended without resetting parent consumption. B authenticates saved7-product/146-query early M2 handoff and preserves fixed-attempt/mean native negative result; A executes84 protected-offer grades, then B checks permitted outputs and C admits. A775 repaired NFL fixture/final2026 fit not executed at inspected pin; no loss/zero-selection inference. C/d662 typed M3 v1.1 and W2–3 aggregate arithmetic retrieved; M3 broader saved scoring remains A-owned source-contract-dependent. C's05:03 pre-final B intake is not a current admission. Compact component map only; all12 retained tables/old grades linked unchanged. No new fit, forecast, grade, test week, private-row transfer, peer write, production activation or scheduler.\n+\n+Publication completed: immutable source `58fc3174e4cd83d199407fa560078368cf1bc4b3` capsule SHA256 `ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107` readback verifies27 committed members. Existing export-indexv26 at `0da9da5196cc04128b5898c2e6d1425391d274e8` readback verifies2058 entries with all2029 originals retained byte-semantically and old full index losslessly preserved. [Final delivery/scope receipt](reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json). Actual C receipt/admission, A fixture/join execution and served website use remain separate; no new scored period claimed.\n@@ -590,3 +590,4 @@\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-REGISTER-v1\", \"actual_UTC\": \"2026-11-15T12:01:36.904217+00:00\", \"state\": \"REGISTERED_ZERO_FIT_EXACT_SAVED_OUTPUT_CLOSURE\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/ADOPTION_AND_BUDGET_V1.json\", \"new_fits\": 0, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-EXECUTED-v1\", \"actual_UTC\": \"2026-11-15T12:24:48.493063+00:00\", \"state\": \"EXACT_SAVED_HANDOFF_AND_REPORTED_AGGREGATES_VERIFIED;PEER_EXECUTION_DEPENDENCIES_PRESERVED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/EXECUTION_RECEIPT_V1.json\", \"new_fits\": 0, \"new_predictions\": 0, \"new_grades\": 0, \"new_actual_weeks\": 0, \"source_reads\": 16, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-PUBLISHED-v1\", \"actual_UTC\": \"2026-11-15T12:29:00.557679+00:00\", \"state\": \"IMMUTABLE_PUBLIC_CAPSULE_27MEMBERS_AND_GIT_TREE_READBACK_VERIFIED;NO_C_ADMISSION\", \"source_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\", \"current_export_count\": 2058, \"previous_exports_preserved\": 2029, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"publication_GETs_closure\": 1, \"publication_GETs_cumulative\": 10, \"peer_writes\": 0}\n+{\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-DISCOVERY-VERIFIED-v1\", \"actual_UTC\": \"2026-11-15T12:31:13.758457+00:00\", \"state\": \"CURRENT_EXPORT_INDEX2058_READBACK_AND_OLD2029_PREFIX_VERIFIED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/DISCOVERY_READBACK_V1.json\", \"final_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json\", \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\", \"source_reads_closure\": 16, \"publication_GETs_closure\": 2, \"publication_GETs_cumulative\": 11, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"peer_writes\": 0}\n@@ -0,0 +1,83 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_FINAL_DELIVERY_v1\",\n+  \"UTC\": \"2026-11-15T12:31:13.758457+00:00\",\n+  \"state\": \"B_OWNED_AUTHENTICATION_AND_READABLE_PUBLICATION_COMPLETE;A_JOINS_AND_M1_EXECUTION_AND_C_ADMISSION_OUTSTANDING\",\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"discovery_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"scientific_M2_source\": \"11db6280f8af4ae215f15ebbcc26c3a891db27f1\",\n+  \"report_url\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/README.md\",\n+  \"exact_A_handoff\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json\",\n+  \"capsule\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/retention/CAPSULE.tar.gz\",\n+    \"bytes\": 353211,\n+    \"sha256\": \"ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107\",\n+    \"all_members_readback\": 27,\n+    \"committed_tree_parity\": true\n+  },\n+  \"discovery_index\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+    \"sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+    \"exports\": 2058,\n+    \"all_old2029_preserved\": true,\n+    \"byte_readback\": true\n+  },\n+  \"verification_scope\": {\n+    \"frozen_M2_handoff\": \"Exact committed B prediction/adapter/module/protocol bytes and deterministic typed contracts\",\n+    \"native_M2\": \"Separate public aggregate arithmetic; no new grading or fits\",\n+    \"C_M3\": \"Retrieved current report/handoff; 40 aggregate arithmetic rows checked, not raw row/source/fit reproduction\",\n+    \"A_M1\": \"Actual report read, source repair distinguished from unexecuted NFL fixture/final fit; no A execution by B\"\n+  },\n+  \"new_actual_offer_weeks\": [],\n+  \"new_grades\": 0,\n+  \"new_fits\": 0,\n+  \"new_predictions\": 0,\n+  \"new_original_picks\": 0,\n+  \"new_current_feed\": false,\n+  \"new_C_admission\": false,\n+  \"new_primary_activation\": false,\n+  \"served_website_verified\": false,\n+  \"five_week_status\": {\n+    \"M2\": \"Five existing native diagnostic weeks retained; not new qualified primary activation, no authenticated original quote timing\",\n+    \"M3\": \"Two actual-line weeks only; nine numerical origins do not fill offered-line duration\",\n+    \"M1\": \"Unexecuted 2026 grades at inspected pin; duration N/A\"\n+  },\n+  \"remaining\": [\n+    {\n+      \"executor\": \"A registered M1 owner\",\n+      \"action\": \"Execute repaired NFL-data full-context mutation fixture, then only remaining frozen2026 fit/inference/scoring/retention if passed and within cumulative1800/reserve; carry all recorded/unmetered overhead limits.\"\n+    },\n+    {\n+      \"executor\": \"A existing protected-board join owner\",\n+      \"action\": \"Project/grade seven exact frozen11db M2 products on84 W1–4 offers; score C/d662 typed frozen M3 products only on compatible remaining actual offers; no refit to change report format.\"\n+    },\n+    {\n+      \"executor\": \"B independent verifier\",\n+      \"action\": \"Verify new immutable permitted A result after publication; no private-row/model parity inferred from aggregates.\"\n+    },\n+    {\n+      \"executor\": \"C coordinator\",\n+      \"action\": \"Actually retrieve final B publication and append scoped receipt/admission; reconcile C new M3 joins only after their execution.\"\n+    }\n+  ],\n+  \"resource_accounting\": {\n+    \"new_source_reads\": 16,\n+    \"prior_source_reads\": 15,\n+    \"cumulative_source_reads\": 31,\n+    \"source_cap\": 48,\n+    \"publication_GETs_completed_at_receipt_creation\": 2,\n+    \"prior_M2_publication_GETs\": 9,\n+    \"cumulative_completed\": 11,\n+    \"existing_cumulative_cap\": 12,\n+    \"one_remaining_GET_reserved\": \"Final receipt exact-byte readback, not another source poll or CI query\",\n+    \"new_optimizer_calls\": 0,\n+    \"prior_charged_optimizer_calls\": 64,\n+    \"optimizer_cap\": 64,\n+    \"closure_public_bytes_before_this_receipt\": 715672,\n+    \"new_public_cap\": 3145728,\n+    \"B_CPU\": \"Reporting/verification only; complete process-tree CPU not measured; no new CPU allowance claimed.\",\n+    \"A_M1_CPU\": \"Separate approved cumulative1800 +600, recorded1000.166 and unmetered-tail/qualification-overhead caveat preserved; not spent by B/C joins.\"\n+  },\n+  \"CI\": \"Current metadata-only head CI not polled; no fresh pass claim. Local JSON/AST/hash/privacy/diff checks passed; parent science/source CI receipts retained.\",\n+  \"scientific_indices\": \"No new canonical SCORES or duplicated index views; existing result/analysis registries unchanged.\",\n+  \"production_boundary\": \"No research primary promotion, original-site write, Count A producer takeover, workflow dispatch, scheduler, credentials or upload workaround.\"\n+}\n@@ -0,0 +1,23 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_DISCOVERY_READBACK_v1\",\n+  \"UTC\": \"2026-11-15T12:30:11.789032+00:00\",\n+  \"state\": \"PASS_EXACT_IMMUTABLE_INDEX_BYTES_AND_PREVIOUS_EXPORT_PREFIX\",\n+  \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"index_url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+  \"index_sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+  \"index_bytes\": 2244249,\n+  \"exports\": 2058,\n+  \"previous_export_objects_preserved\": 2029,\n+  \"closure_exports\": 29,\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"capsule_readback_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\",\n+  \"publication_GETs_closure\": 2,\n+  \"publication_GETs_parent\": 9,\n+  \"publication_GETs_cumulative\": 11,\n+  \"existing_cap\": 12,\n+  \"HTTP_status\": 200,\n+  \"scientific_result_registries_unchanged\": true,\n+  \"new_grades\": 0,\n+  \"C_actual_receipt_or_admission\": false,\n+  \"original_site_use\": false\n+}",
+            "files": [
+              {
+                "filename": "TASK_LEDGER.md",
+                "patch": "@@ -421,3 +421,5 @@ Newcontext-conditionedBBdispersion learnedfromearlierOOT P2/C1/C2 means, fixedAT\n ## Frozen targeted checkpoint closure — November15 UTC / Chicago\n \n [Executed owner-scoped receipt closure](reports/targeted-accuracy-checkpoint-closure-01/B/README.md), exact user text and active budgetV2 appended without resetting parent consumption. B authenticates saved7-product/146-query early M2 handoff and preserves fixed-attempt/mean native negative result; A executes84 protected-offer grades, then B checks permitted outputs and C admits. A775 repaired NFL fixture/final2026 fit not executed at inspected pin; no loss/zero-selection inference. C/d662 typed M3 v1.1 and W2–3 aggregate arithmetic retrieved; M3 broader saved scoring remains A-owned source-contract-dependent. C's05:03 pre-final B intake is not a current admission. Compact component map only; all12 retained tables/old grades linked unchanged. No new fit, forecast, grade, test week, private-row transfer, peer write, production activation or scheduler.\n+\n+Publication completed: immutable source `58fc3174e4cd83d199407fa560078368cf1bc4b3` capsule SHA256 `ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107` readback verifies27 committed members. Existing export-indexv26 at `0da9da5196cc04128b5898c2e6d1425391d274e8` readback verifies2058 entries with all2029 originals retained byte-semantically and old full index losslessly preserved. [Final delivery/scope receipt](reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json). Actual C receipt/admission, A fixture/join execution and served website use remain separate; no new scored period claimed."
+              },
+              {
+                "filename": "registries/EXECUTIONS.jsonl",
+                "patch": "@@ -590,3 +590,4 @@\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-REGISTER-v1\", \"actual_UTC\": \"2026-11-15T12:01:36.904217+00:00\", \"state\": \"REGISTERED_ZERO_FIT_EXACT_SAVED_OUTPUT_CLOSURE\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/ADOPTION_AND_BUDGET_V1.json\", \"new_fits\": 0, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-EXECUTED-v1\", \"actual_UTC\": \"2026-11-15T12:24:48.493063+00:00\", \"state\": \"EXACT_SAVED_HANDOFF_AND_REPORTED_AGGREGATES_VERIFIED;PEER_EXECUTION_DEPENDENCIES_PRESERVED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/EXECUTION_RECEIPT_V1.json\", \"new_fits\": 0, \"new_predictions\": 0, \"new_grades\": 0, \"new_actual_weeks\": 0, \"source_reads\": 16, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-PUBLISHED-v1\", \"actual_UTC\": \"2026-11-15T12:29:00.557679+00:00\", \"state\": \"IMMUTABLE_PUBLIC_CAPSULE_27MEMBERS_AND_GIT_TREE_READBACK_VERIFIED;NO_C_ADMISSION\", \"source_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\", \"current_export_count\": 2058, \"previous_exports_preserved\": 2029, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"publication_GETs_closure\": 1, \"publication_GETs_cumulative\": 10, \"peer_writes\": 0}\n+{\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-DISCOVERY-VERIFIED-v1\", \"actual_UTC\": \"2026-11-15T12:31:13.758457+00:00\", \"state\": \"CURRENT_EXPORT_INDEX2058_READBACK_AND_OLD2029_PREFIX_VERIFIED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/DISCOVERY_READBACK_V1.json\", \"final_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json\", \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\", \"source_reads_closure\": 16, \"publication_GETs_closure\": 2, \"publication_GETs_cumulative\": 11, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"peer_writes\": 0}"
+              },
+              {
+                "filename": "reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json",
+                "patch": "@@ -0,0 +1,83 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_FINAL_DELIVERY_v1\",\n+  \"UTC\": \"2026-11-15T12:31:13.758457+00:00\",\n+  \"state\": \"B_OWNED_AUTHENTICATION_AND_READABLE_PUBLICATION_COMPLETE;A_JOINS_AND_M1_EXECUTION_AND_C_ADMISSION_OUTSTANDING\",\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"discovery_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"scientific_M2_source\": \"11db6280f8af4ae215f15ebbcc26c3a891db27f1\",\n+  \"report_url\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/README.md\",\n+  \"exact_A_handoff\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json\",\n+  \"capsule\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/retention/CAPSULE.tar.gz\",\n+    \"bytes\": 353211,\n+    \"sha256\": \"ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107\",\n+    \"all_members_readback\": 27,\n+    \"committed_tree_parity\": true\n+  },\n+  \"discovery_index\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+    \"sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+    \"exports\": 2058,\n+    \"all_old2029_preserved\": true,\n+    \"byte_readback\": true\n+  },\n+  \"verification_scope\": {\n+    \"frozen_M2_handoff\": \"Exact committed B prediction/adapter/module/protocol bytes and deterministic typed contracts\",\n+    \"native_M2\": \"Separate public aggregate arithmetic; no new grading or fits\",\n+    \"C_M3\": \"Retrieved current report/handoff; 40 aggregate arithmetic rows checked, not raw row/source/fit reproduction\",\n+    \"A_M1\": \"Actual report read, source repair distinguished from unexecuted NFL fixture/final fit; no A execution by B\"\n+  },\n+  \"new_actual_offer_weeks\": [],\n+  \"new_grades\": 0,\n+  \"new_fits\": 0,\n+  \"new_predictions\": 0,\n+  \"new_original_picks\": 0,\n+  \"new_current_feed\": false,\n+  \"new_C_admission\": false,\n+  \"new_primary_activation\": false,\n+  \"served_website_verified\": false,\n+  \"five_week_status\": {\n+    \"M2\": \"Five existing native diagnostic weeks retained; not new qualified primary activation, no authenticated original quote timing\",\n+    \"M3\": \"Two actual-line weeks only; nine numerical origins do not fill offered-line duration\",\n+    \"M1\": \"Unexecuted 2026 grades at inspected pin; duration N/A\"\n+  },\n+  \"remaining\": [\n+    {\n+      \"executor\": \"A registered M1 owner\",\n+      \"action\": \"Execute repaired NFL-data full-context mutation fixture, then only remaining frozen2026 fit/inference/scoring/retention if passed and within cumulative1800/reserve; carry all recorded/unmetered overhead limits.\"\n+    },\n+    {\n+      \"executor\": \"A existing protected-board join owner\",\n+      \"action\": \"Project/grade seven exact frozen11db M2 products on84 W1–4 offers; score C/d662 typed frozen M3 products only on compatible remaining actual offers; no refit to change report format.\"\n+    },\n+    {\n+      \"executor\": \"B independent verifier\",\n+      \"action\": \"Verify new immutable permitted A result after publication; no private-row/model parity inferred from aggregates.\"\n+    },\n+    {\n+      \"executor\": \"C coordinator\",\n+      \"action\": \"Actually retrieve final B publication and append scoped receipt/admission; reconcile C new M3 joins only after their execution.\"\n+    }\n+  ],\n+  \"resource_accounting\": {\n+    \"new_source_reads\": 16,\n+    \"prior_source_reads\": 15,\n+    \"cumulative_source_reads\": 31,\n+    \"source_cap\": 48,\n+    \"publication_GETs_completed_at_receipt_creation\": 2,\n+    \"prior_M2_publication_GETs\": 9,\n+    \"cumulative_completed\": 11,\n+    \"existing_cumulative_cap\": 12,\n+    \"one_remaining_GET_reserved\": \"Final receipt exact-byte readback, not another source poll or CI query\",\n+    \"new_optimizer_calls\": 0,\n+    \"prior_charged_optimizer_calls\": 64,\n+    \"optimizer_cap\": 64,\n+    \"closure_public_bytes_before_this_receipt\": 715672,\n+    \"new_public_cap\": 3145728,\n+    \"B_CPU\": \"Reporting/verification only; complete process-tree CPU not measured; no new CPU allowance claimed.\",\n+    \"A_M1_CPU\": \"Separate approved cumulative1800 +600, recorded1000.166 and unmetered-tail/qualification-overhead caveat preserved; not spent by B/C joins.\"\n+  },\n+  \"CI\": \"Current metadata-only head CI not polled; no fresh pass claim. Local JSON/AST/hash/privacy/diff checks passed; parent science/source CI receipts retained.\",\n+  \"scientific_indices\": \"No new canonical SCORES or duplicated index views; existing result/analysis registries unchanged.\",\n+  \"production_boundary\": \"No research primary promotion, original-site write, Count A producer takeover, workflow dispatch, scheduler, credentials or upload workaround.\"\n+}"
+              },
+              {
+                "filename": "reports/targeted-accuracy-checkpoint-closure-01/B/retention/DISCOVERY_READBACK_V1.json",
+                "patch": "@@ -0,0 +1,23 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_DISCOVERY_READBACK_v1\",\n+  \"UTC\": \"2026-11-15T12:30:11.789032+00:00\",\n+  \"state\": \"PASS_EXACT_IMMUTABLE_INDEX_BYTES_AND_PREVIOUS_EXPORT_PREFIX\",\n+  \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"index_url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+  \"index_sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+  \"index_bytes\": 2244249,\n+  \"exports\": 2058,\n+  \"previous_export_objects_preserved\": 2029,\n+  \"closure_exports\": 29,\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"capsule_readback_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\",\n+  \"publication_GETs_closure\": 2,\n+  \"publication_GETs_parent\": 9,\n+  \"publication_GETs_cumulative\": 11,\n+  \"existing_cap\": 12,\n+  \"HTTP_status\": 200,\n+  \"scientific_result_registries_unchanged\": true,\n+  \"new_grades\": 0,\n+  \"C_actual_receipt_or_admission\": false,\n+  \"original_site_use\": false\n+}"
+              }
+            ],
+            "repository_full_name": "NickNicky19/NFL-forecasting-V2",
+            "comments": null,
+            "author": {
+              "login": "NickNicky19",
+              "name": null,
+              "email": null,
+              "avatar_url": "https://avatars.githubusercontent.com/u/208912933?v=4",
+              "id": 208912933
+            },
+            "committer": {
+              "login": "NickNicky19",
+              "name": null,
+              "email": null,
+              "avatar_url": "https://avatars.githubusercontent.com/u/208912933?v=4",
+              "id": 208912933
+            },
+            "created_at": "2026-11-15T12:31:13Z",
+            "git_author_email": null,
+            "display_url": "https://github.com/NickNicky19/NFL-forecasting-V2/commit/d2856968342aed4d3b88c7923b9013aa68d6a75a",
+            "display_title": "Close B checkpoint delivery with verified discovery and scoped remaining actions"
+          },
+          "url": "https://github.com/NickNicky19/NFL-forecasting-V2/commit/d2856968342aed4d3b88c7923b9013aa68d6a75a",
+          "title": "Close B checkpoint delivery with verified discovery and scoped remaining actions",
+          "diff": "@@ -421,3 +421,5 @@ Newcontext-conditionedBBdispersion learnedfromearlierOOT P2/C1/C2 means, fixedAT\n ## Frozen targeted checkpoint closure — November15 UTC / Chicago\n \n [Executed owner-scoped receipt closure](reports/targeted-accuracy-checkpoint-closure-01/B/README.md), exact user text and active budgetV2 appended without resetting parent consumption. B authenticates saved7-product/146-query early M2 handoff and preserves fixed-attempt/mean native negative result; A executes84 protected-offer grades, then B checks permitted outputs and C admits. A775 repaired NFL fixture/final2026 fit not executed at inspected pin; no loss/zero-selection inference. C/d662 typed M3 v1.1 and W2–3 aggregate arithmetic retrieved; M3 broader saved scoring remains A-owned source-contract-dependent. C's05:03 pre-final B intake is not a current admission. Compact component map only; all12 retained tables/old grades linked unchanged. No new fit, forecast, grade, test week, private-row transfer, peer write, production activation or scheduler.\n+\n+Publication completed: immutable source `58fc3174e4cd83d199407fa560078368cf1bc4b3` capsule SHA256 `ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107` readback verifies27 committed members. Existing export-indexv26 at `0da9da5196cc04128b5898c2e6d1425391d274e8` readback verifies2058 entries with all2029 originals retained byte-semantically and old full index losslessly preserved. [Final delivery/scope receipt](reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json). Actual C receipt/admission, A fixture/join execution and served website use remain separate; no new scored period claimed.\n@@ -590,3 +590,4 @@\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-REGISTER-v1\", \"actual_UTC\": \"2026-11-15T12:01:36.904217+00:00\", \"state\": \"REGISTERED_ZERO_FIT_EXACT_SAVED_OUTPUT_CLOSURE\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/ADOPTION_AND_BUDGET_V1.json\", \"new_fits\": 0, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-EXECUTED-v1\", \"actual_UTC\": \"2026-11-15T12:24:48.493063+00:00\", \"state\": \"EXACT_SAVED_HANDOFF_AND_REPORTED_AGGREGATES_VERIFIED;PEER_EXECUTION_DEPENDENCIES_PRESERVED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/EXECUTION_RECEIPT_V1.json\", \"new_fits\": 0, \"new_predictions\": 0, \"new_grades\": 0, \"new_actual_weeks\": 0, \"source_reads\": 16, \"peer_writes\": 0}\n {\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-PUBLISHED-v1\", \"actual_UTC\": \"2026-11-15T12:29:00.557679+00:00\", \"state\": \"IMMUTABLE_PUBLIC_CAPSULE_27MEMBERS_AND_GIT_TREE_READBACK_VERIFIED;NO_C_ADMISSION\", \"source_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\", \"current_export_count\": 2058, \"previous_exports_preserved\": 2029, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"publication_GETs_closure\": 1, \"publication_GETs_cumulative\": 10, \"peer_writes\": 0}\n+{\"run_id\": \"V2-20261115-TARGETED-CHECKPOINT-CLOSURE-DISCOVERY-VERIFIED-v1\", \"actual_UTC\": \"2026-11-15T12:31:13.758457+00:00\", \"state\": \"CURRENT_EXPORT_INDEX2058_READBACK_AND_OLD2029_PREFIX_VERIFIED\", \"receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/DISCOVERY_READBACK_V1.json\", \"final_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json\", \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\", \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\", \"source_reads_closure\": 16, \"publication_GETs_closure\": 2, \"publication_GETs_cumulative\": 11, \"new_fits\": 0, \"new_actual_offer_grades\": 0, \"peer_writes\": 0}\n@@ -0,0 +1,83 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_FINAL_DELIVERY_v1\",\n+  \"UTC\": \"2026-11-15T12:31:13.758457+00:00\",\n+  \"state\": \"B_OWNED_AUTHENTICATION_AND_READABLE_PUBLICATION_COMPLETE;A_JOINS_AND_M1_EXECUTION_AND_C_ADMISSION_OUTSTANDING\",\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"discovery_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"scientific_M2_source\": \"11db6280f8af4ae215f15ebbcc26c3a891db27f1\",\n+  \"report_url\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/README.md\",\n+  \"exact_A_handoff\": \"https://github.com/NickNicky19/NFL-forecasting-V2/blob/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json\",\n+  \"capsule\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/retention/CAPSULE.tar.gz\",\n+    \"bytes\": 353211,\n+    \"sha256\": \"ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107\",\n+    \"all_members_readback\": 27,\n+    \"committed_tree_parity\": true\n+  },\n+  \"discovery_index\": {\n+    \"url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+    \"sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+    \"exports\": 2058,\n+    \"all_old2029_preserved\": true,\n+    \"byte_readback\": true\n+  },\n+  \"verification_scope\": {\n+    \"frozen_M2_handoff\": \"Exact committed B prediction/adapter/module/protocol bytes and deterministic typed contracts\",\n+    \"native_M2\": \"Separate public aggregate arithmetic; no new grading or fits\",\n+    \"C_M3\": \"Retrieved current report/handoff; 40 aggregate arithmetic rows checked, not raw row/source/fit reproduction\",\n+    \"A_M1\": \"Actual report read, source repair distinguished from unexecuted NFL fixture/final fit; no A execution by B\"\n+  },\n+  \"new_actual_offer_weeks\": [],\n+  \"new_grades\": 0,\n+  \"new_fits\": 0,\n+  \"new_predictions\": 0,\n+  \"new_original_picks\": 0,\n+  \"new_current_feed\": false,\n+  \"new_C_admission\": false,\n+  \"new_primary_activation\": false,\n+  \"served_website_verified\": false,\n+  \"five_week_status\": {\n+    \"M2\": \"Five existing native diagnostic weeks retained; not new qualified primary activation, no authenticated original quote timing\",\n+    \"M3\": \"Two actual-line weeks only; nine numerical origins do not fill offered-line duration\",\n+    \"M1\": \"Unexecuted 2026 grades at inspected pin; duration N/A\"\n+  },\n+  \"remaining\": [\n+    {\n+      \"executor\": \"A registered M1 owner\",\n+      \"action\": \"Execute repaired NFL-data full-context mutation fixture, then only remaining frozen2026 fit/inference/scoring/retention if passed and within cumulative1800/reserve; carry all recorded/unmetered overhead limits.\"\n+    },\n+    {\n+      \"executor\": \"A existing protected-board join owner\",\n+      \"action\": \"Project/grade seven exact frozen11db M2 products on84 W1–4 offers; score C/d662 typed frozen M3 products only on compatible remaining actual offers; no refit to change report format.\"\n+    },\n+    {\n+      \"executor\": \"B independent verifier\",\n+      \"action\": \"Verify new immutable permitted A result after publication; no private-row/model parity inferred from aggregates.\"\n+    },\n+    {\n+      \"executor\": \"C coordinator\",\n+      \"action\": \"Actually retrieve final B publication and append scoped receipt/admission; reconcile C new M3 joins only after their execution.\"\n+    }\n+  ],\n+  \"resource_accounting\": {\n+    \"new_source_reads\": 16,\n+    \"prior_source_reads\": 15,\n+    \"cumulative_source_reads\": 31,\n+    \"source_cap\": 48,\n+    \"publication_GETs_completed_at_receipt_creation\": 2,\n+    \"prior_M2_publication_GETs\": 9,\n+    \"cumulative_completed\": 11,\n+    \"existing_cumulative_cap\": 12,\n+    \"one_remaining_GET_reserved\": \"Final receipt exact-byte readback, not another source poll or CI query\",\n+    \"new_optimizer_calls\": 0,\n+    \"prior_charged_optimizer_calls\": 64,\n+    \"optimizer_cap\": 64,\n+    \"closure_public_bytes_before_this_receipt\": 715672,\n+    \"new_public_cap\": 3145728,\n+    \"B_CPU\": \"Reporting/verification only; complete process-tree CPU not measured; no new CPU allowance claimed.\",\n+    \"A_M1_CPU\": \"Separate approved cumulative1800 +600, recorded1000.166 and unmetered-tail/qualification-overhead caveat preserved; not spent by B/C joins.\"\n+  },\n+  \"CI\": \"Current metadata-only head CI not polled; no fresh pass claim. Local JSON/AST/hash/privacy/diff checks passed; parent science/source CI receipts retained.\",\n+  \"scientific_indices\": \"No new canonical SCORES or duplicated index views; existing result/analysis registries unchanged.\",\n+  \"production_boundary\": \"No research primary promotion, original-site write, Count A producer takeover, workflow dispatch, scheduler, credentials or upload workaround.\"\n+}\n@@ -0,0 +1,23 @@\n+{\n+  \"id\": \"B_TARGETED_CLOSURE_DISCOVERY_READBACK_v1\",\n+  \"UTC\": \"2026-11-15T12:30:11.789032+00:00\",\n+  \"state\": \"PASS_EXACT_IMMUTABLE_INDEX_BYTES_AND_PREVIOUS_EXPORT_PREFIX\",\n+  \"metadata_commit\": \"0da9da5196cc04128b5898c2e6d1425391d274e8\",\n+  \"index_url\": \"https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json\",\n+  \"index_sha256\": \"4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed\",\n+  \"index_bytes\": 2244249,\n+  \"exports\": 2058,\n+  \"previous_export_objects_preserved\": 2029,\n+  \"closure_exports\": 29,\n+  \"evidence_commit\": \"58fc3174e4cd83d199407fa560078368cf1bc4b3\",\n+  \"capsule_readback_receipt\": \"reports/targeted-accuracy-checkpoint-closure-01/B/retention/READBACK_V1.json\",\n+  \"publication_GETs_closure\": 2,\n+  \"publication_GETs_parent\": 9,\n+  \"publication_GETs_cumulative\": 11,\n+  \"existing_cap\": 12,\n+  \"HTTP_status\": 200,\n+  \"scientific_result_registries_unchanged\": true,\n+  \"new_grades\": 0,\n+  \"C_actual_receipt_or_admission\": false,\n+  \"original_site_use\": false\n+}",
+          "display_url": "https://github.com/NickNicky19/NFL-forecasting-V2/commit/d2856968342aed4d3b88c7923b9013aa68d6a75a",
+          "display_title": "Close B checkpoint delivery with verified discovery and scoped remaining actions"
+        },
+        "isError": false
+      },
+      "retained_connector_response_UTF8_bytes": 32582,
+      "retained_connector_response_SHA256": "304943c213975b42c7054cc7de5c0fbb200d56d15dbd5bd86097b2a3e224db75"
+    }
+  ],
+  "scope": "New final B receipt and discovery metadata retrieved via immutable commit patch; full oversizedindex was not received and capsule was not fetched. No private/model/sourceclock parity. Metadata state A pending is stale against later A bdef.",
+  "findings": {
+    "new_B_scoring": 0,
+    "new_B_fits": 0,
+    "new_B_actual_weeks": [],
+    "scientific_M2_source": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+    "final_evidence_commit": "58fc3174e4cd83d199407fa560078368cf1bc4b3",
+    "discovery_commit": "0da9da5196cc04128b5898c2e6d1425391d274e8",
+    "publication_ownerreported": "27capsulemembers/readback,2058exportswith2029oldpreserved;notCcapsulereproduction",
+    "M3_review_ownerreported": "40aggregatearithmeticrowschecked;no rawrow/source/fitparity",
+    "stale_status": "B finalreceiptAfixture/earlyjoinpending supersededbyactualA currentreceipt;no repeatjoin request"
+  },
+  "new_C_fits": 0,
+  "new_C_grades": 0,
+  "measured_retained_connector_envelope_bytes": 35096,
+  "measurement_limit": "Decoded connector-envelope bytes, not full HTTP transport size. No raw binary GET or CLI fallback.",
+  "exact_added_final_delivery_receipt": {
+    "path": "reports/targeted-accuracy-checkpoint-closure-01/B/FINAL_DELIVERY_RECEIPT_V1.json",
+    "ref": "d2856968342aed4d3b88c7923b9013aa68d6a75a",
+    "value": {
+      "id": "B_TARGETED_CLOSURE_FINAL_DELIVERY_v1",
+      "UTC": "2026-11-15T12:31:13.758457+00:00",
+      "state": "B_OWNED_AUTHENTICATION_AND_READABLE_PUBLICATION_COMPLETE;A_JOINS_AND_M1_EXECUTION_AND_C_ADMISSION_OUTSTANDING",
+      "evidence_commit": "58fc3174e4cd83d199407fa560078368cf1bc4b3",
+      "discovery_commit": "0da9da5196cc04128b5898c2e6d1425391d274e8",
+      "scientific_M2_source": "11db6280f8af4ae215f15ebbcc26c3a891db27f1",
+      "report_url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/README.md",
+      "exact_A_handoff": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/11db6280f8af4ae215f15ebbcc26c3a891db27f1/reports/targeted-accuracy-w1w9-01/B/OWNER_LOCAL_M2_HANDOFF_V1.json",
+      "capsule": {
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/58fc3174e4cd83d199407fa560078368cf1bc4b3/reports/targeted-accuracy-checkpoint-closure-01/B/retention/CAPSULE.tar.gz",
+        "bytes": 353211,
+        "sha256": "ba41a8ba4cb0f53f56a5f427fef5d27cd54e1abc61288847a9e7978c75f00107",
+        "all_members_readback": 27,
+        "committed_tree_parity": true
+      },
+      "discovery_index": {
+        "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/0da9da5196cc04128b5898c2e6d1425391d274e8/reports/abc-championship/EXPORT_INDEX.json",
+        "sha256": "4ef3789596cf3f01dd9ff19156011a2b2cc5e61e225aea34dbe435a1958e6eed",
+        "exports": 2058,
+        "all_old2029_preserved": true,
+        "byte_readback": true
+      },
+      "verification_scope": {
+        "frozen_M2_handoff": "Exact committed B prediction/adapter/module/protocol bytes and deterministic typed contracts",
+        "native_M2": "Separate public aggregate arithmetic; no new grading or fits",
+        "C_M3": "Retrieved current report/handoff; 40 aggregate arithmetic rows checked, not raw row/source/fit reproduction",
+        "A_M1": "Actual report read, source repair distinguished from unexecuted NFL fixture/final fit; no A execution by B"
+      },
+      "new_actual_offer_weeks": [],
+      "new_grades": 0,
+      "new_fits": 0,
+      "new_predictions": 0,
+      "new_original_picks": 0,
+      "new_current_feed": false,
+      "new_C_admission": false,
+      "new_primary_activation": false,
+      "served_website_verified": false,
+      "five_week_status": {
+        "M2": "Five existing native diagnostic weeks retained; not new qualified primary activation, no authenticated original quote timing",
+        "M3": "Two actual-line weeks only; nine numerical origins do not fill offered-line duration",
+        "M1": "Unexecuted 2026 grades at inspected pin; duration N/A"
+      },
+      "remaining": [
+        {
+          "executor": "A registered M1 owner",
+          "action": "Execute repaired NFL-data full-context mutation fixture, then only remaining frozen2026 fit/inference/scoring/retention if passed and within cumulative1800/reserve; carry all recorded/unmetered overhead limits."
+        },
+        {
+          "executor": "A existing protected-board join owner",
+          "action": "Project/grade seven exact frozen11db M2 products on84 W1–4 offers; score C/d662 typed frozen M3 products only on compatible remaining actual offers; no refit to change report format."
+        },
+        {
+          "executor": "B independent verifier",
+          "action": "Verify new immutable permitted A result after publication; no private-row/model parity inferred from aggregates."
+        },
+        {
+          "executor": "C coordinator",
+          "action": "Actually retrieve final B publication and append scoped receipt/admission; reconcile C new M3 joins only after their execution."
+        }
+      ],
+      "resource_accounting": {
+        "new_source_reads": 16,
+        "prior_source_reads": 15,
+        "cumulative_source_reads": 31,
+        "source_cap": 48,
+        "publication_GETs_completed_at_receipt_creation": 2,
+        "prior_M2_publication_GETs": 9,
+        "cumulative_completed": 11,
+        "existing_cumulative_cap": 12,
+        "one_remaining_GET_reserved": "Final receipt exact-byte readback, not another source poll or CI query",
+        "new_optimizer_calls": 0,
+        "prior_charged_optimizer_calls": 64,
+        "optimizer_cap": 64,
+        "closure_public_bytes_before_this_receipt": 715672,
+        "new_public_cap": 3145728,
+        "B_CPU": "Reporting/verification only; complete process-tree CPU not measured; no new CPU allowance claimed.",
+        "A_M1_CPU": "Separate approved cumulative1800 +600, recorded1000.166 and unmetered-tail/qualification-overhead caveat preserved; not spent by B/C joins."
+      },
+      "CI": "Current metadata-only head CI not polled; no fresh pass claim. Local JSON/AST/hash/privacy/diff checks passed; parent science/source CI receipts retained.",
+      "scientific_indices": "No new canonical SCORES or duplicated index views; existing result/analysis registries unchanged.",
+      "production_boundary": "No research primary promotion, original-site write, Count A producer takeover, workflow dispatch, scheduler, credentials or upload workaround."
+    },
+    "text_SHA256": "5285d4671b180d0a7770db85f055307f6d328ab80ac18f78c175e378321a6cc1",
+    "text_bytes": 4873,
+    "derivation": "Complete83line newly added file hunk in actual GitHub commit metadata, not independent capsule/index GET."
+  }
+}

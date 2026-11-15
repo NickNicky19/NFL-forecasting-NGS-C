@@ -83,6 +83,39 @@
       "SHA256": "cfd7083edbca16387f22e85c2db57d8e87bc5c41e549748e932db1f9bf2b2d6b"
     },
     "scientific_promotion": "NONE;M1actualfixture/2026scorepending,M2nativeincrementnegative,M3shadowandStudentTclosed",
-    "private_verification_limit": "PublicaggregateandCownhandoffscope only, no Aprivatefit/row/clockparity"
+    "private_verification_limit": "PublicaggregateandCownhandoffscope only, no Aprivatefit/row/clockparity",
+    "superseded_forward_by_information_skill_01": {
+      "path": "reports/information-skill-01/intake/ADMISSION.json",
+      "bytes": 26598,
+      "SHA256": "3c3a71de772773724c1a877ebc92ddf30f44333fa34459926efeaa00ac621e6b"
+    },
+    "current_state": "A_M1_FIXTURE_FIT_SCORES_COMPLETE;NEW_M2_EARLY84_EXECUTED;M3_JOIN_NOT_ESTABLISHED_IN_CHECKED_RECEIPT"
+  },
+  "information_skill_01": {
+    "recorded_UTC": "2026-11-15T15:09:20.594193+00:00",
+    "state": "EXECUTED_C_INFORMATION_RELATIONSHIP_TEST;SUPERSEDING_A_M1_M2_PUBLIC_RECEIPTS_ADMITTED",
+    "peer_receipt": {
+      "path": "reports/information-skill-01/intake/ADMISSION.json",
+      "bytes": 26598,
+      "SHA256": "3c3a71de772773724c1a877ebc92ddf30f44333fa34459926efeaa00ac621e6b"
+    },
+    "C_report": {
+      "path": "reports/information-skill-01/README.md",
+      "bytes": 23382,
+      "SHA256": "ebc4ae7466b83d9b47f66bd4dbf6b548b33bb0edc91c56addcd2f80551310a1a"
+    },
+    "primary_promotion": false,
+    "C_actual_offer_weeks": [
+      2,
+      3
+    ],
+    "A_M2_added_product_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "new_NFL_games": 0,
+    "scope": "C own representative model/data/grade checks; A/B public arithmetic admission only, not private source/fit/clock parity."
   }
 }

@@ -1,0 +1,94 @@
+{
+  "id": "C-INFORMATION-SKILL-SOURCE-QUALIFICATION-v1",
+  "recorded_UTC": "2026-11-15T15:05:59.101418+00:00",
+  "information_class": "NEW_DERIVED_RELATIONSHIP_USING_EXISTING_PBP;CURRENT_VINTAGE_CHRONOLOGICAL_DIAGNOSTIC_ONLY",
+  "sources": [
+    {
+      "season": 2024,
+      "projection": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "projection_SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "projection_bytes": 479880,
+      "origin_source_URL": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2024.csv.gz",
+      "raw_source_SHA256": "23370d5d10f8104d80d46a1fc5e61f4f6f5a3263fe96fe2dd629913cfcb08c06",
+      "observed_UTC": "2026-11-10T04:54:31.007398+00:00",
+      "revision_Last_Modified": null,
+      "server_Date": null,
+      "original_publication_UTC": null,
+      "manifest": {
+        "path": "sources/player-context-matchup-01/completion-decision-v1/PBP2024_MANIFEST.json",
+        "SHA256": "d7262b8e6b233d859f4b7c3f6a03b9e70b42b2f486e65c7a689ce6641c5dba8b"
+      },
+      "projection_rows": 33947,
+      "games": 272,
+      "rights": "ExistingpublisherCCBY4ordinaryfacts, same retainedlicense2a82ac9...;notFTN/NGSgrant"
+    },
+    {
+      "season": 2025,
+      "projection": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "projection_SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "projection_bytes": 604500,
+      "origin_source_URL": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.csv.gz",
+      "raw_source_SHA256": "2f135887790a013fd004e609e37096bb4816d5cc80b9f19122e1bad478961978",
+      "observed_UTC": "2026-11-07T12:42:38.522278+00:00",
+      "revision_Last_Modified": "Thu, 13 Aug 2026 12:26:09 GMT",
+      "server_Date": "Sat, 07 Nov 2026 12:42:37 GMT",
+      "original_publication_UTC": null,
+      "manifest": {
+        "path": "sources/player-context-matchup-01/SOURCE_MANIFEST.json",
+        "SHA256": "7bdf8e6b3791cb6d1980b73735a0ba75c8db0827d1fe6a5c6008fa753658df0d"
+      },
+      "raw_rows": 48771,
+      "projection_rows": 33455,
+      "rights": "Ordinary NFL event/statistical factual projection under existing nflverse CC BY4 attribution; no descriptions, betting data, EPA/CP/CPOE, NGS or protected charting rows retained"
+    },
+    {
+      "season": 2026,
+      "projection": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "projection_SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "projection_bytes": 271301,
+      "origin_source_URL": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
+      "raw_source_SHA256": "780a9b5fca995c2e86ab1949d6fb8c4c180f708a8ea291bad3378ff5990a7330",
+      "observed_UTC": "2026-11-02T19:02:11.339016+00:00",
+      "revision_Last_Modified": "Mon, 02 Nov 2026 13:47:12 GMT",
+      "server_Date": "Mon, 02 Nov 2026 19:02:11 GMT",
+      "original_publication_UTC": null,
+      "manifest": {
+        "path": "sources/player-context-matchup-01/SOURCE_MANIFEST.json",
+        "SHA256": "7bdf8e6b3791cb6d1980b73735a0ba75c8db0827d1fe6a5c6008fa753658df0d"
+      },
+      "raw_rows": 21018,
+      "projection_rows": 15009,
+      "rights": "Ordinary NFL event/statistical factual projection under existing nflverse CC BY4 attribution; no descriptions, betting data, EPA/CP/CPOE, NGS or protected charting rows retained"
+    }
+  ],
+  "availability_contract": "Retain authenticated observation/revision timestamps as those meanings only. No archived original publication clocks available; strict reconstructed kickoff+7days<query, targetgame not eligible. Different source type FTN participation/charting/NGS not inherited.",
+  "fields_consumed": [
+    "game_id",
+    "play_id",
+    "posteam",
+    "receiver_player_id",
+    "pass_attempt",
+    "sack",
+    "two_point_attempt",
+    "play_deleted",
+    "play_type",
+    "air_yards",
+    "complete_pass",
+    "historical_player_position_and_team",
+    "event_kickoff"
+  ],
+  "denominators": "Valid targeted credited passing attempts, source reconciled to complete all-position official attempts/completions/targets. Catch numerator known complete_pass1, explicit0incomplete; unknown/nonbinary flags hold newblock game. Target counts include explicit unknown-depth bin, not routes/snaps.",
+  "population": "Fixed native offeredWRTE board forprops; role-appropriate RBWRTE history forlearner; broadnumericalpanelstatrowconditioned. No eventualusage usedtoadmitpregameboard.",
+  "scope_limits": [
+    "Current downloads are not historical publication proof",
+    "Coarse role-depth offense adjustment does not isolate causal defense, individual QB ability or personnel",
+    "Predicted depth mean and count support used; full latent context/parameter uncertainty not jointly integrated",
+    "Alignment/all-route/untargeted-opportunity source unavailable; noX/Zlabels inferred",
+    "No injury/teammate status substituted or backdated",
+    "Defensive workbook November9/10 snapshot notused"
+  ],
+  "historical_authentic_pregame_replay": "NOT_ESTABLISHED",
+  "current_query_profile_ready": "NOT_ESTABLISHED_FROM_THESE_HISTORICAL_FILES",
+  "new_source_requests": 0,
+  "protected_peer_data_published": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "C-INFORMATION-SKILL-HISTORICAL-TYPED-v1",
+  "UTC": "2026-11-15T15:00:35.299378+00:00",
+  "owner": "C",
+  "later_roster_only": true,
+  "procedure": "INFORMATION-SKILL-01-C-ROLE-DEPTH-ADJUSTED-v1",
+  "registration": {
+    "path": "reports/information-skill-01/REGISTRATION.json",
+    "bytes": 9526,
+    "SHA256": "8f4ba3d5c36a22d2a9bcc0e9c0843c62b44b149bdf9974d06a6542339ea40b41"
+  },
+  "typed_forecasts": {
+    "path": "reports/information-skill-01/PREDICTIONS.json.gz",
+    "bytes": 1289554,
+    "SHA256": "b78d20786cd22ed7a216a1307c964b940b1c0b863c441338ac70f730e1ac9f93"
+  },
+  "saved_count_laws": "Empirical count law with explicit signed-free values/weights and geometric prior; partialPoisson mean gives exactcountlaw. No mean-to-probability invention.",
+  "typing": {
+    "mean": "Exactmarginal integercount expectation",
+    "median": "Lower.5 quantile",
+    "LAW": "Choose larger P(OVER) vs P(UNDER), within1e-12tieabstain; integerpush retained",
+    "MEAN": "Strict mean>line OVER,<line UNDER,equalityabstain",
+    "MEDIAN": "Strict lower median>line OVER,<line UNDER,equalityabstain",
+    "probability": "Exactlawconditionalonstatedinformation, rawuncalibrated, noEV/perpickconfidencecertification",
+    "corrector": "NONE; no additionalpointcorrection"
+  },
+  "keys": [
+    "category",
+    "game_id",
+    "player_id",
+    "arm",
+    "week"
+  ],
+  "arms": [
+    "LEAF",
+    "C1_SUPPORT",
+    "C1_VALUE",
+    "R0_PARTIAL",
+    "R1_PARTIAL"
+  ],
+  "rows": 9875,
+  "unique_queries_per_arm": 1975,
+  "numerical_origins_2026": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "actual_scored_weeks": [
+    2,
+    3
+  ],
+  "missing_actual_offer_weeks": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "source_contract": "RoleappropriatehistoricalRB/WR/TEtraining2022+; sourceknown2024/25/2026W1-8PBP, strictavailablekickoff+7d<query, historicalteam+role; currentvintage reconstruction not observed historicalpublication. Futurequerydoesnotneedoutcomes.",
+  "information": {
+    "path": "reports/information-skill-01/inputs/FEATURE_MATRIX.json.gz",
+    "bytes": 180912,
+    "SHA256": "8087df9b1d751fe44529b23271c4a5832301cd1ade9c9a45de23f3d109692760"
+  },
+  "component_trace": {
+    "path": "reports/information-skill-01/inputs/FEATURE_RECORDS.json.gz",
+    "bytes": 6118709,
+    "SHA256": "a5e5f200d035f407a3ecef7c50be2f8ff3e829188e0a312d1d74b4e246e6a23b"
+  },
+  "source_binding": {
+    "path": "reports/information-skill-01/inputs/SOURCE_BINDINGS.json",
+    "bytes": 5863,
+    "SHA256": "29629e2e6ed7950e9fae4cfe77f4af1e9ebf00ab0486af7fe2e42c1ce3ac7376"
+  },
+  "model_bindings": {
+    "path": "reports/information-skill-01/ORIGINS.json",
+    "bytes": 85923,
+    "SHA256": "6b111bab5de3f99088ff538d1a0cc3d84307d005b6088583a3e7fa84a66b5368"
+  },
+  "grader_rows": {
+    "path": "reports/information-skill-01/OFFER_ROWS.json.gz",
+    "bytes": 399967,
+    "SHA256": "451607657462cbf3fdb34f137b5010815f6561739c05a4e9d52f6c998cde86c8"
+  },
+  "safe_model_io": "Trusted primitiveJSON/GZonly; reuse safe_models_v4.infer_forest/law_load or context_experiment_c01.pooled_mu; no pickle/PyTorch/remoteexecutable loading.",
+  "code": [
+    {
+      "path": "src/information_skill_features_c01.py",
+      "bytes": 24340,
+      "SHA256": "57143612e84d5439cef52e6645bee940da4af281b1d8ad408b98447ef2ab7860"
+    },
+    {
+      "path": "src/information_skill_run_c01.py",
+      "bytes": 27004,
+      "SHA256": "6c26605dcc1ed9cd95945754da43a73a7efddea481afd327d7d455dfd6328796"
+    }
+  ],
+  "operational_state": "HISTORICAL_OUTPUTS_READY;NOT_CURRENT_QUERY_READY_OR_CAPTURED_OR_DEPLOYED",
+  "current_query_missing": "Authenticated current canonicalevent/player/roleuniverse, compatible fresh source/feature contract, true predecisionquotes where directioncapture intended, original persistence/expiry; same feature builder plus safe inference at admittedorigin. Existing capture ownerroute only; no newcollector.",
+  "frozen_M3_delivery_unchanged": "d662c16a3d2a5ae13640860e38d4d1e044234c5e; AexistingprivateboardM3joinnotreplacedbythislaterrosterrecipe",
+  "receiver_acknowledgement": "NOT_ESTABLISHED;publicationisnotpeerreceipt",
+  "primary_activation": false,
+  "rollback": "No live switch; original retainedbaseline/predictions/grades unmodified."
+}

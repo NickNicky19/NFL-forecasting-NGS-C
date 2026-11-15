@@ -1,0 +1,175 @@
+{
+  "id": "C-INFORMATION-SKILL-VALIDATION-v1",
+  "recorded_UTC": "2026-11-15T15:09:34.955012+00:00",
+  "unit_tests": {
+    "status": "PASS",
+    "tests": 286,
+    "log_SHA256": "aff476cfc3e20e1910ee03109c63e79a305a39c335c46f89815a8605efa780d4"
+  },
+  "mandatory_CI": {
+    "status": "PASS",
+    "blocks": 26,
+    "steps": [
+      {
+        "command": "node --check docs/app.js",
+        "exit": 0,
+        "CPU_seconds": 0.042966000000002946
+      },
+      {
+        "command": "node --check docs/forward.js",
+        "exit": 0,
+        "CPU_seconds": 0.03593199999999719
+      },
+      {
+        "command": "node --check docs/paper.js",
+        "exit": 0,
+        "CPU_seconds": 0.03724200000000444
+      },
+      {
+        "command": "node --check docs/accuracy.js",
+        "exit": 0,
+        "CPU_seconds": 0.034887999999995145
+      },
+      {
+        "command": "node --check docs/championship.js",
+        "exit": 0,
+        "CPU_seconds": 0.03308000000000533
+      },
+      {
+        "command": "node --check docs/context.js",
+        "exit": 0,
+        "CPU_seconds": 0.044163999999994985
+      },
+      {
+        "command": "python src/context_site_validate_c01.py",
+        "exit": 0,
+        "CPU_seconds": 2.3052319999999957
+      },
+      {
+        "command": "python src/site_profile_closure_c04.py --validate",
+        "exit": 0,
+        "CPU_seconds": 0.08540300000000434
+      },
+      {
+        "command": "python src/site_timing_confirm_c05.py --validate",
+        "exit": 0,
+        "CPU_seconds": 0.06229799999999708
+      },
+      {
+        "command": "python src/site_category_decisions_c06.py --validate",
+        "exit": 0,
+        "CPU_seconds": 2.568654999999998
+      },
+      {
+        "command": "node --check docs/qualification.js",
+        "exit": 0,
+        "CPU_seconds": 0.04607899999999798
+      },
+      {
+        "command": "python src/site_qualification_5w.py validate",
+        "exit": 0,
+        "CPU_seconds": 9.049401999999997
+      },
+      {
+        "command": "python src/abc_period_validation_v2.py\npython src/site_shared_c01.py validate\npython scripts/export_week8_final_v2.py\n",
+        "exit": 0,
+        "CPU_seconds": 2.335416999999997
+      },
+      {
+        "command": "node --check docs/reliability.js",
+        "exit": 0,
+        "CPU_seconds": 0.03963600000000067
+      },
+      {
+        "command": "node --check docs/week8.js",
+        "exit": 0,
+        "CPU_seconds": 0.03839800000000082
+      },
+      {
+        "command": "node --check docs/topk.js",
+        "exit": 0,
+        "CPU_seconds": 0.04070199999999424
+      },
+      {
+        "command": "python src/actual_accuracy_v6.py validate",
+        "exit": 0,
+        "CPU_seconds": 22.722997
+      },
+      {
+        "command": "python src/site_reliability_v8.py validate",
+        "exit": 0,
+        "CPU_seconds": 15.832907000000004
+      },
+      {
+        "command": "python src/week8_report_v9.py validate",
+        "exit": 0,
+        "CPU_seconds": 1.527150000000013
+      },
+      {
+        "command": "python src/topk_report_v9.py validate",
+        "exit": 0,
+        "CPU_seconds": 1.8799349999999944
+      },
+      {
+        "command": "python src/site_paper_v5.py validate",
+        "exit": 0,
+        "CPU_seconds": 5.898731999999992
+      },
+      {
+        "command": "python src/site_validate_v2.py",
+        "exit": 0,
+        "CPU_seconds": 3.9535780000000056
+      },
+      {
+        "command": "python src/site_validate_forward_v4.py",
+        "exit": 0,
+        "CPU_seconds": 6.221467000000004
+      },
+      {
+        "command": "python src/prospective_v4.py verify --root prospective",
+        "exit": 0,
+        "CPU_seconds": 5.435374999999992
+      },
+      {
+        "command": "python src/paper_v5.py verify --root paper",
+        "exit": 0,
+        "CPU_seconds": 1.5829909999999927
+      },
+      {
+        "command": "python src/freshness_query_shadow_v1.py verify --output prospective/shadows/AUDIT-D2-C-REC-W09-01",
+        "exit": 0,
+        "CPU_seconds": 8.22051999999999
+      }
+    ],
+    "log_SHA256": "915d142fc2b434c0afa86d710e44cf3ab6bd748cf8875db14ca0f29bc463822d"
+  },
+  "independent": [
+    {
+      "path": "reports/information-skill-01/verification/FEATURE_INDEPENDENT.json",
+      "bytes": 2466,
+      "SHA256": "ee268341b0087106953b2a1c08d586d386647a28ec8d221bed58e460a82cd353"
+    },
+    {
+      "path": "reports/information-skill-01/verification/RESULT_INDEPENDENT.json",
+      "bytes": 3203,
+      "SHA256": "06d77d9e87c3358be2cdfc92677df7ae6a14d77258a0b45afa14b2b685b4cf43"
+    },
+    {
+      "path": "reports/information-skill-01/verification/PROBABILITY_INDEPENDENT.json",
+      "bytes": 557,
+      "SHA256": "dc763122be3c7abf0bfdf95c027878fd3e587168569d41809f7060f05de0fdd8"
+    }
+  ],
+  "full_context_NFL_fixture": {
+    "path": "reports/information-skill-01/inputs/NFL_MUTATION_CHECK.json",
+    "bytes": 4272,
+    "SHA256": "ec5a5edc00780566dd505499d8f43c57403413737e7dc7becd61229689149dfa"
+  },
+  "original_M3_379_members_unchanged": true,
+  "all36new_models_bound_to_frozen_recipe_and_code": true,
+  "source_presence_identity_and_null_contracts": "Checked on changed path, not a whole-project audit or vintage authentication",
+  "grading": "Existing common grader; separate independent Decimal measurements; original scores retained",
+  "new_primary_admission": false,
+  "current_capture": false,
+  "served_original_website_use": false
+}

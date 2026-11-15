@@ -1,0 +1,114 @@
+{
+  "id": "INFORMATION-SKILL-01-C-ROLE-DEPTH-ADJUSTED-v1",
+  "registered_UTC": "2026-11-15T14:42:26.459284+00:00",
+  "owner": "C",
+  "primary_target": "rec",
+  "later_roster_only": true,
+  "frozen_M1_M2_M3_and_championship_unchanged": true,
+  "motivation": "Completed collapsed/raw context and new distribution tests do not establish improved props. Test whether role-specific depth response after accounting for the offenses faced supplies a useful relationship beyond those marginals. No claim missing information solely causes low accuracy.",
+  "hypothesis": "Earlier-only WR/TE (and RB role-appropriate training) depth-specific offense-adjusted defensive catch residuals, weighted by a shrunk predicted player target-depth mix, improve exact-line reception forecasts and own-list reliability. This is a depth proxy, never alignment or route exposure.",
+  "nearest_equivalents": {
+    "C01_E3": "All-role adjusted depth/down response x player mix; already tested, no extraHGBsplits",
+    "C01_P2": "L2 player/team/defense intercepts; reused family, not claimed novelpersonalization",
+    "C03_R3": "Raw role x depth defense catch rates; not adjustedforoffense",
+    "M3_17block": "Player depth mix plus collapsed opponent residuals; no role-depth adjusted response interaction",
+    "Astra": "Separate artifacts not obtained; no all-project novelty claim"
+  },
+  "novelty": "New crossed role x depth offense-adjusted residual vs old all-role adjusted/raw role-conditioned/collapsed summaries. Existing sources and shrinkage constants, no new alignment/personnel field or distribution family.",
+  "source": {
+    "files_manifest": "reports/targeted-accuracy-w1w9-01/M3/inputs/CONTEXT_BINDINGS.json",
+    "ordinary_rows": "reports/targeted-accuracy-w1w9-01/M3/inputs/FEATURES_AND_MEMBER_FACTS.json.gz",
+    "PBP": "Qualified valid targeted attempts excluding sacks/twopoint/deleted/noplay; exactallposition official attempts/completions/targets reconciliation; extra null/nonbinary completion labels held for newblock only",
+    "coverage": "2024/2025 all272games each;2026 retained120gamesW1-8. W9 inference uses eligibleearlier history, not targetW9PBP.",
+    "roles": "Historical receiver role from ordinary identities; OTHER_OR_UNKNOWN retained in totals, not inventedalignment",
+    "availability": "Strict kickoff+7d<origin current-vintage reconstruction; observed download/revision clocks not original publication; no historicaldeployability certification",
+    "actualoffers": "Existing native uniqueplayer/game/rec panel W2-3; fixedPinnacle,DK,FDprecedence; timing/mainaltunverified diagnostic; A additionalprivate joins separate",
+    "no_new_raw_source_requests": true
+  },
+  "information_block": {
+    "support": [
+      "prior_player_targets8",
+      "prior_opponent_role_targets8",
+      "prior_opponent_games8",
+      "prior_opponent_age_days",
+      "substantive_missing"
+    ],
+    "values": [
+      "forecast_depth_mix_x_role_depth_offense_adjusted_catch_residual"
+    ],
+    "formula": "For each priorgame, offense role-depth expectedcatch=(eligibleoffense8c+20*eligibleleague_role_depthrate)/(offense8n+20); residual=c-n*expected. Querydefense8depthprior=sumrole residual/(sumrole targets+40); roledepthresponse=(roleresidual+20*depthprior)/(roletargets+20). Playerdepthmix=(qualifiedsamehistoricalteam8depthtargets+20*earlierleagueroledepthmix)/(player_targets+20); scalar=dot(forecastmix,roledepthresponse). No future mix or forced output multiplier.",
+    "lookback": 8,
+    "shrinkage": "20/40 inherited existing contextdefinitions; no exposed validationselection",
+    "null_contract": "Noeligible source substantive valueNaN; support zero knownmetadata; unknown depth explicitbin; zero targets not sourceabsence; missing personnel/alignmentunavailable",
+    "component": "Playerforecast depthmix and baseline/vsadjusted catchrate, evaluated as separate conditional-on-target postgame diagnostics. These do not forecast opportunity or alone establish prop improvement."
+  },
+  "arms": {
+    "LEAF": "C0 exactunchanged retainedM3-0 empirical Leaf countlaw, E0_OP32, nativeJSON/laws reused, no baseline refit",
+    "C1_SUPPORT": "Same Leaf learner/history/settings original32+5 new support indicators",
+    "C1_VALUE": "C1 same Leaf original32+5support+1substantive scalar",
+    "R0_PARTIAL": "Existing L2 partialpooled Poisson alpha.1/maxiter120/tol1e-7, player/team/opponent regularizedintercepts; original32+5support",
+    "R1_PARTIAL": "Same partialpooled Poisson policy and enrichedinformation as C1_VALUE; unseenidentity groupcoef0 priorfallback with explicit support"
+  },
+  "differences": [
+    "C1_VALUE minus LEAF total information+presence increment",
+    "C1_VALUE minus C1_SUPPORT substantivevalue beyondsupport",
+    "R1_PARTIAL minus C1_VALUE sameinformation relationshipfamilyeffect",
+    "R1_PARTIAL minus R0_PARTIAL information withinrelationshipfamily"
+  ],
+  "fitting": {
+    "origins": "2026 W1-9 minscheduledweekkickoff; strict available<origin, no targetgame training, roleappropriate RB/WR/TE ordinary historical training2022+; same existingM3 membership/queryuniverse",
+    "baseline": "Exactsame eligibletrainingmembers and original32features; baselineextra modelsfornewinformationproperlyfitted, noappendcolumns tooldmodel",
+    "Leaf": "Existing laws_v2.LeafModel settings32ExtraTrees/depth8/minleaf30/random1701, trainonly medians+missingflags",
+    "partial": "Existing context_experiment_c01.pooled_fit / pooled_mu; identical fixedstandardization+missingflags, alphaconstraint, identityencoding forR0/R1; convergence/reportwarningskept",
+    "tuning": "None on2026; fixed existing settings, no learner/window/seed/smoothingsearch. No automaticrerun onpooraccuracy.",
+    "attempts": 36,
+    "independent_fits_max": 1,
+    "no_new_2025_fits": "Supported retainedrobustness remainsseparate; future bounded extension only ifjustified, not delaying this package."
+  },
+  "evaluation": {
+    "grader": "Unchanged src/abc_championship_v2.py status/summary and src/targeted_scores_m3.py resultviews; thin declaredcontrastadapter, no competinggrader",
+    "outputs": [
+      "MEAN strictvsline",
+      "MEDIAN strictvsline",
+      "LAW overvsunder mass, exactpush, tieabstain"
+    ],
+    "population": "Allsame295recoffers(nativeW2-3); fullsystemandcommoncase; 27selectedunknowns retained ifexactinputsverify. Numericalqueryuniverse1975WRTErows stat-rowconditional plusnativeadditions; not authenticatedpregameroster.",
+    "controls": [
+      "Exact LEAF parent",
+      "strong retained direct P3 classifier",
+      "P1 mean/median",
+      "alwaysOver",
+      "alwaysUnder",
+      "earlierprevalence wherecompatible retained"
+    ],
+    "selection": "Reuse frozen M3 perweek retrospective fraction100/50/25/10,Top6/10/20,rawP75/80/90 ownconditionalondecisionprob; same lexicalties. Calibrated thresholds blocked without earlierqualifiedactualoffers. No new filters. Own-list and same-selected-case controls separate.",
+    "uncertainty": "Reusegame/weekaware existingpaired method,500wholeweekresamples seed1703; only2nativeweeks, no IID70/80claim. All2026exposed; maxobservednotindependentsuperiority.",
+    "periodaccounting": "Native actualweeksW2-3 only untilcompatibleAreceipt; reportW1,W4-9missing not0selected. Nine numericalorigins notnineofferweeks. No fabricatedincumbentforecast."
+  },
+  "correctness": [
+    "Retained NFL full-context aggregated catch-outcome mutation with full query/team universe, preserving target denominators/identity/order/clocks/qualification; rebuild new relationship engine and compare full raw38 features and fixed earlier-training transformed design. Does not independently reconstruct raw PBP or authenticate vintages.",
+    "Count/mass/CDF/support/push checks",
+    "Singlebatch andsafeJSON restoration",
+    "Featureorder and fittedblockuse",
+    "Qualified counts and representative earliergame admission/latestage",
+    "Sourcepresence andpredictionfallback attribution"
+  ],
+  "budget_parent": "ADOPTION_AND_BUDGET.json; total600CPU, scientificmax400 leaving200checks/retention,40attemptsmax,1thread,1worker,1.2GiBRSS,32MiBpublic,wholeC2.684GBunchanged; noM1budget",
+  "stopping": "One frozen pass; report no-gain/inconclusive/shadow/handoff under existingrules. Checkpoint exactstep ifcap/checkfails; no automaticextension. No currentquery orproductionactivation establishedby historicaltest.",
+  "pre_execution_review": {
+    "UTC": "2026-11-15T14:47:46.916542+00:00",
+    "state": "PASS_STATIC_AND_NOVELTY;FITS_CONDITIONAL_ON_EXECUTED_NFL_FIXTURE",
+    "scope": "New modules and public receipt arithmetic only; source-clock/private parity not inferred",
+    "amendment": "Clarify aggregated-NFL outcome fixture scope before execution, not a raw-PBP rebuild; no scientific arm or law tolerance changed.",
+    "new_scores_seen": false
+  },
+  "execution_authorized": true,
+  "execution_GO": {
+    "UTC": "2026-11-15T14:52:21.867251+00:00",
+    "reason": "Pre-score independent static/source/formula/consumeddesign PASS and executed full-context NFL fixture PASS",
+    "fixture_SHA256": "ec5a5edc00780566dd505499d8f43c57403413737e7dc7becd61229689149dfa",
+    "independent_check_SHA256": "ee268341b0087106953b2a1c08d586d386647a28ec8d221bed58e460a82cd353",
+    "precharged_CPU_seconds": 72.466347327,
+    "charge_scope": "Full featurewrapper56.965164 +full independent4.501184 +conservative10 preflight/coordination +1 failed timingwrapper bookkeeping; all consumption retained; scientific400 includes this, total600 unchanged."
+  }
+}
