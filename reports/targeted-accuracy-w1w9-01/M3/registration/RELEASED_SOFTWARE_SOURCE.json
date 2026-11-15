@@ -1,0 +1,30 @@
+{
+  "release": "xgboostlss0.6.1",
+  "official_wheel_SHA256": "ae1de732bef58ece4d066fe8d75730328f92ff849417b8581facfefebbf1ee6b",
+  "released_files": {
+    "xgboostlss/model.py": {
+      "bytes": 26512,
+      "SHA256": "3186c7a5b8dbdc4d4b1350c9c9023e4d2758587d7527228c8d4deeb4665d21fe"
+    },
+    "xgboostlss/distributions/NegativeBinomial.py": {
+      "bytes": 4002,
+      "SHA256": "360d1588e5e10247d1380c7965623ed351185af86d54371c214e39a7067f7e64"
+    },
+    "xgboostlss/distributions/StudentT.py": {
+      "bytes": 3438,
+      "SHA256": "adafb1f99502370875a5355f8257266930a554ac6ad7ef6ade1ed67596db3c68"
+    },
+    "xgboostlss/distributions/distribution_utils.py": {
+      "bytes": 26104,
+      "SHA256": "8777cb50e0e3a6355d95a9b4923f2cdc645f0c10f5a8fb05d5ee1db274a154be"
+    },
+    "xgboostlss/utils.py": {
+      "bytes": 7144,
+      "SHA256": "47cbb0686d48955f2b0a0014911ddff51c5a3d227a6ea2088beba1f6a30ddb61"
+    }
+  },
+  "master_not_assumed_identical": true,
+  "NB_parameterization": "Torch total_count r, probs p; mu=r*p/(1-p), var=mu+mu\u00b2/r; librarysigmoidbounds[.001,.999], r=exp(raw)+1e-6",
+  "StudentT_parameterization": "df=exp(raw)+2+1e-6, loc=identity, scale=exp(raw)+1e-6; finitevariance; continuousNLLtraining; discreteintegerbins at(k-.5,k+.5] forinference",
+  "safe_restore": "nativeXGBoostJSON+primitiveJSONsidecar; nopickle"
+}

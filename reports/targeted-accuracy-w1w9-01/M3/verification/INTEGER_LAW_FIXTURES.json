@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "law": "NB",
+      "mass_with_tails": 1.0000000000000004,
+      "negative_mass": 0.0,
+      "zero_mass": 0.10119288512538817,
+      "mean": 3.75,
+      "variance": 9.374999999999998
+    },
+    {
+      "law": "STUDENT_T_BIN",
+      "mass_with_tails": 1.0,
+      "negative_mass": 0.015487868067059752,
+      "zero_mass": 0.016166680290455763,
+      "mean": 12.25,
+      "variance": 540.0833333333334
+    }
+  ],
+  "gradients": {
+    "NB_natural": [
+      -0.17346395789985536,
+      -0.4166666659699558
+    ],
+    "StudentT_continuous_natural": [
+      -0.011712561467369653,
+      -0.020870354266557627,
+      0.048888636831427114
+    ]
+  },
+  "continuous_density_not_integer_mass": true,
+  "NB_underdispersion_supported": false,
+  "no_zero_inflation_or_test_max_clipping": true
+}

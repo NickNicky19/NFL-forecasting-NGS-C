@@ -1,0 +1,83 @@
+{
+  "id": "C-A-TARGETED-ACCURACY-CURRENT-RECEIPT-v1",
+  "recorded_UTC": "2026-11-15T05:04:40.737888+00:00",
+  "assignment": "NFL-TARGETED-ACCURACY-W1W9-01;C coordination only, A M1 owner unchanged",
+  "repository": "NickNicky19/NFL-forecasting",
+  "branch": "research/accuracy-wave-20261026",
+  "actual_branch_HEAD": "3f10b641134658d3036933928cf2fa08dac4083c",
+  "HEAD_scope": "Actual current registered research branch; not a default-main or producer-lease claim.",
+  "request_budget": {
+    "maximum_public_GitHub_requests": 3,
+    "actual_public_GitHub_requests": 2,
+    "response_content_budget_bytes": 3145728,
+    "index_decoded_content_bytes": 67163,
+    "head_lookup_returned_content_bytes": 41,
+    "transport_overhead_or_full_GH_ref_body_bytes": "NOT_MEASURED;only requested SHA printed",
+    "third_request": "NOT_USED;no explicitly linked targeted M1 receipt in registered index"
+  },
+  "requests": [
+    {
+      "ordinal": 1,
+      "method": "GET via authenticated read-only gh api",
+      "path": "repos/NickNicky19/NFL-forecasting/git/ref/heads/research/accuracy-wave-20261026",
+      "result": "PASS",
+      "returned_HEAD": "3f10b641134658d3036933928cf2fa08dac4083c",
+      "printed_content_SHA256": "c6d851338d1d3e4d0b86ab47add24fdcfd3fa36f6f12242c909e21feee290ea6"
+    },
+    {
+      "ordinal": 2,
+      "method": "GitHub fetch_file, public read-only",
+      "path": "reports/abc-championship/EXPORT_INDEX.json",
+      "ref": "3f10b641134658d3036933928cf2fa08dac4083c",
+      "url": "https://github.com/NickNicky19/NFL-forecasting/blob/3f10b641134658d3036933928cf2fa08dac4083c/reports/abc-championship/EXPORT_INDEX.json",
+      "result": "PASS",
+      "bytes": 67163,
+      "SHA256": "63f089809aa26328c40039c81589592ae80dad04e2b7234bb2625c0b6eb8a9e5",
+      "git_blob": "d3adea12b920f7070b317ce2cdf7e92d9049b253",
+      "independently_reconstructed_blob_match": true
+    }
+  ],
+  "registered_index": {
+    "version": "ABC-EXPORT-v2/A-public-discovery-v1",
+    "exports": 19,
+    "last_export_id": "wave-close-next-comparison-20261114-01-A",
+    "last_export_report": "reports/abc-championship/wave-close-next-comparison-20261114-01/EXECUTED_WAVE_CLOSE_A_V1.md",
+    "last_export_state": "EXECUTED_ZERO_FIT_W1_W4_FTN_JOIN;NO_PRIMARY_SWITCH",
+    "new_index_or_collector_created": false
+  },
+  "M1": {
+    "published_registered_receipt_status": "NOT_OBSERVED_IN_CHECKED_CURRENT_PUBLIC_INDEX",
+    "active_status": "UNKNOWN;index absence does not prove inactive or unimplemented",
+    "source_block_status": "UNKNOWN;no M1 feasibility or blocked receipt was indexed",
+    "exact_immutable_output_binding": null,
+    "search_scope": "Recursive inspection of every current index string for targeted/M1/XGBoostLSS/TARGETED-ACCURACY/accuracy-W1W9 identifiers, plus all19 exports;no matching explicit link found.",
+    "new_fit_or_predictive_result_claim": false,
+    "next_executor": "A existing M1 research owner",
+    "minimum_permissible_action": "At its safe checkpoint, publish or identify the exact M1 adoption/active/feasibility/result receipt through the existing registered index or explicit mapped equivalent; include immutable procedure/output/source/period bindings. C then intakes that receipt within authority, without duplicating A fits or inferring source availability."
+  },
+  "completed_work_preserved": {
+    "W1_W4_FTN_join": "Latest indexed wave-close-next-comparison-20261114-01-A still reports EXECUTED_ZERO_FIT_W1_W4_FTN_JOIN;NO_PRIMARY_SWITCH. It remains received/admitted under existing W1W9 receipts, not pending again.",
+    "last_completed_report_binding": {
+      "repository": "NickNicky19/NFL-forecasting",
+      "ref": "3f10b641134658d3036933928cf2fa08dac4083c",
+      "path": "reports/abc-championship/wave-close-next-comparison-20261114-01/EXECUTED_WAVE_CLOSE_A_V1.md"
+    },
+    "no_old_files_changed": true,
+    "no_failed_recipe_reopened": true
+  },
+  "limitations": [
+    "No third speculative path, branch sweep, protected raw source or private artifact inspected.",
+    "A latest branch/index publication is not an acknowledgment of C assignment or proof of A receipt/activity.",
+    "No M1 score, fit, coverage, source feasibility, output identity or release eligibility is inferred.",
+    "C M3 work continues independently; this missing published M1 receipt does not block it."
+  ],
+  "execution": {
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_joins": 0,
+    "new_source_collection": 0,
+    "peer_writes_comments_dispatches": 0,
+    "credentials_exposed_or_requested": false,
+    "publication_or_deployment_claim": false
+  }
+}

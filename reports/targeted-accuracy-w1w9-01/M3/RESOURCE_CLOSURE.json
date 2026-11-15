@@ -1,0 +1,840 @@
+{
+  "id": "C-M3-RESOURCE-CLOSURE-v1",
+  "recorded_UTC": "2026-11-15T05:41:44.823925+00:00",
+  "cap_unchanged": 2684354560,
+  "whole_C_bytes_before_commit": 1830597587,
+  "headroom_bytes": 853756973,
+  "roots": [
+    {
+      "path": "/tmp/c06-ci0c-failed.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-ci97-failed.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-coverage-amended.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-final-software.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-pr-body.md",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-preexecution-tests.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06-prepare.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c06_finish_report.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/c07-coverage.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/category-indep-complete-final.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/category-indep-primary-final.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/category-indep-primary.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/infofirst-ci-contracts.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/infofirst-consolidate.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/infofirst-source-manifest-readback.txt",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/infofirst-source-structure-readback.txt",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/infofirst-unittest.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-capture-facts-readback.txt",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-capture-manifest-readback.txt",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-ci-contracts.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-consolidate.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-original-leans.b64",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-original-leans.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-unittest.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-grade.b64",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-grade.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-research-tree.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-scoring.b64",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-scoring.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-timeline.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/intclose-website-tree.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/m3-adequacy.py",
+      "bytes": 3473
+    },
+    {
+      "path": "/tmp/m3-all-unittest.log",
+      "bytes": 43706
+    },
+    {
+      "path": "/tmp/m3-base-resume.log",
+      "bytes": 732
+    },
+    {
+      "path": "/tmp/m3-base-resume2.log",
+      "bytes": 4063
+    },
+    {
+      "path": "/tmp/m3-base-run.log",
+      "bytes": 817
+    },
+    {
+      "path": "/tmp/m3-cache-reclaim.py",
+      "bytes": 3064
+    },
+    {
+      "path": "/tmp/m3-ci-contracts.log",
+      "bytes": 2244
+    },
+    {
+      "path": "/tmp/m3-ci-result.json",
+      "bytes": 2597
+    },
+    {
+      "path": "/tmp/m3-consolidate.py",
+      "bytes": 11273
+    },
+    {
+      "path": "/tmp/m3-context-run.log",
+      "bytes": 6133
+    },
+    {
+      "path": "/tmp/m3-finish-metadata.py",
+      "bytes": 8269
+    },
+    {
+      "path": "/tmp/m3-install-runtime.py",
+      "bytes": 4267
+    },
+    {
+      "path": "/tmp/m3-law-unit.log",
+      "bytes": 762
+    },
+    {
+      "path": "/tmp/m3-register.py",
+      "bytes": 6446
+    },
+    {
+      "path": "/tmp/m3-run-ci.py",
+      "bytes": 1210
+    },
+    {
+      "path": "/tmp/m3-runtime-install.log",
+      "bytes": 430
+    },
+    {
+      "path": "/tmp/m3-score-v11.log",
+      "bytes": 1110
+    },
+    {
+      "path": "/tmp/m3-score.log",
+      "bytes": 1080
+    },
+    {
+      "path": "/tmp/m3-seal.py",
+      "bytes": 6659
+    },
+    {
+      "path": "/tmp/m3-source-pin.py",
+      "bytes": 1260
+    },
+    {
+      "path": "/tmp/m3-write-results.py",
+      "bytes": 29846
+    },
+    {
+      "path": "/tmp/nginfo-ci-contracts-corrected.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-ci-contracts.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-ci-failure.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-final-pr-result.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-final-readback.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-finalize-bindings.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-gh-compat",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-landing-authority.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-landing-plan.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-landing-result.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-pr-body.md",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-pr-observations.ndjson",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-pr-skill",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-pr-watch-cursor.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-pr-watch-result.json",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-readback",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-readback-final",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-software-tests.log",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/nginfo-write-consolidated.py",
+      "bytes": 0
+    },
+    {
+      "path": "/tmp/w1w9-A-annual-0.b64",
+      "bytes": 79455
+    },
+    {
+      "path": "/tmp/w1w9-A-annual-1.b64",
+      "bytes": 72822
+    },
+    {
+      "path": "/tmp/w1w9-A-annual-law.b64",
+      "bytes": 82224
+    },
+    {
+      "path": "/tmp/w1w9-B-common-controls.json",
+      "bytes": 2364218
+    },
+    {
+      "path": "/tmp/w1w9-att-source-0.b64",
+      "bytes": 288705
+    },
+    {
+      "path": "/tmp/w1w9-att-source-1.b64",
+      "bytes": 7125
+    },
+    {
+      "path": "/tmp/w1w9-ci-contracts.log",
+      "bytes": 851
+    },
+    {
+      "path": "/tmp/w1w9-ci-result.json",
+      "bytes": 2450
+    },
+    {
+      "path": "/tmp/w1w9-existing-merge-authority.json",
+      "bytes": 668
+    },
+    {
+      "path": "/tmp/w1w9-land-plan.json",
+      "bytes": 598
+    },
+    {
+      "path": "/tmp/w1w9-land-result.json",
+      "bytes": 830
+    },
+    {
+      "path": "/tmp/w1w9-merge-cursor.json",
+      "bytes": 1253
+    },
+    {
+      "path": "/tmp/w1w9-merge-observations.ndjson",
+      "bytes": 1289
+    },
+    {
+      "path": "/tmp/w1w9-merge-result.json",
+      "bytes": 1289
+    },
+    {
+      "path": "/tmp/w1w9-pr-body.md",
+      "bytes": 1296
+    },
+    {
+      "path": "/tmp/w1w9-pr-cursor.json",
+      "bytes": 1116
+    },
+    {
+      "path": "/tmp/w1w9-pr-observations.ndjson",
+      "bytes": 1161
+    },
+    {
+      "path": "/tmp/w1w9-pr-result.json",
+      "bytes": 1161
+    },
+    {
+      "path": "/tmp/w1w9-publication-readback.json",
+      "bytes": 1610
+    },
+    {
+      "path": "/tmp/w1w9-root-read-ledger.json",
+      "bytes": 2383
+    },
+    {
+      "path": "/tmp/w1w9-unittest.log",
+      "bytes": 43072
+    },
+    {
+      "path": "/tmp/wave-site-build.py",
+      "bytes": 11073
+    },
+    {
+      "path": "/tmp/wave-site-discovery-response.json",
+      "bytes": 384648
+    },
+    {
+      "path": "/tmp/wave-site-query.graphql",
+      "bytes": 241
+    },
+    {
+      "path": "/tmp/wave-site-upstream-receipt.json",
+      "bytes": 281585
+    },
+    {
+      "path": "/tmp/waveclose-ci-contracts.log",
+      "bytes": 851
+    },
+    {
+      "path": "/tmp/waveclose-gh-compat",
+      "bytes": 11115
+    },
+    {
+      "path": "/tmp/waveclose-pr-skill",
+      "bytes": 72578
+    },
+    {
+      "path": "/tmp/waveclose-pr-smoke-cursor.json",
+      "bytes": 1095
+    },
+    {
+      "path": "/tmp/waveclose-pr-smoke.json",
+      "bytes": 1145
+    },
+    {
+      "path": "/tmp/waveclose-unittest.log",
+      "bytes": 43072
+    },
+    {
+      "path": "/workspace/c-abc-continuation",
+      "bytes": 1791368
+    },
+    {
+      "path": "/workspace/c-abc-restore-v2",
+      "bytes": 499386
+    },
+    {
+      "path": "/workspace/c-abc-shared-v3",
+      "bytes": 357232
+    },
+    {
+      "path": "/workspace/c-audit-remediation-independent.json",
+      "bytes": 15513
+    },
+    {
+      "path": "/workspace/c-champ-v2",
+      "bytes": 1544806
+    },
+    {
+      "path": "/workspace/c-closure02-browser",
+      "bytes": 486804
+    },
+    {
+      "path": "/workspace/c-closure02-current-raw",
+      "bytes": 2603493
+    },
+    {
+      "path": "/workspace/c-closure02-current-raw-batch2",
+      "bytes": 3503692
+    },
+    {
+      "path": "/workspace/c-closure02-forward-models",
+      "bytes": 2384517
+    },
+    {
+      "path": "/workspace/c-closure02-git-transport",
+      "bytes": 48134
+    },
+    {
+      "path": "/workspace/c-closure02-independent-stage1.json",
+      "bytes": 5958
+    },
+    {
+      "path": "/workspace/c-closure02-independent-stage2.json",
+      "bytes": 15116
+    },
+    {
+      "path": "/workspace/c-closure02-intake",
+      "bytes": 2333496
+    },
+    {
+      "path": "/workspace/c-closure02-pr-body.txt",
+      "bytes": 1230
+    },
+    {
+      "path": "/workspace/c-closure02-pr2-body.txt",
+      "bytes": 1557
+    },
+    {
+      "path": "/workspace/c-closure02-pr3-body.txt",
+      "bytes": 1193
+    },
+    {
+      "path": "/workspace/c-closure02-pr4-body.txt",
+      "bytes": 870
+    },
+    {
+      "path": "/workspace/c-closure02-public-build.json",
+      "bytes": 1862
+    },
+    {
+      "path": "/workspace/c-context-duplicate-inventory.json",
+      "bytes": 26528
+    },
+    {
+      "path": "/workspace/c-context-final-independent-01.json",
+      "bytes": 13093
+    },
+    {
+      "path": "/workspace/c-context-final-tests.log",
+      "bytes": 452
+    },
+    {
+      "path": "/workspace/c-context-identity-independent-01.json",
+      "bytes": 3101
+    },
+    {
+      "path": "/workspace/c-context-independent-01.json",
+      "bytes": 1093752
+    },
+    {
+      "path": "/workspace/c-context-native-grade-raw",
+      "bytes": 5050
+    },
+    {
+      "path": "/workspace/c-context-native-grade-raw-02",
+      "bytes": 2762428
+    },
+    {
+      "path": "/workspace/c-context-next-forward-models",
+      "bytes": 2384561
+    },
+    {
+      "path": "/workspace/c-context-next-forward-raw",
+      "bytes": 3733542
+    },
+    {
+      "path": "/workspace/c-context-next-forward-source",
+      "bytes": 1583887
+    },
+    {
+      "path": "/workspace/c-context-publication-independent.json",
+      "bytes": 2114
+    },
+    {
+      "path": "/workspace/c-context-report-output.txt",
+      "bytes": 3443
+    },
+    {
+      "path": "/workspace/c-context-tests.log",
+      "bytes": 448
+    },
+    {
+      "path": "/workspace/c-forward-v4",
+      "bytes": 13832388
+    },
+    {
+      "path": "/workspace/c-m3-inference",
+      "bytes": 17605600
+    },
+    {
+      "path": "/workspace/c-offers-v5",
+      "bytes": 39857667
+    },
+    {
+      "path": "/workspace/c-offers-v6",
+      "bytes": 4937347
+    },
+    {
+      "path": "/workspace/c-point-export-temporary",
+      "bytes": 9693
+    },
+    {
+      "path": "/workspace/c-post-wave-5w-independent.json",
+      "bytes": 9051
+    },
+    {
+      "path": "/workspace/c-post5w-final-public-assets",
+      "bytes": 597218
+    },
+    {
+      "path": "/workspace/c-post5w-final-public-independent.json",
+      "bytes": 3778
+    },
+    {
+      "path": "/workspace/c-post5w-headline-correction-independent.json",
+      "bytes": 852
+    },
+    {
+      "path": "/workspace/c-post5w-portability-check.json",
+      "bytes": 1592
+    },
+    {
+      "path": "/workspace/c-post5w-public-independent-assets",
+      "bytes": 597187
+    },
+    {
+      "path": "/workspace/c-post5w-public-independent.json",
+      "bytes": 4825
+    },
+    {
+      "path": "/workspace/c-private",
+      "bytes": 287156827
+    },
+    {
+      "path": "/workspace/c-propline-v7",
+      "bytes": 59570880
+    },
+    {
+      "path": "/workspace/c-reference-v2",
+      "bytes": 23144142
+    },
+    {
+      "path": "/workspace/c-v2",
+      "bytes": 47412746
+    },
+    {
+      "path": "/workspace/c-v8",
+      "bytes": 2477135
+    },
+    {
+      "path": "/workspace/c-w8-v9",
+      "bytes": 42614610
+    },
+    {
+      "path": "/workspace/c04-clean-start.json",
+      "bytes": 1953
+    },
+    {
+      "path": "/workspace/c04-current-draft",
+      "bytes": 2331162
+    },
+    {
+      "path": "/workspace/c04-current-draft-output.log",
+      "bytes": 984
+    },
+    {
+      "path": "/workspace/c04-draft-check.py",
+      "bytes": 7563
+    },
+    {
+      "path": "/workspace/c04-draft-independent.json",
+      "bytes": 11533
+    },
+    {
+      "path": "/workspace/c04-final-suite.log",
+      "bytes": 523
+    },
+    {
+      "path": "/workspace/c04-github-readback",
+      "bytes": 2388835
+    },
+    {
+      "path": "/workspace/c04-historical-readback",
+      "bytes": 321952
+    },
+    {
+      "path": "/workspace/c04-issue-check.py",
+      "bytes": 6571
+    },
+    {
+      "path": "/workspace/c04-merge.json",
+      "bytes": 163
+    },
+    {
+      "path": "/workspace/c04-pr-body.txt",
+      "bytes": 905
+    },
+    {
+      "path": "/workspace/c04-pr-update.json",
+      "bytes": 1451
+    },
+    {
+      "path": "/workspace/c04-receipt-merge.json",
+      "bytes": 147
+    },
+    {
+      "path": "/workspace/c04-receipts-pr.txt",
+      "bytes": 526
+    },
+    {
+      "path": "/workspace/c04-served-browser",
+      "bytes": 276275
+    },
+    {
+      "path": "/workspace/c04-served-bytes",
+      "bytes": 162035
+    },
+    {
+      "path": "/workspace/c04-site-browser",
+      "bytes": 276675
+    },
+    {
+      "path": "/workspace/c04-site-draft",
+      "bytes": 40593
+    },
+    {
+      "path": "/workspace/c04-unittest-final-pre-capture.log",
+      "bytes": 508
+    },
+    {
+      "path": "/workspace/c04-unittest.log",
+      "bytes": 507
+    },
+    {
+      "path": "/workspace/c04-validation-all-tests.log",
+      "bytes": 2366
+    },
+    {
+      "path": "/workspace/c04_fresh_restore.py",
+      "bytes": 2007
+    },
+    {
+      "path": "/workspace/c04_verify_served.py",
+      "bytes": 1952
+    },
+    {
+      "path": "/workspace/c04_write_report.py",
+      "bytes": 17970
+    },
+    {
+      "path": "/workspace/c05-actual-inference-independent.json",
+      "bytes": 2095
+    },
+    {
+      "path": "/workspace/c05-clean-start.json",
+      "bytes": 1068
+    },
+    {
+      "path": "/workspace/c05-current-draft",
+      "bytes": 46248
+    },
+    {
+      "path": "/workspace/c05-fresh-restore",
+      "bytes": 710022
+    },
+    {
+      "path": "/workspace/c05-original-overlay-blob.json",
+      "bytes": 759
+    },
+    {
+      "path": "/workspace/c05-original-overlay-leaf.json",
+      "bytes": 1353
+    },
+    {
+      "path": "/workspace/c05-original-receipt-comment.json",
+      "bytes": 71681
+    },
+    {
+      "path": "/workspace/c05-original-tree.json",
+      "bytes": 810412
+    },
+    {
+      "path": "/workspace/c05-pre-capture-tests.log",
+      "bytes": 605
+    },
+    {
+      "path": "/workspace/c05-report-draft",
+      "bytes": 36779
+    },
+    {
+      "path": "/workspace/c05-served-bytes",
+      "bytes": 317949
+    },
+    {
+      "path": "/workspace/c05-site-draft",
+      "bytes": 98720
+    },
+    {
+      "path": "/workspace/c05-verify-served.py",
+      "bytes": 3169
+    },
+    {
+      "path": "/workspace/c06-actual-inference-independent.json",
+      "bytes": 2448
+    },
+    {
+      "path": "/workspace/c06-clean-start.json",
+      "bytes": 1487
+    },
+    {
+      "path": "/workspace/c06-current-draft",
+      "bytes": 41769
+    },
+    {
+      "path": "/workspace/c06-fresh-restore",
+      "bytes": 4685426
+    },
+    {
+      "path": "/workspace/c06-independent-actual-check.py",
+      "bytes": 6263
+    },
+    {
+      "path": "/workspace/c06-restore-plan.json",
+      "bytes": 4643
+    },
+    {
+      "path": "/workspace/category-decision-draft",
+      "bytes": 443395
+    },
+    {
+      "path": "/workspace/ngs-c",
+      "bytes": 1246511556
+    }
+  ],
+  "new_public_bytes": 28900859,
+  "new_public_cap": 33554432,
+  "NFL_fit_attempts": 86,
+  "retained_Leaf_origin_reuses": 4,
+  "independent_NFL_fits": 1,
+  "synthetic_positivecontrol_fits": 4,
+  "fit_CPU_seconds_including_two_failed_stages": 298.85599363800014,
+  "scientific_CPU_charges": {
+    "main_fit_drivers_including_failures": 298.85599363800014,
+    "data_preparation": 17.28,
+    "context_preparation": 35.44,
+    "runtime_positive_gradient_fixtures": 6.79,
+    "numeric_inference_repair": 3.41,
+    "sanity_fixtures": 0.015,
+    "original_score_views": 4.500012503,
+    "corrected_score_views": 24.24552237,
+    "independent_review_conservative_charge_including_unmetered_reviewer_failures": 100,
+    "other_unmetered_parent_adequacy_and_preparation_conservative_charge": 20,
+    "native_CPU_only_inference_parity": 3.07,
+    "complete_unit_contract": 29.126,
+    "mandatory_CI_contract": 84.267467
+  },
+  "scientific_CPU_cap": 900,
+  "fit_peak_RSS": 636227584,
+  "RSS_cap": 1288490188,
+  "fit_driver_wall_seconds": 289.6131577910055,
+  "wall_scope": "Instrumentedscientificdriver execution; implementation/reporting/PRelapsedwall is separate, no claims thatentireinteractiveassignmentelapsedunderdriverlimit.",
+  "runtime_peak_C_bytes": 2633340573,
+  "fit_peak_C_bytes": 2664550033,
+  "recovery_cache_bytes_reclaimed": 712242646,
+  "preserved_scientific_originals": true,
+  "runtime_removed_after_verified_execution": "FullTorchtrainingruntime removed; smallCPU-onlyinferencebuildretained undercap",
+  "new_football_acquisition_requests": 0,
+  "peer_publication_reads": 4,
+  "new_original_actual_line_selections": 0,
+  "new_NFL_games": 0,
+  "new_procedure_coverage_not_new_observations": true,
+  "old_spending_and_failures_not_reset": true,
+  "scientific_CPU_charged": 626.9999955110002,
+  "CPU_only_inference_runtime": {
+    "path": "/workspace/c-m3-inference",
+    "bytes": 17605600,
+    "software_request_count": 1,
+    "response_bytes": 5304796,
+    "new_fit_count": 0,
+    "within_original_software_budget": true
+  }
+}

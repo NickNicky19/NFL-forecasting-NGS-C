@@ -1,0 +1,56 @@
+{
+  "id": "C-M3-NUMERIC-ADAPTER-REPAIR-v1",
+  "recorded_UTC": "2026-11-15T05:03:40.087041+00:00",
+  "classification": "VERIFIED_NUMERICAL_INFERENCE_DEFECT_BEFORE_NFL_GRADING",
+  "affected_scope": "Initial rec W1 M3-1 query adapter native Torch float32 response transformation; no saved query forecasts or offer grades existed. Training and two already-saved models unchanged.",
+  "root_cause": "Torch float32 vector/single sigmoid kernels differed one ULP while identical native booster margins were verified.",
+  "minimal_reproducer": {
+    "model": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.json",
+    "model_SHA256": "60511215854452f45e8aa3708dca35c4e22584223f8750254d7fac04bd129c0f",
+    "query_file": "reports/targeted-accuracy-w1w9-01/M3/inputs/FEATURES_AND_MEMBER_FACTS.json.gz",
+    "slice": "query_indices_2026[1], target rec; compare all231 versus first2",
+    "query_rows": 231,
+    "old_native_probs_first2_batch": [
+      0.5895172953605652,
+      0.5818413496017456
+    ],
+    "old_native_probs_first2_small": [
+      0.5895172953605652,
+      0.5818412899971008
+    ],
+    "old_parameter_max_abs_difference": 5.960464477539063e-08,
+    "old_CDF3_batch_minus_small": [
+      0.0,
+      -1.1991590498361404e-07
+    ],
+    "native_booster_margins_exact": true
+  },
+  "scoped_fix": "Preserve trained booster and base margins. Transform raw margins with float64 NumPy exp and SciPy expit, mirroring released epsilon/clip/StudentT df+2 semantics. No new clipping threshold, feature, corrector or model setting.",
+  "before_module_SHA256": "f69383a036c86ff62a0ac3036754913bd843bf3d9b908b39c78ca9c7cfe5511d",
+  "after_module_SHA256": "57c8bfd2fb852cd7bd61ce20674ba3cfeaf6225816dd20b14cd563f60136572e",
+  "checks": {
+    "repaired_batch_single_and_small_parameters_exact": true,
+    "repaired_CDF3_differences": [
+      0.0,
+      0.0
+    ],
+    "released_native_parameter_tolerance": {
+      "rtol": 1e-06,
+      "atol": 1e-06
+    },
+    "repaired_vs_native_max_abs": 1.628478707438319e-07,
+    "StudentT_released_transform_only_verified": true,
+    "existing_model_and_sidecar_hashes_unchanged": {
+      "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.json": "60511215854452f45e8aa3708dca35c4e22584223f8750254d7fac04bd129c0f",
+      "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-1.recipe.json": "312db443c1151e9d2aa537315b5b531ca877f4499c450d5f7edc091d6ff19a84",
+      "reports/targeted-accuracy-w1w9-01/M3/verification/RUNTIME_FIXTURES.json": "a5eaa5725268b61953214e4036af07630f2ebc1a63309fc453b6edce0af3d765"
+    },
+    "original_runtime_fixture_receipt_unchanged": true,
+    "NFL_refits": 0,
+    "NFL_offer_grades": 0
+  },
+  "metric_effect": "No NFL accuracy improvement claimed; no scores existed before repair. Preserves both failed execution and scoped numerical reproduction.",
+  "cpu_seconds": 3.411576029,
+  "peak_RSS_bytes": 443031552,
+  "state": "PASS"
+}

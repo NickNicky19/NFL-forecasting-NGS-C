@@ -1,0 +1,66 @@
+{
+  "id": "C-BOUNDED-TARGETED-ACCURACY-B-CURRENT-INTAKE-v1",
+  "observed_UTC": "2026-11-15T05:03:52.522778+00:00",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "branch": "research/independent-audit-20261029",
+  "actual_head": "0d850c79d08f34158a5ac1fbd8237e52e443f1c1",
+  "index_at_UTC": "2026-11-14T19:48:12.539301+00:00",
+  "index_entries": 1849,
+  "requests": [
+    {
+      "api_path": "repos/NickNicky19/NFL-forecasting-V2/git/ref/heads/research/independent-audit-20261029",
+      "bytes": 464,
+      "sha256": "bf0f33d5bc3e5052704b09d38723fc6923d818397ecc82a7b47976f66233e705",
+      "observed_UTC": "2026-11-15T05:03:51.697023+00:00"
+    },
+    {
+      "api_path": "repos/NickNicky19/NFL-forecasting-V2/contents/reports/abc-championship/EXPORT_INDEX.json?ref=0d850c79d08f34158a5ac1fbd8237e52e443f1c1",
+      "bytes": 1984876,
+      "sha256": "8ddec3b39e6ec8bd7f007b7c88c3dda5e79906ddc599c669380b2db2bd4a6494",
+      "observed_UTC": "2026-11-15T05:03:52.509304+00:00"
+    }
+  ],
+  "linked_targeted_artifacts": [],
+  "request_cap": 3,
+  "response_byte_cap": 3145728,
+  "state": "BOUNDED_B_CURRENT_DISCOVERY_COMPLETE;NO_INDEX_LINKED_TARGETED_M2_OR_M4_RECEIPT_OBTAINED",
+  "writes": "OnlythisCintakereceipt; nopeercode/comments/dispatch",
+  "fits": 0,
+  "source_collection": 0,
+  "protected_raw_rows": 0,
+  "peer_acknowledgment_assumed": false,
+  "completed_UTC": "2026-11-15T05:04:34.336272+00:00",
+  "actual_requests": 2,
+  "actual_response_bytes": 1985340,
+  "third_request_executed": false,
+  "third_request_reason": "Noexportentrypathmatchedtargeted-accuracy,targeted_accuracy,M2orM4;noexplicitlinkednewreceiptqualifiedfortheoptionalthirdread. No guesses, repeatedindexread or broadtree scan.",
+  "M2": {
+    "readiness": "UNKNOWN_WITHIN_OBTAINED_PUBLIC_INDEX_SCOPE",
+    "active_job": "NOT_VERIFIED;absenceofindexedreceiptisnotproofofnoowner-localactivework",
+    "new_bindings": [],
+    "minimum_owner_action": "B publishoridentifyexactregisteredM2hypothesis/protocol/resultreceiptthroughitsownexistingEXPORT_INDEX; Cmayintakeactualscopewithoutpeerdispatchorfits"
+  },
+  "M4": {
+    "readiness": "UNKNOWN_WITHIN_OBTAINED_PUBLIC_INDEX_SCOPE",
+    "active_job": "NOT_VERIFIED",
+    "new_bindings": []
+  },
+  "preserved_conclusions": {
+    "completed_FTN_primary_mean_direction": "B2 72/142 vs B0/B1 76/142 onnativeW5-9timing-unverifiedactual-line142panel;completedno-gainrecipeisnotreopened.",
+    "typed_products": "Mean-crossing,lower-median-crossingandexact-lawdirectionsremainseparate;nonefillanotherproductsmissingweekswithoutparity.",
+    "probability": "No pointgap/historicalhit-rateconfidenceorEVinvented. FTNlaw75/142vs73/142isadistinctcontrastanddoesnotestablishimprovementoverstronger76/142mean;probabilityscoresworsened.",
+    "comparison_versions": "No repeatofcompletedAowner-localW1-4joins; source/mask/horizon/dedupandactualnewreceiptbindingsremainexistingcommonintakework."
+  },
+  "scope_limits": [
+    "Two current public GitHub metadata/index reads only; wholeindexcontentnotretained.",
+    "No private/source-clock/model-fit/currentproducerorwebsiteconsumerverification.",
+    "No acknowledgmentoradmissionbyB inferredfromCread.",
+    "C M3ownedexecutionandindependentproductionremainunblocked."
+  ],
+  "new_fits": 0,
+  "inference": 0,
+  "grader_runs": 0,
+  "peerwrites": 0,
+  "scheduler_changes": 0,
+  "paid_acquisition": 0
+}

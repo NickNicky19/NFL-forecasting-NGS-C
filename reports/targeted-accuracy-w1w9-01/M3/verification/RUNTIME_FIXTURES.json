@@ -1,0 +1,280 @@
+{
+  "id": "C-M3-RUNTIME-FIXTURES-v1",
+  "recorded_UTC": "2026-11-15T04:53:11.032755+00:00",
+  "scope": "Synthetic non-NFL positive control, numeric derivative checks and safe-JSON inference only. Not NFL predictive evidence.",
+  "fixtures": [
+    {
+      "name": "gradient_hessian",
+      "kind": "nb",
+      "raw_parameters": [
+        -1.5,
+        -4.0
+      ],
+      "target": 0,
+      "autograd_gradient": [
+        0.004050023540030621,
+        0.00401328798230865
+      ],
+      "scipy_finite_gradient": [
+        0.0040500235467784765,
+        0.004013287988689079
+      ],
+      "autograd_diagonal_hessian": [
+        0.004050023540030621,
+        0.003941104215526521
+      ],
+      "scipy_finite_hessian": [
+        0.004050023597740315,
+        0.003941104040339205
+      ],
+      "step": 0.0001,
+      "loss": 0.004050041690976855,
+      "scipy_nll": 0.004050041690976859,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "gradient_hessian",
+      "kind": "nb",
+      "raw_parameters": [
+        1.2,
+        0.6
+      ],
+      "target": 8,
+      "autograd_gradient": [
+        -1.0038788144849757,
+        -0.6910840358128485
+      ],
+      "scipy_finite_gradient": [
+        -1.0038788088095885,
+        -0.6910840370699667
+      ],
+      "autograd_diagonal_hessian": [
+        1.8475339861371325,
+        2.5898662400265775
+      ],
+      "scipy_finite_hessian": [
+        1.847533770416021,
+        2.589866143765107
+      ],
+      "step": 0.0001,
+      "loss": 2.6949961557450095,
+      "scipy_nll": 2.69499615574501,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "gradient_hessian",
+      "kind": "nb",
+      "raw_parameters": [
+        0.2,
+        -8.0
+      ],
+      "target": 0,
+      "autograd_gradient": [
+        0.0012220138669790984,
+        0.0
+      ],
+      "scipy_finite_gradient": [
+        0.0012220138690169878,
+        0.0
+      ],
+      "autograd_diagonal_hessian": [
+        0.0012220138669790984,
+        0.0
+      ],
+      "scipy_finite_hessian": [
+        0.0012220138529556168,
+        0.0
+      ],
+      "step": 0.0001,
+      "loss": 0.0012220148674794318,
+      "scipy_nll": 0.0012220148674794325,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "gradient_hessian",
+      "kind": "student_t",
+      "raw_parameters": [
+        1.0986122886681098,
+        0.0,
+        0.6931471805599453
+      ],
+      "target": -3,
+      "autograd_gradient": [
+        -0.03071696281161346,
+        0.6206892449466391,
+        -0.8620673038062656
+      ],
+      "scipy_finite_gradient": [
+        -0.03071696278666991,
+        0.6206892448235024,
+        -0.8620673070525164
+      ],
+      "autograd_diagonal_hessian": [
+        0.011691490029760889,
+        0.07847805678779642,
+        2.568367246528329
+      ],
+      "scipy_finite_hessian": [
+        0.011691447809880628,
+        0.07847802407923155,
+        2.568367252209214
+      ],
+      "step": 0.0001,
+      "loss": 2.776456997639074,
+      "scipy_nll": 2.7764569976390745,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "gradient_hessian",
+      "kind": "student_t",
+      "raw_parameters": [
+        -6.0,
+        0.0,
+        2.0
+      ],
+      "target": 0,
+      "autograd_gradient": [
+        -0.0001406016932698022,
+        -0.0,
+        0.9999998646647351
+      ],
+      "scipy_finite_gradient": [
+        -0.0001406016947314015,
+        0.0,
+        0.9999998646659236
+      ],
+      "autograd_diagonal_hessian": [
+        -0.00014028001281054527,
+        0.027462110399380887,
+        1.3533524656802366e-07
+      ],
+      "scipy_finite_hessian": [
+        -0.00014024337247064977,
+        0.027462121465759992,
+        1.7763568394002505e-07
+      ],
+      "step": 0.0001,
+      "loss": 3.0395800866069704,
+      "scipy_nll": 3.0395800866069704,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "gradient_hessian",
+      "kind": "student_t",
+      "raw_parameters": [
+        0.2,
+        5.0,
+        2.0
+      ],
+      "target": -120,
+      "autograd_gradient": [
+        1.9273579410634327,
+        0.0333953158615353,
+        -3.1744140530816876
+      ],
+      "scipy_finite_gradient": [
+        1.9273579436163146,
+        0.0333953158637712,
+        -3.1744140527667497
+      ],
+      "autograd_diagonal_hessian": [
+        1.7933930076171272,
+        -0.00026121484963129073,
+        0.09293200243875128
+      ],
+      "scipy_finite_hessian": [
+        1.7933929896685186,
+        -0.0002611244553918368,
+        0.09293206204574744
+      ],
+      "step": 0.0001,
+      "loss": 12.48935810975139,
+      "scipy_nll": 12.48935810975139,
+      "L2_stabilization_verified_separately": true,
+      "pass": true
+    },
+    {
+      "name": "synthetic_strong_eligible_signal",
+      "kind": "nb",
+      "training_rows": 384,
+      "heldout_rows": 160,
+      "candidate_NLL": 2.8359689057332815,
+      "constant_NLL": 3.386587411903421,
+      "low_mean": 2.0721673040063666,
+      "high_mean": 19.492499158770908,
+      "feature_usage": {
+        "v0": 57.0
+      },
+      "serialization_roundtrip_exact": true,
+      "batch_single_shuffled": true,
+      "missing_and_empty_inputs": true,
+      "feature_order_rejected": true,
+      "pass": true
+    },
+    {
+      "name": "synthetic_strong_eligible_signal",
+      "kind": "student_t",
+      "training_rows": 384,
+      "heldout_rows": 160,
+      "candidate_NLL": 3.598819961820118,
+      "constant_NLL": 3.757048616552665,
+      "low_mean": -1.4675676822662354,
+      "high_mean": 1.564386010169983,
+      "feature_usage": {
+        "v0": 43.0
+      },
+      "serialization_roundtrip_exact": true,
+      "batch_single_shuffled": true,
+      "missing_and_empty_inputs": true,
+      "feature_order_rejected": true,
+      "pass": true
+    }
+  ],
+  "state": "PASS",
+  "cpu_seconds": 6.7860518050000005,
+  "wall_seconds": 6.795123582996894,
+  "peak_RSS_bytes": 359321600,
+  "synthetic_fits": 4,
+  "NFL_fits": 0,
+  "reproduction": {
+    "runtime_pythonpath": "/workspace/c-m3-runtime:/workspace/ngs-c/src",
+    "thread_limits": {
+      "torch_num_threads": 1,
+      "torch_interop_threads": 1,
+      "OMP_NUM_THREADS": 1,
+      "OPENBLAS_NUM_THREADS": 1,
+      "MKL_NUM_THREADS": 1
+    },
+    "derivatives": {
+      "independent_law": "SciPy nbinom.logpmf(y,r,1-p); scipy.stats.t.logpdf(y,df,loc,scale)",
+      "NB_transforms": "r=exp(raw0)+1e-6; p=clip(sigmoid(raw1)+1e-6,.001,.999)",
+      "T_transforms": "df=exp(raw0)+2+1e-6; loc=raw1; scale=exp(raw2)+1e-6",
+      "central_difference_step": 0.0001,
+      "gradient_tolerance": {
+        "rtol": 2e-05,
+        "atol": 2e-06
+      },
+      "diagonal_Hessian_tolerance": {
+        "rtol": 0.0005,
+        "atol": 2e-05
+      },
+      "L2_each_parameter_each_derivative": "v / max(abs(v),1e-4) for these one-row derivative fixtures"
+    },
+    "positive_control": {
+      "numpy_generator": "default_rng(1703), one sequential generator: NB train, NB heldout, StudentT train, StudentT heldout",
+      "training_x": "192 rows -1 then 192 rows +1",
+      "query_x": "80 rows -1 then 80 rows +1",
+      "NB_y": "low rng.negative_binomial(5,5/7,n); high rng.negative_binomial(5,5/23,n); generate train then heldout",
+      "T_y": "low -10+rng.standard_t(5,n); high 10+2*rng.standard_t(5,n); generate train then heldout after NB arrays",
+      "model_fit": "targeted_boost_m3.fit(x,y,kind,[synthetic_signal]); same fit on zeros_like(x) with feature constant",
+      "success_rule": "candidate heldout mean NLL < constant heldout mean NLL; high predicted mean > low predicted mean +1",
+      "NFL_evidence": false
+    },
+    "restoration": "native JSON save/load; exact four-row parameter parity; [-1],[1],[nan],[0]; shuffled order [3,0,2,1]; batch/single atol1e-6; wrong feature order rejected; empty matrix supported"
+  }
+}

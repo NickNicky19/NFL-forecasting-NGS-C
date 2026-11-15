@@ -1,0 +1,14 @@
+{
+  "id": "M3-RESUMPTION-METADATA-v1.1",
+  "recorded_UTC": "2026-11-15T05:06:01.098729+00:00",
+  "accepted_execution_code_SHA256": [
+    "22eb8a4809d981768afb5ea1bb4718b425c6a9520c4a4c5f487d68a9a76fa3e9",
+    "28746603f1433093ba49844dfe3156aab85a3085624aeaf909394801d03854a1"
+  ],
+  "original_code": "registration/ENGINE_ORIGINAL_V1.py.gz",
+  "minimal_case": "SavedM3-0W1 checkpointnew_fitTrue onfirstattempt; resumedcheckpointFalse despite same packagefit, soappend-onlyguardcorrectlystopped ratherthanoverwrite.",
+  "fix": "new_fit means fitinthisregisteredpackage, includingrestoredsavedattempt; prior-sourcereusefalse. Exactmetadata, membership,X/y,featureorder,source andmodelhashbindingsstillchecked; only theseversionedexecutioncodehashesadmitted.",
+  "unchanged": "trainedmodels,features,labels,side/selectionpolicy,existingcheckpointbytes",
+  "before_result": "Two failedstages preserved9.492722806CPU,2savedfits; nooffergrade/predictionresultpublished",
+  "prediction_gain_claim": false
+}
