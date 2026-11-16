@@ -1,0 +1,130 @@
+{
+  "id": "C05-ORIGINAL-69-FORECAST-COMPLETION-RECEIPT",
+  "recorded_UTC": "2026-11-16T00:52:11.756320+00:00",
+  "status": "COMPLETE_FORECAST_ONLY_GRADING;NO_NEW_PRIMARY_REPLACEMENT",
+  "run_id": "C-C05-NEDET-FIRST-01",
+  "outcome_version": "C-NATIVE-GRADE-20261116-NEDET-01",
+  "event_id": "401873053",
+  "game_id": "2026_10_NE_DET",
+  "kickoff_UTC": "2026-11-15T14:30:00+00:00",
+  "source_version": "New known ETag and later Last-Modified against C58; stats GET exactly matched the eligible HEAD ETag/Last-Modified.",
+  "native_finality": "Reused qualified C58 FINAL DET35-NE10, observed 2026-11-15T20:53:09.425828+00:00; original source/hash/commit retained. Consumed failed-run native body is not used.",
+  "stats_observed_UTC": "2026-11-16T00:50:17.362994+00:00",
+  "game_contract_rows": 72,
+  "original_forecasts": 69,
+  "original_candidate_players": 23,
+  "graded_forecasts": 57,
+  "graded_unique_players": 19,
+  "unknown_forecasts": 12,
+  "unknown_unique_players": 4,
+  "qualified_explicit_reception_zero_players": 5,
+  "unknown_reasons": {
+    "00-0034270": [
+      "MISSING_STAT_ROW_NOT_ZERO_OR_DNP"
+    ],
+    "00-0037524": [
+      "PARTICIPATION_UNRESOLVED_NOT_DNP"
+    ],
+    "00-0038564": [
+      "MISSING_STAT_ROW_NOT_ZERO_OR_DNP"
+    ],
+    "00-0040734": [
+      "MISSING_STAT_ROW_NOT_ZERO_OR_DNP"
+    ]
+  },
+  "metrics": [
+    {
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "eligible": 23,
+      "scored": 19,
+      "states": {
+        "GRADED_PLAYED": 19,
+        "UNKNOWN": 4
+      },
+      "mean_MAE": 1.3148538021458185,
+      "mean_MSE": 2.7319454995487393,
+      "mean_bias": 0.6722226759713209,
+      "median_MAE": 1.263157894736842,
+      "CRPS": 0.8033165533529282,
+      "NLL_mean": 1.5884630913086901,
+      "nonfinite_NLL": 0
+    },
+    {
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "eligible": 23,
+      "scored": 19,
+      "states": {
+        "GRADED_PLAYED": 19,
+        "UNKNOWN": 4
+      },
+      "mean_MAE": 1.4525083246880897,
+      "mean_MSE": 3.170869694953418,
+      "mean_bias": 0.7386701369647727,
+      "median_MAE": 1.368421052631579,
+      "CRPS": 0.8932152399305876,
+      "NLL_mean": 1.6588646756136431,
+      "nonfinite_NLL": 0
+    },
+    {
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "eligible": 23,
+      "scored": 19,
+      "states": {
+        "GRADED_PLAYED": 19,
+        "UNKNOWN": 4
+      },
+      "mean_MAE": 1.313269631908268,
+      "mean_MSE": 2.6611818967170975,
+      "mean_bias": 0.6536108837795652,
+      "median_MAE": 1.2105263157894737,
+      "CRPS": 0.7996847687298607,
+      "NLL_mean": 1.6086541365256575,
+      "nonfinite_NLL": 0
+    }
+  ],
+  "metric_check": "Independent sums from original frozen points and saved grades match SOURCE_STATUS to 1e-12; law scores are preserved grader outputs, not independently recomputed fits/laws.",
+  "actual_offers": 0,
+  "actual_line_decisions": 0,
+  "OU_record": null,
+  "deployment_or_capture_claim": false,
+  "statistical_limit": "One game / 19 scored player outcomes shared by three model views; no general superiority or new product qualification.",
+  "original_hashes_unchanged": true,
+  "source_calls": {
+    "HEAD": 1,
+    "GET": 3,
+    "body_bytes": 3053465,
+    "further_calls": 0
+  },
+  "resources": {
+    "original_failed_and_resumed_process_plus_preparation_CPU": 15.94627805,
+    "conservative_final_checks_and_retention_CPU": 1.0,
+    "total_task_charged_CPU": 16.94627805,
+    "operation_CPU_cap": 30,
+    "metering_scope": "Child full process metered; wrapper measured; original setup, repair/setup and final factual checks/retention conservatively charged. No source retries, fit or issuance."
+  },
+  "original_failed_files_preserved": true,
+  "bindings": {
+    "outcomes": {
+      "path": "prospective/outcomes/C-NATIVE-GRADE-20261116-NEDET-01/OUTCOMES.json",
+      "SHA256": "bc44237ddc40ae594113409b51b6d85759e1a27a5068713a4fbbf8be5aa59cc1"
+    },
+    "grades": {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261116-NEDET-01-C-C05-NEDET-FIRST-01.json",
+      "SHA256": "5b49ee6eb024e5b3785e59b734a944d5de14c8d5c4a8f51e7e37cc91d6c13df0",
+      "rows": 69,
+      "states": {
+        "GRADED_PLAYED": 57,
+        "UNKNOWN": 12
+      }
+    },
+    "source_status": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/resume-01/SOURCE_STATUS.json",
+      "SHA256": "85dc9ae037767baa6aeec2a9624e5774962f88f6cb85f54728ef085296c4c88d"
+    },
+    "process_resource": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/resume-01/PROCESS_RESOURCE.json",
+      "SHA256": "0c27898ecf009d1de7027d8f88d90946cc614480fe0f83152d6d79ad04c909b7"
+    }
+  },
+  "remaining": "Four unknown players require qualified participation/stat evidence; do not retry exhausted route. No actual offers were captured; do not attach later lines. Publication/readback is parent-owned."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "C05-INDEPENDENT-CHECKER-INITIAL-STOP",
+  "state": "INDEPENDENT_CHECKER_ASSUMPTION_REPAIRED",
+  "exception": "KeyError: CRPS",
+  "reason": "Independent checker assumed every UNKNOWN player had an absent stats row. Tay Martin instead has a present all-zero stats row and no positive participation proof; the original grader correctly retains UNKNOWN.",
+  "repair_scope": "Independent verification checker only; separate absent and present-but-no-proof UNKNOWN cases. No changed source, forecast, outcome, grader or model.",
+  "original_grade_defect_found": false,
+  "failed_check_CPU": null,
+  "conservative_failed_check_CPU_charge": 0.1,
+  "metering_limit": "Initial standalone checker CPU was not measured; conservative charge is not a measured value. Bounded read-only inspection overhead remains separate.",
+  "new_HTTP": 0,
+  "new_fits": 0
+}

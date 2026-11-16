@@ -1,0 +1,79 @@
+{
+  "CPU_seconds_self": 0.014570053999999999,
+  "UNKNOWN_forecast_rows": 12,
+  "absent_UNKNOWN_player_ids": [
+    "00-0034270",
+    "00-0038564",
+    "00-0040734"
+  ],
+  "checks": 513,
+  "created_UTC": "2026-11-16T00:54:19.793250+00:00",
+  "explicit_zero_reception_players": [
+    "00-0031763",
+    "00-0038896",
+    "00-0040131",
+    "00-0040556",
+    "00-0040563"
+  ],
+  "failures": [],
+  "id": "C05-INDEPENDENT-FACTS-AND-GRADES-CHECK-01",
+  "independent_check_CPU_cap": 5,
+  "initial_checker_failure_preserved": "First independent checker assumed all four UNKNOWN players absent and raised KeyError at missing CRPS for present all-zero Tay Martin; corrected checker distinguishes3absent+1present_no_proof. No outcome/grader/source changed. Initial failed check CPU unmetered; carry conservative0.1s plus bounded inspections, not complete total certificate.",
+  "limits": [
+    "Checks retained minimum permitted facts/provenance only; raw memory-only response is not recovered, no new external source authentication or provider completeness assumption.",
+    "One final game, conditional-on-appearance numerical forecast evidence; no offers, O/U decisions, DNP inference, model superiority or release qualification.",
+    "Original expiry stops recommendation use but preserves frozen issuance and later grading.",
+    "Process CPU excludes interpreter startup, bounded preceding read-only inspection and tool overhead; parent must carry any separate conservative verification allowance."
+  ],
+  "max_absolute_CRPS_discrepancy": 2.6645352591003757e-15,
+  "method": "Independent decimal validity/positive-stat participation and explicit receptions; saved-law CDF squared-sum CRPS (exact geometric tail; bounded Poisson recurrence), original point-error arithmetic. No common grade_run/law or model imports.",
+  "metrics": [
+    {
+      "CRPS": 0.8033165533529282,
+      "UNKNOWN": 4,
+      "eligible": 23,
+      "mean_MAE": 1.3148538021458185,
+      "mean_MSE": 2.7319454995487393,
+      "mean_bias": 0.6722226759713209,
+      "median_MAE": 1.263157894736842,
+      "model_id": "C04_F3_PROFILE_1D_SHADOW",
+      "scored": 19
+    },
+    {
+      "CRPS": 0.8932152399305878,
+      "UNKNOWN": 4,
+      "eligible": 23,
+      "mean_MAE": 1.4525083246880897,
+      "mean_MSE": 3.170869694953418,
+      "mean_bias": 0.7386701369647727,
+      "median_MAE": 1.368421052631579,
+      "model_id": "C_V11_P1_E2_POOLED_7D",
+      "scored": 19
+    },
+    {
+      "CRPS": 0.7996847687298606,
+      "UNKNOWN": 4,
+      "eligible": 23,
+      "mean_MAE": 1.313269631908268,
+      "mean_MSE": 2.6611818967170975,
+      "mean_bias": 0.6536108837795652,
+      "median_MAE": 1.2105263157894737,
+      "model_id": "C_V4_RETAINED_REFERENCE_OBSERVED",
+      "scored": 19
+    }
+  ],
+  "numeric_tolerance": 1e-12,
+  "owner_operation_charged_CPU_before_independent_check": 15.94627805,
+  "present_but_no_participation_proof_UNKNOWN_player_ids": [
+    "00-0037524"
+  ],
+  "scored_forecast_rows": 57,
+  "second_checker_failure_preserved": "C05_GRADE_CHECK_V1_FAILED_ORDER_ASSUMPTION.json retains12checks failing only because independent checker imposed ordered SIGNED proof fields on original set-valued field order. Exact proof sets/lengths are checked; no numeric tolerance or outcome qualification changed. That complete check CPU0.011319978 retained separately.",
+  "source_consumption": {
+    "GET": 3,
+    "HEAD": 1,
+    "bytes": 3053465,
+    "new_resume_GET": 2
+  },
+  "state": "PASS_SCOPED_INDEPENDENT_GRADING"
+}

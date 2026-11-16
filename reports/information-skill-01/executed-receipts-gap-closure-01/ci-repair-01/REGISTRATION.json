@@ -1,0 +1,9 @@
+{
+  "id": "C-DISCOVERY-BINDING-REPAIR-v1",
+  "authority": "Existing C checked publication and scoped correctness repair",
+  "scope": "Refresh current admission/task ledger hashes and exported current-protocol hash; retain failed e44ac7e CI and all sealed evidence.",
+  "new_CPU_grant": 0,
+  "budget": "Within the existing metadata/publication reserve; no A M3 or C05 source allowance is used.",
+  "new_models_forecasts_grades_sources_policies": 0,
+  "verification": "Check all75 sealed checkpoint members unchanged, then run the existing period-binding validator after final pointer writes; normal repository CI remains enforced."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "C05-ELIGIBLE-OUTCOME-RESUME-01",
+  "code_SHA256": "42f5e5ac0937d18622558bbc2da4c99e49a082c75c644a1d858abd3f65a7d79e",
+  "prior_failed_adapter_SHA256": "998cac72885aa9d9cbc50b86777568e033dddbe07df2ae86587c593460ade958",
+  "prior_charged_CPU": 4.767533874,
+  "additional_conservative_preparation_CPU": 1.0,
+  "new_child_hard_cap_CPU": 20,
+  "overall_CPU_cap": 30,
+  "new_source_calls": {
+    "HEAD": 0,
+    "native_GET": 0,
+    "schedule_GET": 1,
+    "stats_GET": 1
+  },
+  "cumulative_source_caps": {
+    "HEAD": 1,
+    "GET": 3,
+    "bytes": 5242880
+  },
+  "carried_consumption": {
+    "HEAD": 1,
+    "GET": 1,
+    "bytes": 208679
+  },
+  "reuse": "C58 qualified native FINAL projection retains original clock and hash; consumed unprojected newer body is not used.",
+  "guard": "Fresh schedule must match exact event/time/score; stats version must be newly eligible and exact REG W10 facts. Unknown/absent not zero.",
+  "pending": "Await exact root code-hash GO before any new source calls.",
+  "preparation_process_CPU_observed": 0.03599948400000001,
+  "additional_CPU_allowance": 0,
+  "source_version_contract": "GET ETag and Last-Modified must match the previously eligible HEAD exactly; otherwise stop without retry.",
+  "reused_native_commit": "d4b42faa897b2ab75067f2a4e078dc3e521a404e"
+}

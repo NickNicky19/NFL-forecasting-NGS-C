@@ -1,0 +1,38 @@
+{
+  "id": "C-DISCOVERY-BINDING-REPAIR-v1",
+  "recorded_UTC": "2026-11-16T01:04:05.442952+00:00",
+  "failed_commit": "e44ac7e509b2edd30aa739f1154dfd6b73beb845",
+  "failed_run": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/actions/runs/43783694847",
+  "exact_failure": "BOUND_HASH_MISMATCH reports/abc-championship/ADMISSION_LEDGER.json; current task hash also stale",
+  "effect": "Packaging/discovery only. New ledgers had been appended after the earlier period check; old hashes remained in current pointers.",
+  "old_bindings": {
+    "admission": {
+      "path": "reports/abc-championship/ADMISSION_LEDGER.json",
+      "bytes": 6928,
+      "SHA256": "1ea114cbcf65c7e83de456825496cdfe2da67fd7c8e3087ffbf9af3c9aa1627a"
+    },
+    "tasks": {
+      "path": "reports/abc-championship/TASK_LEDGER.json",
+      "bytes": 44257,
+      "SHA256": "b8cf21e0e76d10cd666e420e5bb762e979bae5335c98aa26f0292948c74dcc49"
+    }
+  },
+  "refreshed_bindings": {
+    "admission": {
+      "path": "reports/abc-championship/ADMISSION_LEDGER.json",
+      "bytes": 14057,
+      "SHA256": "abe6f5d8005b211fe1763efba445e13c1be337b0414e2126944b8b3a09b85d55"
+    },
+    "tasks": {
+      "path": "reports/abc-championship/TASK_LEDGER.json",
+      "bytes": 46358,
+      "SHA256": "ed998fd9374e224e8053123d5569ed6594bb4c341393ea0db29897826af2b1cf"
+    }
+  },
+  "new_predictions": 0,
+  "changed_grades": 0,
+  "new_model_fits": 0,
+  "new_sources": 0,
+  "all75_new_checkpoint_sealed_members_unchanged": true,
+  "budget": "Existing C metadata/completion allowance; no new grant or A-M3/C05 source allowance."
+}

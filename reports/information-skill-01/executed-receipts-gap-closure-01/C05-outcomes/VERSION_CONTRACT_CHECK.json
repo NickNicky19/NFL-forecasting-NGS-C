@@ -1,0 +1,54 @@
+{
+  "id": "C05-V2-VERSION-CONTRACT-FIXTURES-v1",
+  "checked_UTC": "2026-11-16T00:34:37.771636+00:00",
+  "source_code_SHA256": "998cac72885aa9d9cbc50b86777568e033dddbe07df2ae86587c593460ade958",
+  "status": "PASS",
+  "cases": [
+    {
+      "case": "unchanged",
+      "eligible": false,
+      "reason": "SAME_OR_UNKNOWN_SOURCE_VERSION",
+      "expected": false
+    },
+    {
+      "case": "unknown",
+      "eligible": false,
+      "reason": "SAME_OR_UNKNOWN_SOURCE_VERSION",
+      "expected": false
+    },
+    {
+      "case": "Date_only",
+      "eligible": false,
+      "reason": "SAME_OR_UNKNOWN_SOURCE_VERSION",
+      "expected": false
+    },
+    {
+      "case": "changed_etag",
+      "eligible": true,
+      "reason": "CHANGED_KNOWN_ETAG",
+      "expected": true
+    },
+    {
+      "case": "later_lastmodified",
+      "eligible": true,
+      "reason": "LATER_KNOWN_LAST_MODIFIED",
+      "expected": true
+    },
+    {
+      "case": "earlier_lastmodified",
+      "eligible": false,
+      "reason": "SAME_OR_UNKNOWN_SOURCE_VERSION",
+      "expected": false
+    },
+    {
+      "case": "malformed_lastmodified",
+      "eligible": false,
+      "reason": "SAME_OR_UNKNOWN_SOURCE_VERSION",
+      "expected": false
+    }
+  ],
+  "source_calls": 0,
+  "new_forecasts": 0,
+  "scope": "HTTP version-admission function only, not NFL observations or predictive evidence",
+  "CPU_seconds": 0.010986118000000003
+}

@@ -1,0 +1,30 @@
+{
+  "id": "C05-RESUME-IMMUTABLE-IO-FIXTURE",
+  "status": "PASS",
+  "source_HTTP_calls": 0,
+  "real_network": false,
+  "test_source": "Fake response over AST-extracted actual resume fetch and existing immutable write functions",
+  "multiple_unique_checkpoint_files": [
+    "SOURCE_ATTEMPT_02_COMPLETED.json",
+    "SOURCE_ATTEMPT_02_STARTED.json",
+    "SOURCE_ATTEMPT_03_COMPLETED.json",
+    "SOURCE_ATTEMPT_03_STARTED.json"
+  ],
+  "existing_overwrite_guard_raised": true,
+  "old_proof_hashes_before": {
+    "execute_grading.py": "998cac72885aa9d9cbc50b86777568e033dddbe07df2ae86587c593460ade958",
+    "SOURCE_STATUS.json": "e5b58dc5b21e1815fffa09b292a69f0b51eb9023dfd5866e072f05ad2c59fcb3",
+    "SOURCE_ATTEMPTS.json": "2903e954f40943a7a80891aeaccd20176ccb440649a3857eb869ecf7ff34d11c",
+    "PROCESS_RESOURCE.json": "b85677bbe6b2d2548ffb97cb55e85bc99c3e057590cef94495acf9666a735a29",
+    "VERSION_GATE.json": "0f30456c910a3ee577969aee37bfb2f783818d72e7e5796f83a28e4636dd554c"
+  },
+  "old_proof_hashes_after": {
+    "execute_grading.py": "998cac72885aa9d9cbc50b86777568e033dddbe07df2ae86587c593460ade958",
+    "SOURCE_STATUS.json": "e5b58dc5b21e1815fffa09b292a69f0b51eb9023dfd5866e072f05ad2c59fcb3",
+    "SOURCE_ATTEMPTS.json": "2903e954f40943a7a80891aeaccd20176ccb440649a3857eb869ecf7ff34d11c",
+    "PROCESS_RESOURCE.json": "b85677bbe6b2d2548ffb97cb55e85bc99c3e057590cef94495acf9666a735a29",
+    "VERSION_GATE.json": "0f30456c910a3ee577969aee37bfb2f783818d72e7e5796f83a28e4636dd554c"
+  },
+  "CPU_seconds": 0.011254582999999999,
+  "scope": "Logging IO contract only, not NFL source, forecast, fit or model evidence."
+}

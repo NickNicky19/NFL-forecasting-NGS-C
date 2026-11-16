@@ -1,0 +1,657 @@
+{
+  "B_opportunity": {
+    "delivery_commit": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+    "early_join": "Distinct OPP_BASE/OPP_MEAN/OPP_JOINT/DIRECT_ATT W1-W4 not supplied by completed SKILL early84; own authorization/accounting required",
+    "handoff": {
+      "UTC": "2026-11-15T21:23:19.891699+00:00",
+      "adapter": "tools/query_opportunity_information.py",
+      "adapter_sha256": "df898d240e39e85cc696539d8072a85bfd1ad39a27b04cc5e4b6e797f5077db1",
+      "forecast_source_commit": "dba87dfd84c6c4b9722602996c0d472d0898f886",
+      "id": "B-OPPORTUNITY-v1-HISTORICAL-HANDOFF",
+      "independent_reproduction": "TEAM_STRICT_FAIL;SHARE_PASS;fullindependentvectorsretained;oldC1FAILunchanged",
+      "methods": [
+        "OPP_BASE",
+        "OPP_MEAN",
+        "OPP_JOINT",
+        "DIRECT_ATT"
+      ],
+      "missing_actual_line_weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "numerical_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "ownactual_line_weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "prediction_paths": [
+        {
+          "bytes": 32995,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W01.json.gz",
+          "sha256": "e737888d6383c4a6a0611d3f7a09f73c37d174d0a6cffd30495b83c353c95b5d"
+        },
+        {
+          "bytes": 34597,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W02.json.gz",
+          "sha256": "9e52942dc973cba263259b6c9ad902207c62493b86b9e2f174c8affa213be590"
+        },
+        {
+          "bytes": 32673,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W03.json.gz",
+          "sha256": "7e1887cda6a9258d9be366185cfc69b1f9fdce75276ecbd36fde13aa387a3a0b"
+        },
+        {
+          "bytes": 30330,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W04.json.gz",
+          "sha256": "74f9405d49de1ce45b5dff830df8dccd64fdba60afbb71cfa2df774e496f348f"
+        },
+        {
+          "bytes": 32592,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W05.json.gz",
+          "sha256": "80c19bf59d71df7a788ad635315b250fe623a3aadbc72c67d4eaba7f2b770b43"
+        },
+        {
+          "bytes": 27216,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W06.json.gz",
+          "sha256": "02a8d7d34975513ac7f2b7642d29e83a76cc821f8f03a2e243377b35c085f17b"
+        },
+        {
+          "bytes": 28823,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W07.json.gz",
+          "sha256": "560506ee663582c842d3c92e090b7a2b71dcaa4fe5c29c89225ab83a2d798d64"
+        },
+        {
+          "bytes": 31479,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W08.json.gz",
+          "sha256": "0d4fe3631547c21874f823feddd87bd2f3f1e889db0d52c07cff86030180bfa5"
+        },
+        {
+          "bytes": 33467,
+          "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W09.json.gz",
+          "sha256": "dff8c109eadd12f042df2cbbda6bfbe556056c53a80d8b5d71a63aae71d04757"
+        }
+      ],
+      "primary_release": false,
+      "queries_per_method_target": 315,
+      "scope": "UsageonlysingleQBconditionalmarginal current-vintage strict7day; notpersonnel/currentquery/primaryrecommendation. NewAjoinrequiresitsownexacttaskaccounting, noautomaticC-only/M1funds.",
+      "targets": [
+        "pass_att",
+        "pass_cmp"
+      ],
+      "typed_outputs": "Expectedcount point, lowermedian, exactbounded-integrationlaw. No correction beyondfrozenmodel; no fabricatedconfidence/EV."
+    },
+    "new_A_SKILL_independent_B_verification": "Not inferred from stale B pending status or C aggregate intake",
+    "own_side_aggregate_records": 24,
+    "proper_scores": [
+      {
+        "Brier": 0.273822,
+        "law": "OPP_BASE",
+        "log_loss": 0.746921,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_att"
+      },
+      {
+        "Brier": 0.274834,
+        "law": "OPP_MEAN",
+        "log_loss": 0.756255,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_att"
+      },
+      {
+        "Brier": 0.297352,
+        "law": "OPP_JOINT",
+        "log_loss": 0.91227,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_att"
+      },
+      {
+        "Brier": 0.265852,
+        "law": "DIRECT_ATT",
+        "log_loss": 0.729136,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_att"
+      },
+      {
+        "Brier": 0.280354,
+        "law": "OPP_BASE",
+        "log_loss": 0.760417,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      },
+      {
+        "Brier": 0.28707,
+        "law": "OPP_MEAN",
+        "log_loss": 0.789114,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      },
+      {
+        "Brier": 0.305048,
+        "law": "OPP_JOINT",
+        "log_loss": 0.912672,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      },
+      {
+        "Brier": 0.274166,
+        "law": "DIRECT_ATT",
+        "log_loss": 0.747536,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      },
+      {
+        "Brier": 0.266545,
+        "law": "RETAINED_B0",
+        "log_loss": 0.728903,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      },
+      {
+        "Brier": 0.26918,
+        "law": "RETAINED_B2",
+        "log_loss": 0.735179,
+        "precision": "owner report rounded six decimal; no C raw probability recomputation",
+        "target": "pass_cmp"
+      }
+    ],
+    "reproduction": {
+      "attribution": "No measured impact analysis establishing reproduction discrepancy caused forecasting losses; no such attribution made.",
+      "independent_grading": {
+        "checks": 30384,
+        "scope": "Separate probability arithmetic and direct grading; not private source/fit parity",
+        "status": "PASS_OWNER_REPORTED",
+        "views": 144
+      },
+      "new_opportunity_team": {
+        "coefficients_objective": "Owner reports nearly matched; not C fit reproduction",
+        "frozen_CDF_tolerance": 1e-07,
+        "full_independent_vectors": "Owner reports persisted before comparison; no C independent vector retrieval",
+        "maximum_CDF_discrepancy": 1.47213344e-07,
+        "retry": false,
+        "status": "FAILED"
+      },
+      "new_share": {
+        "scope": "Separate W1 share-fit reproduction, not team-fit certification",
+        "status": "PASS_OWNER_REPORTED"
+      },
+      "no_new_retry_or_relaxed_tolerance": true,
+      "old_C1": {
+        "design_objective_gradient_checks": "Previously completed checks reused; numerical termination plausible, not proved.",
+        "full_independent_coefficient_vector": "NOT_RETAINED_FOR_OLD_C1; no invented downstream parity",
+        "prior_C_receipt": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+        "status": "FAILED_PRESERVED_NO_AUTOMATIC_RETRY"
+      },
+      "retained_NFL_prefit": {
+        "checks": 10398,
+        "original_failure_preserved": "Initial missing/null checker failure",
+        "status": "PASS_OWNER_REPORTED"
+      },
+      "saved_row_law": {
+        "checks": 7022,
+        "original_failure_preserved": "Fixture requested PMF beyond registered integration grid; no tolerance relaxation or beyond-gridzero",
+        "status": "PASS_OWNER_REPORTED"
+      }
+    },
+    "scientific_commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+    "scope": {
+      "abstentions": 0,
+      "available": 142,
+      "books": {
+        "DK": 141,
+        "Sleeper": 1
+      },
+      "decided": 142,
+      "eligible": 142,
+      "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC; exposed current-vintage7day",
+      "games": 71,
+      "main_alternate": "UNCLASSIFIED",
+      "new_NFL_games": 0,
+      "new_original_selections": 0,
+      "numerical_origins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "numerical_queries_per_method_target": 315,
+      "offers_per_target": 142,
+      "original_issuance": false,
+      "parent_no_history_fallback_per_arm_target": 1,
+      "quote_clocks": "UNKNOWN",
+      "season": 2026,
+      "selected": 142,
+      "unavailable": 0,
+      "unique_player_games_shared_across_ATT_CMP": 142,
+      "unknown": 0,
+      "weeks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  },
+  "C05": "Separate eligible-version/outcome task; no player outcomes or grades asserted by this public-intake check",
+  "CPU_cap": 12,
+  "CPU_seconds_self": 0.083750958,
+  "M3": {
+    "additional_allowance": "NONE; exact additional request amount absent in received public receipt",
+    "admitted_scope": "A adapter omission before grading, not C negative model result",
+    "budget": {
+      "B_join_and_C_new_information_budgets_separate": true,
+      "M1_unchanged": true,
+      "additional_CPU_granted_by_current_continuation": 0,
+      "cap": 1260,
+      "charged_CPU": 1056.334180015,
+      "common_source_rows": 142,
+      "differences": {
+        "cutoff_utc": 2,
+        "game_id": 2,
+        "kickoff_utc": 2
+      },
+      "exact_extra_CPU_request_published": null,
+      "known_dual_clock_admission": {
+        "canonical_game": "2026_09_LV_SF",
+        "canonical_query_clock": "2026-11-08T21:05:00+00:00",
+        "event": "401873047",
+        "source_clock": "2026-11-08T21:25:00+00:00"
+      },
+      "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
+      "native_source_rows": 142,
+      "new_C_grades": 0,
+      "new_C_selections": 0,
+      "new_full_worker_started_after_stop": false,
+      "owner": "A registered protected-join executor",
+      "owner_reports_complete_worker_safely_fits": false,
+      "recorded_remaining_before_reserves": 63.6658199850001,
+      "recorded_remaining_total_including_reserves": 203.6658199850001,
+      "reference_rows": 142,
+      "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
+      "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+      "repaired_fixture_PASS_received": false,
+      "reporting_reserve": 20,
+      "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
+      "retained_growth_bytes": 809657,
+      "retention_reserve": 120,
+      "stage_bytes": 0,
+      "state": "NO_NEW_C_GRADES"
+    },
+    "published_stop": {
+      "automatic_extension": false,
+      "cap": 1260,
+      "charged_CPU": 1056.334180015,
+      "common_source_rows": 142,
+      "differences": {
+        "cutoff_utc": 2,
+        "game_id": 2,
+        "kickoff_utc": 2
+      },
+      "known_admission": {
+        "canonical_game": "2026_09_LV_SF",
+        "canonical_query_clock": "2026-11-08T21:05:00+00:00",
+        "event": "401873047",
+        "source_clock": "2026-11-08T21:25:00+00:00"
+      },
+      "native_source_rows": 142,
+      "reference_rows": 142,
+      "repair": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+      "state": "NO_NEW_C_GRADES"
+    },
+    "repaired_fixture_received_PASS": false,
+    "required": "Reuse admitted dual-clock mapping; preserve source21:25/canonical21:05 and canonicalT90, exact142 identity/fingerprint parity; no row drops/relaxed clocks/tolerance"
+  },
+  "R0_mean_win_change": {
+    "early": -2,
+    "full": 2,
+    "later": 4
+  },
+  "ZIP_members": {
+    "B_EARLY_OWN_WEEKLY.csv": {
+      "bytes": 144678,
+      "rows_or_objects": 285,
+      "sha256": "64705425d89d98ef644be6c576e3f43bf25f04510cda4c6caff9a80222182bf7"
+    },
+    "B_EARLY_PAIRED.csv": {
+      "bytes": 240312,
+      "rows_or_objects": 892,
+      "sha256": "b972a42285f635dc68a723c06f4ca2c4670af5d138f048e370eea4b95a842c70"
+    },
+    "B_EARLY_SELECTED_OWN_WEEKLY.csv": {
+      "bytes": 189363,
+      "rows_or_objects": 380,
+      "sha256": "e6dcb1e4a343d829b4d5c3eeb773fd65d83ea476bd658b0f4035186eac4568b9"
+    },
+    "B_PREDICTED_COMPONENT_CONTRASTS.csv": {
+      "bytes": 624,
+      "rows_or_objects": 4,
+      "sha256": "bec5b006828f3dd0842c213388158241ac4411b2f249603a633652bea8479238"
+    },
+    "B_SKILL_W1_W9_BROAD.csv": {
+      "bytes": 46288,
+      "rows_or_objects": 120,
+      "sha256": "fcadb690f4e8013820db0ad99cfff8fcd321c582766c36f3ac7b4f6022de8a0b"
+    },
+    "C_JOIN_STOP.json": {
+      "bytes": 482,
+      "rows_or_objects": 1,
+      "sha256": "a1ca37c4c9dd4d32374940f24f8cc8772def17fb812b2f6a7c465323d6b9f986"
+    },
+    "DEPTH_SOURCE_DISPOSITION.json": {
+      "bytes": 3674,
+      "rows_or_objects": 1,
+      "sha256": "533a94b8ce13f43a038275353834e53b0c791b8a9292ec55fe2129e1eb24ea33"
+    }
+  },
+  "arithmetic": {
+    "B_EARLY_OWN_WEEKLY.csv": {
+      "additive_fields_per_group": 12,
+      "procedure_policy_groups": 57,
+      "rows": 285,
+      "side_triads": 855
+    },
+    "B_EARLY_SELECTED_OWN_WEEKLY.csv": {
+      "additive_fields_per_group": 12,
+      "procedure_policy_groups": 76,
+      "rows": 380,
+      "side_triads": 1140
+    },
+    "B_SKILL_W1_W9_BROAD.csv": {
+      "additive_fields_per_group": 12,
+      "procedure_policy_groups": 12,
+      "rows": 120,
+      "side_triads": 360
+    }
+  },
+  "checks": 7547,
+  "created_UTC": "2026-11-16T00:40:12.514085+00:00",
+  "early_capacity10": {
+    "aggregate_signature_sha256": "a0e301a359f2bb38173f9e1bd3d27f0c354bad7b75b138732ba6741612d3e738",
+    "membership_identity": "OWNER_REPORTED_A_INDEPENDENT_CHECK; no public case identities or membership fingerprints supplied; equal aggregate hashes do not prove private membership",
+    "nineweek_selector_qualified": false,
+    "not_four_independent_discoveries": true,
+    "public_aggregate_signatures_equal": true,
+    "records_each": "7 UNDER, 6 wins 1 loss; weekly selected 1,2,2,2; 7/84 coverage"
+  },
+  "failed_checks": [],
+  "id": "C-EXECUTED-RECEIPTS-PUBLIC-INTAKE-CHECK-01",
+  "limits": [
+    "Public aggregate arithmetic and exact retained-file bindings only; no protected raw offers, source-clock authentication, model loading or fit reproduction",
+    "Count-weighted public records do not recreate private masks, calibration, bootstrap uncertainty, original issuance or full nine-week selector qualification",
+    "No new source calls, fits, solver retries, grading worker, upload/auth tests, scheduler, production writes or primary activation"
+  ],
+  "measurement_limit": "This process CPU excludes interpreter startup, earlier bounded metadata reads and tool overhead; not complete session CPU certificate",
+  "new_SKILL_early_rows": 60,
+  "new_SKILL_full_own_records": {
+    "SKILL_C0_LAW": {
+      "Brier": 0.2743893150437231,
+      "Combined": [
+        112,
+        114
+      ],
+      "Over": [
+        10,
+        9
+      ],
+      "Under": [
+        102,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7465984447412725
+    },
+    "SKILL_C0_MEAN": {
+      "Brier": 0.2743893150437231,
+      "Combined": [
+        113,
+        113
+      ],
+      "Over": [
+        19,
+        17
+      ],
+      "Under": [
+        94,
+        96
+      ],
+      "decided": 226,
+      "log_loss": 0.7465984447412725
+    },
+    "SKILL_C0_MEDIAN": {
+      "Brier": 0.2743893150437231,
+      "Combined": [
+        112,
+        114
+      ],
+      "Over": [
+        10,
+        9
+      ],
+      "Under": [
+        102,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7465984447412725
+    },
+    "SKILL_C1_LAW": {
+      "Brier": 0.27428199024446237,
+      "Combined": [
+        112,
+        114
+      ],
+      "Over": [
+        10,
+        9
+      ],
+      "Under": [
+        102,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7463451390506041
+    },
+    "SKILL_C1_MEAN": {
+      "Brier": 0.27428199024446237,
+      "Combined": [
+        113,
+        113
+      ],
+      "Over": [
+        19,
+        17
+      ],
+      "Under": [
+        94,
+        96
+      ],
+      "decided": 226,
+      "log_loss": 0.7463451390506041
+    },
+    "SKILL_C1_MEDIAN": {
+      "Brier": 0.27428199024446237,
+      "Combined": [
+        112,
+        114
+      ],
+      "Over": [
+        10,
+        9
+      ],
+      "Under": [
+        102,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7463451390506041
+    },
+    "SKILL_R0_LAW": {
+      "Brier": 0.2746440044797859,
+      "Combined": [
+        110,
+        116
+      ],
+      "Over": [
+        9,
+        10
+      ],
+      "Under": [
+        101,
+        106
+      ],
+      "decided": 226,
+      "log_loss": 0.7473904332365121
+    },
+    "SKILL_R0_MEAN": {
+      "Brier": 0.2746440044797859,
+      "Combined": [
+        115,
+        111
+      ],
+      "Over": [
+        19,
+        15
+      ],
+      "Under": [
+        96,
+        96
+      ],
+      "decided": 226,
+      "log_loss": 0.7473904332365121
+    },
+    "SKILL_R0_MEDIAN": {
+      "Brier": 0.2746440044797859,
+      "Combined": [
+        110,
+        116
+      ],
+      "Over": [
+        9,
+        10
+      ],
+      "Under": [
+        101,
+        106
+      ],
+      "decided": 226,
+      "log_loss": 0.7473904332365121
+    },
+    "SKILL_R1_LAW": {
+      "Brier": 0.27487204012138333,
+      "Combined": [
+        111,
+        115
+      ],
+      "Over": [
+        10,
+        10
+      ],
+      "Under": [
+        101,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7479068799994227
+    },
+    "SKILL_R1_MEAN": {
+      "Brier": 0.27487204012138333,
+      "Combined": [
+        115,
+        111
+      ],
+      "Over": [
+        19,
+        15
+      ],
+      "Under": [
+        96,
+        96
+      ],
+      "decided": 226,
+      "log_loss": 0.7479068799994227
+    },
+    "SKILL_R1_MEDIAN": {
+      "Brier": 0.27487204012138333,
+      "Combined": [
+        111,
+        115
+      ],
+      "Over": [
+        10,
+        10
+      ],
+      "Under": [
+        101,
+        105
+      ],
+      "decided": 226,
+      "log_loss": 0.7479068799994227
+    }
+  },
+  "new_SKILL_full_rows": 120,
+  "personnel": {
+    "A_depth_inspection": "COMPLETED_CURRENT_VINTAGE_ONLY",
+    "historical_status": "SOURCE_BLOCKED_ARTIFACT_VINTAGE_IDENTITY_EVENT_EFFECTIVE_UNIVERSE",
+    "interpretation": "GSIS missing/remappable while dt unchanged; rank is not health/participation/alignment; preserve separately qualified B QB depth diagnostics"
+  },
+  "sources": {
+    "report": {
+      "bytes": 13659,
+      "commit": "f79c05835ba3a41a7e73a5c6fd26c05896011e4e",
+      "sha256": "ff703c87e3b58e599216785ee9b43d7367e500cc9506b84538ffc2b6a6e68fdc"
+    },
+    "scientific_aggregate_tables": {
+      "bytes": 66145,
+      "commit": "f79c05835ba3a41a7e73a5c6fd26c05896011e4e",
+      "sha256": "0ea8708f044f055812f0dec6e5677761fdcff230ac586913fa868eb172614c37"
+    }
+  },
+  "status": "PASS_SCOPED_PUBLIC_AGGREGATES",
+  "strong_controls": {
+    "B0_mean": "119/226 owner-public report; not C private regrading",
+    "B2_median_law": "122/226 owner-public report; not C private regrading"
+  },
+  "website": {
+    "CountA_current_feed_received": false,
+    "activation": false,
+    "baseline_rows": 581,
+    "direct_C_scope": "Immutable metadata bytes and run receipt only; no fresh full581/served-byte/browser/mobile execution",
+    "research_rows_admitted": 0,
+    "selector": {
+      "candidate_full_system": "53-55/108 plus2 unresolved",
+      "candidate_generated_selections": 10,
+      "candidate_selected_WL": "6-4",
+      "control_full_system": "49-58/107 plus2 unresolved",
+      "full_policy_summary": "Retain canonical fifth-weekV7/five-week-summary-v2 and independent B check; no rescore here",
+      "learned_count_not_membership_changes": true,
+      "new_primary_change": false,
+      "public_score_source": "PRIOR_SELECTOR_PUBLIC_EXCERPT.json; owner-reported exact summary, not C recalculation; other terminal statuses must not be inferred from these aggregate W-L/unknown strings",
+      "reference_fallback_WL_decided": "47-51/98 plus2 unresolved",
+      "reference_fallback_selections": 100,
+      "scope": "Owner/preserved prior immutable summary; C did not reexecute selector or inspect all candidate rows in this task",
+      "status": "SHADOW; preserve existing five-block conditional retrospective duration count",
+      "week8": "Fallback-only; not widespread learned-model confirmation"
+    },
+    "served_scope": "Owner machine receipt received, not independently reenacted by C"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "C05-V2-LOGGING-DEFECT-AND-BOUNDED-RESUME-REQUEST",
+  "recorded_UTC": "2026-11-16T00:39:52.359669+00:00",
+  "status": "IMPLEMENTATION_LOGGING_DEFECT_BEFORE_PROJECTION;NOT_MODEL_OR_SOURCE_NEGATIVE",
+  "failure": "I treated forward_sources_v4.write as mutable; a second SOURCE_ATTEMPTS.json write raised FileExistsError after successful native GET, before its returned body could be projected.",
+  "failed_source_status": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/SOURCE_STATUS.json",
+    "SHA256": "e5b58dc5b21e1815fffa09b292a69f0b51eb9023dfd5866e072f05ad2c59fcb3"
+  },
+  "failed_process_resource": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/PROCESS_RESOURCE.json",
+    "SHA256": "b85677bbe6b2d2548ffb97cb55e85bc99c3e057590cef94495acf9666a735a29"
+  },
+  "version_gate": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/VERSION_GATE.json",
+    "SHA256": "0f30456c910a3ee577969aee37bfb2f783818d72e7e5796f83a28e4636dd554c"
+  },
+  "prior_native_FINAL_projection": {
+    "binding": {
+      "path": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+      "SHA256": "23d3dddf9da5651edcd3f60cbab9d38bcbbcd9bea7c67a4aeb9449ce89762b98"
+    },
+    "field": "observed_native_event",
+    "original_observed_UTC": "2026-11-15T20:53:09.425828+00:00",
+    "identity": "401873053",
+    "score": {
+      "home": 35,
+      "away": 10
+    }
+  },
+  "actual_consumption": {
+    "HEAD": 1,
+    "GET": 1,
+    "response_bytes": 208679,
+    "charged_CPU": 4.767533874,
+    "cap_CPU": 30,
+    "remaining_CPU_arithmetic": 25.232466126,
+    "new_forecasts": 0,
+    "new_grades": 0,
+    "original_packet_unchanged": true
+  },
+  "prepared_repair": "New append-only resume adapter with unique started/completed ledger checkpoints rather than overwriting immutable file; no original adapter/status/evidence edit. Reuse already-qualified C58 native final projection with its old source clock; explicitly do not claim recovered/projection parity for discarded newer native body. Fresh schedule must match that exact event/time/score, then read the newly eligible stats version.",
+  "additional_source_calls_requested_within_existing_registration": {
+    "new_HEAD": 0,
+    "new_native_GET": 0,
+    "remaining_schedule_GET": 1,
+    "remaining_stats_GET": 1,
+    "total_HEAD_after_completion": 1,
+    "total_GET_after_completion": 3,
+    "total_response_cap_unchanged": 5242880
+  },
+  "additional_CPU_allowance_requested": 0,
+  "execution_requires_root_GO_for_scoped_reuse": true,
+  "no_automatic_retry": true,
+  "source_contract_limit": "Retained native FINAL evidence and fresh matching schedule qualify event, new player facts qualify outcomes; no source timestamp is rewritten to new time. No price/line/participation assumptions."
+}
