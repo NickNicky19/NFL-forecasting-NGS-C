@@ -60,13 +60,13 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 6928,
-    "SHA256": "1ea114cbcf65c7e83de456825496cdfe2da67fd7c8e3087ffbf9af3c9aa1627a"
+    "bytes": 14057,
+    "SHA256": "abe6f5d8005b211fe1763efba445e13c1be337b0414e2126944b8b3a09b85d55"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 44257,
-    "SHA256": "b8cf21e0e76d10cd666e420e5bb762e979bae5335c98aa26f0292948c74dcc49"
+    "bytes": 46358,
+    "SHA256": "ed998fd9374e224e8053123d5569ed6594bb4c341393ea0db29897826af2b1cf"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -3294,6 +3294,11 @@
       "path": "reports/information-skill-01/executed-receipts-gap-closure-01/RESOURCE_CLOSURE.json",
       "bytes": 1505,
       "SHA256": "45eeca9bebf330215f4789efaad792854eb307f42be6a68bbed4f13bf4726a0e"
+    },
+    "packaging_repair": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/ci-repair-01/REPAIR_RECEIPT.json",
+      "bytes": 1583,
+      "SHA256": "ec79795c81fa659e0f0c75f88a423a64570c3cbe11bdbc930534ea6845a7795e"
     }
   }
 }
