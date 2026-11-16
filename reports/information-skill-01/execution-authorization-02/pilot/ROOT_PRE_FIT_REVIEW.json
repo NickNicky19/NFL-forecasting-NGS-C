@@ -1,0 +1,25 @@
+{
+  "recorded_UTC": "2026-11-16T23:27:08.617201+00:00",
+  "status": "ROOT_REPAIRS_VERIFIED_BEFORE_FIT",
+  "source_code_SHA256": "459e371aca0d21c4487b9dd5e4cb4f4e220009c4323acd2c5b021e76b00a1d53",
+  "parent_parity": "All272available original32vectors exact;23unavailable retained, not dropped",
+  "null_contract": "JSONnull convertedtoNaN forcomparison; zero tolerances unchanged",
+  "scientific_timer_ceiling_CPU": 90,
+  "preserved_failures": [
+    {
+      "stage": "prepare",
+      "error": "AssertionError:PARENT32_PARITY"
+    },
+    {
+      "stage": "prepare",
+      "error": "TypeError:unsupported operand type(s) for -: 'float' and 'NoneType'"
+    }
+  ],
+  "ordinary_source_expected_hashes_verified": "PASS",
+  "authoritative_schedule_and_parent_origins_verified": true,
+  "saved_C0_fallback_preserved": true,
+  "storage_check": "PASS",
+  "full_NFL_mutation_CHECK_SHA256": "5cc72c61a3c2492bba1d62d559b24c442a8208861e5bc536ac5f9cd41a7b6964",
+  "source_cache_body_reopened": true,
+  "new_fits": 0
+}

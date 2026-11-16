@@ -1,0 +1,44 @@
+{
+  "id": "C-DYAD-WORKER-STATIC-REVIEW-v1",
+  "recorded_UTC": "2026-11-16T23:20:09.770397+00:00",
+  "reviewed_code_SHA256": "c4d8a69b2967627895d2a51e0f5a392fe151b6c30e77226bd33f506fcabc60e4",
+  "status": "SCOPED_STATIC_REVIEW_WITH_PRE_GO_ITEMS",
+  "passed_scope": [
+    "hgb_probs returns correctunder/push/overdictionary andexistingnumericHGBexport reused",
+    "Qualified same-team playerhistories formedbeforelast8",
+    "Unknownpasserexplicitbucket andnativepasserunion retained",
+    "No sourceGET or unsafe pickleloading",
+    "Original32 reused and matchedsavedcontrolfeatureparity codepresent",
+    "NFL fullcontext source-bound mutation uses futuretargetassociations/outcomes while prior inputs fixed",
+    "Rawgradedrows precede frozen selector summaries",
+    "Fivefit attemptcounter andcumulativeCPUwallcontroller present"
+  ],
+  "pre_GO_items": [
+    {
+      "item": "SavedC0 fallback/learned attribution",
+      "finding": "offer_record sets fallbackFalse/learnedTrue for allavailableprobabilities; C0 loopchecks side/status but doesnot copy exact savedfallbackflag. Preserve any savedprior/fallback contribution."
+    },
+    {
+      "item": "Scientificreserve timer",
+      "finding": "check(30) protects reserveatboundaries butSIGPROFsetto120 evenprepare/fit. Unexpectedslowfit canconsume completionreservebeforepostcheck. Root shouldprotect scientific90CPU boundary orproveguarded fitdeadline leaves30, withoutnewallowance."
+    },
+    {
+      "item": "Authoritative fit-origin parity",
+      "finding": "Weekorigin usesminprimitive rows kickoff; assert exactparity with minscheduled kickoff/savedparentorigin beforefit."
+    },
+    {
+      "item": "Ordinary source expectedbindings",
+      "finding": "sources records ordinaryhashes butdoesnot itselfcomparetheirknownexpectedbindings; rootreadiness mustauthenticate exactordinaryinputs/frozenprimitivebindings."
+    }
+  ],
+  "limits": "Staticcode/API review only, noNFLsource build, fit, model restoration, inference, sourcecall orgrading. Root mayalreadyapply scopedrepairs afterthis reviewedhash; thisreceipt doesnotcertify repairedcode.",
+  "new_fits": 0,
+  "new_HTTP": 0,
+  "accounting": {
+    "additional_conservative_CPU_seconds": 0.5,
+    "total_design_check_charge_CPU": 2.0,
+    "shared_task_ceiling_CPU": 2,
+    "measurement_limit": "Boundedcoderead/preparation plus tinyreceiptwrite; not full measuredprocesscertificate."
+  },
+  "write_CPU_seconds": 0.000269077000000003
+}

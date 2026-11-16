@@ -1,0 +1,24 @@
+{
+  "id": "C-DYAD-MIX-VALUE-01/v2-EXECUTION",
+  "CPU_seconds": 17.941982745,
+  "wall_seconds": 21.980294869999955,
+  "attempts": [],
+  "completed": [],
+  "failures": [
+    {
+      "stage": "prepare",
+      "error": "AssertionError:PARENT32_PARITY"
+    }
+  ],
+  "active": false,
+  "stage": "prepare",
+  "metering_limits": "Includes1.5conservative staticreview, boundedinput/schema reads and implementation/preflight command overhead; not a complete assistant-orchestration or end-to-end elapsed-time certificate. Full worker imports/execution are metered separately. Carry all actual process costs/failures.",
+  "peak_RSS_bytes": 348991488,
+  "diagnostics": [
+    {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/PARENT_PARITY_DIAGNOSIS.json",
+      "CPU_charged": 1.2397292149999999,
+      "wall_metering_limit": "CPU plus0.2 conservative shell/read overhead; exact subprocess wall not independentlymetered."
+    }
+  ]
+}

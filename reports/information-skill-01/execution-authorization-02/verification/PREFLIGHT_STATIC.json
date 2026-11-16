@@ -1,0 +1,41 @@
+{
+  "id": "C-DYAD-PREFLIGHT-STATIC-v1",
+  "recorded_UTC": "2026-11-16T23:09:01.312549+00:00",
+  "status": "PASS_SCOPED_STATIC_WITH_IMPLEMENTATION_GUARDS",
+  "proposal_SHA256": "4abca1a6ef8b1dbdb20e861b09f02381f04449069f8aedb612e374f5f4d10965",
+  "scope": "Read-only code/proposal/API inspection; not source reparse, consumed-design NFL fixture, fit, inference, score or model restoration.",
+  "no_HTTP": true,
+  "new_fits": 0,
+  "APIs": {
+    "primitive_input": "reports/targeted-accuracy-w1w9-01/M3/inputs/FEATURES_AND_MEMBER_FACTS.json.gz: rows, X_by_target.rec, feature_names.rec, query_indices_2026",
+    "offers": "reports/targeted-accuracy-w1w9-01/M3/inputs/NATIVE_OFFERS.json.gz: primary, retained_methods.P3_DIRECT/P1_MEAN/P1_MEDIAN/ALWAYS_OVER/ALWAYS_UNDER",
+    "retained_control_rows": "reports/targeted-accuracy-w1w9-01/M3/base-OFFER_ROWS.json.gz: CONTROL_P3_DIRECT LAW and exact saved statuses/probabilities",
+    "strict_source_counts": "src/targeted_context_m3.py::_all_position_counts; existing ordinary rows/all-position counts and source hashes",
+    "history": "context_features_c01.Prefix.before uses bisect_left available<cutoff; history sorted kickoff/game_id under constant7daylag",
+    "training": "Exact parent mask:not query_only, available is notNone and available<week minscheduledkickoff, values.rec is notNone",
+    "query": "Existing game-specific query kickoff/cutoff and original32 remain unchanged; trainingorigin is separate",
+    "learner": "laws_v2.ThresholdModel MONOTONE_HGB event=False",
+    "grid": "[0,1,2,3,4,5,7] = floor(wave_v2.GRIDS.rec), not replacement offer thresholds",
+    "safe_export": "reliability_v8.hgb_export/hgb_cdf; context_experiment_c01.hgb_probs clamps negativecountCDF support and derives exactline under/push/over",
+    "grader": "abc_championship_v2.status unchanged",
+    "views": "targeted_scores_m3.summarize(offer_rows,prediction_rows=[],out): LAW-only candidates; no numerical mean/median invented"
+  },
+  "critical_guards": [
+    "Approved H_p is up to8qualified earlier same-team appearances: fetch allprior then filter team_complete/receptions_match/team, thenlast8. Do not blindly reuse ProfileBuilder._rows which takes8beforefiltering.",
+    "Existing _qb_pairs drops nullpasser IDs from its pair loop. New counters must retain explicit unknownpasser attempt and targetbucket so allA sumofficialattempts and both passerweightvectorssum1.",
+    "Identified nonQB passers remain native IDs; do not silentlyQB-filter or invent historicalroles.",
+    "Keep no-receiver passes in attemptdenominator asunallocated; receiver-target counts must reconcile qualified ordinary targets.",
+    "Context strict sourcegate requires finite/nonnegative/integral allposition counts and exact PBP attempt/completion/identifiedtarget totals; missingstatistics/flags do not independently provezero.",
+    "Same-window unshrunk weightedrates collapse to marginalshare: excluded. NewI uses latestgame minus historymixture times shrunkpairrates with unionIDs/unseenprior.",
+    "C0 retains272available/268decided/4selectedunknown/23technicalunavailable on295board; newarmavailability measured separately.",
+    "Save rawgrades before selectors; no inherited9offeredweeks or5weekqualification.",
+    "Safe HGB helpers alreadyexist; no newpickle/executableloader or duplicate serializer required."
+  ],
+  "source_and_fit_checks_pending": "Actual dyad source/feature trace, full-context future/target mutation, feature-design/batch/safeJSON parity and any representative independentfit remain rootworker tasks within approved120CPU300wall5fits; not passedbythisstaticreview.",
+  "accounting": {
+    "conservative_charged_CPU_seconds": 1.5,
+    "ceiling_CPU_seconds": 2,
+    "measurement_limit": "Conservative bookkeeping for bounded code reads/preparation; not complete process-time certificate. No data-heavy load."
+  },
+  "write_CPU_seconds": 0.0007334259999999954
+}
