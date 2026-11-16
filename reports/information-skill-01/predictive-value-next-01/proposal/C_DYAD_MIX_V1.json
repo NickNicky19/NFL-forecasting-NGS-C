@@ -1,0 +1,134 @@
+{
+  "id": "C-DYAD-MIX-VALUE-01",
+  "status": "SPECIFIED_NOT_EXECUTION_LEASED;NO_NEW_SCORES",
+  "owner": "C",
+  "registered_as_proposal_UTC": "2026-11-16T17:20:28.740531+00:00",
+  "motivation": "Closed role-depth defense scalar changed14lawdecisions7winsperarm and didnotimprove directions. Descriptive native passer-receiver targeting is implemented but predictive inclusion was explicitly queued. Test a different role/opportunity relationship, not another defense scalar/lag/variance gate.",
+  "primary_category": "rec",
+  "source_evidence_class": "CURRENT_VINTAGE_CHRONOLOGICAL_DIAGNOSTIC;STRICT_PRIOR_KICKOFF_PLUS7D;2026_EXPOSED",
+  "proposed_information": "Usage-predicted passer-mixture change interacting with earlier receiver-specific passer targeting preferences. Not authenticated starter, injury, route or alignment information.",
+  "nearest_equivalents": [
+    {
+      "code": "src/receiving_profiles_c02.py",
+      "function": "ProfileBuilder._qb_pairs",
+      "state": "DESCRIPTIVE_IMPLEMENTED_PREDICTIVE_INCLUSION_UNSCORED"
+    },
+    {
+      "code": "src/receiving_increment_c03.py",
+      "state": "FITTED_FEATURE_ORDER_OMITS_NATIVE_PASSER_DYADS"
+    },
+    {
+      "code": "src/information_skill_features_c01.py",
+      "state": "CLOSED_ROLE_DEPTH_OFFENSE_ADJUSTED_DEFENSE_SCALAR_DIFFERENT_INFORMATION"
+    },
+    {
+      "contract": "v10_targetshare_and_v11_teamcontext",
+      "state": "COMPLETED_MARGINAL_SHARE/TEAMRATE_FINDINGS_REUSED_NOT_RERUN"
+    }
+  ],
+  "algebraic_redundancy_rejected": "Same-window unshrunk QB-weighted target rates equal marginal receiver targetshare; this is not a new mechanism and is excluded.",
+  "formula": {
+    "H_p": "Up to8 qualified earlier same-team player appearances; retain prior verified played-zero/support semantics, no target-game membership.",
+    "A_pq": "Qualified credited pass attempts by each native passer q in H_p, including identified non-QB and an explicit unknown passer bucket; exclude source-defined sacks/twopoint/deleted/noplay only under existing completeness guards.",
+    "T_pq": "Explicit targets to receiver p on those exact eligible attempts; game/player/team and official all-position attempt/target counts must reconcile.",
+    "s_p": "sum_q T_pq / sum_q A_pq; undefined remains null.",
+    "r_pq": "(T_pq +20*s_p)/(A_pq+20); unseen passer uses declared s_p prior, not0.",
+    "w_history": "A_pq/sum_q A_pq",
+    "w_latest": "Passer attempt proportions in ONE latest eligible complete earlier team game, fixed before scores; not target-game actuals or a claimed starter forecast.",
+    "value": "I_p = sum_q (w_latest_q-w_history_q)*r_pq",
+    "support": [
+      "eligible_history_games",
+      "eligible_history_attempts",
+      "latest_complete_attempts",
+      "latest_eligible_game_age_days",
+      "latest_unknown_passer_fraction",
+      "latest_unseen_passer_weight"
+    ],
+    "nulls": "Incomplete/unknown denominator or insufficient complete history => substantive null and explicit support/fallback; no missing-stat zeros.",
+    "nonredundancy": "I_p exactly0 when mixtures equal or all r_pq equal. Otherwise it captures mixture shift interacted with dyad preference; no arbitrary forecast multiplier."
+  },
+  "source_bindings": [
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "bytes": 479880
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "bytes": 604500
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "bytes": 271301
+    }
+  ],
+  "source_availability": "Existing fullPBP2024/25 all272 games each;2026 retained120 W1\u20138 games. Inputs observed/current-vintage, not original publication. Field date/order/identity and unknown clocks keep original semantics. No new download.",
+  "original_method": "Unchanged P3/E0 MONOTONE_HGB direct-threshold CDF with original32 features and registered synthetic-threshold training; evaluate only genuine retained actual offers. This is not a model trained on historical real prices.",
+  "arms": {
+    "C0": "Reuse exact saved original32 P3 direct forecasts for each origin, no parent refit.",
+    "C1": "Same fixed direct HGB and original32 features plus only new dyad support indicators.",
+    "C2": "C1 plus I_p substantive value; no new learner or other context block."
+  },
+  "fixed_settings": {
+    "module": "src/laws_v2.py::ThresholdModel",
+    "family": "MONOTONE_HGB",
+    "max_iter": 32,
+    "max_depth": 3,
+    "min_samples_leaf": 20,
+    "learning_rate": 0.05,
+    "l2_regularization": 10,
+    "seed": 1701,
+    "early_stopping": false,
+    "threshold_grid": "Exact retained rec grid; query actual line, preserve monotone CDF, integerpush and event orientation.",
+    "tuning": "NONE; no seeds/lags/windows/hyperparameter/cutoff search."
+  },
+  "controls": [
+    "Exact parentP3 unchanged155/268 on nativeWRTE panel",
+    "Retained Leaf law152/268",
+    "retained P1 mean/median",
+    "both constant sides",
+    "earlier prevalence wherecompatible",
+    "exact incumbent/market reference onlywhereauthentic compatibleinputs exist; no inventedprices"
+  ],
+  "chronology": "Two native evaluation origins2026W2/W3; all training/features/transforms from eligible earlier cases using exact parenthistory and kickoff+7d<origin. Target-game repeats/book rows stay out of origin and calibration. No final-role/usage queryfilter.",
+  "offered_population": {
+    "weeks": [
+      2,
+      3
+    ],
+    "eligible": 295,
+    "decided": 268,
+    "selected_unknown": 27,
+    "main_alternate": "UNCLASSIFIED_RETAINED_REAL_LINES",
+    "quote_clocks": "UNVERIFIED",
+    "priority_rule": "Exact frozen WRTE board/sourceprecedence, fullsystemandcommonmask; missing forecasts technical unavailable notabstention.",
+    "W1_W4_W9": "Explicit actual-offer gaps; nine numericalorigins and pending A joins do not supply those offers."
+  },
+  "outputs": "Typed exact-line CDF-derived direction/probability only; candidate pointmean/median/NLL-countlaw N/A unless genuinely supplied. No implied numericalmean/EV.",
+  "evaluation": "Existing common grader and frozen selections: broad100/50/25/10percent, Top6/10/20, raw0.75/0.80/0.90. Own lists plus same-selected-case controls; raw probabilities not calibrated claims. Two weekclusters => no supported80percentclaim; keepunknowns, zeros, adverseperiods, fallback and fullboard.",
+  "correctness_before_fit": "Reuse retained admitted source interface. Full-context NFL feature/consumed-design mutation check with future/target outcomes changed while legitimate prior context fixed; identity/denominator/fullrowparity, same-batch/single and safe restoration. New source-dyad trace is pending implementation inside proposed lease, not claimed passed.",
+  "completion_decision": "Report C2-C1 and C2-C0 own-side/proper-score/selection effects, close no-gain or shadow exact product; no primarypromotion or missing-week inheritance. Stop with durable rawgrades before selections if cap/checkblocks.",
+  "single_external_prerequisite": "Explicit finite execution allocation for this distinct mechanism; current600CPU one-recipe/40attempt lease is completed and has only3 nominal attempt slots, fewer than4 augmentation fits plus1independent check.",
+  "request": {
+    "dedicated_CPU_seconds": 120,
+    "dedicated_wall_seconds": 300,
+    "fit_attempts_max_including_failures": 5,
+    "fit_plan": "2origins x2augmentationarms=4 fits; atmost1independentrepresentativefit. Reuse parent and strongcontrols.",
+    "completion_checks_retention_CPU_reserve_included": 30,
+    "preflight_before_comparative_scores": "Check actual remaining stagecost and reserves; no automatic extension.",
+    "fit_workers": 1,
+    "threads": 1,
+    "RSS_bytes_max": 1288490188,
+    "new_public_bytes_max": 33554432,
+    "whole_C_bytes_cap_unchanged": 2684354560,
+    "new_raw_source_GETs": 0,
+    "new_paid_spending_or_API_allowance": 0,
+    "state": "REQUEST_ONLY_NOT_GRANTED",
+    "other_allocations_unchanged": "No use of A M3 CPU/wall, old C M3 closed distribution balance, or automatic reset/reuse of spent C INFORMATION budget."
+  },
+  "resource_basis": "Prior fullcontext preparation was35\u201357CPU across nineorigins; narrow two-origin reuse must be measured under the proposed preflight. Fixed direct HGB32 iterations,4augmentationfits,1verification, no search.120CPU includes30completion reserve; not an assertion of already measured fitcost.",
+  "no_new_predictive_experiment_executed": true,
+  "five_week_status": "Two offeredweeks would remain research/shadow; further exact-product coverage needed for new primary. Existing eligibleproducts continue independently."
+}

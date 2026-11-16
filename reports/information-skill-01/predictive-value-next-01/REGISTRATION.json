@@ -1,0 +1,35 @@
+{
+  "id": "INFORMATION-SKILL-01-PREDICTIVE-VALUE-NEXT-01-C-COORDINATION",
+  "registered_UTC": "2026-11-16T17:13:20.953707+00:00",
+  "base_commit": "371bce3fea4e6fa620edce3e3cc55ce47bff56c3",
+  "scope": "Single refresh of actual A/B/website receipts, current M3 cumulative grant/status, one C source/novelty/resource feasibility disposition and executable bounded proposal. No new fit until a suitable lease is established. Existing grader/ledger only.",
+  "parent_C_CPU_cap_unchanged": 600,
+  "prior_C_charged_CPU": 525.35995406,
+  "prior_accounting_limits_preserved": true,
+  "coordination_and_feasibility_charge_ceiling_CPU": 30,
+  "included_completion_publication_reserve_CPU": 12,
+  "runtime_read_only_review_conservative_CPU_included": 6,
+  "new_model_fits_authorized_by_this_registration": 0,
+  "new_raw_source_collection": 0,
+  "metadata_GET_caps": {
+    "A": 4,
+    "B": 4,
+    "website": 3
+  },
+  "metadata_normalized_response_bytes_cap_per_owner": 2097152,
+  "new_public_bytes_cap": 4194304,
+  "publication_readback_GET_cap": 4,
+  "publication_readback_payload_bytes_cap": 2097152,
+  "A_M3_grant": {
+    "cap_CPU": 1660,
+    "cap_wall": 2250,
+    "CPU_increment_once": 400,
+    "wall_increment_once": 450,
+    "retention_reserve_CPU": 120,
+    "reporting_reserve_CPU": 20,
+    "A_execution_only": true,
+    "no_budget_transfer": true,
+    "owner_carries_exact_private_ledger_and_disclosed_overheads": true
+  },
+  "scientific_freeze": "No old fits/strict reproduction retries/closed recipe repeats. M3 original frozen outputs only; new dyad proposal separately requires explicit finite resource lease if none exists. No primary promotion or original-site write."
+}

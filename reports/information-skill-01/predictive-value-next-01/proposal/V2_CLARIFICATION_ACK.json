@@ -1,0 +1,37 @@
+{
+  "id": "C-DYAD-MIX-V2-CLARIFICATION-ACK-v1",
+  "recorded_UTC": "2026-11-16T17:24:24.396077+00:00",
+  "reviewed_proposal_path": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V2.json",
+  "reviewed_proposal_SHA256": "4abca1a6ef8b1dbdb20e861b09f02381f04449069f8aedb612e374f5f4d10965",
+  "status": "PASS_CLARIFICATIONS_RESOLVED_STATIC_ONLY",
+  "clarifications_resolved": {
+    "clock_admission_and_query_cutoff_split": true,
+    "original32_parent_inputs_preserved": true,
+    "history_latest_passer_union_and_unknown_nonQB_mass": true,
+    "parent_arm_specific_availability_unknowns": true,
+    "stable295_board_and_common268_mask": true,
+    "new_arm_availability_measured_not_assumed": true,
+    "coverage_difference_not_attributed_to_I": true
+  },
+  "scope": "Static read of amended V2 proposal only; V1 and original review preserved. No source/data retrieval, NFL feature trace, fit, inference, grading or reproduction executed.",
+  "typed_probability_direction_only": true,
+  "candidate_mean_median_or_count_law_not_invented": true,
+  "actual_offer_weeks": [
+    2,
+    3
+  ],
+  "nine_week_actual_offer_qualification": false,
+  "request_state": "REQUEST_ONLY_NOT_GRANTED",
+  "execution_GO": false,
+  "pending_inside_proposed_lease": [
+    "NFL dyad trace and identity/denominator/clock qualification",
+    "full-context consumed-design mutation checks",
+    "bounded fitting/scoring/retention preflight"
+  ],
+  "new_HTTP": 0,
+  "new_data_builds": 0,
+  "new_fits": 0,
+  "new_grades": 0,
+  "process_CPU_seconds": 0.0006140680000000023,
+  "accounting": "Included in the existing conservative one metadata CPU second for this entire scoped review subtask, under the same two-CPU ceiling; no added allowance."
+}
