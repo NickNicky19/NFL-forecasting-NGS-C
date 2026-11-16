@@ -1,0 +1,199 @@
+{
+  "status": "PASS_METADATA_NORMALIZATION",
+  "before_view_SHA256": "8fb4dd2126448976cc919de89d6bfd88bf0dc6e98306dd62a70601b604b4d23a",
+  "after_view_SHA256": "491b9ef1e44b68984a93682bca6fe922bf4bd2a0517fed6372a15d547c7c1657",
+  "families": 47,
+  "procedures": 633,
+  "execution_views": 12459,
+  "moved_placeholder_records": 62,
+  "moved_placeholder_execution_views": 402,
+  "family_alias_changes": 36,
+  "new_scores": 0,
+  "new_fits": 0,
+  "new_network": 0,
+  "process_CPU_seconds": 1.1404572899999998,
+  "conservative_reporting_CPU_charge": 2,
+  "source": "Parent-authorized2CPU quality followup from reporting remainder; no pilot/reserve or newgrant",
+  "aliases": [
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::C-PASS-WORKLOAD-LINK-v8/P2_LINKED_V8::ALL_ELIGIBLE_OFFERS",
+      "old_family": "C::Owner-labelled mechanism \u2014 C-PASS-WORKLOAD-LINK-v8/P2_LINKED_V8",
+      "new_family": "C::Passing workload linked law (P2_LINKED_V8)"
+    },
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::C-PASS-WORKLOAD-LINK-v8/P2_WORKLOAD_V8::ALL_ELIGIBLE_OFFERS",
+      "old_family": "C::Owner-labelled mechanism \u2014 C-PASS-WORKLOAD-LINK-v8/P2_WORKLOAD_V8",
+      "new_family": "C::Passing workload law (P2_WORKLOAD_V8)"
+    },
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::P2_LINKED_V8::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LINKED_V8",
+      "new_family": "C::Passing workload linked law (P2_LINKED_V8)"
+    },
+    {
+      "procedure_key": "C|pass_yd|C-ACTUAL::P2_WORKLOAD_V8::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_WORKLOAD_V8",
+      "new_family": "C::Passing workload law (P2_WORKLOAD_V8)"
+    },
+    {
+      "procedure_key": "C|pass_td|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|pass_td|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|pass_cmp|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|pass_cmp|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|pass_att|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|pass_att|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|pass_int|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|pass_int|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rush_yd|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|rush_yd|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rush_att|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|rush_att|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rec|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|rec|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rec_yd|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|rec_yd|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rush_rec_yd|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|rush_rec_yd|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|anytime_td|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|anytime_td|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|nick-chart-ppr-v1|C-ACTUAL::P2_LAW::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P2_LAW",
+      "new_family": "C::Empirical Leaf response law"
+    },
+    {
+      "procedure_key": "C|nick-chart-ppr-v1|C-ACTUAL::P3_DIRECT::SOURCE_POLICY",
+      "old_family": "C::Owner-labelled mechanism \u2014 P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::median",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::mean",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::mean",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::median",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2::median",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2",
+      "old_family": "C::Owner-labelled mechanism \u2014 C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P2",
+      "new_family": "C::Partially pooled Poisson"
+    },
+    {
+      "procedure_key": "C|rec|C-M3-TARGETED::CONTROL_P3_DIRECT::LAW",
+      "old_family": "C::Owner-labelled mechanism \u2014 CONTROL_P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    },
+    {
+      "procedure_key": "C|rec_yd|C-M3-TARGETED::CONTROL_P3_DIRECT::LAW",
+      "old_family": "C::Owner-labelled mechanism \u2014 CONTROL_P3_DIRECT",
+      "new_family": "C::Histogram boosting threshold/direct procedure"
+    }
+  ]
+}

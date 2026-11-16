@@ -1,0 +1,39 @@
+{
+  "status": "PASS_ALREADY_SCORED_PILOT_INTAKE",
+  "before_view_SHA256": "491b9ef1e44b68984a93682bca6fe922bf4bd2a0517fed6372a15d547c7c1657",
+  "final_view_SHA256": "73545fe40cdc80fa4c05a41a20754a704bb78cedd5168c67c1bd86ce6301f1f9",
+  "families": 47,
+  "procedures": 633,
+  "execution_views": 12489,
+  "added_existing_score_views": 30,
+  "updated_procedures": [
+    "C|rec|C-DYAD-MIX-VALUE-01/v2::C0",
+    "C|rec|C-DYAD-MIX-VALUE-01/v2::C1",
+    "C|rec|C-DYAD-MIX-VALUE-01/v2::C2"
+  ],
+  "source_bindings": [
+    {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/scores/RESULTS.json.gz",
+      "bytes": 31271,
+      "SHA256": "8ca7d7437fc9bbf69726c5aa5e36bcd57ba53960bd6c3aa013c77130c725c441",
+      "immutable_C_tree": null,
+      "binding_policy": "Same immutable publication as this catalog; no old-base URL invented"
+    },
+    {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/scores/SELECTIVE.json.gz",
+      "bytes": 548535,
+      "SHA256": "2db4e81c640d20c01091584b8807a0f5cbce9eaef9563252f139ba30457076aa",
+      "immutable_C_tree": null,
+      "binding_policy": "Same immutable publication as this catalog; no old-base URL invented"
+    }
+  ],
+  "process_CPU_seconds": 1.0747498229999999,
+  "conservative_reporting_CPU_charge": 2,
+  "new_fits": 0,
+  "new_scoring_or_grading": 0,
+  "new_network": 0,
+  "pilot_reserve_used": 0,
+  "scope": "Parent-approved2CPU reporting followup; no source/method/grade mutations, preserved quality-gap normalization and exact keys.",
+  "recorded_UTC": "2026-11-16T23:50:59.890827+00:00",
+  "final_metadata_consistency_CPU_seconds": 0.790358203
+}

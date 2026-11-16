@@ -1,0 +1,43 @@
+{
+  "created_UTC": "2026-11-16T23:14:21.712521+00:00",
+  "status": "EXTRACTED_PARTIAL_WITHIN_LISTED_SOURCES",
+  "source_count": 26,
+  "family_groups": 65,
+  "procedures": 695,
+  "execution_views": 12861,
+  "actual_script_process_CPU_seconds": 0.948814829,
+  "prior_extraction_pass_CPU_seconds": [
+    1.43578825,
+    1.440308098
+  ],
+  "known_preparation_read_CPU_disclosure": "Read-only schema inspection consumed bounded additional process time (largest JSON schema read2.813813seconds); exact total not independently metered.",
+  "conservative_total_reporting_CPU_charge": 12,
+  "reporting_subtask_CPU_cap": 12,
+  "pilot_CPU_used": 0,
+  "pilot_completion_reserve_used": 0,
+  "no_network": true,
+  "no_new_fits": true,
+  "no_grader_or_rescoring": true,
+  "bytes": {
+    "README.md": 42027,
+    "BRANCH_COVERAGE.json": 2350,
+    "build_view.py": 25220,
+    "PROCEDURES.csv.gz": 92428,
+    "METHOD_HISTORY.json.gz": 638334
+  },
+  "final_link_and_branch_normalization_CPU_seconds": 0.69754096,
+  "substantive_branch_artifacts_inspected": 3,
+  "no_invalid_old_base_URL_for_new_receipts": true,
+  "last_supplement_CPU_seconds": 0.845118338,
+  "charge_change": "Final charge12 (within originally allocated12), includes three extractionpasses, read-only schema/branchinspection, linknormalization, supplementalexistingmethod/C05references andretention. Not a complete measuredCPUcertificate.",
+  "byte_snapshot_scope": "Other catalog files only; receipt self-size/hash intentionally excluded.",
+  "artifact_bindings_pre_quality_followup": {
+    "README.md": "e99e0e374e50d1e3f5211dfffd1c03a4f108feecd08bc618aff42e3c666ec9b5",
+    "BRANCH_COVERAGE.json": "77d1e562294ce6d2bec28f6d4028dd5085c2b265766ffd125fa52f9136c65cdf",
+    "build_view.py": "7e3a7f19da4f3b17958b83d305a676701ef147da9724f9277e2c5263dfe22de6",
+    "PROCEDURES.csv.gz": "01323de2eb2339e4f7fefd05faac598d223c5cb9d37ab3eee02a5c77e59edec2",
+    "METHOD_HISTORY.json.gz": "8fb4dd2126448976cc919de89d6bfd88bf0dc6e98306dd62a70601b604b4d23a"
+  },
+  "snapshot_scope": "Historical initial extraction. Current counts and normalized view hash are in QUALITY_FOLLOWUP.json; final publication manifest binds all current files.",
+  "quality_followup": "QUALITY_FOLLOWUP.json"
+}

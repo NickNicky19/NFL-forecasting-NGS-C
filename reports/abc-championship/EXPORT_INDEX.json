@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 157916,
-    "SHA256": "ca51111962124f4980a45fa580bfaf69503c18383e23fd7645d960e371913814"
+    "bytes": 161698,
+    "SHA256": "e9a493e53a31cbefd6728f3bea8a84faea148a546794145ae607279e78a73148"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -67,8 +67,9 @@
     "new_C_source": "NewMondaylabelsandoriginalforecastsCSV;noforecastrefitornewpregamepicks"
   },
   "current_shared_intake_report": {
-    "path": "reports/abc-championship/shared-intake-v3/README.md",
-    "SHA256": "e545a31f424a8a357f6c3e56ed65a01545d5bc44907363e4199a18033f80f0f0"
+    "path": "reports/information-skill-01/execution-authorization-02/README.md",
+    "bytes": 14688,
+    "SHA256": "24f3a9617d7eb58800766ac72c511e518dc01811e9f9d4bda6960285dc27633d"
   },
   "current_outputs": [
     {
@@ -277,9 +278,9 @@
     "new_actual_prop_outcomes": 0
   },
   "current_execution_report": {
-    "path": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
-    "bytes": 21341,
-    "SHA256": "ca34a2138133723bbff9bfeff27372ec3e6c85a3844702d601a280b540818179"
+    "path": "reports/information-skill-01/execution-authorization-02/README.md",
+    "bytes": 14688,
+    "SHA256": "24f3a9617d7eb58800766ac72c511e518dc01811e9f9d4bda6960285dc27633d"
   },
   "current_qualification": {
     "path": "reports/abc-championship/execution-closure-02/QUALIFICATION_TABLE.json.gz",
@@ -3128,6 +3129,85 @@
       "path": "reports/information-skill-01/predictive-value-next-01/MANIFEST.json",
       "bytes": 4604,
       "SHA256": "cae3820cb30d486344a8a68a999753a38807ee4115e95d1a559946f00b9c117a"
+    }
+  },
+  "execution_authorization_02": {
+    "id": "EXECUTION-AUTHORIZATION-02",
+    "state": "C_FROZEN_PILOT_EXECUTED_NO_GAIN;PEER_AUTHORIZATION_AND_LAST_RECEIPTS_RECONCILED;PARTIAL_HISTORY",
+    "report": {
+      "path": "reports/information-skill-01/execution-authorization-02/README.md",
+      "bytes": 14688,
+      "SHA256": "24f3a9617d7eb58800766ac72c511e518dc01811e9f9d4bda6960285dc27633d"
+    },
+    "result": {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/EXECUTED_RESULT.json",
+      "bytes": 132421,
+      "SHA256": "0a4589a66c9808b0db0cdb81224cf983526e21eaa9cfade1a04accc5734051a7"
+    },
+    "history": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/METHOD_HISTORY.json.gz",
+      "bytes": 652289,
+      "SHA256": "73545fe40cdc80fa4c05a41a20754a704bb78cedd5168c67c1bd86ce6301f1f9"
+    },
+    "coverage": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V11.csv.gz",
+      "bytes": 2901597,
+      "SHA256": "515d6fa96ae11ea94b08d33b2b6564d86500b70a8ef5d622c197c064d956c493"
+    },
+    "verification": {
+      "path": "reports/information-skill-01/execution-authorization-02/verification/independent-fit/RESULT.json",
+      "bytes": 2219,
+      "SHA256": "f6aa5799eb353a4ced0de8fac7cce6632b467fa5dafda0fdb4a1a32311ca6013"
+    },
+    "independent_raw_aggregate": {
+      "path": "reports/information-skill-01/execution-authorization-02/verification/independent-fit/AGGREGATE_CHECK.json",
+      "bytes": 6969,
+      "SHA256": "4794bd84caf7e721ab5b1e72187b396da01421b2076510bae6f1c65e4188a30e"
+    },
+    "A": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/A_RECEIPT.json",
+      "bytes": 2923,
+      "SHA256": "d2f682976d5eb0fd284c14f829e02aafa5a2302deb99d63782b0765e8617db49"
+    },
+    "B": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/B_RECEIPT.json",
+      "bytes": 7328,
+      "SHA256": "270cf25225c91e89693a7ffd23a14314b2ee76da555dfc1afd74746fa47c60c2"
+    },
+    "website": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/WEBSITE_RECEIPT.json",
+      "bytes": 2522,
+      "SHA256": "a9961e0ad2b54c2ae66179e62fe33881c9ae62916e7f425a3312eeb457daaefb"
+    },
+    "admitted_scope": "C exact W2/W3 retained-line diagnostic and independent representative fit/all-new-row arithmetic; peers public receipt scope only, no private fit/row access",
+    "primary_promotion": false,
+    "live_research_activation": false,
+    "publication": "C checked branch retention; final PR/readback receipt separate",
+    "old_failed_reproductions": "B C1 and opportunity team-fit remain FAILED; no scope transfer",
+    "task_queue": {
+      "path": "reports/information-skill-01/execution-authorization-02/FINITE_QUEUE.json",
+      "bytes": 4063,
+      "SHA256": "927efa8199bf6bef339306b5e08090ff4f03702b1896d62c5ab82d820321efd7"
+    },
+    "resource": {
+      "path": "reports/information-skill-01/execution-authorization-02/RESOURCE_CLOSURE.json",
+      "bytes": 1070,
+      "SHA256": "707848656f4ed0d7fd4958d6ca9c06e029d422e78c2384e528236c954699cf96"
+    },
+    "actual_new_offer_weeks": [
+      2,
+      3
+    ],
+    "new_NFL_observations": 0,
+    "method_history_markdown": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/README.md",
+      "bytes": 31726,
+      "SHA256": "bec81ea57fcdf1cc1590e09086553ab0141fac5745ed12918b788332cd59ad9c"
+    },
+    "method_history_CSV": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/PROCEDURES.csv.gz",
+      "bytes": 90439,
+      "SHA256": "b12e8763feb31cc20200c1b6088062d43110d40fd2bbb66074763a0c92240d95"
     }
   }
 }
