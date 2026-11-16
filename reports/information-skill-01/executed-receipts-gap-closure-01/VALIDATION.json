@@ -1,0 +1,40 @@
+{
+  "recorded_UTC": "2026-11-16T00:58:38.314575+00:00",
+  "status": "PASS_SCOPED_RECONCILIATION",
+  "old_sealed_manifests": [
+    {
+      "manifest": "reports/information-skill-01/checkpoint-follow-through-01/MANIFEST.json",
+      "preserved_files": 29
+    },
+    {
+      "manifest": "reports/information-skill-01/MANIFEST.json",
+      "preserved_files": 123
+    },
+    {
+      "manifest": "reports/targeted-accuracy-w1w9-01/M3/MANIFEST.json",
+      "preserved_files": 379
+    }
+  ],
+  "V8_decoded_prefix_preserved": true,
+  "V9_rows": 37451,
+  "V9_columns": 44,
+  "public_aggregate_scope_only": true,
+  "original_forecasts_unchanged": true,
+  "C05_independent_grade_check": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/verification/C05_GRADE_CHECK.json",
+    "bytes": 3492,
+    "SHA256": "46ed05d43ab76131bf2187573924c15771c1c61cfd3f9348df58a70e2c57ef10"
+  },
+  "focused_existing_contract_checks": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/FOCUSED_CHECKS.json",
+    "bytes": 1053,
+    "SHA256": "64369e0a17892141e747ebe43ae2141800372b5144dfecc74126f70c3a82907d"
+  },
+  "Python_compile": "PASS_NEW_REPORT_ADAPTERS",
+  "git_diff_check": "PASS",
+  "new_model_fits": 0,
+  "source_history_searches": 0,
+  "peer_writes": 0,
+  "new_primary_activation": false,
+  "CPU_seconds_through_validation": 2.227814376
+}

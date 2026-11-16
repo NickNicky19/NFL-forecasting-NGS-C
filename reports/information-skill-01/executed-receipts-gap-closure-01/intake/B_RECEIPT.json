@@ -1,0 +1,1476 @@
+{
+  "id": "C-B-OPPORTUNITY-EXECUTED-RECEIPTS-GAP-CLOSURE-v1",
+  "created_UTC": "2026-11-16T00:32:46.381802+00:00",
+  "owner": "C",
+  "state": "ADMITTED_PUBLIC_REPORT_HANDOFF_DELIVERY_BYTES_AND_AGGREGATE_ARITHMETIC_ONLY;NO_PRIMARY_REPLACEMENT",
+  "source": {
+    "repository": "NickNicky19/NFL-forecasting-V2",
+    "scientific_commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+    "delivery_commit": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+    "current_branch": "research/independent-audit-20261029",
+    "current_head_observed_once": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+    "superseding_head_found": false,
+    "discovery_commit_owner_reported": "01cbe2edecef3d70310ce230e579b9d74d0917cd",
+    "readback_UTC": "2026-11-16 00:30:56 UTC"
+  },
+  "request_accounting": {
+    "plugin_GETs": 6,
+    "GET_cap": 6,
+    "normalized_UTF8_response_bytes": 114870,
+    "normalized_body_bytes_cap": 5242880,
+    "normalization": "JSON UTF-8, ensure_ascii=False, sorted keys, compact separators; complete normalized tool responses",
+    "responses": [
+      {
+        "GET_ordinal": 1,
+        "normalized_utf8_bytes": 1632,
+        "sha256": "3f5ec53e5076eb5931df620e78465b4c4ebef91b541ed425ecba90b4da5e0d1f",
+        "isError": false
+      },
+      {
+        "GET_ordinal": 2,
+        "normalized_utf8_bytes": 11827,
+        "sha256": "d4cdabebcbb748afe989c420a2ca6654b23964fec4542e584810d787d6546cd0",
+        "isError": false
+      },
+      {
+        "GET_ordinal": 3,
+        "normalized_utf8_bytes": 33332,
+        "sha256": "dd622ab38985f6c82ae65e1e54803f81b55c62d3e599f1df5d31ace8809269cf",
+        "isError": false
+      },
+      {
+        "GET_ordinal": 4,
+        "normalized_utf8_bytes": 61711,
+        "sha256": "1752b19d04aec8297c22cc2afe6dfb28d226815a511b32f8efbdfd981a6a9927",
+        "isError": false
+      },
+      {
+        "GET_ordinal": 5,
+        "normalized_utf8_bytes": 3389,
+        "sha256": "5d122f1d0587556bb23359caef20e0267a552f55a3b85e27107069c76263fc13",
+        "isError": false
+      },
+      {
+        "GET_ordinal": 6,
+        "normalized_utf8_bytes": 2979,
+        "sha256": "030a377ee3157e4ef9677146be34c88d7c9823cbb96a361e4f11e75695a2b21d",
+        "isError": false
+      }
+    ],
+    "response_archive": {
+      "path": "intake/B_FETCH_RESPONSES_V1.json.gz",
+      "bytes": 114936,
+      "sha256": "ca4fda15c85f5fda7277ac1bd9f2fb8c913a48bde4a9e6f1bbe1c0ab03a986b8",
+      "gzip_bytes": 13772,
+      "gzip_sha256": "fb72c0bb22e79f4d54b8c6d1f944a0806b4738460c668001ca04e35858294389",
+      "lossless_roundtrip": "PASS"
+    },
+    "no_CLI_network_fallback": true,
+    "new_raw_source_requests": 0,
+    "new_NFL_fits": 0,
+    "new_reproduction_attempts": 0,
+    "new_private_row_grades": 0
+  },
+  "exact_public_artifacts": [
+    {
+      "path": "intake/B_OPPORTUNITY_README.md.gz",
+      "bytes": 11361,
+      "sha256": "979037776461b812c3a9cf8928c6d853f9b0c92ee7e3a64d85c447622e966367",
+      "gzip_bytes": 4977,
+      "gzip_sha256": "0f2c4cb3bb646562ce52a97c3543786e072aa3a343b5238b6dd42efc9c360210",
+      "lossless_roundtrip": "PASS",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "source_path": "reports/information-skill-follow-through-01/B/opportunity-v1/README.md",
+      "git_blob_sha1": "7f6f0a8f1c9ddc075a351bbd0d0e4ff93bbe4923",
+      "git_blob_check": "PASS",
+      "retrieval": "github_fetch_file exact UTF-8 body",
+      "url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e/reports/information-skill-follow-through-01/B/opportunity-v1/README.md"
+    },
+    {
+      "path": "intake/B_OPPORTUNITY_HISTORICAL_TYPED_HANDOFF_V1.json.gz",
+      "bytes": 2806,
+      "sha256": "35003dd910454cee12ddfa22b3ac3f97bf0b5daddc1f9f5614a2c86ab5f6d99d",
+      "gzip_bytes": 1242,
+      "gzip_sha256": "058269f44fce958b5469af11f6d33a9734a6562e38b7c4ff8ac1cdc51ae89daa",
+      "lossless_roundtrip": "PASS",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "source_path": "reports/information-skill-follow-through-01/B/opportunity-v1/HISTORICAL_TYPED_HANDOFF_V1.json",
+      "git_blob_sha1": "fdfa0685e1feb7cabf87584af5022983ef02cab6",
+      "git_blob_check": "PASS",
+      "retrieval": "github_fetch_file exact UTF-8 body",
+      "url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e/reports/information-skill-follow-through-01/B/opportunity-v1/HISTORICAL_TYPED_HANDOFF_V1.json"
+    },
+    {
+      "path": "intake/B_OPPORTUNITY_REQUIRED_CHECKS_V1.json.gz",
+      "bytes": 2267,
+      "sha256": "e823f6841101b843f4faefe92c1474aae4c5f922264185b40bb8a2f39fc7bd26",
+      "gzip_bytes": 944,
+      "gzip_sha256": "201a2b3774185fbaf196a64053c9ce2b5f8df474ba55e81bf14a73e6efe3e8d4",
+      "lossless_roundtrip": "PASS",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "source_path": "reports/information-skill-follow-through-01/B/opportunity-v1/REQUIRED_CHECKS_V1.json",
+      "git_blob_sha1": "47e427d30f4c40cffbab10d9fb8f3d7779b884e9",
+      "git_blob_check": "PASS",
+      "retrieval": "github_fetch_file exact UTF-8 body",
+      "url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e/reports/information-skill-follow-through-01/B/opportunity-v1/REQUIRED_CHECKS_V1.json"
+    },
+    {
+      "path": "intake/B_FINAL_DELIVERY_RECEIPT_V1.json.gz",
+      "bytes": 5670,
+      "sha256": "2c4474b840234d887a4981d76e1558be5682e45a3ccb47d9c653d9bb45f6d757",
+      "gzip_bytes": 2599,
+      "gzip_sha256": "ce7caf3ce6acb5de62eea647b8a81accc4954778a60d7c3f16a4cd2d3725ce44",
+      "lossless_roundtrip": "PASS",
+      "repository": "NickNicky19/NFL-forecasting-V2",
+      "commit": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+      "source_path": "reports/information-skill-follow-through-01/B/FINAL_DELIVERY_RECEIPT_V1.json",
+      "retrieval": "Complete one-line new-file patch from immutable github_fetch_commit; newline reconstructed from complete hunk",
+      "git_blob_check": "NOT_PROVIDED_BY_COMMIT_TOOL",
+      "url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6/reports/information-skill-follow-through-01/B/FINAL_DELIVERY_RECEIPT_V1.json"
+    }
+  ],
+  "admission_scope": {
+    "public_report_aggregate_arithmetic": "PASS24 own-side totals/rates;10 proper-score rows and8 frozen selector summaries retained",
+    "exact_typed_handoff_bytes": "PASS Git blob and SHA256; forecast file hashes are bindings, not independently downloaded predictions",
+    "owner_reported_independent_grading": "PASS30384 checks144 main weekly/cumulative views via separate SciPy/direct-grade logic; C does not rerun those checks",
+    "A_private_rows": "NOT_ACCESSED",
+    "fitted_model_parity": "NOT_REPRODUCED_BY_C",
+    "source_clock_authentication": "NOT_ESTABLISHED",
+    "capsule_and_full_independent_vectors": "Owner receipt claims exact113 member readback; C did not fetch capsule/vectors in bounded intake",
+    "current_feed_or_website_consumption": "NOT_ESTABLISHED"
+  },
+  "new_relationship": {
+    "mechanism": "Changed learned team opportunities and QB allocation, holding reproduced SKILL_R0 conversion fixed; no observed personnel/injury input.",
+    "OPP_BASE": "Exact COMMON_EXPOSURE attempt law, distinct from SKILL_C0 and oldM2 products.",
+    "OPP_MEAN": "New expected opportunity, retained parent shape.",
+    "OPP_JOINT": "Integrates learned conditional QB share over team volume.",
+    "DIRECT_ATT": "32-tree family refitted under compatible QB-only history; not inaccessible stronger known-clock C02 law.",
+    "outputs": "Expectedcount point, lower median, exact bounded-integration law. No correction beyond frozen model; no confidence/EV inferred.",
+    "history": "Usage-only singleQB conditional marginal; current-vintage strict seven-day policy.",
+    "conversion": "Qualified reproduced SKILL_R0 conversion fixed first; no claim every QB opportunity/conversion model was tested."
+  },
+  "historical_handoff": {
+    "UTC": "2026-11-15T21:23:19.891699+00:00",
+    "id": "B-OPPORTUNITY-v1-HISTORICAL-HANDOFF",
+    "methods": [
+      "OPP_BASE",
+      "OPP_MEAN",
+      "OPP_JOINT",
+      "DIRECT_ATT"
+    ],
+    "targets": [
+      "pass_att",
+      "pass_cmp"
+    ],
+    "numerical_origins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "queries_per_method_target": 315,
+    "ownactual_line_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "missing_actual_line_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "forecast_source_commit": "dba87dfd84c6c4b9722602996c0d472d0898f886",
+    "prediction_paths": [
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W01.json.gz",
+        "sha256": "e737888d6383c4a6a0611d3f7a09f73c37d174d0a6cffd30495b83c353c95b5d",
+        "bytes": 32995
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W02.json.gz",
+        "sha256": "9e52942dc973cba263259b6c9ad902207c62493b86b9e2f174c8affa213be590",
+        "bytes": 34597
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W03.json.gz",
+        "sha256": "7e1887cda6a9258d9be366185cfc69b1f9fdce75276ecbd36fde13aa387a3a0b",
+        "bytes": 32673
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W04.json.gz",
+        "sha256": "74f9405d49de1ce45b5dff830df8dccd64fdba60afbb71cfa2df774e496f348f",
+        "bytes": 30330
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W05.json.gz",
+        "sha256": "80c19bf59d71df7a788ad635315b250fe623a3aadbc72c67d4eaba7f2b770b43",
+        "bytes": 32592
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W06.json.gz",
+        "sha256": "02a8d7d34975513ac7f2b7642d29e83a76cc821f8f03a2e243377b35c085f17b",
+        "bytes": 27216
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W07.json.gz",
+        "sha256": "560506ee663582c842d3c92e090b7a2b71dcaa4fe5c29c89225ab83a2d798d64",
+        "bytes": 28823
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W08.json.gz",
+        "sha256": "0d4fe3631547c21874f823feddd87bd2f3f1e889db0d52c07cff86030180bfa5",
+        "bytes": 31479
+      },
+      {
+        "path": "reports/information-skill-follow-through-01/B/opportunity-v1/wave-v1/predictions/2026-W09.json.gz",
+        "sha256": "dff8c109eadd12f042df2cbbda6bfbe556056c53a80d8b5d71a63aae71d04757",
+        "bytes": 33467
+      }
+    ],
+    "adapter": "tools/query_opportunity_information.py",
+    "adapter_sha256": "df898d240e39e85cc696539d8072a85bfd1ad39a27b04cc5e4b6e797f5077db1",
+    "typed_outputs": "Expectedcount point, lowermedian, exactbounded-integrationlaw. No correction beyondfrozenmodel; no fabricatedconfidence/EV.",
+    "scope": "UsageonlysingleQBconditionalmarginal current-vintage strict7day; notpersonnel/currentquery/primaryrecommendation. NewAjoinrequiresitsownexacttaskaccounting, noautomaticC-only/M1funds.",
+    "independent_reproduction": "TEAM_STRICT_FAIL;SHARE_PASS;fullindependentvectorsretained;oldC1FAILunchanged",
+    "primary_release": false
+  },
+  "forecast_bindings_verified_scope": "Exact handoff body and Git blob verified. Nine gzip prediction SHA256/size bindings and adapter SHA256 retained; prediction/adapter/model bytes not fetched or independently inferred by C.",
+  "actual_line_scope": {
+    "season": 2026,
+    "weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "offers_per_target": 142,
+    "games": 71,
+    "unique_player_games_shared_across_ATT_CMP": 142,
+    "eligible": 142,
+    "available": 142,
+    "selected": 142,
+    "decided": 142,
+    "unknown": 0,
+    "unavailable": 0,
+    "abstentions": 0,
+    "parent_no_history_fallback_per_arm_target": 1,
+    "numerical_origins": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "numerical_queries_per_method_target": 315,
+    "books": {
+      "DK": 141,
+      "Sleeper": 1
+    },
+    "evidence_tier": "TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC; exposed current-vintage7day",
+    "quote_clocks": "UNKNOWN",
+    "main_alternate": "UNCLASSIFIED",
+    "original_issuance": false,
+    "new_NFL_games": 0,
+    "new_original_selections": 0
+  },
+  "weekly_coverage": [
+    {
+      "season": 2026,
+      "week": 1,
+      "status": "EXACT_NEW_PRODUCT_EARLY_JOIN_PENDING",
+      "eligible_offers": null,
+      "scored": null,
+      "executor": "A",
+      "requirement": "Distinct OPP_BASE/OPP_MEAN/OPP_JOINT/DIRECT_ATT protected owner-local join, exact handoff and own accounting; not completed SKILL or old M2."
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "status": "EXACT_NEW_PRODUCT_EARLY_JOIN_PENDING",
+      "eligible_offers": null,
+      "scored": null,
+      "executor": "A",
+      "requirement": "Distinct OPP_BASE/OPP_MEAN/OPP_JOINT/DIRECT_ATT protected owner-local join, exact handoff and own accounting; not completed SKILL or old M2."
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "status": "EXACT_NEW_PRODUCT_EARLY_JOIN_PENDING",
+      "eligible_offers": null,
+      "scored": null,
+      "executor": "A",
+      "requirement": "Distinct OPP_BASE/OPP_MEAN/OPP_JOINT/DIRECT_ATT protected owner-local join, exact handoff and own accounting; not completed SKILL or old M2."
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "status": "EXACT_NEW_PRODUCT_EARLY_JOIN_PENDING",
+      "eligible_offers": null,
+      "scored": null,
+      "executor": "A",
+      "requirement": "Distinct OPP_BASE/OPP_MEAN/OPP_JOINT/DIRECT_ATT protected owner-local join, exact handoff and own accounting; not completed SKILL or old M2."
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "status": "OWNER_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+      "offers_per_target": 28,
+      "own_side_weekly_counts": "Not individually retrieved under bounded metadata intake; owner reports 144 main weekly/cumulative views independently checked. Do not infer weekly sides from cumulative totals."
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "status": "OWNER_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+      "offers_per_target": 28,
+      "own_side_weekly_counts": "Not individually retrieved under bounded metadata intake; owner reports 144 main weekly/cumulative views independently checked. Do not infer weekly sides from cumulative totals."
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "status": "OWNER_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+      "offers_per_target": 28,
+      "own_side_weekly_counts": "Not individually retrieved under bounded metadata intake; owner reports 144 main weekly/cumulative views independently checked. Do not infer weekly sides from cumulative totals."
+    },
+    {
+      "season": 2026,
+      "week": 8,
+      "status": "OWNER_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+      "offers_per_target": 28,
+      "own_side_weekly_counts": "Not individually retrieved under bounded metadata intake; owner reports 144 main weekly/cumulative views independently checked. Do not infer weekly sides from cumulative totals."
+    },
+    {
+      "season": 2026,
+      "week": 9,
+      "status": "OWNER_SCORED_ACTUAL_LINE_DIAGNOSTIC",
+      "offers_per_target": 30,
+      "own_side_weekly_counts": "Not individually retrieved under bounded metadata intake; owner reports 144 main weekly/cumulative views independently checked. Do not infer weekly sides from cumulative totals."
+    }
+  ],
+  "own_side_cumulative": [
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_BASE MEAN",
+      "Over": {
+        "wins": 4,
+        "losses": 9,
+        "decided": 13,
+        "rate": 0.3076923076923077,
+        "owner_rounded_percent": 30.77
+      },
+      "Under": {
+        "wins": 66,
+        "losses": 63,
+        "decided": 129,
+        "rate": 0.5116279069767442,
+        "owner_rounded_percent": 51.16
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": 7.178027
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_BASE MEDIAN",
+      "Over": {
+        "wins": 2,
+        "losses": 6,
+        "decided": 8,
+        "rate": 0.25,
+        "owner_rounded_percent": 25.0
+      },
+      "Under": {
+        "wins": 69,
+        "losses": 65,
+        "decided": 134,
+        "rate": 0.5149253731343284,
+        "owner_rounded_percent": 51.49
+      },
+      "Combined": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142,
+        "rate": 0.5,
+        "owner_rounded_percent": 50.0
+      },
+      "offered_MAE": 7.753521
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_BASE LAW",
+      "Over": {
+        "wins": 2,
+        "losses": 6,
+        "decided": 8,
+        "rate": 0.25,
+        "owner_rounded_percent": 25.0
+      },
+      "Under": {
+        "wins": 69,
+        "losses": 65,
+        "decided": 134,
+        "rate": 0.5149253731343284,
+        "owner_rounded_percent": 51.49
+      },
+      "Combined": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142,
+        "rate": 0.5,
+        "owner_rounded_percent": 50.0
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_MEAN MEAN",
+      "Over": {
+        "wins": 13,
+        "losses": 15,
+        "decided": 28,
+        "rate": 0.4642857142857143,
+        "owner_rounded_percent": 46.43
+      },
+      "Under": {
+        "wins": 60,
+        "losses": 54,
+        "decided": 114,
+        "rate": 0.5263157894736842,
+        "owner_rounded_percent": 52.63
+      },
+      "Combined": {
+        "wins": 73,
+        "losses": 69,
+        "decided": 142,
+        "rate": 0.5140845070422535,
+        "owner_rounded_percent": 51.41
+      },
+      "offered_MAE": 7.154442
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_MEAN MEDIAN",
+      "Over": {
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375,
+        "owner_rounded_percent": 37.5
+      },
+      "Under": {
+        "wins": 70,
+        "losses": 64,
+        "decided": 134,
+        "rate": 0.5223880597014925,
+        "owner_rounded_percent": 52.24
+      },
+      "Combined": {
+        "wins": 73,
+        "losses": 69,
+        "decided": 142,
+        "rate": 0.5140845070422535,
+        "owner_rounded_percent": 51.41
+      },
+      "offered_MAE": 7.535211
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_MEAN LAW",
+      "Over": {
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375,
+        "owner_rounded_percent": 37.5
+      },
+      "Under": {
+        "wins": 70,
+        "losses": 64,
+        "decided": 134,
+        "rate": 0.5223880597014925,
+        "owner_rounded_percent": 52.24
+      },
+      "Combined": {
+        "wins": 73,
+        "losses": 69,
+        "decided": 142,
+        "rate": 0.5140845070422535,
+        "owner_rounded_percent": 51.41
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_JOINT MEAN",
+      "Over": {
+        "wins": 13,
+        "losses": 15,
+        "decided": 28,
+        "rate": 0.4642857142857143,
+        "owner_rounded_percent": 46.43
+      },
+      "Under": {
+        "wins": 60,
+        "losses": 54,
+        "decided": 114,
+        "rate": 0.5263157894736842,
+        "owner_rounded_percent": 52.63
+      },
+      "Combined": {
+        "wins": 73,
+        "losses": 69,
+        "decided": 142,
+        "rate": 0.5140845070422535,
+        "owner_rounded_percent": 51.41
+      },
+      "offered_MAE": 7.154442
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_JOINT MEDIAN",
+      "Over": {
+        "wins": 10,
+        "losses": 13,
+        "decided": 23,
+        "rate": 0.43478260869565216,
+        "owner_rounded_percent": 43.48
+      },
+      "Under": {
+        "wins": 62,
+        "losses": 57,
+        "decided": 119,
+        "rate": 0.5210084033613446,
+        "owner_rounded_percent": 52.1
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": 7.169014
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "OPP_JOINT LAW",
+      "Over": {
+        "wins": 10,
+        "losses": 13,
+        "decided": 23,
+        "rate": 0.43478260869565216,
+        "owner_rounded_percent": 43.48
+      },
+      "Under": {
+        "wins": 62,
+        "losses": 57,
+        "decided": 119,
+        "rate": 0.5210084033613446,
+        "owner_rounded_percent": 52.1
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "DIRECT_ATT MEAN",
+      "Over": {
+        "wins": 6,
+        "losses": 11,
+        "decided": 17,
+        "rate": 0.35294117647058826,
+        "owner_rounded_percent": 35.29
+      },
+      "Under": {
+        "wins": 64,
+        "losses": 61,
+        "decided": 125,
+        "rate": 0.512,
+        "owner_rounded_percent": 51.2
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": 7.153395
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "DIRECT_ATT MEDIAN",
+      "Over": {
+        "wins": 7,
+        "losses": 12,
+        "decided": 19,
+        "rate": 0.3684210526315789,
+        "owner_rounded_percent": 36.84
+      },
+      "Under": {
+        "wins": 63,
+        "losses": 60,
+        "decided": 123,
+        "rate": 0.5121951219512195,
+        "owner_rounded_percent": 51.22
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": 7.077465
+    },
+    {
+      "target": "pass_att",
+      "exact_output": "DIRECT_ATT LAW",
+      "Over": {
+        "wins": 7,
+        "losses": 12,
+        "decided": 19,
+        "rate": 0.3684210526315789,
+        "owner_rounded_percent": 36.84
+      },
+      "Under": {
+        "wins": 63,
+        "losses": 60,
+        "decided": 123,
+        "rate": 0.5121951219512195,
+        "owner_rounded_percent": 51.22
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_BASE MEAN",
+      "Over": {
+        "wins": 10,
+        "losses": 9,
+        "decided": 19,
+        "rate": 0.5263157894736842,
+        "owner_rounded_percent": 52.63
+      },
+      "Under": {
+        "wins": 62,
+        "losses": 61,
+        "decided": 123,
+        "rate": 0.5040650406504065,
+        "owner_rounded_percent": 50.41
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": 4.991067
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_BASE MEDIAN",
+      "Over": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "owner_rounded_percent": 46.15
+      },
+      "Under": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "owner_rounded_percent": 49.61
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": 5.309859
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_BASE LAW",
+      "Over": {
+        "wins": 6,
+        "losses": 7,
+        "decided": 13,
+        "rate": 0.46153846153846156,
+        "owner_rounded_percent": 46.15
+      },
+      "Under": {
+        "wins": 64,
+        "losses": 65,
+        "decided": 129,
+        "rate": 0.49612403100775193,
+        "owner_rounded_percent": 49.61
+      },
+      "Combined": {
+        "wins": 70,
+        "losses": 72,
+        "decided": 142,
+        "rate": 0.49295774647887325,
+        "owner_rounded_percent": 49.3
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_MEAN MEAN",
+      "Over": {
+        "wins": 17,
+        "losses": 20,
+        "decided": 37,
+        "rate": 0.4594594594594595,
+        "owner_rounded_percent": 45.95
+      },
+      "Under": {
+        "wins": 51,
+        "losses": 54,
+        "decided": 105,
+        "rate": 0.4857142857142857,
+        "owner_rounded_percent": 48.57
+      },
+      "Combined": {
+        "wins": 68,
+        "losses": 74,
+        "decided": 142,
+        "rate": 0.4788732394366197,
+        "owner_rounded_percent": 47.89
+      },
+      "offered_MAE": 5.096323
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_MEAN MEDIAN",
+      "Over": {
+        "wins": 9,
+        "losses": 11,
+        "decided": 20,
+        "rate": 0.45,
+        "owner_rounded_percent": 45.0
+      },
+      "Under": {
+        "wins": 60,
+        "losses": 62,
+        "decided": 122,
+        "rate": 0.4918032786885246,
+        "owner_rounded_percent": 49.18
+      },
+      "Combined": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "owner_rounded_percent": 48.59
+      },
+      "offered_MAE": 5.274648
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_MEAN LAW",
+      "Over": {
+        "wins": 9,
+        "losses": 11,
+        "decided": 20,
+        "rate": 0.45,
+        "owner_rounded_percent": 45.0
+      },
+      "Under": {
+        "wins": 60,
+        "losses": 62,
+        "decided": 122,
+        "rate": 0.4918032786885246,
+        "owner_rounded_percent": 49.18
+      },
+      "Combined": {
+        "wins": 69,
+        "losses": 73,
+        "decided": 142,
+        "rate": 0.4859154929577465,
+        "owner_rounded_percent": 48.59
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_JOINT MEAN",
+      "Over": {
+        "wins": 17,
+        "losses": 20,
+        "decided": 37,
+        "rate": 0.4594594594594595,
+        "owner_rounded_percent": 45.95
+      },
+      "Under": {
+        "wins": 51,
+        "losses": 54,
+        "decided": 105,
+        "rate": 0.4857142857142857,
+        "owner_rounded_percent": 48.57
+      },
+      "Combined": {
+        "wins": 68,
+        "losses": 74,
+        "decided": 142,
+        "rate": 0.4788732394366197,
+        "owner_rounded_percent": 47.89
+      },
+      "offered_MAE": 5.096323
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_JOINT MEDIAN",
+      "Over": {
+        "wins": 16,
+        "losses": 15,
+        "decided": 31,
+        "rate": 0.5161290322580645,
+        "owner_rounded_percent": 51.61
+      },
+      "Under": {
+        "wins": 56,
+        "losses": 55,
+        "decided": 111,
+        "rate": 0.5045045045045045,
+        "owner_rounded_percent": 50.45
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": 5.119718
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "OPP_JOINT LAW",
+      "Over": {
+        "wins": 16,
+        "losses": 15,
+        "decided": 31,
+        "rate": 0.5161290322580645,
+        "owner_rounded_percent": 51.61
+      },
+      "Under": {
+        "wins": 56,
+        "losses": 55,
+        "decided": 111,
+        "rate": 0.5045045045045045,
+        "owner_rounded_percent": 50.45
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": null
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "DIRECT_ATT MEAN",
+      "Over": {
+        "wins": 16,
+        "losses": 16,
+        "decided": 32,
+        "rate": 0.5,
+        "owner_rounded_percent": 50.0
+      },
+      "Under": {
+        "wins": 55,
+        "losses": 55,
+        "decided": 110,
+        "rate": 0.5,
+        "owner_rounded_percent": 50.0
+      },
+      "Combined": {
+        "wins": 71,
+        "losses": 71,
+        "decided": 142,
+        "rate": 0.5,
+        "owner_rounded_percent": 50.0
+      },
+      "offered_MAE": 5.124199
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "DIRECT_ATT MEDIAN",
+      "Over": {
+        "wins": 15,
+        "losses": 14,
+        "decided": 29,
+        "rate": 0.5172413793103449,
+        "owner_rounded_percent": 51.72
+      },
+      "Under": {
+        "wins": 57,
+        "losses": 56,
+        "decided": 113,
+        "rate": 0.504424778761062,
+        "owner_rounded_percent": 50.44
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": 5.112676
+    },
+    {
+      "target": "pass_cmp",
+      "exact_output": "DIRECT_ATT LAW",
+      "Over": {
+        "wins": 15,
+        "losses": 14,
+        "decided": 29,
+        "rate": 0.5172413793103449,
+        "owner_rounded_percent": 51.72
+      },
+      "Under": {
+        "wins": 57,
+        "losses": 56,
+        "decided": 113,
+        "rate": 0.504424778761062,
+        "owner_rounded_percent": 50.44
+      },
+      "Combined": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "offered_MAE": null
+    }
+  ],
+  "proper_scores": [
+    {
+      "target": "pass_att",
+      "law": "OPP_BASE",
+      "Brier": 0.273822,
+      "log_loss": 0.746921,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_att",
+      "law": "OPP_MEAN",
+      "Brier": 0.274834,
+      "log_loss": 0.756255,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_att",
+      "law": "OPP_JOINT",
+      "Brier": 0.297352,
+      "log_loss": 0.91227,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_att",
+      "law": "DIRECT_ATT",
+      "Brier": 0.265852,
+      "log_loss": 0.729136,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "OPP_BASE",
+      "Brier": 0.280354,
+      "log_loss": 0.760417,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "OPP_MEAN",
+      "Brier": 0.28707,
+      "log_loss": 0.789114,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "OPP_JOINT",
+      "Brier": 0.305048,
+      "log_loss": 0.912672,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "DIRECT_ATT",
+      "Brier": 0.274166,
+      "log_loss": 0.747536,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "RETAINED_B0",
+      "Brier": 0.266545,
+      "log_loss": 0.728903,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    },
+    {
+      "target": "pass_cmp",
+      "law": "RETAINED_B2",
+      "Brier": 0.26918,
+      "log_loss": 0.735179,
+      "precision": "owner report rounded six decimal; no C raw probability recomputation"
+    }
+  ],
+  "frozen_joint_selector_summaries": [
+    {
+      "policy": "COVERAGE_100",
+      "pass_att": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "pass_cmp": {
+        "wins": 72,
+        "losses": 70,
+        "decided": 142,
+        "rate": 0.5070422535211268,
+        "owner_rounded_percent": 50.7
+      },
+      "selected_eligible_owner_text": "142/142 ATT; 142/142 CMP"
+    },
+    {
+      "policy": "COVERAGE_50",
+      "pass_att": {
+        "wins": 34,
+        "losses": 37,
+        "decided": 71,
+        "rate": 0.4788732394366197,
+        "owner_rounded_percent": 47.89
+      },
+      "pass_cmp": {
+        "wins": 31,
+        "losses": 40,
+        "decided": 71,
+        "rate": 0.43661971830985913,
+        "owner_rounded_percent": 43.66
+      },
+      "selected_eligible_owner_text": "71/142 ATT; 71/142 CMP"
+    },
+    {
+      "policy": "COVERAGE_25",
+      "pass_att": {
+        "wins": 19,
+        "losses": 16,
+        "decided": 35,
+        "rate": 0.5428571428571428,
+        "owner_rounded_percent": 54.29
+      },
+      "pass_cmp": {
+        "wins": 16,
+        "losses": 19,
+        "decided": 35,
+        "rate": 0.45714285714285713,
+        "owner_rounded_percent": 45.71
+      },
+      "selected_eligible_owner_text": "35/142 ATT; 35/142 CMP"
+    },
+    {
+      "policy": "COVERAGE_10",
+      "pass_att": {
+        "wins": 7,
+        "losses": 4,
+        "decided": 11,
+        "rate": 0.6363636363636364,
+        "owner_rounded_percent": 63.64
+      },
+      "pass_cmp": {
+        "wins": 6,
+        "losses": 5,
+        "decided": 11,
+        "rate": 0.5454545454545454,
+        "owner_rounded_percent": 54.55
+      },
+      "selected_eligible_owner_text": "11/142 ATT; 11/142 CMP"
+    },
+    {
+      "policy": "TOP_6_Combined",
+      "pass_att": {
+        "wins": 17,
+        "losses": 13,
+        "decided": 30,
+        "rate": 0.5666666666666667,
+        "owner_rounded_percent": 56.67
+      },
+      "pass_cmp": {
+        "wins": 12,
+        "losses": 18,
+        "decided": 30,
+        "rate": 0.4,
+        "owner_rounded_percent": 40.0
+      },
+      "selected_eligible_owner_text": "30/142 ATT; 30/142 CMP"
+    },
+    {
+      "policy": "THRESHOLD_75_RAW",
+      "pass_att": {
+        "wins": 12,
+        "losses": 15,
+        "decided": 27,
+        "rate": 0.4444444444444444,
+        "owner_rounded_percent": 44.44
+      },
+      "pass_cmp": {
+        "wins": 6,
+        "losses": 14,
+        "decided": 20,
+        "rate": 0.3,
+        "owner_rounded_percent": 30.0
+      },
+      "selected_eligible_owner_text": "27/142 ATT; 20/142 CMP"
+    },
+    {
+      "policy": "THRESHOLD_80_RAW",
+      "pass_att": {
+        "wins": 9,
+        "losses": 12,
+        "decided": 21,
+        "rate": 0.42857142857142855,
+        "owner_rounded_percent": 42.86
+      },
+      "pass_cmp": {
+        "wins": 4,
+        "losses": 12,
+        "decided": 16,
+        "rate": 0.25,
+        "owner_rounded_percent": 25.0
+      },
+      "selected_eligible_owner_text": "21/142 ATT; 16/142 CMP"
+    },
+    {
+      "policy": "THRESHOLD_90_RAW",
+      "pass_att": {
+        "wins": 4,
+        "losses": 9,
+        "decided": 13,
+        "rate": 0.3076923076923077,
+        "owner_rounded_percent": 30.77
+      },
+      "pass_cmp": {
+        "wins": 2,
+        "losses": 8,
+        "decided": 10,
+        "rate": 0.2,
+        "owner_rounded_percent": 20.0
+      },
+      "selected_eligible_owner_text": "13/142 ATT; 10/142 CMP"
+    }
+  ],
+  "controls_and_paired_effects": {
+    "ATT_mean": {
+      "parent_wins": 70,
+      "new_wins": 73,
+      "delta_wins": 3,
+      "Always_Under": {
+        "wins": 75,
+        "losses": 67,
+        "decided": 142
+      },
+      "strong_saved_adjusted_point": {
+        "wins": 81,
+        "losses": 60,
+        "decided": 141,
+        "line_tie_abstention": 1
+      }
+    },
+    "ATT_joint_law": {
+      "parent_wins": 71,
+      "new_wins": 72,
+      "delta_wins": 1,
+      "side_disagreements": 15
+    },
+    "CMP_mean": {
+      "parent_wins": 72,
+      "new_wins": 68,
+      "delta_wins": -4,
+      "strong_B0_mean": {
+        "wins": 76,
+        "losses": 66,
+        "decided": 142
+      }
+    },
+    "CMP_joint_law": {
+      "parent_wins": 70,
+      "new_wins": 72,
+      "delta_wins": 2,
+      "side_disagreements": 18,
+      "strong_B2_law": {
+        "wins": 75,
+        "losses": 67,
+        "decided": 142
+      }
+    },
+    "direction_uncertainty": "All24 within-package full-board direction-loss sensitivity intervals include zero; this does not apply to every numerical/probability contrast. Only5 week clusters; registered rule INSUFFICIENT_WEEK_CLUSTERS.",
+    "ATT_joint_vs_mean_Brier": {
+      "deterioration": 0.022518,
+      "game_sensitivity": [
+        0.012227,
+        0.032809
+      ]
+    },
+    "ATT_joint_vs_mean_log_loss": {
+      "deterioration": 0.156016,
+      "game_sensitivity": [
+        0.051628,
+        0.260403
+      ]
+    }
+  },
+  "numerical_component_summary_owner_reported": {
+    "broad_ATT_MAE": [
+      8.375861,
+      8.265055
+    ],
+    "broad_CMP_MAE": [
+      5.713323,
+      5.713245
+    ],
+    "offered_CMP_MAE": [
+      4.991067,
+      5.096323
+    ],
+    "component_receipt_not_fetched": "reports/information-skill-follow-through-01/B/opportunity-v1/COMPONENT_SUMMARY_V1.json",
+    "cannot_substitute_broad_for_offered": true
+  },
+  "selective_conclusion": {
+    "target_status": "TARGET_NOT_ESTABLISHED",
+    "ATT_OPP_MEAN_P90_raw": {
+      "wins": 3,
+      "decided": 4,
+      "zero_selection_weeks": [
+        6,
+        8
+      ]
+    },
+    "parent_CMP_P90_raw": {
+      "wins": 1,
+      "decided": 1,
+      "zero_selection_weeks": 4
+    },
+    "joint_10_percent_actual_selected": 11,
+    "joint_10_percent_actual_coverage": 0.07746478873239436,
+    "no_forced_14": "Frozen capacity produced11; no reconstruction to nominal10percent.",
+    "all19_raw_calibrated_policies": "Preserved by owner; only8 public summary rows retrieved.",
+    "own_list_vs_same_selected": "Distinct owner artifacts; C does not infer their complete membership or own-side records from cumulative summary.",
+    "weekly_own_sides": "Not retrieved; cannot establish nine-week selector qualification from sums."
+  },
+  "reproduction": {
+    "old_C1": {
+      "status": "FAILED_PRESERVED_NO_AUTOMATIC_RETRY",
+      "prior_C_receipt": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
+      "full_independent_coefficient_vector": "NOT_RETAINED_FOR_OLD_C1; no invented downstream parity",
+      "design_objective_gradient_checks": "Previously completed checks reused; numerical termination plausible, not proved."
+    },
+    "new_opportunity_team": {
+      "status": "FAILED",
+      "frozen_CDF_tolerance": 1e-07,
+      "maximum_CDF_discrepancy": 1.47213344e-07,
+      "coefficients_objective": "Owner reports nearly matched; not C fit reproduction",
+      "full_independent_vectors": "Owner reports persisted before comparison; no C independent vector retrieval",
+      "retry": false
+    },
+    "new_share": {
+      "status": "PASS_OWNER_REPORTED",
+      "scope": "Separate W1 share-fit reproduction, not team-fit certification"
+    },
+    "saved_row_law": {
+      "status": "PASS_OWNER_REPORTED",
+      "checks": 7022,
+      "original_failure_preserved": "Fixture requested PMF beyond registered integration grid; no tolerance relaxation or beyond-gridzero"
+    },
+    "retained_NFL_prefit": {
+      "status": "PASS_OWNER_REPORTED",
+      "checks": 10398,
+      "original_failure_preserved": "Initial missing/null checker failure"
+    },
+    "independent_grading": {
+      "status": "PASS_OWNER_REPORTED",
+      "checks": 30384,
+      "views": 144,
+      "scope": "Separate probability arithmetic and direct grading; not private source/fit parity"
+    },
+    "attribution": "No measured impact analysis establishing reproduction discrepancy caused forecasting losses; no such attribution made.",
+    "no_new_retry_or_relaxed_tolerance": true
+  },
+  "peer_status_reconciliation": {
+    "A_SKILL_early84": "User/A newerf79c receipt supersedes B report pending label; this B intake does not independently fetch A receipt. Completed SKILL_C0/C1/R0/R1 early join distinct from oldM2 and newopportunity.",
+    "B_verified_new_A_SKILL": "NOT_ESTABLISHED in retrieved B scientific/delivery receipts; do not infer B independent review from receipt or oldM2 arithmetic.",
+    "old_M2": "Already complete, independent aggregate arithmetic owner-reported; not repeated or counted as newopportunity grades.",
+    "new_opportunity_early_W1_W4": "PENDING distinct A owner-local join using exact typed handoff, own source/task/accounting; no funding from frozenC_M3 extension.",
+    "frozen_C_M3": "Separate A execution and latest accounting1056.334180/1260 from user; B report830.968258 is stale discovery, not current remaining budget.",
+    "C_new_information": "Separate scalar consumed14 decisions,7 wins each,net0; not old unused-feature finding, no fit rerun."
+  },
+  "personnel_disposition": {
+    "status": "SOURCE_BLOCKED authenticated historical personnel; retain current-vintage depth diagnostics at limited tier",
+    "A_depth_history_inspection": "User/A now establishes performed check; no repeat source search",
+    "missing_gates": [
+      "authenticated artifact vintage/observation semantics",
+      "canonical identity",
+      "event-effective complete teammate roster/status universe"
+    ],
+    "not_equivalent": [
+      "depth rank is not injury clearance",
+      "missing row is not inactive",
+      "current download is not historical publication",
+      "postgame route cannot be backdated"
+    ],
+    "new_collection": false,
+    "new_personnel_fit": false
+  },
+  "product_decisions": {
+    "OPP_JOINT_direction_probability_selection": "CLOSE_RECIPE_NO_GAIN; stronger controls not beaten; no retune/rename/inversion",
+    "OPP_MEAN_ATT_mean": "INCONCLUSIVE research/shadow only; weak own-parent gain below stronger controls",
+    "DIRECT_ATT": "Proper-score improvement versus weak parent; no direction replacement established",
+    "five_week": "Five scored actual-line blocks at diagnostic tier only; no authenticated timing/support/operational upgrade",
+    "primary_replacement": "NO_QUALIFIED_REPLACEMENT_FROM_THIS_PACKAGE",
+    "current_query_ready": false,
+    "captured_current": false,
+    "delivered_current_feed": false,
+    "primary_activated": false,
+    "website_served_verified": false
+  },
+  "owner_reported_publication": {
+    "scientific_core": {
+      "UTC": "2026-11-15T21:29:49.811307+00:00",
+      "state": "PASS_IMMUTABLE_SCIENTIFIC_CORE_113MEMBERS",
+      "source_commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e/reports/information-skill-follow-through-01/B/opportunity-v1/retention/final-v1/CAPSULE.tar.gz",
+      "capsule_sha256": "246be360913ecf8c66341a782ede3be5fdc008045a84dfd8abd12688d54c19ee",
+      "capsule_bytes": 2825601,
+      "members_verified": 113,
+      "GETs_this_stage": 1,
+      "final_publication_GETs_cumulative": 2,
+      "prefit_GETs_separate": 1,
+      "new_NFL_fits": 0,
+      "new_current_capture": 0,
+      "new_deployment": 0,
+      "scope": "Source bindings/models/typedhistoricalpredictions/scores/laws/grades/controls/failures/fullindependentvectors verifiedbytes; notCintake, authenticatedhistoricalquote/sourcevintage, currentfeed orwebsiteconsumption.",
+      "excluded_auxiliary": "Indexshards/CSV/manifests and predecessor archives remainpublished viaexistingcanonicalpointer; not individuallyGETverified bythiscorecapsule.",
+      "CPU_seconds": 0.11720517,
+      "wall_seconds": 0.9322679309989326
+    },
+    "discovery": {
+      "UTC": "2026-11-15T21:32:04.351093+00:00",
+      "state": "PASS_FINAL_DISCOVERY_IMMUTABLE_BYTES",
+      "index_commit": "01cbe2edecef3d70310ce230e579b9d74d0917cd",
+      "url": "https://raw.githubusercontent.com/NickNicky19/NFL-forecasting-V2/01cbe2edecef3d70310ce230e579b9d74d0917cd/reports/abc-championship/EXPORT_INDEX.json",
+      "sha256": "940c7cf9dc64c27d6914fd2cec0a5750318b42071ce45737ce0b35999c10153e",
+      "exports": 2308,
+      "original_prefix_preserved": 2186,
+      "schema": "B-ABC-EXPORT-INDEX-v29",
+      "core_remote_verified": 113,
+      "new_C_admission": false,
+      "new_deployment": false,
+      "final_publication_GETs_cumulative": 4,
+      "GET_count_scope": "Forecastcore1,finalcore1,CIstatus1,index1; prefitsourceGET separate1."
+    },
+    "CI": {
+      "observed_not_before_UTC": "2026-11-15 21:33:50 UTC",
+      "source_commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "rows": [
+        {
+          "id": 43763943161,
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+          "event": "pull_request",
+          "html_url": "https://github.com/NickNicky19/NFL-forecasting-V2/actions/runs/43763943161",
+          "updated_at": "2026-11-15T21:33:31Z"
+        },
+        {
+          "id": 43763926339,
+          "status": "completed",
+          "conclusion": "success",
+          "head_sha": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+          "event": "push",
+          "html_url": "https://github.com/NickNicky19/NFL-forecasting-V2/actions/runs/43763926339",
+          "updated_at": "2026-11-15T21:33:12Z"
+        }
+      ],
+      "final_publication_GETs": 5,
+      "state": "PASS_SOURCE_PUSH_AND_PR_CI;NO_PREDICTIVE_OR_DEPLOYMENT_CLAIM",
+      "new_fits": 0,
+      "new_grades": 0,
+      "new_capture": 0
+    },
+    "limits": "Owner readbacks are separate from actual C receipt, source chronology, current feed and original website consumption; capsule not downloaded by C."
+  },
+  "finite_remaining_queue": [
+    {
+      "executor": "A",
+      "artifact": "reports/information-skill-follow-through-01/B/opportunity-v1/HISTORICAL_TYPED_HANDOFF_V1.json@a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+      "next_action": "Assess and execute separately budgeted exact opportunity W1–4 saved-output owner-local joins where realoffers and contract qualify.",
+      "completion": "Versioned own-side/coverage/probability early grades for these exact fourproducts; no refit solely for report view."
+    },
+    {
+      "executor": "B",
+      "artifact": "A_f79c SKILL early public contribution",
+      "next_action": "Independently check allowed SKILL new early outputs and publish scoped receipt if not yet done.",
+      "completion": "Explicit B independent arithmetic/membership review, preserving private-row/source/fit limits."
+    },
+    {
+      "executor": "C",
+      "artifact": "A/B immutable contributions",
+      "next_action": "Consolidate received scoped records and correct stale statuses; keep oldM2/SKILL/OPP/frozenC_M3/Cinfo distinct.",
+      "completion": "One common status/report/index update without new model search."
+    }
+  ],
+  "no_new_primary_activation_or_delivery_claim": true,
+  "local_execution": {
+    "CPU_seconds_self": 0.008969999999999999,
+    "wall_seconds": 0.008985061009298079,
+    "measurement_limits": "Metadata serialization/hash/arithmetic script only, excludes shell/tool/service/qualification overhead; not full cumulativeC total.",
+    "no_model_fits": true,
+    "arithmetic_checks": "24 ownside totals/decided/roundedpercent,10 probability rows,8 frozenselector records,142 offerweeklysum; gziproundtrip and3Gitblobchecks."
+  }
+}

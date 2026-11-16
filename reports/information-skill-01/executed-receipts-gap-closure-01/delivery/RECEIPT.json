@@ -1,0 +1,424 @@
+{
+  "schema": "c-production-public-receipt-intake-v1",
+  "task": "INFORMATION-SKILL-01/executed-receipts-gap-closure-01",
+  "recorded_at_utc": "2026-11-16T00:32:20Z",
+  "executor": "C read-only public delivery intake; original website remains sole integration/release owner",
+  "source_comment": {
+    "url": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-6901141462",
+    "id": 6901141462,
+    "created_at": "2026-11-15T20:49:21Z",
+    "updated_at": "2026-11-15T20:49:21Z",
+    "discovery_issue_comments_count": 612,
+    "discovery_last_page": 31,
+    "page_size": 20,
+    "owner_run_id": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+    "owner_lease_revision": 178,
+    "owner_observed_production_at_utc": "2026-11-15T20:42:39.971966+00:00"
+  },
+  "read_budget": {
+    "cap_requests": 4,
+    "used_requests": 4,
+    "cap_normalized_utf8_bytes": 2097152,
+    "used_normalized_utf8_bytes": 1204047,
+    "byte_definition": "UTF-8 bytes of JSON.stringify each connector GET result; all responses counted, including final-page older comments",
+    "per_response_normalized_utf8_bytes": {
+      "issue_metadata": 29598,
+      "last_comments_page": 1141516,
+      "immutable_baseline_meta": 3353,
+      "baseline_run": 29580
+    },
+    "exhausted_request_cap": true,
+    "additional_polling_performed": false
+  },
+  "actual_C_received_scope": {
+    "owner_comment_and_machine_receipt": true,
+    "machine_receipt_bytes_hash_verified": true,
+    "immutable_baseline_meta_bytes_retrieved": true,
+    "scheduled_run_metadata_retrieved": true,
+    "full_581_forecast_payload_or_selected_rows_received": false,
+    "direct_served_https_or_browser_check_by_C": false,
+    "private_source_rows_or_model_fits_reproduced": false,
+    "consumer_graph_reexecuted_by_C": false,
+    "per_pick_quote_clocks_authenticated": false
+  },
+  "actual_C_readbacks": [
+    {
+      "url": "https://api.github.com/repos/NickNicky19/nicks-expert-nfl-picks/contents/output/data/meta.json?ref=0e37e02fecb88dc8835c4c3d694958a61ba174af",
+      "binding": {
+        "path": "BASELINE_META.json",
+        "bytes": 1255,
+        "sha256": "238b6543895bd96de31d77c47830e97f4b8d359bbbd23dd28f425bd514bdc1ec"
+      },
+      "result": "Exact 1255-byte source body SHA256 matches owner deployed/HTTPS metadata receipt; identifies baseline model and generated_at, not full row or rendered-value parity"
+    },
+    {
+      "url": "https://api.github.com/repos/NickNicky19/nicks-expert-nfl-picks/actions/runs/43753723588",
+      "binding": {
+        "path": "BASELINE_RUN.json",
+        "bytes": 13728,
+        "sha256": "46b267ffd3e40f7611599872006d33f35d578d5bb2048853cf5fb92f51bd2d17"
+      },
+      "result": "Run43753723588 independently received as completed/success, schedule, head b8f92ee94a6e8f798514ca6f71b3e40e5b0db5c1; job step graph and served site were not reexecuted"
+    }
+  ],
+  "baseline_capture": {
+    "status": "PUBLISHED_BASELINE_CAPTURE; NOT_RESEARCH_ACTIVATION; NOT_ACTUAL_LINE_SELECTION_COUNT",
+    "rows": 581,
+    "generated_at_utc": "2026-11-15T19:41:26Z",
+    "persisted_at_utc": "2026-11-15T19:41:28Z",
+    "run": 43753723588,
+    "run_url": "https://github.com/NickNicky19/nicks-expert-nfl-picks/actions/runs/43753723588",
+    "source_commit": "b8f92ee94a6e8f798514ca6f71b3e40e5b0db5c1",
+    "data_commit": "0e37e02fecb88dc8835c4c3d694958a61ba174af",
+    "capture_binding_owner_reported": {
+      "bytes": 15354,
+      "git_blob_sha1": "002411b25cdd605503c67e84075cc14ed610c058",
+      "path": "data/current-classic/2026/w10/581aad8a17f4ba522a37d31b021b27cfa0e49b5539baf194b95c1f9f003d19b7.json.gz",
+      "sha256": "1cf5a6b74bb39f9091542bf627937c4c1d5cfb8eb7a311bb65f154488874537a"
+    },
+    "payload_sha256_owner_reported": "6f11aa067c0093b0a8ba9057df33997d969104a2c03e937097e8b5b4c2106e20",
+    "source_clocks_authenticated": false,
+    "quote_freshness": "UNKNOWN",
+    "forecast_capture_is_not_actual_line_selection": true,
+    "earliest_kickoff_utc": "2026-11-15T21:05Z",
+    "latest_kickoff_utc": "2026-11-17T01:15Z",
+    "excluded_started_games": [
+      "401873052",
+      "401873053",
+      "401873054",
+      "401873055",
+      "401873056",
+      "401873057",
+      "401873058",
+      "401873059",
+      "401873060"
+    ],
+    "source_line_counts_owner_reported": {
+      "dk": 236,
+      "ours": 335,
+      "sleeper": 10
+    },
+    "pair": {
+      "binding": {
+        "bytes": 6617,
+        "git_blob_sha1": "2b76fd5e4e8bac9e7a54d10ee9b4bf8957a43377",
+        "path": "data/classic-r0-shadow/d7b9685c74ed033fd885a2a712ac938ba0fa0cd09bf33cc0119ff4f03199dec5/PAIR.json",
+        "sha256": "edca5a211b9aad4ad3e34e4ee7f0b77bb0bb4a2050419d150efc4b77dafd04d6"
+      },
+      "complete_input_sets_identical": false,
+      "current_only": 0,
+      "original_native_sha256": "1a5057c76eaf79f1c02a1c88b7c3f632000ee1aa2e5ea7e231b86bbce11539d7",
+      "original_only": 322,
+      "paired": 581,
+      "staged_receipt_preserved": "Native wrapper staged/deployed=false fields kept; actual publication is separately evidenced by run and HTTPS bytes."
+    },
+    "older_1491_capture_preserved": true,
+    "research_rows_admitted": 0
+  },
+  "stage_separation": {
+    "baseline_prepared": "Owner-published existing scheduled route",
+    "baseline_published": "Run metadata and immutable source metadata received by C; full capture only owner receipt",
+    "baseline_received": "Owner reports existing consumer graph; C receives receipt and metadata only",
+    "baseline_verified": "Owner reports12 HTTPS/Git body matches; C independently verifies1255-byte immutable metadata hash",
+    "research_admitted": false,
+    "research_activated": false,
+    "research_deployed_by_checkpoint": false,
+    "served_values": "Owner-reported deployed graph/served bytes; no new C served/browser reproduction",
+    "scientifically_qualified_new_product": false,
+    "schedule_reliability": "One successful delayed scheduled run, not established on-time/hourly reliability"
+  },
+  "operational_bindings_owner_reported": [
+    {
+      "category": "pass_yd",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "pass_td",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "pass_cmp",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "pass_att",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "pass_int",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "rush_yd",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "rush_att",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "rec",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "rec_yd",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "rush_rec_yd",
+      "decision": "KEEP_INCUMBENT",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "CURRENT_BASELINE/reference_point",
+      "point_type": "OTHER_REFERENCE_POINT;NOT_REGISTERED_MEAN_OR_MEDIAN",
+      "direction_policy": "Unedited:stored prop.lean; custom or selected: separately bound category margin. No automatic strict point crossing substitution.",
+      "probability": "UNAVAILABLE_FOR_POINT_ONLY_PRODUCT",
+      "ranking_policy": "selected-projection-gap-classic-presence-v2",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "anytime_td",
+      "decision": "ABSTAIN_NEW_PRIMARY",
+      "incumbent": "sleeper-matchup-classic-presence-strict-v2",
+      "current_numeric_product": "Inherited rushing-or-receiving-TD baseline event probability",
+      "point_type": "EVENT_PROBABILITY_UNCALIBRATED",
+      "direction_policy": "NO_NEW_ACTUAL_OFFER_DIRECTION_PRODUCT",
+      "probability": "Sleeper projected-TD-derived event probability; null when missing; calibration NOT_ESTABLISHED; PR16 guard retained",
+      "ranking_policy": "NOT_ELIGIBLE_IN_NUMERIC_TOP_PICKS",
+      "operationally_ready": "EXISTING_BASELINE_ONLY_NO_NEW_ADMITTED_EXACT_CURRENT_FEED",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    },
+    {
+      "category": "nick-chart-ppr-v1",
+      "decision": "ABSTAIN",
+      "incumbent": null,
+      "current_numeric_product": "NO_EXACT_CHART_PRODUCT_ADMITTED",
+      "point_type": null,
+      "direction_policy": "NO_NEW_ACTUAL_OFFER_DIRECTION_PRODUCT",
+      "probability": "N/A",
+      "ranking_policy": "NOT_ELIGIBLE_IN_NUMERIC_TOP_PICKS",
+      "operationally_ready": "NO_EXACT_CHART_PRODUCT",
+      "fallback": "Explicitly labelled same-opportunity incumbent/reference; null/unavailable stays null; selected feed must pass expiry and source/model contracts."
+    }
+  ],
+  "consumer_state_owner_reported": {
+    "current_model": "sleeper-matchup-classic-presence-strict-v2",
+    "overlay_state": "DISABLED_USE_R0",
+    "ranker": "selected-projection-gap-classic-presence-v2",
+    "ranker_code_sha256": "7889c35cefa0df1ba0be53ee749182f243eba35a4f4c63b2c01db023e701e14f",
+    "selector_policy_sha256": "551ee07861774ba2c90ad0e8097136c359807f92843dde5cd4b96ecffbe958ed",
+    "ranking_counts": {
+      "over": 12,
+      "under": 12
+    },
+    "ranking_sources": {
+      "CURRENT_BASELINE": 24
+    },
+    "source_files_byte_unchanged_count": 12,
+    "source_quote_clocks": "UNKNOWN; build time is not provider observation time",
+    "browser": "NOT_RUN_THIS_COORDINATION_ONLY_CHECKPOINT; prior Nov14 verified served-byte browser receipt preserved and not relabelled today.",
+    "legacy_advisory": {
+      "detail": {
+        "missing_requirements": [
+          "Exact retained builder roster",
+          "Same observed source-input closure"
+        ],
+        "model": "sleeper-matchup-classic-presence-strict-v2",
+        "normalized_stats_cache": "stat-keys-presence-strict-v3",
+        "numerical_parity_passed": false,
+        "provider_requests": 0,
+        "required_checks": "Mandatory current source/integrity/capture checks are separate; no accuracy claim.",
+        "schema_version": "legacy-diagnostic-scope-v2",
+        "status": "NOT_EVALUATED_CURRENT_MODEL_INPUT_CLOSURE_REQUIRED"
+      },
+      "outcome": "failure"
+    },
+    "meaning": "KEEP_INCUMBENT is operational retention; it does not prove global accuracy or activate listed research alternatives"
+  },
+  "Count_A_latest_received_owner_report": {
+    "observed_at_utc": "2026-11-15T20:42:27.231670+00:00",
+    "product": "pass_td__COUNT_A_MEAN",
+    "recorded_procedure": "f8607aa99a94c7c1c9ab5c89599e07eba9b15527749b092b225f368032881e83",
+    "status": "NO_CURRENT_FEED_FOUND_IN_OWNER_INSPECTED_ROUTES; not a claim about unobserved private work",
+    "last_published_upload_attempt": "2026-11-12 approximately18:28UTC; first metadata asset POST uploads.github.com HTTP401; no model payload POST and no retry per unchanged existing receipt",
+    "current_credential_state": "NOT_ESTABLISHED_BY_THIS_READ_ONLY_SCOPE; failure is last published attempt, not a new attempted upload",
+    "new_auth_confirmation_found": false,
+    "new_upload_performed_by_C": false,
+    "latest_owner_inspected_native_run": {
+      "run": 43750226138,
+      "url": "https://github.com/NickNicky19/NFL-forecasting/actions/runs/43750226138",
+      "source_commit": "9c90b5d4043bb881cdbd73b76bd85aaed3a0abbf",
+      "classification": "METADATA_ONLY_OFF_WINDOW_NO_OP; no enqueue, capture, inference or derived-feed export in observed job",
+      "conclusion": "success"
+    },
+    "readable_current_feed_received": false,
+    "consumer_admitted": false,
+    "new_actual_producing_commit_issue_hash": "NONE_IN_RECEIVED_SCOPE",
+    "corrected_mean_semantics": "Retained exact FORECASTS.parquet.point corrected mean; mean all-NaN/legacy_point/bare predict/median not substitutes. Full preprocessing/trained mean-corrector once and learned/prior/incumbent fallback distinct. Existing restoration/parity not rerun here.",
+    "old_retained_feed": {
+      "rows": 143,
+      "expired": true,
+      "expires_at": "2026-11-03T01:15:00+00:00",
+      "body_sha256": "cc9fa4b5364384845d3423ed0896323c54256f6c2b27404d8f8c6f3804444eb7",
+      "not_count_A_substitute": true
+    },
+    "minimum_owner_actions": [
+      {
+        "completion": "Owner-scoped auth confirmation and successful authorized original-artifact upload/readback or exact unsupported diagnosis",
+        "dependency": "Approved existing uploads.github.com release-asset write authentication/binding; API GET/git push success does not establish upload-host authorization",
+        "executor": "Existing A credential-connection owner named by coordination comment6815151344",
+        "next_permissible_action": "Verify/correct existing connection authorization or confirm unsupported using its authorized route; no credential values, new account/key/destination or guard bypass"
+      },
+      {
+        "completion": "Readable genuine current Count A feed with producing commit/run, source cutoff, issue/persistence, body hash and readback",
+        "dependency": "Properly authorized exact-head PR90/91 actions if applicable; trusted original capsule/descriptor/proof/FIT_START, source-profile/issued-Root, current event/query/input acceptance and source-bound registration",
+        "executor": "Existing authorized A native source/producer executor and lease owner",
+        "next_permissible_action": "Use existing registered recipe and actual current clocks to complete corrected-mean inference, durable capture and permitted derived publication; maintain all guards, fallback typing, single-writer and old receipts"
+      },
+      {
+        "completion": "Versioned consumer admission and served-value receipt; no unrelated nine-week waiting gate",
+        "dependency": "Actual delivered exact-product current feed and applicable source/model/five-week contracts",
+        "executor": "Original website retained consumer/admission owner",
+        "next_permissible_action": "Retrieve and verify complete mean/corrector/features/typing/fallback/expiry; admit isolated eligible lane or label shadow under existing authority"
+      }
+    ],
+    "newer_A_auth_receipt_rule": "Supersede this website-as-of observation only with actual newer owner receipt; merge/code/GET success alone does not resolve uploads.github.com401"
+  },
+  "closed_selector_status": {
+    "status": "SHADOW; preserve existing five-block conditional retrospective duration count",
+    "full_policy_summary": "Retain canonical fifth-weekV7/five-week-summary-v2 and independent B check; no rescore here",
+    "candidate_generated_selections": 10,
+    "reference_fallback_selections": 100,
+    "candidate_selected_WL": "6-4",
+    "reference_fallback_WL_decided": "47-51/98 plus2 unresolved",
+    "control_full_system": "49-58/107 plus2 unresolved",
+    "candidate_full_system": "53-55/108 plus2 unresolved",
+    "week8": "Fallback-only; not widespread learned-model confirmation",
+    "learned_count_not_membership_changes": true,
+    "new_primary_change": false,
+    "scope": "Owner/preserved prior immutable summary; C did not reexecute selector or inspect all candidate rows in this task",
+    "public_score_source": "PRIOR_SELECTOR_PUBLIC_EXCERPT.json; owner-reported exact summary, not C recalculation; other terminal statuses must not be inferred from these aggregate W-L/unknown strings"
+  },
+  "website_research_status_supersession": {
+    "scope": "Received production receipt contains older research status; do not use it as current master research status",
+    "stale_items": [
+      "M3 charged CPU830.968258 is superseded by latest published1056.334180 accounting and adapter stop",
+      "New SKILL earlyjoin pending is superseded by A completed84-offer exactSKILL receipt",
+      "Opportunity experiment absent is superseded by B scientific and delivery pins",
+      "Depth-history source check unperformed is superseded by A retained-depth inspection"
+    ],
+    "action": "C coordinator admits exact newer A/B receipts with their own evidence limits; no repeated join, fit, collection or CPU grant"
+  },
+  "durable_artifacts": [
+    {
+      "path": "SOURCE_COMMENT_6901141462.json",
+      "bytes": 49324,
+      "sha256": "47029d6df1ae4c158b289c8d80772568ed786c5fc86bf0e5efbdb70ff40ff4b3"
+    },
+    {
+      "path": "WEBSITE_MACHINE_RECEIPT.json",
+      "bytes": 129340,
+      "sha256": "0c1c0b966e42752394bb503901f13bb806a7ec587fb8057e3906b26f58f16df6"
+    },
+    {
+      "path": "BASELINE_META.json",
+      "bytes": 1255,
+      "sha256": "238b6543895bd96de31d77c47830e97f4b8d359bbbd23dd28f425bd514bdc1ec"
+    },
+    {
+      "path": "BASELINE_RUN.json",
+      "bytes": 13728,
+      "sha256": "46b267ffd3e40f7611599872006d33f35d578d5bb2048853cf5fb92f51bd2d17"
+    },
+    {
+      "path": "PRIOR_SELECTOR_PUBLIC_EXCERPT.json",
+      "bytes": 1323,
+      "sha256": "aa38b7e78cf2a46270cd3a5c5f453abac866b0b82d967a65b78b048705cd973f"
+    }
+  ],
+  "actions_here": {
+    "fits": 0,
+    "grades": 0,
+    "website_code_edits": 0,
+    "external_comments": 0,
+    "workflow_dispatches": 0,
+    "uploads_or_auth_tests": 0,
+    "credential_access": 0,
+    "source_calls_outside_GitHub": 0,
+    "new_scheduler": 0,
+    "model_or_primary_activation": 0
+  },
+  "remaining_exact_owner_action": "Existing A credential-connection owner, scoped by coordinationcomment6815151344, confirms/corrects approved uploads.github.com authorization without sharing secrets; existing registered native producer lease completes capsule/FIT_START/source-profile/issuedRoot/currentquery and genuine correctedmean issuance/readback; original website owner verifies/admitsexactfeed under existing product/fiveweek/source/runtime policy. Independent eligible lanes remain unblocked."
+}

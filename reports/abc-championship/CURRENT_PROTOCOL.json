@@ -1341,9 +1341,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V8.csv.gz",
-      "bytes": 2751898,
-      "SHA256": "ffea1b60525061e93f8f0f51eed950c598eaa7b385e6f1ed50a19ec020958e13"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V9.csv.gz",
+      "bytes": 2897594,
+      "SHA256": "a5581dfa7e601268910077a6cb396e166f157e9703fd97c99478b87b2742f316"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -1611,6 +1611,11 @@
       "path": "reports/information-skill-01/checkpoint-follow-through-01/LEDGER_APPEND_RECEIPT.json",
       "bytes": 958,
       "SHA256": "b673775f791998e6b3a5602c45eff4429a30c6a92435a55bb19978624a175c03"
+    },
+    "latest_received_delivery": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/delivery/RECEIPT.json",
+      "bytes": 24728,
+      "SHA256": "b66dc83428bb55fa75b1a4bb3156a6998209ae895e909df89c884715cc6c91cc"
     }
   },
   "next_generation_information_research_01": {
@@ -2934,7 +2939,8 @@
         "bytes": 92191,
         "SHA256": "2d88ae0ea33c51d17c710a4ffdf5a30d788829d09a6d1750ca05334ba186df0b"
       }
-    ]
+    ],
+    "current_status": "SKILL_FULL_W1_W9_RECEIVED;NEW_OPPORTUNITY_DISTINCT;C_RECIPES_CLOSED"
   },
   "information_skill_follow_through_01": {
     "report": {
@@ -3089,6 +3095,205 @@
       "path": "reports/information-skill-01/checkpoint-follow-through-01/MANIFEST.json",
       "bytes": 6763,
       "SHA256": "9ded52e4a20ad44fef3953e27ef7d90a0402e3b64433d6b42b50f031b13f2b2a"
+    },
+    "superseded_forward_by": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/ADMISSION.json",
+      "bytes": 7853,
+      "SHA256": "425f254955d2139d9714f37f4928320d0f6a77c4222792b82fcbf8cf51b2c625"
+    },
+    "current_status": "ACTUAL_A_SKILL_EARLY_AND_B_OPPORTUNITY_ADMITTED;A_M3_ADAPTER_BUDGET_STOP;NO_PRIMARY_PROMOTION",
+    "original_fields_are_historical_snapshot": true,
+    "current_A_M3_accounting": {
+      "owner": "A registered protected-join executor",
+      "state": "NO_NEW_C_GRADES",
+      "native_source_rows": 142,
+      "reference_rows": 142,
+      "common_source_rows": 142,
+      "differences": {
+        "game_id": 2,
+        "kickoff_utc": 2,
+        "cutoff_utc": 2
+      },
+      "known_dual_clock_admission": {
+        "event": "401873047",
+        "canonical_game": "2026_09_LV_SF",
+        "source_clock": "2026-11-08T21:25:00+00:00",
+        "canonical_query_clock": "2026-11-08T21:05:00+00:00"
+      },
+      "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+      "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
+      "repaired_fixture_PASS_received": false,
+      "new_C_grades": 0,
+      "new_C_selections": 0,
+      "charged_CPU": 1056.334180015,
+      "cap": 1260,
+      "recorded_remaining_total_including_reserves": 203.6658199850001,
+      "retention_reserve": 120,
+      "reporting_reserve": 20,
+      "recorded_remaining_before_reserves": 63.6658199850001,
+      "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
+      "owner_reports_complete_worker_safely_fits": false,
+      "new_full_worker_started_after_stop": false,
+      "additional_CPU_granted_by_current_continuation": 0,
+      "exact_extra_CPU_request_published": null,
+      "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
+      "retained_growth_bytes": 809657,
+      "stage_bytes": 0,
+      "M1_unchanged": true,
+      "B_join_and_C_new_information_budgets_separate": true
+    }
+  },
+  "executed_receipts_gap_closure_01": {
+    "id": "INFORMATION-SKILL-01-EXECUTED-RECEIPTS-GAP-CLOSURE-C-v1",
+    "stage": "ACTUAL_A_SKILL_EARLY_AND_B_OPPORTUNITY_ADMITTED;A_M3_ADAPTER_BUDGET_STOP;NO_PRIMARY_PROMOTION",
+    "recorded_UTC": "2026-11-16T00:58:35.621042+00:00",
+    "report": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/README.md",
+      "bytes": 21257,
+      "SHA256": "807fbeb2a6300446b2a5a1ea5975f44db1914409c88b820175079c64a5db533c"
+    },
+    "registration": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/REGISTRATION.json",
+      "bytes": 3099,
+      "SHA256": "c902b547c5f0bba21ac40bf353e4f59b5f2f92cfdc25a80c1f767df6a97b6c11"
+    },
+    "admission": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/ADMISSION.json",
+      "bytes": 7853,
+      "SHA256": "425f254955d2139d9714f37f4928320d0f6a77c4222792b82fcbf8cf51b2c625"
+    },
+    "queue": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/FINITE_QUEUE.json",
+      "bytes": 8473,
+      "SHA256": "0c0919dc708dd606b4355db1d0ed98ebdd3c31e33e89e54489c4cbb833b5bd46"
+    },
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V9.csv.gz",
+      "bytes": 2897594,
+      "SHA256": "a5581dfa7e601268910077a6cb396e166f157e9703fd97c99478b87b2742f316"
+    },
+    "coverage_append": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 4977,
+      "SHA256": "50b623e88c9e192652f835c08f71cf40eb61873d8a9e05c2dd387f17d6e77272"
+    },
+    "A_SKILL_actual_offer_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "A_SKILL_full_decided": 226,
+    "B_opportunity_actual_offer_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "A_M3_accounting": {
+      "owner": "A registered protected-join executor",
+      "state": "NO_NEW_C_GRADES",
+      "native_source_rows": 142,
+      "reference_rows": 142,
+      "common_source_rows": 142,
+      "differences": {
+        "game_id": 2,
+        "kickoff_utc": 2,
+        "cutoff_utc": 2
+      },
+      "known_dual_clock_admission": {
+        "event": "401873047",
+        "canonical_game": "2026_09_LV_SF",
+        "source_clock": "2026-11-08T21:25:00+00:00",
+        "canonical_query_clock": "2026-11-08T21:05:00+00:00"
+      },
+      "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+      "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
+      "repaired_fixture_PASS_received": false,
+      "new_C_grades": 0,
+      "new_C_selections": 0,
+      "charged_CPU": 1056.334180015,
+      "cap": 1260,
+      "recorded_remaining_total_including_reserves": 203.6658199850001,
+      "retention_reserve": 120,
+      "reporting_reserve": 20,
+      "recorded_remaining_before_reserves": 63.6658199850001,
+      "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
+      "owner_reports_complete_worker_safely_fits": false,
+      "new_full_worker_started_after_stop": false,
+      "additional_CPU_granted_by_current_continuation": 0,
+      "exact_extra_CPU_request_published": null,
+      "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
+      "retained_growth_bytes": 809657,
+      "stage_bytes": 0,
+      "M1_unchanged": true,
+      "B_join_and_C_new_information_budgets_separate": true
+    },
+    "personnel": "A_INSPECTION_COMPLETED;AUTHENTICATED_HISTORY_SOURCE_BLOCKED",
+    "reproduction": "C1_STRICT_FAILED;OPPORTUNITY_TEAM_FIT_FAILED;OTHER_CHECKS_SEPARATELY_SCOPED",
+    "C05": {
+      "source_status": {
+        "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/resume-01/SOURCE_STATUS.json",
+        "bytes": 7441,
+        "SHA256": "85dc9ae037767baa6aeec2a9624e5774962f88f6cb85f54728ef085296c4c88d"
+      },
+      "status": "GRADED_QUALIFIED_FROZEN_FORECAST_ONLY",
+      "outcome_packet": {
+        "path": "prospective/outcomes/C-NATIVE-GRADE-20261116-NEDET-01/OUTCOMES.json",
+        "SHA256": "bc44237ddc40ae594113409b51b6d85759e1a27a5068713a4fbbf8be5aa59cc1"
+      },
+      "independent_grade_check": {
+        "path": "reports/information-skill-01/executed-receipts-gap-closure-01/verification/C05_GRADE_CHECK.json",
+        "bytes": 3492,
+        "SHA256": "46ed05d43ab76131bf2187573924c15771c1c61cfd3f9348df58a70e2c57ef10"
+      },
+      "resource": {
+        "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/FINAL_RESOURCE.json",
+        "bytes": 822,
+        "SHA256": "1c511c7de9e602ee55e468738ef83774350f7aea091a4fcbde76d854727362ea"
+      },
+      "grade": {
+        "path": "prospective/grades/C-NATIVE-GRADE-20261116-NEDET-01-C-C05-NEDET-FIRST-01.json",
+        "SHA256": "5b49ee6eb024e5b3785e59b734a944d5de14c8d5c4a8f51e7e37cc91d6c13df0",
+        "rows": 69,
+        "states": {
+          "GRADED_PLAYED": 57,
+          "UNKNOWN": 12
+        }
+      },
+      "original_forecast_rows": 69,
+      "actual_offers": 0,
+      "new_original_picks": 0,
+      "verification": "Original forecasts/issue clocks unchanged; prior failed logger retained; reused native proof retains old observation clock"
+    },
+    "baseline_capture_not_research": 581,
+    "current_CountA_feed_received": false,
+    "primary_activation": false,
+    "independent_public_check": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/verification/PUBLIC_INTAKE_CHECK.json",
+      "bytes": 21611,
+      "SHA256": "c51248f067ce34cd565afc48e8ccb4f710892bf44ed5d557f8f143aaf8d8589c"
+    },
+    "sealed_manifest": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/MANIFEST.json",
+      "bytes": 17571,
+      "SHA256": "2e7d62ee56b78eb06fb2c14ca20b13123d01de4fd106311536c4c53a21a5acaa"
+    },
+    "validation": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/VALIDATION.json",
+      "bytes": 1371,
+      "SHA256": "6dd177739e67863a64a0f4448e4d28d673f36f1b19ef4cc7cd9d7c0bb698ea55"
+    },
+    "resources": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/RESOURCE_CLOSURE.json",
+      "bytes": 1505,
+      "SHA256": "45eeca9bebf330215f4789efaad792854eb307f42be6a68bbed4f13bf4726a0e"
     }
   }
 }

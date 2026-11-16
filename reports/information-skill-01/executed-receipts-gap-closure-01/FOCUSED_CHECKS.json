@@ -1,0 +1,54 @@
+{
+  "recorded_UTC": "2026-11-16T00:50:06.664323+00:00",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_prospective_v4.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_contracts_v2.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_current_query_capture_c05.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python",
+        "src/abc_period_validation_v2.py"
+      ],
+      "returncode": 0
+    }
+  ],
+  "child_CPU_seconds": 5.201340999999999,
+  "wall_seconds": 5.215460492996499,
+  "scope": "Focused existing grading/identity/null/presence/period guards; no NFL fit, new model inference or source request."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "C-C05-NEDET-ELIGIBLE-OUTCOME-VERSION-v2",
+  "registered_UTC": "2026-11-16T00:28:28.464201+00:00",
+  "owner": "C existing frozen outcome grading executor",
+  "authority": "Current continuation says use existing bounded outcome retrieval when eligible new evidence is available. Existing originalC05 grading/retention/firstsnapshot rules retained; no newCPU authorization, account, APIcredit, scheduler ormodel.",
+  "original_run": "prospective/runs/C-C05-NEDET-FIRST-01",
+  "original_receipt": "prospective/receipts/C-C05-NEDET-FIRST-01-server.json",
+  "game_id": "2026_10_NE_DET",
+  "event_id": "401873053",
+  "old_attempt": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/SOURCE_STATUS.json",
+  "old_exact_stop": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
+  "old_attempt_preserved_no_retry": true,
+  "new_version_gate": "One HEAD on existing stats_player_week_2026.csv.gz route, compare prior stats LastModified/ETag. Only changedETag or laterLastModified with explicitmatchingknownfield supports newcandidateversion. Same/unknown/accessfailure STOP, no bodyGET/poll. HEAD Date alone notrevisionproof.",
+  "source_budget": {
+    "version_HEAD_max": 1,
+    "qualified_route_GETs_max_if_eligible": 3,
+    "cumulative_response_bytes_max": 5242880,
+    "CPU_seconds_max_including_setup_verification_retention": 30,
+    "RSS_bytes_max": 1288490188,
+    "new_public_bytes_max": 2097152,
+    "whole_C_bytes_cap_unchanged": 2684354560
+  },
+  "accounting": "Within remaining C600CPU ceiling carried402.21233500999995; metadata140+this30max =>572.21233500999995, noA_M3orotherbudget transfer. No automaticextension. FailedHEAD/body/parse attempts charged.",
+  "conditional_execution": "Ifeligibleversion, existingexactnativeFINAL/event/team/kickoff/scores +nflverseschedule +newordinaryplayerstats contract (3whitelistedGET) underoriginalsafegrader innewappend-onlygradeversion C-NATIVE-GRADE-20261116-NEDET-01. Stop atany mismatch/nonfinal/missingrawstatfield/qualifiedgameabsence. Preserve69originalforecasts23playeridentities, unknownversuszero/DNP, sourcehashes/clocks, nooffers/OU/EV/newforecasts.",
+  "raw_retention": "Memory-onlyproviderresponses; minimalpermittedfactualprojections, schema/presence/zero contract evidence/hash metadata only. No HTML/descriptions/odds/EPA/charting.",
+  "no_overwrite": "Original packets, failedpriorattempt, alloldgradedversionsevidenceunchanged. firstqualifiedsnapshotledgerpreserved. Newstagecheckpointbeforeviews.",
+  "source_urls": [
+    "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+    "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261115&limit=100",
+    "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+  ]
+}

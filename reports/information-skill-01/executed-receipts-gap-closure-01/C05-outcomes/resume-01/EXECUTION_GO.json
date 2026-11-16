@@ -1,0 +1,24 @@
+{
+  "id": "C05-RESUME-01-ROOT-EXECUTION-GO",
+  "recorded_UTC": "2026-11-16T00:50:02.416514+00:00",
+  "code_SHA256": "42f5e5ac0937d18622558bbc2da4c99e49a082c75c644a1d858abd3f65a7d79e",
+  "wrapper_SHA256": "22a145c20852572d7b33f55a1a7ce95cac82fddc4623e175a775e1c19e01a0d6",
+  "authority": "Root exact-hash GO after root and independent scoped static review; original operation caps unchanged.",
+  "independent_review_SHA256": "b6e492f8bb42495c466612dbadad5359a7fb849188ec4d11741c9fe131997a38",
+  "remaining_HTTP": [
+    "schedule_GET",
+    "stats_GET"
+  ],
+  "additional_HEAD": 0,
+  "additional_native_GET": 0,
+  "prior_CPU": 4.767533874,
+  "new_preparation_CPU": 1.0,
+  "cumulative_CPU_cap": 30,
+  "cumulative_HEAD_cap": 1,
+  "cumulative_GET_cap": 3,
+  "cumulative_bytes_cap": 5242880,
+  "reuse": "Old qualified native FINAL with original source clock; failed newer native body not used.",
+  "no_retry": true,
+  "new_fits": 0,
+  "new_issuance": 0
+}

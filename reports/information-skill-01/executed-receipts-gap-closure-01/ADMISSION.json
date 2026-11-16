@@ -1,0 +1,198 @@
+{
+  "id": "C-EXECUTED-RECEIPTS-GAP-CLOSURE-ADMISSION-v1",
+  "recorded_UTC": "2026-11-16T00:58:35.621042+00:00",
+  "coordinator": "C",
+  "source_receipts": {
+    "A": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/A_RECEIPT.json",
+      "bytes": 1886856,
+      "SHA256": "179b533976171d33fe576da12a1c12c484d1f116a2ee70359f02b42b4bc8c452"
+    },
+    "B": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/B_RECEIPT.json",
+      "bytes": 48116,
+      "SHA256": "7b9a32dc711ade7bb42b87dafd970b8ee319fea780a0270b5a047a4deb7cdbe5"
+    },
+    "website": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/delivery/RECEIPT.json",
+      "bytes": 24728,
+      "SHA256": "b66dc83428bb55fa75b1a4bb3156a6998209ae895e909df89c884715cc6c91cc"
+    },
+    "CountA_auth_coordination": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/A_AUTH_COORDINATION.json",
+      "bytes": 13814,
+      "SHA256": "d264febf5bdb7b7bf9f054da05aa86283b334b63622523e71192f1d264f01b4e"
+    }
+  },
+  "A_actual_head": "f79c05835ba3a41a7e73a5c6fd26c05896011e4e",
+  "B_source": {
+    "repository": "NickNicky19/NFL-forecasting-V2",
+    "scientific_commit": "a0f5b91c61c9d1c7c2a3e39c4bdd6da29435e98e",
+    "delivery_commit": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+    "current_branch": "research/independent-audit-20261029",
+    "current_head_observed_once": "1a69f1dd21141f8f95c3f1b19b6e9ab1a4d1fde6",
+    "superseding_head_found": false,
+    "discovery_commit_owner_reported": "01cbe2edecef3d70310ce230e579b9d74d0917cd",
+    "readback_UTC": "2026-11-16 00:30:56 UTC"
+  },
+  "A_SKILL": {
+    "early_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "early_offers": 84,
+    "full_weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "full_decided": 226,
+    "receipt_scope": "Owner-local public aggregates and immutable bindings; no C access to protected rows or source vintages.",
+    "decision": "NO_PREFERRED_REPLACEMENT;EXPOSED_TIMING_UNVERIFIED_ACTUAL_LINE_DIAGNOSTIC",
+    "new_NFL_games": 0,
+    "B_independent_new_join_review_received": false,
+    "early_capacity10_same_seven_under_membership": "OWNER_REPORTED;C verified aggregate signatures, not private IDs",
+    "full_nine_week_selector_qualification": false
+  },
+  "B_opportunity": {
+    "actual_offer_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "offers_per_target": 142,
+    "missing_early_offer_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "products": [
+      "OPP_BASE",
+      "OPP_MEAN",
+      "OPP_JOINT",
+      "DIRECT_ATT"
+    ],
+    "decision": "CLOSE_RECIPE_NO_GAIN_EXACT_JOINT_RECIPE",
+    "scope": "Public arithmetic and typed handoff; not independent model restoration or private-row parity"
+  },
+  "frozen_C_M3": {
+    "owner": "A registered protected-join executor",
+    "state": "NO_NEW_C_GRADES",
+    "native_source_rows": 142,
+    "reference_rows": 142,
+    "common_source_rows": 142,
+    "differences": {
+      "game_id": 2,
+      "kickoff_utc": 2,
+      "cutoff_utc": 2
+    },
+    "known_dual_clock_admission": {
+      "event": "401873047",
+      "canonical_game": "2026_09_LV_SF",
+      "source_clock": "2026-11-08T21:25:00+00:00",
+      "canonical_query_clock": "2026-11-08T21:05:00+00:00"
+    },
+    "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+    "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
+    "repaired_fixture_PASS_received": false,
+    "new_C_grades": 0,
+    "new_C_selections": 0,
+    "charged_CPU": 1056.334180015,
+    "cap": 1260,
+    "recorded_remaining_total_including_reserves": 203.6658199850001,
+    "retention_reserve": 120,
+    "reporting_reserve": 20,
+    "recorded_remaining_before_reserves": 63.6658199850001,
+    "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
+    "owner_reports_complete_worker_safely_fits": false,
+    "new_full_worker_started_after_stop": false,
+    "additional_CPU_granted_by_current_continuation": 0,
+    "exact_extra_CPU_request_published": null,
+    "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
+    "retained_growth_bytes": 809657,
+    "stage_bytes": 0,
+    "M1_unchanged": true,
+    "B_join_and_C_new_information_budgets_separate": true
+  },
+  "reproduction": {
+    "C1_strict": "FAILED;independent full vector not retained",
+    "opportunity_team_fit": "FAILED_AT_FROZEN_TOLERANCE",
+    "opportunity_share_fit": "PASS_SEPARATE_SCOPE",
+    "saved_row_grading": "PASS_SEPARATE_SCOPE",
+    "retries": 0,
+    "relaxed_tolerances": 0,
+    "causal_forecast_loss_impact": "NOT_ESTABLISHED"
+  },
+  "personnel": {
+    "A_retained_depth_inspection": "COMPLETED_OWNER_RECEIPT_ADMITTED",
+    "authenticated_historical_personnel": "SOURCE_BLOCKED",
+    "missing_gates": [
+      "artifact vintage and revisions",
+      "origin-qualified identity",
+      "complete event-effective roster/status"
+    ],
+    "current_vintage_depth_diagnostics": "PRESERVED_WITH_EXISTING_LIMITS",
+    "new_source_search": 0
+  },
+  "C05": {
+    "source_status": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/resume-01/SOURCE_STATUS.json",
+      "bytes": 7441,
+      "SHA256": "85dc9ae037767baa6aeec2a9624e5774962f88f6cb85f54728ef085296c4c88d"
+    },
+    "status": "GRADED_QUALIFIED_FROZEN_FORECAST_ONLY",
+    "outcome_packet": {
+      "path": "prospective/outcomes/C-NATIVE-GRADE-20261116-NEDET-01/OUTCOMES.json",
+      "SHA256": "bc44237ddc40ae594113409b51b6d85759e1a27a5068713a4fbbf8be5aa59cc1"
+    },
+    "independent_grade_check": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/verification/C05_GRADE_CHECK.json",
+      "bytes": 3492,
+      "SHA256": "46ed05d43ab76131bf2187573924c15771c1c61cfd3f9348df58a70e2c57ef10"
+    },
+    "resource": {
+      "path": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/FINAL_RESOURCE.json",
+      "bytes": 822,
+      "SHA256": "1c511c7de9e602ee55e468738ef83774350f7aea091a4fcbde76d854727362ea"
+    },
+    "grade": {
+      "path": "prospective/grades/C-NATIVE-GRADE-20261116-NEDET-01-C-C05-NEDET-FIRST-01.json",
+      "SHA256": "5b49ee6eb024e5b3785e59b734a944d5de14c8d5c4a8f51e7e37cc91d6c13df0",
+      "rows": 69,
+      "states": {
+        "GRADED_PLAYED": 57,
+        "UNKNOWN": 12
+      }
+    },
+    "original_forecast_rows": 69,
+    "actual_offers": 0,
+    "new_original_picks": 0,
+    "verification": "Original forecasts/issue clocks unchanged; prior failed logger retained; reused native proof retains old observation clock"
+  },
+  "website": {
+    "baseline_capture_rows": 581,
+    "new_research_admitted_rows": 0,
+    "C_direct_current_served_browser_check": false,
+    "scope": "C retrieved immutable metadata and scheduled run; owner-reported served checks remain scoped"
+  },
+  "public_independent_check": {
+    "path": "reports/information-skill-01/executed-receipts-gap-closure-01/verification/PUBLIC_INTAKE_CHECK.json",
+    "bytes": 21611,
+    "SHA256": "c51248f067ce34cd565afc48e8ccb4f710892bf44ed5d557f8f143aaf8d8589c"
+  },
+  "no_new_model_fits": true,
+  "no_new_research_forecasts": true,
+  "new_primary_activation": false,
+  "old_records_preserved": true
+}

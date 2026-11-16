@@ -1,0 +1,35 @@
+{
+  "id": "C05-RESUME-01-INDEPENDENT-READONLY-CODE-REVIEW",
+  "created_UTC": "2026-11-16T00:49:27.869047+00:00",
+  "state": "PASS_SCOPED_STATIC_REVIEW",
+  "checks": {
+    "execute_grading.py_exact_hash": true,
+    "run_metered.py_exact_hash": true,
+    "old_proof_exact_hash": true,
+    "old_proof_bytes_at_retained_commit": true,
+    "old_native_event_original_clock_match": true,
+    "fixture_old_hashes_unchanged": true,
+    "fixture_distinct_started_completed_files": true,
+    "budget_headroom_with_carried_failure_and_preparation": true,
+    "exact_remaining_source_routes_registered": true,
+    "minimal_outcomes_durable_before_grader_and_metrics": true,
+    "old_grader_modules_unmodified": true
+  },
+  "reviewed_script_SHA256": "42f5e5ac0937d18622558bbc2da4c99e49a082c75c644a1d858abd3f65a7d79e",
+  "wrapper_SHA256": "22a145c20852572d7b33f55a1a7ce95cac82fddc4623e175a775e1c19e01a0d6",
+  "read_conclusions": [
+    "Exact carried old native FINAL projection is pinned to original observation clock and immutable C58 commit; new consumed unprojected native response is not used.",
+    "Only remaining schedule and stats GETs are reachable in fixed order after carrying the consumed first GET; version body must match eligible HEAD ETag and Last-Modified; no retry path.",
+    "Immutable per-attempt STARTED and COMPLETED files remove old write(x) collision while preserving overwrite guard; fixture is IO-only, not NFL evidence.",
+    "Wrapper carries4.767533874 prior+1 preparation, enforces20CPU child limit under30 total with headroom; no A-M3 allowance.",
+    "Exact REG W10 game/player/team/component qualifications; absent/null or no participation proof remains UNKNOWN; explicit zero statistic accepted only after qualified source row and separate participation proof.",
+    "Permitted player facts, source manifest and outcomes are persisted before unchanged original grader and metrics; original forecast packet checked unchanged.",
+    "Forecast-only grades; no offered lines, original selections, fit or production activation."
+  ],
+  "issues": [],
+  "limits": [
+    "Read-only static review and retained fixture verification only; no HTTP, grader execution, model restoration, new outcome qualification or run success asserted.",
+    "Signal/CPU/source caps reviewed statically; actual resource and source readback still require one authorized execution receipt."
+  ],
+  "review_CPU_seconds_self": 0.007488025000000002
+}

@@ -694,49 +694,87 @@
   {
     "task_id": "A_FROZEN_C_M3_OWNER_LOCAL_JOIN",
     "owner": "A registered protected-join executor",
-    "state": "AUTHORIZED_RESUMPTION_PENDING;SOURCE_ADMISSION_AND_OUTPUT_RECEIPT_COMPLETE",
-    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/intake/A_RECEIPT.json",
-    "next_action": "Resume existing frozen worker; durably checkpoint raw C grades before existing selector views; preserve memory/source/retention/reserve guards and exact stop if cap prevents completion.",
+    "state": "STOPPED_BEFORE_GRADING_ADAPTER_OMISSION;NO_SAFE_FULL_WORKER_HEADROOM",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/A_RECEIPT.json",
+    "next_action": "A reviews scoped existing dual-clock repair and smallest existing fixture for full142 parity. Carry actual charges. If complete execution cannot safely fit, publish one quantified completion request with stages, reusable checkpoints and reserves; no new grant.",
     "budget": {
-      "previous_cap": 900,
+      "owner": "A registered protected-join executor",
+      "state": "NO_NEW_C_GRADES",
+      "native_source_rows": 142,
+      "reference_rows": 142,
+      "common_source_rows": 142,
+      "differences": {
+        "game_id": 2,
+        "kickoff_utc": 2,
+        "cutoff_utc": 2
+      },
+      "known_dual_clock_admission": {
+        "event": "401873047",
+        "canonical_game": "2026_09_LV_SF",
+        "source_clock": "2026-11-08T21:25:00+00:00",
+        "canonical_query_clock": "2026-11-08T21:05:00+00:00"
+      },
+      "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
+      "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
+      "repaired_fixture_PASS_received": false,
+      "new_C_grades": 0,
+      "new_C_selections": 0,
+      "charged_CPU": 1056.334180015,
       "cap": 1260,
-      "single_increment": 360,
-      "grant_id": "CHECKPOINT-FOLLOW-THROUGH-01_A_FROZEN_C_M3_SINGLE_GRANT",
-      "recorded_spent": 830.968258,
-      "recorded_headroom_including_reserves": 429.031742,
+      "recorded_remaining_total_including_reserves": 203.6658199850001,
       "retention_reserve": 120,
       "reporting_reserve": 20,
-      "recorded_before_reserves_ceiling": 289.031742,
-      "unknown_overhead_preserved": true,
-      "no_transfer_to_M1_or_new_information": true
-    }
+      "recorded_remaining_before_reserves": 63.6658199850001,
+      "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
+      "owner_reports_complete_worker_safely_fits": false,
+      "new_full_worker_started_after_stop": false,
+      "additional_CPU_granted_by_current_continuation": 0,
+      "exact_extra_CPU_request_published": null,
+      "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
+      "retained_growth_bytes": 809657,
+      "stage_bytes": 0,
+      "M1_unchanged": true,
+      "B_join_and_C_new_information_budgets_separate": true
+    },
+    "prior_state_preserved_in_git": true
   },
   {
     "task_id": "A_B_INFORMATION_SKILL_EARLY_JOIN",
     "owner": "A executor; B supplier and independent verifier; C intake",
-    "state": "EXACT_FROZEN_HANDOFF_RECEIVED;EARLY_GRADES_NOT_ESTABLISHED",
-    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/intake/B_RECEIPT.json",
-    "next_action": "Join supported W1-W4 offers to SKILL_C0/C1/R0/R1 saved outputs at78383a9d with exact unchanged adapter/rules under its own existing budget. Do not substitute old M2 84 grades or spend frozen-C-M3 extension."
+    "state": "EXECUTED_84_EARLY_OFFERS;SOURCE_BOUND_226_W1_W9_RECEIVED",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/A_RECEIPT.json",
+    "next_action": "B independently checks permitted new SKILL outputs; C public aggregate admission complete. Do not repeat the join or substitute opportunity-v1 products.",
+    "prior_state_preserved_in_git": true
   },
   {
     "task_id": "B_NEXT_DISTINCT_QB_OPPORTUNITY_HYPOTHESIS",
     "owner": "B",
-    "state": "NO_NEW_TEST_ESTABLISHED_IN_RETRIEVED_SCOPE",
-    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/FINITE_QUEUE.json",
-    "next_action": "Reconcile retained opportunity studies; register one distinct qualified information/relationship package with conversion fixed and strong attempt controls, or close precise feasibility gap. No variance/offset/gate repeats or C1 fit retries."
+    "state": "OPPORTUNITY_V1_EXECUTED_W5_W9;EXACT_JOINT_RECIPE_CLOSED_NO_GAIN",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/intake/B_RECEIPT.json",
+    "next_action": "Preserve losses and failed team fit; early opportunity grades require exact typed handoff and separate A-owned allocation. No refit, retune or C-M3 budget transfer.",
+    "prior_state_preserved_in_git": true
   },
   {
     "task_id": "C_INFORMATION_SKILL_FOLLOW_THROUGH_01",
     "owner": "C",
-    "state": "ACTUAL_PUBLIC_RECEIPTS_ADMITTED;C05_FINALITY_QUALIFIED_PLAYER_FACTS_MISSING",
-    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/README.md",
-    "next_action": "Maintain exact-scoped common evidence; finish normal publication/readback; no new model or primary activation."
+    "state": "A_SKILL_EARLY_AND_B_OPPORTUNITY_RECEIVED;C05_QUALIFIED_FORECAST_ONLY_GRADES_APPENDED",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/ADMISSION.json",
+    "next_action": "Preserve original follow-through as historical snapshot; use actual current receipt and task-specific accounting. No new model or primary activation.",
+    "prior_state_preserved_in_git": true
   },
   {
     "task_id": "C05_NEDET_FROZEN_GRADING",
     "owner": "C existing forecast grading executor",
-    "state": "STOPPED_AT_QUALIFIED_ORDINARY_PLAYER_FACTS_MISSING;FINALITY_SCHEDULE_PASSED",
-    "artifact": "reports/information-skill-01/checkpoint-follow-through-01/C05-grading/EXACT_STOP.json",
-    "next_action": "When a genuinely updated qualified player-facts version contains exact2026_10_NE_DET, use existing outcome/grade route under a bounded next capture allocation. Current one-shot3source reads exhausted; do not repeat unchanged source or infer zeros/DNP."
+    "state": "GRADED_QUALIFIED_FROZEN_FORECAST_ONLY",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/C05-outcomes/resume-01/SOURCE_STATUS.json",
+    "next_action": "Retain append-only outcomes/grades and unknowns; no new offers, backdated picks or repeated source polling.",
+    "prior_state_preserved_in_git": true
+  },
+  {
+    "task_id": "C_EXECUTED_RECEIPTS_GAP_CLOSURE_01",
+    "owner": "C",
+    "state": "EXECUTED_SCOPED_ADMISSION_AND_OUTCOME_CHECK;PUBLICATION_IN_PROGRESS",
+    "artifact": "reports/information-skill-01/executed-receipts-gap-closure-01/ADMISSION.json",
+    "next_action": "Complete normal C publication and immutable readback; no peer implementation or new primary product."
   }
 ]
