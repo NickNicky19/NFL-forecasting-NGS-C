@@ -275,6 +275,8 @@ def offer_record(o,arm,p=None,source=None):
     side=None if p is None else 'OVER' if p['over']>p['under']+1e-12 else 'UNDER' if p['under']>p['over']+1e-12 else 'ABSTAIN'
     r.update(arm=arm,product='LAW',method=arm,procedure='C-DYAD-MIX-VALUE-01/v2::'+arm,selected_side=side,probabilities=p,
              mean=None,median=None,point=None,point_type=None,learned=p is not None,fallback=False if p else None,model_binding=source)
+    r['status']=('UNAVAILABLE_FORECAST' if side is None else 'ABSTAIN' if side=='ABSTAIN' else
+                 'UNKNOWN_PARTICIPATION' if o['appearance']!='PLAYED' else 'MISSING_ACTUAL' if o['actual'] is None else 'PENDING')
     r['status']=common.status(r);return r
 
 def fit_all(budget):
@@ -291,7 +293,14 @@ def fit_all(budget):
         qi=sorted({idx[(o['game_id'],o['player_id'])] for o in offers if o['week']==w})
         for arm,n in [('C1_SUPPORT',6),('C2_VALUE',7)]:
             key=f'W{w}-{arm}';path=OUT/'models'/(key+'.json.gz');xx=np.c_[x,bx[:,:n]]
-            if path.exists():model=read(path)['model']
+            if path.exists():
+                saved=read(path)
+                assert saved['week']==w and saved['arm']==arm
+                assert saved['training_membership_SHA256']==digest([(rows[i]['game_id'],rows[i]['player_id']) for i in ti])
+                assert saved['design_X_y_SHA256']==hashlib.sha256(np.nan_to_num(xx[ti],nan=999999.).tobytes()+y.tobytes()).hexdigest()
+                assert saved['feature_matrix_SHA256']==sha(OUT/'FEATURE_MATRIX.json.gz')
+                assert saved['input_SHA256']==sha(PARENT/'inputs/FEATURES_AND_MEMBER_FACTS.json.gz')
+                model=saved['model'];assert model['thresholds']==GRID.tolist()
             else:
                 budget.attempt(key);t=time.process_time()
                 with threadpool_limits(limits=1):fitted=ThresholdModel('MONOTONE_HGB',False,GRID).fit(xx[ti],y)
@@ -306,8 +315,8 @@ def fit_all(budget):
                     feature_names=data['feature_names']['rec']+NAMES[:n],feature_matrix_SHA256=sha(OUT/'FEATURE_MATRIX.json.gz'),
                     input_SHA256=sha(PARENT/'inputs/FEATURES_AND_MEMBER_FACTS.json.gz'),fit_code_SHA256=sha(__file__)))
                 budget.s['completed'].append(key);budget.check(30)
-                remaining=5-len(budget.s['attempts'])
-                projected=max(8.,2*max(fit_times))*remaining+10+30
+                remaining=4-len([a for a in budget.s['attempts'] if a.startswith('W')])
+                projected=max(8.,2*max(fit_times))*remaining+30
                 assert budget.s['CPU_seconds']+projected<=120,'MEASURED_REMAINING_PATH_AND_RESERVES_DO_NOT_FIT'
             rr=[]
             for o in offers:

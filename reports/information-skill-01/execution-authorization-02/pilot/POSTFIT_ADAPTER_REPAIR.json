@@ -1,0 +1,14 @@
+{
+  "recorded_UTC": "2026-11-16T23:30:58.672195+00:00",
+  "id": "POSTFIT_STATUS_ADAPTER_AND_COST_ACCOUNTING_REPAIR",
+  "preserved_frozen_model": "models/W2-C1_SUPPORT.json.gz",
+  "fit_attempts_already_consumed": 1,
+  "fit_repeated": false,
+  "repair": "Seed commongrader input status exactly as existingadopted adapters; numericmodel and itsinputdesign unchanged.",
+  "cost_projection_clarification": "Remaining scientificaugmentationfits mustfitbefore30CPUreserve. Fifthindependentfit, scoring/checks andretention are completionwork inside that30. Initialprojection additionally countedindependentfit/scoring before fullreserve andwas conservativelydouble-counting them. No capincrease; scientifictimerstill90,total120,wall300. No scores inspected whenclarified.",
+  "completion_plan_caps_within_reserve": {
+    "independent_fit_CPU": 10,
+    "scoring_checks_CPU": 10,
+    "retention_CPU": 10
+  }
+}
