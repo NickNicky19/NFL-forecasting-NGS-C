@@ -1,0 +1,119 @@
+{
+  "id": "C-DYAD-MIX-FEASIBILITY-REVIEW-v1",
+  "recorded_UTC": "2026-11-16T17:23:00.670316+00:00",
+  "reviewer": "Internal C read-only novelty/source reviewer; not A/B independent acknowledgement",
+  "reviewed_proposal_path": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V1.json",
+  "reviewed_proposal_SHA256": "8c7d7ef6c50122d18838211c808096c9b2d4c077c86cc8c2fc93f447105206d5",
+  "status": "PASS_SCOPED_FEASIBILITY_WITH_PRE_EXECUTION_CLARIFICATIONS",
+  "scope": "Metadata/code/hash/algebra only. No source HTTP, full PBP rebuild, NFL feature trace, fit, inference, grade or comparative score.",
+  "novelty": {
+    "nearest": "receiving_profiles_c02.py:109-122 descriptive same-passer receiver targeting; predictive inclusion explicitly queued in completion-decision README",
+    "actual_predictive_omissions": [
+      "receiving_increment_c03.py:54-57 matrix feature construction",
+      "information_skill_features_c01.py:35-43 closed role/depth scalar"
+    ],
+    "distinct": "Latest eligible complete team-game passer mix shift interacting with eight-appearance dyad preference; not same-window marginal target share, new name, or static defense scalar.",
+    "limit": "Inspected C code/contracts only; no claim all inaccessible Astra/peer code was independently inspected."
+  },
+  "algebra": {
+    "status": "PASS_ANALYTIC_METADATA_FIXTURE_NOT_NFL_EVIDENCE",
+    "same_window_unshrunk_weighted_rate": 0.26,
+    "marginal_target_share": 0.26,
+    "new_shift_value": -0.06720000000000001,
+    "equal_mixtures_value": 0,
+    "equal_preferences_value": 0,
+    "required_q_domain": "Union of native passer IDs from player history and latest team game, plus explicit unknown-passer bucket; retain identified non-QB identities/role labels. Both weight vectors sum to one when denominators qualify."
+  },
+  "source_hashes": [
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "bytes": 479880,
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "status": "MATCH"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "bytes": 604500,
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "status": "MATCH"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "bytes": 271301,
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "status": "MATCH"
+    }
+  ],
+  "source_contract": {
+    "fields": "Existing PBP native passer/receiver/game/play/team identities and credited attempt flags; all-position ordinary facts qualify historical passer roles and attempt/target/completion reconciliation.",
+    "availability": "Current-vintage strict prior kickoff+7day reconstruction only; retrieval/load/publication clocks are not interchangeable. No authenticated historical personnel or starter inference.",
+    "denominator": "Receiver targets on exact same earlier passer attempts in qualified explicit player appearances; unknown/absent is not zero or inactive. Unknown/unallocated receiver attempts stay in attempt totals.",
+    "blocked": "Routes/alignment/coverage personnel remain unavailable; this proposal does not stand in for those fields."
+  },
+  "model_and_controls": {
+    "fixed_settings_match": "laws_v2.py::ThresholdModel MONOTONE_HGB:32 iterations/depth3/leaf20/lr.05/L2=10/seed1701/no early stopping",
+    "parent": "Strong retained P3/E0 direct155/268 on exact native WRTE panel; Leaf152/268 and constant controls retained",
+    "arms": "C0 unchanged saved direct; C1 same learner plus support; C2 same learner plus sole I_p value. No new relationship family, tuning or second model search.",
+    "typing": "Direct exact-line CDF probabilities/direction only; no candidate count mean, median, full-law NLL or EV fabricated."
+  },
+  "coverage": {
+    "weeks": [
+      2,
+      3
+    ],
+    "eligible": 295,
+    "board_known_outcomes": 268,
+    "board_unknown_outcomes": 27,
+    "nine_week_actual_offer_qualification": false,
+    "exposed": true,
+    "quote_timing": "UNVERIFIED",
+    "main_alternate": "UNCLASSIFIED",
+    "five_week_primary_floor_unmet": true
+  },
+  "clarifications_before_GO": [
+    {
+      "id": "CLOCK_SPLIT",
+      "finding": "Proposal chronology phrase kickoff+7d<origin is ambiguous between weekly fit origin and game-specific query cutoff. Exact retained parent froze fits at week start and used game-specific query features.",
+      "required": "State training-label/transform cutoff separately from each query feature cutoff; preserve original32 consumed features and parent history semantics exactly. New block uses the declared corresponding cutoff, never target-game mixture."
+    },
+    {
+      "id": "FULL_SYSTEM_C0_COVERAGE",
+      "finding": "Strong saved direct historically has272 available/295,268 decided,4 selected unknown and23 unavailable; board total unknown is27. Augmentations may have295 available/27 unknown.",
+      "required": "Preserve per-arm complete-system availability/unknowns and named common268 comparisons. Do not describe all27 as selected-unknown for unchanged C0, or silently classify technical missingness as abstention. Exact retained-model inference recovery is a separately declared output-preserving step if chosen, not a refit."
+    },
+    {
+      "id": "WEIGHT_UNIVERSE",
+      "finding": "Unseen passer prior is correctly specified, but union weight domain should be explicit.",
+      "required": "Use both-history union and unknown bucket; validate complete normalized mixtures, missing denominator states and no discarded/non-QB mass."
+    }
+  ],
+  "execution_gates": {
+    "resource": "REQUEST_ONLY_NOT_GRANTED:120CPU/300wall/5fits including30CPU completion reserve; old37/40 attempt ledger cannot silently supply4+1.",
+    "pending_inside_requested_lease": [
+      "NFL dyad identity/denominator/clock trace",
+      "full-context prohibited-future mutation and consumed-design check",
+      "same-batch/single safe-restoration parity",
+      "measured remaining path cost before fits/scoring"
+    ],
+    "no_NFL_fixture_PASS_claimed": true,
+    "primary_activation": false
+  },
+  "new_HTTP": 0,
+  "new_PBP_builds": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_grades": 0,
+  "process_CPU_seconds": 0.0040351740000000025,
+  "accounting": "Charge one conservative metadata CPU second for this scoped review, including measured hash/algebra script and setup/read overhead; no new allowance, model budget or A M3 allowance is used.",
+  "root_clarification_acknowledgment": {
+    "recorded_UTC": "2026-11-16T17:23:34.273983+00:00",
+    "state": "ROOT_ACCEPTED_PRE_GO_CONTRACT_REQUIREMENTS;PROPOSAL_AMENDMENT_TO_BE_BOUND_BEFORE_ANY_EXECUTION",
+    "requirements": [
+      "Preserve parent label/training-origin admission, historical training-feature cutoffs and game-specific query feature clocks separately; original32 consumed inputs unchanged.",
+      "Stable295 opportunity board with27 unknown outcomes. SavedC0 retains272available/268decided/4selectedunknown/23technicalunavailable; no saved-parent inference recovery in this initial package.",
+      "Named268 common-case comparison plus independently reported/measured full-system arm availability; no coverage change attributed to I_p.",
+      "Explicit union of history/latest native passer IDs plus unknown bucket; retain non-QB identities and validate both normalized mixtures."
+    ],
+    "new_source_or_fit_work": 0
+  }
+}

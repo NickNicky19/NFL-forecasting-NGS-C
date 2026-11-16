@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 155178,
-    "SHA256": "c3f6b4688d373602ba97e6bfb90ce01ff34e9a0e9b0d0bfb0fe2bef565cbd345"
+    "bytes": 157916,
+    "SHA256": "ca51111962124f4980a45fa580bfaf69503c18383e23fd7645d960e371913814"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -1104,9 +1104,9 @@
     },
     "current_shadow_state": "SERVER_PREGAME_QUALIFIED_THEN_CURRENT_USE_EXPIRED;RETAINED_FORECAST_ONLY;ORIGINAL_FIRST_SNAPSHOT_PRESERVED",
     "coverage_matrix": {
-      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V9.csv.gz",
-      "bytes": 2897594,
-      "SHA256": "a5581dfa7e601268910077a6cb396e166f157e9703fd97c99478b87b2742f316"
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V10.csv.gz",
+      "bytes": 2899087,
+      "SHA256": "e38f670ae3aaf65608c412096ef4f376deab537c82db52fc190c43e74c5b9e62"
     },
     "coverage_scope_amendment": {
       "path": "reports/category-decision-release-01/COVERAGE_SCOPE_AMENDMENT.json",
@@ -2867,43 +2867,15 @@
     "current_status": "ACTUAL_A_SKILL_EARLY_AND_B_OPPORTUNITY_ADMITTED;A_M3_ADAPTER_BUDGET_STOP;NO_PRIMARY_PROMOTION",
     "original_fields_are_historical_snapshot": true,
     "current_A_M3_accounting": {
-      "owner": "A registered protected-join executor",
-      "state": "NO_NEW_C_GRADES",
-      "native_source_rows": 142,
-      "reference_rows": 142,
-      "common_source_rows": 142,
-      "differences": {
-        "game_id": 2,
-        "kickoff_utc": 2,
-        "cutoff_utc": 2
-      },
-      "known_dual_clock_admission": {
-        "event": "401873047",
-        "canonical_game": "2026_09_LV_SF",
-        "source_clock": "2026-11-08T21:25:00+00:00",
-        "canonical_query_clock": "2026-11-08T21:05:00+00:00"
-      },
-      "repair_status": "REUSE_EXISTING_DUAL_CLOCK_EVENT_ADMISSION;PRESERVE_FULL142_MASK;NOT_EXECUTED",
-      "required_verification": "Use already-admitted dual-clock proof preserving source and canonical clocks and canonicalT90; full142identity/fingerprint parity required; no tolerance change/drop/chronologychange. A scoped adapter review+small relevant existingfixture beforeanyworker.",
-      "repaired_fixture_PASS_received": false,
-      "new_C_grades": 0,
-      "new_C_selections": 0,
-      "charged_CPU": 1056.334180015,
-      "cap": 1260,
-      "recorded_remaining_total_including_reserves": 203.6658199850001,
-      "retention_reserve": 120,
-      "reporting_reserve": 20,
-      "recorded_remaining_before_reserves": 63.6658199850001,
-      "metering_limit": "Includes carried failures/reconciled measuredtail;15conservative failedmetadata charge+1.948517 diagnosis. Not complete all-process CPU certificate. Carry any legitimate newerconsumption.",
-      "owner_reports_complete_worker_safely_fits": false,
-      "new_full_worker_started_after_stop": false,
-      "additional_CPU_granted_by_current_continuation": 0,
-      "exact_extra_CPU_request_published": null,
-      "remaining_A_owned_artifact": "Scoped repair/fixture result and one bounded completion request withlatestcharge/reusablecheckpoints/stages/reserves andexactextraamount iffullcompletioncannotfit; do not inventrequestorstartstalebudgetworker.",
-      "retained_growth_bytes": 809657,
-      "stage_bytes": 0,
-      "M1_unchanged": true,
-      "B_join_and_C_new_information_budgets_separate": true
+      "CPU_cap": 1660,
+      "wall_cap": 2250,
+      "CPU_increment_once": 400,
+      "wall_increment_once": 450,
+      "retention_CPU_reserve": 120,
+      "reporting_CPU_reserve": 20,
+      "exact_current_charge": "A carries actual private ledger and all failures/overhead; not imported or inferred from public summary",
+      "state": "AUTHORIZED_OWNER_COMPLETION_PENDING_BALANCE_AND_RETAINED_BINDING_CHECK",
+      "no_C_worker_or_budget_transfer": true
     }
   },
   "executed_receipts_gap_closure_01": {
@@ -3062,6 +3034,100 @@
       "path": "reports/information-skill-01/executed-receipts-gap-closure-01/ci-repair-01/REPAIR_RECEIPT.json",
       "bytes": 1583,
       "SHA256": "ec79795c81fa659e0f0c75f88a423a64570c3cbe11bdbc930534ea6845a7795e"
+    },
+    "superseded_forward_by": {
+      "path": "reports/information-skill-01/predictive-value-next-01/ADMISSION.json",
+      "bytes": 3246,
+      "SHA256": "57d2907b863316667593097c3d1994b0b278cbad279ab587e1a0f1151a503d1f"
+    }
+  },
+  "predictive_value_next_01": {
+    "id": "INFORMATION-SKILL-01-PREDICTIVE-VALUE-NEXT-01-C",
+    "stage": "M3_FIXTURE_AND_B_REVIEW_RECEIVED;NO_M3_GRADES;ONE_C_PROPOSAL_REQUIRES_ALLOCATION",
+    "report": {
+      "path": "reports/information-skill-01/predictive-value-next-01/README.md",
+      "bytes": 12206,
+      "SHA256": "3b9dcdc18858e679bf7aeb7447f3ec95b26d012c4b7aa2af134e0207534446fc"
+    },
+    "registration": {
+      "path": "reports/information-skill-01/predictive-value-next-01/REGISTRATION.json",
+      "bytes": 1674,
+      "SHA256": "01f624eb495904b9c66441afc4629078f7135ecee17b0b418d5dbc9463ebef07"
+    },
+    "admission": {
+      "path": "reports/information-skill-01/predictive-value-next-01/ADMISSION.json",
+      "bytes": 3246,
+      "SHA256": "57d2907b863316667593097c3d1994b0b278cbad279ab587e1a0f1151a503d1f"
+    },
+    "queue": {
+      "path": "reports/information-skill-01/predictive-value-next-01/FINITE_QUEUE.json",
+      "bytes": 5534,
+      "SHA256": "1b135daca843bda570f1b0f0f3290da69d122b6ad94ea3ae11f3de2a6c90223b"
+    },
+    "proposal": {
+      "path": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V2.json",
+      "bytes": 10297,
+      "SHA256": "4abca1a6ef8b1dbdb20e861b09f02381f04449069f8aedb612e374f5f4d10965"
+    },
+    "proposal_request": {
+      "dedicated_CPU_seconds": 120,
+      "dedicated_wall_seconds": 300,
+      "fit_attempts_max_including_failures": 5,
+      "fit_plan": "2origins x2augmentationarms=4 fits; atmost1independentrepresentativefit. Reuse parent and strongcontrols.",
+      "completion_checks_retention_CPU_reserve_included": 30,
+      "preflight_before_comparative_scores": "Check actual remaining stagecost and reserves; no automatic extension.",
+      "fit_workers": 1,
+      "threads": 1,
+      "RSS_bytes_max": 1288490188,
+      "new_public_bytes_max": 33554432,
+      "whole_C_bytes_cap_unchanged": 2684354560,
+      "new_raw_source_GETs": 0,
+      "new_paid_spending_or_API_allowance": 0,
+      "state": "REQUEST_ONLY_NOT_GRANTED",
+      "other_allocations_unchanged": "No use of A M3 CPU/wall, old C M3 closed distribution balance, or automatic reset/reuse of spent C INFORMATION budget."
+    },
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V10.csv.gz",
+      "bytes": 2899087,
+      "SHA256": "e38f670ae3aaf65608c412096ef4f376deab537c82db52fc190c43e74c5b9e62"
+    },
+    "coverage_append": {
+      "path": "reports/information-skill-01/predictive-value-next-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 770,
+      "SHA256": "6e7a34fbe6467f3d6ef607c2ed63efef4b6a3ec0287c097f2d3216654f982ec8"
+    },
+    "A_M3_authority": {
+      "CPU_cap": 1660,
+      "wall_cap": 2250,
+      "CPU_increment_once": 400,
+      "wall_increment_once": 450,
+      "retention_CPU_reserve": 120,
+      "reporting_CPU_reserve": 20,
+      "exact_current_charge": "A carries actual private ledger and all failures/overhead; not imported or inferred from public summary",
+      "state": "AUTHORIZED_OWNER_COMPLETION_PENDING_BALANCE_AND_RETAINED_BINDING_CHECK",
+      "no_C_worker_or_budget_transfer": true
+    },
+    "B_independent_SKILL_review": "ACTUALLY_RECEIVED_PUBLIC_AGGREGATE_AND_NATIVE_BINDING_SCOPE",
+    "new_C_predictive_experiment_executed": false,
+    "new_C_fits": 0,
+    "new_grades_or_offered_weeks": 0,
+    "original_site_changed": false,
+    "primary_activation": false,
+    "later_roster_only": true,
+    "resources": {
+      "path": "reports/information-skill-01/predictive-value-next-01/RESOURCE_CLOSURE.json",
+      "bytes": 1736,
+      "SHA256": "b35dcfa07d130389ddf0769a983fdbb9a091833edcb2240fa97d097463658bde"
+    },
+    "validation": {
+      "path": "reports/information-skill-01/predictive-value-next-01/VALIDATION.json",
+      "bytes": 740,
+      "SHA256": "5c89521ec9792ce2f06eecc569385c69e355a3709cf482d48eed2d75a2c86e21"
+    },
+    "sealed_manifest": {
+      "path": "reports/information-skill-01/predictive-value-next-01/MANIFEST.json",
+      "bytes": 4604,
+      "SHA256": "cae3820cb30d486344a8a68a999753a38807ee4115e95d1a559946f00b9c117a"
     }
   }
 }

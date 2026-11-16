@@ -288,5 +288,94 @@
       "bytes": 1505,
       "SHA256": "45eeca9bebf330215f4789efaad792854eb307f42be6a68bbed4f13bf4726a0e"
     }
+  },
+  "predictive_value_next_01": {
+    "id": "INFORMATION-SKILL-01-PREDICTIVE-VALUE-NEXT-01-C",
+    "stage": "M3_FIXTURE_AND_B_REVIEW_RECEIVED;NO_M3_GRADES;ONE_C_PROPOSAL_REQUIRES_ALLOCATION",
+    "report": {
+      "path": "reports/information-skill-01/predictive-value-next-01/README.md",
+      "bytes": 12206,
+      "SHA256": "3b9dcdc18858e679bf7aeb7447f3ec95b26d012c4b7aa2af134e0207534446fc"
+    },
+    "registration": {
+      "path": "reports/information-skill-01/predictive-value-next-01/REGISTRATION.json",
+      "bytes": 1674,
+      "SHA256": "01f624eb495904b9c66441afc4629078f7135ecee17b0b418d5dbc9463ebef07"
+    },
+    "admission": {
+      "path": "reports/information-skill-01/predictive-value-next-01/ADMISSION.json",
+      "bytes": 3246,
+      "SHA256": "57d2907b863316667593097c3d1994b0b278cbad279ab587e1a0f1151a503d1f"
+    },
+    "queue": {
+      "path": "reports/information-skill-01/predictive-value-next-01/FINITE_QUEUE.json",
+      "bytes": 5534,
+      "SHA256": "1b135daca843bda570f1b0f0f3290da69d122b6ad94ea3ae11f3de2a6c90223b"
+    },
+    "proposal": {
+      "path": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V2.json",
+      "bytes": 10297,
+      "SHA256": "4abca1a6ef8b1dbdb20e861b09f02381f04449069f8aedb612e374f5f4d10965"
+    },
+    "proposal_request": {
+      "dedicated_CPU_seconds": 120,
+      "dedicated_wall_seconds": 300,
+      "fit_attempts_max_including_failures": 5,
+      "fit_plan": "2origins x2augmentationarms=4 fits; atmost1independentrepresentativefit. Reuse parent and strongcontrols.",
+      "completion_checks_retention_CPU_reserve_included": 30,
+      "preflight_before_comparative_scores": "Check actual remaining stagecost and reserves; no automatic extension.",
+      "fit_workers": 1,
+      "threads": 1,
+      "RSS_bytes_max": 1288490188,
+      "new_public_bytes_max": 33554432,
+      "whole_C_bytes_cap_unchanged": 2684354560,
+      "new_raw_source_GETs": 0,
+      "new_paid_spending_or_API_allowance": 0,
+      "state": "REQUEST_ONLY_NOT_GRANTED",
+      "other_allocations_unchanged": "No use of A M3 CPU/wall, old C M3 closed distribution balance, or automatic reset/reuse of spent C INFORMATION budget."
+    },
+    "coverage_ledger": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V10.csv.gz",
+      "bytes": 2899087,
+      "SHA256": "e38f670ae3aaf65608c412096ef4f376deab537c82db52fc190c43e74c5b9e62"
+    },
+    "coverage_append": {
+      "path": "reports/information-skill-01/predictive-value-next-01/LEDGER_APPEND_RECEIPT.json",
+      "bytes": 770,
+      "SHA256": "6e7a34fbe6467f3d6ef607c2ed63efef4b6a3ec0287c097f2d3216654f982ec8"
+    },
+    "A_M3_authority": {
+      "CPU_cap": 1660,
+      "wall_cap": 2250,
+      "CPU_increment_once": 400,
+      "wall_increment_once": 450,
+      "retention_CPU_reserve": 120,
+      "reporting_CPU_reserve": 20,
+      "exact_current_charge": "A carries actual private ledger and all failures/overhead; not imported or inferred from public summary",
+      "state": "AUTHORIZED_OWNER_COMPLETION_PENDING_BALANCE_AND_RETAINED_BINDING_CHECK",
+      "no_C_worker_or_budget_transfer": true
+    },
+    "B_independent_SKILL_review": "ACTUALLY_RECEIVED_PUBLIC_AGGREGATE_AND_NATIVE_BINDING_SCOPE",
+    "new_C_predictive_experiment_executed": false,
+    "new_C_fits": 0,
+    "new_grades_or_offered_weeks": 0,
+    "original_site_changed": false,
+    "primary_activation": false,
+    "later_roster_only": true,
+    "resources": {
+      "path": "reports/information-skill-01/predictive-value-next-01/RESOURCE_CLOSURE.json",
+      "bytes": 1736,
+      "SHA256": "b35dcfa07d130389ddf0769a983fdbb9a091833edcb2240fa97d097463658bde"
+    },
+    "validation": {
+      "path": "reports/information-skill-01/predictive-value-next-01/VALIDATION.json",
+      "bytes": 740,
+      "SHA256": "5c89521ec9792ce2f06eecc569385c69e355a3709cf482d48eed2d75a2c86e21"
+    },
+    "sealed_manifest": {
+      "path": "reports/information-skill-01/predictive-value-next-01/MANIFEST.json",
+      "bytes": 4604,
+      "SHA256": "cae3820cb30d486344a8a68a999753a38807ee4115e95d1a559946f00b9c117a"
+    }
   }
 }
