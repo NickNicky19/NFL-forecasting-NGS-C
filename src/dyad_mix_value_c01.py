@@ -350,12 +350,13 @@ def fit_all(budget):
 
 def score(budget):
     assert (OUT/'RAW_GRADES_COMPLETE.json').exists()
-    raw=read(OUT/'RAW_GRADED_ROWS.json.gz');groups=defaultdict(list)
+    raw=read(OUT/('RAW_GRADED_ROWS_ALL_CONTROLS_V2.json.gz' if (OUT/'RAW_CONTROLS_APPEND.json').exists() else 'RAW_GRADED_ROWS.json.gz'));groups=defaultdict(list)
     for r in raw:groups[(r['arm'],r['product'])].append(r)
     # Use existing grader/view implementation; no numerical point fabricated.
     views.summarize(raw,[],OUT/'scores')
     pairs=[]
-    for c,k in [('C2_VALUE','C1_SUPPORT'),('C2_VALUE','C0_SAVED_P3'),('C1_SUPPORT','C0_SAVED_P3'),('C2_VALUE','LEAF')]:
+    for c,k in [('C2_VALUE','C1_SUPPORT'),('C2_VALUE','C0_SAVED_P3'),('C1_SUPPORT','C0_SAVED_P3'),('C2_VALUE','LEAF'),
+                ('C2_VALUE','CONTROL_EARLIER_PREVALENCE_V8'),('C2_VALUE','CONTROL_RETAINED_P2_LAW')]:
         pairs.append(dict(candidate=c,control=k,**views._paired(groups[(c,'LAW')],groups[(k,'LAW')])))
     write(OUT/'scores/DECLARED_PAIRS.json.gz',pairs)
     source_groups=[]
@@ -366,9 +367,10 @@ def score(budget):
     write(OUT/'scores/SOURCE_GROUPS.json.gz',source_groups)
     memberships=read(OUT/'scores/SELECTED_MEMBERSHIP.json.gz')['rows'];lists=defaultdict(list)
     for r in memberships:lists[(r['arm'],r['side_scope'],r['policy'])].extend(r['selected_offer_ids'])
-    boards={a:{r['offer_id']:r for r in groups[(a,'LAW')]} for a in ['C0_SAVED_P3','C1_SUPPORT','C2_VALUE','LEAF']}
+    boards={a:{r['offer_id']:r for r in groups[(a,'LAW')]} for a in ['C0_SAVED_P3','C1_SUPPORT','C2_VALUE','LEAF','CONTROL_EARLIER_PREVALENCE_V8','CONTROL_RETAINED_P2_LAW']}
     own=[]
-    for c,k in [('C2_VALUE','C1_SUPPORT'),('C2_VALUE','C0_SAVED_P3'),('C1_SUPPORT','C0_SAVED_P3')]:
+    for c,k in [('C2_VALUE','C1_SUPPORT'),('C2_VALUE','C0_SAVED_P3'),('C1_SUPPORT','C0_SAVED_P3'),
+                ('C2_VALUE','LEAF'),('C2_VALUE','CONTROL_EARLIER_PREVALENCE_V8'),('C2_VALUE','CONTROL_RETAINED_P2_LAW')]:
         for side in ['COMBINED','OVER','UNDER']:
             for policy in sorted({key[2] for key in lists if key[:2]==(c,side)}):
                 ci=set(lists[(c,side,policy)]);ki=set(lists[(k,side,policy)])
@@ -407,8 +409,10 @@ def score(budget):
     write(OUT/'scores/COMPONENT.json',dict(metrics=metric,rows=components,
         scope='Conditional-on-qualified participation target share diagnostic. Realized team attempts form outcome denominator only, never query input. Not a reception mean forecast or actual-line gain.'))
     budget.check()
+    independent=OUT.parent/'verification/independent-fit/RESULT.json'
     write(OUT/'RUN_COMPLETE.json',dict(status='FROZEN_FOUR_AUGMENTATION_FITS_AND_SCORING_COMPLETE',
-        independent_representative_fit='PENDING_WITHIN_FIFTH_SLOT',actual_offer_weeks=[2,3],
+        independent_representative_fit=('SEE_RETAINED_INDEPENDENT_RESULT' if independent.exists()
+                                        else 'PENDING_WITHIN_FIFTH_SLOT'),actual_offer_weeks=[2,3],
         exposed_history=True,primary_activation=False,point_mean_median=None))
 
 def main():

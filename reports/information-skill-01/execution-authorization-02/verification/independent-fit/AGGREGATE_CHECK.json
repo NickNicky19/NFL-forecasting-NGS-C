@@ -1,0 +1,249 @@
+{
+  "id": "C-DYAD-INDEPENDENT-ALL-RAW-AGGREGATE-v1",
+  "recorded_UTC": "2026-11-16T23:50:32.574028+00:00",
+  "status": "PASS_INDEPENDENT_NO_FIT_RAW_GRADES_AND_AGGREGATES",
+  "checks": 11324,
+  "raw_rows_checked": 590,
+  "arm_period_summaries": [
+    {
+      "arm": "C1_SUPPORT",
+      "week": "ALL",
+      "eligible": 295,
+      "available": 295,
+      "unknown": 27,
+      "states": {
+        "WIN": 155,
+        "LOSS": 113,
+        "UNKNOWN_PARTICIPATION": 27
+      },
+      "explicit_played_zeros": 19,
+      "OVER": {
+        "selected": 74,
+        "wins": 38,
+        "losses": 22,
+        "decided": 60,
+        "rate": 0.6333333333333333
+      },
+      "UNDER": {
+        "selected": 221,
+        "wins": 117,
+        "losses": 91,
+        "decided": 208,
+        "rate": 0.5625
+      },
+      "COMBINED": {
+        "selected": 295,
+        "wins": 155,
+        "losses": 113,
+        "decided": 268,
+        "rate": 0.5783582089552238
+      },
+      "independent_Brier_half_multiclass": 0.2641086577930243,
+      "independent_log_loss": 0.728988341457127
+    },
+    {
+      "arm": "C1_SUPPORT",
+      "week": 2,
+      "eligible": 147,
+      "available": 147,
+      "unknown": 15,
+      "states": {
+        "WIN": 74,
+        "LOSS": 58,
+        "UNKNOWN_PARTICIPATION": 15
+      },
+      "explicit_played_zeros": 9,
+      "OVER": {
+        "selected": 35,
+        "wins": 17,
+        "losses": 12,
+        "decided": 29,
+        "rate": 0.5862068965517241
+      },
+      "UNDER": {
+        "selected": 112,
+        "wins": 57,
+        "losses": 46,
+        "decided": 103,
+        "rate": 0.5533980582524272
+      },
+      "COMBINED": {
+        "selected": 147,
+        "wins": 74,
+        "losses": 58,
+        "decided": 132,
+        "rate": 0.5606060606060606
+      },
+      "independent_Brier_half_multiclass": 0.27634077173249555,
+      "independent_log_loss": 0.7578423865327533
+    },
+    {
+      "arm": "C1_SUPPORT",
+      "week": 3,
+      "eligible": 148,
+      "available": 148,
+      "unknown": 12,
+      "states": {
+        "WIN": 81,
+        "LOSS": 55,
+        "UNKNOWN_PARTICIPATION": 12
+      },
+      "explicit_played_zeros": 10,
+      "OVER": {
+        "selected": 39,
+        "wins": 21,
+        "losses": 10,
+        "decided": 31,
+        "rate": 0.6774193548387096
+      },
+      "UNDER": {
+        "selected": 109,
+        "wins": 60,
+        "losses": 45,
+        "decided": 105,
+        "rate": 0.5714285714285714
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 81,
+        "losses": 55,
+        "decided": 136,
+        "rate": 0.5955882352941176
+      },
+      "independent_Brier_half_multiclass": 0.2522363119105963,
+      "independent_log_loss": 0.700982944766078
+    },
+    {
+      "arm": "C2_VALUE",
+      "week": "ALL",
+      "eligible": 295,
+      "available": 295,
+      "unknown": 27,
+      "states": {
+        "WIN": 155,
+        "LOSS": 113,
+        "UNKNOWN_PARTICIPATION": 27
+      },
+      "explicit_played_zeros": 19,
+      "OVER": {
+        "selected": 74,
+        "wins": 38,
+        "losses": 22,
+        "decided": 60,
+        "rate": 0.6333333333333333
+      },
+      "UNDER": {
+        "selected": 221,
+        "wins": 117,
+        "losses": 91,
+        "decided": 208,
+        "rate": 0.5625
+      },
+      "COMBINED": {
+        "selected": 295,
+        "wins": 155,
+        "losses": 113,
+        "decided": 268,
+        "rate": 0.5783582089552238
+      },
+      "independent_Brier_half_multiclass": 0.2641086577930243,
+      "independent_log_loss": 0.728988341457127
+    },
+    {
+      "arm": "C2_VALUE",
+      "week": 2,
+      "eligible": 147,
+      "available": 147,
+      "unknown": 15,
+      "states": {
+        "WIN": 74,
+        "LOSS": 58,
+        "UNKNOWN_PARTICIPATION": 15
+      },
+      "explicit_played_zeros": 9,
+      "OVER": {
+        "selected": 35,
+        "wins": 17,
+        "losses": 12,
+        "decided": 29,
+        "rate": 0.5862068965517241
+      },
+      "UNDER": {
+        "selected": 112,
+        "wins": 57,
+        "losses": 46,
+        "decided": 103,
+        "rate": 0.5533980582524272
+      },
+      "COMBINED": {
+        "selected": 147,
+        "wins": 74,
+        "losses": 58,
+        "decided": 132,
+        "rate": 0.5606060606060606
+      },
+      "independent_Brier_half_multiclass": 0.27634077173249555,
+      "independent_log_loss": 0.7578423865327533
+    },
+    {
+      "arm": "C2_VALUE",
+      "week": 3,
+      "eligible": 148,
+      "available": 148,
+      "unknown": 12,
+      "states": {
+        "WIN": 81,
+        "LOSS": 55,
+        "UNKNOWN_PARTICIPATION": 12
+      },
+      "explicit_played_zeros": 10,
+      "OVER": {
+        "selected": 39,
+        "wins": 21,
+        "losses": 10,
+        "decided": 31,
+        "rate": 0.6774193548387096
+      },
+      "UNDER": {
+        "selected": 109,
+        "wins": 60,
+        "losses": 45,
+        "decided": 105,
+        "rate": 0.5714285714285714
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 81,
+        "losses": 55,
+        "decided": 136,
+        "rate": 0.5955882352941176
+      },
+      "independent_Brier_half_multiclass": 0.2522363119105963,
+      "independent_log_loss": 0.700982944766078
+    }
+  ],
+  "paired_C2_C1": {
+    "common_decided": 268,
+    "side_disagreements": 0,
+    "C2_only_wins": 0,
+    "C1_only_wins": 0
+  },
+  "source_bindings": {
+    "reports/targeted-accuracy-w1w9-01/M3/inputs/NATIVE_OFFERS.json.gz": "d3b8a2b6d9ae9ce1a93b561d60965658511e479f109e274002b0ab0eb65e462f",
+    "reports/information-skill-01/execution-authorization-02/pilot/scores/RESULTS.json.gz": "8ca7d7437fc9bbf69726c5aa5e36bcd57ba53960bd6c3aa013c77130c725c441",
+    "reports/information-skill-01/execution-authorization-02/pilot/raw/W2-C1_SUPPORT.json.gz": "5ead7723fdfeecb314fc4879c361d821be7647bcc24d5167f47f66c33562c88c",
+    "reports/information-skill-01/execution-authorization-02/pilot/raw/W3-C1_SUPPORT.json.gz": "e7b95a64006fe7f1188394dd248777b81e2bfcc13103db34abe0cbc277bd821a",
+    "reports/information-skill-01/execution-authorization-02/pilot/raw/W2-C2_VALUE.json.gz": "021367dfe70125ff48f06401cc70b76045e70f2635581f18eb7dc593940513f2",
+    "reports/information-skill-01/execution-authorization-02/pilot/raw/W3-C2_VALUE.json.gz": "b3886e20de184e420f03b8c6636874d27b2ef0dd0b9be132b13422fe097266af"
+  },
+  "source_nulls_preserved": true,
+  "source_played_zeros_preserved": true,
+  "no_author_grader_import": true,
+  "no_fit_or_model_inference": true,
+  "new_source_GETs": 0,
+  "parent_LEDGER_not_modified": true,
+  "process_CPU_seconds": 0.254038483,
+  "conservative_reporting_to_root_CPU_charge": 2.0,
+  "charge_rule": "One charge only: remaining2 of original10 independent-subtaskCPU ceiling; root appends after its own activeprocess. No pilot extension.",
+  "scope": "Exact retained input/probability/grade arithmetic. Does not authenticate historical source vintages, verify every source-presence claim from rawproviderbytes, or reproduce more fits."
+}
