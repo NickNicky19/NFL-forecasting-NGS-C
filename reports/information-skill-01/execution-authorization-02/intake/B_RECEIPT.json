@@ -1,0 +1,173 @@
+{
+  "id": "C-EXECUTION-AUTHORIZATION-02-B-RECEIPT",
+  "received_UTC": "2026-11-16T23:09:30.829869+00:00",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "actual_head_once": "7350a9b68775bda029cdaac8d3aeaecdb5e1c848",
+  "scientific_package_pin": "3a169a8bb39cc45f4f1dead0f2c9b18166ae3437",
+  "public_request": {
+    "path": "reports/predictive-value-next-01/B/BOUNDED_EXECUTION_REQUEST_V1.json",
+    "commit": "7350a9b68775bda029cdaac8d3aeaecdb5e1c848",
+    "normalized_UTF8_SHA256": "ba29cbd93d96c8298535a13284c997a3f08a69982cfe328e3b2ba9fd135b0868",
+    "bytes": 3392
+  },
+  "public_proposal": {
+    "path": "reports/predictive-value-next-01/B/FROZEN_PILOT_PROPOSAL_V1.json",
+    "commit": "7350a9b68775bda029cdaac8d3aeaecdb5e1c848",
+    "normalized_UTF8_SHA256": "c6208126a8d98ab24b902127c43276bdf59c64b5a72cbee70ec4c94d57974fa4",
+    "bytes": 13199
+  },
+  "experiment": "B-TABICLV2-CMP-DIRECT-PILOT-v1",
+  "actual_received_state": "FROZEN_REQUEST_AND_PROPOSAL_PUBLISHED;NO_RUNTIME_CANARY_OR_RESULT_RECEIPT_OBTAINED",
+  "request_not_granted_text_is_historical": true,
+  "new_user_authorization": {
+    "CPU_cumulative_cap": 600,
+    "wall_cumulative_cap": 1200,
+    "threads_max": 2,
+    "RSS_max_bytes": 2147483648,
+    "runtime_storage_max_bytes": 1073741824,
+    "public_retention_max_bytes": 16777216,
+    "completion_reserve_CPU_and_wall_each": 180,
+    "first_origin_ungraded_canary_CPU_max": 90,
+    "context_builds_max": 3,
+    "ordinary_logistic_fits_max": 3,
+    "configuration_and_seed_frozen": true,
+    "no_transfer_or_reset": true
+  },
+  "candidate": "PinnedTabICLv2directhalfpointcompletionOvereventclassifier;onecheckpoint8estimators/noautodownload/CPUonly/safeloaderrequired",
+  "comparator": "Sameinformationfixedregularizedlogistic,retainedB0/B2/prevalence/constants",
+  "context_populations": {
+    "complete_system_weeks": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "reference_fallback_weeks": [
+      5,
+      6
+    ],
+    "learned_weeks": [
+      7,
+      8,
+      9
+    ],
+    "system_rows": 142,
+    "fallback_rows": 56,
+    "learned_rows": 86,
+    "earlier_context_examples": [
+      28,
+      56,
+      86
+    ]
+  },
+  "typing": "ExactofferedhalfpointP(actualcompletions>line);notcountmean/MAEorfullcountlaw",
+  "data_tier": "Retainedrealquotes;unknownquotetime;unclassifiedmain/alternate;current-vintage7dayconditionalreconstruction;all2026exposed",
+  "results": {
+    "fits_from_retrieved_proposal": 0,
+    "new_predictions_from_retrieved_proposal": 0,
+    "new_grades_from_retrieved_proposal": 0,
+    "actual_current_execution": "NOT_VERIFIED;DONOTCALLUNEXECUTEDPILOTANACCURACYLOSS"
+  },
+  "next_owner_action": "Bverifiesexactcheckpoint/dependency/license/safe-loading/source-retention/controller,metersfirstoriginwithoutqualityinspection,thenremainingcostprojectionandfrozenW8/W9onlyifallcaps/reservesfit.",
+  "M4": "Separatequalifiedindependent-priceinputremainssource-dependent;noCsourcequalificationorpricecollectionperformed",
+  "C1_and_opportunity_team_fit": "FAILEDunchanged;noadditionalreproductionretry",
+  "history_contribution": "Frozenpilotnearest-equivalentlistreceived;completeownerverifiedmethodhistorynotprovidedbythesetwofiles",
+  "verification_limit": "Publicrequest/proposalreceiptandconfigurationonly;notcheckpointbytes/runtime/modelinference/privatecontextsorfitreproduction",
+  "request_accounting": {
+    "GETs": 3,
+    "GET_cap": 3,
+    "normalized_UTF8_bytes": 17055,
+    "bytes_cap": 2097152,
+    "no_further_poll": true
+  },
+  "protected_context_weights_private_locators_imported": false,
+  "scientific_gain_claim": false,
+  "public_model_pin_metadata": {
+    "code_repository": "soda-inria/tabicl",
+    "code_commit": "a626a1b67049b0b1748ebe8c92f7df40aaebd334",
+    "package_version": "2.2.0",
+    "checkpoint_repository": "jingang/TabICL",
+    "checkpoint_revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "checkpoint_file": "tabicl-classifier-v2-20260212.ckpt",
+    "expected_checkpoint_bytes": 110368038,
+    "expected_checkpoint_sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+    "checkpoint_binary_obtained": false,
+    "license": "BSD-3-Clause classification code and checkpoint metadata; retain notice. Separate forecast code is excluded.",
+    "pretraining": "Publisher reports synthetic-prior pretraining; exact binary training contents/NFL exclusion and historic issuance not independently audited."
+  },
+  "frozen_configuration_metadata": {
+    "candidate": {
+      "n_estimators": 8,
+      "norm_methods": [
+        "none"
+      ],
+      "feat_shuffle_method": "latin",
+      "class_shuffle_method": "shift",
+      "outlier_threshold": 4,
+      "softmax_temperature": 0.9,
+      "average_logits": true,
+      "support_many_classes": false,
+      "batch_size": 8,
+      "kv_cache": false,
+      "allow_auto_download": false,
+      "checkpoint_version": "tabicl-classifier-v2-20260212.ckpt",
+      "device": "cpu",
+      "use_amp": false,
+      "use_fa3": false,
+      "offload_mode": false,
+      "random_state": 42,
+      "n_jobs": 2,
+      "verbose": false
+    },
+    "ordinary": {
+      "C": 1,
+      "solver": "lbfgs",
+      "max_iter": 1000,
+      "tol": 1e-06,
+      "class_weight": null,
+      "random_state": 42
+    },
+    "raw_feature_order": [
+      "mean3",
+      "n3",
+      "mean8",
+      "n8",
+      "lag1_value",
+      "lag1_age_days",
+      "lag1_missing",
+      "lag2_value",
+      "lag2_age_days",
+      "lag2_missing",
+      "lag3_value",
+      "lag3_age_days",
+      "lag3_missing",
+      "lag4_value",
+      "lag4_age_days",
+      "lag4_missing",
+      "position_QB",
+      "position_RB",
+      "position_WR",
+      "position_TE",
+      "offered_halfpoint_line"
+    ],
+    "expanded_feature_count": 42,
+    "orientation": "y=1 iff official actual completions > exact retained half-point offer. p_under=1-p_over; OVER if p_over>.5, UNDER if <.5, equality ABSTAIN. No numerical count/mean/median or implied PMF.",
+    "transform": "Shared training-only finite median imputation (all-missing=0), mean/std scaling (zero std=1), fixed z clipping at4, all-column missing indicators. NaN remains missing; infinity invalid. No query features or target outcomes determine transform parameters."
+  },
+  "nearest_completed_crosswalk": [
+    {
+      "experiment": "B M2",
+      "difference": "M2 changed completion-conversion dispersion with fixed attempts and means; this pilot directly estimates the half-point Over event from earlier actual-offer contexts, without changing or resampling the count law."
+    },
+    {
+      "experiment": "B INFORMATION-SKILL C0/C1/R0/R1 and opportunity-v1",
+      "difference": "Their contextual ratios, mixer and team/share changes are closed. This pilot reuses original own-history features plus the actual threshold, tests one different learned relation, and adds no old contextual block or confidence gate."
+    },
+    {
+      "experiment": "Earlier direct-threshold classifiers and proposed generic TabICL backlog",
+      "difference": "Finite local inventory found no exact TabICLv2 actual-offer completion classifier/checkpoint. Generic family names, other methods and private/unlocated peer experiments are not evidence of exact novelty. No claim every peer artifact was inspected."
+    }
+  ],
+  "model_binary_downloaded_or_loaded_by_C": false
+}

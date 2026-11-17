@@ -1,0 +1,67 @@
+{
+  "id": "C-METHOD-HISTORY-SUBSTANTIVE-BRANCH-CHECK",
+  "recorded_UTC": "2026-11-16T23:15:32.478314+00:00",
+  "rows": [
+    {
+      "branch": "research/ngs-raw-quality-v1",
+      "path": "protocol/REGISTERED_V1.json",
+      "read_status": "READ",
+      "head_commit": "8c80c6d2438417067f712ec39d8ab6197ffc94e0",
+      "bytes": 6302,
+      "SHA256": "16e878b5ef3e1f4a02f37e4019dc270f1248143815ecc81ee7013074475de4e3",
+      "same_bytes_as_current_path": true,
+      "schema_keys": [
+        "id",
+        "registered_at_UTC",
+        "selection_reason",
+        "status",
+        "categories",
+        "arms",
+        "primary_learner",
+        "ngs_groups",
+        "derived_metrics",
+        "feature_policy",
+        "training",
+        "population",
+        "periods",
+        "matching",
+        "fallback",
+        "objectives",
+        "offers",
+        "uncertainty",
+        "budget",
+        "retention",
+        "baseline_limit",
+        "queue"
+      ],
+      "records": null,
+      "scope": "Actual historical artifact bytes inspected; source-version evidence, not a new score or independent reproduction."
+    },
+    {
+      "branch": "research/2025-oof-calibration-v3",
+      "path": "reports/robustness-v3/CATEGORY_SUMMARY.csv",
+      "read_status": "READ",
+      "head_commit": "6b26cad7f7fffc4c000be79c472ec58c0a0f67f5",
+      "bytes": 3654,
+      "SHA256": "42ab2af737c44d9cad306cb66b2bc7b2b2694371b3de15bc829cc86d89e593f5",
+      "same_bytes_as_current_path": true,
+      "scope": "Actual historical artifact bytes inspected; source-version evidence, not a new score or independent reproduction."
+    },
+    {
+      "branch": "research/all12-github-site-v2",
+      "path": "reports/CATEGORY_REGISTRY_V2.json",
+      "read_status": "READ",
+      "head_commit": "5c59347be1825e695fdb3feeb90870ed53333278",
+      "bytes": 15257,
+      "SHA256": "4b69c84374adcf53d90cb36ba94f471ee832ee1a4cac0fbfc4924a6bf03e5c55",
+      "same_bytes_as_current_path": false,
+      "schema_keys": "LIST_OF_CATEGORY_RECORDS",
+      "records": 12,
+      "scope": "Actual historical artifact bytes inspected; source-version evidence, not a new score or independent reproduction."
+    }
+  ],
+  "process_CPU_seconds": 0.0029964659999999962,
+  "wall_seconds": 0.026702543000283185,
+  "source_versions_not_rescored": true,
+  "all_branches_exhaustive": false
+}

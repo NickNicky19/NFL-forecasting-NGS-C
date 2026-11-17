@@ -1,0 +1,43 @@
+{
+  "id": "C-DYAD-MIX-VALUE-01/v2-EXECUTION",
+  "authorization_id": "EXECUTION-AUTHORIZATION-02_C_SINGLE_GRANT",
+  "registered_UTC": "2026-11-16T23:12:37.697185+00:00",
+  "proposal_path": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V2.json",
+  "proposal_SHA256": "4abca1a6ef8b1dbdb20e861b09f02381f04449069f8aedb612e374f5f4d10965",
+  "source_commit": "b0035adda3c38bd1b5e6770eb17c8ae24ad100ce",
+  "cumulative_caps": {
+    "CPU_seconds": 120,
+    "wall_seconds": 300,
+    "fit_attempts": 5,
+    "RSS_bytes": 1288490188,
+    "public_bytes": 33554432,
+    "whole_C_bytes": 2684354560,
+    "raw_source_GETs": 0,
+    "workers": 1,
+    "threads": 1
+  },
+  "completion_reserve_CPU": 30,
+  "precharged_preparation_CPU": 6.0,
+  "precharged_preparation_wall": 10.0,
+  "preparation_scope": "Includes1.5conservative staticreview, boundedinput/schema reads and implementation/preflight command overhead; not a complete assistant-orchestration or end-to-end elapsed-time certificate. Full worker imports/execution are metered separately. Carry all actual process costs/failures.",
+  "arms": [
+    "C1_SUPPORT",
+    "C2_VALUE"
+  ],
+  "origins": [
+    2,
+    3
+  ],
+  "fit_plan": "Four newaugmentationfits plus atmostoneindependent representative fit. SavedC0/strongcontrols reused. No sourcecollection or retuning.",
+  "scientific_ceiling_before_completion": 90,
+  "readiness_projection_before_first_fit": {
+    "conservative_per_fit_CPU": 8,
+    "fits_including_independent": 5,
+    "scoring_CPU_allowance": 10,
+    "reserve_CPU": 30,
+    "rule": "Use measuredpreparecost; check sumfits/scoring/reservesfits120 beforefirstfit; afterfirstungradedfit conservatively updateprojection without qualityinspection."
+  },
+  "durability": "Tracked source/model primitives and newfeaturematrix/checkpoints are recoverable via approved C GitHub route. Save each rawgraded arm before selectors. Neverloadpickle or thirdpartyobjects.",
+  "catalog_and_peer_metadata_budget": "Separate existingreporting parent, never this pilot or30reserve.",
+  "execution_authorized": true
+}

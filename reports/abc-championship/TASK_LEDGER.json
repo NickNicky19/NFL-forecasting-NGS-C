@@ -694,19 +694,19 @@
   {
     "task_id": "A_FROZEN_C_M3_OWNER_LOCAL_JOIN",
     "owner": "A registered protected-join executor",
-    "state": "REPAIRED_FIXTURE_OWNER_REPORTED_PASS;AUTHORIZED_NEW_CUMULATIVE_COMPLETION_CAPS;RAW_GRADES_PENDING",
-    "artifact": "reports/information-skill-01/predictive-value-next-01/intake/A_RECEIPT.json",
-    "next_action": "A authenticates retained fixture and latest private CPU/wall ledger, proves complete path/reserves fit, then rawgrades before unchanged summaries. No new Cworker or new approval needed for already-authorized scope.",
+    "state": "OWNER_REPORTED_FIXTURE_PASS;SEVEN_INPUT_BODIES_MISSING_AT_RETRIEVED_STOP;RECOVERY39_AUTHORIZED_ONCE;NO_NEW_GRADES_RECEIVED",
+    "artifact": "reports/information-skill-01/execution-authorization-02/intake/A_RECEIPT.json",
+    "next_action": "Reuse admitted local bodies else at most seven exact rereads under cumulative39; verify hash/length and reopen; prove full CPU1660/wall2250/reserves fit; raw grades before summaries",
     "budget": {
       "CPU_cap": 1660,
       "wall_cap": 2250,
-      "CPU_increment_once": 400,
-      "wall_increment_once": 450,
+      "source_read_cumulative_cap": 39,
+      "incremental_reads_once": 7,
+      "expected_seven_body_bytes": 9643639,
       "retention_CPU_reserve": 120,
       "reporting_CPU_reserve": 20,
-      "exact_current_charge": "A carries actual private ledger and all failures/overhead; not imported or inferred from public summary",
-      "state": "AUTHORIZED_OWNER_COMPLETION_PENDING_BALANCE_AND_RETAINED_BINDING_CHECK",
-      "no_C_worker_or_budget_transfer": true
+      "actual_current_charge": "Owner exact private ledger; reference1169.146 is not reset permission",
+      "no_transfer": true
     },
     "prior_state_preserved_in_git": true
   },
@@ -752,9 +752,31 @@
   {
     "task_id": "C_DYAD_MIX_VALUE_01",
     "owner": "C",
-    "state": "SPECIFIED_NOT_LEASED;NO_EXECUTION_GO",
-    "artifact": "reports/information-skill-01/predictive-value-next-01/proposal/C_DYAD_MIX_V2.json",
-    "next_action": "Dedicated120CPU/300wall/5fit allocation including30CPUcheck-retentionreserve",
-    "not_funded_by_A_M3_or_old_closed_C_package": true
+    "state": "EXECUTED_FROZEN;C1_C2_TIE_C0;NO_INCREMENTAL_VALUE;RESEARCH_SHADOW_NO_PRIMARY",
+    "artifact": "reports/information-skill-01/execution-authorization-02/pilot/EXECUTED_RESULT.json",
+    "next_action": "Retain raw outputs/negative result; no repeat tracing, retuning or primary activation",
+    "not_funded_by_A_M3_or_old_closed_C_package": true,
+    "budget": "Dedicated120CPU/300wall/5fits; actual ledger linked in execution_authorization_02; no budget transfer"
+  },
+  {
+    "task_id": "B_TABICLV2_CMP_DIRECT_PILOT_V1",
+    "owner": "B",
+    "state": "APPROVED_ONCE;PREEXECUTION_PUBLIC_RECEIPT_RETRIEVED;RUNTIME_RESULT_NOT_VERIFIED",
+    "artifact": "reports/information-skill-01/execution-authorization-02/intake/B_RECEIPT.json",
+    "next_action": "Execute expressly approved exact safe/runtime-qualified canary and cost-projected frozen pilot under600CPU/1200wall"
+  },
+  {
+    "task_id": "C_RECOVERABLE_METHOD_HISTORY",
+    "owner": "C coordinator; owner contributions retain actual owners",
+    "state": "PARTIAL_47_FAMILY_GROUPS_633_PROCEDURES_WITH_EXPLICIT_GAPS",
+    "artifact": "reports/information-skill-01/execution-authorization-02/method-history/README.md",
+    "next_action": "Retrieve actual owner contributions through permitted routes; do not delay ready pilots or claim full lifetime access"
+  },
+  {
+    "task_id": "C_EXECUTION_AUTHORIZATION_02",
+    "owner": "C",
+    "state": "EXECUTED_C_PILOT_AND_SCOPED_INTAKE;NORMAL_PUBLICATION",
+    "artifact": "reports/information-skill-01/execution-authorization-02/README.md",
+    "next_action": "Complete C checked retention/readback; no original-site changes"
   }
 ]

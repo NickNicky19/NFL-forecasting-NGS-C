@@ -60,13 +60,13 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 18171,
-    "SHA256": "15a4fc1472ba89f2492d159fa335bd4d66edecd7823bf6ad12fc69ef6799039c"
+    "bytes": 20881,
+    "SHA256": "8cbde42717693a0b7dc5a321b6e54c59b63926c74870087e7cfa04fe72f91f97"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 45035,
-    "SHA256": "b7f5e4bf6d96eab1e9c42011243634bc03e8dfd5e4236966837e67b8e4b35d1c"
+    "bytes": 46271,
+    "SHA256": "a4dad69d7068a5e7ec10ce2f11f9338432ff7cbd8e6f9663d1bfbb06ec51eabd"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -3281,7 +3281,7 @@
   },
   "predictive_value_next_01": {
     "id": "INFORMATION-SKILL-01-PREDICTIVE-VALUE-NEXT-01-C",
-    "stage": "M3_FIXTURE_AND_B_REVIEW_RECEIVED;NO_M3_GRADES;ONE_C_PROPOSAL_REQUIRES_ALLOCATION",
+    "stage": "HISTORICAL_PREAUTHORIZATION_SNAPSHOT;SUPERSEDED_BY_EXECUTION_AUTHORIZATION_02",
     "report": {
       "path": "reports/information-skill-01/predictive-value-next-01/README.md",
       "bytes": 12206,
@@ -3321,7 +3321,7 @@
       "whole_C_bytes_cap_unchanged": 2684354560,
       "new_raw_source_GETs": 0,
       "new_paid_spending_or_API_allowance": 0,
-      "state": "REQUEST_ONLY_NOT_GRANTED",
+      "state": "HISTORICAL_REQUEST;GRANTED_ONCE_AND_EXECUTED_UNDER_EXECUTION_AUTHORIZATION_02",
       "other_allocations_unchanged": "No use of A M3 CPU/wall, old C M3 closed distribution balance, or automatic reset/reuse of spent C INFORMATION budget."
     },
     "coverage_ledger": {
@@ -3366,6 +3366,85 @@
       "path": "reports/information-skill-01/predictive-value-next-01/MANIFEST.json",
       "bytes": 4604,
       "SHA256": "cae3820cb30d486344a8a68a999753a38807ee4115e95d1a559946f00b9c117a"
+    }
+  },
+  "execution_authorization_02": {
+    "id": "EXECUTION-AUTHORIZATION-02",
+    "state": "C_FROZEN_PILOT_EXECUTED_NO_GAIN;PEER_AUTHORIZATION_AND_LAST_RECEIPTS_RECONCILED;PARTIAL_HISTORY",
+    "report": {
+      "path": "reports/information-skill-01/execution-authorization-02/README.md",
+      "bytes": 14688,
+      "SHA256": "24f3a9617d7eb58800766ac72c511e518dc01811e9f9d4bda6960285dc27633d"
+    },
+    "result": {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/EXECUTED_RESULT.json",
+      "bytes": 132421,
+      "SHA256": "0a4589a66c9808b0db0cdb81224cf983526e21eaa9cfade1a04accc5734051a7"
+    },
+    "history": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/METHOD_HISTORY.json.gz",
+      "bytes": 652289,
+      "SHA256": "73545fe40cdc80fa4c05a41a20754a704bb78cedd5168c67c1bd86ce6301f1f9"
+    },
+    "coverage": {
+      "path": "reports/category-decision-release-01/W1_W9_AND_HISTORY_COVERAGE_V11.csv.gz",
+      "bytes": 2901597,
+      "SHA256": "515d6fa96ae11ea94b08d33b2b6564d86500b70a8ef5d622c197c064d956c493"
+    },
+    "verification": {
+      "path": "reports/information-skill-01/execution-authorization-02/verification/independent-fit/RESULT.json",
+      "bytes": 2219,
+      "SHA256": "f6aa5799eb353a4ced0de8fac7cce6632b467fa5dafda0fdb4a1a32311ca6013"
+    },
+    "independent_raw_aggregate": {
+      "path": "reports/information-skill-01/execution-authorization-02/verification/independent-fit/AGGREGATE_CHECK.json",
+      "bytes": 6969,
+      "SHA256": "4794bd84caf7e721ab5b1e72187b396da01421b2076510bae6f1c65e4188a30e"
+    },
+    "A": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/A_RECEIPT.json",
+      "bytes": 2923,
+      "SHA256": "d2f682976d5eb0fd284c14f829e02aafa5a2302deb99d63782b0765e8617db49"
+    },
+    "B": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/B_RECEIPT.json",
+      "bytes": 7328,
+      "SHA256": "270cf25225c91e89693a7ffd23a14314b2ee76da555dfc1afd74746fa47c60c2"
+    },
+    "website": {
+      "path": "reports/information-skill-01/execution-authorization-02/intake/WEBSITE_RECEIPT.json",
+      "bytes": 2522,
+      "SHA256": "a9961e0ad2b54c2ae66179e62fe33881c9ae62916e7f425a3312eeb457daaefb"
+    },
+    "admitted_scope": "C exact W2/W3 retained-line diagnostic and independent representative fit/all-new-row arithmetic; peers public receipt scope only, no private fit/row access",
+    "primary_promotion": false,
+    "live_research_activation": false,
+    "publication": "C checked branch retention; final PR/readback receipt separate",
+    "old_failed_reproductions": "B C1 and opportunity team-fit remain FAILED; no scope transfer",
+    "task_queue": {
+      "path": "reports/information-skill-01/execution-authorization-02/FINITE_QUEUE.json",
+      "bytes": 4063,
+      "SHA256": "927efa8199bf6bef339306b5e08090ff4f03702b1896d62c5ab82d820321efd7"
+    },
+    "resource": {
+      "path": "reports/information-skill-01/execution-authorization-02/RESOURCE_CLOSURE.json",
+      "bytes": 1070,
+      "SHA256": "707848656f4ed0d7fd4958d6ca9c06e029d422e78c2384e528236c954699cf96"
+    },
+    "actual_new_offer_weeks": [
+      2,
+      3
+    ],
+    "new_NFL_observations": 0,
+    "method_history_markdown": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/README.md",
+      "bytes": 31726,
+      "SHA256": "bec81ea57fcdf1cc1590e09086553ab0141fac5745ed12918b788332cd59ad9c"
+    },
+    "method_history_CSV": {
+      "path": "reports/information-skill-01/execution-authorization-02/method-history/PROCEDURES.csv.gz",
+      "bytes": 90439,
+      "SHA256": "b12e8763feb31cc20200c1b6088062d43110d40fd2bbb66074763a0c92240d95"
     }
   }
 }

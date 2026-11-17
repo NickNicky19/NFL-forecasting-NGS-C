@@ -1,0 +1,35 @@
+{
+  "pilot": {
+    "path": "reports/information-skill-01/execution-authorization-02/pilot/LEDGER.json",
+    "bytes": 2311,
+    "SHA256": "4c5561b15d0bb0b3e8e902f5db6e2ba50e8e96210ffb7da3137b12a0f35e6ba7"
+  },
+  "caps": {
+    "CPU": 120,
+    "wall": 300,
+    "fit_attempts": 5,
+    "RSS": 1288490188,
+    "new_public_bytes": 33554432,
+    "whole_C_bytes": 2684354560,
+    "raw_GETs": 0
+  },
+  "reporting": {
+    "previous600CPU_charge": 555.35995406,
+    "initial_plan_charge": 40,
+    "conservative_this_package_charge": 44,
+    "final_cumulative_charge": 599.35995406,
+    "remaining": 0.64004594,
+    "parts": {
+      "initial_catalog": 12,
+      "quality_followup": 2,
+      "peer_intake": 6,
+      "pilot_catalog_result_intake": 2,
+      "independent_metadata_review": 1,
+      "root_reporting_metadata_validation_retention": 21
+    },
+    "no_pilot_reserve_used": true,
+    "metering_limit": "Conservative bounded reporting charges; not complete assistant/tool orchestration timing certificate"
+  },
+  "preserves_all_failures": true,
+  "no_budget_transfer": true
+}
