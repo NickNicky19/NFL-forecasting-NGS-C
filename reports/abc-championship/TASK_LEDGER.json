@@ -607,7 +607,7 @@
     "owner": "C",
     "state": "SUPERSEDED_CLOSED_WAVE;B_NEW_FTN_RECEIVED_NO_MEAN_DIRECTION_GAIN",
     "artifact": "reports/information-first-20261112-01/CHECKPOINT.json",
-    "next_action": "Do not repeat newFTN/profile/timing fits. See C_WAVE_CLOSURE_NEXT_VALID_20261114_01 exact savedW1\u20134 join/Bgrade/selectorreview/personnel/source/nativequeue.",
+    "next_action": "Do not repeat newFTN/profile/timing fits. See C_WAVE_CLOSURE_NEXT_VALID_20261114_01 exact savedW1–4 join/Bgrade/selectorreview/personnel/source/nativequeue.",
     "updated_UTC": "2026-11-14T15:07:10.877093+00:00"
   },
   {
@@ -694,18 +694,24 @@
   {
     "task_id": "A_FROZEN_C_M3_OWNER_LOCAL_JOIN",
     "owner": "A registered protected-join executor",
-    "state": "OWNER_REPORTED_FIXTURE_PASS;SEVEN_INPUT_BODIES_MISSING_AT_RETRIEVED_STOP;RECOVERY39_AUTHORIZED_ONCE;NO_NEW_GRADES_RECEIVED",
+    "state": "CACHE10_20_MIB_AUTHORIZED_ONCE;OWNER_APPLICATION_RECOVERY_AND_NEW_GRADES_NOT_VERIFIED",
     "artifact": "reports/information-skill-01/execution-authorization-02/intake/A_RECEIPT.json",
-    "next_action": "Reuse admitted local bodies else at most seven exact rereads under cumulative39; verify hash/length and reopen; prove full CPU1660/wall2250/reserves fit; raw grades before summaries",
+    "next_action": "A execute complete private-cache/source/adapter/runtime/raw-grade/retention preflight under exact current CPU/wall; same seven reads/cap39, no retry. Persist/reopen and grade only if whole path fits.",
     "budget": {
       "CPU_cap": 1660,
       "wall_cap": 2250,
       "source_read_cumulative_cap": 39,
-      "incremental_reads_once": 7,
-      "expected_seven_body_bytes": 9643639,
-      "retention_CPU_reserve": 120,
-      "reporting_CPU_reserve": 20,
-      "actual_current_charge": "Owner exact private ledger; reference1169.146 is not reset permission",
+      "source_cache_retained_bytes": 10485760,
+      "source_cache_maximum_simultaneous_peak_bytes": 20971520,
+      "cache_authorization_id": "M3_SOURCE_CACHE10_20_MIB_ONCE_COMPLETION03",
+      "peak_not_additional_to_retained": true,
+      "actual_native_shared_global_application": "OWNER_ONLY;NOT_VERIFIED_BY_C",
+      "user_reported_CPU_reference_not_reset": 1194.261,
+      "reserves_CPU": [
+        120,
+        20
+      ],
+      "latest_exact_private_ledger": "Retained by A; all newer charges/failures/overhead carried",
       "no_transfer": true
     },
     "prior_state_preserved_in_git": true
@@ -752,25 +758,25 @@
   {
     "task_id": "C_DYAD_MIX_VALUE_01",
     "owner": "C",
-    "state": "EXECUTED_FROZEN;C1_C2_TIE_C0;NO_INCREMENTAL_VALUE;RESEARCH_SHADOW_NO_PRIMARY",
+    "state": "CLOSED_EXACT_REPRESENTATION_LEARNER_INCREMENT_NO_GAIN;RESEARCH_SHADOW_RETAINED",
     "artifact": "reports/information-skill-01/execution-authorization-02/pilot/EXECUTED_RESULT.json",
-    "next_action": "Retain raw outputs/negative result; no repeat tracing, retuning or primary activation",
+    "next_action": "No further tuning, forced feature use or repeated no-use trace. Preserve295/268/27board and272vs295availability; broader relationship ideas remain untested/source-qualified only.",
     "not_funded_by_A_M3_or_old_closed_C_package": true,
     "budget": "Dedicated120CPU/300wall/5fits; actual ledger linked in execution_authorization_02; no budget transfer"
   },
   {
     "task_id": "B_TABICLV2_CMP_DIRECT_PILOT_V1",
     "owner": "B",
-    "state": "APPROVED_ONCE;PREEXECUTION_PUBLIC_RECEIPT_RETRIEVED;RUNTIME_RESULT_NOT_VERIFIED",
-    "artifact": "reports/information-skill-01/execution-authorization-02/intake/B_RECEIPT.json",
-    "next_action": "Execute expressly approved exact safe/runtime-qualified canary and cost-projected frozen pilot under600CPU/1200wall"
+    "state": "PARTIAL_PUBLIC_RESULT_RECEIVED;W5_W6_FALLBACK_W7_LEARNED_W8_W9_UNAVAILABLE;ELAPSED_WALL_EXCEPTION",
+    "artifact": "reports/information-skill-01/completion-and-history-03/intake/B_RECEIPT.json",
+    "next_action": "No new worker. Preserve W7 original/configuration and all partial results; any later completion request covers frozen remainder/current CPU+wall+storage+completion costs."
   },
   {
     "task_id": "C_RECOVERABLE_METHOD_HISTORY",
     "owner": "C coordinator; owner contributions retain actual owners",
-    "state": "PARTIAL_47_FAMILY_GROUPS_633_PROCEDURES_WITH_EXPLICIT_GAPS",
-    "artifact": "reports/information-skill-01/execution-authorization-02/method-history/README.md",
-    "next_action": "Retrieve actual owner contributions through permitted routes; do not delay ready pilots or claim full lifetime access"
+    "state": "PARTIAL_AUDIT_DELIVERED;OWNER_WEBSITE_EXACT_AND_B_THIN_VIEWS_RECEIVED;A_NEW_PUBLIC_INDEX_MISSING",
+    "artifact": "reports/information-skill-01/completion-and-history-03/METHOD_HISTORY.md",
+    "next_action": "Use same consolidated history; admit exact permitted A/B subset when actually delivered, no private/full-bundle assumption or new catalog crawl."
   },
   {
     "task_id": "C_EXECUTION_AUTHORIZATION_02",
@@ -778,5 +784,12 @@
     "state": "EXECUTED_C_PILOT_AND_SCOPED_INTAKE;NORMAL_PUBLICATION",
     "artifact": "reports/information-skill-01/execution-authorization-02/README.md",
     "next_action": "Complete C checked retention/readback; no original-site changes"
+  },
+  {
+    "task_id": "C_COMPLETION_AND_HISTORY_03",
+    "owner": "C",
+    "state": "C_INCREMENT_CLOSED;B_PARTIAL_PUBLIC_RESULT_AND_THIN_HISTORY_RECEIVED;WEBSITE_OWNER_HISTORY_RECEIVED;A_NEW_RECOVERY_PUBLICATION_UNVERIFIED;PARTIAL_AUDIT_DELIVERED",
+    "artifact": "reports/information-skill-01/completion-and-history-03/README.md",
+    "next_action": "Complete checked C retention and immutable readback; no scientific or original-site changes"
   }
 ]

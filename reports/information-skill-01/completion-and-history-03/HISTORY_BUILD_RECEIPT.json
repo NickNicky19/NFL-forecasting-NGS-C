@@ -1,0 +1,30 @@
+{
+  "state": "PASS_EXISTING_VIEW_ONLY",
+  "prior": {
+    "path": "reports/information-skill-01/execution-authorization-02/method-history/METHOD_HISTORY.json.gz",
+    "bytes": 652289,
+    "SHA256": "73545fe40cdc80fa4c05a41a20754a704bb78cedd5168c67c1bd86ce6301f1f9"
+  },
+  "current": {
+    "path": "reports/information-skill-01/completion-and-history-03/METHOD_HISTORY.json.gz",
+    "bytes": 789383,
+    "SHA256": "b049f7fec5378617bed1de7a792457b49d6320a62a3efd99cd209d833d425ec0"
+  },
+  "CSV": {
+    "path": "reports/information-skill-01/completion-and-history-03/PROCEDURES.csv.gz",
+    "bytes": 74207,
+    "SHA256": "499e9c4dcb632d06fe09e2859294dd126d6ef8cd83c9e8f264d9bd08b7fd265f"
+  },
+  "exact_procedure_records": 792,
+  "legacy_generic_website_aliases_replaced": 12,
+  "website_owner_exact_procedures": 171,
+  "website_owner_execution_records": 81,
+  "owner_B_new_learned_week_received": 7,
+  "new_fits": 0,
+  "new_grading": 0,
+  "new_NFL_observations": 0,
+  "CPU_seconds": 3.348693038,
+  "wall_seconds": 3.35085435500514,
+  "scope": "Reporting projection only; not lifetime completeness, fit reproduction or new scientific allowance",
+  "metadata_correction": "Canonical user-named PUBLICATION_ALLOWLIST_REVIEW_V2.json in receipt, source owner bodies unchanged; no regrading or fit"
+}

@@ -1,0 +1,411 @@
+{
+  "id": "C-COMPLETION-AND-HISTORY-03-B-RECEIPT",
+  "received_UTC": "2026-11-17T02:57:22.534069+00:00",
+  "repository": "NickNicky19/NFL-forecasting-V2",
+  "actual_branch_once": "research/independent-audit-20261029",
+  "actual_head_once": "932c968ad8ee90774ada7fe9f2ae13e92c7b40f2",
+  "scientific_source": {
+    "path": "reports/predictive-value-next-01/B/execution-authorization-02/PUBLIC_AGGREGATE_CHECKPOINT_V1.md",
+    "commit": "932c968ad8ee90774ada7fe9f2ae13e92c7b40f2",
+    "bytes": 4521,
+    "SHA256": "452801030182060ebc1ba83a7ae3819dac3f98194e1ca33c73fc595be4ee5bab",
+    "Git_blob_SHA": "ce91d10850f4defb8babc6b8cbd821207da249c9",
+    "exact_directory_length_blob_matches": true
+  },
+  "execution_state": "PARTIAL_FROZEN_PILOT_EXECUTED;W7_CANARY_SAVED_BEFORE_QUALITY;W8_W9_COST_STOP",
+  "own_W7_records": [
+    {
+      "procedure": "TABICLV2_DIRECT",
+      "season": 2026,
+      "actual_scored_weeks": [
+        7
+      ],
+      "own": {
+        "OVER": {
+          "wins": 6,
+          "losses": 4,
+          "decided": 10,
+          "rate": 0.6
+        },
+        "UNDER": {
+          "wins": 9,
+          "losses": 9,
+          "decided": 18,
+          "rate": 0.5
+        },
+        "COMBINED": {
+          "wins": 15,
+          "losses": 13,
+          "decided": 28,
+          "rate": 0.5357142857142857
+        }
+      },
+      "Brier": 0.252715715,
+      "log_loss": 0.700865431,
+      "numerical_count_mean_MAE": null,
+      "games": 14,
+      "player_games": 28,
+      "verification": "Owner-reportedpublicaggregate;Cadditivesides/rateschecked,noindividualrow/fitreproduction"
+    },
+    {
+      "procedure": "SAME_INFORMATION_LOGISTIC",
+      "season": 2026,
+      "actual_scored_weeks": [
+        7
+      ],
+      "own": {
+        "OVER": {
+          "wins": 8,
+          "losses": 5,
+          "decided": 13,
+          "rate": 0.6153846153846154
+        },
+        "UNDER": {
+          "wins": 8,
+          "losses": 7,
+          "decided": 15,
+          "rate": 0.5333333333333333
+        },
+        "COMBINED": {
+          "wins": 16,
+          "losses": 12,
+          "decided": 28,
+          "rate": 0.5714285714285714
+        }
+      },
+      "Brier": 0.294920838,
+      "log_loss": 0.810142869,
+      "numerical_count_mean_MAE": null,
+      "games": 14,
+      "player_games": 28,
+      "verification": "Owner-reportedpublicaggregate;Cadditivesides/rateschecked,noindividualrow/fitreproduction"
+    },
+    {
+      "procedure": "RETAINED_B0_LAW",
+      "season": 2026,
+      "actual_scored_weeks": [
+        7
+      ],
+      "own": {
+        "OVER": {
+          "wins": 5,
+          "losses": 0,
+          "decided": 5,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "wins": 13,
+          "losses": 10,
+          "decided": 23,
+          "rate": 0.5652173913043478
+        },
+        "COMBINED": {
+          "wins": 18,
+          "losses": 10,
+          "decided": 28,
+          "rate": 0.6428571428571429
+        }
+      },
+      "Brier": 0.262579591,
+      "log_loss": 0.72373953,
+      "numerical_count_mean_MAE": null,
+      "games": 14,
+      "player_games": 28,
+      "verification": "Owner-reportedpublicaggregate;Cadditivesides/rateschecked,noindividualrow/fitreproduction"
+    },
+    {
+      "procedure": "RETAINED_B2_LAW",
+      "season": 2026,
+      "actual_scored_weeks": [
+        7
+      ],
+      "own": {
+        "OVER": {
+          "wins": 4,
+          "losses": 0,
+          "decided": 4,
+          "rate": 1.0
+        },
+        "UNDER": {
+          "wins": 13,
+          "losses": 11,
+          "decided": 24,
+          "rate": 0.5416666666666666
+        },
+        "COMBINED": {
+          "wins": 17,
+          "losses": 11,
+          "decided": 28,
+          "rate": 0.6071428571428571
+        }
+      },
+      "Brier": 0.264043281,
+      "log_loss": 0.724858158,
+      "numerical_count_mean_MAE": null,
+      "games": 14,
+      "player_games": 28,
+      "verification": "Owner-reportedpublicaggregate;Cadditivesides/rateschecked,noindividualrow/fitreproduction"
+    }
+  ],
+  "populations": [
+    {
+      "name": "DECLARED_COMPLETE_SYSTEM_W5_W9",
+      "eligible": 142,
+      "available": 84,
+      "decided": 84,
+      "wins": 42,
+      "losses": 42,
+      "rate": 0.5,
+      "actual_scored_weeks": [
+        5,
+        6,
+        7
+      ],
+      "runtime_unavailable_weeks": [
+        8,
+        9
+      ],
+      "runtime_unavailable": 58,
+      "Over_Under_breakdown": "NOT_REPORTED_IN_OBTAINED_PUBLIC_AGGREGATE",
+      "not_intentional_abstention_or_losses": true
+    },
+    {
+      "name": "REFERENCE_FALLBACK_W5_W6",
+      "eligible_available_decided": 56,
+      "wins": 27,
+      "losses": 29,
+      "rate": 0.48214285714285715,
+      "actual_scored_weeks": [
+        5,
+        6
+      ],
+      "Over_Under_breakdown": "NOT_REPORTED_IN_OBTAINED_PUBLIC_AGGREGATE"
+    },
+    {
+      "name": "LEARNED_TABICLV2_W7",
+      "eligible_available_decided": 28,
+      "wins": 15,
+      "losses": 13,
+      "rate": 0.5357142857142857,
+      "actual_scored_weeks": [
+        7
+      ],
+      "earlier_context_examples": 28,
+      "games": 14
+    }
+  ],
+  "missing_cells": {
+    "W1_W4": "Noactual-offerclassifiercoverage",
+    "W8_W9": "Frozenruntimecostgateunexecuted58rows;not0selectedintentionalabstention",
+    "learned_W8_W9_contexts": "56and86plannedearlierexamplesnotexecuted"
+  },
+  "selection_summary": [
+    {
+      "policy": "FROZEN_COVERAGE_10",
+      "selected": 6,
+      "wins": 4,
+      "losses": 2,
+      "rate": 0.6666666666666666,
+      "fallback_selected": 4,
+      "learned_selected": 2,
+      "learned_own_record": "NOT_REPORTED_IN_OBTAINED_PUBLIC_AGGREGATE",
+      "selected_over_declared142": 0.04225352112676056,
+      "selected_over_available84": 0.07142857142857142
+    },
+    {
+      "policy": "RAW_P80",
+      "selected": 5,
+      "wins": 4,
+      "losses": 1,
+      "rate": 0.8,
+      "fallback_selected": 1,
+      "learned_selected": 4,
+      "learned_wins": 3,
+      "learned_losses": 1,
+      "learned_rate": 0.75,
+      "not_supported_dependable_80claim": true
+    },
+    {
+      "policy": "RAW_P90",
+      "selected": 0,
+      "rate": null,
+      "empty_denominator_NA": true
+    }
+  ],
+  "selection_limits": "Ownerretainedown-listandsame-selected-casecomparisonsseparately;thosefullpolicyrows/perweekvolumesnotobtained. Tiny partialsystembucketsarenotdependablehighaccuracyandnoexactwebsiteTopPicksqualification.",
+  "probability_and_direction_conclusion": "W7directiondoesnotimprovestrongB0/B2controls;properprobabilityscoresbetterthanlogistic/controlsontheoneexposedweekbutnosuperiorityorprimaryclaim. No numericalpointproduct.",
+  "runtime_source_reported": {
+    "checkpoint_and_safe_loader": "Exactlength/hash/source/dependencyandweights-onlyloaderqualifiedbyowner;Cdidnotobtainloadbinary",
+    "NFL_design_mutation": "RepairedperquerycheckPASSbyowner;firstwrongweekly-cutofffixtureandinterruptedindependentdiagnosticretained/charged",
+    "independent_scope": "OwnerreportsindependentDecimalgrade/probabilityarithmeticandrepresentative10percent/P80membershipPASS;NOTindependentfitPASS",
+    "ungraded_canary_CPU": 30.010699,
+    "at_stop_W8_W9_projected_CPU": 508.051393,
+    "at_stop_available_before180reserve_CPU": 252.257684,
+    "at_stop_estimated_cumulative_including_reserve_CPU": 855.79371,
+    "approved_CPU_cap": 600,
+    "latest_source_reported_local_cumulative_CPU": 255.351182,
+    "CPU_metering_limit": "Disclosedunmeteredtails;notcompleteCPUcertificate",
+    "last_controlled_worker_cumulative_wall": 1087.533085,
+    "approved_wall_cap": 1200,
+    "wall_exception": "Subsequentpublicationreview/orchestrationexceededelapsed1200clock;nofurtherscientificworker. Preserveexception;donotcallwithinwallcap."
+  },
+  "five_week_status": "NOT_MET;3scoredsystemweeks/1learnedweek,notthedeclared5weekrange",
+  "scientific_recommendation": "SHADOW_ONLY;NO_PRIMARY_REPLACEMENT_OR_SUPPORTED80_90CLAIM",
+  "public_history": {
+    "state": "PUBLIC_CATEGORY_FAMILY_VIEW_ONLY;FULL_EXACT_CONFIGURATION_JSON_CSV_NOT_PUBLISHED",
+    "scope": "Existing public-registry and aggregate-derived metadata; no raw source/training contexts/weights. All identified presentation-family names by category are included; these are grouping labels, not independent mechanism counts. Detailed source/procedure/metric machine export remains local under the exact allowlist review. The readable method report is PUBLIC_READABLE_HISTORY_V1.md.",
+    "public_bodies": [
+      {
+        "path": "B_PUBLIC_CATEGORY_HISTORY_V1.json",
+        "source_path": "reports/predictive-value-next-01/B/method-history-v1/PUBLIC_CATEGORY_HISTORY_V1.json",
+        "commit": "932c968ad8ee90774ada7fe9f2ae13e92c7b40f2",
+        "bytes": 53872,
+        "SHA256": "4b88e065d714a6a91a4283bd58224fce592bb3bced7f67aa42815b73436acff1",
+        "Git_blob_SHA": "1f13365c694fbb687916b18b54dc12ee2036726c",
+        "exact_directory_length_blob_matches": true
+      },
+      {
+        "path": "B_PUBLIC_READABLE_HISTORY_V1.md",
+        "source_path": "reports/predictive-value-next-01/B/method-history-v1/PUBLIC_READABLE_HISTORY_V1.md",
+        "commit": "932c968ad8ee90774ada7fe9f2ae13e92c7b40f2",
+        "bytes": 62966,
+        "SHA256": "593a85f606e7119ca8d98b84a970e23562e856e4486acf0b4b22e230f684d9ce",
+        "Git_blob_SHA": "3671a237d4b420e7d1023ea0f5f0bd0e82728d73",
+        "exact_directory_length_blob_matches": true
+      }
+    ],
+    "category_count": 12,
+    "category_summary": [
+      {
+        "category": "pass_yd",
+        "owner_reported_exact_configurations": 1266,
+        "owner_reported_original_procedure_strings": 698,
+        "owner_reported_indexed_views": 50918,
+        "presentation_family_labels": 25,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "pass_td",
+        "owner_reported_exact_configurations": 1277,
+        "owner_reported_original_procedure_strings": 657,
+        "owner_reported_indexed_views": 53857,
+        "presentation_family_labels": 29,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "pass_cmp",
+        "owner_reported_exact_configurations": 1960,
+        "owner_reported_original_procedure_strings": 711,
+        "owner_reported_indexed_views": 67102,
+        "presentation_family_labels": 38,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "pass_att",
+        "owner_reported_exact_configurations": 1399,
+        "owner_reported_original_procedure_strings": 663,
+        "owner_reported_indexed_views": 53337,
+        "presentation_family_labels": 29,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "pass_int",
+        "owner_reported_exact_configurations": 1243,
+        "owner_reported_original_procedure_strings": 638,
+        "owner_reported_indexed_views": 51902,
+        "presentation_family_labels": 29,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "rush_yd",
+        "owner_reported_exact_configurations": 1472,
+        "owner_reported_original_procedure_strings": 668,
+        "owner_reported_indexed_views": 62388,
+        "presentation_family_labels": 23,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "rush_att",
+        "owner_reported_exact_configurations": 1570,
+        "owner_reported_original_procedure_strings": 631,
+        "owner_reported_indexed_views": 65608,
+        "presentation_family_labels": 25,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "rec",
+        "owner_reported_exact_configurations": 1608,
+        "owner_reported_original_procedure_strings": 730,
+        "owner_reported_indexed_views": 71765,
+        "presentation_family_labels": 26,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "rec_yd",
+        "owner_reported_exact_configurations": 1471,
+        "owner_reported_original_procedure_strings": 674,
+        "owner_reported_indexed_views": 61846,
+        "presentation_family_labels": 23,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "rush_rec_yd",
+        "owner_reported_exact_configurations": 1381,
+        "owner_reported_original_procedure_strings": 588,
+        "owner_reported_indexed_views": 58965,
+        "presentation_family_labels": 23,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "anytime_td",
+        "owner_reported_exact_configurations": 464,
+        "owner_reported_original_procedure_strings": 161,
+        "owner_reported_indexed_views": 9733,
+        "presentation_family_labels": 25,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      },
+      {
+        "category": "nick-chart-ppr-v1",
+        "owner_reported_exact_configurations": 572,
+        "owner_reported_original_procedure_strings": 63,
+        "owner_reported_indexed_views": 9971,
+        "presentation_family_labels": 13,
+        "global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES"
+      }
+    ],
+    "full_exact_configuration_JSON_CSV": "NOT_PUBLISHED;NOT_RETRIEVED",
+    "large_local_projection_counts_owner_reported": {
+      "exact_configurations": 15683,
+      "original_procedure_strings": 4325,
+      "indexed_views": 620521,
+      "hash_checked_shards": 468
+    },
+    "not_independent_model_or_game_counts": true,
+    "lifetime_completeness": "PARTIAL;privatechats/archives/inaccessibleAstra/fullpeerhistorygaps",
+    "reporting_exception": "Ownerreportswhole-objectserialization1GiBRSSguardfailedat1209933824bytesafteroutputs saved;streamingrepairpreparednotwholebuildexecuted. Notforecastingloss."
+  },
+  "publication_scope": {
+    "thin_public_pair_genuinely_retrieved": true,
+    "full_new_pilot_bundle": "Ownerreportssavedlocallyatc8ad5258,NOTpublished;notretrieved",
+    "broad_recursive_upload": "Ownerreportautomaticapprovalreviewrejectedpayloadinsufficientlyconstrainedagainstprotectedexecutionmetadata/derivedsensitivedata;Cdidnotattemptthatpublication",
+    "V2_publication_receipt": "NOT_OBTAINED;donotinfer56filebundleapprovalfrom2publichistorybodies",
+    "relative_unpublished_links": "Preservedasownerqualification,notdereferencedorfabricated",
+    "PUBLICATION_ALLOWLIST_REVIEW_V2.json": "NOT_OBTAINED_OR_LOCATED_IN_THE_BOUNDED_PUBLIC_READS"
+  },
+  "C_verification_scope": "Actualpublicreport/twopublichistorybytes,lengths/hash/Gitblobandfouradditivesideschecked. No protectedcontexts/individuals/lines/weights/privatelocators/fitreproduction or468shardreopen. CreadbackisnotBfullbundlepublicationapproval.",
+  "request_accounting": {
+    "B_metadata_attempts": 8,
+    "initial_bound": 6,
+    "root_refined_bound": 8,
+    "refinement_scope": "Exactlythe2discoveredsame-headPUBLIC_CATEGORY_HISTORY_V1.json/PUBLIC_READABLE_HISTORY_V1.mdpublicbodies;notnewscientific/sourcebudget",
+    "successful_GET_responses": 7,
+    "failed_tool_response_counted": 1,
+    "failed_attempt2": "GitHubFetchHTTP400INDEXtoo largeorunsupported;notretried,notownerpermissiondenial",
+    "normalized_success_response_UTF8_bytes": 150077,
+    "perresponse_cap": 2097152,
+    "temporary_public_metadata_cap": 20971520,
+    "no_further_poll_or_get": true
+  },
+  "new_C_fit_inference_grade_or_peer_mutation": 0,
+  "requested_review_file": "PUBLICATION_ALLOWLIST_REVIEW_V2.json"
+}

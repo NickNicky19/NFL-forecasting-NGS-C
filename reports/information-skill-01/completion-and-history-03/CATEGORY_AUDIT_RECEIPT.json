@@ -1,0 +1,27 @@
+{
+  "status": "AUDIT_FROM_RETAINED_EVIDENCE_ONLY",
+  "categories": 12,
+  "actual_script_process_CPU_seconds": 0.599810634,
+  "prior_metadata_normalization_script_CPU_seconds": [
+    0.408124666,
+    0.462066251,
+    0.709022035
+  ],
+  "conservative_total_reporting_CPU_charge": 6,
+  "allocated_reporting_CPU_cap": 6,
+  "pilot_or_scientific_reserve_used": 0,
+  "measurement_limit": "Script CPU plus bounded read/schema/preparation/retention bookkeeping; not an independent complete process/tool certificate.",
+  "no_new_fits": true,
+  "no_grader_or_rescoring": true,
+  "no_network": true,
+  "outputs": {
+    "CATEGORY_AUDIT.md": {
+      "bytes": 66097,
+      "SHA256": "d92d11b3fde1f60c003e6fd9bad7c7ceec24cbb1c2179a6c5868bb8597b0d15b"
+    },
+    "CATEGORY_AUDIT.json": {
+      "bytes": 468041,
+      "SHA256": "012369d4bb27879852f7c97d1442e5dcd0077a506f197dc23f51880abfc11cd8"
+    }
+  }
+}
