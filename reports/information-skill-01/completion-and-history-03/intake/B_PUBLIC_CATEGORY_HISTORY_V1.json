@@ -1,0 +1,1963 @@
+{
+  "state": "PUBLIC_CATEGORY_FAMILY_VIEW_ONLY;FULL_EXACT_CONFIGURATION_JSON_CSV_NOT_PUBLISHED",
+  "scope": "Existing public-registry and aggregate-derived metadata; no raw source/training contexts/weights. All identified presentation-family names by category are included; these are grouping labels, not independent mechanism counts. Detailed source/procedure/metric machine export remains local under the exact allowlist review. The readable method report is PUBLIC_READABLE_HISTORY_V1.md.",
+  "current_pilot": "W7 TabICLv2 15-13/28; W5-6 reference56; W8-9 unexecuted cost gate58; no primary activation.",
+  "categories": [
+    {
+      "category": "pass_yd",
+      "exact_configurations": 1266,
+      "original_procedure_strings": 698,
+      "indexed_views": 50918,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2111,
+          "scored_source_count": 29
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 32,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 11,
+          "views": 1263,
+          "scored_source_count": 17
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 25,
+          "views": 3977,
+          "scored_source_count": 23
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 2,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 204,
+          "views": 7448,
+          "scored_source_count": 56
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 3,
+          "views": 13,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 103,
+          "views": 7593,
+          "scored_source_count": 47
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 139,
+          "views": 4468,
+          "scored_source_count": 42
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 4,
+          "views": 6,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 199,
+          "views": 8092,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 8,
+          "views": 16,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 134,
+          "views": 6742,
+          "scored_source_count": 38
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 9,
+          "views": 22,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 107,
+          "views": 388,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 78,
+          "views": 4434,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 8,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 154,
+          "views": 2439,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 28,
+          "views": 1804,
+          "scored_source_count": 26
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "pass_td",
+      "exact_configurations": 1277,
+      "original_procedure_strings": 657,
+      "indexed_views": 53857,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 29,
+          "views": 2095,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 5,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 47,
+          "views": 3989,
+          "scored_source_count": 24
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 5,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 46,
+          "views": 2410,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 190,
+          "views": 7098,
+          "scored_source_count": 48
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 3,
+          "views": 13,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 88,
+          "views": 7370,
+          "scored_source_count": 43
+        },
+        {
+          "name": "Learned correctness ranking",
+          "configurations": 6,
+          "views": 210,
+          "scored_source_count": 1
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 130,
+          "views": 4260,
+          "scored_source_count": 34
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 2,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 171,
+          "views": 7436,
+          "scored_source_count": 23
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Probability intercept repair",
+          "configurations": 7,
+          "views": 1973,
+          "scored_source_count": 4
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 8,
+          "views": 16,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 121,
+          "views": 6582,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Response-sensitive CDF forest",
+          "configurations": 5,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 15,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 108,
+          "views": 391,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 70,
+          "views": 4344,
+          "scored_source_count": 34
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 162,
+          "views": 2459,
+          "scored_source_count": 31
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 27,
+          "views": 1788,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "pass_cmp",
+      "exact_configurations": 1960,
+      "original_procedure_strings": 711,
+      "indexed_views": 67102,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Aligned information-timing policy",
+          "configurations": 20,
+          "views": 1103,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 34,
+          "views": 2159,
+          "scored_source_count": 34
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 8,
+          "views": 35,
+          "scored_source_count": 2
+        },
+        {
+          "name": "Charted catchability contexts",
+          "configurations": 22,
+          "views": 496,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 11,
+          "views": 1279,
+          "scored_source_count": 17
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 33,
+          "views": 4126,
+          "scored_source_count": 27
+        },
+        {
+          "name": "Context-dependent conversion variance",
+          "configurations": 175,
+          "views": 1996,
+          "scored_source_count": 2
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 7,
+          "views": 32,
+          "scored_source_count": 2
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 47,
+          "views": 2428,
+          "scored_source_count": 32
+        },
+        {
+          "name": "Depth and catchability conversion",
+          "configurations": 32,
+          "views": 1572,
+          "scored_source_count": 2
+        },
+        {
+          "name": "Depth-rank diagnostic information",
+          "configurations": 14,
+          "views": 274,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 196,
+          "views": 7234,
+          "scored_source_count": 52
+        },
+        {
+          "name": "FTN genuine forecast-only capture",
+          "configurations": 4,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 3,
+          "views": 13,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged FTN ball-quality information",
+          "configurations": 61,
+          "views": 1544,
+          "scored_source_count": 4
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 110,
+          "views": 7704,
+          "scored_source_count": 45
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 134,
+          "views": 4344,
+          "scored_source_count": 40
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 2,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 175,
+          "views": 7585,
+          "scored_source_count": 26
+        },
+        {
+          "name": "Predicted pass mix and conversion",
+          "configurations": 100,
+          "views": 704,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "QB exposure and context linkage",
+          "configurations": 85,
+          "views": 3396,
+          "scored_source_count": 5
+        },
+        {
+          "name": "QB player/defense profile increment",
+          "configurations": 32,
+          "views": 2060,
+          "scored_source_count": 1
+        },
+        {
+          "name": "QB team opportunity and player share",
+          "configurations": 100,
+          "views": 704,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 8,
+          "views": 16,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 139,
+          "views": 6748,
+          "scored_source_count": 36
+        },
+        {
+          "name": "Response-sensitive CDF forest",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 15,
+          "views": 41,
+          "scored_source_count": 5
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 110,
+          "views": 635,
+          "scored_source_count": 12
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 72,
+          "views": 4391,
+          "scored_source_count": 31
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 155,
+          "views": 2559,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 32,
+          "views": 1852,
+          "scored_source_count": 31
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "pass_att",
+      "exact_configurations": 1399,
+      "original_procedure_strings": 663,
+      "indexed_views": 53337,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 31,
+          "views": 2132,
+          "scored_source_count": 29
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 5,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 29,
+          "views": 4050,
+          "scored_source_count": 24
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 5,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 47,
+          "views": 2419,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 191,
+          "views": 7156,
+          "scored_source_count": 51
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 5,
+          "views": 9,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 3,
+          "views": 13,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 89,
+          "views": 7413,
+          "scored_source_count": 43
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 130,
+          "views": 4260,
+          "scored_source_count": 34
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 3,
+          "views": 6,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 171,
+          "views": 7442,
+          "scored_source_count": 23
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "QB exposure and context linkage",
+          "configurations": 41,
+          "views": 683,
+          "scored_source_count": 5
+        },
+        {
+          "name": "QB team opportunity and player share",
+          "configurations": 100,
+          "views": 704,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 8,
+          "views": 16,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 121,
+          "views": 6582,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Response-sensitive CDF forest",
+          "configurations": 5,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 21,
+          "views": 41,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 114,
+          "views": 401,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 70,
+          "views": 4324,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 154,
+          "views": 2481,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 28,
+          "views": 1824,
+          "scored_source_count": 26
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "pass_int",
+      "exact_configurations": 1243,
+      "original_procedure_strings": 638,
+      "indexed_views": 51902,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 29,
+          "views": 2095,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 31,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 23,
+          "views": 3941,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 6,
+          "views": 34,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 46,
+          "views": 2422,
+          "scored_source_count": 32
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 189,
+          "views": 7094,
+          "scored_source_count": 48
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 3,
+          "views": 13,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Interception measurement correction",
+          "configurations": 8,
+          "views": 144,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 89,
+          "views": 7443,
+          "scored_source_count": 43
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "NGBoost conditional law",
+          "configurations": 2,
+          "views": 3,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 128,
+          "views": 4269,
+          "scored_source_count": 35
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 2,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 171,
+          "views": 7438,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 8,
+          "views": 16,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 126,
+          "views": 6627,
+          "scored_source_count": 38
+        },
+        {
+          "name": "Response-sensitive CDF forest",
+          "configurations": 5,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 13,
+          "views": 29,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 109,
+          "views": 396,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 70,
+          "views": 4345,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 14,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 151,
+          "views": 2437,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 27,
+          "views": 1788,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "rush_yd",
+      "exact_configurations": 1472,
+      "original_procedure_strings": 668,
+      "indexed_views": 62388,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2582,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 39,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 23,
+          "views": 4901,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 2,
+          "views": 9,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 249,
+          "views": 9139,
+          "scored_source_count": 55
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 3,
+          "views": 6,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 147,
+          "views": 9906,
+          "scored_source_count": 45
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 172,
+          "views": 5709,
+          "scored_source_count": 35
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 3,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 243,
+          "views": 8724,
+          "scored_source_count": 29
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 182,
+          "views": 8279,
+          "scored_source_count": 38
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 4,
+          "views": 23,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 104,
+          "views": 376,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 112,
+          "views": 6200,
+          "scored_source_count": 32
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 6,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 139,
+          "views": 2899,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 21,
+          "views": 2273,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "rush_att",
+      "exact_configurations": 1570,
+      "original_procedure_strings": 631,
+      "indexed_views": 65608,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2390,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 7,
+          "views": 40,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 23,
+          "views": 4517,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 10,
+          "views": 62,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 69,
+          "views": 3147,
+          "scored_source_count": 32
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 241,
+          "views": 8669,
+          "scored_source_count": 52
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 3,
+          "views": 6,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 135,
+          "views": 9487,
+          "scored_source_count": 41
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 166,
+          "views": 5620,
+          "scored_source_count": 36
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 213,
+          "views": 7691,
+          "scored_source_count": 23
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 169,
+          "views": 8060,
+          "scored_source_count": 33
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 8,
+          "views": 33,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Rushing role specialization",
+          "configurations": 90,
+          "views": 3316,
+          "scored_source_count": 31
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 103,
+          "views": 375,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 106,
+          "views": 6082,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 10,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 139,
+          "views": 2707,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 21,
+          "views": 2081,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "rec",
+      "exact_configurations": 1608,
+      "original_procedure_strings": 730,
+      "indexed_views": 71765,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2678,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 38,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 47,
+          "views": 5237,
+          "scored_source_count": 24
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 10,
+          "views": 58,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Count-objective HGB point",
+          "configurations": 75,
+          "views": 3190,
+          "scored_source_count": 34
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 256,
+          "views": 8973,
+          "scored_source_count": 53
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 148,
+          "views": 9664,
+          "scored_source_count": 46
+        },
+        {
+          "name": "Learned correctness ranking",
+          "configurations": 6,
+          "views": 606,
+          "scored_source_count": 1
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 173,
+          "views": 5664,
+          "scored_source_count": 37
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 243,
+          "views": 8360,
+          "scored_source_count": 27
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Probability intercept repair",
+          "configurations": 7,
+          "views": 5857,
+          "scored_source_count": 4
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 6,
+          "views": 12,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 173,
+          "views": 8160,
+          "scored_source_count": 36
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 7,
+          "views": 31,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 103,
+          "views": 375,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 112,
+          "views": 6107,
+          "scored_source_count": 31
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 10,
+          "views": 10,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 151,
+          "views": 3067,
+          "scored_source_count": 30
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 21,
+          "views": 2369,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "rec_yd",
+      "exact_configurations": 1471,
+      "original_procedure_strings": 674,
+      "indexed_views": 61846,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2678,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 39,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 10,
+          "views": 1247,
+          "scored_source_count": 15
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 23,
+          "views": 5093,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 2,
+          "views": 9,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 254,
+          "views": 8981,
+          "scored_source_count": 55
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 147,
+          "views": 9650,
+          "scored_source_count": 44
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 175,
+          "views": 5652,
+          "scored_source_count": 35
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 243,
+          "views": 8348,
+          "scored_source_count": 27
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 6,
+          "views": 12,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 175,
+          "views": 8181,
+          "scored_source_count": 41
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 4,
+          "views": 23,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 102,
+          "views": 374,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 112,
+          "views": 6125,
+          "scored_source_count": 35
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 6,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 141,
+          "views": 2997,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 21,
+          "views": 2369,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "rush_rec_yd",
+      "exact_configurations": 1381,
+      "original_procedure_strings": 588,
+      "indexed_views": 58965,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 30,
+          "views": 2390,
+          "scored_source_count": 27
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 6,
+          "views": 39,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 12,
+          "views": 1335,
+          "scored_source_count": 16
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 23,
+          "views": 4517,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 2,
+          "views": 9,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 230,
+          "views": 8621,
+          "scored_source_count": 49
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 135,
+          "views": 9441,
+          "scored_source_count": 41
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 169,
+          "views": 5605,
+          "scored_source_count": 37
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 213,
+          "views": 7683,
+          "scored_source_count": 23
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 6,
+          "views": 12,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 163,
+          "views": 8025,
+          "scored_source_count": 36
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 5,
+          "views": 24,
+          "scored_source_count": 2
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 102,
+          "views": 374,
+          "scored_source_count": 11
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 106,
+          "views": 6035,
+          "scored_source_count": 29
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 6,
+          "views": 6,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 138,
+          "views": 2706,
+          "scored_source_count": 28
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 21,
+          "views": 2081,
+          "scored_source_count": 24
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 4,
+          "views": 18,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "anytime_td",
+      "exact_configurations": 464,
+      "original_procedure_strings": 161,
+      "indexed_views": 9733,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 6,
+          "views": 48,
+          "scored_source_count": 5
+        },
+        {
+          "name": "CatBoost direct",
+          "configurations": 9,
+          "views": 80,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 6,
+          "views": 30,
+          "scored_source_count": 5
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 8,
+          "views": 42,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Count A count-objective HGB",
+          "configurations": 1,
+          "views": 18,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 75,
+          "views": 1637,
+          "scored_source_count": 18
+        },
+        {
+          "name": "Fixed direct tree",
+          "configurations": 3,
+          "views": 6,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Fixed/learned blend or stack",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Lagged NGS information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 47,
+          "views": 2119,
+          "scored_source_count": 16
+        },
+        {
+          "name": "LightGBM direct",
+          "configurations": 2,
+          "views": 36,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 65,
+          "views": 1513,
+          "scored_source_count": 22
+        },
+        {
+          "name": "Opportunity/allocation × efficiency",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 58,
+          "views": 448,
+          "scored_source_count": 5
+        },
+        {
+          "name": "Probability calibration/correction",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized direct linear/logistic",
+          "configurations": 4,
+          "views": 8,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 53,
+          "views": 1507,
+          "scored_source_count": 16
+        },
+        {
+          "name": "Retained marginal/joint distribution label",
+          "configurations": 5,
+          "views": 30,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Scheme/pace information",
+          "configurations": 1,
+          "views": 1,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 26,
+          "views": 160,
+          "scored_source_count": 6
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 36,
+          "views": 1760,
+          "scored_source_count": 20
+        },
+        {
+          "name": "Threshold/ordered CDF classifiers",
+          "configurations": 4,
+          "views": 4,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 33,
+          "views": 153,
+          "scored_source_count": 6
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 14,
+          "views": 70,
+          "scored_source_count": 5
+        },
+        {
+          "name": "XGBoost direct",
+          "configurations": 2,
+          "views": 20,
+          "scored_source_count": 1
+        }
+      ]
+    },
+    {
+      "category": "nick-chart-ppr-v1",
+      "exact_configurations": 572,
+      "original_procedure_strings": 63,
+      "indexed_views": 9971,
+      "compatible_global_winner": "NOT_ESTABLISHED_FROM_MIXED_SOURCES",
+      "families": [
+        {
+          "name": "Archived provider point/reference",
+          "configurations": 4,
+          "views": 21,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Chronological category method selection",
+          "configurations": 6,
+          "views": 48,
+          "scored_source_count": 6
+        },
+        {
+          "name": "Constant-side/reference control",
+          "configurations": 8,
+          "views": 42,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Empirical-leaf CDF",
+          "configurations": 121,
+          "views": 2201,
+          "scored_source_count": 21
+        },
+        {
+          "name": "Exact chart PPR",
+          "configurations": 36,
+          "views": 1476,
+          "scored_source_count": 6
+        },
+        {
+          "name": "Leaf-CDF explicit lag removal",
+          "configurations": 94,
+          "views": 2411,
+          "scored_source_count": 19
+        },
+        {
+          "name": "Objective-specific HGB direct",
+          "configurations": 1,
+          "views": 2,
+          "scored_source_count": 1
+        },
+        {
+          "name": "Player-position and defense information",
+          "configurations": 116,
+          "views": 521,
+          "scored_source_count": 6
+        },
+        {
+          "name": "Regularized marginal GLM laws",
+          "configurations": 106,
+          "views": 2072,
+          "scored_source_count": 18
+        },
+        {
+          "name": "Shrunk historical production control",
+          "configurations": 7,
+          "views": 73,
+          "scored_source_count": 3
+        },
+        {
+          "name": "Shrunk own-player empirical history",
+          "configurations": 42,
+          "views": 951,
+          "scored_source_count": 12
+        },
+        {
+          "name": "Unresolved retained labels",
+          "configurations": 23,
+          "views": 111,
+          "scored_source_count": 5
+        },
+        {
+          "name": "Website/provider selection reference",
+          "configurations": 8,
+          "views": 42,
+          "scored_source_count": 4
+        }
+      ]
+    }
+  ]
+}

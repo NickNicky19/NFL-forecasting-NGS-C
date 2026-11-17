@@ -1,0 +1,34 @@
+{
+  "id": "C-HISTORY03-WEBSITE-BODIES",
+  "repository": "NickNicky19/nicks-expert-nfl-picks",
+  "commit": "968ce0ecb63c33868ed1eeba8c030050deef3e25",
+  "received_UTC": "2026-11-17T03:01:52.817132+00:00",
+  "stage": "PUBLISHED_AND_ACTUALLY_RECEIVED;OWNER_SOURCE_CHECKED_HISTORY_NOT_C_FIT_OR_SERVED_REPRODUCTION",
+  "families": 15,
+  "procedures": 171,
+  "executions": 81,
+  "categories": 12,
+  "source_JSON": {
+    "path": "output/data/production-method-history-v1/index.json",
+    "decoded_bytes": 2629777,
+    "SHA256": "4dc8a14ac247c9a377c8822a7b34c233f87714f1ac96b347124eb764a73eeb20",
+    "Git_blob_SHA": "5aa029ac2e124cc6fcdbe66391416524298a62dd",
+    "retained_C_representation": "intake/WEBSITE_HISTORY.json.gz",
+    "retained_wire_SHA256": "7f718e14c9eda3aeb947a6be71abfbb3febd557d32b8832263eb95552b775a58"
+  },
+  "source_markdown": {
+    "path": "output/data/production-method-history-v1/README.md",
+    "bytes": 149818,
+    "SHA256": "30605c386312a23e266cff85aa213ac33b62b55e323951380a330c67341bed63",
+    "Git_blob_SHA": "1e7fca439cee522a2150adec0ac3a38eda003b79"
+  },
+  "read_attempts": {
+    "README_contents": 1,
+    "JSON_contents_returned_empty_body": 1,
+    "raw_fetch_tool_unsupported_HTTP400": 1,
+    "exact_blob_body_success": 1
+  },
+  "not_a_permission_bypass": "Same already-public immutable owner file; plugin blob GET resolves its file-size limitation; no alternate publication destination or rejected payload.",
+  "no_raw_protected_rows_or_model_loaded": true,
+  "scope": "Permitted owner metadata/formulas/aggregates; source clock/authenticity and private-row/fit limits retained; no research activation"
+}

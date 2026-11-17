@@ -1,0 +1,53 @@
+# Completion and history 03 — actual delivery and remaining stop
+
+**No new frozen C M3 raw grades were received from A.** The latest first-party checkpoint supplied by the user reports1,194.261CPU seconds and a private-cache dependency. The new once-only10MiB retained/20MiB maximum-simultaneous-peak allocation removes the allocation-permission gate; C has recorded that authority, **not claimed its application in A’s private native/shared/global ledger or successful recovery**. A’s latest exact CPU/wall balances, durable seven-body reopening and complete scoring/retention preflight remain owner-local requirements. The unchanged caps are1,660CPU/2,250wall,39 cumulative source reads, same seven immutable bodies and existing120+20CPU reserves. No new worker, source read or budget request was made by C.
+
+The7 bodies’ reported9,643,639bytes fit the10MiB payload allowance arithmetically, leaving842,121bytes. Two full payload copies total19,287,278bytes below20MiB; this is **not** a filesystem/temporary-capacity measurement or proof the complete path fits. A must use the exact current private ledger and footprint, not these payload-only calculations. The user’s CPU reference leaves465.739seconds including reserves if no newer charges exist; no current wall-balance proof was received. [Consolidated A scope and action](intake/A_RECEIPT.json) · [Once-only authority record](ADOPTION.json).
+
+## Reports actually delivered and admitted
+
+| Contribution | Actually obtained | Scope admitted / withheld |
+| --- | --- | --- |
+| A | Previously published26-report discovery index at a4a46eb18865d3609c445a622f819d24a24f1b82 remains retrievable | New permitted category report and `PUBLIC_METHOD_HISTORY_INDEX_V1.json` immutable bodies not received. This is not evidence that owner-local work did not run. Full private catalog stays private; unchanged previously rejected README is not approved by its old path. |
+| B | Public aggregate checkpoint plus exact public `PUBLIC_CATEGORY_HISTORY_V1.json` and `PUBLIC_READABLE_HISTORY_V1.md` at932c968ad8ee90774ada7fe9f2ae13e92c7b40f2; source lengths/Git-blob identities verified | **Thin family/category views**, not the full15,683 owner-reported configurations or all56 files. `PUBLICATION_ALLOWLIST_REVIEW_V2.json` and its exact publication receipt were not obtained. Broad local/new-pilot bundle is not imported or published by C. |
+| Original website | Actual README/index bodies at968ce0ecb63c33868ed1eeba8c030050deef3e25; exact Git-blob identities and decoded SHA256 verified | Listed15 family groups,171 exact procedure records and81 execution records; lifetime statusPARTIAL. Source-checked/reported history is not C independent historical-row/fit reproduction or current direct-browser verification. |
+| C | Existing633-record history extended in the **same reporting view**, completed exact dyad no-gain result preserved | Ten generic website point aliases are replaced by owner exact records; two event/chart generic discoveries retain a non-evaluation supersession trail. B labels overlap existing imports and are not added as independent mechanisms. No new fits or grading. |
+
+[Readable combined history](METHOD_HISTORY.md) · [Matching complete permitted JSON](METHOD_HISTORY.json.gz) · [Matching exact-procedure CSV](PROCEDURES.csv.gz) · [Twelve-category scientific audit](CATEGORY_AUDIT.md) · [Structured category audit](CATEGORY_AUDIT.json).
+
+The view contains792 normalized exact procedure/configuration records after replacing12 generic website discovery records with171 owner exact entries. This arithmetic is an inventory reconciliation, **not159 new predictive tests or a sum of independent methods**. Every category exposes identified mechanisms, input/history/role contracts, execution/periods, retained own-side and numerical/probability/selection records, controls, failures/unknowns and a proposed-only next question or exact source gate. Full retained source records remain linked; N/A/NOT_RETAINED is preserved instead of inventing values. The category audit’s older source-specific records are historical snapshots; the current B/website receipt overlay in this report and machine view supersedes their pending/publication status only.
+
+**PARTIAL_WITHIN_LISTED_SOURCES.** A’s new permitted public contribution and B’s full exact-configuration/review bundle remain gaps. Private chats, restricted/deleted archives, inaccessible Astra studies and original source/quote vintages are not assumed recovered. A known method without accessible results is not an evaluated loser. Disconnected panels are not combined into a universal champion; old numerical, reference-threshold, actual-line and original-issuance records remain separately typed. Catalog size is not improved skill.
+
+## B’s delivered partial classifier result
+
+| W7 exact learned/control procedure | Own Over W–L/N | Own Under W–L/N | Combined W–L/N | Brier / log loss |
+| --- | --- | --- | --- | --- |
+| Frozen TabICLv2 direct | 6–4/10 | 9–9/18 | **15–13/28** | **0.252715715 /0.700865431** |
+| Same-information logistic | 8–5/13 | 8–7/15 | 16–12/28 | 0.294920838 /0.810142869 |
+| Retained B0 law | 5–0/5 | 13–10/23 | **18–10/28** | 0.262579591 /0.723739530 |
+| Retained B2 law | 4–0/4 | 13–11/24 | 17–11/28 | 0.264043281 /0.724858158 |
+
+Only **one learned week**,28 earlier context examples and14 games support that learned comparison. TabICL’s lower observed probability scores do not erase its worse direction record against the strongest retained control. This is not a verdict on every possible TabICL procedure. No count mean or numericalMAE is supplied by this event classifier.
+
+The declared W5–9 board has142 eligible opportunities: **84 available/scored,42–42**, comprising **W5–6 fallback27–29/56** and **W7 learned15–13/28**. **W8–9:58 unavailable**, neither losses nor intentional abstentions. Whole-system/fallback Over/Under breakdowns were not provided in the obtained public report and stayNOT_RETAINED. W1–4 is outside this pilot, not silently completed. These are retained timing-unverified/unclassified actual-line diagnostics under the owner’s frozen contract, not authenticated original picks.
+
+The partial-system frozen10%-capacity policy selected6 and scored4–2, with4 fallback and2 learned selections. RawP80 selected5 and scored4–1, but its learned subset was3–1/4; rawP90 selected0, rateN/A. These small populations do not establish dependable80% accuracy. Full own-list rows, per-week membership and uncertainty remain owner-local/unreceived; C checked additive public arithmetic only, not protected row or fit parity. [B receipt](intake/B_RECEIPT.json) · [Original public checkpoint](intake/B_PUBLIC_AGGREGATE_CHECKPOINT_V1.md).
+
+**Resource exception retained:** reported CPU255.351182 has disclosed unmetered tails. The W8–9 frozen cost projection was508.051393CPU versus252.257684 available before the180 reserve; total projected855.793710 exceeds600. Last controlled-worker cumulative wall was1,087.533085, and subsequent publication/orchestration exceeded the1,200 elapsed-wall cap. **The run is not labeled wall-compliant.** No further scientific worker is authorized here. Any later B completion request must cover the whole frozen remainder, exact current CPU/wall/storage/readiness and completion cost, preservingW7/configuration; no outcome-driven truncation or retuning.
+
+## C exact increment closed
+
+`C-DYAD-MIX-VALUE-01/v2` further tuning is **CLOSED**. Its W2–3 C0/C1/C2 ownOver38–22/60, ownUnder117–91/208 and combined155–113/268 remain unchanged, with identical probabilities and zero substantive-value splits. The complete board is295; C0 has272 available/4 selected unknown/23 unavailable, whereas C1/C2 have295 available/27 selected unknown. The23 extra forecasts are not decided wins. The unchanged own-list and paired results and independent W2 fit/all590 new-row checks are reused, not rerun. This closes the tested representation/learner increment, not all QB–receiver relationships. [Frozen result and full records](../execution-authorization-02/README.md).
+
+No science budget is reset: C’s prior599.35995406CPU ledger and dedicated106.180933782CPU/114.77313242001401wall/five-fit ledger are unchanged. Reporting costs are separate under the current reporting authority; no protected scientific reserve is consumed. Both earlier failed B strict fit reproductions remainFAILED at their original scope.
+
+## Publication/security and production separation
+
+[Exact publication review](PUBLICATION_REVIEW.json) binds the allowed C payload and source-file identities. It excludes private catalogs, source/training/context rows, credentials, models, private locators and disallowed execution metadata. C imported public file bodies, not B’s rejected commit history; no recursive peer upload or alternative publication destination was used. B owner-reports automatic approval review rejected the earlier broad recursive payload because its constraints did not adequately exclude protected execution metadata/derived sensitive data. C did not retry that payload. Narrow permission is not a hash-only or56-file blanket approval. A’s rejected README likewise requires review of actual revised permitted bytes; no approval is inferred.
+
+The original-site owner’s latest receipt6933251183 reports another **120 baseline rows** at39669ce785ed94625a3b661ccc752d56429c8593, captured2026-11-16T23:55:10Z, source labels60DK/1Sleeper/59internal. These are not120 research picks/wins. Its served-byte loopback/browser evidence is owner-reported, not a new C direct public-browser/mobile check. Production history and baseline capture do not activate research. CountA has no newly verified fresh corrected-mean feed in the received scope; the existing authorized connection owner must resolve upload-host authentication/capability, the registered native producer must then deliver, and the website owner retrieves/admit/served-verifies. No secrets, upload retry or peer dispatch was requested.
+
+Existing exact five-week product rules and older independently eligible releases remain. Numerical display, category direction, probabilities and complete Top Picks cannot borrow qualification; the five-week conditional reception-substitution selector remainsSHADOW with its candidate/fallback contribution preserved. This report makes **no new primary switch**, no full-history/all-category/80% gate and no claim that operationalKEEP_INCUMBENT proves highest forecasting accuracy.
+
+[Finite exact owner actions](FINITE_QUEUE.json) · [Admission stages](ADMISSION.json) · [C closure/accounting](REPORTING_RESOURCE.json). No repeated source search, new algorithm list, forced feature use or accuracy-driven fit was commissioned.
