@@ -9,7 +9,7 @@
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/README.md",
       "bytes": 13771,
-      "SHA256": "cc1fe8661fc1c56e633a1ebccef94180840608008afd958466273e7d1f9237a0"
+      "SHA256": "2ec9e0353041882236ff287ad9d0be2c266a30e2ea5c892eadefa41e6c611d61"
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/B_PRODUCT_IDENTITIES.json",
@@ -34,7 +34,7 @@
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/NUMERICAL_REPAIR_AMENDMENT_REQUEST_V1.json",
       "bytes": 13271,
-      "SHA256": "155422f073c4a856e8a50986c9359611939a50c069de021a9f9bd9415e2490f0"
+      "SHA256": "7a8567b4d5c32d826cf0acaca64acfc80b386880af6b1c16e26ca21b0f0ae14e"
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/B_SECONDARY_SCOPE_FREEZE.json",
@@ -103,8 +103,8 @@
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/B_OWN_SIDE_RESULTS.csv",
-      "bytes": 7873,
-      "SHA256": "dd55a1bd1d5878951824bdb6b7e5140c5c82b7e9e4d9a6a7db08c04b66864377"
+      "bytes": 7828,
+      "SHA256": "734a38290b6e1b757e5b5dbcb5ac9c7176e603fe44a643a8ced5820e8fc30fb0"
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/CANARY_POLICY_CHRONOLOGY.json",
@@ -114,7 +114,7 @@
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/LEDGER_CARRY_V1.json",
       "bytes": 3344,
-      "SHA256": "7a13d75ce5893de050b0098262691982d23e5f80736c698a5bbad15c823090ad"
+      "SHA256": "63da9b8ff6e9d61ed3ecf6ccbd7d18b2b19e2fed497246f1f26a29e03172395f"
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/PR64_MERGE_RECEIPT.json",
@@ -128,8 +128,8 @@
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/ALL_OWNER_PRODUCTS.csv",
-      "bytes": 61222,
-      "SHA256": "fcaa900e9d4d8e30a3f6345a975d76cf32fbeafc48ff99cfdf717e0e488592f7"
+      "bytes": 60976,
+      "SHA256": "c0c68f8d10c8d1ef9d2351e7f67d3ae98af1bdd18029b51f3e60b13772fb524c"
     },
     {
       "path": "reports/shared-game-sim-01/follow-through-v1/intake/B_B_JOIN_RESULT_V3.json",
@@ -199,22 +199,27 @@
     {
       "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
       "bytes": 177144,
-      "SHA256": "587d294f68e594d2456e9354f8640adf397dc4fc1c927812e0436d4308c353d4"
+      "SHA256": "14ab2bf1e2f81fbb1888ea69fb1c1309961310495d1d47d603114a2914c08802"
     },
     {
       "path": "reports/abc-championship/EXPORT_INDEX.json",
       "bytes": 166399,
-      "SHA256": "f3223634c43c11c65f3595565286208530b6be8cb7a9b6056b318018d61c2e09"
+      "SHA256": "d890e628c6f9838e8d4bd29ac2d6f4b2ae3b0b01b3bc2ea924a20ea6eaba06b8"
     },
     {
       "path": "reports/abc-championship/ADMISSION_LEDGER.json",
       "bytes": 34675,
-      "SHA256": "56d9abe0d56bb21d4c7648c542f9aaf1318ec1361c0e7244841125e6f018ecfc"
+      "SHA256": "37e5beb8ce0b745b6234d518feee53c0a621e624c1b1e2395b4ef3e54830e127"
     },
     {
       "path": "reports/abc-championship/TASK_LEDGER.json",
       "bytes": 48220,
       "SHA256": "4626f3d7a33e7cd3a187a37340355c907793339094289f6a2a43fe9501703c67"
+    },
+    {
+      "path": "reports/shared-game-sim-01/follow-through-v1/CSV_FORMAT_REPAIR.json",
+      "bytes": 788,
+      "SHA256": "c339908419685b9adca861bef038edcc8ca5bfd6300cc4d876f5e9bb8e6cd73a"
     }
   ],
   "destination": "Existing C research/shared-game-sim-01-follow-through-v1; no visibilitychange",
@@ -223,5 +228,6 @@
   "restricted": "Private raw grade/prediction/membership bodies stay ignored; A rejectedcompressedexport notobtained",
   "output_readback": "8/8 exhausted,new C public bodyreadback NOT_PERFORMED",
   "old_scientific_checkpoint": "Execution-v1 allbytes unchanged; all failures/charges/freezes/uncertainty retained",
-  "manifest_self": "This generated enumerated review metadata is also public; no recursive upload"
+  "manifest_self": "This generated enumerated review metadata is also public; no recursive upload",
+  "format_only_followup": "94ec33a publiclysafe parent preserved; subsequent CSV LF repair changes no parsedcells or predictions/grades"
 }
