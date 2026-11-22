@@ -3493,6 +3493,64 @@
       "path": "reports/shared-game-sim-01/execution-v1/EXECUTION_UNCERTAINTY_ADDENDUM.json",
       "bytes": 1105,
       "SHA256": "eac883ebe0cf2463e645b7f66dcb7ae74d3d8f57b77c400975fcee32b069a0ca"
+    },
+    "superseded_forward_status": "See shared_game_sim_01_followthrough; original snapshot/bindings preserved"
+  },
+  "shared_game_sim_01_followthrough": {
+    "id": "SHARED-GAME-SIM01-FOLLOWTHROUGH-v1",
+    "state": "PR64_MERGED;AB_ADMITTED;STATIC_REPAIRS;NUMERICAL_REQUEST_ONLY",
+    "prior_checkpoint_commit": "f990da3c9812e2e14d5deb1a58e7dcbc41685090",
+    "merge_commit": "b76e800146ba46dd5adec2d59cdfc578a1680539",
+    "actual_simulator_complete_games": 0,
+    "actual_simulator_retained_trajectories": 0,
+    "A": "COMPLETED_CLOSED_ADMITTED_PUBLIC_AGGREGATES",
+    "B": "EXISTING_BINDINGS_RETRIEVED_AND_SECONDARY_DIAGNOSTICS_GRADED;NO_JOIN_REPEAT",
+    "numerical_restart": false,
+    "activation": false,
+    "report": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/README.md",
+      "bytes": 13771,
+      "SHA256": "cc1fe8661fc1c56e633a1ebccef94180840608008afd958466273e7d1f9237a0"
+    },
+    "machine": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/COMBINED_COMPARISON.json.gz",
+      "bytes": 52437,
+      "SHA256": "0187f4f5f6c155382b77dd37fd862025bf51e99461bc39ab3ca9c5f0bb7a6804"
+    },
+    "products": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/ALL_OWNER_PRODUCTS.csv",
+      "bytes": 61222,
+      "SHA256": "fcaa900e9d4d8e30a3f6345a975d76cf32fbeafc48ff99cfdf717e0e488592f7"
+    },
+    "admission": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/ADMISSION_V1.json",
+      "bytes": 2144,
+      "SHA256": "1c2872128bb935cc7c8f779e207e0d84df755d30f32daed0d9b76e19b1948f9e"
+    },
+    "queue": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/FINITE_QUEUE.json",
+      "bytes": 2077,
+      "SHA256": "facf2e3ee8083f90551c21e2b8813a31d01a3f010e31c914589aa8bc972ba31c"
+    },
+    "amendment": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/NUMERICAL_REPAIR_AMENDMENT_REQUEST_V1.json",
+      "bytes": 13271,
+      "SHA256": "155422f073c4a856e8a50986c9359611939a50c069de021a9f9bd9415e2490f0"
+    },
+    "ledger": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/LEDGER_CARRY_V1.json",
+      "bytes": 3344,
+      "SHA256": "7a13d75ce5893de050b0098262691982d23e5f80736c698a5bbad15c823090ad"
+    },
+    "merge": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/PR64_MERGE_RECEIPT.json",
+      "bytes": 2023,
+      "SHA256": "80366edaff723ba700ff7ae3494ee599d3340beb168a1132237314ad810d70d3"
+    },
+    "handoff": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/OWNER_HANDOFF_V1.json",
+      "bytes": 5570,
+      "SHA256": "a01b25bcb35ad1f6d186c6c8e7ff08c8fb64f28f6de68177a9b3a96d7664a19b"
     }
   }
 }

@@ -1,0 +1,81 @@
+{
+  "id": "C-SIM01-FOLLOWTHROUGH-CUMULATIVE-CARRY-v1",
+  "checkpoint_UTC": "2026-11-22T20:02:50.971746+00:00",
+  "sealed_predecessor": {
+    "path": "reports/shared-game-sim-01/execution-v1/LEDGER.json",
+    "bytes": 11115,
+    "SHA256": "56b4c6eb1e15341ea1c14d38db711c2997f5d63877deca44483a82c83a9713d5"
+  },
+  "old_CPU_seconds": 227.07979382899998,
+  "CPU_seconds": 260.15499440599996,
+  "CPU_exact_decimal": "260.154994405999979995",
+  "controlled_wall_seconds": 381.0591629320003,
+  "controlled_wall_exact_decimal": "381.059162932000252484",
+  "events": [
+    {
+      "stage": "Static controller/mutation repairs, handoff intake and amendment/report preparation",
+      "CPU_seconds": 20,
+      "controlled_wall_seconds": 0,
+      "measurement": "Conservative selected preparation charge, includes Bview authoring2CPU; not full assistant/network CPU measurement. No numerical worker."
+    },
+    {
+      "stage": "Ten deterministic controller/codec software tests, both runs",
+      "CPU_seconds": 3.427387783,
+      "controlled_wall_seconds": 3.434386711
+    },
+    {
+      "stage": "B saved-output grades including pregrade assertion failure",
+      "CPU_seconds": 8.149131744,
+      "controlled_wall_seconds": 8.156614666000678,
+      "receipt": "B_VIEW_RESOURCE_RECEIPT.json"
+    },
+    {
+      "stage": "Independent A public aggregate arithmetic",
+      "CPU_seconds": 0.113603086,
+      "controlled_wall_seconds": 0.113928792
+    },
+    {
+      "stage": "Independent B representative grade/membership arithmetic",
+      "CPU_seconds": 0.95329947,
+      "controlled_wall_seconds": 0.954309356
+    },
+    {
+      "stage": "Independent numerical request static review",
+      "CPU_seconds": 0.025178,
+      "controlled_wall_seconds": 0
+    },
+    {
+      "stage": "Canonical binding validation initial stale-pointer failure",
+      "CPU_seconds": 0.037545051999999995,
+      "controlled_wall_seconds": 0.03807026200047403
+    },
+    {
+      "stage": "Canonical binding validation second stale-pointer failure",
+      "CPU_seconds": 0.04210065,
+      "controlled_wall_seconds": 0.041887208999469294
+    },
+    {
+      "stage": "Canonical binding validation finalPASS670bindings",
+      "CPU_seconds": 0.326954792,
+      "controlled_wall_seconds": 0.34746608000023116
+    }
+  ],
+  "total_CPU_cap": 1800,
+  "total_controlled_wall_cap": 7200,
+  "completion_CPU_reserve": 380,
+  "remaining_CPU": 1539.845005594,
+  "pre_completion_spendable_CPU": 1159.845005594,
+  "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+  "original_launch_elapsed_seconds": 7050.862811,
+  "end_to_end_7200_exceeded": false,
+  "wall_scope": "Elapsed includes orchestration/publication/approval wait; no reset or retrospective compliance certificate. No numerical attempt after original canary stop; reporting/static repairs use existing authority. Future scientific worker requires wall amendment if exhausted.",
+  "canary_CPU_seconds": 59.093234438,
+  "canary_cap": 60,
+  "canary_state": "CLOSED_UNCHANGED",
+  "own_output_readbacks": 8,
+  "own_output_readback_cap": 8,
+  "source_recovery_reads": 0,
+  "source_recovery_cap": 8,
+  "old_scientific_accounts": "Unchanged; no transfer",
+  "metering": "Selected process/controller measurements plus20 conservative preparation CPU. Assistant/tool/network and packaging overhead not completely metered."
+}

@@ -1,0 +1,19 @@
+{
+  "state": "NORMAL_C_GIT_PUBLICATION_AUTHORIZED;NEW_BODY_READBACK_NOT_AUTHORIZED",
+  "old_own_output_reads": 8,
+  "old_cap": 8,
+  "new_own_output_body_reads": 0,
+  "peer_intake_operations": {
+    "A_reviewed_JSON": 1,
+    "A_readable_MD": 1,
+    "B_readable_MD": 1,
+    "B_metadata_JSON": 5,
+    "B_binary_UTF8_decoder_rejection": 1,
+    "B_explicit_base64_body_success": 1
+  },
+  "peer_raw_source_collection": 0,
+  "peer_intake": "Explicit user handed-off sources; neither own-output readback nor rawfootball source recovery",
+  "body_reopen": "Actual A/B handoff bytes locallyreopened andhashverified;new C report/grades only localreopen with originalsource reconstruction,notremoteGITHUBrawgradeparity",
+  "protected": "No A rejected compressed export or protected source/model rows",
+  "publication": "Featurebranch/report outputs only; no website activation"
+}

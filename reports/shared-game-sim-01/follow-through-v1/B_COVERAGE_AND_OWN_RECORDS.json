@@ -1,0 +1,3176 @@
+{
+  "scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+  "products": [
+    {
+      "method": "B::B-SIM01-9e315e876799c2e77d::PRIMARY",
+      "candidate_id": "B-SIM01-9e315e876799c2e77d",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "category": "rush_yd",
+      "product": "absolute_error_point",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 439,
+      "available": 260,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 24,
+        "wins": 11,
+        "losses": 7,
+        "decided": 18,
+        "rate": 0.6111111111111112
+      },
+      "UNDER": {
+        "selected": 236,
+        "wins": 126,
+        "losses": 100,
+        "decided": 226,
+        "rate": 0.5575221238938053
+      },
+      "COMBINED": {
+        "selected": 260,
+        "wins": 137,
+        "losses": 107,
+        "decided": 244,
+        "rate": 0.5614754098360656
+      },
+      "selected_unknown": 16,
+      "unavailable": 179,
+      "fallback": 0,
+      "numerical": {
+        "n": 244,
+        "MAE": 34.67499751444057,
+        "bias": -32.845580004839846,
+        "RMSE": 49.69642271453241
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-0191d8e94ca3c95b6f::PRIMARY",
+      "candidate_id": "B-SIM01-0191d8e94ca3c95b6f",
+      "procedure": "B::v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:strict-current-inputs::H-CURRENT-STRICT::lower_median",
+      "category": "rush_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 439,
+      "available": 260,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 70,
+        "wins": 29,
+        "losses": 31,
+        "decided": 60,
+        "rate": 0.48333333333333334
+      },
+      "UNDER": {
+        "selected": 190,
+        "wins": 102,
+        "losses": 82,
+        "decided": 184,
+        "rate": 0.5543478260869565
+      },
+      "COMBINED": {
+        "selected": 260,
+        "wins": 131,
+        "losses": 113,
+        "decided": 244,
+        "rate": 0.5368852459016393
+      },
+      "selected_unknown": 16,
+      "unavailable": 179,
+      "fallback": 7,
+      "numerical": {
+        "n": 244,
+        "MAE": 21.520491803278688,
+        "bias": -12.397540983606557,
+        "RMSE": 32.0923998969778
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-67e9e4bbbb14aa34f8::PRIMARY",
+      "candidate_id": "B-SIM01-67e9e4bbbb14aa34f8",
+      "procedure": "empirical-player-history-control-v1",
+      "category": "rush_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 439,
+      "available": 260,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 98,
+        "wins": 49,
+        "losses": 44,
+        "decided": 93,
+        "rate": 0.5268817204301075
+      },
+      "UNDER": {
+        "selected": 162,
+        "wins": 89,
+        "losses": 62,
+        "decided": 151,
+        "rate": 0.5894039735099338
+      },
+      "COMBINED": {
+        "selected": 260,
+        "wins": 138,
+        "losses": 106,
+        "decided": 244,
+        "rate": 0.5655737704918032
+      },
+      "selected_unknown": 16,
+      "unavailable": 179,
+      "fallback": 0,
+      "numerical": {
+        "n": 244,
+        "MAE": 20.92622950819672,
+        "bias": -7.434426229508197,
+        "RMSE": 30.21982304577631
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-6bac0483d2935fa2c3::PRIMARY",
+      "candidate_id": "B-SIM01-6bac0483d2935fa2c3",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "category": "rush_att",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 226,
+      "available": 131,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 38,
+        "wins": 22,
+        "losses": 16,
+        "decided": 38,
+        "rate": 0.5789473684210527
+      },
+      "UNDER": {
+        "selected": 93,
+        "wins": 50,
+        "losses": 43,
+        "decided": 93,
+        "rate": 0.5376344086021505
+      },
+      "COMBINED": {
+        "selected": 131,
+        "wins": 72,
+        "losses": 59,
+        "decided": 131,
+        "rate": 0.549618320610687
+      },
+      "selected_unknown": 0,
+      "unavailable": 95,
+      "fallback": 0,
+      "numerical": {
+        "n": 131,
+        "MAE": 4.847328244274809,
+        "bias": -2.2977099236641223,
+        "RMSE": 6.270614857174925
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-4bd13ee88b054e1232::PRIMARY",
+      "candidate_id": "B-SIM01-4bd13ee88b054e1232",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean",
+      "category": "rush_att",
+      "product": "squared_error_mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 226,
+      "available": 131,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 35,
+        "wins": 18,
+        "losses": 17,
+        "decided": 35,
+        "rate": 0.5142857142857142
+      },
+      "UNDER": {
+        "selected": 96,
+        "wins": 49,
+        "losses": 47,
+        "decided": 96,
+        "rate": 0.5104166666666666
+      },
+      "COMBINED": {
+        "selected": 131,
+        "wins": 67,
+        "losses": 64,
+        "decided": 131,
+        "rate": 0.5114503816793893
+      },
+      "selected_unknown": 0,
+      "unavailable": 95,
+      "fallback": 0,
+      "numerical": {
+        "n": 131,
+        "MAE": 4.6822184613595965,
+        "bias": -1.8119137055120955,
+        "RMSE": 5.981149744320879
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-3721ee2031f785793b::PRIMARY",
+      "candidate_id": "B-SIM01-3721ee2031f785793b",
+      "procedure": "empirical-player-history-control-v1",
+      "category": "rush_att",
+      "product": "empirical_mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "rows": 226,
+      "available": 131,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 51,
+        "wins": 30,
+        "losses": 21,
+        "decided": 51,
+        "rate": 0.5882352941176471
+      },
+      "UNDER": {
+        "selected": 80,
+        "wins": 45,
+        "losses": 35,
+        "decided": 80,
+        "rate": 0.5625
+      },
+      "COMBINED": {
+        "selected": 131,
+        "wins": 75,
+        "losses": 56,
+        "decided": 131,
+        "rate": 0.5725190839694656
+      },
+      "selected_unknown": 0,
+      "unavailable": 95,
+      "fallback": 0,
+      "numerical": {
+        "n": 131,
+        "MAE": 4.868432608293071,
+        "bias": -1.4426362296506405,
+        "RMSE": 6.356252454554672
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "candidate_id": "B-SIM01-2d9fb1d864929a32c4",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "category": "rec",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 922,
+      "available": 546,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 245,
+        "wins": 139,
+        "losses": 63,
+        "decided": 202,
+        "rate": 0.6881188118811881
+      },
+      "UNDER": {
+        "selected": 301,
+        "wins": 154,
+        "losses": 129,
+        "decided": 283,
+        "rate": 0.5441696113074205
+      },
+      "COMBINED": {
+        "selected": 546,
+        "wins": 293,
+        "losses": 192,
+        "decided": 485,
+        "rate": 0.6041237113402061
+      },
+      "selected_unknown": 61,
+      "unavailable": 376,
+      "fallback": 2,
+      "numerical": {
+        "n": 485,
+        "MAE": 1.481570008980235,
+        "bias": -0.5996589964877039,
+        "RMSE": 2.04551730292739
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-c0b1b9acab53581d97::PRIMARY",
+      "candidate_id": "B-SIM01-c0b1b9acab53581d97",
+      "procedure": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+      "category": "rec",
+      "product": "saved_complete_leaf_law",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 922,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "selected_unknown": 0,
+      "unavailable": 922,
+      "fallback": 0,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "candidate_id": "B-SIM01-f0b13c56dbdd37a2b3",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean",
+      "category": "rec",
+      "product": "squared_error_mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 922,
+      "available": 546,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 240,
+        "wins": 134,
+        "losses": 65,
+        "decided": 199,
+        "rate": 0.6733668341708543
+      },
+      "UNDER": {
+        "selected": 306,
+        "wins": 152,
+        "losses": 134,
+        "decided": 286,
+        "rate": 0.5314685314685315
+      },
+      "COMBINED": {
+        "selected": 546,
+        "wins": 286,
+        "losses": 199,
+        "decided": 485,
+        "rate": 0.5896907216494846
+      },
+      "selected_unknown": 61,
+      "unavailable": 376,
+      "fallback": 0,
+      "numerical": {
+        "n": 485,
+        "MAE": 1.4859014149489882,
+        "bias": -0.5986296263390614,
+        "RMSE": 2.051034718460385
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-42da71d8bb5df4f101::PRIMARY",
+      "candidate_id": "B-SIM01-42da71d8bb5df4f101",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "category": "rec_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 925,
+      "available": 546,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 222,
+        "wins": 114,
+        "losses": 78,
+        "decided": 192,
+        "rate": 0.59375
+      },
+      "UNDER": {
+        "selected": 324,
+        "wins": 145,
+        "losses": 142,
+        "decided": 287,
+        "rate": 0.5052264808362369
+      },
+      "COMBINED": {
+        "selected": 546,
+        "wins": 259,
+        "losses": 220,
+        "decided": 479,
+        "rate": 0.5407098121085595
+      },
+      "selected_unknown": 67,
+      "unavailable": 379,
+      "fallback": 3,
+      "numerical": {
+        "n": 479,
+        "MAE": 22.82463465553236,
+        "bias": -11.60125260960334,
+        "RMSE": 31.62023479410357
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-ccd2e93409415f7dfe::PRIMARY",
+      "candidate_id": "B-SIM01-ccd2e93409415f7dfe",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "category": "rec_yd",
+      "product": "saved_complete_leaf_law",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 925,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "COMBINED": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "selected_unknown": 0,
+      "unavailable": 925,
+      "fallback": 0,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-96d546b3cdf53b47a5::PRIMARY",
+      "candidate_id": "B-SIM01-96d546b3cdf53b47a5",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "category": "rec_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 925,
+      "available": 546,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 156,
+        "wins": 79,
+        "losses": 52,
+        "decided": 131,
+        "rate": 0.6030534351145038
+      },
+      "UNDER": {
+        "selected": 390,
+        "wins": 171,
+        "losses": 177,
+        "decided": 348,
+        "rate": 0.49137931034482757
+      },
+      "COMBINED": {
+        "selected": 546,
+        "wins": 250,
+        "losses": 229,
+        "decided": 479,
+        "rate": 0.5219206680584552
+      },
+      "selected_unknown": 67,
+      "unavailable": 379,
+      "fallback": 2,
+      "numerical": {
+        "n": 479,
+        "MAE": 22.697286012526096,
+        "bias": -13.728601252609604,
+        "RMSE": 31.615183582977757
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-2e4ee2f3e48fa5acd5::PRIMARY",
+      "candidate_id": "B-SIM01-2e4ee2f3e48fa5acd5",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "category": "rush_rec_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 222,
+      "available": 133,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 16,
+        "wins": 9,
+        "losses": 3,
+        "decided": 12,
+        "rate": 0.75
+      },
+      "UNDER": {
+        "selected": 117,
+        "wins": 50,
+        "losses": 42,
+        "decided": 92,
+        "rate": 0.5434782608695652
+      },
+      "COMBINED": {
+        "selected": 133,
+        "wins": 59,
+        "losses": 45,
+        "decided": 104,
+        "rate": 0.5673076923076923
+      },
+      "selected_unknown": 29,
+      "unavailable": 89,
+      "fallback": 2,
+      "numerical": {
+        "n": 104,
+        "MAE": 32.77884615384615,
+        "bias": -25.39423076923077,
+        "RMSE": 44.01496686006145
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-07cbacd3f2987569d7::PRIMARY",
+      "candidate_id": "B-SIM01-07cbacd3f2987569d7",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point",
+      "category": "rush_rec_yd",
+      "product": "absolute_error_point",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 222,
+      "available": 133,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 23,
+        "wins": 11,
+        "losses": 7,
+        "decided": 18,
+        "rate": 0.6111111111111112
+      },
+      "UNDER": {
+        "selected": 110,
+        "wins": 46,
+        "losses": 40,
+        "decided": 86,
+        "rate": 0.5348837209302325
+      },
+      "COMBINED": {
+        "selected": 133,
+        "wins": 57,
+        "losses": 47,
+        "decided": 104,
+        "rate": 0.5480769230769231
+      },
+      "selected_unknown": 29,
+      "unavailable": 89,
+      "fallback": 0,
+      "numerical": {
+        "n": 104,
+        "MAE": 31.525180046075224,
+        "bias": -21.430957631773303,
+        "RMSE": 40.87738518192947
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-3255df04669b646b8a::PRIMARY",
+      "candidate_id": "B-SIM01-3255df04669b646b8a",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "category": "rush_rec_yd",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 222,
+      "available": 133,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 60,
+        "wins": 20,
+        "losses": 26,
+        "decided": 46,
+        "rate": 0.43478260869565216
+      },
+      "UNDER": {
+        "selected": 73,
+        "wins": 27,
+        "losses": 31,
+        "decided": 58,
+        "rate": 0.46551724137931033
+      },
+      "COMBINED": {
+        "selected": 133,
+        "wins": 47,
+        "losses": 57,
+        "decided": 104,
+        "rate": 0.4519230769230769
+      },
+      "selected_unknown": 29,
+      "unavailable": 89,
+      "fallback": 0,
+      "numerical": {
+        "n": 104,
+        "MAE": 29.115384615384617,
+        "bias": -9.134615384615385,
+        "RMSE": 36.55712074169787
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM01-7c0f4afad04b58e53f::PRIMARY",
+      "candidate_id": "B-SIM01-7c0f4afad04b58e53f",
+      "procedure": "hgb-direct-history-controls-v1:log_loss_probability",
+      "category": "anytime_td",
+      "product": "event_probability",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM01-a5f6e3b098f93c5230::PRIMARY",
+      "candidate_id": "B-SIM01-a5f6e3b098f93c5230",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "category": "anytime_td",
+      "product": "event_probability",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM01-93c4330014bdb92d48::PRIMARY",
+      "candidate_id": "B-SIM01-93c4330014bdb92d48",
+      "procedure": "empirical-player-history-control-v1",
+      "category": "anytime_td",
+      "product": "event_probability",
+      "variant": "PRIMARY",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM01-b0c10fe4c98abf87b3::PRIMARY",
+      "candidate_id": "B-SIM01-b0c10fe4c98abf87b3",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "category": "nick-chart-ppr-v1",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM01-35e800c0ad60b8d664::PRIMARY",
+      "candidate_id": "B-SIM01-35e800c0ad60b8d664",
+      "procedure": "v2-qualified-partial-chart-direct-wave-v1:empirical",
+      "category": "nick-chart-ppr-v1",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM01-4b8cc0061c9691cfc1::PRIMARY",
+      "candidate_id": "B-SIM01-4b8cc0061c9691cfc1",
+      "procedure": "v2-qualified-partial-chart-direct-wave-v1:regularized_glm_law:common-feature-memory",
+      "category": "nick-chart-ppr-v1",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "rows": 0,
+      "available": 0,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [],
+      "selected_weeks": [],
+      "decided_weeks": [],
+      "available_games": 0,
+      "decided_games": 0,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "NO_MATCHING_OFFER"
+    },
+    {
+      "method": "B::B-SIM-pass_yd-D2_LEAF::PRIMARY",
+      "candidate_id": "B-SIM-pass_yd-D2_LEAF",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:known-target-time-v1",
+      "category": "pass_yd",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 56,
+        "wins": 34,
+        "losses": 22,
+        "decided": 56,
+        "rate": 0.6071428571428571
+      },
+      "UNDER": {
+        "selected": 34,
+        "wins": 17,
+        "losses": 17,
+        "decided": 34,
+        "rate": 0.5
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 51,
+        "losses": 39,
+        "decided": 90,
+        "rate": 0.5666666666666667
+      },
+      "selected_unknown": 0,
+      "unavailable": 58,
+      "fallback": 1,
+      "numerical": {
+        "n": 90,
+        "MAE": 60.06928900513579,
+        "bias": -2.8435620118994103,
+        "RMSE": 74.05083172295758
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_yd-DIRECT_GLM::PRIMARY",
+      "candidate_id": "B-SIM-pass_yd-DIRECT_GLM",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:known-target-time-v1",
+      "category": "pass_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 54,
+        "wins": 31,
+        "losses": 23,
+        "decided": 54,
+        "rate": 0.5740740740740741
+      },
+      "UNDER": {
+        "selected": 36,
+        "wins": 16,
+        "losses": 20,
+        "decided": 36,
+        "rate": 0.4444444444444444
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 47,
+        "losses": 43,
+        "decided": 90,
+        "rate": 0.5222222222222223
+      },
+      "selected_unknown": 0,
+      "unavailable": 58,
+      "fallback": 1,
+      "numerical": {
+        "n": 90,
+        "MAE": 104.81111111111112,
+        "bias": 17.144444444444446,
+        "RMSE": 137.22208277095928
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_yd-EMPIRICAL::PRIMARY",
+      "candidate_id": "B-SIM-pass_yd-EMPIRICAL",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "category": "pass_yd",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 34,
+        "wins": 21,
+        "losses": 13,
+        "decided": 34,
+        "rate": 0.6176470588235294
+      },
+      "UNDER": {
+        "selected": 56,
+        "wins": 26,
+        "losses": 30,
+        "decided": 56,
+        "rate": 0.4642857142857143
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 47,
+        "losses": 43,
+        "decided": 90,
+        "rate": 0.5222222222222223
+      },
+      "selected_unknown": 0,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 90,
+        "MAE": 64.97777777777777,
+        "bias": -27.177777777777777,
+        "RMSE": 82.99210136446051
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_td-D2_LEAF::PRIMARY",
+      "candidate_id": "B-SIM-pass_td-D2_LEAF",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "category": "pass_td",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 42,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 22,
+        "wins": 14,
+        "losses": 2,
+        "decided": 16,
+        "rate": 0.875
+      },
+      "UNDER": {
+        "selected": 68,
+        "wins": 32,
+        "losses": 26,
+        "decided": 58,
+        "rate": 0.5517241379310345
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 46,
+        "losses": 28,
+        "decided": 74,
+        "rate": 0.6216216216216216
+      },
+      "selected_unknown": 16,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 74,
+        "MAE": 0.7297297297297297,
+        "bias": -0.6486486486486487,
+        "RMSE": 1.115008180796555
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_td-HGB::PRIMARY",
+      "candidate_id": "B-SIM-pass_td-HGB",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean:known-target-time-v1",
+      "category": "pass_td",
+      "product": "squared_error_mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 42,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 51,
+        "wins": 30,
+        "losses": 10,
+        "decided": 40,
+        "rate": 0.75
+      },
+      "UNDER": {
+        "selected": 39,
+        "wins": 24,
+        "losses": 10,
+        "decided": 34,
+        "rate": 0.7058823529411765
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 54,
+        "losses": 20,
+        "decided": 74,
+        "rate": 0.7297297297297297
+      },
+      "selected_unknown": 16,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 74,
+        "MAE": 0.7142912527660151,
+        "bias": -0.33363770884758587,
+        "RMSE": 0.9363049270822495
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_td-EMPIRICAL::PRIMARY",
+      "candidate_id": "B-SIM-pass_td-EMPIRICAL",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "category": "pass_td",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 42,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 34,
+        "wins": 19,
+        "losses": 8,
+        "decided": 27,
+        "rate": 0.7037037037037037
+      },
+      "UNDER": {
+        "selected": 56,
+        "wins": 26,
+        "losses": 21,
+        "decided": 47,
+        "rate": 0.5531914893617021
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 45,
+        "losses": 29,
+        "decided": 74,
+        "rate": 0.6081081081081081
+      },
+      "selected_unknown": 16,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 74,
+        "MAE": 0.7702702702702703,
+        "bias": -0.5,
+        "RMSE": 1.0966780305553232
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_att-C02_LEAF::PRIMARY",
+      "candidate_id": "B-SIM-pass_att-C02_LEAF",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "category": "pass_att",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 41,
+        "wins": 25,
+        "losses": 16,
+        "decided": 41,
+        "rate": 0.6097560975609756
+      },
+      "UNDER": {
+        "selected": 49,
+        "wins": 28,
+        "losses": 21,
+        "decided": 49,
+        "rate": 0.5714285714285714
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 53,
+        "losses": 37,
+        "decided": 90,
+        "rate": 0.5888888888888889
+      },
+      "selected_unknown": 0,
+      "unavailable": 58,
+      "fallback": 1,
+      "numerical": {
+        "n": 90,
+        "MAE": 6.544444444444444,
+        "bias": -2.033333333333333,
+        "RMSE": 9.040034414880411
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_att-HGB::PRIMARY",
+      "candidate_id": "B-SIM-pass_att-HGB",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "category": "pass_att",
+      "product": "absolute_error_point",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 45,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 19,
+        "wins": 14,
+        "losses": 5,
+        "decided": 19,
+        "rate": 0.7368421052631579
+      },
+      "UNDER": {
+        "selected": 71,
+        "wins": 39,
+        "losses": 32,
+        "decided": 71,
+        "rate": 0.5492957746478874
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 53,
+        "losses": 37,
+        "decided": 90,
+        "rate": 0.5888888888888889
+      },
+      "selected_unknown": 0,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 90,
+        "MAE": 7.337681298526512,
+        "bias": -3.7122770436735264,
+        "RMSE": 9.730046583249365
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_int-C02_LEAF::PRIMARY",
+      "candidate_id": "B-SIM-pass_int-C02_LEAF",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "category": "pass_int",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 15,
+        "wins": 12,
+        "losses": 2,
+        "decided": 14,
+        "rate": 0.8571428571428571
+      },
+      "UNDER": {
+        "selected": 75,
+        "wins": 31,
+        "losses": 28,
+        "decided": 59,
+        "rate": 0.5254237288135594
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 43,
+        "losses": 30,
+        "decided": 73,
+        "rate": 0.589041095890411
+      },
+      "selected_unknown": 17,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 73,
+        "MAE": 0.5753424657534246,
+        "bias": -0.5205479452054794,
+        "RMSE": 0.8758557459257962
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_int-EMPIRICAL::PRIMARY",
+      "candidate_id": "B-SIM-pass_int-EMPIRICAL",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "category": "pass_int",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 37,
+        "wins": 20,
+        "losses": 13,
+        "decided": 33,
+        "rate": 0.6060606060606061
+      },
+      "UNDER": {
+        "selected": 53,
+        "wins": 20,
+        "losses": 20,
+        "decided": 40,
+        "rate": 0.5
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 40,
+        "losses": 33,
+        "decided": 73,
+        "rate": 0.547945205479452
+      },
+      "selected_unknown": 17,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 73,
+        "MAE": 0.6301369863013698,
+        "bias": -0.2465753424657534,
+        "RMSE": 0.8600732686214938
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_int-DIRECT_GLM::PRIMARY",
+      "candidate_id": "B-SIM-pass_int-DIRECT_GLM",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:known-target-time-v1",
+      "category": "pass_int",
+      "product": "lower_median",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 90,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "available_games": 45,
+      "decided_games": 44,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 0,
+        "wins": null,
+        "losses": null,
+        "decided": 0,
+        "rate": null
+      },
+      "UNDER": {
+        "selected": 90,
+        "wins": 33,
+        "losses": 40,
+        "decided": 73,
+        "rate": 0.4520547945205479
+      },
+      "COMBINED": {
+        "selected": 90,
+        "wins": 33,
+        "losses": 40,
+        "decided": 73,
+        "rate": 0.4520547945205479
+      },
+      "selected_unknown": 17,
+      "unavailable": 58,
+      "fallback": 0,
+      "numerical": {
+        "n": 73,
+        "MAE": 0.7123287671232876,
+        "bias": -0.7123287671232876,
+        "RMSE": 1.0203410657280039
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::PRIMARY",
+      "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+      "procedure": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "category": "pass_cmp",
+      "product": "exact_count_law",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 35,
+        "wins": 20,
+        "losses": 15,
+        "decided": 35,
+        "rate": 0.5714285714285714
+      },
+      "UNDER": {
+        "selected": 113,
+        "wins": 54,
+        "losses": 57,
+        "decided": 111,
+        "rate": 0.4864864864864865
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 74,
+        "losses": 72,
+        "decided": 146,
+        "rate": 0.5068493150684932
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 0,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 146,
+        "half_multiclass_Brier": 0.27029009820023514,
+        "raw_log_loss": 0.7370087005302202,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 91,
+            "wins": 50,
+            "stated_mean": 0.5502504218130478,
+            "observed_rate": 0.5494505494505495
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 39,
+            "wins": 18,
+            "stated_mean": 0.641033178498935,
+            "observed_rate": 0.46153846153846156
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 13,
+            "wins": 4,
+            "stated_mean": 0.7375334386976108,
+            "observed_rate": 0.3076923076923077
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 3,
+            "wins": 2,
+            "stated_mean": 0.8359144746329283,
+            "observed_rate": 0.6666666666666666
+          }
+        ]
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::MEAN",
+      "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+      "procedure": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "category": "pass_cmp",
+      "product": "mean_sibling",
+      "variant": "MEAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 24,
+        "wins": 13,
+        "losses": 11,
+        "decided": 24,
+        "rate": 0.5416666666666666
+      },
+      "UNDER": {
+        "selected": 124,
+        "wins": 58,
+        "losses": 64,
+        "decided": 122,
+        "rate": 0.47540983606557374
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 71,
+        "losses": 75,
+        "decided": 146,
+        "rate": 0.4863013698630137
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 0,
+      "numerical": {
+        "n": 146,
+        "MAE": 4.882375840641976,
+        "bias": -2.0896219526418567,
+        "RMSE": 6.210761391919074
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::MEDIAN",
+      "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+      "procedure": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "category": "pass_cmp",
+      "product": "median_sibling",
+      "variant": "MEDIAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 35,
+        "wins": 20,
+        "losses": 15,
+        "decided": 35,
+        "rate": 0.5714285714285714
+      },
+      "UNDER": {
+        "selected": 113,
+        "wins": 54,
+        "losses": 57,
+        "decided": 111,
+        "rate": 0.4864864864864865
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 74,
+        "losses": 72,
+        "decided": 146,
+        "rate": 0.5068493150684932
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 0,
+      "numerical": {
+        "n": 146,
+        "MAE": 4.883561643835616,
+        "bias": -1.773972602739726,
+        "RMSE": 6.188256664679092
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-SKILL_R0_MIX::PRIMARY",
+      "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+      "procedure": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+      "category": "pass_cmp",
+      "product": "mean",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 17,
+        "wins": 9,
+        "losses": 8,
+        "decided": 17,
+        "rate": 0.5294117647058824
+      },
+      "UNDER": {
+        "selected": 131,
+        "wins": 61,
+        "losses": 68,
+        "decided": 129,
+        "rate": 0.4728682170542636
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 70,
+        "losses": 76,
+        "decided": 146,
+        "rate": 0.4794520547945205
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 146,
+        "MAE": 4.882681470937865,
+        "bias": -2.1181988958802975,
+        "RMSE": 6.137221750722076
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-SKILL_R0_MIX::LAW",
+      "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+      "procedure": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+      "category": "pass_cmp",
+      "product": "exact_saved_threshold_law",
+      "variant": "LAW",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 12,
+        "wins": 5,
+        "losses": 7,
+        "decided": 12,
+        "rate": 0.4166666666666667
+      },
+      "UNDER": {
+        "selected": 136,
+        "wins": 62,
+        "losses": 72,
+        "decided": 134,
+        "rate": 0.4626865671641791
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 67,
+        "losses": 79,
+        "decided": 146,
+        "rate": 0.4589041095890411
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 146,
+        "half_multiclass_Brier": 0.2844375164790161,
+        "raw_log_loss": 0.7677385460521174,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 46,
+            "wins": 20,
+            "stated_mean": 0.5565988442038224,
+            "observed_rate": 0.43478260869565216
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 65,
+            "wins": 31,
+            "stated_mean": 0.648402904509954,
+            "observed_rate": 0.47692307692307695
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 31,
+            "wins": 13,
+            "stated_mean": 0.7287708544428689,
+            "observed_rate": 0.41935483870967744
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 3,
+            "wins": 2,
+            "stated_mean": 0.8168025008737058,
+            "observed_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "decided": 1,
+            "wins": 1,
+            "stated_mean": 0.9082538761064126,
+            "observed_rate": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-SKILL_R0_MIX::MEDIAN",
+      "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+      "procedure": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+      "category": "pass_cmp",
+      "product": "median_sibling",
+      "variant": "MEDIAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 12,
+        "wins": 5,
+        "losses": 7,
+        "decided": 12,
+        "rate": 0.4166666666666667
+      },
+      "UNDER": {
+        "selected": 136,
+        "wins": 62,
+        "losses": 72,
+        "decided": 134,
+        "rate": 0.4626865671641791
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 67,
+        "losses": 79,
+        "decided": 146,
+        "rate": 0.4589041095890411
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 146,
+        "MAE": 5.239726027397261,
+        "bias": -3.006849315068493,
+        "RMSE": 6.623432872287498
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-DIRECT_GLM::PRIMARY",
+      "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:weekly-kickoff-retrospective-extension-v1",
+      "category": "pass_cmp",
+      "product": "exact_count_law",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 88,
+        "wins": 45,
+        "losses": 42,
+        "decided": 87,
+        "rate": 0.5172413793103449
+      },
+      "UNDER": {
+        "selected": 60,
+        "wins": 27,
+        "losses": 32,
+        "decided": 59,
+        "rate": 0.4576271186440678
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 72,
+        "losses": 74,
+        "decided": 146,
+        "rate": 0.4931506849315068
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 3,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 146,
+        "half_multiclass_Brier": 0.3245589348387581,
+        "raw_log_loss": 1.6806731696932462,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 48,
+            "wins": 23,
+            "stated_mean": 0.5529313428567414,
+            "observed_rate": 0.4791666666666667
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 33,
+            "wins": 17,
+            "stated_mean": 0.6520881128184902,
+            "observed_rate": 0.5151515151515151
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 22,
+            "wins": 10,
+            "stated_mean": 0.7527309185038296,
+            "observed_rate": 0.45454545454545453
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 15,
+            "wins": 10,
+            "stated_mean": 0.8459374956620339,
+            "observed_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "decided": 28,
+            "wins": 12,
+            "stated_mean": 0.9846457488063435,
+            "observed_rate": 0.42857142857142855
+          }
+        ]
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-DIRECT_GLM::MEAN",
+      "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:weekly-kickoff-retrospective-extension-v1",
+      "category": "pass_cmp",
+      "product": "mean_sibling",
+      "variant": "MEAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 92,
+        "wins": 47,
+        "losses": 44,
+        "decided": 91,
+        "rate": 0.5164835164835165
+      },
+      "UNDER": {
+        "selected": 56,
+        "wins": 25,
+        "losses": 30,
+        "decided": 55,
+        "rate": 0.45454545454545453
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 72,
+        "losses": 74,
+        "decided": 146,
+        "rate": 0.4931506849315068
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 3,
+      "numerical": {
+        "n": 146,
+        "MAE": 7.642541590114576,
+        "bias": 3.426001356529879,
+        "RMSE": 12.229374112685779
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-DIRECT_GLM::MEDIAN",
+      "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:weekly-kickoff-retrospective-extension-v1",
+      "category": "pass_cmp",
+      "product": "median_sibling",
+      "variant": "MEDIAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 88,
+        "wins": 45,
+        "losses": 42,
+        "decided": 87,
+        "rate": 0.5172413793103449
+      },
+      "UNDER": {
+        "selected": 60,
+        "wins": 27,
+        "losses": 32,
+        "decided": 59,
+        "rate": 0.4576271186440678
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 72,
+        "losses": 74,
+        "decided": 146,
+        "rate": 0.4931506849315068
+      },
+      "selected_unknown": 2,
+      "unavailable": 0,
+      "fallback": 3,
+      "numerical": {
+        "n": 146,
+        "MAE": 7.554794520547945,
+        "bias": 3.089041095890411,
+        "RMSE": 12.155668388558595
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_att-COMMON_EXPOSURE::PRIMARY",
+      "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "category": "pass_att",
+      "product": "gamma_poisson_count_law",
+      "variant": "PRIMARY",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 8,
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      "UNDER": {
+        "selected": 140,
+        "wins": 69,
+        "losses": 71,
+        "decided": 140,
+        "rate": 0.4928571428571429
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 72,
+        "losses": 76,
+        "decided": 148,
+        "rate": 0.4864864864864865
+      },
+      "selected_unknown": 0,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 148,
+        "half_multiclass_Brier": 0.28048760582053006,
+        "raw_log_loss": 0.7610358965794208,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 35,
+            "wins": 16,
+            "stated_mean": 0.552815242036605,
+            "observed_rate": 0.45714285714285713
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 80,
+            "wins": 41,
+            "stated_mean": 0.6499141145035858,
+            "observed_rate": 0.5125
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 28,
+            "wins": 13,
+            "stated_mean": 0.7360082180532076,
+            "observed_rate": 0.4642857142857143
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 5,
+            "wins": 2,
+            "stated_mean": 0.838691417142897,
+            "observed_rate": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_att-COMMON_EXPOSURE::MEAN",
+      "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "category": "pass_att",
+      "product": "mean_sibling",
+      "variant": "MEAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 13,
+        "wins": 4,
+        "losses": 9,
+        "decided": 13,
+        "rate": 0.3076923076923077
+      },
+      "UNDER": {
+        "selected": 135,
+        "wins": 65,
+        "losses": 70,
+        "decided": 135,
+        "rate": 0.48148148148148145
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 69,
+        "losses": 79,
+        "decided": 148,
+        "rate": 0.46621621621621623
+      },
+      "selected_unknown": 0,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 148,
+        "MAE": 7.3305434932105795,
+        "bias": -3.135742797975059,
+        "RMSE": 9.302931018303292
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    },
+    {
+      "method": "B::B-SIM-pass_att-COMMON_EXPOSURE::MEDIAN",
+      "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "category": "pass_att",
+      "product": "median_sibling",
+      "variant": "MEDIAN",
+      "roles": [
+        "QB"
+      ],
+      "rows": 148,
+      "available": 148,
+      "source_scope": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "available_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "selected_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "decided_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available_games": 74,
+      "decided_games": 74,
+      "five_week_note": "Distinct scoredweek count only; mismatched historical horizon does not qualify primaryT90 use; earlier original evidence remains separately scoped",
+      "decision": "SHADOW_DIAGNOSTIC_ONLY",
+      "OVER": {
+        "selected": 8,
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      "UNDER": {
+        "selected": 140,
+        "wins": 69,
+        "losses": 71,
+        "decided": 140,
+        "rate": 0.4928571428571429
+      },
+      "COMBINED": {
+        "selected": 148,
+        "wins": 72,
+        "losses": 76,
+        "decided": 148,
+        "rate": 0.4864864864864865
+      },
+      "selected_unknown": 0,
+      "unavailable": 0,
+      "fallback": 1,
+      "numerical": {
+        "n": 148,
+        "MAE": 7.925675675675675,
+        "bias": -4.466216216216216,
+        "RMSE": 10.078408819070813
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      }
+    }
+  ],
+  "frame_rows": 3474,
+  "unknown_outcomes": 464,
+  "source_case_SHA256": "19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18",
+  "no_new_forecasts": true
+}

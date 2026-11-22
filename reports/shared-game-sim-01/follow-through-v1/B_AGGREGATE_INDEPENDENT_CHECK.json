@@ -1,0 +1,247 @@
+{
+  "state": "PASS_SCOPED_SAVED_ROW_ARITHMETIC_ORIENTATION_AND_MEMBERSHIP",
+  "scope": "Independent narrow C calculation, not B model/source/private-fit reproduction; no commonT90 superiority claim",
+  "errors": [],
+  "input_binding": {
+    "packet_bytes": 90346,
+    "packet_SHA256": "4847b6a6152e7db3830f93bf451e27c6127fec274b6631e7c6055bb6daaec60d",
+    "freeze_SHA256": "83468a702b6c52ea151511e6ad4ab086f4b1abf64d2039cd326f86ff0b02f6ad",
+    "case_SHA256": "19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18",
+    "candidates": 36,
+    "candidate_category_rows": 10422,
+    "available_bindings": 5338,
+    "finite_mass_one_probability_triples": 592
+  },
+  "weekly_cumulative_groups_checked": 78,
+  "representative_status_checks": 1992,
+  "representative_law_orientation_checks": 148,
+  "representatives": [
+    {
+      "method": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "category": "rec",
+      "rows": 922,
+      "available": 546,
+      "states": {
+        "WIN": 293,
+        "LOSS": 192,
+        "MISSING_ACTUAL": 61,
+        "UNAVAILABLE_FORECAST": 376
+      },
+      "over": {
+        "selected": 245,
+        "wins": 139,
+        "losses": 63,
+        "decided": 202,
+        "rate": 0.6881188118811881
+      },
+      "under": {
+        "selected": 301,
+        "wins": 154,
+        "losses": 129,
+        "decided": 283,
+        "rate": 0.5441696113074205
+      },
+      "combined": {
+        "selected": 546,
+        "wins": 293,
+        "losses": 192,
+        "decided": 485,
+        "rate": 0.6041237113402061
+      },
+      "selected_unknown": 61
+    },
+    {
+      "method": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "category": "rec",
+      "rows": 922,
+      "available": 546,
+      "states": {
+        "WIN": 286,
+        "LOSS": 199,
+        "MISSING_ACTUAL": 61,
+        "UNAVAILABLE_FORECAST": 376
+      },
+      "over": {
+        "selected": 240,
+        "wins": 134,
+        "losses": 65,
+        "decided": 199,
+        "rate": 0.6733668341708543
+      },
+      "under": {
+        "selected": 306,
+        "wins": 152,
+        "losses": 134,
+        "decided": 286,
+        "rate": 0.5314685314685315
+      },
+      "combined": {
+        "selected": 546,
+        "wins": 286,
+        "losses": 199,
+        "decided": 485,
+        "rate": 0.5896907216494846
+      },
+      "selected_unknown": 61
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::PRIMARY",
+      "category": "pass_cmp",
+      "rows": 148,
+      "available": 148,
+      "states": {
+        "LOSS": 72,
+        "WIN": 74,
+        "MISSING_ACTUAL": 2
+      },
+      "over": {
+        "selected": 35,
+        "wins": 20,
+        "losses": 15,
+        "decided": 35,
+        "rate": 0.5714285714285714
+      },
+      "under": {
+        "selected": 113,
+        "wins": 54,
+        "losses": 57,
+        "decided": 111,
+        "rate": 0.4864864864864865
+      },
+      "combined": {
+        "selected": 148,
+        "wins": 74,
+        "losses": 72,
+        "decided": 146,
+        "rate": 0.5068493150684932
+      },
+      "selected_unknown": 2
+    }
+  ],
+  "own_selection_checks": [
+    {
+      "method": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "category": "rec",
+      "fraction": 0.5,
+      "exact_ordered_membership_PASS": true,
+      "selected": 270,
+      "wins": 152,
+      "losses": 91,
+      "decided": 243,
+      "unknown": 27,
+      "membership_SHA256": "be0763600e750c218083d8cab9c6ffb723c5c7c7d8ba4409cb4d8efad9e12b03"
+    },
+    {
+      "method": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "category": "rec",
+      "fraction": 0.25,
+      "exact_ordered_membership_PASS": true,
+      "selected": 123,
+      "wins": 68,
+      "losses": 41,
+      "decided": 109,
+      "unknown": 14,
+      "membership_SHA256": "cdde57d67bc3da97084e8a766b49e8d961e0180e041cec8ddf8c7aaad6ca494c"
+    },
+    {
+      "method": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "category": "rec",
+      "fraction": 0.1,
+      "exact_ordered_membership_PASS": true,
+      "selected": 42,
+      "wins": 19,
+      "losses": 20,
+      "decided": 39,
+      "unknown": 3,
+      "membership_SHA256": "f7ce0473639c707634481eac4809f66fb897e65c3ca9cb590c6893c02638115b"
+    },
+    {
+      "method": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "category": "rec",
+      "fraction": 0.5,
+      "exact_ordered_membership_PASS": true,
+      "selected": 270,
+      "wins": 155,
+      "losses": 93,
+      "decided": 248,
+      "unknown": 22,
+      "membership_SHA256": "aca6b899e14c8c86f95659ffea81c4d0fa1166ad54376e0350f7a0b9f9cbbe0f"
+    },
+    {
+      "method": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "category": "rec",
+      "fraction": 0.25,
+      "exact_ordered_membership_PASS": true,
+      "selected": 123,
+      "wins": 70,
+      "losses": 42,
+      "decided": 112,
+      "unknown": 11,
+      "membership_SHA256": "a9dfd27cbed0ff62407a85074ca69d5341ef8512ac56ccd6e49a885124b0d37a"
+    },
+    {
+      "method": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "category": "rec",
+      "fraction": 0.1,
+      "exact_ordered_membership_PASS": true,
+      "selected": 42,
+      "wins": 20,
+      "losses": 20,
+      "decided": 40,
+      "unknown": 2,
+      "membership_SHA256": "ac4a7d4db6a2820b8868237bfb5d9cd60f8c7bbb2122c29fe58121555af5e1a1"
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::PRIMARY",
+      "category": "pass_cmp",
+      "fraction": 0.5,
+      "exact_ordered_membership_PASS": true,
+      "selected": 74,
+      "wins": 37,
+      "losses": 36,
+      "decided": 73,
+      "unknown": 1,
+      "membership_SHA256": "e5fdb1799592ae1c1d5eb65e084d976a9c0d30f50defb331b0451b3912746605"
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::PRIMARY",
+      "category": "pass_cmp",
+      "fraction": 0.25,
+      "exact_ordered_membership_PASS": true,
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "decided": 0,
+      "unknown": 0,
+      "membership_SHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "method": "B::B-SIM-pass_cmp-R3_FTN_LEAF::PRIMARY",
+      "category": "pass_cmp",
+      "fraction": 0.1,
+      "exact_ordered_membership_PASS": true,
+      "selected": 0,
+      "wins": 0,
+      "losses": 0,
+      "decided": 0,
+      "unknown": 0,
+      "membership_SHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "different_horizon_counts": {
+    "ORIGINAL_ORIGIN_DIFFERS;C_ADMISSION_REQUIRED": 4131,
+    "CLOCK_FIELDS_NOT_SUFFICIENT_FOR_AUTHENTICATION": 1207
+  },
+  "full_frame_cases": 3474,
+  "full_frame_unknowns": 464,
+  "limitations": [
+    "Different-horizon timing-unverified development diagnostics; primaryT90 comparability not established",
+    "No fit/optimizer/sampler, forecast source recovery, football source/outcome authenticity or private B row reproduction",
+    "No independent bootstrap interval recomputation",
+    "Representative checks do not prove all law/selection implementations",
+    "No public case identities or selected-membership rows included",
+    "Unknown selected outcomes stay selected and ungraded"
+  ],
+  "selected_CPU_seconds": 0.9532994699999999,
+  "wall_seconds": 0.9543093559987028
+}

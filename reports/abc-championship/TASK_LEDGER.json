@@ -795,8 +795,22 @@
   {
     "task_id": "C_SHARED_GAME_SIM_01",
     "owner": "C",
-    "state": "BOUNDED_NUMERICAL_STOP;SAVED_METHOD_COMPARISONS_COMPLETED",
-    "artifact": "reports/shared-game-sim-01/execution-v1/README.md",
-    "next_action": "Current60CPUcanaryguardclosed;one scopednumericalcompletion revision before changingguard;A/B ownedjoins;independenteligibleoldreleasescontinue"
+    "state": "PR64_MERGED;AB_ADMITTED;STATIC_REPAIRS;NUMERICAL_REQUEST_ONLY",
+    "artifact": "reports/shared-game-sim-01/follow-through-v1/README.md",
+    "next_action": "One scoped numerical amendment; Aclosed/Bsecondarygrades admitted; no numerical restart or activation"
+  },
+  {
+    "task_id": "A_SHARED_SIM_SAVED_JOIN_FOLLOWUP",
+    "owner": "A",
+    "state": "COMPLETED_CLOSED;C_PUBLIC_AGGREGATE_ADMISSION",
+    "artifact": "reports/shared-game-sim-01/follow-through-v1/intake/A_RESULTS_V1.json",
+    "next_action": "None;no repeat/privateaccessinferred"
+  },
+  {
+    "task_id": "B_SHARED_SIM_SAVED_BINDINGS_FOLLOWUP",
+    "owner": "B join;C commongrade",
+    "state": "COMPLETED_BINDINGS;C_SECONDARY_DIAGNOSTICS_ADMITTED",
+    "artifact": "reports/shared-game-sim-01/follow-through-v1/B_COMPARISON_RESULTS.json.gz",
+    "next_action": "Scoped review of actual future solver artifacts ifdelivered;originaltiming/identity/law limitations retained"
   }
 ]

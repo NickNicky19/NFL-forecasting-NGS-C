@@ -16,6 +16,45 @@ from shared_game_sim01_retention import write_replay_bundle,reopen_replay_bundle
 PRIVATE=ROOT/'private/shared-game-sim-01'
 RAW=PRIVATE/'samples'
 FREEZE=D/'FREEZE_A.json'
+# Explicit outcome-independent origin.  The old canary is closed: selecting a
+# different game, or silently skipping its original failed attempt, is forbidden.
+CANARY_NATIVE_GAME_ID='2026_04_DET_CAR'
+def canary_game(games,existing,failed):
+ if existing:raise RuntimeError('CANARY_ALREADY_EXISTS_REUSE_DO_NOT_REPEAT')
+ selected=[g for g in games if g['native_game_id']==CANARY_NATIVE_GAME_ID]
+ if len(selected)!=1:raise ValueError('PREDECLARED_CANARY_ORIGIN_NOT_UNIQUE')
+ if CANARY_NATIVE_GAME_ID in failed:raise RuntimeError('PREDECLARED_CANARY_ALREADY_ATTEMPTED_REQUIRES_SCOPED_AMENDMENT')
+ return selected[0]
+def verify_private_inputs(freeze,private=PRIVATE):
+ verified=[]
+ for info in freeze['actual_private_inputs_reopened']:
+  role=Path(info['private_role']);p=private/role
+  if role.is_absolute() or '..' in role.parts or p.is_symlink() or not p.resolve().is_relative_to(private.resolve()):raise ValueError('UNSAFE_FROZEN_INPUT_PATH')
+  body=p.read_bytes()
+  if len(body)!=info['bytes'] or hashlib.sha256(body).hexdigest()!=info['SHA256']:raise ValueError('FROZEN_INPUT_BODY_MISMATCH:'+str(role))
+  verified.append(dict(info))
+ return verified
+def retained_mutation_game(games,row,kept,freeze,source_bodies):
+ """Metadata-only binding; caller verifies actual input bodies before fitting."""
+ game_id=row['native_game_id'];matches=[g for g in games if g['native_game_id']==game_id]
+ if len(matches)!=1:raise ValueError('RETAINED_MUTATION_GAME_NOT_UNIQUE')
+ game=matches[0];record=kept.fit_record
+ if record.get('native_game_id')!=game_id:raise ValueError('RETAINED_MUTATION_GAME_ID_MISMATCH')
+ if kept.metadata.get('game_id')!=game_id or kept.metadata.get('origin')!=game['model_cutoff_utc']:raise ValueError('RETAINED_MUTATION_SAMPLE_ORIGIN_MISMATCH')
+ if row.get('source_game_origin_key')!=game['game_origin_key']:raise ValueError('RETAINED_MUTATION_SOURCE_ORIGIN_MISMATCH')
+ for field,source in [('native_cutoff_utc','native_cutoff_utc'),('archived_schedule_cutoff_utc','source_schedule_cutoff_utc'),('effective_cutoff_utc','model_cutoff_utc')]:
+  if record.get(field)!=game[source]:raise ValueError('RETAINED_MUTATION_CUTOFF_MISMATCH:'+field)
+ if not row.get('input_design_SHA256') or record.get('consumed_design_SHA256')!=row['input_design_SHA256']:raise ValueError('RETAINED_MUTATION_DESIGN_HASH_MISMATCH')
+ bindings=record.get('replay_input_bindings')
+ expected=dict(private_inputs=freeze['actual_private_inputs_reopened'],source_bodies=source_bodies)
+ if bindings!=expected:raise ValueError('RETAINED_MUTATION_INPUT_BINDINGS_MISMATCH')
+ return game
+def restore_retained_prior(store,record,kept):
+ # Design identity alone does not bind the numeric prior parameters.  Compare
+ # the entire parsed prior with the retained game's state before restoration.
+ expected=kept.fit_record.get('earlier_prior')
+ if not isinstance(record,dict) or not isinstance(expected,dict) or digest(record)!=digest(expected):raise ValueError('RETAINED_MUTATION_STARTUP_PRIOR_MISMATCH')
+ return restore_origin(store,record)
 def failure_record_path(game_id):
  if not game_id or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_' for c in game_id):raise ValueError('INVALID_FAILURE_GAME_ID')
  return D/('STOP_'+game_id+'.json')
@@ -81,7 +120,12 @@ def generation(teams,prior,game,record,subcap=None):
   if subcap is not None:signal.setitimer(signal.ITIMER_PROF,0);signal.signal(signal.SIGPROF,old)
  return result,time.process_time()-c
 def canary_or_full(stage):
- freeze=verify_freeze();storage_guard();games,players=load_context(PRIVATE)
+ # No scientific restart is permitted by static repair or unused outer CPU.
+ # A later approved amendment must explicitly supersede this closed guard.
+ if stage=='canary' and (D/'CANARY_REMAINDER_GATE.json').exists():
+  gate=json.loads((D/'CANARY_REMAINDER_GATE.json').read_text())
+  if gate['decision'].startswith('STOP'):raise RuntimeError('REGISTERED_CANARY_CLOSED_REQUIRES_SCOPED_AMENDMENT')
+ freeze=verify_freeze();verified_inputs=verify_private_inputs(freeze);storage_guard();games,players=load_context(PRIVATE)
  t=time.process_time();store=load_sources(ROOT);source_CPU=time.process_time()-t
  # Startup uses the same qualified2024/25 pool at all six origins; estimate once
  # and reuse. Per-game team/actor posteriors still update with eligible history.
@@ -95,15 +139,14 @@ def canary_or_full(stage):
  save(source_receipt,dict(classification=store.classification,source_bodies=store.body_bindings,prior=prior_to_record(prior),source_CPU=source_CPU,prior_CPU=prior_CPU,source_state='READY_BOX_SCORE_RECONSTRUCTED',reuse='Same startup2024/25 prior reused across all origins; per-game earlier8 usage updates'))
  existing=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text()) if (D/'GAME_EXECUTION_INDEX.json').exists() else []
  done={r['native_game_id'] for r in existing}
- # A numerical failure is unavailable for that original game, never retried or
- # erased. Other registered origins can be independently executable; all remain
- # in the full board. No grades or success-based week choice enter this rule.
+ # Original failed attempts remain unavailable, never erased or automatically
+ # retried.  Full-run per-origin accounting is separate from the single canary.
  failed={p.name[len('STOP_'):-len('.json')] for p in D.glob('STOP_*.json')}
  failed|={p.name[len('ATTEMPT_'):-len('.json')] for p in D.glob('ATTEMPT_*.json')}
  done|=failed;RAW.mkdir(parents=True,exist_ok=True)
  todo=[g for g in games if g['native_game_id'] not in done]
  if stage=='canary':
-  if existing:raise RuntimeError('CANARY_ALREADY_EXISTS_REUSE_DO_NOT_REPEAT')
+  todo=[canary_game(games,existing,failed)]
  else:
   gate=json.loads((D/'CANARY_REMAINDER_GATE.json').read_text())
   if gate['decision']!='PASS':raise RuntimeError('FULL_REMAINDER_GATE_NOT_PASS')
@@ -111,6 +154,7 @@ def canary_or_full(stage):
   storage=storage_guard();attempt=begin_attempt(game);t=time.process_time();w=time.monotonic()
   try:
    teams,record=game_params(store,prior,game,players);conditioning_CPU=time.process_time()-t
+   record['replay_input_bindings']=dict(private_inputs=verified_inputs,source_bodies=store.body_bindings)
    progress(attempt,'CONDITIONED_BEFORE_GENERATION')
    r,gen_CPU=generation(teams,prior,game,record,6 if stage=='canary' else None)
    law_check(r);tio=time.process_time();path=RAW/(game['native_game_id']+'.zip')
@@ -135,16 +179,24 @@ def canary_or_full(stage):
   except BaseException as e:
    save(failure_record_path(game['native_game_id']),dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
    progress(attempt,'FAILED_NO_RETRY')
-   if str(e)=='PROVIDER_CONDITIONING_FAILED;NO_RETRY':
+   if stage!='canary' and str(e)=='PROVIDER_CONDITIONING_FAILED;NO_RETRY':
     print('TECHNICAL_UNAVAILABLE_NO_RETRY',game['native_game_id'],flush=True)
     continue
    raise
  return existing
 def mutation():
- verify_freeze();games,players=load_context(PRIVATE);game=games[0]
- rindex=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text());row=rindex[0];kept=reopen_replay_bundle(RAW/(row['native_game_id']+'.zip'),expected_sha256=row['SHA256'])
- store=load_sources(ROOT);cut=utc(game['model_cutoff_utc']);pr=json.loads((PRIVATE/'frozen_startup_prior.json').read_text());prior=restore_origin(store,pr)
+ freeze=verify_freeze();verify_private_inputs(freeze);games,players=load_context(PRIVATE)
+ rindex=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text())
+ if not rindex:raise RuntimeError('NO_RETAINED_GAME_FOR_MUTATION')
+ row=rindex[0];failure_record_path(row['native_game_id']) # Validate native ID before using a path.
+ kept=reopen_replay_bundle(RAW/(row['native_game_id']+'.zip'),expected_sha256=row['SHA256'])
+ if array_digest(kept.arrays)!=row['arrays_SHA256']:raise ValueError('RETAINED_MUTATION_ARRAY_HASH_MISMATCH')
+ store=load_sources(ROOT);game=retained_mutation_game(games,row,kept,freeze,store.body_bindings)
+ cut=utc(game['model_cutoff_utc']);pr=json.loads((PRIVATE/'frozen_startup_prior.json').read_text());prior=restore_retained_prior(store,pr,kept)
  t0,rec0=game_params(store,prior,game,players)
+ if rec0['consumed_design_SHA256']!=row['input_design_SHA256']:raise ValueError('REPRODUCED_DESIGN_DIFFERS_FROM_RETAINED_GAME')
+ if rec0['query_identity_fingerprint']!=kept.fit_record.get('query_identity_fingerprint'):raise ValueError('REPRODUCED_QUERY_DIFFERS_FROM_RETAINED_GAME')
+ if [team_to_record(t) for t in t0]!=[team_to_record(t) for t in kept.teams]:raise ValueError('REPRODUCED_STATE_DIFFERS_FROM_RETAINED_GAME')
  altered=copy.deepcopy(store);mutated=0
  for g in altered.team_games.values():
   if g['kickoff']>=cut:

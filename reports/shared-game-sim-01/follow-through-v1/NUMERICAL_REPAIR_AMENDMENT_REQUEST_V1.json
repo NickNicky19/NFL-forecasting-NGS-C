@@ -1,0 +1,216 @@
+{
+  "id": "C-SHARED-GAME-SIM01-NUMERICAL-REPAIR-COMPLETION-REQUEST-v1",
+  "state": "REQUEST_ONLY_NOT_EXECUTION_AUTHORIZATION",
+  "parent": "C-SHARED-GAME-SIM01-APPROVED-EXECUTION-v1",
+  "scientific_change": false,
+  "diagnosis": {
+    "established": "32 retained joint-core optimizer records: status1, nit100, TOTAL NO. OF ITERATIONS REACHED LIMIT; no complete retained game.",
+    "not_established": [
+      "Condition number or stiffness cause",
+      "Stationarity at retained terminal states; no final gradients/history retained",
+      "Convergence at any larger iteration count",
+      "Predictive accuracy of simulator"
+    ],
+    "preserved": "First failure optimizer record NOT_RETAINED. Final interrupted origin/stage/vector and in-memory trajectory status remain unknown. Zero completed/admitted/retained trajectory sets.",
+    "prior_canary_control_deviation": "Original earliest-origin canary was followed by a revised continuation across distinct failures. The later local policy did not qualify the original canary. Preserve both freezes and all charges; no retrospective compliance claim."
+  },
+  "numerical_change": {
+    "method": "L-BFGS-B",
+    "maxiter": {
+      "old": 100,
+      "proposed": 500
+    },
+    "maxfun": {
+      "old": "SciPy default; historical unrecorded calls not invented",
+      "proposed": 1000,
+      "hard_count_includes_all_new_objective_calls": true
+    },
+    "unchanged": {
+      "ftol": 1e-10,
+      "gtol": 1e-06,
+      "objective": "Exact frozen KL and provider-moment objective",
+      "parameterization": "Unchanged",
+      "initialization": "One original earlier-prior state; no warm start invented for first lost record",
+      "model_information_chronology_windows_priors_provider_anchors": "Unchanged",
+      "seed_policy": "Unchanged",
+      "trajectories": 10000
+    },
+    "rationale": "Additional bounded iterations of the identical optimization address the observed iteration-limit termination; 500 is a diagnostic ceiling, not a convergence prediction. No solver substitution, regularization change or relaxed acceptance."
+  },
+  "logging_and_acceptance": {
+    "reuse": "Retained 132-parameter initial NFL gradient check; not a new gradient diagnostic or convergence proof.",
+    "before_solve": "Durable attempt origin/stage, input/source/prior/design/initial-state hashes and counters before entering optimizer.",
+    "during_solve": "Checkpoint last accepted iterate, objective, gradient and counters every10 accepted iterations, and on every normal/exception termination. No hidden extra objective calls; any evaluation counts against1000.",
+    "acceptance": "Original SciPy success AND finite parameters/objective, unchanged ftol/gtol; log terminal gradient infinity norm and objective change. All existing source, support, law, conservation, input/design binding and exact local/remote reopening requirements remain.",
+    "failure": "Failure/line-search/iteration/evaluation/nonfinite/hash/reopen/CPU/wall/memory/storage stop is not PASS. Stop the repair canary immediately; do not advance origin, change seed or retry. Preserve any bounded unobserved kill tail."
+  },
+  "canary": {
+    "native_game_id": "2026_04_DET_CAR",
+    "selection": "Earliest original failed origin, fixed without prediction-quality inspection.",
+    "treatment": "One explicitly requested numerical repair attempt at the previously failed origin. Original failure/charges remain. Reuse exact frozen startup prior and original initialization; missing old vector remains missing.",
+    "max_stage_invocations": 2,
+    "max_initializations_per_stage": 1,
+    "cumulative_CPU_cap": {
+      "old": 60,
+      "proposed": 180,
+      "already_consumed": 59.093234438,
+      "maximum_new": 120.906765562
+    },
+    "generation_CPU_subcap": 6,
+    "includes": "Input restoration/checks, two joint-stage solves,10000 trajectories, S-P plus D-P moments/fitted state serialization/local reopening, canary raw-shard remote readback and required accounting.",
+    "on_failure": "STOP_THIS_PACKAGE_NO_OTHER_CANARY_ORIGIN_NO_AUTOMATIC_RETRY",
+    "reuse_on_success": "Retain the same valid canary forecasts/trajectories for full result; no duplicated game evidence.",
+    "required_input_bindings": {
+      "closed_input_records": [
+        {
+          "private_role": "mapped_players.json",
+          "bytes": 1028098,
+          "SHA256": "1a098408eb28b581667ae8486be4c951be4299a6589cdb36c303e445b7f829e9"
+        },
+        {
+          "private_role": "identity_rows.json",
+          "bytes": 2503273,
+          "SHA256": "e01dfa51555680772144ed89bd6c26a62c135bb6d3795dae5e0976a81f816d0e"
+        },
+        {
+          "private_role": "views/forecast_worker/players_sp.jsonl",
+          "bytes": 601431,
+          "SHA256": "f93f0ab5ebb55a44fd484918419a322902aaccfeb7776efff0d9bdb2ab0778a9"
+        },
+        {
+          "private_role": "views/forecast_worker/games_sp.jsonl",
+          "bytes": 17949,
+          "SHA256": "65619869fde35d205d42f3c0fb8c8800e6ac07b9c706750af6018333dff841fb"
+        },
+        {
+          "private_role": "views/forecast_worker/manifest.json",
+          "bytes": 905,
+          "SHA256": "b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1"
+        }
+      ],
+      "source_component_receipt": {
+        "path": "reports/shared-game-sim-01/execution-v1/SOURCE_COMPONENT_EXECUTION_CANARY.json",
+        "SHA256": "89edb052671ee3b7649f0cced390983678140cb860f2056a78e2754c00697512"
+      },
+      "startup_prior": {
+        "private_role": "frozen_startup_prior.json",
+        "bytes": 447,
+        "SHA256": "eb4a69832798e5f6a00a8dee74c5c8df9d17b9f592b194ea556bc4edbfb61701",
+        "design_SHA256": "97f3567f2e1f37e1385a354e6bef2c1c65308aee4d2a13fd9cdcc3c1217da7ea"
+      },
+      "must_equal_retained_artifact_prior_before_numerics": true
+    }
+  },
+  "mutation_and_reproduction": {
+    "static_repair": "Actual retained artifact native_game_id selects exactly one admitted context; verify archive/array/input/source/design hashes, origin clocks, full query fingerprint and retained state before comparisons.",
+    "status": "Code issue identified before NFL check executed; not an observed failed mutation test.",
+    "fixed_context": "Legitimate pregame inputs/identities/order/denominators and same seed fixed; only prohibited target/future outcomes mutated.",
+    "max_reproduction_stage_invocations": 4,
+    "explanation": "Current corrected code explicitly reproduces baseline and mutated source, at most two solves each; no undercount as two total.",
+    "max_repeat_generations": 1,
+    "no_extra_diagnostic_sweep": true
+  },
+  "cumulative_limits": {
+    "total_CPU_seconds": 1800,
+    "total_CPU_increase_requested": 0,
+    "completion_CPU_reserve": 380,
+    "controlled_wall_seconds": 7200,
+    "controlled_wall_increase_requested": 0,
+    "original_end_to_end_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+    "original_end_to_end_cap_seconds": 7200,
+    "proposed_end_to_end_cap_seconds": 21600,
+    "proposed_fixed_deadline_UTC": "2026-11-23T00:05:20.108935+00:00",
+    "wall_reason": "Carry all original elapsed orchestration/publication/approval wait; separate from7200 controlled-stage ceiling. Fixed six-hour original-launch horizon accommodates the known elapsed checkpoint plus measured remaining controlled path without resetting any time. If deadline expired before authorization/start, request is stale; no restart.",
+    "workers": 1,
+    "threads": 1,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "simultaneous_peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "own_output_readbacks": {
+      "old_cap": 8,
+      "already_consumed": 8,
+      "proposed_cumulative_cap": 20,
+      "additional_maximum": 12
+    },
+    "output_operations": [
+      {
+        "artifact": "New executable recipe/input/roster FreezeA manifest",
+        "max_reads": 1
+      },
+      {
+        "artifact": "Immutable safe S-P trajectory plus D-P moments/fitted-state shards; first is canary, up to7others",
+        "max_reads": 8,
+        "per_shard_max_bytes": 67108864
+      },
+      {
+        "artifact": "Final forecast FreezeB/game/shard index",
+        "max_reads": 1
+      },
+      {
+        "artifact": "Final readable report",
+        "max_reads": 1
+      },
+      {
+        "artifact": "Final machine-readable result",
+        "max_reads": 1
+      }
+    ],
+    "output_rules": "No retries/replacement revisions/hidden artifact requests; reuse exact already admitted local bytes. Fewer shards consumes fewer reads. Metadata PR/status reads distinguished from body restoration. Publication alone is not restored readback.",
+    "source_recovery_cap": 8,
+    "source_recovery_consumed": 0,
+    "new_source_collection": 0,
+    "new_game_origins_max": 74,
+    "new_generation_calls_max": 75,
+    "new_stage_invocations_max": 152,
+    "new_stage_iterations_max": 76000,
+    "new_stage_objective_evaluations_max": 152000,
+    "old_confirmed_optimizer_calls": 33,
+    "old_conservative_call_upper_bound": 35,
+    "old_conservative_iterations_upper_bound": 3500,
+    "combined_conservative_stage_call_upper_bound": 187,
+    "combined_conservative_iterations_upper_bound": 79500,
+    "lifetime_objective_evaluations": "Old missing counts remain NOT_RETAINED; new152000 cap is not a fabricated exact lifetime total.",
+    "full_attempt_policy": "One new attempt per registered game at most, including explicitly one corrected attempt for each earlier failed/interrupted origin. No failure erased or automatically retried. Full worker stops at its first new failure. The152 ceiling includes148 game stage invocations plus4 reproduction calls; zero-free-parameter stages remain invocations, not invented optimizer calls."
+  },
+  "complete_path": {
+    "source": "Reopen existing qualified bodies, exact closed S-P allowlist, frozen prior/design/clock/identity bindings; no new football/raw source acquisition.",
+    "canary_proof": "Both conditioning stages,10000 full trajectories, support/conservation, raw S-P plus D-P means/conditional/excess/total variance and full fitted-state records, local reopen and permitted remote canary shard restore.",
+    "current_full_completion_cost": "NOT_ESTABLISHED. Historical failed100-step conditioning is1.190491294\u20131.623980684CPU/game; linear500-step core projection up to8.11990342CPU before child/generation/IO does not prove fit within1800. No more totalCPU requested speculatively.",
+    "gate": "Before any full remainder, sum at least2x complete measured canary source/conditioning/generation/serialization/reopen cost normalized to each remaining maximum actor count, required verification/reproduction, typed forecast/export, existing canonical scoring/selections, reporting and durable readback with actual Git/working/reopened duplicates. Require total within latest exact remaining CPU, controlled wall and original-launch elapsed horizon; preserve380CPU reserve and all memory/storage caps.",
+    "reserve_contents": {
+      "checks_reproduction_CPU_max": 160,
+      "retention_report_CPU_max": 220,
+      "total_included": 380
+    },
+    "nonreserve_work": "At most40CPU implementation/readiness/logging overhead plus newcanary ceiling120.906765562, then only residual justified by gate. These are inside existing1800, not extra allocations. Refresh exact accounting before start.",
+    "projection_failure": "Persist/reopen successful canary; STOP remainder if projection insufficient. No implicitCPU/topup, seed/origin/draw reduction or weakened checks; all requested frame cases stay present/unavailable.",
+    "grading": "Freeze/reopen actual forecast bytes before target grades; raw canonical grades durably retained before frozen selector summaries. Unknowns/push/void/participation and all3474/464 source-frame records preserved.",
+    "storage": "Safe numeric records only/no pickle; measure raw/serialized/reopened/Git object duplication plus existing source/private caches. Original approved GitHub-only route/content review; no private source/query/outcome/locators publicly exported."
+  },
+  "exclusions": [
+    "Website activation",
+    "New model/information/relationship/parameters/search",
+    "New seed/threshold/draw-count search",
+    "New paid acquisition/account/provider or source permissions",
+    "Budget transfers or old package resets",
+    "Unsafe loading",
+    "Duplicate scheduler",
+    "Cross-owner writes/protected joins"
+  ],
+  "latest_accounting": {
+    "ledger": {
+      "path": "reports/shared-game-sim-01/follow-through-v1/LEDGER_CARRY_V1.json",
+      "bytes": 3344,
+      "SHA256": "7a13d75ce5893de050b0098262691982d23e5f80736c698a5bbad15c823090ad"
+    },
+    "CPU_seconds": 260.15499440599996,
+    "controlled_wall_seconds": 381.0591629320003,
+    "original_launch_elapsed_seconds": 7050.862811,
+    "UTC": "2026-11-22T20:02:50.971746+00:00",
+    "remaining_CPU": 1539.845005594,
+    "pre_completion_spendable_CPU": 1159.845005594,
+    "no_total_CPU_increase": true
+  },
+  "implementation_state": "Numerical SETTINGS remain100/current60CPUguardclosed. Static canary/mutationbinding repairs only. Future logging/500iteration/maxfun/explicitone-repair/fullfailstop/controller amendments must be implemented and frozen afterapproval, with no parameter search."
+}
