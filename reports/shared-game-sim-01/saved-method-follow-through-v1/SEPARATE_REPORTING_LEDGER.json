@@ -1,0 +1,64 @@
+{
+  "authority": "Existing separate saved-method reporting/currentdelivery correctness;notSIMscientificexecution",
+  "tasks": [
+    {
+      "task": "C fixedmaskreopening/reconciliation",
+      "selected_CPU": 0.5041580699999999,
+      "selected_cap_CPU": 15,
+      "resource": {
+        "CPU_seconds": 0.5041580699999999,
+        "metering": "Selected reopen/metadataworker only; preparation/connector/assistant overhead not fully metered; no SIM budget transfer.",
+        "network": "4permitted Bpublicmetadata/code GETs, no rawfootball source collection",
+        "peak_RSS_bytes": 115273728,
+        "selected_CPU_cap": 15,
+        "task": "EXISTING_SAVED_METHOD_REPORTING_AND_RECONCILIATION;SEPARATE_FROM_SIM_EXECUTION",
+        "wall_seconds": 0.5072220040019602
+      }
+    },
+    {
+      "task": "ExactM3currentadapter/bindings",
+      "selected_CPU": 7.746415697,
+      "selected_cap_CPU": 8,
+      "resource": {
+        "authority": "Existing separate reporting/currentdelivery qualification; no scientific execution andnoSIMcharges",
+        "ceiling_selected_CPU": 8,
+        "conservative_selected_CPU_charge": 3,
+        "measured_final_serialization_CPU": 0.22831201599999998,
+        "measured_final_serialization_wall": 0.25404574799904367,
+        "measurement": "Conservative3CPU covers prior shell/static metadata reads plus this report; not a complete assistant/toolCPUcertificate",
+        "new_source_requests": 0,
+        "new_fits": 0,
+        "new_inference": 0,
+        "new_network_reads": 0,
+        "adapter_extension_conservative_preparation_CPU": 1,
+        "adapter_extension_tests_CPU": 3.6464156969999997,
+        "adapter_extension_tests_wall": 3.6576225429998885,
+        "total_conservative_plus_test_selected_CPU": 7.746415697,
+        "verification_receipt": "M3_ADAPTER_SOFTWARE_VERIFICATION.json",
+        "adapter_extension_test_runs": [
+          {
+            "revision": "v1",
+            "tests": 4,
+            "PASS": true,
+            "CPU": 1.8275574429999997,
+            "wall": 1.8357714859994303
+          },
+          {
+            "revision": "v2-root-narrow-review",
+            "tests": 6,
+            "PASS": true,
+            "CPU": 1.818858254,
+            "wall": 1.8218510570004582
+          }
+        ],
+        "final_static_verification_conservative_CPU": 0.1,
+        "internal_reallocation": "Original3CPUtestplanning expanded only by reallocating unused reporting/correctness headroom inside unchanged8CPUtasktotal;notan extraallowance andnotSIM"
+      }
+    }
+  ],
+  "SIM_charge": 0,
+  "new_NFLfit_or_inference": 0,
+  "new_raw_source_collection": 0,
+  "no_budget_transfer": true,
+  "metering": "Selectedprocessmeters plus disclosedconservative preparation;notcompleteassistant/toolCPUcertificate"
+}

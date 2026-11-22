@@ -60,13 +60,13 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 34675,
-    "SHA256": "6c971d384e6678b4a00d6c8d3dd0e5a4b7e7486171d20eba87b0d5badea09f2e"
+    "bytes": 37856,
+    "SHA256": "4346c33c6441383a5b4f691f1351edf934c91d7086512ccef42719732f4788f3"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 48220,
-    "SHA256": "4626f3d7a33e7cd3a187a37340355c907793339094289f6a2a43fe9501703c67"
+    "bytes": 48277,
+    "SHA256": "a2500bef6dd8ccd15e1f5b9b3d26a8db86280d4f6d487cd49ffcc02c339b2691"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -3789,5 +3789,79 @@
       "bytes": 5570,
       "SHA256": "a01b25bcb35ad1f6d186c6c8e7ff08c8fb64f28f6de68177a9b3a96d7664a19b"
     }
+  },
+  "shared_game_sim_01_numerical_repair": {
+    "id": "SHARED-GAME-SIM01-NUMERICAL-REPAIR-RESULT-v1",
+    "state": "CLOSED_FIRST_FIXED_CANARY_COUNT_CORE_500_ITERATION_FAILURE",
+    "scientific_accuracy": "NOT_MEASURED_RUNTIME_INCOMPLETE",
+    "actual_games": 0,
+    "actual_trajectories": 0,
+    "all_old_records_preserved": true,
+    "PR65": "DRAFT_NO_MERGE_AUTHORIZATION",
+    "activation": false,
+    "report": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/README.md",
+      "bytes": 8488,
+      "SHA256": "3bba76461ef766a5924caa8f405d9efc028ec06c62aad3917050ca00bf41b56d"
+    },
+    "machine": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/RESULTS.json.gz",
+      "bytes": 140429,
+      "SHA256": "99d8f4516cb93f8ea4aa9f4005b66c605a16c65adf3e9b54a52b969d7c5c0ba5"
+    },
+    "ledger": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/LEDGER.json",
+      "bytes": 6366,
+      "SHA256": "5343ac5cc139eed998cf807689758689910ead05a0940776971bd54af089edc9"
+    },
+    "gate": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FULL_REMAINDER_GATE.json",
+      "bytes": 638,
+      "SHA256": "f8bc1a5c13cb857417b9f5f18e45b2833e6c11e58dc704aa72ccdcc65a0af13b"
+    },
+    "approval": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/APPROVAL.json",
+      "bytes": 1153,
+      "SHA256": "106b7454213de257aea85aeb6547325f8b0bf0588e3ccb1711d032330eb89fc9"
+    },
+    "freeze_A": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FREEZE_A.json",
+      "bytes": 7252,
+      "SHA256": "c95be3f058f869918659c8cd12074a3dea9d901722dbb44f8b9b359082d15b37"
+    },
+    "independent_check": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/INDEPENDENT_FAILURE_RECORD_CHECK.json",
+      "bytes": 15044,
+      "SHA256": "8204693bd04a87b897a74b7e8535ed91342536cca1359a695889fc8d74e44fc8"
+    },
+    "queue": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FINITE_QUEUE.json",
+      "bytes": 2138,
+      "SHA256": "d9237450a8e7b7f63d07163bb74870386d990ca7471aea6a257cfbbc60c23700"
+    },
+    "handoff": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/B_WEBSITE_HANDOFF_V2.json",
+      "bytes": 2046,
+      "SHA256": "efa52a2cbfc68d171b977512c9ff0389ae6a8a099fd22127c2465cf6a1a13e0e"
+    }
+  },
+  "shared_game_sim_01_saved_method_followthrough": {
+    "id": "C-SAVED-METHOD-FOLLOWTHROUGH-v1",
+    "mask_state": "C638PRIVATESET_REOPENED;B671FIXEDSET_COMPARISON_PENDING",
+    "B_grading_state": "RECEIVED_AND_DIAGNOSTIC_GRADED_AT0f5859c;NO_B_JOIN_REPEAT",
+    "A_state": "COMPLETED_CLOSED;NO_REOPEN",
+    "mask": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/MASK_REOPEN_RESULT_V1.json",
+      "bytes": 13069,
+      "SHA256": "ec37a873039b13652eb4101696d2cf3d03563e92b06b170644350e34bc98f113"
+    },
+    "delivery": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/PRODUCT_DELIVERY_BINDINGS.json",
+      "bytes": 34596,
+      "SHA256": "3adeab2cccc7730d2ca7e2ae1410badd5595a1f3cdd2194a8726e975d4894a6d"
+    },
+    "new_current_feed": false,
+    "website_release": false,
+    "separate_SIM_allocation": true
   }
 }

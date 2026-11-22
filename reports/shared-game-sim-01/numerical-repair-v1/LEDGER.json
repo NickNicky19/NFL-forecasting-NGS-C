@@ -20,19 +20,19 @@
   },
   "approval_commit": "0f5859c661c0404b02f0914826cf560f1754ed24",
   "approval": "User expressly approves pinned request once;PR65 remains draft",
-  "charged_CPU_seconds": 282.07319309900004,
-  "charged_controlled_wall_seconds": 385.0219207930012,
-  "canary_CPU_seconds": 60.309410545000006,
+  "charged_CPU_seconds": 298.75865703400007,
+  "charged_controlled_wall_seconds": 399.45929268300034,
+  "canary_CPU_seconds": 72.629575547,
   "source_recovery_reads": 0,
-  "output_readbacks": 8,
+  "output_readbacks": 9,
   "baseline_whole_C_bytes": 1291840516,
   "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
   "deadline_UTC": "2026-11-23T00:05:20.108935+00:00",
   "counters": {
-    "stages": 0,
-    "iterations": 0,
-    "evaluations": 0,
-    "game_attempts": 0,
+    "stages": 1,
+    "iterations": 500,
+    "evaluations": 563,
+    "game_attempts": 1,
     "generations": 0
   },
   "events": [
@@ -100,7 +100,73 @@
       "canary": false,
       "UTC": "2026-11-22T21:44:00.957611+00:00",
       "details": null
+    },
+    {
+      "stage": "Exact output restoration freeze_A",
+      "CPU_seconds": 0.21486186799999998,
+      "controlled_wall_seconds": 0.6059884080023039,
+      "canary": true,
+      "UTC": "2026-11-22T21:44:51.125545+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 11796480,
+        "threads": 1,
+        "command_SHA256": "d85fcdbdbf460396124a211394dbe5a2717f375057c943c75e08e41cd050cdf1",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "repair_canary",
+      "CPU_seconds": 12.105303134,
+      "controlled_wall_seconds": 13.461185757998464,
+      "canary": true,
+      "UTC": "2026-11-22T21:45:11.155181+00:00",
+      "details": {
+        "returncode": 1,
+        "safe_stop": null,
+        "peak_RSS_bytes": 213331968,
+        "threads": 1,
+        "command_SHA256": "160b4abfe1a3c43c35974a60b1453929c017cab9507d5928517e936501a5aa1e",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Independent read-only retainedfailure counter/hash verification",
+      "CPU_seconds": 0.057519104,
+      "controlled_wall_seconds": 0.06270214,
+      "canary": false,
+      "UTC": "2026-11-22T21:51:09.183038+00:00",
+      "details": "SeparateCreviewer;noobjective/fit/sampler/reproduction"
+    },
+    {
+      "stage": "Failure report and checkpoint publication preparation",
+      "CPU_seconds": 4,
+      "controlled_wall_seconds": 0,
+      "canary": false,
+      "UTC": "2026-11-22T21:51:09.185774+00:00",
+      "details": "Conservative selectedreportingCPU;notcompleteorchestrationmeter;no numericalrestart"
+    },
+    {
+      "stage": "Finalcanonicalbindingmetadata validation",
+      "CPU_seconds": 0.307779829,
+      "controlled_wall_seconds": 0.3074955839983886,
+      "canary": false,
+      "UTC": "2026-11-22T21:58:12.976896+00:00",
+      "details": null
     }
   ],
-  "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate."
+  "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate.",
+  "repair_output_slots": {
+    "freeze_A": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FREEZE_A.json",
+      "commit": "3bfea990293ea7c5d8e2c411416962fccf9a0cf3",
+      "blob": "02f82029b38e7419a28481d90d77716ffae4c072",
+      "bytes": 7252,
+      "SHA256": "c95be3f058f869918659c8cd12074a3dea9d901722dbb44f8b9b359082d15b37",
+      "UTC": "2026-11-22T21:44:50.579373+00:00",
+      "completed_UTC": "2026-11-22T21:44:51.072669+00:00"
+    }
+  }
 }

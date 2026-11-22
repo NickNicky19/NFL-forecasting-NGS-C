@@ -725,7 +725,16 @@
         "bytes": 10212,
         "SHA256": "f5bfd1313ee3bb35c6c339cd34f73d2b8d073ac6b5d521536d0d17b1359a68d9"
       }
-    ]
+    ],
+    "typed_current_adapter_extension": {
+      "path": "src/current_query_delivery_c06.py",
+      "function": "m3_leaf_current_records",
+      "SHA256": "5ccc7346bc205de8b125e8ee2902841192662e84eae495d6220987ce5d76f8c6",
+      "state": "IMPLEMENTED_MOCK_SOFTWARE_CHECKED;NO_NFL_INFERENCE_OR_CURRENT_ISSUE",
+      "reuse": "Existing safe numeric Leaf inference/preprocessing, safe byte decoder and current event/offer validators; no newproducer/scheduler",
+      "query_row_SHA256": "Binding must match m3_current_query_fingerprint of exact consumed forecast-time fields; metadata admission hash equality alone insufficient.",
+      "prior_support": "Global androleprior kinds must match countrec or signedrec_yd before inference"
+    }
   },
   "registered_producer": {
     "executor": "C existing M3 research/export owner and C06 current-query/source owner",
@@ -738,7 +747,7 @@
     },
     "current_M3_branch_workflow_lease": "NOT_REGISTERED_IN_EXAMINED_EVIDENCE",
     "workflow_scope": "Existing c-checks-pages.yml checks/publication only, not an M3 producer scheduler or lease",
-    "C06_adapter": "src/current_query_delivery_c06.py is P1/WAS-NYG-bound and cannot substitute for the M3 Leaf adapter",
+    "C06_adapter": "Existing P1 execution path remains P1/WAS-NYG-bound; new m3_leaf_current_records prepares exactM3Leaf products in the same module, with no newproducer/scheduler or issuedfeed.",
     "permission": "No cross-owner takeover; original website alone admits/consumes/releases"
   },
   "required_current_contract": {
@@ -764,9 +773,9 @@
   "minimum_dependencies": [
     {
       "owner": "C existing M3/current-query executor",
-      "artifact": "Bound current event/source/roster/history packet, required current-origin model or justified exact output-preserving reuse, and M3-0 typed-current wrapper",
+      "artifact": "Qualified current event/source/role/query packet plus exact current-origin M3-0 safe model and reviewed binding; existing typed-current adapter is now implemented",
       "minimum_action": "Register one finite exact-product current-origin delivery package through existing C authority before inference/fitting/source reads; do not borrow SIM/M3/Aclosed-task accounts",
-      "why_missing": "Retained M3 handoff is historical only; existing C06 P1 current execution is fixed and expired. No distinct currentM3 finite allocation, newtarget binding or producerlease found.",
+      "why_missing": "No actual currentM3 event/source/model packet or finite execution registration exists in examined evidence. Historical M3/C06P1 packets cannot substitute. Adapter code and mocks alone are not source/fit/currentdelivery proof.",
       "completion": "Trusted M3-0 currenttypedfeed durably captured/readable with honest clocks andrepresentative parity"
     },
     {
@@ -788,7 +797,8 @@
     "current_M3_typed_feed": "NOT_ISSUED",
     "website_M3_admission": "NOT_ESTABLISHED",
     "website_M3_consumption": "NOT_ESTABLISHED",
-    "new_primary_activation": false
+    "new_primary_activation": false,
+    "M3_trusted_current_typed_adapter": "IMPLEMENTED;6mocktestsPASS;CURRENT_SOURCE_MODEL_FEED_STILL_UNISSUED"
   },
   "evidence_limits": [
     "Current original-site pointer not newlyretrieved/servedchecked here",
@@ -807,6 +817,29 @@
     "new_source_requests": 0,
     "new_fits": 0,
     "new_inference": 0,
-    "new_network_reads": 0
+    "new_network_reads": 0,
+    "adapter_extension_conservative_preparation_CPU": 1,
+    "adapter_extension_tests_CPU": 3.6464156969999997,
+    "adapter_extension_tests_wall": 3.6576225429998885,
+    "total_conservative_plus_test_selected_CPU": 7.746415697,
+    "verification_receipt": "M3_ADAPTER_SOFTWARE_VERIFICATION.json",
+    "adapter_extension_test_runs": [
+      {
+        "revision": "v1",
+        "tests": 4,
+        "PASS": true,
+        "CPU": 1.8275574429999997,
+        "wall": 1.8357714859994303
+      },
+      {
+        "revision": "v2-root-narrow-review",
+        "tests": 6,
+        "PASS": true,
+        "CPU": 1.818858254,
+        "wall": 1.8218510570004582
+      }
+    ],
+    "final_static_verification_conservative_CPU": 0.1,
+    "internal_reallocation": "Original3CPUtestplanning expanded only by reallocating unused reporting/correctness headroom inside unchanged8CPUtasktotal;notan extraallowance andnotSIM"
   }
 }
