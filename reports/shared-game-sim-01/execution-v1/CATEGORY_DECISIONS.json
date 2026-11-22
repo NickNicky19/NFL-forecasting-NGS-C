@@ -1,0 +1,3725 @@
+{
+  "scope": "All12 explicit statuses; no all-session winner manufactured from incompatible masks",
+  "categories": [
+    {
+      "category": "pass_yd",
+      "full_frame_rows": 148,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 148,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "pass_yd",
+        "week": "ALL",
+        "OVER": {
+          "selected": 28,
+          "wins": 11,
+          "losses": 17,
+          "decided": 28,
+          "rate": 0.39285714285714285,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.39285714285714285,
+            "high": 0.39285714285714285,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 59,
+          "wins": 20,
+          "losses": 39,
+          "decided": 59,
+          "rate": 0.3389830508474576,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.3389830508474576,
+            "high": 0.3389830508474576,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 87,
+          "wins": 31,
+          "losses": 56,
+          "decided": 87,
+          "rate": 0.3563218390804598,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.3563218390804598,
+            "high": 0.3563218390804598,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 148,
+        "unavailable": 61,
+        "abstentions": 0,
+        "states": {
+          "LOSS": 56,
+          "UNAVAILABLE_FORECAST": 61,
+          "WIN": 31
+        },
+        "games": 74,
+        "player_games": 148,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.263727303130343,
+          "high": 0.46106795748578355,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5878378378378378,
+        "available": 87,
+        "unknown_outcomes": 2,
+        "selected_unknown": 0,
+        "native": 87,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 87,
+          "MAE": 62.62385136656061,
+          "bias": -21.079473186290983,
+          "RMSE": 75.01059950661002
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 148,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 87,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 87,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 45,
+        "unique_decided_player_games": 87,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 148,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 61,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 6,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 55
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 87,
+          "available_unknown": 0,
+          "unavailable_known": 59,
+          "unavailable_unknown": 2,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "pass_yd",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 31,
+          "control_wins": 48,
+          "win_difference": -17,
+          "paired_rate_difference": -0.19540229885057472,
+          "disagreements": 37,
+          "primary_only_wins": 10,
+          "control_only_wins": 27,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.318273249738767,
+            "high": -0.05952380952380952,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2631578947368421,
+            "high": -0.1,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 62.623851366560594,
+              "bias": -21.079473186290986,
+              "RMSE": 75.01059950661002
+            },
+            "control": {
+              "n": 87,
+              "MAE": 54.959540229885064,
+              "bias": -11.799540229885059,
+              "RMSE": 66.88012152480297
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "pass_yd",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 31,
+          "control_wins": 45,
+          "win_difference": -14,
+          "paired_rate_difference": -0.16091954022988506,
+          "disagreements": 32,
+          "primary_only_wins": 9,
+          "control_only_wins": 23,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2696629213483146,
+            "high": -0.03529411764705882,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3225806451612903,
+            "high": 0.06666666666666667,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 62.623851366560594,
+              "bias": -21.079473186290986,
+              "RMSE": 75.01059950661002
+            },
+            "control": {
+              "n": 87,
+              "MAE": 53.805747126436785,
+              "bias": -10.117471264367815,
+              "RMSE": 66.67114987224501
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "pass_yd",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 31,
+          "control_wins": 50,
+          "win_difference": -19,
+          "paired_rate_difference": -0.21839080459770116,
+          "disagreements": 59,
+          "primary_only_wins": 20,
+          "control_only_wins": 39,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3793103448275862,
+            "high": -0.045454545454545456,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3783783783783784,
+            "high": -0.14285714285714285,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "pass_yd",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 31,
+          "control_wins": 37,
+          "win_difference": -6,
+          "paired_rate_difference": -0.06896551724137931,
+          "disagreements": 28,
+          "primary_only_wins": 11,
+          "control_only_wins": 17,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.19540229885057472,
+            "high": 0.046511627906976744,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.15625,
+            "high": 0.0,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 2,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "pass_td",
+      "full_frame_rows": 148,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 148,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "pass_td",
+        "week": "ALL",
+        "OVER": {
+          "selected": 44,
+          "wins": 24,
+          "losses": 9,
+          "decided": 33,
+          "rate": 0.7272727272727273,
+          "selected_unknown": 11,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5454545454545454,
+            "high": 0.7954545454545454,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 43,
+          "wins": 23,
+          "losses": 15,
+          "decided": 38,
+          "rate": 0.6052631578947368,
+          "selected_unknown": 5,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5348837209302325,
+            "high": 0.6511627906976745,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 87,
+          "wins": 47,
+          "losses": 24,
+          "decided": 71,
+          "rate": 0.6619718309859155,
+          "selected_unknown": 16,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5402298850574713,
+            "high": 0.7241379310344828,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 148,
+        "unavailable": 61,
+        "abstentions": 0,
+        "states": {
+          "WIN": 47,
+          "LOSS": 24,
+          "UNAVAILABLE_FORECAST": 61,
+          "MISSING_ACTUAL": 16
+        },
+        "games": 74,
+        "player_games": 148,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.5461661814275548,
+          "high": 0.7611501157481005,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5878378378378378,
+        "available": 87,
+        "unknown_outcomes": 33,
+        "selected_unknown": 16,
+        "native": 87,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 71,
+          "MAE": 0.7149892634473488,
+          "bias": -0.31330202278883396,
+          "RMSE": 0.9277382657414643
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 148,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 87,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 87,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 42,
+        "unique_decided_player_games": 71,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 148,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 61,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 6,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 55
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 71,
+          "available_unknown": 16,
+          "unavailable_known": 44,
+          "unavailable_unknown": 17,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "pass_td",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 70,
+          "primary_wins": 46,
+          "control_wins": 46,
+          "win_difference": 0,
+          "paired_rate_difference": 0.0,
+          "disagreements": 22,
+          "primary_only_wins": 11,
+          "control_only_wins": 11,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 42,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.13333333333333333,
+            "high": 0.13437924016282196,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.08695652173913043,
+            "high": 0.16666666666666666,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 71,
+              "MAE": 0.7149892634473489,
+              "bias": -0.31330202278883396,
+              "RMSE": 0.9277382657414643
+            },
+            "control": {
+              "n": 71,
+              "MAE": 0.7112676056338029,
+              "bias": -0.2966197183098591,
+              "RMSE": 0.968285838370433
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "pass_td",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 71,
+          "primary_wins": 47,
+          "control_wins": 45,
+          "win_difference": 2,
+          "paired_rate_difference": 0.028169014084507043,
+          "disagreements": 16,
+          "primary_only_wins": 9,
+          "control_only_wins": 7,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 42,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.07246376811594203,
+            "high": 0.1323529411764706,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.027777777777777776,
+            "high": 0.125,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 71,
+              "MAE": 0.7149892634473489,
+              "bias": -0.31330202278883396,
+              "RMSE": 0.9277382657414643
+            },
+            "control": {
+              "n": 71,
+              "MAE": 0.6943661971830987,
+              "bias": -0.3087323943661972,
+              "RMSE": 0.9499028860666476
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "pass_td",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 71,
+          "primary_wins": 47,
+          "control_wins": 39,
+          "win_difference": 8,
+          "paired_rate_difference": 0.11267605633802817,
+          "disagreements": 38,
+          "primary_only_wins": 23,
+          "control_only_wins": 15,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 42,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.0547945205479452,
+            "high": 0.2753623188405797,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.08888888888888889,
+            "high": 0.16666666666666666,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "pass_td",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 71,
+          "primary_wins": 47,
+          "control_wins": 32,
+          "win_difference": 15,
+          "paired_rate_difference": 0.2112676056338028,
+          "disagreements": 33,
+          "primary_only_wins": 24,
+          "control_only_wins": 9,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 42,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.0410958904109589,
+            "high": 0.3783783783783784,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.07692307692307693,
+            "high": 0.3103448275862069,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "pass_cmp",
+      "full_frame_rows": 148,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 148,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "pass_cmp",
+        "week": "ALL",
+        "OVER": {
+          "selected": 16,
+          "wins": 9,
+          "losses": 7,
+          "decided": 16,
+          "rate": 0.5625,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5625,
+            "high": 0.5625,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 71,
+          "wins": 28,
+          "losses": 43,
+          "decided": 71,
+          "rate": 0.39436619718309857,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.39436619718309857,
+            "high": 0.39436619718309857,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 87,
+          "wins": 37,
+          "losses": 50,
+          "decided": 87,
+          "rate": 0.42528735632183906,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.42528735632183906,
+            "high": 0.42528735632183906,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 148,
+        "unavailable": 61,
+        "abstentions": 0,
+        "states": {
+          "LOSS": 50,
+          "UNAVAILABLE_FORECAST": 61,
+          "WIN": 37
+        },
+        "games": 74,
+        "player_games": 148,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.32673240969978695,
+          "high": 0.5301611258205987,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5878378378378378,
+        "available": 87,
+        "unknown_outcomes": 2,
+        "selected_unknown": 0,
+        "native": 87,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 87,
+          "MAE": 5.284368565454131,
+          "bias": -2.3830679586353165,
+          "RMSE": 6.502062535307149
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 148,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 87,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 87,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 45,
+        "unique_decided_player_games": 87,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 148,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 61,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 6,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 55
+        },
+        "correctness_holds": [
+          "Retained C CMP/ATT coherence and stat-row-conditioning holds; numerical execution does not establish eligible replacement."
+        ],
+        "missingness_diagnostic": {
+          "available_known": 87,
+          "available_unknown": 0,
+          "unavailable_known": 59,
+          "unavailable_unknown": 2,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "pass_cmp",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 37,
+          "control_wins": 52,
+          "win_difference": -15,
+          "paired_rate_difference": -0.1724137931034483,
+          "disagreements": 39,
+          "primary_only_wins": 12,
+          "control_only_wins": 27,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3095443349753695,
+            "high": -0.03487369687249404,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3333333333333333,
+            "high": -0.08771929824561403,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 5.284368565454131,
+              "bias": -2.3830679586353165,
+              "RMSE": 6.50206253530715
+            },
+            "control": {
+              "n": 87,
+              "MAE": 4.359080459770115,
+              "bias": -1.5144827586206895,
+              "RMSE": 5.50697300920732
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "pass_cmp",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 37,
+          "control_wins": 42,
+          "win_difference": -5,
+          "paired_rate_difference": -0.05747126436781609,
+          "disagreements": 37,
+          "primary_only_wins": 16,
+          "control_only_wins": 21,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2,
+            "high": 0.08139534883720931,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.21621621621621623,
+            "high": 0.008771929824561403,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 5.284368565454131,
+              "bias": -2.3830679586353165,
+              "RMSE": 6.50206253530715
+            },
+            "control": {
+              "n": 87,
+              "MAE": 4.651494252873563,
+              "bias": -1.284367816091954,
+              "RMSE": 5.750105246413112
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "pass_cmp",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 37,
+          "control_wins": 52,
+          "win_difference": -15,
+          "paired_rate_difference": -0.1724137931034483,
+          "disagreements": 71,
+          "primary_only_wins": 28,
+          "control_only_wins": 43,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.3489230972515856,
+            "high": 0.011239147088866173,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.43333333333333335,
+            "high": -0.034482758620689655,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "pass_cmp",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 37,
+          "control_wins": 35,
+          "win_difference": 2,
+          "paired_rate_difference": 0.022988505747126436,
+          "disagreements": 16,
+          "primary_only_wins": 9,
+          "control_only_wins": 7,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.05952380952380952,
+            "high": 0.11494252873563218,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.03125,
+            "high": 0.06451612903225806,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "pass_att",
+      "full_frame_rows": 148,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 148,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "pass_att",
+        "week": "ALL",
+        "OVER": {
+          "selected": 10,
+          "wins": 6,
+          "losses": 4,
+          "decided": 10,
+          "rate": 0.6,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.6,
+            "high": 0.6,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 77,
+          "wins": 39,
+          "losses": 38,
+          "decided": 77,
+          "rate": 0.5064935064935064,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5064935064935064,
+            "high": 0.5064935064935064,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 87,
+          "wins": 45,
+          "losses": 42,
+          "decided": 87,
+          "rate": 0.5172413793103449,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5172413793103449,
+            "high": 0.5172413793103449,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 148,
+        "unavailable": 61,
+        "abstentions": 0,
+        "states": {
+          "LOSS": 42,
+          "WIN": 45,
+          "UNAVAILABLE_FORECAST": 61
+        },
+        "games": 74,
+        "player_games": 148,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.4137512133636875,
+          "high": 0.6192733553623774,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5878378378378378,
+        "available": 87,
+        "unknown_outcomes": 0,
+        "selected_unknown": 0,
+        "native": 87,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 87,
+          "MAE": 7.497685961725798,
+          "bias": -3.8629513186234434,
+          "RMSE": 9.68161479036567
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 148,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 87,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 87,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 45,
+        "unique_decided_player_games": 87,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 148,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 61,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 6,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 55
+        },
+        "correctness_holds": [
+          "Retained C CMP/ATT coherence and stat-row-conditioning holds; numerical execution does not establish eligible replacement."
+        ],
+        "missingness_diagnostic": {
+          "available_known": 87,
+          "available_unknown": 0,
+          "unavailable_known": 61,
+          "unavailable_unknown": 0,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "pass_att",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 45,
+          "control_wins": 55,
+          "win_difference": -10,
+          "paired_rate_difference": -0.11494252873563218,
+          "disagreements": 28,
+          "primary_only_wins": 9,
+          "control_only_wins": 19,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.21176470588235294,
+            "high": -0.022720888661899932,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.23333333333333334,
+            "high": 0.0,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 7.4976859617258,
+              "bias": -3.8629513186234434,
+              "RMSE": 9.68161479036567
+            },
+            "control": {
+              "n": 87,
+              "MAE": 6.415287356321839,
+              "bias": -2.4722988505747128,
+              "RMSE": 8.453793068284751
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "pass_att",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 45,
+          "control_wins": 47,
+          "win_difference": -2,
+          "paired_rate_difference": -0.022988505747126436,
+          "disagreements": 30,
+          "primary_only_wins": 14,
+          "control_only_wins": 16,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.12790697674418605,
+            "high": 0.08045977011494253,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.16666666666666666,
+            "high": 0.0625,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 87,
+              "MAE": 7.4976859617258,
+              "bias": -3.8629513186234434,
+              "RMSE": 9.68161479036567
+            },
+            "control": {
+              "n": 87,
+              "MAE": 6.6962068965517245,
+              "bias": -2.179655172413793,
+              "RMSE": 8.605437268071428
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "pass_att",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 45,
+          "control_wins": 44,
+          "win_difference": 1,
+          "paired_rate_difference": 0.011494252873563218,
+          "disagreements": 77,
+          "primary_only_wins": 39,
+          "control_only_wins": 38,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.17242443593018306,
+            "high": 0.19106550051072493,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.26666666666666666,
+            "high": 0.15789473684210525,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "pass_att",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 87,
+          "primary_wins": 45,
+          "control_wins": 43,
+          "win_difference": 2,
+          "paired_rate_difference": 0.022988505747126436,
+          "disagreements": 10,
+          "primary_only_wins": 6,
+          "control_only_wins": 4,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.05747126436781609,
+            "high": 0.10227272727272728,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.0,
+            "high": 0.08108108108108109,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "pass_int",
+      "full_frame_rows": 148,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 148,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "pass_int",
+        "week": "ALL",
+        "OVER": {
+          "selected": 81,
+          "wins": 39,
+          "losses": 27,
+          "decided": 66,
+          "rate": 0.5909090909090909,
+          "selected_unknown": 15,
+          "unknown_resolution_sensitivity": {
+            "low": 0.48148148148148145,
+            "high": 0.6666666666666666,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 6,
+          "wins": 5,
+          "losses": 1,
+          "decided": 6,
+          "rate": 0.8333333333333334,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.8333333333333334,
+            "high": 0.8333333333333334,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 87,
+          "wins": 44,
+          "losses": 28,
+          "decided": 72,
+          "rate": 0.6111111111111112,
+          "selected_unknown": 15,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5057471264367817,
+            "high": 0.6781609195402298,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 148,
+        "unavailable": 61,
+        "abstentions": 0,
+        "states": {
+          "MISSING_ACTUAL": 15,
+          "LOSS": 28,
+          "UNAVAILABLE_FORECAST": 61,
+          "WIN": 44
+        },
+        "games": 74,
+        "player_games": 148,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.49562354994215396,
+          "high": 0.7153428561475221,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5878378378378378,
+        "available": 87,
+        "unknown_outcomes": 27,
+        "selected_unknown": 15,
+        "native": 87,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 72,
+          "MAE": 0.6346112565543277,
+          "bias": -0.0685272146088651,
+          "RMSE": 0.7265094861632395
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 148,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 87,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 87,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 44,
+        "unique_decided_player_games": 72,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 148,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 61,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 6,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 55
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 72,
+          "available_unknown": 15,
+          "unavailable_known": 49,
+          "unavailable_unknown": 12,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "pass_int",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 71,
+          "primary_wins": 43,
+          "control_wins": 40,
+          "win_difference": 3,
+          "paired_rate_difference": 0.04225352112676056,
+          "disagreements": 27,
+          "primary_only_wins": 15,
+          "control_only_wins": 12,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.0945945945945946,
+            "high": 0.17914075456053047,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.125,
+            "high": 0.24,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 72,
+              "MAE": 0.6346112565543277,
+              "bias": -0.0685272146088651,
+              "RMSE": 0.7265094861632395
+            },
+            "control": {
+              "n": 72,
+              "MAE": 0.6519444444444444,
+              "bias": -0.06777777777777778,
+              "RMSE": 0.7679952256796045
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "pass_int",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 72,
+          "primary_wins": 44,
+          "control_wins": 41,
+          "win_difference": 3,
+          "paired_rate_difference": 0.041666666666666664,
+          "disagreements": 27,
+          "primary_only_wins": 15,
+          "control_only_wins": 12,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.1025735294117647,
+            "high": 0.18055555555555555,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.08333333333333333,
+            "high": 0.24,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 72,
+              "MAE": 0.6346112565543277,
+              "bias": -0.0685272146088651,
+              "RMSE": 0.7265094861632395
+            },
+            "control": {
+              "n": 72,
+              "MAE": 0.6588888888888889,
+              "bias": -0.04000000000000001,
+              "RMSE": 0.7728177160380204
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "pass_int",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 72,
+          "primary_wins": 44,
+          "control_wins": 40,
+          "win_difference": 4,
+          "paired_rate_difference": 0.05555555555555555,
+          "disagreements": 6,
+          "primary_only_wins": 5,
+          "control_only_wins": 1,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.0,
+            "high": 0.125,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.03571428571428571,
+            "high": 0.08,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "pass_int",
+          "week": "ALL",
+          "matched_cases": 148,
+          "common_decided": 72,
+          "primary_wins": 44,
+          "control_wins": 32,
+          "win_difference": 12,
+          "paired_rate_difference": 0.16666666666666666,
+          "disagreements": 66,
+          "primary_only_wins": 39,
+          "control_only_wins": 27,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.028169014084507043,
+            "high": 0.3582537313432833,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.14814814814814814,
+            "high": 0.35555555555555557,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "rush_yd",
+      "full_frame_rows": 439,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 439,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "rush_yd",
+        "week": "ALL",
+        "OVER": {
+          "selected": 131,
+          "wins": 57,
+          "losses": 60,
+          "decided": 117,
+          "rate": 0.48717948717948717,
+          "selected_unknown": 14,
+          "unknown_resolution_sensitivity": {
+            "low": 0.4351145038167939,
+            "high": 0.5419847328244275,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 114,
+          "wins": 67,
+          "losses": 45,
+          "decided": 112,
+          "rate": 0.5982142857142857,
+          "selected_unknown": 2,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5877192982456141,
+            "high": 0.6052631578947368,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 245,
+          "wins": 124,
+          "losses": 105,
+          "decided": 229,
+          "rate": 0.5414847161572053,
+          "selected_unknown": 16,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5061224489795918,
+            "high": 0.5714285714285714,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 439,
+        "unavailable": 194,
+        "abstentions": 0,
+        "states": {
+          "WIN": 124,
+          "LOSS": 105,
+          "MISSING_ACTUAL": 16,
+          "UNAVAILABLE_FORECAST": 194
+        },
+        "games": 74,
+        "player_games": 439,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.47679545997870076,
+          "high": 0.604805128233691,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5580865603644647,
+        "available": 245,
+        "unknown_outcomes": 38,
+        "selected_unknown": 16,
+        "native": 245,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 229,
+          "MAE": 20.128865383915045,
+          "bias": -3.8577340437739345,
+          "RMSE": 27.854217388675227
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 439,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 245,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 245,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 45,
+        "unique_decided_player_games": 229,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 439,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 194,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 29,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 165
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 229,
+          "available_unknown": 16,
+          "unavailable_known": 172,
+          "unavailable_unknown": 22,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "rush_yd",
+          "week": "ALL",
+          "matched_cases": 439,
+          "common_decided": 229,
+          "primary_wins": 124,
+          "control_wins": 118,
+          "win_difference": 6,
+          "paired_rate_difference": 0.026200873362445413,
+          "disagreements": 92,
+          "primary_only_wins": 49,
+          "control_only_wins": 43,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.057784226190476184,
+            "high": 0.10360687450936411,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.024390243902439025,
+            "high": 0.08333333333333333,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 229,
+              "MAE": 20.12886538391505,
+              "bias": -3.857734043773934,
+              "RMSE": 27.854217388675227
+            },
+            "control": {
+              "n": 229,
+              "MAE": 20.64004366812227,
+              "bias": 1.4916593886462883,
+              "RMSE": 27.481129317387087
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "rush_yd",
+          "week": "ALL",
+          "matched_cases": 439,
+          "common_decided": 229,
+          "primary_wins": 124,
+          "control_wins": 98,
+          "win_difference": 26,
+          "paired_rate_difference": 0.11353711790393013,
+          "disagreements": 98,
+          "primary_only_wins": 62,
+          "control_only_wins": 36,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.035227034345977085,
+            "high": 0.18988848704038572,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.044673539518900345,
+            "high": 0.20238095238095238,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 229,
+              "MAE": 20.12886538391505,
+              "bias": -3.857734043773934,
+              "RMSE": 27.854217388675227
+            },
+            "control": {
+              "n": 229,
+              "MAE": 20.51882096069869,
+              "bias": 1.7658951965065504,
+              "RMSE": 27.085260135244898
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "rush_yd",
+          "week": "ALL",
+          "matched_cases": 439,
+          "common_decided": 229,
+          "primary_wins": 124,
+          "control_wins": 102,
+          "win_difference": 22,
+          "paired_rate_difference": 0.09606986899563319,
+          "disagreements": 112,
+          "primary_only_wins": 67,
+          "control_only_wins": 45,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.017314151365875503,
+            "high": 0.1687269520602854,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.02422145328719723,
+            "high": 0.20238095238095238,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "rush_yd",
+          "week": "ALL",
+          "matched_cases": 439,
+          "common_decided": 229,
+          "primary_wins": 124,
+          "control_wins": 127,
+          "win_difference": -3,
+          "paired_rate_difference": -0.013100436681222707,
+          "disagreements": 117,
+          "primary_only_wins": 57,
+          "control_only_wins": 60,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.09132437070938215,
+            "high": 0.06521739130434782,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.08,
+            "high": 0.08333333333333333,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "rush_att",
+      "full_frame_rows": 226,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 226,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "rush_att",
+        "week": "ALL",
+        "OVER": {
+          "selected": 33,
+          "wins": 14,
+          "losses": 19,
+          "decided": 33,
+          "rate": 0.42424242424242425,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.42424242424242425,
+            "high": 0.42424242424242425,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 88,
+          "wins": 42,
+          "losses": 46,
+          "decided": 88,
+          "rate": 0.4772727272727273,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.4772727272727273,
+            "high": 0.4772727272727273,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 121,
+          "wins": 56,
+          "losses": 65,
+          "decided": 121,
+          "rate": 0.4628099173553719,
+          "selected_unknown": 0,
+          "unknown_resolution_sensitivity": {
+            "low": 0.4628099173553719,
+            "high": 0.4628099173553719,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 226,
+        "unavailable": 105,
+        "abstentions": 0,
+        "states": {
+          "WIN": 56,
+          "LOSS": 65,
+          "UNAVAILABLE_FORECAST": 105
+        },
+        "games": 74,
+        "player_games": 226,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.3764818577220656,
+          "high": 0.5514267065880774,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5353982300884956,
+        "available": 121,
+        "unknown_outcomes": 6,
+        "selected_unknown": 0,
+        "native": 121,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 121,
+          "MAE": 4.476661534343315,
+          "bias": -1.539192613835674,
+          "RMSE": 5.765277460507648
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 226,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 121,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 121,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 45,
+        "unique_decided_player_games": 121,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 226,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 105,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 16,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 89
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 121,
+          "available_unknown": 0,
+          "unavailable_known": 99,
+          "unavailable_unknown": 6,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "rush_att",
+          "week": "ALL",
+          "matched_cases": 226,
+          "common_decided": 120,
+          "primary_wins": 56,
+          "control_wins": 69,
+          "win_difference": -13,
+          "paired_rate_difference": -0.10833333333333334,
+          "disagreements": 61,
+          "primary_only_wins": 24,
+          "control_only_wins": 37,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2072072072072072,
+            "high": -0.008401610644257712,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.22727272727272727,
+            "high": -0.025,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 121,
+              "MAE": 4.476661534343316,
+              "bias": -1.5391926138356742,
+              "RMSE": 5.765277460507647
+            },
+            "control": {
+              "n": 121,
+              "MAE": 4.305454545454546,
+              "bias": -0.09256198347107442,
+              "RMSE": 5.423633316062899
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "rush_att",
+          "week": "ALL",
+          "matched_cases": 226,
+          "common_decided": 121,
+          "primary_wins": 56,
+          "control_wins": 70,
+          "win_difference": -14,
+          "paired_rate_difference": -0.11570247933884298,
+          "disagreements": 62,
+          "primary_only_wins": 24,
+          "control_only_wins": 38,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2222222222222222,
+            "high": -0.008543417366946799,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.24516129032258063,
+            "high": 0.043478260869565216,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 121,
+              "MAE": 4.476661534343316,
+              "bias": -1.5391926138356742,
+              "RMSE": 5.765277460507647
+            },
+            "control": {
+              "n": 121,
+              "MAE": 4.278760330578512,
+              "bias": 0.03925619834710741,
+              "RMSE": 5.293373293699045
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "rush_att",
+          "week": "ALL",
+          "matched_cases": 226,
+          "common_decided": 121,
+          "primary_wins": 56,
+          "control_wins": 60,
+          "win_difference": -4,
+          "paired_rate_difference": -0.03305785123966942,
+          "disagreements": 88,
+          "primary_only_wins": 42,
+          "control_only_wins": 46,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.16666666666666666,
+            "high": 0.09449667390714087,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.2129032258064516,
+            "high": 0.1956521739130435,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "rush_att",
+          "week": "ALL",
+          "matched_cases": 226,
+          "common_decided": 121,
+          "primary_wins": 56,
+          "control_wins": 61,
+          "win_difference": -5,
+          "paired_rate_difference": -0.04132231404958678,
+          "disagreements": 33,
+          "primary_only_wins": 14,
+          "control_only_wins": 19,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 45,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.14285714285714285,
+            "high": 0.05785123966942149,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.1,
+            "high": 0.021739130434782608,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "rec",
+      "full_frame_rows": 922,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 922,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+        "category": "rec",
+        "week": "ALL",
+        "OVER": {
+          "selected": 323,
+          "wins": 177,
+          "losses": 105,
+          "decided": 282,
+          "rate": 0.6276595744680851,
+          "selected_unknown": 41,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5479876160990712,
+            "high": 0.6749226006191951,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 315,
+          "wins": 162,
+          "losses": 134,
+          "decided": 296,
+          "rate": 0.5472972972972973,
+          "selected_unknown": 19,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5142857142857142,
+            "high": 0.5746031746031746,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 638,
+          "wins": 339,
+          "losses": 239,
+          "decided": 578,
+          "rate": 0.5865051903114187,
+          "selected_unknown": 60,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5313479623824452,
+            "high": 0.6253918495297806,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 922,
+        "unavailable": 284,
+        "abstentions": 0,
+        "states": {
+          "UNAVAILABLE_FORECAST": 284,
+          "LOSS": 239,
+          "WIN": 339,
+          "MISSING_ACTUAL": 60
+        },
+        "games": 74,
+        "player_games": 922,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5438066465256798,
+          "high": 0.6264880952380952,
+          "dependence_aware": true,
+          "week_clusters": 6,
+          "small_cluster_caution": true,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.6919739696312365,
+        "available": 638,
+        "unknown_outcomes": 142,
+        "selected_unknown": 60,
+        "native": 638,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 578,
+          "MAE": 1.484021400909259,
+          "bias": -0.4523044221964953,
+          "RMSE": 2.022562358222653
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 922,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available_games": 74,
+        "unique_available_player_games": 638,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "selected_games": 74,
+        "unique_selected_player_games": 638,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "decided_games": 74,
+        "unique_decided_player_games": 578,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 705,
+        "out_of_scope_role": 217,
+        "technical_unavailable_in_role": 67,
+        "unavailable_reasons": {
+          "UNSUPPORTED_ROLE": 206,
+          "UNAVAILABLE_CANONICAL_IDENTITY": 49,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 29
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 578,
+          "available_unknown": 60,
+          "unavailable_known": 202,
+          "unavailable_unknown": 82,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+          "control": "W0",
+          "category": "rec",
+          "week": "ALL",
+          "matched_cases": 922,
+          "common_decided": 575,
+          "primary_wins": 337,
+          "control_wins": 320,
+          "win_difference": 17,
+          "paired_rate_difference": 0.029565217391304348,
+          "disagreements": 213,
+          "primary_only_wins": 115,
+          "control_only_wins": 98,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.02613698881349716,
+            "high": 0.08551483420593368,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.01936619718309859,
+            "high": 0.08163265306122448,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 578,
+              "MAE": 1.4840214009092592,
+              "bias": -0.4523044221964952,
+              "RMSE": 2.022562358222653
+            },
+            "control": {
+              "n": 578,
+              "MAE": 1.4968685121107266,
+              "bias": -0.4830968858131488,
+              "RMSE": 1.9911803371237113
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+          "control": "W1",
+          "category": "rec",
+          "week": "ALL",
+          "matched_cases": 922,
+          "common_decided": 571,
+          "primary_wins": 337,
+          "control_wins": 332,
+          "win_difference": 5,
+          "paired_rate_difference": 0.008756567425569177,
+          "disagreements": 205,
+          "primary_only_wins": 105,
+          "control_only_wins": 100,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.04223291834652332,
+            "high": 0.059861794222122844,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.044386422976501305,
+            "high": 0.06380296647590784,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 578,
+              "MAE": 1.4840214009092592,
+              "bias": -0.4523044221964952,
+              "RMSE": 2.022562358222653
+            },
+            "control": {
+              "n": 578,
+              "MAE": 1.4750346020761247,
+              "bias": -0.4148269896193772,
+              "RMSE": 1.9786563981319527
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "rec",
+          "week": "ALL",
+          "matched_cases": 922,
+          "common_decided": 578,
+          "primary_wins": 339,
+          "control_wins": 311,
+          "win_difference": 28,
+          "paired_rate_difference": 0.04844290657439446,
+          "disagreements": 296,
+          "primary_only_wins": 162,
+          "control_only_wins": 134,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.011967871485943776,
+            "high": 0.11014023626975435,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.02112676056338028,
+            "high": 0.1242603550295858,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "rec",
+          "week": "ALL",
+          "matched_cases": 922,
+          "common_decided": 578,
+          "primary_wins": 339,
+          "control_wins": 267,
+          "win_difference": 72,
+          "paired_rate_difference": 0.1245674740484429,
+          "disagreements": 282,
+          "primary_only_wins": 177,
+          "control_only_wins": 105,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.07166904614909708,
+            "high": 0.178752107925801,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.08157099697885196,
+            "high": 0.1809400683578314,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Floor met only as conditional partial retrospective evidence",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "rec_yd",
+      "full_frame_rows": 925,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 925,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+        "category": "rec_yd",
+        "week": "ALL",
+        "OVER": {
+          "selected": 412,
+          "wins": 202,
+          "losses": 160,
+          "decided": 362,
+          "rate": 0.5580110497237569,
+          "selected_unknown": 50,
+          "unknown_resolution_sensitivity": {
+            "low": 0.49029126213592233,
+            "high": 0.6116504854368932,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 226,
+          "wins": 113,
+          "losses": 100,
+          "decided": 213,
+          "rate": 0.5305164319248826,
+          "selected_unknown": 13,
+          "unknown_resolution_sensitivity": {
+            "low": 0.5,
+            "high": 0.5575221238938053,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 638,
+          "wins": 315,
+          "losses": 260,
+          "decided": 575,
+          "rate": 0.5478260869565217,
+          "selected_unknown": 63,
+          "unknown_resolution_sensitivity": {
+            "low": 0.493730407523511,
+            "high": 0.5924764890282131,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 925,
+        "unavailable": 287,
+        "abstentions": 0,
+        "states": {
+          "UNAVAILABLE_FORECAST": 287,
+          "WIN": 315,
+          "LOSS": 260,
+          "MISSING_ACTUAL": 63
+        },
+        "games": 74,
+        "player_games": 925,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.5,
+          "high": 0.6020408163265306,
+          "dependence_aware": true,
+          "week_clusters": 6,
+          "small_cluster_caution": true,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.6897297297297297,
+        "available": 638,
+        "unknown_outcomes": 154,
+        "selected_unknown": 63,
+        "native": 638,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 575,
+          "MAE": 23.09652965176392,
+          "bias": -6.333675292302682,
+          "RMSE": 31.448783250049118
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 925,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "available_games": 74,
+        "unique_available_player_games": 638,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "selected_games": 74,
+        "unique_selected_player_games": 638,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "decided_games": 74,
+        "unique_decided_player_games": 575,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 706,
+        "out_of_scope_role": 219,
+        "technical_unavailable_in_role": 68,
+        "unavailable_reasons": {
+          "UNSUPPORTED_ROLE": 208,
+          "UNAVAILABLE_CANONICAL_IDENTITY": 49,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 30
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 575,
+          "available_unknown": 63,
+          "unavailable_known": 196,
+          "unavailable_unknown": 91,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+          "control": "W0",
+          "category": "rec_yd",
+          "week": "ALL",
+          "matched_cases": 925,
+          "common_decided": 573,
+          "primary_wins": 313,
+          "control_wins": 293,
+          "win_difference": 20,
+          "paired_rate_difference": 0.034904013961605584,
+          "disagreements": 212,
+          "primary_only_wins": 116,
+          "control_only_wins": 96,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.015711662627421234,
+            "high": 0.08320777087240197,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.025277475603903372,
+            "high": 0.11149228130360206,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 575,
+              "MAE": 23.096529651763916,
+              "bias": -6.333675292302683,
+              "RMSE": 31.448783250049118
+            },
+            "control": {
+              "n": 575,
+              "MAE": 23.462695652173913,
+              "bias": -4.648365217391304,
+              "RMSE": 30.989469468079694
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+          "control": "W1",
+          "category": "rec_yd",
+          "week": "ALL",
+          "matched_cases": 925,
+          "common_decided": 575,
+          "primary_wins": 315,
+          "control_wins": 307,
+          "win_difference": 8,
+          "paired_rate_difference": 0.01391304347826087,
+          "disagreements": 206,
+          "primary_only_wins": 107,
+          "control_only_wins": 99,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.034844725784580206,
+            "high": 0.05955252090476304,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.03011925018785669,
+            "high": 0.05317324185248713,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 575,
+              "MAE": 23.096529651763916,
+              "bias": -6.333675292302683,
+              "RMSE": 31.448783250049118
+            },
+            "control": {
+              "n": 575,
+              "MAE": 23.257095652173913,
+              "bias": -3.4426608695652177,
+              "RMSE": 30.77304173404406
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "rec_yd",
+          "week": "ALL",
+          "matched_cases": 925,
+          "common_decided": 575,
+          "primary_wins": 315,
+          "control_wins": 302,
+          "win_difference": 13,
+          "paired_rate_difference": 0.022608695652173914,
+          "disagreements": 213,
+          "primary_only_wins": 113,
+          "control_only_wins": 100,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.02702702702702703,
+            "high": 0.0720594105052105,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.03626943005181347,
+            "high": 0.07511045655375552,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "rec_yd",
+          "week": "ALL",
+          "matched_cases": 925,
+          "common_decided": 575,
+          "primary_wins": 315,
+          "control_wins": 273,
+          "win_difference": 42,
+          "paired_rate_difference": 0.07304347826086957,
+          "disagreements": 362,
+          "primary_only_wins": 202,
+          "control_only_wins": 160,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 74,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.005464232488822653,
+            "high": 0.13708260105448156,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 6,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.02112676056338028,
+            "high": 0.14631924198250695,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Floor met only as conditional partial retrospective evidence",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "rush_rec_yd",
+      "full_frame_rows": 222,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 222,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": {
+        "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "category": "rush_rec_yd",
+        "week": "ALL",
+        "OVER": {
+          "selected": 44,
+          "wins": 17,
+          "losses": 17,
+          "decided": 34,
+          "rate": 0.5,
+          "selected_unknown": 10,
+          "unknown_resolution_sensitivity": {
+            "low": 0.38636363636363635,
+            "high": 0.6136363636363636,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "UNDER": {
+          "selected": 81,
+          "wins": 34,
+          "losses": 33,
+          "decided": 67,
+          "rate": 0.5074626865671642,
+          "selected_unknown": 14,
+          "unknown_resolution_sensitivity": {
+            "low": 0.41975308641975306,
+            "high": 0.5925925925925926,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "COMBINED": {
+          "selected": 125,
+          "wins": 51,
+          "losses": 50,
+          "decided": 101,
+          "rate": 0.504950495049505,
+          "selected_unknown": 24,
+          "unknown_resolution_sensitivity": {
+            "low": 0.408,
+            "high": 0.6,
+            "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+          }
+        },
+        "eligible": 222,
+        "unavailable": 97,
+        "abstentions": 0,
+        "states": {
+          "WIN": 51,
+          "LOSS": 50,
+          "MISSING_ACTUAL": 24,
+          "UNAVAILABLE_FORECAST": 97
+        },
+        "games": 74,
+        "player_games": 222,
+        "weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "uncertainty": {
+          "kind": "WILSON_INDEPENDENT_BERNOULLI_DIAGNOSTIC_ONLY",
+          "low": 0.409064891932013,
+          "high": 0.6004733194897707,
+          "dependence_aware": false,
+          "week_clusters": 4,
+          "scope": "DESCRIPTIVE_EXPOSED_HISTORY;LIMITED_CLUSTERS_AND_MULTIPLE_COMPARISONS"
+        },
+        "coverage": 0.5630630630630631,
+        "available": 125,
+        "unknown_outcomes": 60,
+        "selected_unknown": 24,
+        "native": 125,
+        "fallback": 0,
+        "attribution_unknown": 0,
+        "pushes": 0,
+        "voids": 0,
+        "numerical": {
+          "n": 101,
+          "MAE": 28.840049569493655,
+          "bias": -12.386951627605084,
+          "RMSE": 35.907492743467664
+        },
+        "probability": {
+          "n": 0,
+          "half_multiclass_Brier": null,
+          "raw_log_loss": null,
+          "zero_probability_actual_events": 0,
+          "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+          "reliability": []
+        },
+        "represented_weeks": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "represented_games": 74,
+        "unique_represented_player_games": 222,
+        "available_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "available_games": 45,
+        "unique_available_player_games": 125,
+        "selected_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "selected_games": 45,
+        "unique_selected_player_games": 125,
+        "decided_weeks": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "decided_games": 44,
+        "unique_decided_player_games": 101,
+        "legacy_weeks_field": "Represented full frame, not automatically available/decided weeks",
+        "declared_role_eligible": 222,
+        "out_of_scope_role": 0,
+        "technical_unavailable_in_role": 97,
+        "unavailable_reasons": {
+          "UNAVAILABLE_CANONICAL_IDENTITY": 14,
+          "NO_EXACT_SAVED_ORIGIN_PREDICTION": 83
+        },
+        "correctness_holds": [],
+        "missingness_diagnostic": {
+          "available_known": 101,
+          "available_unknown": 24,
+          "unavailable_known": 61,
+          "unavailable_unknown": 36,
+          "scope": "No assumption decided subset is representative; retained stat-row-conditioned populations and unknown clocks remain limitations"
+        }
+      },
+      "matched_controls": [
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W0",
+          "category": "rush_rec_yd",
+          "week": "ALL",
+          "matched_cases": 222,
+          "common_decided": 101,
+          "primary_wins": 51,
+          "control_wins": 48,
+          "win_difference": 3,
+          "paired_rate_difference": 0.0297029702970297,
+          "disagreements": 41,
+          "primary_only_wins": 22,
+          "control_only_wins": 19,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.07072510822510822,
+            "high": 0.12503033980582506,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": 0.0,
+            "high": 0.05426356589147287,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 101,
+              "MAE": 28.840049569493655,
+              "bias": -12.386951627605082,
+              "RMSE": 35.907492743467664
+            },
+            "control": {
+              "n": 101,
+              "MAE": 27.72673267326733,
+              "bias": -2.387326732673268,
+              "RMSE": 33.63492571305565
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "W1",
+          "category": "rush_rec_yd",
+          "week": "ALL",
+          "matched_cases": 222,
+          "common_decided": 101,
+          "primary_wins": 51,
+          "control_wins": 49,
+          "win_difference": 2,
+          "paired_rate_difference": 0.019801980198019802,
+          "disagreements": 44,
+          "primary_only_wins": 23,
+          "control_only_wins": 21,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.09259736540664375,
+            "high": 0.11764705882352941,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.05263157894736842,
+            "high": 0.08108108108108109,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 101,
+              "MAE": 28.840049569493655,
+              "bias": -12.386951627605082,
+              "RMSE": 35.907492743467664
+            },
+            "control": {
+              "n": 101,
+              "MAE": 26.182178217821782,
+              "bias": -1.4390099009900987,
+              "RMSE": 32.252359434759356
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_OVER",
+          "category": "rush_rec_yd",
+          "week": "ALL",
+          "matched_cases": 222,
+          "common_decided": 101,
+          "primary_wins": 51,
+          "control_wins": 50,
+          "win_difference": 1,
+          "paired_rate_difference": 0.009900990099009901,
+          "disagreements": 67,
+          "primary_only_wins": 34,
+          "control_only_wins": 33,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.1262135922330097,
+            "high": 0.14585722477064209,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.14285714285714285,
+            "high": 0.13953488372093023,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        },
+        {
+          "candidate": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "control": "ALWAYS_UNDER",
+          "category": "rush_rec_yd",
+          "week": "ALL",
+          "matched_cases": 222,
+          "common_decided": 101,
+          "primary_wins": 51,
+          "control_wins": 51,
+          "win_difference": 0,
+          "paired_rate_difference": 0.0,
+          "disagreements": 34,
+          "primary_only_wins": 17,
+          "control_only_wins": 17,
+          "game_uncertainty": {
+            "kind": "GAME_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 44,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.12245379283788987,
+            "high": 0.11578947368421053,
+            "limited_clusters": false,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "week_sensitivity": {
+            "kind": "WEEK_BLOCK_BOOTSTRAP95_DESCRIPTIVE",
+            "clusters": 4,
+            "draws": 2000,
+            "seed": 661107,
+            "low": -0.07894736842105263,
+            "high": 0.058823529411764705,
+            "limited_clusters": true,
+            "multiplicity": "UNADJUSTED_EXPOSED_DESCRIPTIVE;NOT_CONFIRMATORY_SUPERIORITY"
+          },
+          "same_case_numerical": {
+            "candidate": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "control": {
+              "n": 0,
+              "MAE": null,
+              "bias": null,
+              "RMSE": null
+            },
+            "scope": "Same available known-statistic cases, including point ties; no probability invented"
+          }
+        }
+      ],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "Exact scored-week floor not met in this panel",
+      "research_decision": "SHADOW_SAVED_CONTROL;BLOCKED_SIMULATOR",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "C scoped numerical completion for unchanged objective;A/B owned joins/B checks;website owner admission/replay/release"
+    },
+    {
+      "category": "anytime_td",
+      "full_frame_rows": 0,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 0,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": null,
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": null,
+      "matched_controls": [],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "NO_MATCHING_OFFER",
+      "research_decision": "NO_OFFER_BLOCKED",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "Qualified exact event/scoring/offer contract, no invented market"
+    },
+    {
+      "category": "nick-chart-ppr-v1",
+      "full_frame_rows": 0,
+      "S_P_native_forecasts": 0,
+      "S_P_fallback_forecasts": 0,
+      "S_P_unavailable": 0,
+      "S_P_scored_weeks": [],
+      "D_P_actual_scope": "NOT_EXECUTED_NO_VALID_CONDITIONED_GAME",
+      "frozen_display_control": null,
+      "display_choice": "Named retained Leaf mean for readable coverage; not a largest-own-pool winner",
+      "control_summary": null,
+      "matched_controls": [],
+      "A_candidates": 3,
+      "B_candidates": 3,
+      "C_nominations": 3,
+      "A_B_actual_frame_grades": "PENDING_OWNER_OUTPUTS",
+      "duration": "NO_MATCHING_OFFER",
+      "research_decision": "NO_OFFER_BLOCKED",
+      "original_website": "Owner-reported CURRENT_BASELINE; no C activation/served verification",
+      "release": "No new primary replacement authorized or established by this package",
+      "remaining_action": "Qualified exact event/scoring/offer contract, no invented market"
+    }
+  ]
+}

@@ -165,7 +165,7 @@ def load_sources(root: str | Path) -> SourceStore:
             elif a or rush or sack or scramble or kneel:
                 g['held'].append('CONTRADICTORY_EVENT_FLAGS'); continue
             if event is None:
-                
+
                 if _flag(r.get('complete_pass')) == 1 or _flag(r.get('interception')) == 1:
                     g['held'].append('CONVERSION_WITHOUT_ATTEMPT')
                 audit['non_opportunity_rows'] += 1; continue

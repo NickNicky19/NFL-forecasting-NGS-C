@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse,copy,hashlib,json,signal,time,traceback
 from pathlib import Path
 import numpy as np
-from shared_game_sim01_budget import ROOT,D,LIMITS,LEDGER,footprint,save
+from shared_game_sim01_budget import ROOT,D,LIMITS,LEDGER,footprint,save,utc as now_utc
 from shared_game_sim01_inputs import load_context,utc,digest
 from shared_game_sim01_fit import load_sources,fit_origin,restore_origin,build_team_prior,prior_to_record,team_to_record
 from shared_game_sim01_condition import condition_game
@@ -16,6 +16,16 @@ from shared_game_sim01_retention import write_replay_bundle,reopen_replay_bundle
 PRIVATE=ROOT/'private/shared-game-sim-01'
 RAW=PRIVATE/'samples'
 FREEZE=D/'FREEZE_A.json'
+def failure_record_path(game_id):
+ if not game_id or any(c not in 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_' for c in game_id):raise ValueError('INVALID_FAILURE_GAME_ID')
+ return D/('STOP_'+game_id+'.json')
+def begin_attempt(game):
+ p=D/('ATTEMPT_'+game['native_game_id']+'.json')
+ if p.exists():raise RuntimeError('DURABLE_ATTEMPT_ALREADY_EXISTS_NO_AUTOMATIC_RETRY')
+ save(p,dict(native_game_id=game['native_game_id'],events=[dict(state='STARTED_BEFORE_FIT',UTC=now_utc())],forecast_rows=0))
+ return p
+def progress(p,state):
+ r=json.loads(p.read_text());r['events'].append(dict(state=state,UTC=now_utc()));save(p,r)
 def verify_freeze():
  f=json.loads(FREEZE.read_text())
  for info in f['code']:
@@ -89,6 +99,7 @@ def canary_or_full(stage):
  # erased. Other registered origins can be independently executable; all remain
  # in the full board. No grades or success-based week choice enter this rule.
  failed={p.name[len('STOP_'):-len('.json')] for p in D.glob('STOP_*.json')}
+ failed|={p.name[len('ATTEMPT_'):-len('.json')] for p in D.glob('ATTEMPT_*.json')}
  done|=failed;RAW.mkdir(parents=True,exist_ok=True)
  todo=[g for g in games if g['native_game_id'] not in done]
  if stage=='canary':
@@ -97,9 +108,10 @@ def canary_or_full(stage):
   gate=json.loads((D/'CANARY_REMAINDER_GATE.json').read_text())
   if gate['decision']!='PASS':raise RuntimeError('FULL_REMAINDER_GATE_NOT_PASS')
  for game in todo:
-  storage=storage_guard();t=time.process_time();w=time.monotonic()
+  storage=storage_guard();attempt=begin_attempt(game);t=time.process_time();w=time.monotonic()
   try:
    teams,record=game_params(store,prior,game,players);conditioning_CPU=time.process_time()-t
+   progress(attempt,'CONDITIONED_BEFORE_GENERATION')
    r,gen_CPU=generation(teams,prior,game,record,6 if stage=='canary' else None)
    law_check(r);tio=time.process_time();path=RAW/(game['native_game_id']+'.zip')
    receipt=write_replay_bundle(path,r,teams,prior.frailty_shape,record)
@@ -116,11 +128,13 @@ def canary_or_full(stage):
     actor_count=sum(len(t.actor_ids) for t in teams),component_availability=r.metadata['teams'],
     D_P='Required sufficient moments AND fitted state reopened exactly',runtime_checks='PASS_SUPPORT_CONSERVATION_LOCAL_REOPEN',storage_before=storage)
    existing.append(row);save(D/'GAME_EXECUTION_INDEX.json',existing)
+   progress(attempt,'SAMPLES_AND_DP_STATE_DURABLY_REOPENED')
    print(json.dumps({k:row[k] for k in ('native_game_id','trajectories','generation_CPU','body_bytes')}),flush=True)
    del r,reopened
    if stage=='canary':break
   except BaseException as e:
-   save(D/('STOP_'+game['native_game_id']+'.json'),dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
+   save(failure_record_path(game['native_game_id']),dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
+   progress(attempt,'FAILED_NO_RETRY')
    if str(e)=='PROVIDER_CONDITIONING_FAILED;NO_RETRY':
     print('TECHNICAL_UNAVAILABLE_NO_RETRY',game['native_game_id'],flush=True)
     continue

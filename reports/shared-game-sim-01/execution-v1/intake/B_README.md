@@ -83,4 +83,3 @@ M2, SKILL, opportunity-v1 and TabICL remain distinct products. Their adverse res
 No new fit, simulator campaign, candidate actual-line join, original selection, future capture, primary admission or website activation occurred. Existing independent delivery and five-week rules continue. Historical W4–9 remains exposed development; no generic accuracy target, all-category condition or new future waiting period was added. The actual website method and served-value release remain the original owner’s responsibility.
 
 Reporting/source review uses existing B authority, with no old M3/TabICL/C-pilot resource transfer. Scientific result registries/indexes are unchanged because no new predictive scoring run occurred. Publication/receipt is separate from C admission and independent model reproduction.
-
