@@ -1,0 +1,172 @@
+{
+  "id": "SHARED-GAME-SIM-01-C-PEER-INTAKE-V3",
+  "authority": "C read-only permitted public owner metadata; no new source/model/forecast/grade execution",
+  "owner_receipts": {
+    "website": {
+      "source_commit": "f15790bc1396e532eb0f6991f8e05dbf6a66fb2d",
+      "source_tree": {
+        "Git_tree_SHA": "f15790bc1396e532eb0f6991f8e05dbf6a66fb2d",
+        "entries": 3740,
+        "truncated": false,
+        "read_once": true
+      },
+      "explicit_source_bindings": [
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_04.json",
+          "bytes": 369709,
+          "Git_blob_SHA": "4d362e6054912a7751e4204b5b60eea7bd60678a"
+        },
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_05.json",
+          "bytes": 350769,
+          "Git_blob_SHA": "f827fddbbb5be27d6e9c9649608972fa192a548d"
+        },
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_06.json",
+          "bytes": 329010,
+          "Git_blob_SHA": "81017106da5cf2dcdb9540113a02b1afbe902a07"
+        },
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_07.json",
+          "bytes": 324723,
+          "Git_blob_SHA": "3b0f60bf58cef204909a8f5955ab860b2e0d53e8"
+        },
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_08.json",
+          "bytes": 322753,
+          "Git_blob_SHA": "2254ed598d45d6706898dd1a1f8782296c9e251d"
+        },
+        {
+          "path": "data/cache/stat-keys-presence-strict-v3/stats_2026_09.json",
+          "bytes": 352038,
+          "Git_blob_SHA": "0cae492650c16b80f0ba7ca2de155e14262d5275"
+        },
+        {
+          "path": "output/data/archive/2026_w04.json",
+          "bytes": 359711,
+          "Git_blob_SHA": "e71d045155c94cea448b2cc0cc58eb33eb0e3e0f"
+        },
+        {
+          "path": "output/data/archive/2026_w05.json",
+          "bytes": 356089,
+          "Git_blob_SHA": "6a75ac606a95a09f2b84ef114226df1ed67b21a4"
+        },
+        {
+          "path": "output/data/archive/2026_w06.json",
+          "bytes": 349156,
+          "Git_blob_SHA": "a9ed6c7e9704bb0987d57bc033964362f8dcb137"
+        },
+        {
+          "path": "output/data/archive/2026_w07.json",
+          "bytes": 355241,
+          "Git_blob_SHA": "bc0e0e69e23d686ce1081bc7f2b5ce5bdf3b8588"
+        },
+        {
+          "path": "output/data/archive/2026_w08.json",
+          "bytes": 367525,
+          "Git_blob_SHA": "ee68886991e3d4f26d7839ffc5216aa5b17ba2c5"
+        },
+        {
+          "path": "output/data/archive/2026_w09.json",
+          "bytes": 364274,
+          "Git_blob_SHA": "72b74fb67c7c2ed901c5dc166884fb113f939f41"
+        },
+        {
+          "path": "output/data/track_record.json",
+          "bytes": 63489,
+          "Git_blob_SHA": "d166908b90f42239f8fda6792f8e3c294397a311"
+        },
+        {
+          "path": "output/data/verified-int-v1/index-v2.json",
+          "bytes": 261990,
+          "Git_blob_SHA": "0446ab72922ff33b9e6ad78a9ac360d45d53fca8"
+        },
+        {
+          "path": "pull/gamemodel.py",
+          "bytes": 4265,
+          "Git_blob_SHA": "9c94d3889402c702e6a7ad1d239ea8f4d22b2cdf"
+        },
+        {
+          "path": "pull/grade.py",
+          "bytes": 21253,
+          "Git_blob_SHA": "65e873171843349af1dd5123fcf1617e4a4e6018"
+        },
+        {
+          "path": "pull/scoring.py",
+          "bytes": 9328,
+          "Git_blob_SHA": "a6fd0758d1596b8e5215b64ab81d4d9e7f8671a2"
+        }
+      ],
+      "source_code_version_bodies": "The supplied ZIP already contains contract/source bodies; this subtask retrieved tree metadata only and did not duplicate ZIP/source-body retrieval or inspect target grading.",
+      "derived_query_publication": "No repository path is supplied for derivedqueries/evaluation_cases_ungraded.jsonl or grading_only/outcomes.jsonl. Do not invent one; package-local hashes are the provided bindings.",
+      "frame_contract_as_supplied": {
+        "W0": "Literal saved adj; strict point versus offered line; equality abstains",
+        "W1": "Literal saved proj only when source=model and finite, else literal incumbent adjusted fallback",
+        "query_population": "3474 ten-category retained offers/74 games/W4-9 as supplied user/ZIP; W4 two games; no ATD or exact-chart actual-offer rows",
+        "clocks": "Original issue/quote clocks unverified, not authenticated by repository/source tree; game/origin/team/universe mapping still required"
+      },
+      "actual_owner_admission_receipt": "NOT_OBTAINED; user audit/package and source metadata are not a new website owner admission/consumer replay",
+      "recent_discussion_scope": "Full PR1 comments transport-closed; bounded since2026-11-21 query returned[]; no inference that all newer work or comments are absent",
+      "next_owner_action": "Original website owner binds exact package/canonical case/outcome contract, unknown/push/void/source tiers and event/player/role/cutoff mapping; admits the outcome-free query/line selection policy and supplies immutable receipt before new scored comparisons",
+      "metadata_requests": {
+        "used": 3,
+        "cap": 4,
+        "failed": 1
+      }
+    },
+    "A": {
+      "last_scientific_pin_actually_received": "a4a46eb18865d3609c445a622f819d24a24f1b82",
+      "files": [
+        "A_PRIOR_EXECUTED_CHECKPOINT.md",
+        "A_PRIOR_AGGREGATE_COMPARISON.md"
+      ],
+      "scope": "Actually received existing completed comparison aggregates; not new same-experiment shortlist or individual forecast/retained model access",
+      "prior_work_preserved": "CMP226 retained actual-line diagnostic rows W1-9; other named W1-7 panels/source strata, Backfield own-selection and negative results remain separate original evidence, not simulator grades",
+      "new_sim_shortlist": "NOT_OBTAINED",
+      "required_prediction_handoff": "Owner shortlist2-3distinct executed methods/category where recoverable; exact output/history/role/fallback/code/origin bindings and compatible saved predictions or permitted owner-local exact case join. Aggregates are not forecast bodies; no inference/refit from this subtask.",
+      "restricted_join_owner": "A remains sole executor of protected joins",
+      "newer_work_limit": "Bounded PR1 discussion/recent PR metadata show no specific SHARED-GAME-SIM publication; this is not a claim current owner-local work is absent or old pin equals HEAD",
+      "metadata_requests": {
+        "used": 4,
+        "cap": 4,
+        "failed": 0
+      }
+    },
+    "B": {
+      "branch_read": "research/independent-audit-20261029",
+      "source_path": "reports/w1w9-comparison-closure-01/B/roster/FROZEN_B_CONTRIBUTION_ROSTER_V1.json",
+      "source_Git_blob_SHA": "02709167d29c5850313ce9d671532475f58257af",
+      "internal_roster_id": "B_W1W9_FROZEN_EXISTING_CONTRIBUTION_ROSTER_v1",
+      "frozen_UTC": "2026-11-14T18:38:32.125423+00:00",
+      "starting_commit_as_recorded": "acd32c8e7e11257a925e1be1242727265d1ad563",
+      "candidates": 59,
+      "categories": 12,
+      "scope": "Actually received old owner-frozen candidate metadata/evidence all12categories; not a new SHARED2-3distinct shortlist, retained forecast/adapter body or independent verification",
+      "new_sim_shortlist": "NOT_OBTAINED",
+      "availability": "Old existing_scoped_evidence and source_binding point to public score summaries; rows/CDF inputs matching the new full website frame are not supplied by this body.",
+      "next_owner_action": "B chooses/acknowledges2-3distinct executed methods/category from retained inventory, deduplicates output siblings, provides exact saved forecast/law/adapter bindings for the canonical frame; independently checks C freeze/results under permitted scope, no duplicate simulator",
+      "old_partial_TabICL": "Preserve fallbackW5-6/learnedW7/unavailableW8-9 and elapsed-wall exception; no additional worker authorized by this metadata intake",
+      "metadata_requests": {
+        "used": 4,
+        "cap": 4,
+        "failed": 1,
+        "failure": "Encoded branch URL rejected by connector as invalid path; no input read or alternate private route"
+      }
+    }
+  },
+  "verification_scope": "Public metadata/body identity and independent disk reopening only. No private-row, fitted-model, historical source-clock, exact new-case output parity or new independent score verification.",
+  "unchanged_owner_boundaries": true,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_scoring": 0,
+  "new_raw_source_GETs": 0,
+  "peer_writes": 0,
+  "request_accounting": {
+    "actual_metadata_attempts": 11,
+    "initial_cap": 12,
+    "per_owner_cap": 4,
+    "failed_attempts_preserved": 2,
+    "no_repeated_poll": true
+  },
+  "next_dispatch": "No messages were sent to existing A/B/website chats or peer repositories. Exact unsent relay messages are provided separately."
+}

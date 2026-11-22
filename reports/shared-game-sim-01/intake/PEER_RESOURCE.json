@@ -1,0 +1,49 @@
+{
+  "task": "SHARED-GAME-SIM-01-PEER-METADATA-INTAKE",
+  "owner": "C reporting only",
+  "conservative_CPU_charge": 6,
+  "initial_reporting_CPU_bound": 6,
+  "measured_final_validation_serialization_CPU": 0.0003967450000000039,
+  "metering_limit": "Bounded conservative6CPU includes schema/preparation/public-metadata parse/retention; tool/network and assistant orchestration not a complete CPU/elapsed certificate. No scientific allowance used/reset.",
+  "metadata_attempts": {
+    "A": 4,
+    "B": 4,
+    "website": 3,
+    "total": 11,
+    "cap": 12,
+    "per_owner_cap": 4
+  },
+  "failed_attempts": 2,
+  "raw_source_GETs": 0,
+  "fits": 0,
+  "inference": 0,
+  "grades": 0,
+  "peer_writes": 0,
+  "protected_data_or_private_locators_retained": false,
+  "files": [
+    {
+      "path": "reports/shared-game-sim-01/intake/PEER_INTAKE.json",
+      "bytes": 8851,
+      "SHA256": "dce5ee0dda9d17800c16ee0c94d04a49918d61db9340499b24ea76c3da25aa23",
+      "independent_reopen": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/intake/PUBLIC_PRIOR_BODY_BINDINGS.json",
+      "bytes": 744,
+      "SHA256": "cb46c9c2b854d5d7b7f5b3a5d479b8ce4176ce259a416b38ba8c8bc4985414bb",
+      "independent_reopen": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/intake/UNSENT_OWNER_HANDOFFS.json",
+      "bytes": 2338,
+      "SHA256": "132e1a39ad081578e6a4437b55ef13895a1e0d704df4bc853a9cc4a33d764a81",
+      "independent_reopen": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/intake/README.md",
+      "bytes": 3130,
+      "SHA256": "8b037ca429630fe715765a013a25c5579fc00c8429be232ecbcd8525f61167c5",
+      "independent_reopen": true
+    }
+  ]
+}

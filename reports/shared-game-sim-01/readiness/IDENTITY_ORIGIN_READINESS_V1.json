@@ -1,0 +1,665 @@
+{
+  "id": "SHARED-GAME-SIM-01-C-IDENTITY-ORIGIN-READINESS",
+  "state": "PARTIAL_READY_BOX_SCORE_RECONSTRUCTED_IDENTITY_USAGE_TEAM",
+  "sources": [
+    {
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "bytes": 1388058,
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226"
+    },
+    {
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21"
+    },
+    {
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2"
+    },
+    {
+      "path": "sources/category-decision-release-01/roster_current_season.json",
+      "bytes": 146524,
+      "SHA256": "0e4674541cfa973484e2ae991941ed9027e413921daef2780c2caf4247de167d"
+    }
+  ],
+  "query_body_SHA256": "42b29687255f642391c971e06ab1a084573efae7cb1f4e329a182f8336cf4e09",
+  "code": {
+    "path": "reports/shared-game-sim-01/readiness/inspect_identity_adapter.py",
+    "bytes": 13790,
+    "SHA256": "3bf7a87cf50079bbfcbaac5ef2360718474c361f22925bb5f7e2ade70adaa9ed"
+  },
+  "rows": 3474,
+  "player_games": 1156,
+  "games": 74,
+  "states": {
+    "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 3402,
+    "UNAVAILABLE_IDENTITY_MISSING": 38,
+    "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 11,
+    "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 23
+  },
+  "supported_rows": 3402,
+  "supported_player_games": 1124,
+  "supported_games": 74,
+  "by_week": {
+    "4": {
+      "rows": 95,
+      "player_games": 34,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 95
+      }
+    },
+    "5": {
+      "rows": 682,
+      "player_games": 224,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 669,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 2,
+        "UNAVAILABLE_IDENTITY_MISSING": 9,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2
+      }
+    },
+    "6": {
+      "rows": 692,
+      "player_games": 232,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 673,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 10,
+        "UNAVAILABLE_IDENTITY_MISSING": 7,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2
+      }
+    },
+    "7": {
+      "rows": 649,
+      "player_games": 215,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 644,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 3
+      }
+    },
+    "8": {
+      "rows": 666,
+      "player_games": 221,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 654,
+        "UNAVAILABLE_IDENTITY_MISSING": 5,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 7
+      }
+    },
+    "9": {
+      "rows": 690,
+      "player_games": 230,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 667,
+        "UNAVAILABLE_IDENTITY_MISSING": 15,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 7,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 1
+      }
+    }
+  },
+  "by_category": {
+    "pass_att": {
+      "rows": 148,
+      "player_games": 148,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 145,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+      }
+    },
+    "pass_cmp": {
+      "rows": 148,
+      "player_games": 148,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 145,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+      }
+    },
+    "pass_int": {
+      "rows": 148,
+      "player_games": 148,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 145,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+      }
+    },
+    "pass_td": {
+      "rows": 148,
+      "player_games": 148,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 145,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+      }
+    },
+    "pass_yd": {
+      "rows": 148,
+      "player_games": 148,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 145,
+        "UNAVAILABLE_IDENTITY_MISSING": 2,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+      }
+    },
+    "rec": {
+      "rows": 922,
+      "player_games": 922,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 904,
+        "UNAVAILABLE_IDENTITY_MISSING": 11,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 5
+      }
+    },
+    "rec_yd": {
+      "rows": 925,
+      "player_games": 925,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 907,
+        "UNAVAILABLE_IDENTITY_MISSING": 10,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 6
+      }
+    },
+    "rush_att": {
+      "rows": 226,
+      "player_games": 226,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 222,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 2,
+        "UNAVAILABLE_IDENTITY_MISSING": 2
+      }
+    },
+    "rush_rec_yd": {
+      "rows": 222,
+      "player_games": 222,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 219,
+        "UNAVAILABLE_IDENTITY_MISSING": 1,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 2
+      }
+    },
+    "rush_yd": {
+      "rows": 439,
+      "player_games": 439,
+      "states": {
+        "READY_RECONSTRUCTED_IDENTITY_USAGE_TEAM": 425,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 8,
+        "UNAVAILABLE_IDENTITY_MISSING": 4,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2
+      }
+    }
+  },
+  "blocked_cells": [
+    {
+      "case_id_SHA256": "f0694713550921879f8f8d222ae8fdbd097f597a83d867bdc2ac088ad9a18391",
+      "week": 9,
+      "category": "pass_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "a24e0ad56ae0e5434177ae21014392b34f21536fe7ecd3496465d910a7fe03aa",
+      "week": 9,
+      "category": "pass_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "16182c7db0668b7c36004e307d756b684d31e64c9145ae73eee8e1ed5ce783b8",
+      "week": 9,
+      "category": "pass_yd",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "885030e8993b780ab354161aa01a8a8c729153a71e0cee667f8049a0b3060a40",
+      "week": 9,
+      "category": "pass_td",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "962c21471396059e87ce365297a5a8d0af2c86265355254ef6cf8b1aa89b3619",
+      "week": 9,
+      "category": "pass_td",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "d8fe20a6773bc9ed8f8cc6f5781d7c62b3a7084d8e19a326e24a9e5f362cb088",
+      "week": 9,
+      "category": "pass_td",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "b7fcca454eed113eecdf60a40bd265009fc906b22d8e30af814a0d9808e9d16b",
+      "week": 9,
+      "category": "pass_cmp",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "91e72d58b4cb69fa84d5879f1bfce8f3b3ea14f5d11cd8ea778b7a01c77ab409",
+      "week": 9,
+      "category": "pass_cmp",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "ea7d88d0349fc81bcd11fe9340828d83e4b2720b772f957e2fad6526a3a4ba76",
+      "week": 9,
+      "category": "pass_cmp",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "b118ae7eff3e10ef73f99aa8092643ec6e182958ccf8db7650d4d32efe16cee3",
+      "week": 9,
+      "category": "pass_att",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "f4ba4cbb98448758e03b188f4041485b6e09ce063b306a70bdd3fae93f664034",
+      "week": 9,
+      "category": "pass_att",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "916393f1e9bd5b255d24c532d19a46228a9b7155e09e441c46fbb6158031731b",
+      "week": 9,
+      "category": "pass_att",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "5c3f030cd2f81fa1959e657ff860ec4574f711831aff30ef6d88acf7ca209832",
+      "week": 9,
+      "category": "pass_int",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "7d9b5a8e1d7bce6e00a7f93ecf0921813744d43a81ad35e25c9d5f75a8612f6e",
+      "week": 9,
+      "category": "pass_int",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "9b535acf61dc49a1a6d0509654a346c46ce2043a696ad1c2c5d37bb36d5777c3",
+      "week": 9,
+      "category": "pass_int",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "ce2a9d2685d7c6cbf8254567755f543047741cc9d21d578f92886c825f63a093",
+      "week": 5,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "71d29b1e424a966b4016735e54cc712af3a3c87bef38b6f9a7e8b6f14f8a6e9c",
+      "week": 6,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "b8a8e7974d1911d4836e5edb1e16225e7288ad3833b4646e8ecbfb7bfbc4bf8e",
+      "week": 6,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "6dddf67c70825b601d490e432640c5965f35a0c20a97a959495b9468727b150d",
+      "week": 6,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "ffa1be577c73ff82d4fa83e5e5ceefcffe046c977a8431b1fb86b2e966a40e9c",
+      "week": 7,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "efa1a8d7f754fb4c827cd7f434b97651ee65f615bd7935ee7e4ba095cf3bceaa",
+      "week": 7,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "1d225276977a5a5231fe0d0aa638684ff0b2ff9e06a68c90f7f16aa57c2064ed",
+      "week": 8,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "ceeda04c3ee501e1c5b46cc52376a8c36c80b2a1c1cd16416f45af3dc3579d98",
+      "week": 8,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "4f32030d3a6493ce2bcc85f1e8118d124330f757d8e99d160baa905c4dee5910",
+      "week": 8,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "0b09421a33a0cada3caea717af2a7e41302860d5047351dd5d21723cd2fad474",
+      "week": 8,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "98b361f9fc3da07d73be2110e6b73db0c10df2070a90c8984af92f5f42c98adb",
+      "week": 9,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "15d518960a2632308f728cc305f15f239428c60822eaeb1b0ee28c1ed8d78976",
+      "week": 9,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "c7ca2f13c43b04188996a5b1e25f76af16b2efb1413d1e614de7289964bf1d5a",
+      "week": 9,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "dc46fc80837f84bc8ec784943a544b0f59ca0a02be4496fa8333177872a3d1d1",
+      "week": 9,
+      "category": "rush_yd",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "d03809652251a4a324a546252f1f9b7aa58a4b99448b8c6362872298c9e8cec6",
+      "week": 5,
+      "category": "rush_att",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "b64040a6e981f0db879b8c6aef35f8df962bbbfa96267e25ea65ee183bf597c9",
+      "week": 6,
+      "category": "rush_att",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "1de6ed2ea5fbbfa07455bd7ac48bd2bac5edb3c81adfd37530c94d7436f1e907",
+      "week": 7,
+      "category": "rush_att",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "391d2ced0602e8724bbbea6027d974c7244ed2350d2cb086d41fe716a0eaa74b",
+      "week": 8,
+      "category": "rush_att",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "050180623844a268081c7d76e8b497909ff3446a3ffa1ccbe2345f4b02224f16",
+      "week": 5,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "47a3a2c52f8918fd7346b1dd1d5d02445f35bc614a8bb5bee4728be5ae776823",
+      "week": 5,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "a7fba2e3bbe69d17bddb0a527459c7d853b8954f091159fc2ce318d93420ce8c",
+      "week": 5,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "ca71ed0b201381913a4de7f742625aa8b8e898ef0e28b9138f9c8feeedbc6614",
+      "week": 5,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "fa28f931681773653380113ba4fb078aa2e84c12be3eeaf701ae37d0a6bf0b21",
+      "week": 5,
+      "category": "rec",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "bbd4b72c7b3b8d405de562be2fe0199b842bcd1a27154e4c713292362a255ae8",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "117ac13433cd85cc2be3b18c8cba6b839c9dfc6a8dfbd2d589e54c8e803c125a",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "8252455e2938400a4a5cb8ab121fdedcebe43f1fce68b595d0cf362da439ee50",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "783592874c2c15bf13f1877bee44765261a584e0a597435a1cea3f207a0d2961",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "d2df130800e77b294d98ab8cd8b8b5b29190a9853b8bcc0b1a65eea7fc364718",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "de8c86340fb32fbb95f293426435258d9cf334001ccc5b0885f2f3ececab2512",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "409a5c9b921f09e2aa97847bce933852b4b06f5b9cf8799faba9074bffb77279",
+      "week": 6,
+      "category": "rec",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "0b7ef341f55a351a1959a8aab03dc8057a72384faa42bdd19ead082ab613a4e4",
+      "week": 7,
+      "category": "rec",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "09557ab474e674725eef931a0558607742fc07d69aa395f3a65f2073564dcc57",
+      "week": 8,
+      "category": "rec",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "fdd3bb2201b10bd3e82751557d50885bf93d2aa65edb8e93c3c884ced8f89c3b",
+      "week": 8,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "97e4cb6464750eb5c76546851bc082f79849b5fceb5229c583dd3ebfd02ee980",
+      "week": 8,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "af2875a4f2446efcc7cc2def0d4fdcc8bba21430ad57758b6b2bc20fee0d7683",
+      "week": 9,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "25f659a481a8da477cbe247971b941afefc1a3c4ef498209fc231fab67176e00",
+      "week": 9,
+      "category": "rec",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "6ac495edd95d4c1844c7166eb4e8a14ed79e0ec4f3445250da44bd70e8e7edf5",
+      "week": 5,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "81a1121b443f656e68c809085f301f06a324b16fe1e5630f7b92acab2e8df32a",
+      "week": 5,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "08d3d9baaba183b840eefcea893d455792c315ef9222fb0b96cb0caf27e83af5",
+      "week": 5,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "d07e46b35d75492660eba786e34580e4885f780189bb133581e93e15a924e993",
+      "week": 5,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "f0b23a49eb4c8522e3346b819a4491f5db3fa37f356222a941b8227dc66b2339",
+      "week": 5,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "ca3e0f83d3442b386d469c2ec98df3eb01dc3ab09e196c8bb22abe9f28d37be6",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "8dc0fbfd3543b757acf555415e12a853c2d7a52ded4426dffb06c232f76880c4",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "3a69327ba05f3da7374092983d0b8aa4b71342f71dfb84be90aec4e1c3d62854",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "2efe65336bd7672c8e9053e534220351bfe66a7d1f58baa96cafaf47691d6cda",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "e734a06fe0a8804d05050739d324d357282913dc3ca685582f65ca26f0377bf3",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "207697410c1b08428879c4bbbc9085feeb985fc0620280d6c7370eafe5418c79",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "efabdfec7213d6e7be2b864dde552893d9799faf269422d294e59f9c54589450",
+      "week": 6,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM"
+    },
+    {
+      "case_id_SHA256": "a623187677f0294b78ab719106c7287e9ea2b6c31978d1860e1038138fb1047d",
+      "week": 7,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "b518324866335e159b3b2adffb507ffb7e360f92ae791e547f91acf26ac6c4b9",
+      "week": 8,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "3b879565edc788025d0105ad32d58b7687e764d6240158ed1b0cb0c361c9284d",
+      "week": 8,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "339a89b4f57ff22eb8bdd2662e5595e2c022833ec1b0e68b33bccbc92580c107",
+      "week": 8,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "0076a54ba8f48000d8d1273621c006f7348851abf24da5d8141094fe919e523e",
+      "week": 9,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "db14d05b1e7c86a30af42267aa3225ed3bcb850e6366ed0ccbf4538fe7521a4e",
+      "week": 9,
+      "category": "rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "18e32cad2c72ef8fe54f44692bfda456650226e71dbee09694203830b6a046ea",
+      "week": 5,
+      "category": "rush_rec_yd",
+      "reason": "UNAVAILABLE_IDENTITY_MISSING"
+    },
+    {
+      "case_id_SHA256": "120e5b68a9283d7c9a8bab2ffcd8d18140c4a486f69609f57ee1aed95d0605c6",
+      "week": 6,
+      "category": "rush_rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    },
+    {
+      "case_id_SHA256": "5583e906f2c8f0c8f63d284549352db82607392f38589858df588a0f1793403a",
+      "week": 8,
+      "category": "rush_rec_yd",
+      "reason": "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME"
+    }
+  ],
+  "adapter_full_metadata_fingerprint": "fed7e42b68034363da7dbc6223a0ee3a68f3fd8044b4bc2b51d04d158316ba92",
+  "prior_pool_summary": {
+    "team_game_pools": 148,
+    "minimum_prior_games": 8,
+    "minimum_members": 48,
+    "maximum_members": 77,
+    "fingerprint": "f061f20a083a7f201941273d64a9c230ae6a7668a07b4941ae2d5f9d96e96123"
+  },
+  "policy": {
+    "identity": "ExactUnicodeNFKDcasefoldalphanumericfullname+exactdeclaredrole; unambiguousGSISonly. No suffix removal/fuzzyalias; currentrosterteam/statusnotused.",
+    "availability": "Strict prior kickoff+7days < ASSUMED target canonical kickoff-90minutes; not observed original data clock.",
+    "team": "Latest admitted PRIOR ordinary statistical-row team must be one scheduled opponent; no target-stat/current-roster-team assignment.",
+    "population": "Prior-stat-row usage pool plus explicit other/unresolved bucket. Not complete roster or actual participation.",
+    "prohibited_query_fields_used": []
+  },
+  "scope_limits": [
+    "Roster/source identity is current-vintage reconstruction, not authenticated origin-time roster or injury status.",
+    "No claim player stayed on team or will participate; trade/return/new-player uncertainty remains.",
+    "The full3474 board must remain declared; unsupported rows are technical unavailability, not losses/intentional abstentions.",
+    "No provider points/lines/savedleans/outcomes are published or consumed by this adapter.",
+    "Canonical website case/settlement and retention admission remain separate."
+  ],
+  "new_fits": 0,
+  "new_forecasts": 0,
+  "new_simulations": 0,
+  "new_grading": 0,
+  "new_network": 0,
+  "CPU_seconds": 1.383026662,
+  "wall_seconds": 1.3832266029999118,
+  "conservative_housekeeping_CPU_charge": 5,
+  "measurement_limit": "Selectedprocess+boundedpreparation;notcompleteassistantorchestrationcertificate",
+  "initial_pass_CPU_seconds": 1.354807328,
+  "total_measured_pass_CPU_seconds": 2.73783399,
+  "packaging_repair": "Private attachment location replaced by CLIargument; full adapter fingerprint unchanged; no source/model/tolerance change.",
+  "prior_code_SHA256": "3ff5775bd86c90dbe0c6f2927d071286328447ff73915faea08ae0da29318f92"
+}

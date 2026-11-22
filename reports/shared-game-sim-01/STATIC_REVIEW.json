@@ -1,0 +1,11 @@
+{
+  "scope": "Separate C read-only static reporting review; not B verification",
+  "reviewer_task": "sim_final_review",
+  "finding": "No necessary static fixes found in missing-child omission, other buckets, no-target completion support, shared credits or execution-state wording",
+  "not_tested": [
+    "runtime physics",
+    "NFL full-context mutation",
+    "scientific inference",
+    "A/B/private-row or fit parity"
+  ]
+}
