@@ -1,0 +1,32 @@
+{
+  "state": "PREPARED_NUMERIC_KERNEL_COMPILE_ONLY;NOT_ADMITTED_NFL_WORKER",
+  "code": {
+    "path": "src/shared_game_sim01_kernel.py",
+    "bytes": 23601,
+    "SHA256": "2462442de87614f9073e9ee577f796b10d4e203c3111a810edc8c4e43d80430e"
+  },
+  "checks": {
+    "AST_parse": "PASS",
+    "py_compile": "PASS",
+    "runtime_import": "NOT_RUN",
+    "sampling_or_synthetic_test": "NOT_RUN",
+    "NFL_input_read": "NOT_RUN",
+    "source_fitter_or_provider_conditioner": "NOT_IMPLEMENTED",
+    "NFL_mutation_law_runtime_validation": "PENDING_AUTHORIZED_CANARY"
+  },
+  "source_data_or_outcome_bodies_read": 0,
+  "fits": 0,
+  "forecast_generations": 0,
+  "trajectories_generated": 0,
+  "new_grades": 0,
+  "network_calls": 0,
+  "conservative_preparatory_CPU_charge": 5,
+  "CPU_cap": 5,
+  "measured_compile_and_receipt_CPU": 0.021803969000000006,
+  "measured_compile_and_receipt_wall": 0.02180383399991115,
+  "metering_limit": "Code authoring/static review/tool orchestration is not an independently measured complete CPU/wall certificate. Five is a conservative bookkeeping bound, not five measured seconds. Root carries once; no old scientific allowance or protected reserve used.",
+  "scope": "Primitive arrays+explicit permit gate; shared Gamma/Poisson/Dirichlet count chain, exclusive conversion, same-event signed gain/TD credits, other buckets, child missingness, stable per-edge child streams, D-P moment probabilities and primitive numeric writer. All runtime physics/source/dependency/controller checks remain to execute before scientific claims.",
+  "prior_compile_code_SHA256": "80db6fd5188b137f611ef7622a1bbdae978ce4214804b26ae31588c945fda172",
+  "static_guard_followup": "Reject same named actor assigned to both teams and require same10000 latent draws for D-P moments; no sampling or source/model run.",
+  "measured_compile_followup_CPU": 0.011225974000000003
+}

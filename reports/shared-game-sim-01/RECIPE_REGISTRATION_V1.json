@@ -1,0 +1,139 @@
+{
+  "id": "C-SHARED-GAME-SP-BOX-v1",
+  "assignment": "SHARED-GAME-SIM-01/AUDITED-v3",
+  "owner": "C / NickNicky19/NFL-forecasting-NGS-C",
+  "state": "DESIGN_REGISTERED_BEFORE_NEW_GRADES;CODE_IMPLEMENTATION_AND_EXECUTION_PENDING",
+  "architecture": "SHARED_GAME_BOX_SCORE;NOT_STATEFUL_PLAY_BY_PLAY",
+  "scope_authorized": true,
+  "allocation": "No usable uncommitted scientific allocation identified; EXECUTION_REQUEST_V1 is requested, not granted. Old task allowances unchanged.",
+  "primary": "S-P provider-assisted; rec probability-law side versus literal W0 adjusted-point strict side on identical supported cases. Provider upstream training/market assistance remains unknown.",
+  "inputs": {
+    "query": "queries/evaluation_cases_ungraded.jsonl SHA25642b29687255f642391c971e06ab1a084573efae7cb1f4e329a182f8336cf4e09",
+    "provider_anchor": "Literal saved_raw_point for point_source=model and finite; otherwise declared saved_adjusted_point fallback, with native/fallback flag. This W1 field rule does not authorize removing production multipliers.",
+    "football": "Actual bodies in readiness/COMPONENT_INPUT_MANIFEST.json; strictly earlier qualified PBP/ordinary/schedule only",
+    "identity": "STRICT_PER_ROW_V2 in readiness/IDENTITY_ORIGIN_READINESS.json; exact row name/role->GSIS and latest admitted PRIOR team, no target stats/current roster team/ACT",
+    "allowlist": [
+      "canonical identity and query role",
+      "opponents/native kickoff and reconstructed cutoff",
+      "provider anchor/native-fallback flag",
+      "earlier opportunity/event/signed-gain counts",
+      "support/age/unknown fields"
+    ],
+    "not_model_inputs": [
+      "line",
+      "book",
+      "saved lean",
+      "target/future outcomes/workload",
+      "eventual participation",
+      "target score/down/field/depth mix",
+      "later injury/weather",
+      "grading-only ZIP bodies"
+    ],
+    "availability": "Prior kickoff+7days < source-native T90. Reconstructed development, not original publication/issue/quote authentication; preserve separate clock contracts.",
+    "training": "Qualified2024-2025 league/role priors, last8 eligible team/player games for rolling summaries; at every2026origin all labels/transforms/priors earlier-only. No target grades tune settings.",
+    "actors": "Mapped query actors plus explicit team other/unassigned actors. Full earlier usage pools determine competition and other mass; unoffered/unresolved mass not suppressed. Usage pool is not full authenticated roster.",
+    "source_state": "Earlier BOX_SCORE layer ready as reconstruction;3287/3474rows on74games, rec873/922.187 unsupported cells unavailable, not abstentions/zeros.",
+    "provider_fields_by_component": {
+      "count_core": [
+        "pass_att",
+        "pass_cmp",
+        "pass_int",
+        "rush_att",
+        "rec"
+      ],
+      "conditional_gain_TD": [
+        "pass_yd",
+        "rush_yd",
+        "rec_yd",
+        "pass_td"
+      ],
+      "combined": "Derived trajectory sum; rawcombined anchor diagnostic only, not a separate contradictory total",
+      "dependency": "Countcore fittedfirst. Conditionalgain/TDblock never feedsbackto altercorecountmeans/distribution. Missinggain/TDqualification blocks only those fields/derivatives, not supportedcountcore; same frozenengine/streams, no renamedfootball-only substitute."
+    },
+    "provider_point_typing": "Used as noisy moment anchors by a modeling assumption. Literal W0/W1 points are not certified expected means/medians or probabilities.",
+    "origins": "Weekly fitted priors use earliest full-schedule week kickoff minus90min; per-game deterministic prior/query summaries use that game native kickoff minus90min and strict prior+7day admission. No fixed weekly list consumes later-in-week information."
+  },
+  "component_laws": {
+    "opportunities": "Shared unit-mean Gamma game frailty G; draw both teams N_t|G~Poisson(G*lambda_t). Earlier fitted Gamma/Poisson priors/team rates; zero opportunities retained.",
+    "events": "Dirichlet-multinomial split of qualified offensive opportunities into official pass attempts/sacks/scrambles/designed rushes/kneels. Source flags must define disjoint classes; no target game script. Sacks/scrambles are not official pass attempts.",
+    "allocation": "Pass attempts split among earlier QB identities+other; destinations among receivers/other target/no-target; partially pooled earlier QB/receiver event rates assign completion/interception/incompletion. Designed runs/scrambles/kneels allocated separately with native role semantics and explicit other. Latent usage-zero is not DNP/injury status.",
+    "constraints": "Per trajectory C<=A; C+INT<=A; rec<=targets; receiver+other receptions=sum completions; player+other carries=sum designed+scramble+kneel; no arbitrary output caps.",
+    "gain_TD": "Sample qualified earlier signed event/gain tuples with declared role/team/passer pooling and sparse backoff. Same completed-catch gains/TDs credit both receiver and passer. Rush gain/TD tied to carry; missing gains not zero; no test-max clipping. Tuple/gain/TD interface qualification is required before those outputs run.",
+    "provider_conditioning": "ONE penalized moment projection: sum_j((m_j(theta)-provider_anchor_j)^2/prior_process_variance_j)+KL(theta||earlier_football_prior). Log/softmax parameters preserve event/count constraints instead of capping conflicting projections. Prior variances from earlier football, explicit one-unit positive variance prior if needed. One initialization/solver/iteration/tolerance must be code-bound before canary; failed solve is technical stop, not retry/tuning. Objective is block-factorized: core count anchors determine count parameters; conditional gain/TD anchors determine child parameters with core held fixed. Both block settings frozen once; one initialization each, no gain-result-driven rec refit.",
+    "combined_events": "rush_rec_yd=sum signed components within trajectory; anytime_td=(rushTD+recTD>=1), excludes passingTD. Exact chart-PPR blocked until all rare component/event/scoring contracts exist; never legacy PPR.",
+    "partial_path": "Record per-component availability before generation; raw shared count/event assignments retained once, child gains reuse same assignments/registered component stream if supported. An unsupported child is explicitly unavailable, never zero or a claimed complete12-target game."
+  },
+  "D_P": {
+    "id": "D-P-MATCHED-COMPONENT-MARGINAL-v1",
+    "state": "SIMPLE_NEW_SAME_INPUT_CONTROL_NOT_EXECUTED;NOT_STRONG_RETAINED_LEARNER_CLAIM",
+    "information": "Exactly the same provider/football inputs and fitted conditional states as S-P",
+    "law": "Conditional count-rate moments over SAME frozen latent draws: m=mean(lambda), v=m+var(lambda), NB moment approximation with Poisson zero-mixing-variance limit/delta-zero at mean0. Signed yards use discretized Normal from compound conditional gain mean/variance, explicit integer bins/push. No second simulator or joint-coherence claim.",
+    "scope": "Tests full marginal shape versus same-input moment approximation, not every direct learner. Retained stronger compatible competitors remain; architecture attribution unresolved where control cannot run.",
+    "typing": "Count mean is expectation; yard location parameter is not automatically exact discretized mean or a numerical-MAE product."
+  },
+  "novelty": "Not4096->10000draws or fixed-marginal copula. Shared opportunity/competing allocation/conversion/event-gain mechanisms and provider conditioning determine individual marginals. Earlier M1/M2/dyad/component/copula losses retained; components reused, not rebranded as new studies.",
+  "generation": {
+    "trajectories_per_game_origin": 10000,
+    "seed": 20261122,
+    "streams": "Independent PCG64 streams from SHA256(recipeID,nativegame,origin,seed); both teams share latent game state",
+    "configuration": "ONE",
+    "batch": "Fixed batches, one game at a time",
+    "reuse": "Same game sample for all actors/categories/lines; valid canary forecasts reused; exact mutation repeat charged verification, not extra independent evidence"
+  },
+  "freezes": {
+    "A_before_generation": [
+      "code/dependency/solver hashes",
+      "recipe/component settings",
+      "actual input/version/clock allowlist",
+      "finite roster/output identities",
+      "seed/update/scoring/selection/decision definitions",
+      "complete cost/durable-retention readiness"
+    ],
+    "A_current": "Design/source/identity/Cshortlist recorded; executable worker/fitted components absent and A/B new shortlists unreceived. No claim full technical freeze/canary readiness.",
+    "B_before_grades": [
+      "actual trajectory/parameter/forecast bytes",
+      "means/medians/intervals/under-push-over frequencies",
+      "availability/native-fallback/other attribution",
+      "frozen own selections",
+      "durable reopen/hash receipt"
+    ],
+    "grading": "Website-admitted canonical case/outcome/scorer plus existing common analysis, no parallel scorer. Unknown/DNP/void/push/played-zero distinct. Website final binding needed before scores, not all preliminary work."
+  },
+  "outputs_and_decisions": {
+    "period": "Full game/ordinary OT mixture through earlier full-game data; no clock/possession/score-transition claim",
+    "participation": "Conditional on declared prop eligibility/appearance contract; usage-zero is not DNP. Canonical contract controls void. No calibrated participation/void probability without qualified model.",
+    "side": "More probable raw over/under side, tie abstains; preserve integer push. Nonpush rescaling is separate. Mean/median strict directions separately scored.",
+    "scores": "Under/equal/over conditional on qualified nonvoid appearance; half-multiclass Brier/raw log loss. Zero-frequency actual event=>infinite loss, no post-result clipping; nonpush reliability separate. Raw frequencies uncalibrated.",
+    "selection": "Broad100% plus50/25/10% category/game-origin caps k=floor(fraction*full eligibleboard), at mostk valid nontied rows ranked by nonpush side probability/stablecaseID. Selected unknowns stay selected. Point-margin comparator ranking separately labeled diagnostic, not probability or websiteTopPicks.",
+    "uncertainty": "Paired game-aware intervals/disagreements plus week-block sensitivity; exposed history/multiple controls/categories descriptive, no fixed precision/favorable stopping. Draws are not NFL observations.",
+    "release": "Existing product-specific >=5compatible-scored-week/source/runtime/admission rules. No new2point/fourpositiveweek/allmetric/futurewait gate. Current product BLOCKED/RESEARCH, no primary promotion."
+  },
+  "fixed_numerical_settings_before_code": {
+    "solver": "scipy.optimize.minimize L-BFGS-B over log/softmax parameters",
+    "initialization": "one earlier-football prior initialization",
+    "max_iterations": 100,
+    "ftol": 1e-10,
+    "gtol": 1e-06,
+    "no_retry_or_relaxed_tolerance": true,
+    "prior_event_exposure": 20,
+    "prior_gain_events": 100,
+    "rolling_games": 8,
+    "pooling": "earlier empirical league/role event rates plus native previous counts; sparse backoff QB-receiver -> role/team -> league, explicit unavailable if no qualified pool; no target labels set shrinkage",
+    "game_frailty": "earlier2024-2025 qualified paired-team exposure moments under nonnegative Gamma mixing parameter; Poisson limit at zero mixing, not an output cap"
+  },
+  "prepared_kernel": {
+    "path": "src/shared_game_sim01_kernel.py",
+    "SHA256": "2462442de87614f9073e9ee577f796b10d4e203c3111a810edc8c4e43d80430e",
+    "stage": "COMPILE_ONLY_GENERATION_KERNEL;NO_SAMPLING",
+    "not_yet_implemented": [
+      "qualified source/component fitter",
+      "provider conditioner",
+      "admitted full execution/budget/retention controller"
+    ],
+    "not_proved": [
+      "NFL mutation invariance",
+      "runtime law/coherence/serialization tests",
+      "scientific accuracy"
+    ]
+  }
+}

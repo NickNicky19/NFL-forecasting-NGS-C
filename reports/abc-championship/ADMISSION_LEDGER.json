@@ -522,5 +522,116 @@
         "SHA256": "5a680c72e820995f009cb84bf3dbc8ba9118846973e84d3ca961f80f783d80bd"
       }
     ]
+  },
+  "shared_game_sim_01": {
+    "id": "SHARED-GAME-SIM-01-AUDITED-v3",
+    "state": "PARTIAL_READY_BOX_SCORE_INPUTS;KERNEL_COMPILE_ONLY;ALLOCATION_REQUESTED;NO_SIMULATOR_GRADES",
+    "report": {
+      "path": "reports/shared-game-sim-01/README.md",
+      "bytes": 12637,
+      "SHA256": "c96c70048839d1a960f564f2a0031a7c1c848eaa0854aaa14045b19921165c28"
+    },
+    "adoption": {
+      "path": "reports/shared-game-sim-01/ADOPTION.json",
+      "bytes": 987,
+      "SHA256": "c73964b7530733d3c5991488ffeb8af993b1a2b427f8f852ef82a162a927d282"
+    },
+    "component_manifest": {
+      "path": "reports/shared-game-sim-01/readiness/COMPONENT_INPUT_MANIFEST.json",
+      "bytes": 20205,
+      "SHA256": "28bafc5b16bee712fd33ca8327a1892bea7c166e5d63732bb87c8c2539b82a82"
+    },
+    "frame": {
+      "path": "reports/shared-game-sim-01/frame/PACKAGE_CONTRACT.json",
+      "bytes": 17193,
+      "SHA256": "7615755520c5c138a7c0ccd10924425676c868e5664f0c9841fa8102e4b24c60"
+    },
+    "identity": {
+      "path": "reports/shared-game-sim-01/readiness/IDENTITY_ORIGIN_READINESS.json",
+      "bytes": 45840,
+      "SHA256": "2766359a62d9c22a2c96c8597c5d9e3adf13a4650ce9e3d1313a7fcf8824a00b"
+    },
+    "C_shortlist": {
+      "path": "reports/shared-game-sim-01/roster/C_SHORTLIST.json",
+      "bytes": 324279,
+      "SHA256": "385d230395c6b04867010bd8e1a17348df2d255fd7f717c940f0f85ec3263786"
+    },
+    "peer_intake": {
+      "path": "reports/shared-game-sim-01/intake/PEER_INTAKE.json",
+      "bytes": 8851,
+      "SHA256": "dce5ee0dda9d17800c16ee0c94d04a49918d61db9340499b24ea76c3da25aa23"
+    },
+    "recipe": {
+      "path": "reports/shared-game-sim-01/RECIPE_REGISTRATION_V1.json",
+      "bytes": 11972,
+      "SHA256": "63a95c8868ec9544a2b6cf5a0a68644f508b89cad38e1167bbac603a1d2fb597"
+    },
+    "kernel": {
+      "path": "src/shared_game_sim01_kernel.py",
+      "bytes": 23601,
+      "SHA256": "2462442de87614f9073e9ee577f796b10d4e203c3111a810edc8c4e43d80430e"
+    },
+    "execution_request": {
+      "path": "reports/shared-game-sim-01/EXECUTION_REQUEST_V1.json",
+      "bytes": 7826,
+      "SHA256": "80d236079d2c8f0a3afd75a8141c30d245e344f64af72d279e86bc537264735f"
+    },
+    "decision_and_confirmation": {
+      "path": "reports/shared-game-sim-01/DECISION_AND_CONFIRMATION_V1.json",
+      "bytes": 5028,
+      "SHA256": "3b091180bc058d87a14e9ca337218d1b00fd9b4fef847f83c578f8f0b028a80c"
+    },
+    "category_JSON": {
+      "path": "reports/shared-game-sim-01/CATEGORY_STATUS.json",
+      "bytes": 14064,
+      "SHA256": "ffd380dd0c2ae5f6e429999b61cb360fd89854e7411464c55d2ddf171f91bbb3"
+    },
+    "category_CSV": {
+      "path": "reports/shared-game-sim-01/CATEGORY_STATUS.csv",
+      "bytes": 5495,
+      "SHA256": "ed737903c2485a4baa7be1480a578fa8e7e188363e067667a9111ddd283b1832"
+    },
+    "week_matrix": {
+      "path": "reports/shared-game-sim-01/WEEK_COVERAGE.csv",
+      "bytes": 663,
+      "SHA256": "5712b9724be8cec1024a38b8c426903940f08871fcfb2b768a9a62638684cfdb"
+    },
+    "method_history_appendix": {
+      "path": "reports/shared-game-sim-01/METHOD_HISTORY_ENTRY.json",
+      "bytes": 2853,
+      "SHA256": "50dd39ed02f766efc8d643e3d0059ece0ed7b22b363b24b40611cc0504f55eee"
+    },
+    "admission": {
+      "path": "reports/shared-game-sim-01/ADMISSION.json",
+      "bytes": 1402,
+      "SHA256": "f7bd99fb13e2158d3818e3b7c7841f622b0945b033689346963def856dd79b88"
+    },
+    "queue": {
+      "path": "reports/shared-game-sim-01/FINITE_QUEUE.json",
+      "bytes": 4360,
+      "SHA256": "b32e77ba9dcf866bf4caf9036675a0515e9f3d50466165c3be7147616209a071"
+    },
+    "reporting_resource": {
+      "path": "reports/shared-game-sim-01/REPORTING_RESOURCE.json",
+      "bytes": 1286,
+      "SHA256": "0a49d7b5fb552094de940855d31c5cf43c8cb0653c10028b46625675af6a2e2a"
+    },
+    "publication_review": {
+      "path": "reports/shared-game-sim-01/PUBLICATION_REVIEW.json",
+      "bytes": 8541,
+      "SHA256": "a0040535400474612e640e6f4d3daef3ffb6746fb19fd0216461b66c97cdf600"
+    },
+    "scope": "No new fit, inference, trajectory, grade or paper capture. Metadata/identity support is not prediction accuracy or native five-week evidence.",
+    "source_state": "Reconstructed box-score path, not authenticated pregame or stateful",
+    "input_identity_support": {
+      "rows": 3287,
+      "total": 3474,
+      "rec": 873,
+      "rec_total": 922,
+      "games": 74
+    },
+    "scientific_allocation": "REQUESTED_NOT_GRANTED",
+    "production_activation": false,
+    "independent_verification": "C static review only; B receipt not claimed"
   }
 }

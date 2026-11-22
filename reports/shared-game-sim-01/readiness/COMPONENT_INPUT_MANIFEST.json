@@ -1,0 +1,694 @@
+{
+  "id": "SHARED-GAME-SIM-01-C-RETAINED-SOURCE-READINESS",
+  "state": "READY_BOX_SCORE_EARLIER_SOURCE_LAYER;FULL_S_P_PATH_NOT_YET_ADMITTED",
+  "no_engine_worker_or_grade": true,
+  "source_rows_are_not_target_features": true,
+  "pbp": [
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "bytes": 479880,
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b",
+      "body_reopened": true,
+      "decoded_bytes": 4773747,
+      "decoded_SHA256": "fb32aff1221e960ee67517b9e83672103aabcbc983cf8beb1eb07cf12089b02f",
+      "fields": [
+        "game_id",
+        "play_id",
+        "season",
+        "season_type",
+        "week",
+        "game_date",
+        "posteam",
+        "defteam",
+        "down",
+        "ydstogo",
+        "yardline_100",
+        "qtr",
+        "game_seconds_remaining",
+        "score_differential",
+        "play_type",
+        "pass_attempt",
+        "rush_attempt",
+        "sack",
+        "qb_dropback",
+        "qb_scramble",
+        "qb_kneel",
+        "qb_spike",
+        "two_point_attempt",
+        "play_deleted",
+        "penalty",
+        "pass_location",
+        "air_yards",
+        "complete_pass",
+        "incomplete_pass",
+        "interception",
+        "receiver_player_id",
+        "passer_player_id",
+        "rusher_player_id",
+        "receiving_yards",
+        "passing_yards",
+        "rushing_yards",
+        "yards_after_catch",
+        "run_location",
+        "run_gap",
+        "first_down_pass",
+        "first_down_rush",
+        "pass_touchdown",
+        "rush_touchdown"
+      ],
+      "rows": 33947,
+      "duplicate_game_play": 0,
+      "week_coverage": {
+        "1": {
+          "rows": 1939,
+          "games": 16
+        },
+        "2": {
+          "rows": 1941,
+          "games": 16
+        },
+        "3": {
+          "rows": 1973,
+          "games": 16
+        },
+        "4": {
+          "rows": 1963,
+          "games": 16
+        },
+        "5": {
+          "rows": 1820,
+          "games": 14
+        },
+        "6": {
+          "rows": 1763,
+          "games": 14
+        },
+        "7": {
+          "rows": 1827,
+          "games": 15
+        },
+        "8": {
+          "rows": 2007,
+          "games": 16
+        },
+        "9": {
+          "rows": 1922,
+          "games": 15
+        },
+        "10": {
+          "rows": 1730,
+          "games": 14
+        },
+        "11": {
+          "rows": 1757,
+          "games": 14
+        },
+        "12": {
+          "rows": 1629,
+          "games": 13
+        },
+        "13": {
+          "rows": 2027,
+          "games": 16
+        },
+        "14": {
+          "rows": 1630,
+          "games": 13
+        },
+        "15": {
+          "rows": 1990,
+          "games": 16
+        },
+        "16": {
+          "rows": 1988,
+          "games": 16
+        },
+        "17": {
+          "rows": 2018,
+          "games": 16
+        },
+        "18": {
+          "rows": 2023,
+          "games": 16
+        }
+      },
+      "all_row_missing": {
+        "posteam": 0,
+        "defteam": 0,
+        "down": 135,
+        "ydstogo": 0,
+        "game_seconds_remaining": 0,
+        "score_differential": 0,
+        "passer_player_id": 14723,
+        "receiver_player_id": 16844,
+        "rusher_player_id": 19224
+      },
+      "eligible_attempts": 17811,
+      "eligible_attempt_missing": {
+        "passer_player_id": 0,
+        "complete_pass": 0,
+        "interception": 0,
+        "sack": 0,
+        "two_point_attempt": 0,
+        "play_deleted": 0,
+        "receiver_player_id": 798,
+        "passing_yards": 6182,
+        "receiving_yards": 6182
+      },
+      "observed_component_labels": {
+        "sack": 1314,
+        "qb_scramble": 1062,
+        "qb_kneel": 405,
+        "pass_touchdown": 809,
+        "rush_touchdown": 511
+      },
+      "information_tier": "EXPLICIT_CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ONLY",
+      "availability": "Prior game kickoff +7days strictly before forecast cutoff; registered assumption, not observed historical publication",
+      "rights": "Existing retained PBP factual subset CC-BY4 attribution; no FTN/NGS requalification or new source access"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "bytes": 604500,
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f",
+      "body_reopened": true,
+      "decoded_bytes": 4702640,
+      "decoded_SHA256": "b025865d00014f2b53b29f73d9e65b043abdbe2969e4afc29547620f6d96e097",
+      "fields": [
+        "game_id",
+        "play_id",
+        "season",
+        "season_type",
+        "week",
+        "game_date",
+        "posteam",
+        "defteam",
+        "down",
+        "ydstogo",
+        "yardline_100",
+        "qtr",
+        "game_seconds_remaining",
+        "score_differential",
+        "play_type",
+        "pass_attempt",
+        "rush_attempt",
+        "sack",
+        "qb_dropback",
+        "qb_scramble",
+        "qb_kneel",
+        "qb_spike",
+        "two_point_attempt",
+        "play_deleted",
+        "penalty",
+        "pass_location",
+        "air_yards",
+        "complete_pass",
+        "incomplete_pass",
+        "interception",
+        "receiver_player_id",
+        "passer_player_id",
+        "rusher_player_id",
+        "receiving_yards",
+        "passing_yards",
+        "rushing_yards",
+        "yards_after_catch",
+        "run_location",
+        "run_gap",
+        "first_down_pass",
+        "first_down_rush",
+        "pass_touchdown",
+        "rush_touchdown"
+      ],
+      "rows": 33455,
+      "duplicate_game_play": 0,
+      "week_coverage": {
+        "1": {
+          "rows": 1951,
+          "games": 16
+        },
+        "2": {
+          "rows": 1979,
+          "games": 16
+        },
+        "3": {
+          "rows": 1955,
+          "games": 16
+        },
+        "4": {
+          "rows": 1969,
+          "games": 16
+        },
+        "5": {
+          "rows": 1732,
+          "games": 14
+        },
+        "6": {
+          "rows": 1806,
+          "games": 15
+        },
+        "7": {
+          "rows": 1886,
+          "games": 15
+        },
+        "8": {
+          "rows": 1559,
+          "games": 13
+        },
+        "9": {
+          "rows": 1737,
+          "games": 14
+        },
+        "10": {
+          "rows": 1749,
+          "games": 14
+        },
+        "11": {
+          "rows": 1851,
+          "games": 15
+        },
+        "12": {
+          "rows": 1760,
+          "games": 14
+        },
+        "13": {
+          "rows": 1986,
+          "games": 16
+        },
+        "14": {
+          "rows": 1746,
+          "games": 14
+        },
+        "15": {
+          "rows": 1935,
+          "games": 16
+        },
+        "16": {
+          "rows": 1994,
+          "games": 16
+        },
+        "17": {
+          "rows": 1936,
+          "games": 16
+        },
+        "18": {
+          "rows": 1924,
+          "games": 16
+        }
+      },
+      "all_row_missing": {
+        "posteam": 0,
+        "defteam": 0,
+        "down": 128,
+        "ydstogo": 0,
+        "game_seconds_remaining": 0,
+        "score_differential": 0,
+        "passer_player_id": 14633,
+        "receiver_player_id": 16756,
+        "rusher_player_id": 18822
+      },
+      "eligible_attempts": 17438,
+      "eligible_attempt_missing": {
+        "passer_player_id": 0,
+        "complete_pass": 0,
+        "interception": 0,
+        "sack": 0,
+        "two_point_attempt": 0,
+        "play_deleted": 0,
+        "receiver_player_id": 829,
+        "passing_yards": 6221,
+        "receiving_yards": 6221
+      },
+      "observed_component_labels": {
+        "sack": 1287,
+        "qb_scramble": 1089,
+        "qb_kneel": 433,
+        "pass_touchdown": 811,
+        "rush_touchdown": 510
+      },
+      "information_tier": "EXPLICIT_CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ONLY",
+      "availability": "Prior game kickoff +7days strictly before forecast cutoff; registered assumption, not observed historical publication",
+      "rights": "Existing retained PBP factual subset CC-BY4 attribution; no FTN/NGS requalification or new source access"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "bytes": 271301,
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e",
+      "body_reopened": true,
+      "decoded_bytes": 2102298,
+      "decoded_SHA256": "15b92b5b4369c234dd959217f9a0910a75c18825d0fd2e698bebd5c9aacc6f83",
+      "fields": [
+        "game_id",
+        "play_id",
+        "season",
+        "season_type",
+        "week",
+        "game_date",
+        "posteam",
+        "defteam",
+        "down",
+        "ydstogo",
+        "yardline_100",
+        "qtr",
+        "game_seconds_remaining",
+        "score_differential",
+        "play_type",
+        "pass_attempt",
+        "rush_attempt",
+        "sack",
+        "qb_dropback",
+        "qb_scramble",
+        "qb_kneel",
+        "qb_spike",
+        "two_point_attempt",
+        "play_deleted",
+        "penalty",
+        "pass_location",
+        "air_yards",
+        "complete_pass",
+        "incomplete_pass",
+        "interception",
+        "receiver_player_id",
+        "passer_player_id",
+        "rusher_player_id",
+        "receiving_yards",
+        "passing_yards",
+        "rushing_yards",
+        "yards_after_catch",
+        "run_location",
+        "run_gap",
+        "first_down_pass",
+        "first_down_rush",
+        "pass_touchdown",
+        "rush_touchdown"
+      ],
+      "rows": 15009,
+      "duplicate_game_play": 0,
+      "week_coverage": {
+        "1": {
+          "rows": 1948,
+          "games": 16
+        },
+        "2": {
+          "rows": 1951,
+          "games": 16
+        },
+        "3": {
+          "rows": 2017,
+          "games": 16
+        },
+        "4": {
+          "rows": 2021,
+          "games": 16
+        },
+        "5": {
+          "rows": 1905,
+          "games": 15
+        },
+        "6": {
+          "rows": 1821,
+          "games": 14
+        },
+        "7": {
+          "rows": 1718,
+          "games": 14
+        },
+        "8": {
+          "rows": 1628,
+          "games": 13
+        }
+      },
+      "all_row_missing": {
+        "posteam": 0,
+        "defteam": 0,
+        "down": 58,
+        "ydstogo": 0,
+        "game_seconds_remaining": 0,
+        "score_differential": 0,
+        "passer_player_id": 6461,
+        "receiver_player_id": 7398,
+        "rusher_player_id": 8548
+      },
+      "eligible_attempts": 7947,
+      "eligible_attempt_missing": {
+        "passer_player_id": 0,
+        "complete_pass": 0,
+        "interception": 0,
+        "sack": 0,
+        "two_point_attempt": 0,
+        "play_deleted": 0,
+        "receiver_player_id": 381,
+        "passing_yards": 2847,
+        "receiving_yards": 2847
+      },
+      "observed_component_labels": {
+        "sack": 553,
+        "qb_scramble": 432,
+        "qb_kneel": 180,
+        "pass_touchdown": 367,
+        "rush_touchdown": 229
+      },
+      "information_tier": "EXPLICIT_CURRENT_VINTAGE_CHRONOLOGICAL_RECONSTRUCTION_ONLY",
+      "availability": "Prior game kickoff +7days strictly before forecast cutoff; registered assumption, not observed historical publication",
+      "rights": "Existing retained PBP factual subset CC-BY4 attribution; no FTN/NGS requalification or new source access"
+    }
+  ],
+  "ordinary": [
+    {
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "bytes": 1388058,
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226",
+      "body_reopened": true,
+      "members_reopened": [
+        "LICENSE-CC-BY-4.0.md",
+        "schedule.csv",
+        "manifest.json",
+        "facts.csv.gz",
+        "ATTRIBUTION.md"
+      ],
+      "facts_decoded_SHA256": "fbeab41570ebf7a4abd2592fd3714f222c7920aec4ab41e477038ddcfc38435f",
+      "fields": [
+        "player_id",
+        "player_display_name",
+        "position",
+        "season",
+        "week",
+        "season_type",
+        "game_id",
+        "team",
+        "opponent_team",
+        "attempts",
+        "carries",
+        "targets",
+        "receptions",
+        "sacks_suffered",
+        "passing_tds",
+        "rushing_tds",
+        "receiving_tds",
+        "passing_2pt_conversions",
+        "rushing_2pt_conversions",
+        "receiving_2pt_conversions",
+        "kickoff_returns",
+        "punt_returns",
+        "special_teams_tds",
+        "passing_interceptions",
+        "rushing_yards",
+        "passing_yards",
+        "receiving_yards",
+        "fumbles_lost_total",
+        "fumble_recovery_tds",
+        "completions"
+      ],
+      "season_rows": {
+        "2022": 17981,
+        "2023": 17806,
+        "2024": 18130,
+        "2025": 18540,
+        "2026": 7447
+      },
+      "season_games": {
+        "2022": 271,
+        "2023": 272,
+        "2024": 272,
+        "2025": 272,
+        "2026": 107
+      },
+      "QB_missing_fields": {
+        "attempts": 0,
+        "completions": 0,
+        "passing_interceptions": 0
+      },
+      "duplicate_player_game": 0,
+      "rights": "Manifest CC-BY4 ordinary numeric facts/stableIDs with attribution; original NGS/EPA/CPoE/headshots and offers excluded",
+      "availability": "Retained revised source; earlier-game +7day reconstruction, not original issue clocks"
+    },
+    {
+      "path": "sources/category-decision-release-01/current_facts_2026.csv.gz",
+      "bytes": 161446,
+      "SHA256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21",
+      "body_reopened": true,
+      "decoded_SHA256": "ed6bcca6c0fc06467fa1fcd1a6e414a17fb82510f944d284414e8735d59f4093",
+      "fields": [
+        "player_id",
+        "player_display_name",
+        "position",
+        "season",
+        "week",
+        "season_type",
+        "game_id",
+        "team",
+        "opponent_team",
+        "attempts",
+        "carries",
+        "targets",
+        "receptions",
+        "sacks_suffered",
+        "passing_tds",
+        "rushing_tds",
+        "receiving_tds",
+        "passing_2pt_conversions",
+        "rushing_2pt_conversions",
+        "receiving_2pt_conversions",
+        "kickoff_returns",
+        "punt_returns",
+        "special_teams_tds",
+        "passing_interceptions",
+        "rushing_yards",
+        "passing_yards",
+        "receiving_yards",
+        "fumbles_lost_total",
+        "fumble_recovery_tds",
+        "completions"
+      ],
+      "week_rows": {
+        "1": 1117,
+        "2": 1106,
+        "3": 1113,
+        "4": 1109,
+        "5": 1056,
+        "6": 981,
+        "7": 958,
+        "8": 980,
+        "9": 1035
+      },
+      "week_games": {
+        "1": 16,
+        "2": 16,
+        "3": 16,
+        "4": 16,
+        "5": 15,
+        "6": 14,
+        "7": 14,
+        "8": 14,
+        "9": 15
+      },
+      "duplicate_player_game": 0,
+      "rights": "Existing ordinary factual source subset; retain attribution and explicit nulls",
+      "availability": "Observed current/revised file, not authenticated row vintages; use only earlier-origin labels under frozen7day policy"
+    }
+  ],
+  "schedule": {
+    "path": "sources/category-decision-release-01/schedule.csv",
+    "bytes": 18432,
+    "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+    "body_reopened": true,
+    "fields": [
+      "game_id",
+      "season",
+      "week",
+      "game_type",
+      "gameday",
+      "gametime",
+      "home_team",
+      "away_team",
+      "home_score",
+      "away_score",
+      "espn"
+    ],
+    "season_week_games": {
+      "2026W1": 16,
+      "2026W2": 16,
+      "2026W3": 16,
+      "2026W4": 16,
+      "2026W5": 15,
+      "2026W6": 14,
+      "2026W7": 14,
+      "2026W8": 14,
+      "2026W9": 15,
+      "2026W10": 14,
+      "2026W11": 13,
+      "2026W12": 16,
+      "2026W13": 14,
+      "2026W14": 15,
+      "2026W15": 16,
+      "2026W16": 16,
+      "2026W17": 16,
+      "2026W18": 16
+    },
+    "target_score_columns": "home_score/away_score strictly grading or earlier-training labels; no target-origin predictor"
+  },
+  "roster": {
+    "path": "sources/category-decision-release-01/roster_current_season.json",
+    "bytes": 146524,
+    "SHA256": "0e4674541cfa973484e2ae991941ed9027e413921daef2780c2caf4247de167d",
+    "body_reopened": true,
+    "rows": 959,
+    "fields": [
+      "full_name",
+      "gsis_id",
+      "position",
+      "season",
+      "status",
+      "team"
+    ],
+    "status": "UNAVAILABLE_AS_AUTHENTICATED_HISTORICAL_ROSTER_OR_INJURY_UNIVERSE",
+    "reason": "Current-season snapshot lacks per-row observation/effective game clocks; no backward ACT/roster inference. Optional if engine explicitly uses prior-usage pool plus unresolved bucket."
+  },
+  "qualified_team_cache": {
+    "path": "reports/information-skill-01/execution-authorization-02/pilot/SOURCE_AGGREGATES.json.gz",
+    "bytes": 467034,
+    "SHA256": "4ddd9f8379662a160de8ade9cb6f7a310c0acb6fd1652248b0ae392440cd7be2",
+    "body_reopened": true,
+    "teams": 1328,
+    "qualified_teams": 1327,
+    "scope": "Existing1327complete/1held all-position attempt-completion-target interface. Reuse qualification, not new model evidence; additional gain/TD/event interfaces still need recipe-specific checks."
+  },
+  "source_training_periods": "Ordinary2022\u20132025 and eligible earlier2026; PBP2024\u20132025+2026W1\u20138. Parent must freeze exact origin/window and inner training before scores.",
+  "usable_development_origins": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "origin_limit": "AllW4\u20139 can use earlier2024\u201325 startup+eligible prior2026; W9 may use only W8 games passing7day rule. No W1\u20133 comparison fabricated; provider/case bindings not inspected by this worker.",
+  "required_external_cells": [
+    "Outcome-free provider query bodies/allowlist and W0/W1 source-model/fallback identity from website frame",
+    "Exact player/game/team/role/cutoff mapping between nativeGSIS prior facts and canonical website cases",
+    "Frozen shared-game box-score component laws/fallback and same-informationD-P; no existing ready shared engine found here",
+    "Complete cost/retention and specific runtime authority before any canary/full worker"
+  ],
+  "component_support": {
+    "team_pace_opportunity": "Earlier team PBP counts and game durations available as reconstructed factual inputs; no trained future pace model executed",
+    "QB_attempt_sack_scramble_kneel": "Native passer/rusher flags and official counts available; maintain distinct exclusions and explicit unknown",
+    "receiver_target_allocation": "Native passer/receiver identities and earlier targets/completions available, qualified aggregate interface retained; route participation/alignment not supplied",
+    "completion_interception": "Eligible-attempt labels/official earlier stats available; compatible multinomial outcomes must be registered, not independent contradictory counts",
+    "signed_yards": "Passing/receiving/rushing play gains retained; no gain law fitted",
+    "coherent_TD": "Pass/rushTD play flags and receiver/rusher IDs plus box labels retained; passTD-receivingTD must share events; unresolved IDs need bucket",
+    "compound_yards": "Can derive from future trajectory components once law exists; no independent sum-of-medians",
+    "anytime_td": "Derive rushing-or-receivingTD event only if TD mechanism exists; no passingTD inclusion or invented Under offer",
+    "nick_chart_ppr_v1": "Exact chart-component/scoring admission required separately; ordinary 2pt/fumbles/returnTD labels exist but no full simulator event recipe established"
+  },
+  "not_ready_stateful": "Raw state fields exist but no verified possession/clock/down-distance/field/score transition engine or complete duration/state training interface registered. Do not label box-score engine play-by-play.",
+  "resource": {
+    "measured_CPU": 1.766927028,
+    "measured_wall": 1.8136884899999757,
+    "conservative_total_charge_CPU": 6,
+    "cap_CPU": 6,
+    "known_limits": "Measured one bounded stdlib source pass plus conservative preparation/read/serialization; not full assistant orchestration certificate; no old scientific allowance consumed"
+  },
+  "new_raw_GETs": 0,
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_trajectories": 0,
+  "new_grades": 0
+}

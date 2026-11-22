@@ -1,0 +1,536 @@
+{
+  "schema": "SHARED_GAME_SIM01_AUDITED_V3_STARTER_FRAME_INSPECTION",
+  "scope": "DATA_PACKAGE_METADATA_AND_OUTCOME_FREE_QUERY_ONLY;NO_GRADING_OR_MODEL_EXECUTION",
+  "attachment": {
+    "filename": "1-NFL_Simulator_Comparison_Starter_2026-11-21.zip",
+    "bytes": 915706,
+    "SHA256": "afcd4cfc52685657f969a80651831b075f9351ef298dda0a0553791f7444b365",
+    "entries": 29,
+    "expanded_bytes": 9088315
+  },
+  "source_revision_asserted": "f15790bc1396e532eb0f6991f8e05dbf6a66fb2d",
+  "source_binding_revision_check": "PASS_ALL_INCLUDED_BINDINGS_AND_QUERY_ROWS;NOT_EXTERNAL_OWNER_FRAME_ADMISSION",
+  "zip_safety": {
+    "traversal_symlinks_encryption": "NONE",
+    "duplicate_members": "NONE",
+    "expanded_bound_bytes": 20971520,
+    "code_executed": false,
+    "files_extracted": false
+  },
+  "files": [
+    {
+      "path": "NFL_Matched_Archive_Comparison_and_Simulation_Test_2026-11-21.txt",
+      "bytes": 30456,
+      "compressed_bytes": 10775,
+      "SHA256": "26b904ae90e99964e0566cf4fa8d307a1dc092564544b2fcdcd70a8353308666",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 4532,
+      "compressed_bytes": 2281,
+      "SHA256": "83e9a9f2e82e8228253f2c2efe181fac4c084ecee54c57300e16483d6a2171b8",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "SHA256SUMS.json",
+      "bytes": 4118,
+      "compressed_bytes": 1657,
+      "SHA256": "1ff8f6318b4feb47e7cf3568e5db0b60f0fa53f1eb16eccf10cf336b55c4a6af",
+      "delivered_sum_match": false,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 5654,
+      "compressed_bytes": 819,
+      "SHA256": "8ad359fcbb8684dedf1d22ccc0a2816fad0013d1e1a077d3b14d601a3d1f4e10",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/archives/2026_w04.json",
+      "bytes": 359712,
+      "compressed_bytes": 36706,
+      "SHA256": "5382b1c4c28cdd8e63c4dd9d24196bcde9966bb3f6ebb3406a6dcb535de37adc",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/archives/2026_w05.json",
+      "bytes": 356090,
+      "compressed_bytes": 36074,
+      "SHA256": "96617f0c87b027427e5cef574f5e11a0cdd652832fcc8d860e1d18729a0caaf8",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/archives/2026_w06.json",
+      "bytes": 349157,
+      "compressed_bytes": 34931,
+      "SHA256": "28b6b3fbe5c6f0f976ce86de0653c4271bee9a43e722f7a215773354fa1ddccc",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/archives/2026_w07.json",
+      "bytes": 355242,
+      "compressed_bytes": 35411,
+      "SHA256": "8ea9bb8b4e3d83c14ef4544443be7cc7922d717e086fbba5fb087be69e3efa13",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/archives/2026_w08.json",
+      "bytes": 367526,
+      "compressed_bytes": 36613,
+      "SHA256": "e7993546c2d66e6cb11339c91a983aa1fbb47e3dfad8387c996dbeae1702b98e",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/archives/2026_w09.json",
+      "bytes": 364275,
+      "compressed_bytes": 35897,
+      "SHA256": "4f2e06bab15028d755b2c53cfea7cd0d09114aa3b479368df9e8473a0c1b1118",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/category_results.json",
+      "bytes": 347542,
+      "compressed_bytes": 18894,
+      "SHA256": "b553ab45296d5edd4bbbf404f7356f2a248acd1723944690deb6bc58ee11b4f6",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/category_rows.json",
+      "bytes": 1467841,
+      "compressed_bytes": 103220,
+      "SHA256": "2e901a328b6e25c1ca939df7e646c2491fc6f42463edcb60987f8514ad701334",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/category_uncertainty.json",
+      "bytes": 2538,
+      "compressed_bytes": 750,
+      "SHA256": "ea8d4752c4652a10a0cd57c9cc720b5092ac040d27d40c5342c6e0bde7fe9815",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/compare_categories.py",
+      "bytes": 8335,
+      "compressed_bytes": 3135,
+      "SHA256": "25e7f8639f281699712c6480b2e4a74435a5030aee4f8821c7434b332fe90a3b",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/compare_receptions.py",
+      "bytes": 7510,
+      "compressed_bytes": 2725,
+      "SHA256": "8c6f105cc267f1d60e441de82bdb62824932ef7310900477d29ef3ad5d1744f7",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/input_manifest.json",
+      "bytes": 3143,
+      "compressed_bytes": 1280,
+      "SHA256": "bb1a4256fdd85577345d9aaedf41fdb61f7b3d835afe46865242bb9bcdd20763",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/output/data/track_record.json",
+      "bytes": 63490,
+      "compressed_bytes": 8178,
+      "SHA256": "df1956e53cac787848a3d553dcf92c71f38e7da447a1fa213ae3fe04c9609305",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/pull/gamemodel.py",
+      "bytes": 4265,
+      "compressed_bytes": 1657,
+      "SHA256": "2a2519a12ad4993da02ae6bdcdb6c86f2b5a6554ce93a702b550ecde17fb7d1f",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/pull/grade.py",
+      "bytes": 21253,
+      "compressed_bytes": 6731,
+      "SHA256": "59b1c6b0044c8571f5695b178ede5469b34e6db77c46a75eb98b7780cd184d1e",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/pull/scoring.py",
+      "bytes": 9328,
+      "compressed_bytes": 3256,
+      "SHA256": "90a9d201581b20c4e757912ce7dbf4941a6a90784d721c80367341511c652a2d",
+      "delivered_sum_match": true,
+      "classification": "METADATA_OR_STATIC_CODE_NOT_EXECUTED"
+    },
+    {
+      "path": "comparison/stats/stats_2026_04.json",
+      "bytes": 369710,
+      "compressed_bytes": 20032,
+      "SHA256": "de1e51cab5e1d81f54803f785b70c701334219ad7b1923a7241ca78de4bd9cae",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/stats/stats_2026_05.json",
+      "bytes": 350770,
+      "compressed_bytes": 18932,
+      "SHA256": "75ae4a41192d479c92c34598a43e070ad8abf21d384db5bcec8bb1e53f637636",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/stats/stats_2026_06.json",
+      "bytes": 318567,
+      "compressed_bytes": 17213,
+      "SHA256": "1948ed79a3aac8683c195cadf94e6c67842c51e71d09a187a5fdbe83d7327a47",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/stats/stats_2026_07.json",
+      "bytes": 324724,
+      "compressed_bytes": 17430,
+      "SHA256": "3531de3dc91796c93a69478c0885ea703db7d457a253d43ea0bbc3d078774f16",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/stats/stats_2026_08.json",
+      "bytes": 322754,
+      "compressed_bytes": 17356,
+      "SHA256": "f7c70958b32db6b20cb822215873b9d4c00f7cc9f91af765ba6a12539c1fe50e",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/stats/stats_2026_09.json",
+      "bytes": 352039,
+      "compressed_bytes": 18868,
+      "SHA256": "d90c6300c29189d6d6c81f67893b2ce6947cc0065ea32f4066a50a77a7c8c9af",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "comparison/verified_int_index.json",
+      "bytes": 261991,
+      "compressed_bytes": 28602,
+      "SHA256": "82d82cb0d414dc350b38df2948dccda59b4bb68731c8feaedab6c4dd52067b82",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "grading_only/outcomes.jsonl",
+      "bytes": 601311,
+      "compressed_bytes": 147066,
+      "SHA256": "4635847b639e64a63e3ae805e67be448ff6a1dfd1851aee66419471460656a52",
+      "delivered_sum_match": true,
+      "classification": "GRADING_QUARANTINE"
+    },
+    {
+      "path": "queries/evaluation_cases_ungraded.jsonl",
+      "bytes": 2054442,
+      "compressed_bytes": 245137,
+      "SHA256": "42b29687255f642391c971e06ab1a084573efae7cb1f4e329a182f8336cf4e09",
+      "delivered_sum_match": true,
+      "classification": "FORECAST_QUERY"
+    }
+  ],
+  "delivered_manifest": {
+    "entries": 28,
+    "verified": 28,
+    "self_hash": "SHA256SUMS.jsonnotselfincluded;actualbodyhashretainedinfiles"
+  },
+  "archive_original_byte_parity": [
+    {
+      "local_path": "comparison/archives/2026_w04.json",
+      "original_source_SHA256": "05029ddae8aa7da3ce05a640c6fd96ee6eab7fd008ceed08487818ac70e67802",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    },
+    {
+      "local_path": "comparison/archives/2026_w05.json",
+      "original_source_SHA256": "6eaa1900be68bec5b274e7da96d91d6969d7113e5e3c99a50e8efb86ce76e6a7",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    },
+    {
+      "local_path": "comparison/archives/2026_w06.json",
+      "original_source_SHA256": "5cdc487f196801b7f087d8e4dc3a9def18f95d0bec2140dfe37db96c76f5bda1",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    },
+    {
+      "local_path": "comparison/archives/2026_w07.json",
+      "original_source_SHA256": "a4c409ebaeca593ad2d63093129109fded281a3c9323358f0e9c87f328be8a2f",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    },
+    {
+      "local_path": "comparison/archives/2026_w08.json",
+      "original_source_SHA256": "41a46ce4262e5193d534ac155c16d847bf6d7ff017e07be7ea2ee72c2c5623b4",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    },
+    {
+      "local_path": "comparison/archives/2026_w09.json",
+      "original_source_SHA256": "e6c2c7a9a7fb215eb7f7c5fbc8213f5bd4e83f1581ee61bae398b0bca6e06a60",
+      "terminal_LF_removal_parity": "PASS_EXACTLY_ONE_BYTE",
+      "external_source_readback": "NOT_PERFORMED"
+    }
+  ],
+  "query": {
+    "path": "queries/evaluation_cases_ungraded.jsonl",
+    "bytes": 2054442,
+    "SHA256": "42b29687255f642391c971e06ab1a084573efae7cb1f4e329a182f8336cf4e09",
+    "row_count": 3474,
+    "unique_case_ids": 3474,
+    "unique_games": 74,
+    "unique_player_games": 1156,
+    "unique_player_game_category": 3474,
+    "weeks": {
+      "4": 95,
+      "5": 682,
+      "6": 692,
+      "7": 649,
+      "8": 666,
+      "9": 690
+    },
+    "games_by_week": {
+      "4": 2,
+      "5": 15,
+      "6": 14,
+      "7": 14,
+      "8": 14,
+      "9": 15
+    },
+    "categories": {
+      "pass_yd": 148,
+      "pass_td": 148,
+      "pass_cmp": 148,
+      "pass_att": 148,
+      "pass_int": 148,
+      "rush_yd": 439,
+      "rush_att": 226,
+      "rec": 922,
+      "rec_yd": 925,
+      "rush_rec_yd": 222
+    },
+    "venues": {
+      "dk": 3368,
+      "sleeper": 106
+    },
+    "point_sources": {
+      "model": 3468,
+      "average": 6
+    },
+    "positions": {
+      "QB": 886,
+      "RB": 1166,
+      "WR": 948,
+      "TE": 474
+    },
+    "fields": [
+      "case_id",
+      "category",
+      "forecast_issuance_authentication",
+      "game_id",
+      "line",
+      "name",
+      "player_id",
+      "point_source",
+      "position",
+      "provider_first_point",
+      "quote_clock_authentication",
+      "saved_adjusted_point",
+      "saved_lean",
+      "saved_raw_point",
+      "scope",
+      "season",
+      "source_revision",
+      "venue",
+      "week"
+    ],
+    "field_types": {
+      "case_id": {
+        "str": 3474
+      },
+      "category": {
+        "str": 3474
+      },
+      "forecast_issuance_authentication": {
+        "str": 3474
+      },
+      "game_id": {
+        "str": 3474
+      },
+      "line": {
+        "float": 3474
+      },
+      "name": {
+        "str": 3474
+      },
+      "player_id": {
+        "str": 3474
+      },
+      "point_source": {
+        "str": 3474
+      },
+      "position": {
+        "str": 3474
+      },
+      "provider_first_point": {
+        "float": 3474
+      },
+      "quote_clock_authentication": {
+        "str": 3474
+      },
+      "saved_adjusted_point": {
+        "float": 3474
+      },
+      "saved_lean": {
+        "str": 2255,
+        "NoneType": 1219
+      },
+      "saved_raw_point": {
+        "float": 3468,
+        "NoneType": 6
+      },
+      "scope": {
+        "str": 3474
+      },
+      "season": {
+        "int": 3474
+      },
+      "source_revision": {
+        "str": 3474
+      },
+      "venue": {
+        "str": 3474
+      },
+      "week": {
+        "int": 3474
+      }
+    },
+    "null_counts": {
+      "case_id": 0,
+      "category": 0,
+      "forecast_issuance_authentication": 0,
+      "game_id": 0,
+      "line": 0,
+      "name": 0,
+      "player_id": 0,
+      "point_source": 0,
+      "position": 0,
+      "provider_first_point": 0,
+      "quote_clock_authentication": 0,
+      "saved_adjusted_point": 0,
+      "saved_lean": 1219,
+      "saved_raw_point": 6,
+      "scope": 0,
+      "season": 0,
+      "source_revision": 0,
+      "venue": 0,
+      "week": 0
+    },
+    "clock_states": {
+      "forecast": {
+        "UNVERIFIED_IN_THIS_ANALYSIS": 3474
+      },
+      "quote": {
+        "UNVERIFIED_IN_THIS_ANALYSIS": 3474
+      }
+    },
+    "provider_fallback_by_category": {
+      "rec": 3,
+      "rec_yd": 3
+    },
+    "W1_point_rule_parity": "PASS_ALL3474",
+    "W0_W1_point_equalities": {
+      "W0": 15,
+      "W1": 12
+    },
+    "local_reopening": "PASS_SAME_QUERY_BODY_READ_TWICE",
+    "durable_forecast_body_retention": "NOT_CLAIMED;uploadedattachmentlocallyreopenable;parentmustqualifydurableroutebeforegeneration"
+  },
+  "grading_separation": {
+    "target_bodies_hashed_only": true,
+    "target_JSON_or_JSONL_parsed": false,
+    "target_stats_loaded": false,
+    "category_results_inspected": false,
+    "sixty_cell_replay": "USER_AND_PACKAGE_REPORTED_COMPLETED;NOT_REPEATED",
+    "unknown_outcomes": {
+      "count": 464,
+      "status": "USER_AND_PACKAGE_REPORTED;NOT_INDEPENDENTLY_REPARSED_HERE"
+    },
+    "no_new_grade": true
+  },
+  "benchmarks": {
+    "W0": "Literal saved_adjusted_point (saved adj), no changed multiplier recipe",
+    "W1": "Literal saved_raw_point (saved proj) only when point_source==model and finite; otherwise saved_adjusted_point fallback; provider_first_point parity verified",
+    "strict_point_side": "over iff point>line; under iff point<line; equality/nonfinite abstain",
+    "saved_lean": "Existing margin-based stored side, separate from strict crossing;1219nullsavedleansarenotforecastunavailability",
+    "no_point_derived_probability": true
+  },
+  "field_allowlist_guidance": {
+    "identity": [
+      "case_id",
+      "season",
+      "week",
+      "game_id",
+      "player_id",
+      "category",
+      "position",
+      "venue"
+    ],
+    "primary_provider_inputs": "Conditional model-finite saved_raw_point; explicitly declared pregame fallback for6missingproviderpoints; provider_first_point is a W1 product, not pureproviderforallrows",
+    "benchmark_only": [
+      "saved_adjusted_point",
+      "saved_lean"
+    ],
+    "tail_query_not_outcome_distribution_feature": [
+      "line"
+    ],
+    "metadata_only": [
+      "source_revision",
+      "forecast_issuance_authentication",
+      "quote_clock_authentication",
+      "scope"
+    ]
+  },
+  "missing_inside_starter": [
+    "canonicalNFLgame/GSISplayeridentityadapter",
+    "team/opponent/eventkickoff/origincutoff",
+    "completeevent-effectiveteammateuniverse",
+    "pace/teamvolume/role/eventtrainingbodies",
+    "participant/void contract beyond suppliedquery fields",
+    "offeredside/period/settlementversion and ordinary/alternate classification"
+  ],
+  "engine_readiness": "FRAME_QUERY_PRESENT;ENGINE_SOURCE_READINESS_NOT_DETERMINED_BY_THIS_FRAME_TASK",
+  "evidence_tier": "EXPOSED_W4_W9_RETAINED_ACTUAL_LINE_DEVELOPMENT;ALL3474ISSUE_AND_QUOTECLOCKSUNVERIFIED",
+  "missing_categories": [
+    "anytime_td",
+    "nick-chart-ppr-v1"
+  ],
+  "publication_scope": "Metadataandaggregatesonly;rawattachment/query/labelsnotcommittedorredistributionrightsassumed",
+  "new_fits": 0,
+  "new_inference": 0,
+  "new_simulation_trajectories": 0,
+  "new_grading": 0,
+  "new_network": 0
+}
