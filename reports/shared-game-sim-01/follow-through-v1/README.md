@@ -78,3 +78,5 @@ The full residual cannot be honestly certified before a valid canary. This reque
 - [B/website handoff](OWNER_HANDOFF_V1.json) is published/prepared, not proof of peer receipt or dispatch. Protected A joins remain A-owned; no request to reopen its closed task. [Finite owner queue](FINITE_QUEUE.json).
 
 All original frozen C predictions/grades/failures remain unchanged. Neither C independent arithmetic nor A/B public aggregate agreement establishes private-fit parity. C1/opportunity strict reproduction failures remain FAILED in their original scope. All new comparisons remain exposed historical development evidence; no new current forecast, prospective capture, CountA feed, TopPicks replay, website deployment or served verification is claimed.
+
+Later [original-launch wall observation](ORIGINAL_LAUNCH_WALL_OBSERVATION.json) records elapsed publication/orchestration beyond the earlier request snapshot. It does not reset consumed time or certify retrospective compliance; no numerical restart occurred.
