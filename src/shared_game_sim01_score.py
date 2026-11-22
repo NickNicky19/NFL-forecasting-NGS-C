@@ -32,16 +32,19 @@ def sample_column(game,team,player,field):
   if k not in game.arrays:return None,None,None
   return game.arrays[k][:,col],game.dp_moments.get(k),col
  return None,None,None
-def predictions():
+def predictions(*, adaptation_only=False):
  # The actual remote-restored raw forecast shard identities must already be
  # frozen before any grade/outcome row is opened.
- freeze=json.loads((D/'FREEZE_B.json').read_text())
- if freeze['state']!='FORECAST_BYTES_DURABLY_REOPENED_BEFORE_GRADES':raise ValueError('FORECAST_FREEZE_NOT_READY')
+ if not adaptation_only:
+  freeze=json.loads((D/'FREEZE_B.json').read_text())
+  if freeze['state'] not in ('FORECAST_BYTES_DURABLY_REOPENED_BEFORE_GRADES','SAVED_CONTROL_FORECAST_BYTES_FROZEN_SIM_UNAVAILABLE'):raise ValueError('FORECAST_FREEZE_NOT_READY')
  cases=readl(PRIVATE/'views/comparison_inputs/cases.jsonl')
  bench={r['case_id']:r for r in readl(PRIVATE/'views/comparison_inputs/benchmarks.jsonl')}
  ident=json.loads((PRIVATE/'identity_rows.json').read_text());imap={r['case_id']:r for r in ident}
  rawplayers=json.loads((PRIVATE/'mapped_players.json').read_text());pgmap={r['player_game_key']:r for r in rawplayers}
- index=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text());gmap={r['native_game_id']:r for r in index}
+ index=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text()) if (D/'GAME_EXECUTION_INDEX.json').exists() else []
+ gmap={r['native_game_id']:r for r in index}
+ failed={p.name[len('STOP_'):-len('.json')] for p in D.glob('STOP_*.json')}
  out={m:[] for m in ('S-P::LAW','S-P::MEAN_POINT','S-P::MEDIAN_POINT','D-P::LAW','W0','W1','ALWAYS_OVER','ALWAYS_UNDER')}
  bygame=defaultdict(list)
  for c in cases:bygame[imap[c['case_id']].get('canonical_game_id')].append(c)
@@ -54,7 +57,7 @@ def predictions():
    reason=None;x=None;dp=None;col=None
    if not r['status'].startswith('READY_') or not p['identity_available']:reason='UNAVAILABLE_CANONICAL_IDENTITY'
    elif p['provider_missing'].get(field,True):reason='UNAVAILABLE_PROVIDER_RAW'
-   elif kept is None:reason='GAME_NOT_EXECUTED'
+   elif kept is None:reason='PROVIDER_CONDITIONING_FAILED_NO_RETRY' if gid in failed else 'NOT_RUN_CANARY_GATE_BLOCKED'
    else:
     x,dp,col=sample_column(kept,canonical_team(q['team']),r['canonical_player_id'],field)
     if x is None:reason='UNAVAILABLE_QUALIFIED_COMPONENT'
@@ -81,8 +84,13 @@ def predictions():
  save(D/'PREDICTION_ADAPTER_RECEIPT.json',dict(methods=list(out),full_case_count=len(cases),scope='Saved point/law and generated output adapters only, no outcomes read here',source_clock='Unverified historical issuance/quotes retained',case_rows_public=False))
  return cases,out
 def score():
- from shared_game_sim01_metrics import evaluate,build_raw_grades
- cases,preds=predictions();outcomes=readl(PRIVATE/'views/grading_only/outcomes.v1.jsonl')
+ from shared_game_sim01_metrics import evaluate,build_raw_grades,saved_control_pairs
+ freeze=json.loads((D/'FREEZE_B.json').read_text())
+ if freeze['state'] not in ('FORECAST_BYTES_DURABLY_REOPENED_BEFORE_GRADES','SAVED_CONTROL_FORECAST_BYTES_FROZEN_SIM_UNAVAILABLE'):raise ValueError('FORECAST_FREEZE_NOT_READY')
+ pbody=(PRIVATE/'typed_all_predictions.json').read_bytes()
+ if hashlib.sha256(pbody).hexdigest()!=freeze['typed_forecasts_SHA256']:raise ValueError('FROZEN_PREDICTION_BYTES_CHANGED')
+ cases=readl(PRIVATE/'views/comparison_inputs/cases.jsonl');preds=json.loads(pbody)
+ outcomes=readl(PRIVATE/'views/grading_only/outcomes.v1.jsonl')
  assert len(cases)==len(outcomes)==3474 and sum(r['actual'] is None for r in outcomes)==464
  # Durable private raw grades first, before summaries or selective views.
  raw=build_raw_grades(cases,outcomes,preds)
@@ -90,6 +98,7 @@ def score():
  assert gzip.decompress(p.read_bytes())==body
  save(D/'RAW_GRADE_PERSISTENCE.json',dict(rows=len(raw),uncompressed_bytes=len(body),compressed_bytes=p.stat().st_size,SHA256=hashlib.sha256(p.read_bytes()).hexdigest(),scope='Private grades retain exact canonical cases/outcomes/versions; original source untouched; no public raw publication',before_selective_summaries=True))
  result=evaluate(cases,outcomes,preds,raw_grades=json.loads(gzip.decompress(p.read_bytes())))
+ result['saved_control_vs_website']=saved_control_pairs(raw,result['own_selection_policies'])
  result.pop('raw_grades',None)
  # Lists identify offered cases and stay in the approved private reconstruction
  # route; published summaries are counts/metrics/paired aggregates only.
@@ -101,4 +110,6 @@ def score():
  result=public_view(result)
  save(D/'COMPARISON_RESULTS.json',result)
  print('NEW_CANONICAL_COMPARISON_COMPLETE',len(preds),len(raw))
-if __name__=='__main__':score()
+if __name__=='__main__':
+ a=argparse.ArgumentParser();a.add_argument('stage',choices=['adapt','score']);v=a.parse_args()
+ predictions(adaptation_only=True) if v.stage=='adapt' else score()

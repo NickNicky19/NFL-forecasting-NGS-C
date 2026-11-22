@@ -96,7 +96,8 @@ def build_raw_grades(cases, outcomes, predictions):
                 available=available, unavailable_reason=pred.get('unavailable_reason'),
                 point=point if available else None, probabilities=probabilities,
                 native=pred.get('native'), fallback=bool(pred.get('fallback', False)),
-                source_binding=pred.get('source_binding')))
+                source_binding=pred.get('source_binding'),
+                correctness_hold=pred.get('correctness_hold')))
     return raw
 
 
@@ -287,3 +288,28 @@ def evaluate(cases, outcomes, predictions, *, primary_method='S-P::LAW', raw_gra
         numerical_probability_direction_selection='Separate products; no automatic primary admission',
         actual_weeks=sorted({(r['season'],r['week']) for r in raw}),
         full_case_count=len(cases), full_unknown_outcomes=sum(r['actual'] is None for r in outcomes))
+
+
+def saved_control_pairs(raw_grades, selection_policies):
+    """Named companion diagnostics; primary simulator contrast stays unchanged."""
+    groups = defaultdict(list)
+    for r in raw_grades:groups[r['method'],r['category']].append(r)
+    comparisons=[];selected_pairs=[]
+    lists={(x['method'],x['category'],x['fraction']):x['case_ids'] for x in selection_policies}
+    for (method,category),rows in sorted(groups.items()):
+        if not method.startswith('C-') and not method.startswith('C::'):continue
+        for control in ('W0','W1','ALWAYS_OVER','ALWAYS_UNDER'):
+            reference=groups.get((control,category),[])
+            for week in [None]+sorted({r['week'] for r in rows}):
+                a=rows if week is None else [r for r in rows if r['week']==week]
+                b=reference if week is None else [r for r in reference if r['week']==week]
+                comparisons.append(dict(candidate=method,control=control,category=category,week='ALL' if week is None else week,**_pair(a,b)))
+            if control not in ('W0','W1'):continue
+            ra={r['case_id']:r for r in rows};rb={r['case_id']:r for r in reference}
+            for fraction in FRACTIONS:
+                own=[ra[k] for k in lists.get((method,category,fraction),[])];ref=[rb[k] for k in lists.get((control,category,fraction),[])]
+                aa=[];bb=[]
+                for origin in sorted({r['game_origin_key'] for r in rows}):
+                    a=[r for r in own if r['game_origin_key']==origin];b=[r for r in ref if r['game_origin_key']==origin];n=min(len(a),len(b));aa+=a[:n];bb+=b[:n]
+                selected_pairs.append(dict(candidate=method,control=control,category=category,fraction=fraction,candidate_own_matched_capacity=_summarize(aa),control_own_matched_capacity=_summarize(bb),same_candidate_selected_directions=_pair(own,[rb[r['case_id']] for r in own]),scope='Companion diagnostic; own lists versus same-selected cases are distinct; point-gap lists not probability or TopPicks'))
+    return dict(paired=comparisons,selection_pairs=selected_pairs)

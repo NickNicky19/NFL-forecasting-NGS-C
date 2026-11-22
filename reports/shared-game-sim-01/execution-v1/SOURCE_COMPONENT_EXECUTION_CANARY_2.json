@@ -1,0 +1,60 @@
+{
+  "classification": {
+    "legitimate_two_point_or_deleted_exclusions": 321,
+    "unknown_or_incompatible_catch_gain_TD_tuple": 47,
+    "qualified_team_games": 1327,
+    "held_team_games": 1
+  },
+  "source_bodies": [
+    {
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "bytes": 1388058,
+      "SHA256": "fad26ef554693771d0c5fd404b9deabdaa2413baecd688e58493cdd8cc5dd226"
+    },
+    {
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "bytes": 18432,
+      "SHA256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2"
+    },
+    {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/SOURCE_AGGREGATES.json.gz",
+      "bytes": 467034,
+      "SHA256": "4ddd9f8379662a160de8ade9cb6f7a310c0acb6fd1652248b0ae392440cd7be2"
+    },
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "bytes": 479880,
+      "SHA256": "2e4ce6ad4f0a11bee49c1ecfc4f895e39de0a42566f230b57e00d555afca3a7b"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "bytes": 604500,
+      "SHA256": "27828cc322333bd67602aea6df6a032cfb6c74cee34737bbe8b20fe02590dc8f"
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "bytes": 271301,
+      "SHA256": "36b6f89ea3a17de230d27a3b93c50294cf8febd9d0fd665b14c0eb979fc82e4e"
+    }
+  ],
+  "prior": {
+    "cutoff": 1791154200.0,
+    "opportunity_mean": 61.71113155473781,
+    "opportunity_shape": 447.07319152369234,
+    "frailty_shape": null,
+    "event_probabilities": [
+      0.5249701848539058,
+      0.038729874776386404,
+      0.03205128205128205,
+      0.3917561121049493,
+      0.012492546213476447
+    ],
+    "design_SHA256": "97f3567f2e1f37e1385a354e6bef2c1c65308aee4d2a13fd9cdcc3c1217da7ea",
+    "earlier_team_game_count": 1087,
+    "earlier_play_count": 67080
+  },
+  "source_CPU": 3.043937146,
+  "prior_CPU": 0.12580029500000034,
+  "source_state": "READY_BOX_SCORE_RECONSTRUCTED",
+  "reuse": "Same startup2024/25 prior reused across all origins; per-game earlier8 usage updates"
+}

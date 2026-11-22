@@ -186,6 +186,9 @@ def build_controls(root, case_rows, identity_rows):
                     b = row_bindings[id(row)]
                     r['source_binding'] = dict(path=b['path'], SHA256=b['SHA256'])
                     r['fallback'] = row.get('fallback')
+                    learned = row.get('learned')
+                    r['native'] = (learned if isinstance(learned, bool) else
+                                   (not r['fallback'] if isinstance(r['fallback'], bool) else None))
                     line = c['line']
                     if not _finite(line):
                         raise ValueError('INVALID_CANONICAL_LINE')

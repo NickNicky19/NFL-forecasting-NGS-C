@@ -12,8 +12,8 @@
     "source_recovery_reads": 8,
     "output_readbacks": 8
   },
-  "charged_CPU_seconds": 98.63058422299999,
-  "charged_controlled_wall_seconds": 244.73019793200183,
+  "charged_CPU_seconds": 158.00379929599998,
+  "charged_controlled_wall_seconds": 302.11810921100187,
   "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
   "source_recovery_reads": 0,
   "output_readbacks": 0,
@@ -153,6 +153,46 @@
       "wall": 0.0,
       "details": "No solver retry, model setting or outcome selection",
       "UTC": "2026-11-22T18:11:18.579129+00:00"
+    },
+    {
+      "stage": "first_origin_ungraded_canary_continuation_distinct_origins",
+      "CPU": 53.21387612,
+      "wall": 53.068172086999766,
+      "details": {
+        "returncode": -15,
+        "safe_stop": "CPU_SAFE_STOP",
+        "peak_RSS_bytes": 205635584,
+        "threads": 1,
+        "command_SHA256": "6cb130de85ec0b94d96eb6d0c29c833ebaec9bbda336f68b288d56f7e411c3c4"
+      },
+      "UTC": "2026-11-22T18:12:30.909760+00:00"
+    },
+    {
+      "stage": "Saved-output adapter attribution and blocked-simulator reporting",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "No model fits, altered source offers or new selection policy",
+      "UTC": "2026-11-22T18:15:07.208105+00:00"
+    },
+    {
+      "stage": "C_saved_output_join_and_baseline_adapter",
+      "CPU": 4.159338953,
+      "wall": 4.31973919200027,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 345079808,
+        "threads": 1,
+        "command_SHA256": "06fe3a80a118c93f4c0a725ac8243df5fe5accecba0775d7f762cf244164773f"
+      },
+      "UTC": "2026-11-22T18:15:11.571457+00:00"
+    },
+    {
+      "stage": "Saved-control companion comparison view registration",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Frozen before new target grades; no fit/retuning/source collection",
+      "UTC": "2026-11-22T18:18:00.984628+00:00"
     }
   ],
   "metering": "Controller+single worker process CPU; selected prior meters/conservative authoring charges. Assistant/network orchestration not a complete CPU certificate. End-to-end since first scientific launch separately enforced; original prior packages unchanged."
