@@ -538,13 +538,13 @@
     },
     "allocation": {
       "path": "reports/shared-game-sim-01/execution-v1/LEDGER.json",
-      "bytes": 10806,
-      "SHA256": "84b22ac4f7e6fbcf5fe9affd4f7e204d6fc300d643bacb42f2f7d70b22bb9cc3"
+      "bytes": 11115,
+      "SHA256": "56b4c6eb1e15341ea1c14d38db711c2997f5d63877deca44483a82c83a9713d5"
     },
     "execution": {
       "path": "reports/shared-game-sim-01/execution-v1/EXECUTION_STATUS.json",
-      "bytes": 2240,
-      "SHA256": "ab73db1131d74716b97f28e74de2a79bb0f2cfd017d716d942212f56531ebfcc"
+      "bytes": 2499,
+      "SHA256": "3d4da30dceb9be5fe544d22557694fa4df7ec129f0a526a5ce0c7e94ed4b9edf"
     },
     "gate": {
       "path": "reports/shared-game-sim-01/execution-v1/CANARY_REMAINDER_GATE.json",
@@ -628,8 +628,8 @@
     },
     "admission": {
       "path": "reports/shared-game-sim-01/execution-v1/ADMISSION.json",
-      "bytes": 1295,
-      "SHA256": "df1c7ffd82b36b90c16848c8fc133f7369b08d0b41e39d39c191d593b5b5e54a"
+      "bytes": 1529,
+      "SHA256": "70f4b87d54f92e1b376248a91c330f837d2e4dfc4124bbcaf52aa7d6b9436cc2"
     },
     "queue": {
       "path": "reports/shared-game-sim-01/execution-v1/FINITE_QUEUE.json",
@@ -665,6 +665,11 @@
       "path": "reports/shared-game-sim-01/execution-v1/B_VERIFICATION_HANDOFF.json",
       "bytes": 1144,
       "SHA256": "989c996523c29397ad7bc247c412dc53a50303857222c48ab36b2bd687e3e183"
+    },
+    "publication_readback": {
+      "path": "reports/shared-game-sim-01/execution-v1/PUBLICATION_READBACK.json",
+      "bytes": 1055,
+      "SHA256": "bfc4a914926f54a1ea0a9dc6df41f47bfc68ceedc27251806f9550b4d861d0ab"
     }
   }
 }

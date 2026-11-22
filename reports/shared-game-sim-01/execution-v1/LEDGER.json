@@ -16,7 +16,7 @@
   "charged_controlled_wall_seconds": 367.9724998559994,
   "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
   "source_recovery_reads": 0,
-  "output_readbacks": 6,
+  "output_readbacks": 8,
   "baseline_whole_C_bytes": 1291840516,
   "events": [
     {
@@ -304,6 +304,12 @@
         "command_SHA256": "1bdeb97525a6bb723ab8ff81c6185d0f62057f5da972bf353180c5b2c947ab14"
       },
       "UTC": "2026-11-22T18:57:03.598678+00:00"
+    },
+    {
+      "stage": "Readable report and complete machine result remote body restoration",
+      "CPU": 0,
+      "wall": 0,
+      "details": "2 exact output body reads; cumulative8/8 including5preparationmetadata+1FreezeB;no rawsimulatorshardexisted. AuxiliaryGitpush/PRmetadata not artifactretries."
     }
   ],
   "metering": "Controller+single worker process CPU; selected prior meters/conservative authoring charges. Assistant/network orchestration not a complete CPU certificate. End-to-end since first scientific launch separately enforced; original prior packages unchanged."
