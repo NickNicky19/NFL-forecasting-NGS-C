@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse,hashlib,importlib.util,json,sys,zipfile
 from pathlib import Path
 from shared_game_sim01_budget import ROOT,D,save
+from shared_game_sim01_inputs import canonical_team
 
 ZIP_SHA='afcd4cfc52685657f969a80651831b075f9351ef298dda0a0553791f7444b365'
 SP_SHA='b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1'
@@ -40,8 +41,9 @@ def prepare(attachment):
   values={(r['canonical_player_id'],r['team'],r['canonical_game_id'],r['canonical_kickoff_UTC'],r['assumed_model_cutoff_UTC']) for r in ready}
   if len(values)==1:
    gs,team,ng,kick,cut=next(iter(values));q.update(gsis_id=gs,native_game_id=ng,native_kickoff_utc=kick,model_cutoff_utc=cut,identity_available=True)
-   if team!=q['team']:
+   if canonical_team(team)!=canonical_team(q['team']):
     q['identity_available']=False;q['identity_reason']='SOURCE_VS_PRIOR_TEAM_CONFLICT';conflicts+=1
+   elif team!=q['team']:q['identity_reason']='QUALIFIED_EXACT_FRANCHISE_NAMESPACE_ALIAS_LAR_LA'
   else:q.update(identity_available=False,identity_reason='STRICT_V2_BRIDGE_UNAVAILABLE')
   mapped.append(q)
  save(PRIVATE/'mapped_players.json',mapped)

@@ -55,7 +55,9 @@ def build_raw_grades(cases, outcomes, predictions):
         categories = {r.get('category', case_map[r['case_id']]['identity']['category'])
                       for r in supplied}
         if not categories:
-            categories = {r['identity']['category'] for r in cases}
+            # A nominated event/PPR procedure with no matching offered category
+            # must not become an unavailable procedure for ten unrelated props.
+            continue
         for cid, case in case_map.items():
             identity = case['identity']; category = identity['category']
             if category not in categories:
