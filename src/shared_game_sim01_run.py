@@ -75,7 +75,7 @@ def storage_guard():
  ledger=json.loads(LEDGER.read_text());n=footprint();new=n-ledger['baseline_whole_C_bytes']
  if n>LIMITS['whole_C_bytes'] or new>LIMITS['peak_bytes']:raise RuntimeError('STORAGE_PEAK_SAFE_STOP')
  return dict(whole_C_bytes=n,new_simultaneous_bytes=new)
-def game_params(store,prior,game,players):
+def game_params(store,prior,game,players,*,execution=None):
  pp=[p for p in players if p['game_origin_key']==game['game_origin_key'] and p['identity_available']]
  teams=[];meta=[];anchors={};variances={}
  for team in (game['home'],game['away']):
@@ -88,7 +88,7 @@ def game_params(store,prior,game,players):
    if p['team']!=team:continue
    if p['gsis_id'] in anchors[team] and anchors[team][p['gsis_id']]!=p['provider_points']:raise ValueError('DUPLICATE_PLAYER_PROVIDER_CONFLICT')
    anchors[team][p['gsis_id']]=p['provider_points']
- conditioned,record=condition_game(tuple(teams),anchors,variances)
+ conditioned,record=condition_game(tuple(teams),anchors,variances,execution=execution)
  record.update(component_source_metadata=meta,earlier_prior=prior_to_record(prior),
   native_game_id=game['native_game_id'],native_cutoff_utc=game['native_cutoff_utc'],
   archived_schedule_cutoff_utc=game['source_schedule_cutoff_utc'],effective_cutoff_utc=game['model_cutoff_utc'],
@@ -179,9 +179,8 @@ def canary_or_full(stage):
   except BaseException as e:
    save(failure_record_path(game['native_game_id']),dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
    progress(attempt,'FAILED_NO_RETRY')
-   if stage!='canary' and str(e)=='PROVIDER_CONDITIONING_FAILED;NO_RETRY':
-    print('TECHNICAL_UNAVAILABLE_NO_RETRY',game['native_game_id'],flush=True)
-    continue
+   # A first numerical failure stops either worker. Historical continuation
+   # remains in Git only; it is not an executable repair policy.
    raise
  return existing
 def mutation():

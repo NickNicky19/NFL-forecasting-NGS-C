@@ -1,0 +1,106 @@
+{
+  "id": "C-SIM01-NUMERICAL-REPAIR-v1",
+  "limits": {
+    "CPU_seconds": 1800.0,
+    "controlled_wall_seconds": 7200.0,
+    "elapsed_seconds": 21600.0,
+    "canary_CPU_seconds": 180.0,
+    "completion_CPU_reserve": 380.0,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "source_recovery_reads": 8,
+    "output_readbacks": 20,
+    "new_stages": 152,
+    "new_iterations": 76000,
+    "new_evaluations": 152000,
+    "new_games": 74,
+    "generation_calls": 75
+  },
+  "approval_commit": "0f5859c661c0404b02f0914826cf560f1754ed24",
+  "approval": "User expressly approves pinned request once;PR65 remains draft",
+  "charged_CPU_seconds": 282.07319309900004,
+  "charged_controlled_wall_seconds": 385.0219207930012,
+  "canary_CPU_seconds": 60.309410545000006,
+  "source_recovery_reads": 0,
+  "output_readbacks": 8,
+  "baseline_whole_C_bytes": 1291840516,
+  "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+  "deadline_UTC": "2026-11-23T00:05:20.108935+00:00",
+  "counters": {
+    "stages": 0,
+    "iterations": 0,
+    "evaluations": 0,
+    "game_attempts": 0,
+    "generations": 0
+  },
+  "events": [
+    {
+      "stage": "Carry all original task charges ONCE",
+      "CPU_seconds": 260.154994406,
+      "controlled_wall_seconds": 381.0591629320003,
+      "source": {
+        "path": "reports/shared-game-sim-01/follow-through-v1/LEDGER_CARRY_V1.json",
+        "bytes": 3344,
+        "SHA256": "63da9b8ff6e9d61ed3ecf6ccbd7d18b2b19e2fed497246f1f26a29e03172395f"
+      }
+    },
+    {
+      "stage": "Amended implementation/controller/readiness authoring selected conservative carry",
+      "CPU_seconds": 18,
+      "controlled_wall_seconds": 0,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.621646+00:00",
+      "details": "Same40CPUimplementation allowance; selected conservativecharge, notcomplete assistant/toolCPUcertificate; savedmethodtasks excluded"
+    },
+    {
+      "stage": "condition_software",
+      "CPU_seconds": 1.125681922,
+      "controlled_wall_seconds": 1.1274868460022844,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.623132+00:00",
+      "details": "Mocked software only, noNFLnumericalworker"
+    },
+    {
+      "stage": "projection_software",
+      "CPU_seconds": 0.19188517,
+      "controlled_wall_seconds": 0.19140653,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.624756+00:00",
+      "details": "Both pure projectionsoftware testruns; noNFLwork"
+    },
+    {
+      "stage": "Controller mock software contracts",
+      "CPU_seconds": 0.19697466100000002,
+      "controlled_wall_seconds": 0.19672129700120422,
+      "canary": false,
+      "UTC": "2026-11-22T21:39:12.773695+00:00",
+      "details": null
+    },
+    {
+      "stage": "repair_immediate_input_readiness",
+      "CPU_seconds": 1.216176107,
+      "controlled_wall_seconds": 1.2602936129987938,
+      "canary": true,
+      "UTC": "2026-11-22T21:41:23.048873+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 89464832,
+        "threads": 1,
+        "command_SHA256": "3ae3bf678936d4073b35211bccab8d361f556bd0aff1206330d61e0c0552900e",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Preserved retained-game/legacycontroller software checks",
+      "CPU_seconds": 1.187480833,
+      "controlled_wall_seconds": 1.1868495749986323,
+      "canary": false,
+      "UTC": "2026-11-22T21:44:00.957611+00:00",
+      "details": null
+    }
+  ],
+  "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate."
+}

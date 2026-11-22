@@ -19,7 +19,7 @@ from shared_game_sim01_kernel import TeamParameters, GainTupleLaw, _team_check
 
 CORE = ('pass_att', 'pass_cmp', 'pass_int', 'rush_att', 'rec')
 CHILD = ('pass_yd', 'rec_yd', 'rush_yd', 'pass_td')
-SETTINGS = dict(method='L-BFGS-B', maxiter=100, ftol=1e-10, gtol=1e-6,
+SETTINGS = dict(method='L-BFGS-B', maxiter=500, maxfun=1000, ftol=1e-10, gtol=1e-6,
                 initialization='one earlier-prior state', retries=0)
 
 
@@ -123,16 +123,92 @@ def _squared(means, records):
     return float(loss),grad
 
 
-def _solve(objective, x0):
-    if not len(x0):return x0,dict(success=True,status=0,message='NO_FREE_PARAMETERS',nit=0,nfev=0,objective=objective(x0)[0])
-    result=minimize(objective,x0,method=SETTINGS['method'],jac=True,
-        options={k:SETTINGS[k] for k in ('maxiter','ftol','gtol')})
-    record=dict(success=bool(result.success),status=int(result.status),message=str(result.message),
-        nit=int(result.nit),nfev=int(result.nfev),objective=float(result.fun),
-        initial=x0.tolist(),solution=result.x.tolist())
+def _solve(objective, x0, *, stage='UNSPECIFIED_STAGE', execution=None):
+    """One bounded solve, with no objective evaluations for logging.
+
+    ``execution(event)`` is the worker-owned durable logger/aggregate limiter.
+    It is called before a stage/evaluation and at every accepted iteration, so
+    it can refuse work before an aggregate limit is exceeded.  The local hard
+    guards apply independently of SciPy's advisory ``maxfun``/``maxiter``.
+    Production freezes require that worker callback; optionality supports the
+    deterministic software contracts without opening source/model state.
+    """
+    x0=np.asarray(x0,dtype=float)
+    evaluations=iterations=0; cache={};last_evaluated=last_accepted=None
+    initial_objective=None
+    def emit(event, **fields):
+        if execution is not None:
+            execution(dict(event=event,stage=stage,nfev=evaluations,nit=iterations,**fields))
+    def key(x):
+        a=np.ascontiguousarray(x,dtype=float)
+        return a.shape,a.tobytes()
+    def snapshot(x):
+        k=key(x)
+        if k not in cache:raise RuntimeError('ACCEPTED_ITERATE_NOT_IN_COUNTED_OBJECTIVE_CACHE')
+        return cache[k]
+    def counted(x):
+        nonlocal evaluations,last_evaluated,initial_objective
+        if evaluations>=SETTINGS['maxfun']:
+            raise RuntimeError('HARD_OBJECTIVE_EVALUATION_LIMIT;NO_RETRY')
+        # The parent consumes its aggregate count before this actual call.
+        emit('BEFORE_OBJECTIVE',next_nfev=evaluations+1)
+        evaluations+=1
+        value,gradient=objective(x)
+        value=float(value);gradient=np.asarray(gradient,dtype=float)
+        if not math.isfinite(value) or gradient.shape!=np.asarray(x).shape or not np.isfinite(gradient).all():
+            raise FloatingPointError('NONFINITE_OR_INVALID_CONDITION_OBJECTIVE')
+        entry=dict(vector=np.asarray(x,dtype=float).tolist(),objective=value,
+            gradient=gradient.tolist(),gradient_infinity_norm=float(np.max(np.abs(gradient))) if gradient.size else 0.)
+        cache[key(x)]=entry;last_evaluated=entry
+        if initial_objective is None and np.array_equal(x,x0):initial_objective=value
+        return value,gradient
+    def accepted(x):
+        nonlocal iterations,last_accepted
+        if iterations>=SETTINGS['maxiter']:
+            raise RuntimeError('HARD_ACCEPTED_ITERATION_LIMIT;NO_RETRY')
+        entry=snapshot(x)
+        emit('ACCEPTED_ITERATION',next_nit=iterations+1)
+        iterations+=1;last_accepted=entry
+        if iterations%10==0:
+            emit('CHECKPOINT',last_accepted=entry,last_evaluated=last_evaluated,
+                 initial_objective=initial_objective)
+    def record_base():
+        return dict(stage=stage,nit=iterations,nfev=evaluations,initial=x0.tolist(),
+            initial_objective=initial_objective,last_accepted=last_accepted,
+            last_evaluated=last_evaluated,settings=dict(SETTINGS),
+            objective_change=None if initial_objective is None or last_evaluated is None else last_evaluated['objective']-initial_objective,
+            checkpoint_evaluation_policy='COUNTED_CACHE_ONLY;NO_LOGGING_EVALUATIONS')
+    try:
+        emit('STAGE_STARTED',initial=x0.tolist(),settings=dict(SETTINGS),
+            initial_SHA256=hashlib.sha256(np.ascontiguousarray(x0).tobytes()).hexdigest(),
+            optimizer_invocation=int(bool(len(x0))))
+        if not len(x0):
+            value,gradient=counted(x0)
+            record=dict(record_base(),success=True,status=0,message='NO_FREE_PARAMETERS',
+                objective=value,solution=x0.tolist(),final_gradient=gradient.tolist(),
+                gradient_infinity_norm=0.,scipy_nit=0,scipy_nfev=0)
+            emit('TERMINATED',record=record)
+            return x0,record
+        result=minimize(counted,x0,method=SETTINGS['method'],jac=True,callback=accepted,
+            options={k:SETTINGS[k] for k in ('maxiter','maxfun','ftol','gtol')})
+        final=snapshot(result.x)
+        record=dict(record_base(),success=bool(result.success),status=int(result.status),
+            message=str(result.message),objective=float(result.fun),solution=result.x.tolist(),
+            final_gradient=final['gradient'],gradient_infinity_norm=final['gradient_infinity_norm'],
+            scipy_nit=int(result.nit),scipy_nfev=int(result.nfev))
+        emit('TERMINATED',record=record)
+    except BaseException as error:
+        record=dict(record_base(),success=False,status='EXCEPTION',message=str(error),
+            exception_type=type(error).__name__)
+        error.record=record
+        try:emit('EXCEPTION',record=record)
+        except BaseException as logging_error:
+            record['exception_logging_failure']=dict(type=type(logging_error).__name__,message=str(logging_error))
+            raise error from logging_error
+        raise
     if not result.success or not np.isfinite(result.x).all() or not math.isfinite(result.fun):
-        # Caller persists this record and stops; never a retry or forecasting loss.
-        error=RuntimeError('PROVIDER_CONDITIONING_FAILED;NO_RETRY'); error.record=record; raise error
+        # Worker persists this failed termination and stops; never a retry/loss.
+        error=RuntimeError('PROVIDER_CONDITIONING_FAILED;NO_RETRY');error.record=record;raise error
     return result.x,record
 
 
@@ -252,7 +328,7 @@ def _prepare_child(t,anchors,variances):
     return pack,records,missing,{f:available[f].tolist() for f in available}
 
 
-def _joint_stage(packs, stage):
+def _joint_stage(packs, stage, execution=None):
     """One both-team solve of the unchanged separable sum objective."""
     offsets=np.cumsum([0]+[len(p[1]) for p in packs]);x0=np.concatenate([p[1] for p in packs])
     def objective(x):
@@ -260,14 +336,14 @@ def _joint_stage(packs, stage):
         for j,(fun,_,_) in enumerate(packs):
             sl=slice(offsets[j],offsets[j+1]);value,grad=fun(x[sl]);total+=value;gradient[sl]=grad
         return float(total),gradient
-    x,record=_solve(objective,x0)
+    x,record=_solve(objective,x0,stage=stage,execution=execution)
     record.update(stage=stage,team_parameter_offsets=offsets.tolist(),
         component_stage_invocations=1,scipy_minimize_invocations=int(bool(len(x0))),
         jointly_separable_teams=True)
     return tuple(p[2](x[offsets[j]:offsets[j+1]]) for j,p in enumerate(packs)),record
 
 
-def condition_game(teams, anchors, process_variances=None):
+def condition_game(teams, anchors, process_variances=None, *, execution=None):
     """Return conditioned two-team state + complete primitive replay/design record.
 
     ``anchors[team_id][GSIS][category]`` is a finite raw point or explicit None.
@@ -280,9 +356,9 @@ def condition_game(teams, anchors, process_variances=None):
     for t in teams:
         a=anchors.get(t.team_id,{});v=process_variances.get(t.team_id,{})
         core,missing=_targets(t,a,v,CORE);inputs.append((a,v,core,missing));corepacks.append(_prepare_core(t,core))
-    coreteams,corefit=_joint_stage(corepacks,'BOTH_TEAM_COUNT_CORE')
+    coreteams,corefit=_joint_stage(corepacks,'BOTH_TEAM_COUNT_CORE',execution)
     childpreps=[_prepare_child(u,a,v) for u,(a,v,_,_) in zip(coreteams,inputs)]
-    conditioned,childfit=_joint_stage([p[0] for p in childpreps],'BOTH_TEAM_CHILD_CORE_HELD')
+    conditioned,childfit=_joint_stage([p[0] for p in childpreps],'BOTH_TEAM_CHILD_CORE_HELD',execution)
     records=[]
     for t,u,(_,_,core,missing),(_,child,childmissing,available) in zip(teams,conditioned,inputs,childpreps):
         _team_check(u)

@@ -1,0 +1,31 @@
+{
+  "id": "C-SHARED-GAME-SIM01-NUMERICAL-REPAIR-COMPLETION-REQUEST-v1",
+  "state": "APPROVED_ONCE_NOT_NEW_ALLOCATION",
+  "user_pin_commit": "0f5859c661c0404b02f0914826cf560f1754ed24",
+  "request": {
+    "path": "reports/shared-game-sim-01/follow-through-v1/NUMERICAL_REPAIR_AMENDMENT_REQUEST_V1.json",
+    "bytes": 13614,
+    "SHA256": "b0b697d2ae136c19eb288d2b56baed5128c21879bd167d0d11ddd0509d19c7f4"
+  },
+  "limits": {
+    "CPU_seconds": 1800.0,
+    "controlled_wall_seconds": 7200.0,
+    "elapsed_seconds": 21600.0,
+    "canary_CPU_seconds": 180.0,
+    "completion_CPU_reserve": 380.0,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "source_recovery_reads": 8,
+    "output_readbacks": 20,
+    "new_stages": 152,
+    "new_iterations": 76000,
+    "new_evaluations": 152000,
+    "new_games": 74,
+    "generation_calls": 75
+  },
+  "unchanged": "Original objective,parametrization,initialization,information,chronology,tolerances,seed;oldfailure/history/intakeuntouched",
+  "PR65": "KEEP_DRAFT;NO_MERGE_OR_WEBSITE_ACTIVATION",
+  "UTC": "2026-11-22T21:41:01.857079+00:00"
+}
