@@ -1,0 +1,130 @@
+{
+  "id": "C-SIM01-FREEZE-A-v1.1",
+  "UTC": "2026-11-22T18:11:18.577268+00:00",
+  "state": "EXECUTABLE_RECIPE_INPUT_ROSTER_SEED_POLICY_FROZEN_BEFORE_GENERATION",
+  "code": [
+    {
+      "path": "src/shared_game_sim01_budget.py",
+      "bytes": 4898,
+      "SHA256": "a6b130769c43d10431bbf466ccae42843c2950a6ee261e013c761a03fd591fd9"
+    },
+    {
+      "path": "src/shared_game_sim01_condition.py",
+      "bytes": 18065,
+      "SHA256": "128ffa3b2cb9497ad0e84aed03ed937314ef354cb9b5d70ba0be3f90ab3168ff"
+    },
+    {
+      "path": "src/shared_game_sim01_controls.py",
+      "bytes": 9985,
+      "SHA256": "5a9061fa5c5138bdcafca370360120651708b994742981eb812f5596526582b3"
+    },
+    {
+      "path": "src/shared_game_sim01_diagnostics.py",
+      "bytes": 2477,
+      "SHA256": "1a8c0919f5beed5f99663e6f5a415e1a0141b1a49e85abe35e8361c34c19bb11"
+    },
+    {
+      "path": "src/shared_game_sim01_fit.py",
+      "bytes": 26283,
+      "SHA256": "84e5258152300dbe3abf2963f19dba02673029660c0eed1a5cc0e8dbc941689b"
+    },
+    {
+      "path": "src/shared_game_sim01_inputs.py",
+      "bytes": 3459,
+      "SHA256": "920b7c17926deec7216e2e6acc325d69fdc5bd1b79c4a71b51ab1a4481d1423c"
+    },
+    {
+      "path": "src/shared_game_sim01_kernel.py",
+      "bytes": 23601,
+      "SHA256": "2462442de87614f9073e9ee577f796b10d4e203c3111a810edc8c4e43d80430e"
+    },
+    {
+      "path": "src/shared_game_sim01_metrics.py",
+      "bytes": 16021,
+      "SHA256": "c4bbf72ed468fba60d5483b52f096f27e662674832e6e7236cf5c20b2330dbbf"
+    },
+    {
+      "path": "src/shared_game_sim01_prepare.py",
+      "bytes": 4348,
+      "SHA256": "c3259cbfec5c6347ea6be9787e9adb44e4958bd0936835418e21376d12dbdd02"
+    },
+    {
+      "path": "src/shared_game_sim01_retention.py",
+      "bytes": 13745,
+      "SHA256": "0381856af693c599f5a84a282cab9d8f7fd5a73337caed4d9f76118c42a48be6"
+    },
+    {
+      "path": "src/shared_game_sim01_run.py",
+      "bytes": 10947,
+      "SHA256": "6e87eed2c00aaf16a834b13384b17dee14c51a7118d87ffd036d66cc690d2202"
+    },
+    {
+      "path": "src/shared_game_sim01_score.py",
+      "bytes": 7324,
+      "SHA256": "ddf71836c40bd4e28471d9ca896d78600a3c9910f84f804872b19108678bca76"
+    }
+  ],
+  "recipe": {
+    "path": "reports/shared-game-sim-01/RECIPE_REGISTRATION_V1.json",
+    "bytes": 11972,
+    "SHA256": "63a95c8868ec9544a2b6cf5a0a68644f508b89cad38e1167bbac603a1d2fb597"
+  },
+  "integration_overlay": {
+    "path": "reports/shared-game-sim-01/execution-v1/INTEGRATION_FREEZE.json",
+    "bytes": 1564,
+    "SHA256": "de717c1bf388a0918b9fe8e21b06f2e96e864bd7c4b24a5947871ed357529ecf"
+  },
+  "roster": {
+    "path": "reports/shared-game-sim-01/execution-v1/FROZEN_ROSTER.json",
+    "bytes": 1164,
+    "SHA256": "92b23c57164afe307023526d42895af450ad588860dbf6eb24f913cfca836601"
+  },
+  "decision": {
+    "path": "reports/shared-game-sim-01/DECISION_AND_CONFIRMATION_V1.json",
+    "bytes": 5028,
+    "SHA256": "3b091180bc058d87a14e9ca337218d1b00fd9b4fef847f83c578f8f0b028a80c"
+  },
+  "source_manifest": {
+    "path": "reports/shared-game-sim-01/readiness/COMPONENT_INPUT_MANIFEST.json",
+    "bytes": 20205,
+    "SHA256": "28bafc5b16bee712fd33ca8327a1892bea7c166e5d63732bb87c8c2539b82a82"
+  },
+  "actual_private_inputs_reopened": [
+    {
+      "private_role": "mapped_players.json",
+      "bytes": 1028098,
+      "SHA256": "1a098408eb28b581667ae8486be4c951be4299a6589cdb36c303e445b7f829e9"
+    },
+    {
+      "private_role": "identity_rows.json",
+      "bytes": 2503273,
+      "SHA256": "e01dfa51555680772144ed89bd6c26a62c135bb6d3795dae5e0976a81f816d0e"
+    },
+    {
+      "private_role": "views/forecast_worker/players_sp.jsonl",
+      "bytes": 601431,
+      "SHA256": "f93f0ab5ebb55a44fd484918419a322902aaccfeb7776efff0d9bdb2ab0778a9"
+    },
+    {
+      "private_role": "views/forecast_worker/games_sp.jsonl",
+      "bytes": 17949,
+      "SHA256": "65619869fde35d205d42f3c0fb8c8800e6ac07b9c706750af6018333dff841fb"
+    },
+    {
+      "private_role": "views/forecast_worker/manifest.json",
+      "bytes": 905,
+      "SHA256": "b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1"
+    }
+  ],
+  "primary": "S-P::LAW receptions versus literal W0 strict side; other categories exploratory compatible comparisons",
+  "seed": 20261122,
+  "trajectories_per_game_origin": 10000,
+  "canary": "Earliest supported native kickoff/game;60CPU total/6generation included; no quality inspection",
+  "remainder": "Measured conservative2xpergame/maxactors projection plus all scoring/check/retention reserves before continuation",
+  "SP_missing_provider": "Six null actor/category outputs unavailable; adjusted comparator points prohibited",
+  "D_P": "Aggregate conditional moments AND own fitted state persisted/reopened",
+  "first_scientific_fit_or_trajectory": "Startup prior fitted;1failedjointcore;0trajectories;no outcome inspection",
+  "technical_revision": "Failure-report Path joining repaired; failed origins permanently unavailable/no optimizer retry; earliest remaining original origin may qualify same cumulative canary. Exact numerical recipe, solver settings, input allowlist, seeds and target roster unchanged.",
+  "prior_freeze": "V1 preserved at7ef8208; first origin failed before sampling",
+  "failed_origin": "2026_04_DET_CAR"
+}

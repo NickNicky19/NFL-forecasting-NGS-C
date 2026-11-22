@@ -1,0 +1,316 @@
+{
+  "id": "C-SHARED-GAME-SIM01-APPROVED-EXECUTION-v1",
+  "approval": "User follow-through approves request at ebf9a0bbe8411f8dbb80745ec87f1fbcf13a4f82 ONCE",
+  "limits": {
+    "CPU_seconds": 1800.0,
+    "wall_seconds": 7200.0,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "completion_CPU_reserve": 380.0,
+    "source_recovery_reads": 8,
+    "output_readbacks": 8
+  },
+  "charged_CPU_seconds": 227.07979382899998,
+  "charged_controlled_wall_seconds": 367.9724998559994,
+  "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+  "source_recovery_reads": 0,
+  "output_readbacks": 8,
+  "baseline_whole_C_bytes": 1291840516,
+  "events": [
+    {
+      "stage": "Prior preparation carry ONCE",
+      "CPU": 45.0,
+      "wall": 190.0
+    },
+    {
+      "stage": "Published handoff intake",
+      "CPU": 2,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.417888+00:00"
+    },
+    {
+      "stage": "D-P sufficient retention implementation",
+      "CPU": 6,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.418927+00:00"
+    },
+    {
+      "stage": "Provider conditioner implementation",
+      "CPU": 3,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.419967+00:00"
+    },
+    {
+      "stage": "Source fitter implementation",
+      "CPU": 8,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.420955+00:00"
+    },
+    {
+      "stage": "C saved controls adapter",
+      "CPU": 3,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.421650+00:00"
+    },
+    {
+      "stage": "Root controller/preparation integration",
+      "CPU": 10,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.421917+00:00"
+    },
+    {
+      "stage": "Selected preparation wall overhead",
+      "CPU": 0.0,
+      "wall": 40.0,
+      "details": "Additional controlled stage wall bookkeeping; not full assistant elapsed duration",
+      "UTC": "2026-11-22T17:52:33.422636+00:00"
+    },
+    {
+      "stage": "private_case_and_identity_rebuild",
+      "CPU": 1.7933436889999999,
+      "wall": 1.8077861620004114,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 113549312,
+        "threads": 1,
+        "command_SHA256": "280827f00220e642b297a15dddbce00f70809643fdb025d449521e569d8dab39"
+      },
+      "UTC": "2026-11-22T17:52:35.285449+00:00"
+    },
+    {
+      "stage": "Exact franchise alias and dual-clock integration",
+      "CPU": 0.144896146,
+      "wall": 0.14626248000058695,
+      "details": null,
+      "UTC": "2026-11-22T17:54:12.215822+00:00"
+    },
+    {
+      "stage": "Canonical metric view implementation",
+      "CPU": 3.0,
+      "wall": 0.0,
+      "details": "Conservative compile-only agent allocation; no grading",
+      "UTC": "2026-11-22T17:59:43.429158+00:00"
+    },
+    {
+      "stage": "Retained prior restore implementation",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Within prior fitter12CPU allocation; cumulative9",
+      "UTC": "2026-11-22T18:02:27.365910+00:00"
+    },
+    {
+      "stage": "Joint both-team conditioner solve wiring correction",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Within original conditioner8CPU; cumulative4; before generation",
+      "UTC": "2026-11-22T18:03:35.721428+00:00"
+    },
+    {
+      "stage": "first_origin_ungraded_canary",
+      "CPU": 5.879358318,
+      "wall": 5.947783014000379,
+      "details": {
+        "returncode": 1,
+        "safe_stop": null,
+        "peak_RSS_bytes": 206049280,
+        "threads": 1,
+        "command_SHA256": "6cb130de85ec0b94d96eb6d0c29c833ebaec9bbda336f68b288d56f7e411c3c4"
+      },
+      "UTC": "2026-11-22T18:05:26.058381+00:00"
+    },
+    {
+      "stage": "Failure-path repair and one diagnostic preparation",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Output-preserving error-path correction; no refit or parameter/tolerance change",
+      "UTC": "2026-11-22T18:09:41.310495+00:00"
+    },
+    {
+      "stage": "NFL_initial_gradient_diagnostic_no_optimizer",
+      "CPU": 6.81298607,
+      "wall": 6.828366276000452,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 203755520,
+        "threads": 1,
+        "command_SHA256": "a688275727e65be6e20234005a69363152b75cda865152b8074751a801a074a7"
+      },
+      "UTC": "2026-11-22T18:09:48.198606+00:00"
+    },
+    {
+      "stage": "Per-origin technical unavailability bookkeeping and saved-control namespace repair",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "No solver retry, model setting or outcome selection",
+      "UTC": "2026-11-22T18:11:18.579129+00:00"
+    },
+    {
+      "stage": "first_origin_ungraded_canary_continuation_distinct_origins",
+      "CPU": 53.21387612,
+      "wall": 53.068172086999766,
+      "details": {
+        "returncode": -15,
+        "safe_stop": "CPU_SAFE_STOP",
+        "peak_RSS_bytes": 205635584,
+        "threads": 1,
+        "command_SHA256": "6cb130de85ec0b94d96eb6d0c29c833ebaec9bbda336f68b288d56f7e411c3c4"
+      },
+      "UTC": "2026-11-22T18:12:30.909760+00:00"
+    },
+    {
+      "stage": "Saved-output adapter attribution and blocked-simulator reporting",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "No model fits, altered source offers or new selection policy",
+      "UTC": "2026-11-22T18:15:07.208105+00:00"
+    },
+    {
+      "stage": "C_saved_output_join_and_baseline_adapter",
+      "CPU": 4.159338953,
+      "wall": 4.31973919200027,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 345079808,
+        "threads": 1,
+        "command_SHA256": "06fe3a80a118c93f4c0a725ac8243df5fe5accecba0775d7f762cf244164773f"
+      },
+      "UTC": "2026-11-22T18:15:11.571457+00:00"
+    },
+    {
+      "stage": "Saved-control companion comparison view registration",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Frozen before new target grades; no fit/retuning/source collection",
+      "UTC": "2026-11-22T18:18:00.984628+00:00"
+    },
+    {
+      "stage": "Carry5 preparation metadata-body readbacks once",
+      "CPU": 0,
+      "wall": 0,
+      "details": "Five exact own metadata bodies restored at ebf9 before allocation; conservatively included in cumulative8 output readbacks; no sample shard existed."
+    },
+    {
+      "stage": "Exact saved-product scope and deterministic recovery-code correction",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Before target grade; no model fit or saved forecast change",
+      "UTC": "2026-11-22T18:20:57.243543+00:00"
+    },
+    {
+      "stage": "Frozen saved-control forecast binding remote body restoration",
+      "CPU": 0,
+      "wall": 0,
+      "details": "One actual ownmetadata body; cumulative6/8, no simulator shard"
+    },
+    {
+      "stage": "frozen_actual_line_grade_and_matched_control_views",
+      "CPU": 28.087324278000004,
+      "wall": 28.058925126999384,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 421957632,
+        "threads": 1,
+        "command_SHA256": "e6647ddea3137189a59278b69bd1bf07db6b3f63d786d07f31c3523dce9c0997"
+      },
+      "UTC": "2026-11-22T18:22:01.365519+00:00"
+    },
+    {
+      "stage": "Independent C arithmetic and exact selected-membership verification",
+      "CPU": 3.0,
+      "wall": 1.429763467,
+      "details": "Separate reviewer measured1.407711866CPU; conservative3 once; not B/modelruntime parity",
+      "UTC": "2026-11-22T18:37:20.524294+00:00"
+    },
+    {
+      "stage": "aggregate_week_scope_control_and_report_views",
+      "CPU": 2.7753806149999996,
+      "wall": 2.8164150649990916,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 261533696,
+        "threads": 1,
+        "command_SHA256": "6ac9ddb942ad3d2a725107f43eeb6a9f35d315202e0b2aeba423b1169a42bb5c"
+      },
+      "UTC": "2026-11-22T18:37:23.398533+00:00"
+    },
+    {
+      "stage": "software_contracts_and_retention_codec_fixture",
+      "CPU": 28.808190067,
+      "wall": 29.028306411999438,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 405106688,
+        "threads": 1,
+        "command_SHA256": "710609add84d420e85cd5ab4d71f832cc178ec25a4fbd4d3ccee99390ebdc8ec"
+      },
+      "UTC": "2026-11-22T18:40:42.729880+00:00"
+    },
+    {
+      "stage": "source_and_venue_sensitivity_views",
+      "CPU": 2.109579313,
+      "wall": 2.109716446000675,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 173875200,
+        "threads": 1,
+        "command_SHA256": "f29cfeada3c8aa0013f32ef1cfbaff4b8d58d55225fd6be83a1982317b792874"
+      },
+      "UTC": "2026-11-22T18:43:34.020725+00:00"
+    },
+    {
+      "stage": "Post-stop durable-attempt logging repair",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "No additional scientific fit, simulation or source read",
+      "UTC": "2026-11-22T18:45:51.940905+00:00"
+    },
+    {
+      "stage": "named_saved_research_pairwise_masks",
+      "CPU": 1.268754517,
+      "wall": 1.3054633699994156,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 167657472,
+        "threads": 1,
+        "command_SHA256": "508e74ec674af9152afbf33ed10b07cf2a0c149e7785f80fb4d7e44c32a97924"
+      },
+      "UTC": "2026-11-22T18:50:53.561782+00:00"
+    },
+    {
+      "stage": "focused_poststop_contract_validation",
+      "CPU": 1.026765743,
+      "wall": 1.105800757999532,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 87519232,
+        "threads": 1,
+        "command_SHA256": "1bdeb97525a6bb723ab8ff81c6185d0f62057f5da972bf353180c5b2c947ab14"
+      },
+      "UTC": "2026-11-22T18:57:03.598678+00:00"
+    },
+    {
+      "stage": "Readable report and complete machine result remote body restoration",
+      "CPU": 0,
+      "wall": 0,
+      "details": "2 exact output body reads; cumulative8/8 including5preparationmetadata+1FreezeB;no rawsimulatorshardexisted. AuxiliaryGitpush/PRmetadata not artifactretries."
+    }
+  ],
+  "metering": "Controller+single worker process CPU; selected prior meters/conservative authoring charges. Assistant/network orchestration not a complete CPU certificate. End-to-end since first scientific launch separately enforced; original prior packages unchanged."
+}

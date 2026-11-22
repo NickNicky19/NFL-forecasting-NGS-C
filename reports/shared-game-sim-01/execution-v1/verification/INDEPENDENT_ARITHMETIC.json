@@ -1,0 +1,804 @@
+{
+  "id": "C-SIM01-INDEPENDENT-SAVED-ARITHMETIC-v1",
+  "state": "PASS",
+  "UTC": "2026-11-22T18:26:30.848971+00:00",
+  "reviewer": "Separate C read-only calculation, NOT B verification",
+  "source_scope": "Actual private frozen predictions, canonical outcomes/cases and persisted raw grades; no networking or model/source fit reproduction",
+  "private_forecast_SHA256": "e44f25e8a9a53b30a0c2ced5d55daa9f8c85fcc13561eb836db8e3d34ae723c9",
+  "frame_cases": 3474,
+  "original_unknown_outcomes": 464,
+  "raw_rows_checked": 3688,
+  "weekly_and_cumulative_checks": [
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": "ALL",
+      "OVER": {
+        "selected": 323,
+        "wins": 177,
+        "losses": 105,
+        "decided": 282,
+        "rate": 0.6276595744680851
+      },
+      "UNDER": {
+        "selected": 315,
+        "wins": 162,
+        "losses": 134,
+        "decided": 296,
+        "rate": 0.5472972972972973
+      },
+      "COMBINED": {
+        "selected": 638,
+        "wins": 339,
+        "losses": 239,
+        "decided": 578,
+        "rate": 0.5865051903114187
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 4,
+      "OVER": {
+        "selected": 13,
+        "wins": 9,
+        "losses": 2,
+        "decided": 11,
+        "rate": 0.8181818181818182
+      },
+      "UNDER": {
+        "selected": 8,
+        "wins": 3,
+        "losses": 5,
+        "decided": 8,
+        "rate": 0.375
+      },
+      "COMBINED": {
+        "selected": 21,
+        "wins": 12,
+        "losses": 7,
+        "decided": 19,
+        "rate": 0.631578947368421
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 5,
+      "OVER": {
+        "selected": 53,
+        "wins": 29,
+        "losses": 18,
+        "decided": 47,
+        "rate": 0.6170212765957447
+      },
+      "UNDER": {
+        "selected": 66,
+        "wins": 32,
+        "losses": 32,
+        "decided": 64,
+        "rate": 0.5
+      },
+      "COMBINED": {
+        "selected": 119,
+        "wins": 61,
+        "losses": 50,
+        "decided": 111,
+        "rate": 0.5495495495495496
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 6,
+      "OVER": {
+        "selected": 65,
+        "wins": 38,
+        "losses": 16,
+        "decided": 54,
+        "rate": 0.7037037037037037
+      },
+      "UNDER": {
+        "selected": 60,
+        "wins": 29,
+        "losses": 28,
+        "decided": 57,
+        "rate": 0.5087719298245614
+      },
+      "COMBINED": {
+        "selected": 125,
+        "wins": 67,
+        "losses": 44,
+        "decided": 111,
+        "rate": 0.6036036036036037
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 7,
+      "OVER": {
+        "selected": 64,
+        "wins": 33,
+        "losses": 22,
+        "decided": 55,
+        "rate": 0.6
+      },
+      "UNDER": {
+        "selected": 60,
+        "wins": 39,
+        "losses": 17,
+        "decided": 56,
+        "rate": 0.6964285714285714
+      },
+      "COMBINED": {
+        "selected": 124,
+        "wins": 72,
+        "losses": 39,
+        "decided": 111,
+        "rate": 0.6486486486486487
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 8,
+      "OVER": {
+        "selected": 60,
+        "wins": 29,
+        "losses": 24,
+        "decided": 53,
+        "rate": 0.5471698113207547
+      },
+      "UNDER": {
+        "selected": 62,
+        "wins": 26,
+        "losses": 30,
+        "decided": 56,
+        "rate": 0.4642857142857143
+      },
+      "COMBINED": {
+        "selected": 122,
+        "wins": 55,
+        "losses": 54,
+        "decided": 109,
+        "rate": 0.5045871559633027
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "week": 9,
+      "OVER": {
+        "selected": 68,
+        "wins": 39,
+        "losses": 23,
+        "decided": 62,
+        "rate": 0.6290322580645161
+      },
+      "UNDER": {
+        "selected": 59,
+        "wins": 33,
+        "losses": 22,
+        "decided": 55,
+        "rate": 0.6
+      },
+      "COMBINED": {
+        "selected": 127,
+        "wins": 72,
+        "losses": 45,
+        "decided": 117,
+        "rate": 0.6153846153846154
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": "ALL",
+      "OVER": {
+        "selected": 196,
+        "wins": 115,
+        "losses": 51,
+        "decided": 166,
+        "rate": 0.6927710843373494
+      },
+      "UNDER": {
+        "selected": 442,
+        "wins": 216,
+        "losses": 196,
+        "decided": 412,
+        "rate": 0.5242718446601942
+      },
+      "COMBINED": {
+        "selected": 638,
+        "wins": 331,
+        "losses": 247,
+        "decided": 578,
+        "rate": 0.5726643598615917
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 4,
+      "OVER": {
+        "selected": 9,
+        "wins": 8,
+        "losses": 0,
+        "decided": 8,
+        "rate": 1.0
+      },
+      "UNDER": {
+        "selected": 12,
+        "wins": 5,
+        "losses": 6,
+        "decided": 11,
+        "rate": 0.45454545454545453
+      },
+      "COMBINED": {
+        "selected": 21,
+        "wins": 13,
+        "losses": 6,
+        "decided": 19,
+        "rate": 0.6842105263157895
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 5,
+      "OVER": {
+        "selected": 34,
+        "wins": 20,
+        "losses": 9,
+        "decided": 29,
+        "rate": 0.6896551724137931
+      },
+      "UNDER": {
+        "selected": 85,
+        "wins": 41,
+        "losses": 41,
+        "decided": 82,
+        "rate": 0.5
+      },
+      "COMBINED": {
+        "selected": 119,
+        "wins": 61,
+        "losses": 50,
+        "decided": 111,
+        "rate": 0.5495495495495496
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 6,
+      "OVER": {
+        "selected": 46,
+        "wins": 30,
+        "losses": 7,
+        "decided": 37,
+        "rate": 0.8108108108108109
+      },
+      "UNDER": {
+        "selected": 79,
+        "wins": 38,
+        "losses": 36,
+        "decided": 74,
+        "rate": 0.5135135135135135
+      },
+      "COMBINED": {
+        "selected": 125,
+        "wins": 68,
+        "losses": 43,
+        "decided": 111,
+        "rate": 0.6126126126126126
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 7,
+      "OVER": {
+        "selected": 35,
+        "wins": 18,
+        "losses": 11,
+        "decided": 29,
+        "rate": 0.6206896551724138
+      },
+      "UNDER": {
+        "selected": 89,
+        "wins": 50,
+        "losses": 32,
+        "decided": 82,
+        "rate": 0.6097560975609756
+      },
+      "COMBINED": {
+        "selected": 124,
+        "wins": 68,
+        "losses": 43,
+        "decided": 111,
+        "rate": 0.6126126126126126
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 8,
+      "OVER": {
+        "selected": 30,
+        "wins": 17,
+        "losses": 9,
+        "decided": 26,
+        "rate": 0.6538461538461539
+      },
+      "UNDER": {
+        "selected": 92,
+        "wins": 41,
+        "losses": 42,
+        "decided": 83,
+        "rate": 0.4939759036144578
+      },
+      "COMBINED": {
+        "selected": 122,
+        "wins": 58,
+        "losses": 51,
+        "decided": 109,
+        "rate": 0.5321100917431193
+      }
+    },
+    {
+      "method": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "week": 9,
+      "OVER": {
+        "selected": 42,
+        "wins": 22,
+        "losses": 15,
+        "decided": 37,
+        "rate": 0.5945945945945946
+      },
+      "UNDER": {
+        "selected": 85,
+        "wins": 41,
+        "losses": 39,
+        "decided": 80,
+        "rate": 0.5125
+      },
+      "COMBINED": {
+        "selected": 127,
+        "wins": 63,
+        "losses": 54,
+        "decided": 117,
+        "rate": 0.5384615384615384
+      }
+    },
+    {
+      "method": "W0",
+      "week": "ALL",
+      "OVER": {
+        "selected": 434,
+        "wins": 221,
+        "losses": 138,
+        "decided": 359,
+        "rate": 0.6155988857938719
+      },
+      "UNDER": {
+        "selected": 481,
+        "wins": 210,
+        "losses": 206,
+        "decided": 416,
+        "rate": 0.5048076923076923
+      },
+      "COMBINED": {
+        "selected": 915,
+        "wins": 431,
+        "losses": 344,
+        "decided": 775,
+        "rate": 0.5561290322580645
+      }
+    },
+    {
+      "method": "W0",
+      "week": 4,
+      "OVER": {
+        "selected": 16,
+        "wins": 11,
+        "losses": 4,
+        "decided": 15,
+        "rate": 0.7333333333333333
+      },
+      "UNDER": {
+        "selected": 11,
+        "wins": 4,
+        "losses": 6,
+        "decided": 10,
+        "rate": 0.4
+      },
+      "COMBINED": {
+        "selected": 27,
+        "wins": 15,
+        "losses": 10,
+        "decided": 25,
+        "rate": 0.6
+      }
+    },
+    {
+      "method": "W0",
+      "week": 5,
+      "OVER": {
+        "selected": 89,
+        "wins": 46,
+        "losses": 30,
+        "decided": 76,
+        "rate": 0.6052631578947368
+      },
+      "UNDER": {
+        "selected": 87,
+        "wins": 39,
+        "losses": 38,
+        "decided": 77,
+        "rate": 0.5064935064935064
+      },
+      "COMBINED": {
+        "selected": 176,
+        "wins": 85,
+        "losses": 68,
+        "decided": 153,
+        "rate": 0.5555555555555556
+      }
+    },
+    {
+      "method": "W0",
+      "week": 6,
+      "OVER": {
+        "selected": 87,
+        "wins": 45,
+        "losses": 23,
+        "decided": 68,
+        "rate": 0.6617647058823529
+      },
+      "UNDER": {
+        "selected": 99,
+        "wins": 39,
+        "losses": 49,
+        "decided": 88,
+        "rate": 0.4431818181818182
+      },
+      "COMBINED": {
+        "selected": 186,
+        "wins": 84,
+        "losses": 72,
+        "decided": 156,
+        "rate": 0.5384615384615384
+      }
+    },
+    {
+      "method": "W0",
+      "week": 7,
+      "OVER": {
+        "selected": 80,
+        "wins": 43,
+        "losses": 26,
+        "decided": 69,
+        "rate": 0.6231884057971014
+      },
+      "UNDER": {
+        "selected": 92,
+        "wins": 50,
+        "losses": 29,
+        "decided": 79,
+        "rate": 0.6329113924050633
+      },
+      "COMBINED": {
+        "selected": 172,
+        "wins": 93,
+        "losses": 55,
+        "decided": 148,
+        "rate": 0.6283783783783784
+      }
+    },
+    {
+      "method": "W0",
+      "week": 8,
+      "OVER": {
+        "selected": 73,
+        "wins": 38,
+        "losses": 24,
+        "decided": 62,
+        "rate": 0.6129032258064516
+      },
+      "UNDER": {
+        "selected": 100,
+        "wins": 38,
+        "losses": 43,
+        "decided": 81,
+        "rate": 0.4691358024691358
+      },
+      "COMBINED": {
+        "selected": 173,
+        "wins": 76,
+        "losses": 67,
+        "decided": 143,
+        "rate": 0.5314685314685315
+      }
+    },
+    {
+      "method": "W0",
+      "week": 9,
+      "OVER": {
+        "selected": 89,
+        "wins": 38,
+        "losses": 31,
+        "decided": 69,
+        "rate": 0.5507246376811594
+      },
+      "UNDER": {
+        "selected": 92,
+        "wins": 40,
+        "losses": 41,
+        "decided": 81,
+        "rate": 0.49382716049382713
+      },
+      "COMBINED": {
+        "selected": 181,
+        "wins": 78,
+        "losses": 72,
+        "decided": 150,
+        "rate": 0.52
+      }
+    },
+    {
+      "method": "W1",
+      "week": "ALL",
+      "OVER": {
+        "selected": 450,
+        "wins": 236,
+        "losses": 138,
+        "decided": 374,
+        "rate": 0.6310160427807486
+      },
+      "UNDER": {
+        "selected": 463,
+        "wins": 210,
+        "losses": 187,
+        "decided": 397,
+        "rate": 0.5289672544080605
+      },
+      "COMBINED": {
+        "selected": 913,
+        "wins": 446,
+        "losses": 325,
+        "decided": 771,
+        "rate": 0.5784695201037614
+      }
+    },
+    {
+      "method": "W1",
+      "week": 4,
+      "OVER": {
+        "selected": 15,
+        "wins": 9,
+        "losses": 5,
+        "decided": 14,
+        "rate": 0.6428571428571429
+      },
+      "UNDER": {
+        "selected": 12,
+        "wins": 3,
+        "losses": 8,
+        "decided": 11,
+        "rate": 0.2727272727272727
+      },
+      "COMBINED": {
+        "selected": 27,
+        "wins": 12,
+        "losses": 13,
+        "decided": 25,
+        "rate": 0.48
+      }
+    },
+    {
+      "method": "W1",
+      "week": 5,
+      "OVER": {
+        "selected": 90,
+        "wins": 48,
+        "losses": 30,
+        "decided": 78,
+        "rate": 0.6153846153846154
+      },
+      "UNDER": {
+        "selected": 85,
+        "wins": 40,
+        "losses": 34,
+        "decided": 74,
+        "rate": 0.5405405405405406
+      },
+      "COMBINED": {
+        "selected": 175,
+        "wins": 88,
+        "losses": 64,
+        "decided": 152,
+        "rate": 0.5789473684210527
+      }
+    },
+    {
+      "method": "W1",
+      "week": 6,
+      "OVER": {
+        "selected": 88,
+        "wins": 49,
+        "losses": 24,
+        "decided": 73,
+        "rate": 0.6712328767123288
+      },
+      "UNDER": {
+        "selected": 98,
+        "wins": 39,
+        "losses": 44,
+        "decided": 83,
+        "rate": 0.46987951807228917
+      },
+      "COMBINED": {
+        "selected": 186,
+        "wins": 88,
+        "losses": 68,
+        "decided": 156,
+        "rate": 0.5641025641025641
+      }
+    },
+    {
+      "method": "W1",
+      "week": 7,
+      "OVER": {
+        "selected": 83,
+        "wins": 46,
+        "losses": 24,
+        "decided": 70,
+        "rate": 0.6571428571428571
+      },
+      "UNDER": {
+        "selected": 88,
+        "wins": 52,
+        "losses": 25,
+        "decided": 77,
+        "rate": 0.6753246753246753
+      },
+      "COMBINED": {
+        "selected": 171,
+        "wins": 98,
+        "losses": 49,
+        "decided": 147,
+        "rate": 0.6666666666666666
+      }
+    },
+    {
+      "method": "W1",
+      "week": 8,
+      "OVER": {
+        "selected": 74,
+        "wins": 40,
+        "losses": 20,
+        "decided": 60,
+        "rate": 0.6666666666666666
+      },
+      "UNDER": {
+        "selected": 100,
+        "wins": 43,
+        "losses": 40,
+        "decided": 83,
+        "rate": 0.5180722891566265
+      },
+      "COMBINED": {
+        "selected": 174,
+        "wins": 83,
+        "losses": 60,
+        "decided": 143,
+        "rate": 0.5804195804195804
+      }
+    },
+    {
+      "method": "W1",
+      "week": 9,
+      "OVER": {
+        "selected": 100,
+        "wins": 44,
+        "losses": 35,
+        "decided": 79,
+        "rate": 0.5569620253164557
+      },
+      "UNDER": {
+        "selected": 80,
+        "wins": 33,
+        "losses": 36,
+        "decided": 69,
+        "rate": 0.4782608695652174
+      },
+      "COMBINED": {
+        "selected": 180,
+        "wins": 77,
+        "losses": 71,
+        "decided": 148,
+        "rate": 0.5202702702702703
+      }
+    }
+  ],
+  "paired": [
+    {
+      "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "control": "W0",
+      "common_decided": 575,
+      "candidate_wins": 337,
+      "control_wins": 320,
+      "win_difference": 17
+    },
+    {
+      "candidate": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "control": "W1",
+      "common_decided": 571,
+      "candidate_wins": 337,
+      "control_wins": 332,
+      "win_difference": 5
+    },
+    {
+      "candidate": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "control": "W0",
+      "common_decided": 575,
+      "candidate_wins": 329,
+      "control_wins": 320,
+      "win_difference": 9
+    },
+    {
+      "candidate": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "control": "W1",
+      "common_decided": 571,
+      "candidate_wins": 329,
+      "control_wins": 332,
+      "win_difference": -3
+    }
+  ],
+  "selections": [
+    {
+      "fraction": 0.5,
+      "selected": 443,
+      "selected_unknown": 53,
+      "COMBINED": {
+        "selected": 443,
+        "wins": 232,
+        "losses": 158,
+        "decided": 390,
+        "rate": 0.5948717948717949
+      },
+      "membership": "EXACT_ORDERED_CASE_ID_MATCH",
+      "membership_not_published": true
+    },
+    {
+      "fraction": 0.25,
+      "selected": 202,
+      "selected_unknown": 24,
+      "COMBINED": {
+        "selected": 202,
+        "wins": 109,
+        "losses": 69,
+        "decided": 178,
+        "rate": 0.6123595505617978
+      },
+      "membership": "EXACT_ORDERED_CASE_ID_MATCH",
+      "membership_not_published": true
+    },
+    {
+      "fraction": 0.1,
+      "selected": 70,
+      "selected_unknown": 5,
+      "COMBINED": {
+        "selected": 70,
+        "wins": 40,
+        "losses": 25,
+        "decided": 65,
+        "rate": 0.6153846153846154
+      },
+      "membership": "EXACT_ORDERED_CASE_ID_MATCH",
+      "membership_not_published": true
+    }
+  ],
+  "unavailable_simulator": "All3474 S-P/D-P cases technically unavailable; rateN/A not accuracy loss",
+  "not_run": [
+    "NFL trajectory generation",
+    "forecast-worker mutation invariance",
+    "runtime conservation",
+    "D-P actual canary serialization/reopen",
+    "B or private peer model-fit verification"
+  ],
+  "measured_CPU_seconds": 1.4077118659999999,
+  "measured_wall_seconds": 1.429763467000157,
+  "conservative_CPU_charge": 3,
+  "task_CPU_cap": 6,
+  "metering": "Selected single-process CPU; orchestration/authoring overhead not a complete timing certificate; conservative3chargedonce"
+}

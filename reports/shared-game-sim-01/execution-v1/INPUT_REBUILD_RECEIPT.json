@@ -1,0 +1,56 @@
+{
+  "source_ZIP_SHA256": "afcd4cfc52685657f969a80651831b075f9351ef298dda0a0553791f7444b365",
+  "closed_SP_manifest_SHA256": "b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1",
+  "website_manifest": "EXACT_PARITY",
+  "private_views_reopened": [
+    {
+      "relative_private_role": "views/comparison_inputs/cases.jsonl",
+      "bytes": 2956863,
+      "SHA256": "19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18"
+    },
+    {
+      "relative_private_role": "views/comparison_inputs/benchmarks.jsonl",
+      "bytes": 839521,
+      "SHA256": "2d9c9c1d505dbd0afc380b9ff9b7eeb7a98023da71a7691bcd14faf7a246bb86"
+    },
+    {
+      "relative_private_role": "views/forecast_worker/players_sp.jsonl",
+      "bytes": 601431,
+      "SHA256": "f93f0ab5ebb55a44fd484918419a322902aaccfeb7776efff0d9bdb2ab0778a9"
+    },
+    {
+      "relative_private_role": "views/forecast_worker/games_sp.jsonl",
+      "bytes": 17949,
+      "SHA256": "65619869fde35d205d42f3c0fb8c8800e6ac07b9c706750af6018333dff841fb"
+    },
+    {
+      "relative_private_role": "views/grading_only/outcomes.v1.jsonl",
+      "bytes": 1347519,
+      "SHA256": "666885cbdc2ae7551f637b3d4a6999f15c07db956861f3f0374fad9c91b3a5ad"
+    },
+    {
+      "relative_private_role": "views/forecast_worker/manifest.json",
+      "bytes": 905,
+      "SHA256": "b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1"
+    },
+    {
+      "relative_private_role": "identity_rows.json",
+      "bytes": 2503273,
+      "SHA256": "e01dfa51555680772144ed89bd6c26a62c135bb6d3795dae5e0976a81f816d0e"
+    },
+    {
+      "relative_private_role": "mapped_players.json",
+      "bytes": 1027504,
+      "SHA256": "ad3b6d551594ef9c25825b900860625aa8f2b714d4c8b502ef2f1293a62d4b1e"
+    }
+  ],
+  "cases": 3474,
+  "unknowns": 464,
+  "player_games": 1156,
+  "supported_player_games": 1054,
+  "source_prior_team_conflicts": 33,
+  "raw_inputs_published": false,
+  "original_outcomes_changed": false,
+  "scope": "Private deterministic rebuild and identity-only enrichment, no fitting/predictions/grading",
+  "source_clocks": "Original issuance/quote unknown; nativeT90 reconstructed clock and archived schedule retained separately"
+}

@@ -1,0 +1,2098 @@
+{
+  "groups": [
+    {
+      "category": "pass_att",
+      "available_case_mask_SHA256": "5dc6092b73949c1ced46b7bb1eeed34ed5425adb9be1ac29ea854074e65e0f4b",
+      "available": 87,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 12,
+            "wins": 8,
+            "losses": 4,
+            "decided": 12,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6666666666666666,
+              "high": 0.6666666666666666,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 75,
+            "wins": 39,
+            "losses": 36,
+            "decided": 75,
+            "rate": 0.52,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.52,
+              "high": 0.52,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 87,
+            "wins": 47,
+            "losses": 40,
+            "decided": 87,
+            "rate": 0.5402298850574713,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5402298850574713,
+              "high": 0.5402298850574713,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_att",
+      "available_case_mask_SHA256": "bcea7dfbcc2154cb4da57a427d8b6c7d3b22973162cac2e313629648bb775c82",
+      "available": 14,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::LAW",
+          "OVER": {
+            "selected": 4,
+            "wins": 4,
+            "losses": 0,
+            "decided": 4,
+            "rate": 1.0,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 1.0,
+              "high": 1.0,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 10,
+            "wins": 6,
+            "losses": 4,
+            "decided": 10,
+            "rate": 0.6,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6,
+              "high": 0.6,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 14,
+            "wins": 10,
+            "losses": 4,
+            "decided": 14,
+            "rate": 0.7142857142857143,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.7142857142857143,
+              "high": 0.7142857142857143,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 4,
+            "wins": 4,
+            "losses": 0,
+            "decided": 4,
+            "rate": 1.0,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 1.0,
+              "high": 1.0,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 10,
+            "wins": 6,
+            "losses": 4,
+            "decided": 10,
+            "rate": 0.6,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6,
+              "high": 0.6,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 14,
+            "wins": 10,
+            "losses": 4,
+            "decided": 14,
+            "rate": 0.7142857142857143,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.7142857142857143,
+              "high": 0.7142857142857143,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_att::H-MULTI::P3_HGB::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_att",
+      "available_case_mask_SHA256": "bd19b3fe38e49d23e71b0f6bce6790d69b07206e8bd8ef32e94bb73cc00a50a7",
+      "available": 148,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "W0",
+          "OVER": {
+            "selected": 55,
+            "wins": 31,
+            "losses": 24,
+            "decided": 55,
+            "rate": 0.5636363636363636,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5636363636363636,
+              "high": 0.5636363636363636,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 93,
+            "wins": 50,
+            "losses": 43,
+            "decided": 93,
+            "rate": 0.5376344086021505,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5376344086021505,
+              "high": 0.5376344086021505,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 148,
+            "wins": 81,
+            "losses": 67,
+            "decided": 148,
+            "rate": 0.5472972972972973,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5472972972972973,
+              "high": 0.5472972972972973,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "method": "W1",
+          "OVER": {
+            "selected": 61,
+            "wins": 34,
+            "losses": 27,
+            "decided": 61,
+            "rate": 0.5573770491803278,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5573770491803278,
+              "high": 0.5573770491803278,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 87,
+            "wins": 47,
+            "losses": 40,
+            "decided": 87,
+            "rate": 0.5402298850574713,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5402298850574713,
+              "high": 0.5402298850574713,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 148,
+            "wins": 81,
+            "losses": 67,
+            "decided": 148,
+            "rate": 0.5472972972972973,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5472972972972973,
+              "high": 0.5472972972972973,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W0",
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_cmp",
+      "available_case_mask_SHA256": "0de12bb9c481494ba5c9dcf41b6cf63d93760a324843971e8085380c4fd2d1aa",
+      "available": 148,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "W0",
+          "OVER": {
+            "selected": 64,
+            "wins": 36,
+            "losses": 26,
+            "decided": 62,
+            "rate": 0.5806451612903226,
+            "selected_unknown": 2,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5625,
+              "high": 0.59375,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 84,
+            "wins": 43,
+            "losses": 41,
+            "decided": 84,
+            "rate": 0.5119047619047619,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5119047619047619,
+              "high": 0.5119047619047619,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 148,
+            "wins": 79,
+            "losses": 67,
+            "decided": 146,
+            "rate": 0.541095890410959,
+            "selected_unknown": 2,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5337837837837838,
+              "high": 0.5472972972972973,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W0"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_cmp",
+      "available_case_mask_SHA256": "741bbbb300eaea1a7a3a745368bf109aa6b9cbe16eba918a81e1e6e08fb80c92",
+      "available": 22,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::LAW",
+          "OVER": {
+            "selected": 10,
+            "wins": 5,
+            "losses": 5,
+            "decided": 10,
+            "rate": 0.5,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.5,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 12,
+            "wins": 3,
+            "losses": 9,
+            "decided": 12,
+            "rate": 0.25,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.25,
+              "high": 0.25,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 22,
+            "wins": 8,
+            "losses": 14,
+            "decided": 22,
+            "rate": 0.36363636363636365,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.36363636363636365,
+              "high": 0.36363636363636365,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_cmp",
+      "available_case_mask_SHA256": "96be3dc1398bba50cfc35957255cc1d07f55138986053d2ce51b90ed946b7e70",
+      "available": 87,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 25,
+            "wins": 14,
+            "losses": 11,
+            "decided": 25,
+            "rate": 0.56,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.56,
+              "high": 0.56,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 62,
+            "wins": 24,
+            "losses": 38,
+            "decided": 62,
+            "rate": 0.3870967741935484,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.3870967741935484,
+              "high": 0.3870967741935484,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 87,
+            "wins": 38,
+            "losses": 49,
+            "decided": 87,
+            "rate": 0.4367816091954023,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4367816091954023,
+              "high": 0.4367816091954023,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_cmp::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_int",
+      "available_case_mask_SHA256": "2b91565e41f9e1f188f13c3abd02e7aa99007c2ab6cc5a6e26ad76938a938fed",
+      "available": 148,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "ALWAYS_OVER",
+          "OVER": {
+            "selected": 148,
+            "wins": 73,
+            "losses": 48,
+            "decided": 121,
+            "rate": 0.6033057851239669,
+            "selected_unknown": 27,
+            "unknown_resolution_sensitivity": {
+              "low": 0.49324324324324326,
+              "high": 0.6756756756756757,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 148,
+            "wins": 73,
+            "losses": 48,
+            "decided": 121,
+            "rate": 0.6033057851239669,
+            "selected_unknown": 27,
+            "unknown_resolution_sensitivity": {
+              "low": 0.49324324324324326,
+              "high": 0.6756756756756757,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_int",
+      "available_case_mask_SHA256": "38cdc4c5e6642978dbaff73a2eb3655b227d84f5889cb2fcf378fd94b5581e09",
+      "available": 87,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "OVER": {
+            "selected": 81,
+            "wins": 39,
+            "losses": 27,
+            "decided": 66,
+            "rate": 0.5909090909090909,
+            "selected_unknown": 15,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48148148148148145,
+              "high": 0.6666666666666666,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 6,
+            "wins": 5,
+            "losses": 1,
+            "decided": 6,
+            "rate": 0.8333333333333334,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.8333333333333334,
+              "high": 0.8333333333333334,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 87,
+            "wins": 44,
+            "losses": 28,
+            "decided": 72,
+            "rate": 0.6111111111111112,
+            "selected_unknown": 15,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5057471264367817,
+              "high": 0.6781609195402298,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_int::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_td",
+      "available_case_mask_SHA256": "344b3657815d015705d05ad987e95d7451bed324d6ce6d7477f7d1328ccf4fef",
+      "available": 87,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+          "OVER": {
+            "selected": 44,
+            "wins": 24,
+            "losses": 9,
+            "decided": 33,
+            "rate": 0.7272727272727273,
+            "selected_unknown": 11,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5454545454545454,
+              "high": 0.7954545454545454,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 43,
+            "wins": 23,
+            "losses": 15,
+            "decided": 38,
+            "rate": 0.6052631578947368,
+            "selected_unknown": 5,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5348837209302325,
+              "high": 0.6511627906976745,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 87,
+            "wins": 47,
+            "losses": 24,
+            "decided": 71,
+            "rate": 0.6619718309859155,
+            "selected_unknown": 16,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5402298850574713,
+              "high": 0.7241379310344828,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_td::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_td",
+      "available_case_mask_SHA256": "409d4bcd8291bc9ae27085fbd771491b0402ac88ae15af77230df686f2a83f84",
+      "available": 148,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "W0",
+          "OVER": {
+            "selected": 60,
+            "wins": 31,
+            "losses": 14,
+            "decided": 45,
+            "rate": 0.6888888888888889,
+            "selected_unknown": 15,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5166666666666667,
+              "high": 0.7666666666666667,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 86,
+            "wins": 38,
+            "losses": 31,
+            "decided": 69,
+            "rate": 0.5507246376811594,
+            "selected_unknown": 17,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4418604651162791,
+              "high": 0.6395348837209303,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 146,
+            "wins": 69,
+            "losses": 45,
+            "decided": 114,
+            "rate": 0.6052631578947368,
+            "selected_unknown": 32,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4726027397260274,
+              "high": 0.6917808219178082,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W0"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_yd",
+      "available_case_mask_SHA256": "7f8f43216930907bd34eed37030babacda1e06083327a05b2214c2fafb93559d",
+      "available": 87,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 33,
+            "wins": 14,
+            "losses": 19,
+            "decided": 33,
+            "rate": 0.42424242424242425,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.42424242424242425,
+              "high": 0.42424242424242425,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 54,
+            "wins": 18,
+            "losses": 36,
+            "decided": 54,
+            "rate": 0.3333333333333333,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.3333333333333333,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 87,
+            "wins": 32,
+            "losses": 55,
+            "decided": 87,
+            "rate": 0.367816091954023,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.367816091954023,
+              "high": 0.367816091954023,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::pass_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "pass_yd",
+      "available_case_mask_SHA256": "c2de189d3b401c5c5c4d813e0172085b968fca8c38b41ec84f408b5fef0348ee",
+      "available": 148,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "ALWAYS_OVER",
+          "OVER": {
+            "selected": 148,
+            "wins": 79,
+            "losses": 67,
+            "decided": 146,
+            "rate": 0.541095890410959,
+            "selected_unknown": 2,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5337837837837838,
+              "high": 0.5472972972972973,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 148,
+            "wins": 79,
+            "losses": 67,
+            "decided": 146,
+            "rate": 0.541095890410959,
+            "selected_unknown": 2,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5337837837837838,
+              "high": 0.5472972972972973,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec",
+      "available_case_mask_SHA256": "4989170e53f71d27073b9eb83bf6b7f777433f14b455310679ee1dbc8d787a70",
+      "available": 495,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P3_HGB::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 118,
+            "wins": 72,
+            "losses": 27,
+            "decided": 99,
+            "rate": 0.7272727272727273,
+            "selected_unknown": 19,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6101694915254238,
+              "high": 0.7711864406779662,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 377,
+            "wins": 169,
+            "losses": 174,
+            "decided": 343,
+            "rate": 0.49271137026239065,
+            "selected_unknown": 34,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4482758620689655,
+              "high": 0.5384615384615384,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 495,
+            "wins": 241,
+            "losses": 201,
+            "decided": 442,
+            "rate": 0.5452488687782805,
+            "selected_unknown": 53,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4868686868686869,
+              "high": 0.593939393939394,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P3_HGB::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec",
+      "available_case_mask_SHA256": "8a0b7aeaeafa260a2d63f2e0f40185de7599710831cdca5abdcef95636f6e963",
+      "available": 638,
+      "methods": [
+        "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+        "C-M3-v1.1::rec::M3-0::base::MEDIAN_POINT",
+        "C-M3-v1.1::rec::M3-0::base::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+          "OVER": {
+            "selected": 323,
+            "wins": 177,
+            "losses": 105,
+            "decided": 282,
+            "rate": 0.6276595744680851,
+            "selected_unknown": 41,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5479876160990712,
+              "high": 0.6749226006191951,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 315,
+            "wins": 162,
+            "losses": 134,
+            "decided": 296,
+            "rate": 0.5472972972972973,
+            "selected_unknown": 19,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5142857142857142,
+              "high": 0.5746031746031746,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 638,
+            "wins": 339,
+            "losses": 239,
+            "decided": 578,
+            "rate": 0.5865051903114187,
+            "selected_unknown": 60,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5313479623824452,
+              "high": 0.6253918495297806,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-M3-v1.1::rec::M3-0::base::MEAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec",
+      "available_case_mask_SHA256": "a58b0321c395c26d81c7bcb3e585eae919f930ce9603728b514ef51c3de424b2",
+      "available": 922,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "W1",
+          "OVER": {
+            "selected": 450,
+            "wins": 236,
+            "losses": 138,
+            "decided": 374,
+            "rate": 0.6310160427807486,
+            "selected_unknown": 76,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5244444444444445,
+              "high": 0.6933333333333334,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 463,
+            "wins": 210,
+            "losses": 187,
+            "decided": 397,
+            "rate": 0.5289672544080605,
+            "selected_unknown": 66,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4535637149028078,
+              "high": 0.5961123110151187,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 913,
+            "wins": 446,
+            "losses": 325,
+            "decided": 771,
+            "rate": 0.5784695201037614,
+            "selected_unknown": 142,
+            "unknown_resolution_sensitivity": {
+              "low": 0.488499452354874,
+              "high": 0.6440306681270537,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec_yd",
+      "available_case_mask_SHA256": "083ae38001677b6c389907fa1e4558de4e01fcd71b38e82e23c805eb50debdfb",
+      "available": 925,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "ALWAYS_OVER",
+          "OVER": {
+            "selected": 925,
+            "wins": 420,
+            "losses": 351,
+            "decided": 771,
+            "rate": 0.5447470817120622,
+            "selected_unknown": 154,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4540540540540541,
+              "high": 0.6205405405405405,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 925,
+            "wins": 420,
+            "losses": 351,
+            "decided": 771,
+            "rate": 0.5447470817120622,
+            "selected_unknown": 154,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4540540540540541,
+              "high": 0.6205405405405405,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec_yd",
+      "available_case_mask_SHA256": "2995d71a621a0b6d224ec6c8078a413f135033efe3e94514e332b29394729358",
+      "available": 638,
+      "methods": [
+        "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+        "C-M3-v1.1::rec_yd::M3-0::base::MEDIAN_POINT",
+        "C-M3-v1.1::rec_yd::M3-0::base::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-M3-v1.1::rec_yd::M3-0::base::MEDIAN_POINT",
+          "OVER": {
+            "selected": 248,
+            "wins": 129,
+            "losses": 85,
+            "decided": 214,
+            "rate": 0.602803738317757,
+            "selected_unknown": 34,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5201612903225806,
+              "high": 0.657258064516129,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 390,
+            "wins": 188,
+            "losses": 173,
+            "decided": 361,
+            "rate": 0.5207756232686981,
+            "selected_unknown": 29,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48205128205128206,
+              "high": 0.5564102564102564,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 638,
+            "wins": 317,
+            "losses": 258,
+            "decided": 575,
+            "rate": 0.551304347826087,
+            "selected_unknown": 63,
+            "unknown_resolution_sensitivity": {
+              "low": 0.49686520376175547,
+              "high": 0.5956112852664577,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "method": "C-M3-v1.1::rec_yd::M3-0::base::LAW",
+          "OVER": {
+            "selected": 248,
+            "wins": 129,
+            "losses": 85,
+            "decided": 214,
+            "rate": 0.602803738317757,
+            "selected_unknown": 34,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5201612903225806,
+              "high": 0.657258064516129,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 390,
+            "wins": 188,
+            "losses": 173,
+            "decided": 361,
+            "rate": 0.5207756232686981,
+            "selected_unknown": 29,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48205128205128206,
+              "high": 0.5564102564102564,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 638,
+            "wins": 317,
+            "losses": 258,
+            "decided": 575,
+            "rate": 0.551304347826087,
+            "selected_unknown": 63,
+            "unknown_resolution_sensitivity": {
+              "low": 0.49686520376175547,
+              "high": 0.5956112852664577,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-M3-v1.1::rec_yd::M3-0::base::MEDIAN_POINT",
+        "C-M3-v1.1::rec_yd::M3-0::base::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rec_yd",
+      "available_case_mask_SHA256": "9aeb61e781576255c39b2ea7b4529aad96c8dae3b122abe45d600a09cb144229",
+      "available": 33,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 5,
+            "wins": 2,
+            "losses": 2,
+            "decided": 4,
+            "rate": 0.5,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4,
+              "high": 0.6,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 28,
+            "wins": 14,
+            "losses": 11,
+            "decided": 25,
+            "rate": 0.56,
+            "selected_unknown": 3,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.6071428571428571,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 33,
+            "wins": 16,
+            "losses": 13,
+            "decided": 29,
+            "rate": 0.5517241379310345,
+            "selected_unknown": 4,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48484848484848486,
+              "high": 0.6060606060606061,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P3_HGB::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_att",
+      "available_case_mask_SHA256": "42d8c85ca302065937d042ab762cbf66a22784e289e6b34d8ecbb709cdad7192",
+      "available": 121,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 25,
+            "wins": 12,
+            "losses": 13,
+            "decided": 25,
+            "rate": 0.48,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48,
+              "high": 0.48,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 96,
+            "wins": 48,
+            "losses": 48,
+            "decided": 96,
+            "rate": 0.5,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.5,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 121,
+            "wins": 60,
+            "losses": 61,
+            "decided": 121,
+            "rate": 0.49586776859504134,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.49586776859504134,
+              "high": 0.49586776859504134,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_att",
+      "available_case_mask_SHA256": "51e303d64746bc40f93e26979c4c7df203e6e6ae573462ed48f46fd2644b8d13",
+      "available": 226,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "W1",
+          "OVER": {
+            "selected": 126,
+            "wins": 65,
+            "losses": 58,
+            "decided": 123,
+            "rate": 0.5284552845528455,
+            "selected_unknown": 3,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5158730158730159,
+              "high": 0.5396825396825397,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 100,
+            "wins": 55,
+            "losses": 42,
+            "decided": 97,
+            "rate": 0.5670103092783505,
+            "selected_unknown": 3,
+            "unknown_resolution_sensitivity": {
+              "low": 0.55,
+              "high": 0.58,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 226,
+            "wins": 120,
+            "losses": 100,
+            "decided": 220,
+            "rate": 0.5454545454545454,
+            "selected_unknown": 6,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5309734513274337,
+              "high": 0.5575221238938053,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W1"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_att",
+      "available_case_mask_SHA256": "5543b1309bc0897f704aa61b3ddd1bf0b968a5eef0d1cf41d8088a8e2e2d2106",
+      "available": 34,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 3,
+            "wins": 2,
+            "losses": 1,
+            "decided": 3,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6666666666666666,
+              "high": 0.6666666666666666,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 31,
+            "wins": 15,
+            "losses": 16,
+            "decided": 31,
+            "rate": 0.4838709677419355,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4838709677419355,
+              "high": 0.4838709677419355,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 34,
+            "wins": 17,
+            "losses": 17,
+            "decided": 34,
+            "rate": 0.5,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.5,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_att::H-MULTI::P3_HGB::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_rec_yd",
+      "available_case_mask_SHA256": "10ee39c22cec12729ff49b64c4fad20850f0ce7c780fb34698e7b2bef2cbb2ad",
+      "available": 222,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "ALWAYS_UNDER",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 222,
+            "wins": 84,
+            "losses": 78,
+            "decided": 162,
+            "rate": 0.5185185185185185,
+            "selected_unknown": 60,
+            "unknown_resolution_sensitivity": {
+              "low": 0.3783783783783784,
+              "high": 0.6486486486486487,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 222,
+            "wins": 84,
+            "losses": 78,
+            "decided": 162,
+            "rate": 0.5185185185185185,
+            "selected_unknown": 60,
+            "unknown_resolution_sensitivity": {
+              "low": 0.3783783783783784,
+              "high": 0.6486486486486487,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W0"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_rec_yd",
+      "available_case_mask_SHA256": "5768b9234c1476844c4e33c7411e63afe22eb99a2a467cb54bc2193ed4a32c42",
+      "available": 3,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6
+          ]
+        },
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6
+          ]
+        },
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_LOGIT::E0_OP::LAW",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 3,
+            "wins": 0,
+            "losses": 2,
+            "decided": 2,
+            "rate": 0.0,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.0,
+              "high": 0.3333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_rec_yd",
+      "available_case_mask_SHA256": "6f15ba8ce61603cfe6161a6cbbe5a9e33b40818c7d745deba04159666792ddb1",
+      "available": 125,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 22,
+            "wins": 11,
+            "losses": 8,
+            "decided": 19,
+            "rate": 0.5789473684210527,
+            "selected_unknown": 3,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.6363636363636364,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 103,
+            "wins": 43,
+            "losses": 39,
+            "decided": 82,
+            "rate": 0.524390243902439,
+            "selected_unknown": 21,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4174757281553398,
+              "high": 0.6213592233009708,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 125,
+            "wins": 54,
+            "losses": 47,
+            "decided": 101,
+            "rate": 0.5346534653465347,
+            "selected_unknown": 24,
+            "unknown_resolution_sensitivity": {
+              "low": 0.432,
+              "high": 0.624,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_rec_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_yd",
+      "available_case_mask_SHA256": "1834304032231487c5b768bc4350b194ac78fd04d29caf308fccbc777f2c9bf8",
+      "available": 19,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+          "OVER": {
+            "selected": 3,
+            "wins": 1,
+            "losses": 1,
+            "decided": 2,
+            "rate": 0.5,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.3333333333333333,
+              "high": 0.6666666666666666,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 16,
+            "wins": 11,
+            "losses": 5,
+            "decided": 16,
+            "rate": 0.6875,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6875,
+              "high": 0.6875,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 19,
+            "wins": 12,
+            "losses": 6,
+            "decided": 18,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.631578947368421,
+              "high": 0.6842105263157895,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 19,
+            "wins": 12,
+            "losses": 6,
+            "decided": 18,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.631578947368421,
+              "high": 0.6842105263157895,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 19,
+            "wins": 12,
+            "losses": 6,
+            "decided": 18,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.631578947368421,
+              "high": 0.6842105263157895,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_LOGIT::E0_OP::LAW",
+          "OVER": {
+            "selected": 4,
+            "wins": 2,
+            "losses": 2,
+            "decided": 4,
+            "rate": 0.5,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5,
+              "high": 0.5,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 15,
+            "wins": 10,
+            "losses": 4,
+            "decided": 14,
+            "rate": 0.7142857142857143,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.6666666666666666,
+              "high": 0.7333333333333333,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 19,
+            "wins": 12,
+            "losses": 6,
+            "decided": 18,
+            "rate": 0.6666666666666666,
+            "selected_unknown": 1,
+            "unknown_resolution_sensitivity": {
+              "low": 0.631578947368421,
+              "high": 0.6842105263157895,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_HGB::E0_OP::LAW",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P3_LOGIT::E0_OP::LAW"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_yd",
+      "available_case_mask_SHA256": "c31de681ced03dc4bc5a1347f2fb08aebbf191721784a7f61eb5c6df85165202",
+      "available": 439,
+      "methods": [
+        "W0",
+        "W1",
+        "ALWAYS_OVER",
+        "ALWAYS_UNDER"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "ALWAYS_UNDER",
+          "OVER": {
+            "selected": 0,
+            "wins": null,
+            "losses": null,
+            "decided": 0,
+            "rate": null,
+            "selected_unknown": 0,
+            "unknown_resolution_sensitivity": {
+              "low": null,
+              "high": null,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 439,
+            "wins": 213,
+            "losses": 188,
+            "decided": 401,
+            "rate": 0.5311720698254364,
+            "selected_unknown": 38,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48519362186788156,
+              "high": 0.571753986332574,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 439,
+            "wins": 213,
+            "losses": 188,
+            "decided": 401,
+            "rate": 0.5311720698254364,
+            "selected_unknown": 38,
+            "unknown_resolution_sensitivity": {
+              "low": 0.48519362186788156,
+              "high": 0.571753986332574,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "W0"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    },
+    {
+      "category": "rush_yd",
+      "available_case_mask_SHA256": "f6733f554704551376d0494826919650bd7ec666226295a40b023e4048c7cde2",
+      "available": 245,
+      "methods": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEAN_POINT",
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "largest_own_combined": [
+        {
+          "method": "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT",
+          "OVER": {
+            "selected": 60,
+            "wins": 28,
+            "losses": 23,
+            "decided": 51,
+            "rate": 0.5490196078431373,
+            "selected_unknown": 9,
+            "unknown_resolution_sensitivity": {
+              "low": 0.4666666666666667,
+              "high": 0.6166666666666667,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "UNDER": {
+            "selected": 185,
+            "wins": 104,
+            "losses": 74,
+            "decided": 178,
+            "rate": 0.5842696629213483,
+            "selected_unknown": 7,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5621621621621622,
+              "high": 0.6,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "COMBINED": {
+            "selected": 245,
+            "wins": 132,
+            "losses": 97,
+            "decided": 229,
+            "rate": 0.5764192139737991,
+            "selected_unknown": 16,
+            "unknown_resolution_sensitivity": {
+              "low": 0.5387755102040817,
+              "high": 0.6040816326530613,
+              "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+            }
+          },
+          "actual_decided_weeks": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "largest_forecast_product": [
+        "C-ALL12-LAW-THRESHOLD-v2.1::rush_yd::H-MULTI::P2_LEAF::E0_OP::MEDIAN_POINT"
+      ],
+      "scope": "Exact same available opportunities; own complete decisions/ties differ and are disclosed. Historical descriptive maximum; no total ranking across masks or future superiority."
+    }
+  ],
+  "unavailable_arms_not_losers": true,
+  "global_ABC_champion": "NOT_ESTABLISHED;A/B new-frame joins pending, simulator unavailable"
+}

@@ -1,0 +1,21 @@
+{
+  "decision": "STOP_NO_VALID_CANARY",
+  "cumulative_canary_CPU": 59.093234438,
+  "canary_CPU_cap": 60,
+  "generation_CPU": 0,
+  "completed_game_origins": 0,
+  "trajectories": 0,
+  "failed_origins_with_records": 33,
+  "retained_optimizer_records": 32,
+  "retained_termination_counts": {
+    "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT": 32
+  },
+  "first_failure_optimizer_record": "NOT_RETAINED_DUE_TO_REPAIRED_HANDLER_BUG",
+  "controller_interrupt": "One in-flight final origin may be interrupted; exact last optimizer vector not retained; no automatic resume/retry",
+  "D_P_retention_implementation": "Completed compile-only; actual canary write/reopen NOT_RUN",
+  "runtime_law_mutation": "Forecast worker sampling/mutation/conservation NOT_RUN; initial NFL objective gradient PASS only",
+  "full_remainder_projection": "NOT_QUALIFIED_WITHOUT_VALID_CANARY",
+  "remaining_registered_origins": "Remain not-run; no expanded canary allowance or iteration/seed/configuration change",
+  "scientific_result": "RUNTIME_INCOMPLETE_NOT_MODEL_ACCURACY_LOSS",
+  "next_action": "C requires separately scoped numerical-completion authorization before changing100iteration guard or canary cap; preserve inputs/starts/failures. Independently score frozen saved controls now."
+}

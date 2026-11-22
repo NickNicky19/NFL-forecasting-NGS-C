@@ -1,0 +1,280 @@
+{
+  "browser": "Not rerun; actual published bytes and source-defined consumer fields/points/lines/rank bindings checked. No directbrowser/mobilerender acceptance claim.",
+  "capture": {
+    "all_capture_points_and_lines_match_published_board": true,
+    "bytes": 35280,
+    "earliest_kickoff_UTC": "2026-11-22T18:00Z",
+    "every_row_persisted_before_own_kickoff": true,
+    "forecast_generated_UTC": "2026-11-22T16:07:11Z",
+    "latest_kickoff_UTC": "2026-11-24T01:15Z",
+    "line_source_counts": {
+      "dk": 542,
+      "ours": 878,
+      "sleeper": 23
+    },
+    "meaning": "New genuine baseline/reference forecast issuance/capture; not simulator trajectories, paired SIM confirmation, research picks/wins or primary activation.",
+    "path": "data/current-classic/2026/w11/919ebdd1c12cf027f1bdad6af9bc3fee42b3456966a72ce08612d482879ab597.json.gz",
+    "payload_sha256": "7974643d4eef2598e788dc014a79c270d012da8223f5243e32806a7cb0611fc2",
+    "persisted_UTC": "2026-11-22T16:07:14Z",
+    "presence_counts": {
+      "adjusted_projection_null": 175,
+      "adjusted_projection_observed_zero": 1,
+      "raw_projection_null": 197,
+      "raw_projection_observed_zero": 13
+    },
+    "presence_scope": "Retained projection outputzero versusnull only; not independent source-statistic completeness authentication.",
+    "probability_or_EV_rows": 0,
+    "projection_source_by_line_source": [
+      {
+        "line_source": "ours",
+        "projection_source": "average",
+        "rows": 197
+      },
+      {
+        "line_source": "ours",
+        "projection_source": "fixed",
+        "rows": 175
+      },
+      {
+        "line_source": "dk",
+        "projection_source": "model",
+        "rows": 542
+      },
+      {
+        "line_source": "ours",
+        "projection_source": "model",
+        "rows": 506
+      },
+      {
+        "line_source": "sleeper",
+        "projection_source": "model",
+        "rows": 23
+      }
+    ],
+    "projection_source_counts": {
+      "average": 197,
+      "fixed": 175,
+      "model": 1071
+    },
+    "rows": 1443,
+    "sha256": "8105648ac614d061e6a4850fe8ef6b3596aa636880e5c4ba4873eefe87da3ae9",
+    "source_timestamps_verified": false,
+    "unique_player_game_categories": 1443,
+    "unknown_provider_clock": true,
+    "unknown_quote_clock": true
+  },
+  "checked_UTC": "2026-11-22T16:27:09.032988+00:00",
+  "consumer": {
+    "MAE_display_pointer": "Prior source404; no new MAE admission established in this read",
+    "actual_source_app": "CAHTTPS served app bytes match registered e096048...source; rendered/browser parity not rerun for unchanged source",
+    "admitted_research_rows": 0,
+    "examples": [
+      {
+        "category": "pass_yd",
+        "forecast_source": "CURRENT_BASELINE",
+        "game_id": "401873067",
+        "line": 161.5,
+        "player_id": "260",
+        "point": 186.64,
+        "point_type": "OTHER_REFERENCE_POINT_NOT_DECLARED_MEAN_OR_MEDIAN",
+        "raw_provider_point": 175.25,
+        "side": "over"
+      },
+      {
+        "category": "pass_yd",
+        "forecast_source": "CURRENT_BASELINE",
+        "game_id": "401873067",
+        "line": 246.5,
+        "player_id": "4046",
+        "point": 279.92,
+        "point_type": "OTHER_REFERENCE_POINT_NOT_DECLARED_MEAN_OR_MEDIAN",
+        "raw_provider_point": 277.97,
+        "side": "over"
+      }
+    ],
+    "expiry_verification_scope": {
+      "browser_expiry_or_rollback_test": "NOT_RERUN_UNCHANGED_SOURCE; no new candidate activated",
+      "new_capture_every_row_persisted_before_own_kickoff": true,
+      "new_selected_research_rows": 0,
+      "no_new_learned_expiry_path_exercised": true,
+      "saved_ranking_interpretation": "Two started-game records remain preserved history; not newly issued current recommendations.",
+      "saved_ranking_old_slots": 2
+    },
+    "fallback": "Existing source-qualified incumbent fallback; missing statistics/projections not converted tozero",
+    "overlay_state": "DISABLED_USE_R0",
+    "point_and_probability_scope": "Capture numerical outputs are baseline OTHER reference points, not declared mean/median. All capture probability/EV fields are null; inherited uncalibrated TD display is separate and unchanged.",
+    "point_type": "OTHER reference point; no new mean/median or confidence product",
+    "provider_fallback_attribution": "Provider/model source, own-history average source and fixed inherited TD presentation remain distinct; no row is called a new learned simulator forecast.",
+    "ranking_board_and_overlay_bindings_match": true,
+    "ranking_counts": {
+      "over": 12,
+      "under": 12
+    },
+    "ranking_is_saved_complete_policy_not_native_legacy_flag_equivalence": true,
+    "ranking_policy": "selected-projection-gap-classic-presence-v2",
+    "ranking_policy_sha256": "551ee07861774ba2c90ad0e8097136c359807f92843dde5cd4b96ecffbe958ed",
+    "ranking_postcutoff_preserved_rows": 2,
+    "ranking_sources": {
+      "CURRENT_BASELINE": 24
+    },
+    "saved_selected_record_checks": {
+      "capacity_caps_preserved": true,
+      "every_declared_side_matches_registered_margin": true,
+      "every_point_matches_served_board": true,
+      "every_score_matches_registered_scale_at_tolerance_1e_12": true,
+      "independent_full_candidate_reranking": "NOT_PERFORMED_UNCHANGED_EXISTING_SELECTOR; this is selected-record consumer arithmetic only",
+      "one_per_player_per_side": true,
+      "records": 24
+    }
+  },
+  "current_grader": "statistical-presence-verified-int-v7-20261112",
+  "current_model": "sleeper-matchup-classic-presence-strict-v2",
+  "deployed_data_commit": "920d131d40565c9c8c92ebf82044150648f70ef5",
+  "grading_and_claims": {
+    "legacy_advisory": {
+      "missing_requirements": [
+        "Exact retained builder roster",
+        "Same observed source-input closure"
+      ],
+      "model": "sleeper-matchup-classic-presence-strict-v2",
+      "normalized_stats_cache": "stat-keys-presence-strict-v3",
+      "numerical_parity_passed": false,
+      "provider_requests": 0,
+      "required_checks": "Mandatory current source/integrity/capture checks are separate; no accuracy claim.",
+      "schema_version": "legacy-diagnostic-scope-v2",
+      "status": "NOT_EVALUATED_CURRENT_MODEL_INPUT_CLOSURE_REQUIRED"
+    },
+    "new_SIM_paired_confirmation": false,
+    "new_grading_by_child": false,
+    "new_research_activation": false,
+    "new_simulator_primary": false,
+    "prospective_SIM_rule": "Root/C must predeclare frozen recipe, cohort/horizon/primary comparator/coverage/multiplicity before first SIM target outcome; baselinecapture is not that confirmation by itself.",
+    "trajectory_generation": false
+  },
+  "job_id": 137268040521,
+  "preservation": {
+    "all_same_Git_blob_and_size": true,
+    "all_same_starter_Git_blob": true,
+    "previous_week11_captures": 5,
+    "proof_sha256": "da0d58fd69cc8309226eb57c7023caf05dc819bb234a92fcf8a1ff723dd64d2e",
+    "scope": "Metadata integrity of specific previous capture and comparison archive bodies. No blanket lifetime/outcome-source authentication claimed.",
+    "source_W4_W9_archives": 6
+  },
+  "producer_source_commit": "a59e32627836bedde65fbfeb5276ab0bc5807945",
+  "public_metadata_only": true,
+  "published_proofs": [
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 1319,
+      "git_blob_sha1": "28051c7e8c899618738edf4b503b61a54408fd75",
+      "path": "output/data/health.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/health.json",
+      "raw_received_UTC": "2026-11-22T16:24:46.489465+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/health.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:46.665079+00:00",
+      "served_status": 200,
+      "sha256": "2f06a896f2fc7f3d7ed30b52c609eef90d8ee3d004aefe7a6f450edbb695fb13"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 3367205,
+      "git_blob_sha1": "3813025359fa5c2473b5e91c3d435035236b160f",
+      "path": "output/data/week.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/week.json",
+      "raw_received_UTC": "2026-11-22T16:24:46.632030+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/week.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:47.047491+00:00",
+      "served_status": 200,
+      "sha256": "6c84b141ea354d1c29fd7f7bfc5189db10440de10bbca67ffbd5b853dcdfc0f0"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 333,
+      "git_blob_sha1": "a32473abec48e5d96c7a09f5f7ea49d4ef92bbc2",
+      "path": "output/data/weekly-adaptive-overlay.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/weekly-adaptive-overlay.json",
+      "raw_received_UTC": "2026-11-22T16:24:46.479173+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-adaptive-overlay.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:46.693476+00:00",
+      "served_status": 200,
+      "sha256": "b6755c4bb13bdb7cd3bcf130757cb6cf8a64437e445f609e689192ceaf7752cb"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 474,
+      "git_blob_sha1": "faaac2de3fbcaac55a7d40e21a8a221fc9f2939d",
+      "path": "output/data/weekly-selected-rankings.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/weekly-selected-rankings.json",
+      "raw_received_UTC": "2026-11-22T16:24:46.870928+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-selected-rankings.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:46.962267+00:00",
+      "served_status": 200,
+      "sha256": "6f6bc2465e2dcae979eb0a5d5ef706fd0ce647a18f3c81bc817d159392162b49"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 369079,
+      "git_blob_sha1": "5f50453331746e0d944699fc76f5f2fdc56886a0",
+      "path": "output/app.js",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/app.js",
+      "raw_received_UTC": "2026-11-22T16:24:46.952538+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/app.js",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:47.120804+00:00",
+      "served_status": 200,
+      "sha256": "e096048c614ffa50b4c0b39776f2e361d503882ab0a27a8265436175fd207ba8"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 804,
+      "git_blob_sha1": "a869a2789fa53d5a6bb48dcac7e76b7489262bae",
+      "path": "output/data/weekly-adaptive/9ff04bd7d8a1689f4d4b2319cae393e85046410d627aab336f132356ba6d7a01.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/weekly-adaptive/9ff04bd7d8a1689f4d4b2319cae393e85046410d627aab336f132356ba6d7a01.json",
+      "raw_received_UTC": "2026-11-22T16:24:47.397534+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-adaptive/9ff04bd7d8a1689f4d4b2319cae393e85046410d627aab336f132356ba6d7a01.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:47.680215+00:00",
+      "served_status": 200,
+      "sha256": "9ff04bd7d8a1689f4d4b2319cae393e85046410d627aab336f132356ba6d7a01"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 12283,
+      "git_blob_sha1": "a9da07991631ad4efabe1e4ec07864caad874ee6",
+      "path": "output/data/weekly-selected-rankings/dccccd01a3223e2ab1cf0ca5f40117dcd940255c42829441b366775505296d42.json",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/output/data/weekly-selected-rankings/dccccd01a3223e2ab1cf0ca5f40117dcd940255c42829441b366775505296d42.json",
+      "raw_received_UTC": "2026-11-22T16:24:47.399251+00:00",
+      "raw_status": 200,
+      "served_URL": "https://nicknicky19.github.io/nicks-expert-nfl-picks/data/weekly-selected-rankings/dccccd01a3223e2ab1cf0ca5f40117dcd940255c42829441b366775505296d42.json",
+      "served_bytes_match": true,
+      "served_received_UTC": "2026-11-22T16:24:47.521003+00:00",
+      "served_status": 200,
+      "sha256": "dccccd01a3223e2ab1cf0ca5f40117dcd940255c42829441b366775505296d42"
+    },
+    {
+      "CA_verified_HTTPS": true,
+      "bytes": 35280,
+      "git_blob_sha1": "bd4ae1edc5769d3ba387c3224a187f5b9ebecfbd",
+      "path": "data/current-classic/2026/w11/919ebdd1c12cf027f1bdad6af9bc3fee42b3456966a72ce08612d482879ab597.json.gz",
+      "raw_URL": "https://raw.githubusercontent.com/NickNicky19/nicks-expert-nfl-picks/920d131d40565c9c8c92ebf82044150648f70ef5/data/current-classic/2026/w11/919ebdd1c12cf027f1bdad6af9bc3fee42b3456966a72ce08612d482879ab597.json.gz",
+      "raw_received_UTC": "2026-11-22T16:24:47.953200+00:00",
+      "raw_status": 200,
+      "sha256": "8105648ac614d061e6a4850fe8ef6b3596aa636880e5c4ba4873eefe87da3ae9"
+    }
+  ],
+  "repository": "NickNicky19/nicks-expert-nfl-picks",
+  "run_id": 45041921881,
+  "schema": "original-site-current-delivery-shared-sim-v3-v1",
+  "source_files_unchanged": true,
+  "source_files_unchanged_scope": "Served app bytehash matches registered e096048; source-defined scoring/ranker hashes were independently matched in initial current-source intake; native execution contract matches the published board. Parent owns the updater/source-guard execution receipt. No separate fullsource rerun was performed."
+}

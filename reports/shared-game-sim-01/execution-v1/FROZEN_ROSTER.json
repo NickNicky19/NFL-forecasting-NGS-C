@@ -1,0 +1,28 @@
+{
+  "state": "FROZEN_BEFORE_NEW_SIMULATOR_GRADES",
+  "A_candidates": 35,
+  "B_candidates": 36,
+  "C_entries": 36,
+  "bindings": [
+    {
+      "path": "reports/shared-game-sim-01/roster/C_SHORTLIST.json",
+      "bytes": 324279,
+      "SHA256": "385d230395c6b04867010bd8e1a17348df2d255fd7f717c940f0f85ec3263786"
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/A_CANDIDATE_HANDOFF_V1.json",
+      "bytes": 108038,
+      "SHA256": "40587a5a1e9612fe0b2883f6085b5b6278486c8a4c3b5a8601c2de74a371b8e3"
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/B_FROZEN_CANDIDATE_ROSTER_V3.json",
+      "bytes": 182640,
+      "SHA256": "d23b7ac1f7dcd462d26f61e465862c8c439b727d26e19a67c6fddcf9c8ec9309"
+    }
+  ],
+  "A": "A alone executes protected saved-output join; awaiting permitted new-frame result; no refits",
+  "B": "B alone executes its permitted saved-output joins; awaiting result; law-query gaps retained",
+  "C": "Only saved origin outputs; same-case point/law availability scored separately; P1 origin inference remains scoped gap",
+  "no_hindsight_replacement": true,
+  "unavailable_contenders_not_losers": true
+}

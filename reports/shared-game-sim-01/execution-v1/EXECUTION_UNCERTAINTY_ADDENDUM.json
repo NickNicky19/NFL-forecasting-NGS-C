@@ -1,0 +1,14 @@
+{
+  "scope": "Precision of completed versus unobserved interrupted work; no new fit/sampling/grade",
+  "confirmed_failed_core_origins": 33,
+  "retained_optimizer_initial_vectors": "All32 nonzero core initial vectors;childinitialvectors arezeros in frozen code. First trace explicitly core.",
+  "unlogged_final_origin": "Guard termination left its exact stage/parameters unobserved. Do not assert its optimizer, sampler or child stage never began.",
+  "completed_and_retained_game_sets": 0,
+  "completed_and_retained_trajectories": 0,
+  "sample_files_on_disk": 0,
+  "sampler_invocations_at_interruption": "NOT_RETAINED_OR_PROVED",
+  "confirmed_optimizer_invocations": 33,
+  "conservative_optimizer_invocations_upper_bound": 35,
+  "explanation": "One in-flight origin could have entered up to2jointstages; all charged CPU retained. No completed state/forecast bundle or NFLphysics PASS exists.",
+  "interpretation": "All0 trajectory counts in checkpoint mean completed/admitted/retained sets;not a claim of observed zero in-memory RNG calls at the unlogged interruption. Scientific accuracy remains N/A."
+}
