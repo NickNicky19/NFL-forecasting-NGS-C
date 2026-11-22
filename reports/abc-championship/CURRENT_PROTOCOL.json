@@ -60,8 +60,8 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 37856,
-    "SHA256": "4346c33c6441383a5b4f691f1351edf934c91d7086512ccef42719732f4788f3"
+    "bytes": 38365,
+    "SHA256": "bfac9268ae11ff0763f61d1df27e1ccfe8dab8b7ddb628a7b2b644bc0e69c741"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
@@ -3811,8 +3811,8 @@
     },
     "ledger": {
       "path": "reports/shared-game-sim-01/numerical-repair-v1/LEDGER.json",
-      "bytes": 6366,
-      "SHA256": "5343ac5cc139eed998cf807689758689910ead05a0940776971bd54af089edc9"
+      "bytes": 8522,
+      "SHA256": "2cf8e1ed9da24a9d37401a02d11c1c5513120b02f171ae655035d44f0f46efe3"
     },
     "gate": {
       "path": "reports/shared-game-sim-01/numerical-repair-v1/FULL_REMAINDER_GATE.json",
@@ -3843,7 +3843,18 @@
       "path": "reports/shared-game-sim-01/numerical-repair-v1/B_WEBSITE_HANDOFF_V2.json",
       "bytes": 2046,
       "SHA256": "efa52a2cbfc68d171b977512c9ff0389ae6a8a099fd22127c2465cf6a1a13e0e"
-    }
+    },
+    "remote_readback": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FINAL_PUBLICATION_READBACK.json",
+      "bytes": 1468,
+      "SHA256": "28fe47623481f4801601cade21020f76cc2952ee8cd9eda2bd1be14192e508d8"
+    },
+    "final_accounting": {
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FINAL_ACCOUNTING.json",
+      "bytes": 1060,
+      "SHA256": "773a2d0ca41977b0bed914baa3bbb2276811882fe08f483d43a3cfe5973453c9"
+    },
+    "actual_GitHub_report_machine_restoration": true
   },
   "shared_game_sim_01_saved_method_followthrough": {
     "id": "C-SAVED-METHOD-FOLLOWTHROUGH-v1",

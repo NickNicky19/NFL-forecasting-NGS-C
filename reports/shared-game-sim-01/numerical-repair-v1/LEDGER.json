@@ -20,11 +20,11 @@
   },
   "approval_commit": "0f5859c661c0404b02f0914826cf560f1754ed24",
   "approval": "User expressly approves pinned request once;PR65 remains draft",
-  "charged_CPU_seconds": 298.75865703400007,
-  "charged_controlled_wall_seconds": 399.45929268300034,
+  "charged_CPU_seconds": 299.1296492620001,
+  "charged_controlled_wall_seconds": 400.76790404599825,
   "canary_CPU_seconds": 72.629575547,
   "source_recovery_reads": 0,
-  "output_readbacks": 9,
+  "output_readbacks": 11,
   "baseline_whole_C_bytes": 1291840516,
   "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
   "deadline_UTC": "2026-11-23T00:05:20.108935+00:00",
@@ -154,6 +154,36 @@
       "canary": false,
       "UTC": "2026-11-22T21:58:12.976896+00:00",
       "details": null
+    },
+    {
+      "stage": "Exact output restoration readable_report",
+      "CPU_seconds": 0.18136171199999998,
+      "controlled_wall_seconds": 0.6039174249999633,
+      "canary": false,
+      "UTC": "2026-11-22T22:00:43.712293+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 12058624,
+        "threads": 1,
+        "command_SHA256": "c9ad2bcf1904c267d83d74c59035bfb402e95d53056542417faadc506c13d650",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Exact output restoration machine_result",
+      "CPU_seconds": 0.189630516,
+      "controlled_wall_seconds": 0.7046939379979449,
+      "canary": false,
+      "UTC": "2026-11-22T22:00:55.126588+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 12320768,
+        "threads": 1,
+        "command_SHA256": "45bfe1fe7f0e15dd8fc0bd834253700bddf9f0961457de9fc72a85b1a1c52013",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
     }
   ],
   "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate.",
@@ -167,6 +197,26 @@
       "SHA256": "c95be3f058f869918659c8cd12074a3dea9d901722dbb44f8b9b359082d15b37",
       "UTC": "2026-11-22T21:44:50.579373+00:00",
       "completed_UTC": "2026-11-22T21:44:51.072669+00:00"
+    },
+    "readable_report": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/README.md",
+      "commit": "14f2e317c0a02de9ae112ebc7282d0067a32f2ce",
+      "blob": "6f29184dba9216fd46f8bd6baa6585f688f19c24",
+      "bytes": 8488,
+      "SHA256": "3bba76461ef766a5924caa8f405d9efc028ec06c62aad3917050ca00bf41b56d",
+      "UTC": "2026-11-22T22:00:43.155285+00:00",
+      "completed_UTC": "2026-11-22T22:00:43.678718+00:00"
+    },
+    "machine_result": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/RESULTS.json.gz",
+      "commit": "14f2e317c0a02de9ae112ebc7282d0067a32f2ce",
+      "blob": "a86d343ed6c2ce3f56e49474b24e08a63fe0de0e",
+      "bytes": 140429,
+      "SHA256": "99d8f4516cb93f8ea4aa9f4005b66c605a16c65adf3e9b54a52b969d7c5c0ba5",
+      "UTC": "2026-11-22T22:00:54.470805+00:00",
+      "completed_UTC": "2026-11-22T22:00:55.106971+00:00"
     }
   }
 }

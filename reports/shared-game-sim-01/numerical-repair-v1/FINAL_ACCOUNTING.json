@@ -1,0 +1,28 @@
+{
+  "UTC": "2026-11-22T22:02:03.425514+00:00",
+  "CPU_seconds": 299.1296492620001,
+  "CPU_cap": 1800,
+  "controlled_wall_seconds": 400.76790404599825,
+  "controlled_wall_cap": 7200,
+  "canary_cumulative_CPU": 72.629575547,
+  "canary_cap": 180,
+  "canary_package": "CLOSED_FIRST_FAILURE;UNSPENTISNOTRESTARTPERMISSION",
+  "new_canary_CPU": 13.536341108999999,
+  "output_reads": 11,
+  "output_cap": 20,
+  "source_reads": 0,
+  "source_cap": 8,
+  "completion_reserve": 380,
+  "original_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+  "elapsed_seconds": 14203.316592,
+  "elapsed_cap": 21600,
+  "fixed_deadline": "2026-11-23T00:05:20.108935+00:00",
+  "old_elapsed_overrun_preserved": true,
+  "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate.",
+  "storage": {
+    "current_whole_bytes": 1371991988,
+    "current_new_bytes": 80151472,
+    "baseline_whole_C_bytes": 1291840516,
+    "duplication_multiplier": 3
+  }
+}
