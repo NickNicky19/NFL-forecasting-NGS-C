@@ -1,0 +1,4285 @@
+{
+  "id": "B-SHARED-GAME-SIM-01-FROZEN-CANDIDATE-ROSTER-V3",
+  "UTC": "2026-11-22T16:33:31.885276+00:00",
+  "state": "B_OWNER_ROSTER_FROZEN_BEFORE_ANY_NEW_SIMULATOR_GRADES;C_RECEIPT_PENDING",
+  "scope": "36 category/procedure nominations, not 36 independent learner families. Source inventories and imported/variant lineage retained; not a universal ranking of incompatible historical panels. No new fit, inference or grade.",
+  "primary_information": "S-P declared provider plus earlier football fields; these retained B controls are not established same-information D-P",
+  "whole_frame": {
+    "cases": 3474,
+    "unique_case_ids": 3474,
+    "categories": [
+      "pass_yd",
+      "pass_td",
+      "pass_cmp",
+      "pass_att",
+      "pass_int",
+      "rush_yd",
+      "rush_att",
+      "rec",
+      "rec_yd",
+      "rush_rec_yd"
+    ],
+    "games": 74,
+    "player_games": 1156,
+    "unknown_outcomes": 464,
+    "venues": {
+      "dk": 3368,
+      "sleeper": 106
+    },
+    "point_source_flags": {
+      "model": 3468,
+      "average": 6
+    },
+    "case_membership_sha256": "15ecec81836f0f2ef5dc08dcc86315e8b35f2debb4ebad276cb89ee347b53f2d",
+    "role_by_category": {
+      "pass_yd": {
+        "QB": 148
+      },
+      "pass_td": {
+        "QB": 148
+      },
+      "pass_cmp": {
+        "QB": 148
+      },
+      "pass_att": {
+        "QB": 148
+      },
+      "pass_int": {
+        "QB": 148
+      },
+      "rush_yd": {
+        "RB": 293,
+        "QB": 146
+      },
+      "rush_att": {
+        "RB": 226
+      },
+      "rec": {
+        "RB": 217,
+        "WR": 468,
+        "TE": 237
+      },
+      "rec_yd": {
+        "RB": 219,
+        "WR": 469,
+        "TE": 237
+      },
+      "rush_rec_yd": {
+        "RB": 211,
+        "WR": 11
+      }
+    },
+    "identity_namespace": "All3474gameandplayerIDsare numericwebsite/ESPNnamespace; not automaticallyBcanonicalNFL/GSIS. Usequalifiedexplicitbridge, nevernames."
+  },
+  "categories": [
+    {
+      "category": "pass_yd",
+      "candidate_ids": [
+        "B-SIM-pass_yd-D2_LEAF",
+        "B-SIM-pass_yd-DIRECT_GLM",
+        "B-SIM-pass_yd-EMPIRICAL"
+      ],
+      "website_cases": 148,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "pass_td",
+      "candidate_ids": [
+        "B-SIM-pass_td-D2_LEAF",
+        "B-SIM-pass_td-HGB",
+        "B-SIM-pass_td-EMPIRICAL"
+      ],
+      "website_cases": 148,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "pass_cmp",
+      "candidate_ids": [
+        "B-SIM-pass_cmp-R3_FTN_LEAF",
+        "B-SIM-pass_cmp-SKILL_R0_MIX",
+        "B-SIM-pass_cmp-DIRECT_GLM"
+      ],
+      "website_cases": 148,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "pass_att",
+      "candidate_ids": [
+        "B-SIM-pass_att-C02_LEAF",
+        "B-SIM-pass_att-HGB",
+        "B-SIM-pass_att-COMMON_EXPOSURE"
+      ],
+      "website_cases": 148,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "pass_int",
+      "candidate_ids": [
+        "B-SIM-pass_int-C02_LEAF",
+        "B-SIM-pass_int-EMPIRICAL",
+        "B-SIM-pass_int-DIRECT_GLM"
+      ],
+      "website_cases": 148,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "rush_yd",
+      "candidate_ids": [
+        "B-SIM01-9e315e876799c2e77d",
+        "B-SIM01-0191d8e94ca3c95b6f",
+        "B-SIM01-67e9e4bbbb14aa34f8"
+      ],
+      "website_cases": 439,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "rush_att",
+      "candidate_ids": [
+        "B-SIM01-6bac0483d2935fa2c3",
+        "B-SIM01-4bd13ee88b054e1232",
+        "B-SIM01-3721ee2031f785793b"
+      ],
+      "website_cases": 226,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "rec",
+      "candidate_ids": [
+        "B-SIM01-2d9fb1d864929a32c4",
+        "B-SIM01-c0b1b9acab53581d97",
+        "B-SIM01-f0b13c56dbdd37a2b3"
+      ],
+      "website_cases": 922,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "rec_yd",
+      "candidate_ids": [
+        "B-SIM01-42da71d8bb5df4f101",
+        "B-SIM01-ccd2e93409415f7dfe",
+        "B-SIM01-96d546b3cdf53b47a5"
+      ],
+      "website_cases": 925,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "rush_rec_yd",
+      "candidate_ids": [
+        "B-SIM01-2e4ee2f3e48fa5acd5",
+        "B-SIM01-07cbacd3f2987569d7",
+        "B-SIM01-3255df04669b646b8a"
+      ],
+      "website_cases": 222,
+      "current_status": "CANONICAL_JOIN_PENDING",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "anytime_td",
+      "candidate_ids": [
+        "B-SIM01-7c0f4afad04b58e53f",
+        "B-SIM01-a5f6e3b098f93c5230",
+        "B-SIM01-93c4330014bdb92d48"
+      ],
+      "website_cases": 0,
+      "current_status": "NO_MATCHING_OFFER_IN_STARTER",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    },
+    {
+      "category": "nick-chart-ppr-v1",
+      "candidate_ids": [
+        "B-SIM01-b0c10fe4c98abf87b3",
+        "B-SIM01-35e800c0ad60b8d664",
+        "B-SIM01-4b8cc0061c9691cfc1"
+      ],
+      "website_cases": 0,
+      "current_status": "NO_MATCHING_OFFER_IN_STARTER",
+      "category_release": "NO_NEW_PRIMARY_PRODUCT"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "B-SIM-pass_yd-D2_LEAF",
+      "category": "pass_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "mean",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Qualified defense-rate Leaf-CDF",
+      "family_lineage": "Same32-tree ExtraTrees Leaf-CDF with own20features plus D2 nine qualified opponent total/rate/support/age columns;95%leaf empirical law+5%same-arm role/global prior",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 0
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 26,
+            "losses": 14,
+            "decided": 40,
+            "rate": 0.65
+          },
+          "under": {
+            "wins": 8,
+            "losses": 8,
+            "decided": 16,
+            "rate": 0.5
+          },
+          "Combined": {
+            "wins": 34,
+            "losses": 22,
+            "decided": 56,
+            "rate": 0.6071428571428571
+          }
+        },
+        "eligible": 84,
+        "available": 56,
+        "selected": 56,
+        "decided": 56,
+        "unavailable": 28,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 28,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6071428571428571,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_yd-D2_LEAF",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": [
+          6
+        ]
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_yd-DIRECT_GLM",
+      "category": "pass_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Regularized direct signed-yard law",
+      "family_lineage": "Regularized signed-yard location predictor plus earlier-residual discrete-Laplace law; no Poisson law for signedyards",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 1
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 33,
+            "losses": 19,
+            "decided": 52,
+            "rate": 0.6346153846153846
+          },
+          "under": {
+            "wins": 13,
+            "losses": 15,
+            "decided": 28,
+            "rate": 0.4642857142857143
+          },
+          "Combined": {
+            "wins": 46,
+            "losses": 34,
+            "decided": 80,
+            "rate": 0.575
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.575,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_yd-DIRECT_GLM",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": [
+          6
+        ]
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_yd-EMPIRICAL",
+      "category": "pass_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1:known-target-time-v1",
+      "history": "H-MULTI",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Earlier-player empirical median",
+      "family_lineage": "Same-history earlier player sample, then same-target same-position sample and registeredzero startup fallback",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 2
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 20,
+            "losses": 11,
+            "decided": 31,
+            "rate": 0.6451612903225806
+          },
+          "under": {
+            "wins": 21,
+            "losses": 28,
+            "decided": 49,
+            "rate": 0.42857142857142855
+          },
+          "Combined": {
+            "wins": 41,
+            "losses": 39,
+            "decided": 80,
+            "rate": 0.5125
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5125,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "POINT_BODY_REOPENED; empirical CSV stores original product and prediction, not a complete saved empirical support/PMF. No probability recovery claim.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_yd-EMPIRICAL",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-D2_LEAF",
+      "category": "pass_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "history": "H-RECENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Qualified defense-rate Leaf-CDF",
+      "family_lineage": "Same Leaf-CDF/D2 supported opponent rates; count PMF distinct from expectedTD mean",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 3
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 7,
+            "losses": 2,
+            "decided": 9,
+            "rate": 0.7777777777777778
+          },
+          "under": {
+            "wins": 30,
+            "losses": 17,
+            "decided": 47,
+            "rate": 0.6382978723404256
+          },
+          "Combined": {
+            "wins": 37,
+            "losses": 19,
+            "decided": 56,
+            "rate": 0.6607142857142857
+          }
+        },
+        "eligible": 84,
+        "available": 56,
+        "selected": 56,
+        "decided": 56,
+        "unavailable": 28,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 28,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6607142857142857,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_td-D2_LEAF",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-HGB",
+      "category": "pass_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:squared_error_mean:known-target-time-v1",
+      "history": "H-MULTI",
+      "primary_output": "squared_error_mean",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Direct squared-error boosting point",
+      "family_lineage": "HistGradientBoosting squared_error trained on eligible earlier target history; pointmean only, no probability invented",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 4
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 25,
+            "losses": 19,
+            "decided": 44,
+            "rate": 0.5681818181818182
+          },
+          "under": {
+            "wins": 26,
+            "losses": 10,
+            "decided": 36,
+            "rate": 0.7222222222222222
+          },
+          "Combined": {
+            "wins": 51,
+            "losses": 29,
+            "decided": 80,
+            "rate": 0.6375
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6375,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_td-HGB",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-EMPIRICAL",
+      "category": "pass_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1:known-target-time-v1",
+      "history": "H-RECENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Earlier-player empirical median",
+      "family_lineage": "Same-history earlier player/position sample and originalfallback",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 5
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 17,
+            "losses": 12,
+            "decided": 29,
+            "rate": 0.5862068965517241
+          },
+          "under": {
+            "wins": 33,
+            "losses": 18,
+            "decided": 51,
+            "rate": 0.6470588235294118
+          },
+          "Combined": {
+            "wins": 50,
+            "losses": 30,
+            "decided": 80,
+            "rate": 0.625
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.625,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "POINT_BODY_REOPENED; empirical CSV stores original product and prediction, not a complete saved empirical support/PMF. No probability recovery claim.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_td-EMPIRICAL",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-C02_LEAF",
+      "category": "pass_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Strict-current ordered Leaf-CDF",
+      "family_lineage": "32-tree own-history ordered Leaf-CDF with explicit lag features;95/5 empirical/prior count law",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 6
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 24,
+            "losses": 15,
+            "decided": 39,
+            "rate": 0.6153846153846154
+          },
+          "under": {
+            "wins": 26,
+            "losses": 15,
+            "decided": 41,
+            "rate": 0.6341463414634146
+          },
+          "Combined": {
+            "wins": 50,
+            "losses": 30,
+            "decided": 80,
+            "rate": 0.625
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.625,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_att-C02_LEAF",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": [
+          6
+        ]
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-HGB",
+      "category": "pass_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "history": "H-MULTI",
+      "primary_output": "absolute_error_point",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Direct absolute-error boosting point",
+      "family_lineage": "HistGradientBoosting absolute_error point objective on earlier own-history features",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 7
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 11,
+            "losses": 3,
+            "decided": 14,
+            "rate": 0.7857142857142857
+          },
+          "under": {
+            "wins": 38,
+            "losses": 28,
+            "decided": 66,
+            "rate": 0.5757575757575758
+          },
+          "Combined": {
+            "wins": 49,
+            "losses": 31,
+            "decided": 80,
+            "rate": 0.6125
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6125,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_att-HGB",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-C02_LEAF",
+      "category": "pass_int",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Ordered own-history Leaf-CDF",
+      "family_lineage": "Own target-history empirical-leaf countlaw; explicitzero/null/presence sourcecontracts retained",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 8
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 9,
+            "losses": 3,
+            "decided": 12,
+            "rate": 0.75
+          },
+          "under": {
+            "wins": 41,
+            "losses": 27,
+            "decided": 68,
+            "rate": 0.6029411764705882
+          },
+          "Combined": {
+            "wins": 50,
+            "losses": 30,
+            "decided": 80,
+            "rate": 0.625
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.625,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_int-C02_LEAF",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-EMPIRICAL",
+      "category": "pass_int",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1:known-target-time-v1",
+      "history": "H-RECENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Earlier-player empirical median",
+      "family_lineage": "Player intercept-free empirical outcome sample with role/history pooledfallback",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 9
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 18,
+            "losses": 14,
+            "decided": 32,
+            "rate": 0.5625
+          },
+          "under": {
+            "wins": 30,
+            "losses": 18,
+            "decided": 48,
+            "rate": 0.625
+          },
+          "Combined": {
+            "wins": 48,
+            "losses": 32,
+            "decided": 80,
+            "rate": 0.6
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "POINT_BODY_REOPENED; empirical CSV stores original product and prediction, not a complete saved empirical support/PMF. No probability recovery claim.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_int-EMPIRICAL",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-DIRECT_GLM",
+      "category": "pass_int",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Regularized direct count law",
+      "family_lineage": "Penalized Poisson log-link count law on original own-history inputs; marginalbenchmark only, notjointlycomposable with independentattempts",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 10
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 0,
+            "losses": 0,
+            "decided": 0,
+            "rate": null
+          },
+          "under": {
+            "wins": 44,
+            "losses": 36,
+            "decided": 80,
+            "rate": 0.55
+          },
+          "Combined": {
+            "wins": 44,
+            "losses": 36,
+            "decided": 80,
+            "rate": 0.55
+          }
+        },
+        "eligible": 84,
+        "available": 80,
+        "selected": 80,
+        "decided": 80,
+        "unavailable": 4,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": {
+          "mae": null,
+          "mse": null
+        },
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.55,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "ORIGINAL_GZIP_JSON_POINT_PACKET_REOPENED; prediction is selected product float, distribution_summary has original mean/lower_median. Leaf law_reference may be leaf IDs only, not a complete tail-probability payload. Primary nominated point decisions need no fit; arbitrary new-line law probability remains unqualified unless original full law source is separately restored.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_int-DIRECT_GLM",
+        "scored_weeks": [
+          5,
+          6,
+          7
+        ],
+        "recorded_fallback_weeks": []
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+      "category": "pass_cmp",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "history": "H-RECENT previousseason+earliercurrentlabels;expanding2022features",
+      "primary_output": "exact_count_law",
+      "frozen_decision_policy": "EXACT_LAW_MORE_PROBABLE_VALID_SIDE",
+      "method": "R3 Leaf-CDF with frozen FTN information increment",
+      "family_lineage": "Shared32-tree leaf empirical/prior conditionalcountlaw; B0andB2 are one learner family with distinctinformationrecipes, notmean/medianfamilies.",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 11
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "own_sides": {
+          "over": {
+            "decided": 55,
+            "losses": 22,
+            "rate": 0.6,
+            "selected": 55,
+            "wins": 33
+          },
+          "under": {
+            "decided": 171,
+            "losses": 82,
+            "rate": 0.52046783625731,
+            "selected": 171,
+            "wins": 89
+          },
+          "Combined": {
+            "decided": 226,
+            "losses": 104,
+            "rate": 0.5398230088495575,
+            "selected": 226,
+            "wins": 122
+          }
+        },
+        "eligible": 226,
+        "available": 226,
+        "selected": 226,
+        "decided": 226,
+        "unavailable": 0,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": {
+          "none": 226
+        },
+        "games": 119,
+        "numerical": {
+          "MAE": null,
+          "MSE": null,
+          "absolute_error_p90": null,
+          "bias": null,
+          "max_absolute_error": null,
+          "quantile_missing_reason": "Cannot reconstruct a pooled error quantile from private early aggregates.",
+          "scored": 0
+        },
+        "probability": {
+          "Brier": 0.266930857825374,
+          "Over_event_AUC": null,
+          "binary_Over_reliability_bins": [
+            {
+              "lower": 0.1,
+              "mean_predicted": 0.1669183757765947,
+              "n": 3,
+              "observed_over": 0.3333333333333333,
+              "upper": 0.2
+            },
+            {
+              "lower": 0.2,
+              "mean_predicted": 0.26370376605261125,
+              "n": 19,
+              "observed_over": 0.5789473684210527,
+              "upper": 0.3
+            },
+            {
+              "lower": 0.3,
+              "mean_predicted": 0.355341124475385,
+              "n": 62,
+              "observed_over": 0.532258064516129,
+              "upper": 0.4
+            },
+            {
+              "lower": 0.4,
+              "mean_predicted": 0.44611506400955925,
+              "n": 87,
+              "observed_over": 0.42528735632183906,
+              "upper": 0.5
+            },
+            {
+              "lower": 0.5,
+              "mean_predicted": 0.5344210346724375,
+              "n": 49,
+              "observed_over": 0.6326530612244898,
+              "upper": 0.6
+            },
+            {
+              "lower": 0.6,
+              "mean_predicted": 0.6349218796894337,
+              "n": 5,
+              "observed_over": 0.4,
+              "upper": 0.7
+            },
+            {
+              "lower": 0.7,
+              "mean_predicted": 0.706393600799008,
+              "n": 1,
+              "observed_over": 0.0,
+              "upper": 0.8
+            }
+          ],
+          "binary_event": "STRICT_Y_GREATER_THAN_LINE;PUSH_IS_NOT_OVER",
+          "conditioning": "Retained modeled-appearance law, qualified PLAYED statistical labels; venue settlement not authenticated.",
+          "events": 226,
+          "infinite_log_loss_cases": 0,
+          "missing_metric_reason": "Full-panel three-state Brier and AUC cannot be reconstructed from the early retained sufficient statistics.",
+          "reliability_scope": "BINARY_OVER_EVENT;NOT_SELECTED_SIDE_CONFIDENCE",
+          "three_state_Brier": null,
+          "three_state_log_loss": 0.7301061514811084
+        },
+        "uncertainty": {
+          "draws": 500,
+          "high": 0.5867023809523809,
+          "kind": "WHOLE_WEEK_WEIGHTED_BOOTSTRAP",
+          "limits": "Nominal exposed-development interval; nine limited clusters, repeated candidate selection, no multiplicity adjustment.",
+          "low": 0.494505946846428,
+          "seed": 1703,
+          "week_clusters": 9
+        },
+        "source": "reports/w1w9-comparison-closure-01/B/nine-week-completion/TABLES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "TYPED_GZIP_JSON_FORECASTS_REOPENED; separate mean/lower_median and complete leaf_mixture support/weights/prior/mixture law. Original actual/actual_status and profile fields are not new engine inputs.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recorded_fallback_weeks": "NOT_RETAINED"
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+      "category": "pass_cmp",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+      "history": "H-RECENT;7dayreconstruction;expanding2022featurememory",
+      "primary_output": "mean",
+      "frozen_decision_policy": "STRICT_POINT_VS_LINE",
+      "method": "Partially pooled predicted throw-mix and conversion",
+      "family_lineage": "Earlier-only learned25-context multinomialmix pi and conditional logisticconversion p; q=sum(pi*p), then gamma-Poissonattemptlaw thinnedbyq. Samequalifiedattemptlaw heldfixed.",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 12
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 19,
+            "losses": 15,
+            "decided": 34,
+            "rate": 0.5588235294117647
+          },
+          "under": {
+            "wins": 96,
+            "losses": 96,
+            "decided": 192,
+            "rate": 0.5
+          },
+          "Combined": {
+            "wins": 115,
+            "losses": 111,
+            "decided": 226,
+            "rate": 0.5088495575221239
+          }
+        },
+        "eligible": 226,
+        "available": 226,
+        "selected": 226,
+        "decided": 226,
+        "unavailable": 0,
+        "unknown": 0,
+        "fallback": 1,
+        "fallback_states": null,
+        "games": 119,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": {
+          "path": "reports/information-skill-follow-through-01/B/receipt-reconcile-20261116/README.md",
+          "body_present": true,
+          "binding_scope": "EXACT_RETAINED_PUBLIC_METADATA_OR_FORECAST",
+          "bytes": 10172,
+          "sha256": "3ebf63a478e16e80fab040c504c915c4d39f738e0ae5c8a7174550aed1813b48",
+          "producer_commit": "dafddbc5f6feb2c15306095f9d83e4e56e84e893",
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/dafddbc5f6feb2c15306095f9d83e4e56e84e893/reports/information-skill-follow-through-01/B/receipt-reconcile-20261116/README.md",
+          "public_readback_previously_recorded": true
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "TYPED_GZIP_JSON_FORECASTS_REOPENED; mean/lower_median plus explicit gamma-Poisson mean/shape/conditioning. Existing generic saved-output M2 adapter is explicitly authorized by the SKILL handoff for these exact method IDs.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+        "scored_weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recorded_fallback_weeks": "NOT_RETAINED"
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+      "category": "pass_cmp",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:weekly-kickoff-retrospective-extension-v1",
+      "history": "H-CURRENT-STRICT;source-compatibleupdatearms separatelytyped",
+      "primary_output": "exact_count_law",
+      "frozen_decision_policy": "EXACT_LAW_MORE_PROBABLE_VALID_SIDE",
+      "method": "Regularized direct completion-count law",
+      "family_lineage": "UnchangedregularizeddirectcountGLM/Poisson law onown-targethistory; distinctfromconditionalbinomialexposuremodel. Marginalbenchmark, notindependentlyjoinedattempt/conversion engine.",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 13
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "own_sides": {
+          "over": {
+            "selected": 88,
+            "wins": 43,
+            "losses": 45,
+            "decided": 88,
+            "rate": 0.48863636363636365
+          },
+          "under": {
+            "selected": 54,
+            "wins": 26,
+            "losses": 28,
+            "decided": 54,
+            "rate": 0.48148148148148145
+          },
+          "Combined": {
+            "selected": 142,
+            "wins": 69,
+            "losses": 73,
+            "decided": 142,
+            "rate": 0.4859154929577465
+          }
+        },
+        "eligible": 142,
+        "available": 142,
+        "selected": 142,
+        "decided": 142,
+        "unavailable": 0,
+        "unknown": 0,
+        "fallback": 3,
+        "fallback_states": {
+          "none": 139,
+          "cold_start_role_prior": 3
+        },
+        "games": 71,
+        "numerical": {
+          "scored": 0,
+          "MAE": null,
+          "MSE": null,
+          "bias": null,
+          "max_absolute_error": null,
+          "absolute_error_p90": null,
+          "output": "NOT_A_POINT_PRODUCT"
+        },
+        "probability": {
+          "events": 142,
+          "Brier": 0.3099556204111468,
+          "binary_event": "STRICT_Y_GREATER_THAN_LINE;PUSH_IS_NOT_OVER",
+          "three_state_Brier": 0.3099556204111468,
+          "three_state_log_loss": 1.5990633455689083,
+          "infinite_log_loss_cases": 0,
+          "Over_event_AUC": 0.5205316405475104,
+          "reliability_fixed_binsOver": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 3,
+              "mean_predicted": 0.038914155507748606,
+              "observed_over": 0.6666666666666666
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 4,
+              "mean_predicted": 0.17838269977969062,
+              "observed_over": 0.25
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 6,
+              "mean_predicted": 0.23736285624293493,
+              "observed_over": 0.3333333333333333
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 18,
+              "mean_predicted": 0.3511613351435897,
+              "observed_over": 0.5555555555555556
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 23,
+              "mean_predicted": 0.45206302166994833,
+              "observed_over": 0.5652173913043478
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 29,
+              "mean_predicted": 0.5525383882857504,
+              "observed_over": 0.4482758620689655
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 11,
+              "mean_predicted": 0.6480787988924446,
+              "observed_over": 0.45454545454545453
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 14,
+              "mean_predicted": 0.7563284610260251,
+              "observed_over": 0.42857142857142855
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 12,
+              "mean_predicted": 0.8480608324333928,
+              "observed_over": 0.6666666666666666
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 22,
+              "mean_predicted": 0.9866762194265558,
+              "observed_over": 0.5
+            }
+          ],
+          "reliability_selected_confidence": [
+            {
+              "lower": 0,
+              "upper": 0.5,
+              "n": 0,
+              "mean_predicted": null,
+              "correct_direction_rate": null
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 52,
+              "mean_predicted": 0.5505031492668838,
+              "correct_direction_rate": 0.4423076923076923
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 29,
+              "mean_predicted": 0.6485504398355957,
+              "correct_direction_rate": 0.4482758620689655
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 20,
+              "mean_predicted": 0.7582210658453372,
+              "correct_direction_rate": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 16,
+              "mean_predicted": 0.841449949380122,
+              "correct_direction_rate": 0.6875
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "n": 25,
+              "mean_predicted": 0.9836053744344393,
+              "correct_direction_rate": 0.48
+            }
+          ],
+          "probability_direction_ties": 0,
+          "score_contract": "HALF_MULTICLASS_OVER_UNDER_PUSH_AND_SEPARATE_STRICT_BINARY_OVER",
+          "conditioning": "MODELED_APPEARANCE"
+        },
+        "uncertainty": {
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4084507042253521,
+          "high": 0.5785714285714286,
+          "dependence_aware": true,
+          "week_clusters": 5,
+          "small_cluster_caution": true
+        },
+        "source": "reports/w1w9-comparison-closure-01/B/native-completion-scoring/NATIVE_TABLES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "RECOVERED_SAFE_GZIP_JSON_FORECASTS_REOPENED; DIRECT_GLM count laws explicitly poisson/geometric, with exact mean/lower_median and preserved known-clock versus weekly-kickoff extension policies. No unsafe model load.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+        "scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recorded_fallback_weeks": "NOT_RETAINED"
+      }
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+      "category": "pass_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "history": "H-RECENT eligiblepriorseason+current;original7dayavailability",
+      "primary_output": "gamma_poisson_count_law",
+      "frozen_decision_policy": "EXACT_LAW_MORE_PROBABLE_VALID_SIDE",
+      "method": "Shrunk QB opportunity gamma-Poisson law",
+      "family_lineage": "Own8 priorcreditedattempts shrunk4games towardeligibleQBpool; earliersecondmoment determinesNBshape; sharedfrozenattemptlaw forP1/P2/P3conversioncontrols.",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+        "sha256": "6c1fa1b76db2220924b4be2da52c9af169ae169e31684847159fb9907fcf5b50",
+        "candidate_index": 14
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "own_sides": {
+          "over": {
+            "selected": 8,
+            "wins": 2,
+            "losses": 6,
+            "decided": 8,
+            "rate": 0.25
+          },
+          "under": {
+            "selected": 134,
+            "wins": 69,
+            "losses": 65,
+            "decided": 134,
+            "rate": 0.5149253731343284
+          },
+          "Combined": {
+            "selected": 142,
+            "wins": 71,
+            "losses": 71,
+            "decided": 142,
+            "rate": 0.5
+          }
+        },
+        "eligible": 142,
+        "available": 142,
+        "selected": 142,
+        "decided": 142,
+        "unavailable": 0,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": {
+          "none": 141,
+          "no_player_history_role_prior": 1
+        },
+        "games": 71,
+        "numerical": {
+          "scored": 0,
+          "MAE": null,
+          "MSE": null,
+          "bias": null
+        },
+        "probability": {
+          "events": 142,
+          "binary_Over_Brier": 0.2738218657344712,
+          "half_multiclass_Brier": 0.2738218657344712,
+          "three_state_log_loss": 0.7469211632732577,
+          "binary_Over_reliability": [
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 6,
+              "predicted": 0.1658613282693302,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 26,
+              "predicted": 0.26316569876568585,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 76,
+              "predicted": 0.35012346942282574,
+              "observed": 0.4605263157894737
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 26,
+              "predicted": 0.4359708869711234,
+              "observed": 0.5384615384615384
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 8,
+              "predicted": 0.5327092137931873,
+              "observed": 0.25
+            }
+          ],
+          "conditioning": "MODELED_PHYSICAL_PARTICIPATION_NOT_VENUE_NONVOID"
+        },
+        "uncertainty": {
+          "kind": "WEEK_BLOCK_BOOTSTRAP95_2000_DRAWS",
+          "low": 0.4142857142857143,
+          "high": 0.5763888888888888,
+          "dependence_aware": true,
+          "week_clusters": 5,
+          "small_cluster_caution": true
+        },
+        "source": "reports/w1w9-comparison-closure-01/B/receipt-union/native-attempts/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "OPP_BASE exact alias has saved mean/lower_median and gamma-Poisson law; safe JSON typed query adapter performs saved-output lookup, not current inference.",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false,
+      "week_scope_qualification": {
+        "path": "reports/shared-game-sim-01/B/shortlists/QB_WEEK_SCOPE_QUALIFICATION_V2.json",
+        "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+        "scored_weeks": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "recorded_fallback_weeks": "NOT_RETAINED"
+      }
+    },
+    {
+      "candidate_id": "B-SIM01-9e315e876799c2e77d",
+      "category": "rush_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "history": "H-MULTI",
+      "primary_output": "absolute_error_point",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "hgb_absolute",
+      "family_lineage": "HGB_DIRECT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 0
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 12,
+            "losses": 9,
+            "decided": 21,
+            "rate": 0.5714285714285714
+          },
+          "under": {
+            "wins": 117,
+            "losses": 88,
+            "decided": 205,
+            "rate": 0.5707317073170731
+          },
+          "Combined": {
+            "wins": 129,
+            "losses": 97,
+            "decided": 226,
+            "rate": 0.5707964601769911
+          }
+        },
+        "eligible": 244,
+        "available": 226,
+        "selected": 226,
+        "decided": null,
+        "unavailable": 18,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5707964601769911,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json",
+          "record_id": "H3-P1-1b1760e0257bc7cc1e81f306"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "abs_le_1": 0.17061611374407584,
+          "abs_le_10": 0.44786729857819907,
+          "abs_le_5": 0.31161137440758296,
+          "abs_lt_1": 0.15402843601895735,
+          "abs_lt_10": 0.43838862559241704,
+          "abs_lt_5": 0.3009478672985782,
+          "bias": -24.46166391746823,
+          "constant_zero_n": 0,
+          "exact_rate": 0.13033175355450238,
+          "fallback_n": 0,
+          "fallback_rate": 0.0,
+          "forecast_queries": 847,
+          "history_regime": "H-MULTI",
+          "mae": 26.390089055800793,
+          "max_abs": 194.0,
+          "missing_actual_n": 3,
+          "mse": 1750.2690018653336,
+          "objective": "absolute_error_point",
+          "p90_abs": 72.70000000000005,
+          "p95_abs": 95.0,
+          "population": "primary",
+          "position": "ALL",
+          "rmse": 41.83621639041147,
+          "scored_n": 844,
+          "target": "rush_yd",
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "sha256": "c34e320d84fa34d3ef54cf0c58ec53ef02edcd5c93053513c6bfe48db3accf5e",
+          "bytes": 570030,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 897,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-0191d8e94ca3c95b6f",
+      "category": "rush_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "B::v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:strict-current-inputs::H-CURRENT-STRICT::lower_median",
+      "history": "H-CURRENT-STRICT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "leaf_strict",
+      "family_lineage": "ORDERED_LEAF_CDF",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 1
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          2,
+          3
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 30,
+            "losses": 26,
+            "decided": 56,
+            "selected": 56,
+            "rate": 0.5357142857142857
+          },
+          "under": {
+            "wins": 70,
+            "losses": 48,
+            "decided": 118,
+            "selected": 118,
+            "rate": 0.5932203389830508
+          },
+          "Combined": {
+            "wins": 100,
+            "losses": 74,
+            "decided": 174,
+            "selected": 174,
+            "rate": 0.5747126436781609
+          }
+        },
+        "eligible": 181,
+        "available": null,
+        "selected": 174,
+        "decided": null,
+        "unavailable": null,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 32,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": "reports/abc-championship/continuation-20261103-v2/SCORES.json"
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-67e9e4bbbb14aa34f8",
+      "category": "rush_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1",
+      "history": "H-RECENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE_FROZEN_FOR_COMPARISON_NOT_YET_GRADED_ON_WEBSITE_FRAME",
+      "method": "empirical_recent",
+      "family_lineage": "EMPIRICAL_HISTORY",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 2
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "target": "rush_yd",
+          "population": "primary",
+          "history_regime": "H-RECENT",
+          "product": "lower_median",
+          "season": "2026",
+          "week": "ALL",
+          "position": "ALL",
+          "fallback_view": "ALL",
+          "forecast_queries": "847",
+          "scored_n": "844",
+          "missing_actual_n": "3",
+          "fallback_n": "48",
+          "fallback_rate": "0.05667060212514758",
+          "constant_zero_n": "0",
+          "mae": "16.863744075829384",
+          "mse": "638.4229857819905",
+          "rmse": "25.267033577014743",
+          "bias": "-3.7049763033175354",
+          "p90_abs": "40.0",
+          "p95_abs": "51.84999999999991",
+          "max_abs": "118.0",
+          "exact_rate": "0.11018957345971564",
+          "abs_lt_1": "0.11018957345971564",
+          "abs_le_1": "0.1623222748815166",
+          "abs_lt_5": "0.2772511848341232",
+          "abs_le_5": "0.3104265402843602",
+          "abs_lt_10": "0.46445497630331756",
+          "abs_le_10": "0.4834123222748815",
+          "brier": "",
+          "prevalence": "",
+          "prevalence_reference_brier": "",
+          "log_loss": "",
+          "infinite_log_losses": ""
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "sha256": "46271e6156823a28739afa5c11fc296efdfc746f6c2a237f115fdbcced1deb48",
+          "bytes": 3064401,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 10148,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_AGGREGATE_PACKET_BYTES_REOPENED;EXACT_PRODUCT_EXTRACTION_CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-6bac0483d2935fa2c3",
+      "category": "rush_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "defense_D2",
+      "family_lineage": "LEAF_CDF_QUALIFIED_DEFENSE",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 3
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 14,
+            "losses": 8,
+            "decided": 22,
+            "rate": 0.6363636363636364
+          },
+          "under": {
+            "wins": 34,
+            "losses": 23,
+            "decided": 57,
+            "rate": 0.5964912280701754
+          },
+          "Combined": {
+            "wins": 48,
+            "losses": 31,
+            "decided": 79,
+            "rate": 0.6075949367088608
+          }
+        },
+        "eligible": 125,
+        "available": 79,
+        "selected": 79,
+        "decided": null,
+        "unavailable": 46,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 28,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6075949367088608,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json",
+          "record_id": "H3-P1-7c484e0d4a2ec30f01d8d967"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-4bd13ee88b054e1232",
+      "category": "rush_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:squared_error_mean",
+      "history": "H-MULTI",
+      "primary_output": "squared_error_mean",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "hgb_squared",
+      "family_lineage": "HGB_DIRECT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 4
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "abs_le_1": 0.20853080568720378,
+          "abs_le_10": 0.9632701421800948,
+          "abs_le_5": 0.8080568720379147,
+          "abs_lt_1": 0.20853080568720378,
+          "abs_lt_10": 0.9632701421800948,
+          "abs_lt_5": 0.8080568720379147,
+          "bias": -0.3643286850514809,
+          "constant_zero_n": 0,
+          "exact_rate": 0.0,
+          "fallback_n": 0,
+          "fallback_rate": 0.0,
+          "forecast_queries": 847,
+          "history_regime": "H-MULTI",
+          "mae": 3.1286905543780903,
+          "max_abs": 20.098225834024404,
+          "missing_actual_n": 3,
+          "mse": 18.231617078080752,
+          "objective": "squared_error_mean",
+          "p90_abs": 7.310856900963665,
+          "p95_abs": 9.128669597317762,
+          "population": "primary",
+          "position": "ALL",
+          "rmse": 4.269849772308243,
+          "scored_n": 844,
+          "target": "rush_att",
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "sha256": "c34e320d84fa34d3ef54cf0c58ec53ef02edcd5c93053513c6bfe48db3accf5e",
+          "bytes": 570030,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 667,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-3721ee2031f785793b",
+      "category": "rush_att",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1",
+      "history": "H-RECENT",
+      "primary_output": "empirical_mean",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "empirical_recent",
+      "family_lineage": "EMPIRICAL_HISTORY",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 5
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "target": "rush_att",
+          "population": "primary",
+          "history_regime": "H-RECENT",
+          "product": "empirical_mean",
+          "season": "2026",
+          "week": "ALL",
+          "position": "ALL",
+          "fallback_view": "ALL",
+          "forecast_queries": "847",
+          "scored_n": "844",
+          "missing_actual_n": "3",
+          "fallback_n": "48",
+          "fallback_rate": "0.05667060212514758",
+          "constant_zero_n": "0",
+          "mae": "3.201419857229252",
+          "mse": "19.688715189047937",
+          "rmse": "4.437196771504272",
+          "bias": "-0.07061865964903839",
+          "p90_abs": "7.571373801916932",
+          "p95_abs": "9.441666666666652",
+          "max_abs": "20.05263157894737",
+          "exact_rate": "0.027251184834123223",
+          "abs_lt_1": "0.23696682464454977",
+          "abs_le_1": "0.26066350710900477",
+          "abs_lt_5": "0.7950236966824644",
+          "abs_le_5": "0.7997630331753555",
+          "abs_lt_10": "0.9585308056872038",
+          "abs_le_10": "0.9632701421800948",
+          "brier": "",
+          "prevalence": "",
+          "prevalence_reference_brier": "",
+          "log_loss": "",
+          "infinite_log_losses": ""
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "sha256": "46271e6156823a28739afa5c11fc296efdfc746f6c2a237f115fdbcced1deb48",
+          "bytes": 3064401,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 7466,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_AGGREGATE_PACKET_BYTES_REOPENED;EXACT_PRODUCT_EXTRACTION_CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-2d9fb1d864929a32c4",
+      "category": "rec",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "history": "H-MULTI",
+      "primary_output": "mean",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "defense_D2",
+      "family_lineage": "LEAF_CDF_QUALIFIED_DEFENSE",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 6
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 90,
+            "losses": 59,
+            "decided": 149,
+            "rate": 0.6040268456375839
+          },
+          "under": {
+            "wins": 108,
+            "losses": 73,
+            "decided": 181,
+            "rate": 0.5966850828729282
+          },
+          "Combined": {
+            "wins": 198,
+            "losses": 132,
+            "decided": 330,
+            "rate": 0.6
+          }
+        },
+        "eligible": 511,
+        "available": 330,
+        "selected": 330,
+        "decided": null,
+        "unavailable": 181,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 28,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.6,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json",
+          "record_id": "H3-P1-1fc16711b0d6753622846c6a"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 0.8905598417739717,
+          "NLL": 1.7164073104286315,
+          "abs_le_1": 0.5084985835694051,
+          "abs_le_10": 0.9985835694050992,
+          "abs_le_5": 0.9844192634560907,
+          "abs_lt_1": 0.5084985835694051,
+          "abs_lt_10": 0.9985835694050992,
+          "abs_lt_5": 0.9844192634560907,
+          "bias": -0.02648416837570522,
+          "cohort_limit": "Allqualifiedsourceidentity/positionrowswithinteamgame retained, includingphysicalappearanceunknown/missing-targetslots. A target-totalgamecompleteonlyifEVERYqualifiedrowtargetexplicit; rate numerator/denominatoruseidenticalcomplete compatible rows. QualifiedpopulationobservationsareNOTcompleteofficialteamallowedtotals, causaldefensetalent orfullroster.",
+          "comparison": {
+            "absolute_error_delta": 0.0008488878686008228,
+            "candidate_error": 1.327768394402685,
+            "candidate_fallback_n": 105,
+            "comparator_error": 1.3269195065340842,
+            "comparator_fallback_n": 105,
+            "comparator_history_regime": "H-MULTI",
+            "comparator_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:common-feature-memory",
+            "comparator_product_id": "mean",
+            "cutoff_policy": "Original per-game feature/weekly model origins retained, strict7day availability reconstruction. Comparator may use a different declared fit-history policy; not automatically a same-information learner ablation.",
+            "membership_sha256": "682be48d9bd72b34a4bfa2a07d185e87923d6c8b41fd7b7320df6d05485849ed",
+            "metric": "mae",
+            "paired_n": 2118,
+            "relative_error_delta": 0.0006397433035091323,
+            "status": "PAIRED_RETAINED_ROWS",
+            "uncertainty": {
+              "game_cluster_normal95_sensitivity": [
+                -0.002383869313024734,
+                0.0040816450502263795
+              ],
+              "game_cluster_sensitivity_se": 0.001649365908992631,
+              "reason": "fewer than8exposedweekclusters; no selection/multiplicity adjustment",
+              "week_clusters": 7,
+              "week_interval": null,
+              "week_mean_deltas": {
+                "1": 0.012017835757581436,
+                "2": 5.1085580093636487e-05,
+                "3": 0.004231611746225391,
+                "4": -0.01353107515225843,
+                "5": -0.0013574363077770493,
+                "6": 0.005455603592199717,
+                "7": -0.0006252246725965264
+              }
+            },
+            "unique_games": 107
+          },
+          "evaluation_panel_id": "v2-qualified-position-defense-information-wave-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.0,
+          "fallback_rows": 110,
+          "fallback_view": "ALL",
+          "forecast_games": 107,
+          "forecast_rows": 2152,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "information_group": "D2",
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 0.9660056657223796,
+          "interval90_width": 5.370632672332389,
+          "mae": 1.327768394402685,
+          "max_abs": 12.394768190997208,
+          "mean_zero_mass": 0.28310631341900483,
+          "mse": 3.258130806600842,
+          "n": 2118,
+          "p90_abs": 2.7763281657416,
+          "p95_abs": 3.565059717778875,
+          "period": "REG",
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "procedure_family_id": "ordered_leaf_cdf",
+          "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+          "product_id": "mean",
+          "record_id": "DEFENSE-6361fb2a1f1d7e76800b635c",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 1.8050293090697564,
+          "scored_fallback_rows": 105,
+          "scoring_version": "native-point-and-law-exact-chart-median-grid-v1",
+          "season": 2026,
+          "source_vintage": "current_vintage_reconstruction",
+          "target": "rec",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "sha256": "2cea571fd1ed8e3dbbd4f0c2144083a4517db65126f981d2e9e7b6174aad94d9",
+          "bytes": 9371195,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 2616,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-c0b1b9acab53581d97",
+      "category": "rec",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+      "history": "H-CURRENT",
+      "primary_output": "saved_complete_leaf_law",
+      "frozen_decision_policy": "P2_MORE_PROBABLE_VALID_SIDE_TIE_ABSTAIN",
+      "method": "own_leaf_law",
+      "family_lineage": "ORDERED_LEAF_CDF",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 7
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 82,
+            "losses": 53,
+            "decided": 135,
+            "rate": 0.6074074074074074
+          },
+          "under": {
+            "wins": 186,
+            "losses": 149,
+            "decided": 335,
+            "rate": 0.5552238805970149
+          },
+          "Combined": {
+            "wins": 268,
+            "losses": 202,
+            "decided": 470,
+            "rate": 0.5702127659574469
+          }
+        },
+        "eligible": 511,
+        "available": 470,
+        "selected": 470,
+        "decided": null,
+        "unavailable": 41,
+        "unknown": 0,
+        "fallback": 0,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5702127659574469,
+          "game_clusters": 42,
+          "game_interval": [
+            0.5236005194518125,
+            0.6172756201749637
+          ],
+          "game_interval_status": "GAME_CLUSTER_SENSITIVITY_BOOTSTRAP",
+          "paired_n": null,
+          "replicates": 500,
+          "seed": 1703,
+          "selection_limit": "exposeddescriptive;notselection/multiplicityadjusted",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-primary-p2-v1/SCORES.json",
+          "record_id": "H3-P2-1ee5bd5480ce026e49fe664c"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "LAW_QUERY_BINDING_REQUIRED;leaf_ids and point summaries do not define arbitrary-line CDF; bind safe exact support/model/prior/query or exact same saved-threshold probability; no model load performed",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-f0b13c56dbdd37a2b3",
+      "category": "rec",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:squared_error_mean",
+      "history": "H-MULTI",
+      "primary_output": "squared_error_mean",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "hgb_squared",
+      "family_lineage": "HGB_DIRECT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 8
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "abs_le_1": 0.5212464589235127,
+          "abs_le_10": 0.9985835694050992,
+          "abs_le_5": 0.9844192634560907,
+          "abs_lt_1": 0.5212464589235127,
+          "abs_lt_10": 0.9985835694050992,
+          "abs_lt_5": 0.9844192634560907,
+          "bias": -0.07476034062254357,
+          "constant_zero_n": 0,
+          "exact_rate": 0.0,
+          "fallback_n": 0,
+          "fallback_rate": 0.0,
+          "forecast_queries": 2152,
+          "history_regime": "H-MULTI",
+          "mae": 1.310123589323621,
+          "max_abs": 12.301071137399397,
+          "missing_actual_n": 34,
+          "mse": 3.213584479815721,
+          "objective": "squared_error_mean",
+          "p90_abs": 2.8352667721689153,
+          "p95_abs": 3.5411031663014443,
+          "population": "primary",
+          "position": "ALL",
+          "rmse": 1.7926473383841344,
+          "scored_n": 2118,
+          "target": "rec",
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "sha256": "c34e320d84fa34d3ef54cf0c58ec53ef02edcd5c93053513c6bfe48db3accf5e",
+          "bytes": 570030,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 424,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-42da71d8bb5df4f101",
+      "category": "rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1:known-target-time-v1",
+      "history": "H-RECENT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "empirical_recent",
+      "family_lineage": "EMPIRICAL_HISTORY",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 9
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 99,
+            "losses": 89,
+            "decided": 188,
+            "rate": 0.526595744680851
+          },
+          "under": {
+            "wins": 161,
+            "losses": 120,
+            "decided": 281,
+            "rate": 0.5729537366548043
+          },
+          "Combined": {
+            "wins": 260,
+            "losses": 209,
+            "decided": 469,
+            "rate": 0.5543710021321961
+          }
+        },
+        "eligible": 512,
+        "available": 469,
+        "selected": 469,
+        "decided": null,
+        "unavailable": 43,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5543710021321961,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json",
+          "record_id": "H3-P1-26e5e3b6bb0ab61a6cb67ba7"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "target": "rec_yd",
+          "population": "primary",
+          "history_regime": "H-RECENT",
+          "product": "lower_median",
+          "season": "2026",
+          "week": "ALL",
+          "position": "ALL",
+          "fallback_view": "ALL",
+          "forecast_queries": "2152",
+          "scored_n": "2118",
+          "missing_actual_n": "34",
+          "fallback_n": "130",
+          "fallback_rate": "0.0604089219330855",
+          "constant_zero_n": "0",
+          "mae": "16.250236071765816",
+          "mse": "633.5495750708216",
+          "rmse": "25.170410705247175",
+          "bias": "-5.097261567516525",
+          "p90_abs": "41.299999999999955",
+          "p95_abs": "54.0",
+          "max_abs": "139.0",
+          "exact_rate": "0.16572237960339944",
+          "abs_lt_1": "0.16572237960339944",
+          "abs_le_1": "0.20160528800755428",
+          "abs_lt_5": "0.32058545797922566",
+          "abs_le_5": "0.3588290840415486",
+          "abs_lt_10": "0.48394711992445705",
+          "abs_le_10": "0.516052880075543",
+          "brier": "",
+          "prevalence": "",
+          "prevalence_reference_brier": "",
+          "log_loss": "",
+          "infinite_log_losses": ""
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "sha256": "46271e6156823a28739afa5c11fc296efdfc746f6c2a237f115fdbcced1deb48",
+          "bytes": 3064401,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 6283,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_AGGREGATE_PACKET_BYTES_REOPENED;EXACT_PRODUCT_EXTRACTION_CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-ccd2e93409415f7dfe",
+      "category": "rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "history": "H-RECENT",
+      "primary_output": "saved_complete_leaf_law",
+      "frozen_decision_policy": "P2_MORE_PROBABLE_VALID_SIDE_TIE_ABSTAIN",
+      "method": "C02_leaf_law",
+      "family_lineage": "LEAF_CDF_NO_LAG_BLOCK",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 10
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 62,
+            "losses": 57,
+            "decided": 119,
+            "rate": 0.5210084033613446
+          },
+          "under": {
+            "wins": 193,
+            "losses": 158,
+            "decided": 351,
+            "rate": 0.5498575498575499
+          },
+          "Combined": {
+            "wins": 255,
+            "losses": 215,
+            "decided": 470,
+            "rate": 0.5425531914893617
+          }
+        },
+        "eligible": 512,
+        "available": 470,
+        "selected": 470,
+        "decided": null,
+        "unavailable": 42,
+        "unknown": 0,
+        "fallback": 0,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5425531914893617,
+          "game_clusters": 42,
+          "game_interval": [
+            0.4916483612273361,
+            0.5938723788864787
+          ],
+          "game_interval_status": "GAME_CLUSTER_SENSITIVITY_BOOTSTRAP",
+          "paired_n": null,
+          "replicates": 500,
+          "seed": 1703,
+          "selection_limit": "exposeddescriptive;notselection/multiplicityadjusted",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-primary-p2-v1/SCORES.json",
+          "record_id": "H3-P2-d3c038e9e3648145ebc09433"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "LAW_QUERY_BINDING_REQUIRED;leaf_ids and point summaries do not define arbitrary-line CDF; bind safe exact support/model/prior/query or exact same saved-threshold probability; no model load performed",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-96d546b3cdf53b47a5",
+      "category": "rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "history": "H-MULTI",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "defense_D2",
+      "family_lineage": "LEAF_CDF_QUALIFIED_DEFENSE",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 11
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 11.6124519474203,
+          "NLL": 3.736496791913789,
+          "abs_le_1": 0.17799811142587346,
+          "abs_le_10": 0.5325779036827195,
+          "abs_le_5": 0.3574126534466478,
+          "abs_lt_1": 0.1359773371104816,
+          "abs_lt_10": 0.5042492917847026,
+          "abs_lt_5": 0.3031161473087819,
+          "bias": -6.909820585457979,
+          "cohort_limit": "Allqualifiedsourceidentity/positionrowswithinteamgame retained, includingphysicalappearanceunknown/missing-targetslots. A target-totalgamecompleteonlyifEVERYqualifiedrowtargetexplicit; rate numerator/denominatoruseidenticalcomplete compatible rows. QualifiedpopulationobservationsareNOTcompleteofficialteamallowedtotals, causaldefensetalent orfullroster.",
+          "comparison": {
+            "absolute_error_delta": -0.009442870632671685,
+            "candidate_error": 16.18932955618508,
+            "candidate_fallback_n": 105,
+            "comparator_error": 16.19877242681775,
+            "comparator_fallback_n": 105,
+            "comparator_history_regime": "H-MULTI",
+            "comparator_procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:common-feature-memory",
+            "comparator_product_id": "lower_median",
+            "cutoff_policy": "Original per-game feature/weekly model origins retained, strict7day availability reconstruction. Comparator may use a different declared fit-history policy; not automatically a same-information learner ablation.",
+            "membership_sha256": "feaa15e4839f162f3042964405802fdd5f4f6ba3db761e2458c6b1eb266797a2",
+            "metric": "mae",
+            "paired_n": 2118,
+            "relative_error_delta": -0.0005829374216677441,
+            "status": "PAIRED_RETAINED_ROWS",
+            "uncertainty": {
+              "game_cluster_normal95_sensitivity": [
+                -0.05929038826919276,
+                0.04040464700384939
+              ],
+              "game_cluster_sensitivity_se": 0.025432406957408712,
+              "reason": "fewer than8exposedweekclusters; no selection/multiplicity adjustment",
+              "week_clusters": 7,
+              "week_interval": null,
+              "week_mean_deltas": {
+                "1": -0.00949367088607595,
+                "2": -0.11598746081504702,
+                "3": 0.09433962264150944,
+                "4": -0.04716981132075472,
+                "5": 0.02,
+                "6": 0.025179856115107913,
+                "7": -0.02973977695167286
+              }
+            },
+            "unique_games": 107
+          },
+          "evaluation_panel_id": "v2-qualified-position-defense-information-wave-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.1359773371104816,
+          "fallback_rows": 110,
+          "fallback_view": "ALL",
+          "forecast_games": 107,
+          "forecast_rows": 2152,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "information_group": "D2",
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 0.93342776203966,
+          "interval90_width": 68.47780925401322,
+          "mae": 16.18932955618508,
+          "max_abs": 155.0,
+          "mean_zero_mass": 0.25448091371034487,
+          "mse": 645.4112370160528,
+          "n": 2118,
+          "p90_abs": 41.0,
+          "p95_abs": 57.0,
+          "period": "REG",
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "procedure_family_id": "ordered_leaf_cdf",
+          "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+          "product_id": "lower_median",
+          "record_id": "DEFENSE-65925ce108af5d5a6446c60b",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 25.404945129168315,
+          "scored_fallback_rows": 105,
+          "scoring_version": "native-point-and-law-exact-chart-median-grid-v1",
+          "season": 2026,
+          "source_vintage": "current_vintage_reconstruction",
+          "target": "rec_yd",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "sha256": "2cea571fd1ed8e3dbbd4f0c2144083a4517db65126f981d2e9e7b6174aad94d9",
+          "bytes": 9371195,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 2651,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-2e4ee2f3e48fa5acd5",
+      "category": "rush_rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "history": "H-CURRENT-STRICT",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "C02_leaf",
+      "family_lineage": "LEAF_CDF_NO_LAG_BLOCK",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 12
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": [
+          5,
+          6,
+          7
+        ],
+        "own_sides": {
+          "over": {
+            "wins": 8,
+            "losses": 5,
+            "decided": 13,
+            "rate": 0.6153846153846154
+          },
+          "under": {
+            "wins": 57,
+            "losses": 43,
+            "decided": 100,
+            "rate": 0.57
+          },
+          "Combined": {
+            "wins": 65,
+            "losses": 48,
+            "decided": 113,
+            "rate": 0.5752212389380531
+          }
+        },
+        "eligible": 124,
+        "available": 113,
+        "selected": 113,
+        "decided": null,
+        "unavailable": 11,
+        "unknown": 0,
+        "fallback": null,
+        "fallback_states": null,
+        "games": 42,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": {
+          "estimate": 0.5752212389380531,
+          "game_interval": null,
+          "game_interval_status": "NOT_RECOMPUTED_IN_COUNT_ONLY_PERIOD_AGGREGATION",
+          "selection_limit": "Exposed descriptive aggregate; no selection/multiplicity adjustment",
+          "week_interval": null,
+          "week_interval_status": "INSUFFICIENT_WEEK_CLUSTERS"
+        },
+        "source": {
+          "path": "reports/baselines-coverage-20261031h/probability/w5-w7-cumulative-v1/SCORES.json",
+          "record_id": "H3-P1-c4bf4d2220e497845ea923d5"
+        }
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": null,
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-07cbacd3f2987569d7",
+      "category": "rush_rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:absolute_error_point",
+      "history": "H-MULTI",
+      "primary_output": "absolute_error_point",
+      "frozen_decision_policy": "P1_STRICT_POINT_VS_LINE",
+      "method": "hgb_absolute",
+      "family_lineage": "HGB_DIRECT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 13
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "abs_le_1": 0.08970727101038715,
+          "abs_le_10": 0.42209631728045327,
+          "abs_le_5": 0.2507082152974504,
+          "abs_lt_1": 0.08970727101038715,
+          "abs_lt_10": 0.42209631728045327,
+          "abs_lt_5": 0.2507082152974504,
+          "bias": -8.358908707303168,
+          "constant_zero_n": 0,
+          "exact_rate": 0.0,
+          "fallback_n": 0,
+          "fallback_rate": 0.0,
+          "forecast_queries": 2152,
+          "history_regime": "H-MULTI",
+          "mae": 20.125661066525677,
+          "max_abs": 157.7925524250844,
+          "missing_actual_n": 34,
+          "mse": 886.7424737673884,
+          "objective": "absolute_error_point",
+          "p90_abs": 49.445456302652595,
+          "p95_abs": 65.73281220727824,
+          "population": "primary",
+          "position": "ALL",
+          "rmse": 29.778221467498497,
+          "scored_n": 2118,
+          "target": "rush_rec_yd",
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "sha256": "c34e320d84fa34d3ef54cf0c58ec53ef02edcd5c93053513c6bfe48db3accf5e",
+          "bytes": 570030,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 773,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-3255df04669b646b8a",
+      "category": "rush_rec_yd",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "history": "H-MULTI",
+      "primary_output": "mean",
+      "frozen_decision_policy": "P2_MORE_PROBABLE_VALID_SIDE_TIE_ABSTAIN",
+      "method": "ridge_laplace",
+      "family_lineage": "REGULARIZED_GLM_SIGNED_LAW",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 14
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 15.227245206421474,
+          "NLL": 4.722761196038354,
+          "abs_le_1": 0.049102927289896126,
+          "abs_le_10": 0.35080264400377714,
+          "abs_le_5": 0.17233238904627007,
+          "abs_lt_1": 0.014636449480642116,
+          "abs_lt_10": 0.31633616619452315,
+          "abs_lt_5": 0.1392823418319169,
+          "bias": -1.195939565627951,
+          "constant_zero_n": 0,
+          "evaluation_panel_id": "distribution-controls-source-matched-observed-participant-2026-W1-W7-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.014636449480642116,
+          "fallback_n": 110,
+          "fallback_rate": 0.05111524163568773,
+          "fallback_rows": 110,
+          "fallback_source_counts": {
+            "cold_start_role_prior": 110,
+            "none": 2042
+          },
+          "fallback_view": "ALL",
+          "feature_memory_policy": "common2022+ memory across3fittingarms; not purecurrentinformation",
+          "forecast_games": 107,
+          "forecast_queries": 2152,
+          "forecast_rows": 2152,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 0.9268177525967894,
+          "interval90_width": 103.27289896128423,
+          "mae": 20.835221907459868,
+          "max_abs": 154.0,
+          "mean_zero_mass": 0.007842464021015166,
+          "missing_actual_n": 34,
+          "mse": 809.528328611898,
+          "n": 2118,
+          "p90_abs": 44.299999999999955,
+          "p95_abs": 61.0,
+          "period": "REG",
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "procedure_family_id": "regularized_glm_law",
+          "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+          "product_id": "mean",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 28.452211313216026,
+          "scored_n": 2118,
+          "season": 2026,
+          "target": "rush_rec_yd",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030/distribution-wave-v2/SCORES.json",
+          "sha256": "b77bcf69c47d8a9be0f0fb781ace0032c452d8964f8e09091201f0f8c448975f",
+          "bytes": 4058284,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030/distribution-wave-v2/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 2345,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-7c0f4afad04b58e53f",
+      "category": "anytime_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "hgb-direct-history-controls-v1:log_loss_probability",
+      "history": "H-MULTI",
+      "primary_output": "event_probability",
+      "frozen_decision_policy": "INHERITED_RUSH_OR_REC_TD_BINARY_EVENT;NO_UNOFFERED_NO_SIDE",
+      "method": "hgb_binary",
+      "family_lineage": "HGB_BINARY",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 15
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "abs_le_1": 1.0,
+          "abs_le_10": 1.0,
+          "abs_le_5": 1.0,
+          "abs_lt_1": 1.0,
+          "abs_lt_10": 1.0,
+          "abs_lt_5": 1.0,
+          "bias": -0.009058043207488802,
+          "brier": 0.14314429954020047,
+          "constant_zero_n": 0,
+          "exact_rate": 0.0,
+          "fallback_n": 0,
+          "fallback_rate": 0.0,
+          "forecast_queries": 2152,
+          "history_regime": "H-MULTI",
+          "infinite_log_losses": 0,
+          "log_loss": 0.45368576970456737,
+          "mae": 0.2826191315328142,
+          "max_abs": 0.9401684837923856,
+          "missing_actual_n": 34,
+          "mse": 0.14314429954020047,
+          "objective": "log_loss_probability",
+          "p90_abs": 0.7908234859257844,
+          "p95_abs": 0.8493710514828716,
+          "population": "primary",
+          "position": "ALL",
+          "prevalence": 0.18932955618508027,
+          "prevalence_reference_brier": 0.1534838753398408,
+          "rmse": 0.37834415489102047,
+          "scored_n": 2118,
+          "target": "anytime_td",
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "sha256": "c34e320d84fa34d3ef54cf0c58ec53ef02edcd5c93053513c6bfe48db3accf5e",
+          "bytes": 570030,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/hgb-history-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 45,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-a5f6e3b098f93c5230",
+      "category": "anytime_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "history": "H-MULTI",
+      "primary_output": "event_probability",
+      "frozen_decision_policy": "INHERITED_RUSH_OR_REC_TD_BINARY_EVENT;NO_UNOFFERED_NO_SIDE",
+      "method": "logistic_binary",
+      "family_lineage": "REGULARIZED_LOGISTIC_EVENT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 16
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 0.14419010738133714,
+          "NLL": 0.45676508977898095,
+          "abs_le_1": 1.0,
+          "abs_le_10": 1.0,
+          "abs_le_5": 1.0,
+          "abs_lt_1": 1.0,
+          "abs_lt_10": 1.0,
+          "abs_lt_5": 1.0,
+          "bias": -0.009416854629458956,
+          "brier": 0.1441901073813371,
+          "constant_zero_n": 0,
+          "evaluation_panel_id": "distribution-controls-source-matched-observed-participant-2026-W1-W7-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.0,
+          "fallback_n": 110,
+          "fallback_rate": 0.05111524163568773,
+          "fallback_rows": 110,
+          "fallback_source_counts": {
+            "cold_start_role_prior": 110,
+            "none": 2042
+          },
+          "fallback_view": "ALL",
+          "feature_memory_policy": "common2022+ memory across3fittingarms; not purecurrentinformation",
+          "forecast_games": 107,
+          "forecast_queries": 2152,
+          "forecast_rows": 2152,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "infinite_log_losses": 0,
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 1.0,
+          "interval90_width": 0.9966949952785646,
+          "log_loss": 0.45676508977898095,
+          "mae": 0.2828456059415767,
+          "max_abs": 0.9475356910942704,
+          "mean_zero_mass": 0.8200872984443788,
+          "missing_actual_n": 34,
+          "mse": 0.1441901073813371,
+          "n": 2118,
+          "p90_abs": 0.7974979222883904,
+          "p95_abs": 0.8521562413615708,
+          "period": "REG",
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "prevalence": 0.18932955618508027,
+          "prevalence_reference_brier": 0.1534838753398408,
+          "procedure_family_id": "regularized_glm_law",
+          "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+          "product_id": "event_probability",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 0.37972372507039526,
+          "scored_n": 2118,
+          "season": 2026,
+          "target": "anytime_td",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030/distribution-wave-v2/SCORES.json",
+          "sha256": "b77bcf69c47d8a9be0f0fb781ace0032c452d8964f8e09091201f0f8c448975f",
+          "bytes": 4058284,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030/distribution-wave-v2/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 2069,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-93c4330014bdb92d48",
+      "category": "anytime_td",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "empirical-player-history-control-v1",
+      "history": "H-RECENT",
+      "primary_output": "event_probability",
+      "frozen_decision_policy": "INHERITED_RUSH_OR_REC_TD_BINARY_EVENT;NO_UNOFFERED_NO_SIDE",
+      "method": "empirical_event",
+      "family_lineage": "EMPIRICAL_EVENT",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 17
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "target": "anytime_td",
+          "population": "primary",
+          "history_regime": "H-RECENT",
+          "product": "event_probability",
+          "season": "2026",
+          "week": "ALL",
+          "position": "ALL",
+          "fallback_view": "ALL",
+          "forecast_queries": "2152",
+          "scored_n": "2118",
+          "missing_actual_n": "34",
+          "fallback_n": "130",
+          "fallback_rate": "0.0604089219330855",
+          "constant_zero_n": "0",
+          "mae": "0.2713580167053135",
+          "mse": "0.14698006953961126",
+          "rmse": "0.3833797980327227",
+          "bias": "0.0050943134015856385",
+          "p90_abs": "0.7142857142857143",
+          "p95_abs": "0.8461538461538461",
+          "max_abs": "1.0",
+          "exact_rate": "0.24881964117091596",
+          "abs_lt_1": "0.9801699716713881",
+          "abs_le_1": "1.0",
+          "abs_lt_5": "1.0",
+          "abs_le_5": "1.0",
+          "abs_lt_10": "1.0",
+          "abs_le_10": "1.0",
+          "brier": "0.14698006953961126",
+          "prevalence": "0.18932955618508027",
+          "prevalence_reference_brier": "0.1534838753398408",
+          "log_loss": "",
+          "infinite_log_losses": "42"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "sha256": "46271e6156823a28739afa5c11fc296efdfc746f6c2a237f115fdbcced1deb48",
+          "bytes": 3064401,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261029/history-diagnostic-v1/SEASON_RESULTS_2022_2026.csv",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 637,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_AGGREGATE_PACKET_BYTES_REOPENED;EXACT_PRODUCT_EXTRACTION_CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-b0c10fe4c98abf87b3",
+      "category": "nick-chart-ppr-v1",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "history": "H-MULTI",
+      "primary_output": "lower_median",
+      "frozen_decision_policy": "P1_IF_EXACT_CHART_LINE_QUALIFIES;CURRENT_NO_MATCHING_OFFER",
+      "method": "defense_D2_chart",
+      "family_lineage": "LEAF_CDF_QUALIFIED_DEFENSE_CHART",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 18
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 3.178420916010816,
+          "NLL": 5.269708081590255,
+          "abs_le_1": 0.21195421788893598,
+          "abs_le_10": 0.8893598982619754,
+          "abs_le_5": 0.682068673166596,
+          "abs_lt_1": 0.19754133107248834,
+          "abs_lt_10": 0.8863925392115303,
+          "abs_lt_5": 0.6735905044510386,
+          "bias": -1.5863840610428148,
+          "cohort_limit": "Allqualifiedsourceidentity/positionrowswithinteamgame retained, includingphysicalappearanceunknown/missing-targetslots. A target-totalgamecompleteonlyifEVERYqualifiedrowtargetexplicit; rate numerator/denominatoruseidenticalcomplete compatible rows. QualifiedpopulationobservationsareNOTcompleteofficialteamallowedtotals, causaldefensetalent orfullroster.",
+          "comparison": {
+            "absolute_error_delta": -0.012030521407376149,
+            "candidate_error": 4.490360322170411,
+            "candidate_fallback_n": 111,
+            "comparator_error": 4.502390843577787,
+            "comparator_fallback_n": 111,
+            "comparator_history_regime": "H-MULTI",
+            "comparator_procedure_id": "v2-qualified-partial-chart-direct-wave-v1:ordered_leaf_cdf:common-feature-memory",
+            "comparator_product_id": "lower_median",
+            "cutoff_policy": "Original per-game feature/weekly model origins retained, strict7day availability reconstruction. Comparator may use a different declared fit-history policy; not automatically a same-information learner ablation.",
+            "membership_sha256": "34c1191a4ab0a100140abdc17cba3ab36af0939db7d3e43bcefd85400d315bcb",
+            "metric": "mae",
+            "paired_n": 2359,
+            "relative_error_delta": -0.0026720295561493716,
+            "status": "PAIRED_RETAINED_ROWS",
+            "uncertainty": {
+              "game_cluster_normal95_sensitivity": [
+                -0.025963799685789206,
+                0.0019027568710369095
+              ],
+              "game_cluster_sensitivity_se": 0.007108815448169928,
+              "reason": "fewer than8exposedweekclusters; no selection/multiplicity adjustment",
+              "week_clusters": 7,
+              "week_interval": null,
+              "week_mean_deltas": {
+                "1": -0.003059490084985834,
+                "2": -0.059832402234636844,
+                "3": 0.013824362606232248,
+                "4": 0.013749999999999964,
+                "5": -0.021547619047619045,
+                "6": -0.024104234527687323,
+                "7": -0.003200000000000035
+              }
+            },
+            "unique_games": 107
+          },
+          "evaluation_panel_id": "v2-qualified-position-defense-information-wave-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.05637982195845697,
+          "fallback_rows": 116,
+          "fallback_view": "ALL",
+          "forecast_games": 107,
+          "forecast_rows": 2394,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "information_group": "D2",
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 0.9330224671470962,
+          "interval90_width": 18.92689275116575,
+          "mae": 4.490360322170411,
+          "max_abs": 37.2,
+          "mean_zero_mass": 0.1509622983469986,
+          "mse": 42.10213955065706,
+          "n": 2359,
+          "p90_abs": 10.468000000000012,
+          "p95_abs": 14.2,
+          "period": "REG",
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "precision_counts_exact_grid": {
+            "abs_le_1": {
+              "denominator": 2359,
+              "numerator": 500,
+              "rate": 0.21195421788893598
+            },
+            "abs_le_10": {
+              "denominator": 2359,
+              "numerator": 2098,
+              "rate": 0.8893598982619754
+            },
+            "abs_le_5": {
+              "denominator": 2359,
+              "numerator": 1609,
+              "rate": 0.682068673166596
+            },
+            "abs_lt_1": {
+              "denominator": 2359,
+              "numerator": 466,
+              "rate": 0.19754133107248834
+            },
+            "abs_lt_10": {
+              "denominator": 2359,
+              "numerator": 2091,
+              "rate": 0.8863925392115303
+            },
+            "abs_lt_5": {
+              "denominator": 2359,
+              "numerator": 1589,
+              "rate": 0.6735905044510386
+            }
+          },
+          "procedure_family_id": "ordered_leaf_cdf",
+          "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+          "product_id": "lower_median",
+          "record_id": "DEFENSE-3ef98afe667209eac78fc2bd",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 6.48861615066395,
+          "scored_fallback_rows": 111,
+          "scoring_version": "native-point-and-law-exact-chart-median-grid-v1",
+          "season": 2026,
+          "source_vintage": "current_vintage_reconstruction",
+          "target": "nick-chart-ppr-v1",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "sha256": "2cea571fd1ed8e3dbbd4f0c2144083a4517db65126f981d2e9e7b6174aad94d9",
+          "bytes": 9371195,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030c/qualified-defense-information-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 2443,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-35e800c0ad60b8d664",
+      "category": "nick-chart-ppr-v1",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-partial-chart-direct-wave-v1:empirical",
+      "history": "H-RECENT",
+      "primary_output": "mean",
+      "frozen_decision_policy": "P1_IF_EXACT_CHART_LINE_QUALIFIES;CURRENT_NO_MATCHING_OFFER",
+      "method": "empirical_chart",
+      "family_lineage": "EMPIRICAL_EXACT_CHART",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 19
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "procedure_id": "v2-qualified-partial-chart-direct-wave-v1:empirical",
+          "procedure_family_id": "empirical_history_control",
+          "target": "nick-chart-ppr-v1",
+          "history_regime": "H-RECENT",
+          "product_id": "mean",
+          "evaluation_panel_id": "qualified-partial-chart-observed-participant-2022-2026-v1",
+          "population": "primary",
+          "season": "2026",
+          "period": "REG",
+          "week": "ALL",
+          "position": "ALL",
+          "fallback_view": "ALL",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "evidence": "NEW_EXPERIMENT",
+          "n": "2359",
+          "forecast_rows": "2394",
+          "fallback_rows": "140",
+          "strict_current_alias": "H-CURRENT exact, notadditionallearner",
+          "point_grid_denominator": "50",
+          "forecast_queries": "2394",
+          "scored_n": "2359",
+          "missing_actual_n": "35",
+          "fallback_n": "140",
+          "fallback_rate": "0.05847953216374269",
+          "constant_zero_n": "0",
+          "mae": "4.617377501165195",
+          "mse": "39.13159400105801",
+          "rmse": "6.255525077965719",
+          "bias": "0.027395858193873007",
+          "p90_abs": "10.217584541062811",
+          "p95_abs": "12.909166666666668",
+          "max_abs": "33.065000000000005",
+          "exact_rate": "0.02373887240356083",
+          "abs_lt_1": "0.1814328105129292",
+          "abs_le_1": "0.18397626112759644",
+          "abs_lt_5": "0.6345909283594744",
+          "abs_le_5": "0.6345909283594744",
+          "abs_lt_10": "0.8931750741839762",
+          "abs_le_10": "0.894022891055532",
+          "unique_games": "107",
+          "forecast_games": "107"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030/chart-wave-v1/EMPIRICAL_SCORES.csv",
+          "sha256": "b9eb12e36abd8ffe2eb0bda7138569309eafe50efe56649f45ef5116c106908f",
+          "bytes": 387924,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030/chart-wave-v1/EMPIRICAL_SCORES.csv",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 624,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_AGGREGATE_PACKET_BYTES_REOPENED;EXACT_PRODUCT_EXTRACTION_CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    },
+    {
+      "candidate_id": "B-SIM01-4b8cc0061c9691cfc1",
+      "category": "nick-chart-ppr-v1",
+      "origin_session": "B",
+      "origin_repository": "NickNicky19/NFL-forecasting-V2",
+      "exact_procedure_id": "v2-qualified-partial-chart-direct-wave-v1:regularized_glm_law:common-feature-memory",
+      "history": "H-MULTI",
+      "primary_output": "mean",
+      "frozen_decision_policy": "P2_IF_EXACT_CHART_LINE_AND_LAW_QUALIFY;CURRENT_NO_MATCHING_OFFER",
+      "method": "ridge_laplace_chart",
+      "family_lineage": "REGULARIZED_EXACT_CHART_LAW",
+      "source_record": {
+        "path": "reports/shared-game-sim-01/B/shortlists/OTHER_CANDIDATES_V1.json",
+        "sha256": "bcc9d4d059153160531b3b26670c91b5940fbb6a287c93d6bfac78721dbafc3d",
+        "candidate_index": 20
+      },
+      "existing_primary_evidence": {
+        "scope": "Exact primary existing evidence; not new website-frame grades.",
+        "actual_scored_2026_weeks": null,
+        "own_sides": null,
+        "eligible": null,
+        "available": null,
+        "selected": null,
+        "decided": null,
+        "unavailable": null,
+        "unknown": null,
+        "fallback": null,
+        "fallback_states": null,
+        "games": null,
+        "numerical": null,
+        "probability": null,
+        "uncertainty": null,
+        "source": null
+      },
+      "evidence_siblings": "Read exact source record: unchanged parent/mean/median/law and selective products retain their own masks; not spliced.",
+      "numerical_or_event_sibling": {
+        "exact_source_row": {
+          "CRPS": 3.3671186606667987,
+          "NLL": 7.124972110725276,
+          "abs_le_1": 0.15387876218736754,
+          "abs_le_10": 0.8978380669775329,
+          "abs_le_5": 0.6663840610428148,
+          "abs_lt_1": 0.1513353115727003,
+          "abs_lt_10": 0.8978380669775329,
+          "abs_lt_5": 0.6651123357354811,
+          "bias": -0.4108690122933446,
+          "chart_source_policy": "v2-nick-chart-ppr-nflverse-explicit-zero-subset-v2",
+          "constant_zero_n": 0,
+          "evaluation_panel_id": "qualified-partial-chart-observed-participant-2026-W1-W7-v1",
+          "evidence": "NEW_EXPERIMENT",
+          "exact_rate": 0.00211954217888936,
+          "fallback_n": 116,
+          "fallback_rate": 0.04845446950710108,
+          "fallback_rows": 116,
+          "fallback_source_counts": {
+            "cold_start_role_prior": 116,
+            "none": 2278
+          },
+          "fallback_view": "ALL",
+          "feature_memory_policy": "common2022+chartmemory across3fittingarms",
+          "forecast_games": 107,
+          "forecast_queries": 2394,
+          "forecast_rows": 2394,
+          "history_regime": "H-MULTI",
+          "infinite_NLL": 0,
+          "information_policy": "COMMON-2022-MEMORY",
+          "interval90_coverage": 0.9152183128444256,
+          "interval90_width": 21.718863925392117,
+          "mae": 4.587554048325562,
+          "max_abs": 36.24,
+          "mean_zero_mass": 0.0006874873538400926,
+          "missing_actual_n": 35,
+          "mse": 39.49952488342518,
+          "n": 2359,
+          "p90_abs": 10.264000000000005,
+          "p95_abs": 13.223999999999995,
+          "period": "REG",
+          "point_grid_denominator": 50,
+          "policy_id": "H-MULTI-COMMON",
+          "population": "primary",
+          "position": "ALL",
+          "procedure_family_id": "regularized_glm_law",
+          "procedure_id": "v2-qualified-partial-chart-direct-wave-v1:regularized_glm_law:common-feature-memory",
+          "product_id": "mean",
+          "record_kind": "NEW_EXPERIMENT_CURRENT_VINTAGE_PARTICIPANT_DIAGNOSTIC",
+          "rmse": 6.284864746629411,
+          "scored_n": 2359,
+          "season": 2026,
+          "target": "nick-chart-ppr-v1",
+          "unique_games": 107,
+          "week": "ALL"
+        },
+        "source": {
+          "repository": "NickNicky19/NFL-forecasting-V2",
+          "commit": "98c0e65800902b1840713dd3480a446f2219ef14",
+          "path": "reports/continuation-20261030/chart-wave-v1/SCORES.json",
+          "sha256": "b140ffce88fc208deffc009936337de882ab303bebc3a3815c826795e3ae3449",
+          "bytes": 331953,
+          "immutable_URL": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/98c0e65800902b1840713dd3480a446f2219ef14/reports/continuation-20261030/chart-wave-v1/SCORES.json",
+          "scope": "Existing public-safe source/configuration/aggregate/receipt bytes, not a raw private packet transfer."
+        },
+        "source_row_index": 176,
+        "interpretation": "Own numerical/event panel only. It does not fill actual-line weeks, exact known-target-time product cells or website-frame availability.",
+        "actual_evaluation_weeks": {
+          "season": 2026,
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "scope": "Historical numerical/event source panel; source week rows and query records control incomplete within-week population. Not actual-offer or original issuance qualification."
+        },
+        "unknown_outcomes_are_zero": false
+      },
+      "saved_body_readiness": "EXACT_PACKET_BYTES_REOPENED_FOR_LISTED_RECEIPTS;CANONICAL_CASE_AND_ADAPTER_ADMISSION_STILL_REQUIRED",
+      "typed_new_frame_readiness": "BODY_REOPENED_AND_SCOPED_SCHEMA_CHECKED;CANONICAL_IDENTITY_CLOCK_ROLE_AND_PRODUCT_JOIN_PENDING",
+      "new_website_frame_prediction_join": "NOT_EXECUTED",
+      "new_simulator_comparison": "NOT_EXECUTED",
+      "original_issuance": "RECONSTRUCTED_CURRENT_VINTAGE_EXPOSED_HISTORY; source cutoffs and original/native distinctions preserved in exact record, not authenticated by new read",
+      "duration_status": "PRODUCT_SPECIFIC_EXISTING_EVIDENCE_ONLY;NO_INHERITED_NEW_FRAME_OR_LEARNED_WEEK_QUALIFICATION",
+      "decision": "SHADOW_COMPARISON_ROSTER;NO_PRIMARY_ACTIVATION",
+      "current_query_ready": false,
+      "deployed": false
+    }
+  ],
+  "controls": "W0/W1 fixed; all strong retained siblings and old constant controls remain in detailed source records. No hindsight per-week or per-side router.",
+  "law_limits": "Legacy leaf_ids do not supply full CDF; typed modern law metadata and exact thresholds separately qualify. Means/medians are distinct products, not automatic distinct model families.",
+  "completeness": "COMPLETE_WITHIN_NAMED_RETAINED_B_SHORTLIST_EXTRACTION; wider lifetime history remains PARTIAL under existing catalog; no claim of A/C private evidence access",
+  "new_SIM_grades": 0,
+  "new_primary_activations": 0
+}

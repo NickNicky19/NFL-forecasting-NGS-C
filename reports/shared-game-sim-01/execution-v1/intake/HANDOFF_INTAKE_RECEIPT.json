@@ -1,0 +1,132 @@
+{
+  "id": "SHARED-GAME-SIM01-C-V3-PUBLISHED-HANDOFF-INTAKE-v1",
+  "UTC": "2026-11-22T17:46:13.114309+00:00",
+  "scope": "C metadata/code intake only; no protected forecast/model retrieval, source collection, fit, sampling, new grade or independent peer reproduction",
+  "website": {
+    "comment": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-7082149017",
+    "comment_created_UTC": "2026-11-22T16:32:09Z",
+    "public_zip": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/WEBSITE_PUBLIC_HANDOFF.zip",
+      "bytes": 32051,
+      "SHA256": "e04a674b06372ed4c14c2d8a160795eaa38d2e744e4912c32ca45e10c1792e14"
+    },
+    "indexed_files": 8,
+    "index_hashes": "PASS_EXACT_8;index_itself_not_selfbound",
+    "case_contract_state": "ADMITTED_CONDITIONAL_EXPOSED_STATISTICAL_COMPARISON",
+    "case_frame": {
+      "Sleeper_rows": 106,
+      "average_source_rows": 6,
+      "cases": 3474,
+      "games": 74,
+      "original_60cell_replay": "REUSED_RECORDED_COMPLETE; narrow review only; not rerun",
+      "unknown_outcomes": 464,
+      "week4_games": 2,
+      "weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "model_manifest": "b24d08193d95bdea509bd20ece6ebf66fd29da49d144c213369e493eace11bf1",
+    "closed_files": [
+      "players_sp.jsonl",
+      "games_sp.jsonl",
+      "manifest.json"
+    ],
+    "private_views": "NOT_REBUILT_BY_THIS_METADATA_TASK",
+    "private_rebuild": "Run reviewed deterministic builder on exact locally extracted starter in fresh approved private directory; check every declared output hash/length and reopen; no public raw view publication",
+    "input_boundary": "Builder is isolated preparation and reads grading-only outcomes for lossless normalization; forecast worker uses ONLY load_forecast_inputs(closed_dir, externally_pinned_manifest_sha256) plus separately admitted earlier C context. Never import prepare or sourceZIP into forecast worker."
+  },
+  "A": {
+    "commit": "76abe34f69baaab948a3ff9a8e59232e33594571",
+    "state": "RECEIVED_METADATA_AND_ADAPTER;PROTECTED_JOIN_STILL_A_OWNED",
+    "nominations": 35,
+    "categories": 12,
+    "handoff": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/A_CANDIDATE_HANDOFF_V1.json",
+      "bytes": 108038,
+      "SHA256": "40587a5a1e9612fe0b2883f6085b5b6278486c8a4c3b5a8601c2de74a371b8e3"
+    },
+    "adapter": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/A_SAVED_POINT_BINDING_ADAPTER_V1.py",
+      "bytes": 3956,
+      "SHA256": "8a31dda9deafb1062cbfc9da8458cd239eb772a166c035e411ecbf6cf7477e34"
+    },
+    "conditional_bound_opportunities": 1976,
+    "conditional_case_procedure_bindings": 5844,
+    "actual_new_grades": 0,
+    "saved_weeks": "W1-W7;newframe conditionalW5-W7;W8-W9missing",
+    "law": "Point-bound products not arbitrary-line law; preserve original line-specific law evidence separately"
+  },
+  "B": {
+    "commit": "c335ed29cd9e831987eed6445ae3c27877cec74c",
+    "state": "RECEIVED_36_NOMINEE_METADATA_AND_JOIN_VERIFICATION_CONTRACTS;NOT_NEWFRAME_PREDICTIONS",
+    "nominations": 36,
+    "categories": 12,
+    "roster": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/B_FROZEN_CANDIDATE_ROSTER_V3.json",
+      "bytes": 182640,
+      "SHA256": "d23b7ac1f7dcd462d26f61e465862c8c439b727d26e19a67c6fddcf9c8ec9309"
+    },
+    "join": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/B_SAVED_OUTPUT_JOIN_CONTRACT_V3.json",
+      "bytes": 2757,
+      "SHA256": "03e9c23ff8b1a53e35f27e28fcd0c2760a6050e1bb4745f3acb2209ba448c092"
+    },
+    "independent_requirements": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/B_INDEPENDENT_VERIFICATION_REQUIREMENTS_V3.json",
+      "bytes": 6107,
+      "SHA256": "e57d3bedb8dacf41710e8d7c8ed12caedff5cd96deb404badbb66e3898f87d58"
+    },
+    "nested_QB_detail": "FETCH_RETURNED_EMPTY_BODY_WITH_NONEMPTY_GIT_BLOB;NOT_RECEIVED;NO_RETRY",
+    "law": "Legacy leaf IDs insufficient; full exact threshold law/query binding required. Saved-row/strict fit verification scopes remain separate."
+  },
+  "missing_provider_resolution": {
+    "observed_missing": 6,
+    "dependent_categories": {
+      "rec": 3,
+      "rec_yd": 3
+    },
+    "conflict": "C old adjusted-point model fallback conflicts with newly admitted closed S-P allowlist; preserve W1 comparator fallback but never consume it as model input.",
+    "permitted_initial_resolution": "Freeze missing-provider dependent outputs as unavailable while other supplied provider anchors/component outputs proceed. If instead using an earlier-football prior fallback, explicitly version/freeze its attribution without calling it native provider-assisted coverage.",
+    "no_silent_substitution": true
+  },
+  "identity_supplement": {
+    "delivered": "Website supplied team/opponent/home/away/kickoff in deterministic closed view, not GSIS player bridge. No new exact native game/GSIS supplement body in this comment.",
+    "remaining": [
+      "Website/A exact ESPN\u2192canonical native mappings for W4 401872978/401872979 and W5 401872980 if not already supported by C retained schedule",
+      "Website/A exact GSIS binding for unresolved W5 TE; no name-only mapping or inferred participation"
+    ],
+    "scope": "Retain C existing supported schedule/identity mappings; do not mark every game blocked by narrower A manifest gap."
+  },
+  "metadata_reads": {
+    "attempts": 6,
+    "maximum": 6,
+    "successful_bodies": 5,
+    "failure": {
+      "owner": "B",
+      "repo": "NickNicky19/NFL-forecasting-V2",
+      "ref": "c335ed29cd9e831987eed6445ae3c27877cec74c",
+      "path": "reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+      "dest": "B_QB_CANDIDATES_V1.json",
+      "sha": "3dd7c97a34fbcb04fbe9a3805f0f52325b8a453b",
+      "display_url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/c335ed29cd9e831987eed6445ae3c27877cec74c/reports/shared-game-sim-01/B/shortlists/QB_CANDIDATES_V1.json",
+      "bytes": 0,
+      "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_computed": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "state": "BODY_MISSING_OR_TRUNCATED_IN_CONNECTOR;NO_RETRY"
+    },
+    "retries": 0,
+    "new_raw_source_GETs": 0
+  },
+  "verification": "Hashes/lengths/Git blobs and static loader/code only; not private-row, model fit, actual forecast-worker mutation, conservation, probability, grading or selector verification.",
+  "resource": {
+    "stage_CPU_cap": 8,
+    "conservative_CPU_charge": 2,
+    "selected_process_CPU_seconds": 0.017864647999999997,
+    "metering": "Selected Python process meters only; tool/network/orchestration/assistant overhead not completely metered. Two conservative CPU seconds are bookkeeping, not a full measured total. Charge once to approved SIM implementation/intake stage, no old budget transfer."
+  }
+}

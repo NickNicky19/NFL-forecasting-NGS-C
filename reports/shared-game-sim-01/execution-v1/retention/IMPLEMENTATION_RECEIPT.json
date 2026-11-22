@@ -1,0 +1,17 @@
+{
+  "task": "sim_v3_retention",
+  "state": "COMPILE_STATIC_ONLY_NO_IMPORT_RUNTIME_OR_SAMPLING",
+  "code": {
+    "path": "src/shared_game_sim01_retention.py",
+    "bytes": 13745,
+    "SHA256": "0381856af693c599f5a84a282cab9d8f7fd5a73337caed4d9f76118c42a48be6"
+  },
+  "measured_CPU_seconds": 0.018156390999999994,
+  "measured_wall_seconds": 0.02024785800040263,
+  "conservative_CPU_charge": 6,
+  "CPU_allowance": 6,
+  "scope": "Code authoring and compile only; unmetered assistant/tool overhead disclosed; canary must execute actual write/reopen and bytes projection",
+  "D_P": "Exact aggregate mean/mean conditional variance/variance conditional mean/total variance; no full conditional float matrices retained",
+  "prior_code_SHA256": "bc6c327aa2f5cf4e6b99ddd331405fce230d0cae62046162b1af77d33c8f270a",
+  "static_followup": "Require complete registered D-P count/child/combined moment keys, including zero-width unavailable-child arrays; no runtime executed"
+}

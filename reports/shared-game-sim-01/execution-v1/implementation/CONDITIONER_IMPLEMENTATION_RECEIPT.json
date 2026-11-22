@@ -1,0 +1,30 @@
+{
+  "stage": "IMPLEMENTED_COMPILE_ONLY;NO_SOLVE_OR_SAMPLING",
+  "path": "src/shared_game_sim01_condition.py",
+  "bytes": 18065,
+  "SHA256": "128ffa3b2cb9497ad0e84aed03ed937314ef354cb9b5d70ba0be3f90ab3168ff",
+  "measured_CPU_seconds": 0.012901188000000001,
+  "measured_wall_seconds": 0.01361218799956987,
+  "conservative_CPU_charge": 4,
+  "own_CPU_ceiling": 8,
+  "limitations": "Authoring/orchestration unmetered; selected Python static compile meter only. Root carries charge once in implementation allocation.",
+  "fits": 0,
+  "numerical_solves": 0,
+  "trajectories": 0,
+  "grades": 0,
+  "prior_code_SHA256": "88f22a4e9e928d4a74f2bbca5fc59229804dc38c6b8fec8255ed7c3ff20d3f26",
+  "compile_followup_CPU_seconds": 0.016737173,
+  "compile_followup_wall_seconds": 0.016737823000767094,
+  "retention": "Public-safe returned fit record excludes literal anchors/residual vectors; actual consumed anchor-bearing design bound by SHA256 before reduction",
+  "preserved_code_versions": [
+    {
+      "SHA256": "58ca841e066b8756c6a99123670c0c20fc420dfbfe69bb0e73a12771008a2900",
+      "bytes": 17036,
+      "reason": "Per-team solve wrapper superseded before any numerical execution by one both-team core + one both-team child solve"
+    }
+  ],
+  "joint_stage_refactor_CPU_seconds": 0.012489624999999997,
+  "joint_stage_refactor_wall_seconds": 0.012489626000387943,
+  "joint_stage_refactor_additional_conservative_CPU_charge": 1,
+  "bounded_solve_invocations": "Exactly2 component solver stages/game, at most2 scipy.minimize invocations; no-anchor/zero-free stage records unchanged without scipy solve; <=148 for74games"
+}

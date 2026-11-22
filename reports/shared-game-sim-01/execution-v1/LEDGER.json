@@ -1,0 +1,119 @@
+{
+  "id": "C-SHARED-GAME-SIM01-APPROVED-EXECUTION-v1",
+  "approval": "User follow-through approves request at ebf9a0bbe8411f8dbb80745ec87f1fbcf13a4f82 ONCE",
+  "limits": {
+    "CPU_seconds": 1800.0,
+    "wall_seconds": 7200.0,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "completion_CPU_reserve": 380.0,
+    "source_recovery_reads": 8,
+    "output_readbacks": 8
+  },
+  "charged_CPU_seconds": 83.93823983499999,
+  "charged_controlled_wall_seconds": 231.954048642001,
+  "first_scientific_launch_UTC": null,
+  "source_recovery_reads": 0,
+  "output_readbacks": 0,
+  "baseline_whole_C_bytes": 1291840516,
+  "events": [
+    {
+      "stage": "Prior preparation carry ONCE",
+      "CPU": 45.0,
+      "wall": 190.0
+    },
+    {
+      "stage": "Published handoff intake",
+      "CPU": 2,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.417888+00:00"
+    },
+    {
+      "stage": "D-P sufficient retention implementation",
+      "CPU": 6,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.418927+00:00"
+    },
+    {
+      "stage": "Provider conditioner implementation",
+      "CPU": 3,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.419967+00:00"
+    },
+    {
+      "stage": "Source fitter implementation",
+      "CPU": 8,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.420955+00:00"
+    },
+    {
+      "stage": "C saved controls adapter",
+      "CPU": 3,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.421650+00:00"
+    },
+    {
+      "stage": "Root controller/preparation integration",
+      "CPU": 10,
+      "wall": 0.0,
+      "details": "Conservative implementation accounting; selected process meters/authoring overhead limitations retained",
+      "UTC": "2026-11-22T17:52:33.421917+00:00"
+    },
+    {
+      "stage": "Selected preparation wall overhead",
+      "CPU": 0.0,
+      "wall": 40.0,
+      "details": "Additional controlled stage wall bookkeeping; not full assistant elapsed duration",
+      "UTC": "2026-11-22T17:52:33.422636+00:00"
+    },
+    {
+      "stage": "private_case_and_identity_rebuild",
+      "CPU": 1.7933436889999999,
+      "wall": 1.8077861620004114,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 113549312,
+        "threads": 1,
+        "command_SHA256": "280827f00220e642b297a15dddbce00f70809643fdb025d449521e569d8dab39"
+      },
+      "UTC": "2026-11-22T17:52:35.285449+00:00"
+    },
+    {
+      "stage": "Exact franchise alias and dual-clock integration",
+      "CPU": 0.144896146,
+      "wall": 0.14626248000058695,
+      "details": null,
+      "UTC": "2026-11-22T17:54:12.215822+00:00"
+    },
+    {
+      "stage": "Canonical metric view implementation",
+      "CPU": 3.0,
+      "wall": 0.0,
+      "details": "Conservative compile-only agent allocation; no grading",
+      "UTC": "2026-11-22T17:59:43.429158+00:00"
+    },
+    {
+      "stage": "Retained prior restore implementation",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Within prior fitter12CPU allocation; cumulative9",
+      "UTC": "2026-11-22T18:02:27.365910+00:00"
+    },
+    {
+      "stage": "Joint both-team conditioner solve wiring correction",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Within original conditioner8CPU; cumulative4; before generation",
+      "UTC": "2026-11-22T18:03:35.721428+00:00"
+    }
+  ],
+  "metering": "Controller+single worker process CPU; selected prior meters/conservative authoring charges. Assistant/network orchestration not a complete CPU certificate. End-to-end since first scientific launch separately enforced; original prior packages unchanged."
+}
