@@ -76,17 +76,23 @@ def canary_or_full(stage):
  # Startup uses the same qualified2024/25 pool at all six origins; estimate once
  # and reuse. Per-game team/actor posteriors still update with eligible history.
  t=time.process_time()
- if stage=='canary':
+ if stage=='canary' and not (PRIVATE/'frozen_startup_prior.json').exists():
   prior=fit_origin(store,games[0]['model_cutoff_utc']);save(PRIVATE/'frozen_startup_prior.json',prior_to_record(prior))
  else:prior=restore_origin(store,json.loads((PRIVATE/'frozen_startup_prior.json').read_text()))
  prior_CPU=time.process_time()-t
- save(D/('SOURCE_COMPONENT_EXECUTION_'+stage.upper()+'.json'),dict(classification=store.classification,source_bodies=store.body_bindings,prior=prior_to_record(prior),source_CPU=source_CPU,prior_CPU=prior_CPU,source_state='READY_BOX_SCORE_RECONSTRUCTED',reuse='Same startup2024/25 prior reused across all origins; per-game earlier8 usage updates'))
+ source_receipt=D/('SOURCE_COMPONENT_EXECUTION_'+stage.upper()+'.json')
+ if source_receipt.exists():source_receipt=D/('SOURCE_COMPONENT_EXECUTION_'+stage.upper()+'_'+str(len(list(D.glob('STOP_*.json')))+1)+'.json')
+ save(source_receipt,dict(classification=store.classification,source_bodies=store.body_bindings,prior=prior_to_record(prior),source_CPU=source_CPU,prior_CPU=prior_CPU,source_state='READY_BOX_SCORE_RECONSTRUCTED',reuse='Same startup2024/25 prior reused across all origins; per-game earlier8 usage updates'))
  existing=json.loads((D/'GAME_EXECUTION_INDEX.json').read_text()) if (D/'GAME_EXECUTION_INDEX.json').exists() else []
- done={r['native_game_id'] for r in existing};RAW.mkdir(parents=True,exist_ok=True)
+ done={r['native_game_id'] for r in existing}
+ # A numerical failure is unavailable for that original game, never retried or
+ # erased. Other registered origins can be independently executable; all remain
+ # in the full board. No grades or success-based week choice enter this rule.
+ failed={p.name[len('STOP_'):-len('.json')] for p in D.glob('STOP_*.json')}
+ done|=failed;RAW.mkdir(parents=True,exist_ok=True)
  todo=[g for g in games if g['native_game_id'] not in done]
  if stage=='canary':
   if existing:raise RuntimeError('CANARY_ALREADY_EXISTS_REUSE_DO_NOT_REPEAT')
-  todo=todo[:1]
  else:
   gate=json.loads((D/'CANARY_REMAINDER_GATE.json').read_text())
   if gate['decision']!='PASS':raise RuntimeError('FULL_REMAINDER_GATE_NOT_PASS')
@@ -112,8 +118,12 @@ def canary_or_full(stage):
    existing.append(row);save(D/'GAME_EXECUTION_INDEX.json',existing)
    print(json.dumps({k:row[k] for k in ('native_game_id','trajectories','generation_CPU','body_bytes')}),flush=True)
    del r,reopened
+   if stage=='canary':break
   except BaseException as e:
-   save(D/'STOP_'+game['native_game_id']+'.json',dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
+   save(D/('STOP_'+game['native_game_id']+'.json'),dict(stage=stage,reason=str(e),type=type(e).__name__,fit_record=getattr(e,'record',None),CPU_since_game_start=time.process_time()-t,completed_games=len(existing),no_retry=True))
+   if str(e)=='PROVIDER_CONDITIONING_FAILED;NO_RETRY':
+    print('TECHNICAL_UNAVAILABLE_NO_RETRY',game['native_game_id'],flush=True)
+    continue
    raise
  return existing
 def mutation():

@@ -1,0 +1,26 @@
+{
+  "state": "PASS",
+  "scope": "NFL full earlier/query context objective gradient only; no solve, fit reproduction, forecast or sampling",
+  "native_game_id": "2026_04_DET_CAR",
+  "central_step": 1e-06,
+  "absolute_tolerance": 1e-05,
+  "relative_tolerance": 1e-05,
+  "teams": [
+    {
+      "team": "CAR",
+      "parameters": 66,
+      "max_absolute_gradient_difference": 1.7477681524269428e-09,
+      "PASS": true,
+      "consumed_earlier_design_SHA256": "280d8f4880c175ea3a44540fac35324251b86c8fe5a771636d5b795a188d164d"
+    },
+    {
+      "team": "DET",
+      "parameters": 66,
+      "max_absolute_gradient_difference": 4.72959982289467e-09,
+      "PASS": true,
+      "consumed_earlier_design_SHA256": "6d84b0da2e1355abc86df517dc688d34550e6c4ccb5e5f39b3172577cc747a01"
+    }
+  ],
+  "failed_canary_optimizer_status": "NOT_RETAINED_DUE_TO_FAILURE_REPORT_PATH_DEFECT; do not infer termination or maxiter",
+  "optimizer_invocations": 0
+}

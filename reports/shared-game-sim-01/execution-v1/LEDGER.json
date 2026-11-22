@@ -12,9 +12,9 @@
     "source_recovery_reads": 8,
     "output_readbacks": 8
   },
-  "charged_CPU_seconds": 83.93823983499999,
-  "charged_controlled_wall_seconds": 231.954048642001,
-  "first_scientific_launch_UTC": null,
+  "charged_CPU_seconds": 98.63058422299999,
+  "charged_controlled_wall_seconds": 244.73019793200183,
+  "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
   "source_recovery_reads": 0,
   "output_readbacks": 0,
   "baseline_whole_C_bytes": 1291840516,
@@ -113,6 +113,46 @@
       "wall": 0.0,
       "details": "Within original conditioner8CPU; cumulative4; before generation",
       "UTC": "2026-11-22T18:03:35.721428+00:00"
+    },
+    {
+      "stage": "first_origin_ungraded_canary",
+      "CPU": 5.879358318,
+      "wall": 5.947783014000379,
+      "details": {
+        "returncode": 1,
+        "safe_stop": null,
+        "peak_RSS_bytes": 206049280,
+        "threads": 1,
+        "command_SHA256": "6cb130de85ec0b94d96eb6d0c29c833ebaec9bbda336f68b288d56f7e411c3c4"
+      },
+      "UTC": "2026-11-22T18:05:26.058381+00:00"
+    },
+    {
+      "stage": "Failure-path repair and one diagnostic preparation",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "Output-preserving error-path correction; no refit or parameter/tolerance change",
+      "UTC": "2026-11-22T18:09:41.310495+00:00"
+    },
+    {
+      "stage": "NFL_initial_gradient_diagnostic_no_optimizer",
+      "CPU": 6.81298607,
+      "wall": 6.828366276000452,
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 203755520,
+        "threads": 1,
+        "command_SHA256": "a688275727e65be6e20234005a69363152b75cda865152b8074751a801a074a7"
+      },
+      "UTC": "2026-11-22T18:09:48.198606+00:00"
+    },
+    {
+      "stage": "Per-origin technical unavailability bookkeeping and saved-control namespace repair",
+      "CPU": 1.0,
+      "wall": 0.0,
+      "details": "No solver retry, model setting or outcome selection",
+      "UTC": "2026-11-22T18:11:18.579129+00:00"
     }
   ],
   "metering": "Controller+single worker process CPU; selected prior meters/conservative authoring charges. Assistant/network orchestration not a complete CPU certificate. End-to-end since first scientific launch separately enforced; original prior packages unchanged."

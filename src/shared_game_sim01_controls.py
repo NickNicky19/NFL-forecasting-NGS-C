@@ -12,6 +12,7 @@ import hashlib
 import json
 import math
 from pathlib import Path
+from shared_game_sim01_inputs import canonical_team
 
 FORECAST_KEYS = frozenset((
     'game_id', 'player_id', 'position', 'team', 'opponent', 'opponent_team',
@@ -179,7 +180,7 @@ def build_controls(root, case_rows, identity_rows):
                               else 'NO_EXACT_SAVED_ORIGIN_PREDICTION')
                 if reason is None and row.get('position') != c['position']:
                     reason = 'SAVED_ROLE_MISMATCH'
-                if reason is None and row.get('team') != c.get('team'):
+                if reason is None and canonical_team(row.get('team')) != canonical_team(c.get('team')):
                     reason = 'SAVED_TEAM_MISMATCH'
                 if reason is None:
                     b = row_bindings[id(row)]

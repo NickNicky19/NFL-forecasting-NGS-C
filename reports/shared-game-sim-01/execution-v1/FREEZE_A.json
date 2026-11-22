@@ -1,6 +1,6 @@
 {
-  "id": "C-SIM01-FREEZE-A-v1",
-  "UTC": "2026-11-22T18:03:35.783641+00:00",
+  "id": "C-SIM01-FREEZE-A-v1.1",
+  "UTC": "2026-11-22T18:11:18.577268+00:00",
   "state": "EXECUTABLE_RECIPE_INPUT_ROSTER_SEED_POLICY_FROZEN_BEFORE_GENERATION",
   "code": [
     {
@@ -15,8 +15,13 @@
     },
     {
       "path": "src/shared_game_sim01_controls.py",
-      "bytes": 9901,
-      "SHA256": "77b6b4985f5cb888501b08df71063b1e4784b12c892207dba0d7c2a8f8340261"
+      "bytes": 9985,
+      "SHA256": "5a9061fa5c5138bdcafca370360120651708b994742981eb812f5596526582b3"
+    },
+    {
+      "path": "src/shared_game_sim01_diagnostics.py",
+      "bytes": 2477,
+      "SHA256": "1a8c0919f5beed5f99663e6f5a415e1a0141b1a49e85abe35e8361c34c19bb11"
     },
     {
       "path": "src/shared_game_sim01_fit.py",
@@ -50,8 +55,8 @@
     },
     {
       "path": "src/shared_game_sim01_run.py",
-      "bytes": 10231,
-      "SHA256": "6c73071c17984f9bbfc6c2b940719b2cc11eeb442ba5eec6cb4b283953df1dd8"
+      "bytes": 10947,
+      "SHA256": "6e87eed2c00aaf16a834b13384b17dee14c51a7118d87ffd036d66cc690d2202"
     },
     {
       "path": "src/shared_game_sim01_score.py",
@@ -118,5 +123,8 @@
   "remainder": "Measured conservative2xpergame/maxactors projection plus all scoring/check/retention reserves before continuation",
   "SP_missing_provider": "Six null actor/category outputs unavailable; adjusted comparator points prohibited",
   "D_P": "Aggregate conditional moments AND own fitted state persisted/reopened",
-  "first_scientific_fit_or_trajectory": "NONE_BEFORE_THIS_FREEZE"
+  "first_scientific_fit_or_trajectory": "Startup prior fitted;1failedjointcore;0trajectories;no outcome inspection",
+  "technical_revision": "Failure-report Path joining repaired; failed origins permanently unavailable/no optimizer retry; earliest remaining original origin may qualify same cumulative canary. Exact numerical recipe, solver settings, input allowlist, seeds and target roster unchanged.",
+  "prior_freeze": "V1 preserved at7ef8208; first origin failed before sampling",
+  "failed_origin": "2026_04_DET_CAR"
 }
