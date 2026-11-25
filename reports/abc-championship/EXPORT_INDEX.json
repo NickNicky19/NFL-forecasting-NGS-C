@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 174512,
-    "SHA256": "d585b8b81b3d593b716161a84ab6cce8b35ca4cf104af41ed72f8fa4e3d0dfe4"
+    "bytes": 182363,
+    "SHA256": "b681ba5af0f365233544d2514996bd8abf532101458067b4362312a903909b12"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -3620,22 +3620,50 @@
     "actual_GitHub_report_machine_restoration": true
   },
   "shared_game_sim_01_saved_method_followthrough": {
-    "id": "C-SAVED-METHOD-FOLLOWTHROUGH-v1",
-    "mask_state": "C638PRIVATESET_REOPENED;B671FIXEDSET_COMPARISON_PENDING",
-    "B_grading_state": "RECEIVED_AND_DIAGNOSTIC_GRADED_AT0f5859c;NO_B_JOIN_REPEAT",
-    "A_state": "COMPLETED_CLOSED;NO_REOPEN",
-    "mask": {
-      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/MASK_REOPEN_RESULT_V1.json",
-      "bytes": 13069,
-      "SHA256": "ec37a873039b13652eb4101696d2cf3d03563e92b06b170644350e34bc98f113"
+    "id": "C-SAVED-METHOD-FOLLOWTHROUGH-v2",
+    "supersedes_status_at": "6f76b338d1aa8d730d531518c9008f7e93874f7a",
+    "mask_state": "COMPLETE_B_FIXED_SETS_AND_BOTH_ORIGINAL_COMMITMENTS_VERIFIED",
+    "receiving_per_target": {
+      "common": 638,
+      "B_only": 33,
+      "C_only": 0
     },
-    "delivery": {
+    "C_mean_points": "B_INDEPENDENT_CASE_LEVEL_REPRODUCTION_REC_AND_REC_YD_OWN_SIDES_AND_W0_W1_PAIRS",
+    "limits": "Fit, original source clocks, median/law, resampling of intervals and full selector membership remain outside the two-mean verification.",
+    "B_grading_state": "B_AND_WEBSITE_RECEIVED_C_DIFFERENT_HORIZON_DIAGNOSTIC_GRADES_5338",
+    "A_state": "COMPLETED_CLOSED",
+    "report": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/CURRENT_DELIVERY_V2.md",
+      "bytes": 7387,
+      "SHA256": "f8c5d4e67609d0d95a8ec66a94c2f3cafc158f12572bed61adcdac9f1b008ade"
+    },
+    "mask": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/B_VERIFICATION_ADMISSION_V2.json",
+      "bytes": 14190,
+      "SHA256": "b283d3bd21909123823537b723d85430eee12d157626c022ca0bba138ad26799"
+    },
+    "adapter_and_historical_model_bindings": {
       "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/PRODUCT_DELIVERY_BINDINGS.json",
       "bytes": 34596,
       "SHA256": "3adeab2cccc7730d2ca7e2ae1410badd5595a1f3cdd2194a8726e975d4894a6d"
     },
+    "delivery": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_DELIVERY_REQUEST_V1.json",
+      "bytes": 20481,
+      "SHA256": "d281fbfff46f3af27d6aebf7f4f4d5dde6cf1e3a2ea7d9e24b219ae256aac0d9"
+    },
+    "consumer": {
+      "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/WEBSITE_CONSUMER_STATUS_V2.json",
+      "bytes": 7752,
+      "SHA256": "55c9d4b9718e075e4f09bb74808248b1d8ff875cada05acea676f1e30c460557"
+    },
+    "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+    "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
+    "producer_status": "EXISTING_C_MANUAL_AUTHORITY;ONE_CURRENT_SOURCE_AND_EXECUTION_ALLOCATION_REQUESTED",
     "new_current_feed": false,
     "website_release": false,
+    "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
+    "SITE_readback": "W12_BASELINE_ONLY;ZERO_M3_OVERLAY_ROWS",
     "separate_SIM_allocation": true
   }
 }

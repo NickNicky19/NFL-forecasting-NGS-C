@@ -1,0 +1,470 @@
+{
+  "id": "C-RECEIVING-MASK-AND-MEAN-ADMISSION-v2",
+  "admitted_UTC": "2026-11-25T00:34:02.158857+00:00",
+  "mask_reconciliation": "COMPLETE",
+  "owner_verifier": "B",
+  "admitted_by": "C",
+  "source_repository": "NickNicky19/NFL-forecasting-V2",
+  "source_commit": "7dc0439ab85f20872355d6af6a53771dfad88bfc",
+  "receipt_url": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/7dc0439ab85f20872355d6af6a53771dfad88bfc/reports/shared-game-sim-01/B/mask-grade-delivery-follow-through-v1/README.md",
+  "received_git_blobs": [
+    {
+      "path": "reports/shared-game-sim-01/B/mask-grade-delivery-follow-through-v1/C_FIXED_MASK_INDEPENDENT_RESOLUTION_V1.json",
+      "git_blob": "f96ded6db76fee1c681b7a34ab43973fc773cd6c",
+      "bytes": 8526,
+      "sha256": "b82e54dc25bb3d08cd42b7a0fe27457cd5418e44ebc805d19af32e48044033ec"
+    },
+    {
+      "path": "reports/shared-game-sim-01/B/mask-grade-delivery-follow-through-v1/C_FIXED_MASK_MEAN_VERIFICATION_V1.json",
+      "git_blob": "11897b22a33bf494144549f17200f077edc49a06",
+      "bytes": 3386,
+      "sha256": "c90c946ef9f76e0fbf1d73f0cd35999a43576991d580e52c9851e02bb90a782e"
+    },
+    {
+      "path": "reports/shared-game-sim-01/B/mask-grade-delivery-follow-through-v1/B_C_RECEIVING_PAIRED_RESOLUTION_V3.json",
+      "git_blob": "925da9c7a8d46ff1ac3728b2c5d668f1a8c2ad46",
+      "bytes": 10301,
+      "sha256": "677530734b276bcd8a292fcd7a3478a8f7293a5d57b1903726dc252bde219900"
+    }
+  ],
+  "canonical_case_SHA256": "19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18",
+  "original_C_reopening": {
+    "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/MASK_REOPEN_RESULT_V1.json",
+    "bytes": 13069,
+    "SHA256": "ec37a873039b13652eb4101696d2cf3d03563e92b06b170644350e34bc98f113"
+  },
+  "verification_scope": "B independently compared the two fixed available-case sets before grades, then reproduced the original saved points’ strict crossings, weekly and own-side counts, and W0/W1 paired counts and discordances for the two mean products. C admitted B’s published evidence and checked its commitments against the original C receipt.",
+  "masks": [
+    {
+      "category": "rec",
+      "B_available": 671,
+      "C_available": 638,
+      "intersection": 638,
+      "B_only": 33,
+      "C_only": 0,
+      "B_mask_SHA256": "276c31f35a4380b1278ad9c5dbf3fc28dce91c0b86d6879733eed74f69e650b5",
+      "C_mask_SHA256": "8a0b7aeaeafa260a2d63f2e0f40185de7599710831cdca5abdcef95636f6e963",
+      "B_only_reasons": {
+        "UNAVAILABLE_IDENTITY_MISSING": 30,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 1
+      },
+      "weekly": [
+        {
+          "week": 4,
+          "B_available": 22,
+          "C_available": 21,
+          "intersection": 21,
+          "B_only": 1,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 1
+          }
+        },
+        {
+          "week": 5,
+          "B_available": 129,
+          "C_available": 119,
+          "intersection": 119,
+          "B_only": 10,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1,
+            "UNAVAILABLE_IDENTITY_MISSING": 9
+          }
+        },
+        {
+          "week": 6,
+          "B_available": 138,
+          "C_available": 125,
+          "intersection": 125,
+          "B_only": 13,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 11,
+            "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1,
+            "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 1
+          }
+        },
+        {
+          "week": 7,
+          "B_available": 126,
+          "C_available": 124,
+          "intersection": 124,
+          "B_only": 2,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 2
+          }
+        },
+        {
+          "week": 8,
+          "B_available": 126,
+          "C_available": 122,
+          "intersection": 122,
+          "B_only": 4,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 4
+          }
+        },
+        {
+          "week": 9,
+          "B_available": 130,
+          "C_available": 127,
+          "intersection": 127,
+          "B_only": 3,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 3
+          }
+        }
+      ]
+    },
+    {
+      "category": "rec_yd",
+      "B_available": 671,
+      "C_available": 638,
+      "intersection": 638,
+      "B_only": 33,
+      "C_only": 0,
+      "B_mask_SHA256": "0ebea032f5e7315edf948f9638230bd44548e248e1e399c84fc9f1688c18d9bc",
+      "C_mask_SHA256": "2995d71a621a0b6d224ec6c8078a413f135033efe3e94514e332b29394729358",
+      "B_only_reasons": {
+        "UNAVAILABLE_IDENTITY_MISSING": 30,
+        "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 2,
+        "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 1
+      },
+      "weekly": [
+        {
+          "week": 4,
+          "B_available": 22,
+          "C_available": 21,
+          "intersection": 21,
+          "B_only": 1,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 1
+          }
+        },
+        {
+          "week": 5,
+          "B_available": 129,
+          "C_available": 119,
+          "intersection": 119,
+          "B_only": 10,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 9,
+            "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+          }
+        },
+        {
+          "week": 6,
+          "B_available": 138,
+          "C_available": 125,
+          "intersection": 125,
+          "B_only": 13,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 11,
+            "UNAVAILABLE_PRIOR_TEAM_NOT_IN_TARGET_GAME": 1,
+            "UNAVAILABLE_NO_ADMITTED_PRIOR_TEAM": 1
+          }
+        },
+        {
+          "week": 7,
+          "B_available": 126,
+          "C_available": 124,
+          "intersection": 124,
+          "B_only": 2,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 2
+          }
+        },
+        {
+          "week": 8,
+          "B_available": 126,
+          "C_available": 122,
+          "intersection": 122,
+          "B_only": 4,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 4
+          }
+        },
+        {
+          "week": 9,
+          "B_available": 130,
+          "C_available": 127,
+          "intersection": 127,
+          "B_only": 3,
+          "C_only": 0,
+          "B_only_reasons": {
+            "UNAVAILABLE_IDENTITY_MISSING": 3
+          }
+        }
+      ]
+    }
+  ],
+  "mean_products": [
+    {
+      "attribution": {
+        "native": 638
+      },
+      "category": "rec",
+      "own_sides": {
+        "COMBINED": {
+          "LOSS": 239,
+          "UNKNOWN": 60,
+          "WIN": 339,
+          "selected": 638
+        },
+        "OVER": {
+          "LOSS": 105,
+          "UNKNOWN": 41,
+          "WIN": 177,
+          "selected": 323
+        },
+        "UNDER": {
+          "LOSS": 134,
+          "UNKNOWN": 19,
+          "WIN": 162,
+          "selected": 315
+        }
+      },
+      "paired": {
+        "W0": {
+          "common_decided": 575,
+          "common_decided_canonical_key_SHA256": "aff5bb5a5ea6760e949721a638f6024dea98d952161daa20ab846b0ccf9494dd",
+          "control_only_wins": 98,
+          "control_wins": 320,
+          "primary_only_wins": 115,
+          "primary_wins": 337
+        },
+        "W1": {
+          "common_decided": 571,
+          "common_decided_canonical_key_SHA256": "b03f88d5f42e067c40fe1ddc9efc9463b02786a0bc5b1ee300f0f09a62b3e758",
+          "control_only_wins": 100,
+          "control_wins": 332,
+          "primary_only_wins": 105,
+          "primary_wins": 337
+        }
+      },
+      "procedure": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "weekly": {
+        "4": {
+          "LOSS": 7,
+          "UNKNOWN": 2,
+          "WIN": 12,
+          "available": 21
+        },
+        "5": {
+          "LOSS": 50,
+          "UNKNOWN": 8,
+          "WIN": 61,
+          "available": 119
+        },
+        "6": {
+          "LOSS": 44,
+          "UNKNOWN": 14,
+          "WIN": 67,
+          "available": 125
+        },
+        "7": {
+          "LOSS": 39,
+          "UNKNOWN": 13,
+          "WIN": 72,
+          "available": 124
+        },
+        "8": {
+          "LOSS": 54,
+          "UNKNOWN": 13,
+          "WIN": 55,
+          "available": 122
+        },
+        "9": {
+          "LOSS": 45,
+          "UNKNOWN": 10,
+          "WIN": 72,
+          "available": 127
+        }
+      }
+    },
+    {
+      "attribution": {
+        "native": 638
+      },
+      "category": "rec_yd",
+      "own_sides": {
+        "COMBINED": {
+          "LOSS": 260,
+          "UNKNOWN": 63,
+          "WIN": 315,
+          "selected": 638
+        },
+        "OVER": {
+          "LOSS": 160,
+          "UNKNOWN": 50,
+          "WIN": 202,
+          "selected": 412
+        },
+        "UNDER": {
+          "LOSS": 100,
+          "UNKNOWN": 13,
+          "WIN": 113,
+          "selected": 226
+        }
+      },
+      "paired": {
+        "W0": {
+          "common_decided": 573,
+          "common_decided_canonical_key_SHA256": "a8b85242b9079f214966cf6ce476350174d5da65f4486a1c3fc317093e54e5c6",
+          "control_only_wins": 96,
+          "control_wins": 293,
+          "primary_only_wins": 116,
+          "primary_wins": 313
+        },
+        "W1": {
+          "common_decided": 575,
+          "common_decided_canonical_key_SHA256": "5aee127c33d368c86e6e9248595caa4931c7170a18cfae2cedd42905c600db1b",
+          "control_only_wins": 99,
+          "control_wins": 307,
+          "primary_only_wins": 107,
+          "primary_wins": 315
+        }
+      },
+      "procedure": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+      "weekly": {
+        "4": {
+          "LOSS": 8,
+          "UNKNOWN": 2,
+          "WIN": 11,
+          "available": 21
+        },
+        "5": {
+          "LOSS": 56,
+          "UNKNOWN": 9,
+          "WIN": 54,
+          "available": 119
+        },
+        "6": {
+          "LOSS": 52,
+          "UNKNOWN": 15,
+          "WIN": 58,
+          "available": 125
+        },
+        "7": {
+          "LOSS": 47,
+          "UNKNOWN": 13,
+          "WIN": 64,
+          "available": 124
+        },
+        "8": {
+          "LOSS": 56,
+          "UNKNOWN": 13,
+          "WIN": 53,
+          "available": 122
+        },
+        "9": {
+          "LOSS": 41,
+          "UNKNOWN": 11,
+          "WIN": 75,
+          "available": 127
+        }
+      }
+    }
+  ],
+  "B_C_reception_mean_pairs": [
+    {
+      "B_procedure": "B::B-SIM01-2d9fb1d864929a32c4::PRIMARY",
+      "C_procedure": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "actual_common_decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "fixed_availability": {
+        "B_available": 546,
+        "B_available_canonical_key_SHA256": "07da118318001921a163265d4659001bd3aaa8e7dfaf1b52b1d576fbe7d74a42",
+        "B_only_available": 157,
+        "C_available": 638,
+        "C_available_canonical_key_SHA256": "b2e226cc2ffe8e67466979d34fd454314d85b801805684bb126b1d159ee2cac9",
+        "C_only_available": 249,
+        "available_intersection": 389,
+        "common_available_canonical_key_SHA256": "6b27a3f89285777a8c884fe0c392025edb8d0b13cc9cc3c6ecdd561a5f3ae70e"
+      },
+      "unique_common_decided_games": 45,
+      "paired": {
+        "common_decided": 352,
+        "control_only_wins": 13,
+        "control_wins": 212,
+        "disagreements": 28,
+        "primary_only_wins": 15,
+        "primary_wins": 214,
+        "win_difference": 2
+      },
+      "common_decided_canonical_key_SHA256": "99e998e9da569549df925589cf38b0e34a3afdb779c2f8083292eb79d85b53da"
+    },
+    {
+      "B_procedure": "B::B-SIM01-f0b13c56dbdd37a2b3::PRIMARY",
+      "C_procedure": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "actual_common_decided_weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "fixed_availability": {
+        "B_available": 546,
+        "B_available_canonical_key_SHA256": "07da118318001921a163265d4659001bd3aaa8e7dfaf1b52b1d576fbe7d74a42",
+        "B_only_available": 157,
+        "C_available": 638,
+        "C_available_canonical_key_SHA256": "b2e226cc2ffe8e67466979d34fd454314d85b801805684bb126b1d159ee2cac9",
+        "C_only_available": 249,
+        "available_intersection": 389,
+        "common_available_canonical_key_SHA256": "6b27a3f89285777a8c884fe0c392025edb8d0b13cc9cc3c6ecdd561a5f3ae70e"
+      },
+      "unique_common_decided_games": 45,
+      "paired": {
+        "common_decided": 352,
+        "control_only_wins": 17,
+        "control_wins": 212,
+        "disagreements": 34,
+        "primary_only_wins": 17,
+        "primary_wins": 212,
+        "win_difference": 0
+      },
+      "common_decided_canonical_key_SHA256": "99e998e9da569549df925589cf38b0e34a3afdb779c2f8083292eb79d85b53da"
+    }
+  ],
+  "B_grades": "B and the website acknowledge the 5,338 bindings graded by C. The 1,207 insufficient-clock and 4,131 different-origin flags remain. Cross-owner pairs have different horizons and unverified timing.",
+  "interval_source": "The original C game-block intervals are descriptive. B did not resample them.",
+  "outside_B_mean_check": [
+    "fit and training reproduction",
+    "historical source or issue clocks",
+    "median or law values and probabilities",
+    "interval resampling",
+    "full selector membership",
+    "current inference, consumer admission or served values"
+  ],
+  "historical_scored_blocks": [
+    "2026-W04",
+    "2026-W05",
+    "2026-W06",
+    "2026-W07",
+    "2026-W08",
+    "2026-W09"
+  ],
+  "effect": "The documented identity/prior-team policies explain the exclusions. Original forecasts, outcomes, masks and grades stand. The prior B671/C638 stop is superseded only in the scopes above.",
+  "C_execution": {
+    "repeated_mask_comparisons": 0,
+    "new_grades": 0,
+    "new_fits": 0,
+    "target_outcomes_read": 0,
+    "A_tasks_reopened": 0,
+    "simulator_charges": 0
+  }
+}
