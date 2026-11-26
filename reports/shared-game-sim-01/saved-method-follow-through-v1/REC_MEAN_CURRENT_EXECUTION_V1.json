@@ -1,0 +1,119 @@
+{
+  "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
+  "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+  "state": "AUTHORIZED_ONCE_PREFIT",
+  "recorded_UTC": "2026-11-26T20:15:47.548225+00:00",
+  "controlling_request": {
+    "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_DELIVERY_REQUEST_V1.json",
+    "bytes": 20481,
+    "SHA256": "d281fbfff46f3af27d6aebf7f4f4d5dde6cf1e3a2ea7d9e24b219ae256aac0d9"
+  },
+  "controlling_revision": "dd1aee1e8ebfbcb7fe8abb756a104d25b0254932",
+  "approval": "One refreshed reception-mean production execution, 2026-11-26. Supersedes the GB\u2013LA event and the separate website resource proposal.",
+  "producer": "C-CURRENT-REFERENCE-CHALLENGER",
+  "limits": {
+    "CPU_seconds_max": 300,
+    "end_to_end_wall_seconds_max": 2700,
+    "workers": 1,
+    "threads": 1,
+    "peak_RSS_bytes": 1288490188,
+    "current_fit_attempts_including_failures_max": 1,
+    "historical_fit_attempts_max": 0,
+    "current_games_max": 1,
+    "included_CPU_by_stage_seconds": {
+      "implementation_preflight_and_source_projection": 40,
+      "features_exact_reuse_decision_and_conditional_fit": 150,
+      "inference_freeze_and_prepare_publication": 35,
+      "reserved_checks_readback_accounting_and_handoff": 75
+    },
+    "included_completion_wall_reserve_seconds": 600,
+    "source_access": {
+      "logical_GETs_max": 4,
+      "wire_requests_including_redirects_and_failures_max": 6,
+      "rule": "One GET per named body; count redirects to the already admitted release hosts and failures. No discovery, HEAD, retries, paid calls or additional sources. Reuse already-held bytes only with qualified fresh version and clock evidence.",
+      "total_response_bytes_max": 8388608,
+      "single_response_bytes_max": 4194304,
+      "decoded_single_body_bytes_max": 33554432
+    },
+    "readback": {
+      "GitHub_file_reads_max": 24,
+      "GitHub_metadata_reads_max": 6,
+      "total_operations_max": 30,
+      "returned_content_bytes_max": 16777216,
+      "scope": "Within this new producer package only. Covers code/manifest and reviewed input bindings, numerical model and forecast body, completed run/server timing, final envelope, receipt and restoration. Log each operation and failure before reuse."
+    },
+    "retained_bytes_max": 16777216,
+    "simultaneous_new_bytes_max_including_retention": 67108864,
+    "whole_C_bytes_cap": 2684354560,
+    "storage_preflight": {
+      "observed_UTC": "2026-11-25T00:36:01.139159+00:00",
+      "measured_C_bytes": 1952988644,
+      "headroom_bytes": 731365916,
+      "definition": "Apparent file bytes across de-nested existing v4, M3 and current-release C roots, relevant temporary evidence and this reporting stage. Recheck immediately before work including new objects, staging, Git and restored copies."
+    },
+    "accounting": "Cumulative from first execution/preparation under this package, inclusive of failed attempts, controller and waited-child CPU, checks, serialization, publication and readback. End-to-end wall includes source, queue, network and CI waits. Record measured producer CPU and separately report external server/normal CI durations and unmetered overhead. B and the original website use their own already assigned verification/release routes. No transfers or automatic retries/extensions.",
+    "cost_basis": [
+      {
+        "receipt": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
+        "measured": "The earlier complete three-current-fit draft used 148.939803602 CPU s and published 2,388,835 bytes. The cost of this single-origin M3 path is an estimate."
+      },
+      {
+        "receipt": "reports/category-decision-release-01/current/BODY_RESOURCE.json",
+        "measured": "5.353179829 CPU s / 6.347635374 wall s for prior source processing including PBP. PBP is excluded from E0_OP32."
+      },
+      {
+        "receipt": "reports/category-decision-release-01/RESOURCE_CLOSURE.json",
+        "measured": "25 earlier P1 inference rows used 0.3879 CPU s and independent inference used 0.552383494 s. C06 completed 24 file plus 2 metadata restoration operations."
+      },
+      {
+        "receipt": "reports/targeted-accuracy-w1w9-01/M3/RESOURCE_CLOSURE.json",
+        "measured": "Earlier M3 fit driver peak RSS 636,227,584 bytes. Retained rec W9 Leaf is 120,571 compressed bytes."
+      }
+    ],
+    "new_paid_services_or_schedulers": 0,
+    "preparation_accounting": "This checkpoint performed receipt intake, cost planning, calendar lookup and public served-metadata checks under the reporting assignment. Producer source/fit/inference spending is zero. Historical software and source charges remain in their original accounts. Local process and external network overhead for this reporting step were not completely metered."
+  },
+  "opening_account": {
+    "first_shell_observed_UTC": "2026-11-26T20:09:34Z",
+    "conservative_wall_guard_origin_UTC": "2026-11-26T20:00:00Z",
+    "conservative_end_UTC": "2026-11-26T20:45:00Z",
+    "pre_meter_charge_ceiling_seconds": 12,
+    "pre_metering": "First shell operations are covered by a 12-second conservative CPU debit. Subsequent meter is the nonnegative change of the environment CPU counter including incidental work. Separately disclose external orchestration and network timings.",
+    "whole_C_bytes": 1955491793,
+    "carry_from_request": {
+      "producer_source_calls": 0,
+      "fit_attempts": 0,
+      "inference": 0
+    }
+  },
+  "event_selection": "Select the first supported future scheduled event by UTC kickoff and canonical ID, using the observed calendar, unchanged weekly fit boundary and the seven-day history rule. Allow full issue, publication, readback and consumption time. Use team and player identities known before issue.",
+  "initial_website_reference": {
+    "receipt": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-7149226633",
+    "manual_owner_run": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+    "status": "The original owner describes its manual numerical admission authority. The separate proposed shared 300/2400 package is superseded. Explicit coverage of the expiry/conditioning integration and timely admission through its own account is pending.",
+    "public_helper_sha256": "89d3e649d8e22bb1a7b11fc28dabd42aae8d175617bdd3fbadcb6709345dd066"
+  },
+  "initial_B_reference": {
+    "revision": "b566d08641fc61a4e37202419c6c35a36b7fbf14",
+    "discovery_revision": "e153529a8722cdb95444e4a4f04b070023ce2c94",
+    "report": "reports/shared-game-sim-01/B/current-m3-delivery-follow-through-20261125/EXACT_DELIVERY_PACKAGE_HANDOFF_V1.json",
+    "status": "B identifies its intended delivered-row verification and C as producer. This handoff does not identify the balance and operational coverage of B\u2019s own current-output verification account."
+  },
+  "conditioning": {
+    "C_fit": "A final player-game needs at least one positive listed statistical involvement or nonzero signed passing/rushing/receiving yards, and an observed nonnegative integral reception count. WR/TE are queried; RB/WR/TE train. An observed zero can qualify if other involvement provides evidence. An appearance with only unrecorded or stat-free snaps supplies no training label.",
+    "consumer": "The manual numerical wire accepts only conditional_on=played. Source/target equality or an owner-qualified narrower consumer contract must be established before the fit.",
+    "producer_code": [
+      "src/data_v2.py:load",
+      "src/contracts_v2.py:target",
+      "src/targeted_accuracy_m3.py:run"
+    ]
+  },
+  "expiry": {
+    "producer": "Earliest roster revision +36 hours, effective native pregame status freshness and observation +30 minutes, kickoff minus 5 minutes. Enforce throughout current use.",
+    "consumer": "Current JS validateRow/lookup accepts a closed schema without producer expiry and returns the row at and after kickoff with frozen=true. Pre-issuance manual catalog and registry both require actual owner capability proof and registered_at <= issued_at."
+  },
+  "route": "Publish the actual model/query bindings through C\u2019s existing on-demand GitHub route once available. The website owner supplies source-neutral registry/catalog admission prior to issue. The definitive current envelope is a second immutable step after server persistence of the original values.",
+  "prefit_check": "Require B and website owner-account coverage, compatible target and enforced producer expiry, eligible source identities/status/freshness and the complete remaining path within reserve.",
+  "scientific_status": "Six partially covered historical receiving blocks retain their evidence. Original website recorded KEEP_INCUMBENT for numerical display and SHADOW for this challenger. Current production decision awaits the actual delivered product.",
+  "authority": "Numerical mean for one event only. No cross-owner write, historical grade change, other predictive product, simulator execution or PR merge."
+}

@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 182363,
-    "SHA256": "b681ba5af0f365233544d2514996bd8abf532101458067b4362312a903909b12"
+    "bytes": 182815,
+    "SHA256": "a460428edb6b31cd0ff85186d79618e80092847f43f57c4fec46584340701f2c"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -3664,6 +3664,16 @@
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
     "SITE_readback": "W12_BASELINE_ONLY;ZERO_M3_OVERLAY_ROWS",
-    "separate_SIM_allocation": true
+    "separate_SIM_allocation": true,
+    "current_reception_delivery": {
+      "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
+      "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "state": "AUTHORIZED_ONCE_PREFIT",
+      "receipt": {
+        "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_EXECUTION_V1.json",
+        "bytes": 8995,
+        "SHA256": "470b78486b391cad76482f88d531b458662d358e4fc1e0a9fbb49d8b719e79fa"
+      }
+    }
   }
 }
