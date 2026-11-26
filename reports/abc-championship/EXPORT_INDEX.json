@@ -54,7 +54,7 @@
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
     "bytes": 182847,
-    "SHA256": "3d564053684d1438eefd8ae0c45722dc186162225e5ab4f48995a36ca6260fa1"
+    "SHA256": "301ff62330a42fa8940940934991060a4263a1650e8feca1bf57d97f8c9d09ed"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -3659,7 +3659,7 @@
     },
     "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
     "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
-    "producer_status": "EXISTING_C_MANUAL_AUTHORITY;ONE_CURRENT_SOURCE_AND_EXECUTION_ALLOCATION_REQUESTED",
+    "producer_status": "OWNERS_AND_EXACT_TARGET_BOUND_AWAITING_DEPLOYED_CONSUMER_BEFORE_FIT",
     "new_current_feed": false,
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
@@ -3668,11 +3668,11 @@
     "current_reception_delivery": {
       "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
       "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
-      "state": "PREFIT_HOLD_CONSUMER_TARGET_EXPIRY_AND_OWNER_ACCOUNTS",
+      "state": "OWNERS_AND_EXACT_TARGET_BOUND_AWAITING_DEPLOYED_CONSUMER_BEFORE_FIT",
       "receipt": {
         "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_EXECUTION_V1.json",
-        "bytes": 19436,
-        "SHA256": "78511ea16816a0a9c391ed8696e2ff47c75123ffd1be017314fa45808cc0798e"
+        "bytes": 27772,
+        "SHA256": "148d3035f513f6fb7b06f33e9a394b7f75607e3bf92e541068088478cc552cb0"
       }
     }
   }
