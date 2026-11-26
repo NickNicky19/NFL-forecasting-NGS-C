@@ -1,8 +1,8 @@
 {
   "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
   "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
-  "state": "AUTHORIZED_ONCE_PREFIT",
-  "recorded_UTC": "2026-11-26T20:15:47.548225+00:00",
+  "state": "PREFIT_HOLD_CONSUMER_TARGET_EXPIRY_AND_OWNER_ACCOUNTS",
+  "recorded_UTC": "2026-11-26T20:23:30.051650+00:00",
   "controlling_request": {
     "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_DELIVERY_REQUEST_V1.json",
     "bytes": 20481,
@@ -19,7 +19,6 @@
     "peak_RSS_bytes": 1288490188,
     "current_fit_attempts_including_failures_max": 1,
     "historical_fit_attempts_max": 0,
-    "current_games_max": 1,
     "included_CPU_by_stage_seconds": {
       "implementation_preflight_and_source_projection": 40,
       "features_exact_reuse_decision_and_conditional_fit": 150,
@@ -44,34 +43,7 @@
     },
     "retained_bytes_max": 16777216,
     "simultaneous_new_bytes_max_including_retention": 67108864,
-    "whole_C_bytes_cap": 2684354560,
-    "storage_preflight": {
-      "observed_UTC": "2026-11-25T00:36:01.139159+00:00",
-      "measured_C_bytes": 1952988644,
-      "headroom_bytes": 731365916,
-      "definition": "Apparent file bytes across de-nested existing v4, M3 and current-release C roots, relevant temporary evidence and this reporting stage. Recheck immediately before work including new objects, staging, Git and restored copies."
-    },
-    "accounting": "Cumulative from first execution/preparation under this package, inclusive of failed attempts, controller and waited-child CPU, checks, serialization, publication and readback. End-to-end wall includes source, queue, network and CI waits. Record measured producer CPU and separately report external server/normal CI durations and unmetered overhead. B and the original website use their own already assigned verification/release routes. No transfers or automatic retries/extensions.",
-    "cost_basis": [
-      {
-        "receipt": "reports/profile-closure-next-02/CURRENT_CAPTURE_LOCAL.json",
-        "measured": "The earlier complete three-current-fit draft used 148.939803602 CPU s and published 2,388,835 bytes. The cost of this single-origin M3 path is an estimate."
-      },
-      {
-        "receipt": "reports/category-decision-release-01/current/BODY_RESOURCE.json",
-        "measured": "5.353179829 CPU s / 6.347635374 wall s for prior source processing including PBP. PBP is excluded from E0_OP32."
-      },
-      {
-        "receipt": "reports/category-decision-release-01/RESOURCE_CLOSURE.json",
-        "measured": "25 earlier P1 inference rows used 0.3879 CPU s and independent inference used 0.552383494 s. C06 completed 24 file plus 2 metadata restoration operations."
-      },
-      {
-        "receipt": "reports/targeted-accuracy-w1w9-01/M3/RESOURCE_CLOSURE.json",
-        "measured": "Earlier M3 fit driver peak RSS 636,227,584 bytes. Retained rec W9 Leaf is 120,571 compressed bytes."
-      }
-    ],
-    "new_paid_services_or_schedulers": 0,
-    "preparation_accounting": "This checkpoint performed receipt intake, cost planning, calendar lookup and public served-metadata checks under the reporting assignment. Producer source/fit/inference spending is zero. Historical software and source charges remain in their original accounts. Local process and external network overhead for this reporting step were not completely metered."
+    "whole_C_bytes_cap": 2684354560
   },
   "opening_account": {
     "first_shell_observed_UTC": "2026-11-26T20:09:34Z",
@@ -115,5 +87,266 @@
   "route": "Publish the actual model/query bindings through C\u2019s existing on-demand GitHub route once available. The website owner supplies source-neutral registry/catalog admission prior to issue. The definitive current envelope is a second immutable step after server persistence of the original values.",
   "prefit_check": "Require B and website owner-account coverage, compatible target and enforced producer expiry, eligible source identities/status/freshness and the complete remaining path within reserve.",
   "scientific_status": "Six partially covered historical receiving blocks retain their evidence. Original website recorded KEEP_INCUMBENT for numerical display and SHADOW for this challenger. Current production decision awaits the actual delivered product.",
-  "authority": "Numerical mean for one event only. No cross-owner write, historical grade change, other predictive product, simulator execution or PR merge."
+  "authority": "Numerical mean for one event only. No cross-owner write, historical grade change, other predictive product, simulator execution or PR merge.",
+  "event": {
+    "game_id": "2026_12_PHI_DAL",
+    "season": 2026,
+    "week": 12,
+    "home": "DAL",
+    "away": "PHI",
+    "native_event_id": "401873080",
+    "scheduled_kickoff_UTC": "2026-11-26T21:30:00+00:00",
+    "scheduled_fit_boundary_UTC": "2026-11-26T01:00:00+00:00",
+    "query_boundary_UTC": "2026-11-26T21:30:00+00:00",
+    "source_schedule": "75664633fe3dccfccf8a0dbed31b0c29c6ee97e4769f704b838756e4e9039c7b",
+    "calendar_observation_UTC": "2026-11-26T20:16:42.326951+00:00",
+    "retained_schedule_sha256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2",
+    "observed_selection_UTC": "2026-11-26T20:16:42.403460+00:00",
+    "calendar_seven_day_crossings_before_query": [],
+    "native_status_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
+    "last_possible_kickoff_guard_utc": "2026-11-26T21:25:00+00:00",
+    "predeclared_issue_deadline_utc": "2026-11-26T20:35:00+00:00",
+    "scope": "SCHEDULE_BINDING_ONLY_PENDING_ROSTER_FEATURES_NATIVE_AND_CONSUMER"
+  },
+  "sources": [
+    {
+      "body": "schedule",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+      "state": "OBTAINED",
+      "bytes": 2192487,
+      "sha256": "75664633fe3dccfccf8a0dbed31b0c29c6ee97e4769f704b838756e4e9039c7b",
+      "start_utc": "2026-11-26T20:16:41.915820+00:00",
+      "observed_UTC": "2026-11-26T20:16:42.326951+00:00",
+      "headers": {
+        "Date": "Thu, 26 Nov 2026 20:16:42 GMT",
+        "Age": null,
+        "Last-Modified": null,
+        "ETag": "\"8811d0c671460809e1540f58c7f1d72fc9bccdef720f094a7412f7138c801d43\"",
+        "Content-Encoding": null
+      },
+      "wire": [
+        {
+          "host": "raw.githubusercontent.com",
+          "started_utc": "2026-11-26T20:16:41.937096+00:00",
+          "bytes": 2192487,
+          "status": 200,
+          "observed_utc": "2026-11-26T20:16:42.326951+00:00"
+        }
+      ]
+    },
+    {
+      "body": "roster",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+      "state": "OBTAINED",
+      "bytes": 986205,
+      "sha256": "4c896a493ac645ec66c0d0daed9cdbe72584ef9989e1d25d4d6a0092fa1a7698",
+      "start_utc": "2026-11-26T20:17:01.620656+00:00",
+      "observed_UTC": "2026-11-26T20:17:02.081495+00:00",
+      "headers": {
+        "Date": "Thu, 26 Nov 2026 20:17:02 GMT",
+        "Age": "1695",
+        "Last-Modified": "Thu, 26 Nov 2026 17:44:48 GMT",
+        "ETag": "\"0x8DF4BE4F79EE976\"",
+        "Content-Encoding": null
+      },
+      "wire": [
+        {
+          "host": "github.com",
+          "started_utc": "2026-11-26T20:17:01.652175+00:00",
+          "bytes": 0,
+          "status": 302,
+          "observed_utc": "2026-11-26T20:17:01.941966+00:00"
+        },
+        {
+          "host": "release-assets.githubusercontent.com",
+          "started_utc": "2026-11-26T20:17:01.942409+00:00",
+          "bytes": 986205,
+          "status": 200,
+          "observed_utc": "2026-11-26T20:17:02.081495+00:00"
+        }
+      ]
+    },
+    {
+      "body": "weekly",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_week_2026.csv.gz",
+      "state": "OBTAINED",
+      "bytes": 739633,
+      "sha256": "51b824c9122279f3980760acdeeda35f5ed3d0947f0b3d815d444c531c2faa21",
+      "start_utc": "2026-11-26T20:17:19.413669+00:00",
+      "observed_UTC": "2026-11-26T20:17:19.773617+00:00",
+      "headers": {
+        "Date": "Thu, 26 Nov 2026 20:17:19 GMT",
+        "Age": "940",
+        "Last-Modified": "Thu, 26 Nov 2026 18:59:40 GMT",
+        "ETag": "\"0x8DF4BEF6CADC926\"",
+        "Content-Encoding": null
+      },
+      "wire": [
+        {
+          "host": "github.com",
+          "started_utc": "2026-11-26T20:17:19.428569+00:00",
+          "bytes": 0,
+          "status": 302,
+          "observed_utc": "2026-11-26T20:17:19.623386+00:00"
+        },
+        {
+          "host": "release-assets.githubusercontent.com",
+          "started_utc": "2026-11-26T20:17:19.623759+00:00",
+          "bytes": 739633,
+          "status": 200,
+          "observed_utc": "2026-11-26T20:17:19.773617+00:00"
+        }
+      ]
+    }
+  ],
+  "current_features": {
+    "state": "PREFIT_QUERY_FEATURES_MATERIALIZED",
+    "sources_verified": 3,
+    "weekly_decoded_bytes": 5077093,
+    "roster_revision_expiry_utc": "2026-11-28T05:44:48+00:00",
+    "two_team_WR_TE_roster_rows": 37,
+    "supported_roster_queries": 21,
+    "unsupported_roster_rows": 16,
+    "roster_states": {
+      "DRAFT_CANDIDATE_PENDING_NATIVE_EVENT": 21,
+      "CURRENT_ROSTER_RET": 1,
+      "CURRENT_ROSTER_CUT": 5,
+      "CURRENT_ROSTER_DEV": 7,
+      "CURRENT_ROSTER_RES": 3
+    },
+    "query_population_by_team_role": {
+      "PHI TE": 5,
+      "PHI WR": 6,
+      "DAL WR": 6,
+      "DAL TE": 4
+    },
+    "sleeper_ESPN_id_present": 21,
+    "sleeper_id_unique": true,
+    "ESPN_id_unique": true,
+    "identity_universe_sha256": "15d560be2926b8022364113b1e1ccd893201826a9e9109b90933d228973b57a4",
+    "current_feature_order_sha256": "d994a8b56e41ab6025e3c71cb1a6e7fc21d381222b98bb89d4f3ce3d13dddde7",
+    "query_packet_sha256": "43eaab48a29c9fe9bfc1fb04a301644d00e1d4df9b32a66262cb3c03097f0050",
+    "query_rows_with_player_history": 21,
+    "query_only_missing_features": 8,
+    "all_current_team_history_present": true,
+    "weekly_training_2026_eligible_games": 150,
+    "query_2026_eligible_games": 150,
+    "seven_day_games_new_between_week_and_query": [],
+    "observation_to_query_new_eligible_games": [],
+    "final_eligible_2026_games": 150,
+    "first_current_source_observation_utc": "2026-11-26T20:16:42.326951+00:00",
+    "last_feature_body_observation_utc": "2026-11-26T20:17:19.773617+00:00",
+    "current_origin_eligible_training_rows": 22369,
+    "retained_prefix_eligible_rows": 22107,
+    "appended_eligible_rows": 262,
+    "new_eligible_weeks": [
+      10
+    ],
+    "training_members_sha256": "2a3a01c67d8f10c03a560039cf51761ba0818b3241b762929696da32d28cb41b",
+    "retained_W9_training_rows": 21611,
+    "retained_W9_members_sha256": "ae67101de14d5616a1c70c137979781cd469915a582464b9f5fa7d7d4e5c8fb6",
+    "W9_reuse_compatible": false,
+    "retained_prefix_overlap": {
+      "both": 9455,
+      "retained_only_rows": 7,
+      "current_only_rows": 0,
+      "changed_fields": {
+        "player_display_name": 2,
+        "position": 3,
+        "targets": 1
+      },
+      "immutable_prefix_preserved": true
+    },
+    "quarantined_zero_orphans": 10,
+    "conditioning_source_check": {
+      "scope": "Earlier admitted 2026 WR/TE player-game stat rows at the weekly cutoff. Tackles establish recorded physical involvement; they do not establish the website native flags for those particular rows.",
+      "observed_explicit_zero_rec_no_model_participation_with_positive_solo_tackle": 88
+    },
+    "fit_attempts": 0,
+    "forecasts": 0,
+    "completed_utc": "2026-11-26T20:20:46.262472+00:00",
+    "process_cpu_seconds": 5.618396819999999,
+    "wall_seconds": 5.63067157200021,
+    "peak_RSS_bytes": 363335680
+  },
+  "conditioning_check": {
+    "website_app_sha256": "e096048c614ffa50b4c0b39776f2e361d503882ab0a27a8265436175fd207ba8",
+    "case_origin": "typed logical contract fixtures",
+    "cases": [
+      {
+        "name": "explicit_play_zero_involvement",
+        "consumer_played": true,
+        "rec_or_null": 0,
+        "dnp": false,
+        "C_model_statistical_appearance": false,
+        "C_training_rec_or_null": null
+      },
+      {
+        "name": "target_with_zero_catches",
+        "consumer_played": true,
+        "rec_or_null": 0,
+        "dnp": false,
+        "C_model_statistical_appearance": true,
+        "C_training_rec_or_null": 0
+      },
+      {
+        "name": "explicit_dnp",
+        "consumer_played": false,
+        "rec_or_null": null,
+        "dnp": true,
+        "C_model_statistical_appearance": false,
+        "C_training_rec_or_null": null
+      },
+      {
+        "name": "played_missing_rec",
+        "consumer_played": true,
+        "rec_or_null": null,
+        "dnp": false,
+        "C_model_statistical_appearance": false,
+        "C_training_rec_or_null": null
+      }
+    ],
+    "producer_filter_sha256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a",
+    "producer_target_sha256": "9321d35ba5c7d7af59684784cbf92322849e968097ab7c01a2990493d061a77a",
+    "conclusion": "The producer and website eligibility predicates differ on an explicit played zero with no qualifying statistical involvement. A confirmed DNP or a missing statistic is separate. This is a contract proof; it makes no claim about the size or sign of forecast error.",
+    "run_scope": "C executed production source functions in isolation on synthetic conformance cases. This is neither independent B validation nor website-owner admission."
+  },
+  "roster_native_status": "Current schedule and fresh roster corroborate event and player identities. Final event pre-state reserved for the instant the complete publish/readback/consume path is ready. Actual inference, native/prior-only assignments and producer expiry are unset.",
+  "evidence_clock": "The weekly fit boundary remains 01:00Z. Sources were actually observed after that boundary and before the intended game. Prior-game membership under the declared seven-day convention is identical at the fit, observation and query boundaries. This is a current-vintage extension of the retained prefix; no historical source publication or earlier fit time is asserted.",
+  "consumer_preissue": {
+    "proof_scope": "The current manual numerical schema accepts only played. C proved its frozen label eligibility and the website\u2019s demonstrated played population are unequal in general. The season-roster ACT query membership does not change the estimand. The owner must decide if an explicitly narrower named numerical/shadow lane is admissible.",
+    "browser_binding": {
+      "path": "output/stat-point-mae-v2.js",
+      "sha256": "89d3e649d8e22bb1a7b11fc28dabd42aae8d175617bdd3fbadcb6709345dd066",
+      "effect": "forPlayer returns row.selected_projection when the board identity matches; only its frozen flag depends on kickoff. There is no producer-expiry field or expiry-based removal/fallback."
+    },
+    "owner_capability_binding": {
+      "path": "tools/stat_point_mae_public_v2.py",
+      "sha256": "72e23e7543902d23bd767929fda60296df82afbcfc82761462f23e940fe7ad10",
+      "required": "admit_registry then admit_catalog with genuine owner verifiers, applicable owner receipts and registered_at at or before issued_at. Bind actual SHA256s for trained model, feature capture and current queries before first issue. Preserve two-stage original-value persistence and final-envelope readback."
+    },
+    "website_readiness": "The identified original-owner run covers its manual route. Its public proposal charged execution shared with C and B; that alternative account has been superseded. No owner binding yet received for the narrow expiry/target work and this live window under the owner\u2019s own existing account.",
+    "B_readiness": "B\u2019s retrieved current-output handoff commits to an independent delivered-row check. It does not designate the verification account or balance for this live window. Its prior eight-MiB derivative scope is historical. B identifies its applicable account and checks this exact eventual envelope, a representative safe-model row and attribution/clock/expiry within its actual evidence access."
+  },
+  "next_action": "Original site owner to bind truthful target and expiry with its own manual admission account and real pre-issue catalog/registry path; B to identify its own delivered-output verification account. C retains one fit attempt, the final native GET and completion reserves while awaiting readiness in this fixed window.",
+  "decision": {
+    "C_numerical": "PREFIT_HELD;RESEARCH_SHADOW",
+    "website_latest_receipted_numerical": "KEEP_INCUMBENT",
+    "website_current_admission": null,
+    "website_served_M3": null,
+    "strict_direction": "INCUMBENT",
+    "probability_from_mean": "NO_CLAIM",
+    "ordinary_margin": "INCUMBENT",
+    "Top_Picks": "INCUMBENT",
+    "genuinely_current_feed": null,
+    "feed_readback": null,
+    "B_delivered_output_check": null,
+    "native_outputs": 0,
+    "prior_only_outputs": 0,
+    "fallback_outputs": 0,
+    "issued_rows": 0,
+    "expiry_utc": null,
+    "rollback": "If an isolated candidate is later admitted, disable that numerical pointer or expire it to the incumbent. No switch has been executed or rolled back."
+  },
+  "public_scope": "Public aggregates and integrity bindings only. No protected rows, raw source body, venue offer, current model or forecast is published. Input hashes identify preparations; they do not establish a delivered model or forecast."
 }
