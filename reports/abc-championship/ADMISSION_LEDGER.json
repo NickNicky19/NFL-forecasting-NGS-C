@@ -841,20 +841,25 @@
     },
     "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
     "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
-    "producer_status": "OWNERS_AND_EXACT_TARGET_BOUND_AWAITING_DEPLOYED_CONSUMER_BEFORE_FIT",
+    "producer_status": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
     "new_current_feed": false,
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
-    "SITE_readback": "W12_BASELINE_ONLY;ZERO_M3_OVERLAY_ROWS",
+    "SITE_readback": "CURRENT_HELPER_AND_APP_MATCH_4C2DA87;NO_CURRENT_RESEARCH_FEED;LAST_NUMERICAL_POINTER_404",
     "separate_SIM_allocation": true,
     "current_reception_delivery": {
       "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
       "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
-      "state": "OWNERS_AND_EXACT_TARGET_BOUND_AWAITING_DEPLOYED_CONSUMER_BEFORE_FIT",
+      "state": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
       "receipt": {
         "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_EXECUTION_V1.json",
-        "bytes": 27772,
-        "SHA256": "148d3035f513f6fb7b06f33e9a394b7f75607e3bf92e541068088478cc552cb0"
+        "bytes": 40763,
+        "SHA256": "7349e488cd0ad86893f2574a4cb83df34ae5f553189c7c0b1281aca25a51fdf1"
+      },
+      "report": {
+        "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/CURRENT_DELIVERY_V3.md",
+        "bytes": 3477,
+        "SHA256": "dbecf2e937f9530e73c857466f3a02705f35ec019fbafb7ecedbed9556a18659"
       }
     }
   }

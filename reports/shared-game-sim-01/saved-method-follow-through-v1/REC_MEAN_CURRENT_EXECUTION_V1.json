@@ -1,8 +1,8 @@
 {
   "id": "C-M3-0-REC-MEAN-CURRENT-DELIVERY-v1/REFRESH-01",
   "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
-  "state": "OWNERS_AND_EXACT_TARGET_BOUND_AWAITING_DEPLOYED_CONSUMER_BEFORE_FIT",
-  "recorded_UTC": "2026-11-26T20:23:30.051650+00:00",
+  "state": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
+  "recorded_UTC": "2026-11-26T20:36:11.433302+00:00",
   "controlling_request": {
     "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_DELIVERY_REQUEST_V1.json",
     "bytes": 20481,
@@ -39,7 +39,11 @@
       "GitHub_metadata_reads_max": 6,
       "total_operations_max": 30,
       "returned_content_bytes_max": 16777216,
-      "scope": "Within this new producer package only. Covers code/manifest and reviewed input bindings, numerical model and forecast body, completed run/server timing, final envelope, receipt and restoration. Log each operation and failure before reuse."
+      "scope": "Within this new producer package only. Covers code/manifest and reviewed input bindings, numerical model and forecast body, completed run/server timing, final envelope, receipt and restoration. Log each operation and failure before reuse.",
+      "remaining_at_stop_before_final_receipt_file_read": {
+        "file": 2,
+        "metadata": 0
+      }
     },
     "retained_bytes_max": 16777216,
     "simultaneous_new_bytes_max_including_retention": 67108864,
@@ -73,7 +77,7 @@
   },
   "conditioning": {
     "C_fit": "A final player-game needs at least one positive listed statistical involvement or nonzero signed passing/rushing/receiving yards, and an observed nonnegative integral reception count. WR/TE are queried; RB/WR/TE train. An observed zero can qualify if other involvement provides evidence. An appearance with only unrecorded or stat-free snaps supplies no training label.",
-    "consumer": "The manual numerical wire accepts only conditional_on=played. Source/target equality or an owner-qualified narrower consumer contract must be established before the fit.",
+    "consumer": "Accepted exact wire: observed_statistical_appearance_v1, labeled Appearance-conditioned mean. It preserves C\u2019s target. The legacy played predicate is broader.",
     "producer_code": [
       "src/data_v2.py:load",
       "src/contracts_v2.py:target",
@@ -82,11 +86,11 @@
   },
   "expiry": {
     "producer": "Earliest roster revision +36 hours, effective native pregame status freshness and observation +30 minutes, kickoff minus 5 minutes. Enforce throughout current use.",
-    "consumer": "Current JS validateRow/lookup accepts a closed schema without producer expiry and returns the row at and after kickoff with frozen=true. Pre-issuance manual catalog and registry both require actual owner capability proof and registered_at <= issued_at."
+    "consumer": "The website owner\u2019s new wire binds expires_at in the registry, receipt and row. Current use ends at expiry, including on already open pages. C matched the served helper and application to 4c2da8796cae8e29184451c2b3d179a7b6293369. No forecast-specific expiry exists in this run."
   },
   "route": "Publish the actual model/query bindings through C\u2019s existing on-demand GitHub route once available. The website owner supplies source-neutral registry/catalog admission prior to issue. The definitive current envelope is a second immutable step after server persistence of the original values.",
   "prefit_check": "Require B and website owner-account coverage, compatible target and enforced producer expiry, eligible source identities/status/freshness and the complete remaining path within reserve.",
-  "scientific_status": "Six partially covered historical receiving blocks retain their evidence. Original website recorded KEEP_INCUMBENT for numerical display and SHADOW for this challenger. Current production decision awaits the actual delivered product.",
+  "scientific_status": "Source and population conditioning resolved for the narrower numerical shadow. Existing six partial receiving blocks and A\u2019s separately compatible five-week history retain their original scope. No current result was measured.",
   "authority": "Numerical mean for one event only. No cross-owner write, historical grade change, other predictive product, simulator execution or PR merge.",
   "event": {
     "game_id": "2026_12_PHI_DAL",
@@ -106,7 +110,7 @@
     "native_status_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261126&limit=100",
     "last_possible_kickoff_guard_utc": "2026-11-26T21:25:00+00:00",
     "predeclared_issue_deadline_utc": "2026-11-26T20:35:00+00:00",
-    "scope": "SCHEDULE_BINDING_ONLY_PENDING_ROSTER_FEATURES_NATIVE_AND_CONSUMER"
+    "scope": "BOUND_CURRENT_SCHEDULE;CURRENT_ROSTER_FEATURES_CHECKED;NO_FINAL_NATIVE_STATUS_OR_ISSUANCE"
   },
   "sources": [
     {
@@ -311,42 +315,55 @@
     "conclusion": "The producer and website eligibility predicates differ on an explicit played zero with no qualifying statistical involvement. A confirmed DNP or a missing statistic is separate. This is a contract proof; it makes no claim about the size or sign of forecast error.",
     "run_scope": "C executed production source functions in isolation on synthetic conformance cases. This is neither independent B validation nor website-owner admission."
   },
-  "roster_native_status": "Current schedule and fresh roster corroborate event and player identities. Final event pre-state reserved for the instant the complete publish/readback/consume path is ready. Actual inference, native/prior-only assignments and producer expiry are unset.",
+  "roster_native_status": "Current schedule, observed roster, selected player queries and earlier statistical inputs were checked. Final native event status was never requested after the safe-stop decision. No game-time participation or model attribution was inferred.",
   "evidence_clock": "The weekly fit boundary remains 01:00Z. Sources were actually observed after that boundary and before the intended game. Prior-game membership under the declared seven-day convention is identical at the fit, observation and query boundaries. This is a current-vintage extension of the retained prefix; no historical source publication or earlier fit time is asserted.",
   "consumer_preissue": {
-    "proof_scope": "The current manual numerical schema accepts only played. C proved its frozen label eligibility and the website\u2019s demonstrated played population are unequal in general. The season-roster ACT query membership does not change the estimand. The owner must decide if an explicitly narrower named numerical/shadow lane is admissible.",
-    "browser_binding": {
+    "proof_scope": "The legacy played contract failed the paired predicate check. Website PR25 introduces the explicit statistical-appearance contract. C verified the exact canonical commitment and source hashes; the two predicates remain distinct.",
+    "website_readiness": "COMPLETE_FOR_TRUTHFUL_CONDITIONING_AND_EXPIRY: account bound, corrected helper and app byte-verified live. Genuine pre-issue registration of an actual model was never reached.",
+    "B_readiness": "ACCOUNT_BOUND;NO_PUBLISHED_CURRENT_FORECAST_TO_VERIFY",
+    "legacy_browser_binding_at_initial_read": {
       "path": "output/stat-point-mae-v2.js",
       "sha256": "89d3e649d8e22bb1a7b11fc28dabd42aae8d175617bdd3fbadcb6709345dd066",
       "effect": "forPlayer returns row.selected_projection when the board identity matches; only its frozen flag depends on kickoff. There is no producer-expiry field or expiry-based removal/fallback."
     },
-    "owner_capability_binding": {
+    "initial_owner_capability_binding": {
       "path": "tools/stat_point_mae_public_v2.py",
       "sha256": "72e23e7543902d23bd767929fda60296df82afbcfc82761462f23e940fe7ad10",
       "required": "admit_registry then admit_catalog with genuine owner verifiers, applicable owner receipts and registered_at at or before issued_at. Bind actual SHA256s for trained model, feature capture and current queries before first issue. Preserve two-stage original-value persistence and final-envelope readback."
     },
-    "website_readiness": "SUPERSEDED: current website account bound and narrower truthful wire accepted in candidate release PR25. The legacy wire remains incompatible.",
-    "B_readiness": "SUPERSEDED: existing independent B account bound; four actual-packet operations and separate completion reserve."
+    "source_catalog_admission": "After a fit or justified reuse, the website owner must verify actual bindings using its existing manual route before original issuance. A hash commitment or checker readiness alone does not admit a nonexistent model."
   },
-  "next_action": "C verifies the actual deployed corrected numerical consumer and complete remaining path in this fixed window. Both owner accounts and the exact statistical-appearance target are now bound; no further acknowledgment or permission is requested.",
+  "next_action": "This event is closed. A later event requires an explicitly refreshed issue window. C would still owe one current-origin fit or exact reuse proof, timely website verification of actual bodies and pre-issue registration, a final native pregame observation, immutable forecast publication and clock/readback proof, followed by B and site retrieval. Preserve both identified owner accounts and the deployed conditioning/expiry contract.",
   "decision": {
-    "C_numerical": "PREFIT_HELD;RESEARCH_SHADOW",
-    "website_latest_receipted_numerical": "KEEP_INCUMBENT",
-    "website_current_admission": null,
-    "website_served_M3": null,
-    "strict_direction": "INCUMBENT",
-    "probability_from_mean": "NO_CLAIM",
-    "ordinary_margin": "INCUMBENT",
-    "Top_Picks": "INCUMBENT",
-    "genuinely_current_feed": null,
-    "feed_readback": null,
-    "B_delivered_output_check": null,
-    "native_outputs": 0,
-    "prior_only_outputs": 0,
-    "fallback_outputs": 0,
-    "issued_rows": 0,
-    "expiry_utc": null,
-    "rollback": "If an isolated candidate is later admitted, disable that numerical pointer or expire it to the incumbent. No switch has been executed or rolled back."
+    "current_product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+    "research": "SHADOW",
+    "website_numerical": "KEEP_INCUMBENT",
+    "previous_live_numerical_product": "incumbent prop.adj under sleeper-matchup-classic-presence-strict-v2",
+    "new_current_model": null,
+    "fit_attempts": 0,
+    "reuse": false,
+    "query_supported": 21,
+    "roster_excluded": 16,
+    "forecast_rows": 0,
+    "native_forecast_rows": 0,
+    "prior_only_forecast_rows": 0,
+    "fallback_forecast_rows": 0,
+    "unissued_supported_queries": 21,
+    "forecast_values_persisted": false,
+    "envelope": null,
+    "forecast_readback": null,
+    "producer_expiry": null,
+    "B_check": "ACCOUNT_READY;NO_DELIVERED_OUTPUT_TO_CHECK",
+    "consumer_admission": "NO_ACTUAL_M3_MODEL_SOURCE_CATALOG_OR_FEED",
+    "served_mean": null,
+    "rollback_invoked": false,
+    "other_lanes": {
+      "TopPicks": "Existing exact complete policy/evidence unchanged; no silent Cpointinjection.",
+      "numerical": "KEEP_INCUMBENT until actual packet and applicable scientific/source admission. Current historical candidate remains SHADOW; source/vintage/conditional-population/strongerW1numerical-control limits retained.",
+      "ordinary_margin": "Existing reference rule unchanged.",
+      "probability_confidence": "None from mean.",
+      "strict_direction": "Not activated by mean delivery; preserve own exact crossing evidence and C6partial/Aearliercompatible5week scope."
+    }
   },
   "public_scope": "Public aggregates and integrity bindings only. No protected rows, raw source body, venue offer, current model or forecast is published. Input hashes identify preparations; they do not establish a delivered model or forecast.",
   "owner_handoff_refresh": {
@@ -510,5 +527,252 @@
       "returned_bytes": 9379,
       "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
     }
-  ]
+  ],
+  "actual_website_numerical_readback": {
+    "earlier_helper_and_pointer": [
+      {
+        "path": "stat-point-mae-v2.js",
+        "started_utc": "2026-11-26T20:26:45.578479+00:00",
+        "observed_utc": "2026-11-26T20:26:45.802817+00:00",
+        "http_status": 200,
+        "response_date": "Thu, 26 Nov 2026 20:26:45 GMT",
+        "age": "0",
+        "returned_bytes": 15467,
+        "sha256": "89d3e649d8e22bb1a7b11fc28dabd42aae8d175617bdd3fbadcb6709345dd066",
+        "matches_reviewed_consumer": true
+      },
+      {
+        "path": "data/weekly-mae-display.json",
+        "started_utc": "2026-11-26T20:26:45.802982+00:00",
+        "observed_utc": "2026-11-26T20:26:46.180701+00:00",
+        "http_status": 404,
+        "response_date": "Thu, 26 Nov 2026 20:26:46 GMT",
+        "age": "0",
+        "returned_bytes": 9379,
+        "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+      }
+    ],
+    "after_owner_publication_old_helper": {
+      "observed_utc": "2026-11-26T20:32:12.783659+00:00",
+      "started_utc": "2026-11-26T20:32:12.521323+00:00",
+      "http_status": 200,
+      "body_bytes": 15467,
+      "http_date": "Thu, 26 Nov 2026 20:32:12 GMT",
+      "age": "0",
+      "sha256": "89d3e649d8e22bb1a7b11fc28dabd42aae8d175617bdd3fbadcb6709345dd066",
+      "product_wire_present": false,
+      "expiry_field_present": false,
+      "source": "https://nicknicky19.github.io/nicks-expert-nfl-picks/stat-point-mae-v2.js"
+    },
+    "corrected_helper": {
+      "observed_utc": "2026-11-26T20:33:27.451103+00:00",
+      "started_utc": "2026-11-26T20:33:27.117024+00:00",
+      "http_status": 200,
+      "body_bytes": 19320,
+      "http_date": "Thu, 26 Nov 2026 20:33:27 GMT",
+      "age": "0",
+      "sha256": "dab9899fd9467df40c20837c5df2e31e4649a7f2a11787da5c4b4fe4773387c4",
+      "product_wire_present": true,
+      "expiry_field_present": true,
+      "source": "https://nicknicky19.github.io/nicks-expert-nfl-picks/stat-point-mae-v2.js"
+    },
+    "corrected_app": {
+      "observed_UTC": "2026-11-26T20:34:45.273505+00:00",
+      "date": "Thu, 26 Nov 2026 20:34:45 GMT",
+      "http_status": 200,
+      "bytes": 370772,
+      "expected_sha256": "bbf9c7d001214b693e1ba57d0c80c4f7a0a73fcc476444b9df4da1f3038adfe9",
+      "served_sha256": "bbf9c7d001214b693e1ba57d0c80c4f7a0a73fcc476444b9df4da1f3038adfe9",
+      "matches": true,
+      "expiry_field_present": true
+    },
+    "reviewed_commit": "4c2da8796cae8e29184451c2b3d179a7b6293369",
+    "reviewed_helper_sha256": "dab9899fd9467df40c20837c5df2e31e4649a7f2a11787da5c4b4fe4773387c4",
+    "verification_scope": "C HTTP byte comparison for the live browser helper and app, against the exact reviewed source. The website owner reports its contract/expiry tests. No browser session displayed a current M3 value."
+  },
+  "conditioning_check_reproducer": {
+    "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/verify_rec_mean_conditioning.py",
+    "bytes": 5076,
+    "SHA256": "14f8aa92ba9a2d86ea1348df1f3169d3e5ff5501065b0ea7fff58f9f6e384ca3"
+  },
+  "withdrawal_of_prior_blockers": "Both owner accounts are identified. C verified that the website\u2019s exact conditioning document binds all five checked frozen source-file hashes. The deployed successor accepts observed_statistical_appearance_v1, with a distinct label, genuine pre-issue registry/catalog and current use only before producer expiry. Earlier legacy-wire/owner-account pending statements are historical.",
+  "release_owner_disposition": {
+    "TopPicks": "Existing exact complete policy/evidence unchanged; no silent Cpointinjection.",
+    "numerical": "KEEP_INCUMBENT until actual packet and applicable scientific/source admission. Current historical candidate remains SHADOW; source/vintage/conditional-population/strongerW1numerical-control limits retained.",
+    "ordinary_margin": "Existing reference rule unchanged.",
+    "probability_confidence": "None from mean.",
+    "strict_direction": "Not activated by mean delivery; preserve own exact crossing evidence and C6partial/Aearliercompatible5week scope."
+  },
+  "stop": {
+    "owner": "C-CURRENT-REFERENCE-CHALLENGER",
+    "first_verified_deployed_helper_utc": "2026-11-26T20:33:27.451103+00:00",
+    "seconds_to_fixed_issue_at_helper": 92.548897,
+    "verified_deployed_app_utc": "2026-11-26T20:34:45.273505+00:00",
+    "seconds_to_fixed_issue_at_app": 14.726495,
+    "issue_deadline_utc": "2026-11-26T20:35:00+00:00",
+    "conservative_end_utc": "2026-11-26T20:45:00Z",
+    "prerequisite": "Before issuance, the website must independently verify the actual model/query/identity evidence and register BOTH the source and the model catalog. Pre-fit preparation contains real design and query commitments but no model, source capability or catalog. The fixed issue clock expired without an admissible complete path.",
+    "projection": {
+      "basis": "One necessary fit and safe serialization; publish draft model, source, feature and identity bindings; genuine owner verification/registration before issue; final native GET and freeze; persist and reopen exact forecast bytes. The later completion reserve covers proof/readback/handoff but cannot make late issuance valid. No measured or agreed turnaround supported all pre-issue dependencies in the remaining window.",
+      "historical_server_check_elapsed_seconds": 122.0,
+      "historical_scope": "Previous registered C server-check duration from run creation/start to completion. A reference for the complete path; not an assertion that CI completion must precede issue or an exact bound on a new fit.",
+      "cpu_stage_planning_seconds": {
+        "features_and_fit": 150,
+        "inference_prepare": 35,
+        "completion_reserve": 75
+      },
+      "metadata": "All six capped metadata operations were spent on coordination/discovery. The normal workflow-based persistence proof would need an additional fresh run-metadata operation. No metadata operation was relabeled, and no independent forecast or server proof exists.",
+      "unused_fit_attempts": 1,
+      "final_status_calls_unused": 1
+    },
+    "decision": "No current fit, issuance, rollover, or deadline reset."
+  },
+  "accounting": {
+    "as_of_utc": "2026-11-26T20:36:11.433302+00:00",
+    "CPU_charge_seconds": 41.960873,
+    "CPU_cap": 300,
+    "complete_account_wall_seconds_conservative": 2171.435,
+    "elapsed_seconds_since_first_observed_shell": 1597.433,
+    "end_to_end_cap": 2700,
+    "included_completion_reserves": {
+      "CPU": 75,
+      "wall": 600
+    },
+    "charges_note": "First shell operations are covered by a 12-second conservative CPU debit. Subsequent meter is the nonnegative change of the environment CPU counter including incidental work. Separately disclose external orchestration and network timings.",
+    "clock_note": "The first observed producer shell was 20:09:34Z. C used a conservative 20:00Z guard origin when the exact earlier orchestration start could not be recovered. The 20:35 issue deadline and 20:45 end were published without later revision.",
+    "source_logical_GETs": 3,
+    "source_wire_requests": 5,
+    "source_bytes": 3918325,
+    "native_GETs": 0,
+    "source_read_failures": 0,
+    "measured_feature_kernel_CPU": 5.618396819999999,
+    "measured_training_design_kernel_CPU": 4.257499339,
+    "largest_measured_worker_RSS_bytes": 363335680,
+    "working_bytes_at_receipt": 11554265,
+    "measured_whole_C_bytes": 1964642643,
+    "reviewed_new_public_artifacts": "Source metadata, conformance code, status, aggregates and discovery only. Raw source, training and individual query bytes excluded. Local working-data readback is distinct from durable forecast publication.",
+    "readback": {
+      "metadata_count": 6,
+      "metadata_cap": 6,
+      "metadata_operations": [
+        "website PR1 relevant comments",
+        "B default branch recent commits",
+        "website comment 7149226633",
+        "B prior-head branch lookup",
+        "B active branches",
+        "combined owner receipt and branch/PR refresh"
+      ],
+      "last_meta_response_bytes": 394279,
+      "files_count_before_publication_readback": 22,
+      "file_cap": 24,
+      "file_operations": [
+        {
+          "artifact": "b-marker.md",
+          "bytes_at_client": 10930
+        },
+        {
+          "artifact": "b-index.json",
+          "bytes_at_client": 2763564
+        },
+        {
+          "artifact": "stat-point-mae-v2.js",
+          "bytes_at_client": 15467
+        },
+        {
+          "artifact": "stat_point_mae_public_v2.py",
+          "bytes_at_client": 22741
+        },
+        {
+          "artifact": "b-reviewed.tgz",
+          "bytes_at_client": 2
+        },
+        {
+          "artifact": "b-EXACT_DELIVERY_PACKAGE_HANDOFF_V1.json",
+          "bytes_at_client": 6673
+        },
+        {
+          "artifact": "b-README.md",
+          "bytes_at_client": 8137
+        },
+        {
+          "artifact": "site-app.js",
+          "bytes_at_client": 369079
+        },
+        {
+          "artifact": "site-consumer-view.py",
+          "bytes_at_client": 7932
+        },
+        {
+          "artifact": "b-delivery-status.json",
+          "bytes_at_client": 4279
+        },
+        {
+          "artifact": "b-resource-scope.json",
+          "bytes_at_client": 775
+        },
+        {
+          "artifact": "b-latest-index.json",
+          "bytes_at_client": 2765578
+        },
+        {
+          "artifact": "site-ready.json",
+          "bytes_at_client": 8193
+        },
+        {
+          "artifact": "b-ready.json",
+          "bytes_at_client": 2169
+        },
+        {
+          "artifact": "expected-consumer-v2.js",
+          "bytes_at_client": 19320
+        },
+        {
+          "artifact": "accepted-conditioning.json",
+          "bytes_at_client": 2356
+        },
+        {
+          "artifact": "expected-app-v2.js",
+          "bytes_at_client": 370772
+        },
+        {
+          "artifact": "website_live_stat-point-mae-v2.js",
+          "bytes_at_client": 15467,
+          "http_status": 200
+        },
+        {
+          "artifact": "website_live_data/weekly-mae-display.json",
+          "bytes_at_client": 9379,
+          "http_status": 404
+        },
+        {
+          "artifact": "website_live_numerical_helper",
+          "bytes_at_client": 15467,
+          "utc": "2026-11-26T20:32:12.783659+00:00",
+          "http_status": 200
+        },
+        {
+          "artifact": "website_live_numerical_helper",
+          "bytes_at_client": 19320,
+          "utc": "2026-11-26T20:33:27.451103+00:00",
+          "http_status": 200
+        },
+        {
+          "artifact": "website_live_app",
+          "bytes_at_client": 370772,
+          "utc": "2026-11-26T20:34:45.273505+00:00",
+          "http_status": 200
+        }
+      ],
+      "file_bytes_at_client": 6808372,
+      "returned_content_limit": 16777216,
+      "conservative_unmeasured_byte_debit": 2097152,
+      "scope": "Includes failed B capsule text transport, then admission through readable individual files, two public-site served-file types and the missing numerical pointer response. The 2 MiB charge covers early metadata, truncated binary/transport uncertainty and the last metadata response, rather than claiming exact raw network byte counts."
+    },
+    "external": "External server/network/assistant CPU is not independently metered. Two local discovery-pointer preparation failures were corrected; no fit or source retry ensued. Final Git publication and immutable receipt readback follow this timestamp and are accounted in the completion message."
+  },
+  "report": {
+    "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/CURRENT_DELIVERY_V3.md",
+    "bytes": 3477,
+    "SHA256": "dbecf2e937f9530e73c857466f3a02705f35ec019fbafb7ecedbed9556a18659"
+  }
 }
