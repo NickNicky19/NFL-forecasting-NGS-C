@@ -60,13 +60,13 @@
   "stage": "OWNER_LOCAL_EXACT_OFFER_DIAGNOSTIC_MASKS_VERIFIED;PARTIAL_E1_A2024_AND_PARTIAL_E5_E7;NO_FULL_CHAMPIONSHIP",
   "admission": {
     "path": "reports/abc-championship/ADMISSION_LEDGER.json",
-    "bytes": 40629,
-    "SHA256": "e6bfe809d2fa4b2e7306500ae0524c65fbb78469a663a35d26ebfddd6c13086a"
+    "bytes": 41039,
+    "SHA256": "d923222a7b033f2da6479607c8ec53ba8a53b010490fa651468f87a45d15ef0c"
   },
   "tasks": {
     "path": "reports/abc-championship/TASK_LEDGER.json",
-    "bytes": 49991,
-    "SHA256": "bb6f15ce04c553b15b56ef2ffcd1227f81ecbdba5d3c509bdc3441d021256981"
+    "bytes": 50031,
+    "SHA256": "98185a2f417046173e1444f4179e468bfc7a8e7247fdad0c4b0b83d49e2741dd"
   },
   "roster_coverage": {
     "path": "reports/abc-championship/METHOD_COVERAGE.json",
@@ -3896,7 +3896,7 @@
     },
     "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
     "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
-    "producer_status": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
+    "producer_status": "PHI_DAL_CLOSED_UNISSUED;DEN_PIT_NEXT_WINDOW_AMENDMENT_REQUESTED",
     "new_current_feed": false,
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
@@ -3915,6 +3915,15 @@
         "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/CURRENT_DELIVERY_V3.md",
         "bytes": 3477,
         "SHA256": "dbecf2e937f9530e73c857466f3a02705f35ec019fbafb7ecedbed9556a18659"
+      }
+    },
+    "next_window_amendment": {
+      "id": "C-M3-0-REC-MEAN-NEXT-WINDOW-AMENDMENT-v1",
+      "state": "REQUESTED_ONCE_PREPARATION_ONLY",
+      "artifact": {
+        "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_NEXT_WINDOW_AMENDMENT_V1.json",
+        "bytes": 20270,
+        "SHA256": "8fbb66f7cafef7ca6726e201445d6fef44280e4cc458660730efefc24f2e1fde"
       }
     }
   }

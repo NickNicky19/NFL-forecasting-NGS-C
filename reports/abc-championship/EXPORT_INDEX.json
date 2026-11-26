@@ -53,8 +53,8 @@
   },
   "common_protocol": {
     "path": "reports/abc-championship/CURRENT_PROTOCOL.json",
-    "bytes": 183098,
-    "SHA256": "d47b4970df2de57ac765029929bc2d86207bec11177b15c9a1ed0d279457ba03"
+    "bytes": 183508,
+    "SHA256": "81557c844aab9e3865b29229a81c6c68293155e3cd34f8b2fc09f42d712fb7c5"
   },
   "period_continuation_publication": {
     "producer_commit": "ad632a09294c0a7261c216318f70e389a57fb370",
@@ -3659,7 +3659,7 @@
     },
     "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
     "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
-    "producer_status": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
+    "producer_status": "PHI_DAL_CLOSED_UNISSUED;DEN_PIT_NEXT_WINDOW_AMENDMENT_REQUESTED",
     "new_current_feed": false,
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
@@ -3678,6 +3678,15 @@
         "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/CURRENT_DELIVERY_V3.md",
         "bytes": 3477,
         "SHA256": "dbecf2e937f9530e73c857466f3a02705f35ec019fbafb7ecedbed9556a18659"
+      }
+    },
+    "next_window_amendment": {
+      "id": "C-M3-0-REC-MEAN-NEXT-WINDOW-AMENDMENT-v1",
+      "state": "REQUESTED_ONCE_PREPARATION_ONLY",
+      "artifact": {
+        "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_NEXT_WINDOW_AMENDMENT_V1.json",
+        "bytes": 20270,
+        "SHA256": "8fbb66f7cafef7ca6726e201445d6fef44280e4cc458660730efefc24f2e1fde"
       }
     }
   }

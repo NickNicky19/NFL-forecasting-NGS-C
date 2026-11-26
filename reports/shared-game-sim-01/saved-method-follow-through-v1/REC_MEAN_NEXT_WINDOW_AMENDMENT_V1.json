@@ -1,0 +1,272 @@
+{
+  "id": "C-M3-0-REC-MEAN-NEXT-WINDOW-AMENDMENT-v1",
+  "state": "REQUESTED_ONCE_PREPARATION_ONLY",
+  "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+  "request": "Authorize DEN–PIT once on the existing C account. Requested CPU increase is zero.",
+  "controller": {
+    "task": "C-CURRENT-REFERENCE-CHALLENGER",
+    "parent_commit": "dd1aee1e8ebfbcb7fe8abb756a104d25b0254932",
+    "parent": "REC_MEAN_CURRENT_DELIVERY_REQUEST_V1.json",
+    "parent_sha256": "d281fbfff46f3af27d6aebf7f4f4d5dde6cf1e3a2ea7d9e24b219ae256aac0d9",
+    "previous_close_commit": "f7c88c7c94c88d7a9bb767a6ac6b5e66dc6190eb",
+    "previous_close": "REC_MEAN_CURRENT_EXECUTION_V1.json",
+    "previous_close_sha256": "7349e488cd0ad86893f2574a4cb83df34ae5f553189c7c0b1281aca25a51fdf1"
+  },
+  "terminal_carry": {
+    "PHI_DAL": {
+      "native_event": "401873080",
+      "issue_deadline_UTC": "2026-11-26T20:35:00Z",
+      "end_UTC": "2026-11-26T20:45:00Z",
+      "fit_attempts": 0,
+      "forecasts": 0,
+      "unissued_supported_queries": 21,
+      "excluded_roster_rows": 16,
+      "feed": null
+    },
+    "columns": ["CPU_s", "conservative_elapsed_s", "first_observed_shell_elapsed_s", "source_logical", "source_wire", "source_bytes", "file_reads", "metadata_reads", "file_body_bytes"],
+    "subtotal_2026_11_26T20_36_11_433302Z": [41.960873, 2171.435, 1597.433, 3, 5, 3918325, 22, 6, 6808372],
+    "final_publication_and_readback_delta": [1.997801, 74.704, 74.706, 0, 0, 0, 1, 0, 40763],
+    "terminal_2026_11_26T20_37_26_139254Z": [43.958674, 2246.139, 1672.139, 3, 5, 3918325, 23, 6, 6849135],
+    "proof": {
+      "local_terminal_receipt": {
+        "bytes": 692,
+        "sha256": "7436b5c10aa84c81f9be7e225b017dd4143d78d43daef6bd9d2096983cd81c8d"
+      },
+      "reopened_previous_HTTP_200_body": {
+        "bytes": 40763,
+        "sha256": "7349e488cd0ad86893f2574a4cb83df34ae5f553189c7c0b1281aca25a51fdf1",
+        "HTTP_Date": "Thu, 26 Nov 2026 20:37:25 GMT"
+      },
+      "meter": "Prior debit includes 12 s startup and environment CPU deltas. Conservative start 20:00Z, first observed shell 20:09:34Z. Deltas use the reported meter precision. External orchestration/server CPU is incompletely metered."
+    }
+  },
+  "authority_and_owner_handoff": {
+    "C": "C-CURRENT-REFERENCE-CHALLENGER. Use existing prospective/runs, prospective/receipts and ABC EXPORT_INDEX on C’s research branch.",
+    "website": {
+      "account": "NFL-WEB-PRODUCTION-REPORT-INTEGRATION-20261025-122500Z",
+      "lease_revision_at_readiness": 178,
+      "compatibility": "COMPLETE_DEPLOYED_AND_SERVED_HELPER_APP_VERIFIED",
+      "merge": "b74eeccb55f2b367a1881158c0e274a36d7f457f",
+      "deployment_run": 45891616871,
+      "pinned_contract": "https://github.com/NickNicky19/nicks-expert-nfl-picks/blob/4c2da8796cae8e29184451c2b3d179a7b6293369/docs/m3-rec-mean-current-delivery-v1/CONSUMER_READINESS_V1.json",
+      "sha256": "07c84a0ad83b018408697025dc7e528d32bf5138700c3895c9eab0e0a5e97878",
+      "served_receipt": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-7202842035",
+      "terminal_receipt": "https://github.com/NickNicky19/nicks-expert-nfl-picks/pull/1#issuecomment-7202948553",
+      "owner_work": "Prior local validation on the existing numerical admission account used 33.400064968 CPU/40.992230236 wall s. The website’s former 300/2400 request is superseded."
+    },
+    "B": {
+      "account": "B-CURRENT-M3-DELIVERY-FOLLOW-THROUGH-20261125-v1",
+      "state": "BOUND",
+      "receipt": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/f2853874a95c4dc50b0d40c9e0ebb3058620d8d8/reports/shared-game-sim-01/B/refreshed-rec-mean-delivery-20261126/B_VERIFICATION_ACCOUNT_V1.json",
+      "sha256": "35be420fed177dec736847b4158d25b3c0197b111fe1283abdd59972f9321958",
+      "remaining": "30 CPU s / 600 controlled wall s. Four actual-packet operations remain of the 48-operation account (44 charged). Check ≤10 CPU/240 wall s. Completion reserve 10 CPU/180 wall s.",
+      "operations": ["C exact event delivery pointer", "immutable typed envelope", "original persisted values", "server-proof receipt bound to those bytes"],
+      "scope": "Verify actual row type/value/identity/attribution, clocks and accessible consumer behavior. Website owns served verification. B’s receipt covers delivered rows."
+    },
+    "launch_dependency": "Arrange one attended website pre-issue verification slot on the existing owner route, with B and website available for concurrent packet retrieval. These are proposed turnarounds. The pinned receipts bind accounts and static readiness only. Leave the live window unopened if the slot cannot be covered.",
+    "discovery": "Agree the run ID and exact peer reply locations before launch. The C event pointer supplies the packet directly to both owners at the scheduled times.",
+    "discovery_run_id": "C-M3-REC-MEAN-20261127-DEN-PIT-01",
+    "planned_C_locations": "Branch research/shared-game-sim-01-follow-through-v1, prospective/runs/<discovery_run_id>/INPUT_MANIFEST.json, FORECASTS.json.xz and REC_MEAN_ENVELOPE.json. The server receipt uses prospective/receipts/<discovery_run_id>-server.json. The existing export entry binds their actual commits, bytes and hashes when produced."
+  },
+  "window_UTC": {
+    "season": 2026,
+    "week": 12,
+    "game": "2026_12_DEN_PIT",
+    "away": "DEN",
+    "home": "PIT",
+    "native_event": "401873083",
+    "kickoff": "2026-11-27T20:00:00Z",
+    "status": "NOMINATED_FROM_RETAINED_CALENDAR_PENDING_WINDOW_AUTHORIZATION_AND_LIVE_QUALIFICATION",
+    "open": "2026-11-27T19:00:00Z",
+    "issue_and_server_persistence_before": "2026-11-27T19:40:00Z",
+    "latest_current_use_exclusive": "2026-11-27T19:55:00Z",
+    "close": "2026-11-27T20:00:00Z",
+    "reason": "KC–BUF (01:20Z) reaches its five-minute guard at 01:15Z, exactly when IND–HOU reaches seven days. Eligibility starts strictly afterwards. The required pre-issue and kickoff game sets cannot match for KC–BUF.",
+    "clocks": {
+      "old_cap_s": 2700,
+      "old_unused_s": 453.861,
+      "short_of_old_600s_reserve": 146.139,
+      "new_continuous_window_s": 3600,
+      "cumulative_active_elapsed_cap_s": 5846.139,
+      "increase_over_old_cap_s": 3146.139,
+      "included_completion_wall_s": 600,
+      "interwindow_calendar_gap_s": 80553.860746,
+      "calendar_age_at_new_close_from_old_conservative_start_s": 86400,
+      "rule": "Debit the continuous window from 19:00Z, including queues, owner waits, CI and publication. Protect 19:50–20:00Z for completion. Record both execution periods and the intervening calendar gap, with preparation charged separately. A late start shortens the window."
+    }
+  },
+  "reusable_inputs": {
+    "checked_UTC": "2026-11-26T23:10:36.627448Z",
+    "weekly_design": {
+      "shape": [22369, 32],
+      "working_body": {
+        "bytes": 624020,
+        "sha256": "341847450ce773cfe038bc7f6c0b9747264bbf511c5e340b0c0aa0547f3d00a6"
+      },
+      "feature_order_sha256": "d994a8b56e41ab6025e3c71cb1a6e7fc21d381222b98bb89d4f3ce3d13dddde7",
+      "training_member_sha256": "2a3a01c67d8f10c03a560039cf51761ba0818b3241b762929696da32d28cb41b",
+      "role_sequence_sha256": "7803980c0b1c0d9e5a63b99b69aad40a93bedac6eeea7095498467b1723d6f37",
+      "retained_recipe_X_y_sha256": "fba82f66c7e654d20a22f366298fc7e71de7f4a747cd77015be51c299c8fd2c1",
+      "training_NaN_mask_sha256": "735af0f521f8e303b75561a5f4a7e4e503220415bae64ae6922d23614edcbe54",
+      "verification": "Numeric-only array reopening reproduced X/y, missingness, role sequence and feature-order hashes. The member commitment matches both earlier preparation receipts. Member IDs are in the source evidence for the design."
+    },
+    "origin": "W12 uses 2022+ REG RB/WR/TE with the fixed boundary 2026-11-26T01:00:00Z. 150 eligible 2026 games and 262 W10 rows in the 22,369-row design. W9 had 21,611 rows. No matching fitted W12 body is on record.",
+    "query": "For DEN/PIT WR/TE, planning gives 151 eligible 2026 games at proposed issue and kickoff. IND–HOU adds 67 source rows before quarantine, with final scores and ordinary stats present. Recheck finality, unique keys, latest consumed game and full calendar equality at actual observation versus kickoff. Exclude the target.",
+    "reuse_gate": "Reopen the fixed prefix and compare ordered members, X/y, missingness, roles, feature order and actual source versions. Rebuild the same-policy design within budget if qualified revisions require it. Construct new DEN/PIT ACT roster, native/Sleeper/website identity bridge, exclusions and player/team features. Report ambiguous identities and unknown injury/transaction times. The old query is event-specific.",
+    "time_scope": "Prior roster publication plus 36 h ends 2026-11-28T05:44:48Z. Prior schedule publication time is unknown. Report actual source, fit and issue clocks. Seven-day availability remains a reconstruction convention.",
+    "prefix": "Reopened all three parent.inputs.retained_prefix bodies, all seven pinned recipe/adapter code files and the W9 binding by original length and SHA256. W8–9 supplemental ordinary facts and schedule are bound below.",
+    "reopened_source_bodies": {
+      "schedule": {
+        "bytes": 2192487,
+        "sha256": "75664633fe3dccfccf8a0dbed31b0c29c6ee97e4769f704b838756e4e9039c7b",
+        "observed_UTC": "2026-11-26T20:16:42.326951+00:00",
+        "last_modified": null
+      },
+      "roster": {
+        "bytes": 986205,
+        "sha256": "4c896a493ac645ec66c0d0daed9cdbe72584ef9989e1d25d4d6a0092fa1a7698",
+        "observed_UTC": "2026-11-26T20:17:02.081495+00:00",
+        "last_modified": "Thu, 26 Nov 2026 17:44:48 GMT"
+      },
+      "weekly": {
+        "bytes": 739633,
+        "sha256": "51b824c9122279f3980760acdeeda35f5ed3d0947f0b3d815d444c531c2faa21",
+        "observed_UTC": "2026-11-26T20:17:19.773617+00:00",
+        "last_modified": "Thu, 26 Nov 2026 18:59:40 GMT"
+      },
+      "W8_W9_current_facts_2026.csv.gz": {
+        "bytes": 161446,
+        "sha256": "7f73c05da0b01e76023c070c1ec43d5c372e5badc6ca8fcd8298cdf4901b7b21"
+      },
+      "W8_W9_schedule.csv": {
+        "bytes": 18432,
+        "sha256": "14d32c7b5ea24be56441d3fca6ab0d6683bea52b42f4a4e541fd1403a6bf29b2"
+      }
+    }
+  },
+  "C_limits": {
+    "CPU": {
+      "cumulative_s": 300,
+      "increase_s": 0,
+      "carry_s": 43.958674,
+      "remaining_s": 256.041326,
+      "reserved_completion_s": 75,
+      "available_before_reserve_s": 181.041326,
+      "next_stage_forecast_s": {
+        "source_identity_design_controller": 25,
+        "fit_safe_reopen_and_verified_draft": 120,
+        "inference_original_persistence_preparation": 30,
+        "completion_proof_readbacks_delivery_and_close": 75
+      },
+      "projected_cumulative_s": 293.958674,
+      "headroom_s": 6.041326,
+      "basis": "Feature/design kernels used 5.618396820/4.257499339 s and an older three-fit draft used 148.939803602 s. W9 safe Leaf was 120,571 compressed bytes. W12 runtime is estimated. Replace PHI–DAL’s hard-coded 185 precompletion s and 2700-s clock in the linked successor controller. Debit current CPU plus remaining stages and reserve before each transition. During inactivity the old meter stays closed."
+    },
+    "sources": {
+      "carried_logical_wire_bytes": [3, 5, 3918325],
+      "old_logical_wire_caps": [4, 6],
+      "next_logical_wire_max": [4, 6],
+      "new_cumulative_logical_wire_caps": [7, 11],
+      "increases": [3, 5],
+      "cumulative_bytes": 8388608,
+      "next_bytes": 4470283,
+      "single_body_bytes": 4194304,
+      "single_decoded_bytes": 33554432,
+      "next_purposes_and_wire_byte_caps": [
+        ["schedule on original route", 1, 2275000],
+        ["season roster on original release route", 2, 1050000],
+        ["season player-week statistics on original release route", 2, 825000],
+        ["final native DEN–PIT status", 1, 320283]
+      ],
+      "native_URL": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261127&limit=100",
+      "basis": "The prior three bodies totaled 3,918,325 bytes. The earlier C06 native response was 22,957 bytes. Reserve one GET per named body including the late native GET. Reuse a retained version when its clocks qualify. Require a current feature-source observation after the eligibility crossing. Count redirects/errors within these body budgets. No retries."
+    },
+    "readback": {
+      "columns": ["file", "metadata", "total"],
+      "old_caps": [24, 6, 30],
+      "carried": [23, 6, 29],
+      "old_remaining": [1, 0, 1],
+      "next_reserved": [10, 6, 16],
+      "requested_cumulative_caps": [33, 12, 45],
+      "increases_over_old_caps": [9, 6, 15],
+      "file_purposes_and_bytes": [
+        ["draft bindings including actual source, model, query and identity commitments", 131072],
+        ["actual permitted safe model body", 1048576],
+        ["actual permitted per-event query/identity verification body", 524288],
+        ["website admitted source registry", 262144],
+        ["website admitted model catalog", 262144],
+        ["original forecast bytes at capture commit", 524288],
+        ["separate server timing receipt", 65536],
+        ["final typed envelope at its immutable commit", 1048576],
+        ["C published discovery pointer", 524288],
+        ["B actual packet-check disposition at the prebound owner location", 131072]
+      ],
+      "metadata_purposes_one_each": [
+        "Find the normal existing workflow run for the exact original capture SHA and PR.",
+        "Verify the same run, conclusion and GitHub server clocks.",
+        "One delayed result/job for that same run if its initial result lacks completion proof.",
+        "Read the event-specific website preissue admission receipt with actual catalog/registry references.",
+        "Read the website final disposition including served/fallback/expiry evidence.",
+        "Only if needed, one targeted read of the arranged owner handoff on activation. Use the already pinned readiness receipts directly."
+      ],
+      "metadata_bytes_each_max": 131072,
+      "cumulative_returned_bytes_cap": 16777216,
+      "carried_file_bytes": 6849135,
+      "carried_metadata_transport_provision": 2097152,
+      "remaining_returned_bytes": 7830929,
+      "next_returned_bytes_max_including_overhead": 6291456,
+      "rule": "Reserve substantive operations before coordination. Only the last metadata slot is for coordination. Count auxiliary requests, failures, headers and publication response bytes. Use the pinned receipts and keep each slot assigned to its named purpose."
+    },
+    "writes": "C may publish the actual draft, original capture, proof/envelope and closure once each. Include immutable discovery pointers with draft/final. Use the existing PR check triggered by the capture commit.",
+    "storage": {
+      "workers": 1,
+      "threads": 1,
+      "RSS_bytes": 1288490188,
+      "retained_bytes": 16777216,
+      "simultaneous_new_bytes_including_retention": 67108864,
+      "whole_C_bytes": 2684354560,
+      "prior_largest_measured_worker_RSS": 363335680,
+      "whole_C_at_previous_close": 1964642643,
+      "previous_working_bytes_at_subtotal": 11554265,
+      "reopened_working_bytes_after_publication": 11597300,
+      "previous_distinct_published_blob_version_bytes": 1886608,
+      "prior_retained_conservative_provision": 7954766,
+      "next_source_bytes_max": 4470283,
+      "next_durable_derived_versions_max": 3145728,
+      "projected_retained_upper": 15570777,
+      "rule": "Prior provision counts all 22 changed public blob versions and all prior working bytes except 5,529,142 temporary bytes of pre-existing B indexes. Both copies count in peak. Include Git, staged and restored copies in capacity. Before fitting, verify that the existing authorized route can carry the real model/query evidence to the website. Bind and inspect the actual bytes after fitting. Release only reviewed derivatives.",
+      "next_incremental_peak_max": 33554432,
+      "whole_C_preparation_measurement": {
+        "UTC": "2026-11-26T23:17:57.359462+00:00",
+        "bytes": 1964970397,
+        "headroom_bytes": 719384163
+      }
+    },
+    "attempts": "One named successor event and at most one cumulative current fit including failure. Prior fit attempts and historical fit allowance are both zero."
+  },
+  "execution_and_turnaround_UTC": [
+    ["Before 19:00", "Website and B", "Book the existing owner route. Allow website 18 minutes for real pre-issue admission and 8 minutes after the envelope for a current decision/readback. B allows 4 minutes per delivered check. Static conditioning, expiry and both accounts are complete."],
+    ["19:00–19:10", "C", "Requalify event, sources, identities, complete cost and storage. Claim the single fit before invoking it unless exact W12 reuse is proved. Use the frozen H-MULTI/P2_LEAF/E0_OP32 update and training-only preprocessing. Reopen the safe numeric model and check imputation, priors, leaf counts and same-query restoration. Publish actual permitted model, feature/query/identity bodies and source commitments. A trusted reuse requires full W12 basis and output parity."],
+    ["19:10–19:28", "Website", "Verify actual permitted bodies, rights, identity bridge and appearance target with owner verifiers. Admit both registry and model catalog and return immutable references on website PR1. Register the fixed expiry 19:55Z for this issue cohort only. Actual late status will determine eligibility to issue under that expiry."],
+    ["19:29–19:34", "C", "After the real registration, take the single native pregame snapshot. Verify ID, teams, kickoff, Date/Age and min(roster publication + 36 h, actual native observation + 30 min, kickoff − 5 min) = 19:55Z. Withhold on mismatch. Keep the late evidence separate from the registered feature source. Infer and freeze actual unrounded Law.mean() and attribution. Push original values by 19:34."],
+    ["Proof before 19:40 and final envelope by 19:44", "C", "Reopen original bytes by capture SHA. Bind hash/length and the normal successful run’s server clocks. The previous check took 122 s. Require both registrations ≤ issue ≤ server-proven persistence < 19:40Z. If proof is late, preserve the original as unqualified. Complete m3_leaf_current_records with actual persistence time/receipt, compare to originals, publish and reopen the immutable final envelope. Record its separate availability time."],
+    ["By 19:48 / 19:52", "B / website", "Retrieve concurrently via the prebound event pointer. B publishes the scoped actual-output check. Website verifies the capture, records its decision and, if eligible, serves the numerical value under the correct label before expiry. Otherwise retain the delivered shadow with its reason."],
+    ["19:50–20:00", "Website and C", "Protected completion. Current use ends at equality at 19:55. Website verifies fallback at expiry and records rollback. C collects actual owner receipts and publishes final costs or a bounded partial close. No rollover."]
+  ],
+  "product_decision": {
+    "condition": "observed_statistical_appearance_v1",
+    "conditioning_sha256": "f8a4e007e7d1ffbbf636ba02f0194a995b14cffccc750d71fad98973da0d313b",
+    "display_label": "Appearance-conditioned mean",
+    "primary_before_delivery": "KEEP_INCUMBENT",
+    "candidate_before_delivery": "SHADOW",
+    "scope": "Numerical lane only. Report native plus prior mix, prior-only, unavailable and website fallback separately. Record previous/new method and actual served value, label, expiry and rollback if released. Otherwise record delivered shadow and reason. Preserve six receiving blocks and the existing five-week rule. Strict direction, probability, margins and Top Picks retain their own decisions."
+  },
+  "preparation_receipt": {
+    "checked_UTC": "2026-11-26T23:10:36.627448Z",
+    "new_football_requests": 0,
+    "new_fits": 0,
+    "new_forecasts": 0,
+    "live_window_opened": false,
+    "reporting": "Reporting account only. One targeted website PR1 metadata response (40,274 bytes). The local design/source/clock verification used 0.395830 CPU s. An exact C amendment-file readback follows publication under reporting authority. Full preparation and external overhead are incompletely metered."
+  }
+}
