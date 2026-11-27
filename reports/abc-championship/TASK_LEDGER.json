@@ -795,8 +795,49 @@
   {
     "task_id": "C_SHARED_GAME_SIM_01",
     "owner": "C",
-    "state": "BOUNDED_NUMERICAL_STOP;SAVED_METHOD_COMPARISONS_COMPLETED",
-    "artifact": "reports/shared-game-sim-01/execution-v1/README.md",
-    "next_action": "Current60CPUcanaryguardclosed;one scopednumericalcompletion revision before changingguard;A/B ownedjoins;independenteligibleoldreleasescontinue"
+    "state": "CLOSED_FIRST_FIXED_CANARY_COUNT_CORE_500_ITERATION_FAILURE",
+    "artifact": "reports/shared-game-sim-01/numerical-repair-v1/README.md",
+    "next_action": "Numerical repair closed at its first failed canary. No further simulator work authorized."
+  },
+  {
+    "task_id": "A_SHARED_SIM_SAVED_JOIN_FOLLOWUP",
+    "owner": "A",
+    "state": "COMPLETED_CLOSED;C_PUBLIC_AGGREGATE_ADMISSION",
+    "artifact": "reports/shared-game-sim-01/follow-through-v1/intake/A_RESULTS_V1.json",
+    "next_action": "None;no repeat/privateaccessinferred"
+  },
+  {
+    "task_id": "B_SHARED_SIM_SAVED_BINDINGS_FOLLOWUP",
+    "owner": "B join;C commongrade",
+    "state": "COMPLETE_C_GRADED_B_AND_WEBSITE_RECEIVED;B_INDEPENDENT_SCOPE_ADMITTED",
+    "artifact": "reports/shared-game-sim-01/follow-through-v1/B_COMPARISON_RESULTS.json.gz",
+    "next_action": "B checks the actual delivered current product when C supplies the immutable feed.",
+    "verification_scope": "reports/shared-game-sim-01/saved-method-follow-through-v1/B_VERIFICATION_ADMISSION_V2.json"
+  },
+  {
+    "task_id": "C_RECEIVING_MASK_AND_TWO_MEANS",
+    "owner": "B independent verifier; C evidence intake",
+    "state": "COMPLETE",
+    "artifact": "reports/shared-game-sim-01/saved-method-follow-through-v1/B_VERIFICATION_ADMISSION_V2.json",
+    "next_action": "None. Retain original scores and the stated verification limits."
+  },
+  {
+    "task_id": "C-CURRENT-REFERENCE-CHALLENGER",
+    "owner": "C registered C06 current-query/source executor",
+    "state": "NEXT_WINDOW_AMENDMENT_REQUESTED_NO_EXECUTION",
+    "artifact": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_NEXT_WINDOW_AMENDMENT_V1.json",
+    "next_action": "Await the DEN\u2013PIT window authorization and an attended pre-issue website slot. C owns the single current fit and publication. B and the website use their bound accounts. PHI\u2013DAL closed with zero fits and forecasts.",
+    "previous_terminal": {
+      "state": "CLOSED_UNISSUED_FIXED_WINDOW_NO_SAFE_COMPLETE_PATH",
+      "artifact": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_CURRENT_EXECUTION_V1.json",
+      "event": "2026_12_PHI_DAL"
+    }
+  },
+  {
+    "task_id": "WEBSITE_M3_RECEPTION_MEAN_ADMISSION",
+    "owner": "Original website consumer and release owner",
+    "state": "KEEP_INCUMBENT;CONSUMER_FIXED_AND_VERIFIED;CURRENT_M3_UNISSUED_WINDOW_CLOSED",
+    "artifact": "reports/shared-game-sim-01/saved-method-follow-through-v1/WEBSITE_CONSUMER_STATUS_V2.json",
+    "next_action": "Exact observed-statistical-appearance target, expiry implementation and owner accounts resolved. A later authorized current packet still requires genuine model/source catalog admission before issue and actual validation at consumption."
   }
 ]

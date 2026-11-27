@@ -1,0 +1,222 @@
+{
+  "id": "C-SIM01-NUMERICAL-REPAIR-v1",
+  "limits": {
+    "CPU_seconds": 1800.0,
+    "controlled_wall_seconds": 7200.0,
+    "elapsed_seconds": 21600.0,
+    "canary_CPU_seconds": 180.0,
+    "completion_CPU_reserve": 380.0,
+    "RSS_bytes": 1288490188,
+    "retained_bytes": 536870912,
+    "peak_bytes": 805306368,
+    "whole_C_bytes": 2684354560,
+    "source_recovery_reads": 8,
+    "output_readbacks": 20,
+    "new_stages": 152,
+    "new_iterations": 76000,
+    "new_evaluations": 152000,
+    "new_games": 74,
+    "generation_calls": 75
+  },
+  "approval_commit": "0f5859c661c0404b02f0914826cf560f1754ed24",
+  "approval": "User expressly approves pinned request once;PR65 remains draft",
+  "charged_CPU_seconds": 299.1296492620001,
+  "charged_controlled_wall_seconds": 400.76790404599825,
+  "canary_CPU_seconds": 72.629575547,
+  "source_recovery_reads": 0,
+  "output_readbacks": 11,
+  "baseline_whole_C_bytes": 1291840516,
+  "first_scientific_launch_UTC": "2026-11-22T18:05:20.108935+00:00",
+  "deadline_UTC": "2026-11-23T00:05:20.108935+00:00",
+  "counters": {
+    "stages": 1,
+    "iterations": 500,
+    "evaluations": 563,
+    "game_attempts": 1,
+    "generations": 0
+  },
+  "events": [
+    {
+      "stage": "Carry all original task charges ONCE",
+      "CPU_seconds": 260.154994406,
+      "controlled_wall_seconds": 381.0591629320003,
+      "source": {
+        "path": "reports/shared-game-sim-01/follow-through-v1/LEDGER_CARRY_V1.json",
+        "bytes": 3344,
+        "SHA256": "63da9b8ff6e9d61ed3ecf6ccbd7d18b2b19e2fed497246f1f26a29e03172395f"
+      }
+    },
+    {
+      "stage": "Amended implementation/controller/readiness authoring selected conservative carry",
+      "CPU_seconds": 18,
+      "controlled_wall_seconds": 0,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.621646+00:00",
+      "details": "Same40CPUimplementation allowance; selected conservativecharge, notcomplete assistant/toolCPUcertificate; savedmethodtasks excluded"
+    },
+    {
+      "stage": "condition_software",
+      "CPU_seconds": 1.125681922,
+      "controlled_wall_seconds": 1.1274868460022844,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.623132+00:00",
+      "details": "Mocked software only, noNFLnumericalworker"
+    },
+    {
+      "stage": "projection_software",
+      "CPU_seconds": 0.19188517,
+      "controlled_wall_seconds": 0.19140653,
+      "canary": false,
+      "UTC": "2026-11-22T21:38:14.624756+00:00",
+      "details": "Both pure projectionsoftware testruns; noNFLwork"
+    },
+    {
+      "stage": "Controller mock software contracts",
+      "CPU_seconds": 0.19697466100000002,
+      "controlled_wall_seconds": 0.19672129700120422,
+      "canary": false,
+      "UTC": "2026-11-22T21:39:12.773695+00:00",
+      "details": null
+    },
+    {
+      "stage": "repair_immediate_input_readiness",
+      "CPU_seconds": 1.216176107,
+      "controlled_wall_seconds": 1.2602936129987938,
+      "canary": true,
+      "UTC": "2026-11-22T21:41:23.048873+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 89464832,
+        "threads": 1,
+        "command_SHA256": "3ae3bf678936d4073b35211bccab8d361f556bd0aff1206330d61e0c0552900e",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Preserved retained-game/legacycontroller software checks",
+      "CPU_seconds": 1.187480833,
+      "controlled_wall_seconds": 1.1868495749986323,
+      "canary": false,
+      "UTC": "2026-11-22T21:44:00.957611+00:00",
+      "details": null
+    },
+    {
+      "stage": "Exact output restoration freeze_A",
+      "CPU_seconds": 0.21486186799999998,
+      "controlled_wall_seconds": 0.6059884080023039,
+      "canary": true,
+      "UTC": "2026-11-22T21:44:51.125545+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 11796480,
+        "threads": 1,
+        "command_SHA256": "d85fcdbdbf460396124a211394dbe5a2717f375057c943c75e08e41cd050cdf1",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "repair_canary",
+      "CPU_seconds": 12.105303134,
+      "controlled_wall_seconds": 13.461185757998464,
+      "canary": true,
+      "UTC": "2026-11-22T21:45:11.155181+00:00",
+      "details": {
+        "returncode": 1,
+        "safe_stop": null,
+        "peak_RSS_bytes": 213331968,
+        "threads": 1,
+        "command_SHA256": "160b4abfe1a3c43c35974a60b1453929c017cab9507d5928517e936501a5aa1e",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Independent read-only retainedfailure counter/hash verification",
+      "CPU_seconds": 0.057519104,
+      "controlled_wall_seconds": 0.06270214,
+      "canary": false,
+      "UTC": "2026-11-22T21:51:09.183038+00:00",
+      "details": "SeparateCreviewer;noobjective/fit/sampler/reproduction"
+    },
+    {
+      "stage": "Failure report and checkpoint publication preparation",
+      "CPU_seconds": 4,
+      "controlled_wall_seconds": 0,
+      "canary": false,
+      "UTC": "2026-11-22T21:51:09.185774+00:00",
+      "details": "Conservative selectedreportingCPU;notcompleteorchestrationmeter;no numericalrestart"
+    },
+    {
+      "stage": "Finalcanonicalbindingmetadata validation",
+      "CPU_seconds": 0.307779829,
+      "controlled_wall_seconds": 0.3074955839983886,
+      "canary": false,
+      "UTC": "2026-11-22T21:58:12.976896+00:00",
+      "details": null
+    },
+    {
+      "stage": "Exact output restoration readable_report",
+      "CPU_seconds": 0.18136171199999998,
+      "controlled_wall_seconds": 0.6039174249999633,
+      "canary": false,
+      "UTC": "2026-11-22T22:00:43.712293+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 12058624,
+        "threads": 1,
+        "command_SHA256": "c9ad2bcf1904c267d83d74c59035bfb402e95d53056542417faadc506c13d650",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    },
+    {
+      "stage": "Exact output restoration machine_result",
+      "CPU_seconds": 0.189630516,
+      "controlled_wall_seconds": 0.7046939379979449,
+      "canary": false,
+      "UTC": "2026-11-22T22:00:55.126588+00:00",
+      "details": {
+        "returncode": 0,
+        "safe_stop": null,
+        "peak_RSS_bytes": 12320768,
+        "threads": 1,
+        "command_SHA256": "45bfe1fe7f0e15dd8fc0bd834253700bddf9f0961457de9fc72a85b1a1c52013",
+        "interruption_scope": "Last durable counter/checkpoint retained; any postcheckpoint in-flight tail remains unknown"
+      }
+    }
+  ],
+  "metering": "Selected single-worker/controller process CPU plus disclosed conservative preparation. Original missing vectors, unmetered overhead and elapsed overrun preserved; no full CPU certificate.",
+  "repair_output_slots": {
+    "freeze_A": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/FREEZE_A.json",
+      "commit": "3bfea990293ea7c5d8e2c411416962fccf9a0cf3",
+      "blob": "02f82029b38e7419a28481d90d77716ffae4c072",
+      "bytes": 7252,
+      "SHA256": "c95be3f058f869918659c8cd12074a3dea9d901722dbb44f8b9b359082d15b37",
+      "UTC": "2026-11-22T21:44:50.579373+00:00",
+      "completed_UTC": "2026-11-22T21:44:51.072669+00:00"
+    },
+    "readable_report": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/README.md",
+      "commit": "14f2e317c0a02de9ae112ebc7282d0067a32f2ce",
+      "blob": "6f29184dba9216fd46f8bd6baa6585f688f19c24",
+      "bytes": 8488,
+      "SHA256": "3bba76461ef766a5924caa8f405d9efc028ec06c62aad3917050ca00bf41b56d",
+      "UTC": "2026-11-22T22:00:43.155285+00:00",
+      "completed_UTC": "2026-11-22T22:00:43.678718+00:00"
+    },
+    "machine_result": {
+      "state": "ACTUAL_REMOTE_BODY_REOPEN_PASS",
+      "path": "reports/shared-game-sim-01/numerical-repair-v1/RESULTS.json.gz",
+      "commit": "14f2e317c0a02de9ae112ebc7282d0067a32f2ce",
+      "blob": "a86d343ed6c2ce3f56e49474b24e08a63fe0de0e",
+      "bytes": 140429,
+      "SHA256": "99d8f4516cb93f8ea4aa9f4005b66c605a16c65adf3e9b54a52b969d7c5c0ba5",
+      "UTC": "2026-11-22T22:00:54.470805+00:00",
+      "completed_UTC": "2026-11-22T22:00:55.106971+00:00"
+    }
+  }
+}

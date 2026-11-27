@@ -1,0 +1,22 @@
+{
+  "state": "PASS_DETERMINISTIC_SOFTWARE_SCOPE_ONLY",
+  "tests": 10,
+  "CPU_seconds": 3.427387783,
+  "wall_seconds": 3.434386711,
+  "code": [
+    {
+      "path": "src/shared_game_sim01_run.py",
+      "bytes": 16128,
+      "SHA256": "4f74ba39c702f2f0fef98d653a22bbcfce5cd47671c774ad0044e50b9355a8ae"
+    },
+    {
+      "path": "tests/test_shared_game_sim01.py",
+      "bytes": 9227,
+      "SHA256": "443bab4ff2e8f883ebaa6202fccc6d530d92eef1db14f6a4aa5f12322ea4b834"
+    }
+  ],
+  "no_NFL_fit_solver_sampling": true,
+  "canary_and_mutation_NFL_results": "NOT_RUN",
+  "first_software_tool_failure": "Missing /usr/bin/time before Python started; retained in work log, not NFL failure",
+  "original_freezes": "Unchanged; revised executable requires new freeze only after authorized numerical amendment"
+}

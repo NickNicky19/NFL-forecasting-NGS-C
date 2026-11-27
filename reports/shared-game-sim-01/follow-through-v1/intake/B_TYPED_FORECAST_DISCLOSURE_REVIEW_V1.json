@@ -1,0 +1,30 @@
+{
+  "id": "B-SIM-TYPED-FORECAST-DISCLOSURE-REVIEW-v1",
+  "UTC": "2026-11-22T18:07:47.780556+00:00",
+  "state": "PERMITTED_OWN_DERIVED_ORDINAL_FORECASTS_ONLY",
+  "file": "B_ORDINAL_FROZEN_OUTPUTS_V3.json.gz",
+  "bytes": 90346,
+  "sha256": "4847b6a6152e7db3830f93bf451e27c6127fec274b6631e7c6055bb6daaec60d",
+  "schema": "B-SHARED-SIM-ORDINAL-SAVED-FORECASTS-v1",
+  "exact_allowed_row_fields": [
+    "case_ordinal",
+    "fallback",
+    "mean_sibling",
+    "median_sibling",
+    "point",
+    "primary_T90_comparability",
+    "probabilities",
+    "source_clock_state",
+    "status"
+  ],
+  "content_scope": "Own B numerical point/mean/median or exact-threshold probability outputs, availability/fallback/comparability flags and canonical case ordinal only. No player/game IDs, lines, book/price, actual/outcome, roster/training/context, source payloads or fitted model state. These are derived predictions, not protected source rows. No unsafe model loading.",
+  "case_binding": "Exact website canonical case SHA19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18; ordinals are zero-based, source order unchanged. Rebuild private canonical cases from identical user ZIP and admitted website builder.",
+  "independent_B_review": {
+    "reviewer": "B scoped read-only reviewer sim_peer_recipe_review_b",
+    "scope": "Exact length/hash, strict top/candidate/row schema,36 unique nominees,10422category rows,5338available,592finite mass-one triples at1e-12; original1207clock-unverified and4131differing-origin flags retained",
+    "outcome": "PASS_THIS_SCOPE",
+    "not_completed": "Six representative source-binding reproductions; not full private-row/fit parity. No C worker check or grade."
+  },
+  "law_conditioning": "Only exact saved statistical-appearance laws at these canonical thresholds; raw probabilities uncalibrated. No bookmaker void/settlement model. Means/medians and law directions remain different products; respect each candidate primary_output. No scalar-gap probability.",
+  "publication_limit": "Only this reviewed derived packet and scientific reporting/code may use registered B GitHub route. No permission to publish source cache, private plans/locators, identity rows, ZIP/views or private model artifacts."
+}

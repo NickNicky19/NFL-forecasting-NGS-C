@@ -1,0 +1,144 @@
+{
+  "id": "C-M3-0-REC-MEAN-DEN-PIT-TERMINAL-v1",
+  "run": "C-M3-REC-MEAN-20261127-DEN-PIT-01",
+  "event": "401873083",
+  "game": "2026_12_DEN_PIT",
+  "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+  "status": "CLOSED_UNOPENED",
+  "authorization_commit": "65b36a24342608353504bb5a22abdac8eddbae38",
+  "recorded_UTC": "2026-11-27T19:53:44.209383+00:00",
+  "first_successful_recovery_shell_UTC": "2026-11-27T19:49:55.459707+00:00",
+  "window_opened_UTC": null,
+  "authority_window_UTC": [
+    "2026-11-27T19:00:00Z",
+    "2026-11-27T20:00:00Z"
+  ],
+  "deadlines_UTC": {
+    "original_and_server_proof_before": "2026-11-27T19:40:00Z",
+    "typed_envelope_by": "2026-11-27T19:44:00Z",
+    "expiry": "2026-11-27T19:55:00Z"
+  },
+  "terminal_reason": "At the successful recovery shell check the issue/proof and final-envelope deadlines had passed. The exact private W12 training design and parked ledger were also unavailable on the registered recovery paths.",
+  "observations": {
+    "fit_attempts": 0,
+    "forecast_rows": 0,
+    "supported_player_count": null,
+    "unavailable_player_count": null,
+    "current_scientific_source_requests": 0,
+    "immutable_forecast_feed": null,
+    "server_proof": null,
+    "B_delivered_output_check": null,
+    "website_packet_admission": null,
+    "served_values_verified": null,
+    "delivery_disposition": "NO_PACKET"
+  },
+  "restored": {
+    "controller_commit": "e710dcb2c38ca43292299e664015584a2cb20509",
+    "byte_matched_working_files": [
+      {
+        "path": "src/m3_reception_delivery.py",
+        "bytes": 20831,
+        "SHA256": "c393df58c6c6d84475c3f6b0076cf20c900b51cfa6cdf7fbe3f3a96df2a9c36f"
+      },
+      {
+        "path": "src/m3_reception_delivery_inputs.py",
+        "bytes": 11138,
+        "SHA256": "7639f621f434a23aa36553770957b895e70c63236a7f5746d0b9154b852a5155"
+      },
+      {
+        "path": "src/m3_reception_delivery_io.py",
+        "bytes": 12328,
+        "SHA256": "db06f999b9aafeddd312bb16ba85b2ca2d518669e8db023bb8b84b199bbc0434"
+      },
+      {
+        "path": "src/m3_reception_delivery_manual.py",
+        "bytes": 19228,
+        "SHA256": "761ac765a22724fee01546a1b7b699e6055dabeee1711e4043659ef55570a4d1"
+      },
+      {
+        "path": "src/m3_reception_delivery_window.py",
+        "bytes": 17474,
+        "SHA256": "cc75841c67edd28552ad50dfd4a704c5a2d7ee6850cb80f54236f819277cef86"
+      },
+      {
+        "path": "tests/test_m3_reception_window_control.py",
+        "bytes": 3655,
+        "SHA256": "da4b00d7ea3809ba789f82c9afcb2e0b4c5e32ff6ce997b24f2fb6e9834c9119"
+      }
+    ],
+    "design": {
+      "bytes": 624020,
+      "sha256": "341847450ce773cfe038bc7f6c0b9747264bbf511c5e340b0c0aa0547f3d00a6",
+      "status": "EXPECTED_IDENTITY_ONLY_BODY_NOT_REOPENED"
+    },
+    "parked_ledger": "Original private body unavailable. Last witnessed state and charge are carried from the parked checkpoint. No reconstructed ledger was used to launch.",
+    "scope": "Original C repository and registered private working locations. No matching design-size file in the restored C checkout. This records availability within those routes."
+  },
+  "attendance": {
+    "B_receipt": "https://github.com/NickNicky19/NFL-forecasting-V2/blob/a3812d2888d78e6044c780a9e598ba3aea82ba03/reports/shared-game-sim-01/B/refreshed-rec-mean-delivery-20261126/B_DEN_PIT_ATTENDANCE_V1.json",
+    "B_last_received": "UNCONFIRMED",
+    "B_remaining_CPU_s": 25,
+    "B_remaining_controlled_wall_s": 540,
+    "B_reserved_live_reads": 4,
+    "B_conditional_extra_file_op": "One for separate discovery pointer and immutable envelope only.",
+    "website": "Static compatibility and admission account preserved. No attended slot was confirmed in C\u2019s received evidence.",
+    "activation_read_used": false
+  },
+  "preparation": {
+    "prior_CPU_s": "43.958674",
+    "increment_CPU_s": "13.575096",
+    "parked_CPU_s": "57.533770",
+    "measured_segment_s": "12.575096",
+    "initial_startup_provision_s": "1.000000",
+    "completed": [
+      "Bound the successor event controller to the cumulative clocks, reserves, source/read/write limits and single fit.",
+      "Prepared owner attendance and packet bindings, supervision, source/query and persistence/expiry stages. Froze the local implementation, checked its static integrity and ran four synthetic gate tests."
+    ],
+    "outstanding_at_park": [
+      "Live event and source qualification, current identities and source versions, and W12 design/query verification.",
+      "The one fit, safe model reopening, real website pre-issue registration, inference, persistence, B readback and website decision."
+    ],
+    "measurement_limit": "One aggregate preparation debit. Individual stage CPU times were not recorded."
+  },
+  "cost_at_recovery_stop": {
+    "UTC": "2026-11-27T19:52:19.799643+00:00",
+    "recovery_CPU_measured_s": "2.605163",
+    "new_shell_premeter_provision_s": "0.066821",
+    "cumulative_CPU_s": "60.205754",
+    "nominal_qualification_remainder_at_park_s": "11.424904",
+    "fit_safe_reopen_draft_s": 120,
+    "inference_original_persistence_s": 30,
+    "completion_reserve_s": 75,
+    "if_nominal_remainder_holds_total_s": "296.630658",
+    "if_nominal_remainder_holds_headroom_s": "3.369342",
+    "max_remaining_qualification_to_fit_cap_s": "14.794246",
+    "max_remaining_qualification_to_keep_prior_headroom_s": "8.752920",
+    "historical_component_costs_s": [
+      "5.618396820",
+      "4.257499339"
+    ],
+    "cost_basis": "On the earlier event the feature and design kernels took 9.875896159 CPU seconds together. The remaining DEN\u2013PIT live-source and identity work had no full-path measurement. Recovery is charged separately from completed controller work. The original 6.041326-second margin is unsupported after recovery.",
+    "qualification": "COMPLETE_PATH_NOT_VERIFIED"
+  },
+  "accounting": {
+    "CPU_cap_s": 300,
+    "CPU_s_before_terminal_publication": "60.598425",
+    "remaining_CPU_s_at_that_boundary": "239.401575",
+    "completion_reserve_s": 75,
+    "elapsed_carry_active_s": "2246.139",
+    "new_active_window_s": 0,
+    "cumulative_source_logical": 3,
+    "cumulative_source_wire": 5,
+    "cumulative_source_bytes": 3918325,
+    "cumulative_operational_file_reads": 23,
+    "cumulative_operational_metadata_reads": 6,
+    "operational_read_cap": [
+      33,
+      12
+    ],
+    "prewindow_reporting_receipts": 3,
+    "recovery_clock_note": "New environment CPU deltas start at the recovered shell. The prefix provision bounds the single initial shell command by its wall duration. External platform CPU and process tails are incompletely metered. Terminal reporting/publication costs after this recorded boundary follow in the producer completion receipt.",
+    "intervening_time": "The November 27 execution window never opened. The earlier elapsed record and separately disclosed inactive interval remain intact."
+  },
+  "next_dependency": "The staffed producer handoff requires recoverable, owner-approved storage for the exact design body and single-writer ledger, in addition to the frozen code and owner availability. This event is terminal."
+}

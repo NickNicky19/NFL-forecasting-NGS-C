@@ -1,0 +1,33 @@
+{
+  "state": "PASS_WITH_NARROW_STATIC_INPUT_BINDING_FINDING",
+  "scope": "Independent C internal static read of amendment,README,run.py diff and retained restore_origin code; no optimizer, model fit, numerical diagnostic, sampling, source network or grading.",
+  "checks": {
+    "numerical_change": "Single maxiter100->500/maxfun1000 proposal; objective/method/information/parameterization/tolerances/initialization/seed unchanged. No convergence claimed.",
+    "attempt_counts": "152newstage calls=148game+4baseline/mutation; new76000iterations; historical35calls/3500iteration conservativebound; combined187/79500 correct. Actual historicalmissingcounts unknown.",
+    "canary": "One exact original earliestfailed native2026_04_DET_CAR, prior59.093234438carried into proposed180; firstfailurestops not nextorigin; originalmissingoptimizer and interruptedoriginuncertainty preserved.",
+    "budget": "Latest258.588415307CPU leaves1541.411584693 including380reserve; no total1800CPUincrease. Completecost unproved and conditioned on valid completecanary/reopen and2x normalizedprojection; no promisedfullcompletion.",
+    "readbacks": "8exhausted->20cumulative,12additionallistedoperations sum correctly; no sourcecollectionincrease.",
+    "wall": "Controlled7200unchanged; original18:05:20.108935launch anchoredendtoend21600deadline2026-11-23T00:05:20.108935Z; waits carried noreset, expiredrequeststale.",
+    "scientific_status": "No new numerical execution, no simulator accuracyclaim, no primarypromotion/newuniversalgate; savedownercomparisons distinct populations/horizons.",
+    "control_repair": "Static canary closure checked beforefit; actualretainedgame_id/source/input/array/design/clock mappings verified before mutationbaseline. No claim priorbug was observedfailedNFLtest."
+  },
+  "finding": {
+    "location": "src/shared_game_sim01_run.py::mutation, immediately after reading frozen_startup_prior.json and before restore_origin/game_params",
+    "issue": "restore_origin verifies eligible source design but accepts numeric prior parameters from read JSON. That prior body is not among five freeze.private_input bindings; require equality to retained kept.fit_record.earlier_prior before numerical baseline solve.",
+    "minimal_static_fix": "if pr != kept.fit_record.get(\"earlier_prior\"): raise ValueError(\"RETAINED_MUTATION_PRIOR_BINDING_MISMATCH\")",
+    "severity": "Narrowfailclosedbindingcorrectness; noobservedNFLmutationfailure. Rootinformed; no repositoryeditsbyreviewer."
+  },
+  "future_implementation_note": "Request firstfailurestop/fullworker and new numerical counters/diagnosticlogging are future approved amendmentimplementation; static full path presently still has perorigincontinue. Do not claim these proposed futurecontrols alreadyexecuted.",
+  "UTC": "2026-11-22T19:59:06.486006+00:00",
+  "selected_CPU_seconds": 0.025178,
+  "measurement": "Only this reporting-process selectedCPU; earlier read-only tool process/assistant overhead not completelymetered; not a scientificworker.",
+  "original_review_state_preserved": "PASS_WITH_NARROW_STATIC_INPUT_BINDING_FINDING",
+  "static_finding_resolution": {
+    "state": "FIXED_AND_DETERMINISTIC_TESTED",
+    "helper": "restore_retained_prior",
+    "scope": "Exact full parsed prior digest checked before restore orgame_params; same source design but changed numeric prior testfails before numericalcalls",
+    "code_SHA256": "4f74ba39c702f2f0fef98d653a22bbcfce5cd47671c774ad0044e50b9355a8ae",
+    "software_tests": 10,
+    "no_numerical_validation": true
+  }
+}

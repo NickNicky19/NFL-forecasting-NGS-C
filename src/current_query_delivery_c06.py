@@ -175,6 +175,80 @@ def point_direction_record(row,offer,decision_UTC,*,repricing_policy=None):
  record.update(line=float(line),expected_mean=float(point),offer_observed_UTC=offer['observed_UTC'],repricing_policy=repricing_policy,selected_side=side,state='SELECTED_STATISTICAL_DIRECTION' if side else 'ABSTAIN_EQUAL_POINT_OR_UNOFFERED_SIDE',offer_binding={k:offer.get(k) for k in ['admission_record_SHA256','source_snapshot_SHA256','source','venue','product','tier','observed_UTC','expiry_UTC','offered_sides']},settlement_status='STATISTICAL_CROSSING_NOT_VERIFIED_VENUE_RETURN')
  return record
 
+def m3_current_query_fingerprint(row):
+ """Bind only declared forecast-time identity, feature and issuance fields."""
+ keys=('procedure_id','category','player_id','game_id','position','team','opponent_team','native_event_id','feature_order','features','source_contract_SHA256','query_admission_SHA256','source_observed_UTC','information_cutoff_UTC','inference_UTC','issued_UTC','persisted_UTC','expires_UTC','kickoff_UTC')
+ return hashlib.sha256(json.dumps({k:row.get(k) for k in keys},sort_keys=True,separators=(',',':'),allow_nan=False).encode()).hexdigest()
+
+
+def m3_leaf_current_records(row,binding,model_bytes,decision_UTC,*,current_event=None,offers=None,repricing_policy=None):
+ """Prepare separately typed M3-0 records through the existing current adapter.
+
+ No acquisition, fit, persistence or consumer admission occurs here. External
+ source/model/roster and server-receipt qualification remains mandatory; hashes
+ and metadata checked here do not reproduce a fit or authenticate those clocks.
+ """
+ from targeted_data_m3 import feature_names
+ from receiving_increment_query_c03 import _load_bytes,_live_boundary,_qualified_offer
+ from safe_models_v4 import infer_forest,law_data
+ target=row.get('category')
+ if target not in ('rec','rec_yd'):raise ValueError('M3_CURRENT_TARGET')
+ family='C-M3-v1.1::'+target+'::M3-0::base';outputs=('MEAN_POINT','MEDIAN_POINT','LAW')
+ base=dict(schema='C-M3-LEAF-TYPED-CURRENT-v1',forecast_id=row.get('forecast_id'),category=target,player_id=row.get('player_id'),game_id=row.get('game_id'),position=row.get('position'),model_SHA256=binding.get('model_SHA256'),source_contract_SHA256=binding.get('source_contract_SHA256'),query_row_SHA256=binding.get('query_row_SHA256'),selected_side=None,confidence=None,EV=None,primary_replacement=False,capture_or_consumer_admission=False,conditioning='CONDITIONAL_ON_APPEARANCE;NOT_HEALTH_STARTER_OR_VOID_PROBABILITY',corrector='NO_EXTRA_CORRECTOR')
+ def unavailable(reason):return [dict(base,product_id=family+'::'+o,output_type=o,available=False,state=reason) for o in outputs]
+ if row.get('position') not in ('WR','TE'):return unavailable('UNSUPPORTED_ROLE')
+ if row.get('procedure_id')!=family or binding.get('procedure_id')!=family:raise ValueError('M3_CURRENT_WRONG_PROCEDURE')
+ names=feature_names(target)
+ if row.get('feature_order')!=names or binding.get('feature_order')!=names:raise ValueError('M3_CURRENT_FEATURE_ALIGNMENT')
+ if binding.get('preprocessing')!='M3_E0_OP32_TRAINING_MEDIAN_PLUS_MISSING_MASK' or binding.get('corrector')!='NO_EXTRA_CORRECTOR':raise ValueError('M3_CURRENT_PREPROCESSING_OR_CORRECTOR')
+ features=row.get('features',[])
+ if len(features)!=32 or any(x is not None and not isinstance(x,(int,float)) or isinstance(x,bool) or x is not None and not math.isfinite(float(x)) for x in features):raise ValueError('M3_CURRENT_FEATURE_VALUES')
+ for k in ('model_SHA256','source_contract_SHA256','query_admission_SHA256','persistence_receipt_SHA256','query_row_SHA256'):
+  if not __import__('re').fullmatch('[0-9a-f]{64}',str(binding.get(k,''))):return unavailable('MISSING_QUALIFIED_BINDING')
+ if m3_current_query_fingerprint(row)!=binding['query_row_SHA256']:raise ValueError('M3_CURRENT_QUERY_ROW_BINDING')
+ if row.get('source_contract_SHA256')!=binding['source_contract_SHA256'] or row.get('query_admission_SHA256')!=binding['query_admission_SHA256']:raise ValueError('M3_CURRENT_SOURCE_QUERY_BINDING')
+ clocks=('source_observed_UTC','information_cutoff_UTC','inference_UTC','issued_UTC','persisted_UTC','expires_UTC','kickoff_UTC')
+ if any(not row.get(k) for k in clocks):return unavailable('MISSING_ISSUE_PERSISTENCE_EXPIRY_CLOCK')
+ at=aware(decision_UTC).timestamp();obs,cut,infer,issued,persist,expiry,kick=[aware(row[k]).timestamp() for k in clocks]
+ fit=aware(binding.get('fit_cutoff_UTC')).timestamp();latest=aware(binding.get('latest_training_available_UTC')).timestamp()
+ if not latest<fit<=cut or not obs<=cut<=infer<=issued<=persist<=at<expiry<=kick or at+300>=kick:return unavailable('STALE_FUTURE_EXPIRED_OR_INVALID_CLOCK')
+ season,week=row['game_id'].split('_')[:2]
+ if binding.get('model_origin')!=season+'-W'+week.zfill(2) or binding.get('target_game_exclusion_verified') is not True or row['game_id'] in binding.get('training_game_ids',[]):raise ValueError('M3_CURRENT_ORIGIN_OR_TARGET_EXCLUSION')
+ if binding.get('query_role_membership_verified') is not True:return unavailable('ROLE_MEMBERSHIP_NOT_ADMITTED')
+ profile={'base_profile':{'key':{k:row[k] for k in ('player_id','game_id','team','opponent_team','information_cutoff_UTC')},'native_event_id':row.get('native_event_id'),'kickoff_UTC':row['kickoff_UTC']}}
+ _live_boundary(profile,current_event,at)
+ if model_bytes is None:return unavailable('CURRENT_ORIGIN_MODEL_NOT_DELIVERED')
+ if not isinstance(model_bytes,bytes) or hashlib.sha256(model_bytes).hexdigest()!=binding['model_SHA256']:raise ValueError('M3_CURRENT_MODEL_HASH')
+ model=_load_bytes(model_bytes);kind='count' if target=='rec' else 'signed'
+ if model.get('schema')!='C-NUMERIC-LEAF-v4' or model.get('kind')!=kind or model.get('scale')!=1 or len(model.get('imputation',[]))!=32:raise ValueError('M3_CURRENT_SAFE_LEAF_SCHEMA')
+ imputation=model['imputation']
+ if not all(isinstance(x,(int,float)) and not isinstance(x,bool) and math.isfinite(float(x)) for x in imputation) or hashlib.sha256(json.dumps(imputation,separators=(',',':'),allow_nan=False).encode()).hexdigest()!=binding.get('imputation_SHA256'):raise ValueError('M3_CURRENT_IMPUTATION_BINDING')
+ if model.get('global_prior',{}).get('kind')!=kind or any(p.get('kind')!=kind for p in model.get('prior',{}).values()):raise ValueError('M3_CURRENT_PRIOR_SUPPORT')
+ if target=='rec' and any(v<0 for tree in model.get('trees',[]) for leaf in tree.get('leaves',{}).values() for v in leaf[0]):raise ValueError('M3_CURRENT_COUNT_SUPPORT')
+ law=infer_forest(model,np.array([[np.nan if x is None else x for x in features]],float),[row['position']])[0]
+ mean,median=float(law.mean()),float(law.quantile(.5))
+ if not math.isfinite(mean) or not math.isfinite(median):raise ValueError('M3_CURRENT_NONFINITE_OUTPUT')
+ result=[]
+ for output in outputs:
+  r=dict(base,product_id=family+'::'+output,output_type=output,available=True,state='PREPARED_FORECAST_ONLY_NOT_CAPTURE_RECEIPT',issued_UTC=row['issued_UTC'],persisted_UTC=row['persisted_UTC'],expires_UTC=row['expires_UTC'],information_cutoff_UTC=row['information_cutoff_UTC'],decision_UTC=decision_UTC,point=mean if output=='MEAN_POINT' else median if output=='MEDIAN_POINT' else None,law=law_data(law) if output=='LAW' else None,probabilities_at_line=None,prior_mixture_mass=float(law.a),fallback_kind='PRIOR_ONLY' if law.a==1 else 'LEARNED_LEAF_WITH_EXPLICIT_PRIOR_TAIL',hard_incumbent_fallback=False)
+  offer=(offers or {}).get(output)
+  if offer is not None:
+   if offer.get('category')!=target:raise ValueError('M3_CURRENT_OFFER_CATEGORY')
+   if isinstance(offer.get('line'),bool) or not isinstance(offer.get('line'),(int,float)) or not math.isfinite(float(offer['line'])):raise ValueError('M3_CURRENT_EXACT_OFFER_LINE')
+   # Reuse the existing numerical offer contract; only its category check is
+   # adapted after matching the original target. Preserve the original offer.
+   if not _qualified_offer(dict(offer,category='rec'),profile,float(offer['line']),at):r['state']='NO_QUALIFIED_CURRENT_OFFER'
+   elif aware(offer['observed_UTC']).timestamp()>issued and repricing_policy!='LATER_CAPTURED_PREGAME_LINE_BOTH_CLOCKS_PRESERVED':r['state']='EXPLICIT_LATER_LINE_REPRICING_CONTRACT_REQUIRED'
+   else:
+    line=float(offer['line']);p=law.probability(line) if output=='LAW' else None
+    if p is not None and (set(p)!=set(('under','push','over')) or any(not math.isfinite(v) or v<0 or v>1 for v in p.values()) or abs(sum(p.values())-1)>1e-12):raise ValueError('M3_CURRENT_PROBABILITY_MASS')
+    a,b=(p['over'],p['under']) if p is not None else (r['point'],line);side='OVER' if a>b else 'UNDER' if a<b else None
+    if side not in offer['offered_sides']:side=None
+    r.update(line=line,selected_side=side,probabilities_at_line=p,state='PREPARED_STATISTICAL_DIRECTION' if side else 'ABSTAIN_EXACT_TIE_OR_UNOFFERED_SIDE',offer_observed_UTC=offer['observed_UTC'],repricing_policy=repricing_policy,offer_binding={k:offer.get(k) for k in ('admission_record_SHA256','source_snapshot_SHA256','source','venue','product','tier','observed_UTC','expiry_UTC','category')},decision_rule='STRICT_MORE_PROBABLE_SIDE_EXACT_TIE_ABSTAIN' if output=='LAW' else 'STRICT_UNROUNDED_POINT_CROSSING',settlement_status='STATISTICAL_CROSSING_NOT_VERIFIED_VENUE_SETTLEMENT')
+  result.append(r)
+ return result
+
+
 def clean_start(output):
  assert not git('status','--porcelain'),'C06_WHOLE_TREE_MUST_BE_CLEAN';p=Path(output).resolve();assert not p.is_relative_to(ROOT);r=dict(created_UTC=now(),git_status='',**committed());write(p,r,True);return r
 

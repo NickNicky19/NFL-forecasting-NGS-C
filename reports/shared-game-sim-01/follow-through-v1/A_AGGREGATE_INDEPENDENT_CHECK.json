@@ -1,0 +1,327 @@
+{
+  "state": "PASS_PUBLIC_AGGREGATE_ARITHMETIC_AND_CANONICAL_BODY_HASHES",
+  "scope": "Separate C reviewer; not B or A private-row/model-fit/source-outcome/bootstrap reproduction",
+  "source": {
+    "owner": "A",
+    "repository": "NickNicky19/NFL-forecasting",
+    "commit": "ff8ea1c81f5337be1468870e6c50b7c532d28179",
+    "path": "reports/abc-championship/shared-game-sim-01/A-follow-through-01/RESULTS_V1.json",
+    "sha256": "ea74007b7dd914f18bd204a1541d22a207ce1ec7fd394b5022b0c8407437ed1e"
+  },
+  "records": 69,
+  "partition_checks": 138,
+  "paired_records": 144,
+  "errors": [],
+  "source_bindings": [
+    {
+      "path": "comparison_inputs/benchmarks.jsonl",
+      "bytes": 839521,
+      "sha256": "2d9c9c1d505dbd0afc380b9ff9b7eeb7a98023da71a7691bcd14faf7a246bb86",
+      "PASS": true
+    },
+    {
+      "path": "comparison_inputs/cases.jsonl",
+      "bytes": 2956863,
+      "sha256": "19ccf34b3037e1790ee3b2bf61d3357f33e63916779c2f36023a232f6a66ea18",
+      "PASS": true
+    },
+    {
+      "path": "grading_only/outcomes.v1.jsonl",
+      "bytes": 1347519,
+      "sha256": "666885cbdc2ae7551f637b3d4a6999f15c07db956861f3f0374fad9c91b3a5ad",
+      "PASS": true
+    }
+  ],
+  "canonical_frame": {
+    "cases": 3474,
+    "games": 74,
+    "unknown": 464,
+    "early_case_rows": 2118,
+    "early_games": 45
+  },
+  "A_procedure_forecast_views": 6258,
+  "A_supported": {
+    "case_opportunities": 2116,
+    "case_procedure_rows": 6258,
+    "games": 45,
+    "identity_unavailable_case_count": 2,
+    "unavailable_weeks": [
+      8,
+      9
+    ],
+    "unique_player_games": 704,
+    "weeks": [
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "scope_limitations": [
+    "A supported union2,116 cases is owner reported; no private case membership was supplied for independent union verification",
+    "The full early canonical frame row count is separate from A support",
+    "No unique game counts pooled across procedure views",
+    "No point probability law inferred",
+    "W8-9 and arbitrary-line probability laws remain unavailable",
+    "Fallback flags remain unattributed; two unresolved TE identities not filled",
+    "No recomputation of bootstrap intervals or outcome source correctness",
+    "No A-C private paired overlap or universal ranking established"
+  ],
+  "reception_count_mean_record": {
+    "arm": "rec__COUNT_A_MEAN",
+    "category": "rec",
+    "full": [
+      922,
+      563,
+      563,
+      148,
+      80,
+      137,
+      120,
+      78,
+      142,
+      0,
+      0,
+      {
+        "4": 358,
+        "7": 1
+      },
+      {
+        "0": 563
+      },
+      45,
+      563,
+      {
+        "MAE": 1.496200714138071,
+        "MSE": 4.17905049293224,
+        "bias": -0.548794212900143,
+        "n": 485,
+        "p95_absolute_error": 3.843834420631076
+      }
+    ],
+    "venue": [
+      [
+        "dk",
+        901,
+        553,
+        553,
+        145,
+        80,
+        135,
+        119,
+        74,
+        134,
+        0,
+        0,
+        {
+          "4": 348
+        },
+        {
+          "0": 553
+        },
+        45,
+        null
+      ],
+      [
+        "sleeper",
+        21,
+        10,
+        10,
+        3,
+        0,
+        2,
+        1,
+        4,
+        8,
+        0,
+        0,
+        {
+          "4": 10,
+          "7": 1
+        },
+        {
+          "0": 10
+        },
+        5,
+        null
+      ]
+    ],
+    "weekly": [
+      [
+        4,
+        27,
+        27,
+        27,
+        11,
+        3,
+        5,
+        6,
+        2,
+        2,
+        0,
+        0,
+        {},
+        {
+          "0": 27
+        },
+        2,
+        null
+      ],
+      [
+        5,
+        177,
+        176,
+        176,
+        41,
+        24,
+        46,
+        43,
+        22,
+        23,
+        0,
+        0,
+        {
+          "7": 1
+        },
+        {
+          "0": 176
+        },
+        15,
+        null
+      ],
+      [
+        6,
+        188,
+        188,
+        188,
+        54,
+        25,
+        38,
+        41,
+        30,
+        30,
+        0,
+        0,
+        {},
+        {
+          "0": 188
+        },
+        14,
+        null
+      ],
+      [
+        7,
+        172,
+        172,
+        172,
+        42,
+        28,
+        48,
+        30,
+        24,
+        24,
+        0,
+        0,
+        {},
+        {
+          "0": 172
+        },
+        14,
+        null
+      ],
+      [
+        8,
+        175,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        31,
+        0,
+        0,
+        {
+          "4": 175
+        },
+        {},
+        0,
+        null
+      ],
+      [
+        9,
+        183,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        32,
+        0,
+        0,
+        {
+          "4": 183
+        },
+        {},
+        0,
+        null
+      ]
+    ]
+  },
+  "reception_count_mean_pairs": [
+    {
+      "A": "rec__COUNT_A_MEAN",
+      "B": "W0",
+      "category": "rec",
+      "n": 482,
+      "games": 45,
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "A_wins": 283,
+      "B_wins": 277,
+      "difference_wins": 6,
+      "difference_rate": 0.012448132780082987,
+      "A_only_correct": 97,
+      "B_only_correct": 91,
+      "direction_disagreements": 188,
+      "game95_rate": [
+        -0.04161120435210371,
+        0.06366159317513072
+      ]
+    },
+    {
+      "A": "rec__COUNT_A_MEAN",
+      "B": "W1",
+      "category": "rec",
+      "n": 480,
+      "games": 45,
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "A_wins": 283,
+      "B_wins": 286,
+      "difference_wins": -3,
+      "difference_rate": -0.00625,
+      "A_only_correct": 86,
+      "B_only_correct": 89,
+      "direction_disagreements": 175,
+      "game95_rate": [
+        -0.058068726518979145,
+        0.04452268843158671
+      ]
+    }
+  ],
+  "selected_CPU_seconds": 0.11360308599999999,
+  "wall_seconds": 0.11392879199956951,
+  "no_optimizer_or_sampler_or_fit": true
+}

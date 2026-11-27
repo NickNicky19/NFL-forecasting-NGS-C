@@ -1,0 +1,33 @@
+{
+  "id": "B-C-MASK-REPRODUCTION-SCOPE-v1",
+  "UTC": "2026-11-22T20:04:42.934223+00:00",
+  "state": "AGGREGATE_ARITHMETIC_PASS;EXACT_PRIVATE_CASE_MASK_NOT_REPRODUCED",
+  "source_review": "C_REVIEW_V1.json",
+  "counts": [
+    {
+      "category": "rec",
+      "exact_mask_match": false,
+      "procedure": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "published_available": 638,
+      "published_mask_SHA256": "8a0b7aeaeafa260a2d63f2e0f40185de7599710831cdca5abdcef95636f6e963",
+      "reconstructed_available": 671,
+      "reconstructed_mask_SHA256": "276c31f35a4380b1278ad9c5dbf3fc28dce91c0b86d6879733eed74f69e650b5",
+      "scope": "Independent retained stable-ID join; no names or outcome availability used. If not equal, no aggregate raw grade reproduction asserted."
+    },
+    {
+      "category": "rec_yd",
+      "exact_mask_match": false,
+      "procedure": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+      "published_available": 638,
+      "published_mask_SHA256": "2995d71a621a0b6d224ec6c8078a413f135033efe3e94514e332b29394729358",
+      "reconstructed_available": 671,
+      "reconstructed_mask_SHA256": "0ebea032f5e7315edf948f9638230bd44548e248e1e399c84fc9f1688c18d9bc",
+      "scope": "Independent retained stable-ID join; no names or outcome availability used. If not equal, no aggregate raw grade reproduction asserted."
+    }
+  ],
+  "interpretation": "Bexactstable-ID reconstruction found671source-supportedWR/TEcasespercategory, whileCpublished638underitsownstrictidentity/exclusionpolicy. No subsetsearch/outcomedrivenmaskadjustment performed. Cprivateidentity/exclusionrows not supplied; Bdidnotopentargetoutcomesaftermasknonmatch. ThisisnotademonstratedCforecast/fitdefectoranewscientificloss.",
+  "remaining_C_action": "Provide/reopen the existing Cavailable-caseordinal/exclusionrecord through its already-permitted private/reconstruction route, or bind the exact Cidentitycontract. No newfit, sourcecollection, changedmodel, Acompressedexport or A-taskreopen needed.",
+  "release_limit": "Thisverificationlimitmustbedisclosed;itdoesnotaddanewuniversalprivate-row/all-historydeploymentgate. Existingownerandindependentcheckskeep theiractualscope.",
+  "source_body": "BasepredictionJSONexacthash907decac..., no model loaded; sourceactuals notusedasfeatures orforcase selection.",
+  "old_strict_fit_failures": "B C1/opportunity-team FAILED unchanged; thismaskcheckisaseparateverificationstatus"
+}

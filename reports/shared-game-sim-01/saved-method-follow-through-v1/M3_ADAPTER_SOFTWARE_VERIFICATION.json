@@ -1,0 +1,51 @@
+{
+  "scope": "Static/mocked adapter repair; no currentNFL inference,fit,source,publication orSIMfunds",
+  "original_C06_functions_AST_identical": true,
+  "new_function": "m3_leaf_current_records",
+  "test_count": 6,
+  "tests_PASS": true,
+  "tests_CPU": 3.6464156969999997,
+  "tests_wall": 3.6576225429998885,
+  "test_CPU_ceiling": 3,
+  "static_AST_CPU": 0.051222803000000004,
+  "static_AST_wall": 0.05449006799972267,
+  "source": {
+    "path": "src/current_query_delivery_c06.py",
+    "SHA256": "5ccc7346bc205de8b125e8ee2902841192662e84eae495d6220987ce5d76f8c6"
+  },
+  "tests": {
+    "path": "tests/test_m3_current_typed_adapter.py",
+    "SHA256": "249eae8c3ea47ab5dbd898a6f481c240ffd1d8ed5fc97671acf6106a18e77dc4"
+  },
+  "no_current_feed_issued": true,
+  "metadata_and_hash_validation_not_fit_or_clock_authentication": true,
+  "new_functions": [
+    "m3_current_query_fingerprint",
+    "m3_leaf_current_records"
+  ],
+  "test_runs": [
+    {
+      "revision": "v1",
+      "tests": 4,
+      "PASS": true,
+      "CPU": 1.8275574429999997,
+      "wall": 1.8357714859994303
+    },
+    {
+      "revision": "v2-root-narrow-review",
+      "tests": 6,
+      "PASS": true,
+      "CPU": 1.818858254,
+      "wall": 1.8218510570004582
+    }
+  ],
+  "internal_test_reallocation": "Original3CPUtestplanning expanded only by reallocating unused reporting/correctness headroom inside unchanged8CPUtasktotal;notan extraallowance andnotSIM",
+  "overall_task_selected_CPU_ceiling": 8,
+  "overall_conservative_selected_CPU": 7.746415697,
+  "final_static_verification_conservative_CPU": 0.1,
+  "final_static_AST_measured_CPU": 0.058651419,
+  "final_static_AST_measured_wall": 0.061718763998214854,
+  "query_binding": "Canonical exact forecast-time identity,feature-order/features,source/query admission andobserved/information/inference/issue/persistence/expiry/kickoff clocks; same admission hashes but mutatedfeature/player fails beforeinfer",
+  "prior_support": "Count/signed kind required for global and every roleprior",
+  "rec_yd_offer": "Actualrec_ydoutercategory and shared numericalcontract accepted;wrong rec outercategory rejected"
+}

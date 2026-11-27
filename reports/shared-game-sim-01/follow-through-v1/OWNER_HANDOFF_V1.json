@@ -1,0 +1,133 @@
+{
+  "state": "PUBLISHED_PREPARED_NOT_PEER_ACKNOWLEDGED",
+  "recipients": [
+    "B independent reviewer",
+    "Original website owner"
+  ],
+  "scope": {
+    "full_frame": {
+      "cases": 3474,
+      "games": 74,
+      "unknown_outcomes": 464,
+      "weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "A": {
+      "commit": "ff8ea1c81f5337be1468870e6c50b7c532d28179",
+      "scope": {
+        "case_opportunities": 2116,
+        "case_procedure_rows": 6258,
+        "games": 45,
+        "identity_unavailable_case_count": 2,
+        "unavailable_weeks": [
+          8,
+          9
+        ],
+        "unique_player_games": 704,
+        "weeks": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "admission": "RETRIEVED_ADMITTED_PUBLIC_AGGREGATE_AND_CANONICAL_HASH_SCOPE;PRIVATE_ROWS_NOT_REPRODUCED",
+      "task": "COMPLETED_CLOSED;NO_NEW_A_ALLOWANCE",
+      "limits": [
+        "W8-9 unavailable",
+        "Arbitrary-line probability laws unavailable",
+        "Fallback flags unattributed",
+        "Two TE identity cases unavailable",
+        "No complete A/C or A/B shared private-case membership"
+      ]
+    },
+    "B": {
+      "commit": "f397a9f00ffce7ca7095ffb111dc14b48b71210b",
+      "primary_bindings": 5338,
+      "nominees": 36,
+      "product_views": 44,
+      "probability_triples": 592,
+      "admission": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+      "clock_insufficient": 1207,
+      "origin_differs": 4131,
+      "source_clock_note": "Availability before T90 where observed does not replace B original kickoff-left-limit policy",
+      "private_source_reproduction": false
+    },
+    "C": {
+      "saved_products": "Original execution-v1 preserved",
+      "admission": "Saved outputs/grades, not new simulator",
+      "actual_simulator_games": 0
+    },
+    "cross_owner_ranking": "NOT_ESTABLISHED: no universal ranking from own pools/different horizons; A private pair masks not silently equated with B/C. Named same-case statistics retain original owner/control contracts.",
+    "nomination_counts": {
+      "A": 35,
+      "B": 36,
+      "C": 36,
+      "total": 107,
+      "not_independent_families": true
+    },
+    "frozen_roster": {
+      "path": "reports/shared-game-sim-01/execution-v1/FROZEN_ROSTER.json",
+      "bytes": 1164,
+      "SHA256": "92b23c57164afe307023526d42895af450ad588860dbf6eb24f913cfca836601"
+    }
+  },
+  "exact_products": "ALL_OWNER_PRODUCTS.csv;COMBINED_COMPARISON.json.gz;original frozen107nominations retained",
+  "paired_masks": {
+    "A": "Owner BOTH_AVAILABLE_SELECTED_DECIDED_NONPUSH;canonical body hashes and case-order commitment,144namedpairs;private memberships not reproduced",
+    "B": "B_COMPARISON_RESULTS.json.gz paired_saved_controls common_decided_mask_SHA256 and paired_C_controls;allhorizon flags preserved",
+    "C": "../execution-v1/RESEARCH_PAIRS.json.gz and comparable-mask record"
+  },
+  "unknowns": "All464 fullframeunknowns;each selectedunknown retained",
+  "probability_point_selection": "Separate typed products; no W0/W1 probability, no new TopPicks replay",
+  "production": "No automatic activation/new primary. A4weeks do not acquire5from master6weeks. Existing compatible qualifying histories/releases unaffected",
+  "delivery": "Immutable C publication through existing report/index,not direct peer dispatch or receipt",
+  "remaining": [
+    {
+      "owner": "C",
+      "task": "Numerical repair/completion",
+      "state": "REQUEST_ONLY;NO_NUMERICAL_RESTART",
+      "artifact": "NUMERICAL_REPAIR_AMENDMENT_REQUEST_V1.json",
+      "minimum_action": "One explicit amendment for inner numerical/canary,12readback and original-launch wall caps; total1800CPU unchanged",
+      "completion": "One same-game valid retained canary and sufficient fullpath gate, or exact safe stop"
+    },
+    {
+      "owner": "A",
+      "task": "This protected saved-output join",
+      "state": "COMPLETED_CLOSED_AND_ADMITTED_PUBLIC_SCOPE",
+      "artifact": "intake/A_RESULTS_V1.json",
+      "minimum_action": "NONE;no repeated join/publication/fit or newallowance",
+      "completion": "Alreadyownercompleted;C admitted permitted scope"
+    },
+    {
+      "owner": "B",
+      "task": "Canonical saved bindings",
+      "state": "RETRIEVED_ADMITTED_AND_GRADED_SECONDARY_DIAGNOSTIC",
+      "artifact": "B_COMPARISON_RESULTS.json.gz",
+      "minimum_action": "No repeated join; any independent Cworker review awaits actual future solver/forecast artifacts",
+      "completion": "Existing completed join notpending; unresolved identity/law/horizon cells remainvisible"
+    },
+    {
+      "owner": "Original website owner",
+      "task": "Timing/identity admission and policy/release",
+      "state": "CURRENT_BASELINE;NO_RESEARCH_ACTIVATION",
+      "artifact": "OWNER_HANDOFF_V1.json",
+      "minimum_action": "Assess exact supported horizons/identity supplement and independently eligible exact products via existing route; no blanket simulator dependency",
+      "completion": "Actual admission/replay/release/served receipt for each changed product"
+    },
+    {
+      "owner": "C/registered capture owner",
+      "task": "Prospective simulator confirmation",
+      "state": "NOT_STARTED_CURRENT_INFERENCE_NOT_READY",
+      "artifact": "../execution-v1/DECISION_AND_CONFIRMATION_V1.json",
+      "minimum_action": "When frozen inference ready, retain actual consecutive qualified pregame cases through existingjobs; no new scheduler",
+      "completion": "Honest receipts/unknowns/latergrades; not backdated"
+    }
+  ]
+}

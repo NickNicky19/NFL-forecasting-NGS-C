@@ -1,0 +1,845 @@
+{
+  "id": "C-M3-EXACT-PRODUCT-DELIVERY-BINDINGS-v1",
+  "recorded_UTC": "2026-11-22T21:35:51.579115+00:00",
+  "scope": "Read-only retained evidence and static source inspection. No inference, model load, fit, source collection, publication, website write or simulator spending.",
+  "products": [
+    {
+      "product_id": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "category": "rec",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P2_LEAF::E0_OP",
+      "output": "MEAN_POINT",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 339,
+        "losses": 239,
+        "decided": 578,
+        "rate": 0.5865051903114187,
+        "selected_unknown": 60,
+        "unknown_resolution_sensitivity": {
+          "low": 0.5313479623824452,
+          "high": 0.6253918495297806,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 578,
+        "MAE": 1.484021400909259,
+        "bias": -0.4523044221964953,
+        "RMSE": 2.022562358222653
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      },
+      "strict_direction_rule": "Point greater/less than exact line; equality abstains",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    },
+    {
+      "product_id": "C-M3-v1.1::rec::M3-0::base::MEDIAN_POINT",
+      "category": "rec",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P2_LEAF::E0_OP",
+      "output": "MEDIAN_POINT",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 331,
+        "losses": 247,
+        "decided": 578,
+        "rate": 0.5726643598615917,
+        "selected_unknown": 60,
+        "unknown_resolution_sensitivity": {
+          "low": 0.5188087774294671,
+          "high": 0.6128526645768025,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 578,
+        "MAE": 1.513840830449827,
+        "bias": -0.7837370242214533,
+        "RMSE": 2.1262081849326844
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      },
+      "strict_direction_rule": "Point greater/less than exact line; equality abstains",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    },
+    {
+      "product_id": "C-M3-v1.1::rec::M3-0::base::LAW",
+      "category": "rec",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec::H-MULTI::P2_LEAF::E0_OP",
+      "output": "LAW",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 331,
+        "losses": 247,
+        "decided": 578,
+        "rate": 0.5726643598615917,
+        "selected_unknown": 60,
+        "unknown_resolution_sensitivity": {
+          "low": 0.5188087774294671,
+          "high": 0.6128526645768025,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 578,
+        "half_multiclass_Brier": 0.24894295995144752,
+        "raw_log_loss": 0.6939590286091508,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 296,
+            "wins": 161,
+            "stated_mean": 0.5496169958105892,
+            "observed_rate": 0.543918918918919
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 164,
+            "wins": 95,
+            "stated_mean": 0.6464029424442539,
+            "observed_rate": 0.5792682926829268
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 98,
+            "wins": 63,
+            "stated_mean": 0.7450051220918558,
+            "observed_rate": 0.6428571428571429
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 19,
+            "wins": 12,
+            "stated_mean": 0.8268686057113549,
+            "observed_rate": 0.631578947368421
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "decided": 1,
+            "wins": 0,
+            "stated_mean": 0.9036718481536038,
+            "observed_rate": 0.0
+          }
+        ]
+      },
+      "strict_direction_rule": "Canonical W4-9 control adapter _side(p_over,p_under): OVER if strictlygreater,UNDER if strictlyless,exacttieABSTAIN. Original native M3 typed handoff uses1e-12 tolerance; retain distinct exact decision-policy binding, do not silently interchange.",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    },
+    {
+      "product_id": "C-M3-v1.1::rec_yd::M3-0::base::MEAN_POINT",
+      "category": "rec_yd",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P2_LEAF::E0_OP",
+      "output": "MEAN_POINT",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 315,
+        "losses": 260,
+        "decided": 575,
+        "rate": 0.5478260869565217,
+        "selected_unknown": 63,
+        "unknown_resolution_sensitivity": {
+          "low": 0.493730407523511,
+          "high": 0.5924764890282131,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 575,
+        "MAE": 23.09652965176392,
+        "bias": -6.333675292302682,
+        "RMSE": 31.448783250049118
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      },
+      "strict_direction_rule": "Point greater/less than exact line; equality abstains",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    },
+    {
+      "product_id": "C-M3-v1.1::rec_yd::M3-0::base::MEDIAN_POINT",
+      "category": "rec_yd",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P2_LEAF::E0_OP",
+      "output": "MEDIAN_POINT",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 317,
+        "losses": 258,
+        "decided": 575,
+        "rate": 0.551304347826087,
+        "selected_unknown": 63,
+        "unknown_resolution_sensitivity": {
+          "low": 0.49686520376175547,
+          "high": 0.5956112852664577,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 575,
+        "MAE": 23.59304347826087,
+        "bias": -12.445217391304348,
+        "RMSE": 33.25731040917431
+      },
+      "probability": {
+        "n": 0,
+        "half_multiclass_Brier": null,
+        "raw_log_loss": null,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": []
+      },
+      "strict_direction_rule": "Point greater/less than exact line; equality abstains",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    },
+    {
+      "product_id": "C-M3-v1.1::rec_yd::M3-0::base::LAW",
+      "category": "rec_yd",
+      "family": "Empirical response Leaf mixture plus explicit role-prior tail",
+      "predecessor": "C-ALL12-LAW-THRESHOLD-v2.1::rec_yd::H-MULTI::P2_LEAF::E0_OP",
+      "output": "LAW",
+      "roles": [
+        "WR",
+        "TE"
+      ],
+      "actual_scored_weeks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "available": 638,
+      "combined": {
+        "selected": 638,
+        "wins": 317,
+        "losses": 258,
+        "decided": 575,
+        "rate": 0.551304347826087,
+        "selected_unknown": 63,
+        "unknown_resolution_sensitivity": {
+          "low": 0.49686520376175547,
+          "high": 0.5956112852664577,
+          "scope": "Sensitivity bound only; unknowns not resolved/imputed, participation/voids unknown"
+        }
+      },
+      "numerical": {
+        "n": 0,
+        "MAE": null,
+        "bias": null,
+        "RMSE": null
+      },
+      "probability": {
+        "n": 575,
+        "half_multiclass_Brier": 0.25427301556037213,
+        "raw_log_loss": 0.7050169656591005,
+        "zero_probability_actual_events": 0,
+        "calibration": "RAW_UNCALIBRATED_UNLESS_ORIGIN_PROCEDURE_EXPLICITLY_CALIBRATED",
+        "reliability": [
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "decided": 334,
+            "wins": 178,
+            "stated_mean": 0.5487820510868718,
+            "observed_rate": 0.5329341317365269
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "decided": 174,
+            "wins": 99,
+            "stated_mean": 0.6448190767122537,
+            "observed_rate": 0.5689655172413793
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "decided": 57,
+            "wins": 37,
+            "stated_mean": 0.7322536204687536,
+            "observed_rate": 0.6491228070175439
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "decided": 9,
+            "wins": 3,
+            "stated_mean": 0.832817746064142,
+            "observed_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "decided": 1,
+            "wins": 0,
+            "stated_mean": 0.9054856330322497,
+            "observed_rate": 0.0
+          }
+        ]
+      },
+      "strict_direction_rule": "Canonical W4-9 control adapter _side(p_over,p_under): OVER if strictlygreater,UNDER if strictlyless,exacttieABSTAIN. Original native M3 typed handoff uses1e-12 tolerance; retain distinct exact decision-policy binding, do not silently interchange.",
+      "research_decision": "SHADOW; conditional exposed historical comparison",
+      "mask_verification": "638 retained availability preserved; separate B671 mask reconciliation pending; no outcome-driven mask choice",
+      "current_query_ready": false,
+      "typed_current_feed": "NOT_ISSUED"
+    }
+  ],
+  "current_website": {
+    "actual_live_method_last_received": "sleeper-matchup-classic-presence-strict-v2; CURRENT_BASELINE;0admittedresearchrows",
+    "receipt": {
+      "path": "reports/shared-game-sim-01/execution-v1/intake/website-public/CURRENT_BASELINE_DELIVERY_RECEIPT.json",
+      "bytes": 13943,
+      "SHA256": "95e9baf917ad527c0c00140732206043d7116df503b1c90a34a0bd829f965adc"
+    },
+    "receipt_UTC": "2026-11-22T16:27:09.032988+00:00",
+    "pointer_status": "User reports an expired different C pointer; latest exact original-site pointer URL/hash/product binding not independently refreshed by this task. Do not equate a retained C06 handoff with proof of current original-site consumption."
+  },
+  "expired_distinct_C_handoff": {
+    "id": "C06-CURRENT-QUERY-HANDOFF-v1",
+    "historical_candidate": "C::PLAYER-CONTEXT-MATCHUP-01::v1.1::P1::mean",
+    "model_id": "C_V11_P1_E2_POOLED_7D",
+    "run_id": "C-C06-20261112-W10-CURRENT-P1-01",
+    "expires_UTC": "2026-11-12T02:51:07.340271+00:00",
+    "current_readiness": "SERVER_QUALIFIED_BEFORE_EXPIRY;CURRENT_RECOMMENDATION_USE_EXPIRED;RETAINED_SHADOW_FOR_GRADING;ORIGINAL_CONSUMER_NOT_ACKNOWLEDGED",
+    "evidence": {
+      "path": "reports/category-decision-release-01/CURRENT_QUERY_HANDOFF.json",
+      "bytes": 4015,
+      "SHA256": "e0cf825d349aef01777cff7283760cad3e61a95d48e5d232be08d4ce67d7ea19"
+    },
+    "not_M3": true,
+    "C05": "Original C05 earlier69forecast views remain a separate historical capture; no relabeling as M3."
+  },
+  "trusted_inference": {
+    "loader": "src/safe_models_v4.py:load(path,expected_hash), infer_forest(numeric_forest,x,roles)",
+    "law": "src/laws_v2.py:Law; exact count/signed-yard law probabilities, mean, lower quantile",
+    "schema": "C-NUMERIC-LEAF-v4",
+    "unsafe_loads": "No pickle or dynamic code; hash-bound JSON.gz only",
+    "not_interchangeable": "src/targeted_inference_m3.py:NativeInference handles M3-1/M3-2 NB/StudentT boosters, NOT this M3-0 Leaf product.",
+    "models": [
+      {
+        "category": "rec",
+        "origin_week": 1,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0.json.gz",
+          "bytes": 116786,
+          "SHA256": "0a72a9adfadedef509c73206cc343451070181cb36cb8f33d8dbb37a2a879d59"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W01/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "3dd05ddde5d092567074734bf3a4cb83f9eacd44dd58e6ff8936dc2680487577"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 2,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0.json.gz",
+          "bytes": 116366,
+          "SHA256": "5f8b666c4cb55002f763c11f41be5edb679f83438610a911a0640335f7c37d92"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W02/M3-0.binding.json",
+          "bytes": 1379,
+          "SHA256": "03014cab5c2aeaec527b0ace2b597f0bbcaceceb036650f9e332499fa3927fff"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 3,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0.json.gz",
+          "bytes": 115385,
+          "SHA256": "95468830d5e9be991b2e3f55358086b59e5c324d6e785a3e834e88e18bcd8670"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W03/M3-0.binding.json",
+          "bytes": 1379,
+          "SHA256": "4f0475b225594e7a18b9c91b5d5222bb012704ad28b50e905ae761b0d54534ed"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 4,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0.json.gz",
+          "bytes": 118401,
+          "SHA256": "e4ca50c6eae95c90a5b9859be6c736def055b57fe704c41dc35e46d10a4238a9"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W04/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "38fd3a91d55c4c96e3e3fab99f4263b642e682d8a739cb94868f3246b13c951e"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 5,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0.json.gz",
+          "bytes": 117939,
+          "SHA256": "ba8013c499e02d916213d3e7dadf39ee3427c5b6a33e6e5c6a342ad758303e18"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W05/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "559ae96c9e3710b384b3a1b3b1a31db21faff5a41f6257ccbcb6c48efe17c393"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 6,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0.json.gz",
+          "bytes": 120402,
+          "SHA256": "6e620eb50a7e2bba51ed278f3bc7c4d304468e6a0e609592405cacb0ded270fb"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W06/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "e5715effc2a74d9fb76484bf1f6548fd73c7cc863f3cd71410e287c1bb789b4e"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 7,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0.json.gz",
+          "bytes": 117815,
+          "SHA256": "fcee0b1a14fd6ee66a8cebf42e38c73d4f61bc7c21b3ac7d4ae678449d247b66"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W07/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "12ff0acc64aaa323050eeeb35bf802072bbd25fc3be821bf72f286b0aaa2d6cd"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 8,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0.json.gz",
+          "bytes": 118891,
+          "SHA256": "7be9eddc455edbdc728df4b24b877d88e2444d22807406c363870b49f06a2f9b"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W08/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "1c6f51cbe98e4f307f7d5e853d180a8fcfd25cb7a9b97b60f4f15e82868898cb"
+        }
+      },
+      {
+        "category": "rec",
+        "origin_week": 9,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0.json.gz",
+          "bytes": 120571,
+          "SHA256": "657ebbd468b70dae4dea464c2f45987b549504958981fdd6a048996d3c4e90a5"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec/W09/M3-0.binding.json",
+          "bytes": 1113,
+          "SHA256": "3bad3dc1c865c1a35903c101f5f462248a3391b8c89f099adcc1d512a6b235b2"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 1,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0.json.gz",
+          "bytes": 295557,
+          "SHA256": "1eb1fcc08bc40bf26f10fcdf88b235ca02d07fa321f2ba7395a37aeb31273618"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W01/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "7c643a4c903d74c7862169afc4a5f22ff679dce4c304101994a8ce7880fbdea6"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 2,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0.json.gz",
+          "bytes": 295081,
+          "SHA256": "c5107f0d8d41f8196d5c8545a79a055e12bc437a5bea06230e858cd79310ab62"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W02/M3-0.binding.json",
+          "bytes": 1433,
+          "SHA256": "e51940681a97bd744bc1f4a4e6b9ad5f2c93f7770c50473482ba88942f28ae60"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 3,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0.json.gz",
+          "bytes": 297455,
+          "SHA256": "26c54169df269194d80aadf4d82fcb3a47b391297ef81885a05090e87c76faf6"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W03/M3-0.binding.json",
+          "bytes": 1433,
+          "SHA256": "bcc3feacdb36df7ceccb096edf0d22182186ebbc9880fed8fcbdb8101a7879a3"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 4,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0.json.gz",
+          "bytes": 292558,
+          "SHA256": "15c2f72db9a49efcb73eb2dfc32e301a494d93214ae221aa38be3577d8cb7899"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W04/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "63d33f56dc9a9796da0ebe5b3f54718716f22913408e0778bc470c4d74432d6a"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 5,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0.json.gz",
+          "bytes": 297892,
+          "SHA256": "8cea64e09275252b918a5dcea03e3e9becc62d8f76ab08b3a840f85292d20884"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W05/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "529bd7f23be7b6f4ccd8b63b25ad1c26a22e1bff35d9928c5cbc4218f53cb76f"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 6,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0.json.gz",
+          "bytes": 306234,
+          "SHA256": "3198b331ff67e4143d240269d09fed0a3c7c78ddebfcbc0f7f0c76ab51369478"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W06/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "beb7c6e9590cf6b892d30795cd31d51f2f1c3b9ae9db15d8bf79d1950f8031dc"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 7,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0.json.gz",
+          "bytes": 306268,
+          "SHA256": "4e1ac3772aaf3327934245a5a55bf3c52ef3a851869389c8bc97247ed2c7c716"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W07/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "0dafc151bb870b817401292142f28a30f9179491fe5fd08a7a97b80521614415"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 8,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0.json.gz",
+          "bytes": 308893,
+          "SHA256": "6247657edda31fb4d77419469b229a7e17d2a9fd99d041e1e8eb536c55979fbf"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W08/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "eebdb74bf35e378d453233917a00109501d5bb753589b17e75d7b3cccddc38ff"
+        }
+      },
+      {
+        "category": "rec_yd",
+        "origin_week": 9,
+        "model": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0.json.gz",
+          "bytes": 308164,
+          "SHA256": "e20aeeeaeaafd31b9e343a940f3363952e7b675b4e82c80bcf7b70ea55393fb7"
+        },
+        "binding": {
+          "path": "reports/targeted-accuracy-w1w9-01/M3/models/rec_yd/W09/M3-0.binding.json",
+          "bytes": 1164,
+          "SHA256": "28c4570e59a6ff05a57f6261b178ac5414ac8820d7fd752eac0b9c4622c7c08c"
+        }
+      }
+    ],
+    "current_origin_model": "NONE_QUALIFIED_OR_ISSUED_FOR_A_NEW_CURRENT_EVENT;historicalW1-9models cannot be passed off as fresh rolling-origin fits",
+    "history": "H-MULTI 2022+ role-appropriate RB/WR/TE outcomes; strict available=kickoff+7d < origin; current-vintage reconstructed clocks; no authenticated vintage claim",
+    "preprocessing": "Exact E0_OP32 feature names from each retained binding; earlier-training medians plus missing flags;64designcolumns;float32numeric tree routing;role-specific/global learnedprior and0.05prior tail preserved;no extra P1/CountAcorrector or website multiplier",
+    "input_groups": [
+      "Target own-history last3/last8 value/support",
+      "Prior4game target values/age/missing indicators",
+      "Nominal role indicators",
+      "Player earlier attempts/carries/targets volume",
+      "Team earlier attempts/carries/sacks"
+    ],
+    "fit_settings": "32ExtraTrees,max_depth8,min_samples_leaf30,max_features1,bootstrapFalse,random_state1701,n_jobs1;registered H-MULTI rolling origins, no retuning",
+    "bindings": [
+      {
+        "path": "src/safe_models_v4.py",
+        "bytes": 5048,
+        "SHA256": "c6ae2868ab6530803cd5a9c56dae2922aeaf1f0b4c5cae54341d25dda8dea0e0"
+      },
+      {
+        "path": "src/laws_v2.py",
+        "bytes": 6656,
+        "SHA256": "70251578ac1f431c7da63cd14760386eef5c38ce1915a40a4520340189ffce7c"
+      },
+      {
+        "path": "src/data_v2.py",
+        "bytes": 4106,
+        "SHA256": "e217c62617ea394a514fbde274e0074274f04a24890522db2af70f3b35ec2b9a"
+      },
+      {
+        "path": "src/targeted_accuracy_m3.py",
+        "bytes": 14208,
+        "SHA256": "28746603f1433093ba49844dfe3156aab85a3085624aeaf909394801d03854a1"
+      },
+      {
+        "path": "reports/targeted-accuracy-w1w9-01/M3/HISTORICAL_TYPED_HANDOFF.json",
+        "bytes": 3812,
+        "SHA256": "e3c3f55d4dc29de8d1ed5a133437d691992df8edd97b4dd928f25e13a62e6e7c"
+      },
+      {
+        "path": "src/shared_game_sim01_controls.py",
+        "bytes": 10212,
+        "SHA256": "f5bfd1313ee3bb35c6c339cd34f73d2b8d073ac6b5d521536d0d17b1359a68d9"
+      }
+    ],
+    "typed_current_adapter_extension": {
+      "path": "src/current_query_delivery_c06.py",
+      "function": "m3_leaf_current_records",
+      "SHA256": "5ccc7346bc205de8b125e8ee2902841192662e84eae495d6220987ce5d76f8c6",
+      "state": "IMPLEMENTED_MOCK_SOFTWARE_CHECKED;NO_NFL_INFERENCE_OR_CURRENT_ISSUE",
+      "reuse": "Existing safe numeric Leaf inference/preprocessing, safe byte decoder and current event/offer validators; no newproducer/scheduler",
+      "query_row_SHA256": "Binding must match m3_current_query_fingerprint of exact consumed forecast-time fields; metadata admission hash equality alone insufficient.",
+      "prior_support": "Global androleprior kinds must match countrec or signedrec_yd before inference"
+    }
+  },
+  "registered_producer": {
+    "executor": "C existing M3 research/export owner and C06 current-query/source owner",
+    "repository": "NickNicky19/NFL-forecasting-NGS-C",
+    "existing_queue_task": "C-CURRENT-REFERENCE-CHALLENGER",
+    "queue": {
+      "path": "reports/targeted-accuracy-w1w9-01/M3/FINITE_QUEUE.json",
+      "bytes": 6145,
+      "SHA256": "96765d5003a9d7624a6994827a460a13485fab29fcd3d7cfa84d81bf2ef326d5"
+    },
+    "current_M3_branch_workflow_lease": "NOT_REGISTERED_IN_EXAMINED_EVIDENCE",
+    "workflow_scope": "Existing c-checks-pages.yml checks/publication only, not an M3 producer scheduler or lease",
+    "C06_adapter": "Existing P1 execution path remains P1/WAS-NYG-bound; new m3_leaf_current_records prepares exactM3Leaf products in the same module, with no newproducer/scheduler or issuedfeed.",
+    "permission": "No cross-owner takeover; original website alone admits/consumes/releases"
+  },
+  "required_current_contract": {
+    "typed_fields": [
+      "product_id",
+      "model/recipe/input hashes",
+      "canonical player/game/category/role",
+      "event-effective team and role",
+      "information cutoff/source observation and revision clocks",
+      "model update origin",
+      "inference/issue/persistence clocks",
+      "expiry",
+      "mean or median or valid law, separately typed",
+      "native/prior/fallback/unavailable attribution"
+    ],
+    "source": "Qualified new current event-effective WR/TE roster and existing admitted facts/history source route with honest current clocks; no future outcomes required",
+    "fallback": "C research product unsupported role/source/model/schema/stale/expired -> UNAVAILABLE; explicit earlier-prior mixture remains part of its law. Website may separately use named baseline fallback, preserving attribution, not validate changed fallback using learned-only history.",
+    "expiry": "Bind qualified horizon/freshness to issued rows before capture; expiration stops newrecommendation/repricing but preserves originals for grading; no reuse of old C06 expiry as a new issue.",
+    "consumer": "Separate numericaldisplay, strictpointdirection, lawprobabilities, marginrecommendation and TopPicks inputs. Strict crossing evidence doesnot certify margin/TopPicks.",
+    "grading": "Appearance/statistical conditioning remains; no participation probability, DNP-as-Under or absent-statistic zero; preserve unknowns and versioned outcomes.",
+    "law_policy_note": "The saved canonical six-block comparison uses exactmoreprobableside; originalnativeM3hand-off1e-12tie policy is separately versioned. Currentconsumer must bind theexactvalidated rule ratherthan borrow another product record."
+  },
+  "minimum_dependencies": [
+    {
+      "owner": "C existing M3/current-query executor",
+      "artifact": "Qualified current event/source/role/query packet plus exact current-origin M3-0 safe model and reviewed binding; existing typed-current adapter is now implemented",
+      "minimum_action": "Register one finite exact-product current-origin delivery package through existing C authority before inference/fitting/source reads; do not borrow SIM/M3/Aclosed-task accounts",
+      "why_missing": "No actual currentM3 event/source/model packet or finite execution registration exists in examined evidence. Historical M3/C06P1 packets cannot substitute. Adapter code and mocks alone are not source/fit/currentdelivery proof.",
+      "completion": "Trusted M3-0 currenttypedfeed durably captured/readable with honest clocks andrepresentative parity"
+    },
+    {
+      "owner": "Original website retained consumer/release owner",
+      "artifact": "Exact oldpointer URL/hash/product and intended new product binding",
+      "minimum_action": "Bind previous/new exact products, retrieve admitted fresh feed, preserve separate consumer rules/fallback/expiry; run existing product-specific admission and served verification",
+      "completion": "Owner receipt names admitted output/policy and actual servedvalues/source labels; no automaticpromotion"
+    }
+  ],
+  "five_week": {
+    "C_receiving": "Six supported W4\u20139 receiving blocks preserved at conditional exposed retrospective tier; pending fixed-mask reconciliation doesnot erase them or supply native current readiness.",
+    "A": "Earlier compatible A five-week qualification remains owner/product-specific and unchanged; closed A saved-output task not reopened.",
+    "rule": "Existing at leastfive distinct scored season-weeks exact product/update/fallback/policy plus applicable source/operational checks; no five-new-future-week or allcategory wait"
+  },
+  "readiness": {
+    "saved_historical_outputs": "PUBLISHED_AND_REUSED",
+    "trusted_leaf_primitive_loader": "IMPLEMENTED_RETAINED",
+    "current_M3_source_origin_model": "NOT_ESTABLISHED",
+    "current_M3_typed_feed": "NOT_ISSUED",
+    "website_M3_admission": "NOT_ESTABLISHED",
+    "website_M3_consumption": "NOT_ESTABLISHED",
+    "new_primary_activation": false,
+    "M3_trusted_current_typed_adapter": "IMPLEMENTED;6mocktestsPASS;CURRENT_SOURCE_MODEL_FEED_STILL_UNISSUED"
+  },
+  "evidence_limits": [
+    "Current original-site pointer not newlyretrieved/servedchecked here",
+    "No private source/training rows or modelstate published",
+    "No currentsource collection/model loading/inference/fit",
+    "No new claim M3-1 distribution testbeats M3-0",
+    "No simulator budget consumed"
+  ],
+  "resource": {
+    "authority": "Existing separate reporting/currentdelivery qualification; no scientific execution andnoSIMcharges",
+    "ceiling_selected_CPU": 8,
+    "conservative_selected_CPU_charge": 3,
+    "measured_final_serialization_CPU": 0.22831201599999998,
+    "measured_final_serialization_wall": 0.25404574799904367,
+    "measurement": "Conservative3CPU covers prior shell/static metadata reads plus this report; not a complete assistant/toolCPUcertificate",
+    "new_source_requests": 0,
+    "new_fits": 0,
+    "new_inference": 0,
+    "new_network_reads": 0,
+    "adapter_extension_conservative_preparation_CPU": 1,
+    "adapter_extension_tests_CPU": 3.6464156969999997,
+    "adapter_extension_tests_wall": 3.6576225429998885,
+    "total_conservative_plus_test_selected_CPU": 7.746415697,
+    "verification_receipt": "M3_ADAPTER_SOFTWARE_VERIFICATION.json",
+    "adapter_extension_test_runs": [
+      {
+        "revision": "v1",
+        "tests": 4,
+        "PASS": true,
+        "CPU": 1.8275574429999997,
+        "wall": 1.8357714859994303
+      },
+      {
+        "revision": "v2-root-narrow-review",
+        "tests": 6,
+        "PASS": true,
+        "CPU": 1.818858254,
+        "wall": 1.8218510570004582
+      }
+    ],
+    "final_static_verification_conservative_CPU": 0.1,
+    "internal_reallocation": "Original3CPUtestplanning expanded only by reallocating unused reporting/correctness headroom inside unchanged8CPUtasktotal;notan extraallowance andnotSIM"
+  }
+}

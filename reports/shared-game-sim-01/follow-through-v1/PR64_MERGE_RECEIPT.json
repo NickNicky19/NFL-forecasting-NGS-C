@@ -1,0 +1,68 @@
+{
+  "actions": [],
+  "errors": [],
+  "observedAt": "2026-11-22T19:45:57.727786Z",
+  "policy": {
+    "checkPolicy": "all",
+    "configPath": null,
+    "requiredReviewers": [],
+    "source": "no-config",
+    "strictChangesRequested": false
+  },
+  "schemaVersion": 1,
+  "state": "merged",
+  "targets": [
+    {
+      "actions": [],
+      "checks": {
+        "fail": [],
+        "malformed": [],
+        "pass": [],
+        "pending": [],
+        "skipping": [],
+        "total": 0,
+        "unknown": []
+      },
+      "kind": "explicit",
+      "landingAuthorization": {
+        "current": true,
+        "currentHead": "f990da3c9812e2e14d5deb1a58e7dcbc41685090",
+        "expectedHead": "f990da3c9812e2e14d5deb1a58e7dcbc41685090",
+        "mode": "auto"
+      },
+      "path": "/workspace/ngs-c",
+      "pending": [],
+      "pr": {
+        "autoMerge": null,
+        "autoMergeEnabled": false,
+        "baseRefName": "main",
+        "baseSha": "fe57cd89744185b69155f772d0a22f7011b93b65",
+        "headRefName": "research/shared-game-sim-01-execution-v1",
+        "headSha": "f990da3c9812e2e14d5deb1a58e7dcbc41685090",
+        "isMergeQueueEnabled": null,
+        "mergeQueueEntry": null,
+        "mergeStateStatus": "UNKNOWN",
+        "mergeable": "UNKNOWN",
+        "number": 64,
+        "reviewDecision": null,
+        "state": "MERGED",
+        "url": "https://github.com/NickNicky19/NFL-forecasting-NGS-C/pull/64"
+      },
+      "repository": "NickNicky19/NFL-forecasting-NGS-C",
+      "repositoryPolicy": {
+        "mergeCommitAllowed": true,
+        "rebaseMergeAllowed": true,
+        "squashMergeAllowed": true
+      },
+      "reviews": {
+        "missingRequiredReviewers": [],
+        "requiredReviewers": [],
+        "unresolvedThreadCount": 0
+      },
+      "state": "merged"
+    }
+  ],
+  "mergeCommit": "b76e800146ba46dd5adec2d59cdfc578a1680539",
+  "mergedAt": "2026-11-22T19:45:36Z",
+  "approval": "User exacthead f990da3c9812e2e14d5deb1a58e7dcbc41685090;preservationonly,noactivation/no numerical guardchange"
+}

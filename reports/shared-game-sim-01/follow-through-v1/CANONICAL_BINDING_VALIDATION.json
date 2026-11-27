@@ -1,0 +1,18 @@
+{
+  "stage": "Existing canonical period/binding validation afterallmutablepointerrepair, nofits",
+  "CPU_seconds": 0.326954792,
+  "wall_seconds": 0.34746608000023116,
+  "returncode": 0,
+  "stdout": "PERIOD_BOUND_FILES_AND_SERVED_PROJECTION_VALID 670\n",
+  "stderr": "",
+  "prior_failures_preserved": [
+    {
+      "CPU_seconds": 0.037545051999999995,
+      "reason": "ADMISSION_LEDGER pointer stale"
+    },
+    {
+      "CPU_seconds": 0.04210065,
+      "reason": "TASK_LEDGER pointer stale"
+    }
+  ]
+}

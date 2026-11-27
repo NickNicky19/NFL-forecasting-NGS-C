@@ -1,0 +1,1658 @@
+{
+  "id": "B-SIM-CANONICAL-SAVED-OUTPUT-JOIN-FREEZE-v4",
+  "scope": "Ungraded exact saved-output lookup only; no fit/newforecast mechanism/outcomejoin or Csimulator. Per-case ordinal derived output; no source rows, identities, lines/outcomes or model state published.",
+  "frame_manifest": "ab98ca0744b0a1a75ca6d8fbd46ac3d138a1eefa9f828127777819bcbdfc562d",
+  "private_plan_sha256": "b0a8db2027e112977801c248a469f1898a9dd6f6c67184cdd9f3805717dc6d0f",
+  "candidates": [
+    {
+      "candidate_id": "B-SIM01-9e315e876799c2e77d",
+      "category": "rush_yd",
+      "output": "absolute_error_point",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_yd",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "objective": [
+          "absolute_error_point"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "90e7f876dc2544119f6f696643406cd163748a837f62396f55cb2f7c728a5bde",
+          "bytes": 5285,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "d7999effce9a7bf6ce36925b069d3c307642c3bf08c341f537d0a2e774c6b0be",
+          "bytes": 5134,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ac27c49e218e19146500dbf6e515f2fb90a3b0f9e367a2a56ea50b56a937c7f6",
+          "bytes": 4629,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "cb3511ff348a595b5d63bcbb6e63cdba75c69f51c11d8c14ff958774e1a9a690",
+          "bytes": 4615,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "f112cfe4ca2fb8deabc97c5be859f80efbc82e3244908d170382ee288e7d6ab4",
+          "bytes": 7743,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-0191d8e94ca3c95b6f",
+      "category": "rush_yd",
+      "output": "lower_median",
+      "procedure": "B::v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:strict-current-inputs::H-CURRENT-STRICT::lower_median",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_yd",
+        "history_regime": "H-CURRENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "lower_median"
+        ],
+        "run_id": "v2-distribution-controls-reconstruction-v2",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:strict-current-inputs",
+        "policy_id": "H-CURRENT-STRICT"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "78cb2cf7687b5f0b087ef02ca9ae53f6b9b6648be59ac820332cd43224504d0e",
+          "bytes": 18137,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "4db4d0f08f53a886a007ad7cc5eae652b2fced311cafd7073286b1696e4dbb70",
+          "bytes": 27228,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "440c0fd2a4bc170d19f177fe559865d8b79c034b7670d49f90c7fcc7dc8ba5f6",
+          "bytes": 27430,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "1d7ff375ba8a2aa5eb1ef92ae5275f9907b45fee601880c85a0230cdd107f32c",
+          "bytes": 31184,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a73325a7de1858f1a082d9d80c2f8f23686f88211fde99ab3a03f4dc9cc9f564",
+          "bytes": 17120,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-67e9e4bbbb14aa34f8",
+      "category": "rush_yd",
+      "output": "lower_median",
+      "procedure": "empirical-player-history-control-v1",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_yd",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product": [
+          "lower_median"
+        ],
+        "run_id": "v2-empirical-observed-participant-history-diagnostic-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-6bac0483d2935fa2c3",
+      "category": "rush_att",
+      "output": "lower_median",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_att",
+        "history_regime": "H-CURRENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "lower_median"
+        ],
+        "run_id": "v2-qualified-position-defense-information-wave-v1",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+        "policy_id": "H-CURRENT-COMMON",
+        "information_group": "D2"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "bcb60859b2d5c43bf99423fdf3a9369376a5c91707c0b5854aa466cac641b07d",
+          "bytes": 52240,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "3305c442154533765324821698ef29ce61bc923aedb39e23adaf7705bc281965",
+          "bytes": 48478,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a0e77784253b25d8c54576738db1c4001e27afb99ebddf0cbc24eed3e61a0e7d",
+          "bytes": 42691,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "af2e24949d83e5257571bfbe40b3bf925bd353b60b18b719dad51cb4950cac40",
+          "bytes": 44844,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-4bd13ee88b054e1232",
+      "category": "rush_att",
+      "output": "squared_error_mean",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_att",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "objective": [
+          "squared_error_mean"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "0760cd3463d83dc3d41ad6865ae8ef8885b793c389a9ad9e642cdb0e8c625237",
+          "bytes": 6637,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "46869359843e885c769df9902e293f96162430b2bd55496a956036a14a908896",
+          "bytes": 6397,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "d28b5d8bd5c8aaf46025a0a33087fde01f54bfa67c4a888e409e6c1a0939a780",
+          "bytes": 5963,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "120ca89744fd26bd661fa6174ed115ac1c9318445b1ca7cb087d0de76dc6f830",
+          "bytes": 5847,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ad15a82804135713b5d52f1d71a520432d3520d8f7d93647f57700c4dcf2989b",
+          "bytes": 9017,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-3721ee2031f785793b",
+      "category": "rush_att",
+      "output": "empirical_mean",
+      "procedure": "empirical-player-history-control-v1",
+      "roles": [
+        "QB",
+        "RB"
+      ],
+      "selectors": {
+        "target": "rush_att",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product": [
+          "empirical_mean"
+        ],
+        "run_id": "v2-empirical-observed-participant-history-diagnostic-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-2d9fb1d864929a32c4",
+      "category": "rec",
+      "output": "mean",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean"
+        ],
+        "run_id": "v2-qualified-position-defense-information-wave-v1",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON",
+        "information_group": "D2"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "363c84a1ffa49ca31b51bafbbe132909d3e5024ff685938eb547d2138f3263fe",
+          "bytes": 60400,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "14af42eba2ba059ba4e9e64135d2acfb83df5f895c3cca060cd7d854b22fc3df",
+          "bytes": 58383,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "d2ab30dc4312b8dee1d005e4f557cb57dfa60a0b913a82298f5046dfd2ada280",
+          "bytes": 53725,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a8a4575f12a6baaf4934f39b7942459460033151239426465b6a08d1f819458f",
+          "bytes": 51942,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-c0b1b9acab53581d97",
+      "category": "rec",
+      "output": "saved_complete_leaf_law",
+      "procedure": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:known-target-time-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec",
+        "history_regime": "H-CURRENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean",
+          "lower_median"
+        ],
+        "run_id": "v2-distribution-controls-reconstruction-v2",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:ordered_leaf_cdf:common-feature-memory",
+        "policy_id": "H-CURRENT-COMMON"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": true,
+      "packet_commitments": [
+        {
+          "sha256": "9e6b7f1269887a542baeb74ea4f2f07bf17a7258312747ca23b36ecd24fb2ae0",
+          "bytes": 40951,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "2ba2551e4846513c0b2c96d4b27584d92a2008c7112637eec7e2dca91d41cc1d",
+          "bytes": 41281,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "82c4b2c555f34afeb466dd00581df65eb5bdfb16b57d98e04364189d8e2d4da2",
+          "bytes": 39510,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "2b0e51647f608f609f842b4b3571ba1441cd3251aa06bd80b6d5c1f1d8a8d097",
+          "bytes": 38404,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "bd9abe00d7abe59bd1a4348a124037209a0f0c2d3bb866a374823470feb0aaf4",
+          "bytes": 62299,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-f0b13c56dbdd37a2b3",
+      "category": "rec",
+      "output": "squared_error_mean",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "objective": [
+          "squared_error_mean"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "ebcdd8231d719058400b80ef6d2191e33576c340618d52bbf4e5374f0d7396bd",
+          "bytes": 8459,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "7d9a2b1cbb5096903a454d12697dc7c65f2ff70a912ffe6bd7dc1415bdd0f239",
+          "bytes": 8074,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "190708934eacc9d2401ffe2c1bdfa1672d373f50b628902abfa742e348727cca",
+          "bytes": 7518,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "76019aad31ab03f228e257bf6118be8a7d616f725b763ed4d9dc228cd814a169",
+          "bytes": 7344,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "78401d615395b6d9486db4e71f5651ed4328397be140e1f24d06b6448f41a8c8",
+          "bytes": 30132,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-42da71d8bb5df4f101",
+      "category": "rec_yd",
+      "output": "lower_median",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec_yd",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product": [
+          "lower_median"
+        ],
+        "run_id": "v2-empirical-observed-participant-history-diagnostic-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-ccd2e93409415f7dfe",
+      "category": "rec_yd",
+      "output": "saved_complete_leaf_law",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec_yd",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean",
+          "lower_median"
+        ],
+        "run_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1",
+        "procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:common-feature-memory",
+        "policy_id": "H-RECENT-COMMON"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": true,
+      "packet_commitments": [
+        {
+          "sha256": "711a8ed108a3494ab6cba965c1b5e640720792a331123bebaaf9ec018db8378e",
+          "bytes": 57593,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "7096a37efbbb8c6e6132304287f79d427e00a48b0af6735162d9e22f09c01f47",
+          "bytes": 55667,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "4b084994965e83b1c7f5c470d94279feed854b8b9d1d609ab770fda32db0feda",
+          "bytes": 51506,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "63c91e519bf1118e2147d8fbc197a3de2a19109d77a9879748283430c3e6fb17",
+          "bytes": 49424,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-96d546b3cdf53b47a5",
+      "category": "rec_yd",
+      "output": "lower_median",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rec_yd",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "lower_median"
+        ],
+        "run_id": "v2-qualified-position-defense-information-wave-v1",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON",
+        "information_group": "D2"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "a5acb443bd780c73f09a37901efca8d211bd63dd5664cfd2f7948c954b98acce",
+          "bytes": 64961,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "850b6ffac8b1d3b30f80a805731c5a517acc383921925413216f7e91618cf09b",
+          "bytes": 61977,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "055bb97322105f42b68e69a0d2ed412f6485ae80051e36129e3b6c5a6d4f6d2a",
+          "bytes": 57158,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "4084dbcd37938055d50cff1ebb964bc054954697e1398474b7b1542a208b3080",
+          "bytes": 55416,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-2e4ee2f3e48fa5acd5",
+      "category": "rush_rec_yd",
+      "output": "lower_median",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rush_rec_yd",
+        "history_regime": "H-CURRENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "lower_median"
+        ],
+        "run_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1",
+        "procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs",
+        "policy_id": "H-CURRENT-STRICT"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "b762533e249c1fd1c3c8b64f0002abbb61296e893c2faa521ee5ce7908c7981e",
+          "bytes": 27553,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "e93e08042349dd4f683964eaf322360727837c1a1e713ec48eb6efe279ad56ef",
+          "bytes": 42634,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "f3df07604a0ee11e793eb02e0d96992a5f44d7f2b2c8b9603bce2b6618eee91d",
+          "bytes": 47138,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "c098e0b624cbace709119c3fb94d0631183187dd8e85b99366294a4193b4f132",
+          "bytes": 47561,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-07cbacd3f2987569d7",
+      "category": "rush_rec_yd",
+      "output": "absolute_error_point",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rush_rec_yd",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "objective": [
+          "absolute_error_point"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "9348a2074dcaba095f3dc455efc011e5af63902d723b1bc581387a0d0fbe3ab8",
+          "bytes": 9224,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "0d5391301ff461225b691e3b9688b131cf976a019f96bbf38a2739be6b284f98",
+          "bytes": 8805,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "f71c4e8890591bbab4280c9eddb60a7f8919a6ebb96587dffec48a0b9dc0c06a",
+          "bytes": 8068,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "00bc300150f69e5ed150477d8b735d508d0670f740538651667b82815dc7a0d7",
+          "bytes": 7893,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "5bef58ee97025a95f0c4383a86643bbcf0d2e167818138e468a59a19d439be6e",
+          "bytes": 22036,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-3255df04669b646b8a",
+      "category": "rush_rec_yd",
+      "output": "mean",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "rush_rec_yd",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean"
+        ],
+        "run_id": "v2-distribution-controls-reconstruction-v2",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "ab1e2bc51d73b18b096e3f98e208ed1f75127b13a33b0f89ed36ac3f1501c83f",
+          "bytes": 31154,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "fcdc1de3a3a1925fd662b399994d1d87be3f883269e75f4ee5636d1faabc0c8c",
+          "bytes": 29659,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "83a1791d594cc572acb61494a7e6a5c3d3a35443b1e4e3b9e451b27b51ad15a4",
+          "bytes": 27333,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ce55e258c3b76b7ce3b0bfd1f866a7d9a29788a6c604a164e192b9a3ae3e7213",
+          "bytes": 26518,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "c09d6860bc74db7af229a9562a8388614db629c3be64da5adc01d7913467ef78",
+          "bytes": 31857,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-7c0f4afad04b58e53f",
+      "category": "anytime_td",
+      "output": "event_probability",
+      "procedure": "hgb-direct-history-controls-v1:log_loss_probability",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "anytime_td",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "objective": [
+          "log_loss_probability"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "1d41001266ecbf95ff7c57e35883e300ddf0898a20e084c4994dcb20b0243949",
+          "bytes": 8001,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "56fc7bb5688c9cdc534deb14d1f6337ee22b0fb269aae6d44660b808babf0662",
+          "bytes": 7840,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "4e056f63522db121eea792e1388f7c07c5f0a870763f392e59bf14bf4cbeb359",
+          "bytes": 7090,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "48ac4cb415f964cf834d8500e11a20db0ab694d3061663ff6f1ec1634d5627ef",
+          "bytes": 6935,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "b7fb4c1230903faced99c23ba20c98d170582ef4c3076f16aa35f20bf6db384c",
+          "bytes": 31919,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-a5f6e3b098f93c5230",
+      "category": "anytime_td",
+      "output": "event_probability",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "anytime_td",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "event_probability"
+        ],
+        "run_id": "v2-distribution-controls-reconstruction-v2",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "534a7bdfd6a80a55dd31a542d4ec329c66ee128c08ae3c6e2766490134e708ff",
+          "bytes": 25702,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "234327d78ee7ad500c7e0ebc30e09544d73f8cd76e9bd66e058e22b3021083ef",
+          "bytes": 24821,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "af148e4c5a0b9ad1a6488a33c0571e85e4df9ac41679fe49fe860365b4a7ab64",
+          "bytes": 22963,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "8f9db1e017616dd4c1c8bd837592b279d7fd53afb50862ae1be69e3a718d16a0",
+          "bytes": 22112,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "1061f71e6c1eafaf27f5c84c77923b6dadef1a0d0718746f93d80917175daf74",
+          "bytes": 40316,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-93c4330014bdb92d48",
+      "category": "anytime_td",
+      "output": "event_probability",
+      "procedure": "empirical-player-history-control-v1",
+      "roles": [
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "anytime_td",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product": [
+          "event_probability"
+        ],
+        "run_id": "v2-empirical-observed-participant-history-diagnostic-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-b0c10fe4c98abf87b3",
+      "category": "nick-chart-ppr-v1",
+      "output": "lower_median",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "nick-chart-ppr-v1",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "lower_median"
+        ],
+        "run_id": "v2-qualified-position-defense-information-wave-v1",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON",
+        "information_group": "D2"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "f15f16867304ae2b7c5d4466e34e1c6cb03fa01cc4ebf8aacac19486131008e3",
+          "bytes": 69577,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "b576fd4799db114e7e6ed19387c1f7da0c8e36ab0d5f3e420094eb3aa2013d4d",
+          "bytes": 66627,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "90c26537891dc51c638769a427ecb706fd294fe84ec0c1fa274258df0743be9f",
+          "bytes": 61864,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "73634f7bff1fe27544a18b41649a36d7e9ce2b331c4dead7cbaf1280494373af",
+          "bytes": 59566,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-35e800c0ad60b8d664",
+      "category": "nick-chart-ppr-v1",
+      "output": "mean",
+      "procedure": "v2-qualified-partial-chart-direct-wave-v1:empirical",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "nick-chart-ppr-v1",
+        "history_regime": "H-RECENT",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean"
+        ],
+        "run_id": "v2-qualified-partial-chart-direct-wave-v1:empirical",
+        "procedure_id": "v2-qualified-partial-chart-direct-wave-v1:empirical"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "6520dbd2d26f82c732f33fd92752aa7fb8c3468b1065e59af137a3f05650f90c",
+          "bytes": 1912901,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM01-4b8cc0061c9691cfc1",
+      "category": "nick-chart-ppr-v1",
+      "output": "mean",
+      "procedure": "v2-qualified-partial-chart-direct-wave-v1:regularized_glm_law:common-feature-memory",
+      "roles": [
+        "QB",
+        "RB",
+        "WR",
+        "TE"
+      ],
+      "selectors": {
+        "target": "nick-chart-ppr-v1",
+        "history_regime": "H-MULTI",
+        "season": 2026,
+        "population": "primary",
+        "product_id": [
+          "mean"
+        ],
+        "run_id": "v2-qualified-partial-chart-direct-wave-v1",
+        "procedure_id": "v2-qualified-partial-chart-direct-wave-v1:regularized_glm_law:common-feature-memory",
+        "policy_id": "H-MULTI-COMMON"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "e46f1262f9ab5b1c6354b32a984e8b29ecf8595a2852b169616a80e9e9a52d9f",
+          "bytes": 35805,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "5a0a9d04c4156da2c94dd06f3b8016e28704fa18de435e4a23cf0b03a1f18d19",
+          "bytes": 34374,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "198d0be72d1dd6043a3e42d0583eb63fe9da9786cb572affd54da2fdca3c4eb6",
+          "bytes": 31921,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "729711045597b6ba4750655fbbb3a77d9e3b99edf1444206489a2ca2079aae7d",
+          "bytes": 30631,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "051cdb410cd4f726b79c7dcdf895fec38c83ef426ce63234daf28eb5462187f0",
+          "bytes": 35317,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_yd-D2_LEAF",
+      "category": "pass_yd",
+      "output": "mean",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_yd",
+        "season": 2026,
+        "history_regime": "H-CURRENT",
+        "population": "primary",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:strict-current-inputs",
+        "product_id": [
+          "mean"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "0165008769e83b965789d262d4f1574cad9983ec9f9a5583190145963bb4e650",
+          "bytes": 3675,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "89c2f2a4fc686919cb044074639802711f54c7cf0e620c82e1aa68fe31ffb712",
+          "bytes": 3913,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ddc5524a7926f5d8c83f08cec9e68adfd35af0b4ad6f492fb0972da58289c884",
+          "bytes": 3780,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ecf52ecb3ee3b96bc55e5e145ff8049a92f783c4b0b2bc09cf11b620e31c51ff",
+          "bytes": 4748,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_yd-DIRECT_GLM",
+      "category": "pass_yd",
+      "output": "lower_median",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_yd",
+        "season": 2026,
+        "history_regime": "H-CURRENT",
+        "population": "primary",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs",
+        "product_id": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "51f548156681a7d9a8fea391f93e8d83613fa06213813a953a581dc5bbc322cb",
+          "bytes": 4060,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a5a8c5df6c8e3b3f82f41ed9867d6761994cada9b55fdb5156385b0003434f81",
+          "bytes": 4133,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "d1c9f1ad91d9fc79d4a6154b441699bdc32aad4dc79fcc746907fbd2686b3186",
+          "bytes": 3416,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "73493e0f97b6fa20fb1e2527ac3c2f417c6f218f391a05d489df511b3fdc12cb",
+          "bytes": 3640,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_yd-EMPIRICAL",
+      "category": "pass_yd",
+      "output": "lower_median",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_yd",
+        "season": 2026,
+        "history_regime": "H-MULTI",
+        "population": "primary",
+        "product": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-D2_LEAF",
+      "category": "pass_td",
+      "output": "lower_median",
+      "procedure": "v2-qualified-position-defense-information-wave-v1:D2:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_td",
+        "season": 2026,
+        "history_regime": "H-RECENT",
+        "population": "primary",
+        "procedure_id": "v2-qualified-position-defense-information-wave-v1:D2:common-feature-memory",
+        "product_id": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "6c197afc12f06899869c36b5a1fc50d28b23086538ac51daa1fda3f59404c67f",
+          "bytes": 6106,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "62ba06fdbdffddfcb63aa1c37c368df50d1ec6c714b7d9f7356e44e2a74abc4c",
+          "bytes": 6518,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "54a5c2901f6e77dbc4f810d0483564c7bf5e6a74d5f444753d3b05a6f0af3ce0",
+          "bytes": 5367,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "ab5677babc54a9e373325a89ff3842e776f41d5485dbf16b46d6e96669f60534",
+          "bytes": 5767,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-HGB",
+      "category": "pass_td",
+      "output": "squared_error_mean",
+      "procedure": "hgb-direct-history-controls-v1:squared_error_mean:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_td",
+        "season": 2026,
+        "history_regime": "H-MULTI",
+        "population": "primary",
+        "objective": [
+          "squared_error_mean"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "98355beac12e048d9add1fd5d826ba153e31043a39e92b064a107985d89b3117",
+          "bytes": 1468,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a4eab6a7b2b54faa921a4481f0e3c9de55dc3b3ff815cbe1d3eb734af8847613",
+          "bytes": 1512,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "6032ffda0277dc13135a08875ca5967fdbefc99d82245f2200e4107f19c8c1bd",
+          "bytes": 1337,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "582624523f758d4bfb455a2366feb214cfc6fa5e3c936a1c8e22563f95b7f5e5",
+          "bytes": 1381,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_td-EMPIRICAL",
+      "category": "pass_td",
+      "output": "lower_median",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_td",
+        "season": 2026,
+        "history_regime": "H-RECENT",
+        "population": "primary",
+        "product": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-C02_LEAF",
+      "category": "pass_att",
+      "output": "lower_median",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_att",
+        "season": 2026,
+        "history_regime": "H-CURRENT",
+        "population": "primary",
+        "procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:strict-current-inputs",
+        "product_id": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "ac4b503327ddf660c43cd84c88b246b10628be20fe6e82267eabc3276d6ab460",
+          "bytes": 3177,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "358cb58f369eb398b11778c0c48c446b3b0805c966eb0eae9332a482001e4727",
+          "bytes": 3352,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a002b3715a1f6c890a137ad98288f0d6286877cb4a04e8930e5c122a4146eece",
+          "bytes": 3121,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a2428059e307bc5733ba30ecc6dbba54a6b9941c2a69057997b8636200bf4960",
+          "bytes": 3775,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-HGB",
+      "category": "pass_att",
+      "output": "absolute_error_point",
+      "procedure": "hgb-direct-history-controls-v1:absolute_error_point:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_att",
+        "season": 2026,
+        "history_regime": "H-MULTI",
+        "population": "primary",
+        "objective": [
+          "absolute_error_point"
+        ],
+        "run_id": "v2-hgb-direct-history-controls-v1"
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "f8c4226f95d0a2146a87b9014ca46b4f5f6a72532354d31650711373f208e72a",
+          "bytes": 1502,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "4f68e3a4bd2deb8ad880527416d806e1fe1c144b13cd96fa200a4d5fa00a0b4b",
+          "bytes": 1539,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "fcf541d14f53f18214287803631e70632742fda841bc40fd75671efb37301bd6",
+          "bytes": 1362,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a8107f92de5c38c5aba934720b4948343a6b27edf84913ffbc293bcdc1ef5d49",
+          "bytes": 1393,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-C02_LEAF",
+      "category": "pass_int",
+      "output": "lower_median",
+      "procedure": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_int",
+        "season": 2026,
+        "history_regime": "H-CURRENT",
+        "population": "primary",
+        "procedure_id": "v2-c02-explicit-lag-block-removal-leaf-cdf-v1:common-feature-memory",
+        "product_id": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "cc5df1c4f8b2c8936105517e01b76c4ea72e6a2bc1adeea7916e0d8690d23448",
+          "bytes": 3049,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "0f10bb98831fe6ff5556daadafc3fb26a9b3ab0f60a53992e78207c0d7527331",
+          "bytes": 3782,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "88193fa0087ac280b46fd49eedbab41db8223bf17cdd5bf3a1c75d4c8b7d7101",
+          "bytes": 3620,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "e8adf2a12fa71905bb5380ebf5d58ceeaae9e108eff4d6d50aee245af7bcd338",
+          "bytes": 3880,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-EMPIRICAL",
+      "category": "pass_int",
+      "output": "lower_median",
+      "procedure": "empirical-player-history-control-v1:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_int",
+        "season": 2026,
+        "history_regime": "H-RECENT",
+        "population": "primary",
+        "product": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "52d0c4476ac8a3d45b6128fd092b94c73bf6f9a5c9408f2878df8e33e03a513f",
+          "bytes": 7561537,
+          "serializer": "GZIP_CSV_UTF8_DICTREADER"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_int-DIRECT_GLM",
+      "category": "pass_int",
+      "output": "lower_median",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:known-target-time-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_int",
+        "season": 2026,
+        "history_regime": "H-CURRENT",
+        "population": "primary",
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:common-feature-memory",
+        "product_id": [
+          "lower_median"
+        ]
+      },
+      "point_field": "prediction",
+      "modern": false,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "b8a88d73e1d1220c6434c52bdb6314b5b11e3720eca7d34bba264a95f27cd6e3",
+          "bytes": 3660,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "f24a6b5483f074730b8659991eb57d047acef9ff5868130a5cd7b39f96465005",
+          "bytes": 3804,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "0363f732d0b60e2899d8a7f0a05e9a0c41d3e9a4949f6263d828a6c7d2abec92",
+          "bytes": 3198,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "3562e0973a90adf245b7b54a69ca0ccbdfa67ce4a30208adac043372008e5619",
+          "bytes": 3328,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-R3_FTN_LEAF",
+      "category": "pass_cmp",
+      "output": "exact_count_law",
+      "procedure": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_cmp",
+        "season": 2026,
+        "procedure_id": "B-FTN-BALL-QUALITY-COMPLETION-v1:B2",
+        "method": "B2"
+      },
+      "point_field": "mean",
+      "modern": true,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "14c982416dfb7b21fcfbe9e2085a6ca95d61f598ff1308edf1c5d960e0896d60",
+          "bytes": 146855,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "08d94bd38de24955151dbc5b75bf69eab2d7f103f3186282ee914b111003c13b",
+          "bytes": 152112,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "a32a08c2bfb3247dcc41312fc91e76da3f613b8fa3a72483fb0ea98d45fc03c6",
+          "bytes": 129758,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "7de69599764ccc795c83e14193a035c8c4bb24db0b0e66fbe7ccab6e9e3ca13f",
+          "bytes": 136136,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "8ade1488dd913841ed5c7399ab46efa8068b41d93bc13b5a0d825cdf57464952",
+          "bytes": 147424,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "eaecca2e5b81a28c5c8fc31a4456aeefe5e3a79fd89938d3ae2e8028e09dc159",
+          "bytes": 159494,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-SKILL_R0_MIX",
+      "category": "pass_cmp",
+      "output": "mean",
+      "procedure": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_cmp",
+        "season": 2026,
+        "procedure_id": "B-INFORMATION-SKILL-PASS-MIX-v1:SKILL_R0",
+        "method": "SKILL_R0"
+      },
+      "point_field": "mean",
+      "modern": true,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "a08d80a61dcd02c041da94dd7c6b004b5668b03884d40f2a1e48f709750bfc65",
+          "bytes": 44410,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "3a6813184e6cd23aba5eed77681911b87925503dfed8401085d950053a3f15fa",
+          "bytes": 46999,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "5f450db3ab6f7d36326809b1352a48a315469245354195ef09c47f63b9895e18",
+          "bytes": 37954,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "52cc46d300f1c2acf52e7cc91301da1dfa40c39e9ab3b4abe60dd44b38fe40e1",
+          "bytes": 40652,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "2f0d0f0e327ca37b272d90c919cadcdcd546310f9a6d2fd372e33567831b6c56",
+          "bytes": 45562,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "f520a481cef4759ee5b5c064de5a5d9bf2cc35c506d630c0ba906819f46ac307",
+          "bytes": 49554,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_cmp-DIRECT_GLM",
+      "category": "pass_cmp",
+      "output": "exact_count_law",
+      "procedure": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs:weekly-kickoff-retrospective-extension-v1",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_cmp",
+        "season": 2026,
+        "procedure_id": "v2-distribution-controls-reconstruction-v2:regularized_glm_law:strict-current-inputs",
+        "method": "DIRECT_GLM"
+      },
+      "point_field": "mean",
+      "modern": true,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "ec19b8426b9c50d7c1ef2bff3e18881d0d66e4de675c48c3d9c69f5033202f0e",
+          "bytes": 19329,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "88f30ef676a9d1064e66933c57d4b840115dbafdd3b06be707ae72e3f1db95a0",
+          "bytes": 24041,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    },
+    {
+      "candidate_id": "B-SIM-pass_att-COMMON_EXPOSURE",
+      "category": "pass_att",
+      "output": "gamma_poisson_count_law",
+      "procedure": "B-player-context-matchup-01-v1:COMMON_EXPOSURE",
+      "roles": [
+        "QB"
+      ],
+      "selectors": {
+        "target": "pass_att",
+        "season": 2026,
+        "procedure_id": "B-INFORMATION-SKILL-OPPORTUNITY-v1:OPP_BASE",
+        "method": "OPP_BASE"
+      },
+      "point_field": "mean",
+      "modern": true,
+      "law_blocked": false,
+      "packet_commitments": [
+        {
+          "sha256": "74f9405d49de1ce45b5dff830df8dccd64fdba60afbb71cfa2df774e496f348f",
+          "bytes": 30330,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "80c19bf59d71df7a788ad635315b250fe623a3aadbc72c67d4eaba7f2b770b43",
+          "bytes": 32592,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "02a8d7d34975513ac7f2b7642d29e83a76cc821f8f03a2e243377b35c085f17b",
+          "bytes": 27216,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "560506ee663582c842d3c92e090b7a2b71dcaa4fe5c29c89225ab83a2d798d64",
+          "bytes": 28823,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "0d4fe3631547c21874f823feddd87bd2f3f1e889db0d52c07cff86030180bfa5",
+          "bytes": 31479,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        },
+        {
+          "sha256": "dff8c109eadd12f042df2cbbda6bfbe556056c53a80d8b5d71a63aae71d04757",
+          "bytes": 33467,
+          "serializer": "GZIP_JSON_UTF8_OBJECT_ROWS"
+        }
+      ]
+    }
+  ],
+  "identity": "Exact retained ESPN event IDs and Sleeper player IDs mapped to canonical NFL game/GSIS; strictly prior REGevent-week roster links only; no names/status/absence inference.",
+  "clocks": "Original Bkickoff-left-limit and C T90 differ. Supply frozen output bindings with explicit primary_T90_comparability flags. C/website must admit compatible diagnostic horizon/masks before scores; no same-horizon/architecture/production qualification inherited. Published clock-unverified diagnostic policy permits conditional evidence, not backdated issuance.",
+  "law": "Only modern explicit safe laws via existing Brestore/query helpers; old leaf_ids and unbound saved-threshold leads remain unavailable. No point probability fabrication.",
+  "output": "All3474frame retained; all category-relevant cases per candidate including unavailable states; no target-known/unknown filtering; no grade/statistics input.",
+  "source_retrievals": 0,
+  "model_fits_or_simulation": 0,
+  "UTC": "2026-11-22T18:02:58.735319+00:00",
+  "worker": {
+    "path": "tools/bind_shared_sim_saved_b_v1.py",
+    "bytes": 17788,
+    "sha256": "e55fed784f2cc430c1b08cd83aae8bc2d7a64bed5183bbf301554aec4515dc28"
+  },
+  "source_identity_fields": {
+    "roster": [
+      "season",
+      "week",
+      "game_type",
+      "sleeper_id",
+      "gsis_id"
+    ],
+    "roster_sha256": "a44e42361de63e42339a563f57ce2c72da17aeffa2eb69e99ac5fb9e246a166d",
+    "schedule_sha256": "6f707dcea8758bc6c0421559d23c07d4627f39658f93913908d5ddd1b27f6aae"
+  },
+  "readiness": {
+    "canonical6body_hashes": "PASS_REOPENED",
+    "actual_private_forecast_references": 134,
+    "all134_regular_files_and_lengths": "PASS",
+    "full_body_SHA": "Verifiedagainwithinreaderbeforeeachfirstbodyconsumption;previouspassedchecksretained",
+    "retention": "Output ordinalownforecasts in existingapprovedworkingroute first; exactpublicationreviewbeforepermittedGitHubretention; no rawsource/query/outcome/identities/lines/modelweights published",
+    "new_working_current_bytes": 14855184,
+    "estimated_complete_peak_new_bytes_upper": 24000000,
+    "new_working_cap": 33554432,
+    "conservative_remaining_CPU_seconds": 60,
+    "completion_CPU_reserve": 30,
+    "C_allocation_used": 0,
+    "old_scientific_allowances_used": 0,
+    "no_grading_or_outcome_input": true,
+    "remaining_cost_after_first_attempt": {
+      "first_worker_CPU": 22.731156944,
+      "second_worker_CPU": 22.286019146,
+      "conservative_preparation_and_extra_metadata_CPU": 15,
+      "charged_total_for_gate_CPU": 60.01717609,
+      "hard_next_worker_CPU_stop": 25,
+      "protected_completion_CPU_reserve": 30,
+      "sum_gate_CPU": 115.01717609,
+      "task_CPU_cap_unchanged": 120,
+      "basis": "Measured22.286 priorcompleteworker, newCSVreuse lowers repeated decoding, bounded25CPU hardstop; no further scientificworker if stopped. No repeat-law/model fits or changes to original forecasts.",
+      "wall": "<1800controlled task path, actual end-to-end separately disclosed"
+    }
+  },
+  "predecessor": "JOIN_FREEZE_V3.json",
+  "change": "Correct source-clock field semantics: original B cutoff/feature_cutoff is kickoff-left-limit filter origin, not source-observation time. Retain original policy and per-row PRIMARY_T90_COMPARABILITY_REQUIRED flags; do not promote those rows into common-T90 comparison. Reject truly future origins/observations under both clocks. V2 strictT90 mask/output remains preserved. IO reuse projects only relevant immutable own CSV forecasts; no changed point/law/side/selector/model.",
+  "private_identity_body_sha256": "990bd7fab9e65a20a640790c35800cf619d5bc5c34c6b6f93606defb38878cb1",
+  "exact_team_alias": {
+    "LA": "LAR",
+    "scope": "NFL source vs website franchise abbreviation only; IDs remain exact, no name/roster/status inference"
+  },
+  "namespace_proof": {
+    "pinned_grade_source_sha256": "59b1c6b0044c8571f5695b178ede5469b34e6db77c46a75eb98b7780cd184d1e",
+    "reference": "comparison/pull/grade.py:67 uses source(identities[sleeper])",
+    "exact_retained_registry_unique_player_overlap": {
+      "frame_unique_players": 338,
+      "Sleeper_id_matches": 336,
+      "ESPN_id_matches": 1
+    },
+    "scope": "Stable source identity only; not permission to use eventual roster/status/target-game statistics"
+  }
+}

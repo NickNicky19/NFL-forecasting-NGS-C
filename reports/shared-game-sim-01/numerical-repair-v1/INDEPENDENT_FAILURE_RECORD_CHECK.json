@@ -1,0 +1,497 @@
+{
+  "state": "PASS_RETAINED_RECORD_SCOPE",
+  "UTC": "2026-11-22T21:48:45.628390+00:00",
+  "reviewer": "Separate C internal read-only reviewer; not Session B",
+  "scope": "Pure retained JSON/hash/git-blob arithmetic only; no optimizer, fitter, objective evaluation, NFL source diagnostic, generation, law or mutation execution",
+  "checks": [
+    {
+      "check": "exactly_one_new_game_attempt",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "fixed_canary_native_identity",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "recorded_counters_exact",
+      "PASS": true,
+      "detail": {
+        "stages": 1,
+        "iterations": 500,
+        "evaluations": 563,
+        "game_attempts": 1,
+        "generations": 0
+      }
+    },
+    {
+      "check": "one_stage_started_and_terminated",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "50_durable_checkpoints_at_every10",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "evaluation_counts_monotone_and_bounded",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "initial_and_terminal_records_retained",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "finite_retained_vectors",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "failed_numerical_termination_not_pass",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "unchanged_tolerances_and_no_retry",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "record_arithmetic_consistent",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "package_stopped_on_first_new_failure",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "stop_attempt_binding_matches",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "no_retained_game_samples",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "old_STOP_ATTEMPT_bytes_preserved",
+      "PASS": true,
+      "detail": {
+        "files": 33,
+        "STOP": 33,
+        "ATTEMPT": 0
+      }
+    },
+    {
+      "check": "frozen_input_and_code_bytes_match",
+      "PASS": true,
+      "detail": {
+        "bindings": 30
+      }
+    },
+    {
+      "check": "single_worker_CPU_record",
+      "PASS": true,
+      "detail": {
+        "CPU_seconds": 12.105303134
+      }
+    },
+    {
+      "check": "canary_carry_all_charges_once",
+      "PASS": true,
+      "detail": "72.62957554699999998"
+    },
+    {
+      "check": "global_CPU_and_wall_event_sums",
+      "PASS": true,
+      "detail": {
+        "CPU": "294.39335810100000000",
+        "controlled_wall": "399.08909495900198262"
+      }
+    },
+    {
+      "check": "completion_reserve_and_limits_preserved",
+      "PASS": true,
+      "detail": null
+    },
+    {
+      "check": "original_clocks_not_reset",
+      "PASS": true,
+      "detail": null
+    }
+  ],
+  "errors": [],
+  "attempt_binding": {
+    "path": "reports/shared-game-sim-01/numerical-repair-v1/attempts/canary__2026_04_DET_CAR.json",
+    "bytes": 998441,
+    "SHA256": "0e3870a45d1760c6dd49fdfac0ff21cffcd11d794f82fb581188d044ae328d93"
+  },
+  "ledger_snapshot": {
+    "path": "reports/shared-game-sim-01/numerical-repair-v1/LEDGER.json",
+    "bytes": 5473,
+    "SHA256": "acd6a821021c863b7eab1f7b83a79aec03ed14e3016ddf4a3e75129318b3b09a"
+  },
+  "package_stop_binding": {
+    "path": "reports/shared-game-sim-01/numerical-repair-v1/PACKAGE_STOP.json",
+    "bytes": 499,
+    "SHA256": "f06c163c995cd478eca3c0349e64798a06ef33118d1a9390ec9d4082ceea4146"
+  },
+  "old_failure_bindings": [
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_04_ATL_NO.json",
+      "bytes": 5960,
+      "SHA256": "f9e3aa68e61fecdaffdb2efc969edd4082abc160677699c44a2bc8b7ccf33569",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_04_DET_CAR.json",
+      "bytes": 818,
+      "SHA256": "00317fd3b210c56608084d2445541bb2608ba7ef20ab685bea3be8bb4c072a54",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_BAL_ATL.json",
+      "bytes": 5370,
+      "SHA256": "d244f79330823c1c88a1f79ba35493b0ebba0b622b88bdcf7feb34c6f08a1986",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_BUF_LA.json",
+      "bytes": 8120,
+      "SHA256": "0854c70489d74aac81da84b04c03b379449ef551edbce530601c899da979f57b",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_CHI_GB.json",
+      "bytes": 6992,
+      "SHA256": "9bd9a9c5d06dc9e5853b2e4b518f32769ff244695f84ed5399e57ac97a6b660a",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_CIN_MIA.json",
+      "bytes": 6252,
+      "SHA256": "d256e461f55eec074f1e0383006475bde4a790ef19d3aaae327d288394f825fe",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_CLE_NYJ.json",
+      "bytes": 6257,
+      "SHA256": "abbed81c1009b8cc42c38050bd86d692021070a18c82ab1b94be45405c252632",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_DEN_LAC.json",
+      "bytes": 5540,
+      "SHA256": "fc4cc3c9be527f56c29deee2a9d1f67e24cb9859b80a2b771604dd209018a660",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_DET_ARI.json",
+      "bytes": 6633,
+      "SHA256": "e8c8e0eef669cd84f7a4d19f1b56813dfe05bceb41618624f2e702314b84ea9b",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_HOU_TEN.json",
+      "bytes": 7380,
+      "SHA256": "b0dfc672b0920b1c9a661f314e2dc43d3645215d3bea2165fc0b8c0cfa5c79dd",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_IND_PIT.json",
+      "bytes": 6269,
+      "SHA256": "cdf8bccba2a34c0e0a84c922d38f1f9efaaff38aead6d864ac003f880ffe76cb",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_LV_NE.json",
+      "bytes": 7001,
+      "SHA256": "39b9fa989c3d7a17c7db316cd78f3a5abea91519e76a6f25127e2c4ae6fa6826",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_MIN_NO.json",
+      "bytes": 6268,
+      "SHA256": "58457de0103d7343a96b5fee135202f4d99c38ae52316021a76e5bf96e84e9b7",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_NYG_WAS.json",
+      "bytes": 6270,
+      "SHA256": "58899f957eb5fb58fa18ebd0ac1d52c5d9f0901f39942ab13deac3ace44034c6",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_PHI_JAX.json",
+      "bytes": 6258,
+      "SHA256": "7e94df3dd51246ba2718eb6adf9956ea25e1f5f54dd4f2d2cf5d4ec5398599a2",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_SF_SEA.json",
+      "bytes": 6276,
+      "SHA256": "5b2496408734235d6ec671ea516906f84f038460a0cdba97c209da6af6bf74ef",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_05_TB_DAL.json",
+      "bytes": 6259,
+      "SHA256": "5748ff97debbb27981bef450271a58ec6001cb8b78bc3584e3b5a539960c5d4a",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_ARI_LA.json",
+      "bytes": 7000,
+      "SHA256": "ea0c84178843a9fd50e26b9319b315a99adec5d09e71905a910d4e3b9166070d",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_BAL_CLE.json",
+      "bytes": 6250,
+      "SHA256": "529cb3096af5a444b56bf97c9648a91b39f3931c109a3ec0cc7cbcdb52b688a5",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_BUF_LV.json",
+      "bytes": 7386,
+      "SHA256": "f81bdbc78953f48449dbdc7fc5b36b44e87cf78a27e9fb6b1fcfd01c057f839b",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_CAR_PHI.json",
+      "bytes": 6250,
+      "SHA256": "fa9e84c2be032ee8d6018a3dbed40e9a6af3f9b2318d07d4a3159fc15069255c",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_CHI_ATL.json",
+      "bytes": 5157,
+      "SHA256": "377a6f62e1111044cd76225a9fd60f50dee8b840eb5e5645eb2afe4d6411627a",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_DAL_GB.json",
+      "bytes": 8480,
+      "SHA256": "933dd247e4dd59a9489fe5826a1f0caf1814ebba13776f8fb7a7a30dd7b61851",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_HOU_JAX.json",
+      "bytes": 7379,
+      "SHA256": "05f3f26ae7d70acb2f6770cda0ae625dca6c4f7f755115fa30c900911c6d696e",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_LAC_KC.json",
+      "bytes": 6649,
+      "SHA256": "b5c4f544f677913707463ad99aa42233a5033744b41854d247e3caab3343a73a",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_NO_NYG.json",
+      "bytes": 7370,
+      "SHA256": "9f75835e09020de20bcf2a6b75d4c90b782adcb0701afe3f949b6bbf10cbf489",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_NYJ_NE.json",
+      "bytes": 6992,
+      "SHA256": "d66e4575148b5b46cadcb977bbe67491e07d28c5b539b93efe66924bf5673371",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_PIT_TB.json",
+      "bytes": 5906,
+      "SHA256": "780447695a7a9e71ad4f41940e729281f017d661dd6764936a24b6df4c5daae5",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_SEA_DEN.json",
+      "bytes": 7742,
+      "SHA256": "5e4da58c5bc43eca5aaa37379d6c5b9c2d06314e25db46ea35972fe2a905616f",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_TEN_IND.json",
+      "bytes": 6991,
+      "SHA256": "1f97284dd620d766d7449d2d196c7d7c9fedf52ac5a8a457f07f8c013c43e667",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_06_WAS_SF.json",
+      "bytes": 7369,
+      "SHA256": "c53aa29a703a44c8309e1dbd41503d1bbb63324686a71d2db624eaaea1d9812d",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_07_NE_CHI.json",
+      "bytes": 8112,
+      "SHA256": "3d9e5d8a727741185fbfc3a8669588fed489b0f9e3f0f5cb65312b6dad474a55",
+      "identical": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/STOP_2026_07_PIT_NO.json",
+      "bytes": 7375,
+      "SHA256": "ec6998f1622b8ace4cea27b75ba9768c0f5a4be86232eadc29d9c7f72191d3e7",
+      "identical": true
+    }
+  ],
+  "frozen_binding_checks": [
+    {
+      "path": "src/shared_game_sim01_condition.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_run.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_repair.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_repair_projection.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_budget.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_fit.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_inputs.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_kernel.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_retention.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_score.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_metrics.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_controls.py",
+      "PASS": true
+    },
+    {
+      "path": "src/shared_game_sim01_repair_readback.py",
+      "PASS": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/RECIPE_REGISTRATION_V1.json",
+      "PASS": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/INTEGRATION_FREEZE.json",
+      "PASS": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/FROZEN_ROSTER.json",
+      "PASS": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/execution-v1/SOURCE_COMPONENT_EXECUTION_CANARY.json",
+      "PASS": true
+    },
+    {
+      "path": "reports/shared-game-sim-01/follow-through-v1/NUMERICAL_REPAIR_AMENDMENT_REQUEST_V1.json",
+      "PASS": true
+    },
+    {
+      "path": "artifacts/basic-football-facts-v2.1.zip",
+      "PASS": true
+    },
+    {
+      "path": "sources/category-decision-release-01/schedule.csv",
+      "PASS": true
+    },
+    {
+      "path": "reports/information-skill-01/execution-authorization-02/pilot/SOURCE_AGGREGATES.json.gz",
+      "PASS": true
+    },
+    {
+      "path": "sources/player-context-matchup-01/completion-decision-v1/pbp_facts_2024.csv.xz",
+      "PASS": true
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2025.csv.gz",
+      "PASS": true
+    },
+    {
+      "path": "sources/player-context-matchup-01/pbp_facts_2026.csv.gz",
+      "PASS": true
+    },
+    {
+      "role": "mapped_players.json",
+      "PASS": true
+    },
+    {
+      "role": "identity_rows.json",
+      "PASS": true
+    },
+    {
+      "role": "views/forecast_worker/players_sp.jsonl",
+      "PASS": true
+    },
+    {
+      "role": "views/forecast_worker/games_sp.jsonl",
+      "PASS": true
+    },
+    {
+      "role": "views/forecast_worker/manifest.json",
+      "PASS": true
+    },
+    {
+      "role": "frozen_startup_prior.json",
+      "PASS": true
+    }
+  ],
+  "result": {
+    "completed_retained_games": 0,
+    "completed_retained_trajectories": 0,
+    "new_game_attempts": 1,
+    "new_stages": 1,
+    "new_iterations": 500,
+    "new_evaluations": 563,
+    "new_generations": 0,
+    "checkpoints": 50,
+    "numerical_stage": "BOTH_TEAM_COUNT_CORE",
+    "termination": "1000evaluationcap not hit;500iterationcap hit",
+    "terminal_objective": 0.4620903275546069,
+    "terminal_gradient_infinity_norm": 0.0017474439008135477,
+    "scientific_accuracy": "NOT_TESTED_RUNTIME_INCOMPLETE",
+    "full_remainder": "NOT_AUTHORIZED_TO_RUN_AFTER_FAILED_CANARY",
+    "D_P_NFL_reopen": "NOT_RUN",
+    "mutation_and_conservation": "NOT_RUN"
+  },
+  "metering": {
+    "selected_CPU_seconds": 0.057519104,
+    "selected_wall_seconds": 0.06270213999960106,
+    "earlier_metadata_inspection_overhead": "Not fully metered; no numerical work; this measured check is charged outside canary"
+  },
+  "verification_limits": [
+    "Not independent fit reproduction",
+    "No new convergence diagnosis or forecast accuracy result",
+    "No private source outcome/provider validation",
+    "Original first missing optimizer record and prior interrupted-origin uncertainty remain unchanged"
+  ]
+}

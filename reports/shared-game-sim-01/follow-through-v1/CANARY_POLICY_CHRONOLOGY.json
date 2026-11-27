@@ -1,0 +1,25 @@
+{
+  "original": {
+    "commit": "7ef8208",
+    "freeze": "FREEZE_A_V1_PRESERVED.json",
+    "policy": "Earliest supported game only; no complete valid canary produced"
+  },
+  "revised_then_executed": {
+    "commit": "e9cf91e",
+    "freeze": "FREEZE_A.json at PR64",
+    "policy": "Continue across distinct conditioning failures under one cumulative60CPU guard",
+    "result": "33 confirmed failed origins,32 retained100iteration records, final in-flight uncertainty",
+    "judgment": "CONTROL_DEFECT: did not qualify original one-origin canary; not retroactively compliant"
+  },
+  "current_static_repair": {
+    "origin": "2026_04_DET_CAR",
+    "policy": "Exactly one predeclared origin; any canary failure raises/stops, no search for first successful game",
+    "closed_guard": "Still STOP_NO_VALID_CANARY before source/fitter; no new numerical execution"
+  },
+  "mutation": {
+    "defect": "games[0] independently selected from first successful retained bundle",
+    "discovered": "Before that NFL check ran; not an observed failed mutation test",
+    "repair": "Select exact retained native_game_id; require input/source/design/array/clock/state bindings before comparing"
+  },
+  "uncertainty": "First optimizer record missing; final interrupted stage/vector/in-memory generation unknown;0 completed/admitted/retained trajectory sets"
+}

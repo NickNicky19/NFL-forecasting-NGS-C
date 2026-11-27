@@ -1,0 +1,23 @@
+{
+  "id": "B-SIM-SOURCE-CLOCK-SEMANTICS-v1",
+  "UTC": "2026-11-22T18:02:58.735319+00:00",
+  "scope": "Representative savedforecast metadata trace only; no target grades/line success inspected",
+  "observed_relative_to_canonical_kickoff_seconds": {
+    "D2_pass_yd": {
+      "declared_cutoff": 0,
+      "latest_feature_available": -14100
+    },
+    "FTN_B2": {
+      "fit_cutoff": -259500,
+      "feature_cutoff": 0,
+      "latest_source_available": -14100
+    },
+    "SKILL_R0": {
+      "fit_cutoff": -259500,
+      "feature_cutoff": 0,
+      "latest_source_availability": "NOT_RETAINED_IN_THIS_ROW"
+    }
+  },
+  "meaning": "Cutoff is allowed origin/filter boundary; it does not prove a new source observation at kickoff. Original Bprocedure remains kickoff-left-limit; C T90 pairing remains conditional/unresolved, not silently relabeled. Truly future consumedinputs rejected.",
+  "prior_mask": "B_JOIN_RESULT_V2.json conservatively required every cutoff field atT90 and retained1207empiricalbindings. That mask is not the availability of all existing original Bproducts."
+}

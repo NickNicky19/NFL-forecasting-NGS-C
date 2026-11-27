@@ -1,0 +1,50 @@
+{
+  "state": "STOPPED_FIRST_REPAIR_CANARY_CORE_ITERATION_LIMIT",
+  "native_game_id": "2026_04_DET_CAR",
+  "completed_retained_game_sets": 0,
+  "completed_retained_trajectories": 0,
+  "numerical_result": "RUNTIME_INCOMPLETE_NOT_ACCURACY_DEFEAT",
+  "diagnostics": {
+    "status": 1,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "nit": 500,
+    "nfev": 563,
+    "initial_objective": 12.643117355079287,
+    "objective": 0.4620903275546069,
+    "objective_change": -12.18102702752468,
+    "gradient_infinity_norm": 0.0017474439008135477
+  },
+  "new_counters": {
+    "stages": 1,
+    "iterations": 500,
+    "evaluations": 563,
+    "game_attempts": 1,
+    "generations": 0
+  },
+  "canary_CPU_cumulative": 72.629575547,
+  "canary_CPU_new": 13.536341108999999,
+  "canary_worker_CPU": 12.105303134,
+  "canary_worker_wall": 13.461185757998464,
+  "all_old_failure_uncertainty_preserved": true,
+  "scope": "No childfit/sampling/SPDPbundle/runtimeprobabilityorgrading;onepredeclaredoriginonly;nootheroriginsearched",
+  "old_failure_record_first": "NOT_RETAINED",
+  "old_final_interrupted_stage_vector": "UNKNOWN_UNCHANGED",
+  "publication": "OnlyamendedFreezeA actuallyremote-restoredsofar;failurecheckpointreport+machine publication follows",
+  "primary_activation": false,
+  "ledger_checkpoint": {
+    "path": "reports/shared-game-sim-01/numerical-repair-v1/LEDGER.json",
+    "bytes": 6366,
+    "SHA256": "5343ac5cc139eed998cf807689758689910ead05a0940776971bd54af089edc9"
+  },
+  "global_CPU_seconds": 298.75865703400007,
+  "controlled_wall_seconds": 399.45929268300034,
+  "actual_repair_canary_worker_CPU": 12.105303134,
+  "actual_repair_canary_worker_wall": 13.461185757998464,
+  "canary_cumulative_CPU": 72.629575547,
+  "canary_new_CPU": 13.536341108999999,
+  "remaining_total_CPU": 1501.241342966,
+  "completion_reserve": 380,
+  "checkpoint_UTC": "2026-11-22T21:59:28.478982+00:00",
+  "original_launch_elapsed_seconds": 14048.370059,
+  "original7200_elapsed_overrun_preserved": true
+}

@@ -1,0 +1,74 @@
+{
+  "full_frame": {
+    "cases": 3474,
+    "games": 74,
+    "unknown_outcomes": 464,
+    "weeks": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "A": {
+    "commit": "ff8ea1c81f5337be1468870e6c50b7c532d28179",
+    "scope": {
+      "case_opportunities": 2116,
+      "case_procedure_rows": 6258,
+      "games": 45,
+      "identity_unavailable_case_count": 2,
+      "unavailable_weeks": [
+        8,
+        9
+      ],
+      "unique_player_games": 704,
+      "weeks": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "admission": "RETRIEVED_ADMITTED_PUBLIC_AGGREGATE_AND_CANONICAL_HASH_SCOPE;PRIVATE_ROWS_NOT_REPRODUCED",
+    "task": "COMPLETED_CLOSED;NO_NEW_A_ALLOWANCE",
+    "limits": [
+      "W8-9 unavailable",
+      "Arbitrary-line probability laws unavailable",
+      "Fallback flags unattributed",
+      "Two TE identity cases unavailable",
+      "No complete A/C or A/B shared private-case membership"
+    ]
+  },
+  "B": {
+    "commit": "f397a9f00ffce7ca7095ffb111dc14b48b71210b",
+    "primary_bindings": 5338,
+    "nominees": 36,
+    "product_views": 44,
+    "probability_triples": 592,
+    "admission": "DIFFERENT_HORIZON_TIMING_UNVERIFIED_DEVELOPMENT_DIAGNOSTICS",
+    "clock_insufficient": 1207,
+    "origin_differs": 4131,
+    "source_clock_note": "Availability before T90 where observed does not replace B original kickoff-left-limit policy",
+    "private_source_reproduction": false
+  },
+  "C": {
+    "saved_products": "Original execution-v1 preserved",
+    "admission": "Saved outputs/grades, not new simulator",
+    "actual_simulator_games": 0
+  },
+  "cross_owner_ranking": "NOT_ESTABLISHED: no universal ranking from own pools/different horizons; A private pair masks not silently equated with B/C. Named same-case statistics retain original owner/control contracts.",
+  "nomination_counts": {
+    "A": 35,
+    "B": 36,
+    "C": 36,
+    "total": 107,
+    "not_independent_families": true
+  },
+  "frozen_roster": {
+    "path": "reports/shared-game-sim-01/execution-v1/FROZEN_ROSTER.json",
+    "bytes": 1164,
+    "SHA256": "92b23c57164afe307023526d42895af450ad588860dbf6eb24f913cfca836601"
+  }
+}

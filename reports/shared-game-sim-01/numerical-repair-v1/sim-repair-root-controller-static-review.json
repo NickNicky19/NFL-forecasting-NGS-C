@@ -1,0 +1,27 @@
+{
+  "state": "PASS_CONTROLS_WITH_TWO_NARROW_BINDING_STORAGE_FINDINGS",
+  "scope": "Separate C static review only;no numericalwork,diagnostics,fit,sampler or tests",
+  "passed": [
+    "One fixed2026_04_DET_CARcanary",
+    "Bothcanary/fullfirstnewfailurestop",
+    "OldSTOP/ATTEMPTreadonlybindings;separaterepairnamespace",
+    "Solver audit callback keys align with aggregate152stages/76000iterations/152000evaluations",
+    "Cumulative180canary carrying59.093234438;1800globalCPU;380reserve",
+    "Controlled7200wall andoriginalfixeddeadline21600anchoredlaunch",
+    "Closed-package cannotresume",
+    "Exact privateinputs/sourcebody/priorhashandfullpriorbinding"
+  ],
+  "findings": [
+    {
+      "location": "shared_game_sim01_repair.py::mutation before any game_params",
+      "issue": "The earlier repaired array_digest(kept.arrays)==row.arrays_SHA256 precheck is missing; archiveSHAchecked but array-indexbindingcheckedonlyafter mutantgeneration",
+      "action": "Addexactpre-numericalarraydigestcheck"
+    },
+    {
+      "location": "shared_game_sim01_repair.py::storage/fullremainderprojection",
+      "issue": "Runtime storageguardchecksnewpeak768MiB+wholeC butnotseparate512MiBnewretained allowance",
+      "action": "Ensureexplicitretainedaccounting/gate andpre/postbundle guard without changinglimits"
+    }
+  ],
+  "metering": "No newtest/worker. Staticread/authoringoverhead coveredbyroot existingconservativepreparation, not asserted completeprocessCPUcertificate"
+}
