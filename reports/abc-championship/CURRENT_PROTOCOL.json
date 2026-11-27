@@ -3896,7 +3896,7 @@
     },
     "first_delivery": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
     "current_producer": "C-CURRENT-REFERENCE-CHALLENGER",
-    "producer_status": "PHI_DAL_CLOSED_UNISSUED;DEN_PIT_NEXT_WINDOW_AMENDMENT_REQUESTED",
+    "producer_status": "PHI_DAL_CLOSED_UNISSUED;DEN_PIT_CLOSED_UNOPENED",
     "new_current_feed": false,
     "website_release": false,
     "site_decision": "KEEP_INCUMBENT;M3_STRICT_DIRECTION_SHADOW",
@@ -3919,12 +3919,23 @@
     },
     "next_window_amendment": {
       "id": "C-M3-0-REC-MEAN-NEXT-WINDOW-AMENDMENT-v1",
-      "state": "REQUESTED_ONCE_PREPARATION_ONLY",
+      "state": "APPROVED_ONCE_EVENT_CLOSED_UNOPENED",
       "artifact": {
         "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/REC_MEAN_NEXT_WINDOW_AMENDMENT_V1.json",
         "bytes": 20270,
         "SHA256": "8fbb66f7cafef7ca6726e201445d6fef44280e4cc458660730efefc24f2e1fde"
       }
+    },
+    "den_pit_reception_mean_delivery": {
+      "state": "CLOSED_UNOPENED",
+      "product": "C-M3-v1.1::rec::M3-0::base::MEAN_POINT",
+      "terminal": {
+        "path": "reports/shared-game-sim-01/saved-method-follow-through-v1/DEN_PIT_TERMINAL_V1.json",
+        "bytes": 7121,
+        "SHA256": "f304a1062f8fea273d7deed3308d2c5f34abe04171cd413c89062f6d68066650"
+      },
+      "forecasts": 0,
+      "fit_attempts": 0
     }
   }
 }
